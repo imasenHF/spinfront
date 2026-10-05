@@ -1,0 +1,434 @@
+{
+  "schema_version": "1.0",
+  "report_date": "2026-10-06",
+  "retrieval_cutoff": "2026-10-06T05:56:05+08:00",
+  "repository": {
+    "name": "imasenHF/spinfront",
+    "branch": "main",
+    "head_sha": "61cc0818357507dcd6687c326230211b9bc14fb0",
+    "taxonomy_version": "1.2.0",
+    "full_index_latest_report": "2026-10-05",
+    "full_index_issue_count": 47,
+    "full_index_item_count": 381
+  },
+  "deduplication": {
+    "recent_issue_dates": [
+      "2026-09-29",
+      "2026-09-30",
+      "2026-10-01",
+      "2026-10-02",
+      "2026-10-03",
+      "2026-10-04",
+      "2026-10-05"
+    ],
+    "index_basis": "repository HEAD 61cc0818357507dcd6687c326230211b9bc14fb0; all 47 canonical issue files plus the most recent seven issues",
+    "keys": ["normalized_doi", "tracking_parameters_removed_url", "normalized_title"],
+    "duplicate_candidates_excluded": 15,
+    "date_unknown_candidates_excluded": 6,
+    "out_of_window_candidates_excluded": 1,
+    "low_relevance_candidates_excluded": 2
+  },
+  "search_summary": {
+    "regular_search_qualified_24h_count": 0,
+    "regular_search_selected_count": 2,
+    "enhanced_search_triggered": true,
+    "enhanced_search_trigger_reason": "可精确证明处于过去24小时内的合格条目少于5条",
+    "enhanced_search_candidate_count": 34,
+    "deep_enhanced_search_triggered": false,
+    "deep_enhanced_search_reason": "增强搜索后合格条目达到10条，高于第二级触发阈值8条",
+    "final_item_count": 10,
+    "time_scope_note": "来源仅给出在线日期而无可证明的精确时刻，10条均按7d_extension处理"
+  },
+  "search_routes": [
+    {
+      "route": "专业期刊与高影响期刊",
+      "status": "completed",
+      "details": "检查JMR、JMR Open、Magnetic Resonance、Journal of Biomolecular NMR、Solid State NMR、MRC、Applied Magnetic Resonance及Nature、ACS、APS、AIP、Wiley、Springer、Elsevier相关在线条目；JMR便携松弛仪经PubMed核实为2026-07-08上线，排除。"
+    },
+    {
+      "route": "预印本与文献数据库",
+      "status": "completed",
+      "details": "分别检索arXiv、ChemRxiv、PubMed和Crossref；对NaO2的2025预印本与2026正式论文按标题和作者合并，仅保留正式出版记录。"
+    },
+    {
+      "route": "仪器与软件",
+      "status": "completed",
+      "details": "分别检查Bruker、JEOL、Oxford Instruments、Magritek、Nanalysis与CIQTEK新闻、应用、培训及产品入口；未发现日期和技术增量同时满足窗口要求的新条目。"
+    },
+    {
+      "route": "会议与培训",
+      "status": "completed",
+      "details": "检查ENC、EUROMAR、ICMRBS、EFEPR、APES、ISMAR及专业Workshop日程；既有活动页、闭幕信息和无新技术内容的页面未收录。"
+    },
+    {
+      "route": "采购与政策",
+      "status": "completed",
+      "details": "检查中国政府采购网、全国公共资源交易入口、高校公告、仪器采购聚合页及SAM.gov；收录化学所400 MHz液体NMR公告，兰州化物所600 MHz NMR公告因已在2026-10-04期出现而排除。"
+    },
+    {
+      "route": "中国与海外来源分开检索",
+      "status": "completed",
+      "details": "中国路线覆盖政府采购、科研机构和本土厂商；海外路线覆盖期刊、数据库、厂商和学会。"
+    }
+  ],
+  "method_clusters": [
+    {"cluster": "高分辨液体NMR", "status": "completed", "result": "收录二维NMR多路建模、SNAr反应监测和ApoB定量验证"},
+    {"cluster": "固体NMR/MAS/DNP", "status": "completed", "result": "收录LAOC多核NMR晶体学与NaO2固体23Na NMR；无合格新MAS/DNP条目"},
+    {"cluster": "低场与TD-NMR", "status": "completed", "result": "便携20 MHz松弛仪论文实际在线日期超窗；常驻产品页日期不足"},
+    {"cluster": "NMR软件与谱图处理", "status": "completed", "result": "收录PARAFAC/PARAFAC2二维谱张量处理"},
+    {"cluster": "CW/rapid-scan EPR", "status": "completed", "result": "收录h-BN取向与变温EPR；rapid-scan厂商常驻页未收录"},
+    {"cluster": "脉冲EPR/DEER/ENDOR/ESEEM/HYSCORE", "status": "completed", "result": "收录TRIM25长程PDS；未在正文明确DEER序列，正式标签保留pds父项"},
+    {"cluster": "TREPR与光照", "status": "completed", "result": "Si量子点TREPR论文与历史DOI重复，排除"},
+    {"cluster": "operando/EC-EPR", "status": "completed", "result": "电化学原位EPR综述与历史DOI重复；收录光电化学偶联中的EPR机理条目"},
+    {"cluster": "探头/谐振器/磁体/控制台/自动进样", "status": "completed", "result": "未发现同时满足新增日期与技术内容要求的硬件发布"},
+    {"cluster": "qNMR/NUS/pure shift/DOSY/CEST/DEST/paramagnetic NMR", "status": "completed", "result": "收录ApoB NMR定量验证；其余命中或重复、或不满足主要作用门槛"}
+  ],
+  "access_notes": [
+    {
+      "target": "中国政府采购网公告正文",
+      "status": "partial",
+      "detail": "搜索服务可确认官方URL、公告日期、采购对象和截止时间，正文直开接口受限；未写入预算或未核实附件参数。"
+    },
+    {
+      "target": "部分ACS DOI落地页",
+      "status": "partial",
+      "detail": "期刊ASAP目录和Crossref元数据可确认日期、标题、DOI与摘要；未补写摘要之外的实验参数。"
+    }
+  ],
+  "candidates": [
+    {
+      "title": "Multiway Modeling of 2D NMR Spectra for Enhanced Chemical Characterization of Complex Mixtures",
+      "source": "Analytical Chemistry",
+      "normalized_doi": "10.1021/acs.analchem.6c04147",
+      "normalized_url": "https://pubs.acs.org/doi/10.1021/acs.analchem.6c04147",
+      "actual_online_date": "2026-10-05",
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "method_core",
+      "basis": "摘要明确以局部二维对齐、PARAFAC、PARAFAC2和移位不变建模处理多样本二维NMR张量",
+      "source_location": "Crossref publisher abstract",
+      "decision": "included",
+      "decision_reason": "谱图处理方法直接面向重叠、漂移和低强度信号",
+      "duplicate_key": "doi:10.1021/acs.analchem.6c04147",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed_date_only",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "confirmed_from_abstract",
+      "tag_review_status": "approved",
+      "tags": [
+        {"dimension": "direction_ids", "id": "nmr", "reason": "对象为二维核磁共振谱"},
+        {"dimension": "experiment_type_ids", "id": "solution_nmr", "reason": "摘要以1H及复杂混合物二维谱为背景"},
+        {"dimension": "method_ids", "id": "multidimensional_nmr", "reason": "核心数据是二维NMR"},
+        {"dimension": "method_ids", "id": "spectral_processing", "reason": "核心贡献为对齐和张量分解"},
+        {"dimension": "instrument_component_ids", "id": "software", "reason": "多路建模属于数据软件流程"}
+      ]
+    },
+    {
+      "title": "Spins Afar—Long-Range Pulse Dipolar EPR Spectroscopy Uncovers Curvature in TRIM25's Coiled Coil",
+      "source": "The Journal of Physical Chemistry Letters",
+      "normalized_doi": "10.1021/acs.jpclett.6c02671",
+      "normalized_url": "https://pubs.acs.org/doi/10.1021/acs.jpclett.6c02671",
+      "actual_online_date": "2026-10-05",
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "method_core",
+      "basis": "摘要给出10.5 nm、全氘代17.3 nm和150 μs偶极演化时间",
+      "source_location": "ACS ASAP abstract; University of St Andrews research portal abstract",
+      "decision": "included",
+      "decision_reason": "直接标定脉冲偶极EPR长距离性能和样品条件",
+      "duplicate_key": "doi:10.1021/acs.jpclett.6c02671",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed_date_only",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "confirmed_from_abstract",
+      "tag_review_status": "approved",
+      "tags": [
+        {"dimension": "direction_ids", "id": "epr", "reason": "核心为脉冲EPR"},
+        {"dimension": "experiment_type_ids", "id": "pulsed_epr", "reason": "使用脉冲偶极实验"},
+        {"dimension": "method_ids", "id": "pds", "reason": "摘要明确Pulse Dipolar Spectroscopy；未明确具体DEER序列"},
+        {"dimension": "application_ids", "id": "structural_biology", "reason": "测量TRIM25卷曲螺旋的纳米距离"}
+      ]
+    },
+    {
+      "title": "Motifs in an Amorphous Aluminum Oxychloride Solid-State Electrolyte (LAOC) from NMR Crystallography",
+      "source": "The Journal of Physical Chemistry C",
+      "normalized_doi": "10.1021/acs.jpcc.6c05752",
+      "normalized_url": "https://pubs.acs.org/doi/10.1021/acs.jpcc.6c05752",
+      "actual_online_date": "2026-10-05",
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "method_core",
+      "basis": "摘要明确多核NMR晶体学与从头算分子动力学、第一性原理NMR计算联合解析局域基元",
+      "source_location": "Crossref publisher abstract",
+      "decision": "included",
+      "decision_reason": "NMR直接决定无定形电解质的局域结构描述",
+      "duplicate_key": "doi:10.1021/acs.jpcc.6c05752",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed_date_only",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "confirmed_from_abstract",
+      "tag_review_status": "approved",
+      "tags": [
+        {"dimension": "direction_ids", "id": "nmr", "reason": "核心方法为NMR晶体学"},
+        {"dimension": "experiment_type_ids", "id": "solid_state_nmr", "reason": "样品为固态无定形电解质"},
+        {"dimension": "method_ids", "id": "multinuclear_nmr", "reason": "摘要明确使用多个核种"},
+        {"dimension": "application_ids", "id": "battery", "reason": "对象为锂固态电解质"}
+      ]
+    },
+    {
+      "title": "23Na-NMR study on the one-dimensional superoxide spin-chain compound NaO2",
+      "source": "Physical Review B",
+      "normalized_doi": "10.1103/8bvh-ld52",
+      "normalized_url": "https://doi.org/10.1103/8bvh-ld52",
+      "actual_online_date": "2026-10-05",
+      "publication_status": "published",
+      "magnetic_resonance_role": "key_evidence",
+      "basis": "Knight位移、线宽和1/T1直接给出自旋能隙、超精细耦合变化与一维性",
+      "source_location": "APS/Crossref metadata; arXiv 2510.14505 abstract",
+      "decision": "included",
+      "decision_reason": "23Na NMR决定主要低温磁性结论；预印本与正式版合并",
+      "duplicate_key": "doi:10.1103/8bvh-ld52|title:23na nmr study nao2",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed_date_only",
+      "duplicate_review_status": "clear_formal_version_preferred",
+      "scientific_review_status": "confirmed_from_abstract",
+      "tag_review_status": "approved",
+      "tags": [
+        {"dimension": "direction_ids", "id": "nmr", "reason": "核心为23Na NMR"},
+        {"dimension": "experiment_type_ids", "id": "solid_state_nmr", "reason": "研究NaO2固体自旋链"},
+        {"dimension": "application_ids", "id": "quantum_spin", "reason": "明确研究量子一维自旋链与自旋能隙"}
+      ]
+    },
+    {
+      "title": "Paramagnetic complexes in beryllium-doped hexagonal boron nitride crystals",
+      "source": "Magnetic Resonance in Solids",
+      "normalized_doi": "10.26907/mrsej-26203",
+      "normalized_url": "https://doi.org/10.26907/mrsej-26203",
+      "actual_online_date": "2026-10-05",
+      "publication_status": "published",
+      "magnetic_resonance_role": "key_evidence",
+      "basis": "取向和温度依赖EPR区分交换耦合中心与另一类S=1/2缺陷，并报告各向异性g值",
+      "source_location": "Crossref publisher abstract",
+      "decision": "included",
+      "decision_reason": "EPR决定缺陷种类和交换相互作用解释",
+      "duplicate_key": "doi:10.26907/mrsej-26203",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed_date_only",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "confirmed_from_abstract",
+      "tag_review_status": "approved",
+      "tags": [
+        {"dimension": "direction_ids", "id": "epr", "reason": "唯一核心谱学方向为EPR"},
+        {"dimension": "experiment_type_ids", "id": "cw_epr", "reason": "取向扫场与g值分析属于连续波EPR"},
+        {"dimension": "method_ids", "id": "defect_epr", "reason": "研究掺杂h-BN缺陷顺磁中心"},
+        {"dimension": "application_ids", "id": "materials", "reason": "对象为掺杂二维材料晶体"}
+      ]
+    },
+    {
+      "title": "Photoelectrochemical C(sp3)-C(sp3) cross-coupling using native functional groups",
+      "source": "Nature Synthesis",
+      "normalized_doi": "10.1038/s44160-026-01162-w",
+      "normalized_url": "https://www.nature.com/articles/s44160-026-01162-w",
+      "actual_online_date": "2026-10-02",
+      "publication_status": "published",
+      "magnetic_resonance_role": "key_evidence",
+      "basis": "论文页明确EPR谱参与机理研究，并与非对映体实验共同指向SH2自由基分选和Ni(II)/Ni(III)循环",
+      "source_location": "Nature article page, mechanistic discussion and Figure 5 caption",
+      "decision": "included",
+      "decision_reason": "EPR直接参与自由基和镍循环机理判定；未把数据存档中的常规NMR标为主要方向",
+      "duplicate_key": "doi:10.1038/s44160-026-01162-w",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed_date_only",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "confirmed_from_article_page",
+      "tag_review_status": "approved",
+      "tags": [
+        {"dimension": "direction_ids", "id": "epr", "reason": "EPR为入选所依据的主要磁共振方法"},
+        {"dimension": "application_ids", "id": "electrosynthesis", "reason": "核心过程为光电化学交叉偶联"}
+      ]
+    },
+    {
+      "title": "A crystalline uranium Fischer-type carbyne",
+      "source": "Nature Chemistry",
+      "normalized_doi": "10.1038/s41557-026-02260-0",
+      "normalized_url": "https://www.nature.com/articles/s41557-026-02260-0",
+      "actual_online_date": "2026-10-02",
+      "publication_status": "published",
+      "magnetic_resonance_role": "key_evidence",
+      "basis": "31P/1H NMR跟踪溶液物种，9.4 GHz粉末EPR与SQUID参与U(IV)及U(III)/U(IV)价态判定",
+      "source_location": "Nature article page and figure descriptions",
+      "decision": "included",
+      "decision_reason": "NMR与EPR共同决定物种和价态解释",
+      "duplicate_key": "doi:10.1038/s41557-026-02260-0",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed_date_only",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "confirmed_from_article_page",
+      "tag_review_status": "approved",
+      "tags": [
+        {"dimension": "direction_ids", "id": "nmr", "reason": "31P与1H NMR用于物种判断"},
+        {"dimension": "direction_ids", "id": "epr", "reason": "X波段EPR参与铀价态判断"},
+        {"dimension": "experiment_type_ids", "id": "solution_nmr", "reason": "变温溶液NMR"},
+        {"dimension": "experiment_type_ids", "id": "cw_epr", "reason": "9.4 GHz粉末EPR"},
+        {"dimension": "application_ids", "id": "inorganic_coordination", "reason": "对象为铀配位化学物种"}
+      ]
+    },
+    {
+      "title": "Using NMR Spectroscopy to Analyze and Compare Reaction Progress of Nucleophilic Aromatic Substitutions in Undergraduate Organic Laboratories",
+      "source": "Journal of Chemical Education",
+      "normalized_doi": "10.1021/acs.jchemed.6c00048",
+      "normalized_url": "https://pubs.acs.org/doi/10.1021/acs.jchemed.6c00048",
+      "actual_online_date": "2026-10-05",
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "application_core",
+      "basis": "摘要明确以粗反应液1H NMR比较多组反应条件和速率因素",
+      "source_location": "ACS ASAP abstract and journal ASAP listing",
+      "decision": "included",
+      "decision_reason": "NMR反应监测构成实验教学主流程，而非产物例行表征",
+      "duplicate_key": "doi:10.1021/acs.jchemed.6c00048",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed_date_only",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "confirmed_from_abstract",
+      "tag_review_status": "approved",
+      "tags": [
+        {"dimension": "direction_ids", "id": "nmr", "reason": "使用1H NMR"},
+        {"dimension": "experiment_type_ids", "id": "solution_nmr", "reason": "分析粗液相反应混合物"},
+        {"dimension": "method_ids", "id": "reaction_monitoring", "reason": "比较反应进程和速率因素"}
+      ]
+    },
+    {
+      "title": "A-020 Apolipoprotein B (ApoB) measurement by Nuclear Magnetic Resonance (NMR) Spectroscopy is Comparable to Clinical Immunoassay",
+      "source": "Clinical Chemistry",
+      "normalized_doi": "10.1093/clinchem/hvag086.017",
+      "normalized_url": "https://doi.org/10.1093/clinchem/hvag086.017",
+      "actual_online_date": "2026-10-04",
+      "publication_status": "published",
+      "magnetic_resonance_role": "application_core",
+      "basis": "摘要给出NMR ApoB在两中心、两种血清管型和两台临床分析仪之间的精密度、线性、偏倚与相关性",
+      "source_location": "Crossref full structured abstract; Clinical Chemistry Supplement 1 table of contents",
+      "decision": "included",
+      "decision_reason": "研究围绕NMR定量分析流程与方法学验证展开",
+      "duplicate_key": "doi:10.1093/clinchem/hvag086.017",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed_date_only",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "confirmed_from_abstract",
+      "tag_review_status": "approved",
+      "tags": [
+        {"dimension": "direction_ids", "id": "nmr", "reason": "核心测量平台为NMR"},
+        {"dimension": "experiment_type_ids", "id": "solution_nmr", "reason": "血清样本液体NMR"},
+        {"dimension": "method_ids", "id": "qnmr", "reason": "从NMR数据定量ApoB浓度"},
+        {"dimension": "application_ids", "id": "life_science", "reason": "临床血清脂蛋白分析"},
+        {"dimension": "instrument_component_ids", "id": "software", "reason": "AXINON模块参与定量计算"}
+      ]
+    },
+    {
+      "title": "中国科学院化学研究所400MHz液体核磁共振波谱仪采购项目公开招标公告",
+      "source": "中国政府采购网",
+      "normalized_doi": null,
+      "normalized_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202609/t20260930_27433273.htm",
+      "actual_online_date": "2026-09-30",
+      "publication_status": "unknown",
+      "magnetic_resonance_role": "direct_instrument_tender",
+      "basis": "官方公告标题、日期、数量和投标截止时间均直接指向400 MHz液体NMR采购",
+      "source_location": "中国政府采购网公告索引",
+      "decision": "included",
+      "decision_reason": "直接采购NMR主机，公告日期在近7日范围内",
+      "duplicate_key": "url:https://www.ccgp.gov.cn/cggg/zygg/gkzb/202609/t20260930_27433273.htm",
+      "source_review_status": "confirmed_official_index",
+      "date_review_status": "confirmed_date_only",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "not_applicable",
+      "tag_review_status": "approved",
+      "tags": [
+        {"dimension": "direction_ids", "id": "nmr", "reason": "采购对象为核磁共振波谱仪"},
+        {"dimension": "experiment_type_ids", "id": "solution_nmr", "reason": "公告明确为液体核磁共振波谱仪"},
+        {"dimension": "application_ids", "id": "instrumentation", "reason": "内容为仪器采购"},
+        {"dimension": "information_type", "id": "tender", "reason": "公开招标公告"}
+      ]
+    },
+    {
+      "title": "Very high frequency (263 GHz) pulse EPR spectroscopy of high spin transition metal centers",
+      "source": "Nature Communications",
+      "normalized_doi": "10.1038/s41467-026-78076-w",
+      "actual_online_date": "2026-10-01",
+      "decision": "excluded_duplicate",
+      "decision_reason": "已收录于2026-10-02期",
+      "duplicate_key": "doi:10.1038/s41467-026-78076-w"
+    },
+    {
+      "title": "Spin-Polarized Anthracene Triplet States Sensitized by Si QDs Revealed by Time-Resolved EPR Spectroscopy",
+      "source": "Nano Letters",
+      "normalized_doi": "10.1021/acs.nanolett.6c03633",
+      "actual_online_date": "2026-09-29",
+      "decision": "excluded_duplicate",
+      "decision_reason": "历史索引已有同DOI",
+      "duplicate_key": "doi:10.1021/acs.nanolett.6c03633"
+    },
+    {
+      "title": "Effects of Gamma Irradiation on Free Radical Formation, Phenolic Composition and Antioxidant Activity of Prunella vulgaris L.",
+      "source": "Oxygen",
+      "normalized_doi": "10.3390/oxygen6040029",
+      "actual_online_date": "2026-09-30",
+      "decision": "excluded_duplicate",
+      "decision_reason": "历史索引已有同DOI",
+      "duplicate_key": "doi:10.3390/oxygen6040029"
+    },
+    {
+      "title": "中国科学院兰州化学物理研究所600MHz超导核磁共振波谱仪采购项目公开招标公告",
+      "source": "中国政府采购网",
+      "normalized_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202609/t20260930_27427144.htm",
+      "actual_online_date": "2026-09-30",
+      "decision": "excluded_duplicate",
+      "decision_reason": "相同规范化URL已收录于2026-10-04期",
+      "duplicate_key": "url:https://www.ccgp.gov.cn/cggg/zygg/gkzb/202609/t20260930_27427144.htm"
+    },
+    {
+      "title": "Relaxation in water from different sources in Rome: Field testing a portable, center-field relaxometer",
+      "source": "Journal of Magnetic Resonance",
+      "normalized_doi": "10.1016/j.jmr.2026.108131",
+      "actual_online_date": "2026-07-08",
+      "decision": "excluded_out_of_window",
+      "decision_reason": "搜索页显示近期抓取，但PubMed明确给出2026-07-08 ahead-of-print日期",
+      "duplicate_key": "doi:10.1016/j.jmr.2026.108131"
+    },
+    {
+      "title": "Rapid Scan EPR product page",
+      "source": "Bruker",
+      "normalized_url": "https://www.bruker.com/en/products-and-solutions/mr/epr-instruments/rapidscan.html",
+      "actual_online_date": null,
+      "decision": "excluded_date_unknown",
+      "decision_reason": "常驻产品页无窗口内新增事件日期"
+    },
+    {
+      "title": "Free EPR Seminar and Workshop at Queen Mary University of London",
+      "source": "CIQTEK",
+      "normalized_url": "https://www.ciqtekglobal.com/free-epr-seminar-and-workshop-at-queen-mary-university-of-london-uk_n368",
+      "actual_online_date": "2026-09-21",
+      "decision": "excluded_outside_7d",
+      "decision_reason": "发布早于完整近7日回扫范围"
+    },
+    {
+      "title": "Antimicrobial phytochemicals from Central Asian medicinal plants",
+      "source": "Bulletin of the National Research Centre",
+      "normalized_doi": "10.1186/s42269-026-01503-x",
+      "actual_online_date": "2026-10-02",
+      "decision": "excluded_low_relevance",
+      "decision_reason": "磁共振不是研究核心，未满足method_core、key_evidence或application_core"
+    }
+  ],
+  "final_audit": {
+    "json_item_count": 10,
+    "html_item_count": 10,
+    "screen_item_count": 10,
+    "order_match": true,
+    "text_match": true,
+    "date_source_match": true,
+    "external_css_dependency_in_download": false,
+    "image_fields_present": false,
+    "full_history_dedup_completed": true,
+    "recent_seven_issue_dedup_completed": true,
+    "build_check": "passed: 48 issues / 391 items",
+    "build": "passed",
+    "search_tests": "passed",
+    "status": "passed"
+  }
+}

@@ -51,7 +51,15 @@ def main():
   for a in d['items']:
    for k in ['title_cn','summary_cn','meaning_cn']:assert esc(a[k]).replace('\n','<br>') in s
   listings.append('<li><a href="'+date+'/">'+date+'</a><span>'+str(len(d['items']))+'条</span></li>')
- intro='<p class="archive-about">NMR/EPR方法、仪器与应用信息归档。日历与多级标签检索主页正在规划。</p><p class="archive-about">历史记录已按所提供内容完成标签分类；原始来源、发布日期及科学结论尚未全面复核。</p>'
- (out/'index.html').write_text(shell('自旋前沿｜SpinFront',hero()+intro+'<h2>日报归档</h2><ul class="archive-list">'+''.join(listings)+'</ul><p><a href="https://plastocyanin.org/">plastocyanin</a></p>',''),encoding='utf-8')
+ template=(ROOT/'templates/home.html').read_text(encoding='utf-8')
+ facet_html=''
+ names=['谱学方向','实验类型','方法','应用领域','仪器部件','信息类型']
+ for i,name in enumerate(names):
+  facet_html+='<details class="facet" '+('open' if i<2 else '')+'><summary>'+name+'<small id="facet-count-'+str(i)+'"></small></summary>'+('<input class="facet-search" data-i="'+str(i)+'" placeholder="搜索'+name+'" aria-label="搜索'+name+'">' if i in [2,3] else '')+'<div class="facet-options" id="facet-'+str(i)+'"></div></details>'
+ for key,value in {'{{TOTAL}}':f'{len(issues)}期 · {sum(len(d["items"]) for d in issues)}条','{{RANGE}}':issues[0]['report_date']+' — '+issues[-1]['report_date'],'{{YEAR}}':str(datetime.date.today().year),'{{FACETS}}':facet_html,'{{ARCHIVE}}':''.join(listings)}.items():template=template.replace(key,value)
+ (out/'index.html').write_text(template,encoding='utf-8')
+ compact_fields=['item_id','item_no','report_date','title_cn','summary_cn','meaning_cn','publication_date','source','url','doi','sample_systems',*FIELDS,'information_type']
+ compact={'taxonomy_version':tax['taxonomy_version'],'issues':[{'report_date':d['report_date'],'item_count':len(d['items'])} for d in issues],'items':[{k:a[k] for k in compact_fields} for d in issues for a in d['items']]}
+ (out/'search-index.json').write_text(json.dumps(compact,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  (out/'.nojekyll').write_text('');(out/'index.json').write_text(json.dumps({'schema_version':'1.4-tag-reviewed','taxonomy_version':tax['taxonomy_version'],'issues':[{'report_date':d['report_date'],'item_count':len(d['items']),'url':d['report_date']+'/','data_url':f'data/{d["report_date"][:4]}/SpinFront_{d["report_date"]}.json'} for d in issues],'items':[a for d in issues for a in d['items']]},ensure_ascii=False),encoding='utf-8');print(f'Built {len(issues)} issues')
 if __name__=='__main__':main()

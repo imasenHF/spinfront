@@ -2,7 +2,7 @@
 (async function(){
 const $=id=>document.getElementById(id),C=SpinSearch,esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 try{
-const [data,tax]=await Promise.all(['search-index.json','taxonomy/taxonomy.json'].map(path=>fetch(path+'?v=1.2.0').then(r=>{if(!r.ok)throw Error(path);return r.json()})));
+const [data,tax]=await Promise.all(['search-index.json','taxonomy/taxonomy.json'].map(path=>fetch(path+'?v=1.2.0-r3').then(r=>{if(!r.ok)throw Error(path);return r.json()})));
 const items=C.prepare(data.items,tax).sort((a,b)=>b.report_date.localeCompare(a.report_date)||a.item_no-b.item_no),latest=data.issues.at(-1).report_date,days=new Map(data.issues.map(d=>[d.report_date,d.item_count])),labels=new Map(tax.tags.map(t=>[t.id,t.label_cn]));
 let state=C.parse(location.search,tax,latest,true),month=(state.date||latest).slice(0,7),limit=20,appFocus='',expanded=new Set();
 const cacheKey='spinfront-reading-v2',saved=(()=>{try{return JSON.parse(sessionStorage.getItem(cacheKey)||'null')}catch{return null}})();

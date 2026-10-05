@@ -6,7 +6,7 @@ NMR/EPR日报归档、结构化数据与受控词表。当前包含2026-08-20至
 
 ## 内容维护
 
-`data/YYYY/SpinFront_YYYY-MM-DD.json`为单期内容源；`taxonomy/taxonomy.json`为正式词表1.0.0；`assets/style.css`为共享样式；`scripts/build.py`验证数据并生成静态页面。页面地址为`YYYY-MM-DD/`，条目锚点为`SF-YYYYMMDD-NN`。不在仓库中分别维护生成HTML。
+`data/YYYY/SpinFront_YYYY-MM-DD.json`为单期内容源；`taxonomy/taxonomy.json`为正式词表1.1.0；`assets/style.css`为共享样式；`scripts/build.py`验证数据并生成静态页面。页面地址为`YYYY-MM-DD/`，条目锚点为`SF-YYYYMMDD-NN`。不在仓库中分别维护生成HTML。
 
 ```bash
 python scripts/build.py --check
@@ -31,3 +31,5 @@ Python仅使用标准库。构建结果在`_site/`。新增一期JSON后运行�
 主页模板位于templates/home.html；assets/home.css和home.js维护界面；search-core.js定义检索、层级筛选和URL状态。构建生成轻量search-index.json，不携带原文备份或审核日志。默认最近一期，每次20条。标签同维度OR、跨维度AND，父级包含子级。URL保存条件并支持前进后退。
 
 运行node tests/search.test.cjs验证检索规则，先运行构建。
+
+谱学方向仅保留NMR和EPR；两者均相关时存储两个ID。实验类型按方向分组，方法按用途分组。迁移说明见`docs/taxonomy-migration-1.1.0.json`及维护约定。

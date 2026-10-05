@@ -1,5 +1,5 @@
 {
-  "taxonomy_version": "1.0.0",
+  "taxonomy_version": "1.1.0",
   "status": "active",
   "tags": [
     {
@@ -28,56 +28,6 @@
       ],
       "parent_ids": [],
       "definition": "EPR相关的direction分类",
-      "include_when": "核心内容明确涉及对应谱学方向",
-      "exclude_when": "仅使用缩写或背景提及不足以标注",
-      "status": "active",
-      "approval_status": "active",
-      "replaced_by": null
-    },
-    {
-      "id": "nmr_epr",
-      "dimension": "direction_ids",
-      "label_cn": "NMR + EPR",
-      "label_en": "nmr epr",
-      "aliases": [
-        "NMR + EPR",
-        "NMR＋EPR",
-        "NMR+EPR"
-      ],
-      "parent_ids": [],
-      "definition": "NMR + EPR相关的direction分类",
-      "include_when": "核心内容明确涉及对应谱学方向",
-      "exclude_when": "仅使用缩写或背景提及不足以标注",
-      "status": "active",
-      "approval_status": "active",
-      "replaced_by": null
-    },
-    {
-      "id": "mrs",
-      "dimension": "direction_ids",
-      "label_cn": "MRS",
-      "label_en": "mrs",
-      "aliases": [
-        "MRS"
-      ],
-      "parent_ids": [],
-      "definition": "MRS相关的direction分类",
-      "include_when": "核心内容明确涉及对应谱学方向",
-      "exclude_when": "仅使用缩写或背景提及不足以标注",
-      "status": "active",
-      "approval_status": "active",
-      "replaced_by": null
-    },
-    {
-      "id": "mrv",
-      "dimension": "direction_ids",
-      "label_cn": "MRV",
-      "label_en": "mrv",
-      "aliases": [
-        "MRV"
-      ],
-      "parent_ids": [],
-      "definition": "MRV相关的direction分类",
       "include_when": "核心内容明确涉及对应谱学方向",
       "exclude_when": "仅使用缩写或背景提及不足以标注",
       "status": "active",
@@ -152,12 +102,13 @@
     {
       "id": "in_vivo_mrs",
       "dimension": "experiment_type_ids",
-      "label_cn": "体内MRS",
+      "label_cn": "活体磁共振波谱",
       "label_en": "in vivo mrs",
       "aliases": [
         "体内MRS",
         "在体MRS",
-        "活体MRS"
+        "活体MRS",
+        "MRS"
       ],
       "parent_ids": [],
       "definition": "体内MRS相关的experiment_type分类",
@@ -1714,11 +1665,136 @@
     "within_dimension": "OR",
     "across_dimensions": "AND",
     "parent_selection": "include descendants",
-    "storage": "most specific supported labels"
+    "storage": "most specific supported labels",
+    "direction_match": "default OR; optional require both nmr and epr"
   },
   "special_rules": {
-    "nmr_epr": "用于NMR与EPR均为核心的条目；筛选nmr或epr也应包含nmr_epr",
     "multinuclear_nmr": "正文明确研究多个核种；单独19F或13C不自动标注",
-    "publication_status": "preprint / early_access / published / unknown"
+    "publication_status": "preprint / early_access / published / unknown",
+    "directions": "方向仅使用nmr、epr；同时涉及两者时存储两个ID。MRS及MRV分别使用nmr方向和in_vivo_mrs、mr_velocimetry实验类型。"
+  },
+  "legacy_query_mapping": {
+    "nmr_epr": {
+      "direction_ids": [
+        "nmr",
+        "epr"
+      ],
+      "direction_match": "all"
+    },
+    "mrs": {
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "in_vivo_mrs"
+      ]
+    },
+    "mrv": {
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "mr_velocimetry"
+      ]
+    }
+  },
+  "ui_groups": {
+    "experiment_type_ids": [
+      {
+        "label_cn": "NMR",
+        "ids": [
+          "solution_nmr",
+          "solid_state_nmr",
+          "td_nmr",
+          "benchtop_nmr",
+          "in_vivo_mrs",
+          "mr_velocimetry"
+        ]
+      },
+      {
+        "label_cn": "EPR",
+        "ids": [
+          "cw_epr",
+          "pulsed_epr"
+        ]
+      }
+    ],
+    "method_ids": [
+      {
+        "label_cn": "高分辨与定量NMR",
+        "ids": [
+          "qnmr",
+          "multinuclear_nmr",
+          "multidimensional_nmr",
+          "nus",
+          "pure_shift",
+          "std_nmr",
+          "ligand_observed_nmr",
+          "metabolomics",
+          "reaction_monitoring",
+          "paramagnetic_nmr",
+          "zero_field_nmr"
+        ]
+      },
+      {
+        "label_cn": "固体NMR与极化",
+        "ids": [
+          "mas",
+          "cross_polarization",
+          "polarization_transfer",
+          "dnp",
+          "cidnp",
+          "phip"
+        ]
+      },
+      {
+        "label_cn": "弛豫、扩散与交换",
+        "ids": [
+          "relaxometry",
+          "cpmg",
+          "dosy",
+          "relaxation_dispersion",
+          "cest",
+          "dest",
+          "selective_spin_locking"
+        ]
+      },
+      {
+        "label_cn": "EPR距离与超精细谱",
+        "ids": [
+          "pds",
+          "dqc",
+          "endor",
+          "eseem",
+          "hyscore"
+        ]
+      },
+      {
+        "label_cn": "EPR探针与动态实验",
+        "ids": [
+          "spin_trapping",
+          "spin_probe",
+          "spin_labeling",
+          "time_resolved_epr",
+          "defect_epr",
+          "operando_epr",
+          "rapid_scan_epr"
+        ]
+      },
+      {
+        "label_cn": "光学与纳米磁共振",
+        "ids": [
+          "odmr",
+          "nanomagnetic_resonance"
+        ]
+      },
+      {
+        "label_cn": "计算与谱图处理",
+        "ids": [
+          "computation_nmr",
+          "spectral_processing"
+        ]
+      }
+    ]
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.4-tag-reviewed",
-  "taxonomy_version": "1.0.0",
+  "taxonomy_version": "1.1.0",
   "report_date": "2026-09-22",
   "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
   "items": [
@@ -403,7 +403,8 @@
       "item_no": 4,
       "title_cn": "合成供体–受体染料进入光化学DNP核超极化路线",
       "direction_ids": [
-        "nmr_epr"
+        "nmr",
+        "epr"
       ],
       "experiment_type_ids": [],
       "method_ids": [
@@ -426,7 +427,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-22",
-      "last_updated": null,
+      "last_updated": "2026-10-05T17:48:25.209228+00:00",
       "report_file": "SpinFront_2026-09-22.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -518,7 +519,8 @@
       "item_no": 5,
       "title_cn": "固态photo-CIDNP聚焦光生电子极化向晶格核自旋转移",
       "direction_ids": [
-        "nmr_epr"
+        "nmr",
+        "epr"
       ],
       "experiment_type_ids": [
         "solid_state_nmr"
@@ -543,7 +545,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-22",
-      "last_updated": null,
+      "last_updated": "2026-10-05T17:48:25.209228+00:00",
       "report_file": "SpinFront_2026-09-22.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -639,7 +641,8 @@
       "item_no": 6,
       "title_cn": "LC-photo-CIDNP把在线分离接入高灵敏NMR检测",
       "direction_ids": [
-        "nmr_epr"
+        "nmr",
+        "epr"
       ],
       "experiment_type_ids": [],
       "method_ids": [
@@ -662,7 +665,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-22",
-      "last_updated": null,
+      "last_updated": "2026-10-05T17:48:25.209228+00:00",
       "report_file": "SpinFront_2026-09-22.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -750,7 +753,8 @@
       "item_no": 7,
       "title_cn": "固态自旋量子传感推进单分子尺度磁共振",
       "direction_ids": [
-        "nmr_epr"
+        "nmr",
+        "epr"
       ],
       "experiment_type_ids": [],
       "method_ids": [
@@ -773,7 +777,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-22",
-      "last_updated": null,
+      "last_updated": "2026-10-05T17:48:25.209228+00:00",
       "report_file": "SpinFront_2026-09-22.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -960,7 +964,8 @@
       "item_no": 9,
       "title_cn": "CIDNP分辨anserine短寿命阳离子自由基的质子化路径",
       "direction_ids": [
-        "nmr_epr"
+        "nmr",
+        "epr"
       ],
       "experiment_type_ids": [],
       "method_ids": [
@@ -983,7 +988,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-22",
-      "last_updated": null,
+      "last_updated": "2026-10-05T17:48:25.209228+00:00",
       "report_file": "SpinFront_2026-09-22.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -1069,7 +1074,8 @@
       "item_no": 10,
       "title_cn": "蓝光激活蛋白以自由基对联动电子与核超极化",
       "direction_ids": [
-        "nmr_epr"
+        "nmr",
+        "epr"
       ],
       "experiment_type_ids": [],
       "method_ids": [
@@ -1092,7 +1098,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-22",
-      "last_updated": null,
+      "last_updated": "2026-10-05T17:48:25.209228+00:00",
       "report_file": "SpinFront_2026-09-22.html",
       "provenance": {
         "content": "extracted_from_supplied_html",

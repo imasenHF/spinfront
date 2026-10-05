@@ -26,6 +26,12 @@ def load():
    for src in a['alternative_sources']:link(src['url'],src['name'])
    assert not any(k.lower() in ['image','images','image_url','image_data','image_keywords'] for k in a)
   issues.append(d)
+ for dim,groups in tax.get('ui_groups',{}).items():
+  roots={t['id'] for t in tax['tags'] if t['dimension']==dim and not t['parent_ids']}
+  ids=[id for g in groups for id in g['ids']]
+  assert len(ids)==len(set(ids)) and set(ids)==roots,(dim,'UI group coverage')
+ assert {t['id'] for t in tax['tags'] if t['dimension']=='direction_ids'}=={'nmr','epr'}
+ assert all(a['direction_ids'] for d in issues for a in d['items'])
  assert len({d['report_date'] for d in issues})==len(issues)
  return tax,labels,issues
 
@@ -79,7 +85,7 @@ def main():
  facet_html=''
  names=['谱学方向','实验类型','方法','应用领域','仪器部件','信息类型']
  for i,name in enumerate(names):
-  facet_html+='<details class="facet" '+('open' if i<2 else '')+'><summary>'+name+'<small id="facet-count-'+str(i)+'"></small></summary>'+('<input class="facet-search" data-i="'+str(i)+'" placeholder="搜索'+name+'" aria-label="搜索'+name+'">' if i in [2,3] else '')+'<div class="facet-options" id="facet-'+str(i)+'"></div></details>'
+  facet_html+='<details class="facet" '+('open' if i<2 else '')+'><summary>'+name+'<small id="facet-count-'+str(i)+'"></small></summary>'+('<input class="facet-search" data-i="'+str(i)+'" placeholder="搜索'+name+'" aria-label="搜索'+name+'">' if i in [2,3] else '')+'<div class="facet-options" id="facet-'+str(i)+'"></div>'+('<label class="joint-option"><input type="checkbox" id="joint-only">仅同时涉及NMR与EPR</label>' if i==0 else '')+'</details>'
  for key,value in {'{{TOTAL}}':f'{len(issues)}期 · {sum(len(d["items"]) for d in issues)}条','{{RANGE}}':issues[0]['report_date']+' — '+issues[-1]['report_date'],'{{YEAR}}':str(datetime.date.today().year),'{{FACETS}}':facet_html,'{{ARCHIVE}}':archive_html(issues)}.items():template=template.replace(key,value)
  (out/'index.html').write_text(template,encoding='utf-8')
  compact_fields=['item_id','item_no','report_date','title_cn','summary_cn','meaning_cn','publication_date','source','url','doi','sample_systems',*FIELDS,'information_type']

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.4-tag-reviewed",
-  "taxonomy_version": "1.0.0",
+  "taxonomy_version": "1.1.0",
   "report_date": "2026-09-08",
   "scope_note": "本期收录5条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
   "items": [
@@ -10,7 +10,8 @@
       "item_no": 1,
       "title_cn": "AnthraPol在14.1 T实现约16%的¹³C光致超极化",
       "direction_ids": [
-        "nmr_epr"
+        "nmr",
+        "epr"
       ],
       "experiment_type_ids": [
         "solid_state_nmr"
@@ -36,7 +37,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-08",
-      "last_updated": null,
+      "last_updated": "2026-10-05T17:48:25.209228+00:00",
       "report_file": "SpinFront_2026-09-08.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -132,7 +133,8 @@
       "item_no": 2,
       "title_cn": "MagRes-2026在怀柔启动，聚焦关联电子材料磁共振",
       "direction_ids": [
-        "nmr_epr"
+        "nmr",
+        "epr"
       ],
       "experiment_type_ids": [],
       "method_ids": [],
@@ -153,7 +155,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-08",
-      "last_updated": null,
+      "last_updated": "2026-10-05T17:48:25.209228+00:00",
       "report_file": "SpinFront_2026-09-08.html",
       "provenance": {
         "content": "extracted_from_supplied_html",

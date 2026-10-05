@@ -1,6 +1,6 @@
 {
   "schema_version": "1.4-tag-reviewed",
-  "taxonomy_version": "1.0.0",
+  "taxonomy_version": "1.1.0",
   "report_date": "2026-09-20",
   "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
   "items": [
@@ -103,7 +103,8 @@
       "item_no": 2,
       "title_cn": "SCM教程用乘积算符与密度矩阵梳理自旋动力学",
       "direction_ids": [
-        "nmr_epr"
+        "nmr",
+        "epr"
       ],
       "experiment_type_ids": [],
       "method_ids": [],
@@ -124,7 +125,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-20",
-      "last_updated": null,
+      "last_updated": "2026-10-05T17:48:25.209228+00:00",
       "report_file": "SpinFront_2026-09-20.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -196,7 +197,8 @@
       "item_no": 3,
       "title_cn": "SCM教程系统比较核自旋超极化路线",
       "direction_ids": [
-        "nmr_epr"
+        "nmr",
+        "epr"
       ],
       "experiment_type_ids": [
         "solution_nmr"
@@ -219,7 +221,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-20",
-      "last_updated": null,
+      "last_updated": "2026-10-05T17:48:25.209228+00:00",
       "report_file": "SpinFront_2026-09-20.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -305,7 +307,8 @@
       "item_no": 4,
       "title_cn": "卟啉–BDPA实现¹H/¹⁹F液体微波自由oDNP",
       "direction_ids": [
-        "nmr_epr"
+        "nmr",
+        "epr"
       ],
       "experiment_type_ids": [
         "solution_nmr"
@@ -330,7 +333,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-20",
-      "last_updated": null,
+      "last_updated": "2026-10-05T17:48:25.209228+00:00",
       "report_file": "SpinFront_2026-09-20.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -430,7 +433,8 @@
       "item_no": 5,
       "title_cn": "大自旋系综模拟解释18.8 T快MAS DNP传递",
       "direction_ids": [
-        "nmr_epr"
+        "nmr",
+        "epr"
       ],
       "experiment_type_ids": [
         "solid_state_nmr"
@@ -454,7 +458,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-20",
-      "last_updated": null,
+      "last_updated": "2026-10-05T17:48:25.209228+00:00",
       "report_file": "SpinFront_2026-09-20.html",
       "provenance": {
         "content": "extracted_from_supplied_html",

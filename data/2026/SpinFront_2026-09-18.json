@@ -1,6 +1,6 @@
 {
   "schema_version": "1.4-tag-reviewed",
-  "taxonomy_version": "1.0.0",
+  "taxonomy_version": "1.1.0",
   "report_date": "2026-09-18",
   "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
   "items": [
@@ -141,7 +141,8 @@
       "item_no": 2,
       "title_cn": "对称性脉冲序列统一DNP与EPR控制",
       "direction_ids": [
-        "nmr_epr"
+        "nmr",
+        "epr"
       ],
       "experiment_type_ids": [
         "pulsed_epr"
@@ -164,7 +165,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-18",
-      "last_updated": null,
+      "last_updated": "2026-10-05T17:48:25.209228+00:00",
       "report_file": "SpinFront_2026-09-18.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -574,7 +575,8 @@
       "item_no": 6,
       "title_cn": "最优控制综述连接NMR脉冲设计与量子工程",
       "direction_ids": [
-        "nmr_epr"
+        "nmr",
+        "epr"
       ],
       "experiment_type_ids": [],
       "method_ids": [],
@@ -593,7 +595,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-18",
-      "last_updated": null,
+      "last_updated": "2026-10-05T17:48:25.209228+00:00",
       "report_file": "SpinFront_2026-09-18.html",
       "provenance": {
         "content": "extracted_from_supplied_html",

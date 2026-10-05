@@ -1,6 +1,6 @@
 {
   "schema_version": "1.4-tag-reviewed",
-  "taxonomy_version": "1.0.0",
+  "taxonomy_version": "1.1.0",
   "report_date": "2026-09-16",
   "scope_note": "本期收录8条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
   "items": [
@@ -10,11 +10,11 @@
       "item_no": 1,
       "title_cn": "氘代多色探针以单次²H NMR并行读取细胞氧化还原路径",
       "direction_ids": [
-        "nmr",
-        "mrs"
+        "nmr"
       ],
       "experiment_type_ids": [
-        "solution_nmr"
+        "solution_nmr",
+        "in_vivo_mrs"
       ],
       "method_ids": [],
       "application_ids": [
@@ -34,7 +34,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-16",
-      "last_updated": null,
+      "last_updated": "2026-10-05T17:48:25.209228+00:00",
       "report_file": "SpinFront_2026-09-16.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -809,7 +809,8 @@
       "item_no": 8,
       "title_cn": "FGMR 2026集中交流NMR/EPR超极化、扩散与仪器进展",
       "direction_ids": [
-        "nmr_epr"
+        "nmr",
+        "epr"
       ],
       "experiment_type_ids": [
         "solid_state_nmr",
@@ -833,7 +834,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-16",
-      "last_updated": null,
+      "last_updated": "2026-10-05T17:48:25.209228+00:00",
       "report_file": "SpinFront_2026-09-16.html",
       "provenance": {
         "content": "extracted_from_supplied_html",

@@ -1,0 +1,748 @@
+{
+  "from_version": "1.0.0",
+  "to_version": "1.1.0",
+  "timestamp": "2026-10-05T17:48:25.209228+00:00",
+  "note": "仅迁移分类；正文、来源、发布日期及核验状态保持原值。",
+  "changes": [
+    {
+      "item_id": "SF-20260820-02",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": [
+          "solid_state_nmr"
+        ]
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": [
+          "solid_state_nmr"
+        ]
+      }
+    },
+    {
+      "item_id": "SF-20260826-03",
+      "before": {
+        "direction_ids": [
+          "mrs"
+        ],
+        "experiment_type_ids": [
+          "in_vivo_mrs"
+        ]
+      },
+      "after": {
+        "direction_ids": [
+          "nmr"
+        ],
+        "experiment_type_ids": [
+          "in_vivo_mrs"
+        ]
+      }
+    },
+    {
+      "item_id": "SF-20260826-07",
+      "before": {
+        "direction_ids": [
+          "mrv"
+        ],
+        "experiment_type_ids": [
+          "mr_velocimetry"
+        ]
+      },
+      "after": {
+        "direction_ids": [
+          "nmr"
+        ],
+        "experiment_type_ids": [
+          "mr_velocimetry"
+        ]
+      }
+    },
+    {
+      "item_id": "SF-20260829-03",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": [
+          "solution_nmr"
+        ]
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": [
+          "solution_nmr"
+        ]
+      }
+    },
+    {
+      "item_id": "SF-20260903-03",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": [
+          "solution_nmr",
+          "pulsed_epr"
+        ]
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": [
+          "solution_nmr",
+          "pulsed_epr"
+        ]
+      }
+    },
+    {
+      "item_id": "SF-20260903-04",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": [
+          "pulsed_epr"
+        ]
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": [
+          "pulsed_epr"
+        ]
+      }
+    },
+    {
+      "item_id": "SF-20260907-01",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": []
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": []
+      }
+    },
+    {
+      "item_id": "SF-20260908-01",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": [
+          "solid_state_nmr"
+        ]
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": [
+          "solid_state_nmr"
+        ]
+      }
+    },
+    {
+      "item_id": "SF-20260908-02",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": []
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": []
+      }
+    },
+    {
+      "item_id": "SF-20260909-04",
+      "before": {
+        "direction_ids": [
+          "mrs"
+        ],
+        "experiment_type_ids": [
+          "in_vivo_mrs"
+        ]
+      },
+      "after": {
+        "direction_ids": [
+          "nmr"
+        ],
+        "experiment_type_ids": [
+          "in_vivo_mrs"
+        ]
+      }
+    },
+    {
+      "item_id": "SF-20260911-01",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": [
+          "td_nmr"
+        ]
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": [
+          "td_nmr"
+        ]
+      }
+    },
+    {
+      "item_id": "SF-20260911-02",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": [
+          "cw_epr",
+          "pulsed_epr",
+          "solid_state_nmr"
+        ]
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": [
+          "cw_epr",
+          "pulsed_epr",
+          "solid_state_nmr"
+        ]
+      }
+    },
+    {
+      "item_id": "SF-20260911-07",
+      "before": {
+        "direction_ids": [
+          "mrs"
+        ],
+        "experiment_type_ids": [
+          "in_vivo_mrs"
+        ]
+      },
+      "after": {
+        "direction_ids": [
+          "nmr"
+        ],
+        "experiment_type_ids": [
+          "in_vivo_mrs"
+        ]
+      }
+    },
+    {
+      "item_id": "SF-20260911-08",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": [
+          "solid_state_nmr"
+        ]
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": [
+          "solid_state_nmr"
+        ]
+      }
+    },
+    {
+      "item_id": "SF-20260912-06",
+      "before": {
+        "direction_ids": [
+          "mrs"
+        ],
+        "experiment_type_ids": [
+          "in_vivo_mrs"
+        ]
+      },
+      "after": {
+        "direction_ids": [
+          "nmr"
+        ],
+        "experiment_type_ids": [
+          "in_vivo_mrs"
+        ]
+      }
+    },
+    {
+      "item_id": "SF-20260913-09",
+      "before": {
+        "direction_ids": [
+          "mrs"
+        ],
+        "experiment_type_ids": [
+          "in_vivo_mrs"
+        ]
+      },
+      "after": {
+        "direction_ids": [
+          "nmr"
+        ],
+        "experiment_type_ids": [
+          "in_vivo_mrs"
+        ]
+      }
+    },
+    {
+      "item_id": "SF-20260915-01",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": []
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": []
+      }
+    },
+    {
+      "item_id": "SF-20260916-01",
+      "before": {
+        "direction_ids": [
+          "nmr",
+          "mrs"
+        ],
+        "experiment_type_ids": [
+          "solution_nmr"
+        ]
+      },
+      "after": {
+        "direction_ids": [
+          "nmr"
+        ],
+        "experiment_type_ids": [
+          "solution_nmr",
+          "in_vivo_mrs"
+        ]
+      }
+    },
+    {
+      "item_id": "SF-20260916-08",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": [
+          "solid_state_nmr",
+          "solution_nmr"
+        ]
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": [
+          "solid_state_nmr",
+          "solution_nmr"
+        ]
+      }
+    },
+    {
+      "item_id": "SF-20260918-02",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": [
+          "pulsed_epr"
+        ]
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": [
+          "pulsed_epr"
+        ]
+      }
+    },
+    {
+      "item_id": "SF-20260918-06",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": []
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": []
+      }
+    },
+    {
+      "item_id": "SF-20260920-02",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": []
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": []
+      }
+    },
+    {
+      "item_id": "SF-20260920-03",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": [
+          "solution_nmr"
+        ]
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": [
+          "solution_nmr"
+        ]
+      }
+    },
+    {
+      "item_id": "SF-20260920-04",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": [
+          "solution_nmr"
+        ]
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": [
+          "solution_nmr"
+        ]
+      }
+    },
+    {
+      "item_id": "SF-20260920-05",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": [
+          "solid_state_nmr"
+        ]
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": [
+          "solid_state_nmr"
+        ]
+      }
+    },
+    {
+      "item_id": "SF-20260921-08",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": []
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": []
+      }
+    },
+    {
+      "item_id": "SF-20260922-04",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": []
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": []
+      }
+    },
+    {
+      "item_id": "SF-20260922-05",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": [
+          "solid_state_nmr"
+        ]
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": [
+          "solid_state_nmr"
+        ]
+      }
+    },
+    {
+      "item_id": "SF-20260922-06",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": []
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": []
+      }
+    },
+    {
+      "item_id": "SF-20260922-07",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": []
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": []
+      }
+    },
+    {
+      "item_id": "SF-20260922-09",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": []
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": []
+      }
+    },
+    {
+      "item_id": "SF-20260922-10",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": []
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": []
+      }
+    },
+    {
+      "item_id": "SF-20260923-03",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": []
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": []
+      }
+    },
+    {
+      "item_id": "SF-20260923-07",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": []
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": []
+      }
+    },
+    {
+      "item_id": "SF-20260924-01",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": [
+          "solution_nmr"
+        ]
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": [
+          "solution_nmr"
+        ]
+      }
+    },
+    {
+      "item_id": "SF-20260928-03",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": []
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": []
+      }
+    },
+    {
+      "item_id": "SF-20260928-08",
+      "before": {
+        "direction_ids": [
+          "mrs"
+        ],
+        "experiment_type_ids": [
+          "in_vivo_mrs"
+        ]
+      },
+      "after": {
+        "direction_ids": [
+          "nmr"
+        ],
+        "experiment_type_ids": [
+          "in_vivo_mrs"
+        ]
+      }
+    },
+    {
+      "item_id": "SF-20260928-09",
+      "before": {
+        "direction_ids": [
+          "mrs"
+        ],
+        "experiment_type_ids": [
+          "in_vivo_mrs"
+        ]
+      },
+      "after": {
+        "direction_ids": [
+          "nmr"
+        ],
+        "experiment_type_ids": [
+          "in_vivo_mrs"
+        ]
+      }
+    },
+    {
+      "item_id": "SF-20260929-07",
+      "before": {
+        "direction_ids": [
+          "mrs"
+        ],
+        "experiment_type_ids": [
+          "in_vivo_mrs"
+        ]
+      },
+      "after": {
+        "direction_ids": [
+          "nmr"
+        ],
+        "experiment_type_ids": [
+          "in_vivo_mrs"
+        ]
+      }
+    },
+    {
+      "item_id": "SF-20261005-01",
+      "before": {
+        "direction_ids": [
+          "nmr_epr"
+        ],
+        "experiment_type_ids": []
+      },
+      "after": {
+        "direction_ids": [
+          "nmr",
+          "epr"
+        ],
+        "experiment_type_ids": []
+      }
+    }
+  ]
+}

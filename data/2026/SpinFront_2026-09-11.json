@@ -1,6 +1,6 @@
 {
   "schema_version": "1.4-tag-reviewed",
-  "taxonomy_version": "1.0.0",
+  "taxonomy_version": "1.1.0",
   "report_date": "2026-09-11",
   "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
   "items": [
@@ -10,7 +10,8 @@
       "item_no": 1,
       "title_cn": "低场NMR与EPR联合修正页岩束缚水孔径解释",
       "direction_ids": [
-        "nmr_epr"
+        "nmr",
+        "epr"
       ],
       "experiment_type_ids": [
         "td_nmr"
@@ -35,7 +36,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-11",
-      "last_updated": null,
+      "last_updated": "2026-10-05T17:48:25.209228+00:00",
       "report_file": "SpinFront_2026-09-11.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -119,7 +120,8 @@
       "item_no": 2,
       "title_cn": "多频EPR与²³Na MAS NMR拆分硬碳储钠路径",
       "direction_ids": [
-        "nmr_epr"
+        "nmr",
+        "epr"
       ],
       "experiment_type_ids": [
         "cw_epr",
@@ -147,7 +149,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-11",
-      "last_updated": null,
+      "last_updated": "2026-10-05T17:48:25.209228+00:00",
       "report_file": "SpinFront_2026-09-11.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -698,7 +700,7 @@
       "item_no": 7,
       "title_cn": "时间分辨fMRS捕捉持续视觉任务中的Glx动态",
       "direction_ids": [
-        "mrs"
+        "nmr"
       ],
       "experiment_type_ids": [
         "in_vivo_mrs"
@@ -721,7 +723,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-11",
-      "last_updated": null,
+      "last_updated": "2026-10-05T17:48:25.209228+00:00",
       "report_file": "SpinFront_2026-09-11.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -795,7 +797,8 @@
       "item_no": 8,
       "title_cn": "MAS与NV中心实现无微波金刚石¹³C超极化",
       "direction_ids": [
-        "nmr_epr"
+        "nmr",
+        "epr"
       ],
       "experiment_type_ids": [
         "solid_state_nmr"
@@ -820,7 +823,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-11",
-      "last_updated": null,
+      "last_updated": "2026-10-05T17:48:25.209228+00:00",
       "report_file": "SpinFront_2026-09-11.html",
       "provenance": {
         "content": "extracted_from_supplied_html",

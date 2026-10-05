@@ -1,6 +1,6 @@
 {
   "schema_version": "1.4-tag-reviewed",
-  "taxonomy_version": "1.1.0",
+  "taxonomy_version": "1.2.0",
   "report_date": "2026-09-05",
   "scope_note": "本期收录6条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
   "items": [
@@ -341,9 +341,7 @@
       ],
       "experiment_type_ids": [],
       "method_ids": [],
-      "application_ids": [
-        "procurement"
-      ],
+      "application_ids": [],
       "instrument_component_ids": [],
       "sample_systems": [],
       "information_type": "tender",
@@ -358,7 +356,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-05",
-      "last_updated": null,
+      "last_updated": "2026-10-05",
       "report_file": "SpinFront_2026-09-05.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -430,12 +428,10 @@
       ],
       "experiment_type_ids": [],
       "method_ids": [],
-      "application_ids": [
-        "procurement"
-      ],
+      "application_ids": [],
       "instrument_component_ids": [],
       "sample_systems": [],
-      "information_type": "paper",
+      "information_type": "tender",
       "summary_cn": "美国空军研究实验室发布RFQ FA930026Q6001，为两台Bruker Avance III DFAS和一台Avance Neo采购维护服务。需求包括年度预防性维护、故障维修、OEM或等效备件、软件系列更新和电话诊断；基础服务期一年，并设置两个可选年度。",
       "meaning_cn": "服务响应需按三台设备序列号列出覆盖范围，区分磁体、控制台、探头、梯度及软件责任边界，并说明远程诊断和现场到达时限。年度验收可用标准样比较线宽、S/N、脉冲功率、温控与梯度重复性；更换等效部件时应保留兼容性和性能验证记录。",
       "publication_date": "2026-09-03",
@@ -447,7 +443,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-05",
-      "last_updated": null,
+      "last_updated": "2026-10-05",
       "report_file": "SpinFront_2026-09-05.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -521,9 +517,7 @@
       ],
       "experiment_type_ids": [],
       "method_ids": [],
-      "application_ids": [
-        "procurement"
-      ],
+      "application_ids": [],
       "instrument_component_ids": [],
       "sample_systems": [],
       "information_type": "tender",
@@ -538,7 +532,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-05",
-      "last_updated": null,
+      "last_updated": "2026-10-05",
       "report_file": "SpinFront_2026-09-05.html",
       "provenance": {
         "content": "extracted_from_supplied_html",

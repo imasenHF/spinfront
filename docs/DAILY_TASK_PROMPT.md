@@ -73,3 +73,6 @@ SpinFront · NMR / EPR Daily Brief · YYYY-MM-DD
 用户已授权此每日任务自动向公开仓库imasenHF/spinfront提交合格日报JSON和当期Review日志，并触发GitHub Pages发布，无需每天再次确认。每次先用GitHub只读工具验证当前运行具备仓库读写能力并读取main最新HEAD。只提交data/YYYY/当期JSON与docs/reviews/当期日志；正常日报运行不得修改模板、样式、词表、工作流、历史记录或主站仓库。不得提交凭证、私人教材、客户材料、下载的第三方全文或本地生成的_site目录。运行python scripts/build.py --check、python scripts/build.py、node tests/search.test.cjs，并核对屏幕/HTML/JSON数量、顺序、正文、日期、来源相同，单文件HTML不依赖外部CSS。检查全库DOI/URL/标题查重及至少7期近期发送内容后再提交。提交信息为Publish SpinFront YYYY-MM-DD (N items)。使用已授权GitHub连接的写入能力，原子提交两个文件，以最新HEAD为父提交，禁止force push。已有同日文件先比较内容；相同不重复提交，不同作为明确修订保留既有item_id并记录日志，不能无依据覆盖。冲突时重读最新HEAD和当日数据重新校验，不能覆盖并发修改。
 
 提交后检查该commit对应Actions构建及Pages部署状态，访问并验证当期公开页面与索引中实际有新日期和正确条目数。最终在版权页脚之后另附简短执行状态，注明报告/标签审阅完成情况、提交SHA、部署状态及公开链接；发布状态不写入学术条目正文。只有提交和部署核实成功才写已发布。GitHub写入工具不可用、连接过期或权限不足时，继续完成正文与HTML/JSON并保留Review日志，明确写未提交及具体原因；自动化执行上下文的工具与授权可能不同于当前对话，不得把提示词写入视作未来成功发布的保证。部署仍进行中写待部署确认；失败报告日志中的原因与已保存结果，不声称主页已更新。
+
+
+标签补充约定：应用分组application_domains仅用于展示，正式记录使用tags中的标准ID；采购与培训不再使用procurement/education_training应用ID，按实际公告/活动/科普/应用说明性质填写information_type。量子自旋应用须明确涉及自旋量子位、相干控制或量子传感，不能由一般磁性材料推定。核验来源后可增加publication_status，枚举preprint、early_access、published、unknown；不知道时写unknown，不凭期刊名字判定出版状态。

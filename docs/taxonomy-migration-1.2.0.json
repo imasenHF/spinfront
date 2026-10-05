@@ -1,0 +1,1224 @@
+{
+  "from": "1.1.0",
+  "to": "1.2.0",
+  "scope": "标签和信息类型审阅，不等同科学事实复核",
+  "changes": [
+    {
+      "item_id": "SF-20260820-09",
+      "before": {
+        "application_ids": [
+          "procurement"
+        ],
+        "information_type": "tender"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "tender"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260820-10",
+      "before": {
+        "application_ids": [
+          "pharma",
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [
+          "pharma"
+        ],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260824-01",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260824-02",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260825-05",
+      "before": {
+        "application_ids": [
+          "ligand_screening",
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [
+          "ligand_screening"
+        ],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260825-10",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260827-04",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260827-05",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260827-07",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260827-08",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260828-03",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260828-04",
+      "before": {
+        "application_ids": [
+          "materials"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [
+          "materials",
+          "quantum_spin"
+        ],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "现有摘要明确涉及自旋量子位、相干控制或量子传感。"
+      ]
+    },
+    {
+      "item_id": "SF-20260828-09",
+      "before": {
+        "application_ids": [
+          "materials"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [
+          "materials",
+          "quantum_spin"
+        ],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "现有摘要明确涉及自旋量子位、相干控制或量子传感。"
+      ]
+    },
+    {
+      "item_id": "SF-20260829-07",
+      "before": {
+        "application_ids": [
+          "procurement"
+        ],
+        "information_type": "tender"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "tender"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260830-05",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260902-02",
+      "before": {
+        "application_ids": [
+          "procurement"
+        ],
+        "information_type": "tender"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "tender"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260902-03",
+      "before": {
+        "application_ids": [
+          "procurement"
+        ],
+        "information_type": "tender"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "tender"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260903-09",
+      "before": {
+        "application_ids": [
+          "procurement"
+        ],
+        "information_type": "tender"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "tender"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260903-10",
+      "before": {
+        "application_ids": [
+          "procurement"
+        ],
+        "information_type": "tender"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "tender"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260904-05",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260905-04",
+      "before": {
+        "application_ids": [
+          "procurement"
+        ],
+        "information_type": "tender"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "tender"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260905-05",
+      "before": {
+        "application_ids": [
+          "procurement"
+        ],
+        "information_type": "paper"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "tender"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。",
+        "摘要明确为中标结果或维护服务询价，纠正误标paper。"
+      ]
+    },
+    {
+      "item_id": "SF-20260905-06",
+      "before": {
+        "application_ids": [
+          "procurement"
+        ],
+        "information_type": "tender"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "tender"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260907-01",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260907-03",
+      "before": {
+        "application_ids": [
+          "procurement"
+        ],
+        "information_type": "tender"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "tender"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260914-03",
+      "before": {
+        "application_ids": [
+          "procurement"
+        ],
+        "information_type": "tender"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "tender"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260914-04",
+      "before": {
+        "application_ids": [
+          "procurement"
+        ],
+        "information_type": "tender"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "tender"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260915-01",
+      "before": {
+        "application_ids": [
+          "structural_biology"
+        ],
+        "information_type": "paper"
+      },
+      "after": {
+        "application_ids": [
+          "quantum_spin"
+        ],
+        "information_type": "paper"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "现有摘要明确涉及自旋量子位、相干控制或量子传感。",
+        "NV量子寄存器不存在生物结构研究对象，移除错误标签。"
+      ]
+    },
+    {
+      "item_id": "SF-20260915-03",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260915-04",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260915-05",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260915-06",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260916-05",
+      "before": {
+        "application_ids": [
+          "procurement"
+        ],
+        "information_type": "tender"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "tender"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260916-06",
+      "before": {
+        "application_ids": [
+          "procurement"
+        ],
+        "information_type": "tender"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "tender"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260916-08",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260918-09",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260918-10",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260919-02",
+      "before": {
+        "application_ids": [
+          "procurement"
+        ],
+        "information_type": "tender"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "tender"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260919-04",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260919-07",
+      "before": {
+        "application_ids": [
+          "instrumentation"
+        ],
+        "information_type": "application_note"
+      },
+      "after": {
+        "application_ids": [
+          "instrumentation",
+          "quantum_spin"
+        ],
+        "information_type": "application_note"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "现有摘要明确涉及自旋量子位、相干控制或量子传感。"
+      ]
+    },
+    {
+      "item_id": "SF-20260919-09",
+      "before": {
+        "application_ids": [
+          "procurement"
+        ],
+        "information_type": "funding_facility"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "funding_facility"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260920-01",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260920-02",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260920-03",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260920-10",
+      "before": {
+        "application_ids": [
+          "procurement"
+        ],
+        "information_type": "paper"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "tender"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。",
+        "摘要明确为中标结果或维护服务询价，纠正误标paper。"
+      ]
+    },
+    {
+      "item_id": "SF-20260921-02",
+      "before": {
+        "application_ids": [
+          "instrumentation"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [
+          "instrumentation",
+          "quantum_spin"
+        ],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "现有摘要明确涉及自旋量子位、相干控制或量子传感。"
+      ]
+    },
+    {
+      "item_id": "SF-20260921-03",
+      "before": {
+        "application_ids": [
+          "materials"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [
+          "materials",
+          "quantum_spin"
+        ],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "现有摘要明确涉及自旋量子位、相干控制或量子传感。"
+      ]
+    },
+    {
+      "item_id": "SF-20260921-04",
+      "before": {
+        "application_ids": [
+          "materials"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [
+          "materials",
+          "quantum_spin"
+        ],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "现有摘要明确涉及自旋量子位、相干控制或量子传感。"
+      ]
+    },
+    {
+      "item_id": "SF-20260921-05",
+      "before": {
+        "application_ids": [
+          "materials"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [
+          "materials",
+          "quantum_spin"
+        ],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "现有摘要明确涉及自旋量子位、相干控制或量子传感。"
+      ]
+    },
+    {
+      "item_id": "SF-20260922-02",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260922-03",
+      "before": {
+        "application_ids": [
+          "chemical_structure",
+          "education_training"
+        ],
+        "information_type": "application_note"
+      },
+      "after": {
+        "application_ids": [
+          "chemical_structure"
+        ],
+        "information_type": "application_note"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260922-04",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260922-05",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260922-06",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260922-07",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [
+          "quantum_spin"
+        ],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。",
+        "现有摘要明确涉及自旋量子位、相干控制或量子传感。"
+      ]
+    },
+    {
+      "item_id": "SF-20260922-09",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260922-10",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260923-03",
+      "before": {
+        "application_ids": [
+          "materials"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [
+          "materials",
+          "quantum_spin"
+        ],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "现有摘要明确涉及自旋量子位、相干控制或量子传感。"
+      ]
+    },
+    {
+      "item_id": "SF-20260923-10",
+      "before": {
+        "application_ids": [
+          "materials"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [
+          "materials",
+          "quantum_spin"
+        ],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "现有摘要明确涉及自旋量子位、相干控制或量子传感。"
+      ]
+    },
+    {
+      "item_id": "SF-20260927-04",
+      "before": {
+        "application_ids": [
+          "procurement"
+        ],
+        "information_type": "tender"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "tender"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20260928-03",
+      "before": {
+        "application_ids": [
+          "materials"
+        ],
+        "information_type": "paper"
+      },
+      "after": {
+        "application_ids": [
+          "materials",
+          "quantum_spin"
+        ],
+        "information_type": "paper"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "现有摘要明确涉及自旋量子位、相干控制或量子传感。"
+      ]
+    },
+    {
+      "item_id": "SF-20260929-05",
+      "before": {
+        "application_ids": [
+          "materials"
+        ],
+        "information_type": "paper"
+      },
+      "after": {
+        "application_ids": [
+          "materials",
+          "quantum_spin"
+        ],
+        "information_type": "paper"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "现有摘要明确涉及自旋量子位、相干控制或量子传感。"
+      ]
+    },
+    {
+      "item_id": "SF-20260929-06",
+      "before": {
+        "application_ids": [
+          "procurement"
+        ],
+        "information_type": "tender"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "tender"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20261001-02",
+      "before": {
+        "application_ids": [
+          "education_training",
+          "process_analysis"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [
+          "process_analysis"
+        ],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20261001-06",
+      "before": {
+        "application_ids": [
+          "materials",
+          "instrumentation"
+        ],
+        "information_type": "paper"
+      },
+      "after": {
+        "application_ids": [
+          "materials",
+          "instrumentation",
+          "quantum_spin"
+        ],
+        "information_type": "paper"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "现有摘要明确涉及自旋量子位、相干控制或量子传感。"
+      ]
+    },
+    {
+      "item_id": "SF-20261001-10",
+      "before": {
+        "application_ids": [
+          "education_training",
+          "battery"
+        ],
+        "information_type": "news_feature"
+      },
+      "after": {
+        "application_ids": [
+          "battery"
+        ],
+        "information_type": "news_feature"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20261004-10",
+      "before": {
+        "application_ids": [
+          "procurement"
+        ],
+        "information_type": "tender"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "tender"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    },
+    {
+      "item_id": "SF-20261005-01",
+      "before": {
+        "application_ids": [
+          "education_training"
+        ],
+        "information_type": "event"
+      },
+      "after": {
+        "application_ids": [],
+        "information_type": "event"
+      },
+      "basis": "所提供日报标题与摘要；未重新核验原始来源。",
+      "reasons": [
+        "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
+      ]
+    }
+  ]
+}

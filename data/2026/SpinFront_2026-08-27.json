@@ -1,6 +1,6 @@
 {
   "schema_version": "1.4-tag-reviewed",
-  "taxonomy_version": "1.1.0",
+  "taxonomy_version": "1.2.0",
   "report_date": "2026-08-27",
   "scope_note": "本期收录8条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
   "items": [
@@ -335,9 +335,7 @@
       ],
       "experiment_type_ids": [],
       "method_ids": [],
-      "application_ids": [
-        "education_training"
-      ],
+      "application_ids": [],
       "instrument_component_ids": [
         "console"
       ],
@@ -354,7 +352,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-08-27",
-      "last_updated": null,
+      "last_updated": "2026-10-05",
       "report_file": "SpinFront_2026-08-27.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -428,9 +426,7 @@
       ],
       "experiment_type_ids": [],
       "method_ids": [],
-      "application_ids": [
-        "education_training"
-      ],
+      "application_ids": [],
       "instrument_component_ids": [
         "software"
       ],
@@ -447,7 +443,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-08-27",
-      "last_updated": null,
+      "last_updated": "2026-10-05",
       "report_file": "SpinFront_2026-08-27.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -646,9 +642,7 @@
       "method_ids": [
         "dnp"
       ],
-      "application_ids": [
-        "education_training"
-      ],
+      "application_ids": [],
       "instrument_component_ids": [],
       "sample_systems": [],
       "information_type": "event",
@@ -663,7 +657,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-08-27",
-      "last_updated": null,
+      "last_updated": "2026-10-05",
       "report_file": "SpinFront_2026-08-27.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -751,9 +745,7 @@
       ],
       "experiment_type_ids": [],
       "method_ids": [],
-      "application_ids": [
-        "education_training"
-      ],
+      "application_ids": [],
       "instrument_component_ids": [
         "magnet"
       ],
@@ -770,7 +762,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-08-27",
-      "last_updated": null,
+      "last_updated": "2026-10-05",
       "report_file": "SpinFront_2026-08-27.html",
       "provenance": {
         "content": "extracted_from_supplied_html",

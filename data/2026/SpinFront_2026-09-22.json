@@ -1,6 +1,6 @@
 {
   "schema_version": "1.4-tag-reviewed",
-  "taxonomy_version": "1.1.0",
+  "taxonomy_version": "1.2.0",
   "report_date": "2026-09-22",
   "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
   "items": [
@@ -178,9 +178,7 @@
       ],
       "experiment_type_ids": [],
       "method_ids": [],
-      "application_ids": [
-        "education_training"
-      ],
+      "application_ids": [],
       "instrument_component_ids": [],
       "sample_systems": [],
       "information_type": "event",
@@ -195,7 +193,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-22",
-      "last_updated": null,
+      "last_updated": "2026-10-05",
       "report_file": "SpinFront_2026-09-22.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -280,8 +278,7 @@
         "multidimensional_nmr"
       ],
       "application_ids": [
-        "chemical_structure",
-        "education_training"
+        "chemical_structure"
       ],
       "instrument_component_ids": [
         "autosampler"
@@ -299,7 +296,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-22",
-      "last_updated": null,
+      "last_updated": "2026-10-05",
       "report_file": "SpinFront_2026-09-22.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -410,9 +407,7 @@
       "method_ids": [
         "photo_cidnp"
       ],
-      "application_ids": [
-        "education_training"
-      ],
+      "application_ids": [],
       "instrument_component_ids": [],
       "sample_systems": [],
       "information_type": "event",
@@ -427,7 +422,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-22",
-      "last_updated": "2026-10-05T17:48:25.209228+00:00",
+      "last_updated": "2026-10-05",
       "report_file": "SpinFront_2026-09-22.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -528,9 +523,7 @@
       "method_ids": [
         "photo_cidnp"
       ],
-      "application_ids": [
-        "education_training"
-      ],
+      "application_ids": [],
       "instrument_component_ids": [],
       "sample_systems": [],
       "information_type": "event",
@@ -545,7 +538,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-22",
-      "last_updated": "2026-10-05T17:48:25.209228+00:00",
+      "last_updated": "2026-10-05",
       "report_file": "SpinFront_2026-09-22.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -648,9 +641,7 @@
       "method_ids": [
         "photo_cidnp"
       ],
-      "application_ids": [
-        "education_training"
-      ],
+      "application_ids": [],
       "instrument_component_ids": [],
       "sample_systems": [],
       "information_type": "event",
@@ -665,7 +656,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-22",
-      "last_updated": "2026-10-05T17:48:25.209228+00:00",
+      "last_updated": "2026-10-05",
       "report_file": "SpinFront_2026-09-22.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -761,7 +752,7 @@
         "nanomagnetic_resonance"
       ],
       "application_ids": [
-        "education_training"
+        "quantum_spin"
       ],
       "instrument_component_ids": [],
       "sample_systems": [],
@@ -777,7 +768,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-22",
-      "last_updated": "2026-10-05T17:48:25.209228+00:00",
+      "last_updated": "2026-10-05",
       "report_file": "SpinFront_2026-09-22.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -971,9 +962,7 @@
       "method_ids": [
         "cidnp"
       ],
-      "application_ids": [
-        "education_training"
-      ],
+      "application_ids": [],
       "instrument_component_ids": [],
       "sample_systems": [],
       "information_type": "event",
@@ -988,7 +977,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-22",
-      "last_updated": "2026-10-05T17:48:25.209228+00:00",
+      "last_updated": "2026-10-05",
       "report_file": "SpinFront_2026-09-22.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -1081,9 +1070,7 @@
       "method_ids": [
         "time_resolved_epr"
       ],
-      "application_ids": [
-        "education_training"
-      ],
+      "application_ids": [],
       "instrument_component_ids": [],
       "sample_systems": [],
       "information_type": "event",
@@ -1098,7 +1085,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-22",
-      "last_updated": "2026-10-05T17:48:25.209228+00:00",
+      "last_updated": "2026-10-05",
       "report_file": "SpinFront_2026-09-22.html",
       "provenance": {
         "content": "extracted_from_supplied_html",

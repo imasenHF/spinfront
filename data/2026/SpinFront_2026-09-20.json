@@ -1,6 +1,6 @@
 {
   "schema_version": "1.4-tag-reviewed",
-  "taxonomy_version": "1.1.0",
+  "taxonomy_version": "1.2.0",
   "report_date": "2026-09-20",
   "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
   "items": [
@@ -14,9 +14,7 @@
       ],
       "experiment_type_ids": [],
       "method_ids": [],
-      "application_ids": [
-        "education_training"
-      ],
+      "application_ids": [],
       "instrument_component_ids": [],
       "sample_systems": [],
       "information_type": "event",
@@ -31,7 +29,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-20",
-      "last_updated": null,
+      "last_updated": "2026-10-05",
       "report_file": "SpinFront_2026-09-20.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -108,9 +106,7 @@
       ],
       "experiment_type_ids": [],
       "method_ids": [],
-      "application_ids": [
-        "education_training"
-      ],
+      "application_ids": [],
       "instrument_component_ids": [],
       "sample_systems": [],
       "information_type": "event",
@@ -125,7 +121,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-20",
-      "last_updated": "2026-10-05T17:48:25.209228+00:00",
+      "last_updated": "2026-10-05",
       "report_file": "SpinFront_2026-09-20.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -204,9 +200,7 @@
         "solution_nmr"
       ],
       "method_ids": [],
-      "application_ids": [
-        "education_training"
-      ],
+      "application_ids": [],
       "instrument_component_ids": [],
       "sample_systems": [],
       "information_type": "event",
@@ -221,7 +215,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-20",
-      "last_updated": "2026-10-05T17:48:25.209228+00:00",
+      "last_updated": "2026-10-05",
       "report_file": "SpinFront_2026-09-20.html",
       "provenance": {
         "content": "extracted_from_supplied_html",
@@ -998,12 +992,10 @@
       ],
       "experiment_type_ids": [],
       "method_ids": [],
-      "application_ids": [
-        "procurement"
-      ],
+      "application_ids": [],
       "instrument_component_ids": [],
       "sample_systems": [],
-      "information_type": "paper",
+      "information_type": "tender",
       "summary_cn": "宁波中基国际招标有限公司于9月18日发布宁波大学新药技术研究院800 MHz NMR四共振超低温探头项目中标（成交）结果。项目编号CBNB‑20262505G，前期公告预算和最高限价均为400万元；完整中标品牌、附件及服务范围仍应以官方结果正文为准。",
       "meaning_cn": "升级评审应核对四共振核种组合、低温前置放大器、灵敏度与90°脉宽、梯度兼容、变温范围及同现有800 MHz主机接口。验收须用规定标准样逐通道测试S/N、线形、分辨率和调谐范围，并确认安装培训及低温维护边界。",
       "publication_date": "2026-09-18",
@@ -1015,7 +1007,7 @@
       "related_to": [],
       "review_status": "unreviewed",
       "first_seen": "2026-09-20",
-      "last_updated": null,
+      "last_updated": "2026-10-05",
       "report_file": "SpinFront_2026-09-20.html",
       "provenance": {
         "content": "extracted_from_supplied_html",

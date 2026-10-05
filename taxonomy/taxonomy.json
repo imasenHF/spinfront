@@ -1,5 +1,5 @@
 {
-  "taxonomy_version": "1.1.0",
+  "taxonomy_version": "1.2.0",
   "status": "active",
   "tags": [
     {
@@ -605,7 +605,7 @@
     {
       "id": "microbiome",
       "dimension": "application_ids",
-      "label_cn": "微生物与肠脑轴",
+      "label_cn": "微生物组",
       "label_en": "microbiome",
       "aliases": [
         "微生物与肠脑轴"
@@ -613,7 +613,7 @@
       "parent_ids": [
         "life_science"
       ],
-      "definition": "微生物与肠脑轴相关的application分类",
+      "definition": "以微生物群落及其代谢活动为研究对象；肠脑轴不是必需条件。",
       "include_when": "研究目标或样品明确对应该领域",
       "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
       "status": "active",
@@ -728,7 +728,9 @@
       "aliases": [
         "聚合物"
       ],
-      "parent_ids": [],
+      "parent_ids": [
+        "materials"
+      ],
       "definition": "聚合物相关的application分类",
       "include_when": "研究目标或样品明确对应该领域",
       "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
@@ -761,7 +763,9 @@
       "aliases": [
         "天然产物"
       ],
-      "parent_ids": [],
+      "parent_ids": [
+        "chemical_structure"
+      ],
       "definition": "天然产物相关的application分类",
       "include_when": "研究目标或样品明确对应该领域",
       "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
@@ -778,7 +782,9 @@
         "无机配位",
         "无机与配位化学"
       ],
-      "parent_ids": [],
+      "parent_ids": [
+        "chemical_structure"
+      ],
       "definition": "无机配位相关的application分类",
       "include_when": "研究目标或样品明确对应该领域",
       "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
@@ -814,40 +820,6 @@
       ],
       "parent_ids": [],
       "definition": "仪器相关的application分类",
-      "include_when": "研究目标或样品明确对应该领域",
-      "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
-      "status": "active",
-      "approval_status": "active",
-      "replaced_by": null
-    },
-    {
-      "id": "procurement",
-      "dimension": "application_ids",
-      "label_cn": "采购",
-      "label_en": "procurement",
-      "aliases": [
-        "采购",
-        "采购与行业"
-      ],
-      "parent_ids": [],
-      "definition": "采购相关的application分类",
-      "include_when": "研究目标或样品明确对应该领域",
-      "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
-      "status": "active",
-      "approval_status": "active",
-      "replaced_by": null
-    },
-    {
-      "id": "education_training",
-      "dimension": "application_ids",
-      "label_cn": "教育培训",
-      "label_en": "education training",
-      "aliases": [
-        "教育培训",
-        "培训与会议"
-      ],
-      "parent_ids": [],
-      "definition": "教育培训相关的application分类",
       "include_when": "研究目标或样品明确对应该领域",
       "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
       "status": "active",
@@ -1659,6 +1631,23 @@
       "status": "active",
       "approval_status": "active",
       "replaced_by": null
+    },
+    {
+      "id": "quantum_spin",
+      "dimension": "application_ids",
+      "label_cn": "量子自旋与传感",
+      "label_en": "Quantum spin and sensing",
+      "aliases": [
+        "量子自旋与传感",
+        "Quantum spin and sensing"
+      ],
+      "parent_ids": [],
+      "definition": "以自旋量子位、相干控制、量子寄存器或自旋量子传感为核心研究对象；一般磁性材料不自动归入。",
+      "include_when": "摘要明确涉及量子位控制、寄存器或量子传感。",
+      "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
     }
   ],
   "filter_rules": {
@@ -1671,7 +1660,8 @@
   "special_rules": {
     "multinuclear_nmr": "正文明确研究多个核种；单独19F或13C不自动标注",
     "publication_status": "preprint / early_access / published / unknown",
-    "directions": "方向仅使用nmr、epr；同时涉及两者时存储两个ID。MRS及MRV分别使用nmr方向和in_vivo_mrs、mr_velocimetry实验类型。"
+    "directions": "方向仅使用nmr、epr；同时涉及两者时存储两个ID。MRS及MRV分别使用nmr方向和in_vivo_mrs、mr_velocimetry实验类型。",
+    "application_domains": "展示层分组，不作为正式标签写入记录。父标签包含子标签，应用允许跨领域多标签；仪器技术可独立于样品应用。采购与培训由信息类型表达，不强行补应用标签。"
   },
   "legacy_query_mapping": {
     "nmr_epr": {
@@ -1695,6 +1685,19 @@
       ],
       "experiment_type_ids": [
         "mr_velocimetry"
+      ]
+    },
+    "procurement": {
+      "information_type": [
+        "tender",
+        "funding_facility"
+      ]
+    },
+    "education_training": {
+      "information_type": [
+        "event",
+        "news_feature",
+        "application_note"
       ]
     }
   },
@@ -1796,5 +1799,90 @@
         ]
       }
     ]
-  }
+  },
+  "application_domains": [
+    {
+      "id": "chemistry",
+      "label_cn": "化学结构与反应",
+      "ids": [
+        "chemical_structure",
+        "catalysis"
+      ],
+      "description": "结构解析、配位体系与催化"
+    },
+    {
+      "id": "life_pharma",
+      "label_cn": "生命科学与药物",
+      "ids": [
+        "life_science",
+        "pharma"
+      ],
+      "description": "生物结构、代谢与药物研究"
+    },
+    {
+      "id": "energy",
+      "label_cn": "能源与电化学",
+      "ids": [
+        "electrochemistry_energy"
+      ],
+      "description": "电池、燃料电池与电合成"
+    },
+    {
+      "id": "materials",
+      "label_cn": "材料与聚合物",
+      "ids": [
+        "materials"
+      ],
+      "description": "功能材料与聚合物"
+    },
+    {
+      "id": "food",
+      "label_cn": "食品与农业",
+      "ids": [
+        "food_agriculture"
+      ],
+      "description": "食品、农产品与农业样品"
+    },
+    {
+      "id": "environment_geo",
+      "label_cn": "环境与地学",
+      "ids": [
+        "environment",
+        "geoscience_flow"
+      ],
+      "description": "环境分析、多孔介质与流动"
+    },
+    {
+      "id": "heritage",
+      "label_cn": "文化遗产",
+      "ids": [
+        "cultural_heritage"
+      ],
+      "description": "文物材料与保护"
+    },
+    {
+      "id": "process",
+      "label_cn": "分析检测与工艺",
+      "ids": [
+        "process_analysis"
+      ],
+      "description": "过程分析与工艺监测"
+    },
+    {
+      "id": "quantum",
+      "label_cn": "量子自旋与传感",
+      "ids": [
+        "quantum_spin"
+      ],
+      "description": "量子位、相干控制与自旋传感"
+    },
+    {
+      "id": "instrument",
+      "label_cn": "仪器与技术",
+      "ids": [
+        "instrumentation"
+      ],
+      "description": "磁共振硬件与仪器方法研究"
+    }
+  ]
 }

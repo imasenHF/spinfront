@@ -2,7 +2,7 @@ const assert=require('node:assert/strict'),fs=require('node:fs'),C=require('../a
 const path=require('node:path'),root=path.resolve(__dirname,'..');
 const tax=JSON.parse(fs.readFileSync(path.join(root,'taxonomy/taxonomy.json')));
 const data=JSON.parse(fs.readFileSync(path.join(root,'_site/search-index.json')));
-const items=C.prepare(data.items,tax);const state=()=>({q:'',date:'',direction_match:'any',...Object.fromEntries(C.fields.map(f=>[f,[]]))});
+const items=C.prepare(data.items,tax);const state=()=>({q:'',date:'',date_from:'',date_to:'',layout:'cards',direction_match:'any',...Object.fromEntries(C.fields.map(f=>[f,[]]))});
 assert.equal(items.length,data.issues.reduce((sum,d)=>sum+d.item_count,0));assert.equal(C.filter(items,{...state(),date:'2026-10-05'},tax).length,10);
 assert.equal(C.filter(items,{...state(),date:'2026-08-28'},tax).length,9);
 assert.equal(C.filter(items,{...state(),date:'1900-01-01'},tax).length,0);
@@ -24,3 +24,13 @@ for(const [old,exp] of [['mrs','in_vivo_mrs'],['mrv','mr_velocimetry']]){const m
 assert.deepEqual(C.parse(C.serialize(legacy),tax,'2026-10-05',false),legacy);
 assert(items.every(a=>a.direction_ids.length>0&&a.direction_ids.every(id=>['nmr','epr'].includes(id))));
 console.log('PASS: two canonical directions, mixed entries, explicit AND, legacy mixed/MRS/MRV URLs');
+
+const range={...state(),date_from:'2026-09-29',date_to:'2026-10-05',layout:'list'};
+const rangeRows=C.filter(items,range,tax);assert.equal(rangeRows.length,data.issues.filter(d=>d.report_date>=range.date_from&&d.report_date<=range.date_to).reduce((n,d)=>n+d.item_count,0));
+assert.deepEqual(C.parse(C.serialize(range),tax,data.issues.at(-1).report_date,false),range);
+assert.equal(C.filter(items,{...range,direction_ids:['epr']},tax).length,rangeRows.filter(a=>a.direction_ids.includes('epr')).length);
+assert(C.descendants(tax,'application_ids','materials').has('polymers'));assert(C.descendants(tax,'application_ids','chemical_structure').has('inorganic_coordination'));
+const roots=tax.tags.filter(t=>t.dimension==='application_ids'&&!t.parent_ids.length).map(t=>t.id),domainRoots=tax.application_domains.flatMap(g=>g.ids);assert.deepEqual([...roots].sort(),[...domainRoots].sort());assert.equal(new Set(domainRoots).size,domainRoots.length);
+assert.deepEqual(C.parse('?application_ids=procurement',tax,'',false).information_type,['tender','funding_facility']);assert(!tax.tags.some(t=>t.id==='education_training'||t.id==='procurement'));
+assert.deepEqual(C.parse('?from=2026-10-05&to=2026-09-29',tax,'',false).date_from,'2026-09-29');
+console.log('PASS: inclusive date range, combined direction, list URL restore, application coverage and legacy procurement');

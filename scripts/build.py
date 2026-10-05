@@ -35,16 +35,20 @@ def load():
  assert len({d['report_date'] for d in issues})==len(issues)
  return tax,labels,issues
 
-def shell(title,body,prefix):return '<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+'</title><link rel="stylesheet" href="'+prefix+'assets/style.css"></head><body><main class="wrap">'+body+'</main></body></html>'
+def shell(title,body,prefix,standalone=False):
+ template=(ROOT/'templates/issue.html').read_text(encoding='utf-8')
+ styles=('<style>'+(ROOT/'assets/style.css').read_text(encoding='utf-8')+'</style>') if standalone else '<link rel="stylesheet" href="'+prefix+'assets/style.css">'
+ return template.replace('{{TITLE}}',esc(title)).replace('{{STYLES}}',styles).replace('{{BODY}}',body)
+
 def hero(date=''):return '<header class="hero"><h1>自旋前沿｜SpinFront</h1><p class="en">NMR / EPR Daily Brief</p><p>追踪自旋、谱学与应用进展</p>'+('<p>'+esc(date)+'</p>' if date else '')+'</header>'
 def footer(date):return '<footer class="footer"><div>SpinFront · NMR / EPR Daily Brief · '+esc(date)+'</div><div>© '+date[:4]+' wuhaifeng@ustc.edu.cn. All rights reserved.</div><div>本报告版权归作者所有，未经许可不得复制、转载或用于商业用途。</div></footer>'
-def issue_html(d,labels):
- date=d['report_date'];body='<a class="archive-link" href="../">← SpinFront归档</a>'+hero(date)+'<div class="note"><p>'+esc(d['scope_note'])+'</p></div>'
+def issue_html(d,labels,standalone=False):
+ date=d['report_date'];body=('<a class="archive-link" href="https://plastocyanin.org/spinfront/">← SpinFront归档</a>' if standalone else '<a class="archive-link" href="../">← SpinFront归档</a>')+hero(date)+'<div class="note"><p>'+esc(d['scope_note'])+'</p></div>'
  for a in d['items']:
   time='近7天扩展' if a['time_scope']=='7d_extension' else '近24小时'
   tags=[labels[(f,t)] for f in FIELDS for t in a[f]]
   body+='<article class="card" id="'+a['item_id']+'"><div class="top"><span class="num">'+f'{a["item_no"]:02d}'+'</span><span class="type">'+esc(labels[('information_type',a['information_type'])])+'</span><span class="tag">'+time+'</span></div><div class="content"><h2>'+esc(a['title_cn'])+'</h2><div class="labels">'+''.join('<span>'+esc(t)+'</span>' for t in tags)+'</div><p>'+esc(a['summary_cn']).replace('\n','<br>')+'</p><p><span class="label">具体意义：</span>'+esc(a['meaning_cn']).replace('\n','<br>')+'</p><div class="meta">发布日期：'+esc(a['publication_date'] or '待核实')+'｜'+time+'<br>原始来源：'+link(a['url'],a['source'])+''.join(' · '+link(s['url'],s['name']) for s in a['alternative_sources'])+('<br>DOI：'+esc(a['doi']) if a['doi'] else '')+'</div></div></article>'
- return shell('自旋前沿｜SpinFront｜'+date,body+footer(date),'../')
+ return shell('自旋前沿｜SpinFront｜'+date,body+footer(date),'../',standalone)
 def archive_html(issues):
  latest=issues[-1]['report_date'];groups={}
  for d in reversed(issues):
@@ -74,9 +78,10 @@ def main():
  if args.check:print(f'Validated {len(issues)} issues / {sum(len(d["items"]) for d in issues)} items');return
  out=(ROOT/args.output).resolve();assert out!=ROOT and ROOT in out.parents,'Output must be a child directory of this repo'
  out.mkdir(parents=True,exist_ok=True);shutil.copytree(ROOT/'assets',out/'assets',dirs_exist_ok=True);shutil.copytree(ROOT/'data',out/'data',dirs_exist_ok=True);shutil.copytree(ROOT/'taxonomy',out/'taxonomy',dirs_exist_ok=True)
+ downloads=out/'downloads';downloads.mkdir(exist_ok=True)
  listings=[]
  for d in reversed(issues):
-  date=d['report_date'];p=out/date;p.mkdir(exist_ok=True);s=issue_html(d,labels);(p/'index.html').write_text(s,encoding='utf-8')
+  date=d['report_date'];p=out/date;p.mkdir(exist_ok=True);s=issue_html(d,labels);(p/'index.html').write_text(s,encoding='utf-8');(downloads/f'SpinFront_{date}.html').write_text(issue_html(d,labels,standalone=True),encoding='utf-8')
   assert s.count('<article ')==len(d['items']) and '<img' not in s
   for a in d['items']:
    for k in ['title_cn','summary_cn','meaning_cn']:assert esc(a[k]).replace('\n','<br>') in s

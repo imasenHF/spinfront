@@ -1,0 +1,1046 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-08-25",
+  "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260825-01",
+      "report_date": "2026-08-25",
+      "item_no": 1,
+      "title_cn": "Carbonyl dicyanide原位结晶并给出关键¹³C NMR指纹",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "reaction_monitoring"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究重新考察不稳定小分子carbonyl dicyanide，通过原位结晶与谱学表征确认其结构。¹³C NMR在140.4 ppm给出羰基碳信号、110.5 ppm给出氰基碳信号，并观察到羰基与氰基碳之间的耦合，为该高反应性分子的溶液态鉴别提供直接指纹。",
+      "meaning_cn": "处理高反应性样品时，应优先采用密闭或原位样品制备，预留宽谱宽¹³C采集并保留碳—碳耦合信息；低温探头、惰性转移和短时间重复采集可用于检查分解。",
+      "publication_date": "2026-08-24",
+      "time_scope": "24h",
+      "source": "Chemical Communications",
+      "url": "https://pubs.rsc.org/cc/article/doi/10.1039/D6CC04502B/1293875/Carbonyl-dicyanide-revisited-In-situ",
+      "doi": "10.1039/d6cc04502b/1293875/carbonyl-dicyanide-revisited-in-situ",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-25",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-25.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "化学结构解析"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-25.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "Carbonyl dicyanide原位结晶并给出关键¹³C NMR指纹；研究重新考察不稳定小分子carbonyl dicyanide，通过原位结晶与谱学表征确认其结构。¹³C NMR在140.4 ppm给出羰基碳信号、110.5 ppm给出氰基碳信号，并观察到羰基与氰基碳之间的耦合，为该高反应性分子的溶液态鉴别提供直接指纹。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "Carbonyl dicyanide原位结晶并给出关键¹³C NMR指纹；研究重新考察不稳定小分子carbonyl dicyanide，通过原位结晶与谱学表征确认其结构。¹³C NMR在140.4 ppm给出羰基碳信号、110.5 ppm给出氰基碳信号，并观察到羰基与氰基碳之间的耦合，为该高反应性分子的溶液态鉴别提供直接指纹。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "reaction_monitoring",
+          "dimension": "method_ids",
+          "basis": "Carbonyl dicyanide原位结晶并给出关键¹³C NMR指纹；研究重新考察不稳定小分子carbonyl dicyanide，通过原位结晶与谱学表征确认其结构。¹³C NMR在140.4 ppm给出羰基碳信号、110.5 ppm给出氰基碳信号，并观察到羰基与氰基碳之间的耦合，为该高反应性分子的溶液态鉴别提供直接指纹。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "Carbonyl dicyanide原位结晶并给出关键¹³C NMR指纹；研究重新考察不稳定小分子carbonyl dicyanide，通过原位结晶与谱学表征确认其结构。¹³C NMR在140.4 ppm给出羰基碳信号、110.5 ppm给出氰基碳信号，并观察到羰基与氰基碳之间的耦合，为该高反应性分子的溶液态鉴别提供直接指纹。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Carbonyl dicyanide原位结晶并给出关键¹³C NMR指纹",
+        "original_summary_cn": "研究重新考察不稳定小分子carbonyl dicyanide，通过原位结晶与谱学表征确认其结构。¹³C NMR在140.4 ppm给出羰基碳信号、110.5 ppm给出氰基碳信号，并观察到羰基与氰基碳之间的耦合，为该高反应性分子的溶液态鉴别提供直接指纹。",
+        "original_meaning_cn": "处理高反应性样品时，应优先采用密闭或原位样品制备，预留宽谱宽¹³C采集并保留碳—碳耦合信息；低温探头、惰性转移和短时间重复采集可用于检查分解。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260825-02",
+      "report_date": "2026-08-25",
+      "item_no": 2,
+      "title_cn": "加速条件扩散模型重建NUS多维NMR谱",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "nus",
+        "multidimensional_nmr",
+        "spectral_processing"
+      ],
+      "application_ids": [],
+      "instrument_component_ids": [
+        "software"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "论文提出accelerated conditional diffusion model，将非均匀采样多维NMR重建表述为受物理约束的概率迭代去噪。跨多种采样条件与实验数据测试中，该方法在弱峰恢复、伪影抑制和未见数据泛化方面优于传统算法及端到端深度学习方法。",
+      "meaning_cn": "软件评测应使用真实2D/3D数据与多种采样掩模，分别统计弱峰召回、假峰、线形和处理时间；保留全采样参考谱，并检查模型对不同磁场、探头和信噪比的迁移表现。",
+      "publication_date": "2026-08-24",
+      "time_scope": "24h",
+      "source": "National Science Review",
+      "url": "https://academic.oup.com/nsr/advance-article/doi/10.1093/nsr/nwag527/8769440",
+      "doi": "10.1093/nsr/nwag527/8769440",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-25",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-25.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "非均匀采样",
+          "仪器、软件与方法"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-25.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "加速条件扩散模型重建NUS多维NMR谱；论文提出accelerated conditional diffusion model，将非均匀采样多维NMR重建表述为受物理约束的概率迭代去噪。跨多种采样条件与实验数据测试中，该方法在弱峰恢复、伪影抑制和未见数据泛化方面优于传统算法及端到端深度学习方法。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "nus",
+          "dimension": "method_ids",
+          "basis": "加速条件扩散模型重建NUS多维NMR谱；论文提出accelerated conditional diffusion model，将非均匀采样多维NMR重建表述为受物理约束的概率迭代去噪。跨多种采样条件与实验数据测试中，该方法在弱峰恢复、伪影抑制和未见数据泛化方面优于传统算法及端到端深度学习方法。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "加速条件扩散模型重建NUS多维NMR谱；论文提出accelerated conditional diffusion model，将非均匀采样多维NMR重建表述为受物理约束的概率迭代去噪。跨多种采样条件与实验数据测试中，该方法在弱峰恢复、伪影抑制和未见数据泛化方面优于传统算法及端到端深度学习方法。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spectral_processing",
+          "dimension": "method_ids",
+          "basis": "加速条件扩散模型重建NUS多维NMR谱；论文提出accelerated conditional diffusion model，将非均匀采样多维NMR重建表述为受物理约束的概率迭代去噪。跨多种采样条件与实验数据测试中，该方法在弱峰恢复、伪影抑制和未见数据泛化方面优于传统算法及端到端深度学习方法。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "software",
+          "dimension": "instrument_component_ids",
+          "basis": "加速条件扩散模型重建NUS多维NMR谱；论文提出accelerated conditional diffusion model，将非均匀采样多维NMR重建表述为受物理约束的概率迭代去噪。跨多种采样条件与实验数据测试中，该方法在弱峰恢复、伪影抑制和未见数据泛化方面优于传统算法及端到端深度学习方法。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "加速条件扩散模型重建NUS多维NMR谱",
+        "original_summary_cn": "论文提出accelerated conditional diffusion model，将非均匀采样多维NMR重建表述为受物理约束的概率迭代去噪。跨多种采样条件与实验数据测试中，该方法在弱峰恢复、伪影抑制和未见数据泛化方面优于传统算法及端到端深度学习方法。",
+        "original_meaning_cn": "软件评测应使用真实2D/3D数据与多种采样掩模，分别统计弱峰召回、假峰、线形和处理时间；保留全采样参考谱，并检查模型对不同磁场、探头和信噪比的迁移表现。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "非均匀采样",
+          "仪器、软件与方法"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260825-03",
+      "report_date": "2026-08-25",
+      "item_no": 3,
+      "title_cn": "NMR实验与VOF模拟联看CO₂混相前缘迁移",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究把NMR驱替实验与Volume of Fluid（VOF）数值模拟组合，用于动态观察CO₂混相前缘在储层样品中的迁移。实验读出流体分布和饱和度变化，模拟补充界面位置及流动场信息，使前缘形态、推进速度与多孔介质非均质性可相互比对。",
+      "meaning_cn": "岩心方案需同步记录压力、温度、注入速率与孔隙体积倍数；NMR端固定回波参数和空间标定，按时间点输出T₂或成像饱和度图，再与VOF网格及边界条件统一坐标。",
+      "publication_date": "2026-08-24",
+      "time_scope": "24h",
+      "source": "Geoenergy Science and Engineering",
+      "url": "https://www.sciencedirect.com/science/article/pii/S294989102600374X",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-25",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-25.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "地质与流体"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-25.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "NMR实验与VOF模拟联看CO₂混相前缘迁移；研究把NMR驱替实验与Volume of Fluid（VOF）数值模拟组合，用于动态观察CO₂混相前缘在储层样品中的迁移。实验读出流体分布和饱和度变化，模拟补充界面位置及流动场信息，使前缘形态、推进速度与多孔介质非均质性可相互比对。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "geoscience_flow",
+          "dimension": "application_ids",
+          "basis": "NMR实验与VOF模拟联看CO₂混相前缘迁移；研究把NMR驱替实验与Volume of Fluid（VOF）数值模拟组合，用于动态观察CO₂混相前缘在储层样品中的迁移。实验读出流体分布和饱和度变化，模拟补充界面位置及流动场信息，使前缘形态、推进速度与多孔介质非均质性可相互比对。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "NMR实验与VOF模拟联看CO₂混相前缘迁移",
+        "original_summary_cn": "研究把NMR驱替实验与Volume of Fluid（VOF）数值模拟组合，用于动态观察CO₂混相前缘在储层样品中的迁移。实验读出流体分布和饱和度变化，模拟补充界面位置及流动场信息，使前缘形态、推进速度与多孔介质非均质性可相互比对。",
+        "original_meaning_cn": "岩心方案需同步记录压力、温度、注入速率与孔隙体积倍数；NMR端固定回波参数和空间标定，按时间点输出T₂或成像饱和度图，再与VOF网格及边界条件统一坐标。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "地质与流体"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260825-04",
+      "report_date": "2026-08-25",
+      "item_no": 4,
+      "title_cn": "低场NMR与MRI解析zein–gelatin双连续bigel",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "论文研究由水相微环境与动态油水比共同调控的zein–gelatin双连续bigel。低场NMR用于比较水分与油相质子的弛豫和迁移性，MRI呈现样品内部空间分布；两类读出与流变、微观结构数据结合，判断双连续网络形成及储藏稳定性。",
+      "meaning_cn": "食品凝胶测试应固定样品管径、装样高度、温度和静置时间；分别建立油相、水相参考，采用CPMG获得T₂分布，并让MRI切片位置与流变和显微取样位置对应。",
+      "publication_date": "2026-08-24",
+      "time_scope": "24h",
+      "source": "Food Research International",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0963996926022076",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-25",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-25.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "时域/低场NMR",
+          "食品与农业",
+          "化学结构解析"
+        ],
+        "original_type": "时域/低场NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-25.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "低场NMR与MRI解析zein–gelatin双连续bigel；论文研究由水相微环境与动态油水比共同调控的zein–gelatin双连续bigel。低场NMR用于比较水分与油相质子的弛豫和迁移性，MRI呈现样品内部空间分布；两类读出与流变、微观结构数据结合，判断双连续网络形成及储藏稳定性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "td_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "低场NMR与MRI解析zein–gelatin双连续bigel；论文研究由水相微环境与动态油水比共同调控的zein–gelatin双连续bigel。低场NMR用于比较水分与油相质子的弛豫和迁移性，MRI呈现样品内部空间分布；两类读出与流变、微观结构数据结合，判断双连续网络形成及储藏稳定性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "food_agriculture",
+          "dimension": "application_ids",
+          "basis": "低场NMR与MRI解析zein–gelatin双连续bigel；论文研究由水相微环境与动态油水比共同调控的zein–gelatin双连续bigel。低场NMR用于比较水分与油相质子的弛豫和迁移性，MRI呈现样品内部空间分布；两类读出与流变、微观结构数据结合，判断双连续网络形成及储藏稳定性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "低场NMR与MRI解析zein–gelatin双连续bigel",
+        "original_summary_cn": "论文研究由水相微环境与动态油水比共同调控的zein–gelatin双连续bigel。低场NMR用于比较水分与油相质子的弛豫和迁移性，MRI呈现样品内部空间分布；两类读出与流变、微观结构数据结合，判断双连续网络形成及储藏稳定性。",
+        "original_meaning_cn": "食品凝胶测试应固定样品管径、装样高度、温度和静置时间；分别建立油相、水相参考，采用CPMG获得T₂分布，并让MRI切片位置与流变和显微取样位置对应。",
+        "original_tags": [
+          "NMR",
+          "时域/低场NMR",
+          "食品与农业",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260825-05",
+      "report_date": "2026-08-25",
+      "item_no": 5,
+      "title_cn": "JEOL演示JASON AffinityScreen配体观察NMR筛选",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "ligand_observed_nmr"
+      ],
+      "application_ids": [
+        "ligand_screening",
+        "education_training"
+      ],
+      "instrument_component_ids": [
+        "software"
+      ],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "ICMRBS 2026的JEOL Workshop于8月24日在达沃斯举行，主题为JASON AffinityScreen如何简化ligand-observed NMR screening。重点在批量处理配体观察谱、比较有无靶标条件并组织筛选结果，体现仪器采集与命中判定软件的一体化工作流。",
+      "meaning_cn": "评估时应准备阳性、阴性、竞争配体和无蛋白对照，检查STD、WaterLOGSY或CPMG等实验的批处理、质控阈值、谱图叠加、命中复核和结果导出能力。",
+      "publication_date": "2026-08-24",
+      "time_scope": "24h",
+      "source": "ICMRBS 2026 / JEOL",
+      "url": "https://icmrbs2026.org/symposia-and-workshops/",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-25",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-25.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "配体观察NMR",
+          "生命科学",
+          "结构生物学",
+          "配体筛选",
+          "仪器、软件与方法",
+          "培训与会议"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-25.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "JEOL演示JASON AffinityScreen配体观察NMR筛选；ICMRBS 2026的JEOL Workshop于8月24日在达沃斯举行，主题为JASON AffinityScreen如何简化ligand-observed NMR screening。重点在批量处理配体观察谱、比较有无靶标条件并组织筛选结果，体现仪器采集与命中判定软件的一体化工作流。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "ligand_observed_nmr",
+          "dimension": "method_ids",
+          "basis": "JEOL演示JASON AffinityScreen配体观察NMR筛选；ICMRBS 2026的JEOL Workshop于8月24日在达沃斯举行，主题为JASON AffinityScreen如何简化ligand-observed NMR screening。重点在批量处理配体观察谱、比较有无靶标条件并组织筛选结果，体现仪器采集与命中判定软件的一体化工作流。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "ligand_screening",
+          "dimension": "application_ids",
+          "basis": "JEOL演示JASON AffinityScreen配体观察NMR筛选；ICMRBS 2026的JEOL Workshop于8月24日在达沃斯举行，主题为JASON AffinityScreen如何简化ligand-observed NMR screening。重点在批量处理配体观察谱、比较有无靶标条件并组织筛选结果，体现仪器采集与命中判定软件的一体化工作流。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "JEOL演示JASON AffinityScreen配体观察NMR筛选；ICMRBS 2026的JEOL Workshop于8月24日在达沃斯举行，主题为JASON AffinityScreen如何简化ligand-observed NMR screening。重点在批量处理配体观察谱、比较有无靶标条件并组织筛选结果，体现仪器采集与命中判定软件的一体化工作流。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "software",
+          "dimension": "instrument_component_ids",
+          "basis": "JEOL演示JASON AffinityScreen配体观察NMR筛选；ICMRBS 2026的JEOL Workshop于8月24日在达沃斯举行，主题为JASON AffinityScreen如何简化ligand-observed NMR screening。重点在批量处理配体观察谱、比较有无靶标条件并组织筛选结果，体现仪器采集与命中判定软件的一体化工作流。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "JEOL演示JASON AffinityScreen配体观察NMR筛选",
+        "original_summary_cn": "ICMRBS 2026的JEOL Workshop于8月24日在达沃斯举行，主题为JASON AffinityScreen如何简化ligand-observed NMR screening。重点在批量处理配体观察谱、比较有无靶标条件并组织筛选结果，体现仪器采集与命中判定软件的一体化工作流。",
+        "original_meaning_cn": "评估时应准备阳性、阴性、竞争配体和无蛋白对照，检查STD、WaterLOGSY或CPMG等实验的批处理、质控阈值、谱图叠加、命中复核和结果导出能力。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "配体观察NMR",
+          "生命科学",
+          "结构生物学",
+          "配体筛选",
+          "仪器、软件与方法",
+          "培训与会议"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260825-06",
+      "report_date": "2026-08-25",
+      "item_no": 6,
+      "title_cn": "定量¹³C NMR验证乳脂TAG脂肪酸位置分布",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "qnmr"
+      ],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究以DMSO-d₆为溶剂，用定量¹³C NMR独立验证三类牛乳与水牛乳TAG的脂肪酸位置分布。作者选取酯羰基、甘油骨架、烯烃碳及C4:0 sn-3特征区；C4:0约9.38 ppm信号与GC结果一致，并确认其不位于sn-2。",
+      "meaning_cn": "乳脂qNMR需验证DMSO-d₆溶解、反门控去耦、长弛豫延迟和积分线性；应以GC-FID作交叉方法，并对sn-1/3与sn-2羰基区的基线和峰重叠单独验收。",
+      "publication_date": "2026-08-24",
+      "time_scope": "24h",
+      "source": "Journal of Food Measurement and Characterization",
+      "url": "https://link.springer.com/article/10.1007/s11694-026-04848-z",
+      "doi": "10.1007/s11694-026-04848-z",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-25",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-25.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "定量NMR",
+          "食品与农业"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-25.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "定量¹³C NMR验证乳脂TAG脂肪酸位置分布；研究以DMSO-d₆为溶剂，用定量¹³C NMR独立验证三类牛乳与水牛乳TAG的脂肪酸位置分布。作者选取酯羰基、甘油骨架、烯烃碳及C4:0 sn-3特征区；C4:0约9.38 ppm信号与GC结果一致，并确认其不位于sn-2。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "定量¹³C NMR验证乳脂TAG脂肪酸位置分布；研究以DMSO-d₆为溶剂，用定量¹³C NMR独立验证三类牛乳与水牛乳TAG的脂肪酸位置分布。作者选取酯羰基、甘油骨架、烯烃碳及C4:0 sn-3特征区；C4:0约9.38 ppm信号与GC结果一致，并确认其不位于sn-2。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "qnmr",
+          "dimension": "method_ids",
+          "basis": "定量¹³C NMR验证乳脂TAG脂肪酸位置分布；研究以DMSO-d₆为溶剂，用定量¹³C NMR独立验证三类牛乳与水牛乳TAG的脂肪酸位置分布。作者选取酯羰基、甘油骨架、烯烃碳及C4:0 sn-3特征区；C4:0约9.38 ppm信号与GC结果一致，并确认其不位于sn-2。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "food_agriculture",
+          "dimension": "application_ids",
+          "basis": "定量¹³C NMR验证乳脂TAG脂肪酸位置分布；研究以DMSO-d₆为溶剂，用定量¹³C NMR独立验证三类牛乳与水牛乳TAG的脂肪酸位置分布。作者选取酯羰基、甘油骨架、烯烃碳及C4:0 sn-3特征区；C4:0约9.38 ppm信号与GC结果一致，并确认其不位于sn-2。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "定量¹³C NMR验证乳脂TAG脂肪酸位置分布",
+        "original_summary_cn": "研究以DMSO-d₆为溶剂，用定量¹³C NMR独立验证三类牛乳与水牛乳TAG的脂肪酸位置分布。作者选取酯羰基、甘油骨架、烯烃碳及C4:0 sn-3特征区；C4:0约9.38 ppm信号与GC结果一致，并确认其不位于sn-2。",
+        "original_meaning_cn": "乳脂qNMR需验证DMSO-d₆溶解、反门控去耦、长弛豫延迟和积分线性；应以GC-FID作交叉方法，并对sn-1/3与sn-2羰基区的基线和峰重叠单独验收。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "定量NMR",
+          "食品与农业"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260825-07",
+      "report_date": "2026-08-25",
+      "item_no": 7,
+      "title_cn": "TEMPO-EPR验证非平面染料光辅助电池动力学",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "spin_probe"
+      ],
+      "application_ids": [
+        "battery"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究提出非平面染料敏化的通用光辅助策略，用于改善高倍率电池反应动力学。作者以TEMPO作为空穴捕获剂开展EPR测试，追踪光照下电荷转移相关变化，并结合电化学结果判断染料构型、光生载流子与快速充放电表现之间的关系。",
+      "meaning_cn": "光电材料EPR需配置可重复定位的原位照光附件，固定光功率、波长、照射时间和样品温升；TEMPO浓度与暗态、无染料、无电极对照必须一致，并检查功率饱和。",
+      "publication_date": "2026-08-24",
+      "time_scope": "24h",
+      "source": "Chemical Science",
+      "url": "https://pubs.rsc.org/sc/article/doi/10.1039/d6sc04549a/1294011/A-universal-photo-assisted-kinetic-enhancement",
+      "doi": "10.1039/d6sc04549a/1294011/a-universal-photo-assisted-kinetic-enhancement",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-25",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-25.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "自旋捕获",
+          "电化学与能源",
+          "电池",
+          "光催化",
+          "材料与缺陷表征"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-25.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "TEMPO-EPR验证非平面染料光辅助电池动力学；研究提出非平面染料敏化的通用光辅助策略，用于改善高倍率电池反应动力学。作者以TEMPO作为空穴捕获剂开展EPR测试，追踪光照下电荷转移相关变化，并结合电化学结果判断染料构型、光生载流子与快速充放电表现之间的关系。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spin_probe",
+          "dimension": "method_ids",
+          "basis": "TEMPO-EPR验证非平面染料光辅助电池动力学；研究提出非平面染料敏化的通用光辅助策略，用于改善高倍率电池反应动力学。作者以TEMPO作为空穴捕获剂开展EPR测试，追踪光照下电荷转移相关变化，并结合电化学结果判断染料构型、光生载流子与快速充放电表现之间的关系。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "battery",
+          "dimension": "application_ids",
+          "basis": "TEMPO-EPR验证非平面染料光辅助电池动力学；研究提出非平面染料敏化的通用光辅助策略，用于改善高倍率电池反应动力学。作者以TEMPO作为空穴捕获剂开展EPR测试，追踪光照下电荷转移相关变化，并结合电化学结果判断染料构型、光生载流子与快速充放电表现之间的关系。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "TEMPO-EPR验证非平面染料光辅助电池动力学",
+        "original_summary_cn": "研究提出非平面染料敏化的通用光辅助策略，用于改善高倍率电池反应动力学。作者以TEMPO作为空穴捕获剂开展EPR测试，追踪光照下电荷转移相关变化，并结合电化学结果判断染料构型、光生载流子与快速充放电表现之间的关系。",
+        "original_meaning_cn": "光电材料EPR需配置可重复定位的原位照光附件，固定光功率、波长、照射时间和样品温升；TEMPO浓度与暗态、无染料、无电极对照必须一致，并检查功率饱和。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "自旋捕获",
+          "电化学与能源",
+          "电池",
+          "光催化",
+          "材料与缺陷表征"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260825-08",
+      "report_date": "2026-08-25",
+      "item_no": 8,
+      "title_cn": "EPR读取Fe–Mn基钠电正极的Mn电子结构调控",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "battery"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "论文构建不含Li、Co、Ni的Fe–Mn基层状正极，以Cu₃d–O₂p–Mn₃d的π型键调节Mn³⁺/Mn⁴⁺工作电位。EPR观察到偏离常规g值、各向异性明显的宽信号，并与其他结构和电化学表征一起用于分析局域电子环境及循环中的自调节氧化还原。",
+      "meaning_cn": "正极EPR应统一粒径、装样质量与荷电状态，比较原始、充电和放电样品；宽线体系需先优化调制幅度、扫描宽度和微波功率，再结合XAS或XPS避免只凭g值归属价态。",
+      "publication_date": "2026-08-24",
+      "time_scope": "24h",
+      "source": "Small",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/smll.75236",
+      "doi": "10.1002/smll.75236",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-25",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-25.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "电化学与能源",
+          "电池",
+          "材料与缺陷表征",
+          "化学结构解析"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-25.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "EPR读取Fe–Mn基钠电正极的Mn电子结构调控；论文构建不含Li、Co、Ni的Fe–Mn基层状正极，以Cu₃d–O₂p–Mn₃d的π型键调节Mn³⁺/Mn⁴⁺工作电位。EPR观察到偏离常规g值、各向异性明显的宽信号，并与其他结构和电化学表征一起用于分析局域电子环境及循环中的自调节氧化还原。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "battery",
+          "dimension": "application_ids",
+          "basis": "EPR读取Fe–Mn基钠电正极的Mn电子结构调控；论文构建不含Li、Co、Ni的Fe–Mn基层状正极，以Cu₃d–O₂p–Mn₃d的π型键调节Mn³⁺/Mn⁴⁺工作电位。EPR观察到偏离常规g值、各向异性明显的宽信号，并与其他结构和电化学表征一起用于分析局域电子环境及循环中的自调节氧化还原。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "EPR读取Fe–Mn基钠电正极的Mn电子结构调控",
+        "original_summary_cn": "论文构建不含Li、Co、Ni的Fe–Mn基层状正极，以Cu₃d–O₂p–Mn₃d的π型键调节Mn³⁺/Mn⁴⁺工作电位。EPR观察到偏离常规g值、各向异性明显的宽信号，并与其他结构和电化学表征一起用于分析局域电子环境及循环中的自调节氧化还原。",
+        "original_meaning_cn": "正极EPR应统一粒径、装样质量与荷电状态，比较原始、充电和放电样品；宽线体系需先优化调制幅度、扫描宽度和微波功率，再结合XAS或XPS避免只凭g值归属价态。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "电化学与能源",
+          "电池",
+          "材料与缺陷表征",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260825-09",
+      "report_date": "2026-08-25",
+      "item_no": 9,
+      "title_cn": "氧空位EPR关联Ni–H₂电池的可逆氢溢流",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "defect_epr"
+      ],
+      "application_ids": [
+        "battery"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究报道无铂族金属Ni–H₂电池通过可逆hydrogen spillover实现超过7500次循环。EPR用于比较TiO₂₋ₓ载体的氧空位相关信号，Ni/TiO₂₋ₓ-1:5样品表现最强；结果把缺陷浓度、氢迁移路径与长期循环稳定性联系起来。",
+      "meaning_cn": "氧空位比较需固定样品质量、腔体位置、增益和功率，并用同系列TiO₂₋ₓ比例样品作双积分；若要跟踪循环变化，应在相同荷电状态下无空气转移并记录停留时间。",
+      "publication_date": "2026-08-24",
+      "time_scope": "24h",
+      "source": "Angewandte Chemie International Edition",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/anie.7674442",
+      "doi": "10.1002/anie.7674442",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-25",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-25.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "缺陷EPR",
+          "电化学与能源",
+          "电池",
+          "材料与缺陷表征"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-25.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "氧空位EPR关联Ni–H₂电池的可逆氢溢流；研究报道无铂族金属Ni–H₂电池通过可逆hydrogen spillover实现超过7500次循环。EPR用于比较TiO₂₋ₓ载体的氧空位相关信号，Ni/TiO₂₋ₓ-1:5样品表现最强；结果把缺陷浓度、氢迁移路径与长期循环稳定性联系起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "defect_epr",
+          "dimension": "method_ids",
+          "basis": "氧空位EPR关联Ni–H₂电池的可逆氢溢流；研究报道无铂族金属Ni–H₂电池通过可逆hydrogen spillover实现超过7500次循环。EPR用于比较TiO₂₋ₓ载体的氧空位相关信号，Ni/TiO₂₋ₓ-1:5样品表现最强；结果把缺陷浓度、氢迁移路径与长期循环稳定性联系起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "battery",
+          "dimension": "application_ids",
+          "basis": "氧空位EPR关联Ni–H₂电池的可逆氢溢流；研究报道无铂族金属Ni–H₂电池通过可逆hydrogen spillover实现超过7500次循环。EPR用于比较TiO₂₋ₓ载体的氧空位相关信号，Ni/TiO₂₋ₓ-1:5样品表现最强；结果把缺陷浓度、氢迁移路径与长期循环稳定性联系起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "氧空位EPR关联Ni–H₂电池的可逆氢溢流",
+        "original_summary_cn": "研究报道无铂族金属Ni–H₂电池通过可逆hydrogen spillover实现超过7500次循环。EPR用于比较TiO₂₋ₓ载体的氧空位相关信号，Ni/TiO₂₋ₓ-1:5样品表现最强；结果把缺陷浓度、氢迁移路径与长期循环稳定性联系起来。",
+        "original_meaning_cn": "氧空位比较需固定样品质量、腔体位置、增益和功率，并用同系列TiO₂₋ₓ比例样品作双积分；若要跟踪循环变化，应在相同荷电状态下无空气转移并记录停留时间。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "缺陷EPR",
+          "电化学与能源",
+          "电池",
+          "材料与缺陷表征"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260825-10",
+      "report_date": "2026-08-25",
+      "item_no": 10,
+      "title_cn": "Aalborg结构解析课程以真实1D/2D NMR训练拓扑推断",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "Aalborg University为期一周的Advanced structure elucidation by spectroscopy课程于8月24日开课。教学以真实样品的1D/2D同核与异核相关谱为练习，覆盖典型伪影和结构解析陷阱，并用信息论解释如何由观测到的自旋拓扑推断未知化学拓扑。",
+      "meaning_cn": "培训或应用支持可采用真实Bruker格式数据，围绕COSY、HSQC、HMBC等相关谱设置逐级题目；考核重点应是冲突约束、伪峰识别和结论置信度，而非只给出最终结构。",
+      "publication_date": "2026-08-24",
+      "time_scope": "24h",
+      "source": "PhD Courses in Denmark / Aalborg University",
+      "url": "https://phdcourses.dk/Course/139450",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-25",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-25.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "化学结构解析",
+          "仪器、软件与方法",
+          "培训与会议"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-25.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "Aalborg结构解析课程以真实1D/2D NMR训练拓扑推断；Aalborg University为期一周的Advanced structure elucidation by spectroscopy课程于8月24日开课。教学以真实样品的1D/2D同核与异核相关谱为练习，覆盖典型伪影和结构解析陷阱，并用信息论解释如何由观测到的自旋拓扑推断未知化学拓扑。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "Aalborg结构解析课程以真实1D/2D NMR训练拓扑推断；Aalborg University为期一周的Advanced structure elucidation by spectroscopy课程于8月24日开课。教学以真实样品的1D/2D同核与异核相关谱为练习，覆盖典型伪影和结构解析陷阱，并用信息论解释如何由观测到的自旋拓扑推断未知化学拓扑。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Aalborg结构解析课程以真实1D/2D NMR训练拓扑推断",
+        "original_summary_cn": "Aalborg University为期一周的Advanced structure elucidation by spectroscopy课程于8月24日开课。教学以真实样品的1D/2D同核与异核相关谱为练习，覆盖典型伪影和结构解析陷阱，并用信息论解释如何由观测到的自旋拓扑推断未知化学拓扑。",
+        "original_meaning_cn": "培训或应用支持可采用真实Bruker格式数据，围绕COSY、HSQC、HMBC等相关谱设置逐级题目；考核重点应是冲突约束、伪峰识别和结论置信度，而非只给出最终结构。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "化学结构解析",
+          "仪器、软件与方法",
+          "培训与会议"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "本期共10条，均来自过去24小时；已按历史索引执行去重。",
+    "source_sha256": "b170d39ec0493e0a998c4f2dfb2748d7b43e9cc99561e446c8c80b707e8ef22f",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

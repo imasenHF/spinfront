@@ -1,0 +1,1135 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-28",
+  "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260928-01",
+      "report_date": "2026-09-28",
+      "item_no": 1,
+      "title_cn": "自动化配体检测NMR把命中复核压缩为三级流程",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "ligand_observed_nmr",
+        "qnmr",
+        "std_nmr",
+        "cpmg"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [
+        "software"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Medicinal Chemistry建立全自动ligand-detected HT-NMR流程：Echo/Tecan完成微量配液，band-selective SOFAST聚焦芳香区，qNMR-SOFAST检查水相浓度、降解与杂质，再以PE CPMG-SOFAST和STD-SOFAST正交判断结合。Python负责处理、质控和报告。",
+      "meaning_cn": "平台可按“化合物质控—两种结合实验—剂量/竞争复核”配置。方法转移时应校准移液、内标、SOFAST选择带宽、CPMG滤波和STD饱和条件，并保存原始FID、判定阈值及假阳性规则；论文报告最低约20 μM可检出，单化合物用量低于100 μg。",
+      "publication_date": "2026-09-27",
+      "time_scope": "7d_extension",
+      "source": "Journal of Medicinal Chemistry",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.jmedchem.6c01749",
+      "doi": "10.1021/acs.jmedchem.6c01749",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-28",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-28.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "qNMR",
+          "STD-NMR",
+          "配体观察NMR",
+          "药物分析",
+          "配体筛选",
+          "仪器",
+          "探头",
+          "自动进样器",
+          "软件"
+        ],
+        "original_type": "自动化HT-NMR与配体筛选",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-28.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "自动化配体检测NMR把命中复核压缩为三级流程；Journal of Medicinal Chemistry建立全自动ligand-detected HT-NMR流程：Echo/Tecan完成微量配液，band-selective SOFAST聚焦芳香区，qNMR-SOFAST检查水相浓度、降解与杂质，再以PE CPMG-SOFAST和STD-SOFAST正交判断结合。Python负责处理、质控和报告。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "自动化配体检测NMR把命中复核压缩为三级流程；Journal of Medicinal Chemistry建立全自动ligand-detected HT-NMR流程：Echo/Tecan完成微量配液，band-selective SOFAST聚焦芳香区，qNMR-SOFAST检查水相浓度、降解与杂质，再以PE CPMG-SOFAST和STD-SOFAST正交判断结合。Python负责处理、质控和报告。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "ligand_observed_nmr",
+          "dimension": "method_ids",
+          "basis": "自动化配体检测NMR把命中复核压缩为三级流程；Journal of Medicinal Chemistry建立全自动ligand-detected HT-NMR流程：Echo/Tecan完成微量配液，band-selective SOFAST聚焦芳香区，qNMR-SOFAST检查水相浓度、降解与杂质，再以PE CPMG-SOFAST和STD-SOFAST正交判断结合。Python负责处理、质控和报告。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "qnmr",
+          "dimension": "method_ids",
+          "basis": "自动化配体检测NMR把命中复核压缩为三级流程；Journal of Medicinal Chemistry建立全自动ligand-detected HT-NMR流程：Echo/Tecan完成微量配液，band-selective SOFAST聚焦芳香区，qNMR-SOFAST检查水相浓度、降解与杂质，再以PE CPMG-SOFAST和STD-SOFAST正交判断结合。Python负责处理、质控和报告。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "std_nmr",
+          "dimension": "method_ids",
+          "basis": "自动化配体检测NMR把命中复核压缩为三级流程；Journal of Medicinal Chemistry建立全自动ligand-detected HT-NMR流程：Echo/Tecan完成微量配液，band-selective SOFAST聚焦芳香区，qNMR-SOFAST检查水相浓度、降解与杂质，再以PE CPMG-SOFAST和STD-SOFAST正交判断结合。Python负责处理、质控和报告。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "cpmg",
+          "dimension": "method_ids",
+          "basis": "自动化配体检测NMR把命中复核压缩为三级流程；Journal of Medicinal Chemistry建立全自动ligand-detected HT-NMR流程：Echo/Tecan完成微量配液，band-selective SOFAST聚焦芳香区，qNMR-SOFAST检查水相浓度、降解与杂质，再以PE CPMG-SOFAST和STD-SOFAST正交判断结合。Python负责处理、质控和报告。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "自动化配体检测NMR把命中复核压缩为三级流程；Journal of Medicinal Chemistry建立全自动ligand-detected HT-NMR流程：Echo/Tecan完成微量配液，band-selective SOFAST聚焦芳香区，qNMR-SOFAST检查水相浓度、降解与杂质，再以PE CPMG-SOFAST和STD-SOFAST正交判断结合。Python负责处理、质控和报告。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "software",
+          "dimension": "instrument_component_ids",
+          "basis": "自动化配体检测NMR把命中复核压缩为三级流程；Journal of Medicinal Chemistry建立全自动ligand-detected HT-NMR流程：Echo/Tecan完成微量配液，band-selective SOFAST聚焦芳香区，qNMR-SOFAST检查水相浓度、降解与杂质，再以PE CPMG-SOFAST和STD-SOFAST正交判断结合。Python负责处理、质控和报告。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "自动化配体检测NMR把命中复核压缩为三级流程",
+        "original_summary_cn": "Journal of Medicinal Chemistry建立全自动ligand-detected HT-NMR流程：Echo/Tecan完成微量配液，band-selective SOFAST聚焦芳香区，qNMR-SOFAST检查水相浓度、降解与杂质，再以PE CPMG-SOFAST和STD-SOFAST正交判断结合。Python负责处理、质控和报告。",
+        "original_meaning_cn": "平台可按“化合物质控—两种结合实验—剂量/竞争复核”配置。方法转移时应校准移液、内标、SOFAST选择带宽、CPMG滤波和STD饱和条件，并保存原始FID、判定阈值及假阳性规则；论文报告最低约20 μM可检出，单化合物用量低于100 μg。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "qNMR",
+          "STD-NMR",
+          "配体观察NMR",
+          "药物分析",
+          "配体筛选",
+          "仪器",
+          "探头",
+          "自动进样器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260928-02",
+      "report_date": "2026-09-28",
+      "item_no": 2,
+      "title_cn": "NMR参数与深度学习排序致密砂岩含气能力",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Petroleum Geology将岩心NMR参数与深度学习影响排序结合，比较微孔结构对致密砂岩含气能力的贡献。束缚水饱和度和有效孔体积比获得最高相邻点权重，孔隙分形维数居次；T₂谱用于区分不同含气水平，并以盲井数据检查模型表现。",
+      "meaning_cn": "应用时须固定岩心含水/含气状态、围压、温度、回波间隔、等待时间和T₂反演正则化；束缚流体截止值不能跨区块照搬。建模应把训练井与盲井严格分开，报告样本量、特征共线性、权重稳定性和预测误差，并用孔渗、压汞或CT结果交叉检查。",
+      "publication_date": "2026-09-27",
+      "time_scope": "7d_extension",
+      "source": "Journal of Petroleum Geology",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/jpg.70148",
+      "doi": "10.1111/jpg.70148",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-28",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-28.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "时域NMR",
+          "计算NMR",
+          "地学流动",
+          "过程分析",
+          "探头",
+          "软件"
+        ],
+        "original_type": "低场NMR与地学流体",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-28.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "NMR参数与深度学习排序致密砂岩含气能力；Journal of Petroleum Geology将岩心NMR参数与深度学习影响排序结合，比较微孔结构对致密砂岩含气能力的贡献。束缚水饱和度和有效孔体积比获得最高相邻点权重，孔隙分形维数居次；T₂谱用于区分不同含气水平，并以盲井数据检查模型表现。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "NMR参数与深度学习排序致密砂岩含气能力；Journal of Petroleum Geology将岩心NMR参数与深度学习影响排序结合，比较微孔结构对致密砂岩含气能力的贡献。束缚水饱和度和有效孔体积比获得最高相邻点权重，孔隙分形维数居次；T₂谱用于区分不同含气水平，并以盲井数据检查模型表现。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "geoscience_flow",
+          "dimension": "application_ids",
+          "basis": "NMR参数与深度学习排序致密砂岩含气能力；Journal of Petroleum Geology将岩心NMR参数与深度学习影响排序结合，比较微孔结构对致密砂岩含气能力的贡献。束缚水饱和度和有效孔体积比获得最高相邻点权重，孔隙分形维数居次；T₂谱用于区分不同含气水平，并以盲井数据检查模型表现。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "NMR参数与深度学习排序致密砂岩含气能力",
+        "original_summary_cn": "Journal of Petroleum Geology将岩心NMR参数与深度学习影响排序结合，比较微孔结构对致密砂岩含气能力的贡献。束缚水饱和度和有效孔体积比获得最高相邻点权重，孔隙分形维数居次；T₂谱用于区分不同含气水平，并以盲井数据检查模型表现。",
+        "original_meaning_cn": "应用时须固定岩心含水/含气状态、围压、温度、回波间隔、等待时间和T₂反演正则化；束缚流体截止值不能跨区块照搬。建模应把训练井与盲井严格分开，报告样本量、特征共线性、权重稳定性和预测误差，并用孔渗、压汞或CT结果交叉检查。",
+        "original_tags": [
+          "NMR",
+          "时域NMR",
+          "计算NMR",
+          "地学流动",
+          "过程分析",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260928-03",
+      "report_date": "2026-09-28",
+      "item_no": 3,
+      "title_cn": "核自旋量子位量化偶极耦合与超精细误差热点",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Advanced Science实验与理论分析硅中核自旋量子位的直接核—核偶极耦合误差，以及关联电子引入的各向异性超精细“热点”。研究把磁场、接触超精细强度和电子隧穿速率写入误差模型，并给出控制与读出缓解方案，报告读出保真度超过99.9%。",
+      "meaning_cn": "评估核自旋寄存器时应同时测电子与核共振频率、耦合张量、脉冲带宽、门时长和电子驻留时间，不能只看单量子位T₂。器件比较需扫描磁场方向与隧穿速率，记录串扰和泄漏；缓解序列应在真实控制误差下报告门保真度、读出保真度及漂移。",
+      "publication_date": "2026-09-27",
+      "time_scope": "7d_extension",
+      "source": "Advanced Science",
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.77080",
+      "doi": "10.1002/advs.77080",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-28",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-28.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR＋EPR",
+          "脉冲EPR",
+          "材料",
+          "仪器",
+          "磁体",
+          "谐振器",
+          "软件"
+        ],
+        "original_type": "核自旋量子位误差",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-28.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "核自旋量子位量化偶极耦合与超精细误差热点；Advanced Science实验与理论分析硅中核自旋量子位的直接核—核偶极耦合误差，以及关联电子引入的各向异性超精细“热点”。研究把磁场、接触超精细强度和电子隧穿速率写入误差模型，并给出控制与读出缓解方案，报告读出保真度超过99.9%。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "核自旋量子位量化偶极耦合与超精细误差热点；Advanced Science实验与理论分析硅中核自旋量子位的直接核—核偶极耦合误差，以及关联电子引入的各向异性超精细“热点”。研究把磁场、接触超精细强度和电子隧穿速率写入误差模型，并给出控制与读出缓解方案，报告读出保真度超过99.9%。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "核自旋量子位量化偶极耦合与超精细误差热点",
+        "original_summary_cn": "Advanced Science实验与理论分析硅中核自旋量子位的直接核—核偶极耦合误差，以及关联电子引入的各向异性超精细“热点”。研究把磁场、接触超精细强度和电子隧穿速率写入误差模型，并给出控制与读出缓解方案，报告读出保真度超过99.9%。",
+        "original_meaning_cn": "评估核自旋寄存器时应同时测电子与核共振频率、耦合张量、脉冲带宽、门时长和电子驻留时间，不能只看单量子位T₂。器件比较需扫描磁场方向与隧穿速率，记录串扰和泄漏；缓解序列应在真实控制误差下报告门保真度、读出保真度及漂移。",
+        "original_tags": [
+          "NMR＋EPR",
+          "脉冲EPR",
+          "材料",
+          "仪器",
+          "磁体",
+          "谐振器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260928-04",
+      "report_date": "2026-09-28",
+      "item_no": 4,
+      "title_cn": "AI解NMR基准暴露复杂分子与¹H静默基团短板",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [
+        "software"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "ChemRxiv v2用105个按结构复杂度和化学类别平衡的分子，比较6种前沿语言模型与4种专用NMR求解器。最佳通用模型准确率24%，最佳专用工具BLIND为69%；各系统都偏向较小分子，并常漏判卤素、腈和重氮等¹H静默基团。",
+      "meaning_cn": "实验室引入自动结构解析时，应保留原始¹H/¹³C及二维相关谱、分子式和候选置信度，并按分子大小、杂原子及静默基团分层验收。模型输出只能作为候选排序；必须通过HMBC/COSY、必要的多核NMR、精确质量及人工化学合理性检查后再确认结构。",
+      "publication_date": "2026-09-22",
+      "time_scope": "7d_extension",
+      "source": "ChemRxiv",
+      "url": "https://chemrxiv.org/doi/10.26434/chemrxiv.15006195",
+      "doi": "10.26434/chemrxiv.15006195/v2",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-28",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-28.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "计算NMR",
+          "化学结构",
+          "软件"
+        ],
+        "original_type": "AI与NMR结构解析",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-28.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "AI解NMR基准暴露复杂分子与¹H静默基团短板；ChemRxiv v2用105个按结构复杂度和化学类别平衡的分子，比较6种前沿语言模型与4种专用NMR求解器。最佳通用模型准确率24%，最佳专用工具BLIND为69%；各系统都偏向较小分子，并常漏判卤素、腈和重氮等¹H静默基团。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "AI解NMR基准暴露复杂分子与¹H静默基团短板；ChemRxiv v2用105个按结构复杂度和化学类别平衡的分子，比较6种前沿语言模型与4种专用NMR求解器。最佳通用模型准确率24%，最佳专用工具BLIND为69%；各系统都偏向较小分子，并常漏判卤素、腈和重氮等¹H静默基团。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "software",
+          "dimension": "instrument_component_ids",
+          "basis": "AI解NMR基准暴露复杂分子与¹H静默基团短板；ChemRxiv v2用105个按结构复杂度和化学类别平衡的分子，比较6种前沿语言模型与4种专用NMR求解器。最佳通用模型准确率24%，最佳专用工具BLIND为69%；各系统都偏向较小分子，并常漏判卤素、腈和重氮等¹H静默基团。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "AI解NMR基准暴露复杂分子与¹H静默基团短板",
+        "original_summary_cn": "ChemRxiv v2用105个按结构复杂度和化学类别平衡的分子，比较6种前沿语言模型与4种专用NMR求解器。最佳通用模型准确率24%，最佳专用工具BLIND为69%；各系统都偏向较小分子，并常漏判卤素、腈和重氮等¹H静默基团。",
+        "original_meaning_cn": "实验室引入自动结构解析时，应保留原始¹H/¹³C及二维相关谱、分子式和候选置信度，并按分子大小、杂原子及静默基团分层验收。模型输出只能作为候选排序；必须通过HMBC/COSY、必要的多核NMR、精确质量及人工化学合理性检查后再确认结构。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "计算NMR",
+          "化学结构",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260928-05",
+      "report_date": "2026-09-28",
+      "item_no": 5,
+      "title_cn": "MOF连接方式削弱核自旋浴并延长Cu(II)相干",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "cw_epr",
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "eseem",
+        "relaxometry"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "ChemRxiv比较Cu-TPTC一维链/氢键棒与Cu-TPTriC二维片层量子位晶格。两者均为氧配位Cu(II)，CW-EPR线宽较Cu–N卟啉体系窄；脉冲EPR显示5–25 K下T₁与Tm延长，Cu-TPTC在5 K的Tm约4.8 μs，并呈较弱ESEEM。",
+      "meaning_cn": "材料筛选不能只以Cu···Cu距离判断退相干。应统一Cu浓度、溶剂/脱溶剂状态、晶格取向、频段、温度和脉冲长度，测CW线宽、T₁、Tm及ESEEM深度；再结合质子密度、低频晶格振动和同位素替换，拆分核自旋浴与晶格动力学贡献。",
+      "publication_date": "2026-09-23",
+      "time_scope": "7d_extension",
+      "source": "ChemRxiv",
+      "url": "https://chemrxiv.org/doi/10.26434/chemrxiv.15009351",
+      "doi": "10.26434/chemrxiv.15009351/v1",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-28",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-28.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "材料",
+          "无机配位",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "脉冲EPR与分子量子位",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-28.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "MOF连接方式削弱核自旋浴并延长Cu(II)相干；ChemRxiv比较Cu-TPTC一维链/氢键棒与Cu-TPTriC二维片层量子位晶格。两者均为氧配位Cu(II)，CW-EPR线宽较Cu–N卟啉体系窄；脉冲EPR显示5–25 K下T₁与Tm延长，Cu-TPTC在5 K的Tm约4.8 μs，并呈较弱ESEEM。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "cw_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "MOF连接方式削弱核自旋浴并延长Cu(II)相干；ChemRxiv比较Cu-TPTC一维链/氢键棒与Cu-TPTriC二维片层量子位晶格。两者均为氧配位Cu(II)，CW-EPR线宽较Cu–N卟啉体系窄；脉冲EPR显示5–25 K下T₁与Tm延长，Cu-TPTC在5 K的Tm约4.8 μs，并呈较弱ESEEM。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "MOF连接方式削弱核自旋浴并延长Cu(II)相干；ChemRxiv比较Cu-TPTC一维链/氢键棒与Cu-TPTriC二维片层量子位晶格。两者均为氧配位Cu(II)，CW-EPR线宽较Cu–N卟啉体系窄；脉冲EPR显示5–25 K下T₁与Tm延长，Cu-TPTC在5 K的Tm约4.8 μs，并呈较弱ESEEM。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "eseem",
+          "dimension": "method_ids",
+          "basis": "MOF连接方式削弱核自旋浴并延长Cu(II)相干；ChemRxiv比较Cu-TPTC一维链/氢键棒与Cu-TPTriC二维片层量子位晶格。两者均为氧配位Cu(II)，CW-EPR线宽较Cu–N卟啉体系窄；脉冲EPR显示5–25 K下T₁与Tm延长，Cu-TPTC在5 K的Tm约4.8 μs，并呈较弱ESEEM。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "MOF连接方式削弱核自旋浴并延长Cu(II)相干；ChemRxiv比较Cu-TPTC一维链/氢键棒与Cu-TPTriC二维片层量子位晶格。两者均为氧配位Cu(II)，CW-EPR线宽较Cu–N卟啉体系窄；脉冲EPR显示5–25 K下T₁与Tm延长，Cu-TPTC在5 K的Tm约4.8 μs，并呈较弱ESEEM。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "MOF连接方式削弱核自旋浴并延长Cu(II)相干；ChemRxiv比较Cu-TPTC一维链/氢键棒与Cu-TPTriC二维片层量子位晶格。两者均为氧配位Cu(II)，CW-EPR线宽较Cu–N卟啉体系窄；脉冲EPR显示5–25 K下T₁与Tm延长，Cu-TPTC在5 K的Tm约4.8 μs，并呈较弱ESEEM。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "MOF连接方式削弱核自旋浴并延长Cu(II)相干",
+        "original_summary_cn": "ChemRxiv比较Cu-TPTC一维链/氢键棒与Cu-TPTriC二维片层量子位晶格。两者均为氧配位Cu(II)，CW-EPR线宽较Cu–N卟啉体系窄；脉冲EPR显示5–25 K下T₁与Tm延长，Cu-TPTC在5 K的Tm约4.8 μs，并呈较弱ESEEM。",
+        "original_meaning_cn": "材料筛选不能只以Cu···Cu距离判断退相干。应统一Cu浓度、溶剂/脱溶剂状态、晶格取向、频段、温度和脉冲长度，测CW线宽、T₁、Tm及ESEEM深度；再结合质子密度、低频晶格振动和同位素替换，拆分核自旋浴与晶格动力学贡献。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "材料",
+          "无机配位",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260928-06",
+      "report_date": "2026-09-28",
+      "item_no": 6,
+      "title_cn": "能级反交叉下核极化呈毫秒转移与慢弛豫双阶段",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "polarization_transfer",
+        "relaxometry"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Chemical Physics在对硝基甲苯粉末中观察非绝热高场—低场切换后的双阶段核极化衰减：首先在毫秒尺度经¹⁴N–¹H能级反交叉发生偶极极化转移，随后进入数十秒弛豫。自建场循环弛豫仪与Liouville–von Neumann计算共同解释曲线。",
+      "meaning_cn": "复现实验需标定高低场强、切换时间、停留时间、样品温度和每次循环的初始极化，并在反交叉附近加密扫场。拟合应把快速转移和纵向弛豫分开，报告场切换波形及仪器死时间；同位素替换或改变分子取向可检验¹⁴N–¹H偶极通道。",
+      "publication_date": "2026-09-21",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Chemical Physics",
+      "url": "https://pubs.aip.org/aip/jcp/article/165/11/114303/3404784/Double-step-nuclear-polarization-decay-under-level",
+      "doi": "10.1063/5.0347367",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-28",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-28.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "计算NMR",
+          "仪器",
+          "化学结构",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_type": "场循环固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-28.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "能级反交叉下核极化呈毫秒转移与慢弛豫双阶段；Journal of Chemical Physics在对硝基甲苯粉末中观察非绝热高场—低场切换后的双阶段核极化衰减：首先在毫秒尺度经¹⁴N–¹H能级反交叉发生偶极极化转移，随后进入数十秒弛豫。自建场循环弛豫仪与Liouville–von Neumann计算共同解释曲线。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "能级反交叉下核极化呈毫秒转移与慢弛豫双阶段；Journal of Chemical Physics在对硝基甲苯粉末中观察非绝热高场—低场切换后的双阶段核极化衰减：首先在毫秒尺度经¹⁴N–¹H能级反交叉发生偶极极化转移，随后进入数十秒弛豫。自建场循环弛豫仪与Liouville–von Neumann计算共同解释曲线。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "polarization_transfer",
+          "dimension": "method_ids",
+          "basis": "能级反交叉下核极化呈毫秒转移与慢弛豫双阶段；Journal of Chemical Physics在对硝基甲苯粉末中观察非绝热高场—低场切换后的双阶段核极化衰减：首先在毫秒尺度经¹⁴N–¹H能级反交叉发生偶极极化转移，随后进入数十秒弛豫。自建场循环弛豫仪与Liouville–von Neumann计算共同解释曲线。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "能级反交叉下核极化呈毫秒转移与慢弛豫双阶段；Journal of Chemical Physics在对硝基甲苯粉末中观察非绝热高场—低场切换后的双阶段核极化衰减：首先在毫秒尺度经¹⁴N–¹H能级反交叉发生偶极极化转移，随后进入数十秒弛豫。自建场循环弛豫仪与Liouville–von Neumann计算共同解释曲线。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "能级反交叉下核极化呈毫秒转移与慢弛豫双阶段；Journal of Chemical Physics在对硝基甲苯粉末中观察非绝热高场—低场切换后的双阶段核极化衰减：首先在毫秒尺度经¹⁴N–¹H能级反交叉发生偶极极化转移，随后进入数十秒弛豫。自建场循环弛豫仪与Liouville–von Neumann计算共同解释曲线。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "能级反交叉下核极化呈毫秒转移与慢弛豫双阶段",
+        "original_summary_cn": "Journal of Chemical Physics在对硝基甲苯粉末中观察非绝热高场—低场切换后的双阶段核极化衰减：首先在毫秒尺度经¹⁴N–¹H能级反交叉发生偶极极化转移，随后进入数十秒弛豫。自建场循环弛豫仪与Liouville–von Neumann计算共同解释曲线。",
+        "original_meaning_cn": "复现实验需标定高低场强、切换时间、停留时间、样品温度和每次循环的初始极化，并在反交叉附近加密扫场。拟合应把快速转移和纵向弛豫分开，报告场切换波形及仪器死时间；同位素替换或改变分子取向可检验¹⁴N–¹H偶极通道。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "计算NMR",
+          "仪器",
+          "化学结构",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260928-07",
+      "report_date": "2026-09-28",
+      "item_no": 7,
+      "title_cn": "²⁹Si核自旋扩散改变低温高场硅ESR谱形",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Physical Review B研究低温、高磁场条件下²⁹Si核自旋扩散对硅中ESR谱的影响，聚焦超精细耦合核自旋浴如何随时间重排并改变电子共振线形。工作把核自旋扩散纳入ESR解释，提醒硅自旋器件的线宽、漂移和谱扩散不能只归因于电子弛豫。",
+      "meaning_cn": "器件或材料比较应记录²⁹Si丰度、掺杂中心、温度、磁场、等待时间、扫场速率及微波功率，并以不同同位素纯度样品核对谱形。数据处理需区分静态非均匀展宽与时间依赖谱扩散；若用于量子位评估，还应同步测回波衰减和重复采集漂移。",
+      "publication_date": "2026-09-21",
+      "time_scope": "7d_extension",
+      "source": "Physical Review B",
+      "url": "https://journals.aps.org/prb/abstract/10.1103/417j-6hyz",
+      "doi": "10.1103/417j-6hyz",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-28",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-28.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "材料",
+          "仪器",
+          "磁体",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "硅ESR与核自旋扩散",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-28.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "²⁹Si核自旋扩散改变低温高场硅ESR谱形；Physical Review B研究低温、高磁场条件下²⁹Si核自旋扩散对硅中ESR谱的影响，聚焦超精细耦合核自旋浴如何随时间重排并改变电子共振线形。工作把核自旋扩散纳入ESR解释，提醒硅自旋器件的线宽、漂移和谱扩散不能只归因于电子弛豫。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "²⁹Si核自旋扩散改变低温高场硅ESR谱形；Physical Review B研究低温、高磁场条件下²⁹Si核自旋扩散对硅中ESR谱的影响，聚焦超精细耦合核自旋浴如何随时间重排并改变电子共振线形。工作把核自旋扩散纳入ESR解释，提醒硅自旋器件的线宽、漂移和谱扩散不能只归因于电子弛豫。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "²⁹Si核自旋扩散改变低温高场硅ESR谱形",
+        "original_summary_cn": "Physical Review B研究低温、高磁场条件下²⁹Si核自旋扩散对硅中ESR谱的影响，聚焦超精细耦合核自旋浴如何随时间重排并改变电子共振线形。工作把核自旋扩散纳入ESR解释，提醒硅自旋器件的线宽、漂移和谱扩散不能只归因于电子弛豫。",
+        "original_meaning_cn": "器件或材料比较应记录²⁹Si丰度、掺杂中心、温度、磁场、等待时间、扫场速率及微波功率，并以不同同位素纯度样品核对谱形。数据处理需区分静态非均匀展宽与时间依赖谱扩散；若用于量子位评估，还应同步测回波衰减和重复采集漂移。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "材料",
+          "仪器",
+          "磁体",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260928-08",
+      "report_date": "2026-09-28",
+      "item_no": 8,
+      "title_cn": "2秒PRESS-fMRS用于训练视觉皮层Glx双向调节",
+      "direction_ids": [
+        "mrs"
+      ],
+      "experiment_type_ids": [
+        "in_vivo_mrs"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "NMR in Biomedicine将实时fMRS反馈用于谷氨酸–谷氨酰胺（Glx）调节训练。30名受试者分为真实反馈和随机反馈组，在3 T视觉皮层体素连续采集2秒PRESS，共30轮；真实反馈组学会升高或降低Glx，随机反馈组未出现相同趋势。",
+      "meaning_cn": "复现需固定体素位置、PRESS TE/TR、匀场、频漂校正、组织分数和反馈延迟，并为每个2秒谱保留S/N、线宽与拟合不确定度。训练效应应与随机反馈、运动/呼吸和任务诱发B₀变化比较；Glx为合并峰，不能直接等同于单独谷氨酸变化。",
+      "publication_date": "2026-09-21",
+      "time_scope": "7d_extension",
+      "source": "NMR in Biomedicine",
+      "url": "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/nbm.70399",
+      "doi": "10.1002/nbm.70399",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-28",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-28.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "MRS",
+          "体内MRS",
+          "生命科学",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_type": "实时功能MRS",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-28.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "mrs",
+          "dimension": "direction_ids",
+          "basis": "2秒PRESS-fMRS用于训练视觉皮层Glx双向调节；NMR in Biomedicine将实时fMRS反馈用于谷氨酸–谷氨酰胺（Glx）调节训练。30名受试者分为真实反馈和随机反馈组，在3 T视觉皮层体素连续采集2秒PRESS，共30轮；真实反馈组学会升高或降低Glx，随机反馈组未出现相同趋势。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "in_vivo_mrs",
+          "dimension": "experiment_type_ids",
+          "basis": "2秒PRESS-fMRS用于训练视觉皮层Glx双向调节；NMR in Biomedicine将实时fMRS反馈用于谷氨酸–谷氨酰胺（Glx）调节训练。30名受试者分为真实反馈和随机反馈组，在3 T视觉皮层体素连续采集2秒PRESS，共30轮；真实反馈组学会升高或降低Glx，随机反馈组未出现相同趋势。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "life_science",
+          "dimension": "application_ids",
+          "basis": "2秒PRESS-fMRS用于训练视觉皮层Glx双向调节；NMR in Biomedicine将实时fMRS反馈用于谷氨酸–谷氨酰胺（Glx）调节训练。30名受试者分为真实反馈和随机反馈组，在3 T视觉皮层体素连续采集2秒PRESS，共30轮；真实反馈组学会升高或降低Glx，随机反馈组未出现相同趋势。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "2秒PRESS-fMRS用于训练视觉皮层Glx双向调节",
+        "original_summary_cn": "NMR in Biomedicine将实时fMRS反馈用于谷氨酸–谷氨酰胺（Glx）调节训练。30名受试者分为真实反馈和随机反馈组，在3 T视觉皮层体素连续采集2秒PRESS，共30轮；真实反馈组学会升高或降低Glx，随机反馈组未出现相同趋势。",
+        "original_meaning_cn": "复现需固定体素位置、PRESS TE/TR、匀场、频漂校正、组织分数和反馈延迟，并为每个2秒谱保留S/N、线宽与拟合不确定度。训练效应应与随机反馈、运动/呼吸和任务诱发B₀变化比较；Glx为合并峰，不能直接等同于单独谷氨酸变化。",
+        "original_tags": [
+          "MRS",
+          "体内MRS",
+          "生命科学",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260928-09",
+      "report_date": "2026-09-28",
+      "item_no": 9,
+      "title_cn": "螺旋MRSI构建肌内脂质快速指数并验证重复性",
+      "direction_ids": [
+        "mrs"
+      ],
+      "experiment_type_ids": [
+        "in_vivo_mrs"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Chemical & Biomedical Imaging提出3 T小腿螺旋MRSI的apparent intramyocellular lipid index（AIMLI）。双调谐¹H/³¹P线圈采集后以FID模值做频率配准，并由1.09–1.71 ppm归一化累积幅度计算指数；与LCModel比较后，AIMLI显示更低重复性变异。",
+      "meaning_cn": "方法部署应固定线圈位置、脂肪抑制、螺旋轨迹、体素、运动约束和频率配准，并用重复定位评估日内/日间CV。AIMLI是表观指数，需与LCModel、肌间脂肪污染及线圈敏感度校正比较；禁食和恢复实验还要统一饮食、活动及采集时段。",
+      "publication_date": "2026-09-23",
+      "time_scope": "7d_extension",
+      "source": "Chemical & Biomedical Imaging",
+      "url": "https://pubs.acs.org/doi/10.1021/cbmi.5c00221",
+      "doi": "10.1021/cbmi.5c00221",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-28",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-28.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "MRS",
+          "体内MRS",
+          "生命科学",
+          "仪器",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_type": "螺旋MRSI与肌内脂质",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-28.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "mrs",
+          "dimension": "direction_ids",
+          "basis": "螺旋MRSI构建肌内脂质快速指数并验证重复性；Chemical & Biomedical Imaging提出3 T小腿螺旋MRSI的apparent intramyocellular lipid index（AIMLI）。双调谐¹H/³¹P线圈采集后以FID模值做频率配准，并由1.09–1.71 ppm归一化累积幅度计算指数；与LCModel比较后，AIMLI显示更低重复性变异。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "in_vivo_mrs",
+          "dimension": "experiment_type_ids",
+          "basis": "螺旋MRSI构建肌内脂质快速指数并验证重复性；Chemical & Biomedical Imaging提出3 T小腿螺旋MRSI的apparent intramyocellular lipid index（AIMLI）。双调谐¹H/³¹P线圈采集后以FID模值做频率配准，并由1.09–1.71 ppm归一化累积幅度计算指数；与LCModel比较后，AIMLI显示更低重复性变异。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "life_science",
+          "dimension": "application_ids",
+          "basis": "螺旋MRSI构建肌内脂质快速指数并验证重复性；Chemical & Biomedical Imaging提出3 T小腿螺旋MRSI的apparent intramyocellular lipid index（AIMLI）。双调谐¹H/³¹P线圈采集后以FID模值做频率配准，并由1.09–1.71 ppm归一化累积幅度计算指数；与LCModel比较后，AIMLI显示更低重复性变异。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "螺旋MRSI构建肌内脂质快速指数并验证重复性",
+        "original_summary_cn": "Chemical & Biomedical Imaging提出3 T小腿螺旋MRSI的apparent intramyocellular lipid index（AIMLI）。双调谐¹H/³¹P线圈采集后以FID模值做频率配准，并由1.09–1.71 ppm归一化累积幅度计算指数；与LCModel比较后，AIMLI显示更低重复性变异。",
+        "original_meaning_cn": "方法部署应固定线圈位置、脂肪抑制、螺旋轨迹、体素、运动约束和频率配准，并用重复定位评估日内/日间CV。AIMLI是表观指数，需与LCModel、肌间脂肪污染及线圈敏感度校正比较；禁食和恢复实验还要统一饮食、活动及采集时段。",
+        "original_tags": [
+          "MRS",
+          "体内MRS",
+          "生命科学",
+          "仪器",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260928-10",
+      "report_date": "2026-09-28",
+      "item_no": 10,
+      "title_cn": "¹H-NMR建立长颈鹿与白犀牛血液代谢基线",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Metabolomics以500 MHz ¹H-NMR比较长颈鹿与白犀牛血浆/血清，采用1D NOESY预饱和、128次扫描和TSP参照，给出野生动物代谢基线。研究在主要分析中发现多种差异代谢物，但物种与采集批次不可完全分离，因此另报告更保守的28项核心差异。",
+      "meaning_cn": "建立动物代谢参考库时须统一血浆/血清类型、采血至冻存时间、冻融次数、缓冲液、温度和抑水条件，并保留批次信息。统计模型应把动物重复采样、性别/年龄和采集批次列入设计；跨物种差异需外部队列验证，不能把批次相关峰直接解释为生物学。",
+      "publication_date": "2026-09-23",
+      "time_scope": "7d_extension",
+      "source": "Metabolomics",
+      "url": "https://link.springer.com/article/10.1007/s11306-026-02535-0",
+      "doi": "10.1007/s11306-026-02535-0",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-28",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-28.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "代谢组学",
+          "生命科学",
+          "探头",
+          "软件"
+        ],
+        "original_type": "野生动物NMR代谢组学",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-28.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "¹H-NMR建立长颈鹿与白犀牛血液代谢基线；Metabolomics以500 MHz ¹H-NMR比较长颈鹿与白犀牛血浆/血清，采用1D NOESY预饱和、128次扫描和TSP参照，给出野生动物代谢基线。研究在主要分析中发现多种差异代谢物，但物种与采集批次不可完全分离，因此另报告更保守的28项核心差异。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "¹H-NMR建立长颈鹿与白犀牛血液代谢基线；Metabolomics以500 MHz ¹H-NMR比较长颈鹿与白犀牛血浆/血清，采用1D NOESY预饱和、128次扫描和TSP参照，给出野生动物代谢基线。研究在主要分析中发现多种差异代谢物，但物种与采集批次不可完全分离，因此另报告更保守的28项核心差异。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "life_science",
+          "dimension": "application_ids",
+          "basis": "¹H-NMR建立长颈鹿与白犀牛血液代谢基线；Metabolomics以500 MHz ¹H-NMR比较长颈鹿与白犀牛血浆/血清，采用1D NOESY预饱和、128次扫描和TSP参照，给出野生动物代谢基线。研究在主要分析中发现多种差异代谢物，但物种与采集批次不可完全分离，因此另报告更保守的28项核心差异。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "¹H-NMR建立长颈鹿与白犀牛血液代谢基线",
+        "original_summary_cn": "Metabolomics以500 MHz ¹H-NMR比较长颈鹿与白犀牛血浆/血清，采用1D NOESY预饱和、128次扫描和TSP参照，给出野生动物代谢基线。研究在主要分析中发现多种差异代谢物，但物种与采集批次不可完全分离，因此另报告更保守的28项核心差异。",
+        "original_meaning_cn": "建立动物代谢参考库时须统一血浆/血清类型、采血至冻存时间、冻融次数、缓冲液、温度和抑水条件，并保留批次信息。统计模型应把动物重复采样、性别/年龄和采集批次列入设计；跨物种差异需外部队列验证，不能把批次相关峰直接解释为生物学。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "代谢组学",
+          "生命科学",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "常规检索确认3条发布日期为2026年9月27日的合格新增，但出版页面均未给出可证明落入过去24小时的精确时刻，故统一标为近7天扩展；过去24小时严格口径少于5条，已启动增强搜索。增强检索逐站核查Journal of Magnetic Resonance及指定磁共振期刊，扩展至ACS、RSC、Wiley、Springer Nature、Elsevier、AIP、ChemRxiv、arXiv、PubMed/Crossref、科研机构、厂商、会议和中外采购，并按全部规定方法主题簇分轮检索。增强阶段获得10条合格且未重复的非SCM信息，未触发第二级深度增强检索。本期3条发布于9月27日，7条发布于9月21日至23日，均为近7天扩展。结合2026年9月21日至27日最近7期共70条记录查重，排除14条既有记录、9条日期无法可靠核验的候选，并剔除17条医学MRI、缩写误检、常驻页面或仅将NMR/EPR作为辅助表征的内容。JMR的Articles in Press已单独核验，近期符合条件的4篇均已在既往日报发送，本期不重复；本期不含SCM内容。待复核标签：HT-NMR SOFAST、PE CPMG-SOFAST、NMR-深度学习微孔排序、核自旋量子位偶极误差、AI NMR benchmark、Cu(II)-MOF核自旋浴、level anticrossing双阶段衰减、29Si自旋扩散ESR、fMRS neurofeedback、AIMLI spiral MRSI及野生动物1H-NMR代谢基线保留在sample_systems和正文中，未创建新的正式ID。",
+    "source_sha256": "f0a9bb0ba1fb8067ebf8b4477d46b3234f70ca1085513e8b462c25fa00fb4434",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

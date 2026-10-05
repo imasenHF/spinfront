@@ -1,0 +1,1100 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-27",
+  "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260927-01",
+      "report_date": "2026-09-27",
+      "item_no": 1,
+      "title_cn": "光学检测交叉弛豫共振连接多类固态自旋缺陷",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "odmr"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "review",
+      "summary_cn": "Applied Magnetic Resonance梳理绝缘体与半导体晶体中的光学检测交叉弛豫共振，覆盖碱卤化物F中心、Ce³⁺–Gd³⁺离子对、GaAs/AlAs局域激子、金刚石NV中心及SiC空位中心，比较吸收、发光或ODMR读出如何捕捉相邻自旋能级匹配。",
+      "meaning_cn": "设计实验应先计算目标自旋的场依赖能级交叉，再固定光泵浦波长、偏置场方向、微波频率、温度及光学检测通道。需用暗态、无缺陷或不同掺杂浓度样品核对共振条件，并同步报告线宽、饱和行为、交叉弛豫速率和光学对比度。",
+      "publication_date": "2026-09-26",
+      "time_scope": "7d_extension",
+      "source": "Applied Magnetic Resonance",
+      "url": "https://link.springer.com/article/10.1007/s00723-026-01883-3",
+      "doi": "10.1007/s00723-026-01883-3",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-27",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-27.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "缺陷EPR",
+          "材料",
+          "仪器",
+          "磁体",
+          "谐振器",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "缺陷EPR与光学读出",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-27.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "光学检测交叉弛豫共振连接多类固态自旋缺陷；Applied Magnetic Resonance梳理绝缘体与半导体晶体中的光学检测交叉弛豫共振，覆盖碱卤化物F中心、Ce³⁺–Gd³⁺离子对、GaAs/AlAs局域激子、金刚石NV中心及SiC空位中心，比较吸收、发光或ODMR读出如何捕捉相邻自旋能级匹配。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "odmr",
+          "dimension": "method_ids",
+          "basis": "光学检测交叉弛豫共振连接多类固态自旋缺陷；Applied Magnetic Resonance梳理绝缘体与半导体晶体中的光学检测交叉弛豫共振，覆盖碱卤化物F中心、Ce³⁺–Gd³⁺离子对、GaAs/AlAs局域激子、金刚石NV中心及SiC空位中心，比较吸收、发光或ODMR读出如何捕捉相邻自旋能级匹配。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "光学检测交叉弛豫共振连接多类固态自旋缺陷；Applied Magnetic Resonance梳理绝缘体与半导体晶体中的光学检测交叉弛豫共振，覆盖碱卤化物F中心、Ce³⁺–Gd³⁺离子对、GaAs/AlAs局域激子、金刚石NV中心及SiC空位中心，比较吸收、发光或ODMR读出如何捕捉相邻自旋能级匹配。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "光学检测交叉弛豫共振连接多类固态自旋缺陷",
+        "original_summary_cn": "Applied Magnetic Resonance梳理绝缘体与半导体晶体中的光学检测交叉弛豫共振，覆盖碱卤化物F中心、Ce³⁺–Gd³⁺离子对、GaAs/AlAs局域激子、金刚石NV中心及SiC空位中心，比较吸收、发光或ODMR读出如何捕捉相邻自旋能级匹配。",
+        "original_meaning_cn": "设计实验应先计算目标自旋的场依赖能级交叉，再固定光泵浦波长、偏置场方向、微波频率、温度及光学检测通道。需用暗态、无缺陷或不同掺杂浓度样品核对共振条件，并同步报告线宽、饱和行为、交叉弛豫速率和光学对比度。",
+        "original_tags": [
+          "EPR",
+          "缺陷EPR",
+          "材料",
+          "仪器",
+          "磁体",
+          "谐振器",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260927-02",
+      "report_date": "2026-09-27",
+      "item_no": 2,
+      "title_cn": "宽频低温ESR贯穿重费米金属量子临界相图",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Physical Review Letters以宽频、宽场和超低温ESR跟踪重费米金属YbRh₂Si₂，从顺磁费米液体、反铁磁有序区跨越量子临界区。g因子与线宽在三个区间呈不同演化；沿临界场降温时二者连续减小，场调谐与温度调谐得到的g因子变化相互吻合。",
+      "meaning_cn": "复现实验需在同一晶体取向上建立频率–磁场–温度三维数据，校准谐振器频率、场强、样品温度和功率饱和。分析应同时拟合共振场、g因子、线宽和积分强度，并把磁化、比热或输运给出的相边界叠加比较，避免只用单频线宽判断临界行为。",
+      "publication_date": "2026-09-25",
+      "time_scope": "7d_extension",
+      "source": "Physical Review Letters",
+      "url": "https://journals.aps.org/prl/abstract/10.1103/y227-dk8f",
+      "doi": "10.1103/y227-dk8f",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-27",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-27.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "材料",
+          "仪器",
+          "磁体",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "低温ESR与量子材料",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-27.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "宽频低温ESR贯穿重费米金属量子临界相图；Physical Review Letters以宽频、宽场和超低温ESR跟踪重费米金属YbRh₂Si₂，从顺磁费米液体、反铁磁有序区跨越量子临界区。g因子与线宽在三个区间呈不同演化；沿临界场降温时二者连续减小，场调谐与温度调谐得到的g因子变化相互吻合。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "宽频低温ESR贯穿重费米金属量子临界相图；Physical Review Letters以宽频、宽场和超低温ESR跟踪重费米金属YbRh₂Si₂，从顺磁费米液体、反铁磁有序区跨越量子临界区。g因子与线宽在三个区间呈不同演化；沿临界场降温时二者连续减小，场调谐与温度调谐得到的g因子变化相互吻合。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "宽频低温ESR贯穿重费米金属量子临界相图",
+        "original_summary_cn": "Physical Review Letters以宽频、宽场和超低温ESR跟踪重费米金属YbRh₂Si₂，从顺磁费米液体、反铁磁有序区跨越量子临界区。g因子与线宽在三个区间呈不同演化；沿临界场降温时二者连续减小，场调谐与温度调谐得到的g因子变化相互吻合。",
+        "original_meaning_cn": "复现实验需在同一晶体取向上建立频率–磁场–温度三维数据，校准谐振器频率、场强、样品温度和功率饱和。分析应同时拟合共振场、g因子、线宽和积分强度，并把磁化、比热或输运给出的相边界叠加比较，避免只用单频线宽判断临界行为。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "材料",
+          "仪器",
+          "磁体",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260927-03",
+      "report_date": "2026-09-27",
+      "item_no": 3,
+      "title_cn": "原位¹⁹F NMR测出纳米液滴尺寸依赖界面张力",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Langmuir以原位¹⁹F NMR监测水中全氟丙烷纳米液滴在降压过程中的信号，定量反演内部压力。所得界面张力在粒径低于约180 nm时明显低于宏观值并随尺寸下降；二维EXSY和自旋饱和转移差实验又确认C₃F₈跨界面的双向交换。",
+      "meaning_cn": "实验需记录液滴粒径分布、C₃F₈装载量、温度、外压变化速率、¹⁹F参照和样品密封结构。EXSY应扫描混合时间，饱和转移需核对偏频、功率及非特异饱和；压力反演要传播粒径和化学位移误差，并用宏观液滴或无液滴溶液作对照。",
+      "publication_date": "2026-09-25",
+      "time_scope": "7d_extension",
+      "source": "Langmuir",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.langmuir.6c04722",
+      "doi": "10.1021/acs.langmuir.6c04722",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-27",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-27.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "材料",
+          "过程分析",
+          "探头",
+          "软件"
+        ],
+        "original_type": "原位多相NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-27.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "原位¹⁹F NMR测出纳米液滴尺寸依赖界面张力；Langmuir以原位¹⁹F NMR监测水中全氟丙烷纳米液滴在降压过程中的信号，定量反演内部压力。所得界面张力在粒径低于约180 nm时明显低于宏观值并随尺寸下降；二维EXSY和自旋饱和转移差实验又确认C₃F₈跨界面的双向交换。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "原位¹⁹F NMR测出纳米液滴尺寸依赖界面张力；Langmuir以原位¹⁹F NMR监测水中全氟丙烷纳米液滴在降压过程中的信号，定量反演内部压力。所得界面张力在粒径低于约180 nm时明显低于宏观值并随尺寸下降；二维EXSY和自旋饱和转移差实验又确认C₃F₈跨界面的双向交换。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "原位¹⁹F NMR测出纳米液滴尺寸依赖界面张力；Langmuir以原位¹⁹F NMR监测水中全氟丙烷纳米液滴在降压过程中的信号，定量反演内部压力。所得界面张力在粒径低于约180 nm时明显低于宏观值并随尺寸下降；二维EXSY和自旋饱和转移差实验又确认C₃F₈跨界面的双向交换。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "原位¹⁹F NMR测出纳米液滴尺寸依赖界面张力",
+        "original_summary_cn": "Langmuir以原位¹⁹F NMR监测水中全氟丙烷纳米液滴在降压过程中的信号，定量反演内部压力。所得界面张力在粒径低于约180 nm时明显低于宏观值并随尺寸下降；二维EXSY和自旋饱和转移差实验又确认C₃F₈跨界面的双向交换。",
+        "original_meaning_cn": "实验需记录液滴粒径分布、C₃F₈装载量、温度、外压变化速率、¹⁹F参照和样品密封结构。EXSY应扫描混合时间，饱和转移需核对偏频、功率及非特异饱和；压力反演要传播粒径和化学位移误差，并用宏观液滴或无液滴溶液作对照。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "材料",
+          "过程分析",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260927-04",
+      "report_date": "2026-09-27",
+      "item_no": 4,
+      "title_cn": "江苏师范大学公开采购600 MHz核磁波谱仪",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "procurement"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "tender",
+      "summary_cn": "徐州市公共资源交易平台发布江苏师范大学核磁波谱仪公开招标，项目编号JSZC-320300-SRZT-G2026-0005，采购1台600 MHz仪器，用于材料、有机、药物和分子生物学中的小分子、生物大分子及合成高分子定性与定量分析，投标截止10月16日。",
+      "meaning_cn": "配置评审应以采购文件为准，逐项核对磁体屏蔽与场地、液体探头核种/梯度、自动调谐匀场、温控、软件许可和验收标准。建议用规定标准样测试¹H灵敏度、线形、分辨率、锁场漂移及多核通道，并明确安装、培训、液氦保障和质保边界。",
+      "publication_date": "2026-09-24",
+      "time_scope": "7d_extension",
+      "source": "徐州市公共资源交易平台",
+      "url": "https://ggzy.zwb.xz.gov.cn/jyxx/003004/003004002/20260924/0070efca-6e27-4486-a129-076b43ecbed7.html",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-27",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-27.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "仪器",
+          "采购",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_type": "仪器采购",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-27.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "江苏师范大学公开采购600 MHz核磁波谱仪；徐州市公共资源交易平台发布江苏师范大学核磁波谱仪公开招标，项目编号JSZC-320300-SRZT-G2026-0005，采购1台600 MHz仪器，用于材料、有机、药物和分子生物学中的小分子、生物大分子及合成高分子定性与定量分析，投标截止10月16日。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "procurement",
+          "dimension": "application_ids",
+          "basis": "江苏师范大学公开采购600 MHz核磁波谱仪；徐州市公共资源交易平台发布江苏师范大学核磁波谱仪公开招标，项目编号JSZC-320300-SRZT-G2026-0005，采购1台600 MHz仪器，用于材料、有机、药物和分子生物学中的小分子、生物大分子及合成高分子定性与定量分析，投标截止10月16日。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "江苏师范大学公开采购600 MHz核磁波谱仪",
+        "original_summary_cn": "徐州市公共资源交易平台发布江苏师范大学核磁波谱仪公开招标，项目编号JSZC-320300-SRZT-G2026-0005，采购1台600 MHz仪器，用于材料、有机、药物和分子生物学中的小分子、生物大分子及合成高分子定性与定量分析，投标截止10月16日。",
+        "original_meaning_cn": "配置评审应以采购文件为准，逐项核对磁体屏蔽与场地、液体探头核种/梯度、自动调谐匀场、温控、软件许可和验收标准。建议用规定标准样测试¹H灵敏度、线形、分辨率、锁场漂移及多核通道，并明确安装、培训、液氦保障和质保边界。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "仪器",
+          "采购",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260927-05",
+      "report_date": "2026-09-27",
+      "item_no": 5,
+      "title_cn": "¹¹B NMR与B K-edge XAS共评锕系–硼氢键共价性",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr",
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "JACS首次在同一组Th/U硼氢配合物上比较B K-edge XAS与多核NMR。XAS及TDDFT把主要特征归于B 1s→An–H–B π*跃迁，显示6d参与的三中心二电子键占主导、5f贡献较小；抗磁Th体系的¹H/¹¹B位移和含自旋–轨道耦合的DFT给出相符判断。",
+      "meaning_cn": "实验需在严格无水无氧条件下制备并密封Th/U样品，统一溶剂、浓度、温度和¹¹B化学位移参照。对顺磁U体系应评估展宽与位移机制；理论计算需报告相对论处理和自旋–轨道耦合。NMR与XAS比较应使用同批样品并区分轨道专属性与溶液平均效应。",
+      "publication_date": "2026-09-22",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://pubs.acs.org/doi/10.1021/jacs.6c02674",
+      "doi": "10.1021/jacs.6c02674",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-27",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-27.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "化学结构",
+          "无机配位",
+          "探头",
+          "软件"
+        ],
+        "original_type": "多核NMR与锕系配位",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-27.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "¹¹B NMR与B K-edge XAS共评锕系–硼氢键共价性；JACS首次在同一组Th/U硼氢配合物上比较B K-edge XAS与多核NMR。XAS及TDDFT把主要特征归于B 1s→An–H–B π*跃迁，显示6d参与的三中心二电子键占主导、5f贡献较小；抗磁Th体系的¹H/¹¹B位移和含自旋–轨道耦合的DFT给出相符判断。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "¹¹B NMR与B K-edge XAS共评锕系–硼氢键共价性；JACS首次在同一组Th/U硼氢配合物上比较B K-edge XAS与多核NMR。XAS及TDDFT把主要特征归于B 1s→An–H–B π*跃迁，显示6d参与的三中心二电子键占主导、5f贡献较小；抗磁Th体系的¹H/¹¹B位移和含自旋–轨道耦合的DFT给出相符判断。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "¹¹B NMR与B K-edge XAS共评锕系–硼氢键共价性；JACS首次在同一组Th/U硼氢配合物上比较B K-edge XAS与多核NMR。XAS及TDDFT把主要特征归于B 1s→An–H–B π*跃迁，显示6d参与的三中心二电子键占主导、5f贡献较小；抗磁Th体系的¹H/¹¹B位移和含自旋–轨道耦合的DFT给出相符判断。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "computation_nmr",
+          "dimension": "method_ids",
+          "basis": "¹¹B NMR与B K-edge XAS共评锕系–硼氢键共价性；JACS首次在同一组Th/U硼氢配合物上比较B K-edge XAS与多核NMR。XAS及TDDFT把主要特征归于B 1s→An–H–B π*跃迁，显示6d参与的三中心二电子键占主导、5f贡献较小；抗磁Th体系的¹H/¹¹B位移和含自旋–轨道耦合的DFT给出相符判断。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "inorganic_coordination",
+          "dimension": "application_ids",
+          "basis": "¹¹B NMR与B K-edge XAS共评锕系–硼氢键共价性；JACS首次在同一组Th/U硼氢配合物上比较B K-edge XAS与多核NMR。XAS及TDDFT把主要特征归于B 1s→An–H–B π*跃迁，显示6d参与的三中心二电子键占主导、5f贡献较小；抗磁Th体系的¹H/¹¹B位移和含自旋–轨道耦合的DFT给出相符判断。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "¹¹B NMR与B K-edge XAS共评锕系–硼氢键共价性",
+        "original_summary_cn": "JACS首次在同一组Th/U硼氢配合物上比较B K-edge XAS与多核NMR。XAS及TDDFT把主要特征归于B 1s→An–H–B π*跃迁，显示6d参与的三中心二电子键占主导、5f贡献较小；抗磁Th体系的¹H/¹¹B位移和含自旋–轨道耦合的DFT给出相符判断。",
+        "original_meaning_cn": "实验需在严格无水无氧条件下制备并密封Th/U样品，统一溶剂、浓度、温度和¹¹B化学位移参照。对顺磁U体系应评估展宽与位移机制；理论计算需报告相对论处理和自旋–轨道耦合。NMR与XAS比较应使用同批样品并区分轨道专属性与溶液平均效应。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "化学结构",
+          "无机配位",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260927-06",
+      "report_date": "2026-09-27",
+      "item_no": 6,
+      "title_cn": "LED-NMR定量可见光T型分子开关的E/Z动力学",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "reaction_monitoring"
+      ],
+      "application_ids": [
+        "process_analysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "ChemPhotoChem以原位LED-NMR和UV–Vis评价4-heteryl-vinyl-butenolide T型光开关。365–470 nm照射可使最佳衍生物在光稳态达到约95%–96% Z异构体；取代基和溶剂把热Z→E半衰期调至约1–40 h，多轮切换多数仅见少量副反应。",
+      "meaning_cn": "装置需标定样品位置的LED波长、功率、光程、占空比和温升，并固定浓度、溶剂、氧含量与NMR温度。应以暗态和不同波长对照计算E/Z积分、光稳态组成及回转速率，检查照射不均、峰重叠与光降解；重复循环要保留完整时间序列。",
+      "publication_date": "2026-09-25",
+      "time_scope": "7d_extension",
+      "source": "ChemPhotoChem",
+      "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cptc.70294",
+      "doi": "10.1002/cptc.70294",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-27",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-27.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "反应监测",
+          "材料",
+          "化学结构",
+          "探头",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "光化学原位NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-27.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "LED-NMR定量可见光T型分子开关的E/Z动力学；ChemPhotoChem以原位LED-NMR和UV–Vis评价4-heteryl-vinyl-butenolide T型光开关。365–470 nm照射可使最佳衍生物在光稳态达到约95%–96% Z异构体；取代基和溶剂把热Z→E半衰期调至约1–40 h，多轮切换多数仅见少量副反应。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "LED-NMR定量可见光T型分子开关的E/Z动力学；ChemPhotoChem以原位LED-NMR和UV–Vis评价4-heteryl-vinyl-butenolide T型光开关。365–470 nm照射可使最佳衍生物在光稳态达到约95%–96% Z异构体；取代基和溶剂把热Z→E半衰期调至约1–40 h，多轮切换多数仅见少量副反应。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "reaction_monitoring",
+          "dimension": "method_ids",
+          "basis": "LED-NMR定量可见光T型分子开关的E/Z动力学；ChemPhotoChem以原位LED-NMR和UV–Vis评价4-heteryl-vinyl-butenolide T型光开关。365–470 nm照射可使最佳衍生物在光稳态达到约95%–96% Z异构体；取代基和溶剂把热Z→E半衰期调至约1–40 h，多轮切换多数仅见少量副反应。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "process_analysis",
+          "dimension": "application_ids",
+          "basis": "LED-NMR定量可见光T型分子开关的E/Z动力学；ChemPhotoChem以原位LED-NMR和UV–Vis评价4-heteryl-vinyl-butenolide T型光开关。365–470 nm照射可使最佳衍生物在光稳态达到约95%–96% Z异构体；取代基和溶剂把热Z→E半衰期调至约1–40 h，多轮切换多数仅见少量副反应。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "LED-NMR定量可见光T型分子开关的E/Z动力学",
+        "original_summary_cn": "ChemPhotoChem以原位LED-NMR和UV–Vis评价4-heteryl-vinyl-butenolide T型光开关。365–470 nm照射可使最佳衍生物在光稳态达到约95%–96% Z异构体；取代基和溶剂把热Z→E半衰期调至约1–40 h，多轮切换多数仅见少量副反应。",
+        "original_meaning_cn": "装置需标定样品位置的LED波长、功率、光程、占空比和温升，并固定浓度、溶剂、氧含量与NMR温度。应以暗态和不同波长对照计算E/Z积分、光稳态组成及回转速率，检查照射不均、峰重叠与光降解；重复循环要保留完整时间序列。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "反应监测",
+          "材料",
+          "化学结构",
+          "探头",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260927-07",
+      "report_date": "2026-09-27",
+      "item_no": 7,
+      "title_cn": "间接导数fast Padé处理重建磁共振谱线",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "spectral_processing"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [
+        "software"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Mathematical Chemistry提出间接导数fast Padé transform，以FID矩及其导数关系重建磁共振谱线。算法面向噪声下的病态反演，目标是在不直接数值微分原始数据的条件下获得导数谱、峰位和线形，并比较其对分辨率、信噪比及重叠峰分离的影响。",
+      "meaning_cn": "验证应保留原始FID、采样间隔、截断长度、加窗和零填充设置，先用已知峰位、线宽与噪声水平的模拟数据测偏差，再处理标准样。需报告Padé阶数选择、数值稳定性、伪峰率、残差与不确定度，并与FFT及直接时域拟合在同一数据上比较。",
+      "publication_date": "2026-09-24",
+      "time_scope": "7d_extension",
+      "source": "Journal of Mathematical Chemistry",
+      "url": "https://link.springer.com/article/10.1007/s10910-026-01834-0",
+      "doi": "10.1007/s10910-026-01834-0",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-27",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-27.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "计算NMR",
+          "仪器",
+          "过程分析",
+          "软件"
+        ],
+        "original_type": "FID与谱图处理",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-27.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "间接导数fast Padé处理重建磁共振谱线；Journal of Mathematical Chemistry提出间接导数fast Padé transform，以FID矩及其导数关系重建磁共振谱线。算法面向噪声下的病态反演，目标是在不直接数值微分原始数据的条件下获得导数谱、峰位和线形，并比较其对分辨率、信噪比及重叠峰分离的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spectral_processing",
+          "dimension": "method_ids",
+          "basis": "间接导数fast Padé处理重建磁共振谱线；Journal of Mathematical Chemistry提出间接导数fast Padé transform，以FID矩及其导数关系重建磁共振谱线。算法面向噪声下的病态反演，目标是在不直接数值微分原始数据的条件下获得导数谱、峰位和线形，并比较其对分辨率、信噪比及重叠峰分离的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "间接导数fast Padé处理重建磁共振谱线；Journal of Mathematical Chemistry提出间接导数fast Padé transform，以FID矩及其导数关系重建磁共振谱线。算法面向噪声下的病态反演，目标是在不直接数值微分原始数据的条件下获得导数谱、峰位和线形，并比较其对分辨率、信噪比及重叠峰分离的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "software",
+          "dimension": "instrument_component_ids",
+          "basis": "间接导数fast Padé处理重建磁共振谱线；Journal of Mathematical Chemistry提出间接导数fast Padé transform，以FID矩及其导数关系重建磁共振谱线。算法面向噪声下的病态反演，目标是在不直接数值微分原始数据的条件下获得导数谱、峰位和线形，并比较其对分辨率、信噪比及重叠峰分离的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "间接导数fast Padé处理重建磁共振谱线",
+        "original_summary_cn": "Journal of Mathematical Chemistry提出间接导数fast Padé transform，以FID矩及其导数关系重建磁共振谱线。算法面向噪声下的病态反演，目标是在不直接数值微分原始数据的条件下获得导数谱、峰位和线形，并比较其对分辨率、信噪比及重叠峰分离的影响。",
+        "original_meaning_cn": "验证应保留原始FID、采样间隔、截断长度、加窗和零填充设置，先用已知峰位、线宽与噪声水平的模拟数据测偏差，再处理标准样。需报告Padé阶数选择、数值稳定性、伪峰率、残差与不确定度，并与FFT及直接时域拟合在同一数据上比较。",
+        "original_tags": [
+          "NMR",
+          "计算NMR",
+          "仪器",
+          "过程分析",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260927-08",
+      "report_date": "2026-09-27",
+      "item_no": 8,
+      "title_cn": "Bruker电池NMR活动串联快MAS、低场与界面过程",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "battery"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "Bruker于9月22日举办电池与储能材料固体NMR技术活动，内容包括快MAS与低场条件下的顺磁正极、锂/钠负极储存机制、固态电解质离子运动，以及SEI和界面离子传输。议程强调把局域结构、动力学和界面反应放在同一材料体系中比较。",
+      "meaning_cn": "方案交流应先按样品顺磁性与核种选择场强、MAS转速和探头；顺磁正极需评估位移范围、死时间与RF带宽，固态电解质需规划变温弛豫或交换实验。研究界面时应明确电化学状态、拆解/密封流程、停留时间和空气暴露，并同阻抗及电化学数据对照。",
+      "publication_date": "2026-09-22",
+      "time_scope": "7d_extension",
+      "source": "Bruker BioSpin",
+      "url": "https://www.bruker.com/en/news-and-events/webinars/2026/probing-structure-ion-dynamics-and-interfacial-reactivity-in-energy-storage-materials-by-solid-state-nmr.html",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-27",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-27.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "电化学与能源",
+          "电池",
+          "材料",
+          "仪器",
+          "教育培训",
+          "磁体",
+          "探头",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "固体NMR技术活动",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-27.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "Bruker电池NMR活动串联快MAS、低场与界面过程；Bruker于9月22日举办电池与储能材料固体NMR技术活动，内容包括快MAS与低场条件下的顺磁正极、锂/钠负极储存机制、固态电解质离子运动，以及SEI和界面离子传输。议程强调把局域结构、动力学和界面反应放在同一材料体系中比较。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "Bruker电池NMR活动串联快MAS、低场与界面过程；Bruker于9月22日举办电池与储能材料固体NMR技术活动，内容包括快MAS与低场条件下的顺磁正极、锂/钠负极储存机制、固态电解质离子运动，以及SEI和界面离子传输。议程强调把局域结构、动力学和界面反应放在同一材料体系中比较。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "battery",
+          "dimension": "application_ids",
+          "basis": "Bruker电池NMR活动串联快MAS、低场与界面过程；Bruker于9月22日举办电池与储能材料固体NMR技术活动，内容包括快MAS与低场条件下的顺磁正极、锂/钠负极储存机制、固态电解质离子运动，以及SEI和界面离子传输。议程强调把局域结构、动力学和界面反应放在同一材料体系中比较。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Bruker电池NMR活动串联快MAS、低场与界面过程",
+        "original_summary_cn": "Bruker于9月22日举办电池与储能材料固体NMR技术活动，内容包括快MAS与低场条件下的顺磁正极、锂/钠负极储存机制、固态电解质离子运动，以及SEI和界面离子传输。议程强调把局域结构、动力学和界面反应放在同一材料体系中比较。",
+        "original_meaning_cn": "方案交流应先按样品顺磁性与核种选择场强、MAS转速和探头；顺磁正极需评估位移范围、死时间与RF带宽，固态电解质需规划变温弛豫或交换实验。研究界面时应明确电化学状态、拆解/密封流程、停留时间和空气暴露，并同阻抗及电化学数据对照。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "电化学与能源",
+          "电池",
+          "材料",
+          "仪器",
+          "教育培训",
+          "磁体",
+          "探头",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260927-09",
+      "report_date": "2026-09-27",
+      "item_no": 9,
+      "title_cn": "溶液NMR借单体交换观察“不可见”IDP瞬态寡聚体",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "review",
+      "summary_cn": "FEBS Letters综述无序蛋白短寿命、低占有率或高度异质寡聚体的测量。即使寡聚体本身在溶液NMR中不可见，也可借可见单体与寡聚体之间的交换获得残基分辨的群体、动力学和接触信息；再与质量、化学计量、形貌及距离分布方法联合建立一致模型。",
+      "meaning_cn": "实验设计应先判断交换区间与单体峰是否可观测，再选择弛豫色散、CEST/DEST、PRE或交换转移方案，并做浓度、温度和突变体系列。拟合需同时约束寡聚体群体、交换速率与单体线宽；正交方法必须使用匹配缓冲液和时间尺度，防止样品老化造成伪差。",
+      "publication_date": "2026-09-22",
+      "time_scope": "7d_extension",
+      "source": "FEBS Letters",
+      "url": "https://febs.onlinelibrary.wiley.com/doi/10.1002/1873-3468.70474",
+      "doi": "10.1002/1873-3468.70474",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-27",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-27.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "探头",
+          "软件"
+        ],
+        "original_type": "瞬态寡聚体方法综述",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-27.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "溶液NMR借单体交换观察“不可见”IDP瞬态寡聚体；FEBS Letters综述无序蛋白短寿命、低占有率或高度异质寡聚体的测量。即使寡聚体本身在溶液NMR中不可见，也可借可见单体与寡聚体之间的交换获得残基分辨的群体、动力学和接触信息；再与质量、化学计量、形貌及距离分布方法联合建立一致模型。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "溶液NMR借单体交换观察“不可见”IDP瞬态寡聚体；FEBS Letters综述无序蛋白短寿命、低占有率或高度异质寡聚体的测量。即使寡聚体本身在溶液NMR中不可见，也可借可见单体与寡聚体之间的交换获得残基分辨的群体、动力学和接触信息；再与质量、化学计量、形貌及距离分布方法联合建立一致模型。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "溶液NMR借单体交换观察“不可见”IDP瞬态寡聚体；FEBS Letters综述无序蛋白短寿命、低占有率或高度异质寡聚体的测量。即使寡聚体本身在溶液NMR中不可见，也可借可见单体与寡聚体之间的交换获得残基分辨的群体、动力学和接触信息；再与质量、化学计量、形貌及距离分布方法联合建立一致模型。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "溶液NMR借单体交换观察“不可见”IDP瞬态寡聚体",
+        "original_summary_cn": "FEBS Letters综述无序蛋白短寿命、低占有率或高度异质寡聚体的测量。即使寡聚体本身在溶液NMR中不可见，也可借可见单体与寡聚体之间的交换获得残基分辨的群体、动力学和接触信息；再与质量、化学计量、形貌及距离分布方法联合建立一致模型。",
+        "original_meaning_cn": "实验设计应先判断交换区间与单体峰是否可观测，再选择弛豫色散、CEST/DEST、PRE或交换转移方案，并做浓度、温度和突变体系列。拟合需同时约束寡聚体群体、交换速率与单体线宽；正交方法必须使用匹配缓冲液和时间尺度，防止样品老化造成伪差。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260927-10",
+      "report_date": "2026-09-27",
+      "item_no": 10,
+      "title_cn": "T₁–T₂二维NMR区分页岩孔隙油水与短弛豫信号",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Energy & Fuels对松辽与渤海湾盆地8个页岩样品依次开展4% KCl、去离子水及25 MPa去离子水自吸，组合一维T₂与二维T₁–T₂图区分孔隙油、孔隙水和短弛豫组分。结果显示水先进入小孔并把油推向大孔，随后油排出且水膜逐步替代油膜。",
+      "meaning_cn": "实验需记录岩样矿物与有机质、孔隙度、初始饱和、盐度、压力、温度和各阶段平衡时间。反演应固定回波间隔、等待时间、正则化参数及T₁/T₂网格，并用已知油水混合物校准重叠区；质量平衡、称量和离心/驱替对照用于检验流体识别图。",
+      "publication_date": "2026-09-21",
+      "time_scope": "7d_extension",
+      "source": "Energy & Fuels",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.energyfuels.6c04462",
+      "doi": "10.1021/acs.energyfuels.6c04462",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-27",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-27.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "时域NMR",
+          "过程分析",
+          "地学流动",
+          "探头",
+          "软件"
+        ],
+        "original_type": "低场NMR与地学流体",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-27.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "T₁–T₂二维NMR区分页岩孔隙油水与短弛豫信号；Energy & Fuels对松辽与渤海湾盆地8个页岩样品依次开展4% KCl、去离子水及25 MPa去离子水自吸，组合一维T₂与二维T₁–T₂图区分孔隙油、孔隙水和短弛豫组分。结果显示水先进入小孔并把油推向大孔，随后油排出且水膜逐步替代油膜。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "td_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "T₁–T₂二维NMR区分页岩孔隙油水与短弛豫信号；Energy & Fuels对松辽与渤海湾盆地8个页岩样品依次开展4% KCl、去离子水及25 MPa去离子水自吸，组合一维T₂与二维T₁–T₂图区分孔隙油、孔隙水和短弛豫组分。结果显示水先进入小孔并把油推向大孔，随后油排出且水膜逐步替代油膜。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "T₁–T₂二维NMR区分页岩孔隙油水与短弛豫信号；Energy & Fuels对松辽与渤海湾盆地8个页岩样品依次开展4% KCl、去离子水及25 MPa去离子水自吸，组合一维T₂与二维T₁–T₂图区分孔隙油、孔隙水和短弛豫组分。结果显示水先进入小孔并把油推向大孔，随后油排出且水膜逐步替代油膜。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "geoscience_flow",
+          "dimension": "application_ids",
+          "basis": "T₁–T₂二维NMR区分页岩孔隙油水与短弛豫信号；Energy & Fuels对松辽与渤海湾盆地8个页岩样品依次开展4% KCl、去离子水及25 MPa去离子水自吸，组合一维T₂与二维T₁–T₂图区分孔隙油、孔隙水和短弛豫组分。结果显示水先进入小孔并把油推向大孔，随后油排出且水膜逐步替代油膜。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "T₁–T₂二维NMR区分页岩孔隙油水与短弛豫信号",
+        "original_summary_cn": "Energy & Fuels对松辽与渤海湾盆地8个页岩样品依次开展4% KCl、去离子水及25 MPa去离子水自吸，组合一维T₂与二维T₁–T₂图区分孔隙油、孔隙水和短弛豫组分。结果显示水先进入小孔并把油推向大孔，随后油排出且水膜逐步替代油膜。",
+        "original_meaning_cn": "实验需记录岩样矿物与有机质、孔隙度、初始饱和、盐度、压力、温度和各阶段平衡时间。反演应固定回波间隔、等待时间、正则化参数及T₁/T₂网格，并用已知油水混合物校准重叠区；质量平衡、称量和离心/驱替对照用于检验流体识别图。",
+        "original_tags": [
+          "NMR",
+          "时域NMR",
+          "过程分析",
+          "地学流动",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "常规检索未确认到可严格归入过去24小时的合格新增：本轮论文页面均只给出发布日期而无精确上线时刻，统一按近7天扩展处理，因此已启动增强搜索。增强检索逐站核查Journal of Magnetic Resonance、Journal of Magnetic Resonance Open、Magnetic Resonance、Journal of Biomolecular NMR、Solid State Nuclear Magnetic Resonance、Magnetic Resonance in Chemistry、Applied Magnetic Resonance及ACS、RSC、Wiley、Springer Nature、Elsevier、AIP和APS平台；并分别检查Crossref、PubMed、arXiv、ChemRxiv、科研机构、Bruker、JEOL、Oxford Instruments、Magritek、Nanalysis、CIQTEK、专业会议和中外采购公告，同时按规定方法主题簇分组检索。\n\n增强阶段确认10条合格候选，因此未触发第二级深度增强检索。本期最终收录10条，均为2026年9月21日至26日的近7天扩展，来源包含8篇期刊论文、1条厂商技术活动和1条中国高校采购公告，无SCM条目。结合2026年9月20日至26日最近7期共70条记录，按标准化DOI、规范化URL和标题查重，排除11条既有记录；另排除8条发布日期无法独立确认的候选，并剔除17条医学MRI、EPR缩写误检、常驻页面、旧会议信息或仅把NMR/EPR作为辅助表征的内容。JMR已逐篇检查Latest/Articles in Press：两篇便携NMR论文只显示2026年9月而缺少可核验的具体online日期，未用Crossref创建时间代替发布日期；另有已发论文不再重复。\n\n待复核标签：光学检测交叉弛豫共振、宽频低温ESR量子临界相图、纳米液滴压力原位¹⁹F NMR、LED-NMR光开关、间接导数fast Padé transform、B K-edge XAS–¹¹B NMR共价性比较、快MAS/低场电池NMR、NMR不可见瞬态寡聚体及页岩T₁–T₂流体识别保留在sample_systems和正文中，未创建新的正式ID。",
+    "source_sha256": "0c618dade88a1cf79eefe17b236b4de0c29e034d50f7c23dd6ea4bc3d5922949",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

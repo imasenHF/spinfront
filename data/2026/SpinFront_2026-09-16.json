@@ -1,0 +1,934 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-16",
+  "scope_note": "本期收录8条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260916-01",
+      "report_date": "2026-09-16",
+      "item_no": 1,
+      "title_cn": "氘代多色探针以单次²H NMR并行读取细胞氧化还原路径",
+      "direction_ids": [
+        "nmr",
+        "mrs"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "pharma"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Angewandte Chemie报道氘代“多色”探针：反应使带氘碳由sp²转为sp³，产生可预测且彼此分离的²H化学位移。单次采集即可同时区分谷胱甘肽加成与NAD(P)H驱动还原，并在活体胶质母细胞瘤细胞中读取药物诱导的氧化还原扰动。",
+      "meaning_cn": "方法转移需固定探针浓度、细胞密度、孵育时间、温度和²H参照，并先在纯化体系标定各反应产物的峰位与反应速率。活细胞定量应校正探针摄取、T₁/T₂和细胞沉降，设置谷胱甘肽耗竭及酶抑制对照，避免把峰面积变化直接等同于通量。",
+      "publication_date": "2026-09-15",
+      "time_scope": "24h",
+      "source": "Angewandte Chemie International Edition",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.7813699",
+      "doi": "10.1002/anie.7813699",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-16",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-16.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "MRS",
+          "溶液NMR",
+          "多核NMR",
+          "反应监测",
+          "生命科学",
+          "药物分析",
+          "化学结构",
+          "探头",
+          "软件"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-16.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "氘代多色探针以单次²H NMR并行读取细胞氧化还原路径；Angewandte Chemie报道氘代“多色”探针：反应使带氘碳由sp²转为sp³，产生可预测且彼此分离的²H化学位移。单次采集即可同时区分谷胱甘肽加成与NAD(P)H驱动还原，并在活体胶质母细胞瘤细胞中读取药物诱导的氧化还原扰动。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "mrs",
+          "dimension": "direction_ids",
+          "basis": "氘代多色探针以单次²H NMR并行读取细胞氧化还原路径；Angewandte Chemie报道氘代“多色”探针：反应使带氘碳由sp²转为sp³，产生可预测且彼此分离的²H化学位移。单次采集即可同时区分谷胱甘肽加成与NAD(P)H驱动还原，并在活体胶质母细胞瘤细胞中读取药物诱导的氧化还原扰动。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "氘代多色探针以单次²H NMR并行读取细胞氧化还原路径；Angewandte Chemie报道氘代“多色”探针：反应使带氘碳由sp²转为sp³，产生可预测且彼此分离的²H化学位移。单次采集即可同时区分谷胱甘肽加成与NAD(P)H驱动还原，并在活体胶质母细胞瘤细胞中读取药物诱导的氧化还原扰动。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pharma",
+          "dimension": "application_ids",
+          "basis": "氘代多色探针以单次²H NMR并行读取细胞氧化还原路径；Angewandte Chemie报道氘代“多色”探针：反应使带氘碳由sp²转为sp³，产生可预测且彼此分离的²H化学位移。单次采集即可同时区分谷胱甘肽加成与NAD(P)H驱动还原，并在活体胶质母细胞瘤细胞中读取药物诱导的氧化还原扰动。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "氘代多色探针以单次²H NMR并行读取细胞氧化还原路径",
+        "original_summary_cn": "Angewandte Chemie报道氘代“多色”探针：反应使带氘碳由sp²转为sp³，产生可预测且彼此分离的²H化学位移。单次采集即可同时区分谷胱甘肽加成与NAD(P)H驱动还原，并在活体胶质母细胞瘤细胞中读取药物诱导的氧化还原扰动。",
+        "original_meaning_cn": "方法转移需固定探针浓度、细胞密度、孵育时间、温度和²H参照，并先在纯化体系标定各反应产物的峰位与反应速率。活细胞定量应校正探针摄取、T₁/T₂和细胞沉降，设置谷胱甘肽耗竭及酶抑制对照，避免把峰面积变化直接等同于通量。",
+        "original_tags": [
+          "NMR",
+          "MRS",
+          "溶液NMR",
+          "多核NMR",
+          "反应监测",
+          "生命科学",
+          "药物分析",
+          "化学结构",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260916-02",
+      "report_date": "2026-09-16",
+      "item_no": 2,
+      "title_cn": "EPR与ENDOR追踪[4Fe-4S]簇光解后的乙基迁移与夺氢级联",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "endor"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "JACS以EPR和ENDOR表征Fe端及S端乙基化的[4Fe-4S]¹⁺簇，并跟踪Fe–C键光解后连续氢原子夺取反应。局域超精细耦合用于区分乙基所处位点及光化学中间体，为铁硫簇上的烷基迁移和自由基反应路径提供直接自旋证据。",
+      "meaning_cn": "复现实验需统一样品氧化态、同位素标记、冻结方式、光照波长/剂量及暗态对照。EPR应报告场位、微波功率和温度；ENDOR需给出射频范围、脉冲序列和核频率归属。时间序列应在相同光通量下采集，并结合选择性氘代验证夺氢位点。",
+      "publication_date": "2026-09-15",
+      "time_scope": "24h",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://pubs.acs.org/doi/10.1021/jacs.6c04191",
+      "doi": "10.1021/jacs.6c04191",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-16",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-16.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "无机配位",
+          "催化",
+          "化学结构",
+          "谐振器",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "连续波EPR · 脉冲EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-16.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "EPR与ENDOR追踪[4Fe-4S]簇光解后的乙基迁移与夺氢级联；JACS以EPR和ENDOR表征Fe端及S端乙基化的[4Fe-4S]¹⁺簇，并跟踪Fe–C键光解后连续氢原子夺取反应。局域超精细耦合用于区分乙基所处位点及光化学中间体，为铁硫簇上的烷基迁移和自由基反应路径提供直接自旋证据。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "EPR与ENDOR追踪[4Fe-4S]簇光解后的乙基迁移与夺氢级联；JACS以EPR和ENDOR表征Fe端及S端乙基化的[4Fe-4S]¹⁺簇，并跟踪Fe–C键光解后连续氢原子夺取反应。局域超精细耦合用于区分乙基所处位点及光化学中间体，为铁硫簇上的烷基迁移和自由基反应路径提供直接自旋证据。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "endor",
+          "dimension": "method_ids",
+          "basis": "EPR与ENDOR追踪[4Fe-4S]簇光解后的乙基迁移与夺氢级联；JACS以EPR和ENDOR表征Fe端及S端乙基化的[4Fe-4S]¹⁺簇，并跟踪Fe–C键光解后连续氢原子夺取反应。局域超精细耦合用于区分乙基所处位点及光化学中间体，为铁硫簇上的烷基迁移和自由基反应路径提供直接自旋证据。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "EPR与ENDOR追踪[4Fe-4S]簇光解后的乙基迁移与夺氢级联；JACS以EPR和ENDOR表征Fe端及S端乙基化的[4Fe-4S]¹⁺簇，并跟踪Fe–C键光解后连续氢原子夺取反应。局域超精细耦合用于区分乙基所处位点及光化学中间体，为铁硫簇上的烷基迁移和自由基反应路径提供直接自旋证据。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "EPR与ENDOR追踪[4Fe-4S]簇光解后的乙基迁移与夺氢级联",
+        "original_summary_cn": "JACS以EPR和ENDOR表征Fe端及S端乙基化的[4Fe-4S]¹⁺簇，并跟踪Fe–C键光解后连续氢原子夺取反应。局域超精细耦合用于区分乙基所处位点及光化学中间体，为铁硫簇上的烷基迁移和自由基反应路径提供直接自旋证据。",
+        "original_meaning_cn": "复现实验需统一样品氧化态、同位素标记、冻结方式、光照波长/剂量及暗态对照。EPR应报告场位、微波功率和温度；ENDOR需给出射频范围、脉冲序列和核频率归属。时间序列应在相同光通量下采集，并结合选择性氘代验证夺氢位点。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "无机配位",
+          "催化",
+          "化学结构",
+          "谐振器",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260916-03",
+      "report_date": "2026-09-16",
+      "item_no": 3,
+      "title_cn": "构象平均DFT以¹H/¹³C位移和J耦合区分C-3差向异构体",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr",
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "natural_products",
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "ChemistrySelect将实验NMR与构象平均DFT结合，比较cabraleahydroxylactone及其C-3差向异构体。ωB97X-D4计算重现¹³C在C-3、CH₃-25/26的差异、¹H H-3位移及不同³JHH模式，给出仅一个手性中心改变时的多参数判别框架。",
+      "meaning_cn": "天然产物结构复核应同时使用化学位移与J耦合，不能只依赖单一DP4类评分。计算需公开构象搜索范围、Boltzmann权重、溶剂模型、几何和屏蔽基组；实验端要固定溶剂、温度与参照，并将候选异构体放在同一计算层级比较残差。",
+      "publication_date": "2026-09-15",
+      "time_scope": "24h",
+      "source": "ChemistrySelect",
+      "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/slct.74552",
+      "doi": "10.1002/slct.74552",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-16",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-16.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "计算NMR",
+          "天然产物",
+          "化学结构",
+          "软件"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-16.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "构象平均DFT以¹H/¹³C位移和J耦合区分C-3差向异构体；ChemistrySelect将实验NMR与构象平均DFT结合，比较cabraleahydroxylactone及其C-3差向异构体。ωB97X-D4计算重现¹³C在C-3、CH₃-25/26的差异、¹H H-3位移及不同³JHH模式，给出仅一个手性中心改变时的多参数判别框架。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "构象平均DFT以¹H/¹³C位移和J耦合区分C-3差向异构体；ChemistrySelect将实验NMR与构象平均DFT结合，比较cabraleahydroxylactone及其C-3差向异构体。ωB97X-D4计算重现¹³C在C-3、CH₃-25/26的差异、¹H H-3位移及不同³JHH模式，给出仅一个手性中心改变时的多参数判别框架。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "构象平均DFT以¹H/¹³C位移和J耦合区分C-3差向异构体；ChemistrySelect将实验NMR与构象平均DFT结合，比较cabraleahydroxylactone及其C-3差向异构体。ωB97X-D4计算重现¹³C在C-3、CH₃-25/26的差异、¹H H-3位移及不同³JHH模式，给出仅一个手性中心改变时的多参数判别框架。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "computation_nmr",
+          "dimension": "method_ids",
+          "basis": "构象平均DFT以¹H/¹³C位移和J耦合区分C-3差向异构体；ChemistrySelect将实验NMR与构象平均DFT结合，比较cabraleahydroxylactone及其C-3差向异构体。ωB97X-D4计算重现¹³C在C-3、CH₃-25/26的差异、¹H H-3位移及不同³JHH模式，给出仅一个手性中心改变时的多参数判别框架。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "natural_products",
+          "dimension": "application_ids",
+          "basis": "构象平均DFT以¹H/¹³C位移和J耦合区分C-3差向异构体；ChemistrySelect将实验NMR与构象平均DFT结合，比较cabraleahydroxylactone及其C-3差向异构体。ωB97X-D4计算重现¹³C在C-3、CH₃-25/26的差异、¹H H-3位移及不同³JHH模式，给出仅一个手性中心改变时的多参数判别框架。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "构象平均DFT以¹H/¹³C位移和J耦合区分C-3差向异构体；ChemistrySelect将实验NMR与构象平均DFT结合，比较cabraleahydroxylactone及其C-3差向异构体。ωB97X-D4计算重现¹³C在C-3、CH₃-25/26的差异、¹H H-3位移及不同³JHH模式，给出仅一个手性中心改变时的多参数判别框架。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "构象平均DFT以¹H/¹³C位移和J耦合区分C-3差向异构体",
+        "original_summary_cn": "ChemistrySelect将实验NMR与构象平均DFT结合，比较cabraleahydroxylactone及其C-3差向异构体。ωB97X-D4计算重现¹³C在C-3、CH₃-25/26的差异、¹H H-3位移及不同³JHH模式，给出仅一个手性中心改变时的多参数判别框架。",
+        "original_meaning_cn": "天然产物结构复核应同时使用化学位移与J耦合，不能只依赖单一DP4类评分。计算需公开构象搜索范围、Boltzmann权重、溶剂模型、几何和屏蔽基组；实验端要固定溶剂、温度与参照，并将候选异构体放在同一计算层级比较残差。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "计算NMR",
+          "天然产物",
+          "化学结构",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260916-04",
+      "report_date": "2026-09-16",
+      "item_no": 4,
+      "title_cn": "三张重复NMR谱图及替换数据不一致触发论文撤稿",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "research_integrity",
+      "summary_cn": "ChemistrySelect撤回一篇金属配合物论文。调查确认补充材料S22、S23和S24三张NMR谱图与同组作者既往论文中的谱图相同，却被标作不同配体；作者提交替换谱图后，修订表征数据与论文结论仍存在进一步不一致，编辑据此认定结果不可靠。",
+      "meaning_cn": "项目交付和投稿应保存原始FID、处理参数、样品编号与谱图版本，建立从样品到图件的可追溯链。复核不应只比对图片像素，还要比较峰表、积分、溶剂峰和元数据；替换数据必须重新核对结构结论，并由第二人完成独立审谱。",
+      "publication_date": "2026-09-15",
+      "time_scope": "24h",
+      "source": "ChemistrySelect",
+      "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/slct.74497",
+      "doi": "10.1002/slct.74497",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-16",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-16.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "化学结构",
+          "无机配位",
+          "软件"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-16.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "三张重复NMR谱图及替换数据不一致触发论文撤稿；ChemistrySelect撤回一篇金属配合物论文。调查确认补充材料S22、S23和S24三张NMR谱图与同组作者既往论文中的谱图相同，却被标作不同配体；作者提交替换谱图后，修订表征数据与论文结论仍存在进一步不一致，编辑据此认定结果不可靠。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "三张重复NMR谱图及替换数据不一致触发论文撤稿",
+        "original_summary_cn": "ChemistrySelect撤回一篇金属配合物论文。调查确认补充材料S22、S23和S24三张NMR谱图与同组作者既往论文中的谱图相同，却被标作不同配体；作者提交替换谱图后，修订表征数据与论文结论仍存在进一步不一致，编辑据此认定结果不可靠。",
+        "original_meaning_cn": "项目交付和投稿应保存原始FID、处理参数、样品编号与谱图版本，建立从样品到图件的可追溯链。复核不应只比对图片像素，还要比较峰表、积分、溶剂峰和元数据；替换数据必须重新核对结构结论，并由第二人完成独立审谱。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "化学结构",
+          "无机配位",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "属相关动态，不代表新增实验方法或采购公告。"
+      ]
+    },
+    {
+      "item_id": "SF-20260916-05",
+      "report_date": "2026-09-16",
+      "item_no": 5,
+      "title_cn": "上海大学采购核磁共振实验仪用于教学科研",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "procurement"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "tender",
+      "summary_cn": "上海大学于9月15日发布核磁共振实验仪快速采购公告，第一轮响应截至9月20日，要求40日内交货。项目面向教学与科研实验条件建设，属于完整核磁实验仪采购而非通用化学设备，为国内高校低场或教学型磁共振平台的新近需求。",
+      "meaning_cn": "响应前需从原始采购页确认磁场强度、核种、样品尺寸、脉冲序列、梯度与温控范围，并明确软件授权和教学接口。验收建议使用标准样测试频率稳定度、90°脉宽、信噪比、T₁/T₂重复性及连续运行漂移，同时核对培训、保修和备件周期。",
+      "publication_date": "2026-09-15",
+      "time_scope": "24h",
+      "source": "上海大学采购信息（招标聚合页转引）",
+      "url": "https://www.ixbang.com/bid/detail/B7F94FF7B49CEE041BEE4DFC98BD10C6.html",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-16",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-16.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "TD-NMR",
+          "仪器",
+          "采购",
+          "教育培训",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_type": "TD-NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-16.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "上海大学采购核磁共振实验仪用于教学科研；上海大学于9月15日发布核磁共振实验仪快速采购公告，第一轮响应截至9月20日，要求40日内交货。项目面向教学与科研实验条件建设，属于完整核磁实验仪采购而非通用化学设备，为国内高校低场或教学型磁共振平台的新近需求。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "procurement",
+          "dimension": "application_ids",
+          "basis": "上海大学采购核磁共振实验仪用于教学科研；上海大学于9月15日发布核磁共振实验仪快速采购公告，第一轮响应截至9月20日，要求40日内交货。项目面向教学与科研实验条件建设，属于完整核磁实验仪采购而非通用化学设备，为国内高校低场或教学型磁共振平台的新近需求。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "上海大学采购核磁共振实验仪用于教学科研",
+        "original_summary_cn": "上海大学于9月15日发布核磁共振实验仪快速采购公告，第一轮响应截至9月20日，要求40日内交货。项目面向教学与科研实验条件建设，属于完整核磁实验仪采购而非通用化学设备，为国内高校低场或教学型磁共振平台的新近需求。",
+        "original_meaning_cn": "响应前需从原始采购页确认磁场强度、核种、样品尺寸、脉冲序列、梯度与温控范围，并明确软件授权和教学接口。验收建议使用标准样测试频率稳定度、90°脉宽、信噪比、T₁/T₂重复性及连续运行漂移，同时核对培训、保修和备件周期。",
+        "original_tags": [
+          "NMR",
+          "TD-NMR",
+          "仪器",
+          "采购",
+          "教育培训",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260916-06",
+      "report_date": "2026-09-16",
+      "item_no": 6,
+      "title_cn": "国产台式CW-EPR采购明确过零扫描与绝对自旋定量",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "procurement"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "tender",
+      "summary_cn": "深圳一项台式电子顺磁共振波谱仪采购公开关键指标：预算46万元、拒绝进口，要求9.2–9.9 GHz、−1000至6500 G过零扫描、空载Q值不低于6000、自动调谐、原位光照，以及无需标样的绝对自旋数定量，并配置BDPA和DPPH标准样。",
+      "meaning_cn": "投标与验收应按同一标准样分别核对g值、调制场、功率衰减、灵敏度及定量重复性。绝对自旋定量必须说明谐振器填充因子、Q值、样品体积和温度校正；原位光照还需验证光纤几何、样品升温与暗态背景，过零扫描应检查磁场回差。",
+      "publication_date": "2026-09-14",
+      "time_scope": "7d_extension",
+      "source": "深圳采购公告（乙方宝转引）",
+      "url": "https://www.yfbzb.com/inviteBid/detail/20260914_630868102.html",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-16",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-16.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "仪器",
+          "采购",
+          "磁体",
+          "谐振器",
+          "原位光照",
+          "软件"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-16.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "国产台式CW-EPR采购明确过零扫描与绝对自旋定量；深圳一项台式电子顺磁共振波谱仪采购公开关键指标：预算46万元、拒绝进口，要求9.2–9.9 GHz、−1000至6500 G过零扫描、空载Q值不低于6000、自动调谐、原位光照，以及无需标样的绝对自旋数定量，并配置BDPA和DPPH标准样。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "procurement",
+          "dimension": "application_ids",
+          "basis": "国产台式CW-EPR采购明确过零扫描与绝对自旋定量；深圳一项台式电子顺磁共振波谱仪采购公开关键指标：预算46万元、拒绝进口，要求9.2–9.9 GHz、−1000至6500 G过零扫描、空载Q值不低于6000、自动调谐、原位光照，以及无需标样的绝对自旋数定量，并配置BDPA和DPPH标准样。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "国产台式CW-EPR采购明确过零扫描与绝对自旋定量",
+        "original_summary_cn": "深圳一项台式电子顺磁共振波谱仪采购公开关键指标：预算46万元、拒绝进口，要求9.2–9.9 GHz、−1000至6500 G过零扫描、空载Q值不低于6000、自动调谐、原位光照，以及无需标样的绝对自旋数定量，并配置BDPA和DPPH标准样。",
+        "original_meaning_cn": "投标与验收应按同一标准样分别核对g值、调制场、功率衰减、灵敏度及定量重复性。绝对自旋定量必须说明谐振器填充因子、Q值、样品体积和温度校正；原位光照还需验证光纤几何、样品升温与暗态背景，过零扫描应检查磁场回差。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "仪器",
+          "采购",
+          "磁体",
+          "谐振器",
+          "原位光照",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260916-07",
+      "report_date": "2026-09-16",
+      "item_no": 7,
+      "title_cn": "CIQTEK提出保留300–600 MHz磁体的NMR现代化升级路线",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "instrument_component_ids": [
+        "magnet",
+        "console",
+        "probe",
+        "amplifier",
+        "autosampler",
+        "software"
+      ],
+      "sample_systems": [],
+      "information_type": "product_software",
+      "summary_cn": "CIQTEK在SMASH 2026页面介绍NMR现代化方案：当既有300–600 MHz磁体状态良好时，可保留磁体并更换控制台、前置放大器、探头、功放、软件和自动进样器，以改善稳定性、自动化与易用性，作为整机替换之外的实验室升级路径。",
+      "meaning_cn": "升级论证应先做磁体漂移、匀场余量、低温液位和漏场评估，再建立旧系统基线。验收需用同一标准样比较线形、信噪比、90°脉宽、梯度线性、多核切换和自动进样失败率；同时确认原有探头、脉冲程序、数据格式及安全联锁兼容。",
+      "publication_date": "2026-09-14",
+      "time_scope": "7d_extension",
+      "source": "CIQTEK",
+      "url": "https://www.ciqtekglobal.com/news-events_nc1",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-16",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-16.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "仪器",
+          "过程分析",
+          "磁体",
+          "探头",
+          "自动进样器",
+          "软件"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-16.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "CIQTEK提出保留300–600 MHz磁体的NMR现代化升级路线；CIQTEK在SMASH 2026页面介绍NMR现代化方案：当既有300–600 MHz磁体状态良好时，可保留磁体并更换控制台、前置放大器、探头、功放、软件和自动进样器，以改善稳定性、自动化与易用性，作为整机替换之外的实验室升级路径。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "CIQTEK提出保留300–600 MHz磁体的NMR现代化升级路线；CIQTEK在SMASH 2026页面介绍NMR现代化方案：当既有300–600 MHz磁体状态良好时，可保留磁体并更换控制台、前置放大器、探头、功放、软件和自动进样器，以改善稳定性、自动化与易用性，作为整机替换之外的实验室升级路径。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "instrumentation",
+          "dimension": "application_ids",
+          "basis": "CIQTEK提出保留300–600 MHz磁体的NMR现代化升级路线；CIQTEK在SMASH 2026页面介绍NMR现代化方案：当既有300–600 MHz磁体状态良好时，可保留磁体并更换控制台、前置放大器、探头、功放、软件和自动进样器，以改善稳定性、自动化与易用性，作为整机替换之外的实验室升级路径。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "magnet",
+          "dimension": "instrument_component_ids",
+          "basis": "CIQTEK提出保留300–600 MHz磁体的NMR现代化升级路线；CIQTEK在SMASH 2026页面介绍NMR现代化方案：当既有300–600 MHz磁体状态良好时，可保留磁体并更换控制台、前置放大器、探头、功放、软件和自动进样器，以改善稳定性、自动化与易用性，作为整机替换之外的实验室升级路径。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "console",
+          "dimension": "instrument_component_ids",
+          "basis": "CIQTEK提出保留300–600 MHz磁体的NMR现代化升级路线；CIQTEK在SMASH 2026页面介绍NMR现代化方案：当既有300–600 MHz磁体状态良好时，可保留磁体并更换控制台、前置放大器、探头、功放、软件和自动进样器，以改善稳定性、自动化与易用性，作为整机替换之外的实验室升级路径。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "probe",
+          "dimension": "instrument_component_ids",
+          "basis": "CIQTEK提出保留300–600 MHz磁体的NMR现代化升级路线；CIQTEK在SMASH 2026页面介绍NMR现代化方案：当既有300–600 MHz磁体状态良好时，可保留磁体并更换控制台、前置放大器、探头、功放、软件和自动进样器，以改善稳定性、自动化与易用性，作为整机替换之外的实验室升级路径。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "amplifier",
+          "dimension": "instrument_component_ids",
+          "basis": "CIQTEK提出保留300–600 MHz磁体的NMR现代化升级路线；CIQTEK在SMASH 2026页面介绍NMR现代化方案：当既有300–600 MHz磁体状态良好时，可保留磁体并更换控制台、前置放大器、探头、功放、软件和自动进样器，以改善稳定性、自动化与易用性，作为整机替换之外的实验室升级路径。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "autosampler",
+          "dimension": "instrument_component_ids",
+          "basis": "CIQTEK提出保留300–600 MHz磁体的NMR现代化升级路线；CIQTEK在SMASH 2026页面介绍NMR现代化方案：当既有300–600 MHz磁体状态良好时，可保留磁体并更换控制台、前置放大器、探头、功放、软件和自动进样器，以改善稳定性、自动化与易用性，作为整机替换之外的实验室升级路径。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "software",
+          "dimension": "instrument_component_ids",
+          "basis": "CIQTEK提出保留300–600 MHz磁体的NMR现代化升级路线；CIQTEK在SMASH 2026页面介绍NMR现代化方案：当既有300–600 MHz磁体状态良好时，可保留磁体并更换控制台、前置放大器、探头、功放、软件和自动进样器，以改善稳定性、自动化与易用性，作为整机替换之外的实验室升级路径。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "CIQTEK提出保留300–600 MHz磁体的NMR现代化升级路线",
+        "original_summary_cn": "CIQTEK在SMASH 2026页面介绍NMR现代化方案：当既有300–600 MHz磁体状态良好时，可保留磁体并更换控制台、前置放大器、探头、功放、软件和自动进样器，以改善稳定性、自动化与易用性，作为整机替换之外的实验室升级路径。",
+        "original_meaning_cn": "升级论证应先做磁体漂移、匀场余量、低温液位和漏场评估，再建立旧系统基线。验收需用同一标准样比较线形、信噪比、90°脉宽、梯度线性、多核切换和自动进样失败率；同时确认原有探头、脉冲程序、数据格式及安全联锁兼容。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "仪器",
+          "过程分析",
+          "磁体",
+          "探头",
+          "自动进样器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260916-08",
+      "report_date": "2026-09-16",
+      "item_no": 8,
+      "title_cn": "FGMR 2026集中交流NMR/EPR超极化、扩散与仪器进展",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr",
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "德国磁共振专业组第47届FGMR年度讨论会于9月14—17日在美因茨举行，预计约300名参会者。议程覆盖溶液与固体NMR、EPR、超极化、分子动力学、扩散、成像与仪器，并配套两场海报交流及工业展，形成NMR/EPR方法与硬件的综合交流窗口。",
+      "meaning_cn": "技术交流宜按样品、场强/频段、温度、脉冲序列和数据处理建立统一记录表，避免只收集结论。与厂商或课题组沟通时应优先确认可复现参数、参考样、升级兼容性及原始数据格式；跨NMR/EPR方案还需明确样品状态和定量尺度是否一致。",
+      "publication_date": "2026-09-11",
+      "time_scope": "7d_extension",
+      "source": "CIQTEK / FGMR 2026",
+      "url": "https://www.ciqtekglobal.com/news-events_nc1",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-16",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-16.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR＋EPR",
+          "溶液NMR",
+          "固体NMR",
+          "连续波EPR",
+          "脉冲EPR",
+          "仪器",
+          "教育培训",
+          "磁体",
+          "探头",
+          "谐振器",
+          "软件"
+        ],
+        "original_type": "溶液NMR · 固体NMR · 连续波EPR · 脉冲EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-16.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "FGMR 2026集中交流NMR/EPR超极化、扩散与仪器进展；德国磁共振专业组第47届FGMR年度讨论会于9月14—17日在美因茨举行，预计约300名参会者。议程覆盖溶液与固体NMR、EPR、超极化、分子动力学、扩散、成像与仪器，并配套两场海报交流及工业展，形成NMR/EPR方法与硬件的综合交流窗口。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "FGMR 2026集中交流NMR/EPR超极化、扩散与仪器进展；德国磁共振专业组第47届FGMR年度讨论会于9月14—17日在美因茨举行，预计约300名参会者。议程覆盖溶液与固体NMR、EPR、超极化、分子动力学、扩散、成像与仪器，并配套两场海报交流及工业展，形成NMR/EPR方法与硬件的综合交流窗口。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "FGMR 2026集中交流NMR/EPR超极化、扩散与仪器进展；德国磁共振专业组第47届FGMR年度讨论会于9月14—17日在美因茨举行，预计约300名参会者。议程覆盖溶液与固体NMR、EPR、超极化、分子动力学、扩散、成像与仪器，并配套两场海报交流及工业展，形成NMR/EPR方法与硬件的综合交流窗口。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "FGMR 2026集中交流NMR/EPR超极化、扩散与仪器进展；德国磁共振专业组第47届FGMR年度讨论会于9月14—17日在美因茨举行，预计约300名参会者。议程覆盖溶液与固体NMR、EPR、超极化、分子动力学、扩散、成像与仪器，并配套两场海报交流及工业展，形成NMR/EPR方法与硬件的综合交流窗口。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "FGMR 2026集中交流NMR/EPR超极化、扩散与仪器进展",
+        "original_summary_cn": "德国磁共振专业组第47届FGMR年度讨论会于9月14—17日在美因茨举行，预计约300名参会者。议程覆盖溶液与固体NMR、EPR、超极化、分子动力学、扩散、成像与仪器，并配套两场海报交流及工业展，形成NMR/EPR方法与硬件的综合交流窗口。",
+        "original_meaning_cn": "技术交流宜按样品、场强/频段、温度、脉冲序列和数据处理建立统一记录表，避免只收集结论。与厂商或课题组沟通时应优先确认可复现参数、参考样、升级兼容性及原始数据格式；跨NMR/EPR方案还需明确样品状态和定量尺度是否一致。",
+        "original_tags": [
+          "NMR＋EPR",
+          "溶液NMR",
+          "固体NMR",
+          "连续波EPR",
+          "脉冲EPR",
+          "仪器",
+          "教育培训",
+          "磁体",
+          "探头",
+          "谐振器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "范围说明：过去24小时确认到5条合格新增，扩展至近7天后仍不足10条，已启动增强搜索并完成第二级深度增强检索。检索逐日回扫2026年9月9日至15日，覆盖专业期刊与出版平台、arXiv/ChemRxiv及文献元数据、Bruker/JEOL/Oxford Instruments/Magritek/Nanalysis/CIQTEK等仪器厂商、SMASH/FGMR及其他专业会议、中外采购公告，并按液体NMR、固体NMR/MAS/DNP、低场与TD-NMR、谱图处理、CW/rapid-scan EPR、脉冲EPR/DEER/ENDOR/ESEEM/HYSCORE、TREPR、operando/EC-EPR及仪器部件逐组检索。本期最终收录8条：5条为9月15日发布的近24小时信息，3条为9月11日至14日的近7天扩展。结合最近至少7期已发送正文查重，排除31条既有记录；另排除26条日期无法独立确认、常驻产品页、卷期更新、医学MRI、缩写误检或仅将NMR/EPR作为辅助表征的候选。最终不足10条主要来自近期高价值信息已被连续日报覆盖、部分平台索引延迟，以及严格排除低相关性候选。\n\n待复核标签：氘代多色探针、Fe/S-乙基化[4Fe-4S]簇、NMR谱图数据完整性、谱仪现代化升级与开放源代码低场MR征稿保留在样品体系和正文中，未创建新的正式ID。",
+    "source_sha256": "25942320491036fa4d963c30d165f1f4c0a56cfa5fac11eda0c5dfcae68ef0ad",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

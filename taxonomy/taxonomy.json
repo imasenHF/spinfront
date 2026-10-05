@@ -1,0 +1,1724 @@
+{
+  "taxonomy_version": "1.0.0",
+  "status": "active",
+  "tags": [
+    {
+      "id": "nmr",
+      "dimension": "direction_ids",
+      "label_cn": "NMR",
+      "label_en": "nmr",
+      "aliases": [
+        "NMR"
+      ],
+      "parent_ids": [],
+      "definition": "NMR相关的direction分类",
+      "include_when": "核心内容明确涉及对应谱学方向",
+      "exclude_when": "仅使用缩写或背景提及不足以标注",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "epr",
+      "dimension": "direction_ids",
+      "label_cn": "EPR",
+      "label_en": "epr",
+      "aliases": [
+        "EPR"
+      ],
+      "parent_ids": [],
+      "definition": "EPR相关的direction分类",
+      "include_when": "核心内容明确涉及对应谱学方向",
+      "exclude_when": "仅使用缩写或背景提及不足以标注",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "nmr_epr",
+      "dimension": "direction_ids",
+      "label_cn": "NMR + EPR",
+      "label_en": "nmr epr",
+      "aliases": [
+        "NMR + EPR",
+        "NMR＋EPR",
+        "NMR+EPR"
+      ],
+      "parent_ids": [],
+      "definition": "NMR + EPR相关的direction分类",
+      "include_when": "核心内容明确涉及对应谱学方向",
+      "exclude_when": "仅使用缩写或背景提及不足以标注",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "mrs",
+      "dimension": "direction_ids",
+      "label_cn": "MRS",
+      "label_en": "mrs",
+      "aliases": [
+        "MRS"
+      ],
+      "parent_ids": [],
+      "definition": "MRS相关的direction分类",
+      "include_when": "核心内容明确涉及对应谱学方向",
+      "exclude_when": "仅使用缩写或背景提及不足以标注",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "mrv",
+      "dimension": "direction_ids",
+      "label_cn": "MRV",
+      "label_en": "mrv",
+      "aliases": [
+        "MRV"
+      ],
+      "parent_ids": [],
+      "definition": "MRV相关的direction分类",
+      "include_when": "核心内容明确涉及对应谱学方向",
+      "exclude_when": "仅使用缩写或背景提及不足以标注",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "solution_nmr",
+      "dimension": "experiment_type_ids",
+      "label_cn": "溶液NMR",
+      "label_en": "solution nmr",
+      "aliases": [
+        "溶液NMR"
+      ],
+      "parent_ids": [],
+      "definition": "溶液NMR相关的experiment_type分类",
+      "include_when": "摘要或方法明确说明该实验体系",
+      "exclude_when": "低场不自动等同台式；理论预测不自动产生实测实验类型",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "solid_state_nmr",
+      "dimension": "experiment_type_ids",
+      "label_cn": "固体NMR",
+      "label_en": "solid state nmr",
+      "aliases": [
+        "固体NMR"
+      ],
+      "parent_ids": [],
+      "definition": "固态或固体谱学实验体系",
+      "include_when": "摘要或方法明确说明该实验体系",
+      "exclude_when": "固体核磁用于蛋白质时不自动产生材料应用标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "td_nmr",
+      "dimension": "experiment_type_ids",
+      "label_cn": "时域NMR",
+      "label_en": "td nmr",
+      "aliases": [
+        "时域NMR",
+        "TD-NMR"
+      ],
+      "parent_ids": [],
+      "definition": "时域NMR相关的experiment_type分类",
+      "include_when": "摘要或方法明确说明该实验体系",
+      "exclude_when": "低场不自动等同台式；理论预测不自动产生实测实验类型",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "benchtop_nmr",
+      "dimension": "experiment_type_ids",
+      "label_cn": "台式NMR",
+      "label_en": "benchtop nmr",
+      "aliases": [
+        "台式NMR"
+      ],
+      "parent_ids": [],
+      "definition": "台式NMR相关的experiment_type分类",
+      "include_when": "摘要或方法明确说明该实验体系",
+      "exclude_when": "低场不自动等同台式；理论预测不自动产生实测实验类型",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "in_vivo_mrs",
+      "dimension": "experiment_type_ids",
+      "label_cn": "体内MRS",
+      "label_en": "in vivo mrs",
+      "aliases": [
+        "体内MRS",
+        "在体MRS",
+        "活体MRS"
+      ],
+      "parent_ids": [],
+      "definition": "体内MRS相关的experiment_type分类",
+      "include_when": "摘要或方法明确说明该实验体系",
+      "exclude_when": "低场不自动等同台式；理论预测不自动产生实测实验类型",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "cw_epr",
+      "dimension": "experiment_type_ids",
+      "label_cn": "连续波EPR",
+      "label_en": "cw epr",
+      "aliases": [
+        "连续波EPR"
+      ],
+      "parent_ids": [],
+      "definition": "连续波EPR相关的experiment_type分类",
+      "include_when": "摘要或方法明确说明该实验体系",
+      "exclude_when": "低场不自动等同台式；理论预测不自动产生实测实验类型",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "pulsed_epr",
+      "dimension": "experiment_type_ids",
+      "label_cn": "脉冲EPR",
+      "label_en": "pulsed epr",
+      "aliases": [
+        "脉冲EPR"
+      ],
+      "parent_ids": [],
+      "definition": "脉冲EPR相关的experiment_type分类",
+      "include_when": "摘要或方法明确说明该实验体系",
+      "exclude_when": "低场不自动等同台式；理论预测不自动产生实测实验类型",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "mr_velocimetry",
+      "dimension": "experiment_type_ids",
+      "label_cn": "磁共振测速",
+      "label_en": "mr velocimetry",
+      "aliases": [
+        "磁共振测速"
+      ],
+      "parent_ids": [],
+      "definition": "磁共振测速相关的experiment_type分类",
+      "include_when": "摘要或方法明确说明该实验体系",
+      "exclude_when": "低场不自动等同台式；理论预测不自动产生实测实验类型",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "qnmr",
+      "dimension": "method_ids",
+      "label_cn": "qNMR",
+      "label_en": "qnmr",
+      "aliases": [
+        "qNMR",
+        "定量NMR"
+      ],
+      "parent_ids": [],
+      "definition": "通过NMR信号响应确定物质含量、纯度或浓度",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "定量交换动力学、构象布居或磁性参数不自动归qNMR",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "multinuclear_nmr",
+      "dimension": "method_ids",
+      "label_cn": "多核NMR",
+      "label_en": "multinuclear nmr",
+      "aliases": [
+        "多核NMR"
+      ],
+      "parent_ids": [],
+      "definition": "明确研究多个核种的NMR信息",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "仅一个非质子核种不标多核NMR",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "multidimensional_nmr",
+      "dimension": "method_ids",
+      "label_cn": "多维NMR",
+      "label_en": "multidimensional nmr",
+      "aliases": [
+        "多维NMR"
+      ],
+      "parent_ids": [],
+      "definition": "多维NMR相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "nus",
+      "dimension": "method_ids",
+      "label_cn": "非均匀采样",
+      "label_en": "nus",
+      "aliases": [
+        "非均匀采样"
+      ],
+      "parent_ids": [],
+      "definition": "非均匀采样相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "pure_shift",
+      "dimension": "method_ids",
+      "label_cn": "Pure Shift",
+      "label_en": "pure shift",
+      "aliases": [
+        "Pure Shift",
+        "Pure-shift NMR"
+      ],
+      "parent_ids": [],
+      "definition": "Pure Shift相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "std_nmr",
+      "dimension": "method_ids",
+      "label_cn": "STD-NMR",
+      "label_en": "std nmr",
+      "aliases": [
+        "STD-NMR"
+      ],
+      "parent_ids": [],
+      "definition": "STD-NMR相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "ligand_observed_nmr",
+      "dimension": "method_ids",
+      "label_cn": "配体观察NMR",
+      "label_en": "ligand observed nmr",
+      "aliases": [
+        "配体观察NMR"
+      ],
+      "parent_ids": [],
+      "definition": "配体观察NMR相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "metabolomics",
+      "dimension": "method_ids",
+      "label_cn": "代谢组学",
+      "label_en": "metabolomics",
+      "aliases": [
+        "代谢组学",
+        "NMR代谢组学"
+      ],
+      "parent_ids": [],
+      "definition": "代谢组学相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "paramagnetic_nmr",
+      "dimension": "method_ids",
+      "label_cn": "顺磁NMR",
+      "label_en": "paramagnetic nmr",
+      "aliases": [
+        "顺磁NMR"
+      ],
+      "parent_ids": [],
+      "definition": "顺磁NMR相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "computation_nmr",
+      "dimension": "method_ids",
+      "label_cn": "计算NMR",
+      "label_en": "computation nmr",
+      "aliases": [
+        "计算NMR"
+      ],
+      "parent_ids": [],
+      "definition": "计算NMR相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "reaction_monitoring",
+      "dimension": "method_ids",
+      "label_cn": "反应监测",
+      "label_en": "reaction monitoring",
+      "aliases": [
+        "反应监测",
+        "反应监测NMR"
+      ],
+      "parent_ids": [],
+      "definition": "反应监测相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "spin_trapping",
+      "dimension": "method_ids",
+      "label_cn": "自旋捕获",
+      "label_en": "spin trapping",
+      "aliases": [
+        "自旋捕获"
+      ],
+      "parent_ids": [],
+      "definition": "捕获剂与短寿命自由基反应形成可检测加合物",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "TEMPO等稳定自由基仅作为探针时不标自旋捕获",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "deer_peldor",
+      "dimension": "method_ids",
+      "label_cn": "DEER/PELDOR",
+      "label_en": "deer peldor",
+      "aliases": [
+        "DEER/PELDOR"
+      ],
+      "parent_ids": [
+        "pds"
+      ],
+      "definition": "DEER/PELDOR相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "spin_labeling",
+      "dimension": "method_ids",
+      "label_cn": "自旋标记",
+      "label_en": "spin labeling",
+      "aliases": [
+        "自旋标记"
+      ],
+      "parent_ids": [],
+      "definition": "自旋标记相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "time_resolved_epr",
+      "dimension": "method_ids",
+      "label_cn": "时间分辨EPR",
+      "label_en": "time resolved epr",
+      "aliases": [
+        "时间分辨EPR"
+      ],
+      "parent_ids": [],
+      "definition": "时间分辨EPR相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "defect_epr",
+      "dimension": "method_ids",
+      "label_cn": "缺陷EPR",
+      "label_en": "defect epr",
+      "aliases": [
+        "缺陷EPR"
+      ],
+      "parent_ids": [],
+      "definition": "缺陷EPR相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "operando_epr",
+      "dimension": "method_ids",
+      "label_cn": "工况/在线EPR",
+      "label_en": "operando epr",
+      "aliases": [
+        "工况/在线EPR",
+        "工况EPR",
+        "Operando EPR"
+      ],
+      "parent_ids": [],
+      "definition": "工况/在线EPR相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "electrochemistry_energy",
+      "dimension": "application_ids",
+      "label_cn": "电化学与能源",
+      "label_en": "electrochemistry energy",
+      "aliases": [
+        "电化学与能源"
+      ],
+      "parent_ids": [],
+      "definition": "电化学与能源相关的application分类",
+      "include_when": "研究目标或样品明确对应该领域",
+      "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "battery",
+      "dimension": "application_ids",
+      "label_cn": "电池",
+      "label_en": "battery",
+      "aliases": [
+        "电池"
+      ],
+      "parent_ids": [
+        "electrochemistry_energy"
+      ],
+      "definition": "电池相关的application分类",
+      "include_when": "研究目标或样品明确对应该领域",
+      "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "fuel_cell",
+      "dimension": "application_ids",
+      "label_cn": "燃料电池",
+      "label_en": "fuel cell",
+      "aliases": [
+        "燃料电池"
+      ],
+      "parent_ids": [
+        "electrochemistry_energy"
+      ],
+      "definition": "燃料电池相关的application分类",
+      "include_when": "研究目标或样品明确对应该领域",
+      "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "electrosynthesis",
+      "dimension": "application_ids",
+      "label_cn": "电合成",
+      "label_en": "electrosynthesis",
+      "aliases": [
+        "电合成"
+      ],
+      "parent_ids": [
+        "electrochemistry_energy"
+      ],
+      "definition": "电合成相关的application分类",
+      "include_when": "研究目标或样品明确对应该领域",
+      "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "catalysis",
+      "dimension": "application_ids",
+      "label_cn": "催化",
+      "label_en": "catalysis",
+      "aliases": [
+        "催化"
+      ],
+      "parent_ids": [],
+      "definition": "催化相关的application分类",
+      "include_when": "研究目标或样品明确对应该领域",
+      "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "photocatalysis",
+      "dimension": "application_ids",
+      "label_cn": "光催化",
+      "label_en": "photocatalysis",
+      "aliases": [
+        "光催化"
+      ],
+      "parent_ids": [
+        "catalysis"
+      ],
+      "definition": "光催化相关的application分类",
+      "include_when": "研究目标或样品明确对应该领域",
+      "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "environmental_catalysis",
+      "dimension": "application_ids",
+      "label_cn": "环境催化",
+      "label_en": "environmental catalysis",
+      "aliases": [
+        "环境催化"
+      ],
+      "parent_ids": [
+        "catalysis"
+      ],
+      "definition": "环境催化相关的application分类",
+      "include_when": "研究目标或样品明确对应该领域",
+      "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "life_science",
+      "dimension": "application_ids",
+      "label_cn": "生命科学",
+      "label_en": "life science",
+      "aliases": [
+        "生命科学"
+      ],
+      "parent_ids": [],
+      "definition": "生命科学相关的application分类",
+      "include_when": "研究目标或样品明确对应该领域",
+      "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "structural_biology",
+      "dimension": "application_ids",
+      "label_cn": "结构生物学",
+      "label_en": "structural biology",
+      "aliases": [
+        "结构生物学"
+      ],
+      "parent_ids": [
+        "life_science"
+      ],
+      "definition": "结构生物学相关的application分类",
+      "include_when": "研究目标或样品明确对应该领域",
+      "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "microbiome",
+      "dimension": "application_ids",
+      "label_cn": "微生物与肠脑轴",
+      "label_en": "microbiome",
+      "aliases": [
+        "微生物与肠脑轴"
+      ],
+      "parent_ids": [
+        "life_science"
+      ],
+      "definition": "微生物与肠脑轴相关的application分类",
+      "include_when": "研究目标或样品明确对应该领域",
+      "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "pharma",
+      "dimension": "application_ids",
+      "label_cn": "药物分析",
+      "label_en": "pharma",
+      "aliases": [
+        "药物分析",
+        "药物与质量分析"
+      ],
+      "parent_ids": [],
+      "definition": "药物分析相关的application分类",
+      "include_when": "研究目标或样品明确对应该领域",
+      "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "ligand_screening",
+      "dimension": "application_ids",
+      "label_cn": "配体筛选",
+      "label_en": "ligand screening",
+      "aliases": [
+        "配体筛选"
+      ],
+      "parent_ids": [
+        "pharma"
+      ],
+      "definition": "配体筛选相关的application分类",
+      "include_when": "研究目标或样品明确对应该领域",
+      "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "process_analysis",
+      "dimension": "application_ids",
+      "label_cn": "过程分析",
+      "label_en": "process analysis",
+      "aliases": [
+        "过程分析"
+      ],
+      "parent_ids": [],
+      "definition": "过程分析相关的application分类",
+      "include_when": "研究目标或样品明确对应该领域",
+      "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "food_agriculture",
+      "dimension": "application_ids",
+      "label_cn": "食品与农业",
+      "label_en": "food agriculture",
+      "aliases": [
+        "食品与农业"
+      ],
+      "parent_ids": [],
+      "definition": "食品与农业相关的application分类",
+      "include_when": "研究目标或样品明确对应该领域",
+      "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "environment",
+      "dimension": "application_ids",
+      "label_cn": "环境",
+      "label_en": "environment",
+      "aliases": [
+        "环境",
+        "环境与污染控制"
+      ],
+      "parent_ids": [],
+      "definition": "污染物、环境介质及环境监测应用",
+      "include_when": "研究目标或样品明确对应该领域",
+      "exclude_when": "局部配位环境、溶剂环境、细胞环境不自动归环境应用",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "materials",
+      "dimension": "application_ids",
+      "label_cn": "材料",
+      "label_en": "materials",
+      "aliases": [
+        "材料"
+      ],
+      "parent_ids": [],
+      "definition": "材料相关的application分类",
+      "include_when": "研究目标或样品明确对应该领域",
+      "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "polymers",
+      "dimension": "application_ids",
+      "label_cn": "聚合物",
+      "label_en": "polymers",
+      "aliases": [
+        "聚合物"
+      ],
+      "parent_ids": [],
+      "definition": "聚合物相关的application分类",
+      "include_when": "研究目标或样品明确对应该领域",
+      "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "chemical_structure",
+      "dimension": "application_ids",
+      "label_cn": "化学结构",
+      "label_en": "chemical structure",
+      "aliases": [
+        "化学结构",
+        "化学结构解析"
+      ],
+      "parent_ids": [],
+      "definition": "化学结构相关的application分类",
+      "include_when": "研究目标或样品明确对应该领域",
+      "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "natural_products",
+      "dimension": "application_ids",
+      "label_cn": "天然产物",
+      "label_en": "natural products",
+      "aliases": [
+        "天然产物"
+      ],
+      "parent_ids": [],
+      "definition": "天然产物相关的application分类",
+      "include_when": "研究目标或样品明确对应该领域",
+      "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "inorganic_coordination",
+      "dimension": "application_ids",
+      "label_cn": "无机配位",
+      "label_en": "inorganic coordination",
+      "aliases": [
+        "无机配位",
+        "无机与配位化学"
+      ],
+      "parent_ids": [],
+      "definition": "无机配位相关的application分类",
+      "include_when": "研究目标或样品明确对应该领域",
+      "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "geoscience_flow",
+      "dimension": "application_ids",
+      "label_cn": "地学流动",
+      "label_en": "geoscience flow",
+      "aliases": [
+        "地学流动",
+        "地学与流动",
+        "地质与流体"
+      ],
+      "parent_ids": [],
+      "definition": "地学流动相关的application分类",
+      "include_when": "研究目标或样品明确对应该领域",
+      "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "instrumentation",
+      "dimension": "application_ids",
+      "label_cn": "仪器",
+      "label_en": "instrumentation",
+      "aliases": [
+        "仪器"
+      ],
+      "parent_ids": [],
+      "definition": "仪器相关的application分类",
+      "include_when": "研究目标或样品明确对应该领域",
+      "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "procurement",
+      "dimension": "application_ids",
+      "label_cn": "采购",
+      "label_en": "procurement",
+      "aliases": [
+        "采购",
+        "采购与行业"
+      ],
+      "parent_ids": [],
+      "definition": "采购相关的application分类",
+      "include_when": "研究目标或样品明确对应该领域",
+      "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "education_training",
+      "dimension": "application_ids",
+      "label_cn": "教育培训",
+      "label_en": "education training",
+      "aliases": [
+        "教育培训",
+        "培训与会议"
+      ],
+      "parent_ids": [],
+      "definition": "教育培训相关的application分类",
+      "include_when": "研究目标或样品明确对应该领域",
+      "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "magnet",
+      "dimension": "instrument_component_ids",
+      "label_cn": "磁体",
+      "label_en": "magnet",
+      "aliases": [
+        "磁体"
+      ],
+      "parent_ids": [],
+      "definition": "磁体相关的instrument_component分类",
+      "include_when": "部件设计、性能比较、适配或采购配置是核心内容",
+      "exclude_when": "常规使用或方法段出现部件名称不产生标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "probe",
+      "dimension": "instrument_component_ids",
+      "label_cn": "探头",
+      "label_en": "probe",
+      "aliases": [
+        "探头"
+      ],
+      "parent_ids": [],
+      "definition": "探头相关的instrument_component分类",
+      "include_when": "部件设计、性能比较、适配或采购配置是核心内容",
+      "exclude_when": "常规使用或方法段出现部件名称不产生标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "resonator",
+      "dimension": "instrument_component_ids",
+      "label_cn": "谐振器",
+      "label_en": "resonator",
+      "aliases": [
+        "谐振器"
+      ],
+      "parent_ids": [],
+      "definition": "谐振器相关的instrument_component分类",
+      "include_when": "部件设计、性能比较、适配或采购配置是核心内容",
+      "exclude_when": "常规使用或方法段出现部件名称不产生标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "flow_cell",
+      "dimension": "instrument_component_ids",
+      "label_cn": "流通池",
+      "label_en": "flow cell",
+      "aliases": [
+        "流通池"
+      ],
+      "parent_ids": [],
+      "definition": "流通池相关的instrument_component分类",
+      "include_when": "部件设计、性能比较、适配或采购配置是核心内容",
+      "exclude_when": "常规使用或方法段出现部件名称不产生标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "illumination",
+      "dimension": "instrument_component_ids",
+      "label_cn": "原位光照",
+      "label_en": "illumination",
+      "aliases": [
+        "原位光照"
+      ],
+      "parent_ids": [],
+      "definition": "原位光照相关的instrument_component分类",
+      "include_when": "部件设计、性能比较、适配或采购配置是核心内容",
+      "exclude_when": "常规使用或方法段出现部件名称不产生标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "vt_system",
+      "dimension": "instrument_component_ids",
+      "label_cn": "变温系统",
+      "label_en": "vt system",
+      "aliases": [
+        "变温系统"
+      ],
+      "parent_ids": [],
+      "definition": "变温系统相关的instrument_component分类",
+      "include_when": "部件设计、性能比较、适配或采购配置是核心内容",
+      "exclude_when": "常规使用或方法段出现部件名称不产生标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "autosampler",
+      "dimension": "instrument_component_ids",
+      "label_cn": "自动进样器",
+      "label_en": "autosampler",
+      "aliases": [
+        "自动进样器"
+      ],
+      "parent_ids": [],
+      "definition": "自动进样器相关的instrument_component分类",
+      "include_when": "部件设计、性能比较、适配或采购配置是核心内容",
+      "exclude_when": "常规使用或方法段出现部件名称不产生标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "software",
+      "dimension": "instrument_component_ids",
+      "label_cn": "软件",
+      "label_en": "software",
+      "aliases": [
+        "软件"
+      ],
+      "parent_ids": [],
+      "definition": "软件相关的instrument_component分类",
+      "include_when": "部件设计、性能比较、适配或采购配置是核心内容",
+      "exclude_when": "常规使用或方法段出现部件名称不产生标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "mas",
+      "dimension": "method_ids",
+      "label_cn": "魔角旋转",
+      "label_en": "mas",
+      "aliases": [
+        "魔角旋转"
+      ],
+      "parent_ids": [],
+      "definition": "魔角旋转相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "fast_mas",
+      "dimension": "method_ids",
+      "label_cn": "快速魔角旋转",
+      "label_en": "fast mas",
+      "aliases": [
+        "快速魔角旋转"
+      ],
+      "parent_ids": [
+        "mas"
+      ],
+      "definition": "快速魔角旋转相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "dnp",
+      "dimension": "method_ids",
+      "label_cn": "动态核极化",
+      "label_en": "dnp",
+      "aliases": [
+        "动态核极化"
+      ],
+      "parent_ids": [],
+      "definition": "动态核极化相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "cross_polarization",
+      "dimension": "method_ids",
+      "label_cn": "交叉极化",
+      "label_en": "cross polarization",
+      "aliases": [
+        "交叉极化"
+      ],
+      "parent_ids": [],
+      "definition": "交叉极化相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "dosy",
+      "dimension": "method_ids",
+      "label_cn": "扩散排序谱",
+      "label_en": "dosy",
+      "aliases": [
+        "扩散排序谱"
+      ],
+      "parent_ids": [],
+      "definition": "扩散排序谱相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "cpmg",
+      "dimension": "method_ids",
+      "label_cn": "CPMG",
+      "label_en": "cpmg",
+      "aliases": [
+        "CPMG"
+      ],
+      "parent_ids": [],
+      "definition": "CPMG相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "relaxation_dispersion",
+      "dimension": "method_ids",
+      "label_cn": "弛豫色散",
+      "label_en": "relaxation dispersion",
+      "aliases": [
+        "弛豫色散"
+      ],
+      "parent_ids": [],
+      "definition": "弛豫色散相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "cest",
+      "dimension": "method_ids",
+      "label_cn": "化学交换饱和转移",
+      "label_en": "cest",
+      "aliases": [
+        "化学交换饱和转移"
+      ],
+      "parent_ids": [],
+      "definition": "化学交换饱和转移相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "dest",
+      "dimension": "method_ids",
+      "label_cn": "暗态交换饱和转移",
+      "label_en": "dest",
+      "aliases": [
+        "暗态交换饱和转移"
+      ],
+      "parent_ids": [],
+      "definition": "暗态交换饱和转移相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "endor",
+      "dimension": "method_ids",
+      "label_cn": "电子核双共振",
+      "label_en": "endor",
+      "aliases": [
+        "电子核双共振"
+      ],
+      "parent_ids": [],
+      "definition": "电子核双共振相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "eseem",
+      "dimension": "method_ids",
+      "label_cn": "电子自旋回波包络调制",
+      "label_en": "eseem",
+      "aliases": [
+        "电子自旋回波包络调制"
+      ],
+      "parent_ids": [],
+      "definition": "电子自旋回波包络调制相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "hyscore",
+      "dimension": "method_ids",
+      "label_cn": "超精细亚能级相关",
+      "label_en": "hyscore",
+      "aliases": [
+        "超精细亚能级相关"
+      ],
+      "parent_ids": [],
+      "definition": "超精细亚能级相关相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "dqc",
+      "dimension": "method_ids",
+      "label_cn": "双量子相干",
+      "label_en": "dqc",
+      "aliases": [
+        "双量子相干"
+      ],
+      "parent_ids": [],
+      "definition": "双量子相干相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "relaxometry",
+      "dimension": "method_ids",
+      "label_cn": "弛豫测量",
+      "label_en": "relaxometry",
+      "aliases": [
+        "弛豫测量"
+      ],
+      "parent_ids": [],
+      "definition": "弛豫测量相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "rapid_scan_epr",
+      "dimension": "method_ids",
+      "label_cn": "快速扫描EPR",
+      "label_en": "rapid scan epr",
+      "aliases": [
+        "快速扫描EPR"
+      ],
+      "parent_ids": [],
+      "definition": "快速扫描EPR相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "ec_epr",
+      "dimension": "method_ids",
+      "label_cn": "电化学EPR",
+      "label_en": "ec epr",
+      "aliases": [
+        "电化学EPR"
+      ],
+      "parent_ids": [
+        "operando_epr"
+      ],
+      "definition": "电化学EPR相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "odmr",
+      "dimension": "method_ids",
+      "label_cn": "光学探测磁共振",
+      "label_en": "odmr",
+      "aliases": [
+        "光学探测磁共振"
+      ],
+      "parent_ids": [],
+      "definition": "光学探测磁共振相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "zero_field_nmr",
+      "dimension": "method_ids",
+      "label_cn": "零场NMR",
+      "label_en": "zero field nmr",
+      "aliases": [
+        "零场NMR"
+      ],
+      "parent_ids": [],
+      "definition": "零场NMR相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "selective_spin_locking",
+      "dimension": "method_ids",
+      "label_cn": "选择性自旋锁",
+      "label_en": "selective spin locking",
+      "aliases": [
+        "选择性自旋锁"
+      ],
+      "parent_ids": [],
+      "definition": "选择性自旋锁相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "polarization_transfer",
+      "dimension": "method_ids",
+      "label_cn": "极化转移",
+      "label_en": "polarization transfer",
+      "aliases": [
+        "极化转移"
+      ],
+      "parent_ids": [],
+      "definition": "极化转移相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "spectral_processing",
+      "dimension": "method_ids",
+      "label_cn": "谱图处理",
+      "label_en": "spectral processing",
+      "aliases": [
+        "谱图处理"
+      ],
+      "parent_ids": [],
+      "definition": "谱图处理相关的method分类",
+      "include_when": "该方法是测量、分析或算法的核心内容",
+      "exclude_when": "不得由编辑建议、一般实验常识推断作者实际方法",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "console",
+      "dimension": "instrument_component_ids",
+      "label_cn": "控制台",
+      "label_en": "console",
+      "aliases": [
+        "控制台"
+      ],
+      "parent_ids": [],
+      "definition": "控制台相关的instrument_component分类",
+      "include_when": "部件设计、性能比较、适配或采购配置是核心内容",
+      "exclude_when": "常规使用或方法段出现部件名称不产生标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "microwave_bridge",
+      "dimension": "instrument_component_ids",
+      "label_cn": "微波桥",
+      "label_en": "microwave bridge",
+      "aliases": [
+        "微波桥"
+      ],
+      "parent_ids": [],
+      "definition": "微波桥相关的instrument_component分类",
+      "include_when": "部件设计、性能比较、适配或采购配置是核心内容",
+      "exclude_when": "常规使用或方法段出现部件名称不产生标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "amplifier",
+      "dimension": "instrument_component_ids",
+      "label_cn": "放大器",
+      "label_en": "amplifier",
+      "aliases": [
+        "放大器"
+      ],
+      "parent_ids": [],
+      "definition": "放大器相关的instrument_component分类",
+      "include_when": "部件设计、性能比较、适配或采购配置是核心内容",
+      "exclude_when": "常规使用或方法段出现部件名称不产生标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "gradient_system",
+      "dimension": "instrument_component_ids",
+      "label_cn": "梯度系统",
+      "label_en": "gradient system",
+      "aliases": [
+        "梯度系统"
+      ],
+      "parent_ids": [],
+      "definition": "梯度系统相关的instrument_component分类",
+      "include_when": "部件设计、性能比较、适配或采购配置是核心内容",
+      "exclude_when": "常规使用或方法段出现部件名称不产生标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "paper",
+      "dimension": "information_type",
+      "label_cn": "论文",
+      "label_en": "paper",
+      "aliases": [
+        "论文"
+      ],
+      "parent_ids": [],
+      "definition": "论文相关的information_type分类",
+      "include_when": "按记录对应来源的实际文体分类",
+      "exclude_when": "专题新闻不强行标成学术综述；预印本身份另列",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "review",
+      "dimension": "information_type",
+      "label_cn": "综述",
+      "label_en": "review",
+      "aliases": [
+        "综述"
+      ],
+      "parent_ids": [],
+      "definition": "综述相关的information_type分类",
+      "include_when": "按记录对应来源的实际文体分类",
+      "exclude_when": "专题新闻不强行标成学术综述；预印本身份另列",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "application_note",
+      "dimension": "information_type",
+      "label_cn": "应用说明",
+      "label_en": "application note",
+      "aliases": [
+        "应用说明"
+      ],
+      "parent_ids": [],
+      "definition": "应用说明相关的information_type分类",
+      "include_when": "按记录对应来源的实际文体分类",
+      "exclude_when": "专题新闻不强行标成学术综述；预印本身份另列",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "product_software",
+      "dimension": "information_type",
+      "label_cn": "产品与软件",
+      "label_en": "product software",
+      "aliases": [
+        "产品与软件"
+      ],
+      "parent_ids": [],
+      "definition": "产品与软件相关的information_type分类",
+      "include_when": "按记录对应来源的实际文体分类",
+      "exclude_when": "专题新闻不强行标成学术综述；预印本身份另列",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "event",
+      "dimension": "information_type",
+      "label_cn": "会议与培训",
+      "label_en": "event",
+      "aliases": [
+        "会议与培训"
+      ],
+      "parent_ids": [],
+      "definition": "会议与培训相关的information_type分类",
+      "include_when": "按记录对应来源的实际文体分类",
+      "exclude_when": "专题新闻不强行标成学术综述；预印本身份另列",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "tender",
+      "dimension": "information_type",
+      "label_cn": "采购公告",
+      "label_en": "tender",
+      "aliases": [
+        "采购公告"
+      ],
+      "parent_ids": [],
+      "definition": "采购公告相关的information_type分类",
+      "include_when": "按记录对应来源的实际文体分类",
+      "exclude_when": "专题新闻不强行标成学术综述；预印本身份另列",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "policy",
+      "dimension": "information_type",
+      "label_cn": "政策",
+      "label_en": "policy",
+      "aliases": [
+        "政策"
+      ],
+      "parent_ids": [],
+      "definition": "政策相关的information_type分类",
+      "include_when": "按记录对应来源的实际文体分类",
+      "exclude_when": "专题新闻不强行标成学术综述；预印本身份另列",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "news_feature",
+      "label_cn": "行业与科普专题",
+      "label_en": "news feature",
+      "dimension": "information_type",
+      "aliases": [
+        "行业与科普专题"
+      ],
+      "parent_ids": [],
+      "definition": "行业与科普专题",
+      "include_when": "正文核心内容明确属于该方法、应用或信息类型",
+      "exclude_when": "背景提及、常规附件及编辑建议不产生标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "funding_facility",
+      "label_cn": "设施与资助动态",
+      "label_en": "funding facility",
+      "dimension": "information_type",
+      "aliases": [
+        "设施与资助动态"
+      ],
+      "parent_ids": [],
+      "definition": "设施与资助动态",
+      "include_when": "正文核心内容明确属于该方法、应用或信息类型",
+      "exclude_when": "背景提及、常规附件及编辑建议不产生标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "research_integrity",
+      "label_cn": "科研诚信动态",
+      "label_en": "research integrity",
+      "dimension": "information_type",
+      "aliases": [
+        "科研诚信动态"
+      ],
+      "parent_ids": [],
+      "definition": "科研诚信动态",
+      "include_when": "正文核心内容明确属于该方法、应用或信息类型",
+      "exclude_when": "背景提及、常规附件及编辑建议不产生标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "pds",
+      "label_cn": "脉冲偶极谱",
+      "label_en": "pds",
+      "dimension": "method_ids",
+      "aliases": [
+        "脉冲偶极谱"
+      ],
+      "parent_ids": [],
+      "definition": "脉冲偶极谱",
+      "include_when": "正文核心内容明确属于该方法、应用或信息类型",
+      "exclude_when": "背景提及、常规附件及编辑建议不产生标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "spin_probe",
+      "label_cn": "自旋探针",
+      "label_en": "spin probe",
+      "dimension": "method_ids",
+      "aliases": [
+        "自旋探针"
+      ],
+      "parent_ids": [],
+      "definition": "使用稳定顺磁探针读取运动、氧浓度或局部环境",
+      "include_when": "正文核心内容明确属于该方法、应用或信息类型",
+      "exclude_when": "自旋捕获加合物检测单独归spin_trapping",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "cidnp",
+      "label_cn": "化学诱导动态核极化",
+      "label_en": "cidnp",
+      "dimension": "method_ids",
+      "aliases": [
+        "化学诱导动态核极化"
+      ],
+      "parent_ids": [],
+      "definition": "化学诱导动态核极化",
+      "include_when": "正文核心内容明确属于该方法、应用或信息类型",
+      "exclude_when": "背景提及、常规附件及编辑建议不产生标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "photo_cidnp",
+      "label_cn": "光化学诱导动态核极化",
+      "label_en": "photo cidnp",
+      "dimension": "method_ids",
+      "aliases": [
+        "光化学诱导动态核极化"
+      ],
+      "parent_ids": [
+        "cidnp"
+      ],
+      "definition": "光化学诱导动态核极化",
+      "include_when": "正文核心内容明确属于该方法、应用或信息类型",
+      "exclude_when": "背景提及、常规附件及编辑建议不产生标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "phip",
+      "label_cn": "对氢诱导极化",
+      "label_en": "phip",
+      "dimension": "method_ids",
+      "aliases": [
+        "对氢诱导极化"
+      ],
+      "parent_ids": [],
+      "definition": "对氢诱导极化",
+      "include_when": "正文核心内容明确属于该方法、应用或信息类型",
+      "exclude_when": "背景提及、常规附件及编辑建议不产生标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "nanomagnetic_resonance",
+      "label_cn": "纳米尺度磁共振",
+      "label_en": "nanomagnetic resonance",
+      "dimension": "method_ids",
+      "aliases": [
+        "纳米尺度磁共振"
+      ],
+      "parent_ids": [],
+      "definition": "纳米尺度磁共振",
+      "include_when": "正文核心内容明确属于该方法、应用或信息类型",
+      "exclude_when": "背景提及、常规附件及编辑建议不产生标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    },
+    {
+      "id": "cultural_heritage",
+      "label_cn": "文物保护",
+      "label_en": "cultural heritage",
+      "dimension": "application_ids",
+      "aliases": [
+        "文物保护"
+      ],
+      "parent_ids": [],
+      "definition": "文物保护",
+      "include_when": "正文核心内容明确属于该方法、应用或信息类型",
+      "exclude_when": "背景提及、常规附件及编辑建议不产生标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
+    }
+  ],
+  "filter_rules": {
+    "within_dimension": "OR",
+    "across_dimensions": "AND",
+    "parent_selection": "include descendants",
+    "storage": "most specific supported labels"
+  },
+  "special_rules": {
+    "nmr_epr": "用于NMR与EPR均为核心的条目；筛选nmr或epr也应包含nmr_epr",
+    "multinuclear_nmr": "正文明确研究多个核种；单独19F或13C不自动标注",
+    "publication_status": "preprint / early_access / published / unknown"
+  }
+}

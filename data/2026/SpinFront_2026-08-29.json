@@ -1,0 +1,727 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-08-29",
+  "scope_note": "本期收录7条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260829-01",
+      "report_date": "2026-08-29",
+      "item_no": 1,
+      "title_cn": "机器学习分子动力学定量预测可交换质子NMR化学位移",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "IOCB Prague介绍ML-MD与ShiftML3联合计算方案：先生成包含溶剂氢键涨落的构象系综，再快速预测各构象的NMR屏蔽。该方案在OH、NH等可交换质子上接近定量再现实验位移，弥补隐式溶剂DFT对动态溶剂环境描述不足。",
+      "meaning_cn": "用于结构归属时，应以实验温度、溶剂组成、浓度和质子交换速率建立对应构象系综，并与实测¹H位移逐点比较。OH/NH峰若受水含量、pH或交换展宽影响，需同步记录样品条件，不能把单一计算构象直接作为归属依据。",
+      "publication_date": "2026-08-28",
+      "time_scope": "24h",
+      "source": "IOCB Prague",
+      "url": "https://www.uochb.cz/en/news/817/accurate-nmr-chemical-shifts-through-machine-learned-dynamics",
+      "doi": "10.1038/s41467-026-75743-w",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-29",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-29.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "计算NMR",
+          "化学结构解析"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-29.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "机器学习分子动力学定量预测可交换质子NMR化学位移；IOCB Prague介绍ML-MD与ShiftML3联合计算方案：先生成包含溶剂氢键涨落的构象系综，再快速预测各构象的NMR屏蔽。该方案在OH、NH等可交换质子上接近定量再现实验位移，弥补隐式溶剂DFT对动态溶剂环境描述不足。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "computation_nmr",
+          "dimension": "method_ids",
+          "basis": "机器学习分子动力学定量预测可交换质子NMR化学位移；IOCB Prague介绍ML-MD与ShiftML3联合计算方案：先生成包含溶剂氢键涨落的构象系综，再快速预测各构象的NMR屏蔽。该方案在OH、NH等可交换质子上接近定量再现实验位移，弥补隐式溶剂DFT对动态溶剂环境描述不足。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "机器学习分子动力学定量预测可交换质子NMR化学位移；IOCB Prague介绍ML-MD与ShiftML3联合计算方案：先生成包含溶剂氢键涨落的构象系综，再快速预测各构象的NMR屏蔽。该方案在OH、NH等可交换质子上接近定量再现实验位移，弥补隐式溶剂DFT对动态溶剂环境描述不足。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "机器学习分子动力学定量预测可交换质子NMR化学位移",
+        "original_summary_cn": "IOCB Prague介绍ML-MD与ShiftML3联合计算方案：先生成包含溶剂氢键涨落的构象系综，再快速预测各构象的NMR屏蔽。该方案在OH、NH等可交换质子上接近定量再现实验位移，弥补隐式溶剂DFT对动态溶剂环境描述不足。",
+        "original_meaning_cn": "用于结构归属时，应以实验温度、溶剂组成、浓度和质子交换速率建立对应构象系综，并与实测¹H位移逐点比较。OH/NH峰若受水含量、pH或交换展宽影响，需同步记录样品条件，不能把单一计算构象直接作为归属依据。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "计算NMR",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260829-02",
+      "report_date": "2026-08-29",
+      "item_no": 2,
+      "title_cn": "TRAPDOR固体NMR解析氟化γ-Al₂O₃表面聚乙烯构象",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "polymers"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Langmuir发布研究，以TRAPDOR双共振固体NMR观察聚乙烯与氟化γ-Al₂O₃表面之间的空间邻近关系，并比较表面氟化前后吸附链构象变化。该方法借助异核偶极去相位，把聚合物局部构象与无机载体表面位点直接联系起来。",
+      "meaning_cn": "复现实验需明确观测核与去相位核、MAS转速、TRAPDOR脉冲时长、射频场强及对照回波，并设置未氟化载体和不同吸附量样品。谱强衰减应结合接触距离、链段运动和弛豫差异解释，避免仅以单点去相位判断构象。",
+      "publication_date": "2026-08-28",
+      "time_scope": "24h",
+      "source": "Langmuir",
+      "url": "https://pubs.acs.org/Langmuir",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-29",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-29.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "材料与缺陷表征",
+          "聚合物",
+          "化学结构解析"
+        ],
+        "original_type": "固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-29.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "TRAPDOR固体NMR解析氟化γ-Al₂O₃表面聚乙烯构象；Langmuir发布研究，以TRAPDOR双共振固体NMR观察聚乙烯与氟化γ-Al₂O₃表面之间的空间邻近关系，并比较表面氟化前后吸附链构象变化。该方法借助异核偶极去相位，把聚合物局部构象与无机载体表面位点直接联系起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "TRAPDOR固体NMR解析氟化γ-Al₂O₃表面聚乙烯构象；Langmuir发布研究，以TRAPDOR双共振固体NMR观察聚乙烯与氟化γ-Al₂O₃表面之间的空间邻近关系，并比较表面氟化前后吸附链构象变化。该方法借助异核偶极去相位，把聚合物局部构象与无机载体表面位点直接联系起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "polymers",
+          "dimension": "application_ids",
+          "basis": "TRAPDOR固体NMR解析氟化γ-Al₂O₃表面聚乙烯构象；Langmuir发布研究，以TRAPDOR双共振固体NMR观察聚乙烯与氟化γ-Al₂O₃表面之间的空间邻近关系，并比较表面氟化前后吸附链构象变化。该方法借助异核偶极去相位，把聚合物局部构象与无机载体表面位点直接联系起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "TRAPDOR固体NMR解析氟化γ-Al₂O₃表面聚乙烯构象",
+        "original_summary_cn": "Langmuir发布研究，以TRAPDOR双共振固体NMR观察聚乙烯与氟化γ-Al₂O₃表面之间的空间邻近关系，并比较表面氟化前后吸附链构象变化。该方法借助异核偶极去相位，把聚合物局部构象与无机载体表面位点直接联系起来。",
+        "original_meaning_cn": "复现实验需明确观测核与去相位核、MAS转速、TRAPDOR脉冲时长、射频场强及对照回波，并设置未氟化载体和不同吸附量样品。谱强衰减应结合接触距离、链段运动和弛豫差异解释，避免仅以单点去相位判断构象。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "材料与缺陷表征",
+          "聚合物",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260829-03",
+      "report_date": "2026-08-29",
+      "item_no": 3,
+      "title_cn": "EPR与⁵¹V NMR区分氧钒(IV)空气氧化产物",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Scientific Reports报道氧钒(IV)配合物在空气氧化后转化为二氧钒(V)配合物，并联合EPR、⁵¹V/¹H/¹³C NMR、磁化率、电化学和DFT分析价态及配位环境。EPR识别顺磁V(IV)，⁵¹V NMR则用于表征抗磁V(V)产物。",
+      "meaning_cn": "价态转化实验应控制空气暴露时间、溶剂、水含量和温度；EPR需报告g值、⁵¹V超精细耦合及微波功率，⁵¹V NMR需记录参照、谱宽和浓度。两类谱法应在同批样品、明确氧化时间点上配对采集。",
+      "publication_date": "2026-08-28",
+      "time_scope": "24h",
+      "source": "Scientific Reports",
+      "url": "https://www.nature.com/articles/s41598-026-67103-x",
+      "doi": "10.1038/s41598-026-67103-x",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-29",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-29.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR + EPR",
+          "溶液NMR",
+          "连续波EPR",
+          "多核NMR",
+          "顺磁NMR",
+          "计算NMR",
+          "化学结构解析",
+          "无机与配位化学"
+        ],
+        "original_type": "溶液NMR / 连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-29.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "EPR与⁵¹V NMR区分氧钒(IV)空气氧化产物；Scientific Reports报道氧钒(IV)配合物在空气氧化后转化为二氧钒(V)配合物，并联合EPR、⁵¹V/¹H/¹³C NMR、磁化率、电化学和DFT分析价态及配位环境。EPR识别顺磁V(IV)，⁵¹V NMR则用于表征抗磁V(V)产物。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "EPR与⁵¹V NMR区分氧钒(IV)空气氧化产物；Scientific Reports报道氧钒(IV)配合物在空气氧化后转化为二氧钒(V)配合物，并联合EPR、⁵¹V/¹H/¹³C NMR、磁化率、电化学和DFT分析价态及配位环境。EPR识别顺磁V(IV)，⁵¹V NMR则用于表征抗磁V(V)产物。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "EPR与⁵¹V NMR区分氧钒(IV)空气氧化产物；Scientific Reports报道氧钒(IV)配合物在空气氧化后转化为二氧钒(V)配合物，并联合EPR、⁵¹V/¹H/¹³C NMR、磁化率、电化学和DFT分析价态及配位环境。EPR识别顺磁V(IV)，⁵¹V NMR则用于表征抗磁V(V)产物。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "inorganic_coordination",
+          "dimension": "application_ids",
+          "basis": "EPR与⁵¹V NMR区分氧钒(IV)空气氧化产物；Scientific Reports报道氧钒(IV)配合物在空气氧化后转化为二氧钒(V)配合物，并联合EPR、⁵¹V/¹H/¹³C NMR、磁化率、电化学和DFT分析价态及配位环境。EPR识别顺磁V(IV)，⁵¹V NMR则用于表征抗磁V(V)产物。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "EPR与⁵¹V NMR区分氧钒(IV)空气氧化产物",
+        "original_summary_cn": "Scientific Reports报道氧钒(IV)配合物在空气氧化后转化为二氧钒(V)配合物，并联合EPR、⁵¹V/¹H/¹³C NMR、磁化率、电化学和DFT分析价态及配位环境。EPR识别顺磁V(IV)，⁵¹V NMR则用于表征抗磁V(V)产物。",
+        "original_meaning_cn": "价态转化实验应控制空气暴露时间、溶剂、水含量和温度；EPR需报告g值、⁵¹V超精细耦合及微波功率，⁵¹V NMR需记录参照、谱宽和浓度。两类谱法应在同批样品、明确氧化时间点上配对采集。",
+        "original_tags": [
+          "NMR + EPR",
+          "溶液NMR",
+          "连续波EPR",
+          "多核NMR",
+          "顺磁NMR",
+          "计算NMR",
+          "化学结构解析",
+          "无机与配位化学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260829-04",
+      "report_date": "2026-08-29",
+      "item_no": 4,
+      "title_cn": "自旋捕获EPR表征限域Co催化过一硫酸盐降解诺氟沙星",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "spin_trapping"
+      ],
+      "application_ids": [
+        "environmental_catalysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Langmuir报道硼/氮改性分级碳中的限域Co位点活化过一硫酸盐降解诺氟沙星，并使用自旋捕获EPR辨别反应中的活性物种。谱学结果用于判断自由基与非自由基通道的贡献，并联系Co位点环境、污染物去除和循环稳定性。",
+      "meaning_cn": "应用验证需写明捕获剂种类与浓度、加入顺序、反应时间、pH和过一硫酸盐剂量，并设置无催化剂、无氧化剂及自由基淬灭对照。EPR采集应避免功率饱和，按加合物寿命统一取样延迟并核对特征峰数。",
+      "publication_date": "2026-08-28",
+      "time_scope": "24h",
+      "source": "Langmuir",
+      "url": "https://pubs.acs.org/langd5/article/doi/10.1021/acs.langmuir.6c02861/5347216/Confined-Cobalt-in-Hierarchical-Boron-Nitrogen",
+      "doi": "10.1021/acs.langmuir.6c02861",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-29",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-29.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "自旋捕获",
+          "催化",
+          "环境催化",
+          "环境与污染控制"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-29.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "自旋捕获EPR表征限域Co催化过一硫酸盐降解诺氟沙星；Langmuir报道硼/氮改性分级碳中的限域Co位点活化过一硫酸盐降解诺氟沙星，并使用自旋捕获EPR辨别反应中的活性物种。谱学结果用于判断自由基与非自由基通道的贡献，并联系Co位点环境、污染物去除和循环稳定性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spin_trapping",
+          "dimension": "method_ids",
+          "basis": "自旋捕获EPR表征限域Co催化过一硫酸盐降解诺氟沙星；Langmuir报道硼/氮改性分级碳中的限域Co位点活化过一硫酸盐降解诺氟沙星，并使用自旋捕获EPR辨别反应中的活性物种。谱学结果用于判断自由基与非自由基通道的贡献，并联系Co位点环境、污染物去除和循环稳定性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "environmental_catalysis",
+          "dimension": "application_ids",
+          "basis": "自旋捕获EPR表征限域Co催化过一硫酸盐降解诺氟沙星；Langmuir报道硼/氮改性分级碳中的限域Co位点活化过一硫酸盐降解诺氟沙星，并使用自旋捕获EPR辨别反应中的活性物种。谱学结果用于判断自由基与非自由基通道的贡献，并联系Co位点环境、污染物去除和循环稳定性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "自旋捕获EPR表征限域Co催化过一硫酸盐降解诺氟沙星",
+        "original_summary_cn": "Langmuir报道硼/氮改性分级碳中的限域Co位点活化过一硫酸盐降解诺氟沙星，并使用自旋捕获EPR辨别反应中的活性物种。谱学结果用于判断自由基与非自由基通道的贡献，并联系Co位点环境、污染物去除和循环稳定性。",
+        "original_meaning_cn": "应用验证需写明捕获剂种类与浓度、加入顺序、反应时间、pH和过一硫酸盐剂量，并设置无催化剂、无氧化剂及自由基淬灭对照。EPR采集应避免功率饱和，按加合物寿命统一取样延迟并核对特征峰数。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "自旋捕获",
+          "催化",
+          "环境催化",
+          "环境与污染控制"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260829-05",
+      "report_date": "2026-08-29",
+      "item_no": 5,
+      "title_cn": "Lewis Kay因蛋白质动力学NMR方法获2026 Royal Medal",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "news_feature",
+      "summary_cn": "多伦多大学宣布Lewis Kay获英国皇家学会2026 Royal Medal，以表彰其定量解析蛋白质动力学及功能关系的贡献。其NMR方法使更大蛋白复合物和短寿命构象状态可被研究，奖项信息直接指向生物分子NMR方法发展的长期影响。",
+      "meaning_cn": "面向方案交流，可将相关方法聚焦在大型复合物的横向弛豫优化、甲基选择性标记和交换动力学测量。实际项目需按分子量、同位素标记成本、样品浓度及稳定时间选择脉冲序列，并预留温度与重复时间优化。",
+      "publication_date": "2026-08-28",
+      "time_scope": "24h",
+      "source": "University of Toronto",
+      "url": "https://www.utoronto.ca/celebrates/lewis-kay-awarded-2026-royal-medal-uk-s-royal-society",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-29",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-29.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "培训与会议"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-29.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "Lewis Kay因蛋白质动力学NMR方法获2026 Royal Medal；多伦多大学宣布Lewis Kay获英国皇家学会2026 Royal Medal，以表彰其定量解析蛋白质动力学及功能关系的贡献。其NMR方法使更大蛋白复合物和短寿命构象状态可被研究，奖项信息直接指向生物分子NMR方法发展的长期影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "Lewis Kay因蛋白质动力学NMR方法获2026 Royal Medal；多伦多大学宣布Lewis Kay获英国皇家学会2026 Royal Medal，以表彰其定量解析蛋白质动力学及功能关系的贡献。其NMR方法使更大蛋白复合物和短寿命构象状态可被研究，奖项信息直接指向生物分子NMR方法发展的长期影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Lewis Kay因蛋白质动力学NMR方法获2026 Royal Medal",
+        "original_summary_cn": "多伦多大学宣布Lewis Kay获英国皇家学会2026 Royal Medal，以表彰其定量解析蛋白质动力学及功能关系的贡献。其NMR方法使更大蛋白复合物和短寿命构象状态可被研究，奖项信息直接指向生物分子NMR方法发展的长期影响。",
+        "original_meaning_cn": "面向方案交流，可将相关方法聚焦在大型复合物的横向弛豫优化、甲基选择性标记和交换动力学测量。实际项目需按分子量、同位素标记成本、样品浓度及稳定时间选择脉冲序列，并预留温度与重复时间优化。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "培训与会议"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "属相关动态，不代表新增实验方法或采购公告。"
+      ]
+    },
+    {
+      "item_id": "SF-20260829-06",
+      "report_date": "2026-08-29",
+      "item_no": 6,
+      "title_cn": "CLEAR以物理约束深度学习重建5%采样NUS NMR谱",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "nus",
+        "spectral_processing"
+      ],
+      "application_ids": [],
+      "instrument_component_ids": [
+        "software"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Analytical Chemistry提出CLEAR非均匀采样重建框架，将卷积层、Transformer多头注意力和采样点数据一致性约束组合，用于多类生物分子NMR。测试显示在最低5%采样条件下仍能保留弱峰，重建误差较现有方法降低约16%至25%。",
+      "meaning_cn": "部署时应保留原始采样表、直接维与间接维点数、噪声水平和全采样参照谱；验证重点是弱峰召回、伪峰率、峰强偏差与RLNE。对定量或动力学数据，需先确认重建不会系统改变峰体积，再决定可接受采样比例。",
+      "publication_date": "2026-08-26",
+      "time_scope": "7d_extension",
+      "source": "Analytical Chemistry",
+      "url": "https://pubs.acs.org/ancham/article/doi/10.1021/acs.analchem.6c02079/5330548/Unlocking-High-Fidelity-Chemical-NMR-Spectral",
+      "doi": "10.1021/acs.analchem.6c02079",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-29",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-29.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "非均匀采样",
+          "结构生物学",
+          "仪器、软件与方法"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-29.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "CLEAR以物理约束深度学习重建5%采样NUS NMR谱；Analytical Chemistry提出CLEAR非均匀采样重建框架，将卷积层、Transformer多头注意力和采样点数据一致性约束组合，用于多类生物分子NMR。测试显示在最低5%采样条件下仍能保留弱峰，重建误差较现有方法降低约16%至25%。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "nus",
+          "dimension": "method_ids",
+          "basis": "CLEAR以物理约束深度学习重建5%采样NUS NMR谱；Analytical Chemistry提出CLEAR非均匀采样重建框架，将卷积层、Transformer多头注意力和采样点数据一致性约束组合，用于多类生物分子NMR。测试显示在最低5%采样条件下仍能保留弱峰，重建误差较现有方法降低约16%至25%。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spectral_processing",
+          "dimension": "method_ids",
+          "basis": "CLEAR以物理约束深度学习重建5%采样NUS NMR谱；Analytical Chemistry提出CLEAR非均匀采样重建框架，将卷积层、Transformer多头注意力和采样点数据一致性约束组合，用于多类生物分子NMR。测试显示在最低5%采样条件下仍能保留弱峰，重建误差较现有方法降低约16%至25%。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "software",
+          "dimension": "instrument_component_ids",
+          "basis": "CLEAR以物理约束深度学习重建5%采样NUS NMR谱；Analytical Chemistry提出CLEAR非均匀采样重建框架，将卷积层、Transformer多头注意力和采样点数据一致性约束组合，用于多类生物分子NMR。测试显示在最低5%采样条件下仍能保留弱峰，重建误差较现有方法降低约16%至25%。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "CLEAR以物理约束深度学习重建5%采样NUS NMR谱",
+        "original_summary_cn": "Analytical Chemistry提出CLEAR非均匀采样重建框架，将卷积层、Transformer多头注意力和采样点数据一致性约束组合，用于多类生物分子NMR。测试显示在最低5%采样条件下仍能保留弱峰，重建误差较现有方法降低约16%至25%。",
+        "original_meaning_cn": "部署时应保留原始采样表、直接维与间接维点数、噪声水平和全采样参照谱；验证重点是弱峰召回、伪峰率、峰强偏差与RLNE。对定量或动力学数据，需先确认重建不会系统改变峰体积，再决定可接受采样比例。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "非均匀采样",
+          "结构生物学",
+          "仪器、软件与方法"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260829-07",
+      "report_date": "2026-08-29",
+      "item_no": 7,
+      "title_cn": "USDA采购20 MHz脉冲NMR用于整粒油料种子分析",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "procurement"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "tender",
+      "summary_cn": "美国农业研究局发布一台脉冲NMR谱仪询价，用于少量整粒油料种子的油分与蛋白含量测量。公开需求包括20 MHz探头、0.47 T磁体、25 mm气隙、18 mm玻璃样品管、Windows软件以及安装培训，报价截止9月3日。",
+      "meaning_cn": "响应或配置比较应逐项核对油分与蛋白校准范围、重复性、最小样品量、18 mm管兼容性、磁体温控及软件校准管理。供应商还需明确标准样、现场验收样品、培训内容、交付周期和方法迁移责任。",
+      "publication_date": "2026-08-26",
+      "time_scope": "7d_extension",
+      "source": "USDA Agricultural Research Service / SAM.gov",
+      "url": "https://sam.gov/opp/1232SA26Q1121/view",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-29",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-29.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "时域/低场NMR",
+          "定量NMR",
+          "食品与农业",
+          "采购与行业"
+        ],
+        "original_type": "时域/低场NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-29.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "USDA采购20 MHz脉冲NMR用于整粒油料种子分析；美国农业研究局发布一台脉冲NMR谱仪询价，用于少量整粒油料种子的油分与蛋白含量测量。公开需求包括20 MHz探头、0.47 T磁体、25 mm气隙、18 mm玻璃样品管、Windows软件以及安装培训，报价截止9月3日。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "procurement",
+          "dimension": "application_ids",
+          "basis": "USDA采购20 MHz脉冲NMR用于整粒油料种子分析；美国农业研究局发布一台脉冲NMR谱仪询价，用于少量整粒油料种子的油分与蛋白含量测量。公开需求包括20 MHz探头、0.47 T磁体、25 mm气隙、18 mm玻璃样品管、Windows软件以及安装培训，报价截止9月3日。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "USDA采购20 MHz脉冲NMR用于整粒油料种子分析",
+        "original_summary_cn": "美国农业研究局发布一台脉冲NMR谱仪询价，用于少量整粒油料种子的油分与蛋白含量测量。公开需求包括20 MHz探头、0.47 T磁体、25 mm气隙、18 mm玻璃样品管、Windows软件以及安装培训，报价截止9月3日。",
+        "original_meaning_cn": "响应或配置比较应逐项核对油分与蛋白校准范围、重复性、最小样品量、18 mm管兼容性、磁体温控及软件校准管理。供应商还需明确标准样、现场验收样品、培训内容、交付周期和方法迁移责任。",
+        "original_tags": [
+          "NMR",
+          "时域/低场NMR",
+          "定量NMR",
+          "食品与农业",
+          "采购与行业"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "本期收录7条：5条为2026年8月28日发布的近24小时信息，2条为2026年8月26日发布的近7天扩展信息。已按历史DOI、规范化URL和标题查重；未用仅将NMR/EPR作为常规辅助表征的内容补足数量。待复核标签：无。",
+    "source_sha256": "377eae29335ed8fed4d7ddb4a8e3c3d68c2b6ce759a554be977c1c640a48e196",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

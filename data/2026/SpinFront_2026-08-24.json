@@ -1,0 +1,1052 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-08-24",
+  "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260824-01",
+      "report_date": "2026-08-24",
+      "item_no": 1,
+      "title_cn": "ICMRBS 2026集中展示固体、液体与BioNMR技术",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr",
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "ICMRBS 2026在瑞士达沃斯举办Bruker Lunch Symposium，内容覆盖液体NMR、固体NMR、结构生物学与谱学软件。活动把硬件平台、实验方法和数据处理放在同一BioNMR场景下，反映高场系统正进一步整合探头、自动化采集及结构分析工作流。",
+      "meaning_cn": "交流方案可按溶液蛋白、膜蛋白及固体样品拆分配置，并提前确认磁场强度、探头类型、MAS转速、变温范围、同位素标记和软件授权，避免只按主机频率讨论。",
+      "publication_date": "2026-08-23",
+      "time_scope": "24h",
+      "source": "ICMRBS 2026 / Bruker",
+      "url": "https://icmrbs2026.org/symposia-and-workshops/",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-24",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-24.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "生命科学",
+          "结构生物学",
+          "化学结构解析",
+          "仪器、软件与方法",
+          "培训与会议"
+        ],
+        "original_type": "固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-24.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "ICMRBS 2026集中展示固体、液体与BioNMR技术；ICMRBS 2026在瑞士达沃斯举办Bruker Lunch Symposium，内容覆盖液体NMR、固体NMR、结构生物学与谱学软件。活动把硬件平台、实验方法和数据处理放在同一BioNMR场景下，反映高场系统正进一步整合探头、自动化采集及结构分析工作流。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "ICMRBS 2026集中展示固体、液体与BioNMR技术；ICMRBS 2026在瑞士达沃斯举办Bruker Lunch Symposium，内容覆盖液体NMR、固体NMR、结构生物学与谱学软件。活动把硬件平台、实验方法和数据处理放在同一BioNMR场景下，反映高场系统正进一步整合探头、自动化采集及结构分析工作流。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "ICMRBS 2026集中展示固体、液体与BioNMR技术；ICMRBS 2026在瑞士达沃斯举办Bruker Lunch Symposium，内容覆盖液体NMR、固体NMR、结构生物学与谱学软件。活动把硬件平台、实验方法和数据处理放在同一BioNMR场景下，反映高场系统正进一步整合探头、自动化采集及结构分析工作流。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "ICMRBS 2026集中展示固体、液体与BioNMR技术；ICMRBS 2026在瑞士达沃斯举办Bruker Lunch Symposium，内容覆盖液体NMR、固体NMR、结构生物学与谱学软件。活动把硬件平台、实验方法和数据处理放在同一BioNMR场景下，反映高场系统正进一步整合探头、自动化采集及结构分析工作流。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "ICMRBS 2026集中展示固体、液体与BioNMR技术",
+        "original_summary_cn": "ICMRBS 2026在瑞士达沃斯举办Bruker Lunch Symposium，内容覆盖液体NMR、固体NMR、结构生物学与谱学软件。活动把硬件平台、实验方法和数据处理放在同一BioNMR场景下，反映高场系统正进一步整合探头、自动化采集及结构分析工作流。",
+        "original_meaning_cn": "交流方案可按溶液蛋白、膜蛋白及固体样品拆分配置，并提前确认磁场强度、探头类型、MAS转速、变温范围、同位素标记和软件授权，避免只按主机频率讨论。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "生命科学",
+          "结构生物学",
+          "化学结构解析",
+          "仪器、软件与方法",
+          "培训与会议"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260824-02",
+      "report_date": "2026-08-24",
+      "item_no": 2,
+      "title_cn": "CCPN Workshop覆盖归属、滴定、动力学与NEF数据交换",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "metabolomics",
+        "spectral_processing"
+      ],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "CCPN在ICMRBS安排现场数据分析工作坊，教程包括基础操作、谱峰归属、滴定分析、动力学、宏脚本、固体NMR、NEF、筛选及代谢组学。参与者可携带自己的数据运行教程，重点体现NMR软件从谱图处理延伸至项目管理、结构约束和标准化交换。",
+      "meaning_cn": "软件评估不宜只看谱图显示。应准备真实二维或三维数据，检查自动归属、批处理、审计记录、NEF导入导出、脚本接口及跨平台兼容性，并记录异常数据的人工修订步骤。",
+      "publication_date": "2026-08-23",
+      "time_scope": "24h",
+      "source": "ICMRBS 2026 / CCPN",
+      "url": "https://icmrbs2026.org/symposia-and-workshops/",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-24",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-24.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "NMR代谢组学",
+          "配体筛选",
+          "化学结构解析",
+          "仪器、软件与方法",
+          "培训与会议"
+        ],
+        "original_type": "固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-24.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "CCPN Workshop覆盖归属、滴定、动力学与NEF数据交换；CCPN在ICMRBS安排现场数据分析工作坊，教程包括基础操作、谱峰归属、滴定分析、动力学、宏脚本、固体NMR、NEF、筛选及代谢组学。参与者可携带自己的数据运行教程，重点体现NMR软件从谱图处理延伸至项目管理、结构约束和标准化交换。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "CCPN Workshop覆盖归属、滴定、动力学与NEF数据交换；CCPN在ICMRBS安排现场数据分析工作坊，教程包括基础操作、谱峰归属、滴定分析、动力学、宏脚本、固体NMR、NEF、筛选及代谢组学。参与者可携带自己的数据运行教程，重点体现NMR软件从谱图处理延伸至项目管理、结构约束和标准化交换。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "metabolomics",
+          "dimension": "method_ids",
+          "basis": "CCPN Workshop覆盖归属、滴定、动力学与NEF数据交换；CCPN在ICMRBS安排现场数据分析工作坊，教程包括基础操作、谱峰归属、滴定分析、动力学、宏脚本、固体NMR、NEF、筛选及代谢组学。参与者可携带自己的数据运行教程，重点体现NMR软件从谱图处理延伸至项目管理、结构约束和标准化交换。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spectral_processing",
+          "dimension": "method_ids",
+          "basis": "CCPN Workshop覆盖归属、滴定、动力学与NEF数据交换；CCPN在ICMRBS安排现场数据分析工作坊，教程包括基础操作、谱峰归属、滴定分析、动力学、宏脚本、固体NMR、NEF、筛选及代谢组学。参与者可携带自己的数据运行教程，重点体现NMR软件从谱图处理延伸至项目管理、结构约束和标准化交换。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "CCPN Workshop覆盖归属、滴定、动力学与NEF数据交换；CCPN在ICMRBS安排现场数据分析工作坊，教程包括基础操作、谱峰归属、滴定分析、动力学、宏脚本、固体NMR、NEF、筛选及代谢组学。参与者可携带自己的数据运行教程，重点体现NMR软件从谱图处理延伸至项目管理、结构约束和标准化交换。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "CCPN Workshop覆盖归属、滴定、动力学与NEF数据交换",
+        "original_summary_cn": "CCPN在ICMRBS安排现场数据分析工作坊，教程包括基础操作、谱峰归属、滴定分析、动力学、宏脚本、固体NMR、NEF、筛选及代谢组学。参与者可携带自己的数据运行教程，重点体现NMR软件从谱图处理延伸至项目管理、结构约束和标准化交换。",
+        "original_meaning_cn": "软件评估不宜只看谱图显示。应准备真实二维或三维数据，检查自动归属、批处理、审计记录、NEF导入导出、脚本接口及跨平台兼容性，并记录异常数据的人工修订步骤。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "NMR代谢组学",
+          "配体筛选",
+          "化学结构解析",
+          "仪器、软件与方法",
+          "培训与会议"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260824-03",
+      "report_date": "2026-08-24",
+      "item_no": 3,
+      "title_cn": "MnO–Mn₅C₂/C体系用EPR判别高碘酸盐双路径活化",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "environmental_catalysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "论文构建MnO–Mn₅C₂/C复合催化材料并研究其活化高碘酸盐的双路径机理。EPR与自由基捕获、表面价态及反应动力学共同用于区分活性物种和电子转移过程，重点考察锰物种、碳载体界面及不同反应条件对自由基与非自由基通道的影响。",
+      "meaning_cn": "高碘酸盐体系应同时设置DMPO或其他捕获剂、无催化剂空白和缺氧对照，固定混合至进腔时间。谱图比较需检查Mn本征信号、捕获剂副反应及强氧化条件下加合物寿命。",
+      "publication_date": "2026-08-23",
+      "time_scope": "24h",
+      "source": "Journal of Environmental Chemical Engineering",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2213343726037267",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-24",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-24.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "自旋捕获",
+          "催化",
+          "环境催化",
+          "材料与缺陷表征"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-24.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "MnO–Mn₅C₂/C体系用EPR判别高碘酸盐双路径活化；论文构建MnO–Mn₅C₂/C复合催化材料并研究其活化高碘酸盐的双路径机理。EPR与自由基捕获、表面价态及反应动力学共同用于区分活性物种和电子转移过程，重点考察锰物种、碳载体界面及不同反应条件对自由基与非自由基通道的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "environmental_catalysis",
+          "dimension": "application_ids",
+          "basis": "MnO–Mn₅C₂/C体系用EPR判别高碘酸盐双路径活化；论文构建MnO–Mn₅C₂/C复合催化材料并研究其活化高碘酸盐的双路径机理。EPR与自由基捕获、表面价态及反应动力学共同用于区分活性物种和电子转移过程，重点考察锰物种、碳载体界面及不同反应条件对自由基与非自由基通道的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "MnO–Mn₅C₂/C体系用EPR判别高碘酸盐双路径活化",
+        "original_summary_cn": "论文构建MnO–Mn₅C₂/C复合催化材料并研究其活化高碘酸盐的双路径机理。EPR与自由基捕获、表面价态及反应动力学共同用于区分活性物种和电子转移过程，重点考察锰物种、碳载体界面及不同反应条件对自由基与非自由基通道的影响。",
+        "original_meaning_cn": "高碘酸盐体系应同时设置DMPO或其他捕获剂、无催化剂空白和缺氧对照，固定混合至进腔时间。谱图比较需检查Mn本征信号、捕获剂副反应及强氧化条件下加合物寿命。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "自旋捕获",
+          "催化",
+          "环境催化",
+          "材料与缺陷表征"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260824-04",
+      "report_date": "2026-08-24",
+      "item_no": 4,
+      "title_cn": "EPR读取低温甲烷制合成气催化剂的缺陷与氧化还原状态",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "defect_epr"
+      ],
+      "application_ids": [
+        "catalysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究报道低温甲烷转化制合成气催化体系，并将EPR与XRD、HR-TEM、XPS、O₂-TPD、CH₄-TPD/TPSR、H₂-TPR及Raman组合分析。EPR用于辨认缺陷或顺磁中心，帮助关联氧迁移、甲烷吸附活化与催化剂氧化还原循环。",
+      "meaning_cn": "催化剂EPR应比较新鲜、还原、反应后及再氧化状态，并统一样品质量和装样高度。若含强磁性组分，需先评估腔体Q值、谱线展宽和微波饱和，再决定是否进行自旋定量。",
+      "publication_date": "2026-08-23",
+      "time_scope": "24h",
+      "source": "Journal of Environmental Chemical Engineering",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2213343726037218",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-24",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-24.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "缺陷EPR",
+          "催化",
+          "材料与缺陷表征"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-24.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "EPR读取低温甲烷制合成气催化剂的缺陷与氧化还原状态；研究报道低温甲烷转化制合成气催化体系，并将EPR与XRD、HR-TEM、XPS、O₂-TPD、CH₄-TPD/TPSR、H₂-TPR及Raman组合分析。EPR用于辨认缺陷或顺磁中心，帮助关联氧迁移、甲烷吸附活化与催化剂氧化还原循环。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "defect_epr",
+          "dimension": "method_ids",
+          "basis": "EPR读取低温甲烷制合成气催化剂的缺陷与氧化还原状态；研究报道低温甲烷转化制合成气催化体系，并将EPR与XRD、HR-TEM、XPS、O₂-TPD、CH₄-TPD/TPSR、H₂-TPR及Raman组合分析。EPR用于辨认缺陷或顺磁中心，帮助关联氧迁移、甲烷吸附活化与催化剂氧化还原循环。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "catalysis",
+          "dimension": "application_ids",
+          "basis": "EPR读取低温甲烷制合成气催化剂的缺陷与氧化还原状态；研究报道低温甲烷转化制合成气催化体系，并将EPR与XRD、HR-TEM、XPS、O₂-TPD、CH₄-TPD/TPSR、H₂-TPR及Raman组合分析。EPR用于辨认缺陷或顺磁中心，帮助关联氧迁移、甲烷吸附活化与催化剂氧化还原循环。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "EPR读取低温甲烷制合成气催化剂的缺陷与氧化还原状态",
+        "original_summary_cn": "研究报道低温甲烷转化制合成气催化体系，并将EPR与XRD、HR-TEM、XPS、O₂-TPD、CH₄-TPD/TPSR、H₂-TPR及Raman组合分析。EPR用于辨认缺陷或顺磁中心，帮助关联氧迁移、甲烷吸附活化与催化剂氧化还原循环。",
+        "original_meaning_cn": "催化剂EPR应比较新鲜、还原、反应后及再氧化状态，并统一样品质量和装样高度。若含强磁性组分，需先评估腔体Q值、谱线展宽和微波饱和，再决定是否进行自旋定量。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "缺陷EPR",
+          "催化",
+          "材料与缺陷表征"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260824-05",
+      "report_date": "2026-08-24",
+      "item_no": 5,
+      "title_cn": "Mn-porphyrin COF吸附甲醛前后EPR信号发生变化",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "environment"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "论文设计具有可调电导率的卟啉基共价有机框架，用于甲醛多信号监测。作者比较3D-MnPor-COF吸附HCHO前后的EPR谱，并结合电学及其他响应方式判断甲醛与锰卟啉位点之间的电子相互作用，使气体吸附过程具有直接的顺磁读出。",
+      "meaning_cn": "气敏材料EPR需严格控制气体浓度、湿度、暴露时间和解吸条件。建议同步采集未暴露、甲醛暴露及恢复态谱图，并用相同增益和功率比较g值、线宽与双积分变化。",
+      "publication_date": "2026-08-23",
+      "time_scope": "24h",
+      "source": "Chinese Journal of Catalysis",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1005030226006341",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-24",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-24.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "环境与污染控制",
+          "材料与缺陷表征"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-24.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "Mn-porphyrin COF吸附甲醛前后EPR信号发生变化；论文设计具有可调电导率的卟啉基共价有机框架，用于甲醛多信号监测。作者比较3D-MnPor-COF吸附HCHO前后的EPR谱，并结合电学及其他响应方式判断甲醛与锰卟啉位点之间的电子相互作用，使气体吸附过程具有直接的顺磁读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "environment",
+          "dimension": "application_ids",
+          "basis": "Mn-porphyrin COF吸附甲醛前后EPR信号发生变化；论文设计具有可调电导率的卟啉基共价有机框架，用于甲醛多信号监测。作者比较3D-MnPor-COF吸附HCHO前后的EPR谱，并结合电学及其他响应方式判断甲醛与锰卟啉位点之间的电子相互作用，使气体吸附过程具有直接的顺磁读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Mn-porphyrin COF吸附甲醛前后EPR信号发生变化",
+        "original_summary_cn": "论文设计具有可调电导率的卟啉基共价有机框架，用于甲醛多信号监测。作者比较3D-MnPor-COF吸附HCHO前后的EPR谱，并结合电学及其他响应方式判断甲醛与锰卟啉位点之间的电子相互作用，使气体吸附过程具有直接的顺磁读出。",
+        "original_meaning_cn": "气敏材料EPR需严格控制气体浓度、湿度、暴露时间和解吸条件。建议同步采集未暴露、甲醛暴露及恢复态谱图，并用相同增益和功率比较g值、线宽与双积分变化。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "环境与污染控制",
+          "材料与缺陷表征"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260824-06",
+      "report_date": "2026-08-24",
+      "item_no": 6,
+      "title_cn": "CoMoO₄/graphdiyne界面键工程由EPR确认活化氧物种",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "catalysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究通过CoMoO₄与graphdiyne之间的C–M–O界面键调节局部电子结构和反应能垒。EPR用于确认体系产生的活化氧物种，并与界面电荷转移及计算结果对应，说明界面化学键不仅改变载流子分布，也会改变反应中间体的生成路径。",
+      "meaning_cn": "界面催化EPR应准备单组分、物理混合物和成键异质结构三组对照，并固定光照或偏压条件。活性氧捕获需按目标物种分别选用捕获剂，避免把不同加合物峰重叠解释为单一路径。",
+      "publication_date": "2026-08-23",
+      "time_scope": "24h",
+      "source": "Nano Energy",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2211285526006403",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-24",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-24.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "催化",
+          "环境催化",
+          "材料与缺陷表征",
+          "化学结构解析"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-24.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "CoMoO₄/graphdiyne界面键工程由EPR确认活化氧物种；研究通过CoMoO₄与graphdiyne之间的C–M–O界面键调节局部电子结构和反应能垒。EPR用于确认体系产生的活化氧物种，并与界面电荷转移及计算结果对应，说明界面化学键不仅改变载流子分布，也会改变反应中间体的生成路径。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "catalysis",
+          "dimension": "application_ids",
+          "basis": "CoMoO₄/graphdiyne界面键工程由EPR确认活化氧物种；研究通过CoMoO₄与graphdiyne之间的C–M–O界面键调节局部电子结构和反应能垒。EPR用于确认体系产生的活化氧物种，并与界面电荷转移及计算结果对应，说明界面化学键不仅改变载流子分布，也会改变反应中间体的生成路径。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "CoMoO₄/graphdiyne界面键工程由EPR确认活化氧物种",
+        "original_summary_cn": "研究通过CoMoO₄与graphdiyne之间的C–M–O界面键调节局部电子结构和反应能垒。EPR用于确认体系产生的活化氧物种，并与界面电荷转移及计算结果对应，说明界面化学键不仅改变载流子分布，也会改变反应中间体的生成路径。",
+        "original_meaning_cn": "界面催化EPR应准备单组分、物理混合物和成键异质结构三组对照，并固定光照或偏压条件。活性氧捕获需按目标物种分别选用捕获剂，避免把不同加合物峰重叠解释为单一路径。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "催化",
+          "环境催化",
+          "材料与缺陷表征",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260824-07",
+      "report_date": "2026-08-24",
+      "item_no": 7,
+      "title_cn": "PBN自旋捕获EPR解析聚苯乙烯光驱升级中的碳自由基",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "spin_trapping"
+      ],
+      "application_ids": [
+        "polymers"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "论文利用等离激元铁纳米颗粒实现聚苯乙烯向芳香烃的可编程光驱升级。PBN自旋捕获EPR比较仅照光与加入聚苯乙烯反应时的谱图，用于验证聚合物裂解阶段的自由基中间体，并与产物分布和光热反应条件共同解释路径选择。",
+      "meaning_cn": "聚合物光反应EPR应控制PBN浓度、溶剂含氧量、光斑和反应温度，并设置无光、无聚合物及无催化剂对照。黏稠样品可先取反应液上清，减少介电损耗和固体散射。",
+      "publication_date": "2026-08-23",
+      "time_scope": "24h",
+      "source": "Applied Catalysis B: Environment and Energy",
+      "url": "https://www.sciencedirect.com/science/article/pii/S092633732601009X",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-24",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-24.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "自旋捕获",
+          "催化",
+          "光催化",
+          "材料与缺陷表征",
+          "聚合物"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-24.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "PBN自旋捕获EPR解析聚苯乙烯光驱升级中的碳自由基；论文利用等离激元铁纳米颗粒实现聚苯乙烯向芳香烃的可编程光驱升级。PBN自旋捕获EPR比较仅照光与加入聚苯乙烯反应时的谱图，用于验证聚合物裂解阶段的自由基中间体，并与产物分布和光热反应条件共同解释路径选择。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spin_trapping",
+          "dimension": "method_ids",
+          "basis": "PBN自旋捕获EPR解析聚苯乙烯光驱升级中的碳自由基；论文利用等离激元铁纳米颗粒实现聚苯乙烯向芳香烃的可编程光驱升级。PBN自旋捕获EPR比较仅照光与加入聚苯乙烯反应时的谱图，用于验证聚合物裂解阶段的自由基中间体，并与产物分布和光热反应条件共同解释路径选择。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "polymers",
+          "dimension": "application_ids",
+          "basis": "PBN自旋捕获EPR解析聚苯乙烯光驱升级中的碳自由基；论文利用等离激元铁纳米颗粒实现聚苯乙烯向芳香烃的可编程光驱升级。PBN自旋捕获EPR比较仅照光与加入聚苯乙烯反应时的谱图，用于验证聚合物裂解阶段的自由基中间体，并与产物分布和光热反应条件共同解释路径选择。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "PBN自旋捕获EPR解析聚苯乙烯光驱升级中的碳自由基",
+        "original_summary_cn": "论文利用等离激元铁纳米颗粒实现聚苯乙烯向芳香烃的可编程光驱升级。PBN自旋捕获EPR比较仅照光与加入聚苯乙烯反应时的谱图，用于验证聚合物裂解阶段的自由基中间体，并与产物分布和光热反应条件共同解释路径选择。",
+        "original_meaning_cn": "聚合物光反应EPR应控制PBN浓度、溶剂含氧量、光斑和反应温度，并设置无光、无聚合物及无催化剂对照。黏稠样品可先取反应液上清，减少介电损耗和固体散射。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "自旋捕获",
+          "催化",
+          "光催化",
+          "材料与缺陷表征",
+          "聚合物"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260824-08",
+      "report_date": "2026-08-24",
+      "item_no": 8,
+      "title_cn": "EPR区分TiO₂中的氧空位与表面Cl吸附效应",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "defect_epr"
+      ],
+      "application_ids": [
+        "photocatalysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究比较氧空位与表面Cl吸附对锐钛矿TiO₂能带和光催化行为的作用。EPR用于评估氧空位相关信号，实验结果再与DFT的能带、态密度及表面反应能分析结合。结果指出，带隙变窄本身不足以概括Cl修饰后的反应变化。",
+      "meaning_cn": "缺陷EPR定量应使用相同热处理、样品质量、腔体位置和采集参数，并区分体相与表面缺陷。可增加变温、光照前后及Cl去除对照，检查缺陷信号与催化活性是否同步变化。",
+      "publication_date": "2026-08-23",
+      "time_scope": "24h",
+      "source": "Applied Surface Science",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0169433226023895",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-24",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-24.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "缺陷EPR",
+          "催化",
+          "光催化",
+          "材料与缺陷表征"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-24.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "EPR区分TiO₂中的氧空位与表面Cl吸附效应；研究比较氧空位与表面Cl吸附对锐钛矿TiO₂能带和光催化行为的作用。EPR用于评估氧空位相关信号，实验结果再与DFT的能带、态密度及表面反应能分析结合。结果指出，带隙变窄本身不足以概括Cl修饰后的反应变化。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "defect_epr",
+          "dimension": "method_ids",
+          "basis": "EPR区分TiO₂中的氧空位与表面Cl吸附效应；研究比较氧空位与表面Cl吸附对锐钛矿TiO₂能带和光催化行为的作用。EPR用于评估氧空位相关信号，实验结果再与DFT的能带、态密度及表面反应能分析结合。结果指出，带隙变窄本身不足以概括Cl修饰后的反应变化。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "photocatalysis",
+          "dimension": "application_ids",
+          "basis": "EPR区分TiO₂中的氧空位与表面Cl吸附效应；研究比较氧空位与表面Cl吸附对锐钛矿TiO₂能带和光催化行为的作用。EPR用于评估氧空位相关信号，实验结果再与DFT的能带、态密度及表面反应能分析结合。结果指出，带隙变窄本身不足以概括Cl修饰后的反应变化。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "EPR区分TiO₂中的氧空位与表面Cl吸附效应",
+        "original_summary_cn": "研究比较氧空位与表面Cl吸附对锐钛矿TiO₂能带和光催化行为的作用。EPR用于评估氧空位相关信号，实验结果再与DFT的能带、态密度及表面反应能分析结合。结果指出，带隙变窄本身不足以概括Cl修饰后的反应变化。",
+        "original_meaning_cn": "缺陷EPR定量应使用相同热处理、样品质量、腔体位置和采集参数，并区分体相与表面缺陷。可增加变温、光照前后及Cl去除对照，检查缺陷信号与催化活性是否同步变化。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "缺陷EPR",
+          "催化",
+          "光催化",
+          "材料与缺陷表征"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260824-09",
+      "report_date": "2026-08-24",
+      "item_no": 9,
+      "title_cn": "水凝胶Fe循环体系用EPR区分•OH与¹O₂",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "论文构建界面电荷驱动水凝胶，使Fe氧化还原循环持续进行并用于感染创面协同治疗。EPR分别检测•OH和¹O₂相关信号，帮助判断凝胶界面电子转移如何维持活性氧生成，并把材料结构、杀菌表现和氧化物种联系起来。",
+      "meaning_cn": "生物材料自旋捕获需考虑凝胶扩散和捕获剂进入速度，统一反应体积、孵育时间及取样位置。DMPO与TEMP等体系应分别设置，并检查蛋白、盐和抗氧化组分造成的信号衰减。",
+      "publication_date": "2026-08-23",
+      "time_scope": "24h",
+      "source": "Chinese Journal of Catalysis",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1005030226006377",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-24",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-24.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "自旋捕获",
+          "环境催化",
+          "生命科学",
+          "结构生物学",
+          "材料与缺陷表征",
+          "化学结构解析"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-24.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "水凝胶Fe循环体系用EPR区分•OH与¹O₂；论文构建界面电荷驱动水凝胶，使Fe氧化还原循环持续进行并用于感染创面协同治疗。EPR分别检测•OH和¹O₂相关信号，帮助判断凝胶界面电子转移如何维持活性氧生成，并把材料结构、杀菌表现和氧化物种联系起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "life_science",
+          "dimension": "application_ids",
+          "basis": "水凝胶Fe循环体系用EPR区分•OH与¹O₂；论文构建界面电荷驱动水凝胶，使Fe氧化还原循环持续进行并用于感染创面协同治疗。EPR分别检测•OH和¹O₂相关信号，帮助判断凝胶界面电子转移如何维持活性氧生成，并把材料结构、杀菌表现和氧化物种联系起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "水凝胶Fe循环体系用EPR区分•OH与¹O₂",
+        "original_summary_cn": "论文构建界面电荷驱动水凝胶，使Fe氧化还原循环持续进行并用于感染创面协同治疗。EPR分别检测•OH和¹O₂相关信号，帮助判断凝胶界面电子转移如何维持活性氧生成，并把材料结构、杀菌表现和氧化物种联系起来。",
+        "original_meaning_cn": "生物材料自旋捕获需考虑凝胶扩散和捕获剂进入速度，统一反应体积、孵育时间及取样位置。DMPO与TEMP等体系应分别设置，并检查蛋白、盐和抗氧化组分造成的信号衰减。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "自旋捕获",
+          "环境催化",
+          "生命科学",
+          "结构生物学",
+          "材料与缺陷表征",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260824-10",
+      "report_date": "2026-08-24",
+      "item_no": 10,
+      "title_cn": "PSYCHE pure-shift NMR综述聚焦制药复杂谱图",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "pure_shift",
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "pharma"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "review",
+      "summary_cn": "综述系统整理Pure Shift Yielded by Chirp Excitation（PSYCHE）NMR在药物分析中的应用。该方法通过抑制同核J耦合把多重峰简化，从而缓解原料药、制剂、杂质及复杂混合物中的峰重叠，并讨论一维、二维和与TOCSY、DOSY等实验组合的使用场景。",
+      "meaning_cn": "方案配置要关注PSYCHE元件是否已集成、梯度性能、脉冲校准、采集时间及伪峰控制。用于定量前需单独验证积分线性、信噪比损失和重复性，不能直接沿用常规¹H qNMR参数。",
+      "publication_date": "2026-08-21",
+      "time_scope": "7d_extension",
+      "source": "Journal of Pharmaceutical and Biomedical Analysis Open",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2949771X26000162",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-24",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-24.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "定量NMR",
+          "Pure-shift NMR",
+          "药物与质量分析",
+          "无机与配位化学",
+          "仪器、软件与方法"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-24.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "PSYCHE pure-shift NMR综述聚焦制药复杂谱图；综述系统整理Pure Shift Yielded by Chirp Excitation（PSYCHE）NMR在药物分析中的应用。该方法通过抑制同核J耦合把多重峰简化，从而缓解原料药、制剂、杂质及复杂混合物中的峰重叠，并讨论一维、二维和与TOCSY、DOSY等实验组合的使用场景。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "PSYCHE pure-shift NMR综述聚焦制药复杂谱图；综述系统整理Pure Shift Yielded by Chirp Excitation（PSYCHE）NMR在药物分析中的应用。该方法通过抑制同核J耦合把多重峰简化，从而缓解原料药、制剂、杂质及复杂混合物中的峰重叠，并讨论一维、二维和与TOCSY、DOSY等实验组合的使用场景。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pure_shift",
+          "dimension": "method_ids",
+          "basis": "PSYCHE pure-shift NMR综述聚焦制药复杂谱图；综述系统整理Pure Shift Yielded by Chirp Excitation（PSYCHE）NMR在药物分析中的应用。该方法通过抑制同核J耦合把多重峰简化，从而缓解原料药、制剂、杂质及复杂混合物中的峰重叠，并讨论一维、二维和与TOCSY、DOSY等实验组合的使用场景。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "PSYCHE pure-shift NMR综述聚焦制药复杂谱图；综述系统整理Pure Shift Yielded by Chirp Excitation（PSYCHE）NMR在药物分析中的应用。该方法通过抑制同核J耦合把多重峰简化，从而缓解原料药、制剂、杂质及复杂混合物中的峰重叠，并讨论一维、二维和与TOCSY、DOSY等实验组合的使用场景。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pharma",
+          "dimension": "application_ids",
+          "basis": "PSYCHE pure-shift NMR综述聚焦制药复杂谱图；综述系统整理Pure Shift Yielded by Chirp Excitation（PSYCHE）NMR在药物分析中的应用。该方法通过抑制同核J耦合把多重峰简化，从而缓解原料药、制剂、杂质及复杂混合物中的峰重叠，并讨论一维、二维和与TOCSY、DOSY等实验组合的使用场景。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "PSYCHE pure-shift NMR综述聚焦制药复杂谱图",
+        "original_summary_cn": "综述系统整理Pure Shift Yielded by Chirp Excitation（PSYCHE）NMR在药物分析中的应用。该方法通过抑制同核J耦合把多重峰简化，从而缓解原料药、制剂、杂质及复杂混合物中的峰重叠，并讨论一维、二维和与TOCSY、DOSY等实验组合的使用场景。",
+        "original_meaning_cn": "方案配置要关注PSYCHE元件是否已集成、梯度性能、脉冲校准、采集时间及伪峰控制。用于定量前需单独验证积分线性、信噪比损失和重复性，不能直接沿用常规¹H qNMR参数。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "定量NMR",
+          "Pure-shift NMR",
+          "药物与质量分析",
+          "无机与配位化学",
+          "仪器、软件与方法"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "本期共10条：9条来自过去24小时，1条为近7天扩展；已按历史索引执行去重。",
+    "source_sha256": "b38321067195cef2ef72782dbdc0d3352d3e32b747b23613d65b3293dd302ec9",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

@@ -1,0 +1,12 @@
+{
+  "issues": 47,
+  "items": 381,
+  "taxonomy_tags": 104,
+  "tag_classification_approved": 381,
+  "source_fact_verification": "not_completed",
+  "html_json_consistency": "passed",
+  "hierarchy_cycles": 0,
+  "invalid_tag_ids": 0,
+  "empty_experiment_type_retained": 178,
+  "empty_application_retained": 22
+}

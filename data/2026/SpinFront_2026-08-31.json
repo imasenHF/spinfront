@@ -1,0 +1,445 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-08-31",
+  "scope_note": "本期收录4条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260831-01",
+      "report_date": "2026-08-31",
+      "item_no": 1,
+      "title_cn": "变温多核固体NMR定位SAPO-34酸性质子及跳跃动力学",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure",
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "JACS研究以²⁹Si、¹⁷O和¹H固体NMR结合计算与中子衍射，修正SAPO-34酸位的既有归属，并定位四类晶体学氧位上的质子。22—650 °C变温谱显示，质子在200 °C以上开始于四面体氧位间跳跃，500 °C以上趋于动态平均。",
+      "meaning_cn": "复现实验需准备²⁹Si/¹⁷O富集样品，使用耐高温MAS探头与稳定气路，逐温度点校准转速、温度和化学位移。动力学拟合应联合线形、交换速率及DFT屏蔽计算；NH₃、胺和水吸附实验还需严格控制分压、含水量与平衡时间。",
+      "publication_date": "2026-08-24",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c15193/5326165/NMR-Solved-Proton-Fine-Locations-Reveal-the",
+      "doi": "10.1021/jacs.6c15193",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-31",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-31.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "计算NMR",
+          "催化",
+          "材料与缺陷表征",
+          "化学结构解析"
+        ],
+        "original_type": "固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-31.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "变温多核固体NMR定位SAPO-34酸性质子及跳跃动力学；JACS研究以²⁹Si、¹⁷O和¹H固体NMR结合计算与中子衍射，修正SAPO-34酸位的既有归属，并定位四类晶体学氧位上的质子。22—650 °C变温谱显示，质子在200 °C以上开始于四面体氧位间跳跃，500 °C以上趋于动态平均。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "变温多核固体NMR定位SAPO-34酸性质子及跳跃动力学；JACS研究以²⁹Si、¹⁷O和¹H固体NMR结合计算与中子衍射，修正SAPO-34酸位的既有归属，并定位四类晶体学氧位上的质子。22—650 °C变温谱显示，质子在200 °C以上开始于四面体氧位间跳跃，500 °C以上趋于动态平均。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "变温多核固体NMR定位SAPO-34酸性质子及跳跃动力学；JACS研究以²⁹Si、¹⁷O和¹H固体NMR结合计算与中子衍射，修正SAPO-34酸位的既有归属，并定位四类晶体学氧位上的质子。22—650 °C变温谱显示，质子在200 °C以上开始于四面体氧位间跳跃，500 °C以上趋于动态平均。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "变温多核固体NMR定位SAPO-34酸性质子及跳跃动力学；JACS研究以²⁹Si、¹⁷O和¹H固体NMR结合计算与中子衍射，修正SAPO-34酸位的既有归属，并定位四类晶体学氧位上的质子。22—650 °C变温谱显示，质子在200 °C以上开始于四面体氧位间跳跃，500 °C以上趋于动态平均。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "变温多核固体NMR定位SAPO-34酸性质子及跳跃动力学；JACS研究以²⁹Si、¹⁷O和¹H固体NMR结合计算与中子衍射，修正SAPO-34酸位的既有归属，并定位四类晶体学氧位上的质子。22—650 °C变温谱显示，质子在200 °C以上开始于四面体氧位间跳跃，500 °C以上趋于动态平均。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "变温多核固体NMR定位SAPO-34酸性质子及跳跃动力学",
+        "original_summary_cn": "JACS研究以²⁹Si、¹⁷O和¹H固体NMR结合计算与中子衍射，修正SAPO-34酸位的既有归属，并定位四类晶体学氧位上的质子。22—650 °C变温谱显示，质子在200 °C以上开始于四面体氧位间跳跃，500 °C以上趋于动态平均。",
+        "original_meaning_cn": "复现实验需准备²⁹Si/¹⁷O富集样品，使用耐高温MAS探头与稳定气路，逐温度点校准转速、温度和化学位移。动力学拟合应联合线形、交换速率及DFT屏蔽计算；NH₃、胺和水吸附实验还需严格控制分压、含水量与平衡时间。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "计算NMR",
+          "催化",
+          "材料与缺陷表征",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260831-02",
+      "report_date": "2026-08-31",
+      "item_no": 2,
+      "title_cn": "原子磁力计实现10 μT下毫米尺度¹H磁共振成像",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "arXiv修订稿报道以商用⁸⁷Rb光泵原子磁力计直接检测核磁信号，不使用拾取线圈或磁通变压器。在2 T永磁体预极化后，样品机械转移至10 μT检测区，实现超过1 cm视野、亚毫米傅里叶分辨率的一维和二维¹H成像及T₁映射。",
+      "meaning_cn": "装置评估应分开记录预极化场、约500 ms转移时间、10 μT检测场、梯度线性度和磁屏蔽残余场。样品与OPM距离直接影响灵敏度；重建时需纳入传感器空间响应，使用位置标准样检查几何畸变，并以重复转移测试定位误差。",
+      "publication_date": "2026-08-25",
+      "time_scope": "7d_extension",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.15946v2",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-31",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-31.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "台式NMR",
+          "仪器、软件与方法",
+          "生命科学"
+        ],
+        "original_type": "台式NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-31.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "原子磁力计实现10 μT下毫米尺度¹H磁共振成像；arXiv修订稿报道以商用⁸⁷Rb光泵原子磁力计直接检测核磁信号，不使用拾取线圈或磁通变压器。在2 T永磁体预极化后，样品机械转移至10 μT检测区，实现超过1 cm视野、亚毫米傅里叶分辨率的一维和二维¹H成像及T₁映射。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "原子磁力计实现10 μT下毫米尺度¹H磁共振成像；arXiv修订稿报道以商用⁸⁷Rb光泵原子磁力计直接检测核磁信号，不使用拾取线圈或磁通变压器。在2 T永磁体预极化后，样品机械转移至10 μT检测区，实现超过1 cm视野、亚毫米傅里叶分辨率的一维和二维¹H成像及T₁映射。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "原子磁力计实现10 μT下毫米尺度¹H磁共振成像；arXiv修订稿报道以商用⁸⁷Rb光泵原子磁力计直接检测核磁信号，不使用拾取线圈或磁通变压器。在2 T永磁体预极化后，样品机械转移至10 μT检测区，实现超过1 cm视野、亚毫米傅里叶分辨率的一维和二维¹H成像及T₁映射。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "原子磁力计实现10 μT下毫米尺度¹H磁共振成像",
+        "original_summary_cn": "arXiv修订稿报道以商用⁸⁷Rb光泵原子磁力计直接检测核磁信号，不使用拾取线圈或磁通变压器。在2 T永磁体预极化后，样品机械转移至10 μT检测区，实现超过1 cm视野、亚毫米傅里叶分辨率的一维和二维¹H成像及T₁映射。",
+        "original_meaning_cn": "装置评估应分开记录预极化场、约500 ms转移时间、10 μT检测场、梯度线性度和磁屏蔽残余场。样品与OPM距离直接影响灵敏度；重建时需纳入传感器空间响应，使用位置标准样检查几何畸变，并以重复转移测试定位误差。",
+        "original_tags": [
+          "NMR",
+          "台式NMR",
+          "仪器、软件与方法",
+          "生命科学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260831-03",
+      "report_date": "2026-08-31",
+      "item_no": 3,
+      "title_cn": "连续波与脉冲EPR用于锕系配合物及核取证缺陷分析",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "defect_epr"
+      ],
+      "application_ids": [
+        "inorganic_coordination",
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "ACS Fall 2026报告介绍连续波与脉冲EPR在锕系配位化合物中的应用，重点分析电子结构、自旋弛豫及铀过氧化物辐解产生的自由基缺陷，并讨论把EPR发展为核取证现场分析工具的实验路径。该方向要求同时处理强自旋轨道耦合与辐射样品安全。",
+      "meaning_cn": "实验方案需先按核素活度和化学形态确定密封样品管、谐振器污染控制及低温操作流程。谱学上应组合多频CW-EPR、脉冲回波和弛豫测量，报告g张量、超精细耦合、T₁/Tm及温度依赖，并以辐照剂量和时间序列区分缺陷生成与衰减。",
+      "publication_date": "2026-08-24",
+      "time_scope": "7d_extension",
+      "source": "ACS Fall 2026",
+      "url": "https://acs.digitellinc.com/p/s/electron-paramagnetic-resonance-of-actinide-coordination-compounds-from-electronic-structure-to-nuclear-forensics-668451",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-31",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-31.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "缺陷EPR",
+          "无机与配位化学",
+          "材料与缺陷表征"
+        ],
+        "original_type": "连续波EPR / 脉冲EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-31.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "连续波与脉冲EPR用于锕系配合物及核取证缺陷分析；ACS Fall 2026报告介绍连续波与脉冲EPR在锕系配位化合物中的应用，重点分析电子结构、自旋弛豫及铀过氧化物辐解产生的自由基缺陷，并讨论把EPR发展为核取证现场分析工具的实验路径。该方向要求同时处理强自旋轨道耦合与辐射样品安全。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "连续波与脉冲EPR用于锕系配合物及核取证缺陷分析；ACS Fall 2026报告介绍连续波与脉冲EPR在锕系配位化合物中的应用，重点分析电子结构、自旋弛豫及铀过氧化物辐解产生的自由基缺陷，并讨论把EPR发展为核取证现场分析工具的实验路径。该方向要求同时处理强自旋轨道耦合与辐射样品安全。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "defect_epr",
+          "dimension": "method_ids",
+          "basis": "连续波与脉冲EPR用于锕系配合物及核取证缺陷分析；ACS Fall 2026报告介绍连续波与脉冲EPR在锕系配位化合物中的应用，重点分析电子结构、自旋弛豫及铀过氧化物辐解产生的自由基缺陷，并讨论把EPR发展为核取证现场分析工具的实验路径。该方向要求同时处理强自旋轨道耦合与辐射样品安全。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "inorganic_coordination",
+          "dimension": "application_ids",
+          "basis": "连续波与脉冲EPR用于锕系配合物及核取证缺陷分析；ACS Fall 2026报告介绍连续波与脉冲EPR在锕系配位化合物中的应用，重点分析电子结构、自旋弛豫及铀过氧化物辐解产生的自由基缺陷，并讨论把EPR发展为核取证现场分析工具的实验路径。该方向要求同时处理强自旋轨道耦合与辐射样品安全。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "连续波与脉冲EPR用于锕系配合物及核取证缺陷分析；ACS Fall 2026报告介绍连续波与脉冲EPR在锕系配位化合物中的应用，重点分析电子结构、自旋弛豫及铀过氧化物辐解产生的自由基缺陷，并讨论把EPR发展为核取证现场分析工具的实验路径。该方向要求同时处理强自旋轨道耦合与辐射样品安全。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "连续波与脉冲EPR用于锕系配合物及核取证缺陷分析",
+        "original_summary_cn": "ACS Fall 2026报告介绍连续波与脉冲EPR在锕系配位化合物中的应用，重点分析电子结构、自旋弛豫及铀过氧化物辐解产生的自由基缺陷，并讨论把EPR发展为核取证现场分析工具的实验路径。该方向要求同时处理强自旋轨道耦合与辐射样品安全。",
+        "original_meaning_cn": "实验方案需先按核素活度和化学形态确定密封样品管、谐振器污染控制及低温操作流程。谱学上应组合多频CW-EPR、脉冲回波和弛豫测量，报告g张量、超精细耦合、T₁/Tm及温度依赖，并以辐照剂量和时间序列区分缺陷生成与衰减。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "缺陷EPR",
+          "无机与配位化学",
+          "材料与缺陷表征"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260831-04",
+      "report_date": "2026-08-31",
+      "item_no": 4,
+      "title_cn": "EPR解析三铁μ₃-甲基簇中被掩蔽的甲基自由基",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "JACS报道[Fe₃(μ₃-Me)]⁻/⁰簇的合成与电子结构表征，研究把金属簇氧化还原状态与桥联甲基的自由基特征联系起来。EPR用于识别开壳层物种并判断未成对电子在Fe₃核心和μ₃-甲基之间的分布，为金属簇稳定高反应性碳中心提供可测模型。",
+      "meaning_cn": "测量应在惰性气氛下完成取样与冻结，按氧化态分别记录低温CW-EPR的g值、线宽和功率饱和行为。谱图模拟宜联合磁化率、穆斯堡尔谱和DFT自旋密度；若信号重叠，可采用多频EPR或同位素标记检验甲基碳、氢超精细耦合。",
+      "publication_date": "2026-08-25",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c07718/5328372/Fe3-3-Me-0-Clusters-Masking-a-Methyl-Radical",
+      "doi": "10.1021/jacs.6c07718",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-31",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-31.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "无机与配位化学",
+          "化学结构解析"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-31.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "EPR解析三铁μ₃-甲基簇中被掩蔽的甲基自由基；JACS报道[Fe₃(μ₃-Me)]⁻/⁰簇的合成与电子结构表征，研究把金属簇氧化还原状态与桥联甲基的自由基特征联系起来。EPR用于识别开壳层物种并判断未成对电子在Fe₃核心和μ₃-甲基之间的分布，为金属簇稳定高反应性碳中心提供可测模型。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "inorganic_coordination",
+          "dimension": "application_ids",
+          "basis": "EPR解析三铁μ₃-甲基簇中被掩蔽的甲基自由基；JACS报道[Fe₃(μ₃-Me)]⁻/⁰簇的合成与电子结构表征，研究把金属簇氧化还原状态与桥联甲基的自由基特征联系起来。EPR用于识别开壳层物种并判断未成对电子在Fe₃核心和μ₃-甲基之间的分布，为金属簇稳定高反应性碳中心提供可测模型。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "EPR解析三铁μ₃-甲基簇中被掩蔽的甲基自由基",
+        "original_summary_cn": "JACS报道[Fe₃(μ₃-Me)]⁻/⁰簇的合成与电子结构表征，研究把金属簇氧化还原状态与桥联甲基的自由基特征联系起来。EPR用于识别开壳层物种并判断未成对电子在Fe₃核心和μ₃-甲基之间的分布，为金属簇稳定高反应性碳中心提供可测模型。",
+        "original_meaning_cn": "测量应在惰性气氛下完成取样与冻结，按氧化态分别记录低温CW-EPR的g值、线宽和功率饱和行为。谱图模拟宜联合磁化率、穆斯堡尔谱和DFT自旋密度；若信号重叠，可采用多频EPR或同位素标记检验甲基碳、氢超精细耦合。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "无机与配位化学",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "过去24小时未检索到可确认且未重复的高相关新增，本期扩展至2026年8月24—30日，共收录4条。已按历史DOI、规范化URL和标题查重；未用仅把NMR/EPR作为常规辅助表征的论文补足数量。待复核标签：无。",
+    "source_sha256": "2b3d15eeeb74da096a146d3e705c49b69c63514549d1b8ddcdb7cea99f51a6a0",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

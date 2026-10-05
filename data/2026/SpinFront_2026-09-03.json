@@ -1,0 +1,1090 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-03",
+  "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260903-01",
+      "report_date": "2026-09-03",
+      "item_no": 1,
+      "title_cn": "脉冲EPR HYSCORE区分细胞色素bc₁复合体的两个泛醌结合位点",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "hyscore"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "PNAS报道细胞色素bc₁复合体氧化端与还原端存在不同的泛醌结合构型，并以脉冲EPR HYSCORE谱检验半醌自由基附近的核超精细相互作用。谱学结果把辅酶Q的位置、氢键环境和Q循环中的电子—质子转移步骤联系起来，为区分两个功能位点提供局部结构信息。",
+      "meaning_cn": "实验需在受控氧化还原条件下富集半醌中间体并快速冻结，记录微波频段、温度、磁场位置、τ值和相循环。HYSCORE归属应结合¹⁴N/¹⁵N或氘代样品、CW-EPR及结构模型；比较两个位点时还需统一蛋白浓度、底物占有率和还原当量。",
+      "publication_date": "2026-09-01",
+      "time_scope": "7d_extension",
+      "source": "Proceedings of the National Academy of Sciences",
+      "url": "https://www.pnas.org/doi/full/10.1073/pnas.2618242123",
+      "doi": "10.1073/pnas.2618242123",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-03",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-03.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "生命科学",
+          "结构生物学"
+        ],
+        "original_type": "脉冲EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-03.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "脉冲EPR HYSCORE区分细胞色素bc₁复合体的两个泛醌结合位点；PNAS报道细胞色素bc₁复合体氧化端与还原端存在不同的泛醌结合构型，并以脉冲EPR HYSCORE谱检验半醌自由基附近的核超精细相互作用。谱学结果把辅酶Q的位置、氢键环境和Q循环中的电子—质子转移步骤联系起来，为区分两个功能位点提供局部结构信息。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "脉冲EPR HYSCORE区分细胞色素bc₁复合体的两个泛醌结合位点；PNAS报道细胞色素bc₁复合体氧化端与还原端存在不同的泛醌结合构型，并以脉冲EPR HYSCORE谱检验半醌自由基附近的核超精细相互作用。谱学结果把辅酶Q的位置、氢键环境和Q循环中的电子—质子转移步骤联系起来，为区分两个功能位点提供局部结构信息。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "hyscore",
+          "dimension": "method_ids",
+          "basis": "脉冲EPR HYSCORE区分细胞色素bc₁复合体的两个泛醌结合位点；PNAS报道细胞色素bc₁复合体氧化端与还原端存在不同的泛醌结合构型，并以脉冲EPR HYSCORE谱检验半醌自由基附近的核超精细相互作用。谱学结果把辅酶Q的位置、氢键环境和Q循环中的电子—质子转移步骤联系起来，为区分两个功能位点提供局部结构信息。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "脉冲EPR HYSCORE区分细胞色素bc₁复合体的两个泛醌结合位点；PNAS报道细胞色素bc₁复合体氧化端与还原端存在不同的泛醌结合构型，并以脉冲EPR HYSCORE谱检验半醌自由基附近的核超精细相互作用。谱学结果把辅酶Q的位置、氢键环境和Q循环中的电子—质子转移步骤联系起来，为区分两个功能位点提供局部结构信息。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "脉冲EPR HYSCORE区分细胞色素bc₁复合体的两个泛醌结合位点",
+        "original_summary_cn": "PNAS报道细胞色素bc₁复合体氧化端与还原端存在不同的泛醌结合构型，并以脉冲EPR HYSCORE谱检验半醌自由基附近的核超精细相互作用。谱学结果把辅酶Q的位置、氢键环境和Q循环中的电子—质子转移步骤联系起来，为区分两个功能位点提供局部结构信息。",
+        "original_meaning_cn": "实验需在受控氧化还原条件下富集半醌中间体并快速冻结，记录微波频段、温度、磁场位置、τ值和相循环。HYSCORE归属应结合¹⁴N/¹⁵N或氘代样品、CW-EPR及结构模型；比较两个位点时还需统一蛋白浓度、底物占有率和还原当量。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "生命科学",
+          "结构生物学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260903-02",
+      "report_date": "2026-09-03",
+      "item_no": 2,
+      "title_cn": "Hsp90自旋标记EPR解析核苷酸与伴侣蛋白依赖的构象系综",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "pds",
+        "spin_labeling"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "The Journal of Physical Chemistry B发表Hsp90构象研究，利用EPR比较核苷酸状态及不同互作伙伴对蛋白构象系综的调节。研究聚焦柔性分子伴侣在apo、核苷酸结合和复合物状态下的距离分布变化，使单一静态结构难以描述的开放—闭合平衡获得自旋距离读出。",
+      "meaning_cn": "方案需先选择不会破坏ATPase活性和伙伴结合的标记位点，测定标记效率并设置单标记背景。DEER采集应记录频段、低温条件、泵浦—观测频差和演化时间；距离分布比较需使用一致的背景模型，并以活性实验和未标记对照排除探针诱导效应。",
+      "publication_date": "2026-08-31",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Physical Chemistry B",
+      "url": "https://pubs.acs.org/jpcbfk/latest-articles",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-03",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-03.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "DEER/PELDOR",
+          "自旋标记",
+          "生命科学",
+          "结构生物学"
+        ],
+        "original_type": "脉冲EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-03.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "Hsp90自旋标记EPR解析核苷酸与伴侣蛋白依赖的构象系综；The Journal of Physical Chemistry B发表Hsp90构象研究，利用EPR比较核苷酸状态及不同互作伙伴对蛋白构象系综的调节。研究聚焦柔性分子伴侣在apo、核苷酸结合和复合物状态下的距离分布变化，使单一静态结构难以描述的开放—闭合平衡获得自旋距离读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "Hsp90自旋标记EPR解析核苷酸与伴侣蛋白依赖的构象系综；The Journal of Physical Chemistry B发表Hsp90构象研究，利用EPR比较核苷酸状态及不同互作伙伴对蛋白构象系综的调节。研究聚焦柔性分子伴侣在apo、核苷酸结合和复合物状态下的距离分布变化，使单一静态结构难以描述的开放—闭合平衡获得自旋距离读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pds",
+          "dimension": "method_ids",
+          "basis": "Hsp90自旋标记EPR解析核苷酸与伴侣蛋白依赖的构象系综；The Journal of Physical Chemistry B发表Hsp90构象研究，利用EPR比较核苷酸状态及不同互作伙伴对蛋白构象系综的调节。研究聚焦柔性分子伴侣在apo、核苷酸结合和复合物状态下的距离分布变化，使单一静态结构难以描述的开放—闭合平衡获得自旋距离读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spin_labeling",
+          "dimension": "method_ids",
+          "basis": "Hsp90自旋标记EPR解析核苷酸与伴侣蛋白依赖的构象系综；The Journal of Physical Chemistry B发表Hsp90构象研究，利用EPR比较核苷酸状态及不同互作伙伴对蛋白构象系综的调节。研究聚焦柔性分子伴侣在apo、核苷酸结合和复合物状态下的距离分布变化，使单一静态结构难以描述的开放—闭合平衡获得自旋距离读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "Hsp90自旋标记EPR解析核苷酸与伴侣蛋白依赖的构象系综；The Journal of Physical Chemistry B发表Hsp90构象研究，利用EPR比较核苷酸状态及不同互作伙伴对蛋白构象系综的调节。研究聚焦柔性分子伴侣在apo、核苷酸结合和复合物状态下的距离分布变化，使单一静态结构难以描述的开放—闭合平衡获得自旋距离读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Hsp90自旋标记EPR解析核苷酸与伴侣蛋白依赖的构象系综",
+        "original_summary_cn": "The Journal of Physical Chemistry B发表Hsp90构象研究，利用EPR比较核苷酸状态及不同互作伙伴对蛋白构象系综的调节。研究聚焦柔性分子伴侣在apo、核苷酸结合和复合物状态下的距离分布变化，使单一静态结构难以描述的开放—闭合平衡获得自旋距离读出。",
+        "original_meaning_cn": "方案需先选择不会破坏ATPase活性和伙伴结合的标记位点，测定标记效率并设置单标记背景。DEER采集应记录频段、低温条件、泵浦—观测频差和演化时间；距离分布比较需使用一致的背景模型，并以活性实验和未标记对照排除探针诱导效应。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "DEER/PELDOR",
+          "自旋标记",
+          "生命科学",
+          "结构生物学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260903-03",
+      "report_date": "2026-09-03",
+      "item_no": 3,
+      "title_cn": "PRE与DEER联用解析人源DNAJB1伴侣蛋白的动态架构",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr",
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "paramagnetic_nmr",
+        "deer_peldor"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "EFEPR 2026报告将高分辨顺磁弛豫增强（PRE）NMR与DEER距离测量结合，用于研究全长DNAJB1的柔性结构。结果关注GF-rich Helix V对J-domain的自抑制及Hsp70末端EEVD结合引起的远程构象调节，展示NMR短程信息与EPR长程距离分布的互补性。",
+      "meaning_cn": "实验设计需在同一标记位点体系中配对采集PRE和DEER数据，核对顺磁/抗磁样品浓度、标记效率及蛋白活性。PRE分析需控制交换和非特异聚集，DEER需使用足够演化时间；联合拟合时应分别保留两类测量的不确定度与可探测距离范围。",
+      "publication_date": "2026-09-02",
+      "time_scope": "24h",
+      "source": "EFEPR 2026 Book of Abstracts",
+      "url": "https://ta-service.cz/efepr2026/downloads/BoA_EFEPR2026_final.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-03",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-03.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR + EPR",
+          "溶液NMR",
+          "脉冲EPR",
+          "顺磁NMR",
+          "DEER/PELDOR",
+          "自旋标记",
+          "生命科学",
+          "结构生物学"
+        ],
+        "original_type": "溶液NMR / 脉冲EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-03.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "PRE与DEER联用解析人源DNAJB1伴侣蛋白的动态架构；EFEPR 2026报告将高分辨顺磁弛豫增强（PRE）NMR与DEER距离测量结合，用于研究全长DNAJB1的柔性结构。结果关注GF-rich Helix V对J-domain的自抑制及Hsp70末端EEVD结合引起的远程构象调节，展示NMR短程信息与EPR长程距离分布的互补性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "PRE与DEER联用解析人源DNAJB1伴侣蛋白的动态架构；EFEPR 2026报告将高分辨顺磁弛豫增强（PRE）NMR与DEER距离测量结合，用于研究全长DNAJB1的柔性结构。结果关注GF-rich Helix V对J-domain的自抑制及Hsp70末端EEVD结合引起的远程构象调节，展示NMR短程信息与EPR长程距离分布的互补性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "PRE与DEER联用解析人源DNAJB1伴侣蛋白的动态架构；EFEPR 2026报告将高分辨顺磁弛豫增强（PRE）NMR与DEER距离测量结合，用于研究全长DNAJB1的柔性结构。结果关注GF-rich Helix V对J-domain的自抑制及Hsp70末端EEVD结合引起的远程构象调节，展示NMR短程信息与EPR长程距离分布的互补性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "paramagnetic_nmr",
+          "dimension": "method_ids",
+          "basis": "PRE与DEER联用解析人源DNAJB1伴侣蛋白的动态架构；EFEPR 2026报告将高分辨顺磁弛豫增强（PRE）NMR与DEER距离测量结合，用于研究全长DNAJB1的柔性结构。结果关注GF-rich Helix V对J-domain的自抑制及Hsp70末端EEVD结合引起的远程构象调节，展示NMR短程信息与EPR长程距离分布的互补性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "deer_peldor",
+          "dimension": "method_ids",
+          "basis": "PRE与DEER联用解析人源DNAJB1伴侣蛋白的动态架构；EFEPR 2026报告将高分辨顺磁弛豫增强（PRE）NMR与DEER距离测量结合，用于研究全长DNAJB1的柔性结构。结果关注GF-rich Helix V对J-domain的自抑制及Hsp70末端EEVD结合引起的远程构象调节，展示NMR短程信息与EPR长程距离分布的互补性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "PRE与DEER联用解析人源DNAJB1伴侣蛋白的动态架构；EFEPR 2026报告将高分辨顺磁弛豫增强（PRE）NMR与DEER距离测量结合，用于研究全长DNAJB1的柔性结构。结果关注GF-rich Helix V对J-domain的自抑制及Hsp70末端EEVD结合引起的远程构象调节，展示NMR短程信息与EPR长程距离分布的互补性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "PRE与DEER联用解析人源DNAJB1伴侣蛋白的动态架构",
+        "original_summary_cn": "EFEPR 2026报告将高分辨顺磁弛豫增强（PRE）NMR与DEER距离测量结合，用于研究全长DNAJB1的柔性结构。结果关注GF-rich Helix V对J-domain的自抑制及Hsp70末端EEVD结合引起的远程构象调节，展示NMR短程信息与EPR长程距离分布的互补性。",
+        "original_meaning_cn": "实验设计需在同一标记位点体系中配对采集PRE和DEER数据，核对顺磁/抗磁样品浓度、标记效率及蛋白活性。PRE分析需控制交换和非特异聚集，DEER需使用足够演化时间；联合拟合时应分别保留两类测量的不确定度与可探测距离范围。",
+        "original_tags": [
+          "NMR + EPR",
+          "溶液NMR",
+          "脉冲EPR",
+          "顺磁NMR",
+          "DEER/PELDOR",
+          "自旋标记",
+          "生命科学",
+          "结构生物学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260903-04",
+      "report_date": "2026-09-03",
+      "item_no": 4,
+      "title_cn": "94 GHz HiPER升级AWG与10 W固态放大器以兼容脉冲EPR和DNP",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "dnp",
+        "relaxometry"
+      ],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "instrument_component_ids": [
+        "amplifier"
+      ],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "美国国家强磁场实验室在EFEPR报告HiPER高功率谱仪升级：系统工作于94 GHz，原有准光路与1 kW微波放大器新增任意波形发生器、NMR检测和10 W固态放大模块。新增配置面向脉冲DNP、避免自旋扩散伪影的T₁测量、快速自旋扩散及长弛豫时间实验。",
+      "meaning_cn": "配置比较需区分1 kW高功率链路与10 W固态链路的脉冲带宽、相位稳定性和占空比，并核对AWG采样率、触发抖动、准光路损耗及NMR接收接口。3.4 T场图显示的均匀性修正还需结合ferroshim前后有效样品区指标评估。",
+      "publication_date": "2026-09-02",
+      "time_scope": "24h",
+      "source": "EFEPR 2026 Book of Abstracts",
+      "url": "https://ta-service.cz/efepr2026/downloads/BoA_EFEPR2026_final.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-03",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-03.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR + EPR",
+          "脉冲EPR",
+          "固体NMR",
+          "仪器、软件与方法",
+          "材料与缺陷表征"
+        ],
+        "original_type": "脉冲EPR / 固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-03.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "94 GHz HiPER升级AWG与10 W固态放大器以兼容脉冲EPR和DNP；美国国家强磁场实验室在EFEPR报告HiPER高功率谱仪升级：系统工作于94 GHz，原有准光路与1 kW微波放大器新增任意波形发生器、NMR检测和10 W固态放大模块。新增配置面向脉冲DNP、避免自旋扩散伪影的T₁测量、快速自旋扩散及长弛豫时间实验。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "94 GHz HiPER升级AWG与10 W固态放大器以兼容脉冲EPR和DNP；美国国家强磁场实验室在EFEPR报告HiPER高功率谱仪升级：系统工作于94 GHz，原有准光路与1 kW微波放大器新增任意波形发生器、NMR检测和10 W固态放大模块。新增配置面向脉冲DNP、避免自旋扩散伪影的T₁测量、快速自旋扩散及长弛豫时间实验。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "dnp",
+          "dimension": "method_ids",
+          "basis": "94 GHz HiPER升级AWG与10 W固态放大器以兼容脉冲EPR和DNP；美国国家强磁场实验室在EFEPR报告HiPER高功率谱仪升级：系统工作于94 GHz，原有准光路与1 kW微波放大器新增任意波形发生器、NMR检测和10 W固态放大模块。新增配置面向脉冲DNP、避免自旋扩散伪影的T₁测量、快速自旋扩散及长弛豫时间实验。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "94 GHz HiPER升级AWG与10 W固态放大器以兼容脉冲EPR和DNP；美国国家强磁场实验室在EFEPR报告HiPER高功率谱仪升级：系统工作于94 GHz，原有准光路与1 kW微波放大器新增任意波形发生器、NMR检测和10 W固态放大模块。新增配置面向脉冲DNP、避免自旋扩散伪影的T₁测量、快速自旋扩散及长弛豫时间实验。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "instrumentation",
+          "dimension": "application_ids",
+          "basis": "94 GHz HiPER升级AWG与10 W固态放大器以兼容脉冲EPR和DNP；美国国家强磁场实验室在EFEPR报告HiPER高功率谱仪升级：系统工作于94 GHz，原有准光路与1 kW微波放大器新增任意波形发生器、NMR检测和10 W固态放大模块。新增配置面向脉冲DNP、避免自旋扩散伪影的T₁测量、快速自旋扩散及长弛豫时间实验。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "amplifier",
+          "dimension": "instrument_component_ids",
+          "basis": "94 GHz HiPER升级AWG与10 W固态放大器以兼容脉冲EPR和DNP；美国国家强磁场实验室在EFEPR报告HiPER高功率谱仪升级：系统工作于94 GHz，原有准光路与1 kW微波放大器新增任意波形发生器、NMR检测和10 W固态放大模块。新增配置面向脉冲DNP、避免自旋扩散伪影的T₁测量、快速自旋扩散及长弛豫时间实验。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "94 GHz HiPER升级AWG与10 W固态放大器以兼容脉冲EPR和DNP",
+        "original_summary_cn": "美国国家强磁场实验室在EFEPR报告HiPER高功率谱仪升级：系统工作于94 GHz，原有准光路与1 kW微波放大器新增任意波形发生器、NMR检测和10 W固态放大模块。新增配置面向脉冲DNP、避免自旋扩散伪影的T₁测量、快速自旋扩散及长弛豫时间实验。",
+        "original_meaning_cn": "配置比较需区分1 kW高功率链路与10 W固态链路的脉冲带宽、相位稳定性和占空比，并核对AWG采样率、触发抖动、准光路损耗及NMR接收接口。3.4 T场图显示的均匀性修正还需结合ferroshim前后有效样品区指标评估。",
+        "original_tags": [
+          "NMR + EPR",
+          "脉冲EPR",
+          "固体NMR",
+          "仪器、软件与方法",
+          "材料与缺陷表征"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260903-05",
+      "report_date": "2026-09-03",
+      "item_no": 5,
+      "title_cn": "脉冲EPR整形脉冲仿真纳入有限带宽、畸变和系综展宽",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [],
+      "application_ids": [],
+      "instrument_component_ids": [
+        "software"
+      ],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "EFEPR报告介绍基于EasySpin的整形脉冲仿真框架，把有限微波带宽、脉冲畸变、系综展宽及环境耦合写入开放量子系统计算。框架已用单脉冲FID、场扫描、两脉冲回波、CPMG类序列和长章动PEANUT实验检验，并为GRAPE最优控制预留接口。",
+      "meaning_cn": "用于仪器与脉冲开发时，应输入实测放大器—谐振器传递函数、B₁分布、频率偏置和相位瞬态，不能只使用理想波形。验证可比较回波幅度、章动频率、带宽内翻转角及鲁棒性；GRAPE结果需再次通过硬件限幅和占空比检查。",
+      "publication_date": "2026-09-02",
+      "time_scope": "24h",
+      "source": "EFEPR 2026 Book of Abstracts",
+      "url": "https://ta-service.cz/efepr2026/downloads/BoA_EFEPR2026_final.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-03",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-03.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "仪器、软件与方法"
+        ],
+        "original_type": "脉冲EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-03.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "脉冲EPR整形脉冲仿真纳入有限带宽、畸变和系综展宽；EFEPR报告介绍基于EasySpin的整形脉冲仿真框架，把有限微波带宽、脉冲畸变、系综展宽及环境耦合写入开放量子系统计算。框架已用单脉冲FID、场扫描、两脉冲回波、CPMG类序列和长章动PEANUT实验检验，并为GRAPE最优控制预留接口。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "脉冲EPR整形脉冲仿真纳入有限带宽、畸变和系综展宽；EFEPR报告介绍基于EasySpin的整形脉冲仿真框架，把有限微波带宽、脉冲畸变、系综展宽及环境耦合写入开放量子系统计算。框架已用单脉冲FID、场扫描、两脉冲回波、CPMG类序列和长章动PEANUT实验检验，并为GRAPE最优控制预留接口。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "software",
+          "dimension": "instrument_component_ids",
+          "basis": "脉冲EPR整形脉冲仿真纳入有限带宽、畸变和系综展宽；EFEPR报告介绍基于EasySpin的整形脉冲仿真框架，把有限微波带宽、脉冲畸变、系综展宽及环境耦合写入开放量子系统计算。框架已用单脉冲FID、场扫描、两脉冲回波、CPMG类序列和长章动PEANUT实验检验，并为GRAPE最优控制预留接口。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "脉冲EPR整形脉冲仿真纳入有限带宽、畸变和系综展宽",
+        "original_summary_cn": "EFEPR报告介绍基于EasySpin的整形脉冲仿真框架，把有限微波带宽、脉冲畸变、系综展宽及环境耦合写入开放量子系统计算。框架已用单脉冲FID、场扫描、两脉冲回波、CPMG类序列和长章动PEANUT实验检验，并为GRAPE最优控制预留接口。",
+        "original_meaning_cn": "用于仪器与脉冲开发时，应输入实测放大器—谐振器传递函数、B₁分布、频率偏置和相位瞬态，不能只使用理想波形。验证可比较回波幅度、章动频率、带宽内翻转角及鲁棒性；GRAPE结果需再次通过硬件限幅和占空比检查。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "仪器、软件与方法"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260903-06",
+      "report_date": "2026-09-03",
+      "item_no": 6,
+      "title_cn": "CW与脉冲EPR比较肿瘤氧分压定量的空间和时间分辨能力",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "cw_epr",
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "spin_probe"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "EFEPR全会报告比较三种肿瘤微环境EPR测氧路线：LiNc微球或OxyChip用于CW-EPR重复点测量，OX071三苯甲基自由基配合IRESE脉冲序列获得4D氧分压图，3-carboxy-proxyl生物还原动力学则提供氧化还原状态信息，并与多普勒超声进行空间配准。",
+      "meaning_cn": "方案选择应按纵向重复性、测量深度、空间分辨率和探针可回收性区分。IRESE需标定反转恢复时间与线宽—pO₂曲线；CW植入探针需控制位置和温度。跨模态比较还要使用同一坐标标记，并报告探针浓度、氧校准范围与配准误差。",
+      "publication_date": "2026-09-02",
+      "time_scope": "24h",
+      "source": "EFEPR 2026 Book of Abstracts",
+      "url": "https://ta-service.cz/efepr2026/downloads/BoA_EFEPR2026_final.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-03",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-03.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "生命科学"
+        ],
+        "original_type": "连续波EPR / 脉冲EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-03.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "CW与脉冲EPR比较肿瘤氧分压定量的空间和时间分辨能力；EFEPR全会报告比较三种肿瘤微环境EPR测氧路线：LiNc微球或OxyChip用于CW-EPR重复点测量，OX071三苯甲基自由基配合IRESE脉冲序列获得4D氧分压图，3-carboxy-proxyl生物还原动力学则提供氧化还原状态信息，并与多普勒超声进行空间配准。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "cw_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "CW与脉冲EPR比较肿瘤氧分压定量的空间和时间分辨能力；EFEPR全会报告比较三种肿瘤微环境EPR测氧路线：LiNc微球或OxyChip用于CW-EPR重复点测量，OX071三苯甲基自由基配合IRESE脉冲序列获得4D氧分压图，3-carboxy-proxyl生物还原动力学则提供氧化还原状态信息，并与多普勒超声进行空间配准。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "CW与脉冲EPR比较肿瘤氧分压定量的空间和时间分辨能力；EFEPR全会报告比较三种肿瘤微环境EPR测氧路线：LiNc微球或OxyChip用于CW-EPR重复点测量，OX071三苯甲基自由基配合IRESE脉冲序列获得4D氧分压图，3-carboxy-proxyl生物还原动力学则提供氧化还原状态信息，并与多普勒超声进行空间配准。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spin_probe",
+          "dimension": "method_ids",
+          "basis": "CW与脉冲EPR比较肿瘤氧分压定量的空间和时间分辨能力；EFEPR全会报告比较三种肿瘤微环境EPR测氧路线：LiNc微球或OxyChip用于CW-EPR重复点测量，OX071三苯甲基自由基配合IRESE脉冲序列获得4D氧分压图，3-carboxy-proxyl生物还原动力学则提供氧化还原状态信息，并与多普勒超声进行空间配准。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "life_science",
+          "dimension": "application_ids",
+          "basis": "CW与脉冲EPR比较肿瘤氧分压定量的空间和时间分辨能力；EFEPR全会报告比较三种肿瘤微环境EPR测氧路线：LiNc微球或OxyChip用于CW-EPR重复点测量，OX071三苯甲基自由基配合IRESE脉冲序列获得4D氧分压图，3-carboxy-proxyl生物还原动力学则提供氧化还原状态信息，并与多普勒超声进行空间配准。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "CW与脉冲EPR比较肿瘤氧分压定量的空间和时间分辨能力",
+        "original_summary_cn": "EFEPR全会报告比较三种肿瘤微环境EPR测氧路线：LiNc微球或OxyChip用于CW-EPR重复点测量，OX071三苯甲基自由基配合IRESE脉冲序列获得4D氧分压图，3-carboxy-proxyl生物还原动力学则提供氧化还原状态信息，并与多普勒超声进行空间配准。",
+        "original_meaning_cn": "方案选择应按纵向重复性、测量深度、空间分辨率和探针可回收性区分。IRESE需标定反转恢复时间与线宽—pO₂曲线；CW植入探针需控制位置和温度。跨模态比较还要使用同一坐标标记，并报告探针浓度、氧校准范围与配准误差。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "生命科学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260903-07",
+      "report_date": "2026-09-03",
+      "item_no": 7,
+      "title_cn": "OxyTrack针式EPR测氧将谐振结构、氧探针与永磁体集成",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "spin_probe"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "EFEPR主题报告总结定量组织EPR测氧的器件路线。OxyTrack把谐振器和氧敏材料置于针式探头前端，降低射频功率并实现局部pO₂读出；后续设计进一步组合小型永磁体、表面或介质谐振器和低功耗射频电子学，面向便携式组织氧监测。",
+      "meaning_cn": "器件评价需同时核对探针线宽对pO₂的标定斜率、温度漂移、测量深度、组织介电负载和针端定位误差。磁体、谐振器与氧敏材料必须联合优化；临床前验证还应比较重复植入偏差、长期生物相容性及与氧增强MRI的交叉校准。",
+      "publication_date": "2026-09-02",
+      "time_scope": "24h",
+      "source": "EFEPR 2026 Book of Abstracts",
+      "url": "https://ta-service.cz/efepr2026/downloads/BoA_EFEPR2026_final.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-03",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-03.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "生命科学",
+          "仪器、软件与方法"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-03.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "OxyTrack针式EPR测氧将谐振结构、氧探针与永磁体集成；EFEPR主题报告总结定量组织EPR测氧的器件路线。OxyTrack把谐振器和氧敏材料置于针式探头前端，降低射频功率并实现局部pO₂读出；后续设计进一步组合小型永磁体、表面或介质谐振器和低功耗射频电子学，面向便携式组织氧监测。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spin_probe",
+          "dimension": "method_ids",
+          "basis": "OxyTrack针式EPR测氧将谐振结构、氧探针与永磁体集成；EFEPR主题报告总结定量组织EPR测氧的器件路线。OxyTrack把谐振器和氧敏材料置于针式探头前端，降低射频功率并实现局部pO₂读出；后续设计进一步组合小型永磁体、表面或介质谐振器和低功耗射频电子学，面向便携式组织氧监测。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "life_science",
+          "dimension": "application_ids",
+          "basis": "OxyTrack针式EPR测氧将谐振结构、氧探针与永磁体集成；EFEPR主题报告总结定量组织EPR测氧的器件路线。OxyTrack把谐振器和氧敏材料置于针式探头前端，降低射频功率并实现局部pO₂读出；后续设计进一步组合小型永磁体、表面或介质谐振器和低功耗射频电子学，面向便携式组织氧监测。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "OxyTrack针式EPR测氧将谐振结构、氧探针与永磁体集成",
+        "original_summary_cn": "EFEPR主题报告总结定量组织EPR测氧的器件路线。OxyTrack把谐振器和氧敏材料置于针式探头前端，降低射频功率并实现局部pO₂读出；后续设计进一步组合小型永磁体、表面或介质谐振器和低功耗射频电子学，面向便携式组织氧监测。",
+        "original_meaning_cn": "器件评价需同时核对探针线宽对pO₂的标定斜率、温度漂移、测量深度、组织介电负载和针端定位误差。磁体、谐振器与氧敏材料必须联合优化；临床前验证还应比较重复植入偏差、长期生物相容性及与氧增强MRI的交叉校准。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "生命科学",
+          "仪器、软件与方法"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260903-08",
+      "report_date": "2026-09-03",
+      "item_no": 8,
+      "title_cn": "固体NMR区分无定形氧化铝中两类五配位Al(V)活性位",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "catalysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "名古屋工业大学介绍其Catalysis Science & Technology封面研究：通过缓冲液浓度和pH调节无定形氧化铝中的五配位Al比例，固体NMR进一步区分三角双锥与四方锥两类Al(V)，并把四方锥位点与乙酸乙酯完全分解的催化活性联系起来。",
+      "meaning_cn": "结构归属宜采用²⁷Al MAS NMR并记录磁场强度、MAS转速、脉冲宽度和四极线形拟合参数；必要时使用MQMAS/STMAS改善位点分离。不同pH样品应统一含水量和热处理历史，并以位点比例、比表面积和单位位点反应速率共同比较。",
+      "publication_date": "2026-09-01",
+      "time_scope": "7d_extension",
+      "source": "Nagoya Institute of Technology",
+      "url": "https://www.nitech.ac.jp/eng/news/2026/14259.html",
+      "doi": "10.1039/d5cy01418b",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-03",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-03.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "催化",
+          "环境催化",
+          "材料与缺陷表征",
+          "无机与配位化学"
+        ],
+        "original_type": "固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-03.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "固体NMR区分无定形氧化铝中两类五配位Al(V)活性位；名古屋工业大学介绍其Catalysis Science & Technology封面研究：通过缓冲液浓度和pH调节无定形氧化铝中的五配位Al比例，固体NMR进一步区分三角双锥与四方锥两类Al(V)，并把四方锥位点与乙酸乙酯完全分解的催化活性联系起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "固体NMR区分无定形氧化铝中两类五配位Al(V)活性位；名古屋工业大学介绍其Catalysis Science & Technology封面研究：通过缓冲液浓度和pH调节无定形氧化铝中的五配位Al比例，固体NMR进一步区分三角双锥与四方锥两类Al(V)，并把四方锥位点与乙酸乙酯完全分解的催化活性联系起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "catalysis",
+          "dimension": "application_ids",
+          "basis": "固体NMR区分无定形氧化铝中两类五配位Al(V)活性位；名古屋工业大学介绍其Catalysis Science & Technology封面研究：通过缓冲液浓度和pH调节无定形氧化铝中的五配位Al比例，固体NMR进一步区分三角双锥与四方锥两类Al(V)，并把四方锥位点与乙酸乙酯完全分解的催化活性联系起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "固体NMR区分无定形氧化铝中两类五配位Al(V)活性位",
+        "original_summary_cn": "名古屋工业大学介绍其Catalysis Science & Technology封面研究：通过缓冲液浓度和pH调节无定形氧化铝中的五配位Al比例，固体NMR进一步区分三角双锥与四方锥两类Al(V)，并把四方锥位点与乙酸乙酯完全分解的催化活性联系起来。",
+        "original_meaning_cn": "结构归属宜采用²⁷Al MAS NMR并记录磁场强度、MAS转速、脉冲宽度和四极线形拟合参数；必要时使用MQMAS/STMAS改善位点分离。不同pH样品应统一含水量和热处理历史，并以位点比例、比表面积和单位位点反应速率共同比较。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "催化",
+          "环境催化",
+          "材料与缺陷表征",
+          "无机与配位化学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260903-09",
+      "report_date": "2026-09-03",
+      "item_no": 9,
+      "title_cn": "哈尔滨商业大学拟采购400 MHz NMR建设食品科研平台",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "procurement"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "tender",
+      "summary_cn": "哈尔滨商业大学近期仪器采购意向包含400 MHz核磁共振波谱仪，列入食品科研仪器更新项目包5。该包计划采购4台设备，预算合计940万元，预计2026年10月实施，目标是建设食品科学学科平台；当前公开信息尚未给出NMR单机预算和探头配置。",
+      "meaning_cn": "前期方案应先确认4台设备的预算拆分，并围绕食品油脂、糖类和代谢物确定¹H/¹³C灵敏度、宽带探头、梯度、变温和自动进样需求。若涉及qNMR，还需明确内标、长弛豫延迟、线性和重复性验收样，避免只按400 MHz主频响应。",
+      "publication_date": "2026-09-02",
+      "time_scope": "24h",
+      "source": "哈尔滨商业大学采购意向（仪器信息网汇总）",
+      "url": "https://finance.sina.com.cn/roll/2026-09-02/doc-iniqmshs4594725.shtml",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-03",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-03.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "食品与农业",
+          "仪器、软件与方法",
+          "采购与行业"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-03.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "哈尔滨商业大学拟采购400 MHz NMR建设食品科研平台；哈尔滨商业大学近期仪器采购意向包含400 MHz核磁共振波谱仪，列入食品科研仪器更新项目包5。该包计划采购4台设备，预算合计940万元，预计2026年10月实施，目标是建设食品科学学科平台；当前公开信息尚未给出NMR单机预算和探头配置。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "procurement",
+          "dimension": "application_ids",
+          "basis": "哈尔滨商业大学拟采购400 MHz NMR建设食品科研平台；哈尔滨商业大学近期仪器采购意向包含400 MHz核磁共振波谱仪，列入食品科研仪器更新项目包5。该包计划采购4台设备，预算合计940万元，预计2026年10月实施，目标是建设食品科学学科平台；当前公开信息尚未给出NMR单机预算和探头配置。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "哈尔滨商业大学拟采购400 MHz NMR建设食品科研平台",
+        "original_summary_cn": "哈尔滨商业大学近期仪器采购意向包含400 MHz核磁共振波谱仪，列入食品科研仪器更新项目包5。该包计划采购4台设备，预算合计940万元，预计2026年10月实施，目标是建设食品科学学科平台；当前公开信息尚未给出NMR单机预算和探头配置。",
+        "original_meaning_cn": "前期方案应先确认4台设备的预算拆分，并围绕食品油脂、糖类和代谢物确定¹H/¹³C灵敏度、宽带探头、梯度、变温和自动进样需求。若涉及qNMR，还需明确内标、长弛豫延迟、线性和重复性验收样，避免只按400 MHz主频响应。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "食品与农业",
+          "仪器、软件与方法",
+          "采购与行业"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260903-10",
+      "report_date": "2026-09-03",
+      "item_no": 10,
+      "title_cn": "海南大学完成核磁共振波谱仪搬迁服务采购",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "procurement"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "tender",
+      "summary_cn": "海南大学采购与招标中心公布核磁共振波谱仪搬迁服务项目（HD2026-3-037）成交结果。项目采购公告于8月24日发布，成交结果于9月1日公布，内容直接涉及高校NMR平台的整机迁移、复装与恢复运行，属于仪器全生命周期服务信息。",
+      "meaning_cn": "搬迁方案应先确认磁体是否带场运输，并逐项规定失超防护、液氦与液氮管理、运输振动记录、机房承重和五高斯线复核。复装验收需比较搬迁前后的锁场、漂移、匀场线宽、探头调谐、梯度及标准样S/N，并保留原始测试数据。",
+      "publication_date": "2026-09-01",
+      "time_scope": "7d_extension",
+      "source": "海南大学采购与招标中心",
+      "url": "https://bidding.hainanu.edu.cn/",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-03",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-03.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "仪器、软件与方法",
+          "采购与行业"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-03.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "海南大学完成核磁共振波谱仪搬迁服务采购；海南大学采购与招标中心公布核磁共振波谱仪搬迁服务项目（HD2026-3-037）成交结果。项目采购公告于8月24日发布，成交结果于9月1日公布，内容直接涉及高校NMR平台的整机迁移、复装与恢复运行，属于仪器全生命周期服务信息。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "procurement",
+          "dimension": "application_ids",
+          "basis": "海南大学完成核磁共振波谱仪搬迁服务采购；海南大学采购与招标中心公布核磁共振波谱仪搬迁服务项目（HD2026-3-037）成交结果。项目采购公告于8月24日发布，成交结果于9月1日公布，内容直接涉及高校NMR平台的整机迁移、复装与恢复运行，属于仪器全生命周期服务信息。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "海南大学完成核磁共振波谱仪搬迁服务采购",
+        "original_summary_cn": "海南大学采购与招标中心公布核磁共振波谱仪搬迁服务项目（HD2026-3-037）成交结果。项目采购公告于8月24日发布，成交结果于9月1日公布，内容直接涉及高校NMR平台的整机迁移、复装与恢复运行，属于仪器全生命周期服务信息。",
+        "original_meaning_cn": "搬迁方案应先确认磁体是否带场运输，并逐项规定失超防护、液氦与液氮管理、运输振动记录、机房承重和五高斯线复核。复装验收需比较搬迁前后的锁场、漂移、匀场线宽、探头调谐、梯度及标准样S/N，并保留原始测试数据。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "仪器、软件与方法",
+          "采购与行业"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "本期常规检索在过去24小时内得到的合格条目少于5条，已启动增强搜索，分别覆盖专业期刊、机构新闻、仪器与软件、EFEPR独立议程及中外采购公告。本期收录10条：6条对应2026年9月2日发布或举行的近24小时信息，4条为2026年8月31日至9月1日的近7天扩展。已结合最近7期正文与项目索引检查DOI、规范化URL和标题，排除4条既有记录及多条仅有刊期更新的旧内容。待复核标签：EPR肿瘤氧成像、量子计算暂保留在样品体系和正文中，未创建新的正式ID。",
+    "source_sha256": "e566fe5b27199691cdd19fe9840b334691b24e25d3c604be48d938a7df365318",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

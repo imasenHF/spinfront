@@ -1,0 +1,1194 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-10-03",
+  "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20261003-01",
+      "report_date": "2026-10-03",
+      "item_no": 1,
+      "title_cn": "JMR用EPR比较六配位镧系配合物的电子自旋弛豫",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Magnetic Resonance上线Brannon、Albrecht与Eaton团队论文，系统考察带膦氧配体的六配位镧系配合物EPR谱及电子自旋弛豫。工作把配位结构、4f电子各向异性与可观测谱形和弛豫联系起来，为不同镧系中心的频段、温度与脉冲条件选择提供直接依据。",
+      "meaning_cn": "复现实验应按金属离子逐一记录氧化态、配体纯度、样品相态、浓度、溶剂和含氧量，并在统一频段与温度下比较g特征、线宽、T1e及相干衰减。强各向异性或快弛豫样品需检查脉冲带宽、谐振器Q值、死时间和场扫覆盖，避免把检测盲区误判为无信号。",
+      "publication_date": "2026-10-02",
+      "time_scope": "24h",
+      "source": "Journal of Magnetic Resonance",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1090780726001680",
+      "doi": "10.1016/j.jmr.2026.108179",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-03",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-03.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "无机配位",
+          "材料",
+          "仪器",
+          "磁体",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "EPR｜连续波EPR｜脉冲EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-03.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "JMR用EPR比较六配位镧系配合物的电子自旋弛豫；Journal of Magnetic Resonance上线Brannon、Albrecht与Eaton团队论文，系统考察带膦氧配体的六配位镧系配合物EPR谱及电子自旋弛豫。工作把配位结构、4f电子各向异性与可观测谱形和弛豫联系起来，为不同镧系中心的频段、温度与脉冲条件选择提供直接依据。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "JMR用EPR比较六配位镧系配合物的电子自旋弛豫；Journal of Magnetic Resonance上线Brannon、Albrecht与Eaton团队论文，系统考察带膦氧配体的六配位镧系配合物EPR谱及电子自旋弛豫。工作把配位结构、4f电子各向异性与可观测谱形和弛豫联系起来，为不同镧系中心的频段、温度与脉冲条件选择提供直接依据。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "inorganic_coordination",
+          "dimension": "application_ids",
+          "basis": "JMR用EPR比较六配位镧系配合物的电子自旋弛豫；Journal of Magnetic Resonance上线Brannon、Albrecht与Eaton团队论文，系统考察带膦氧配体的六配位镧系配合物EPR谱及电子自旋弛豫。工作把配位结构、4f电子各向异性与可观测谱形和弛豫联系起来，为不同镧系中心的频段、温度与脉冲条件选择提供直接依据。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "JMR用EPR比较六配位镧系配合物的电子自旋弛豫",
+        "original_summary_cn": "Journal of Magnetic Resonance上线Brannon、Albrecht与Eaton团队论文，系统考察带膦氧配体的六配位镧系配合物EPR谱及电子自旋弛豫。工作把配位结构、4f电子各向异性与可观测谱形和弛豫联系起来，为不同镧系中心的频段、温度与脉冲条件选择提供直接依据。",
+        "original_meaning_cn": "复现实验应按金属离子逐一记录氧化态、配体纯度、样品相态、浓度、溶剂和含氧量，并在统一频段与温度下比较g特征、线宽、T1e及相干衰减。强各向异性或快弛豫样品需检查脉冲带宽、谐振器Q值、死时间和场扫覆盖，避免把检测盲区误判为无信号。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "无机配位",
+          "材料",
+          "仪器",
+          "磁体",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20261003-02",
+      "report_date": "2026-10-03",
+      "item_no": 2,
+      "title_cn": "多色选择性自旋锁把NMR线宽压向T1ρ极限",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr",
+        "selective_spin_locking"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Magnetic Resonance正式发表polychromatic selective spin-locking方法。对选定单峰或多重峰施加单色/多色选择性RF照射，可把线宽压至旋转坐标系T1ρ限制，同时抑制标量耦合造成的多重峰分裂；适用于¹H、¹⁹F、³¹P，并可增益IR及SLIC长寿命态实验。",
+      "meaning_cn": "部署时需逐峰校准照射频率、B1、相位、脉冲持续时间和探头占空比，并测T1ρ/T2*预估真实增益。多色波形要检查频率分量间串扰、偏频鲁棒性及样品温升；与常规1D谱并列比较积分、线宽、峰位和伪影后，才能用于低浓度检测或定量。",
+      "publication_date": "2026-10-02",
+      "time_scope": "24h",
+      "source": "Magnetic Resonance",
+      "url": "https://mr.copernicus.org/articles/7/135/2026/",
+      "doi": "10.5194/mr-7-135-2026",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-03",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-03.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "仪器",
+          "化学结构",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜溶液NMR｜多核NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-03.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "多色选择性自旋锁把NMR线宽压向T1ρ极限；Magnetic Resonance正式发表polychromatic selective spin-locking方法。对选定单峰或多重峰施加单色/多色选择性RF照射，可把线宽压至旋转坐标系T1ρ限制，同时抑制标量耦合造成的多重峰分裂；适用于¹H、¹⁹F、³¹P，并可增益IR及SLIC长寿命态实验。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "多色选择性自旋锁把NMR线宽压向T1ρ极限；Magnetic Resonance正式发表polychromatic selective spin-locking方法。对选定单峰或多重峰施加单色/多色选择性RF照射，可把线宽压至旋转坐标系T1ρ限制，同时抑制标量耦合造成的多重峰分裂；适用于¹H、¹⁹F、³¹P，并可增益IR及SLIC长寿命态实验。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "多色选择性自旋锁把NMR线宽压向T1ρ极限；Magnetic Resonance正式发表polychromatic selective spin-locking方法。对选定单峰或多重峰施加单色/多色选择性RF照射，可把线宽压至旋转坐标系T1ρ限制，同时抑制标量耦合造成的多重峰分裂；适用于¹H、¹⁹F、³¹P，并可增益IR及SLIC长寿命态实验。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "selective_spin_locking",
+          "dimension": "method_ids",
+          "basis": "多色选择性自旋锁把NMR线宽压向T1ρ极限；Magnetic Resonance正式发表polychromatic selective spin-locking方法。对选定单峰或多重峰施加单色/多色选择性RF照射，可把线宽压至旋转坐标系T1ρ限制，同时抑制标量耦合造成的多重峰分裂；适用于¹H、¹⁹F、³¹P，并可增益IR及SLIC长寿命态实验。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "多色选择性自旋锁把NMR线宽压向T1ρ极限；Magnetic Resonance正式发表polychromatic selective spin-locking方法。对选定单峰或多重峰施加单色/多色选择性RF照射，可把线宽压至旋转坐标系T1ρ限制，同时抑制标量耦合造成的多重峰分裂；适用于¹H、¹⁹F、³¹P，并可增益IR及SLIC长寿命态实验。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "多色选择性自旋锁把NMR线宽压向T1ρ极限",
+        "original_summary_cn": "Magnetic Resonance正式发表polychromatic selective spin-locking方法。对选定单峰或多重峰施加单色/多色选择性RF照射，可把线宽压至旋转坐标系T1ρ限制，同时抑制标量耦合造成的多重峰分裂；适用于¹H、¹⁹F、³¹P，并可增益IR及SLIC长寿命态实验。",
+        "original_meaning_cn": "部署时需逐峰校准照射频率、B1、相位、脉冲持续时间和探头占空比，并测T1ρ/T2*预估真实增益。多色波形要检查频率分量间串扰、偏频鲁棒性及样品温升；与常规1D谱并列比较积分、线宽、峰位和伪影后，才能用于低浓度检测或定量。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "仪器",
+          "化学结构",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261003-03",
+      "report_date": "2026-10-03",
+      "item_no": 3,
+      "title_cn": "多场¹⁵N CEST重建Im7三态折叠能景",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "cest"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "JACS提出非微扰multi-field CEST，通过次要态表观化学位移随B0的系统变化解除多态交换参数简并。用于Im7时解析出约1%的折叠中间态和约0.4%的展开态，时间尺度分别约2 ms与200 μs，并得到三态布居、微观交换速率及逐残基¹⁵N位移。",
+      "meaning_cn": "实验设计应在至少两个充分分离的场强上保持样品组成、温度、pH、¹⁵N标记、饱和功率和offset网格可比，并用统一全局模型拟合。需同时报告B0不均匀、R1/R2、饱和时间和置信区间；单场两态拟合可能把隐藏展开态吸收到线宽或错误位移中。",
+      "publication_date": "2026-10-02",
+      "time_scope": "24h",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://pubs.acs.org/doi/10.1021/jacs.6c16569",
+      "doi": "10.1021/jacs.6c16569",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-03",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-03.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜溶液NMR｜多维NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-03.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "多场¹⁵N CEST重建Im7三态折叠能景；JACS提出非微扰multi-field CEST，通过次要态表观化学位移随B0的系统变化解除多态交换参数简并。用于Im7时解析出约1%的折叠中间态和约0.4%的展开态，时间尺度分别约2 ms与200 μs，并得到三态布居、微观交换速率及逐残基¹⁵N位移。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "多场¹⁵N CEST重建Im7三态折叠能景；JACS提出非微扰multi-field CEST，通过次要态表观化学位移随B0的系统变化解除多态交换参数简并。用于Im7时解析出约1%的折叠中间态和约0.4%的展开态，时间尺度分别约2 ms与200 μs，并得到三态布居、微观交换速率及逐残基¹⁵N位移。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "cest",
+          "dimension": "method_ids",
+          "basis": "多场¹⁵N CEST重建Im7三态折叠能景；JACS提出非微扰multi-field CEST，通过次要态表观化学位移随B0的系统变化解除多态交换参数简并。用于Im7时解析出约1%的折叠中间态和约0.4%的展开态，时间尺度分别约2 ms与200 μs，并得到三态布居、微观交换速率及逐残基¹⁵N位移。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "多场¹⁵N CEST重建Im7三态折叠能景；JACS提出非微扰multi-field CEST，通过次要态表观化学位移随B0的系统变化解除多态交换参数简并。用于Im7时解析出约1%的折叠中间态和约0.4%的展开态，时间尺度分别约2 ms与200 μs，并得到三态布居、微观交换速率及逐残基¹⁵N位移。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "多场¹⁵N CEST重建Im7三态折叠能景",
+        "original_summary_cn": "JACS提出非微扰multi-field CEST，通过次要态表观化学位移随B0的系统变化解除多态交换参数简并。用于Im7时解析出约1%的折叠中间态和约0.4%的展开态，时间尺度分别约2 ms与200 μs，并得到三态布居、微观交换速率及逐残基¹⁵N位移。",
+        "original_meaning_cn": "实验设计应在至少两个充分分离的场强上保持样品组成、温度、pH、¹⁵N标记、饱和功率和offset网格可比，并用统一全局模型拟合。需同时报告B0不均匀、R1/R2、饱和时间和置信区间；单场两态拟合可能把隐藏展开态吸收到线宽或错误位移中。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261003-04",
+      "report_date": "2026-10-03",
+      "item_no": 4,
+      "title_cn": "液态³¹P NMR厘清复原乳中磷酸盐与酪蛋白信号",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr",
+        "multidimensional_nmr",
+        "qnmr"
+      ],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "ChemRxiv预印本用液态³¹P NMR和¹H–³¹P TOCSY重审复原乳信号归属。EDTA处理及超速离心对照表明，观测峰来自可溶性酪蛋白的磷酸丝氨酸与乳清相无机磷酸盐；方法还能定量区分浓缩乳蛋白与脱脂乳悬液中的天然无机磷水平。",
+      "meaning_cn": "方法转移需固定复原浓度、pH、温度、EDTA剂量、离心条件和采样延迟，并以外标或内标检查³¹P定量。¹H–³¹P TOCSY应校准转移块和混合时间，用处理前后物料平衡验证归属；样品历史、钙磷平衡与酪蛋白胶束解离必须同时记录。",
+      "publication_date": "2026-10-02",
+      "time_scope": "24h",
+      "source": "ChemRxiv",
+      "url": "https://chemrxiv.org/doi/10.26434/chemrxiv.15009773",
+      "doi": "10.26434/chemrxiv.15009773/v1",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-03",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-03.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "食品与农业",
+          "过程分析",
+          "化学结构",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜溶液NMR｜多核NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-03.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "液态³¹P NMR厘清复原乳中磷酸盐与酪蛋白信号；ChemRxiv预印本用液态³¹P NMR和¹H–³¹P TOCSY重审复原乳信号归属。EDTA处理及超速离心对照表明，观测峰来自可溶性酪蛋白的磷酸丝氨酸与乳清相无机磷酸盐；方法还能定量区分浓缩乳蛋白与脱脂乳悬液中的天然无机磷水平。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "液态³¹P NMR厘清复原乳中磷酸盐与酪蛋白信号；ChemRxiv预印本用液态³¹P NMR和¹H–³¹P TOCSY重审复原乳信号归属。EDTA处理及超速离心对照表明，观测峰来自可溶性酪蛋白的磷酸丝氨酸与乳清相无机磷酸盐；方法还能定量区分浓缩乳蛋白与脱脂乳悬液中的天然无机磷水平。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "液态³¹P NMR厘清复原乳中磷酸盐与酪蛋白信号；ChemRxiv预印本用液态³¹P NMR和¹H–³¹P TOCSY重审复原乳信号归属。EDTA处理及超速离心对照表明，观测峰来自可溶性酪蛋白的磷酸丝氨酸与乳清相无机磷酸盐；方法还能定量区分浓缩乳蛋白与脱脂乳悬液中的天然无机磷水平。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "液态³¹P NMR厘清复原乳中磷酸盐与酪蛋白信号；ChemRxiv预印本用液态³¹P NMR和¹H–³¹P TOCSY重审复原乳信号归属。EDTA处理及超速离心对照表明，观测峰来自可溶性酪蛋白的磷酸丝氨酸与乳清相无机磷酸盐；方法还能定量区分浓缩乳蛋白与脱脂乳悬液中的天然无机磷水平。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "qnmr",
+          "dimension": "method_ids",
+          "basis": "液态³¹P NMR厘清复原乳中磷酸盐与酪蛋白信号；ChemRxiv预印本用液态³¹P NMR和¹H–³¹P TOCSY重审复原乳信号归属。EDTA处理及超速离心对照表明，观测峰来自可溶性酪蛋白的磷酸丝氨酸与乳清相无机磷酸盐；方法还能定量区分浓缩乳蛋白与脱脂乳悬液中的天然无机磷水平。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "food_agriculture",
+          "dimension": "application_ids",
+          "basis": "液态³¹P NMR厘清复原乳中磷酸盐与酪蛋白信号；ChemRxiv预印本用液态³¹P NMR和¹H–³¹P TOCSY重审复原乳信号归属。EDTA处理及超速离心对照表明，观测峰来自可溶性酪蛋白的磷酸丝氨酸与乳清相无机磷酸盐；方法还能定量区分浓缩乳蛋白与脱脂乳悬液中的天然无机磷水平。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "液态³¹P NMR厘清复原乳中磷酸盐与酪蛋白信号",
+        "original_summary_cn": "ChemRxiv预印本用液态³¹P NMR和¹H–³¹P TOCSY重审复原乳信号归属。EDTA处理及超速离心对照表明，观测峰来自可溶性酪蛋白的磷酸丝氨酸与乳清相无机磷酸盐；方法还能定量区分浓缩乳蛋白与脱脂乳悬液中的天然无机磷水平。",
+        "original_meaning_cn": "方法转移需固定复原浓度、pH、温度、EDTA剂量、离心条件和采样延迟，并以外标或内标检查³¹P定量。¹H–³¹P TOCSY应校准转移块和混合时间，用处理前后物料平衡验证归属；样品历史、钙磷平衡与酪蛋白胶束解离必须同时记录。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "食品与农业",
+          "过程分析",
+          "化学结构",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261003-05",
+      "report_date": "2026-10-03",
+      "item_no": 5,
+      "title_cn": "NMR把没食子酸作为酿酒工艺影响的候选标志物",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "qnmr"
+      ],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Food Composition and Analysis的Article in Press建立系统NMR测定流程，评估没食子酸能否反映不同oenological practices对葡萄酒的影响。该工作把单一候选酚类标志物与可复核的谱峰和定量读出相连，面向工艺比较、批次追踪与质量控制。",
+      "meaning_cn": "落地时应固定溶剂体系、pH、温度、内标、弛豫延迟和水/乙醇抑制参数，并以标准加入确认峰归属与线性。不同酒样需记录葡萄品种、浸渍、橡木接触、发酵及陈酿条件；若用于判别，必须保留跨年份与外部酒庄验证集。",
+      "publication_date": "2026-10-02",
+      "time_scope": "24h",
+      "source": "Journal of Food Composition and Analysis",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0889157526007064",
+      "doi": "10.1016/j.jfca.2026.109563",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-03",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-03.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "qNMR",
+          "食品与农业",
+          "过程分析",
+          "探头",
+          "自动进样器",
+          "软件"
+        ],
+        "original_type": "NMR｜溶液NMR｜qNMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-03.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "NMR把没食子酸作为酿酒工艺影响的候选标志物；Journal of Food Composition and Analysis的Article in Press建立系统NMR测定流程，评估没食子酸能否反映不同oenological practices对葡萄酒的影响。该工作把单一候选酚类标志物与可复核的谱峰和定量读出相连，面向工艺比较、批次追踪与质量控制。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "NMR把没食子酸作为酿酒工艺影响的候选标志物；Journal of Food Composition and Analysis的Article in Press建立系统NMR测定流程，评估没食子酸能否反映不同oenological practices对葡萄酒的影响。该工作把单一候选酚类标志物与可复核的谱峰和定量读出相连，面向工艺比较、批次追踪与质量控制。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "qnmr",
+          "dimension": "method_ids",
+          "basis": "NMR把没食子酸作为酿酒工艺影响的候选标志物；Journal of Food Composition and Analysis的Article in Press建立系统NMR测定流程，评估没食子酸能否反映不同oenological practices对葡萄酒的影响。该工作把单一候选酚类标志物与可复核的谱峰和定量读出相连，面向工艺比较、批次追踪与质量控制。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "food_agriculture",
+          "dimension": "application_ids",
+          "basis": "NMR把没食子酸作为酿酒工艺影响的候选标志物；Journal of Food Composition and Analysis的Article in Press建立系统NMR测定流程，评估没食子酸能否反映不同oenological practices对葡萄酒的影响。该工作把单一候选酚类标志物与可复核的谱峰和定量读出相连，面向工艺比较、批次追踪与质量控制。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "NMR把没食子酸作为酿酒工艺影响的候选标志物",
+        "original_summary_cn": "Journal of Food Composition and Analysis的Article in Press建立系统NMR测定流程，评估没食子酸能否反映不同oenological practices对葡萄酒的影响。该工作把单一候选酚类标志物与可复核的谱峰和定量读出相连，面向工艺比较、批次追踪与质量控制。",
+        "original_meaning_cn": "落地时应固定溶剂体系、pH、温度、内标、弛豫延迟和水/乙醇抑制参数，并以标准加入确认峰归属与线性。不同酒样需记录葡萄品种、浸渍、橡木接触、发酵及陈酿条件；若用于判别，必须保留跨年份与外部酒庄验证集。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "qNMR",
+          "食品与农业",
+          "过程分析",
+          "探头",
+          "自动进样器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261003-06",
+      "report_date": "2026-10-03",
+      "item_no": 6,
+      "title_cn": "9.4 T ¹H NMR追踪DyF₃纳米颗粒团聚",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "relaxometry",
+        "paramagnetic_nmr"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Chemical Physics上线以9.4 T ¹H NMR研究DyF₃纳米颗粒团聚的论文。工作利用水质子弛豫对顺磁颗粒表面、扩散与局域场不均匀的敏感性，把纳米颗粒聚集过程转化为可连续监测的磁共振读出，并把分析推进到高场条件。",
+      "meaning_cn": "实验应固定颗粒浓度、粒径、表面处理、pH、离子强度、温度和静置时间，并记录回波间隔、重复延迟、磁场均匀度及T2反演正则化参数。需用DLS或显微法交叉验证团聚尺度；高场下磁化率展宽与沉降会同时改变衰减，不能仅凭单一平均T2下结论。",
+      "publication_date": "2026-10-02",
+      "time_scope": "24h",
+      "source": "Chemical Physics",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0301010426004489",
+      "doi": "10.1016/j.chemphys.2026.113525",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-03",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-03.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "时域NMR",
+          "材料",
+          "过程分析",
+          "仪器",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜时域NMR｜材料",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-03.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "9.4 T ¹H NMR追踪DyF₃纳米颗粒团聚；Chemical Physics上线以9.4 T ¹H NMR研究DyF₃纳米颗粒团聚的论文。工作利用水质子弛豫对顺磁颗粒表面、扩散与局域场不均匀的敏感性，把纳米颗粒聚集过程转化为可连续监测的磁共振读出，并把分析推进到高场条件。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "9.4 T ¹H NMR追踪DyF₃纳米颗粒团聚；Chemical Physics上线以9.4 T ¹H NMR研究DyF₃纳米颗粒团聚的论文。工作利用水质子弛豫对顺磁颗粒表面、扩散与局域场不均匀的敏感性，把纳米颗粒聚集过程转化为可连续监测的磁共振读出，并把分析推进到高场条件。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "paramagnetic_nmr",
+          "dimension": "method_ids",
+          "basis": "9.4 T ¹H NMR追踪DyF₃纳米颗粒团聚；Chemical Physics上线以9.4 T ¹H NMR研究DyF₃纳米颗粒团聚的论文。工作利用水质子弛豫对顺磁颗粒表面、扩散与局域场不均匀的敏感性，把纳米颗粒聚集过程转化为可连续监测的磁共振读出，并把分析推进到高场条件。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "9.4 T ¹H NMR追踪DyF₃纳米颗粒团聚；Chemical Physics上线以9.4 T ¹H NMR研究DyF₃纳米颗粒团聚的论文。工作利用水质子弛豫对顺磁颗粒表面、扩散与局域场不均匀的敏感性，把纳米颗粒聚集过程转化为可连续监测的磁共振读出，并把分析推进到高场条件。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "9.4 T ¹H NMR追踪DyF₃纳米颗粒团聚",
+        "original_summary_cn": "Chemical Physics上线以9.4 T ¹H NMR研究DyF₃纳米颗粒团聚的论文。工作利用水质子弛豫对顺磁颗粒表面、扩散与局域场不均匀的敏感性，把纳米颗粒聚集过程转化为可连续监测的磁共振读出，并把分析推进到高场条件。",
+        "original_meaning_cn": "实验应固定颗粒浓度、粒径、表面处理、pH、离子强度、温度和静置时间，并记录回波间隔、重复延迟、磁场均匀度及T2反演正则化参数。需用DLS或显微法交叉验证团聚尺度；高场下磁化率展宽与沉降会同时改变衰减，不能仅凭单一平均T2下结论。",
+        "original_tags": [
+          "NMR",
+          "时域NMR",
+          "材料",
+          "过程分析",
+          "仪器",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20261003-07",
+      "report_date": "2026-10-03",
+      "item_no": 7,
+      "title_cn": "NMR含水迁移连接两类非饱和砂岩的尺度力学响应",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Geotechnical and Geological Engineering比较两种非饱和砂岩，以NMR表征含水迁移并结合数值分析解释试件尺度的力学响应。研究把孔隙水分布变化与宏观变形、强度和尺寸效应放在同一框架内，避免只用总含水率描述多尺度孔隙过程。",
+      "meaning_cn": "岩样测试需统一取芯方向、尺寸、初始饱和度、润湿/干燥路径、温湿度和等待时间；CPMG参数应覆盖短T2孔隙水，并用标准样校准信号量。力学加载与NMR时间点必须同步，反演孔径前应声明表面弛豫率假设并检查边缘失水。",
+      "publication_date": "2026-10-02",
+      "time_scope": "24h",
+      "source": "Geotechnical and Geological Engineering",
+      "url": "https://link.springer.com/article/10.1007/s10706-026-03915-y",
+      "doi": "10.1007/s10706-026-03915-y",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-03",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-03.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "时域NMR",
+          "地学流动",
+          "材料",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜时域NMR｜地学流动",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-03.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "NMR含水迁移连接两类非饱和砂岩的尺度力学响应；Geotechnical and Geological Engineering比较两种非饱和砂岩，以NMR表征含水迁移并结合数值分析解释试件尺度的力学响应。研究把孔隙水分布变化与宏观变形、强度和尺寸效应放在同一框架内，避免只用总含水率描述多尺度孔隙过程。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "td_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "NMR含水迁移连接两类非饱和砂岩的尺度力学响应；Geotechnical and Geological Engineering比较两种非饱和砂岩，以NMR表征含水迁移并结合数值分析解释试件尺度的力学响应。研究把孔隙水分布变化与宏观变形、强度和尺寸效应放在同一框架内，避免只用总含水率描述多尺度孔隙过程。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "geoscience_flow",
+          "dimension": "application_ids",
+          "basis": "NMR含水迁移连接两类非饱和砂岩的尺度力学响应；Geotechnical and Geological Engineering比较两种非饱和砂岩，以NMR表征含水迁移并结合数值分析解释试件尺度的力学响应。研究把孔隙水分布变化与宏观变形、强度和尺寸效应放在同一框架内，避免只用总含水率描述多尺度孔隙过程。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "NMR含水迁移连接两类非饱和砂岩的尺度力学响应",
+        "original_summary_cn": "Geotechnical and Geological Engineering比较两种非饱和砂岩，以NMR表征含水迁移并结合数值分析解释试件尺度的力学响应。研究把孔隙水分布变化与宏观变形、强度和尺寸效应放在同一框架内，避免只用总含水率描述多尺度孔隙过程。",
+        "original_meaning_cn": "岩样测试需统一取芯方向、尺寸、初始饱和度、润湿/干燥路径、温湿度和等待时间；CPMG参数应覆盖短T2孔隙水，并用标准样校准信号量。力学加载与NMR时间点必须同步，反演孔径前应声明表面弛豫率假设并检查边缘失水。",
+        "original_tags": [
+          "NMR",
+          "时域NMR",
+          "地学流动",
+          "材料",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261003-08",
+      "report_date": "2026-10-03",
+      "item_no": 8,
+      "title_cn": "¹H NMR指纹评估植物提取物强化鲜奶酪的生化稳定性",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Food Chemistry以¹H NMR指纹和化学计量学比较添加玉米须、葡萄籽及橘皮提取物的鲜奶酪，关注配方引入后代谢组成与储存期生化稳定性。该路线用全谱而非少数靶标观察乳制品基质变化，可用于配方筛选和货架期质量监控。",
+      "meaning_cn": "样品方案应固定提取物剂量、乳源、发酵批次、储存温度/时长和萃取流程，并随机化上机顺序。谱处理需统一相位、基线、对齐、归一化和缩放；模型必须报告交叉验证与外部批次表现，并用独立化学分析确认驱动分组的关键峰。",
+      "publication_date": "2026-10-02",
+      "time_scope": "24h",
+      "source": "Food Chemistry",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0308814626034527",
+      "doi": "10.1016/j.foodchem.2026.151292",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-03",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-03.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "代谢组学",
+          "食品与农业",
+          "过程分析",
+          "探头",
+          "自动进样器",
+          "软件"
+        ],
+        "original_type": "NMR｜溶液NMR｜代谢组学",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-03.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "¹H NMR指纹评估植物提取物强化鲜奶酪的生化稳定性；Food Chemistry以¹H NMR指纹和化学计量学比较添加玉米须、葡萄籽及橘皮提取物的鲜奶酪，关注配方引入后代谢组成与储存期生化稳定性。该路线用全谱而非少数靶标观察乳制品基质变化，可用于配方筛选和货架期质量监控。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "¹H NMR指纹评估植物提取物强化鲜奶酪的生化稳定性；Food Chemistry以¹H NMR指纹和化学计量学比较添加玉米须、葡萄籽及橘皮提取物的鲜奶酪，关注配方引入后代谢组成与储存期生化稳定性。该路线用全谱而非少数靶标观察乳制品基质变化，可用于配方筛选和货架期质量监控。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "metabolomics",
+          "dimension": "method_ids",
+          "basis": "¹H NMR指纹评估植物提取物强化鲜奶酪的生化稳定性；Food Chemistry以¹H NMR指纹和化学计量学比较添加玉米须、葡萄籽及橘皮提取物的鲜奶酪，关注配方引入后代谢组成与储存期生化稳定性。该路线用全谱而非少数靶标观察乳制品基质变化，可用于配方筛选和货架期质量监控。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "food_agriculture",
+          "dimension": "application_ids",
+          "basis": "¹H NMR指纹评估植物提取物强化鲜奶酪的生化稳定性；Food Chemistry以¹H NMR指纹和化学计量学比较添加玉米须、葡萄籽及橘皮提取物的鲜奶酪，关注配方引入后代谢组成与储存期生化稳定性。该路线用全谱而非少数靶标观察乳制品基质变化，可用于配方筛选和货架期质量监控。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "¹H NMR指纹评估植物提取物强化鲜奶酪的生化稳定性",
+        "original_summary_cn": "Food Chemistry以¹H NMR指纹和化学计量学比较添加玉米须、葡萄籽及橘皮提取物的鲜奶酪，关注配方引入后代谢组成与储存期生化稳定性。该路线用全谱而非少数靶标观察乳制品基质变化，可用于配方筛选和货架期质量监控。",
+        "original_meaning_cn": "样品方案应固定提取物剂量、乳源、发酵批次、储存温度/时长和萃取流程，并随机化上机顺序。谱处理需统一相位、基线、对齐、归一化和缩放；模型必须报告交叉验证与外部批次表现，并用独立化学分析确认驱动分组的关键峰。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "代谢组学",
+          "食品与农业",
+          "过程分析",
+          "探头",
+          "自动进样器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261003-09",
+      "report_date": "2026-10-03",
+      "item_no": 9,
+      "title_cn": "反纵向自旋态与自旋锁稀核之间实现三自旋极化转移",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr",
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "polarization_transfer"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Chemical Physics以平均哈密顿量理论、数值模拟和实验统一描述液体及MAS固体中的三自旋转移：当稀核自旋锁RF场匹配两个丰核的化学位移差时，反纵向磁化可向稀核转移，反向过程也成立；粉末固体¹³C实验获得约理论上限一半的增强。",
+      "meaning_cn": "复现需精确标定S1–S2位移差、稀核B1、自旋锁时间、MAS转速、去耦与相位循环，并用RF不均匀性地图解释效率损失。液体实验还应检查梯度purge与J耦合，固体实验需评估多体相互作用；应与Hartmann–Hahn CP按单位时间S/N比较。",
+      "publication_date": "2026-10-01",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Chemical Physics",
+      "url": "https://pubs.aip.org/aip/jcp/article/165/13/134201/3405642/Heteronuclear-polarization-transfers-between-spin",
+      "doi": "10.1063/5.0347529",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-03",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-03.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "固体NMR",
+          "多核NMR",
+          "仪器",
+          "化学结构",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜溶液NMR｜固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-03.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "反纵向自旋态与自旋锁稀核之间实现三自旋极化转移；Journal of Chemical Physics以平均哈密顿量理论、数值模拟和实验统一描述液体及MAS固体中的三自旋转移：当稀核自旋锁RF场匹配两个丰核的化学位移差时，反纵向磁化可向稀核转移，反向过程也成立；粉末固体¹³C实验获得约理论上限一半的增强。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "反纵向自旋态与自旋锁稀核之间实现三自旋极化转移；Journal of Chemical Physics以平均哈密顿量理论、数值模拟和实验统一描述液体及MAS固体中的三自旋转移：当稀核自旋锁RF场匹配两个丰核的化学位移差时，反纵向磁化可向稀核转移，反向过程也成立；粉末固体¹³C实验获得约理论上限一半的增强。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "反纵向自旋态与自旋锁稀核之间实现三自旋极化转移；Journal of Chemical Physics以平均哈密顿量理论、数值模拟和实验统一描述液体及MAS固体中的三自旋转移：当稀核自旋锁RF场匹配两个丰核的化学位移差时，反纵向磁化可向稀核转移，反向过程也成立；粉末固体¹³C实验获得约理论上限一半的增强。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "polarization_transfer",
+          "dimension": "method_ids",
+          "basis": "反纵向自旋态与自旋锁稀核之间实现三自旋极化转移；Journal of Chemical Physics以平均哈密顿量理论、数值模拟和实验统一描述液体及MAS固体中的三自旋转移：当稀核自旋锁RF场匹配两个丰核的化学位移差时，反纵向磁化可向稀核转移，反向过程也成立；粉末固体¹³C实验获得约理论上限一半的增强。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "反纵向自旋态与自旋锁稀核之间实现三自旋极化转移；Journal of Chemical Physics以平均哈密顿量理论、数值模拟和实验统一描述液体及MAS固体中的三自旋转移：当稀核自旋锁RF场匹配两个丰核的化学位移差时，反纵向磁化可向稀核转移，反向过程也成立；粉末固体¹³C实验获得约理论上限一半的增强。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "反纵向自旋态与自旋锁稀核之间实现三自旋极化转移",
+        "original_summary_cn": "Journal of Chemical Physics以平均哈密顿量理论、数值模拟和实验统一描述液体及MAS固体中的三自旋转移：当稀核自旋锁RF场匹配两个丰核的化学位移差时，反纵向磁化可向稀核转移，反向过程也成立；粉末固体¹³C实验获得约理论上限一半的增强。",
+        "original_meaning_cn": "复现需精确标定S1–S2位移差、稀核B1、自旋锁时间、MAS转速、去耦与相位循环，并用RF不均匀性地图解释效率损失。液体实验还应检查梯度purge与J耦合，固体实验需评估多体相互作用；应与Hartmann–Hahn CP按单位时间S/N比较。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "固体NMR",
+          "多核NMR",
+          "仪器",
+          "化学结构",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261003-10",
+      "report_date": "2026-10-03",
+      "item_no": 10,
+      "title_cn": "Red Pitaya FPGA低场脉冲NMR集成正交接收与CNN识别",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "instrument_component_ids": [
+        "console",
+        "amplifier",
+        "software"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Current Directions in Biomedical Engineering报道基于Red Pitaya STEM 125-14的低场脉冲NMR原型：DDS与5 W放大器产生21 MHz脉冲，两级低噪放大器接收最低约115 μV信号，FPGA完成I/Q解调并把125 MS/s降至0.976 MS/s；CNN在12种化合物模拟谱上训练。",
+      "meaning_cn": "工程复现需分模块验收磁体均匀度、探头Q值、94 Vpp脉冲、收发隔离、LNA噪声系数、ADC动态范围与I/Q正交误差。CNN必须增加实测血样、浓度/线宽/频漂和外部批次验证；模拟谱分类准确不能替代真实低场定量性能。",
+      "publication_date": "2026-10-02",
+      "time_scope": "7d_extension",
+      "source": "Current Directions in Biomedical Engineering",
+      "url": "https://www.degruyter.com/document/doi/10.1515/cdbme-2026-0167/html",
+      "doi": "10.1515/cdbme-2026-0167",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-03",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-03.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "台式NMR",
+          "仪器",
+          "生命科学",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜台式NMR｜仪器",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-03.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "Red Pitaya FPGA低场脉冲NMR集成正交接收与CNN识别；Current Directions in Biomedical Engineering报道基于Red Pitaya STEM 125-14的低场脉冲NMR原型：DDS与5 W放大器产生21 MHz脉冲，两级低噪放大器接收最低约115 μV信号，FPGA完成I/Q解调并把125 MS/s降至0.976 MS/s；CNN在12种化合物模拟谱上训练。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "instrumentation",
+          "dimension": "application_ids",
+          "basis": "Red Pitaya FPGA低场脉冲NMR集成正交接收与CNN识别；Current Directions in Biomedical Engineering报道基于Red Pitaya STEM 125-14的低场脉冲NMR原型：DDS与5 W放大器产生21 MHz脉冲，两级低噪放大器接收最低约115 μV信号，FPGA完成I/Q解调并把125 MS/s降至0.976 MS/s；CNN在12种化合物模拟谱上训练。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "console",
+          "dimension": "instrument_component_ids",
+          "basis": "Red Pitaya FPGA低场脉冲NMR集成正交接收与CNN识别；Current Directions in Biomedical Engineering报道基于Red Pitaya STEM 125-14的低场脉冲NMR原型：DDS与5 W放大器产生21 MHz脉冲，两级低噪放大器接收最低约115 μV信号，FPGA完成I/Q解调并把125 MS/s降至0.976 MS/s；CNN在12种化合物模拟谱上训练。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "amplifier",
+          "dimension": "instrument_component_ids",
+          "basis": "Red Pitaya FPGA低场脉冲NMR集成正交接收与CNN识别；Current Directions in Biomedical Engineering报道基于Red Pitaya STEM 125-14的低场脉冲NMR原型：DDS与5 W放大器产生21 MHz脉冲，两级低噪放大器接收最低约115 μV信号，FPGA完成I/Q解调并把125 MS/s降至0.976 MS/s；CNN在12种化合物模拟谱上训练。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "software",
+          "dimension": "instrument_component_ids",
+          "basis": "Red Pitaya FPGA低场脉冲NMR集成正交接收与CNN识别；Current Directions in Biomedical Engineering报道基于Red Pitaya STEM 125-14的低场脉冲NMR原型：DDS与5 W放大器产生21 MHz脉冲，两级低噪放大器接收最低约115 μV信号，FPGA完成I/Q解调并把125 MS/s降至0.976 MS/s；CNN在12种化合物模拟谱上训练。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Red Pitaya FPGA低场脉冲NMR集成正交接收与CNN识别",
+        "original_summary_cn": "Current Directions in Biomedical Engineering报道基于Red Pitaya STEM 125-14的低场脉冲NMR原型：DDS与5 W放大器产生21 MHz脉冲，两级低噪放大器接收最低约115 μV信号，FPGA完成I/Q解调并把125 MS/s降至0.976 MS/s；CNN在12种化合物模拟谱上训练。",
+        "original_meaning_cn": "工程复现需分模块验收磁体均匀度、探头Q值、94 Vpp脉冲、收发隔离、LNA噪声系数、ADC动态范围与I/Q正交误差。CNN必须增加实测血样、浓度/线宽/频漂和外部批次验证；模拟谱分类准确不能替代真实低场定量性能。",
+        "original_tags": [
+          "NMR",
+          "台式NMR",
+          "仪器",
+          "生命科学",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "常规检索在严格过去24小时内确认8条日期与上线时刻可核验、且以NMR/EPR方法为核心的新增，因此未触发增强搜索；另有2条近7天扩展，其中FPGA低场脉冲NMR论文虽标注10月2日出版，但页面未提供可证明落在24小时窗口内的精确时刻，按规则保守归类。检索优先核查Journal of Magnetic Resonance Articles in Press，并覆盖Magnetic Resonance、JACS、AIP、Springer Nature、Elsevier、ChemRxiv、Crossref/PubMed及主要厂商、会议和采购页面。本期不含SCM内容。结合2026年9月26日至10月2日最近7期共70条记录，按标准化DOI、规范化URL和标题查重，排除12条既有记录；另排除6条日期不可独立核验、仅属常驻页面或仅把NMR/EPR作为辅助表征的候选。最终收录10条。待复核标签：polychromatic selective spin-locking、minor-state exchange multi-field CEST、casein micelle liquid-state 31P assignment、gallic-acid oenological marker、DyF3 high-field relaxometry、anti-longitudinal spin state、Red Pitaya FPGA quadrature receiver及CNN compound identification保留在sample_systems和正文中，未创建新的正式ID。",
+    "source_sha256": "9d6d621f40dcf549c266db77955a8f96c97f348e4061c6f93481e157522b3422",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

@@ -1,0 +1,1187 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-22",
+  "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260922-01",
+      "report_date": "2026-09-22",
+      "item_no": 1,
+      "title_cn": "Bruker把¹H/¹⁹F片段筛选串成自动化NMR工作流",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "ligand_observed_nmr",
+        "std_nmr",
+        "cpmg",
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "ligand_screening"
+      ],
+      "instrument_component_ids": [
+        "software"
+      ],
+      "sample_systems": [],
+      "information_type": "application_note",
+      "summary_cn": "Bruker发布片段筛选应用说明，将TopSpin FBS采集与Mnova Suite处理、命中分析、可视化和报告连成一体。工作流自动识别Water-LOGSY、STD、T₁ρ与CPMG实验，并覆盖片段库质控、鸡尾酒设计、¹H/¹⁹F筛选及二维滴定Kd分析。",
+      "meaning_cn": "平台配置应按样品量与核种选择TCI、QCIF或1.7 mm MicroCryoProbe，并核对600 MHz条件下的真实吞吐。蛋白样需约4 °C排队，固定缓冲液、片段浓度和混合数；命中至少用两种配体观察实验交叉确认并保留原始FID与自动判定阈值。",
+      "publication_date": "2026-09-21",
+      "time_scope": "24h",
+      "source": "Bruker BioSpin / News-Medical〔厂商应用说明〕",
+      "url": "https://www.news-medical.net/whitepaper/20260921/How-does-NMR-fragment-based-screening-work.aspx",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-22",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-22.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "STD-NMR",
+          "配体观察NMR",
+          "生命科学",
+          "结构生物学",
+          "药物分析",
+          "配体筛选",
+          "仪器",
+          "探头",
+          "自动进样器",
+          "软件"
+        ],
+        "original_type": "应用说明",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-22.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "Bruker把¹H/¹⁹F片段筛选串成自动化NMR工作流；Bruker发布片段筛选应用说明，将TopSpin FBS采集与Mnova Suite处理、命中分析、可视化和报告连成一体。工作流自动识别Water-LOGSY、STD、T₁ρ与CPMG实验，并覆盖片段库质控、鸡尾酒设计、¹H/¹⁹F筛选及二维滴定Kd分析。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "Bruker把¹H/¹⁹F片段筛选串成自动化NMR工作流；Bruker发布片段筛选应用说明，将TopSpin FBS采集与Mnova Suite处理、命中分析、可视化和报告连成一体。工作流自动识别Water-LOGSY、STD、T₁ρ与CPMG实验，并覆盖片段库质控、鸡尾酒设计、¹H/¹⁹F筛选及二维滴定Kd分析。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "ligand_observed_nmr",
+          "dimension": "method_ids",
+          "basis": "Bruker把¹H/¹⁹F片段筛选串成自动化NMR工作流；Bruker发布片段筛选应用说明，将TopSpin FBS采集与Mnova Suite处理、命中分析、可视化和报告连成一体。工作流自动识别Water-LOGSY、STD、T₁ρ与CPMG实验，并覆盖片段库质控、鸡尾酒设计、¹H/¹⁹F筛选及二维滴定Kd分析。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "std_nmr",
+          "dimension": "method_ids",
+          "basis": "Bruker把¹H/¹⁹F片段筛选串成自动化NMR工作流；Bruker发布片段筛选应用说明，将TopSpin FBS采集与Mnova Suite处理、命中分析、可视化和报告连成一体。工作流自动识别Water-LOGSY、STD、T₁ρ与CPMG实验，并覆盖片段库质控、鸡尾酒设计、¹H/¹⁹F筛选及二维滴定Kd分析。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "cpmg",
+          "dimension": "method_ids",
+          "basis": "Bruker把¹H/¹⁹F片段筛选串成自动化NMR工作流；Bruker发布片段筛选应用说明，将TopSpin FBS采集与Mnova Suite处理、命中分析、可视化和报告连成一体。工作流自动识别Water-LOGSY、STD、T₁ρ与CPMG实验，并覆盖片段库质控、鸡尾酒设计、¹H/¹⁹F筛选及二维滴定Kd分析。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "Bruker把¹H/¹⁹F片段筛选串成自动化NMR工作流；Bruker发布片段筛选应用说明，将TopSpin FBS采集与Mnova Suite处理、命中分析、可视化和报告连成一体。工作流自动识别Water-LOGSY、STD、T₁ρ与CPMG实验，并覆盖片段库质控、鸡尾酒设计、¹H/¹⁹F筛选及二维滴定Kd分析。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "ligand_screening",
+          "dimension": "application_ids",
+          "basis": "Bruker把¹H/¹⁹F片段筛选串成自动化NMR工作流；Bruker发布片段筛选应用说明，将TopSpin FBS采集与Mnova Suite处理、命中分析、可视化和报告连成一体。工作流自动识别Water-LOGSY、STD、T₁ρ与CPMG实验，并覆盖片段库质控、鸡尾酒设计、¹H/¹⁹F筛选及二维滴定Kd分析。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "software",
+          "dimension": "instrument_component_ids",
+          "basis": "Bruker把¹H/¹⁹F片段筛选串成自动化NMR工作流；Bruker发布片段筛选应用说明，将TopSpin FBS采集与Mnova Suite处理、命中分析、可视化和报告连成一体。工作流自动识别Water-LOGSY、STD、T₁ρ与CPMG实验，并覆盖片段库质控、鸡尾酒设计、¹H/¹⁹F筛选及二维滴定Kd分析。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Bruker把¹H/¹⁹F片段筛选串成自动化NMR工作流",
+        "original_summary_cn": "Bruker发布片段筛选应用说明，将TopSpin FBS采集与Mnova Suite处理、命中分析、可视化和报告连成一体。工作流自动识别Water-LOGSY、STD、T₁ρ与CPMG实验，并覆盖片段库质控、鸡尾酒设计、¹H/¹⁹F筛选及二维滴定Kd分析。",
+        "original_meaning_cn": "平台配置应按样品量与核种选择TCI、QCIF或1.7 mm MicroCryoProbe，并核对600 MHz条件下的真实吞吐。蛋白样需约4 °C排队，固定缓冲液、片段浓度和混合数；命中至少用两种配体观察实验交叉确认并保留原始FID与自动判定阈值。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "STD-NMR",
+          "配体观察NMR",
+          "生命科学",
+          "结构生物学",
+          "药物分析",
+          "配体筛选",
+          "仪器",
+          "探头",
+          "自动进样器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260922-02",
+      "report_date": "2026-09-22",
+      "item_no": 2,
+      "title_cn": "伦敦EPR工作坊连接样品适配、仪器选型与现场演示",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "CIQTEK与伦敦玛丽女王大学发布10月21日免费EPR研讨与工作坊，议程从EPR基本原理、未成对电子样品适配和研究案例，延伸到谱仪选择、实验室参观及潜在现场演示；讲者来自伦敦、曼彻斯特、牛津、斯图加特等机构。",
+      "meaning_cn": "准备样品咨询时应先列出顺磁中心、预期浓度、相态、温度和光照/反应需求，再据此选择CW或脉冲EPR、频段与谐振器。现场演示宜带标准样和真实样，核对g值、灵敏度、死时间、变温稳定性及软件导出格式。",
+      "publication_date": "2026-09-21",
+      "time_scope": "24h",
+      "source": "CIQTEK官方公告",
+      "url": "https://pt.ciqtekglobal.com/free-epr-seminar-and-workshop-at-queen-mary-university-of-london-uk_n368",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-22",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-22.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "生命科学",
+          "材料",
+          "仪器",
+          "教育培训",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "技术活动",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-22.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "伦敦EPR工作坊连接样品适配、仪器选型与现场演示；CIQTEK与伦敦玛丽女王大学发布10月21日免费EPR研讨与工作坊，议程从EPR基本原理、未成对电子样品适配和研究案例，延伸到谱仪选择、实验室参观及潜在现场演示；讲者来自伦敦、曼彻斯特、牛津、斯图加特等机构。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "伦敦EPR工作坊连接样品适配、仪器选型与现场演示；CIQTEK与伦敦玛丽女王大学发布10月21日免费EPR研讨与工作坊，议程从EPR基本原理、未成对电子样品适配和研究案例，延伸到谱仪选择、实验室参观及潜在现场演示；讲者来自伦敦、曼彻斯特、牛津、斯图加特等机构。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "伦敦EPR工作坊连接样品适配、仪器选型与现场演示",
+        "original_summary_cn": "CIQTEK与伦敦玛丽女王大学发布10月21日免费EPR研讨与工作坊，议程从EPR基本原理、未成对电子样品适配和研究案例，延伸到谱仪选择、实验室参观及潜在现场演示；讲者来自伦敦、曼彻斯特、牛津、斯图加特等机构。",
+        "original_meaning_cn": "准备样品咨询时应先列出顺磁中心、预期浓度、相态、温度和光照/反应需求，再据此选择CW或脉冲EPR、频段与谐振器。现场演示宜带标准样和真实样，核对g值、灵敏度、死时间、变温稳定性及软件导出格式。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "生命科学",
+          "材料",
+          "仪器",
+          "教育培训",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260922-03",
+      "report_date": "2026-09-22",
+      "item_no": 3,
+      "title_cn": "中国药科大学CAN400以双通道自动进样支撑高负荷结构解析",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure",
+        "education_training"
+      ],
+      "instrument_component_ids": [
+        "autosampler"
+      ],
+      "sample_systems": [],
+      "information_type": "application_note",
+      "summary_cn": "国仪量子客户案例称，中国药科大学理学院CAN400连续运行近一年，日均测试超过100个样品；双通道自动进样器通过等待位缩短换样时间，Qspin支持学生自主提交任务，并配套实时数据传输、参数培训及一维/二维实验操作。",
+      "meaning_cn": "公共平台验收应以同一标准样连续测试线形、分辨率、S/N、90°脉宽及昼夜漂移，并记录自动进样成功率、队列恢复和远程传输完整性。高负荷运行还需建立样品管规格、溶剂/浓度、锁场匀场、异常任务与维护日志。",
+      "publication_date": "2026-09-19",
+      "time_scope": "7d_extension",
+      "source": "国仪量子 / 仪器信息网〔客户案例〕",
+      "url": "https://www.instrument.com.cn/news/20260919/980862.shtml",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-22",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-22.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "化学结构",
+          "药物分析",
+          "仪器",
+          "磁体",
+          "探头",
+          "自动进样器",
+          "软件"
+        ],
+        "original_type": "应用案例",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "mapped_from_original_type",
+        "source_file": "09/SpinFront_2026-09-22.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "中国药科大学CAN400以双通道自动进样支撑高负荷结构解析；国仪量子客户案例称，中国药科大学理学院CAN400连续运行近一年，日均测试超过100个样品；双通道自动进样器通过等待位缩短换样时间，Qspin支持学生自主提交任务，并配套实时数据传输、参数培训及一维/二维实验操作。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "中国药科大学CAN400以双通道自动进样支撑高负荷结构解析；国仪量子客户案例称，中国药科大学理学院CAN400连续运行近一年，日均测试超过100个样品；双通道自动进样器通过等待位缩短换样时间，Qspin支持学生自主提交任务，并配套实时数据传输、参数培训及一维/二维实验操作。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "中国药科大学CAN400以双通道自动进样支撑高负荷结构解析；国仪量子客户案例称，中国药科大学理学院CAN400连续运行近一年，日均测试超过100个样品；双通道自动进样器通过等待位缩短换样时间，Qspin支持学生自主提交任务，并配套实时数据传输、参数培训及一维/二维实验操作。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "中国药科大学CAN400以双通道自动进样支撑高负荷结构解析；国仪量子客户案例称，中国药科大学理学院CAN400连续运行近一年，日均测试超过100个样品；双通道自动进样器通过等待位缩短换样时间，Qspin支持学生自主提交任务，并配套实时数据传输、参数培训及一维/二维实验操作。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "autosampler",
+          "dimension": "instrument_component_ids",
+          "basis": "中国药科大学CAN400以双通道自动进样支撑高负荷结构解析；国仪量子客户案例称，中国药科大学理学院CAN400连续运行近一年，日均测试超过100个样品；双通道自动进样器通过等待位缩短换样时间，Qspin支持学生自主提交任务，并配套实时数据传输、参数培训及一维/二维实验操作。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "中国药科大学CAN400以双通道自动进样支撑高负荷结构解析",
+        "original_summary_cn": "国仪量子客户案例称，中国药科大学理学院CAN400连续运行近一年，日均测试超过100个样品；双通道自动进样器通过等待位缩短换样时间，Qspin支持学生自主提交任务，并配套实时数据传输、参数培训及一维/二维实验操作。",
+        "original_meaning_cn": "公共平台验收应以同一标准样连续测试线形、分辨率、S/N、90°脉宽及昼夜漂移，并记录自动进样成功率、队列恢复和远程传输完整性。高负荷运行还需建立样品管规格、溶剂/浓度、锁场匀场、异常任务与维护日志。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "化学结构",
+          "药物分析",
+          "仪器",
+          "磁体",
+          "探头",
+          "自动进样器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260922-04",
+      "report_date": "2026-09-22",
+      "item_no": 4,
+      "title_cn": "合成供体–受体染料进入光化学DNP核超极化路线",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "photo_cidnp"
+      ],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "SCM 2026于9月22日安排Lyndon Emsley全会报告，聚焦合成供体–受体染料的光化学诱导动态核极化。议题把染料电子结构、光生自旋极化与核超极化连接起来，面向可设计极化介质及更灵敏的NMR检测。",
+      "meaning_cn": "方案比较应固定供体/受体结构、浓度、溶剂、氧含量、光波长与样品端功率，并同步测电子自旋态、核增强倍数、建立时间和T₁。需设置暗态、无染料及不同光剂量对照，记录探头温升和光漂白，避免把光化学副产物误作增强。",
+      "publication_date": "2026-09-22",
+      "time_scope": "24h",
+      "source": "SCM 2026官方日程｜Photo-CIDNP PL",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/PreliminarySchedule_20260907.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-22",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-22.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR＋EPR",
+          "溶液NMR",
+          "固体NMR",
+          "脉冲EPR",
+          "化学结构",
+          "材料",
+          "仪器",
+          "磁体",
+          "探头",
+          "谐振器",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "技术活动",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-22.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "合成供体–受体染料进入光化学DNP核超极化路线；SCM 2026于9月22日安排Lyndon Emsley全会报告，聚焦合成供体–受体染料的光化学诱导动态核极化。议题把染料电子结构、光生自旋极化与核超极化连接起来，面向可设计极化介质及更灵敏的NMR检测。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "photo_cidnp",
+          "dimension": "method_ids",
+          "basis": "合成供体–受体染料进入光化学DNP核超极化路线；SCM 2026于9月22日安排Lyndon Emsley全会报告，聚焦合成供体–受体染料的光化学诱导动态核极化。议题把染料电子结构、光生自旋极化与核超极化连接起来，面向可设计极化介质及更灵敏的NMR检测。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "合成供体–受体染料进入光化学DNP核超极化路线；SCM 2026于9月22日安排Lyndon Emsley全会报告，聚焦合成供体–受体染料的光化学诱导动态核极化。议题把染料电子结构、光生自旋极化与核超极化连接起来，面向可设计极化介质及更灵敏的NMR检测。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "合成供体–受体染料进入光化学DNP核超极化路线",
+        "original_summary_cn": "SCM 2026于9月22日安排Lyndon Emsley全会报告，聚焦合成供体–受体染料的光化学诱导动态核极化。议题把染料电子结构、光生自旋极化与核超极化连接起来，面向可设计极化介质及更灵敏的NMR检测。",
+        "original_meaning_cn": "方案比较应固定供体/受体结构、浓度、溶剂、氧含量、光波长与样品端功率，并同步测电子自旋态、核增强倍数、建立时间和T₁。需设置暗态、无染料及不同光剂量对照，记录探头温升和光漂白，避免把光化学副产物误作增强。",
+        "original_tags": [
+          "NMR＋EPR",
+          "溶液NMR",
+          "固体NMR",
+          "脉冲EPR",
+          "化学结构",
+          "材料",
+          "仪器",
+          "磁体",
+          "探头",
+          "谐振器",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260922-05",
+      "report_date": "2026-09-22",
+      "item_no": 5,
+      "title_cn": "固态photo-CIDNP聚焦光生电子极化向晶格核自旋转移",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "photo_cidnp"
+      ],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "Jörg Matysik在SCM 2026报告固态photo-CIDNP效应，核心是解析光激发自由基对产生的电子自旋极化如何转移并保存在固体核自旋体系。该议题直接连接光合反应中心、固态模型样品、MAS/静态NMR与电子自旋动力学。",
+      "meaning_cn": "复现实验需报告磁场、温度、MAS转速或静态取向、照明波长/功率、照光占空比及核种；暗态与光照谱必须使用同一装样。应同时测增强符号、强度、建立/衰减时间和样品光稳定性，并以EPR或自由基对模型约束机理。",
+      "publication_date": "2026-09-22",
+      "time_scope": "24h",
+      "source": "SCM 2026官方日程｜Photo-CIDNP IL",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/PreliminarySchedule_20260907.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-22",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-22.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR＋EPR",
+          "固体NMR",
+          "脉冲EPR",
+          "材料",
+          "仪器",
+          "磁体",
+          "探头",
+          "谐振器",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "技术活动",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-22.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "固态photo-CIDNP聚焦光生电子极化向晶格核自旋转移；Jörg Matysik在SCM 2026报告固态photo-CIDNP效应，核心是解析光激发自由基对产生的电子自旋极化如何转移并保存在固体核自旋体系。该议题直接连接光合反应中心、固态模型样品、MAS/静态NMR与电子自旋动力学。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "固态photo-CIDNP聚焦光生电子极化向晶格核自旋转移；Jörg Matysik在SCM 2026报告固态photo-CIDNP效应，核心是解析光激发自由基对产生的电子自旋极化如何转移并保存在固体核自旋体系。该议题直接连接光合反应中心、固态模型样品、MAS/静态NMR与电子自旋动力学。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "photo_cidnp",
+          "dimension": "method_ids",
+          "basis": "固态photo-CIDNP聚焦光生电子极化向晶格核自旋转移；Jörg Matysik在SCM 2026报告固态photo-CIDNP效应，核心是解析光激发自由基对产生的电子自旋极化如何转移并保存在固体核自旋体系。该议题直接连接光合反应中心、固态模型样品、MAS/静态NMR与电子自旋动力学。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "固态photo-CIDNP聚焦光生电子极化向晶格核自旋转移；Jörg Matysik在SCM 2026报告固态photo-CIDNP效应，核心是解析光激发自由基对产生的电子自旋极化如何转移并保存在固体核自旋体系。该议题直接连接光合反应中心、固态模型样品、MAS/静态NMR与电子自旋动力学。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "固态photo-CIDNP聚焦光生电子极化向晶格核自旋转移",
+        "original_summary_cn": "Jörg Matysik在SCM 2026报告固态photo-CIDNP效应，核心是解析光激发自由基对产生的电子自旋极化如何转移并保存在固体核自旋体系。该议题直接连接光合反应中心、固态模型样品、MAS/静态NMR与电子自旋动力学。",
+        "original_meaning_cn": "复现实验需报告磁场、温度、MAS转速或静态取向、照明波长/功率、照光占空比及核种；暗态与光照谱必须使用同一装样。应同时测增强符号、强度、建立/衰减时间和样品光稳定性，并以EPR或自由基对模型约束机理。",
+        "original_tags": [
+          "NMR＋EPR",
+          "固体NMR",
+          "脉冲EPR",
+          "材料",
+          "仪器",
+          "磁体",
+          "探头",
+          "谐振器",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260922-06",
+      "report_date": "2026-09-22",
+      "item_no": 6,
+      "title_cn": "LC-photo-CIDNP把在线分离接入高灵敏NMR检测",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "photo_cidnp"
+      ],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "Silvia Cavagnero在SCM 2026报告LC-photo-CIDNP，目标是将液相分离、光化学诱导核极化与NMR检测连成高灵敏工作流。该方案面向低丰度或复杂混合物，关键挑战是让洗脱峰时间尺度、光激发窗口和NMR采集节拍同步。",
+      "meaning_cn": "接口设计应核对LC流速、死体积、流通池容积、停流策略、光程和探头灵敏度，并以标准混合物测峰展宽与回收率。采集需同步记录保留时间、光功率、照射时长、温升和核T₁；暗态及离线NMR对照用于识别极化与输运伪影。",
+      "publication_date": "2026-09-22",
+      "time_scope": "24h",
+      "source": "SCM 2026官方日程｜Photo-CIDNP IL",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/PreliminarySchedule_20260907.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-22",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-22.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR＋EPR",
+          "溶液NMR",
+          "生命科学",
+          "结构生物学",
+          "过程分析",
+          "仪器",
+          "探头",
+          "流通池",
+          "原位光照",
+          "自动进样器",
+          "软件"
+        ],
+        "original_type": "技术活动",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-22.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "LC-photo-CIDNP把在线分离接入高灵敏NMR检测；Silvia Cavagnero在SCM 2026报告LC-photo-CIDNP，目标是将液相分离、光化学诱导核极化与NMR检测连成高灵敏工作流。该方案面向低丰度或复杂混合物，关键挑战是让洗脱峰时间尺度、光激发窗口和NMR采集节拍同步。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "photo_cidnp",
+          "dimension": "method_ids",
+          "basis": "LC-photo-CIDNP把在线分离接入高灵敏NMR检测；Silvia Cavagnero在SCM 2026报告LC-photo-CIDNP，目标是将液相分离、光化学诱导核极化与NMR检测连成高灵敏工作流。该方案面向低丰度或复杂混合物，关键挑战是让洗脱峰时间尺度、光激发窗口和NMR采集节拍同步。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "LC-photo-CIDNP把在线分离接入高灵敏NMR检测；Silvia Cavagnero在SCM 2026报告LC-photo-CIDNP，目标是将液相分离、光化学诱导核极化与NMR检测连成高灵敏工作流。该方案面向低丰度或复杂混合物，关键挑战是让洗脱峰时间尺度、光激发窗口和NMR采集节拍同步。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "LC-photo-CIDNP把在线分离接入高灵敏NMR检测",
+        "original_summary_cn": "Silvia Cavagnero在SCM 2026报告LC-photo-CIDNP，目标是将液相分离、光化学诱导核极化与NMR检测连成高灵敏工作流。该方案面向低丰度或复杂混合物，关键挑战是让洗脱峰时间尺度、光激发窗口和NMR采集节拍同步。",
+        "original_meaning_cn": "接口设计应核对LC流速、死体积、流通池容积、停流策略、光程和探头灵敏度，并以标准混合物测峰展宽与回收率。采集需同步记录保留时间、光功率、照射时长、温升和核T₁；暗态及离线NMR对照用于识别极化与输运伪影。",
+        "original_tags": [
+          "NMR＋EPR",
+          "溶液NMR",
+          "生命科学",
+          "结构生物学",
+          "过程分析",
+          "仪器",
+          "探头",
+          "流通池",
+          "原位光照",
+          "自动进样器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260922-07",
+      "report_date": "2026-09-22",
+      "item_no": 7,
+      "title_cn": "固态自旋量子传感推进单分子尺度磁共振",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "nanomagnetic_resonance"
+      ],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "Qi Zhang在SCM 2026报告固态自旋量子传感器实现单分子尺度磁共振。路线利用局域量子传感自旋的相干控制与光学读出探测邻近核/电子自旋，目标是突破传统感应线圈对样品体积的限制，并获取纳米尺度磁共振信息。",
+      "meaning_cn": "实验应记录传感器缺陷深度、样品–传感器距离、偏置场、微波脉冲、动态去耦序列、激光功率及光学对比度。定量前需标定滤波函数、T₂与空间响应，并用已知自旋密度标准验证灵敏度；单分子主张还要排除表面噪声与漂移。",
+      "publication_date": "2026-09-22",
+      "time_scope": "24h",
+      "source": "SCM 2026官方日程｜Quantum Information and Sensing CL",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/PreliminarySchedule_20260907.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-22",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-22.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR＋EPR",
+          "脉冲EPR",
+          "缺陷EPR",
+          "生命科学",
+          "材料",
+          "仪器",
+          "磁体",
+          "探头",
+          "原位光照",
+          "软件"
+        ],
+        "original_type": "技术活动",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-22.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "固态自旋量子传感推进单分子尺度磁共振；Qi Zhang在SCM 2026报告固态自旋量子传感器实现单分子尺度磁共振。路线利用局域量子传感自旋的相干控制与光学读出探测邻近核/电子自旋，目标是突破传统感应线圈对样品体积的限制，并获取纳米尺度磁共振信息。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "nanomagnetic_resonance",
+          "dimension": "method_ids",
+          "basis": "固态自旋量子传感推进单分子尺度磁共振；Qi Zhang在SCM 2026报告固态自旋量子传感器实现单分子尺度磁共振。路线利用局域量子传感自旋的相干控制与光学读出探测邻近核/电子自旋，目标是突破传统感应线圈对样品体积的限制，并获取纳米尺度磁共振信息。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "固态自旋量子传感推进单分子尺度磁共振；Qi Zhang在SCM 2026报告固态自旋量子传感器实现单分子尺度磁共振。路线利用局域量子传感自旋的相干控制与光学读出探测邻近核/电子自旋，目标是突破传统感应线圈对样品体积的限制，并获取纳米尺度磁共振信息。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "固态自旋量子传感推进单分子尺度磁共振",
+        "original_summary_cn": "Qi Zhang在SCM 2026报告固态自旋量子传感器实现单分子尺度磁共振。路线利用局域量子传感自旋的相干控制与光学读出探测邻近核/电子自旋，目标是突破传统感应线圈对样品体积的限制，并获取纳米尺度磁共振信息。",
+        "original_meaning_cn": "实验应记录传感器缺陷深度、样品–传感器距离、偏置场、微波脉冲、动态去耦序列、激光功率及光学对比度。定量前需标定滤波函数、T₂与空间响应，并用已知自旋密度标准验证灵敏度；单分子主张还要排除表面噪声与漂移。",
+        "original_tags": [
+          "NMR＋EPR",
+          "脉冲EPR",
+          "缺陷EPR",
+          "生命科学",
+          "材料",
+          "仪器",
+          "磁体",
+          "探头",
+          "原位光照",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260922-08",
+      "report_date": "2026-09-22",
+      "item_no": 8,
+      "title_cn": "多频EPR工程化三苯甲基自由基的核自旋环境",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "Naitik Panjwani在SCM 2026以多频EPR研究发光全卤氟三苯甲基自由基，讨论通过分子周围核自旋环境工程改善分子自旋相干。工作把同位素/卤素组成、超精细耦合、光物理与不同微波频段下的弛豫行为联系起来。",
+      "meaning_cn": "样品系列应固定自由基纯度、浓度、宿主、同位素组成与氧含量，在X/Q/W等频段及温度系列下统一测g、A、T₁和Tm。比较相干增益时需校正脉冲带宽、B₁与谱扩散；光致发光条件还要同步记录激发功率与光稳定性。",
+      "publication_date": "2026-09-22",
+      "time_scope": "24h",
+      "source": "SCM 2026官方日程｜Quantum Information and Sensing CL",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/PreliminarySchedule_20260907.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-22",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-22.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "材料",
+          "化学结构",
+          "仪器",
+          "磁体",
+          "谐振器",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "技术活动",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-22.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "多频EPR工程化三苯甲基自由基的核自旋环境；Naitik Panjwani在SCM 2026以多频EPR研究发光全卤氟三苯甲基自由基，讨论通过分子周围核自旋环境工程改善分子自旋相干。工作把同位素/卤素组成、超精细耦合、光物理与不同微波频段下的弛豫行为联系起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "多频EPR工程化三苯甲基自由基的核自旋环境；Naitik Panjwani在SCM 2026以多频EPR研究发光全卤氟三苯甲基自由基，讨论通过分子周围核自旋环境工程改善分子自旋相干。工作把同位素/卤素组成、超精细耦合、光物理与不同微波频段下的弛豫行为联系起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "多频EPR工程化三苯甲基自由基的核自旋环境",
+        "original_summary_cn": "Naitik Panjwani在SCM 2026以多频EPR研究发光全卤氟三苯甲基自由基，讨论通过分子周围核自旋环境工程提升分子自旋相干。工作把同位素/卤素组成、超精细耦合、光物理与不同微波频段下的弛豫行为联系起来。",
+        "original_meaning_cn": "样品系列应固定自由基纯度、浓度、宿主、同位素组成与氧含量，在X/Q/W等频段及温度系列下统一测g、A、T₁和Tm。比较相干增益时需校正脉冲带宽、B₁与谱扩散；光致发光条件还要同步记录激发功率与光稳定性。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "材料",
+          "化学结构",
+          "仪器",
+          "磁体",
+          "谐振器",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260922-09",
+      "report_date": "2026-09-22",
+      "item_no": 9,
+      "title_cn": "CIDNP分辨anserine短寿命阳离子自由基的质子化路径",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "cidnp"
+      ],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "Alexandra Yurkovskaya在SCM 2026用CIDNP可视化anserine短寿命阳离子自由基，其演化取决于β-alanyl位点质子化状态。议题以核极化图样放大瞬态自由基化学差异，把pH依赖、质子转移与自由基后续反应路径关联起来。",
+      "meaning_cn": "实验需严格固定pH/pD、缓冲液、温度、光敏剂、溶氧和光照剂量，并记录照光–采集延迟与相位循环。应使用pH滴定、氘代溶剂及相关肽对照区分交换和质子化效应；峰增强符号与积分需结合自由基对动力学模型解释。",
+      "publication_date": "2026-09-22",
+      "time_scope": "24h",
+      "source": "SCM 2026官方日程｜Radical Spin Chemistry IL",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/PreliminarySchedule_20260907.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-22",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-22.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR＋EPR",
+          "溶液NMR",
+          "化学结构",
+          "生命科学",
+          "仪器",
+          "磁体",
+          "探头",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "技术活动",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-22.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "CIDNP分辨anserine短寿命阳离子自由基的质子化路径；Alexandra Yurkovskaya在SCM 2026用CIDNP可视化anserine短寿命阳离子自由基，其演化取决于β-alanyl位点质子化状态。议题以核极化图样放大瞬态自由基化学差异，把pH依赖、质子转移与自由基后续反应路径关联起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "cidnp",
+          "dimension": "method_ids",
+          "basis": "CIDNP分辨anserine短寿命阳离子自由基的质子化路径；Alexandra Yurkovskaya在SCM 2026用CIDNP可视化anserine短寿命阳离子自由基，其演化取决于β-alanyl位点质子化状态。议题以核极化图样放大瞬态自由基化学差异，把pH依赖、质子转移与自由基后续反应路径关联起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "CIDNP分辨anserine短寿命阳离子自由基的质子化路径；Alexandra Yurkovskaya在SCM 2026用CIDNP可视化anserine短寿命阳离子自由基，其演化取决于β-alanyl位点质子化状态。议题以核极化图样放大瞬态自由基化学差异，把pH依赖、质子转移与自由基后续反应路径关联起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "CIDNP分辨anserine短寿命阳离子自由基的质子化路径",
+        "original_summary_cn": "Alexandra Yurkovskaya在SCM 2026用CIDNP可视化anserine短寿命阳离子自由基，其演化取决于β-alanyl位点质子化状态。议题以核极化图样放大瞬态自由基化学差异，把pH依赖、质子转移与自由基后续反应路径关联起来。",
+        "original_meaning_cn": "实验需严格固定pH/pD、缓冲液、温度、光敏剂、溶氧和光照剂量，并记录照光–采集延迟与相位循环。应使用pH滴定、氘代溶剂及相关肽对照区分交换和质子化效应；峰增强符号与积分需结合自由基对动力学模型解释。",
+        "original_tags": [
+          "NMR＋EPR",
+          "溶液NMR",
+          "化学结构",
+          "生命科学",
+          "仪器",
+          "磁体",
+          "探头",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260922-10",
+      "report_date": "2026-09-22",
+      "item_no": 10,
+      "title_cn": "蓝光激活蛋白以自由基对联动电子与核超极化",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "time_resolved_epr"
+      ],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "Stefan Weber在SCM 2026从自由基对视角讨论蓝光激活蛋白中的电子与核超极化。报告把光生电子转移、非平衡电子自旋布居、瞬态EPR信号与核极化联系起来，为解析蛋白光循环及选择合适的光激发磁共振读出提供框架。",
+      "meaning_cn": "蛋白样需记录辅因子装载、浓度、缓冲液、pH、氧含量和温度；光源应标定波长、脉宽、功率及重复率。trEPR与NMR需匹配照光时序，并联合暗态、突变体及同位素标记对照；谱拟合要同时约束自由基对寿命、交换/偶极耦合和核增强。",
+      "publication_date": "2026-09-22",
+      "time_scope": "24h",
+      "source": "SCM 2026官方日程｜Biological Spin Chemistry IL",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/PreliminarySchedule_20260907.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-22",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-22.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR＋EPR",
+          "溶液NMR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "生命科学",
+          "结构生物学",
+          "仪器",
+          "探头",
+          "谐振器",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "技术活动",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-22.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "蓝光激活蛋白以自由基对联动电子与核超极化；Stefan Weber在SCM 2026从自由基对视角讨论蓝光激活蛋白中的电子与核超极化。报告把光生电子转移、非平衡电子自旋布居、瞬态EPR信号与核极化联系起来，为解析蛋白光循环及选择合适的光激发磁共振读出提供框架。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "time_resolved_epr",
+          "dimension": "method_ids",
+          "basis": "蓝光激活蛋白以自由基对联动电子与核超极化；Stefan Weber在SCM 2026从自由基对视角讨论蓝光激活蛋白中的电子与核超极化。报告把光生电子转移、非平衡电子自旋布居、瞬态EPR信号与核极化联系起来，为解析蛋白光循环及选择合适的光激发磁共振读出提供框架。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "蓝光激活蛋白以自由基对联动电子与核超极化；Stefan Weber在SCM 2026从自由基对视角讨论蓝光激活蛋白中的电子与核超极化。报告把光生电子转移、非平衡电子自旋布居、瞬态EPR信号与核极化联系起来，为解析蛋白光循环及选择合适的光激发磁共振读出提供框架。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "蓝光激活蛋白以自由基对联动电子与核超极化",
+        "original_summary_cn": "Stefan Weber在SCM 2026从自由基对视角讨论蓝光激活蛋白中的电子与核超极化。报告把光生电子转移、非平衡电子自旋布居、瞬态EPR信号与核极化联系起来，为解析蛋白光循环及选择合适的光激发磁共振读出提供框架。",
+        "original_meaning_cn": "蛋白样需记录辅因子装载、浓度、缓冲液、pH、氧含量和温度；光源应标定波长、脉宽、功率及重复率。trEPR与NMR需匹配照光时序，并联合暗态、突变体及同位素标记对照；谱拟合要同时约束自由基对寿命、交换/偶极耦合和核增强。",
+        "original_tags": [
+          "NMR＋EPR",
+          "溶液NMR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "生命科学",
+          "结构生物学",
+          "仪器",
+          "探头",
+          "谐振器",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "常规检索在过去24小时内仅确认2条日期明确、与NMR/EPR直接相关的非会议新增，少于5条，已启动增强搜索。增强检索覆盖Journal of Magnetic Resonance、Journal of Magnetic Resonance Open、Magnetic Resonance、Journal of Biomolecular NMR、Solid State Nuclear Magnetic Resonance、Magnetic Resonance in Chemistry、Applied Magnetic Resonance及ACS、RSC、Wiley、Springer Nature、Elsevier、AIP等出版平台，并分别核查arXiv、ChemRxiv、PubMed/Crossref、科研机构、Bruker、JEOL、Oxford Instruments、Magritek、Nanalysis、CIQTEK等厂商、专业会议以及中外采购公告；同时按液体NMR、固体NMR/MAS/DNP、低场与TD-NMR、谱图处理、CW/rapid-scan EPR、脉冲EPR/DEER/ENDOR/ESEEM/HYSCORE、TREPR、operando/EC-EPR和仪器部件分组检索。增强阶段已获得8条以上合格候选，因此未触发第二级深度增强检索。\n\n本期最终收录10条：9条为9月21日至22日日期明确的信息，归入近24小时；1条为9月19日的近7天扩展。SCM 2026官方日程在9月22日承载技术内容相互独立的报告，故按独立议程收录。结合9月15—21日最近7期正文、项目文件索引及可访问JSON，按标准化DOI、去除跟踪参数后的URL和规范化标题查重，排除14条既有记录；另排除12条日期不明、常驻页面、医学MRI、缩写误检或仅把NMR/EPR作为辅助表征的候选。最终未以低相关性内容补足。\n\n待复核标签：TopSpin FBS–Mnova一体化筛选、Water-LOGSY、T₁ρ/CPMG筛选、CAN400/Qspin、photo-CIDNP、LC-photo-CIDNP、固态自旋量子传感、多频EPR核自旋环境工程与自由基对超极化保留在sample_systems及正文中，未创建新的正式ID。",
+    "source_sha256": "f409b230d9002c66ec18fb4c294a8e10627d471faff5f7985e6972b091707b01",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

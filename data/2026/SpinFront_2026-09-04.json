@@ -1,0 +1,520 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-04",
+  "scope_note": "本期收录5条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260904-01",
+      "report_date": "2026-09-04",
+      "item_no": 1,
+      "title_cn": "d-DNP使高场液体¹H NMR信号增强约千倍",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "dnp"
+      ],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Nature Communications报道以OX063三苯甲基自由基和高功率速调管微波源实现¹H溶解动态核极化。样品极化后快速溶解并转移至9.4 T液体NMR，丙酮酸在D₂O中的¹H极化达到5.1%，信号增强1550倍；氨基酸在近质子化缓冲液中也获得约1%极化。",
+      "meaning_cn": "方案需统筹极化场、低温玻璃化配方、OX063浓度、微波频率与功率，以及溶解—转移死时间。高功率链路应核对速调管占空比和安全联锁；液体端需同步测量T₁/T₂、温度与稀释倍数，并以热平衡谱校准增强倍数，避免转移损失被误判为极化效率。",
+      "publication_date": "2026-09-01",
+      "time_scope": "7d_extension",
+      "source": "Nature Communications",
+      "url": "https://www.nature.com/articles/s41467-026-77297-3",
+      "doi": "10.1038/s41467-026-77297-3",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-04",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-04.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "仪器、软件与方法",
+          "生命科学"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-04.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "d-DNP使高场液体¹H NMR信号增强约千倍；Nature Communications报道以OX063三苯甲基自由基和高功率速调管微波源实现¹H溶解动态核极化。样品极化后快速溶解并转移至9.4 T液体NMR，丙酮酸在D₂O中的¹H极化达到5.1%，信号增强1550倍；氨基酸在近质子化缓冲液中也获得约1%极化。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "d-DNP使高场液体¹H NMR信号增强约千倍；Nature Communications报道以OX063三苯甲基自由基和高功率速调管微波源实现¹H溶解动态核极化。样品极化后快速溶解并转移至9.4 T液体NMR，丙酮酸在D₂O中的¹H极化达到5.1%，信号增强1550倍；氨基酸在近质子化缓冲液中也获得约1%极化。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "dnp",
+          "dimension": "method_ids",
+          "basis": "d-DNP使高场液体¹H NMR信号增强约千倍；Nature Communications报道以OX063三苯甲基自由基和高功率速调管微波源实现¹H溶解动态核极化。样品极化后快速溶解并转移至9.4 T液体NMR，丙酮酸在D₂O中的¹H极化达到5.1%，信号增强1550倍；氨基酸在近质子化缓冲液中也获得约1%极化。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "d-DNP使高场液体¹H NMR信号增强约千倍",
+        "original_summary_cn": "Nature Communications报道以OX063三苯甲基自由基和高功率速调管微波源实现¹H溶解动态核极化。样品极化后快速溶解并转移至9.4 T液体NMR，丙酮酸在D₂O中的¹H极化达到5.1%，信号增强1550倍；氨基酸在近质子化缓冲液中也获得约1%极化。",
+        "original_meaning_cn": "方案需统筹极化场、低温玻璃化配方、OX063浓度、微波频率与功率，以及溶解—转移死时间。高功率链路应核对速调管占空比和安全联锁；液体端需同步测量T₁/T₂、温度与稀释倍数，并以热平衡谱校准增强倍数，避免转移损失被误判为极化效率。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "仪器、软件与方法",
+          "生命科学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260904-02",
+      "report_date": "2026-09-04",
+      "item_no": 2,
+      "title_cn": "JEOL发布可自动切换双/三共振的HFX低温探头",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "instrument_component_ids": [
+        "probe"
+      ],
+      "sample_systems": [],
+      "information_type": "product_software",
+      "summary_cn": "JEOL发布SuperCOOL MARVEL HFX Duo低温探头，通过Idler coil、MFDS和time-share decoupling在双共振与三共振模式间自动切换。系统可执行¹³C观察下¹H/¹⁹F双去耦，也支持¹H或¹⁹F观察；在600 MHz上，¹³C灵敏度为其室温HFX探头的2.6倍以上。",
+      "meaning_cn": "配置比较需确认谱仪是否具备MFDS、两通道下的时分去耦能力，以及¹H、¹⁹F和X核的自动调谐范围。液氮开放式冷却可在测量中补充冷媒，但仍应核对线圈与前放温度、消耗量、去耦功率和变温边界，并用真实含氟样品验证灵敏度与串扰。",
+      "publication_date": "2026-09-02",
+      "time_scope": "7d_extension",
+      "source": "JEOL",
+      "url": "https://www.jeol.com/news/pr/20260902.14111.php",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-04",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-04.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "仪器、软件与方法",
+          "药物与质量分析",
+          "化学结构解析"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-04.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "JEOL发布可自动切换双/三共振的HFX低温探头；JEOL发布SuperCOOL MARVEL HFX Duo低温探头，通过Idler coil、MFDS和time-share decoupling在双共振与三共振模式间自动切换。系统可执行¹³C观察下¹H/¹⁹F双去耦，也支持¹H或¹⁹F观察；在600 MHz上，¹³C灵敏度为其室温HFX探头的2.6倍以上。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "JEOL发布可自动切换双/三共振的HFX低温探头；JEOL发布SuperCOOL MARVEL HFX Duo低温探头，通过Idler coil、MFDS和time-share decoupling在双共振与三共振模式间自动切换。系统可执行¹³C观察下¹H/¹⁹F双去耦，也支持¹H或¹⁹F观察；在600 MHz上，¹³C灵敏度为其室温HFX探头的2.6倍以上。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "instrumentation",
+          "dimension": "application_ids",
+          "basis": "JEOL发布可自动切换双/三共振的HFX低温探头；JEOL发布SuperCOOL MARVEL HFX Duo低温探头，通过Idler coil、MFDS和time-share decoupling在双共振与三共振模式间自动切换。系统可执行¹³C观察下¹H/¹⁹F双去耦，也支持¹H或¹⁹F观察；在600 MHz上，¹³C灵敏度为其室温HFX探头的2.6倍以上。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "probe",
+          "dimension": "instrument_component_ids",
+          "basis": "JEOL发布可自动切换双/三共振的HFX低温探头；JEOL发布SuperCOOL MARVEL HFX Duo低温探头，通过Idler coil、MFDS和time-share decoupling在双共振与三共振模式间自动切换。系统可执行¹³C观察下¹H/¹⁹F双去耦，也支持¹H或¹⁹F观察；在600 MHz上，¹³C灵敏度为其室温HFX探头的2.6倍以上。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "JEOL发布可自动切换双/三共振的HFX低温探头",
+        "original_summary_cn": "JEOL发布SuperCOOL MARVEL HFX Duo低温探头，通过Idler coil、MFDS和time-share decoupling在双共振与三共振模式间自动切换。系统可执行¹³C观察下¹H/¹⁹F双去耦，也支持¹H或¹⁹F观察；在600 MHz上，¹³C灵敏度为其室温HFX探头的2.6倍以上。",
+        "original_meaning_cn": "配置比较需确认谱仪是否具备MFDS、两通道下的时分去耦能力，以及¹H、¹⁹F和X核的自动调谐范围。液氮开放式冷却可在测量中补充冷媒，但仍应核对线圈与前放温度、消耗量、去耦功率和变温边界，并用真实含氟样品验证灵敏度与串扰。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "仪器、软件与方法",
+          "药物与质量分析",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260904-03",
+      "report_date": "2026-09-04",
+      "item_no": 3,
+      "title_cn": "Concordia获赠400 MHz NMR并重排常规与复杂实验负载",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "funding_facility",
+      "summary_cn": "Concordia University宣布获得CDN Isotopes捐赠的400 MHz NMR，使校内设施形成300、400和500 MHz组合。新增仪器主要承担常规¹H与¹³C结构确认和教学训练，从而减少排队，并让500 MHz系统保留给分辨率、灵敏度或实验复杂度更高的研究任务。",
+      "meaning_cn": "多机平台规划可按样品难度和脉冲序列分流：常规一维谱与本科训练放在400 MHz，低灵敏度核、多维谱和拥挤体系优先安排500 MHz。启用前应统一化学位移参照、探头性能验收、数据命名和处理模板，并用同一标准样建立三台设备的S/N与线宽基线。",
+      "publication_date": "2026-09-03",
+      "time_scope": "24h",
+      "source": "Concordia University",
+      "url": "https://www.concordia.ca/cunews/artsci/2026/09/03/new-spectrometer-donation-expands-research-opportunities-in-chem.html",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-04",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-04.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "仪器、软件与方法",
+          "培训与会议",
+          "化学结构解析"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-04.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "Concordia获赠400 MHz NMR并重排常规与复杂实验负载；Concordia University宣布获得CDN Isotopes捐赠的400 MHz NMR，使校内设施形成300、400和500 MHz组合。新增仪器主要承担常规¹H与¹³C结构确认和教学训练，从而减少排队，并让500 MHz系统保留给分辨率、灵敏度或实验复杂度更高的研究任务。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "Concordia获赠400 MHz NMR并重排常规与复杂实验负载；Concordia University宣布获得CDN Isotopes捐赠的400 MHz NMR，使校内设施形成300、400和500 MHz组合。新增仪器主要承担常规¹H与¹³C结构确认和教学训练，从而减少排队，并让500 MHz系统保留给分辨率、灵敏度或实验复杂度更高的研究任务。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "Concordia获赠400 MHz NMR并重排常规与复杂实验负载；Concordia University宣布获得CDN Isotopes捐赠的400 MHz NMR，使校内设施形成300、400和500 MHz组合。新增仪器主要承担常规¹H与¹³C结构确认和教学训练，从而减少排队，并让500 MHz系统保留给分辨率、灵敏度或实验复杂度更高的研究任务。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Concordia获赠400 MHz NMR并重排常规与复杂实验负载",
+        "original_summary_cn": "Concordia University宣布获得CDN Isotopes捐赠的400 MHz NMR，使校内设施形成300、400和500 MHz组合。新增仪器主要承担常规¹H与¹³C结构确认和教学训练，从而减少排队，并让500 MHz系统保留给分辨率、灵敏度或实验复杂度更高的研究任务。",
+        "original_meaning_cn": "多机平台规划可按样品难度和脉冲序列分流：常规一维谱与本科训练放在400 MHz，低灵敏度核、多维谱和拥挤体系优先安排500 MHz。启用前应统一化学位移参照、探头性能验收、数据命名和处理模板，并用同一标准样建立三台设备的S/N与线宽基线。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "仪器、软件与方法",
+          "培训与会议",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "属相关动态，不代表新增实验方法或采购公告。"
+      ]
+    },
+    {
+      "item_id": "SF-20260904-04",
+      "report_date": "2026-09-04",
+      "item_no": 4,
+      "title_cn": "Label-free NMR聚焦生物分子凝聚体的相态分辨",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "巴伐利亚NMR中心于9月3日举办“Resolving the Phases”报告，讨论无需外加自旋标签的NMR方法如何分析生物分子凝聚体。该方向关注稀相与凝聚相之间的组分分配、局部结构和交换动力学，适合处理相分离体系中浑浊、黏度升高及多状态共存带来的谱线问题。",
+      "meaning_cn": "实验需记录总浓度、盐度、pH、温度、相体积和老化时间，并在采谱前确认是否沉降或形成不可逆聚集。建议组合一维定量谱、DOSY、弛豫和交换敏感实验，分别建立稀相与凝聚相对照；若峰展宽严重，应先优化样品均一性和温控再解释结合或构象变化。",
+      "publication_date": "2026-09-03",
+      "time_scope": "24h",
+      "source": "TUM School of Natural Sciences / Bayerisches NMR Zentrum",
+      "url": "https://www.nat.tum.de/en/nat/latest/article/proteins-can-be-selectively-controlled-with-radio-waves/",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-04",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-04.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "培训与会议"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-04.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "Label-free NMR聚焦生物分子凝聚体的相态分辨；巴伐利亚NMR中心于9月3日举办“Resolving the Phases”报告，讨论无需外加自旋标签的NMR方法如何分析生物分子凝聚体。该方向关注稀相与凝聚相之间的组分分配、局部结构和交换动力学，适合处理相分离体系中浑浊、黏度升高及多状态共存带来的谱线问题。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "Label-free NMR聚焦生物分子凝聚体的相态分辨；巴伐利亚NMR中心于9月3日举办“Resolving the Phases”报告，讨论无需外加自旋标签的NMR方法如何分析生物分子凝聚体。该方向关注稀相与凝聚相之间的组分分配、局部结构和交换动力学，适合处理相分离体系中浑浊、黏度升高及多状态共存带来的谱线问题。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Label-free NMR聚焦生物分子凝聚体的相态分辨",
+        "original_summary_cn": "巴伐利亚NMR中心于9月3日举办“Resolving the Phases”报告，讨论无需外加自旋标签的NMR方法如何分析生物分子凝聚体。该方向关注稀相与凝聚相之间的组分分配、局部结构和交换动力学，适合处理相分离体系中浑浊、黏度升高及多状态共存带来的谱线问题。",
+        "original_meaning_cn": "实验需记录总浓度、盐度、pH、温度、相体积和老化时间，并在采谱前确认是否沉降或形成不可逆聚集。建议组合一维定量谱、DOSY、弛豫和交换敏感实验，分别建立稀相与凝聚相对照；若峰展宽严重，应先优化样品均一性和温控再解释结合或构象变化。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "培训与会议"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260904-05",
+      "report_date": "2026-09-04",
+      "item_no": 5,
+      "title_cn": "SMARTER 9集中讨论固体NMR、衍射与计算联合结构解析",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "SMARTER 9于9月3日在拜罗伊特闭幕，会议围绕固体NMR、散射/衍射和计算建模的联合结构解析展开，覆盖粉末与无序材料、原位与工况测量、动态异质体系及机器学习辅助分析。核心目标是从互补实验约束推导原子尺度结构和结构—性质关系。",
+      "meaning_cn": "项目设计应把NMR可观测量、衍射约束和计算模型在采样前对齐，明确各技术对局部有序、长程有序和动力学的灵敏范围。固体NMR需记录核种、磁场、MAS转速和去卷积规则；联合拟合应保留原始谱与不确定度，并使用未参与建模的数据检验结构方案。",
+      "publication_date": "2026-09-03",
+      "time_scope": "24h",
+      "source": "University of Bayreuth / SMARTER 9",
+      "url": "https://www.smarter9.uni-bayreuth.de/en/index.html",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-04",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-04.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "计算NMR",
+          "材料与缺陷表征",
+          "化学结构解析",
+          "培训与会议"
+        ],
+        "original_type": "固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-04.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "SMARTER 9集中讨论固体NMR、衍射与计算联合结构解析；SMARTER 9于9月3日在拜罗伊特闭幕，会议围绕固体NMR、散射/衍射和计算建模的联合结构解析展开，覆盖粉末与无序材料、原位与工况测量、动态异质体系及机器学习辅助分析。核心目标是从互补实验约束推导原子尺度结构和结构—性质关系。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "SMARTER 9集中讨论固体NMR、衍射与计算联合结构解析；SMARTER 9于9月3日在拜罗伊特闭幕，会议围绕固体NMR、散射/衍射和计算建模的联合结构解析展开，覆盖粉末与无序材料、原位与工况测量、动态异质体系及机器学习辅助分析。核心目标是从互补实验约束推导原子尺度结构和结构—性质关系。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "SMARTER 9集中讨论固体NMR、衍射与计算联合结构解析；SMARTER 9于9月3日在拜罗伊特闭幕，会议围绕固体NMR、散射/衍射和计算建模的联合结构解析展开，覆盖粉末与无序材料、原位与工况测量、动态异质体系及机器学习辅助分析。核心目标是从互补实验约束推导原子尺度结构和结构—性质关系。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "SMARTER 9集中讨论固体NMR、衍射与计算联合结构解析",
+        "original_summary_cn": "SMARTER 9于9月3日在拜罗伊特闭幕，会议围绕固体NMR、散射/衍射和计算建模的联合结构解析展开，覆盖粉末与无序材料、原位与工况测量、动态异质体系及机器学习辅助分析。核心目标是从互补实验约束推导原子尺度结构和结构—性质关系。",
+        "original_meaning_cn": "项目设计应把NMR可观测量、衍射约束和计算模型在采样前对齐，明确各技术对局部有序、长程有序和动力学的灵敏范围。固体NMR需记录核种、磁场、MAS转速和去卷积规则；联合拟合应保留原始谱与不确定度，并使用未参与建模的数据检验结构方案。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "计算NMR",
+          "材料与缺陷表征",
+          "化学结构解析",
+          "培训与会议"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "常规检索在过去24小时内得到的合格新增少于5条，已启动增强搜索，分别核验专业期刊与论文、预印本及机构、仪器与软件、会议培训、中外采购与政策来源，并轮换使用DNP、MAS、qNMR、DEER/PELDOR、HYSCORE、探头及谱图处理等方法词。本期最终收录5条：1条为2026年9月3日近24小时信息，4条为2026年9月1日至2日近7天扩展。已结合最近7期正文与项目索引检查DOI、规范化URL和标题，排除5条既有记录，并排除多条仅更新刊期、旧页面重新抓取或仅把NMR/EPR作为辅助表征的内容。待复核标签：d-DNP与生物分子凝聚体暂保留在样品体系和正文中，未创建新的正式ID。",
+    "source_sha256": "74fce53c20fe5c6f3a30eeae56179b35c2db7815be9613d74a6015f8a4169ca4",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

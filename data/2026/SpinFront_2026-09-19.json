@@ -1,0 +1,937 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-19",
+  "scope_note": "本期收录9条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260919-01",
+      "report_date": "2026-09-19",
+      "item_no": 1,
+      "title_cn": "FOSY二维选择性实验补齐Tau局部主链归属",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "multidimensional_nmr",
+        "polarization_transfer"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "arXiv预印本以频率选择性极化转移构建二维FOSY实验，沿主链双向行走并保留高维关联信息。方法针对无序蛋白峰重叠、酰胺—水快速交换和连续关联缺失，不要求先完成全蛋白归属；在人Tau的G302–K311片段验证了局部补缺路线。",
+      "meaning_cn": "应用于IDP/IDR应确认¹³C/¹⁵N标记、构建体、pH和温度，选择可辨认锚点并记录选择性脉冲频率、带宽及转移延迟。双向行走须相互验证；缺峰应结合交换与灵敏度解释，不能直接判定链段断连。",
+      "publication_date": "2026-09-18",
+      "time_scope": "7d_extension",
+      "source": "arXiv〔预印本；9月17日提交，9月18日公告〕",
+      "url": "https://arxiv.org/abs/2609.20384",
+      "doi": "10.48550/arxiv.2609.20384",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-19",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-19.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "探头",
+          "软件"
+        ],
+        "original_type": "学术进展",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "mapped_from_original_type",
+        "source_file": "09/SpinFront_2026-09-19.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "FOSY二维选择性实验补齐Tau局部主链归属；arXiv预印本以频率选择性极化转移构建二维FOSY实验，沿主链双向行走并保留高维关联信息。方法针对无序蛋白峰重叠、酰胺—水快速交换和连续关联缺失，不要求先完成全蛋白归属；在人Tau的G302–K311片段验证了局部补缺路线。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "FOSY二维选择性实验补齐Tau局部主链归属；arXiv预印本以频率选择性极化转移构建二维FOSY实验，沿主链双向行走并保留高维关联信息。方法针对无序蛋白峰重叠、酰胺—水快速交换和连续关联缺失，不要求先完成全蛋白归属；在人Tau的G302–K311片段验证了局部补缺路线。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "polarization_transfer",
+          "dimension": "method_ids",
+          "basis": "FOSY二维选择性实验补齐Tau局部主链归属；arXiv预印本以频率选择性极化转移构建二维FOSY实验，沿主链双向行走并保留高维关联信息。方法针对无序蛋白峰重叠、酰胺—水快速交换和连续关联缺失，不要求先完成全蛋白归属；在人Tau的G302–K311片段验证了局部补缺路线。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "FOSY二维选择性实验补齐Tau局部主链归属；arXiv预印本以频率选择性极化转移构建二维FOSY实验，沿主链双向行走并保留高维关联信息。方法针对无序蛋白峰重叠、酰胺—水快速交换和连续关联缺失，不要求先完成全蛋白归属；在人Tau的G302–K311片段验证了局部补缺路线。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "FOSY二维选择性实验补齐Tau局部主链归属",
+        "original_summary_cn": "arXiv预印本以频率选择性极化转移构建二维FOSY实验，沿主链双向行走并保留高维关联信息。方法针对无序蛋白峰重叠、酰胺—水快速交换和连续关联缺失，不要求先完成全蛋白归属；在人Tau的G302–K311片段验证了局部补缺路线。",
+        "original_meaning_cn": "应用于IDP/IDR应确认¹³C/¹⁵N标记、构建体、pH和温度，选择可辨认锚点并记录选择性脉冲频率、带宽及转移延迟。双向行走须相互验证；缺峰应结合交换与灵敏度解释，不能直接判定链段断连。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260919-02",
+      "report_date": "2026-09-19",
+      "item_no": 2,
+      "title_cn": "中国石油大学（北京）招标600 MHz固液NMR系统",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "procurement"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "tender",
+      "summary_cn": "项目XHTC-HW-2026-0272预算及最高限价为2000万元，采购名称包括600 MHz多核超屏蔽固体NMR、液体NMR及动力辅助系统。公告列示不接受进口产品，获取文件截止9月23日，10月9日开标；数量与完整配置须以正式采购文件确认。",
+      "meaning_cn": "方案需分别核对固体MAS、多核RF与温控，以及液体分辨率、梯度和自动化需求，同时审查场地、减振及动力辅助系统。转载表格存在重复行，勿据此推定设备数量；具体验收指标以招标文件第五章为准。",
+      "publication_date": "2026-09-16",
+      "time_scope": "7d_extension",
+      "source": "中国石油大学（北京）公告〔仪器信息网转载核验〕",
+      "url": "https://www.instrument.com.cn/event/bid/t161313.html",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-19",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-19.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "溶液NMR",
+          "多核NMR",
+          "仪器",
+          "采购",
+          "材料",
+          "磁体",
+          "探头",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "仪器采购",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-19.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "中国石油大学（北京）招标600 MHz固液NMR系统；项目XHTC-HW-2026-0272预算及最高限价为2000万元，采购名称包括600 MHz多核超屏蔽固体NMR、液体NMR及动力辅助系统。公告列示不接受进口产品，获取文件截止9月23日，10月9日开标；数量与完整配置须以正式采购文件确认。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "procurement",
+          "dimension": "application_ids",
+          "basis": "中国石油大学（北京）招标600 MHz固液NMR系统；项目XHTC-HW-2026-0272预算及最高限价为2000万元，采购名称包括600 MHz多核超屏蔽固体NMR、液体NMR及动力辅助系统。公告列示不接受进口产品，获取文件截止9月23日，10月9日开标；数量与完整配置须以正式采购文件确认。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "中国石油大学（北京）招标600 MHz固液NMR系统",
+        "original_summary_cn": "项目XHTC-HW-2026-0272预算及最高限价为2000万元，采购名称包括600 MHz多核超屏蔽固体NMR、液体NMR及动力辅助系统。公告列示不接受进口产品，获取文件截止9月23日，10月9日开标；数量与完整配置须以正式采购文件确认。",
+        "original_meaning_cn": "方案需分别核对固体MAS、多核RF与温控，以及液体分辨率、梯度和自动化需求，同时审查场地、减振及动力辅助系统。转载表格存在重复行，勿据此推定设备数量；具体验收指标以招标文件第五章为准。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "溶液NMR",
+          "多核NMR",
+          "仪器",
+          "采购",
+          "材料",
+          "磁体",
+          "探头",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260919-03",
+      "report_date": "2026-09-19",
+      "item_no": 3,
+      "title_cn": "非平稳短FID处理比较：频谱、时频图与直接拟合",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "spectral_processing"
+      ],
+      "application_ids": [],
+      "instrument_component_ids": [
+        "software"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Magnetic Resonance用模拟FID比较FFT、短时傅里叶、小波及直接时域非线性拟合。长时高信噪比稳态信号适合FFT；时频方法可追踪动态但牺牲分辨率；短而简单的FID可由时域拟合提取参数，却依赖组分数、初值和收敛性。",
+      "meaning_cn": "反应或瞬态谱处理应保留原始FID、采样间隔和截断长度，用已知参数模拟信号检查偏差。零填充仅改善插值，不能恢复真实分辨率；拟合需报告残差、初值敏感性与置信区间，区分模拟验证和真实样品性能。",
+      "publication_date": "2026-09-14",
+      "time_scope": "7d_extension",
+      "source": "Magnetic Resonance",
+      "url": "https://mr.copernicus.org/articles/7/125/2026/",
+      "doi": "10.5194/mr-7-125-2026",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-19",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-19.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "计算NMR",
+          "仪器",
+          "过程分析",
+          "软件"
+        ],
+        "original_type": "学术进展",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "mapped_from_original_type",
+        "source_file": "09/SpinFront_2026-09-19.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "非平稳短FID处理比较：频谱、时频图与直接拟合；Magnetic Resonance用模拟FID比较FFT、短时傅里叶、小波及直接时域非线性拟合。长时高信噪比稳态信号适合FFT；时频方法可追踪动态但牺牲分辨率；短而简单的FID可由时域拟合提取参数，却依赖组分数、初值和收敛性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spectral_processing",
+          "dimension": "method_ids",
+          "basis": "非平稳短FID处理比较：频谱、时频图与直接拟合；Magnetic Resonance用模拟FID比较FFT、短时傅里叶、小波及直接时域非线性拟合。长时高信噪比稳态信号适合FFT；时频方法可追踪动态但牺牲分辨率；短而简单的FID可由时域拟合提取参数，却依赖组分数、初值和收敛性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "software",
+          "dimension": "instrument_component_ids",
+          "basis": "非平稳短FID处理比较：频谱、时频图与直接拟合；Magnetic Resonance用模拟FID比较FFT、短时傅里叶、小波及直接时域非线性拟合。长时高信噪比稳态信号适合FFT；时频方法可追踪动态但牺牲分辨率；短而简单的FID可由时域拟合提取参数，却依赖组分数、初值和收敛性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "非平稳短FID处理比较：频谱、时频图与直接拟合",
+        "original_summary_cn": "Magnetic Resonance用模拟FID比较FFT、短时傅里叶、小波及直接时域非线性拟合。长时高信噪比稳态信号适合FFT；时频方法可追踪动态但牺牲分辨率；短而简单的FID可由时域拟合提取参数，却依赖组分数、初值和收敛性。",
+        "original_meaning_cn": "反应或瞬态谱处理应保留原始FID、采样间隔和截断长度，用已知参数模拟信号检查偏差。零填充仅改善插值，不能恢复真实分辨率；拟合需报告残差、初值敏感性与置信区间，区分模拟验证和真实样品性能。",
+        "original_tags": [
+          "NMR",
+          "计算NMR",
+          "仪器",
+          "过程分析",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260919-04",
+      "report_date": "2026-09-19",
+      "item_no": 4,
+      "title_cn": "国仪量子预告SCM：Q波段脉冲EPR与谱图辅助分析",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "deer_peldor"
+      ],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "CIQTEK于9月17日预告参加9月20—24日帕多瓦SCM会议，重点介绍Q波段脉冲EPR。厂商称固态功放可实现小于10 ns的π/2脉冲，并展示超精细、DEER及专用谱图辅助分析；这些是技术展示声明，不等于独立性能认证或新品首发。",
+      "meaning_cn": "评估时应在实际装样谐振器上测B₁、激发带宽、振铃与死时间，再以盲样验证DEER距离分布和背景处理。自动分析需输出原始谱、拟合残差、模型版本及不确定度；不能仅用空载脉冲宽度判断样品激发能力。",
+      "publication_date": "2026-09-17",
+      "time_scope": "7d_extension",
+      "source": "CIQTEK / 国仪量子",
+      "url": "https://www.ciqtekglobal.com/ciqtek-to-present-at-spin-chemistry-meeting-scm-2026_n364",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-19",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-19.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "DEER/PELDOR",
+          "仪器",
+          "教育培训",
+          "谐振器",
+          "软件"
+        ],
+        "original_type": "技术活动",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-19.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "国仪量子预告SCM：Q波段脉冲EPR与谱图辅助分析；CIQTEK于9月17日预告参加9月20—24日帕多瓦SCM会议，重点介绍Q波段脉冲EPR。厂商称固态功放可实现小于10 ns的π/2脉冲，并展示超精细、DEER及专用谱图辅助分析；这些是技术展示声明，不等于独立性能认证或新品首发。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "国仪量子预告SCM：Q波段脉冲EPR与谱图辅助分析；CIQTEK于9月17日预告参加9月20—24日帕多瓦SCM会议，重点介绍Q波段脉冲EPR。厂商称固态功放可实现小于10 ns的π/2脉冲，并展示超精细、DEER及专用谱图辅助分析；这些是技术展示声明，不等于独立性能认证或新品首发。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "deer_peldor",
+          "dimension": "method_ids",
+          "basis": "国仪量子预告SCM：Q波段脉冲EPR与谱图辅助分析；CIQTEK于9月17日预告参加9月20—24日帕多瓦SCM会议，重点介绍Q波段脉冲EPR。厂商称固态功放可实现小于10 ns的π/2脉冲，并展示超精细、DEER及专用谱图辅助分析；这些是技术展示声明，不等于独立性能认证或新品首发。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "国仪量子预告SCM：Q波段脉冲EPR与谱图辅助分析；CIQTEK于9月17日预告参加9月20—24日帕多瓦SCM会议，重点介绍Q波段脉冲EPR。厂商称固态功放可实现小于10 ns的π/2脉冲，并展示超精细、DEER及专用谱图辅助分析；这些是技术展示声明，不等于独立性能认证或新品首发。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "国仪量子预告SCM：Q波段脉冲EPR与谱图辅助分析",
+        "original_summary_cn": "CIQTEK于9月17日预告参加9月20—24日帕多瓦SCM会议，重点介绍Q波段脉冲EPR。厂商称固态功放可实现小于10 ns的π/2脉冲，并展示超精细、DEER及专用谱图辅助分析；这些是技术展示声明，不等于独立性能认证或新品首发。",
+        "original_meaning_cn": "评估时应在实际装样谐振器上测B₁、激发带宽、振铃与死时间，再以盲样验证DEER距离分布和背景处理。自动分析需输出原始谱、拟合残差、模型版本及不确定度；不能仅用空载脉冲宽度判断样品激发能力。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "DEER/PELDOR",
+          "仪器",
+          "教育培训",
+          "谐振器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260919-05",
+      "report_date": "2026-09-19",
+      "item_no": 5,
+      "title_cn": "离子阱量子计算重建21自旋液体¹H NMR谱",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "arXiv预印本在Quantinuum H2离子阱系统上模拟二叔丁基二膦的液体质子NMR，利用自旋哈密顿量约化、Trotter实时演化和定制误差抑制处理21自旋有效体系。重建谱呈现此前硬件未捕获的特征，并与经典计算比较；尚不能据此宣称量子加速。",
+      "meaning_cn": "研发比较应固定实验化学位移、J耦合网络和参照，记录约化规则、Trotter步长、最长演化时间与采样间隔。除峰位外应比较裂分、线宽和积分，并分别报告硬件噪声、误差抑制和有限采样对谱形的贡献。",
+      "publication_date": "2026-09-16",
+      "time_scope": "7d_extension",
+      "source": "arXiv〔预印本；9月15日提交，9月16日公告〕",
+      "url": "https://arxiv.org/abs/2609.17102",
+      "doi": "10.48550/arxiv.2609.17102",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-19",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-19.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "计算NMR",
+          "化学结构",
+          "仪器",
+          "软件"
+        ],
+        "original_type": "学术进展",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "mapped_from_original_type",
+        "source_file": "09/SpinFront_2026-09-19.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "离子阱量子计算重建21自旋液体¹H NMR谱；arXiv预印本在Quantinuum H2离子阱系统上模拟二叔丁基二膦的液体质子NMR，利用自旋哈密顿量约化、Trotter实时演化和定制误差抑制处理21自旋有效体系。重建谱呈现此前硬件未捕获的特征，并与经典计算比较；尚不能据此宣称量子加速。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "computation_nmr",
+          "dimension": "method_ids",
+          "basis": "离子阱量子计算重建21自旋液体¹H NMR谱；arXiv预印本在Quantinuum H2离子阱系统上模拟二叔丁基二膦的液体质子NMR，利用自旋哈密顿量约化、Trotter实时演化和定制误差抑制处理21自旋有效体系。重建谱呈现此前硬件未捕获的特征，并与经典计算比较；尚不能据此宣称量子加速。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "离子阱量子计算重建21自旋液体¹H NMR谱；arXiv预印本在Quantinuum H2离子阱系统上模拟二叔丁基二膦的液体质子NMR，利用自旋哈密顿量约化、Trotter实时演化和定制误差抑制处理21自旋有效体系。重建谱呈现此前硬件未捕获的特征，并与经典计算比较；尚不能据此宣称量子加速。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "离子阱量子计算重建21自旋液体¹H NMR谱",
+        "original_summary_cn": "arXiv预印本在Quantinuum H2离子阱系统上模拟二叔丁基二膦的液体质子NMR，利用自旋哈密顿量约化、Trotter实时演化和定制误差抑制处理21自旋有效体系。重建谱呈现此前硬件未捕获的特征，并与经典计算比较；尚不能据此宣称量子加速。",
+        "original_meaning_cn": "研发比较应固定实验化学位移、J耦合网络和参照，记录约化规则、Trotter步长、最长演化时间与采样间隔。除峰位外应比较裂分、线宽和积分，并分别报告硬件噪声、误差抑制和有限采样对谱形的贡献。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "计算NMR",
+          "化学结构",
+          "仪器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260919-06",
+      "report_date": "2026-09-19",
+      "item_no": 6,
+      "title_cn": "溶液NMR识别J-domain蛋白的结构脆弱位点",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Communications Biology以NMR等实验研究J-domain蛋白的保守酪氨酸基序，显示核心之外的替换也可扰乱DNAJA1/DNAJB1折叠。结构脆弱性与蛋白丰度或Hsp70功能变化相关，提示局部调控位点的重要性；当前页面为已接受论文版本，详细采集条件仍应查原文。",
+      "meaning_cn": "比较野生型与突变体需统一标记、浓度、缓冲液、pH和温度，以二维谱峰分散、强度及归属检查折叠变化，并排除聚集与交换展宽。结构数据应配对功能实验；突变体结果不能自动等同于真实磷酸化效应。",
+      "publication_date": "2026-09-17",
+      "time_scope": "7d_extension",
+      "source": "Communications Biology〔已接受论文〕",
+      "url": "https://www.nature.com/articles/s42003-026-10947-w",
+      "doi": "10.1038/s42003-026-10947-w",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-19",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-19.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "探头",
+          "软件"
+        ],
+        "original_type": "学术进展",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "mapped_from_original_type",
+        "source_file": "09/SpinFront_2026-09-19.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "溶液NMR识别J-domain蛋白的结构脆弱位点；Communications Biology以NMR等实验研究J-domain蛋白的保守酪氨酸基序，显示核心之外的替换也可扰乱DNAJA1/DNAJB1折叠。结构脆弱性与蛋白丰度或Hsp70功能变化相关，提示局部调控位点的重要性；当前页面为已接受论文版本，详细采集条件仍应查原文。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "溶液NMR识别J-domain蛋白的结构脆弱位点；Communications Biology以NMR等实验研究J-domain蛋白的保守酪氨酸基序，显示核心之外的替换也可扰乱DNAJA1/DNAJB1折叠。结构脆弱性与蛋白丰度或Hsp70功能变化相关，提示局部调控位点的重要性；当前页面为已接受论文版本，详细采集条件仍应查原文。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "溶液NMR识别J-domain蛋白的结构脆弱位点；Communications Biology以NMR等实验研究J-domain蛋白的保守酪氨酸基序，显示核心之外的替换也可扰乱DNAJA1/DNAJB1折叠。结构脆弱性与蛋白丰度或Hsp70功能变化相关，提示局部调控位点的重要性；当前页面为已接受论文版本，详细采集条件仍应查原文。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "溶液NMR识别J-domain蛋白的结构脆弱位点",
+        "original_summary_cn": "Communications Biology以NMR等实验研究J-domain蛋白的保守酪氨酸基序，显示核心之外的替换也可扰乱DNAJA1/DNAJB1折叠。结构脆弱性与蛋白丰度或Hsp70功能变化相关，提示局部调控位点的重要性；当前页面为已接受论文版本，详细采集条件仍应查原文。",
+        "original_meaning_cn": "比较野生型与突变体需统一标记、浓度、缓冲液、pH和温度，以二维谱峰分散、强度及归属检查折叠变化，并排除聚集与交换展宽。结构数据应配对功能实验；突变体结果不能自动等同于真实磷酸化效应。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260919-07",
+      "report_date": "2026-09-19",
+      "item_no": 7,
+      "title_cn": "NV中心ODMR应用说明强调磁纹理与读出校准",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "odmr"
+      ],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "application_note",
+      "summary_cn": "CIQTEK于9月16日发布NV中心ODMR应用汇编，介绍扫描NV对磁性薄膜自旋波相位和缺陷附近传播的观测，并讨论横向磁场改变NV自旋混合、光学对比度及电荷态。此日期对应厂商应用说明，而非汇编中各原始研究重新发表。",
+      "meaning_cn": "磁纹理测量需记录NV深度、扫描高度、偏置场方向、微波频率与功率，以及激光激发和荧光归一化。横向磁场系列须同步标定读出对比度和电荷态变化，避免把传感器响应下降直接解释为样品磁信号消失。",
+      "publication_date": "2026-09-16",
+      "time_scope": "7d_extension",
+      "source": "CIQTEK / 国仪量子〔应用说明〕",
+      "url": "https://www.ciqtekglobal.com/nv-center-odmr-unlocks-new-possibilities-for-2d-materials-and-spin-wave-detection_n363",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-19",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-19.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "缺陷EPR",
+          "材料",
+          "仪器",
+          "磁体",
+          "探头",
+          "原位光照",
+          "软件"
+        ],
+        "original_type": "应用说明",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-19.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "NV中心ODMR应用说明强调磁纹理与读出校准；CIQTEK于9月16日发布NV中心ODMR应用汇编，介绍扫描NV对磁性薄膜自旋波相位和缺陷附近传播的观测，并讨论横向磁场改变NV自旋混合、光学对比度及电荷态。此日期对应厂商应用说明，而非汇编中各原始研究重新发表。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "odmr",
+          "dimension": "method_ids",
+          "basis": "NV中心ODMR应用说明强调磁纹理与读出校准；CIQTEK于9月16日发布NV中心ODMR应用汇编，介绍扫描NV对磁性薄膜自旋波相位和缺陷附近传播的观测，并讨论横向磁场改变NV自旋混合、光学对比度及电荷态。此日期对应厂商应用说明，而非汇编中各原始研究重新发表。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "instrumentation",
+          "dimension": "application_ids",
+          "basis": "NV中心ODMR应用说明强调磁纹理与读出校准；CIQTEK于9月16日发布NV中心ODMR应用汇编，介绍扫描NV对磁性薄膜自旋波相位和缺陷附近传播的观测，并讨论横向磁场改变NV自旋混合、光学对比度及电荷态。此日期对应厂商应用说明，而非汇编中各原始研究重新发表。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "NV中心ODMR应用说明强调磁纹理与读出校准",
+        "original_summary_cn": "CIQTEK于9月16日发布NV中心ODMR应用汇编，介绍扫描NV对磁性薄膜自旋波相位和缺陷附近传播的观测，并讨论横向磁场改变NV自旋混合、光学对比度及电荷态。此日期对应厂商应用说明，而非汇编中各原始研究重新发表。",
+        "original_meaning_cn": "磁纹理测量需记录NV深度、扫描高度、偏置场方向、微波频率与功率，以及激光激发和荧光归一化。横向磁场系列须同步标定读出对比度和电荷态变化，避免把传感器响应下降直接解释为样品磁信号消失。",
+        "original_tags": [
+          "EPR",
+          "缺陷EPR",
+          "材料",
+          "仪器",
+          "磁体",
+          "探头",
+          "原位光照",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260919-08",
+      "report_date": "2026-09-19",
+      "item_no": 8,
+      "title_cn": "gCCE模型拆分光激发三重态的客体与宿主退相干",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "arXiv预印本用广义簇关联展开研究并五苯在对三联苯中的光激发三重态Hahn echo。模型显示零场下少量客体核自旋主导退相干，高场下大量宿主核参与，并讨论零场劈裂对相干的保护作用；这是机理计算，不是已实现更长T₂的实验声明。",
+      "meaning_cn": "脉冲ODMR/EPR对照应分别改变客体与宿主同位素，记录场方向、D/E、超精细张量、光初始化和回波延迟。模拟需检查簇阶数、浴半径及采样收敛；实验应区分三重态寿命、光学读出衰减和真正的自旋退相干。",
+      "publication_date": "2026-09-16",
+      "time_scope": "7d_extension",
+      "source": "arXiv〔预印本；9月15日提交，9月16日公告〕",
+      "url": "https://arxiv.org/abs/2609.16851",
+      "doi": "10.48550/arxiv.2609.16851",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-19",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-19.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "材料",
+          "仪器",
+          "磁体",
+          "原位光照",
+          "软件"
+        ],
+        "original_type": "学术进展",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "mapped_from_original_type",
+        "source_file": "09/SpinFront_2026-09-19.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "gCCE模型拆分光激发三重态的客体与宿主退相干；arXiv预印本用广义簇关联展开研究并五苯在对三联苯中的光激发三重态Hahn echo。模型显示零场下少量客体核自旋主导退相干，高场下大量宿主核参与，并讨论零场劈裂对相干的保护作用；这是机理计算，不是已实现更长T₂的实验声明。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "gCCE模型拆分光激发三重态的客体与宿主退相干；arXiv预印本用广义簇关联展开研究并五苯在对三联苯中的光激发三重态Hahn echo。模型显示零场下少量客体核自旋主导退相干，高场下大量宿主核参与，并讨论零场劈裂对相干的保护作用；这是机理计算，不是已实现更长T₂的实验声明。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "gCCE模型拆分光激发三重态的客体与宿主退相干",
+        "original_summary_cn": "arXiv预印本用广义簇关联展开研究并五苯在对三联苯中的光激发三重态Hahn echo。模型显示零场下少量客体核自旋主导退相干，高场下大量宿主核参与，并讨论零场劈裂对相干的保护作用；这是机理计算，不是已实现更长T₂的实验声明。",
+        "original_meaning_cn": "脉冲ODMR/EPR对照应分别改变客体与宿主同位素，记录场方向、D/E、超精细张量、光初始化和回波延迟。模拟需检查簇阶数、浴半径及采样收敛；实验应区分三重态寿命、光学读出衰减和真正的自旋退相干。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "材料",
+          "仪器",
+          "磁体",
+          "原位光照",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260919-09",
+      "report_date": "2026-09-19",
+      "item_no": 9,
+      "title_cn": "美国NIST资助WVU NMR研究设施现代化",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "procurement"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "funding_facility",
+      "summary_cn": "美国参议员官网9月18日公告，西弗吉尼亚大学获得商务部NIST渠道220万美元，用于BioNano与Chemistry NMR研究设施的分子表征能力现代化，并支持教师及学生研究。公告未列磁场、厂商或设备清单；这是设施资助，而非已发布的仪器招标。",
+      "meaning_cn": "客户交流宜先盘点磁体、探头、控制台和软件生命周期，以灵敏度、分辨率、定量重现性及培训需求确定升级优先级。后续须等待经费明细和正式采购文件；不能据资助总额推定新增高场谱仪或特定品牌配置。",
+      "publication_date": "2026-09-18",
+      "time_scope": "7d_extension",
+      "source": "U.S. Senator Shelley Moore Capito〔官方公告〕",
+      "url": "https://www.capito.senate.gov/news/press-releases/capito-justice-announce-2-million-in-research-funding-for-wvu",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-19",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-19.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "仪器",
+          "教育培训"
+        ],
+        "original_type": "设施资助",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-19.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "美国NIST资助WVU NMR研究设施现代化；美国参议员官网9月18日公告，西弗吉尼亚大学获得商务部NIST渠道220万美元，用于BioNano与Chemistry NMR研究设施的分子表征能力现代化，并支持教师及学生研究。公告未列磁场、厂商或设备清单；这是设施资助，而非已发布的仪器招标。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "procurement",
+          "dimension": "application_ids",
+          "basis": "美国NIST资助WVU NMR研究设施现代化；美国参议员官网9月18日公告，西弗吉尼亚大学获得商务部NIST渠道220万美元，用于BioNano与Chemistry NMR研究设施的分子表征能力现代化，并支持教师及学生研究。公告未列磁场、厂商或设备清单；这是设施资助，而非已发布的仪器招标。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "美国NIST资助WVU NMR研究设施现代化",
+        "original_summary_cn": "美国参议员官网9月18日公告，西弗吉尼亚大学获得商务部NIST渠道220万美元，用于BioNano与Chemistry NMR研究设施的分子表征能力现代化，并支持教师及学生研究。公告未列磁场、厂商或设备清单；这是设施资助，而非已发布的仪器招标。",
+        "original_meaning_cn": "客户交流宜先盘点磁体、探头、控制台和软件生命周期，以灵敏度、分辨率、定量重现性及培训需求确定升级优先级。后续须等待经费明细和正式采购文件；不能据资助总额推定新增高场谱仪或特定品牌配置。",
+        "original_tags": [
+          "NMR",
+          "仪器",
+          "教育培训"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "属相关动态，不代表新增实验方法或采购公告。"
+      ]
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "范围说明：常规检索未确认到可严格归入过去24小时的合格新增，已启动增强搜索；增强阶段不足8条，继续启动第二级深度增强检索，逐日回扫2026年9月12日至18日。覆盖专业期刊、预印本与文献元数据、中外机构及厂商、专业会议和中外采购，并独立检索液体NMR、固体NMR/MAS/DNP、低场与TD-NMR、谱图处理、CW/rapid-scan EPR、脉冲EPR/DEER/ENDOR/ESEEM/HYSCORE、TREPR、operando/EC-EPR及仪器部件。\n\n最终收录9条，均为近7天扩展；未凭日期边界标为24h。以9月12—18日七期正文和可访问JSON核对DOI、规范化URL及标题；未找到独立项目索引，缺期以对话正文补足。本轮排除5条已发内容、3条发布日期无法核验的候选，另剔除超窗、辅助表征、常驻页面及MRI或仪器类型不明信息。部分期刊、数据库和采购平台访问受限，相关列表回扫无法完整核实；不足10条主要源于重复和可核验来源受限，不以低相关内容补足。\n\n待复核标签：FOSY、非平稳FID、trapped-ion NMR simulation、NV中心ODMR与gCCE保留在样品体系及正文中，未创建新的正式ID。",
+    "source_sha256": "1f6bc9ff70567b758e694178e8543d9ac8e5478cfc2914a4320d1fc5bb5a43ad",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

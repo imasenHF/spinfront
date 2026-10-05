@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-01",
+  "scope_note": "本期收录1条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260901-01",
+      "report_date": "2026-09-01",
+      "item_no": 1,
+      "title_cn": "四检测器微型探头实现四样品并行高分辨液体NMR",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "instrument_component_ids": [
+        "probe"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Review of Scientific Instruments报道一款面向宽腔磁体的四检测器并行液体NMR探头。四个传输线检测单元各容纳约5 μL样品，可独立调谐¹H/¹⁹F与¹³C通道，并配置六组片上匀场线圈和独立z梯度；相邻检测器耦合低于−30 dB。",
+      "meaning_cn": "配置评估应核对宽腔磁体空间、四套独立收发通道、50 Ω匹配、梯度放大器及分路采集软件。单检测器以50 mM TSP水溶液单次扫描得到S/N 29、半高宽2.26 Hz；实际筛选还需验证四路灵敏度一致性、串扰和独立匀场重复性。",
+      "publication_date": "2026-08-31",
+      "time_scope": "24h",
+      "source": "Review of Scientific Instruments",
+      "url": "https://pubs.aip.org/aip/rsi/article/97/8/085207/3403302/Probe-with-four-independent-detectors-for-parallel",
+      "doi": "10.1063/5.0326022",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-01",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-01.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "配体观察NMR",
+          "仪器、软件与方法",
+          "配体筛选",
+          "过程分析"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-01.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "四检测器微型探头实现四样品并行高分辨液体NMR；Review of Scientific Instruments报道一款面向宽腔磁体的四检测器并行液体NMR探头。四个传输线检测单元各容纳约5 μL样品，可独立调谐¹H/¹⁹F与¹³C通道，并配置六组片上匀场线圈和独立z梯度；相邻检测器耦合低于−30 dB。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "四检测器微型探头实现四样品并行高分辨液体NMR；Review of Scientific Instruments报道一款面向宽腔磁体的四检测器并行液体NMR探头。四个传输线检测单元各容纳约5 μL样品，可独立调谐¹H/¹⁹F与¹³C通道，并配置六组片上匀场线圈和独立z梯度；相邻检测器耦合低于−30 dB。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "四检测器微型探头实现四样品并行高分辨液体NMR；Review of Scientific Instruments报道一款面向宽腔磁体的四检测器并行液体NMR探头。四个传输线检测单元各容纳约5 μL样品，可独立调谐¹H/¹⁹F与¹³C通道，并配置六组片上匀场线圈和独立z梯度；相邻检测器耦合低于−30 dB。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "instrumentation",
+          "dimension": "application_ids",
+          "basis": "四检测器微型探头实现四样品并行高分辨液体NMR；Review of Scientific Instruments报道一款面向宽腔磁体的四检测器并行液体NMR探头。四个传输线检测单元各容纳约5 μL样品，可独立调谐¹H/¹⁹F与¹³C通道，并配置六组片上匀场线圈和独立z梯度；相邻检测器耦合低于−30 dB。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "probe",
+          "dimension": "instrument_component_ids",
+          "basis": "四检测器微型探头实现四样品并行高分辨液体NMR；Review of Scientific Instruments报道一款面向宽腔磁体的四检测器并行液体NMR探头。四个传输线检测单元各容纳约5 μL样品，可独立调谐¹H/¹⁹F与¹³C通道，并配置六组片上匀场线圈和独立z梯度；相邻检测器耦合低于−30 dB。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "四检测器微型探头实现四样品并行高分辨液体NMR",
+        "original_summary_cn": "Review of Scientific Instruments报道一款面向宽腔磁体的四检测器并行液体NMR探头。四个传输线检测单元各容纳约5 μL样品，可独立调谐¹H/¹⁹F与¹³C通道，并配置六组片上匀场线圈和独立z梯度；相邻检测器耦合低于−30 dB。",
+        "original_meaning_cn": "配置评估应核对宽腔磁体空间、四套独立收发通道、50 Ω匹配、梯度放大器及分路采集软件。单检测器以50 mM TSP水溶液单次扫描得到S/N 29、半高宽2.26 Hz；实际筛选还需验证四路灵敏度一致性、串扰和独立匀场重复性。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "配体观察NMR",
+          "仪器、软件与方法",
+          "配体筛选",
+          "过程分析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "本期收录1条2026年8月31日发布的近24小时高相关信息。已按最近四期已发送内容及恢复后的历史索引检查DOI、规范化URL和标题；其他检索结果属于旧论文重新收录、既有活动重复信息或仅将NMR/EPR作为辅助表征的内容，未予采用。待复核标签：无。",
+    "source_sha256": "1ffc837f1b869a1ca1169c7e259a2efd4fe3f6c6553fd924d3cd061d76e599d0",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

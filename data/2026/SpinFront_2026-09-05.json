@@ -1,0 +1,611 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-05",
+  "scope_note": "本期收录6条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260905-01",
+      "report_date": "2026-09-05",
+      "item_no": 1,
+      "title_cn": "160 kHz超快MAS实现亚毫克膜蛋白的高分辨¹H固体NMR",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "fast_mas"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Phys.org于9月4日报道Chemical Communications研究：0.4 mm转子在160 kHz MAS下，使全质子化七跨膜蛋白SzR1在水合脂质双层中获得窄化的¹H谱线和可用的质子检测相关谱。样品量低于1 mg，显示超快MAS可在接近天然膜环境中处理珍贵膜蛋白样品。",
+      "meaning_cn": "实施时需评估0.4 mm转子的装样均匀性、160 kHz稳定性、摩擦升温和水合度保持，并记录气体压力、实际样品温度与转速波动。建议用同一样品比较100—160 kHz下的线宽、灵敏度和结构完整性；亚毫克样品还应把转子背景及装样损失计入可行性评估。",
+      "publication_date": "2026-09-04",
+      "time_scope": "24h",
+      "source": "Phys.org / Chemical Communications",
+      "url": "https://phys.org/news/2026-09-ultrafast-sample-protein-dizzying-proportions.html",
+      "doi": "10.1039/d6cc03850f",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-05",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-05.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "仪器、软件与方法"
+        ],
+        "original_type": "固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-05.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "160 kHz超快MAS实现亚毫克膜蛋白的高分辨¹H固体NMR；Phys.org于9月4日报道Chemical Communications研究：0.4 mm转子在160 kHz MAS下，使全质子化七跨膜蛋白SzR1在水合脂质双层中获得窄化的¹H谱线和可用的质子检测相关谱。样品量低于1 mg，显示超快MAS可在接近天然膜环境中处理珍贵膜蛋白样品。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "160 kHz超快MAS实现亚毫克膜蛋白的高分辨¹H固体NMR；Phys.org于9月4日报道Chemical Communications研究：0.4 mm转子在160 kHz MAS下，使全质子化七跨膜蛋白SzR1在水合脂质双层中获得窄化的¹H谱线和可用的质子检测相关谱。样品量低于1 mg，显示超快MAS可在接近天然膜环境中处理珍贵膜蛋白样品。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "fast_mas",
+          "dimension": "method_ids",
+          "basis": "160 kHz超快MAS实现亚毫克膜蛋白的高分辨¹H固体NMR；Phys.org于9月4日报道Chemical Communications研究：0.4 mm转子在160 kHz MAS下，使全质子化七跨膜蛋白SzR1在水合脂质双层中获得窄化的¹H谱线和可用的质子检测相关谱。样品量低于1 mg，显示超快MAS可在接近天然膜环境中处理珍贵膜蛋白样品。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "160 kHz超快MAS实现亚毫克膜蛋白的高分辨¹H固体NMR；Phys.org于9月4日报道Chemical Communications研究：0.4 mm转子在160 kHz MAS下，使全质子化七跨膜蛋白SzR1在水合脂质双层中获得窄化的¹H谱线和可用的质子检测相关谱。样品量低于1 mg，显示超快MAS可在接近天然膜环境中处理珍贵膜蛋白样品。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "160 kHz超快MAS实现亚毫克膜蛋白的高分辨¹H固体NMR",
+        "original_summary_cn": "Phys.org于9月4日报道Chemical Communications研究：0.4 mm转子在160 kHz MAS下，使全质子化七跨膜蛋白SzR1在水合脂质双层中获得窄化的¹H谱线和可用的质子检测相关谱。样品量低于1 mg，显示超快MAS可在接近天然膜环境中处理珍贵膜蛋白样品。",
+        "original_meaning_cn": "实施时需评估0.4 mm转子的装样均匀性、160 kHz稳定性、摩擦升温和水合度保持，并记录气体压力、实际样品温度与转速波动。建议用同一样品比较100—160 kHz下的线宽、灵敏度和结构完整性；亚毫克样品还应把转子背景及装样损失计入可行性评估。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "仪器、软件与方法"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260905-02",
+      "report_date": "2026-09-05",
+      "item_no": 2,
+      "title_cn": "二维NMR显示短肽在98%硫酸中形成稳定Ω-loop",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "C&EN于9月4日报道PNAS研究：研究者用二维NMR解析短肽在98% H₂SO₄中的构象，观察到稳定Ω-loop，谱图在两周内基本不变；同一参考肽在水中倾向形成β-sheet/淀粉样纤维。结果说明极低含水量与硫酸分子相互作用可改变肽链折叠和水解行为。",
+      "meaning_cn": "实验需使用可耐浓硫酸的密封样品管与转移材料，严格记录酸浓度、残余水、温度和放置时间。因缺少常规氘代溶剂，应预先设计锁场、化学位移参照和匀场策略；构象判断宜结合多种二维相关谱、时间序列及水相对照，避免把黏度或交换造成的峰形变化误作折叠。",
+      "publication_date": "2026-09-04",
+      "time_scope": "24h",
+      "source": "Chemical & Engineering News / PNAS",
+      "url": "https://cen.acs.org/physical-chemistry/astrochemistry/venus-astrochemistry-peptides-aerosol/104/web/2026/09",
+      "doi": "10.1073/pnas.2618039123",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-05",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-05.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "化学结构解析"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-05.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "二维NMR显示短肽在98%硫酸中形成稳定Ω-loop；C&EN于9月4日报道PNAS研究：研究者用二维NMR解析短肽在98% H₂SO₄中的构象，观察到稳定Ω-loop，谱图在两周内基本不变；同一参考肽在水中倾向形成β-sheet/淀粉样纤维。结果说明极低含水量与硫酸分子相互作用可改变肽链折叠和水解行为。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "二维NMR显示短肽在98%硫酸中形成稳定Ω-loop；C&EN于9月4日报道PNAS研究：研究者用二维NMR解析短肽在98% H₂SO₄中的构象，观察到稳定Ω-loop，谱图在两周内基本不变；同一参考肽在水中倾向形成β-sheet/淀粉样纤维。结果说明极低含水量与硫酸分子相互作用可改变肽链折叠和水解行为。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "二维NMR显示短肽在98%硫酸中形成稳定Ω-loop；C&EN于9月4日报道PNAS研究：研究者用二维NMR解析短肽在98% H₂SO₄中的构象，观察到稳定Ω-loop，谱图在两周内基本不变；同一参考肽在水中倾向形成β-sheet/淀粉样纤维。结果说明极低含水量与硫酸分子相互作用可改变肽链折叠和水解行为。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "二维NMR显示短肽在98%硫酸中形成稳定Ω-loop",
+        "original_summary_cn": "C&EN于9月4日报道PNAS研究：研究者用二维NMR解析短肽在98% H₂SO₄中的构象，观察到稳定Ω-loop，谱图在两周内基本不变；同一参考肽在水中倾向形成β-sheet/淀粉样纤维。结果说明极低含水量与硫酸分子相互作用可改变肽链折叠和水解行为。",
+        "original_meaning_cn": "实验需使用可耐浓硫酸的密封样品管与转移材料，严格记录酸浓度、残余水、温度和放置时间。因缺少常规氘代溶剂，应预先设计锁场、化学位移参照和匀场策略；构象判断宜结合多种二维相关谱、时间序列及水相对照，避免把黏度或交换造成的峰形变化误作折叠。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260905-03",
+      "report_date": "2026-09-05",
+      "item_no": 3,
+      "title_cn": "固体NMR与GIPAW/GIAO比较拉米夫定及三种药物盐的¹³C位移",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "pharma"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "ACS Omega近期上线研究，把粉末/单晶衍射、¹³C固体NMR与计算化学结合，用拉米夫定及三种药物盐检验周期性GIPAW和分子GIAO化学位移计算。研究关注晶体堆积、质子化与局部氢键如何改变实验位移，并比较两类计算路线用于药物固态结构归属的表现。",
+      "meaning_cn": "药物盐鉴定应统一晶型、含水量、热历史和MAS条件，并报告¹³C参照、转速、CP接触时间及弛豫设置。计算模型需明确晶胞优化、泛函、色散修正和参照回归；建议预留未参与校准的峰位做外部检验，并把多晶型或无序造成的峰展宽单独处理。",
+      "publication_date": "2026-09-02",
+      "time_scope": "7d_extension",
+      "source": "ACS Omega",
+      "url": "https://pubs.acs.org/acsodf/article/doi/10.1021/acsomega.6c03134/5405592/Combining-X-ray-Diffraction-Solid-State-NMR-and",
+      "doi": "10.1021/acsomega.6c03134",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-05",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-05.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "计算NMR",
+          "药物与质量分析",
+          "化学结构解析",
+          "材料与缺陷表征"
+        ],
+        "original_type": "固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-05.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "固体NMR与GIPAW/GIAO比较拉米夫定及三种药物盐的¹³C位移；ACS Omega近期上线研究，把粉末/单晶衍射、¹³C固体NMR与计算化学结合，用拉米夫定及三种药物盐检验周期性GIPAW和分子GIAO化学位移计算。研究关注晶体堆积、质子化与局部氢键如何改变实验位移，并比较两类计算路线用于药物固态结构归属的表现。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "固体NMR与GIPAW/GIAO比较拉米夫定及三种药物盐的¹³C位移；ACS Omega近期上线研究，把粉末/单晶衍射、¹³C固体NMR与计算化学结合，用拉米夫定及三种药物盐检验周期性GIPAW和分子GIAO化学位移计算。研究关注晶体堆积、质子化与局部氢键如何改变实验位移，并比较两类计算路线用于药物固态结构归属的表现。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "computation_nmr",
+          "dimension": "method_ids",
+          "basis": "固体NMR与GIPAW/GIAO比较拉米夫定及三种药物盐的¹³C位移；ACS Omega近期上线研究，把粉末/单晶衍射、¹³C固体NMR与计算化学结合，用拉米夫定及三种药物盐检验周期性GIPAW和分子GIAO化学位移计算。研究关注晶体堆积、质子化与局部氢键如何改变实验位移，并比较两类计算路线用于药物固态结构归属的表现。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pharma",
+          "dimension": "application_ids",
+          "basis": "固体NMR与GIPAW/GIAO比较拉米夫定及三种药物盐的¹³C位移；ACS Omega近期上线研究，把粉末/单晶衍射、¹³C固体NMR与计算化学结合，用拉米夫定及三种药物盐检验周期性GIPAW和分子GIAO化学位移计算。研究关注晶体堆积、质子化与局部氢键如何改变实验位移，并比较两类计算路线用于药物固态结构归属的表现。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "固体NMR与GIPAW/GIAO比较拉米夫定及三种药物盐的¹³C位移",
+        "original_summary_cn": "ACS Omega近期上线研究，把粉末/单晶衍射、¹³C固体NMR与计算化学结合，用拉米夫定及三种药物盐检验周期性GIPAW和分子GIAO化学位移计算。研究关注晶体堆积、质子化与局部氢键如何改变实验位移，并比较两类计算路线用于药物固态结构归属的表现。",
+        "original_meaning_cn": "药物盐鉴定应统一晶型、含水量、热历史和MAS条件，并报告¹³C参照、转速、CP接触时间及弛豫设置。计算模型需明确晶胞优化、泛函、色散修正和参照回归；建议预留未参与校准的峰位做外部检验，并把多晶型或无序造成的峰展宽单独处理。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "计算NMR",
+          "药物与质量分析",
+          "化学结构解析",
+          "材料与缺陷表征"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260905-04",
+      "report_date": "2026-09-05",
+      "item_no": 4,
+      "title_cn": "中国地质大学拟采购多场耦合三轴低场NMR系统",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "procurement"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "tender",
+      "summary_cn": "中国地质大学（北京）于9月4日发布多场耦合三轴低场核磁共振仪公开招标，项目预算600万元，计划9月28日开标。设备面向岩土或岩心在三轴应力及流体条件下的低场NMR测试，把孔隙水分布、迁移与孔隙结构变化同力学加载过程配对记录。",
+      "meaning_cn": "响应前应从招标文件逐项确认磁场强度、最短回波时间、岩心直径、三轴压力范围、温压及流体接口、非磁材料和控制同步方式。验收样应覆盖已知孔隙度与含水率岩心，比较加载前后T₂分布、重复性和基线漂移，并检查压力系统对磁场均匀性的影响。",
+      "publication_date": "2026-09-04",
+      "time_scope": "24h",
+      "source": "中国地质大学（北京）采购公告（仪器信息网汇总）",
+      "url": "https://www.instrument.com.cn/event/bid/t160087.html",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-05",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-05.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "时域/低场NMR",
+          "地质与流体",
+          "仪器、软件与方法",
+          "采购与行业"
+        ],
+        "original_type": "时域/低场NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-05.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "中国地质大学拟采购多场耦合三轴低场NMR系统；中国地质大学（北京）于9月4日发布多场耦合三轴低场核磁共振仪公开招标，项目预算600万元，计划9月28日开标。设备面向岩土或岩心在三轴应力及流体条件下的低场NMR测试，把孔隙水分布、迁移与孔隙结构变化同力学加载过程配对记录。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "procurement",
+          "dimension": "application_ids",
+          "basis": "中国地质大学拟采购多场耦合三轴低场NMR系统；中国地质大学（北京）于9月4日发布多场耦合三轴低场核磁共振仪公开招标，项目预算600万元，计划9月28日开标。设备面向岩土或岩心在三轴应力及流体条件下的低场NMR测试，把孔隙水分布、迁移与孔隙结构变化同力学加载过程配对记录。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "中国地质大学拟采购多场耦合三轴低场NMR系统",
+        "original_summary_cn": "中国地质大学（北京）于9月4日发布多场耦合三轴低场核磁共振仪公开招标，项目预算600万元，计划9月28日开标。设备面向岩土或岩心在三轴应力及流体条件下的低场NMR测试，把孔隙水分布、迁移与孔隙结构变化同力学加载过程配对记录。",
+        "original_meaning_cn": "响应前应从招标文件逐项确认磁场强度、最短回波时间、岩心直径、三轴压力范围、温压及流体接口、非磁材料和控制同步方式。验收样应覆盖已知孔隙度与含水率岩心，比较加载前后T₂分布、重复性和基线漂移，并检查压力系统对磁场均匀性的影响。",
+        "original_tags": [
+          "NMR",
+          "时域/低场NMR",
+          "地质与流体",
+          "仪器、软件与方法",
+          "采购与行业"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260905-05",
+      "report_date": "2026-09-05",
+      "item_no": 5,
+      "title_cn": "美国空军为三台Bruker NMR征集三年维护服务",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "procurement"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "美国空军研究实验室发布RFQ FA930026Q6001，为两台Bruker Avance III DFAS和一台Avance Neo采购维护服务。需求包括年度预防性维护、故障维修、OEM或等效备件、软件系列更新和电话诊断；基础服务期一年，并设置两个可选年度。",
+      "meaning_cn": "服务响应需按三台设备序列号列出覆盖范围，区分磁体、控制台、探头、梯度及软件责任边界，并说明远程诊断和现场到达时限。年度验收可用标准样比较线宽、S/N、脉冲功率、温控与梯度重复性；更换等效部件时应保留兼容性和性能验证记录。",
+      "publication_date": "2026-09-03",
+      "time_scope": "24h",
+      "source": "SAM.gov",
+      "url": "https://sam.gov/opp/3d0e2be823074fb4a2aa80dab5fbc15c/view",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-05",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-05.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "固体NMR",
+          "仪器、软件与方法",
+          "采购与行业"
+        ],
+        "original_type": "溶液NMR / 固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-05.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "美国空军为三台Bruker NMR征集三年维护服务；美国空军研究实验室发布RFQ FA930026Q6001，为两台Bruker Avance III DFAS和一台Avance Neo采购维护服务。需求包括年度预防性维护、故障维修、OEM或等效备件、软件系列更新和电话诊断；基础服务期一年，并设置两个可选年度。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "procurement",
+          "dimension": "application_ids",
+          "basis": "美国空军为三台Bruker NMR征集三年维护服务；美国空军研究实验室发布RFQ FA930026Q6001，为两台Bruker Avance III DFAS和一台Avance Neo采购维护服务。需求包括年度预防性维护、故障维修、OEM或等效备件、软件系列更新和电话诊断；基础服务期一年，并设置两个可选年度。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "美国空军为三台Bruker NMR征集三年维护服务",
+        "original_summary_cn": "美国空军研究实验室发布RFQ FA930026Q6001，为两台Bruker Avance III DFAS和一台Avance Neo采购维护服务。需求包括年度预防性维护、故障维修、OEM或等效备件、软件系列更新和电话诊断；基础服务期一年，并设置两个可选年度。",
+        "original_meaning_cn": "服务响应需按三台设备序列号列出覆盖范围，区分磁体、控制台、探头、梯度及软件责任边界，并说明远程诊断和现场到达时限。年度验收可用标准样比较线宽、S/N、脉冲功率、温控与梯度重复性；更换等效部件时应保留兼容性和性能验证记录。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "固体NMR",
+          "仪器、软件与方法",
+          "采购与行业"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260905-06",
+      "report_date": "2026-09-05",
+      "item_no": 6,
+      "title_cn": "上海大学拟采购四台教学用核磁共振实验仪",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "procurement"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "tender",
+      "summary_cn": "上海大学采购意向列出4台核磁共振实验仪，用于教学中的射频幅度、相位和多回波实验。公开参数包括RF幅度0—10 V连续可调、分辨率不低于0.01 V，回波数量大于15，相移器连续调节范围大于120°，主机配备不小于5英寸彩色显示屏。",
+      "meaning_cn": "这类设备属于教学脉冲NMR平台，不能直接按分析型波谱仪评价。验收应逐台检查RF幅度线性、相位连续性、回波数量、显示与数据导出，并用统一标准样测试共振频率、T₁/T₂重复性及日间漂移；四台并行教学还需统一校准流程和实验指导参数。",
+      "publication_date": "2026-09-03",
+      "time_scope": "24h",
+      "source": "上海大学采购意向（仪器信息网汇总）",
+      "url": "https://www.instrument.com.cn/event/bid/t159945.html",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-05",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-05.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "时域/低场NMR",
+          "培训与会议",
+          "仪器、软件与方法",
+          "采购与行业"
+        ],
+        "original_type": "时域/低场NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-05.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "上海大学拟采购四台教学用核磁共振实验仪；上海大学采购意向列出4台核磁共振实验仪，用于教学中的射频幅度、相位和多回波实验。公开参数包括RF幅度0—10 V连续可调、分辨率不低于0.01 V，回波数量大于15，相移器连续调节范围大于120°，主机配备不小于5英寸彩色显示屏。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "procurement",
+          "dimension": "application_ids",
+          "basis": "上海大学拟采购四台教学用核磁共振实验仪；上海大学采购意向列出4台核磁共振实验仪，用于教学中的射频幅度、相位和多回波实验。公开参数包括RF幅度0—10 V连续可调、分辨率不低于0.01 V，回波数量大于15，相移器连续调节范围大于120°，主机配备不小于5英寸彩色显示屏。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "上海大学拟采购四台教学用核磁共振实验仪",
+        "original_summary_cn": "上海大学采购意向列出4台核磁共振实验仪，用于教学中的射频幅度、相位和多回波实验。公开参数包括RF幅度0—10 V连续可调、分辨率不低于0.01 V，回波数量大于15，相移器连续调节范围大于120°，主机配备不小于5英寸彩色显示屏。",
+        "original_meaning_cn": "这类设备属于教学脉冲NMR平台，不能直接按分析型波谱仪评价。验收应逐台检查RF幅度线性、相位连续性、回波数量、显示与数据导出，并用统一标准样测试共振频率、T₁/T₂重复性及日间漂移；四台并行教学还需统一校准流程和实验指导参数。",
+        "original_tags": [
+          "NMR",
+          "时域/低场NMR",
+          "培训与会议",
+          "仪器、软件与方法",
+          "采购与行业"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "常规检索在过去24小时内得到的合格新增少于5条，已启动增强搜索，分别核验专业期刊与论文、预印本及机构、仪器与软件、会议培训、中外采购与政策来源，并轮换使用MAS、fast MAS、低场NMR、固体NMR、探头、谐振器及谱图处理等方法词。本期最终收录6条：5条为2026年9月4日发布或进入近24小时窗口的信息，1条为9月2日的近7天扩展。已结合最近7期正文与项目索引检查DOI、规范化URL和标题，排除6条既有记录，并排除医学MRI、仅更新刊期及仅把NMR/EPR作为辅助表征的内容。增强搜索后仍不足10条，主要因为周五新增有限且多个检索结果缺少可核验的实际发布日期。待复核标签：160 kHz超快MAS和浓硫酸中的Ω-loop肽构象暂保留在样品体系与正文中，未创建新的正式ID。",
+    "source_sha256": "f606241351396e610955f13a80d4b9eb291a2b8c13fe5fe81e291b35302bee16",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

@@ -1,0 +1,545 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-06",
+  "scope_note": "本期收录5条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260906-01",
+      "report_date": "2026-09-06",
+      "item_no": 1,
+      "title_cn": "频率扫描脉冲DNP增强Mn²⁺/Gd³⁺掺杂无机固体的核极化",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "dnp"
+      ],
+      "application_ids": [
+        "battery"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "The Journal of Physical Chemistry Letters报道内源金属离子相干脉冲DNP实验。研究在94 GHz W波段对Mn²⁺和Gd³⁺掺杂Li₄Ti₅O₁₂施加chirped microwave pulses；integrated solid effect较单频solid effect的DNP效率最高增加约一个数量级，并在宽EPR谱体系中优于adiabatic solid effect。",
+      "meaning_cn": "复现实验需记录金属掺杂浓度、EPR线宽、温度、MAS转速、微波扫频范围、脉冲长度、B₁及重复时间。宽谱体系应分别比较ISE、ASE和单频SE的增强倍数、build-up时间与场偏置容差，并核对W波段放大器带宽、谐振器传递函数及高自旋卫星跃迁的选择性激发。",
+      "publication_date": "2026-09-04",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Physical Chemistry Letters",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.jpclett.6c02353",
+      "doi": "10.1021/acs.jpclett.6c02353",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-06",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-06.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR + EPR",
+          "固体NMR",
+          "脉冲EPR",
+          "材料与缺陷表征",
+          "仪器、软件与方法",
+          "电化学与能源"
+        ],
+        "original_type": "固体NMR / 脉冲EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-06.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "频率扫描脉冲DNP增强Mn²⁺/Gd³⁺掺杂无机固体的核极化；The Journal of Physical Chemistry Letters报道内源金属离子相干脉冲DNP实验。研究在94 GHz W波段对Mn²⁺和Gd³⁺掺杂Li₄Ti₅O₁₂施加chirped microwave pulses；integrated solid effect较单频solid effect的DNP效率最高增加约一个数量级，并在宽EPR谱体系中优于adiabatic solid effect。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "频率扫描脉冲DNP增强Mn²⁺/Gd³⁺掺杂无机固体的核极化；The Journal of Physical Chemistry Letters报道内源金属离子相干脉冲DNP实验。研究在94 GHz W波段对Mn²⁺和Gd³⁺掺杂Li₄Ti₅O₁₂施加chirped microwave pulses；integrated solid effect较单频solid effect的DNP效率最高增加约一个数量级，并在宽EPR谱体系中优于adiabatic solid effect。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "dnp",
+          "dimension": "method_ids",
+          "basis": "频率扫描脉冲DNP增强Mn²⁺/Gd³⁺掺杂无机固体的核极化；The Journal of Physical Chemistry Letters报道内源金属离子相干脉冲DNP实验。研究在94 GHz W波段对Mn²⁺和Gd³⁺掺杂Li₄Ti₅O₁₂施加chirped microwave pulses；integrated solid effect较单频solid effect的DNP效率最高增加约一个数量级，并在宽EPR谱体系中优于adiabatic solid effect。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "battery",
+          "dimension": "application_ids",
+          "basis": "频率扫描脉冲DNP增强Mn²⁺/Gd³⁺掺杂无机固体的核极化；The Journal of Physical Chemistry Letters报道内源金属离子相干脉冲DNP实验。研究在94 GHz W波段对Mn²⁺和Gd³⁺掺杂Li₄Ti₅O₁₂施加chirped microwave pulses；integrated solid effect较单频solid effect的DNP效率最高增加约一个数量级，并在宽EPR谱体系中优于adiabatic solid effect。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "频率扫描脉冲DNP增强Mn²⁺/Gd³⁺掺杂无机固体的核极化",
+        "original_summary_cn": "The Journal of Physical Chemistry Letters报道内源金属离子相干脉冲DNP实验。研究在94 GHz W波段对Mn²⁺和Gd³⁺掺杂Li₄Ti₅O₁₂施加chirped microwave pulses；integrated solid effect较单频solid effect的DNP效率最高增加约一个数量级，并在宽EPR谱体系中优于adiabatic solid effect。",
+        "original_meaning_cn": "复现实验需记录金属掺杂浓度、EPR线宽、温度、MAS转速、微波扫频范围、脉冲长度、B₁及重复时间。宽谱体系应分别比较ISE、ASE和单频SE的增强倍数、build-up时间与场偏置容差，并核对W波段放大器带宽、谐振器传递函数及高自旋卫星跃迁的选择性激发。",
+        "original_tags": [
+          "NMR + EPR",
+          "固体NMR",
+          "脉冲EPR",
+          "材料与缺陷表征",
+          "仪器、软件与方法",
+          "电化学与能源"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260906-02",
+      "report_date": "2026-09-06",
+      "item_no": 2,
+      "title_cn": "¹H检测¹⁷O/¹⁴N固体NMR解析茶碱共晶氢键网络",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr",
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Physical Chemistry Chemical Physics发表以¹H检测¹⁷O和¹⁴N固体NMR解析茶碱共晶的研究。方法利用质子检测获得低灵敏度四极核附近的局部关联，并结合¹⁷O同位素交换与计算化学位移，区分共晶中羰基氧、含氮位点和质子供受体构成的不同氢键连接方式。",
+      "meaning_cn": "实验需明确¹⁷O富集或交换条件、磁场强度、MAS转速、¹H去耦及异核相关脉冲参数；四极核谱宽和射频带宽必须覆盖目标跃迁。结构比较应保留未富集样品、单组分晶体和不同水合状态对照，并联合DFT/GIPAW计算检查峰归属及氢键几何。",
+      "publication_date": "2026-09-04",
+      "time_scope": "7d_extension",
+      "source": "Physical Chemistry Chemical Physics",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2026/cp/d6cp02064j",
+      "doi": "10.1039/d6cp02064j",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-06",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-06.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "多维NMR",
+          "计算NMR",
+          "药物与质量分析",
+          "化学结构解析",
+          "材料与缺陷表征"
+        ],
+        "original_type": "固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-06.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "¹H检测¹⁷O/¹⁴N固体NMR解析茶碱共晶氢键网络；Physical Chemistry Chemical Physics发表以¹H检测¹⁷O和¹⁴N固体NMR解析茶碱共晶的研究。方法利用质子检测获得低灵敏度四极核附近的局部关联，并结合¹⁷O同位素交换与计算化学位移，区分共晶中羰基氧、含氮位点和质子供受体构成的不同氢键连接方式。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "¹H检测¹⁷O/¹⁴N固体NMR解析茶碱共晶氢键网络；Physical Chemistry Chemical Physics发表以¹H检测¹⁷O和¹⁴N固体NMR解析茶碱共晶的研究。方法利用质子检测获得低灵敏度四极核附近的局部关联，并结合¹⁷O同位素交换与计算化学位移，区分共晶中羰基氧、含氮位点和质子供受体构成的不同氢键连接方式。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "¹H检测¹⁷O/¹⁴N固体NMR解析茶碱共晶氢键网络；Physical Chemistry Chemical Physics发表以¹H检测¹⁷O和¹⁴N固体NMR解析茶碱共晶的研究。方法利用质子检测获得低灵敏度四极核附近的局部关联，并结合¹⁷O同位素交换与计算化学位移，区分共晶中羰基氧、含氮位点和质子供受体构成的不同氢键连接方式。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "computation_nmr",
+          "dimension": "method_ids",
+          "basis": "¹H检测¹⁷O/¹⁴N固体NMR解析茶碱共晶氢键网络；Physical Chemistry Chemical Physics发表以¹H检测¹⁷O和¹⁴N固体NMR解析茶碱共晶的研究。方法利用质子检测获得低灵敏度四极核附近的局部关联，并结合¹⁷O同位素交换与计算化学位移，区分共晶中羰基氧、含氮位点和质子供受体构成的不同氢键连接方式。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "¹H检测¹⁷O/¹⁴N固体NMR解析茶碱共晶氢键网络；Physical Chemistry Chemical Physics发表以¹H检测¹⁷O和¹⁴N固体NMR解析茶碱共晶的研究。方法利用质子检测获得低灵敏度四极核附近的局部关联，并结合¹⁷O同位素交换与计算化学位移，区分共晶中羰基氧、含氮位点和质子供受体构成的不同氢键连接方式。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "¹H检测¹⁷O/¹⁴N固体NMR解析茶碱共晶氢键网络",
+        "original_summary_cn": "Physical Chemistry Chemical Physics发表以¹H检测¹⁷O和¹⁴N固体NMR解析茶碱共晶的研究。方法利用质子检测获得低灵敏度四极核附近的局部关联，并结合¹⁷O同位素交换与计算化学位移，区分共晶中羰基氧、含氮位点和质子供受体构成的不同氢键连接方式。",
+        "original_meaning_cn": "实验需明确¹⁷O富集或交换条件、磁场强度、MAS转速、¹H去耦及异核相关脉冲参数；四极核谱宽和射频带宽必须覆盖目标跃迁。结构比较应保留未富集样品、单组分晶体和不同水合状态对照，并联合DFT/GIPAW计算检查峰归属及氢键几何。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "多维NMR",
+          "计算NMR",
+          "药物与质量分析",
+          "化学结构解析",
+          "材料与缺陷表征"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260906-03",
+      "report_date": "2026-09-06",
+      "item_no": 3,
+      "title_cn": "单张NMR谱同时估算非对映体分辨主客体体系的多个结合常数",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Organic & Biomolecular Chemistry发表Rapid Single-Spectrum NMR方法，用一张包含可分辨非对映体信号的谱图同时估算主客体体系多个结合常数。该方案以不同复合态峰强或组成约束多平衡模型，减少传统逐点滴定所需样品量和采集时间，适合具有慢交换、峰组可独立积分的超分子体系。",
+      "meaning_cn": "应用前需确认自由态与各复合态在NMR时间尺度上可分辨，并校准浓度、积分线性和纵向弛豫。采集应使用足够长的d₁、避免接收增益饱和；拟合时报告参数相关性、置信区间和质量守恒残差，并用常规多点滴定或独立方法验证至少一个结合常数。",
+      "publication_date": "2026-09-03",
+      "time_scope": "7d_extension",
+      "source": "Organic & Biomolecular Chemistry",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2026/ob/d6ob01071g",
+      "doi": "10.1039/d6ob01071g",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-06",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-06.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "定量NMR",
+          "多维NMR",
+          "化学结构解析",
+          "配体筛选"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-06.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "单张NMR谱同时估算非对映体分辨主客体体系的多个结合常数；Organic & Biomolecular Chemistry发表Rapid Single-Spectrum NMR方法，用一张包含可分辨非对映体信号的谱图同时估算主客体体系多个结合常数。该方案以不同复合态峰强或组成约束多平衡模型，减少传统逐点滴定所需样品量和采集时间，适合具有慢交换、峰组可独立积分的超分子体系。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "单张NMR谱同时估算非对映体分辨主客体体系的多个结合常数；Organic & Biomolecular Chemistry发表Rapid Single-Spectrum NMR方法，用一张包含可分辨非对映体信号的谱图同时估算主客体体系多个结合常数。该方案以不同复合态峰强或组成约束多平衡模型，减少传统逐点滴定所需样品量和采集时间，适合具有慢交换、峰组可独立积分的超分子体系。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "单张NMR谱同时估算非对映体分辨主客体体系的多个结合常数；Organic & Biomolecular Chemistry发表Rapid Single-Spectrum NMR方法，用一张包含可分辨非对映体信号的谱图同时估算主客体体系多个结合常数。该方案以不同复合态峰强或组成约束多平衡模型，减少传统逐点滴定所需样品量和采集时间，适合具有慢交换、峰组可独立积分的超分子体系。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "单张NMR谱同时估算非对映体分辨主客体体系的多个结合常数",
+        "original_summary_cn": "Organic & Biomolecular Chemistry发表Rapid Single-Spectrum NMR方法，用一张包含可分辨非对映体信号的谱图同时估算主客体体系多个结合常数。该方案以不同复合态峰强或组成约束多平衡模型，减少传统逐点滴定所需样品量和采集时间，适合具有慢交换、峰组可独立积分的超分子体系。",
+        "original_meaning_cn": "应用前需确认自由态与各复合态在NMR时间尺度上可分辨，并校准浓度、积分线性和纵向弛豫。采集应使用足够长的d₁、避免接收增益饱和；拟合时报告参数相关性、置信区间和质量守恒残差，并用常规多点滴定或独立方法验证至少一个结合常数。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "定量NMR",
+          "多维NMR",
+          "化学结构解析",
+          "配体筛选"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260906-04",
+      "report_date": "2026-09-06",
+      "item_no": 4,
+      "title_cn": "场依赖THz-EPR分辨Fe(II)自旋交叉材料的晶格依赖电子结构",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Angewandte Chemie报道场依赖频域傅里叶变换THz-EPR，用TIESST在低温俘获Fe(II)自旋交叉配合物的高自旋态。0—9 T、5 K谱图解析基态多重态分裂和自旋—声子耦合，并依据剩余高自旋中心的跃迁位移区分三维畴生长与统计或低维HS/LS排列。",
+      "meaning_cn": "测量需规定冷却速率、退火时间、5 K基准状态、磁场范围及MDS/TDS归一化方式。拟合应联合轴向与菱形零场分裂、自旋—声子耦合项和高自旋分数；仪器评估还需核对THz源功率、频率覆盖、低温磁体光路以及不同辐射源所得跃迁位置的一致性。",
+      "publication_date": "2026-09-02",
+      "time_scope": "7d_extension",
+      "source": "Angewandte Chemie International Edition",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.4674308",
+      "doi": "10.1002/anie.4674308",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-06",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-06.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "材料与缺陷表征",
+          "无机与配位化学",
+          "化学结构解析"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-06.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "场依赖THz-EPR分辨Fe(II)自旋交叉材料的晶格依赖电子结构；Angewandte Chemie报道场依赖频域傅里叶变换THz-EPR，用TIESST在低温俘获Fe(II)自旋交叉配合物的高自旋态。0—9 T、5 K谱图解析基态多重态分裂和自旋—声子耦合，并依据剩余高自旋中心的跃迁位移区分三维畴生长与统计或低维HS/LS排列。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "inorganic_coordination",
+          "dimension": "application_ids",
+          "basis": "场依赖THz-EPR分辨Fe(II)自旋交叉材料的晶格依赖电子结构；Angewandte Chemie报道场依赖频域傅里叶变换THz-EPR，用TIESST在低温俘获Fe(II)自旋交叉配合物的高自旋态。0—9 T、5 K谱图解析基态多重态分裂和自旋—声子耦合，并依据剩余高自旋中心的跃迁位移区分三维畴生长与统计或低维HS/LS排列。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "场依赖THz-EPR分辨Fe(II)自旋交叉材料的晶格依赖电子结构",
+        "original_summary_cn": "Angewandte Chemie报道场依赖频域傅里叶变换THz-EPR，用TIESST在低温俘获Fe(II)自旋交叉配合物的高自旋态。0—9 T、5 K谱图解析基态多重态分裂和自旋—声子耦合，并依据剩余高自旋中心的跃迁位移区分三维畴生长与统计或低维HS/LS排列。",
+        "original_meaning_cn": "测量需规定冷却速率、退火时间、5 K基准状态、磁场范围及MDS/TDS归一化方式。拟合应联合轴向与菱形零场分裂、自旋—声子耦合项和高自旋分数；仪器评估还需核对THz源功率、频率覆盖、低温磁体光路以及不同辐射源所得跃迁位置的一致性。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "材料与缺陷表征",
+          "无机与配位化学",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260906-05",
+      "report_date": "2026-09-06",
+      "item_no": 5,
+      "title_cn": "多核NMR发布布鲁氏菌MucR DNA结合域—DNA复合物的共振归属",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Applied Magnetic Resonance发布布鲁氏菌MucR DNA结合域与DNA复合物的¹H、¹³C和¹⁵N共振归属。该数据集为研究MucR识别DNA时的界面残基、构象变化和交换行为提供逐残基化学位移基准，并已关联Biological Magnetic Resonance Data Bank条目供后续实验复用。",
+      "meaning_cn": "后续滴定或动力学实验应复用相同蛋白构建体、DNA序列、缓冲液、温度和离子强度，并核对同位素标记策略。建议以¹H–¹⁵N HSQC为入口，结合三共振实验检查归属转移；发生峰消失时需区分快交换位移、中间交换展宽、复合物聚集及样品降解。",
+      "publication_date": "2026-09-01",
+      "time_scope": "7d_extension",
+      "source": "Applied Magnetic Resonance",
+      "url": "https://link.springer.com/article/10.1007/s00723-026-01881-5",
+      "doi": "10.1007/s00723-026-01881-5",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-06",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-06.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-06.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "多核NMR发布布鲁氏菌MucR DNA结合域—DNA复合物的共振归属；Applied Magnetic Resonance发布布鲁氏菌MucR DNA结合域与DNA复合物的¹H、¹³C和¹⁵N共振归属。该数据集为研究MucR识别DNA时的界面残基、构象变化和交换行为提供逐残基化学位移基准，并已关联Biological Magnetic Resonance Data Bank条目供后续实验复用。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "多核NMR发布布鲁氏菌MucR DNA结合域—DNA复合物的共振归属；Applied Magnetic Resonance发布布鲁氏菌MucR DNA结合域与DNA复合物的¹H、¹³C和¹⁵N共振归属。该数据集为研究MucR识别DNA时的界面残基、构象变化和交换行为提供逐残基化学位移基准，并已关联Biological Magnetic Resonance Data Bank条目供后续实验复用。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "多核NMR发布布鲁氏菌MucR DNA结合域—DNA复合物的共振归属；Applied Magnetic Resonance发布布鲁氏菌MucR DNA结合域与DNA复合物的¹H、¹³C和¹⁵N共振归属。该数据集为研究MucR识别DNA时的界面残基、构象变化和交换行为提供逐残基化学位移基准，并已关联Biological Magnetic Resonance Data Bank条目供后续实验复用。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "多核NMR发布布鲁氏菌MucR DNA结合域—DNA复合物的共振归属",
+        "original_summary_cn": "Applied Magnetic Resonance发布布鲁氏菌MucR DNA结合域与DNA复合物的¹H、¹³C和¹⁵N共振归属。该数据集为研究MucR识别DNA时的界面残基、构象变化和交换行为提供逐残基化学位移基准，并已关联Biological Magnetic Resonance Data Bank条目供后续实验复用。",
+        "original_meaning_cn": "后续滴定或动力学实验应复用相同蛋白构建体、DNA序列、缓冲液、温度和离子强度，并核对同位素标记策略。建议以¹H–¹⁵N HSQC为入口，结合三共振实验检查归属转移；发生峰消失时需区分快交换位移、中间交换展宽、复合物聚集及样品降解。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "常规检索及首轮增强搜索所得合格新增少于8条，已启动第二级深度增强检索。检索按2026年8月30日至9月5日逐日回扫，覆盖专业期刊的Latest Articles、Early View与First published页面，预印本及数据库、仪器厂商、会议独立议程和中外采购公告，并按液体NMR、固体NMR/MAS/DNP、低场/TD-NMR、NMR算法、CW/脉冲/THz-EPR及硬件部件拆分检索。本期最终收录5条，均为2026年9月1日至4日的近7天扩展信息；其中4条为深度检索新增。结合最近7期正文与项目索引查重，排除7条既有记录，并排除日期无法确认、仅更新刊期、会议重复信息及仅把NMR/EPR作为辅助表征的候选。待复核标签：THz-EPR与DNP暂保留在样品体系和正文中，未创建新的正式ID。",
+    "source_sha256": "afb64bec44abf27f71f21d663cb234fff5a8a5c0a4036b9dd6c87923f62780f1",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

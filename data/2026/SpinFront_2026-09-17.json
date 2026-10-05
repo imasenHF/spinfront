@@ -1,0 +1,240 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-17",
+  "scope_note": "本期收录2条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260917-01",
+      "report_date": "2026-09-17",
+      "item_no": 1,
+      "title_cn": "原位EPR识别BINAP稳定的Au(II)催化中间体",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "operando_epr",
+        "reaction_monitoring"
+      ],
+      "application_ids": [
+        "catalysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Angewandte Chemie报道末端炔烃催化溴化中的BINAP稳定Au(II)物种。研究以原位EPR直接识别顺磁中间体，并把其生成同Au(I)/Au(III)氧化还原过程及催化反应联系起来，为均相金催化中较少见的Au(II)价态提供谱学判据。",
+      "meaning_cn": "复现实验应在惰性条件下按反应时间取样或采用密封原位管，记录温度、微波功率、调制幅度、g值和超精细参数。需设置无BINAP、无氧化剂及不同金前体对照，并用功率饱和与变温谱排除有机自由基或聚集态金物种的重叠信号。",
+      "publication_date": "2026-09-15",
+      "time_scope": "7d_extension",
+      "source": "Angewandte Chemie International Edition",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.9751771",
+      "doi": "10.1002/anie.9751771",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-17",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-17.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "反应监测",
+          "催化",
+          "化学结构",
+          "无机配位",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-17.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "原位EPR识别BINAP稳定的Au(II)催化中间体；Angewandte Chemie报道末端炔烃催化溴化中的BINAP稳定Au(II)物种。研究以原位EPR直接识别顺磁中间体，并把其生成同Au(I)/Au(III)氧化还原过程及催化反应联系起来，为均相金催化中较少见的Au(II)价态提供谱学判据。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "operando_epr",
+          "dimension": "method_ids",
+          "basis": "原位EPR识别BINAP稳定的Au(II)催化中间体；Angewandte Chemie报道末端炔烃催化溴化中的BINAP稳定Au(II)物种。研究以原位EPR直接识别顺磁中间体，并把其生成同Au(I)/Au(III)氧化还原过程及催化反应联系起来，为均相金催化中较少见的Au(II)价态提供谱学判据。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "reaction_monitoring",
+          "dimension": "method_ids",
+          "basis": "原位EPR识别BINAP稳定的Au(II)催化中间体；Angewandte Chemie报道末端炔烃催化溴化中的BINAP稳定Au(II)物种。研究以原位EPR直接识别顺磁中间体，并把其生成同Au(I)/Au(III)氧化还原过程及催化反应联系起来，为均相金催化中较少见的Au(II)价态提供谱学判据。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "catalysis",
+          "dimension": "application_ids",
+          "basis": "原位EPR识别BINAP稳定的Au(II)催化中间体；Angewandte Chemie报道末端炔烃催化溴化中的BINAP稳定Au(II)物种。研究以原位EPR直接识别顺磁中间体，并把其生成同Au(I)/Au(III)氧化还原过程及催化反应联系起来，为均相金催化中较少见的Au(II)价态提供谱学判据。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "原位EPR识别BINAP稳定的Au(II)催化中间体",
+        "original_summary_cn": "Angewandte Chemie报道末端炔烃催化溴化中的BINAP稳定Au(II)物种。研究以原位EPR直接识别顺磁中间体，并把其生成同Au(I)/Au(III)氧化还原过程及催化反应联系起来，为均相金催化中较少见的Au(II)价态提供谱学判据。",
+        "original_meaning_cn": "复现实验应在惰性条件下按反应时间取样或采用密封原位管，记录温度、微波功率、调制幅度、g值和超精细参数。需设置无BINAP、无氧化剂及不同金前体对照，并用功率饱和与变温谱排除有机自由基或聚集态金物种的重叠信号。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "反应监测",
+          "催化",
+          "化学结构",
+          "无机配位",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260917-02",
+      "report_date": "2026-09-17",
+      "item_no": 2,
+      "title_cn": "EPR追踪Dy–Fe共掺BaTiO₃中的缺陷自旋耦合",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "defect_epr"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Materials Science: Materials in Electronics研究无铅Dy–Fe共掺BaTiO₃陶瓷，以EPR观察随掺杂演化的缺陷相关自旋相互作用，并同XRD、XPS、HRTEM、磁性及铁电测量交叉比较。结果把氧空位、局域自旋与磁电响应的变化联系起来。",
+      "meaning_cn": "材料系列应保持烧结温度、氧分压、晶粒尺寸和Dy/Fe计量一致。EPR需报告测量温度、g值、线宽、积分强度、微波功率及调制幅度，并以功率饱和和变温实验区分孤立缺陷、交换耦合簇及Fe相关信号；自旋定量应使用同批标准样。",
+      "publication_date": "2026-09-15",
+      "time_scope": "7d_extension",
+      "source": "Journal of Materials Science: Materials in Electronics",
+      "url": "https://link.springer.com/article/10.1007/s10854-026-18346-x",
+      "doi": "10.1007/s10854-026-18346-x",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-17",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-17.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "缺陷EPR",
+          "材料",
+          "无机配位",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-17.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "EPR追踪Dy–Fe共掺BaTiO₃中的缺陷自旋耦合；Journal of Materials Science: Materials in Electronics研究无铅Dy–Fe共掺BaTiO₃陶瓷，以EPR观察随掺杂演化的缺陷相关自旋相互作用，并同XRD、XPS、HRTEM、磁性及铁电测量交叉比较。结果把氧空位、局域自旋与磁电响应的变化联系起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "defect_epr",
+          "dimension": "method_ids",
+          "basis": "EPR追踪Dy–Fe共掺BaTiO₃中的缺陷自旋耦合；Journal of Materials Science: Materials in Electronics研究无铅Dy–Fe共掺BaTiO₃陶瓷，以EPR观察随掺杂演化的缺陷相关自旋相互作用，并同XRD、XPS、HRTEM、磁性及铁电测量交叉比较。结果把氧空位、局域自旋与磁电响应的变化联系起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "EPR追踪Dy–Fe共掺BaTiO₃中的缺陷自旋耦合；Journal of Materials Science: Materials in Electronics研究无铅Dy–Fe共掺BaTiO₃陶瓷，以EPR观察随掺杂演化的缺陷相关自旋相互作用，并同XRD、XPS、HRTEM、磁性及铁电测量交叉比较。结果把氧空位、局域自旋与磁电响应的变化联系起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "EPR追踪Dy–Fe共掺BaTiO₃中的缺陷自旋耦合",
+        "original_summary_cn": "Journal of Materials Science: Materials in Electronics研究无铅Dy–Fe共掺BaTiO₃陶瓷，以EPR观察随掺杂演化的缺陷相关自旋相互作用，并同XRD、XPS、HRTEM、磁性及铁电测量交叉比较。结果把氧空位、局域自旋与磁电响应的变化联系起来。",
+        "original_meaning_cn": "材料系列应保持烧结温度、氧分压、晶粒尺寸和Dy/Fe计量一致。EPR需报告测量温度、g值、线宽、积分强度、微波功率及调制幅度，并以功率饱和和变温实验区分孤立缺陷、交换耦合簇及Fe相关信号；自旋定量应使用同批标准样。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "缺陷EPR",
+          "材料",
+          "无机配位",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "范围说明：过去24小时内未确认到符合发布日期、相关性与查重要求的新增条目，已执行增强检索和第二级深度增强检索，逐日回扫2026年9月10日至16日。检索覆盖专业期刊、预印本与文献元数据、仪器厂商、专业会议、中外采购公告，并按液体NMR、固体NMR/MAS/DNP、低场与TD-NMR、NMR软件与谱图处理、CW/rapid-scan EPR、脉冲EPR、TREPR、operando/EC-EPR及仪器部件逐组检查。本期最终收录2条，均为9月15日的近7天扩展。结合最近7期正文与项目索引查重，排除29条既有记录；另排除31条日期不明、超出时间窗、常驻产品页、医学MRI、缩写误检或仅将NMR/EPR作为辅助表征的候选。条目不足主要来自近期高价值内容已被连续日报覆盖，以及新增页面的日期或方法相关性无法核实。\n\n待复核标签：Au(II)催化中间体与缺陷自旋—偶极耦合保留在样品体系和正文中，未创建新的正式ID。",
+    "source_sha256": "5190e26f8af049fed990dab3731894c39305c31a1dbd3a4fa02851c5eea232bc",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

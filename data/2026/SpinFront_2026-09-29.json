@@ -1,0 +1,1130 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-29",
+  "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260929-01",
+      "report_date": "2026-09-29",
+      "item_no": 1,
+      "title_cn": "交叉弛豫DNP区分离子导电复合膜的运动组分",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "dnp"
+      ],
+      "application_ids": [
+        "polymers"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Physical Chemistry C将固体NMR与交叉弛豫DNP用于离子导电纸–聚合物复合膜，通过选择性信号增强区分运动性不同、原本重叠的纤维素、聚合物与离子液体组分，并观察聚合前后的分子运动变化，为膜内局域结构与离子传导建立关联。",
+      "meaning_cn": "复现实验应记录磁场、温度、MAS转速、微波频率与功率、极化剂组成、建立时间和循环延迟，并设置无微波或无极化剂对照。比较样品时需统一含水量、聚合度和装样质量，同时报告增强倍数、线宽、弛豫及不同运动组分的选择性，避免把DNP偏置误作真实组分比例。",
+      "publication_date": "2026-09-28",
+      "time_scope": "24h",
+      "source": "The Journal of Physical Chemistry C",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.jpcc.6c03257",
+      "doi": "10.1021/acs.jpcc.6c03257",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-29",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-29.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR＋EPR",
+          "固体NMR",
+          "电化学与能源",
+          "材料",
+          "聚合物",
+          "仪器",
+          "磁体",
+          "探头",
+          "谐振器",
+          "软件"
+        ],
+        "original_type": "NMR＋EPR｜固体NMR｜电化学与能源",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-29.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "交叉弛豫DNP区分离子导电复合膜的运动组分；Journal of Physical Chemistry C将固体NMR与交叉弛豫DNP用于离子导电纸–聚合物复合膜，通过选择性信号增强区分运动性不同、原本重叠的纤维素、聚合物与离子液体组分，并观察聚合前后的分子运动变化，为膜内局域结构与离子传导建立关联。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "交叉弛豫DNP区分离子导电复合膜的运动组分；Journal of Physical Chemistry C将固体NMR与交叉弛豫DNP用于离子导电纸–聚合物复合膜，通过选择性信号增强区分运动性不同、原本重叠的纤维素、聚合物与离子液体组分，并观察聚合前后的分子运动变化，为膜内局域结构与离子传导建立关联。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "dnp",
+          "dimension": "method_ids",
+          "basis": "交叉弛豫DNP区分离子导电复合膜的运动组分；Journal of Physical Chemistry C将固体NMR与交叉弛豫DNP用于离子导电纸–聚合物复合膜，通过选择性信号增强区分运动性不同、原本重叠的纤维素、聚合物与离子液体组分，并观察聚合前后的分子运动变化，为膜内局域结构与离子传导建立关联。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "polymers",
+          "dimension": "application_ids",
+          "basis": "交叉弛豫DNP区分离子导电复合膜的运动组分；Journal of Physical Chemistry C将固体NMR与交叉弛豫DNP用于离子导电纸–聚合物复合膜，通过选择性信号增强区分运动性不同、原本重叠的纤维素、聚合物与离子液体组分，并观察聚合前后的分子运动变化，为膜内局域结构与离子传导建立关联。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "交叉弛豫DNP区分离子导电复合膜的运动组分",
+        "original_summary_cn": "Journal of Physical Chemistry C将固体NMR与交叉弛豫DNP用于离子导电纸–聚合物复合膜，通过选择性信号增强区分运动性不同、原本重叠的纤维素、聚合物与离子液体组分，并观察聚合前后的分子运动变化，为膜内局域结构与离子传导建立关联。",
+        "original_meaning_cn": "复现实验应记录磁场、温度、MAS转速、微波频率与功率、极化剂组成、建立时间和循环延迟，并设置无微波或无极化剂对照。比较样品时需统一含水量、聚合度和装样质量，同时报告增强倍数、线宽、弛豫及不同运动组分的选择性，避免把DNP偏置误作真实组分比例。",
+        "original_tags": [
+          "NMR＋EPR",
+          "固体NMR",
+          "电化学与能源",
+          "材料",
+          "聚合物",
+          "仪器",
+          "磁体",
+          "探头",
+          "谐振器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260929-02",
+      "report_date": "2026-09-29",
+      "item_no": 2,
+      "title_cn": "Box–Behnken优化把痕量³¹P NMR信噪提高近四倍",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Analytical Chemistry Letters以Box–Behnken设计同时优化溶剂组成、脉宽、循环延迟、采集时间、线宽因子和扫描次数，用³¹P{¹H} NMR检测亲水与疏水有机磷化合物。10 μg mL⁻¹样品的信噪提高3.6–3.8倍，总采集时间较完全弛豫条件缩短约70%–75%。",
+      "meaning_cn": "方法迁移应先测各目标物T₁并限定放大器占空比，以标准混合物重建设计矩阵；脉宽、延迟和溶剂比例不可逐项孤立优化。验收需同时报告预测与实测S/N、线形、积分偏差、残差及独立验证点；缩短延迟后的谱不能未经校正直接用于qNMR。",
+      "publication_date": "2026-09-28",
+      "time_scope": "24h",
+      "source": "Analytical Chemistry Letters",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/22297928.2026.2722187",
+      "doi": "10.1080/22297928.2026.2722187",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-29",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-29.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "化学结构",
+          "过程分析",
+          "环境",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜溶液NMR｜多核NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-29.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "Box–Behnken优化把痕量³¹P NMR信噪提高近四倍；Analytical Chemistry Letters以Box–Behnken设计同时优化溶剂组成、脉宽、循环延迟、采集时间、线宽因子和扫描次数，用³¹P{¹H} NMR检测亲水与疏水有机磷化合物。10 μg mL⁻¹样品的信噪提高3.6–3.8倍，总采集时间较完全弛豫条件缩短约70%–75%。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "Box–Behnken优化把痕量³¹P NMR信噪提高近四倍；Analytical Chemistry Letters以Box–Behnken设计同时优化溶剂组成、脉宽、循环延迟、采集时间、线宽因子和扫描次数，用³¹P{¹H} NMR检测亲水与疏水有机磷化合物。10 μg mL⁻¹样品的信噪提高3.6–3.8倍，总采集时间较完全弛豫条件缩短约70%–75%。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Box–Behnken优化把痕量³¹P NMR信噪提高近四倍",
+        "original_summary_cn": "Analytical Chemistry Letters以Box–Behnken设计同时优化溶剂组成、脉宽、循环延迟、采集时间、线宽因子和扫描次数，用³¹P{¹H} NMR检测亲水与疏水有机磷化合物。10 μg mL⁻¹样品的信噪提高3.6–3.8倍，总采集时间较完全弛豫条件缩短约70%–75%。",
+        "original_meaning_cn": "方法迁移应先测各目标物T₁并限定放大器占空比，以标准混合物重建设计矩阵；脉宽、延迟和溶剂比例不可逐项孤立优化。验收需同时报告预测与实测S/N、线形、积分偏差、残差及独立验证点；缩短延迟后的谱不能未经校正直接用于qNMR。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "化学结构",
+          "过程分析",
+          "环境",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260929-03",
+      "report_date": "2026-09-29",
+      "item_no": 3,
+      "title_cn": "⁷Li四极弛豫拆解water-in-salt电解液的集体动力学",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "battery"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Physical Chemistry B联合⁷Li四极弛豫、第一性原理和分子动力学，覆盖稀溶液至water-in-salt LiTFSI。浓度升高时，Li⁺位点电场梯度波动显著变慢，慢速集体模式占主导；TFSI促进长寿命Li–TFSI缔合，并导致简单Stokes–Einstein–Debye图景失效。",
+      "meaning_cn": "电解液比较需固定LiTFSI浓度、含水量、温度、场强和脉冲序列，并分别测T₁/T₂或弛豫率随浓度与温度的变化。模拟应使用与实验一致的组分和密度，核对Li–O配位数、驻留时间及电场梯度相关函数；不能仅凭黏度变化解释⁷Li弛豫增强。",
+      "publication_date": "2026-09-28",
+      "time_scope": "24h",
+      "source": "The Journal of Physical Chemistry B",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.jpcb.6c04931",
+      "doi": "10.1021/acs.jpcb.6c04931",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-29",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-29.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "计算NMR",
+          "电化学与能源",
+          "电池",
+          "材料",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜溶液NMR｜多核NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-29.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "⁷Li四极弛豫拆解water-in-salt电解液的集体动力学；Journal of Physical Chemistry B联合⁷Li四极弛豫、第一性原理和分子动力学，覆盖稀溶液至water-in-salt LiTFSI。浓度升高时，Li⁺位点电场梯度波动显著变慢，慢速集体模式占主导；TFSI促进长寿命Li–TFSI缔合，并导致简单Stokes–Einstein–Debye图景失效。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "⁷Li四极弛豫拆解water-in-salt电解液的集体动力学；Journal of Physical Chemistry B联合⁷Li四极弛豫、第一性原理和分子动力学，覆盖稀溶液至water-in-salt LiTFSI。浓度升高时，Li⁺位点电场梯度波动显著变慢，慢速集体模式占主导；TFSI促进长寿命Li–TFSI缔合，并导致简单Stokes–Einstein–Debye图景失效。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "⁷Li四极弛豫拆解water-in-salt电解液的集体动力学；Journal of Physical Chemistry B联合⁷Li四极弛豫、第一性原理和分子动力学，覆盖稀溶液至water-in-salt LiTFSI。浓度升高时，Li⁺位点电场梯度波动显著变慢，慢速集体模式占主导；TFSI促进长寿命Li–TFSI缔合，并导致简单Stokes–Einstein–Debye图景失效。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "battery",
+          "dimension": "application_ids",
+          "basis": "⁷Li四极弛豫拆解water-in-salt电解液的集体动力学；Journal of Physical Chemistry B联合⁷Li四极弛豫、第一性原理和分子动力学，覆盖稀溶液至water-in-salt LiTFSI。浓度升高时，Li⁺位点电场梯度波动显著变慢，慢速集体模式占主导；TFSI促进长寿命Li–TFSI缔合，并导致简单Stokes–Einstein–Debye图景失效。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "⁷Li四极弛豫拆解water-in-salt电解液的集体动力学",
+        "original_summary_cn": "Journal of Physical Chemistry B联合⁷Li四极弛豫、第一性原理和分子动力学，覆盖稀溶液至water-in-salt LiTFSI。浓度升高时，Li⁺位点电场梯度波动显著变慢，慢速集体模式占主导；TFSI促进长寿命Li–TFSI缔合，并导致简单Stokes–Einstein–Debye图景失效。",
+        "original_meaning_cn": "电解液比较需固定LiTFSI浓度、含水量、温度、场强和脉冲序列，并分别测T₁/T₂或弛豫率随浓度与温度的变化。模拟应使用与实验一致的组分和密度，核对Li–O配位数、驻留时间及电场梯度相关函数；不能仅凭黏度变化解释⁷Li弛豫增强。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "计算NMR",
+          "电化学与能源",
+          "电池",
+          "材料",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260929-04",
+      "report_date": "2026-09-29",
+      "item_no": 4,
+      "title_cn": "哺乳动物细胞高度重水素化让膜蛋白NMR增敏四倍",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "JACS在Expi293F哺乳动物细胞中实现超过70%的重水素化并结合¹³C甲基选择性标记。β₂肾上腺素受体谱线变窄、信噪提高约3–4倍，逆激动剂结合态出现此前不可见的构象；方法亦用于CD19–CD81膜蛋白复合物，扩展了人源膜蛋白溶液NMR的可达范围。",
+      "meaning_cn": "实施时需逐批记录D₂O适应过程、细胞活率、表达量、同位素掺入率、去垢剂或纳米盘组成及样品温度。应以同一构建体比较质子化与重水素化样品的线宽、峰数和单位时间S/N，并检查¹³C甲基标记位置、构象平衡及功能活性是否受培养条件改变。",
+      "publication_date": "2026-09-25",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://pubs.acs.org/doi/10.1021/jacs.6c11086",
+      "doi": "10.1021/jacs.6c11086",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-29",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-29.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "药物分析",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜溶液NMR｜多核NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-29.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "哺乳动物细胞高度重水素化让膜蛋白NMR增敏四倍；JACS在Expi293F哺乳动物细胞中实现超过70%的重水素化并结合¹³C甲基选择性标记。β₂肾上腺素受体谱线变窄、信噪提高约3–4倍，逆激动剂结合态出现此前不可见的构象；方法亦用于CD19–CD81膜蛋白复合物，扩展了人源膜蛋白溶液NMR的可达范围。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "哺乳动物细胞高度重水素化让膜蛋白NMR增敏四倍；JACS在Expi293F哺乳动物细胞中实现超过70%的重水素化并结合¹³C甲基选择性标记。β₂肾上腺素受体谱线变窄、信噪提高约3–4倍，逆激动剂结合态出现此前不可见的构象；方法亦用于CD19–CD81膜蛋白复合物，扩展了人源膜蛋白溶液NMR的可达范围。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "哺乳动物细胞高度重水素化让膜蛋白NMR增敏四倍；JACS在Expi293F哺乳动物细胞中实现超过70%的重水素化并结合¹³C甲基选择性标记。β₂肾上腺素受体谱线变窄、信噪提高约3–4倍，逆激动剂结合态出现此前不可见的构象；方法亦用于CD19–CD81膜蛋白复合物，扩展了人源膜蛋白溶液NMR的可达范围。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "哺乳动物细胞高度重水素化让膜蛋白NMR增敏四倍",
+        "original_summary_cn": "JACS在Expi293F哺乳动物细胞中实现超过70%的重水素化并结合¹³C甲基选择性标记。β₂肾上腺素受体谱线变窄、信噪提高约3–4倍，逆激动剂结合态出现此前不可见的构象；方法亦用于CD19–CD81膜蛋白复合物，扩展了人源膜蛋白溶液NMR的可达范围。",
+        "original_meaning_cn": "实施时需逐批记录D₂O适应过程、细胞活率、表达量、同位素掺入率、去垢剂或纳米盘组成及样品温度。应以同一构建体比较质子化与重水素化样品的线宽、峰数和单位时间S/N，并检查¹³C甲基标记位置、构象平衡及功能活性是否受培养条件改变。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "药物分析",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260929-05",
+      "report_date": "2026-09-29",
+      "item_no": 5,
+      "title_cn": "同位素工程金刚石把单NV电子自旋相干推至11秒",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "npj Quantum Information在(111)生长、¹³C浓度受控且氮杂质为低ppb的金刚石中研究单NV中心。实时前馈抑制50 Hz磁噪声，定制动态去耦得到Hahn echo T₂=6.8 ms、去耦T₂=11.2 s；同时测得16.9 MHz近寿命极限的均匀光学线宽。",
+      "meaning_cn": "复现实验应报告¹³C与氮浓度、NV深度、磁场方向、温度、微波脉冲误差、去耦序列与脉冲数，并保存前馈开启/关闭的噪声谱。相干时间比较须区分Hahn echo和动态去耦结果，同时监控光激发功率、光谱漂移与T₁，避免把外部工频抑制误认为材料本征改善。",
+      "publication_date": "2026-09-28",
+      "time_scope": "7d_extension",
+      "source": "npj Quantum Information",
+      "url": "https://www.nature.com/articles/s41534-026-01368-y",
+      "doi": "10.1038/s41534-026-01368-y",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-29",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-29.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "缺陷EPR",
+          "材料",
+          "仪器",
+          "磁体",
+          "谐振器",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "EPR｜脉冲EPR｜缺陷EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-29.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "同位素工程金刚石把单NV电子自旋相干推至11秒；npj Quantum Information在(111)生长、¹³C浓度受控且氮杂质为低ppb的金刚石中研究单NV中心。实时前馈抑制50 Hz磁噪声，定制动态去耦得到Hahn echo T₂=6.8 ms、去耦T₂=11.2 s；同时测得16.9 MHz近寿命极限的均匀光学线宽。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "同位素工程金刚石把单NV电子自旋相干推至11秒；npj Quantum Information在(111)生长、¹³C浓度受控且氮杂质为低ppb的金刚石中研究单NV中心。实时前馈抑制50 Hz磁噪声，定制动态去耦得到Hahn echo T₂=6.8 ms、去耦T₂=11.2 s；同时测得16.9 MHz近寿命极限的均匀光学线宽。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "同位素工程金刚石把单NV电子自旋相干推至11秒",
+        "original_summary_cn": "npj Quantum Information在(111)生长、¹³C浓度受控且氮杂质为低ppb的金刚石中研究单NV中心。实时前馈抑制50 Hz磁噪声，定制动态去耦得到Hahn echo T₂=6.8 ms、去耦T₂=11.2 s；同时测得16.9 MHz近寿命极限的均匀光学线宽。",
+        "original_meaning_cn": "复现实验应报告¹³C与氮浓度、NV深度、磁场方向、温度、微波脉冲误差、去耦序列与脉冲数，并保存前馈开启/关闭的噪声谱。相干时间比较须区分Hahn echo和动态去耦结果，同时监控光激发功率、光谱漂移与T₁，避免把外部工频抑制误认为材料本征改善。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "缺陷EPR",
+          "材料",
+          "仪器",
+          "磁体",
+          "谐振器",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260929-06",
+      "report_date": "2026-09-29",
+      "item_no": 6,
+      "title_cn": "山东师范大学启动349万元EPR谱仪采购",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "procurement"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "tender",
+      "summary_cn": "山东师范大学化学院发布电子顺磁共振波谱仪竞争性磋商公告，项目编号SDGP370000000202602008927，采购1台/套，预算与最高限价均为349万元，不接受联合体；合同签订后30天内完成供货、安装与调试，响应文件截止2026年10月15日09:30。",
+      "meaning_cn": "供应与配置评审应以正式采购文件为准，重点确认频段、CW或脉冲能力、磁场均匀度、谐振器与变温范围、灵敏度、定量软件和后续扩展接口。现场条件需提前核对电源、接地、电磁环境、冷却与气体；验收应采用规定标准样测试g值、分辨率、S/N和重复性。",
+      "publication_date": "2026-09-28",
+      "time_scope": "24h",
+      "source": "山东师范大学招标采购办公室",
+      "url": "https://zcb.sdnu.edu.cn/",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-29",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-29.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "仪器",
+          "采购",
+          "教育培训",
+          "磁体",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "EPR｜仪器｜采购",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-29.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "山东师范大学启动349万元EPR谱仪采购；山东师范大学化学院发布电子顺磁共振波谱仪竞争性磋商公告，项目编号SDGP370000000202602008927，采购1台/套，预算与最高限价均为349万元，不接受联合体；合同签订后30天内完成供货、安装与调试，响应文件截止2026年10月15日09:30。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "procurement",
+          "dimension": "application_ids",
+          "basis": "山东师范大学启动349万元EPR谱仪采购；山东师范大学化学院发布电子顺磁共振波谱仪竞争性磋商公告，项目编号SDGP370000000202602008927，采购1台/套，预算与最高限价均为349万元，不接受联合体；合同签订后30天内完成供货、安装与调试，响应文件截止2026年10月15日09:30。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "山东师范大学启动349万元EPR谱仪采购",
+        "original_summary_cn": "山东师范大学化学院发布电子顺磁共振波谱仪竞争性磋商公告，项目编号SDGP370000000202602008927，采购1台/套，预算与最高限价均为349万元，不接受联合体；合同签订后30天内完成供货、安装与调试，响应文件截止2026年10月15日09:30。",
+        "original_meaning_cn": "供应与配置评审应以正式采购文件为准，重点确认频段、CW或脉冲能力、磁场均匀度、谐振器与变温范围、灵敏度、定量软件和后续扩展接口。现场条件需提前核对电源、接地、电磁环境、冷却与气体；验收应采用规定标准样测试g值、分辨率、S/N和重复性。",
+        "original_tags": [
+          "EPR",
+          "仪器",
+          "采购",
+          "教育培训",
+          "磁体",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260929-07",
+      "report_date": "2026-09-29",
+      "item_no": 7,
+      "title_cn": "AOC-JD在无噪声尾FID时优化多通道MRS合并",
+      "direction_ids": [
+        "mrs"
+      ],
+      "experiment_type_ids": [
+        "in_vivo_mrs"
+      ],
+      "method_ids": [
+        "spectral_processing"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [
+        "software"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "NMR in Biomedicine提出AOC-JD多通道MRS线圈合并方法，以单次重复和重复平均谱构造两组相关矩阵并联合对角化，无需从FID完全衰减尾部估计通道噪声相关。模拟与人脑体内实验显示，在噪声尾不足时，其S/N优于常规SVD，并接近原始AOC。",
+      "meaning_cn": "部署前应保留各接收通道与每次重复的复数FID，固定相位、频漂和坏通道处理，并以仿真及体模验证相关矩阵条件数。人脑数据需比较AOC-JD、SVD与有噪声协方差的AOC，报告谱S/N、代谢物拟合误差、线宽和对运动/频漂的敏感性。",
+      "publication_date": "2026-09-27",
+      "time_scope": "7d_extension",
+      "source": "NMR in Biomedicine",
+      "url": "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/nbm.70371",
+      "doi": "10.1002/nbm.70371",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-29",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-29.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "MRS",
+          "体内MRS",
+          "计算NMR",
+          "生命科学",
+          "仪器",
+          "探头",
+          "软件"
+        ],
+        "original_type": "MRS｜体内MRS｜计算NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-29.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "mrs",
+          "dimension": "direction_ids",
+          "basis": "AOC-JD在无噪声尾FID时优化多通道MRS合并；NMR in Biomedicine提出AOC-JD多通道MRS线圈合并方法，以单次重复和重复平均谱构造两组相关矩阵并联合对角化，无需从FID完全衰减尾部估计通道噪声相关。模拟与人脑体内实验显示，在噪声尾不足时，其S/N优于常规SVD，并接近原始AOC。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "in_vivo_mrs",
+          "dimension": "experiment_type_ids",
+          "basis": "AOC-JD在无噪声尾FID时优化多通道MRS合并；NMR in Biomedicine提出AOC-JD多通道MRS线圈合并方法，以单次重复和重复平均谱构造两组相关矩阵并联合对角化，无需从FID完全衰减尾部估计通道噪声相关。模拟与人脑体内实验显示，在噪声尾不足时，其S/N优于常规SVD，并接近原始AOC。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spectral_processing",
+          "dimension": "method_ids",
+          "basis": "AOC-JD在无噪声尾FID时优化多通道MRS合并；NMR in Biomedicine提出AOC-JD多通道MRS线圈合并方法，以单次重复和重复平均谱构造两组相关矩阵并联合对角化，无需从FID完全衰减尾部估计通道噪声相关。模拟与人脑体内实验显示，在噪声尾不足时，其S/N优于常规SVD，并接近原始AOC。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "life_science",
+          "dimension": "application_ids",
+          "basis": "AOC-JD在无噪声尾FID时优化多通道MRS合并；NMR in Biomedicine提出AOC-JD多通道MRS线圈合并方法，以单次重复和重复平均谱构造两组相关矩阵并联合对角化，无需从FID完全衰减尾部估计通道噪声相关。模拟与人脑体内实验显示，在噪声尾不足时，其S/N优于常规SVD，并接近原始AOC。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "software",
+          "dimension": "instrument_component_ids",
+          "basis": "AOC-JD在无噪声尾FID时优化多通道MRS合并；NMR in Biomedicine提出AOC-JD多通道MRS线圈合并方法，以单次重复和重复平均谱构造两组相关矩阵并联合对角化，无需从FID完全衰减尾部估计通道噪声相关。模拟与人脑体内实验显示，在噪声尾不足时，其S/N优于常规SVD，并接近原始AOC。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "AOC-JD在无噪声尾FID时优化多通道MRS合并",
+        "original_summary_cn": "NMR in Biomedicine提出AOC-JD多通道MRS线圈合并方法，以单次重复和重复平均谱构造两组相关矩阵并联合对角化，无需从FID完全衰减尾部估计通道噪声相关。模拟与人脑体内实验显示，在噪声尾不足时，其S/N优于常规SVD，并接近原始AOC。",
+        "original_meaning_cn": "部署前应保留各接收通道与每次重复的复数FID，固定相位、频漂和坏通道处理，并以仿真及体模验证相关矩阵条件数。人脑数据需比较AOC-JD、SVD与有噪声协方差的AOC，报告谱S/N、代谢物拟合误差、线宽和对运动/频漂的敏感性。",
+        "original_tags": [
+          "MRS",
+          "体内MRS",
+          "计算NMR",
+          "生命科学",
+          "仪器",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260929-08",
+      "report_date": "2026-09-29",
+      "item_no": 8,
+      "title_cn": "尿液¹H-NMR代谢组描绘双相障碍躁狂期变化",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "metabolomics",
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Irish Journal of Medical Science比较19名躁狂期双相障碍患者与27名健康对照的晨尿，以一维/二维¹H-NMR和数据库完成代谢物注释。FDR校正后尿嘧啶和牛磺酸降低，五条代谢通路富集；但组间差异有限，OPLS-DA判别性能不高，作者将其定位为探索性结果。",
+      "meaning_cn": "复现需统一首晨尿采集、药物状态、饮食、冻存、pH、缓冲液、内标和抑水条件，并记录肌酐或渗透压归一化方案。统计分析应预注册多重校正、保留盲法质控样，并用外部队列验证；小样本下不可用训练集OPLS-DA分离度替代临床效能。",
+      "publication_date": "2026-09-24",
+      "time_scope": "7d_extension",
+      "source": "Irish Journal of Medical Science",
+      "url": "https://link.springer.com/article/10.1007/s11845-026-04632-4",
+      "doi": "10.1007/s11845-026-04632-4",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-29",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-29.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "代谢组学",
+          "生命科学",
+          "探头",
+          "自动进样器",
+          "软件"
+        ],
+        "original_type": "NMR｜溶液NMR｜多维NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-29.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "尿液¹H-NMR代谢组描绘双相障碍躁狂期变化；Irish Journal of Medical Science比较19名躁狂期双相障碍患者与27名健康对照的晨尿，以一维/二维¹H-NMR和数据库完成代谢物注释。FDR校正后尿嘧啶和牛磺酸降低，五条代谢通路富集；但组间差异有限，OPLS-DA判别性能不高，作者将其定位为探索性结果。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "metabolomics",
+          "dimension": "method_ids",
+          "basis": "尿液¹H-NMR代谢组描绘双相障碍躁狂期变化；Irish Journal of Medical Science比较19名躁狂期双相障碍患者与27名健康对照的晨尿，以一维/二维¹H-NMR和数据库完成代谢物注释。FDR校正后尿嘧啶和牛磺酸降低，五条代谢通路富集；但组间差异有限，OPLS-DA判别性能不高，作者将其定位为探索性结果。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "尿液¹H-NMR代谢组描绘双相障碍躁狂期变化；Irish Journal of Medical Science比较19名躁狂期双相障碍患者与27名健康对照的晨尿，以一维/二维¹H-NMR和数据库完成代谢物注释。FDR校正后尿嘧啶和牛磺酸降低，五条代谢通路富集；但组间差异有限，OPLS-DA判别性能不高，作者将其定位为探索性结果。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "life_science",
+          "dimension": "application_ids",
+          "basis": "尿液¹H-NMR代谢组描绘双相障碍躁狂期变化；Irish Journal of Medical Science比较19名躁狂期双相障碍患者与27名健康对照的晨尿，以一维/二维¹H-NMR和数据库完成代谢物注释。FDR校正后尿嘧啶和牛磺酸降低，五条代谢通路富集；但组间差异有限，OPLS-DA判别性能不高，作者将其定位为探索性结果。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "尿液¹H-NMR代谢组描绘双相障碍躁狂期变化",
+        "original_summary_cn": "Irish Journal of Medical Science比较19名躁狂期双相障碍患者与27名健康对照的晨尿，以一维/二维¹H-NMR和数据库完成代谢物注释。FDR校正后尿嘧啶和牛磺酸降低，五条代谢通路富集；但组间差异有限，OPLS-DA判别性能不高，作者将其定位为探索性结果。",
+        "original_meaning_cn": "复现需统一首晨尿采集、药物状态、饮食、冻存、pH、缓冲液、内标和抑水条件，并记录肌酐或渗透压归一化方案。统计分析应预注册多重校正、保留盲法质控样，并用外部队列验证；小样本下不可用训练集OPLS-DA分离度替代临床效能。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "代谢组学",
+          "生命科学",
+          "探头",
+          "自动进样器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260929-09",
+      "report_date": "2026-09-29",
+      "item_no": 9,
+      "title_cn": "多维NMR解析海星Lystar5三指蛋白的交换热点",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr",
+        "relaxometry"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Russian Journal of Bioorganic Chemistry以二维/三维同核和异核NMR确定海星三指蛋白Lystar5结构，并用¹⁵N R₁、R₂及¹⁵N–¹H NOE做model-free动力学分析。蛋白由六个二硫键稳定，整体骨架较稳，但环I和环II部分残基在微秒–毫秒尺度发生构象交换。",
+      "meaning_cn": "结构复现应统一¹³C/¹⁵N标记、二硫键状态、缓冲液、pH、温度与浓度，完成主链归属、NOE约束和结构集合验证。动力学实验需在相同场强与温度下采R₁/R₂/NOE并传播误差；异常R₂应结合弛豫色散或多场数据确认交换，不能仅据单场model-free参数下结论。",
+      "publication_date": "2026-09-24",
+      "time_scope": "7d_extension",
+      "source": "Russian Journal of Bioorganic Chemistry",
+      "url": "https://link.springer.com/article/10.1134/S1068162025605002",
+      "doi": "10.1134/s1068162025605002",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-29",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-29.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "药物分析",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜溶液NMR｜多维NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-29.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "多维NMR解析海星Lystar5三指蛋白的交换热点；Russian Journal of Bioorganic Chemistry以二维/三维同核和异核NMR确定海星三指蛋白Lystar5结构，并用¹⁵N R₁、R₂及¹⁵N–¹H NOE做model-free动力学分析。蛋白由六个二硫键稳定，整体骨架较稳，但环I和环II部分残基在微秒–毫秒尺度发生构象交换。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "多维NMR解析海星Lystar5三指蛋白的交换热点；Russian Journal of Bioorganic Chemistry以二维/三维同核和异核NMR确定海星三指蛋白Lystar5结构，并用¹⁵N R₁、R₂及¹⁵N–¹H NOE做model-free动力学分析。蛋白由六个二硫键稳定，整体骨架较稳，但环I和环II部分残基在微秒–毫秒尺度发生构象交换。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "多维NMR解析海星Lystar5三指蛋白的交换热点；Russian Journal of Bioorganic Chemistry以二维/三维同核和异核NMR确定海星三指蛋白Lystar5结构，并用¹⁵N R₁、R₂及¹⁵N–¹H NOE做model-free动力学分析。蛋白由六个二硫键稳定，整体骨架较稳，但环I和环II部分残基在微秒–毫秒尺度发生构象交换。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "多维NMR解析海星Lystar5三指蛋白的交换热点；Russian Journal of Bioorganic Chemistry以二维/三维同核和异核NMR确定海星三指蛋白Lystar5结构，并用¹⁵N R₁、R₂及¹⁵N–¹H NOE做model-free动力学分析。蛋白由六个二硫键稳定，整体骨架较稳，但环I和环II部分残基在微秒–毫秒尺度发生构象交换。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "多维NMR解析海星Lystar5三指蛋白的交换热点；Russian Journal of Bioorganic Chemistry以二维/三维同核和异核NMR确定海星三指蛋白Lystar5结构，并用¹⁵N R₁、R₂及¹⁵N–¹H NOE做model-free动力学分析。蛋白由六个二硫键稳定，整体骨架较稳，但环I和环II部分残基在微秒–毫秒尺度发生构象交换。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "多维NMR解析海星Lystar5三指蛋白的交换热点",
+        "original_summary_cn": "Russian Journal of Bioorganic Chemistry以二维/三维同核和异核NMR确定海星三指蛋白Lystar5结构，并用¹⁵N R₁、R₂及¹⁵N–¹H NOE做model-free动力学分析。蛋白由六个二硫键稳定，整体骨架较稳，但环I和环II部分残基在微秒–毫秒尺度发生构象交换。",
+        "original_meaning_cn": "结构复现应统一¹³C/¹⁵N标记、二硫键状态、缓冲液、pH、温度与浓度，完成主链归属、NOE约束和结构集合验证。动力学实验需在相同场强与温度下采R₁/R₂/NOE并传播误差；异常R₂应结合弛豫色散或多场数据确认交换，不能仅据单场model-free参数下结论。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "药物分析",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260929-10",
+      "report_date": "2026-09-29",
+      "item_no": 10,
+      "title_cn": "Nano-CT与NMR测井联合预测致密砂岩渗透率",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "computation_nmr",
+        "relaxometry"
+      ],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "SPE会议论文对南海东部LF凹陷文昌组87块岩心联合开展nano-CT与实验室NMR T₂测试，发现控制渗透率的主要是微米级孔隙度和T₂几何均值，而非总孔隙度。研究用两个T₂截止值分区计算微米级孔隙度，建立类似SDR的模型并在多口井测井中验证。",
+      "meaning_cn": "现场应用需统一岩心饱和流体、围压、温度、回波间隔、等待时间和T₂反演参数，并按区块重新标定两个截止值。模型验收应把训练岩心与验证井分开，报告CT分辨率、尺度配准、孔渗误差及不确定度；微米级孔隙贡献不能跨岩性直接迁移。",
+      "publication_date": "2026-09-28",
+      "time_scope": "7d_extension",
+      "source": "SPE/ICoTA Asia Pacific Well Intervention and P&A Conference",
+      "url": "https://doi.org/10.2118/234245-MS",
+      "doi": "10.2118/234245-ms",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-29",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-29.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "时域NMR",
+          "计算NMR",
+          "地学流动",
+          "过程分析",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜时域NMR｜计算NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-29.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "Nano-CT与NMR测井联合预测致密砂岩渗透率；SPE会议论文对南海东部LF凹陷文昌组87块岩心联合开展nano-CT与实验室NMR T₂测试，发现控制渗透率的主要是微米级孔隙度和T₂几何均值，而非总孔隙度。研究用两个T₂截止值分区计算微米级孔隙度，建立类似SDR的模型并在多口井测井中验证。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "computation_nmr",
+          "dimension": "method_ids",
+          "basis": "Nano-CT与NMR测井联合预测致密砂岩渗透率；SPE会议论文对南海东部LF凹陷文昌组87块岩心联合开展nano-CT与实验室NMR T₂测试，发现控制渗透率的主要是微米级孔隙度和T₂几何均值，而非总孔隙度。研究用两个T₂截止值分区计算微米级孔隙度，建立类似SDR的模型并在多口井测井中验证。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "Nano-CT与NMR测井联合预测致密砂岩渗透率；SPE会议论文对南海东部LF凹陷文昌组87块岩心联合开展nano-CT与实验室NMR T₂测试，发现控制渗透率的主要是微米级孔隙度和T₂几何均值，而非总孔隙度。研究用两个T₂截止值分区计算微米级孔隙度，建立类似SDR的模型并在多口井测井中验证。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "geoscience_flow",
+          "dimension": "application_ids",
+          "basis": "Nano-CT与NMR测井联合预测致密砂岩渗透率；SPE会议论文对南海东部LF凹陷文昌组87块岩心联合开展nano-CT与实验室NMR T₂测试，发现控制渗透率的主要是微米级孔隙度和T₂几何均值，而非总孔隙度。研究用两个T₂截止值分区计算微米级孔隙度，建立类似SDR的模型并在多口井测井中验证。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Nano-CT与NMR测井联合预测致密砂岩渗透率",
+        "original_summary_cn": "SPE会议论文对南海东部LF凹陷文昌组87块岩心联合开展nano-CT与实验室NMR T₂测试，发现控制渗透率的主要是微米级孔隙度和T₂几何均值，而非总孔隙度。研究用两个T₂截止值分区计算微米级孔隙度，建立类似SDR的模型并在多口井测井中验证。",
+        "original_meaning_cn": "现场应用需统一岩心饱和流体、围压、温度、回波间隔、等待时间和T₂反演参数，并按区块重新标定两个截止值。模型验收应把训练岩心与验证井分开，报告CT分辨率、尺度配准、孔渗误差及不确定度；微米级孔隙贡献不能跨岩性直接迁移。",
+        "original_tags": [
+          "NMR",
+          "时域NMR",
+          "计算NMR",
+          "地学流动",
+          "过程分析",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "常规检索确认4条具有可核验网页发布时间、可严格归入过去24小时的合格新增，少于5条，已启动增强搜索。增强检索逐站核查Journal of Magnetic Resonance（含Articles in Press）、Journal of Magnetic Resonance Open、Magnetic Resonance、Journal of Biomolecular NMR、Solid State Nuclear Magnetic Resonance、Magnetic Resonance in Chemistry、Applied Magnetic Resonance及ACS、RSC、Wiley、Springer Nature、Elsevier和AIP相关期刊，并分别检查Crossref、PubMed、arXiv、ChemRxiv、科研机构、主要仪器厂商、专业会议及中外采购公告；全部规定方法主题簇均完成独立检索。增强阶段获得10条合格且未重复的信息，未触发第二级深度增强检索。本期4条为近24小时、6条为9月24日至28日的近7天扩展，全部来自非SCM来源。结合2026年9月22日至28日最近7期共70条记录，按标准化DOI、规范化URL和标题查重，排除11条既有记录、8条日期无法可靠核验的候选，并剔除医学MRI、缩写误检、常驻页面及仅将NMR/EPR作为辅助表征的内容。JMR的Articles in Press已单独核验，本轮未发现去重后新增。待复核标签：cross-relaxation DNP、Box–Behnken DoE、water-in-salt electrolyte、高度重水素化哺乳动物细胞、NV动态去耦与实时前馈、AOC-JD、Lystar5及NMR测井双T2截止值保留在sample_systems和正文中，未创建新的正式ID。",
+    "source_sha256": "c5d4b5536ce6b84566832464de51958d98c98e0520b211f64cbed8c49c6fb58d",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

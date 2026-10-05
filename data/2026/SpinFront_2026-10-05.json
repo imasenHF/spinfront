@@ -1,0 +1,1155 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-10-05",
+  "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20261005-01",
+      "report_date": "2026-10-05",
+      "item_no": 1,
+      "title_cn": "第13届GERMN双年会启动，覆盖台式NMR、超极化与EPR",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "西班牙皇家化学会第13届GERMN双年会于10月4—7日在Ciudad Real举行。官方范围覆盖生物与小分子NMR、台式硬件、超极化、微流控、固体NMR、EPR、on-cell NMR、其他核种及计算方法，并安排工业合作与仪器实践交流。",
+      "meaning_cn": "面向方案交流可按样品类型预先整理场强、探头、转子/样品管、温度、脉冲序列、超极化来源和软件流程；关注台式机、微流控及EPR议题时，应向报告方索取灵敏度、线宽、死时间、通量和标准样验证数据，避免只比较名义配置。",
+      "publication_date": "2026-10-04",
+      "time_scope": "7d_extension",
+      "source": "GERMN 2026官方网站",
+      "url": "https://germn2026.com/",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-05",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-05.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR＋EPR",
+          "溶液NMR",
+          "固体NMR",
+          "台式NMR",
+          "连续波EPR",
+          "脉冲EPR",
+          "仪器",
+          "教育培训",
+          "磁体",
+          "探头",
+          "谐振器",
+          "软件"
+        ],
+        "original_type": null,
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-05.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "第13届GERMN双年会启动，覆盖台式NMR、超极化与EPR；西班牙皇家化学会第13届GERMN双年会于10月4—7日在Ciudad Real举行。官方范围覆盖生物与小分子NMR、台式硬件、超极化、微流控、固体NMR、EPR、on-cell NMR、其他核种及计算方法，并安排工业合作与仪器实践交流。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "第13届GERMN双年会启动，覆盖台式NMR、超极化与EPR；西班牙皇家化学会第13届GERMN双年会于10月4—7日在Ciudad Real举行。官方范围覆盖生物与小分子NMR、台式硬件、超极化、微流控、固体NMR、EPR、on-cell NMR、其他核种及计算方法，并安排工业合作与仪器实践交流。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "第13届GERMN双年会启动，覆盖台式NMR、超极化与EPR",
+        "original_summary_cn": "西班牙皇家化学会第13届GERMN双年会于10月4—7日在Ciudad Real举行。官方范围覆盖生物与小分子NMR、台式硬件、超极化、微流控、固体NMR、EPR、on-cell NMR、其他核种及计算方法，并安排工业合作与仪器实践交流。",
+        "original_meaning_cn": "面向方案交流可按样品类型预先整理场强、探头、转子/样品管、温度、脉冲序列、超极化来源和软件流程；关注台式机、微流控及EPR议题时，应向报告方索取灵敏度、线宽、死时间、通量和标准样验证数据，避免只比较名义配置。",
+        "original_tags": [
+          "NMR＋EPR",
+          "溶液NMR",
+          "固体NMR",
+          "台式NMR",
+          "连续波EPR",
+          "脉冲EPR",
+          "仪器",
+          "教育培训",
+          "磁体",
+          "探头",
+          "谐振器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261005-02",
+      "report_date": "2026-10-05",
+      "item_no": 2,
+      "title_cn": "炔桥双三苯甲基diradicaloid以EPR定量交换耦合",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "cw_epr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "chemical_structure",
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "ChemRxiv报道三种持久炔桥双tetrathiaarylmethyl自由基。EPR与磁化率共同给出交换耦合，单重态—三重态能隙分别约−1、−0.4和−0.05 kcal/mol；DFT所得双自由基特征为0.47、0.53和0.76，建立结构、开壳层程度与稳定性的联系。",
+      "meaning_cn": "复现实验应控制自由基纯度、浓度、溶剂/玻璃化基质、氧含量与温度，并记录微波功率、调制幅度、线宽及积分。J值不能只由单温谱线判断，需联合变温EPR全谱模拟和磁化率拟合，同时检查分子间聚集、氧化及功率饱和造成的假耦合。",
+      "publication_date": "2026-10-01",
+      "time_scope": "7d_extension",
+      "source": "ChemRxiv",
+      "url": "https://chemrxiv.org/doi/10.26434/chemrxiv.15009495",
+      "doi": "10.26434/chemrxiv.15009495/v2",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-05",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-05.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "材料",
+          "化学结构",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": null,
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-05.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "炔桥双三苯甲基diradicaloid以EPR定量交换耦合；ChemRxiv报道三种持久炔桥双tetrathiaarylmethyl自由基。EPR与磁化率共同给出交换耦合，单重态—三重态能隙分别约−1、−0.4和−0.05 kcal/mol；DFT所得双自由基特征为0.47、0.53和0.76，建立结构、开壳层程度与稳定性的联系。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "cw_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "炔桥双三苯甲基diradicaloid以EPR定量交换耦合；ChemRxiv报道三种持久炔桥双tetrathiaarylmethyl自由基。EPR与磁化率共同给出交换耦合，单重态—三重态能隙分别约−1、−0.4和−0.05 kcal/mol；DFT所得双自由基特征为0.47、0.53和0.76，建立结构、开壳层程度与稳定性的联系。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "炔桥双三苯甲基diradicaloid以EPR定量交换耦合；ChemRxiv报道三种持久炔桥双tetrathiaarylmethyl自由基。EPR与磁化率共同给出交换耦合，单重态—三重态能隙分别约−1、−0.4和−0.05 kcal/mol；DFT所得双自由基特征为0.47、0.53和0.76，建立结构、开壳层程度与稳定性的联系。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "炔桥双三苯甲基diradicaloid以EPR定量交换耦合；ChemRxiv报道三种持久炔桥双tetrathiaarylmethyl自由基。EPR与磁化率共同给出交换耦合，单重态—三重态能隙分别约−1、−0.4和−0.05 kcal/mol；DFT所得双自由基特征为0.47、0.53和0.76，建立结构、开壳层程度与稳定性的联系。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "炔桥双三苯甲基diradicaloid以EPR定量交换耦合",
+        "original_summary_cn": "ChemRxiv报道三种持久炔桥双tetrathiaarylmethyl自由基。EPR与磁化率共同给出交换耦合，单重态—三重态能隙分别约−1、−0.4和−0.05 kcal/mol；DFT所得双自由基特征为0.47、0.53和0.76，建立结构、开壳层程度与稳定性的联系。",
+        "original_meaning_cn": "复现实验应控制自由基纯度、浓度、溶剂/玻璃化基质、氧含量与温度，并记录微波功率、调制幅度、线宽及积分。J值不能只由单温谱线判断，需联合变温EPR全谱模拟和磁化率拟合，同时检查分子间聚集、氧化及功率饱和造成的假耦合。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "材料",
+          "化学结构",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261005-03",
+      "report_date": "2026-10-05",
+      "item_no": 3,
+      "title_cn": "黄芩素自由基阳离子互变异构给出三组EPR指纹",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "natural_products",
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "ChemRxiv以DFT/UM06-2X/EPR-III预测黄芩素自由基阳离子C1与质子转移C2互变体的超精细耦合。水中O5耦合近乎加倍、C5耦合符号反转、迁移质子耦合近乎消失；三类差异在介电常数1—78的14种介质中保持。",
+      "meaning_cn": "计算结果包含O5与C5耦合变化。常规未作同位素富集的CW-EPR主要反映磁性同位素的贡献，不能直接观察所有氧、碳位点的计算耦合；普通各向同性CW谱通常也不能唯一确定超精细耦合符号。因此应先计算天然同位素丰度下两互变体的可观察谱差，再评估¹⁷O或¹³C标记及ENDOR类实验。氘代可检验迁移质子的贡献，但须同时考虑同位素替换对互变平衡的影响。计算差异仍需实验检验。",
+      "publication_date": "2026-09-30",
+      "time_scope": "7d_extension",
+      "source": "ChemRxiv",
+      "url": "https://chemrxiv.org/doi/10.26434/chemrxiv.15009667",
+      "doi": "10.26434/chemrxiv.15009667/v1",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-05",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-05.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "天然产物",
+          "化学结构",
+          "谐振器",
+          "软件"
+        ],
+        "original_type": null,
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-05.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "黄芩素自由基阳离子互变异构给出三组EPR指纹；ChemRxiv以DFT/UM06-2X/EPR-III预测黄芩素自由基阳离子C1与质子转移C2互变体的超精细耦合。水中O5耦合近乎加倍、C5耦合符号反转、迁移质子耦合近乎消失；三类差异在介电常数1—78的14种介质中保持。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "natural_products",
+          "dimension": "application_ids",
+          "basis": "黄芩素自由基阳离子互变异构给出三组EPR指纹；ChemRxiv以DFT/UM06-2X/EPR-III预测黄芩素自由基阳离子C1与质子转移C2互变体的超精细耦合。水中O5耦合近乎加倍、C5耦合符号反转、迁移质子耦合近乎消失；三类差异在介电常数1—78的14种介质中保持。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "黄芩素自由基阳离子互变异构给出三组EPR指纹；ChemRxiv以DFT/UM06-2X/EPR-III预测黄芩素自由基阳离子C1与质子转移C2互变体的超精细耦合。水中O5耦合近乎加倍、C5耦合符号反转、迁移质子耦合近乎消失；三类差异在介电常数1—78的14种介质中保持。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "黄芩素自由基阳离子互变异构给出三组EPR指纹",
+        "original_summary_cn": "ChemRxiv以DFT/UM06-2X/EPR-III预测黄芩素自由基阳离子C1与质子转移C2互变体的超精细耦合。水中O5耦合近乎加倍、C5耦合符号反转、迁移质子耦合近乎消失；三类差异在介电常数1—78的14种介质中保持。",
+        "original_meaning_cn": "这是计算指纹而非已完成的实验鉴定。验证应选择能稳定自由基阳离子的氧化体系，记录溶剂、pH、温度、氧化剂比例和生成时间，并用低功率CW-EPR、同位素替换及全谱超精细模拟同时检验O5、C5和迁移质子；单一g值或峰位不足以区分互变体。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "天然产物",
+          "化学结构",
+          "谐振器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20261005-04",
+      "report_date": "2026-10-05",
+      "item_no": 4,
+      "title_cn": "MAS固体NMR否定氟代缬氨酸机械化学成簇",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "mas"
+      ],
+      "application_ids": [
+        "inorganic_coordination",
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "ChemRxiv以MAS固体NMR作为核心分析手段复核ZnO诱导外消旋氨基酸成簇。¹⁹F标记DL-缬氨酸未形成预期conglomerate，而与ZnO/甲醇生成一锌二配体聚合物；未氟化缬氨酸则形成Zn₄(D-Val)₄(L-Val)₄四核物种，RAM也得到同一产物。",
+      "meaning_cn": "机械化学筛查需同时记录球磨频率、时间、球料比、甲醇液助研量、RAM能量和取样节点。固体NMR应报告核种、MAS转速、直接激发或CP条件、回收延迟及转子填充，并与PXRD和单晶结构交叉验证；¹⁹F标签可能改变配位结果，不能直接外推至母体。",
+      "publication_date": "2026-10-01",
+      "time_scope": "7d_extension",
+      "source": "ChemRxiv",
+      "url": "https://chemrxiv.org/doi/10.26434/chemrxiv.15009741",
+      "doi": "10.26434/chemrxiv.15009741/v1",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-05",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-05.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "材料",
+          "化学结构",
+          "无机配位",
+          "探头",
+          "软件"
+        ],
+        "original_type": null,
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-05.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "MAS固体NMR否定氟代缬氨酸机械化学成簇；ChemRxiv以MAS固体NMR作为核心分析手段复核ZnO诱导外消旋氨基酸成簇。¹⁹F标记DL-缬氨酸未形成预期conglomerate，而与ZnO/甲醇生成一锌二配体聚合物；未氟化缬氨酸则形成Zn₄(D-Val)₄(L-Val)₄四核物种，RAM也得到同一产物。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "MAS固体NMR否定氟代缬氨酸机械化学成簇；ChemRxiv以MAS固体NMR作为核心分析手段复核ZnO诱导外消旋氨基酸成簇。¹⁹F标记DL-缬氨酸未形成预期conglomerate，而与ZnO/甲醇生成一锌二配体聚合物；未氟化缬氨酸则形成Zn₄(D-Val)₄(L-Val)₄四核物种，RAM也得到同一产物。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "mas",
+          "dimension": "method_ids",
+          "basis": "MAS固体NMR否定氟代缬氨酸机械化学成簇；ChemRxiv以MAS固体NMR作为核心分析手段复核ZnO诱导外消旋氨基酸成簇。¹⁹F标记DL-缬氨酸未形成预期conglomerate，而与ZnO/甲醇生成一锌二配体聚合物；未氟化缬氨酸则形成Zn₄(D-Val)₄(L-Val)₄四核物种，RAM也得到同一产物。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "inorganic_coordination",
+          "dimension": "application_ids",
+          "basis": "MAS固体NMR否定氟代缬氨酸机械化学成簇；ChemRxiv以MAS固体NMR作为核心分析手段复核ZnO诱导外消旋氨基酸成簇。¹⁹F标记DL-缬氨酸未形成预期conglomerate，而与ZnO/甲醇生成一锌二配体聚合物；未氟化缬氨酸则形成Zn₄(D-Val)₄(L-Val)₄四核物种，RAM也得到同一产物。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "MAS固体NMR否定氟代缬氨酸机械化学成簇；ChemRxiv以MAS固体NMR作为核心分析手段复核ZnO诱导外消旋氨基酸成簇。¹⁹F标记DL-缬氨酸未形成预期conglomerate，而与ZnO/甲醇生成一锌二配体聚合物；未氟化缬氨酸则形成Zn₄(D-Val)₄(L-Val)₄四核物种，RAM也得到同一产物。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "MAS固体NMR否定氟代缬氨酸机械化学成簇",
+        "original_summary_cn": "ChemRxiv以MAS固体NMR作为核心分析手段复核ZnO诱导外消旋氨基酸成簇。¹⁹F标记DL-缬氨酸未形成预期conglomerate，而与ZnO/甲醇生成一锌二配体聚合物；未氟化缬氨酸则形成Zn₄(D-Val)₄(L-Val)₄四核物种，RAM也得到同一产物。",
+        "original_meaning_cn": "机械化学筛查需同时记录球磨频率、时间、球料比、甲醇液助研量、RAM能量和取样节点。固体NMR应报告核种、MAS转速、直接激发或CP条件、回收延迟及转子填充，并与PXRD和单晶结构交叉验证；¹⁹F标签可能改变配位结果，不能直接外推至母体。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "材料",
+          "化学结构",
+          "无机配位",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261005-05",
+      "report_date": "2026-10-05",
+      "item_no": 5,
+      "title_cn": "磁各向异性辅助¹⁹F NMR同时定量镧系离子",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "qnmr",
+        "paramagnetic_nmr"
+      ],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Analytical Chemistry设计CF₃-TDA与F-TDA两类含¹⁹F报告基和金属螯合位点的探针，利用不同Ln³⁺复合物的磁各向异性产生可分辨¹⁹F化学位移。方法可在混合物及常见竞争金属离子存在时同时识别并定量多个镧系离子。",
+      "meaning_cn": "含氟探针把不同Ln³⁺转化为可分辨的¹⁹F信号，定量可靠性同时取决于络合比例、交换速率和弛豫。峰已分开并不保证积分与总金属浓度成正比：若存在未络合金属、游离探针或快速衰减的宽峰，响应可能偏低。建议逐离子测T₁、检查接收死时间与积分窗，再用已知组成混合物做加标回收；在固定pH、探针过量条件下改变总浓度，检验响应线性及竞争络合。检出限与混合物回收率需依据原文实验数据评价。",
+      "publication_date": "2026-09-30",
+      "time_scope": "7d_extension",
+      "source": "Analytical Chemistry",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.analchem.6c02571",
+      "doi": "10.1021/acs.analchem.6c02571",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-05",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-05.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "qNMR",
+          "多核NMR",
+          "顺磁NMR",
+          "无机配位",
+          "过程分析",
+          "探头",
+          "软件"
+        ],
+        "original_type": null,
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-05.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "磁各向异性辅助¹⁹F NMR同时定量镧系离子；Analytical Chemistry设计CF₃-TDA与F-TDA两类含¹⁹F报告基和金属螯合位点的探针，利用不同Ln³⁺复合物的磁各向异性产生可分辨¹⁹F化学位移。方法可在混合物及常见竞争金属离子存在时同时识别并定量多个镧系离子。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "磁各向异性辅助¹⁹F NMR同时定量镧系离子；Analytical Chemistry设计CF₃-TDA与F-TDA两类含¹⁹F报告基和金属螯合位点的探针，利用不同Ln³⁺复合物的磁各向异性产生可分辨¹⁹F化学位移。方法可在混合物及常见竞争金属离子存在时同时识别并定量多个镧系离子。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "qnmr",
+          "dimension": "method_ids",
+          "basis": "磁各向异性辅助¹⁹F NMR同时定量镧系离子；Analytical Chemistry设计CF₃-TDA与F-TDA两类含¹⁹F报告基和金属螯合位点的探针，利用不同Ln³⁺复合物的磁各向异性产生可分辨¹⁹F化学位移。方法可在混合物及常见竞争金属离子存在时同时识别并定量多个镧系离子。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "paramagnetic_nmr",
+          "dimension": "method_ids",
+          "basis": "磁各向异性辅助¹⁹F NMR同时定量镧系离子；Analytical Chemistry设计CF₃-TDA与F-TDA两类含¹⁹F报告基和金属螯合位点的探针，利用不同Ln³⁺复合物的磁各向异性产生可分辨¹⁹F化学位移。方法可在混合物及常见竞争金属离子存在时同时识别并定量多个镧系离子。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "inorganic_coordination",
+          "dimension": "application_ids",
+          "basis": "磁各向异性辅助¹⁹F NMR同时定量镧系离子；Analytical Chemistry设计CF₃-TDA与F-TDA两类含¹⁹F报告基和金属螯合位点的探针，利用不同Ln³⁺复合物的磁各向异性产生可分辨¹⁹F化学位移。方法可在混合物及常见竞争金属离子存在时同时识别并定量多个镧系离子。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "磁各向异性辅助¹⁹F NMR同时定量镧系离子",
+        "original_summary_cn": "Analytical Chemistry设计CF₃-TDA与F-TDA两类含¹⁹F报告基和金属螯合位点的探针，利用不同Ln³⁺复合物的磁各向异性产生可分辨¹⁹F化学位移。方法可在混合物及常见竞争金属离子存在时同时识别并定量多个镧系离子。",
+        "original_meaning_cn": "方法转移要固定探针/金属比、pH、离子强度、温度、混合平衡时间和内标浓度，并为每种Ln³⁺建立化学位移、线宽与积分响应曲线。顺磁弛豫会改变T₁/T₂和可积性，需设置足够回收延迟、检查交换展宽与峰重叠，并用ICP类方法做独立回收率验证。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "qNMR",
+          "多核NMR",
+          "顺磁NMR",
+          "无机配位",
+          "过程分析",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261005-06",
+      "report_date": "2026-10-05",
+      "item_no": 6,
+      "title_cn": "MD–NMR以T₁预测纳米限域CO₂–正癸烷最低混相压力",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "computation_nmr",
+        "relaxometry"
+      ],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Langmuir将分子动力学与NMR弛豫理论联用，以质子T₁构建CO₂–正癸烷最低混相压力指标。模型给出体相MMP 11.77 MPa，与实验值一致；5 nm方解石狭缝中降至8.08 MPa，并以空间分辨T₁解释更窄孔道中MMP反常升高。",
+      "meaning_cn": "该结果首先是模拟预测。实验验证需采用耐压NMR管路或岩心探头，明确压力、温度、孔径、方解石表面状态、CO₂纯度和相平衡时间；T₁应以统一反转/饱和恢复序列测量并报告拟合模型。设计注入窗口时还要核对扩散、界面消失和超高压下迁移受限。",
+      "publication_date": "2026-10-01",
+      "time_scope": "7d_extension",
+      "source": "Langmuir",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.langmuir.6c03962",
+      "doi": "10.1021/acs.langmuir.6c03962",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-05",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-05.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "计算NMR",
+          "地学流动",
+          "过程分析",
+          "软件"
+        ],
+        "original_type": null,
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-05.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "MD–NMR以T₁预测纳米限域CO₂–正癸烷最低混相压力；Langmuir将分子动力学与NMR弛豫理论联用，以质子T₁构建CO₂–正癸烷最低混相压力指标。模型给出体相MMP 11.77 MPa，与实验值一致；5 nm方解石狭缝中降至8.08 MPa，并以空间分辨T₁解释更窄孔道中MMP反常升高。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "computation_nmr",
+          "dimension": "method_ids",
+          "basis": "MD–NMR以T₁预测纳米限域CO₂–正癸烷最低混相压力；Langmuir将分子动力学与NMR弛豫理论联用，以质子T₁构建CO₂–正癸烷最低混相压力指标。模型给出体相MMP 11.77 MPa，与实验值一致；5 nm方解石狭缝中降至8.08 MPa，并以空间分辨T₁解释更窄孔道中MMP反常升高。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "MD–NMR以T₁预测纳米限域CO₂–正癸烷最低混相压力；Langmuir将分子动力学与NMR弛豫理论联用，以质子T₁构建CO₂–正癸烷最低混相压力指标。模型给出体相MMP 11.77 MPa，与实验值一致；5 nm方解石狭缝中降至8.08 MPa，并以空间分辨T₁解释更窄孔道中MMP反常升高。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "geoscience_flow",
+          "dimension": "application_ids",
+          "basis": "MD–NMR以T₁预测纳米限域CO₂–正癸烷最低混相压力；Langmuir将分子动力学与NMR弛豫理论联用，以质子T₁构建CO₂–正癸烷最低混相压力指标。模型给出体相MMP 11.77 MPa，与实验值一致；5 nm方解石狭缝中降至8.08 MPa，并以空间分辨T₁解释更窄孔道中MMP反常升高。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "MD–NMR以T₁预测纳米限域CO₂–正癸烷最低混相压力",
+        "original_summary_cn": "Langmuir将分子动力学与NMR弛豫理论联用，以质子T₁构建CO₂–正癸烷最低混相压力指标。模型给出体相MMP 11.77 MPa，与实验值一致；5 nm方解石狭缝中降至8.08 MPa，并以空间分辨T₁解释更窄孔道中MMP反常升高。",
+        "original_meaning_cn": "该结果首先是模拟预测。实验验证需采用耐压NMR管路或岩心探头，明确压力、温度、孔径、方解石表面状态、CO₂纯度和相平衡时间；T₁应以统一反转/饱和恢复序列测量并报告拟合模型。设计注入窗口时还要核对扩散、界面消失和超高压下迁移受限。",
+        "original_tags": [
+          "NMR",
+          "计算NMR",
+          "地学流动",
+          "过程分析",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20261005-07",
+      "report_date": "2026-10-05",
+      "item_no": 7,
+      "title_cn": "qNMR为紫杉醇杂质CRM建立SI可溯源赋值",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "qnmr"
+      ],
+      "application_ids": [
+        "pharma"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "CHIMIA介绍多种紫杉醇相关杂质的合成与认证，以qNMR作为含量赋值的相对一级方法，并在可获得时与药典标准比较。所得认证标准物质按ISO 17034开发，使复杂药物杂质的纯度值及不确定度可追溯至国际单位制。",
+      "meaning_cn": "紫杉醇相关杂质结构复杂，qNMR赋值首先要确认所选峰不受其他杂质及残留溶剂干扰，并比较两个独立积分区。对完全饱和后的90°单脉冲实验，信号恢复分数为1−exp(−TR/T₁)；TR=5T₁仍有约0.67%未恢复，不能仅写回收延迟覆盖最长T₁。应按目标不确定度选择TR，并测定分析物和内标各自T₁；TR须计入采集时间。称量、内标纯度、积分重复性与样品稳定性还需分别评估，单次谱图不能完成CRM认证。",
+      "publication_date": "2026-09-30",
+      "time_scope": "7d_extension",
+      "source": "CHIMIA",
+      "url": "https://www.chimia.ch/chimia/article/view/2026_631",
+      "doi": "10.2533/chimia.2026.631",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-05",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-05.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "qNMR",
+          "药物分析",
+          "过程分析",
+          "探头",
+          "软件"
+        ],
+        "original_type": null,
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-05.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "qNMR为紫杉醇杂质CRM建立SI可溯源赋值；CHIMIA介绍多种紫杉醇相关杂质的合成与认证，以qNMR作为含量赋值的相对一级方法，并在可获得时与药典标准比较。所得认证标准物质按ISO 17034开发，使复杂药物杂质的纯度值及不确定度可追溯至国际单位制。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "qNMR为紫杉醇杂质CRM建立SI可溯源赋值；CHIMIA介绍多种紫杉醇相关杂质的合成与认证，以qNMR作为含量赋值的相对一级方法，并在可获得时与药典标准比较。所得认证标准物质按ISO 17034开发，使复杂药物杂质的纯度值及不确定度可追溯至国际单位制。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "qnmr",
+          "dimension": "method_ids",
+          "basis": "qNMR为紫杉醇杂质CRM建立SI可溯源赋值；CHIMIA介绍多种紫杉醇相关杂质的合成与认证，以qNMR作为含量赋值的相对一级方法，并在可获得时与药典标准比较。所得认证标准物质按ISO 17034开发，使复杂药物杂质的纯度值及不确定度可追溯至国际单位制。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pharma",
+          "dimension": "application_ids",
+          "basis": "qNMR为紫杉醇杂质CRM建立SI可溯源赋值；CHIMIA介绍多种紫杉醇相关杂质的合成与认证，以qNMR作为含量赋值的相对一级方法，并在可获得时与药典标准比较。所得认证标准物质按ISO 17034开发，使复杂药物杂质的纯度值及不确定度可追溯至国际单位制。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "qNMR为紫杉醇杂质CRM建立SI可溯源赋值",
+        "original_summary_cn": "CHIMIA介绍多种紫杉醇相关杂质的合成与认证，以qNMR作为含量赋值的相对一级方法，并在可获得时与药典标准比较。所得认证标准物质按ISO 17034开发，使复杂药物杂质的纯度值及不确定度可追溯至国际单位制。",
+        "original_meaning_cn": "建立CRM时应锁定结构异构体、残留溶剂和水分，使用经认证内标与可追溯称量；qNMR需校准90°脉冲、接收线性、温度和基线，回收延迟至少覆盖最长T₁。报告应包含均匀性、短/长期稳定性、积分区选择、不确定度预算及与药典标准的偏差。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "qNMR",
+          "药物分析",
+          "过程分析",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261005-08",
+      "report_date": "2026-10-05",
+      "item_no": 8,
+      "title_cn": "¹H NMR–OPLS-DA优选真菌共培养抑菌代谢物",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "natural_products"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Frontiers in Natural Products把三种果源真菌的单培养、两两及三方共培养表型与¹H NMR–OPLS-DA连接。模型以7份活性粗提物和31种纯化代谢物谱图排序候选，Q²为0.748；排名前5者在50 μg/mL初筛中均对至少一个靶真菌呈显著活性。",
+      "meaning_cn": "复现应统一培养基、接种比、培养时间、干重归一化、提取溶剂、pH和NMR内标，并保存原始FID、分箱/对齐规则与排除区。OPLS-DA必须报告交叉验证、置换检验和独立测试集；候选排序只用于优选，仍需纯品浓度梯度、MIC及单培养对照确认。",
+      "publication_date": "2026-09-30",
+      "time_scope": "7d_extension",
+      "source": "Frontiers in Natural Products",
+      "url": "https://www.frontiersin.org/journals/natural-products/articles/10.3389/fntpr.2026.1879578/full",
+      "doi": "10.3389/fntpr.2026.1879578",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-05",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-05.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "代谢组学",
+          "生命科学",
+          "天然产物",
+          "探头",
+          "自动进样器",
+          "软件"
+        ],
+        "original_type": null,
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-05.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "¹H NMR–OPLS-DA优选真菌共培养抑菌代谢物；Frontiers in Natural Products把三种果源真菌的单培养、两两及三方共培养表型与¹H NMR–OPLS-DA连接。模型以7份活性粗提物和31种纯化代谢物谱图排序候选，Q²为0.748；排名前5者在50 μg/mL初筛中均对至少一个靶真菌呈显著活性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "¹H NMR–OPLS-DA优选真菌共培养抑菌代谢物；Frontiers in Natural Products把三种果源真菌的单培养、两两及三方共培养表型与¹H NMR–OPLS-DA连接。模型以7份活性粗提物和31种纯化代谢物谱图排序候选，Q²为0.748；排名前5者在50 μg/mL初筛中均对至少一个靶真菌呈显著活性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "metabolomics",
+          "dimension": "method_ids",
+          "basis": "¹H NMR–OPLS-DA优选真菌共培养抑菌代谢物；Frontiers in Natural Products把三种果源真菌的单培养、两两及三方共培养表型与¹H NMR–OPLS-DA连接。模型以7份活性粗提物和31种纯化代谢物谱图排序候选，Q²为0.748；排名前5者在50 μg/mL初筛中均对至少一个靶真菌呈显著活性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "natural_products",
+          "dimension": "application_ids",
+          "basis": "¹H NMR–OPLS-DA优选真菌共培养抑菌代谢物；Frontiers in Natural Products把三种果源真菌的单培养、两两及三方共培养表型与¹H NMR–OPLS-DA连接。模型以7份活性粗提物和31种纯化代谢物谱图排序候选，Q²为0.748；排名前5者在50 μg/mL初筛中均对至少一个靶真菌呈显著活性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "¹H NMR–OPLS-DA优选真菌共培养抑菌代谢物",
+        "original_summary_cn": "Frontiers in Natural Products把三种果源真菌的单培养、两两及三方共培养表型与¹H NMR–OPLS-DA连接。模型以7份活性粗提物和31种纯化代谢物谱图排序候选，Q²为0.748；排名前5者在50 μg/mL初筛中均对至少一个靶真菌呈显著活性。",
+        "original_meaning_cn": "复现应统一培养基、接种比、培养时间、干重归一化、提取溶剂、pH和NMR内标，并保存原始FID、分箱/对齐规则与排除区。OPLS-DA必须报告交叉验证、置换检验和独立测试集；候选排序只用于优选，仍需纯品浓度梯度、MIC及单培养对照确认。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "代谢组学",
+          "生命科学",
+          "天然产物",
+          "探头",
+          "自动进样器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261005-09",
+      "report_date": "2026-10-05",
+      "item_no": 9,
+      "title_cn": "零场NMR识别铁氧体异质界面的超精细场",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "zero_field_nmr"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "SSRN预印本联合⁵⁷Fe穆斯堡尔、零场NMR、HR-STEM和蒙特卡洛研究CoFe₂O₄/SrFe₁₂O₁₉异质结构。界面Fe³⁺呈中间超精细场及对应NMR频移；NMR增强因子随组成、温度和反转模式变化，指示从非相干到更相干的磁化反转。",
+      "meaning_cn": "零场铁磁NMR应逐点报告频扫范围、RF脉冲幅度/长度、回波延迟、温度、样品组成和质量，并用统一增益计算增强因子。界面峰归属需与单相CFO/SFO、粒径系列和穆斯堡尔分量共同拟合；若未校正畴壁运动和RF增强，峰面积不能直接当作界面原子比例。",
+      "publication_date": "2026-10-03",
+      "time_scope": "7d_extension",
+      "source": "SSRN / Acta Materialia预印本",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7552179",
+      "doi": "10.2139/ssrn.7552179",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-05",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-05.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "顺磁NMR",
+          "材料",
+          "无机配位",
+          "探头",
+          "软件"
+        ],
+        "original_type": null,
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-05.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "零场NMR识别铁氧体异质界面的超精细场；SSRN预印本联合⁵⁷Fe穆斯堡尔、零场NMR、HR-STEM和蒙特卡洛研究CoFe₂O₄/SrFe₁₂O₁₉异质结构。界面Fe³⁺呈中间超精细场及对应NMR频移；NMR增强因子随组成、温度和反转模式变化，指示从非相干到更相干的磁化反转。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "零场NMR识别铁氧体异质界面的超精细场；SSRN预印本联合⁵⁷Fe穆斯堡尔、零场NMR、HR-STEM和蒙特卡洛研究CoFe₂O₄/SrFe₁₂O₁₉异质结构。界面Fe³⁺呈中间超精细场及对应NMR频移；NMR增强因子随组成、温度和反转模式变化，指示从非相干到更相干的磁化反转。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "zero_field_nmr",
+          "dimension": "method_ids",
+          "basis": "零场NMR识别铁氧体异质界面的超精细场；SSRN预印本联合⁵⁷Fe穆斯堡尔、零场NMR、HR-STEM和蒙特卡洛研究CoFe₂O₄/SrFe₁₂O₁₉异质结构。界面Fe³⁺呈中间超精细场及对应NMR频移；NMR增强因子随组成、温度和反转模式变化，指示从非相干到更相干的磁化反转。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "零场NMR识别铁氧体异质界面的超精细场；SSRN预印本联合⁵⁷Fe穆斯堡尔、零场NMR、HR-STEM和蒙特卡洛研究CoFe₂O₄/SrFe₁₂O₁₉异质结构。界面Fe³⁺呈中间超精细场及对应NMR频移；NMR增强因子随组成、温度和反转模式变化，指示从非相干到更相干的磁化反转。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "零场NMR识别铁氧体异质界面的超精细场",
+        "original_summary_cn": "SSRN预印本联合⁵⁷Fe穆斯堡尔、零场NMR、HR-STEM和蒙特卡洛研究CoFe₂O₄/SrFe₁₂O₁₉异质结构。界面Fe³⁺呈中间超精细场及对应NMR频移；NMR增强因子随组成、温度和反转模式变化，指示从非相干到更相干的磁化反转。",
+        "original_meaning_cn": "零场铁磁NMR应逐点报告频扫范围、RF脉冲幅度/长度、回波延迟、温度、样品组成和质量，并用统一增益计算增强因子。界面峰归属需与单相CFO/SFO、粒径系列和穆斯堡尔分量共同拟合；若未校正畴壁运动和RF增强，峰面积不能直接当作界面原子比例。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "顺磁NMR",
+          "材料",
+          "无机配位",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261005-10",
+      "report_date": "2026-10-05",
+      "item_no": 10,
+      "title_cn": "二维NMR首次无歧义指认硫杂环丁烷轴向/赤道向质子",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure",
+        "pharma"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Molecules合成硫杂环丁烷取代的1-isobutylpurine-2,6-dione系列，并以二维NMR对起始物中的thietane构象作系统分析，首次无歧义区分环上轴向与赤道向质子。新化合物还显示超过乙酰水杨酸的血小板聚集抑制，提出GPIIb/IIIa为潜在靶点。",
+      "meaning_cn": "结构确认应在固定溶剂、温度和浓度下联合COSY、HSQC、HMBC及NOE/ROE类实验，保留混合时间、相位循环、数字分辨率和关键交叉峰。轴/赤道归属需同时满足J耦合、空间相关与构象计算；活性结果应与纯度、异构体比例和独立受体实验配对。",
+      "publication_date": "2026-10-02",
+      "time_scope": "7d_extension",
+      "source": "Molecules",
+      "url": "https://www.mdpi.com/1420-3049/31/19/3521",
+      "doi": "10.3390/molecules31193521",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-05",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-05.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "化学结构",
+          "药物分析",
+          "探头",
+          "软件"
+        ],
+        "original_type": null,
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-05.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "二维NMR首次无歧义指认硫杂环丁烷轴向/赤道向质子；Molecules合成硫杂环丁烷取代的1-isobutylpurine-2,6-dione系列，并以二维NMR对起始物中的thietane构象作系统分析，首次无歧义区分环上轴向与赤道向质子。新化合物还显示超过乙酰水杨酸的血小板聚集抑制，提出GPIIb/IIIa为潜在靶点。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "二维NMR首次无歧义指认硫杂环丁烷轴向/赤道向质子；Molecules合成硫杂环丁烷取代的1-isobutylpurine-2,6-dione系列，并以二维NMR对起始物中的thietane构象作系统分析，首次无歧义区分环上轴向与赤道向质子。新化合物还显示超过乙酰水杨酸的血小板聚集抑制，提出GPIIb/IIIa为潜在靶点。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "二维NMR首次无歧义指认硫杂环丁烷轴向/赤道向质子；Molecules合成硫杂环丁烷取代的1-isobutylpurine-2,6-dione系列，并以二维NMR对起始物中的thietane构象作系统分析，首次无歧义区分环上轴向与赤道向质子。新化合物还显示超过乙酰水杨酸的血小板聚集抑制，提出GPIIb/IIIa为潜在靶点。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "二维NMR首次无歧义指认硫杂环丁烷轴向/赤道向质子；Molecules合成硫杂环丁烷取代的1-isobutylpurine-2,6-dione系列，并以二维NMR对起始物中的thietane构象作系统分析，首次无歧义区分环上轴向与赤道向质子。新化合物还显示超过乙酰水杨酸的血小板聚集抑制，提出GPIIb/IIIa为潜在靶点。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pharma",
+          "dimension": "application_ids",
+          "basis": "二维NMR首次无歧义指认硫杂环丁烷轴向/赤道向质子；Molecules合成硫杂环丁烷取代的1-isobutylpurine-2,6-dione系列，并以二维NMR对起始物中的thietane构象作系统分析，首次无歧义区分环上轴向与赤道向质子。新化合物还显示超过乙酰水杨酸的血小板聚集抑制，提出GPIIb/IIIa为潜在靶点。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "二维NMR首次无歧义指认硫杂环丁烷轴向/赤道向质子",
+        "original_summary_cn": "Molecules合成硫杂环丁烷取代的1-isobutylpurine-2,6-dione系列，并以二维NMR对起始物中的thietane构象作系统分析，首次无歧义区分环上轴向与赤道向质子。新化合物还显示超过乙酰水杨酸的血小板聚集抑制，提出GPIIb/IIIa为潜在靶点。",
+        "original_meaning_cn": "结构确认应在固定溶剂、温度和浓度下联合COSY、HSQC、HMBC及NOE/ROE类实验，保留混合时间、相位循环、数字分辨率和关键交叉峰。轴/赤道归属需同时满足J耦合、空间相关与构象计算；活性结果应与纯度、异构体比例和独立受体实验配对。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "化学结构",
+          "药物分析",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "范围说明：常规检索未确认到可严格证明落在过去24小时内的合格新增，少于5条，已启动增强搜索。增强检索覆盖Journal of Magnetic Resonance及其他指定磁共振期刊的Latest/Articles in Press、ACS、RSC、Wiley、Springer Nature、Elsevier和AIP平台，并分别核查Crossref、ChemRxiv、arXiv、PubMed、科研机构、主要仪器厂商、专业会议及中外采购；同时按液体NMR、固体NMR/MAS/DNP、低场与TD-NMR、谱图处理、CW/rapid-scan EPR、脉冲EPR、TREPR、operando EPR及仪器部件分组检索。JMR Articles in Press已单独核查，但未发现排除近期重复后可新增收录的论文。增强阶段确认10条合格且未重复的信息，因此未触发第二级深度增强检索。本期10条均因页面仅提供日期或事件起始日、无法证明精确落在过去24小时内而标为近7天扩展；结合最近7期70条结构化记录按标准化DOI、规范化URL和标题查重，排除12条重复候选，另排除18条日期不明、常驻页面、医学MRI、缩写误检或仅把NMR/EPR作为辅助表征的候选。",
+    "source_sha256": "7fcf4ab765ff1f6173397a349d220ab372ac2c451b23ba4860909c037799f55a",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

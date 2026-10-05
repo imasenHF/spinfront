@@ -1,0 +1,1186 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-10-04",
+  "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20261004-01",
+      "report_date": "2026-10-04",
+      "item_no": 1,
+      "title_cn": "Q波段EPR低温探头以微波开关兼顾灵敏度与短脉冲",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "instrument_component_ids": [
+        "microwave_bridge",
+        "amplifier"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "SSRN预印本报道switch-based Q-band EPR cryoprobe：快速微波开关分离高功率激发与低噪声接收，低温前置放大器靠近谐振器。6 K时电压S/N约提高6倍、等效测量时间缩短36倍；系统承受至少10 W脉冲功率，并以10 W固态放大器实现32 ns π脉冲。",
+      "meaning_cn": "硬件评估应分别测开关隔离度、插入损耗、低噪放增益/噪声温度、谐振器Q值与恢复死时间，并用同一标准样在室温链路和6 K链路比较回波S/N。还需记录样品实际温度、B1分布、脉冲压缩与功率漂移，避免把接收增益误当作自旋数增加。",
+      "publication_date": "2026-10-02",
+      "time_scope": "7d_extension",
+      "source": "SSRN",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7553108",
+      "doi": "10.2139/ssrn.7553108",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-04",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-04.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "仪器",
+          "磁体",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "EPR｜脉冲EPR｜仪器",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-04.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "Q波段EPR低温探头以微波开关兼顾灵敏度与短脉冲；SSRN预印本报道switch-based Q-band EPR cryoprobe：快速微波开关分离高功率激发与低噪声接收，低温前置放大器靠近谐振器。6 K时电压S/N约提高6倍、等效测量时间缩短36倍；系统承受至少10 W脉冲功率，并以10 W固态放大器实现32 ns π脉冲。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "Q波段EPR低温探头以微波开关兼顾灵敏度与短脉冲；SSRN预印本报道switch-based Q-band EPR cryoprobe：快速微波开关分离高功率激发与低噪声接收，低温前置放大器靠近谐振器。6 K时电压S/N约提高6倍、等效测量时间缩短36倍；系统承受至少10 W脉冲功率，并以10 W固态放大器实现32 ns π脉冲。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "instrumentation",
+          "dimension": "application_ids",
+          "basis": "Q波段EPR低温探头以微波开关兼顾灵敏度与短脉冲；SSRN预印本报道switch-based Q-band EPR cryoprobe：快速微波开关分离高功率激发与低噪声接收，低温前置放大器靠近谐振器。6 K时电压S/N约提高6倍、等效测量时间缩短36倍；系统承受至少10 W脉冲功率，并以10 W固态放大器实现32 ns π脉冲。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "microwave_bridge",
+          "dimension": "instrument_component_ids",
+          "basis": "Q波段EPR低温探头以微波开关兼顾灵敏度与短脉冲；SSRN预印本报道switch-based Q-band EPR cryoprobe：快速微波开关分离高功率激发与低噪声接收，低温前置放大器靠近谐振器。6 K时电压S/N约提高6倍、等效测量时间缩短36倍；系统承受至少10 W脉冲功率，并以10 W固态放大器实现32 ns π脉冲。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "amplifier",
+          "dimension": "instrument_component_ids",
+          "basis": "Q波段EPR低温探头以微波开关兼顾灵敏度与短脉冲；SSRN预印本报道switch-based Q-band EPR cryoprobe：快速微波开关分离高功率激发与低噪声接收，低温前置放大器靠近谐振器。6 K时电压S/N约提高6倍、等效测量时间缩短36倍；系统承受至少10 W脉冲功率，并以10 W固态放大器实现32 ns π脉冲。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Q波段EPR低温探头以微波开关兼顾灵敏度与短脉冲",
+        "original_summary_cn": "SSRN预印本报道switch-based Q-band EPR cryoprobe：快速微波开关分离高功率激发与低噪声接收，低温前置放大器靠近谐振器。6 K时电压S/N约提高6倍、等效测量时间缩短36倍；系统承受至少10 W脉冲功率，并以10 W固态放大器实现32 ns π脉冲。",
+        "original_meaning_cn": "硬件评估应分别测开关隔离度、插入损耗、低噪放增益/噪声温度、谐振器Q值与恢复死时间，并用同一标准样在室温链路和6 K链路比较回波S/N。还需记录样品实际温度、B1分布、脉冲压缩与功率漂移，避免把接收增益误当作自旋数增加。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "仪器",
+          "磁体",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261004-02",
+      "report_date": "2026-10-04",
+      "item_no": 2,
+      "title_cn": "弛豫色散NMR量化J-domain–Hsc70亚毫秒结合动力学",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "relaxation_dispersion"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "SSRN预印本把弛豫色散NMR用于J-domain与Hsc70瞬态复合物，同时提取亲和力、结合/解离速率和约0.5–1 ms复合物寿命。结果指向静电增强、快于普通扩散估计的结合，并显示盐浓度升高会明显降低结合速率；两个高度相似J-domain还呈现不同动力学指纹。",
+      "meaning_cn": "复现应统一同位素标记、蛋白浓度、核苷酸状态、pH、温度和离子强度，在多个配比及至少两个场强采集CPMG频率阵列。全局拟合需同时纳入R2,0、化学位移差、布居和浓度误差，并用无结合对照排除非特异吸附；单点HSQC滴定不足以给出亚毫秒寿命。",
+      "publication_date": "2026-10-03",
+      "time_scope": "7d_extension",
+      "source": "SSRN",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7556936",
+      "doi": "10.2139/ssrn.7556936",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-04",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-04.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜溶液NMR｜多维NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-04.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "弛豫色散NMR量化J-domain–Hsc70亚毫秒结合动力学；SSRN预印本把弛豫色散NMR用于J-domain与Hsc70瞬态复合物，同时提取亲和力、结合/解离速率和约0.5–1 ms复合物寿命。结果指向静电增强、快于普通扩散估计的结合，并显示盐浓度升高会明显降低结合速率；两个高度相似J-domain还呈现不同动力学指纹。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "弛豫色散NMR量化J-domain–Hsc70亚毫秒结合动力学；SSRN预印本把弛豫色散NMR用于J-domain与Hsc70瞬态复合物，同时提取亲和力、结合/解离速率和约0.5–1 ms复合物寿命。结果指向静电增强、快于普通扩散估计的结合，并显示盐浓度升高会明显降低结合速率；两个高度相似J-domain还呈现不同动力学指纹。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxation_dispersion",
+          "dimension": "method_ids",
+          "basis": "弛豫色散NMR量化J-domain–Hsc70亚毫秒结合动力学；SSRN预印本把弛豫色散NMR用于J-domain与Hsc70瞬态复合物，同时提取亲和力、结合/解离速率和约0.5–1 ms复合物寿命。结果指向静电增强、快于普通扩散估计的结合，并显示盐浓度升高会明显降低结合速率；两个高度相似J-domain还呈现不同动力学指纹。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "弛豫色散NMR量化J-domain–Hsc70亚毫秒结合动力学；SSRN预印本把弛豫色散NMR用于J-domain与Hsc70瞬态复合物，同时提取亲和力、结合/解离速率和约0.5–1 ms复合物寿命。结果指向静电增强、快于普通扩散估计的结合，并显示盐浓度升高会明显降低结合速率；两个高度相似J-domain还呈现不同动力学指纹。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "弛豫色散NMR量化J-domain–Hsc70亚毫秒结合动力学",
+        "original_summary_cn": "SSRN预印本把弛豫色散NMR用于J-domain与Hsc70瞬态复合物，同时提取亲和力、结合/解离速率和约0.5–1 ms复合物寿命。结果指向静电增强、快于普通扩散估计的结合，并显示盐浓度升高会明显降低结合速率；两个高度相似J-domain还呈现不同动力学指纹。",
+        "original_meaning_cn": "复现应统一同位素标记、蛋白浓度、核苷酸状态、pH、温度和离子强度，在多个配比及至少两个场强采集CPMG频率阵列。全局拟合需同时纳入R2,0、化学位移差、布居和浓度误差，并用无结合对照排除非特异吸附；单点HSQC滴定不足以给出亚毫秒寿命。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261004-03",
+      "report_date": "2026-10-04",
+      "item_no": 3,
+      "title_cn": "长程脉冲偶极EPR把蛋白距离窗口推进至17.3 nm",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "pds",
+        "spin_labeling"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "ChemRxiv于10月2日更新Spins Afar至v2。研究在TRIM25卷曲螺旋上用脉冲偶极EPR测得标准条件下10.5 nm距离；蛋白全氘代后可靠距离扩展至17.3 nm，并把可用偶极演化时间延长到150 μs，提示在优化样品与采集后接近20 nm的结构约束可能可达。",
+      "meaning_cn": "长距离DEER/PELDOR需优先延长Tm：统一标记效率与构象、采用全氘代蛋白/溶剂、降低背景自旋浓度并优化温度和重复率。分析必须报告时间窗、调制深度、背景模型、正则化与置信区间；当演化周期不足时，不应仅凭平滑距离分布宣称20 nm峰。",
+      "publication_date": "2026-10-02",
+      "time_scope": "7d_extension",
+      "source": "ChemRxiv〔v2〕",
+      "url": "https://chemrxiv.org/doi/10.26434/chemrxiv.15005090",
+      "doi": "10.26434/chemrxiv.15005090/v2",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-04",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-04.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "DEER/PELDOR",
+          "自旋标记",
+          "生命科学",
+          "结构生物学",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "EPR｜脉冲EPR｜DEER/PELDOR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-04.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "长程脉冲偶极EPR把蛋白距离窗口推进至17.3 nm；ChemRxiv于10月2日更新Spins Afar至v2。研究在TRIM25卷曲螺旋上用脉冲偶极EPR测得标准条件下10.5 nm距离；蛋白全氘代后可靠距离扩展至17.3 nm，并把可用偶极演化时间延长到150 μs，提示在优化样品与采集后接近20 nm的结构约束可能可达。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "长程脉冲偶极EPR把蛋白距离窗口推进至17.3 nm；ChemRxiv于10月2日更新Spins Afar至v2。研究在TRIM25卷曲螺旋上用脉冲偶极EPR测得标准条件下10.5 nm距离；蛋白全氘代后可靠距离扩展至17.3 nm，并把可用偶极演化时间延长到150 μs，提示在优化样品与采集后接近20 nm的结构约束可能可达。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pds",
+          "dimension": "method_ids",
+          "basis": "长程脉冲偶极EPR把蛋白距离窗口推进至17.3 nm；ChemRxiv于10月2日更新Spins Afar至v2。研究在TRIM25卷曲螺旋上用脉冲偶极EPR测得标准条件下10.5 nm距离；蛋白全氘代后可靠距离扩展至17.3 nm，并把可用偶极演化时间延长到150 μs，提示在优化样品与采集后接近20 nm的结构约束可能可达。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spin_labeling",
+          "dimension": "method_ids",
+          "basis": "长程脉冲偶极EPR把蛋白距离窗口推进至17.3 nm；ChemRxiv于10月2日更新Spins Afar至v2。研究在TRIM25卷曲螺旋上用脉冲偶极EPR测得标准条件下10.5 nm距离；蛋白全氘代后可靠距离扩展至17.3 nm，并把可用偶极演化时间延长到150 μs，提示在优化样品与采集后接近20 nm的结构约束可能可达。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "长程脉冲偶极EPR把蛋白距离窗口推进至17.3 nm；ChemRxiv于10月2日更新Spins Afar至v2。研究在TRIM25卷曲螺旋上用脉冲偶极EPR测得标准条件下10.5 nm距离；蛋白全氘代后可靠距离扩展至17.3 nm，并把可用偶极演化时间延长到150 μs，提示在优化样品与采集后接近20 nm的结构约束可能可达。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "长程脉冲偶极EPR把蛋白距离窗口推进至17.3 nm",
+        "original_summary_cn": "ChemRxiv于10月2日更新Spins Afar至v2。研究在TRIM25卷曲螺旋上用脉冲偶极EPR测得标准条件下10.5 nm距离；蛋白全氘代后可靠距离扩展至17.3 nm，并把可用偶极演化时间延长到150 μs，提示在优化样品与采集后接近20 nm的结构约束可能可达。",
+        "original_meaning_cn": "长距离DEER/PELDOR需优先延长Tm：统一标记效率与构象、采用全氘代蛋白/溶剂、降低背景自旋浓度并优化温度和重复率。分析必须报告时间窗、调制深度、背景模型、正则化与置信区间；当演化周期不足时，不应仅凭平滑距离分布宣称20 nm峰。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "DEER/PELDOR",
+          "自旋标记",
+          "生命科学",
+          "结构生物学",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261004-04",
+      "report_date": "2026-10-04",
+      "item_no": 4,
+      "title_cn": "拓扑优化双频loop-gap谐振器改善EPR场聚焦",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "instrument_component_ids": [
+        "resonator"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "SSRN预印本提出EPR loop-gap detector的逆向设计流程，以拓扑优化辅助环几何，在两个目标频率同时增强样品区B1并保持紧凑、高Q和低加热。仿真显示场局域与预期S/N均得到改善，为双频或多功能EPR谐振器从经验几何转向目标函数驱动设计提供路线。",
+      "meaning_cn": "工程转化不能只看仿真峰值B1；应制造原型并实测双频S参数、Q值、耦合、模式纯度、有效样品体积和温升，再用标准样比较单位输入功率的echo/CW灵敏度。拓扑优化还需把加工圆角、导体损耗、样品管公差及调谐机构纳入约束，防止理想几何失配。",
+      "publication_date": "2026-09-30",
+      "time_scope": "7d_extension",
+      "source": "SSRN",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7545434",
+      "doi": "10.2139/ssrn.7545434",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-04",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-04.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "仪器",
+          "材料",
+          "谐振器",
+          "软件"
+        ],
+        "original_type": "EPR｜连续波EPR｜脉冲EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-04.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "拓扑优化双频loop-gap谐振器改善EPR场聚焦；SSRN预印本提出EPR loop-gap detector的逆向设计流程，以拓扑优化辅助环几何，在两个目标频率同时增强样品区B1并保持紧凑、高Q和低加热。仿真显示场局域与预期S/N均得到改善，为双频或多功能EPR谐振器从经验几何转向目标函数驱动设计提供路线。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "instrumentation",
+          "dimension": "application_ids",
+          "basis": "拓扑优化双频loop-gap谐振器改善EPR场聚焦；SSRN预印本提出EPR loop-gap detector的逆向设计流程，以拓扑优化辅助环几何，在两个目标频率同时增强样品区B1并保持紧凑、高Q和低加热。仿真显示场局域与预期S/N均得到改善，为双频或多功能EPR谐振器从经验几何转向目标函数驱动设计提供路线。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "resonator",
+          "dimension": "instrument_component_ids",
+          "basis": "拓扑优化双频loop-gap谐振器改善EPR场聚焦；SSRN预印本提出EPR loop-gap detector的逆向设计流程，以拓扑优化辅助环几何，在两个目标频率同时增强样品区B1并保持紧凑、高Q和低加热。仿真显示场局域与预期S/N均得到改善，为双频或多功能EPR谐振器从经验几何转向目标函数驱动设计提供路线。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "拓扑优化双频loop-gap谐振器提升EPR场聚焦",
+        "original_summary_cn": "SSRN预印本提出EPR loop-gap detector的逆向设计流程，以拓扑优化辅助环几何，在两个目标频率同时增强样品区B1并保持紧凑、高Q和低加热。仿真显示场局域与预期S/N均得到改善，为双频或多功能EPR谐振器从经验几何转向目标函数驱动设计提供路线。",
+        "original_meaning_cn": "工程转化不能只看仿真峰值B1；应制造原型并实测双频S参数、Q值、耦合、模式纯度、有效样品体积和温升，再用标准样比较单位输入功率的echo/CW灵敏度。拓扑优化还需把加工圆角、导体损耗、样品管公差及调谐机构纳入约束，防止理想几何失配。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "仪器",
+          "材料",
+          "谐振器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20261004-05",
+      "report_date": "2026-10-04",
+      "item_no": 5,
+      "title_cn": "CW-EPR腔体同时读取催化剂顺磁态与无接触电导",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "cw_epr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "catalysis",
+        "instrumentation"
+      ],
+      "instrument_component_ids": [
+        "resonator"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "SSRN预印本把商用CW-EPR谱仪转为无接触微波腔扰动电导计：粉末样品沿圆柱TE011腔体特定场节点布置，可在同一装置同步观察顺磁响应与体电导变化。方法对约20 mg样品可检测到mS/m量级电导变化，为催化反应中电子输运—自旋态联测提供低门槛方案。",
+      "meaning_cn": "实施前应以已知电导标准粉末标定腔频移与Q值变化，固定装样质量、填充高度、颗粒度、气氛、温度和样品轴向位置。EPR磁损耗与介电/电导损耗需用空腔、抗磁样和顺磁绝缘样分离；operando实验还要同步记录流量、压力及反应转化率。",
+      "publication_date": "2026-10-01",
+      "time_scope": "7d_extension",
+      "source": "SSRN",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7548469",
+      "doi": "10.2139/ssrn.7548469",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-04",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-04.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "Operando EPR",
+          "催化",
+          "过程分析",
+          "仪器",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "EPR｜连续波EPR｜Operando EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-04.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "CW-EPR腔体同时读取催化剂顺磁态与无接触电导；SSRN预印本把商用CW-EPR谱仪转为无接触微波腔扰动电导计：粉末样品沿圆柱TE011腔体特定场节点布置，可在同一装置同步观察顺磁响应与体电导变化。方法对约20 mg样品可检测到mS/m量级电导变化，为催化反应中电子输运—自旋态联测提供低门槛方案。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "cw_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "CW-EPR腔体同时读取催化剂顺磁态与无接触电导；SSRN预印本把商用CW-EPR谱仪转为无接触微波腔扰动电导计：粉末样品沿圆柱TE011腔体特定场节点布置，可在同一装置同步观察顺磁响应与体电导变化。方法对约20 mg样品可检测到mS/m量级电导变化，为催化反应中电子输运—自旋态联测提供低门槛方案。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "catalysis",
+          "dimension": "application_ids",
+          "basis": "CW-EPR腔体同时读取催化剂顺磁态与无接触电导；SSRN预印本把商用CW-EPR谱仪转为无接触微波腔扰动电导计：粉末样品沿圆柱TE011腔体特定场节点布置，可在同一装置同步观察顺磁响应与体电导变化。方法对约20 mg样品可检测到mS/m量级电导变化，为催化反应中电子输运—自旋态联测提供低门槛方案。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "instrumentation",
+          "dimension": "application_ids",
+          "basis": "CW-EPR腔体同时读取催化剂顺磁态与无接触电导；SSRN预印本把商用CW-EPR谱仪转为无接触微波腔扰动电导计：粉末样品沿圆柱TE011腔体特定场节点布置，可在同一装置同步观察顺磁响应与体电导变化。方法对约20 mg样品可检测到mS/m量级电导变化，为催化反应中电子输运—自旋态联测提供低门槛方案。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "resonator",
+          "dimension": "instrument_component_ids",
+          "basis": "CW-EPR腔体同时读取催化剂顺磁态与无接触电导；SSRN预印本把商用CW-EPR谱仪转为无接触微波腔扰动电导计：粉末样品沿圆柱TE011腔体特定场节点布置，可在同一装置同步观察顺磁响应与体电导变化。方法对约20 mg样品可检测到mS/m量级电导变化，为催化反应中电子输运—自旋态联测提供低门槛方案。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "CW-EPR腔体同时读取催化剂顺磁态与无接触电导",
+        "original_summary_cn": "SSRN预印本把商用CW-EPR谱仪转为无接触微波腔扰动电导计：粉末样品沿圆柱TE011腔体特定场节点布置，可在同一装置同步观察顺磁响应与体电导变化。方法对约20 mg样品可检测到mS/m量级电导变化，为催化反应中电子输运—自旋态联测提供低门槛方案。",
+        "original_meaning_cn": "实施前应以已知电导标准粉末标定腔频移与Q值变化，固定装样质量、填充高度、颗粒度、气氛、温度和样品轴向位置。EPR磁损耗与介电/电导损耗需用空腔、抗磁样和顺磁绝缘样分离；operando实验还要同步记录流量、压力及反应转化率。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "Operando EPR",
+          "催化",
+          "过程分析",
+          "仪器",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261004-06",
+      "report_date": "2026-10-04",
+      "item_no": 6,
+      "title_cn": "GCNN集成模型把¹⁹F NMR化学位移预测扩展至CF₂难例",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [
+        "software"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "SSRN预印本用约1.5万种有机氟化合物训练GCNN集成模型，¹⁹F化学位移中位绝对误差为2.39 ppm。针对图表示把CF₂中两个氟视为等价、难以预测位移差的问题，作者在冻结的message-passing表征上增加轻量分类器与回归器，以专门修正这一边界情形。",
+      "meaning_cn": "用于谱图辅助归属时必须保留溶剂、温度、参照物、浓度与场强元数据，并以骨架分离外部集而非随机拆分验证。CF₂、手性环境和构象平均需单独报告误差；模型候选只能用于优先级排序，最终结构仍应由实测¹⁹F/¹H相关谱、标准品或DFT交叉确认。",
+      "publication_date": "2026-10-03",
+      "time_scope": "7d_extension",
+      "source": "SSRN",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7556937",
+      "doi": "10.2139/ssrn.7556937",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-04",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-04.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "计算NMR",
+          "化学结构",
+          "药物分析",
+          "软件"
+        ],
+        "original_type": "NMR｜溶液NMR｜计算NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-04.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "GCNN集成模型把¹⁹F NMR化学位移预测扩展至CF₂难例；SSRN预印本用约1.5万种有机氟化合物训练GCNN集成模型，¹⁹F化学位移中位绝对误差为2.39 ppm。针对图表示把CF₂中两个氟视为等价、难以预测位移差的问题，作者在冻结的message-passing表征上增加轻量分类器与回归器，以专门修正这一边界情形。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "computation_nmr",
+          "dimension": "method_ids",
+          "basis": "GCNN集成模型把¹⁹F NMR化学位移预测扩展至CF₂难例；SSRN预印本用约1.5万种有机氟化合物训练GCNN集成模型，¹⁹F化学位移中位绝对误差为2.39 ppm。针对图表示把CF₂中两个氟视为等价、难以预测位移差的问题，作者在冻结的message-passing表征上增加轻量分类器与回归器，以专门修正这一边界情形。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "GCNN集成模型把¹⁹F NMR化学位移预测扩展至CF₂难例；SSRN预印本用约1.5万种有机氟化合物训练GCNN集成模型，¹⁹F化学位移中位绝对误差为2.39 ppm。针对图表示把CF₂中两个氟视为等价、难以预测位移差的问题，作者在冻结的message-passing表征上增加轻量分类器与回归器，以专门修正这一边界情形。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "software",
+          "dimension": "instrument_component_ids",
+          "basis": "GCNN集成模型把¹⁹F NMR化学位移预测扩展至CF₂难例；SSRN预印本用约1.5万种有机氟化合物训练GCNN集成模型，¹⁹F化学位移中位绝对误差为2.39 ppm。针对图表示把CF₂中两个氟视为等价、难以预测位移差的问题，作者在冻结的message-passing表征上增加轻量分类器与回归器，以专门修正这一边界情形。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "GCNN集成模型把¹⁹F NMR化学位移预测扩展至CF₂难例",
+        "original_summary_cn": "SSRN预印本用约1.5万种有机氟化合物训练GCNN集成模型，¹⁹F化学位移中位绝对误差为2.39 ppm。针对图表示把CF₂中两个氟视为等价、难以预测位移差的问题，作者在冻结的message-passing表征上增加轻量分类器与回归器，以专门修正这一边界情形。",
+        "original_meaning_cn": "用于谱图辅助归属时必须保留溶剂、温度、参照物、浓度与场强元数据，并以骨架分离外部集而非随机拆分验证。CF₂、手性环境和构象平均需单独报告误差；模型候选只能用于优先级排序，最终结构仍应由实测¹⁹F/¹H相关谱、标准品或DFT交叉确认。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "计算NMR",
+          "化学结构",
+          "药物分析",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20261004-07",
+      "report_date": "2026-10-04",
+      "item_no": 7,
+      "title_cn": "ROSE以可复用嵌入统一一维¹H NMR多任务处理",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "computation_nmr",
+        "spectral_processing"
+      ],
+      "application_ids": [
+        "food_agriculture",
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [
+        "software"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "ChemRxiv v2介绍7.8M参数ROSE模型，以320万条实验与模拟一维¹H谱预训练共享编码器，覆盖去噪、峰检、分类、跨场对齐、分子检索和结构到谱预测。外部测试中，60 MHz食用油分类平衡准确率98.8%，并报告峰检F1为69%及分子检索Top-1/Top-10表现。",
+      "meaning_cn": "部署前应按仪器、场强、溶剂和样品来源做独立留出，防止同一分子或模拟谱泄漏；真实FID还需固定相位、基线、轴校准、归一化与峰表生成。对台式NMR应先用本地标准样做短域适配，并同时监测假峰率、检索失败例和不确定度，不能只看总体准确率。",
+      "publication_date": "2026-09-30",
+      "time_scope": "7d_extension",
+      "source": "ChemRxiv〔v2〕",
+      "url": "https://chemrxiv.org/doi/10.26434/chemrxiv.15007823",
+      "doi": "10.26434/chemrxiv.15007823/v2",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-04",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-04.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "台式NMR",
+          "计算NMR",
+          "仪器",
+          "过程分析",
+          "食品与农业",
+          "化学结构",
+          "软件"
+        ],
+        "original_type": "NMR｜溶液NMR｜台式NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-04.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "ROSE以可复用嵌入统一一维¹H NMR多任务处理；ChemRxiv v2介绍7.8M参数ROSE模型，以320万条实验与模拟一维¹H谱预训练共享编码器，覆盖去噪、峰检、分类、跨场对齐、分子检索和结构到谱预测。外部测试中，60 MHz食用油分类平衡准确率98.8%，并报告峰检F1为69%及分子检索Top-1/Top-10表现。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "computation_nmr",
+          "dimension": "method_ids",
+          "basis": "ROSE以可复用嵌入统一一维¹H NMR多任务处理；ChemRxiv v2介绍7.8M参数ROSE模型，以320万条实验与模拟一维¹H谱预训练共享编码器，覆盖去噪、峰检、分类、跨场对齐、分子检索和结构到谱预测。外部测试中，60 MHz食用油分类平衡准确率98.8%，并报告峰检F1为69%及分子检索Top-1/Top-10表现。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spectral_processing",
+          "dimension": "method_ids",
+          "basis": "ROSE以可复用嵌入统一一维¹H NMR多任务处理；ChemRxiv v2介绍7.8M参数ROSE模型，以320万条实验与模拟一维¹H谱预训练共享编码器，覆盖去噪、峰检、分类、跨场对齐、分子检索和结构到谱预测。外部测试中，60 MHz食用油分类平衡准确率98.8%，并报告峰检F1为69%及分子检索Top-1/Top-10表现。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "food_agriculture",
+          "dimension": "application_ids",
+          "basis": "ROSE以可复用嵌入统一一维¹H NMR多任务处理；ChemRxiv v2介绍7.8M参数ROSE模型，以320万条实验与模拟一维¹H谱预训练共享编码器，覆盖去噪、峰检、分类、跨场对齐、分子检索和结构到谱预测。外部测试中，60 MHz食用油分类平衡准确率98.8%，并报告峰检F1为69%及分子检索Top-1/Top-10表现。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "ROSE以可复用嵌入统一一维¹H NMR多任务处理；ChemRxiv v2介绍7.8M参数ROSE模型，以320万条实验与模拟一维¹H谱预训练共享编码器，覆盖去噪、峰检、分类、跨场对齐、分子检索和结构到谱预测。外部测试中，60 MHz食用油分类平衡准确率98.8%，并报告峰检F1为69%及分子检索Top-1/Top-10表现。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "software",
+          "dimension": "instrument_component_ids",
+          "basis": "ROSE以可复用嵌入统一一维¹H NMR多任务处理；ChemRxiv v2介绍7.8M参数ROSE模型，以320万条实验与模拟一维¹H谱预训练共享编码器，覆盖去噪、峰检、分类、跨场对齐、分子检索和结构到谱预测。外部测试中，60 MHz食用油分类平衡准确率98.8%，并报告峰检F1为69%及分子检索Top-1/Top-10表现。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "ROSE以可复用嵌入统一一维¹H NMR多任务处理",
+        "original_summary_cn": "ChemRxiv v2介绍7.8M参数ROSE模型，以320万条实验与模拟一维¹H谱预训练共享编码器，覆盖去噪、峰检、分类、跨场对齐、分子检索和结构到谱预测。外部测试中，60 MHz食用油分类平衡准确率98.8%，并报告峰检F1为69%及分子检索Top-1/Top-10表现。",
+        "original_meaning_cn": "部署前应按仪器、场强、溶剂和样品来源做独立留出，防止同一分子或模拟谱泄漏；真实FID还需固定相位、基线、轴校准、归一化与峰表生成。对台式NMR应先用本地标准样做短域适配，并同时监测假峰率、检索失败例和不确定度，不能只看总体准确率。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "台式NMR",
+          "计算NMR",
+          "仪器",
+          "过程分析",
+          "食品与农业",
+          "化学结构",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20261004-08",
+      "report_date": "2026-10-04",
+      "item_no": 8,
+      "title_cn": "¹H NMR代谢组学解析Garcinia提取物的协同脂肪酶抑制",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "natural_products"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Metabolomics上线以¹H NMR为核心的Garcinia parvifolia研究，把代谢物指纹、脂肪酶抑制和配体相互作用放入同一分析框架，目标是从复杂植物提取物中解释协同而非只报告总活性。文章为天然产物组合效应提供可追溯到谱峰与代谢特征的筛选思路。",
+      "meaning_cn": "方法复现需固定植物部位、产地、提取溶剂、批次、干重归一化、pH和温度，并用QC混样监测漂移。¹H谱处理应统一水抑制、相位、基线、对齐和缩放；活性关联必须使用独立批次、剂量系列及单体/重组组合验证，避免把共线代谢峰误判为协同配体。",
+      "publication_date": "2026-10-03",
+      "time_scope": "7d_extension",
+      "source": "Metabolomics",
+      "url": "https://link.springer.com/article/10.1007/s11306-026-02536-z",
+      "doi": "10.1007/s11306-026-02536-z",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-04",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-04.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "代谢组学",
+          "天然产物",
+          "生命科学",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜溶液NMR｜代谢组学",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-04.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "¹H NMR代谢组学解析Garcinia提取物的协同脂肪酶抑制；Metabolomics上线以¹H NMR为核心的Garcinia parvifolia研究，把代谢物指纹、脂肪酶抑制和配体相互作用放入同一分析框架，目标是从复杂植物提取物中解释协同而非只报告总活性。文章为天然产物组合效应提供可追溯到谱峰与代谢特征的筛选思路。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "¹H NMR代谢组学解析Garcinia提取物的协同脂肪酶抑制；Metabolomics上线以¹H NMR为核心的Garcinia parvifolia研究，把代谢物指纹、脂肪酶抑制和配体相互作用放入同一分析框架，目标是从复杂植物提取物中解释协同而非只报告总活性。文章为天然产物组合效应提供可追溯到谱峰与代谢特征的筛选思路。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "metabolomics",
+          "dimension": "method_ids",
+          "basis": "¹H NMR代谢组学解析Garcinia提取物的协同脂肪酶抑制；Metabolomics上线以¹H NMR为核心的Garcinia parvifolia研究，把代谢物指纹、脂肪酶抑制和配体相互作用放入同一分析框架，目标是从复杂植物提取物中解释协同而非只报告总活性。文章为天然产物组合效应提供可追溯到谱峰与代谢特征的筛选思路。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "natural_products",
+          "dimension": "application_ids",
+          "basis": "¹H NMR代谢组学解析Garcinia提取物的协同脂肪酶抑制；Metabolomics上线以¹H NMR为核心的Garcinia parvifolia研究，把代谢物指纹、脂肪酶抑制和配体相互作用放入同一分析框架，目标是从复杂植物提取物中解释协同而非只报告总活性。文章为天然产物组合效应提供可追溯到谱峰与代谢特征的筛选思路。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "¹H NMR代谢组学解析Garcinia提取物的协同脂肪酶抑制",
+        "original_summary_cn": "Metabolomics上线以¹H NMR为核心的Garcinia parvifolia研究，把代谢物指纹、脂肪酶抑制和配体相互作用放入同一分析框架，目标是从复杂植物提取物中解释协同而非只报告总活性。文章为天然产物组合效应提供可追溯到谱峰与代谢特征的筛选思路。",
+        "original_meaning_cn": "方法复现需固定植物部位、产地、提取溶剂、批次、干重归一化、pH和温度，并用QC混样监测漂移。¹H谱处理应统一水抑制、相位、基线、对齐和缩放；活性关联必须使用独立批次、剂量系列及单体/重组组合验证，避免把共线代谢峰误判为协同配体。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "代谢组学",
+          "天然产物",
+          "生命科学",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261004-09",
+      "report_date": "2026-10-04",
+      "item_no": 9,
+      "title_cn": "250项NMR代谢指标进入心肾代谢风险分层",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "medRxiv预印本在54,933名医疗系统参与者中量化250项NMR代谢指标，并连接长期电子健康记录评估9类心血管—肾脏—代谢终点。加入NMR后多数终点的判别得到改善，糖尿病、慢性肾病和代谢功能障碍相关脂肪性肝病的增益较明显，并进一步评估校准与决策曲线。",
+      "meaning_cn": "转入真实世界检测前需锁定血浆/血清类型、空腹状态、采血管、冻融次数、批次QC、绝对定量溯源和自动进样稳定性。模型验证应按机构与人群外部留出，报告缺失值、药物和肾功能混杂、校准漂移及净获益；不能把关联风险直接解释为因果代谢机制。",
+      "publication_date": "2026-10-02",
+      "time_scope": "7d_extension",
+      "source": "medRxiv",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.10.01.26364322v1",
+      "doi": "10.64898/2026.10.01.26364322",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-04",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-04.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "代谢组学",
+          "生命科学",
+          "探头",
+          "自动进样器",
+          "软件"
+        ],
+        "original_type": "NMR｜溶液NMR｜代谢组学",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-04.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "250项NMR代谢指标进入心肾代谢风险分层；medRxiv预印本在54,933名医疗系统参与者中量化250项NMR代谢指标，并连接长期电子健康记录评估9类心血管—肾脏—代谢终点。加入NMR后多数终点的判别得到改善，糖尿病、慢性肾病和代谢功能障碍相关脂肪性肝病的增益较明显，并进一步评估校准与决策曲线。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "250项NMR代谢指标进入心肾代谢风险分层；medRxiv预印本在54,933名医疗系统参与者中量化250项NMR代谢指标，并连接长期电子健康记录评估9类心血管—肾脏—代谢终点。加入NMR后多数终点的判别得到改善，糖尿病、慢性肾病和代谢功能障碍相关脂肪性肝病的增益较明显，并进一步评估校准与决策曲线。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "metabolomics",
+          "dimension": "method_ids",
+          "basis": "250项NMR代谢指标进入心肾代谢风险分层；medRxiv预印本在54,933名医疗系统参与者中量化250项NMR代谢指标，并连接长期电子健康记录评估9类心血管—肾脏—代谢终点。加入NMR后多数终点的判别得到改善，糖尿病、慢性肾病和代谢功能障碍相关脂肪性肝病的增益较明显，并进一步评估校准与决策曲线。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "life_science",
+          "dimension": "application_ids",
+          "basis": "250项NMR代谢指标进入心肾代谢风险分层；medRxiv预印本在54,933名医疗系统参与者中量化250项NMR代谢指标，并连接长期电子健康记录评估9类心血管—肾脏—代谢终点。加入NMR后多数终点的判别得到改善，糖尿病、慢性肾病和代谢功能障碍相关脂肪性肝病的增益较明显，并进一步评估校准与决策曲线。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "250项NMR代谢指标进入心肾代谢风险分层",
+        "original_summary_cn": "medRxiv预印本在54,933名医疗系统参与者中量化250项NMR代谢指标，并连接长期电子健康记录评估9类心血管—肾脏—代谢终点。加入NMR后多数终点的判别得到改善，糖尿病、慢性肾病和代谢功能障碍相关脂肪性肝病的增益较明显，并进一步评估校准与决策曲线。",
+        "original_meaning_cn": "转入真实世界检测前需锁定血浆/血清类型、空腹状态、采血管、冻融次数、批次QC、绝对定量溯源和自动进样稳定性。模型验证应按机构与人群外部留出，报告缺失值、药物和肾功能混杂、校准漂移及净获益；不能把关联风险直接解释为因果代谢机制。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "代谢组学",
+          "生命科学",
+          "探头",
+          "自动进样器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261004-10",
+      "report_date": "2026-10-04",
+      "item_no": 10,
+      "title_cn": "兰州化物所重新招标600 MHz超导NMR",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "procurement"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "tender",
+      "summary_cn": "中国政府采购网9月30日重新发布兰州化物所600 MHz超导核磁共振波谱仪公开招标，项目预算520万元、采购1套且不允许进口产品；招标文件获取至10月13日，10月22日开标。公告延后了原项目时间节点，构成可核验的新采购事件而非沿用旧页面。",
+      "meaning_cn": "方案与投标评审应核对600 MHz磁体均匀度和漂移、液体多核/多维能力、探头核种与梯度、VT、自动进样、控制台及软件许可。验收需写明标准样S/N、分辨率、线形、90°脉宽、梯度线性和连续运行，并确认国产设备要求、6个月交付及售后培训边界。",
+      "publication_date": "2026-09-30",
+      "time_scope": "7d_extension",
+      "source": "中国政府采购网",
+      "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202609/t20260930_27427144.htm",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-04",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-04.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "仪器",
+          "采购",
+          "磁体",
+          "探头",
+          "自动进样器",
+          "软件"
+        ],
+        "original_type": "NMR｜仪器｜采购",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-04.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "兰州化物所重新招标600 MHz超导NMR；中国政府采购网9月30日重新发布兰州化物所600 MHz超导核磁共振波谱仪公开招标，项目预算520万元、采购1套且不允许进口产品；招标文件获取至10月13日，10月22日开标。公告延后了原项目时间节点，构成可核验的新采购事件而非沿用旧页面。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "procurement",
+          "dimension": "application_ids",
+          "basis": "兰州化物所重新招标600 MHz超导NMR；中国政府采购网9月30日重新发布兰州化物所600 MHz超导核磁共振波谱仪公开招标，项目预算520万元、采购1套且不允许进口产品；招标文件获取至10月13日，10月22日开标。公告延后了原项目时间节点，构成可核验的新采购事件而非沿用旧页面。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "兰州化物所重新招标600 MHz超导NMR",
+        "original_summary_cn": "中国政府采购网9月30日重新发布兰州化物所600 MHz超导核磁共振波谱仪公开招标，项目预算520万元、采购1套且不允许进口产品；招标文件获取至10月13日，10月22日开标。公告延后了原项目时间节点，构成可核验的新采购事件而非沿用旧页面。",
+        "original_meaning_cn": "方案与投标评审应核对600 MHz磁体均匀度和漂移、液体多核/多维能力、探头核种与梯度、VT、自动进样、控制台及软件许可。验收需写明标准样S/N、分辨率、线形、90°脉宽、梯度线性和连续运行，并确认国产设备要求、6个月交付及售后培训边界。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "仪器",
+          "采购",
+          "磁体",
+          "探头",
+          "自动进样器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "常规检索未确认到可严格归入过去24小时的合格新增：本轮候选页面只提供发布日期而无精确上线时刻，按规则统一归入近7天扩展，因此已启动增强搜索。增强检索优先逐项核查Journal of Magnetic Resonance Articles in Press及指定磁共振期刊，并分开覆盖Crossref、medRxiv、ChemRxiv、SSRN、主要仪器厂商、ENC/EUROMAR/ISMAR/APES等会议及中外采购；方法词覆盖液体NMR、固体NMR/MAS/DNP、低场与TD-NMR、谱图处理、CW/rapid-scan EPR、脉冲EPR/DEER、TREPR、operando EPR以及探头、谐振器、磁体、控制台与自动进样。增强阶段确认10条合格候选，达到8条阈值，未触发第二级深度增强检索。本期结合2026年9月27日至10月3日最近7期共70条记录，按标准化DOI、规范化URL和标题查重，排除16条既有记录；另排除12条旧版本无实质更新、日期不可核验或常驻页面，以及27条医学MRI、缩写误检或仅把NMR/EPR作为辅助表征的候选。最终收录10条，均为非SCM来源。待复核标签：switch-based Q-band cryoprobe、topology-optimised dual-frequency loop-gap resonator、EPR cavity-perturbation conductivity、GCNN CF2 shift-difference correction、ROSE reusable spectral embeddings、J-domain–Hsc70 dispersion kinetics和long-range PDS至17.3 nm保留在sample_systems及正文中，未创建新的正式ID。",
+    "source_sha256": "a9f89a4e8ae6ea2d2736c872b01b902b652364a3922edc6f79d10e149f7d22a0",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

@@ -1,0 +1,1158 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-30",
+  "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260930-01",
+      "report_date": "2026-09-30",
+      "item_no": 1,
+      "title_cn": "时间分辨EPR揭示硅量子点向蒽的三重态能量转移",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "time_resolved_epr"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Nano Letters以时间分辨连续波和脉冲EPR研究胶体硅量子点与9-乙基蒽、9-乙烯基蒽偶联后的三重态能量转移。EPR直接解析蒽受体的非平衡子能级布居，并显示所得全发射极化图样不能由常规自旋轨道耦合或自由基对机制充分解释。",
+      "meaning_cn": "复现实验需固定量子点尺寸、表面配体、蒽连接方式、溶剂和脱氧条件，标定激光波长、能量、重复率及光—微波延迟。应联合trCW谱、脉冲回波、D/E参数和子能级布居做全谱拟合，并以游离蒽、暗态及不同连接基对照区分Dexter转移、直接激发与电荷转移。",
+      "publication_date": "2026-09-29",
+      "time_scope": "24h",
+      "source": "Nano Letters",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.nanolett.6c03633",
+      "doi": "10.1021/acs.nanolett.6c03633",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-30",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-30.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "材料",
+          "谐振器",
+          "原位光照",
+          "软件"
+        ],
+        "original_type": "EPR｜连续波EPR｜脉冲EPR｜时间分辨EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-30.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "时间分辨EPR揭示硅量子点向蒽的三重态能量转移；Nano Letters以时间分辨连续波和脉冲EPR研究胶体硅量子点与9-乙基蒽、9-乙烯基蒽偶联后的三重态能量转移。EPR直接解析蒽受体的非平衡子能级布居，并显示所得全发射极化图样不能由常规自旋轨道耦合或自由基对机制充分解释。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "时间分辨EPR揭示硅量子点向蒽的三重态能量转移；Nano Letters以时间分辨连续波和脉冲EPR研究胶体硅量子点与9-乙基蒽、9-乙烯基蒽偶联后的三重态能量转移。EPR直接解析蒽受体的非平衡子能级布居，并显示所得全发射极化图样不能由常规自旋轨道耦合或自由基对机制充分解释。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "time_resolved_epr",
+          "dimension": "method_ids",
+          "basis": "时间分辨EPR揭示硅量子点向蒽的三重态能量转移；Nano Letters以时间分辨连续波和脉冲EPR研究胶体硅量子点与9-乙基蒽、9-乙烯基蒽偶联后的三重态能量转移。EPR直接解析蒽受体的非平衡子能级布居，并显示所得全发射极化图样不能由常规自旋轨道耦合或自由基对机制充分解释。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "时间分辨EPR揭示硅量子点向蒽的三重态能量转移；Nano Letters以时间分辨连续波和脉冲EPR研究胶体硅量子点与9-乙基蒽、9-乙烯基蒽偶联后的三重态能量转移。EPR直接解析蒽受体的非平衡子能级布居，并显示所得全发射极化图样不能由常规自旋轨道耦合或自由基对机制充分解释。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "时间分辨EPR揭示硅量子点向蒽的三重态能量转移",
+        "original_summary_cn": "Nano Letters以时间分辨连续波和脉冲EPR研究胶体硅量子点与9-乙基蒽、9-乙烯基蒽偶联后的三重态能量转移。EPR直接解析蒽受体的非平衡子能级布居，并显示所得全发射极化图样不能由常规自旋轨道耦合或自由基对机制充分解释。",
+        "original_meaning_cn": "复现实验需固定量子点尺寸、表面配体、蒽连接方式、溶剂和脱氧条件，标定激光波长、能量、重复率及光—微波延迟。应联合trCW谱、脉冲回波、D/E参数和子能级布居做全谱拟合，并以游离蒽、暗态及不同连接基对照区分Dexter转移、直接激发与电荷转移。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "材料",
+          "谐振器",
+          "原位光照",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260930-02",
+      "report_date": "2026-09-30",
+      "item_no": 2,
+      "title_cn": "原位EPR综述拆解电化学反应机理",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "ec_epr",
+        "spin_trapping"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "review",
+      "summary_cn": "《中国科学：化学》综述聚焦原位EPR解析电化学反应机理，讨论在施加电位和反应气氛下捕获自由基、过渡金属价态及缺陷中心，并梳理直接检测与自旋捕获的适用边界。文章把电化学池、谐振器兼容性和谱图定量列为机制判断的关键。",
+      "meaning_cn": "搭建EC-EPR应先核对工作/参比/对电极材料、池体死体积、微波损耗、气密性和电位降，并记录电解液、流速、温度及时间零点。自旋捕获需做空白、捕获剂浓度和加合物寿命对照；价态归属应联合g/A参数、功率饱和、变温与独立电化学数据。",
+      "publication_date": "2026-09-29",
+      "time_scope": "24h",
+      "source": "SCIENTIA SINICA Chimica",
+      "url": "https://www.sciengine.com/doi/10.1360/SSC-2026-0175",
+      "doi": "10.1360/ssc-2026-0175",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-30",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-30.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "自旋捕获",
+          "Operando EPR",
+          "电化学与能源",
+          "电合成",
+          "催化",
+          "仪器",
+          "谐振器",
+          "流通池",
+          "软件"
+        ],
+        "original_type": "EPR｜连续波EPR｜Operando EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-30.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "原位EPR综述拆解电化学反应机理；《中国科学：化学》综述聚焦原位EPR解析电化学反应机理，讨论在施加电位和反应气氛下捕获自由基、过渡金属价态及缺陷中心，并梳理直接检测与自旋捕获的适用边界。文章把电化学池、谐振器兼容性和谱图定量列为机制判断的关键。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "ec_epr",
+          "dimension": "method_ids",
+          "basis": "原位EPR综述拆解电化学反应机理；《中国科学：化学》综述聚焦原位EPR解析电化学反应机理，讨论在施加电位和反应气氛下捕获自由基、过渡金属价态及缺陷中心，并梳理直接检测与自旋捕获的适用边界。文章把电化学池、谐振器兼容性和谱图定量列为机制判断的关键。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spin_trapping",
+          "dimension": "method_ids",
+          "basis": "原位EPR综述拆解电化学反应机理；《中国科学：化学》综述聚焦原位EPR解析电化学反应机理，讨论在施加电位和反应气氛下捕获自由基、过渡金属价态及缺陷中心，并梳理直接检测与自旋捕获的适用边界。文章把电化学池、谐振器兼容性和谱图定量列为机制判断的关键。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "原位EPR综述拆解电化学反应机理；《中国科学：化学》综述聚焦原位EPR解析电化学反应机理，讨论在施加电位和反应气氛下捕获自由基、过渡金属价态及缺陷中心，并梳理直接检测与自旋捕获的适用边界。文章把电化学池、谐振器兼容性和谱图定量列为机制判断的关键。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "原位EPR综述拆解电化学反应机理",
+        "original_summary_cn": "《中国科学：化学》综述聚焦原位EPR解析电化学反应机理，讨论在施加电位和反应气氛下捕获自由基、过渡金属价态及缺陷中心，并梳理直接检测与自旋捕获的适用边界。文章把电化学池、谐振器兼容性和谱图定量列为机制判断的关键。",
+        "original_meaning_cn": "搭建EC-EPR应先核对工作/参比/对电极材料、池体死体积、微波损耗、气密性和电位降，并记录电解液、流速、温度及时间零点。自旋捕获需做空白、捕获剂浓度和加合物寿命对照；价态归属应联合g/A参数、功率饱和、变温与独立电化学数据。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "自旋捕获",
+          "Operando EPR",
+          "电化学与能源",
+          "电合成",
+          "催化",
+          "仪器",
+          "谐振器",
+          "流通池",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260930-03",
+      "report_date": "2026-09-30",
+      "item_no": 3,
+      "title_cn": "TD-NMR从含水量推进到食品分子运动与功能",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "review",
+      "summary_cn": "Molecules综述TD-NMR在食品中的角色：除质子信号强度测水分外，还利用T₁/T₂、弛豫分布、自扩散和多维相关表征水可及性与分子运动。案例覆盖肉类、植物基、乳品、谷物、凝胶、冻干体系和油脂，并关联持水、质构、氧化及货架期。",
+      "meaning_cn": "方法落地应按食品形态固定样品温度、质量、容器、回波间隔、等待时间和脉冲序列，并用已知含水量与模型凝胶校准。多指数反演须报告正则化、噪声阈值和重复性；T₂组分不能自动等同特定水池，应与失水、质构、成像或扩散数据交叉验证。",
+      "publication_date": "2026-09-29",
+      "time_scope": "24h",
+      "source": "Molecules",
+      "url": "https://www.mdpi.com/1420-3049/31/19/3476",
+      "doi": "10.3390/molecules31193476",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-30",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-30.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "时域NMR",
+          "食品与农业",
+          "过程分析",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜时域NMR｜食品与农业",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-30.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "TD-NMR从含水量推进到食品分子运动与功能；Molecules综述TD-NMR在食品中的角色：除质子信号强度测水分外，还利用T₁/T₂、弛豫分布、自扩散和多维相关表征水可及性与分子运动。案例覆盖肉类、植物基、乳品、谷物、凝胶、冻干体系和油脂，并关联持水、质构、氧化及货架期。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "td_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "TD-NMR从含水量推进到食品分子运动与功能；Molecules综述TD-NMR在食品中的角色：除质子信号强度测水分外，还利用T₁/T₂、弛豫分布、自扩散和多维相关表征水可及性与分子运动。案例覆盖肉类、植物基、乳品、谷物、凝胶、冻干体系和油脂，并关联持水、质构、氧化及货架期。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "TD-NMR从含水量推进到食品分子运动与功能；Molecules综述TD-NMR在食品中的角色：除质子信号强度测水分外，还利用T₁/T₂、弛豫分布、自扩散和多维相关表征水可及性与分子运动。案例覆盖肉类、植物基、乳品、谷物、凝胶、冻干体系和油脂，并关联持水、质构、氧化及货架期。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "food_agriculture",
+          "dimension": "application_ids",
+          "basis": "TD-NMR从含水量推进到食品分子运动与功能；Molecules综述TD-NMR在食品中的角色：除质子信号强度测水分外，还利用T₁/T₂、弛豫分布、自扩散和多维相关表征水可及性与分子运动。案例覆盖肉类、植物基、乳品、谷物、凝胶、冻干体系和油脂，并关联持水、质构、氧化及货架期。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "TD-NMR从含水量推进到食品分子运动与功能",
+        "original_summary_cn": "Molecules综述TD-NMR在食品中的角色：除质子信号强度测水分外，还利用T₁/T₂、弛豫分布、自扩散和多维相关表征水可及性与分子运动。案例覆盖肉类、植物基、乳品、谷物、凝胶、冻干体系和油脂，并关联持水、质构、氧化及货架期。",
+        "original_meaning_cn": "方法落地应按食品形态固定样品温度、质量、容器、回波间隔、等待时间和脉冲序列，并用已知含水量与模型凝胶校准。多指数反演须报告正则化、噪声阈值和重复性；T₂组分不能自动等同特定水池，应与失水、质构、成像或扩散数据交叉验证。",
+        "original_tags": [
+          "NMR",
+          "时域NMR",
+          "食品与农业",
+          "过程分析",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260930-04",
+      "report_date": "2026-09-30",
+      "item_no": 4,
+      "title_cn": "多核固体NMR关联四乙基铵铜溴化物相变与动力学",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Scientific Reports联合多核固体NMR、单晶/粉末XRD和热分析研究[N(C₂H₅)₄]₂CuBr₄。温度依赖谱与结构数据把相变同四乙基铵阳离子的重取向及有序化联系起来，展示如何用局域核环境和分子运动解释晶体宏观热转变。",
+      "meaning_cn": "复现实验需确认晶型、含水量和热史，在升温与降温过程中统一采集静态或MAS谱，记录场强、转速、温度校准、循环延迟及核种。峰位、线宽和T₁变化应与DSC转变温度及XRD晶格参数逐点对应，并检查热滞后和样品分解，避免把不可逆变化误判为动力学相变。",
+      "publication_date": "2026-09-29",
+      "time_scope": "24h",
+      "source": "Scientific Reports",
+      "url": "https://www.nature.com/articles/s41598-026-72737-y",
+      "doi": "10.1038/s41598-026-72737-y",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-30",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-30.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "材料",
+          "无机配位",
+          "化学结构",
+          "探头",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "NMR｜固体NMR｜多核NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-30.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "多核固体NMR关联四乙基铵铜溴化物相变与动力学；Scientific Reports联合多核固体NMR、单晶/粉末XRD和热分析研究[N(C₂H₅)₄]₂CuBr₄。温度依赖谱与结构数据把相变同四乙基铵阳离子的重取向及有序化联系起来，展示如何用局域核环境和分子运动解释晶体宏观热转变。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "多核固体NMR关联四乙基铵铜溴化物相变与动力学；Scientific Reports联合多核固体NMR、单晶/粉末XRD和热分析研究[N(C₂H₅)₄]₂CuBr₄。温度依赖谱与结构数据把相变同四乙基铵阳离子的重取向及有序化联系起来，展示如何用局域核环境和分子运动解释晶体宏观热转变。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "多核固体NMR关联四乙基铵铜溴化物相变与动力学；Scientific Reports联合多核固体NMR、单晶/粉末XRD和热分析研究[N(C₂H₅)₄]₂CuBr₄。温度依赖谱与结构数据把相变同四乙基铵阳离子的重取向及有序化联系起来，展示如何用局域核环境和分子运动解释晶体宏观热转变。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "多核固体NMR关联四乙基铵铜溴化物相变与动力学；Scientific Reports联合多核固体NMR、单晶/粉末XRD和热分析研究[N(C₂H₅)₄]₂CuBr₄。温度依赖谱与结构数据把相变同四乙基铵阳离子的重取向及有序化联系起来，展示如何用局域核环境和分子运动解释晶体宏观热转变。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "多核固体NMR关联四乙基铵铜溴化物相变与动力学",
+        "original_summary_cn": "Scientific Reports联合多核固体NMR、单晶/粉末XRD和热分析研究[N(C₂H₅)₄]₂CuBr₄。温度依赖谱与结构数据把相变同四乙基铵阳离子的重取向及有序化联系起来，展示如何用局域核环境和分子运动解释晶体宏观热转变。",
+        "original_meaning_cn": "复现实验需确认晶型、含水量和热史，在升温与降温过程中统一采集静态或MAS谱，记录场强、转速、温度校准、循环延迟及核种。峰位、线宽和T₁变化应与DSC转变温度及XRD晶格参数逐点对应，并检查热滞后和样品分解，避免把不可逆变化误判为动力学相变。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "材料",
+          "无机配位",
+          "化学结构",
+          "探头",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260930-05",
+      "report_date": "2026-09-30",
+      "item_no": 5,
+      "title_cn": "单侧NMR评估北京古砖抗风化加固效果",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "cultural_heritage"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Studies in Conservation采用单侧NMR评估北京长城和先农坛古砖的抗风化加固处理。无需取芯即可从表面获得深度相关质子信号与弛豫信息，用于比较加固剂进入范围、孔隙水变化及处理均匀性，为文保现场的非破坏验收提供可量化路径。",
+      "meaning_cn": "现场测试应固定探头贴合压力、测量深度步进、回波间隔、扫描数、温湿度和砖体含水状态，并设置未处理区与实验室标准砖。结果需区分表面干燥、孔隙结构和加固剂本身对T₂及信号幅度的影响；重复定位和长期复测应纳入验收方案。",
+      "publication_date": "2026-09-29",
+      "time_scope": "24h",
+      "source": "Studies in Conservation",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/00393630.2026.2731466",
+      "doi": "10.1080/00393630.2026.2731466",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-30",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-30.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "时域NMR",
+          "材料",
+          "环境",
+          "过程分析",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜时域NMR｜文保应用",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-30.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "单侧NMR评估北京古砖抗风化加固效果；Studies in Conservation采用单侧NMR评估北京长城和先农坛古砖的抗风化加固处理。无需取芯即可从表面获得深度相关质子信号与弛豫信息，用于比较加固剂进入范围、孔隙水变化及处理均匀性，为文保现场的非破坏验收提供可量化路径。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "td_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "单侧NMR评估北京古砖抗风化加固效果；Studies in Conservation采用单侧NMR评估北京长城和先农坛古砖的抗风化加固处理。无需取芯即可从表面获得深度相关质子信号与弛豫信息，用于比较加固剂进入范围、孔隙水变化及处理均匀性，为文保现场的非破坏验收提供可量化路径。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "单侧NMR评估北京古砖抗风化加固效果；Studies in Conservation采用单侧NMR评估北京长城和先农坛古砖的抗风化加固处理。无需取芯即可从表面获得深度相关质子信号与弛豫信息，用于比较加固剂进入范围、孔隙水变化及处理均匀性，为文保现场的非破坏验收提供可量化路径。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "cultural_heritage",
+          "dimension": "application_ids",
+          "basis": "单侧NMR评估北京古砖抗风化加固效果；Studies in Conservation采用单侧NMR评估北京长城和先农坛古砖的抗风化加固处理。无需取芯即可从表面获得深度相关质子信号与弛豫信息，用于比较加固剂进入范围、孔隙水变化及处理均匀性，为文保现场的非破坏验收提供可量化路径。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "单侧NMR评估北京古砖抗风化加固效果",
+        "original_summary_cn": "Studies in Conservation采用单侧NMR评估北京长城和先农坛古砖的抗风化加固处理。无需取芯即可从表面获得深度相关质子信号与弛豫信息，用于比较加固剂进入范围、孔隙水变化及处理均匀性，为文保现场的非破坏验收提供可量化路径。",
+        "original_meaning_cn": "现场测试应固定探头贴合压力、测量深度步进、回波间隔、扫描数、温湿度和砖体含水状态，并设置未处理区与实验室标准砖。结果需区分表面干燥、孔隙结构和加固剂本身对T₂及信号幅度的影响；重复定位和长期复测应纳入验收方案。",
+        "original_tags": [
+          "NMR",
+          "时域NMR",
+          "材料",
+          "环境",
+          "过程分析",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260930-06",
+      "report_date": "2026-09-30",
+      "item_no": 6,
+      "title_cn": "实时LWD-NMR支撑高倾角水平井导向与评价",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "GOTECH会议论文报道在科威特西部侏罗系Marrat致密碳酸盐水平井中，把随钻NMR同电阻率和伽马数据实时融合，用于储层评价与地质导向。方案强调在高倾角井段以NMR孔隙度、流体和T₂信息补足常规测井，并降低对放射性源孔隙度工具的依赖。",
+      "meaning_cn": "现场部署应先用岩心标定T₂截止值、孔隙度与流体响应，统一回波间隔、等待时间、钻速、泥浆性质和温压修正。实时决策需显示质量控制、反演不确定度及深浅探测差异，并将NMR同电阻率、伽马和轨迹数据共同解释，避免单一T₂响应驱动导向。",
+      "publication_date": "2026-09-29",
+      "time_scope": "24h",
+      "source": "GOTECH 2026 / Society of Petroleum Engineers",
+      "url": "https://www.spe-events.org/gotech/technical-programme-2026/innovations-and-new-technologies-in-exploration-and-production",
+      "doi": "10.2118/232011-ms",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-30",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-30.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "时域NMR",
+          "地学流动",
+          "过程分析",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜时域NMR｜地学流动",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-30.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "实时LWD-NMR支撑高倾角水平井导向与评价；GOTECH会议论文报道在科威特西部侏罗系Marrat致密碳酸盐水平井中，把随钻NMR同电阻率和伽马数据实时融合，用于储层评价与地质导向。方案强调在高倾角井段以NMR孔隙度、流体和T₂信息补足常规测井，并降低对放射性源孔隙度工具的依赖。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "td_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "实时LWD-NMR支撑高倾角水平井导向与评价；GOTECH会议论文报道在科威特西部侏罗系Marrat致密碳酸盐水平井中，把随钻NMR同电阻率和伽马数据实时融合，用于储层评价与地质导向。方案强调在高倾角井段以NMR孔隙度、流体和T₂信息补足常规测井，并降低对放射性源孔隙度工具的依赖。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "实时LWD-NMR支撑高倾角水平井导向与评价；GOTECH会议论文报道在科威特西部侏罗系Marrat致密碳酸盐水平井中，把随钻NMR同电阻率和伽马数据实时融合，用于储层评价与地质导向。方案强调在高倾角井段以NMR孔隙度、流体和T₂信息补足常规测井，并降低对放射性源孔隙度工具的依赖。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "geoscience_flow",
+          "dimension": "application_ids",
+          "basis": "实时LWD-NMR支撑高倾角水平井导向与评价；GOTECH会议论文报道在科威特西部侏罗系Marrat致密碳酸盐水平井中，把随钻NMR同电阻率和伽马数据实时融合，用于储层评价与地质导向。方案强调在高倾角井段以NMR孔隙度、流体和T₂信息补足常规测井，并降低对放射性源孔隙度工具的依赖。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "实时LWD-NMR支撑高倾角水平井导向与评价",
+        "original_summary_cn": "GOTECH会议论文报道在科威特西部侏罗系Marrat致密碳酸盐水平井中，把随钻NMR同电阻率和伽马数据实时融合，用于储层评价与地质导向。方案强调在高倾角井段以NMR孔隙度、流体和T₂信息补足常规测井，并降低对放射性源孔隙度工具的依赖。",
+        "original_meaning_cn": "现场部署应先用岩心标定T₂截止值、孔隙度与流体响应，统一回波间隔、等待时间、钻速、泥浆性质和温压修正。实时决策需显示质量控制、反演不确定度及深浅探测差异，并将NMR同电阻率、伽马和轨迹数据共同解释，避免单一T₂响应驱动导向。",
+        "original_tags": [
+          "NMR",
+          "时域NMR",
+          "地学流动",
+          "过程分析",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260930-07",
+      "report_date": "2026-09-30",
+      "item_no": 7,
+      "title_cn": "便携NMR把文保水分定量图与处理评估接通",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "cultural_heritage"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Magnetic Resonance把便携单侧NMR用于文物与建筑材料水分研究，从模型灰泥的定量质子信号映射，推进到高分辨深度剖面和水基处理的无损评价。工作强调用吸水系数等基准校准信号，使现场水分分布不只停留在相对强度图。",
+      "meaning_cn": "方法转移需记录敏感层厚度、探头—表面间距、深度步进、回波间隔、扫描数、温湿度和材料密度，并用已知含水率试块建立幅度校准。处理前后应在同一位置重复测量，报告深度分辨率、信噪、表面粗糙度误差和水分迁移时间线。",
+      "publication_date": "2026-09-26",
+      "time_scope": "7d_extension",
+      "source": "Journal of Magnetic Resonance",
+      "url": "https://doi.org/10.1016/j.jmr.2026.108174",
+      "doi": "10.1016/j.jmr.2026.108174",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-30",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-30.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "时域NMR",
+          "材料",
+          "环境",
+          "过程分析",
+          "仪器",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜时域NMR｜文保应用",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-30.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "便携NMR把文保水分定量图与处理评估接通；Journal of Magnetic Resonance把便携单侧NMR用于文物与建筑材料水分研究，从模型灰泥的定量质子信号映射，推进到高分辨深度剖面和水基处理的无损评价。工作强调用吸水系数等基准校准信号，使现场水分分布不只停留在相对强度图。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "td_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "便携NMR把文保水分定量图与处理评估接通；Journal of Magnetic Resonance把便携单侧NMR用于文物与建筑材料水分研究，从模型灰泥的定量质子信号映射，推进到高分辨深度剖面和水基处理的无损评价。工作强调用吸水系数等基准校准信号，使现场水分分布不只停留在相对强度图。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "便携NMR把文保水分定量图与处理评估接通；Journal of Magnetic Resonance把便携单侧NMR用于文物与建筑材料水分研究，从模型灰泥的定量质子信号映射，推进到高分辨深度剖面和水基处理的无损评价。工作强调用吸水系数等基准校准信号，使现场水分分布不只停留在相对强度图。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "cultural_heritage",
+          "dimension": "application_ids",
+          "basis": "便携NMR把文保水分定量图与处理评估接通；Journal of Magnetic Resonance把便携单侧NMR用于文物与建筑材料水分研究，从模型灰泥的定量质子信号映射，推进到高分辨深度剖面和水基处理的无损评价。工作强调用吸水系数等基准校准信号，使现场水分分布不只停留在相对强度图。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "便携NMR把文保水分定量图与处理评估接通",
+        "original_summary_cn": "Journal of Magnetic Resonance把便携单侧NMR用于文物与建筑材料水分研究，从模型灰泥的定量质子信号映射，推进到高分辨深度剖面和水基处理的无损评价。工作强调用吸水系数等基准校准信号，使现场水分分布不只停留在相对强度图。",
+        "original_meaning_cn": "方法转移需记录敏感层厚度、探头—表面间距、深度步进、回波间隔、扫描数、温湿度和材料密度，并用已知含水率试块建立幅度校准。处理前后应在同一位置重复测量，报告深度分辨率、信噪、表面粗糙度误差和水分迁移时间线。",
+        "original_tags": [
+          "NMR",
+          "时域NMR",
+          "材料",
+          "环境",
+          "过程分析",
+          "仪器",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260930-08",
+      "report_date": "2026-09-30",
+      "item_no": 8,
+      "title_cn": "1.25 kg、0.5 T便携MRI实现原位成像与扩散测量",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "instrument_component_ids": [
+        "magnet",
+        "probe",
+        "gradient_system"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Magnetic Resonance报道模块化便携MRI：约0.5 T、1.25 kg永磁体配合可开启PCB射频线圈、平面梯度线圈和微型梯度驱动器，完成NMR谱、扩散和成像验证。开放式几何面向植物与环境样品的原位检测，而非把样品切割后送入传统磁体。",
+      "meaning_cn": "系统评估应分别测中心场与均匀区、温漂、RF线圈S₁₁/Q值、B₁分布、梯度强度/线性和驱动器热稳定性。扩散与成像需用标准液体和几何体校准b值、空间分辨率、畸变及S/N；开放线圈装样后必须重新调谐，并检查环境电磁干扰。",
+      "publication_date": "2026-09-26",
+      "time_scope": "7d_extension",
+      "source": "Journal of Magnetic Resonance",
+      "url": "https://doi.org/10.1016/j.jmr.2026.108175",
+      "doi": "10.1016/j.jmr.2026.108175",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-30",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-30.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "时域NMR",
+          "仪器",
+          "环境",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜时域NMR｜便携仪器",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-30.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "1.25 kg、0.5 T便携MRI实现原位成像与扩散测量；Journal of Magnetic Resonance报道模块化便携MRI：约0.5 T、1.25 kg永磁体配合可开启PCB射频线圈、平面梯度线圈和微型梯度驱动器，完成NMR谱、扩散和成像验证。开放式几何面向植物与环境样品的原位检测，而非把样品切割后送入传统磁体。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "instrumentation",
+          "dimension": "application_ids",
+          "basis": "1.25 kg、0.5 T便携MRI实现原位成像与扩散测量；Journal of Magnetic Resonance报道模块化便携MRI：约0.5 T、1.25 kg永磁体配合可开启PCB射频线圈、平面梯度线圈和微型梯度驱动器，完成NMR谱、扩散和成像验证。开放式几何面向植物与环境样品的原位检测，而非把样品切割后送入传统磁体。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "magnet",
+          "dimension": "instrument_component_ids",
+          "basis": "1.25 kg、0.5 T便携MRI实现原位成像与扩散测量；Journal of Magnetic Resonance报道模块化便携MRI：约0.5 T、1.25 kg永磁体配合可开启PCB射频线圈、平面梯度线圈和微型梯度驱动器，完成NMR谱、扩散和成像验证。开放式几何面向植物与环境样品的原位检测，而非把样品切割后送入传统磁体。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "probe",
+          "dimension": "instrument_component_ids",
+          "basis": "1.25 kg、0.5 T便携MRI实现原位成像与扩散测量；Journal of Magnetic Resonance报道模块化便携MRI：约0.5 T、1.25 kg永磁体配合可开启PCB射频线圈、平面梯度线圈和微型梯度驱动器，完成NMR谱、扩散和成像验证。开放式几何面向植物与环境样品的原位检测，而非把样品切割后送入传统磁体。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "gradient_system",
+          "dimension": "instrument_component_ids",
+          "basis": "1.25 kg、0.5 T便携MRI实现原位成像与扩散测量；Journal of Magnetic Resonance报道模块化便携MRI：约0.5 T、1.25 kg永磁体配合可开启PCB射频线圈、平面梯度线圈和微型梯度驱动器，完成NMR谱、扩散和成像验证。开放式几何面向植物与环境样品的原位检测，而非把样品切割后送入传统磁体。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "1.25 kg、0.5 T便携MRI实现原位成像与扩散测量",
+        "original_summary_cn": "Journal of Magnetic Resonance报道模块化便携MRI：约0.5 T、1.25 kg永磁体配合可开启PCB射频线圈、平面梯度线圈和微型梯度驱动器，完成NMR谱、扩散和成像验证。开放式几何面向植物与环境样品的原位检测，而非把样品切割后送入传统磁体。",
+        "original_meaning_cn": "系统评估应分别测中心场与均匀区、温漂、RF线圈S₁₁/Q值、B₁分布、梯度强度/线性和驱动器热稳定性。扩散与成像需用标准液体和几何体校准b值、空间分辨率、畸变及S/N；开放线圈装样后必须重新调谐，并检查环境电磁干扰。",
+        "original_tags": [
+          "NMR",
+          "时域NMR",
+          "仪器",
+          "环境",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260930-09",
+      "report_date": "2026-09-30",
+      "item_no": 9,
+      "title_cn": "FSS射频屏蔽改善低场MRI近壁灵敏度",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "instrument_component_ids": [
+        "resonator"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Magnetic Resonance提出用于低场MRI的频率选择表面射频屏蔽，以高通感性网格替代贴近螺线管的连续铜屏蔽。建模、仿真、台架和成像实验显示，在线圈与屏蔽间距受限时，可减轻涡流导致的B₁损失，同时维持外界RF隔离和可用带宽。",
+      "meaning_cn": "移植时需按拉莫尔频率重新设计FSS单元尺寸和网格周期，扫描线圈—屏蔽间距并测S₁₁、Q值、B₁、带宽、噪声与屏蔽效能。验收应同连续铜屏蔽在相同线圈和样品上比较S/N与图像均匀性，并检查梯度切换引起的涡流、振动和发热。",
+      "publication_date": "2026-09-27",
+      "time_scope": "7d_extension",
+      "source": "Journal of Magnetic Resonance",
+      "url": "https://doi.org/10.1016/j.jmr.2026.108172",
+      "doi": "10.1016/j.jmr.2026.108172",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-30",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-30.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "台式NMR",
+          "仪器",
+          "磁体",
+          "探头",
+          "谐振器",
+          "软件"
+        ],
+        "original_type": "NMR｜台式NMR｜射频屏蔽",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-30.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "FSS射频屏蔽改善低场MRI近壁灵敏度；Journal of Magnetic Resonance提出用于低场MRI的频率选择表面射频屏蔽，以高通感性网格替代贴近螺线管的连续铜屏蔽。建模、仿真、台架和成像实验显示，在线圈与屏蔽间距受限时，可减轻涡流导致的B₁损失，同时维持外界RF隔离和可用带宽。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "instrumentation",
+          "dimension": "application_ids",
+          "basis": "FSS射频屏蔽改善低场MRI近壁灵敏度；Journal of Magnetic Resonance提出用于低场MRI的频率选择表面射频屏蔽，以高通感性网格替代贴近螺线管的连续铜屏蔽。建模、仿真、台架和成像实验显示，在线圈与屏蔽间距受限时，可减轻涡流导致的B₁损失，同时维持外界RF隔离和可用带宽。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "resonator",
+          "dimension": "instrument_component_ids",
+          "basis": "FSS射频屏蔽改善低场MRI近壁灵敏度；Journal of Magnetic Resonance提出用于低场MRI的频率选择表面射频屏蔽，以高通感性网格替代贴近螺线管的连续铜屏蔽。建模、仿真、台架和成像实验显示，在线圈与屏蔽间距受限时，可减轻涡流导致的B₁损失，同时维持外界RF隔离和可用带宽。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "FSS射频屏蔽提升低场MRI近壁灵敏度",
+        "original_summary_cn": "Journal of Magnetic Resonance提出用于低场MRI的频率选择表面射频屏蔽，以高通感性网格替代贴近螺线管的连续铜屏蔽。建模、仿真、台架和成像实验显示，在线圈与屏蔽间距受限时，可减轻涡流导致的B₁损失，同时维持外界RF隔离和可用带宽。",
+        "original_meaning_cn": "移植时需按拉莫尔频率重新设计FSS单元尺寸和网格周期，扫描线圈—屏蔽间距并测S₁₁、Q值、B₁、带宽、噪声与屏蔽效能。验收应同连续铜屏蔽在相同线圈和样品上比较S/N与图像均匀性，并检查梯度切换引起的涡流、振动和发热。",
+        "original_tags": [
+          "NMR",
+          "台式NMR",
+          "仪器",
+          "磁体",
+          "探头",
+          "谐振器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260930-10",
+      "report_date": "2026-09-30",
+      "item_no": 10,
+      "title_cn": "¹³³Cs固体NMR识别氧化铝上单原子、对与链",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "catalysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "ChemRxiv联合HAADF-STEM、¹³³Cs固体NMR和DFT研究γ-Al₂O₃表面铯物种。不同晶面与边缘决定Cs以单原子、成对或链状锚定；NMR化学位移和计算帮助区分电子显微镜难以完整统计的局域环境，为单原子催化剂中碱金属助剂的真实结构提供谱学指纹。",
+      "meaning_cn": "复现需严格记录Cs负载量、氧化铝晶形、焙烧/含水状态、MAS转速、场强、脉冲和循环延迟，并用负载量系列拆分峰形。DFT屏蔽计算应覆盖不同晶面、边缘和水合模型；NMR峰归属须与STEM统计、元素定量和吸附/催化性能共同验证。",
+      "publication_date": "2026-09-28",
+      "time_scope": "7d_extension",
+      "source": "ChemRxiv",
+      "url": "https://chemrxiv.org/doi/10.26434/chemrxiv.15009512",
+      "doi": "10.26434/chemrxiv.15009512/v1",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-30",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-30.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "计算NMR",
+          "材料",
+          "催化",
+          "无机配位",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜固体NMR｜多核NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-30.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "¹³³Cs固体NMR识别氧化铝上单原子、对与链；ChemRxiv联合HAADF-STEM、¹³³Cs固体NMR和DFT研究γ-Al₂O₃表面铯物种。不同晶面与边缘决定Cs以单原子、成对或链状锚定；NMR化学位移和计算帮助区分电子显微镜难以完整统计的局域环境，为单原子催化剂中碱金属助剂的真实结构提供谱学指纹。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "¹³³Cs固体NMR识别氧化铝上单原子、对与链；ChemRxiv联合HAADF-STEM、¹³³Cs固体NMR和DFT研究γ-Al₂O₃表面铯物种。不同晶面与边缘决定Cs以单原子、成对或链状锚定；NMR化学位移和计算帮助区分电子显微镜难以完整统计的局域环境，为单原子催化剂中碱金属助剂的真实结构提供谱学指纹。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "catalysis",
+          "dimension": "application_ids",
+          "basis": "¹³³Cs固体NMR识别氧化铝上单原子、对与链；ChemRxiv联合HAADF-STEM、¹³³Cs固体NMR和DFT研究γ-Al₂O₃表面铯物种。不同晶面与边缘决定Cs以单原子、成对或链状锚定；NMR化学位移和计算帮助区分电子显微镜难以完整统计的局域环境，为单原子催化剂中碱金属助剂的真实结构提供谱学指纹。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "¹³³Cs固体NMR识别氧化铝上单原子、对与链",
+        "original_summary_cn": "ChemRxiv联合HAADF-STEM、¹³³Cs固体NMR和DFT研究γ-Al₂O₃表面铯物种。不同晶面与边缘决定Cs以单原子、成对或链状锚定；NMR化学位移和计算帮助区分电子显微镜难以完整统计的局域环境，为单原子催化剂中碱金属助剂的真实结构提供谱学指纹。",
+        "original_meaning_cn": "复现需严格记录Cs负载量、氧化铝晶形、焙烧/含水状态、MAS转速、场强、脉冲和循环延迟，并用负载量系列拆分峰形。DFT屏蔽计算应覆盖不同晶面、边缘和水合模型；NMR峰归属须与STEM统计、元素定量和吸附/催化性能共同验证。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "计算NMR",
+          "材料",
+          "催化",
+          "无机配位",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "常规检索确认6条具有可核验在线时间或明确事件时间、可归入过去24小时的合格新增；扩展至近7天后获得10条，因此未触发增强搜索或第二级深度增强检索。常规路线逐站核查Journal of Magnetic Resonance（含Articles in Press）、Journal of Magnetic Resonance Open、Magnetic Resonance、Journal of Biomolecular NMR、Solid State Nuclear Magnetic Resonance、Magnetic Resonance in Chemistry、Applied Magnetic Resonance及ACS、RSC、Wiley、Springer Nature、Elsevier和AIP相关期刊，并检查Crossref、PubMed、arXiv、ChemRxiv、科研机构、主要仪器厂商、专业会议及中外采购公告；规定的方法主题簇均完成检索。JMR Articles in Press单独核验后收录3条。结合2026年9月23日至29日最近7期共70条记录，按标准化DOI、规范化URL和标题查重，排除14条既有记录、9条日期无法可靠核验的候选，并剔除医学MRI、缩写误检、常驻页面及仅将NMR/EPR作为辅助表征的内容。本期6条为近24小时、4条为9月26日至28日的近7天扩展，全部来自非SCM来源。待复核标签：trCW/pulsed-EPR triplet-energy transfer、in-situ electrochemical EPR cell、TD-NMR food mobility framework、unilateral NMR consolidation、portable MRI gradient module、FSS RF shield、133Cs单原子/对/链判别及LWD-NMR geosteering保留在sample_systems和正文中，未创建新的正式ID。",
+    "source_sha256": "be220a895c686715caa69d7f5abb2a9bf3aa0e26f377862e9741023848d4e7cb",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

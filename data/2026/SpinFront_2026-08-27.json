@@ -1,0 +1,845 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-08-27",
+  "scope_note": "本期收录8条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260827-01",
+      "report_date": "2026-08-27",
+      "item_no": 1,
+      "title_cn": "PCA分解NMR化学位移用于客观绘制生物分子相互作用",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [
+        "software"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究以主成分分析分解滴定或扰动过程中协同变化的NMR化学位移，减少逐峰阈值判定带来的主观性，用统一统计坐标识别结合相关残基与相互作用模式。该方法面向谱峰重叠、位移幅度不一的生物分子数据。",
+      "meaning_cn": "适合蛋白—配体滴定及相互作用定位的软件方案交流。应用时需保留各滴定点一致的采集、参照、峰表和浓度设计；可将PCA载荷与传统CSP映射并列验证，重点检查峰缺失、交换展宽和离群谱。",
+      "publication_date": "2026-08-21",
+      "time_scope": "7d_extension",
+      "source": "Analytical Chemistry",
+      "url": "https://pubs.acs.org/ancham/article/doi/10.1021/acs.analchem.6c02780/5285082/Principal-Component-Analysis-Based-Deconvolution",
+      "doi": "10.1021/acs.analchem.6c02780",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-27",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-27.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "配体筛选"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-27.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "PCA分解NMR化学位移用于客观绘制生物分子相互作用；研究以主成分分析分解滴定或扰动过程中协同变化的NMR化学位移，减少逐峰阈值判定带来的主观性，用统一统计坐标识别结合相关残基与相互作用模式。该方法面向谱峰重叠、位移幅度不一的生物分子数据。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "PCA分解NMR化学位移用于客观绘制生物分子相互作用；研究以主成分分析分解滴定或扰动过程中协同变化的NMR化学位移，减少逐峰阈值判定带来的主观性，用统一统计坐标识别结合相关残基与相互作用模式。该方法面向谱峰重叠、位移幅度不一的生物分子数据。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "PCA分解NMR化学位移用于客观绘制生物分子相互作用；研究以主成分分析分解滴定或扰动过程中协同变化的NMR化学位移，减少逐峰阈值判定带来的主观性，用统一统计坐标识别结合相关残基与相互作用模式。该方法面向谱峰重叠、位移幅度不一的生物分子数据。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "software",
+          "dimension": "instrument_component_ids",
+          "basis": "PCA分解NMR化学位移用于客观绘制生物分子相互作用；研究以主成分分析分解滴定或扰动过程中协同变化的NMR化学位移，减少逐峰阈值判定带来的主观性，用统一统计坐标识别结合相关残基与相互作用模式。该方法面向谱峰重叠、位移幅度不一的生物分子数据。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "PCA分解NMR化学位移用于客观绘制生物分子相互作用",
+        "original_summary_cn": "研究以主成分分析分解滴定或扰动过程中协同变化的NMR化学位移，减少逐峰阈值判定带来的主观性，用统一统计坐标识别结合相关残基与相互作用模式。该方法面向谱峰重叠、位移幅度不一的生物分子数据。",
+        "original_meaning_cn": "适合蛋白—配体滴定及相互作用定位的软件方案交流。应用时需保留各滴定点一致的采集、参照、峰表和浓度设计；可将PCA载荷与传统CSP映射并列验证，重点检查峰缺失、交换展宽和离群谱。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "配体筛选"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260827-02",
+      "report_date": "2026-08-27",
+      "item_no": 2,
+      "title_cn": "JEOL发布面向生物分子NMR的SuperCOOL MARVEL HCN低温探头",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [
+        "probe"
+      ],
+      "sample_systems": [],
+      "information_type": "product_software",
+      "summary_cn": "JEOL发布SuperCOOL MARVEL HCN高灵敏度低温探头，检测通道面向H/C/N生物分子NMR。产品定位集中在多维异核相关实验的灵敏度与长期测量需求，适用于低浓度蛋白质、核酸及复杂生物样品。",
+      "meaning_cn": "配置比较应逐项核对1H、13C、15N通道的线圈温区、前置放大器温区、脉冲宽度、去耦功率、梯度能力与规定样品下S/N，不宜只比较“低温探头”名称。还需确认氦消耗、自动调谐和盐耐受条件。",
+      "publication_date": "2026-08-21",
+      "time_scope": "7d_extension",
+      "source": "JEOL",
+      "url": "https://www.jeol.com/news/",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-27",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-27.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "仪器、软件与方法",
+          "生命科学",
+          "结构生物学"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-27.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "JEOL发布面向生物分子NMR的SuperCOOL MARVEL HCN低温探头；JEOL发布SuperCOOL MARVEL HCN高灵敏度低温探头，检测通道面向H/C/N生物分子NMR。产品定位集中在多维异核相关实验的灵敏度与长期测量需求，适用于低浓度蛋白质、核酸及复杂生物样品。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "JEOL发布面向生物分子NMR的SuperCOOL MARVEL HCN低温探头；JEOL发布SuperCOOL MARVEL HCN高灵敏度低温探头，检测通道面向H/C/N生物分子NMR。产品定位集中在多维异核相关实验的灵敏度与长期测量需求，适用于低浓度蛋白质、核酸及复杂生物样品。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "JEOL发布面向生物分子NMR的SuperCOOL MARVEL HCN低温探头；JEOL发布SuperCOOL MARVEL HCN高灵敏度低温探头，检测通道面向H/C/N生物分子NMR。产品定位集中在多维异核相关实验的灵敏度与长期测量需求，适用于低浓度蛋白质、核酸及复杂生物样品。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "probe",
+          "dimension": "instrument_component_ids",
+          "basis": "JEOL发布面向生物分子NMR的SuperCOOL MARVEL HCN低温探头；JEOL发布SuperCOOL MARVEL HCN高灵敏度低温探头，检测通道面向H/C/N生物分子NMR。产品定位集中在多维异核相关实验的灵敏度与长期测量需求，适用于低浓度蛋白质、核酸及复杂生物样品。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "JEOL发布面向生物分子NMR的SuperCOOL MARVEL HCN低温探头",
+        "original_summary_cn": "JEOL发布SuperCOOL MARVEL HCN高灵敏度低温探头，检测通道面向H/C/N生物分子NMR。产品定位集中在多维异核相关实验的灵敏度与长期测量需求，适用于低浓度蛋白质、核酸及复杂生物样品。",
+        "original_meaning_cn": "配置比较应逐项核对1H、13C、15N通道的线圈温区、前置放大器温区、脉冲宽度、去耦功率、梯度能力与规定样品下S/N，不宜只比较“低温探头”名称。还需确认氦消耗、自动调谐和盐耐受条件。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "仪器、软件与方法",
+          "生命科学",
+          "结构生物学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260827-03",
+      "report_date": "2026-08-27",
+      "item_no": 3,
+      "title_cn": "TD-NMR用于大麦发芽能力的快速无损评估",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究以四唑染色法为参照，建立并验证时域核磁评估大麦发芽能力的方法。完整籽粒可在少量前处理条件下快速测量，论文强调分析有效性、无损性以及向麦芽工业筛查场景迁移的可行性。",
+      "meaning_cn": "该方向适合低场TD-NMR食品与种子质控方案。实施时应固定籽粒含水量、温度、装样质量、等待时间及CPMG等弛豫采集参数，并采用独立批次验证校准模型；需同时报告重复性、偏差和参考法一致性。",
+      "publication_date": "2026-08-20",
+      "time_scope": "7d_extension",
+      "source": "Journal of Food Measurement and Characterization",
+      "url": "https://link.springer.com/article/10.1007/s11694-026-04854-1",
+      "doi": "10.1007/s11694-026-04854-1",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-27",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-27.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "时域/低场NMR",
+          "食品与农业",
+          "过程分析"
+        ],
+        "original_type": "时域/低场NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-27.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "TD-NMR用于大麦发芽能力的快速无损评估；研究以四唑染色法为参照，建立并验证时域核磁评估大麦发芽能力的方法。完整籽粒可在少量前处理条件下快速测量，论文强调分析有效性、无损性以及向麦芽工业筛查场景迁移的可行性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "td_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "TD-NMR用于大麦发芽能力的快速无损评估；研究以四唑染色法为参照，建立并验证时域核磁评估大麦发芽能力的方法。完整籽粒可在少量前处理条件下快速测量，论文强调分析有效性、无损性以及向麦芽工业筛查场景迁移的可行性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "food_agriculture",
+          "dimension": "application_ids",
+          "basis": "TD-NMR用于大麦发芽能力的快速无损评估；研究以四唑染色法为参照，建立并验证时域核磁评估大麦发芽能力的方法。完整籽粒可在少量前处理条件下快速测量，论文强调分析有效性、无损性以及向麦芽工业筛查场景迁移的可行性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "TD-NMR用于大麦发芽能力的快速无损评估",
+        "original_summary_cn": "研究以四唑染色法为参照，建立并验证时域核磁评估大麦发芽能力的方法。完整籽粒可在少量前处理条件下快速测量，论文强调分析有效性、无损性以及向麦芽工业筛查场景迁移的可行性。",
+        "original_meaning_cn": "该方向适合低场TD-NMR食品与种子质控方案。实施时应固定籽粒含水量、温度、装样质量、等待时间及CPMG等弛豫采集参数，并采用独立批次验证校准模型；需同时报告重复性、偏差和参考法一致性。",
+        "original_tags": [
+          "NMR",
+          "时域/低场NMR",
+          "食品与农业",
+          "过程分析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260827-04",
+      "report_date": "2026-08-27",
+      "item_no": 4,
+      "title_cn": "ICMRBS议程披露下一代Avance电子学NEO-X",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [
+        "console"
+      ],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "Bruker在ICMRBS 2026午餐专题议程中列出“Next Generation Avance Electronics NEO-X”。官方活动页尚未给出完整规格，但该议题明确指向下一代NMR控制台电子学，是本届会议值得跟踪的硬件信息。",
+      "meaning_cn": "对谱仪配置与技术交流，后续应核对射频通道架构、频率与相位分辨率、最小时序步长、接收动态范围、梯度接口及旧探头兼容性。当前信息仅能确认技术议题，不能据此写入正式参数响应。",
+      "publication_date": "2026-08-23",
+      "time_scope": "7d_extension",
+      "source": "Bruker at ICMRBS 2026",
+      "url": "https://www.bruker.com/en/news-and-events/events/icmrbs.html",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-27",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-27.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "仪器、软件与方法"
+        ],
+        "original_type": "NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-27.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "ICMRBS议程披露下一代Avance电子学NEO-X；Bruker在ICMRBS 2026午餐专题议程中列出“Next Generation Avance Electronics NEO-X”。官方活动页尚未给出完整规格，但该议题明确指向下一代NMR控制台电子学，是本届会议值得跟踪的硬件信息。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "ICMRBS议程披露下一代Avance电子学NEO-X；Bruker在ICMRBS 2026午餐专题议程中列出“Next Generation Avance Electronics NEO-X”。官方活动页尚未给出完整规格，但该议题明确指向下一代NMR控制台电子学，是本届会议值得跟踪的硬件信息。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "console",
+          "dimension": "instrument_component_ids",
+          "basis": "ICMRBS议程披露下一代Avance电子学NEO-X；Bruker在ICMRBS 2026午餐专题议程中列出“Next Generation Avance Electronics NEO-X”。官方活动页尚未给出完整规格，但该议题明确指向下一代NMR控制台电子学，是本届会议值得跟踪的硬件信息。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "ICMRBS议程披露下一代Avance电子学NEO-X",
+        "original_summary_cn": "Bruker在ICMRBS 2026午餐专题议程中列出“Next Generation Avance Electronics NEO-X”。官方活动页尚未给出完整规格，但该议题明确指向下一代NMR控制台电子学，是本届会议值得跟踪的硬件信息。",
+        "original_meaning_cn": "对谱仪配置与技术交流，后续应核对射频通道架构、频率与相位分辨率、最小时序步长、接收动态范围、梯度接口及旧探头兼容性。当前信息仅能确认技术议题，不能据此写入正式参数响应。",
+        "original_tags": [
+          "NMR",
+          "仪器、软件与方法"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260827-05",
+      "report_date": "2026-08-27",
+      "item_no": 5,
+      "title_cn": "TopSpin 5与Advanced Chemical Profiling 2.0进入ICMRBS技术议程",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [
+        "software"
+      ],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "ICMRBS 2026厂商专题安排TopSpin 5与Advanced Chemical Profiling 2.0软件更新报告，内容指向采集处理平台与复杂混合物化学谱型分析。官方页面目前仅公开议程，具体算法和版本功能仍待会议资料确认。",
+      "meaning_cn": "客户交流可重点追踪自动处理、定量模板、数据库管理、批量QC和报告接口。采购或软件比较时应要求演示真实样品的导入、相位基线、峰匹配、版本追溯与结果导出，避免仅依据功能名称判断。",
+      "publication_date": "2026-08-23",
+      "time_scope": "7d_extension",
+      "source": "Bruker at ICMRBS 2026",
+      "url": "https://www.bruker.com/en/news-and-events/events/icmrbs.html",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-27",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-27.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "NMR代谢组学",
+          "仪器、软件与方法",
+          "过程分析",
+          "生命科学"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-27.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "TopSpin 5与Advanced Chemical Profiling 2.0进入ICMRBS技术议程；ICMRBS 2026厂商专题安排TopSpin 5与Advanced Chemical Profiling 2.0软件更新报告，内容指向采集处理平台与复杂混合物化学谱型分析。官方页面目前仅公开议程，具体算法和版本功能仍待会议资料确认。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "TopSpin 5与Advanced Chemical Profiling 2.0进入ICMRBS技术议程；ICMRBS 2026厂商专题安排TopSpin 5与Advanced Chemical Profiling 2.0软件更新报告，内容指向采集处理平台与复杂混合物化学谱型分析。官方页面目前仅公开议程，具体算法和版本功能仍待会议资料确认。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "software",
+          "dimension": "instrument_component_ids",
+          "basis": "TopSpin 5与Advanced Chemical Profiling 2.0进入ICMRBS技术议程；ICMRBS 2026厂商专题安排TopSpin 5与Advanced Chemical Profiling 2.0软件更新报告，内容指向采集处理平台与复杂混合物化学谱型分析。官方页面目前仅公开议程，具体算法和版本功能仍待会议资料确认。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "TopSpin 5与Advanced Chemical Profiling 2.0进入ICMRBS技术议程",
+        "original_summary_cn": "ICMRBS 2026厂商专题安排TopSpin 5与Advanced Chemical Profiling 2.0软件更新报告，内容指向采集处理平台与复杂混合物化学谱型分析。官方页面目前仅公开议程，具体算法和版本功能仍待会议资料确认。",
+        "original_meaning_cn": "客户交流可重点追踪自动处理、定量模板、数据库管理、批量QC和报告接口。采购或软件比较时应要求演示真实样品的导入、相位基线、峰匹配、版本追溯与结果导出，避免仅依据功能名称判断。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "NMR代谢组学",
+          "仪器、软件与方法",
+          "过程分析",
+          "生命科学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260827-06",
+      "report_date": "2026-08-27",
+      "item_no": 6,
+      "title_cn": "Q波段距离测量扩展EPR结构生物学应用",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "pds"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "ICMRBS专题议程设置“Expanding the Reach of EPR: Q-Band Distance Measurements in Structural Biology”，聚焦Q波段脉冲EPR距离测量在结构生物学中的使用。其核心实验通常涉及自旋标记、低温冻结样品与DEER/PELDOR。",
+      "meaning_cn": "方案设计需同时评估Q波段谐振器有效体积、样品管规格、泵浦带宽、脉冲功率、低温系统和背景相减。生物样品还需控制自旋标记效率、玻璃化剂比例、浓度及多构象距离分布，不能只用名义灵敏度估算实验时间。",
+      "publication_date": "2026-08-23",
+      "time_scope": "7d_extension",
+      "source": "Bruker at ICMRBS 2026",
+      "url": "https://www.bruker.com/en/news-and-events/events/icmrbs.html",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-27",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-27.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "DEER/PELDOR",
+          "自旋标记",
+          "生命科学",
+          "结构生物学",
+          "仪器、软件与方法"
+        ],
+        "original_type": "脉冲EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-27.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "Q波段距离测量扩展EPR结构生物学应用；ICMRBS专题议程设置“Expanding the Reach of EPR: Q-Band Distance Measurements in Structural Biology”，聚焦Q波段脉冲EPR距离测量在结构生物学中的使用。其核心实验通常涉及自旋标记、低温冻结样品与DEER/PELDOR。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "Q波段距离测量扩展EPR结构生物学应用；ICMRBS专题议程设置“Expanding the Reach of EPR: Q-Band Distance Measurements in Structural Biology”，聚焦Q波段脉冲EPR距离测量在结构生物学中的使用。其核心实验通常涉及自旋标记、低温冻结样品与DEER/PELDOR。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pds",
+          "dimension": "method_ids",
+          "basis": "Q波段距离测量扩展EPR结构生物学应用；ICMRBS专题议程设置“Expanding the Reach of EPR: Q-Band Distance Measurements in Structural Biology”，聚焦Q波段脉冲EPR距离测量在结构生物学中的使用。其核心实验通常涉及自旋标记、低温冻结样品与DEER/PELDOR。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "Q波段距离测量扩展EPR结构生物学应用；ICMRBS专题议程设置“Expanding the Reach of EPR: Q-Band Distance Measurements in Structural Biology”，聚焦Q波段脉冲EPR距离测量在结构生物学中的使用。其核心实验通常涉及自旋标记、低温冻结样品与DEER/PELDOR。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Q波段距离测量扩展EPR结构生物学应用",
+        "original_summary_cn": "ICMRBS专题议程设置“Expanding the Reach of EPR: Q-Band Distance Measurements in Structural Biology”，聚焦Q波段脉冲EPR距离测量在结构生物学中的使用。其核心实验通常涉及自旋标记、低温冻结样品与DEER/PELDOR。",
+        "original_meaning_cn": "方案设计需同时评估Q波段谐振器有效体积、样品管规格、泵浦带宽、脉冲功率、低温系统和背景相减。生物样品还需控制自旋标记效率、玻璃化剂比例、浓度及多构象距离分布，不能只用名义灵敏度估算实验时间。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "DEER/PELDOR",
+          "自旋标记",
+          "生命科学",
+          "结构生物学",
+          "仪器、软件与方法"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260827-07",
+      "report_date": "2026-08-27",
+      "item_no": 7,
+      "title_cn": "ICMRBS集中更新固体NMR与DNP技术进展",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "dnp"
+      ],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "Bruker在ICMRBS 2026安排固体NMR与动态核极化（DNP）专题更新，覆盖高场固体谱学、探头及灵敏度增强方向。现有官方信息属于议程级披露，尚无可直接引用的转速、温区或增强倍数。",
+      "meaning_cn": "后续资料适合按磁场强度、MAS转速、转子直径、低温气路、微波频率及增强倍数整理。对生命科学样品，应额外比较样品量、自由基掺杂、低温展宽、重复时间和单位有效机时产出。",
+      "publication_date": "2026-08-23",
+      "time_scope": "7d_extension",
+      "source": "Bruker at ICMRBS 2026",
+      "url": "https://www.bruker.com/en/news-and-events/events/icmrbs.html",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-27",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-27.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "仪器、软件与方法",
+          "结构生物学",
+          "材料与缺陷表征"
+        ],
+        "original_type": "固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-27.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "ICMRBS集中更新固体NMR与DNP技术进展；Bruker在ICMRBS 2026安排固体NMR与动态核极化（DNP）专题更新，覆盖高场固体谱学、探头及灵敏度增强方向。现有官方信息属于议程级披露，尚无可直接引用的转速、温区或增强倍数。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "ICMRBS集中更新固体NMR与DNP技术进展；Bruker在ICMRBS 2026安排固体NMR与动态核极化（DNP）专题更新，覆盖高场固体谱学、探头及灵敏度增强方向。现有官方信息属于议程级披露，尚无可直接引用的转速、温区或增强倍数。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "dnp",
+          "dimension": "method_ids",
+          "basis": "ICMRBS集中更新固体NMR与DNP技术进展；Bruker在ICMRBS 2026安排固体NMR与动态核极化（DNP）专题更新，覆盖高场固体谱学、探头及灵敏度增强方向。现有官方信息属于议程级披露，尚无可直接引用的转速、温区或增强倍数。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "ICMRBS集中更新固体NMR与DNP技术进展；Bruker在ICMRBS 2026安排固体NMR与动态核极化（DNP）专题更新，覆盖高场固体谱学、探头及灵敏度增强方向。现有官方信息属于议程级披露，尚无可直接引用的转速、温区或增强倍数。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "ICMRBS集中更新固体NMR与DNP技术进展",
+        "original_summary_cn": "Bruker在ICMRBS 2026安排固体NMR与动态核极化（DNP）专题更新，覆盖高场固体谱学、探头及灵敏度增强方向。现有官方信息属于议程级披露，尚无可直接引用的转速、温区或增强倍数。",
+        "original_meaning_cn": "后续资料适合按磁场强度、MAS转速、转子直径、低温气路、微波频率及增强倍数整理。对生命科学样品，应额外比较样品量、自由基掺杂、低温展宽、重复时间和单位有效机时产出。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "仪器、软件与方法",
+          "结构生物学",
+          "材料与缺陷表征"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260827-08",
+      "report_date": "2026-08-27",
+      "item_no": 8,
+      "title_cn": "NMR磁体制造、测试与氦回收进入开放工厂议程",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [
+        "magnet"
+      ],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "ICMRBS会后开放活动将展示磁体绕制、装配与测试、控制台和探头测试，以及氦回收系统；会议专题同时安排NMR磁体与磁体技术更新。该信息直接涉及高场NMR制造和运行保障环节。",
+      "meaning_cn": "对实验室建设与用户沟通，可据此形成磁体验收检查表：中心场与漂移、匀场指标、杂散场范围、失超保护、氦液位与回收接口、机房通风及维护通道。正式方案仍需使用厂商技术文件给出的量化参数。",
+      "publication_date": "2026-08-23",
+      "time_scope": "7d_extension",
+      "source": "Bruker at ICMRBS 2026",
+      "url": "https://www.bruker.com/en/news-and-events/events/icmrbs.html",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-27",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-27.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "仪器、软件与方法"
+        ],
+        "original_type": "NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-27.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "NMR磁体制造、测试与氦回收进入开放工厂议程；ICMRBS会后开放活动将展示磁体绕制、装配与测试、控制台和探头测试，以及氦回收系统；会议专题同时安排NMR磁体与磁体技术更新。该信息直接涉及高场NMR制造和运行保障环节。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "NMR磁体制造、测试与氦回收进入开放工厂议程；ICMRBS会后开放活动将展示磁体绕制、装配与测试、控制台和探头测试，以及氦回收系统；会议专题同时安排NMR磁体与磁体技术更新。该信息直接涉及高场NMR制造和运行保障环节。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "magnet",
+          "dimension": "instrument_component_ids",
+          "basis": "NMR磁体制造、测试与氦回收进入开放工厂议程；ICMRBS会后开放活动将展示磁体绕制、装配与测试、控制台和探头测试，以及氦回收系统；会议专题同时安排NMR磁体与磁体技术更新。该信息直接涉及高场NMR制造和运行保障环节。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "NMR磁体制造、测试与氦回收进入开放工厂议程",
+        "original_summary_cn": "ICMRBS会后开放活动将展示磁体绕制、装配与测试、控制台和探头测试，以及氦回收系统；会议专题同时安排NMR磁体与磁体技术更新。该信息直接涉及高场NMR制造和运行保障环节。",
+        "original_meaning_cn": "对实验室建设与用户沟通，可据此形成磁体验收检查表：中心场与漂移、匀场指标、杂散场范围、失超保护、氦液位与回收接口、机房通风及维护通道。正式方案仍需使用厂商技术文件给出的量化参数。",
+        "original_tags": [
+          "NMR",
+          "仪器、软件与方法"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "过去24小时内未发现足量且可确认的高相关新增，扩展检索至2026-08-20至2026-08-26；共收录8条。ICMRBS同一官方活动页中的独立技术议程分别记录。",
+    "source_sha256": "0536e778c392c5d822cd9c523d8241c570383ca1a8c69db30ca8e4442a2e46aa",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

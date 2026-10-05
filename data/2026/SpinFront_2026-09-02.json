@@ -1,0 +1,284 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-02",
+  "scope_note": "本期收录3条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260902-01",
+      "report_date": "2026-09-02",
+      "item_no": 1,
+      "title_cn": "定量CW-EPR揭示电缆细菌Ni–双二硫烯导电框架的配体自由基",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "cw_epr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Nature Communications报道电缆细菌以生物合成Ni–双二硫烯配位网络实现厘米级长程导电。12 K X波段CW-EPR检出g≈2的S=1/2信号，平均g值2.014；定量结果为每个Ni约0.12±0.03个自旋，结合DFT表明未成对电子主要位于末端硫/碳配体而非Ni中心。",
+      "meaning_cn": "复现实验需将超过1000根细菌丝浓缩至1.1 mm内径Suprasil管并液氮速冻，使用高灵敏度X波段谐振器和闭循环氦低温系统。应做1–20.2 mW功率饱和曲线，并以DPPH校场、Cu²⁺标准定量；EasySpin拟合还需校正功率、调制幅度、温度及谐振器位置差异。",
+      "publication_date": "2026-09-01",
+      "time_scope": "24h",
+      "source": "Nature Communications",
+      "url": "https://www.nature.com/articles/s41467-026-76989-0",
+      "doi": "10.1038/s41467-026-76989-0",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-02",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-02.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "生命科学",
+          "材料与缺陷表征",
+          "无机与配位化学"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-02.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "定量CW-EPR揭示电缆细菌Ni–双二硫烯导电框架的配体自由基；Nature Communications报道电缆细菌以生物合成Ni–双二硫烯配位网络实现厘米级长程导电。12 K X波段CW-EPR检出g≈2的S=1/2信号，平均g值2.014；定量结果为每个Ni约0.12±0.03个自旋，结合DFT表明未成对电子主要位于末端硫/碳配体而非Ni中心。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "cw_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "定量CW-EPR揭示电缆细菌Ni–双二硫烯导电框架的配体自由基；Nature Communications报道电缆细菌以生物合成Ni–双二硫烯配位网络实现厘米级长程导电。12 K X波段CW-EPR检出g≈2的S=1/2信号，平均g值2.014；定量结果为每个Ni约0.12±0.03个自旋，结合DFT表明未成对电子主要位于末端硫/碳配体而非Ni中心。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "life_science",
+          "dimension": "application_ids",
+          "basis": "定量CW-EPR揭示电缆细菌Ni–双二硫烯导电框架的配体自由基；Nature Communications报道电缆细菌以生物合成Ni–双二硫烯配位网络实现厘米级长程导电。12 K X波段CW-EPR检出g≈2的S=1/2信号，平均g值2.014；定量结果为每个Ni约0.12±0.03个自旋，结合DFT表明未成对电子主要位于末端硫/碳配体而非Ni中心。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "定量CW-EPR揭示电缆细菌Ni–双二硫烯导电框架的配体自由基",
+        "original_summary_cn": "Nature Communications报道电缆细菌以生物合成Ni–双二硫烯配位网络实现厘米级长程导电。12 K X波段CW-EPR检出g≈2的S=1/2信号，平均g值2.014；定量结果为每个Ni约0.12±0.03个自旋，结合DFT表明未成对电子主要位于末端硫/碳配体而非Ni中心。",
+        "original_meaning_cn": "复现实验需将超过1000根细菌丝浓缩至1.1 mm内径Suprasil管并液氮速冻，使用高灵敏度X波段谐振器和闭循环氦低温系统。应做1–20.2 mW功率饱和曲线，并以DPPH校场、Cu²⁺标准定量；EasySpin拟合还需校正功率、调制幅度、温度及谐振器位置差异。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "生命科学",
+          "材料与缺陷表征",
+          "无机与配位化学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260902-02",
+      "report_date": "2026-09-02",
+      "item_no": 2,
+      "title_cn": "西安建筑科技大学启动975万元核磁共振波谱仪采购",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "procurement"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "tender",
+      "summary_cn": "西安建筑科技大学发布核磁共振波谱仪公开招标，项目编号ZX2026-04-62，预算975万元、最高限价926万元，已完成进口产品备案并允许采购进口设备。招标文件获取期为9月1—8日，9月22日开标，要求合同签订后180个日历日内完成交付、安装和调试。",
+      "meaning_cn": "供应方案首先需确认采购需求附件中的磁场强度、探头核种、变温、梯度和自动进样配置；公开页面尚不足以完成逐项响应。项目不接受联合体或分包，进口产品须提供完整厂家授权链，报价还应覆盖安装条件核查、现场验收样、培训、软件许可和180日交付计划。",
+      "publication_date": "2026-09-01",
+      "time_scope": "24h",
+      "source": "西安建筑科技大学核磁共振波谱仪采购公告（机电设备采购平台转载）",
+      "url": "https://www.chinamae.com/purchases/b1f28b775cb54e041e1587459a0e28d1.html",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-02",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-02.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "仪器、软件与方法",
+          "采购与行业"
+        ],
+        "original_type": "NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-02.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "西安建筑科技大学启动975万元核磁共振波谱仪采购；西安建筑科技大学发布核磁共振波谱仪公开招标，项目编号ZX2026-04-62，预算975万元、最高限价926万元，已完成进口产品备案并允许采购进口设备。招标文件获取期为9月1—8日，9月22日开标，要求合同签订后180个日历日内完成交付、安装和调试。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "procurement",
+          "dimension": "application_ids",
+          "basis": "西安建筑科技大学启动975万元核磁共振波谱仪采购；西安建筑科技大学发布核磁共振波谱仪公开招标，项目编号ZX2026-04-62，预算975万元、最高限价926万元，已完成进口产品备案并允许采购进口设备。招标文件获取期为9月1—8日，9月22日开标，要求合同签订后180个日历日内完成交付、安装和调试。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "西安建筑科技大学启动975万元核磁共振波谱仪采购",
+        "original_summary_cn": "西安建筑科技大学发布核磁共振波谱仪公开招标，项目编号ZX2026-04-62，预算975万元、最高限价926万元，已完成进口产品备案并允许采购进口设备。招标文件获取期为9月1—8日，9月22日开标，要求合同签订后180个日历日内完成交付、安装和调试。",
+        "original_meaning_cn": "供应方案首先需确认采购需求附件中的磁场强度、探头核种、变温、梯度和自动进样配置；公开页面尚不足以完成逐项响应。项目不接受联合体或分包，进口产品须提供完整厂家授权链，报价还应覆盖安装条件核查、现场验收样、培训、软件许可和180日交付计划。",
+        "original_tags": [
+          "NMR",
+          "仪器、软件与方法",
+          "采购与行业"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260902-03",
+      "report_date": "2026-09-02",
+      "item_no": 3,
+      "title_cn": "天津大学电子顺磁共振波谱仪项目以642.85万元中标",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "procurement"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "tender",
+      "summary_cn": "天津大学资产处电子顺磁共振波谱仪采购项目（第二次）公布中标结果，项目编号TDZC2026J0021；中标供应商为天津市鸿然科技发展有限公司，中标金额642.85万元，接近650万元项目预算。该结果提供了高校高端EPR整机采购的近期成交价格参照。",
+      "meaning_cn": "市场比较不能只按总价判断，后续应取得招标文件和中标配置，核对主机频段、磁场范围、CW/脉冲能力、谐振器、低温变温附件及软件许可是否包含在642.85万元内；还需拆分安装、培训、质保和进口服务费用，避免与仅配置CW-EPR的报价直接横向比较。",
+      "publication_date": "2026-08-28",
+      "time_scope": "7d_extension",
+      "source": "天津大学招标信息网",
+      "url": "https://zbb.tju.edu.cn/",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-02",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-02.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "仪器、软件与方法",
+          "采购与行业"
+        ],
+        "original_type": "EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-02.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "天津大学电子顺磁共振波谱仪项目以642.85万元中标；天津大学资产处电子顺磁共振波谱仪采购项目（第二次）公布中标结果，项目编号TDZC2026J0021；中标供应商为天津市鸿然科技发展有限公司，中标金额642.85万元，接近650万元项目预算。该结果提供了高校高端EPR整机采购的近期成交价格参照。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "procurement",
+          "dimension": "application_ids",
+          "basis": "天津大学电子顺磁共振波谱仪项目以642.85万元中标；天津大学资产处电子顺磁共振波谱仪采购项目（第二次）公布中标结果，项目编号TDZC2026J0021；中标供应商为天津市鸿然科技发展有限公司，中标金额642.85万元，接近650万元项目预算。该结果提供了高校高端EPR整机采购的近期成交价格参照。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "天津大学电子顺磁共振波谱仪项目以642.85万元中标",
+        "original_summary_cn": "天津大学资产处电子顺磁共振波谱仪采购项目（第二次）公布中标结果，项目编号TDZC2026J0021；中标供应商为天津市鸿然科技发展有限公司，中标金额642.85万元，接近650万元项目预算。该结果提供了高校高端EPR整机采购的近期成交价格参照。",
+        "original_meaning_cn": "市场比较不能只按总价判断，后续应取得招标文件和中标配置，核对主机频段、磁场范围、CW/脉冲能力、谐振器、低温变温附件及软件许可是否包含在642.85万元内；还需拆分安装、培训、质保和进口服务费用，避免与仅配置CW-EPR的报价直接横向比较。",
+        "original_tags": [
+          "EPR",
+          "仪器、软件与方法",
+          "采购与行业"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "补充检索后，本期收录3条：2条为2026年9月1日发布的近24小时信息，1条为2026年8月28日发布的近7天扩展信息。检索覆盖专业期刊、预印本、机构与厂商页面、会议议程及中外采购公告；已按最近五期内容和项目索引检查DOI、规范化URL与标题。重新检出的USDA 20 MHz脉冲NMR采购已在8月29日报收录，未重复采用。待复核标签：无。",
+    "source_sha256": "640ca230b06aaf5c6e92efe6e6ba687d3636ddacb1c13e0b71a82444d4225151",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

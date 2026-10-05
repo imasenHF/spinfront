@@ -1,0 +1,1012 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-21",
+  "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260921-01",
+      "report_date": "2026-09-21",
+      "item_no": 1,
+      "title_cn": "超宽带pure-shift打开¹⁹F与³¹P高分辨窗口",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "pure_shift",
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Communications Chemistry提出超宽带、超高分辨pure-shift实验，解决¹⁹F和³¹P巨大化学位移范围与既有同核解耦带宽不足的矛盾。方法在全氟烷基酸混合物和三取代七磷烷笼状化合物混合物上展示拥挤多重峰的简化与分辨。",
+      "meaning_cn": "部署前应核对探头可调谐范围、RF放大器线性区、脉冲峰值功率和占空比，并用覆盖全谱宽的标准样逐偏频校准。结果需与常规¹⁹F/³¹P谱比较峰位、线宽、伪影和积分；pure-shift谱不能未经验证直接用于qNMR定量。",
+      "publication_date": "2026-09-19",
+      "time_scope": "7d_extension",
+      "source": "Communications Chemistry",
+      "url": "https://www.nature.com/articles/s42004-026-01968-x",
+      "doi": "10.1038/s42004-026-01968-x",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-21",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-21.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "Pure Shift",
+          "化学结构",
+          "环境",
+          "药物分析",
+          "探头",
+          "软件"
+        ],
+        "original_type": "论文",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-21.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "超宽带pure-shift打开¹⁹F与³¹P高分辨窗口；Communications Chemistry提出超宽带、超高分辨pure-shift实验，解决¹⁹F和³¹P巨大化学位移范围与既有同核解耦带宽不足的矛盾。方法在全氟烷基酸混合物和三取代七磷烷笼状化合物混合物上展示拥挤多重峰的简化与分辨。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "超宽带pure-shift打开¹⁹F与³¹P高分辨窗口；Communications Chemistry提出超宽带、超高分辨pure-shift实验，解决¹⁹F和³¹P巨大化学位移范围与既有同核解耦带宽不足的矛盾。方法在全氟烷基酸混合物和三取代七磷烷笼状化合物混合物上展示拥挤多重峰的简化与分辨。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pure_shift",
+          "dimension": "method_ids",
+          "basis": "超宽带pure-shift打开¹⁹F与³¹P高分辨窗口；Communications Chemistry提出超宽带、超高分辨pure-shift实验，解决¹⁹F和³¹P巨大化学位移范围与既有同核解耦带宽不足的矛盾。方法在全氟烷基酸混合物和三取代七磷烷笼状化合物混合物上展示拥挤多重峰的简化与分辨。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "超宽带pure-shift打开¹⁹F与³¹P高分辨窗口；Communications Chemistry提出超宽带、超高分辨pure-shift实验，解决¹⁹F和³¹P巨大化学位移范围与既有同核解耦带宽不足的矛盾。方法在全氟烷基酸混合物和三取代七磷烷笼状化合物混合物上展示拥挤多重峰的简化与分辨。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "超宽带pure-shift打开¹⁹F与³¹P高分辨窗口；Communications Chemistry提出超宽带、超高分辨pure-shift实验，解决¹⁹F和³¹P巨大化学位移范围与既有同核解耦带宽不足的矛盾。方法在全氟烷基酸混合物和三取代七磷烷笼状化合物混合物上展示拥挤多重峰的简化与分辨。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "超宽带pure-shift打开¹⁹F与³¹P高分辨窗口",
+        "original_summary_cn": "Communications Chemistry提出超宽带、超高分辨pure-shift实验，解决¹⁹F和³¹P巨大化学位移范围与既有同核解耦带宽不足的矛盾。方法在全氟烷基酸混合物和三取代七磷烷笼状化合物混合物上展示拥挤多重峰的简化与分辨。",
+        "original_meaning_cn": "部署前应核对探头可调谐范围、RF放大器线性区、脉冲峰值功率和占空比，并用覆盖全谱宽的标准样逐偏频校准。结果需与常规¹⁹F/³¹P谱比较峰位、线宽、伪影和积分；pure-shift谱不能未经验证直接用于qNMR定量。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "Pure Shift",
+          "化学结构",
+          "环境",
+          "药物分析",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260921-02",
+      "report_date": "2026-09-21",
+      "item_no": 2,
+      "title_cn": "超导微波电路寻址分子自旋量子位",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "SCM 2026分子量子位专题以Marco Affronte全会报告开场，主题是通过超导电路寻址分子自旋量子位。核心在于把可化学调控的分子自旋与高Q微波谐振模式耦合，兼顾低温相干操控、可读出性及器件尺度的自旋—光子接口。",
+      "meaning_cn": "方案评估应记录谐振频率与Q值、模式体积、样品位置、分子浓度、线宽、B₁和低温工作点，并分别测T₁、回波T₂与耦合强度。器件验收要报告单自旋/集体耦合、协同性和空腔负载变化，避免只以回波增强判断成功。",
+      "publication_date": "2026-09-21",
+      "time_scope": "24h",
+      "source": "SCM 2026官方日程｜Molecular Qubits PL",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/PreliminarySchedule_20260907.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-21",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-21.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "仪器",
+          "材料",
+          "磁体",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "技术活动",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-21.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "超导微波电路寻址分子自旋量子位；SCM 2026分子量子位专题以Marco Affronte全会报告开场，主题是通过超导电路寻址分子自旋量子位。核心在于把可化学调控的分子自旋与高Q微波谐振模式耦合，兼顾低温相干操控、可读出性及器件尺度的自旋—光子接口。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "instrumentation",
+          "dimension": "application_ids",
+          "basis": "超导微波电路寻址分子自旋量子位；SCM 2026分子量子位专题以Marco Affronte全会报告开场，主题是通过超导电路寻址分子自旋量子位。核心在于把可化学调控的分子自旋与高Q微波谐振模式耦合，兼顾低温相干操控、可读出性及器件尺度的自旋—光子接口。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "超导微波电路寻址分子自旋量子位",
+        "original_summary_cn": "SCM 2026分子量子位专题以Marco Affronte全会报告开场，主题是通过超导电路寻址分子自旋量子位。核心在于把可化学调控的分子自旋与高Q微波谐振模式耦合，兼顾低温相干操控、可读出性及器件尺度的自旋—光子接口。",
+        "original_meaning_cn": "方案评估应记录谐振频率与Q值、模式体积、样品位置、分子浓度、线宽、B₁和低温工作点，并分别测T₁、回波T₂与耦合强度。器件验收要报告单自旋/集体耦合、协同性和空腔负载变化，避免只以回波增强判断成功。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "仪器",
+          "材料",
+          "磁体",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260921-03",
+      "report_date": "2026-09-21",
+      "item_no": 3,
+      "title_cn": "光驱动卟啉量子位连接初始化与EPR读出",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "Alberto Privitera在SCM 2026报告light-driven porphyrin-based qubits，聚焦以卟啉光物理实现自旋量子位的光初始化、相干操控与EPR读出。该路线把金属中心、配体取代和宿主环境的化学设计同激发态自旋布居及相干时间直接关联。",
+      "meaning_cn": "实验需固定卟啉结构、稀释宿主、氧含量、温度、激光波长/脉宽/能量密度及光—微波延迟；CW、脉冲和trEPR应使用相同样品对照。必须区分基态量子位、光生三重态或四重态信号，并用Rabi、T₁/T₂和暗态对照验证。",
+      "publication_date": "2026-09-21",
+      "time_scope": "24h",
+      "source": "SCM 2026官方日程｜Molecular Qubits IL",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/PreliminarySchedule_20260907.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-21",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-21.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "材料",
+          "无机配位",
+          "谐振器",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "技术活动",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-21.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "光驱动卟啉量子位连接初始化与EPR读出；Alberto Privitera在SCM 2026报告light-driven porphyrin-based qubits，聚焦以卟啉光物理实现自旋量子位的光初始化、相干操控与EPR读出。该路线把金属中心、配体取代和宿主环境的化学设计同激发态自旋布居及相干时间直接关联。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "光驱动卟啉量子位连接初始化与EPR读出；Alberto Privitera在SCM 2026报告light-driven porphyrin-based qubits，聚焦以卟啉光物理实现自旋量子位的光初始化、相干操控与EPR读出。该路线把金属中心、配体取代和宿主环境的化学设计同激发态自旋布居及相干时间直接关联。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "光驱动卟啉量子位连接初始化与EPR读出",
+        "original_summary_cn": "Alberto Privitera在SCM 2026报告light-driven porphyrin-based qubits，聚焦以卟啉光物理实现自旋量子位的光初始化、相干操控与EPR读出。该路线把金属中心、配体取代和宿主环境的化学设计同激发态自旋布居及相干时间直接关联。",
+        "original_meaning_cn": "实验需固定卟啉结构、稀释宿主、氧含量、温度、激光波长/脉宽/能量密度及光—微波延迟；CW、脉冲和trEPR应使用相同样品对照。必须区分基态量子位、光生三重态或四重态信号，并用Rabi、T₁/T₂和暗态对照验证。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "材料",
+          "无机配位",
+          "谐振器",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260921-04",
+      "report_date": "2026-09-21",
+      "item_no": 4,
+      "title_cn": "Q波段脉冲ESR评估Mn(II)–MOF高自旋量子位",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "Kazunobu Sato在SCM 2026报告高自旋Mn(II)掺杂MOF量子位的自旋性质。研究问题是利用框架位点隔离S=5/2中心，并以CW与脉冲ESR解析零场劈裂、超精细结构、相干与温度依赖，评估多能级高自旋体系的可控性。",
+      "meaning_cn": "复现需准确报告Mn掺杂摩尔分数、晶体/粉末形态、Q波段频率、取向、B₁、温度和脉冲长度；浓度系列可分离偶极退相干与晶格贡献。验收应包括全谱模拟、Rabi、T₁/Tm及动态去耦，并检查MOF脱溶剂或结构变化。",
+      "publication_date": "2026-09-21",
+      "time_scope": "24h",
+      "source": "SCM 2026官方日程｜Molecular Qubits CL",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/PreliminarySchedule_20260907.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-21",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-21.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "材料",
+          "无机配位",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "技术活动",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-21.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "Q波段脉冲ESR评估Mn(II)–MOF高自旋量子位；Kazunobu Sato在SCM 2026报告高自旋Mn(II)掺杂MOF量子位的自旋性质。研究问题是利用框架位点隔离S=5/2中心，并以CW与脉冲ESR解析零场劈裂、超精细结构、相干与温度依赖，评估多能级高自旋体系的可控性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "Q波段脉冲ESR评估Mn(II)–MOF高自旋量子位；Kazunobu Sato在SCM 2026报告高自旋Mn(II)掺杂MOF量子位的自旋性质。研究问题是利用框架位点隔离S=5/2中心，并以CW与脉冲ESR解析零场劈裂、超精细结构、相干与温度依赖，评估多能级高自旋体系的可控性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Q波段脉冲ESR评估Mn(II)–MOF高自旋量子位",
+        "original_summary_cn": "Kazunobu Sato在SCM 2026报告高自旋Mn(II)掺杂MOF量子位的自旋性质。研究问题是利用框架位点隔离S=5/2中心，并以CW与脉冲ESR解析零场劈裂、超精细结构、相干与温度依赖，评估多能级高自旋体系的可控性。",
+        "original_meaning_cn": "复现需准确报告Mn掺杂摩尔分数、晶体/粉末形态、Q波段频率、取向、B₁、温度和脉冲长度；浓度系列可分离偶极退相干与晶格贡献。验收应包括全谱模拟、Rabi、T₁/Tm及动态去耦，并检查MOF脱溶剂或结构变化。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "材料",
+          "无机配位",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260921-05",
+      "report_date": "2026-09-21",
+      "item_no": 5,
+      "title_cn": "镧系配位量子位以多频EPR评估退相干",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "Stergios Piligkos在SCM 2026讨论面向量子技术的镧系配位配合物。议题连接Gd、Yb等离子的电子量子位与核自旋多能级空间，利用配体场、磁稀释及多频EPR控制各向异性、相干寿命和可寻址跃迁，为分子级qudit设计提供坐标。",
+      "meaning_cn": "样品比较应固定镧系离子含量、抗磁稀释基体、同位素组成和晶体取向，并在X/Q/W波段与温度系列下测g、A、T₁及Tm。动态去耦需报告序列、脉冲误差与净增益；量子门可行性要同时评估跃迁选择性和微波带宽。",
+      "publication_date": "2026-09-21",
+      "time_scope": "24h",
+      "source": "SCM 2026官方日程｜Molecular Qubits CL",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/PreliminarySchedule_20260907.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-21",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-21.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "材料",
+          "无机配位",
+          "仪器",
+          "磁体",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "技术活动",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-21.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "镧系配位量子位以多频EPR评估退相干；Stergios Piligkos在SCM 2026讨论面向量子技术的镧系配位配合物。议题连接Gd、Yb等离子的电子量子位与核自旋多能级空间，利用配体场、磁稀释及多频EPR控制各向异性、相干寿命和可寻址跃迁，为分子级qudit设计提供坐标。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "镧系配位量子位以多频EPR评估退相干；Stergios Piligkos在SCM 2026讨论面向量子技术的镧系配位配合物。议题连接Gd、Yb等离子的电子量子位与核自旋多能级空间，利用配体场、磁稀释及多频EPR控制各向异性、相干寿命和可寻址跃迁，为分子级qudit设计提供坐标。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "镧系配位量子位以多频EPR评估退相干",
+        "original_summary_cn": "Stergios Piligkos在SCM 2026讨论面向量子技术的镧系配位配合物。议题连接Gd、Yb等离子的电子量子位与核自旋多能级空间，利用配体场、磁稀释及多频EPR控制各向异性、相干寿命和可寻址跃迁，为分子级qudit设计提供坐标。",
+        "original_meaning_cn": "样品比较应固定镧系离子含量、抗磁稀释基体、同位素组成和晶体取向，并在X/Q/W波段与温度系列下测g、A、T₁及Tm。动态去耦需报告序列、脉冲误差与净增益；量子门可行性要同时评估跃迁选择性和微波带宽。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "材料",
+          "无机配位",
+          "仪器",
+          "磁体",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260921-06",
+      "report_date": "2026-09-21",
+      "item_no": 6,
+      "title_cn": "光诱导EPR聚焦非玻尔兹曼极化与瞬态态分辨",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "time_resolved_epr"
+      ],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "Alice Bowen在SCM 2026作“Adventures in light-induced electron paramagnetic resonance”邀请报告。主题围绕光激发后非玻尔兹曼自旋布居、瞬态顺磁中间体及其场—时间演化，突出光源、脉冲序列和谱图模拟协同判断激发态自旋机制。",
+      "meaning_cn": "实施时应记录激光波长、脉宽、能量密度、重复率、时间零点、温度、微波功率和谐振器响应，并保留完整场—时间二维数据。暗态、功率依赖和正负相位对照不可省略；拟合需包含仪器响应、生成/衰减动力学及初始极化。",
+      "publication_date": "2026-09-21",
+      "time_scope": "24h",
+      "source": "SCM 2026官方日程｜Electron Spin Polarization IL",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/PreliminarySchedule_20260907.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-21",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-21.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "仪器",
+          "谐振器",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "技术活动",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-21.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "光诱导EPR聚焦非玻尔兹曼极化与瞬态态分辨；Alice Bowen在SCM 2026作“Adventures in light-induced electron paramagnetic resonance”邀请报告。主题围绕光激发后非玻尔兹曼自旋布居、瞬态顺磁中间体及其场—时间演化，突出光源、脉冲序列和谱图模拟协同判断激发态自旋机制。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "time_resolved_epr",
+          "dimension": "method_ids",
+          "basis": "光诱导EPR聚焦非玻尔兹曼极化与瞬态态分辨；Alice Bowen在SCM 2026作“Adventures in light-induced electron paramagnetic resonance”邀请报告。主题围绕光激发后非玻尔兹曼自旋布居、瞬态顺磁中间体及其场—时间演化，突出光源、脉冲序列和谱图模拟协同判断激发态自旋机制。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "光诱导EPR聚焦非玻尔兹曼极化与瞬态态分辨",
+        "original_summary_cn": "Alice Bowen在SCM 2026作“Adventures in light-induced electron paramagnetic resonance”邀请报告。主题围绕光激发后非玻尔兹曼自旋布居、瞬态顺磁中间体及其场—时间演化，突出光源、脉冲序列和谱图模拟协同判断激发态自旋机制。",
+        "original_meaning_cn": "实施时应记录激光波长、脉宽、能量密度、重复率、时间零点、温度、微波功率和谐振器响应，并保留完整场—时间二维数据。暗态、功率依赖和正负相位对照不可省略；拟合需包含仪器响应、生成/衰减动力学及初始极化。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "仪器",
+          "谐振器",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260921-07",
+      "report_date": "2026-09-21",
+      "item_no": 7,
+      "title_cn": "第一性原理预测光激发自旋极化与EPR可观测量",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "Yuki Kurashige在SCM 2026报告从第一性原理研究分子体系的光激发自旋极化。路线旨在由电子结构、系间窜越与自旋—轨道耦合推导初始子能级布居，再连接g、超精细和零场劈裂张量，生成可同trEPR直接比较的极化谱。",
+      "meaning_cn": "计算应明确电子态方法、活性空间/基组、几何与溶剂模型，并分别验证自旋—轨道耦合、g/A及D/E张量。与实验比较时需加入取向平均、线宽、温度、激光延迟和仪器响应；仅匹配单个峰位不足以确认极化机理。",
+      "publication_date": "2026-09-21",
+      "time_scope": "24h",
+      "source": "SCM 2026官方日程｜Electron Spin Polarization CL",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/PreliminarySchedule_20260907.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-21",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-21.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "材料",
+          "化学结构",
+          "软件"
+        ],
+        "original_type": "技术活动",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-21.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "第一性原理预测光激发自旋极化与EPR可观测量；Yuki Kurashige在SCM 2026报告从第一性原理研究分子体系的光激发自旋极化。路线旨在由电子结构、系间窜越与自旋—轨道耦合推导初始子能级布居，再连接g、超精细和零场劈裂张量，生成可同trEPR直接比较的极化谱。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "第一性原理预测光激发自旋极化与EPR可观测量；Yuki Kurashige在SCM 2026报告从第一性原理研究分子体系的光激发自旋极化。路线旨在由电子结构、系间窜越与自旋—轨道耦合推导初始子能级布居，再连接g、超精细和零场劈裂张量，生成可同trEPR直接比较的极化谱。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "第一性原理预测光激发自旋极化与EPR可观测量",
+        "original_summary_cn": "Yuki Kurashige在SCM 2026报告从第一性原理研究分子体系的光激发自旋极化。路线旨在由电子结构、系间窜越与自旋—轨道耦合推导初始子能级布居，再连接g、超精细和零场劈裂张量，生成可同trEPR直接比较的极化谱。",
+        "original_meaning_cn": "计算应明确电子态方法、活性空间/基组、几何与溶剂模型，并分别验证自旋—轨道耦合、g/A及D/E张量。与实验比较时需加入取向平均、线宽、温度、激光延迟和仪器响应；仅匹配单个峰位不足以确认极化机理。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "材料",
+          "化学结构",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260921-08",
+      "report_date": "2026-09-21",
+      "item_no": 8,
+      "title_cn": "光激发分子作为DNP极化源进入方法比较",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "dnp"
+      ],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "Claudia Avalos在SCM 2026 DNP专题报告“Optically excited molecules for DNP applications”。议题把光生三重态等高极化电子自旋作为可开关极化源，考察分子设计、系间窜越、电子弛豫及核极化转移在不同场强、温度和相态下的适配。",
+      "meaning_cn": "候选极化剂需同时比较三重态产率、初始电子极化、EPR线宽、T₁e/Tm、光稳定性与样品相容性。DNP测试必须记录场强、温度、MAS转速、光/微波功率、建立时间和核T₁；增强倍数应与暗态及无极化剂对照配套。",
+      "publication_date": "2026-09-21",
+      "time_scope": "24h",
+      "source": "SCM 2026官方日程｜Dynamic Nuclear Polarization CL",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/PreliminarySchedule_20260907.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-21",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-21.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR＋EPR",
+          "溶液NMR",
+          "固体NMR",
+          "脉冲EPR",
+          "仪器",
+          "材料",
+          "磁体",
+          "探头",
+          "谐振器",
+          "原位光照",
+          "变温系统"
+        ],
+        "original_type": "技术活动",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-21.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "光激发分子作为DNP极化源进入方法比较；Claudia Avalos在SCM 2026 DNP专题报告“Optically excited molecules for DNP applications”。议题把光生三重态等高极化电子自旋作为可开关极化源，考察分子设计、系间窜越、电子弛豫及核极化转移在不同场强、温度和相态下的适配。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "dnp",
+          "dimension": "method_ids",
+          "basis": "光激发分子作为DNP极化源进入方法比较；Claudia Avalos在SCM 2026 DNP专题报告“Optically excited molecules for DNP applications”。议题把光生三重态等高极化电子自旋作为可开关极化源，考察分子设计、系间窜越、电子弛豫及核极化转移在不同场强、温度和相态下的适配。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "光激发分子作为DNP极化源进入方法比较",
+        "original_summary_cn": "Claudia Avalos在SCM 2026 DNP专题报告“Optically excited molecules for DNP applications”。议题把光生三重态等高极化电子自旋作为可开关极化源，考察分子设计、系间窜越、电子弛豫及核极化转移在不同场强、温度和相态下的适配。",
+        "original_meaning_cn": "候选极化剂需同时比较三重态产率、初始电子极化、EPR线宽、T₁e/Tm、光稳定性与样品相容性。DNP测试必须记录场强、温度、MAS转速、光/微波功率、建立时间和核T₁；增强倍数应与暗态及无极化剂对照配套。",
+        "original_tags": [
+          "NMR＋EPR",
+          "溶液NMR",
+          "固体NMR",
+          "脉冲EPR",
+          "仪器",
+          "材料",
+          "磁体",
+          "探头",
+          "谐振器",
+          "原位光照",
+          "变温系统"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260921-09",
+      "report_date": "2026-09-21",
+      "item_no": 9,
+      "title_cn": "TTF–nitronyl nitroxide体系联动导电与磁阻",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "Mercè Deumal在SCM 2026讨论羟基化乙烯耦合tetrathiofulvalene与nitronyl nitroxide体系中的导电—磁性协同，目标指向磁阻应用。分子堆积、自由基交换耦合及载流子通道的共同变化，是把EPR自旋态与电输运建立结构—功能关联的关键。",
+      "meaning_cn": "样品需区分单晶与粉末并记录含水/溶剂状态，在温度、磁场和取向系列下统一采集CW/脉冲EPR与四探针输运。谱拟合应报告g、超精细、线宽和交换展宽；磁阻测量要排除接触电阻，并与结构相变逐点对应。",
+      "publication_date": "2026-09-21",
+      "time_scope": "24h",
+      "source": "SCM 2026官方日程｜Charge and Spin in Molecular Materials CL",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/PreliminarySchedule_20260907.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-21",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-21.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "材料",
+          "化学结构",
+          "磁体",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "技术活动",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-21.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "TTF–nitronyl nitroxide体系联动导电与磁阻；Mercè Deumal在SCM 2026讨论羟基化乙烯耦合tetrathiofulvalene与nitronyl nitroxide体系中的导电—磁性协同，目标指向磁阻应用。分子堆积、自由基交换耦合及载流子通道的共同变化，是把EPR自旋态与电输运建立结构—功能关联的关键。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "TTF–nitronyl nitroxide体系联动导电与磁阻；Mercè Deumal在SCM 2026讨论羟基化乙烯耦合tetrathiofulvalene与nitronyl nitroxide体系中的导电—磁性协同，目标指向磁阻应用。分子堆积、自由基交换耦合及载流子通道的共同变化，是把EPR自旋态与电输运建立结构—功能关联的关键。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "TTF–nitronyl nitroxide体系联动导电与磁阻",
+        "original_summary_cn": "Mercè Deumal在SCM 2026讨论羟基化乙烯耦合tetrathiofulvalene与nitronyl nitroxide体系中的导电—磁性协同，目标指向磁阻应用。分子堆积、自由基交换耦合及载流子通道的共同变化，是把EPR自旋态与电输运建立结构—功能关联的关键。",
+        "original_meaning_cn": "样品需区分单晶与粉末并记录含水/溶剂状态，在温度、磁场和取向系列下统一采集CW/脉冲EPR与四探针输运。谱拟合应报告g、超精细、线宽和交换展宽；磁阻测量要排除接触电阻，并与结构相变逐点对应。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "材料",
+          "化学结构",
+          "磁体",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260921-10",
+      "report_date": "2026-09-21",
+      "item_no": 10,
+      "title_cn": "EPR把电荷转移共晶堆积与长寿命自旋关联",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "Raanan Carmieli在SCM 2026报告以EPR研究电荷转移共晶的结构—功能关系。重点是比较给体—受体混合堆积或分离堆积如何改变基态顺磁性、光生自由基对、自旋极化和弛豫，从而把晶体排列与电荷/自旋寿命联系起来。",
+      "meaning_cn": "实验应联合晶体结构、温度依赖CW-EPR、功率饱和和脉冲T₁/Tm；光生体系还需记录激光波长、能量、延迟与正负相位。单晶测量要标明磁场相对晶轴方向，并用浓度、暗态及不同堆积型共晶排除杂质自由基。",
+      "publication_date": "2026-09-21",
+      "time_scope": "24h",
+      "source": "SCM 2026官方日程｜Charge and Spin in Molecular Materials CL",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/PreliminarySchedule_20260907.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-21",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-21.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "材料",
+          "化学结构",
+          "谐振器",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "技术活动",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-21.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "EPR把电荷转移共晶堆积与长寿命自旋关联；Raanan Carmieli在SCM 2026报告以EPR研究电荷转移共晶的结构—功能关系。重点是比较给体—受体混合堆积或分离堆积如何改变基态顺磁性、光生自由基对、自旋极化和弛豫，从而把晶体排列与电荷/自旋寿命联系起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "EPR把电荷转移共晶堆积与长寿命自旋关联；Raanan Carmieli在SCM 2026报告以EPR研究电荷转移共晶的结构—功能关系。重点是比较给体—受体混合堆积或分离堆积如何改变基态顺磁性、光生自由基对、自旋极化和弛豫，从而把晶体排列与电荷/自旋寿命联系起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "EPR把电荷转移共晶堆积与长寿命自旋关联",
+        "original_summary_cn": "Raanan Carmieli在SCM 2026报告以EPR研究电荷转移共晶的结构—功能关系。重点是比较给体—受体混合堆积或分离堆积如何改变基态顺磁性、光生自由基对、自旋极化和弛豫，从而把晶体排列与电荷/自旋寿命联系起来。",
+        "original_meaning_cn": "实验应联合晶体结构、温度依赖CW-EPR、功率饱和和脉冲T₁/Tm；光生体系还需记录激光波长、能量、延迟与正负相位。单晶测量要标明磁场相对晶轴方向，并用浓度、暗态及不同堆积型共晶排除杂质自由基。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "材料",
+          "化学结构",
+          "谐振器",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "常规检索仅确认1篇可核验的新论文，过去24小时合格新增少于5条，已启动增强搜索。检索覆盖Journal of Magnetic Resonance、Journal of Magnetic Resonance Open、Magnetic Resonance、Journal of Biomolecular NMR、Solid State Nuclear Magnetic Resonance、Magnetic Resonance in Chemistry、Applied Magnetic Resonance及ACS、RSC、Wiley、Springer Nature、Elsevier、AIP相关期刊，同时核查arXiv、ChemRxiv、PubMed/Crossref、科研机构、Bruker、JEOL、Oxford Instruments、Magritek、Nanalysis、CIQTEK等厂商、专业会议和中外采购，并按液体NMR、固体NMR/MAS/DNP、低场与TD-NMR、谱图处理、CW/rapid-scan EPR、脉冲EPR/DEER/ENDOR/ESEEM/HYSCORE、TREPR、operando/EC-EPR及仪器部件分组检索。增强阶段已获得8条以上合格候选，因此未触发第二级深度增强检索。\n\n本期最终收录10条：1篇9月19日在线发表论文为近7天扩展，9条为9月21日日期明确、技术内容相互独立的SCM 2026议程，按事件发生日归入近24小时。结合9月14—20日最近7期对话正文、项目文件索引及可访问JSON，按标准化DOI、规范化URL和标题查重；其中索引缺期以近期对话记录补足。本轮排除12条既有论文或已发SCM议程、9条日期不明或常驻页面，并剔除辅助表征、医学MRI、缩写误检及低相关采购。最终条目虽集中于会议日程，但均直接涉及NMR/EPR方法、脉冲与光激发控制、谐振器或数据解释，未以低相关内容补足。\n\n待复核标签：ultra-broadband pure-shift ¹⁹F/³¹P、分子自旋量子位、超导微波电路、光驱动卟啉量子位、高自旋Mn(II)量子位、镧系电子量子位/核自旋qudit、第一性原理光激发自旋极化、光激发分子DNP与电荷转移共晶保留在样品体系和正文中，未创建新的正式ID。",
+    "source_sha256": "82ac7893499b66bf8e9894230baa6b668b3774b77cb42aa4bfce12928a6276c7",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

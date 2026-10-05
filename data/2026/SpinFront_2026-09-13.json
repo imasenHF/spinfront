@@ -1,0 +1,977 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-13",
+  "scope_note": "本期收录9条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260913-01",
+      "report_date": "2026-09-13",
+      "item_no": 1,
+      "title_cn": "固体NMR跨时间尺度比较甘油与PEG400分子运动",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "relaxometry",
+        "dosy"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "JPC B以固体NMR弛豫谱和DOSY比较甘油与PEG400这两类拥挤、黏稠模型环境。异核NOE与¹³C T₁显示两者纳秒级转动相关时间相近，但T₂/T₁ρ及自扩散揭示更慢运动存在明显差异；水分子在两种体系中均受到约束。",
+      "meaning_cn": "模拟生物凝聚体或黏稠溶剂时，不能仅凭宏观黏度推断全部动力学。实验应统一含水量、温度、浓度和磁场，并配对报告NOE、T₁、T₂、T₁ρ及DOSY参数；不同时间尺度的拟合需分别校验脉冲功率、扩散梯度和多指数行为。",
+      "publication_date": "2026-09-12",
+      "time_scope": "24h",
+      "source": "The Journal of Physical Chemistry B",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.jpcb.6c04720",
+      "doi": "10.1021/acs.jpcb.6c04720",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-13",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-13.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "材料",
+          "生命科学"
+        ],
+        "original_type": "固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-13.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "固体NMR跨时间尺度比较甘油与PEG400分子运动；JPC B以固体NMR弛豫谱和DOSY比较甘油与PEG400这两类拥挤、黏稠模型环境。异核NOE与¹³C T₁显示两者纳秒级转动相关时间相近，但T₂/T₁ρ及自扩散揭示更慢运动存在明显差异；水分子在两种体系中均受到约束。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "固体NMR跨时间尺度比较甘油与PEG400分子运动；JPC B以固体NMR弛豫谱和DOSY比较甘油与PEG400这两类拥挤、黏稠模型环境。异核NOE与¹³C T₁显示两者纳秒级转动相关时间相近，但T₂/T₁ρ及自扩散揭示更慢运动存在明显差异；水分子在两种体系中均受到约束。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "固体NMR跨时间尺度比较甘油与PEG400分子运动；JPC B以固体NMR弛豫谱和DOSY比较甘油与PEG400这两类拥挤、黏稠模型环境。异核NOE与¹³C T₁显示两者纳秒级转动相关时间相近，但T₂/T₁ρ及自扩散揭示更慢运动存在明显差异；水分子在两种体系中均受到约束。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "dosy",
+          "dimension": "method_ids",
+          "basis": "固体NMR跨时间尺度比较甘油与PEG400分子运动；JPC B以固体NMR弛豫谱和DOSY比较甘油与PEG400这两类拥挤、黏稠模型环境。异核NOE与¹³C T₁显示两者纳秒级转动相关时间相近，但T₂/T₁ρ及自扩散揭示更慢运动存在明显差异；水分子在两种体系中均受到约束。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "固体NMR跨时间尺度比较甘油与PEG400分子运动；JPC B以固体NMR弛豫谱和DOSY比较甘油与PEG400这两类拥挤、黏稠模型环境。异核NOE与¹³C T₁显示两者纳秒级转动相关时间相近，但T₂/T₁ρ及自扩散揭示更慢运动存在明显差异；水分子在两种体系中均受到约束。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "固体NMR跨时间尺度比较甘油与PEG400分子运动",
+        "original_summary_cn": "JPC B以固体NMR弛豫谱和DOSY比较甘油与PEG400这两类拥挤、黏稠模型环境。异核NOE与¹³C T₁显示两者纳秒级转动相关时间相近，但T₂/T₁ρ及自扩散揭示更慢运动存在明显差异；水分子在两种体系中均受到约束。",
+        "original_meaning_cn": "模拟生物凝聚体或黏稠溶剂时，不能仅凭宏观黏度推断全部动力学。实验应统一含水量、温度、浓度和磁场，并配对报告NOE、T₁、T₂、T₁ρ及DOSY参数；不同时间尺度的拟合需分别校验脉冲功率、扩散梯度和多指数行为。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "材料",
+          "生命科学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260913-02",
+      "report_date": "2026-09-13",
+      "item_no": 2,
+      "title_cn": "原位与MAS NMR揭示微孔碳电吸附的水合不对称",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "mas"
+      ],
+      "application_ids": [
+        "electrochemistry_energy"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "JACS用原位及MAS NMR比较水系与有机三氟甲磺酸盐电解液在商业活性炭微孔中的吸附。结果显示孔内离子数量增加不必然带来更高电容；高电荷密度阳离子与弥散阴离子的水合不对称会改变水解离及孔内电荷补偿机制。",
+      "meaning_cn": "原位电吸附实验需记录电极孔径、含氧官能团、电解液浓度、施加电位和装池含液量，并分别采集开路、充电与放电谱。定量孔内离子时应校正体相信号、弛豫和RF穿透差异，再与电容、电荷效率及孔内酸度指标配对。",
+      "publication_date": "2026-09-12",
+      "time_scope": "24h",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://pubs.acs.org/doi/10.1021/jacs.6c08967",
+      "doi": "10.1021/jacs.6c08967",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-13",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-13.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "电化学与能源",
+          "材料"
+        ],
+        "original_type": "固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-13.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "原位与MAS NMR揭示微孔碳电吸附的水合不对称；JACS用原位及MAS NMR比较水系与有机三氟甲磺酸盐电解液在商业活性炭微孔中的吸附。结果显示孔内离子数量增加不必然带来更高电容；高电荷密度阳离子与弥散阴离子的水合不对称会改变水解离及孔内电荷补偿机制。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "原位与MAS NMR揭示微孔碳电吸附的水合不对称；JACS用原位及MAS NMR比较水系与有机三氟甲磺酸盐电解液在商业活性炭微孔中的吸附。结果显示孔内离子数量增加不必然带来更高电容；高电荷密度阳离子与弥散阴离子的水合不对称会改变水解离及孔内电荷补偿机制。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "mas",
+          "dimension": "method_ids",
+          "basis": "原位与MAS NMR揭示微孔碳电吸附的水合不对称；JACS用原位及MAS NMR比较水系与有机三氟甲磺酸盐电解液在商业活性炭微孔中的吸附。结果显示孔内离子数量增加不必然带来更高电容；高电荷密度阳离子与弥散阴离子的水合不对称会改变水解离及孔内电荷补偿机制。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "electrochemistry_energy",
+          "dimension": "application_ids",
+          "basis": "原位与MAS NMR揭示微孔碳电吸附的水合不对称；JACS用原位及MAS NMR比较水系与有机三氟甲磺酸盐电解液在商业活性炭微孔中的吸附。结果显示孔内离子数量增加不必然带来更高电容；高电荷密度阳离子与弥散阴离子的水合不对称会改变水解离及孔内电荷补偿机制。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "原位与MAS NMR揭示微孔碳电吸附的水合不对称",
+        "original_summary_cn": "JACS用原位及MAS NMR比较水系与有机三氟甲磺酸盐电解液在商业活性炭微孔中的吸附。结果显示孔内离子数量增加不必然带来更高电容；高电荷密度阳离子与弥散阴离子的水合不对称会改变水解离及孔内电荷补偿机制。",
+        "original_meaning_cn": "原位电吸附实验需记录电极孔径、含氧官能团、电解液浓度、施加电位和装池含液量，并分别采集开路、充电与放电谱。定量孔内离子时应校正体相信号、弛豫和RF穿透差异，再与电容、电荷效率及孔内酸度指标配对。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "电化学与能源",
+          "材料"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260913-03",
+      "report_date": "2026-09-13",
+      "item_no": 3,
+      "title_cn": "DOSY NMR测定甲基丙烯酸共聚物重均分子量",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "dosy"
+      ],
+      "application_ids": [
+        "polymers"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Drug Development & Registration提出以600 MHz DOSY NMR测定甲基丙烯酸类药用共聚物重均分子量。经钠盐衍生化与扩散系数校正后，log Mw标定的R²为0.9992；结果与GPC一致，相对误差5.6%，可作为包衣聚合物的替代测定路线。",
+      "meaning_cn": "方法转移需固定离子化程度、溶剂、聚合物浓度、温度和黏度校正方式，并报告梯度标定、δ/Δ、对流抑制及扩散拟合区间。校准集必须覆盖目标分子量与组成范围；支化、聚集或宽分散样品仍应以GPC交叉验证。",
+      "publication_date": "2026-09-09",
+      "time_scope": "7d_extension",
+      "source": "Drug Development & Registration",
+      "url": "https://doi.org/10.33380/2305-2066-2026-15-3-2277",
+      "doi": "10.33380/2305-2066-2026-15-3-2277",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-13",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-13.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "聚合物",
+          "药物分析",
+          "过程分析"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-13.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "DOSY NMR测定甲基丙烯酸共聚物重均分子量；Drug Development & Registration提出以600 MHz DOSY NMR测定甲基丙烯酸类药用共聚物重均分子量。经钠盐衍生化与扩散系数校正后，log Mw标定的R²为0.9992；结果与GPC一致，相对误差5.6%，可作为包衣聚合物的替代测定路线。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "DOSY NMR测定甲基丙烯酸共聚物重均分子量；Drug Development & Registration提出以600 MHz DOSY NMR测定甲基丙烯酸类药用共聚物重均分子量。经钠盐衍生化与扩散系数校正后，log Mw标定的R²为0.9992；结果与GPC一致，相对误差5.6%，可作为包衣聚合物的替代测定路线。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "dosy",
+          "dimension": "method_ids",
+          "basis": "DOSY NMR测定甲基丙烯酸共聚物重均分子量；Drug Development & Registration提出以600 MHz DOSY NMR测定甲基丙烯酸类药用共聚物重均分子量。经钠盐衍生化与扩散系数校正后，log Mw标定的R²为0.9992；结果与GPC一致，相对误差5.6%，可作为包衣聚合物的替代测定路线。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "polymers",
+          "dimension": "application_ids",
+          "basis": "DOSY NMR测定甲基丙烯酸共聚物重均分子量；Drug Development & Registration提出以600 MHz DOSY NMR测定甲基丙烯酸类药用共聚物重均分子量。经钠盐衍生化与扩散系数校正后，log Mw标定的R²为0.9992；结果与GPC一致，相对误差5.6%，可作为包衣聚合物的替代测定路线。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "DOSY NMR测定甲基丙烯酸共聚物重均分子量",
+        "original_summary_cn": "Drug Development & Registration提出以600 MHz DOSY NMR测定甲基丙烯酸类药用共聚物重均分子量。经钠盐衍生化与扩散系数校正后，log Mw标定的R²为0.9992；结果与GPC一致，相对误差5.6%，可作为包衣聚合物的替代测定路线。",
+        "original_meaning_cn": "方法转移需固定离子化程度、溶剂、聚合物浓度、温度和黏度校正方式，并报告梯度标定、δ/Δ、对流抑制及扩散拟合区间。校准集必须覆盖目标分子量与组成范围；支化、聚集或宽分散样品仍应以GPC交叉验证。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "聚合物",
+          "药物分析",
+          "过程分析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260913-04",
+      "report_date": "2026-09-13",
+      "item_no": 4,
+      "title_cn": "兽医学NMR代谢组学综述聚焦临床转化与标准化",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "benchtop_nmr"
+      ],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "review",
+      "summary_cn": "Veterinary Sciences综述NMR代谢组学在动物肿瘤、感染、呼吸、消化、肾脏、内分泌和肌骨疾病中的应用，重点讨论从生物标志物发现走向临床实施所需的样本标准化、多中心验证及数据解释，并评估台式NMR与多组学整合。",
+      "meaning_cn": "兽医样本研究应预先统一物种、品种、年龄、饲喂、采样时刻、抗凝剂和冻融次数，建立跨中心QC池与批次漂移监控。台式平台部署前要以同一队列比较峰分辨率、定量偏差和分类稳健性，避免把设备差异当作疾病信号。",
+      "publication_date": "2026-09-07",
+      "time_scope": "7d_extension",
+      "source": "Veterinary Sciences",
+      "url": "https://www.mdpi.com/2306-7381/13/9/921",
+      "doi": "10.3390/vetsci13090921",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-13",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-13.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "台式NMR",
+          "代谢组学",
+          "生命科学",
+          "药物分析"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-13.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "兽医学NMR代谢组学综述聚焦临床转化与标准化；Veterinary Sciences综述NMR代谢组学在动物肿瘤、感染、呼吸、消化、肾脏、内分泌和肌骨疾病中的应用，重点讨论从生物标志物发现走向临床实施所需的样本标准化、多中心验证及数据解释，并评估台式NMR与多组学整合。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "benchtop_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "兽医学NMR代谢组学综述聚焦临床转化与标准化；Veterinary Sciences综述NMR代谢组学在动物肿瘤、感染、呼吸、消化、肾脏、内分泌和肌骨疾病中的应用，重点讨论从生物标志物发现走向临床实施所需的样本标准化、多中心验证及数据解释，并评估台式NMR与多组学整合。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "metabolomics",
+          "dimension": "method_ids",
+          "basis": "兽医学NMR代谢组学综述聚焦临床转化与标准化；Veterinary Sciences综述NMR代谢组学在动物肿瘤、感染、呼吸、消化、肾脏、内分泌和肌骨疾病中的应用，重点讨论从生物标志物发现走向临床实施所需的样本标准化、多中心验证及数据解释，并评估台式NMR与多组学整合。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "life_science",
+          "dimension": "application_ids",
+          "basis": "兽医学NMR代谢组学综述聚焦临床转化与标准化；Veterinary Sciences综述NMR代谢组学在动物肿瘤、感染、呼吸、消化、肾脏、内分泌和肌骨疾病中的应用，重点讨论从生物标志物发现走向临床实施所需的样本标准化、多中心验证及数据解释，并评估台式NMR与多组学整合。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "兽医学NMR代谢组学综述聚焦临床转化与标准化",
+        "original_summary_cn": "Veterinary Sciences综述NMR代谢组学在动物肿瘤、感染、呼吸、消化、肾脏、内分泌和肌骨疾病中的应用，重点讨论从生物标志物发现走向临床实施所需的样本标准化、多中心验证及数据解释，并评估台式NMR与多组学整合。",
+        "original_meaning_cn": "兽医样本研究应预先统一物种、品种、年龄、饲喂、采样时刻、抗凝剂和冻融次数，建立跨中心QC池与批次漂移监控。台式平台部署前要以同一队列比较峰分辨率、定量偏差和分类稳健性，避免把设备差异当作疾病信号。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "台式NMR",
+          "代谢组学",
+          "生命科学",
+          "药物分析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260913-05",
+      "report_date": "2026-09-13",
+      "item_no": 5,
+      "title_cn": "二维多核NMR区分聚芳醚酮的多位点磺化",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "multidimensional_nmr",
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "polymers"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "ACS Applied Polymer Materials以二维同核、异核NMR比较两种聚芳醚酮磺化路线。浓硫酸主要产生单一位置磺化，而氯磺酸/二氯乙酸体系促进多位点取代；约15 μm膜的力学性能和质子电导也随取代分布改变。",
+      "meaning_cn": "工艺比较不能只用总磺化度，应固定聚合物批次、酸浓度、反应温度和后处理，并用¹H/¹³C二维相关谱逐段归属取代位置。积分需校正峰重叠和弛豫；膜性能应与位点分布、含水率、厚度及离子交换容量成套关联。",
+      "publication_date": "2026-09-07",
+      "time_scope": "7d_extension",
+      "source": "ACS Applied Polymer Materials",
+      "url": "https://pubs.acs.org/doi/10.1021/acsapm.6c02680",
+      "doi": "10.1021/acsapm.6c02680",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-13",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-13.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "聚合物",
+          "材料",
+          "化学结构"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-13.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "二维多核NMR区分聚芳醚酮的多位点磺化；ACS Applied Polymer Materials以二维同核、异核NMR比较两种聚芳醚酮磺化路线。浓硫酸主要产生单一位置磺化，而氯磺酸/二氯乙酸体系促进多位点取代；约15 μm膜的力学性能和质子电导也随取代分布改变。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "二维多核NMR区分聚芳醚酮的多位点磺化；ACS Applied Polymer Materials以二维同核、异核NMR比较两种聚芳醚酮磺化路线。浓硫酸主要产生单一位置磺化，而氯磺酸/二氯乙酸体系促进多位点取代；约15 μm膜的力学性能和质子电导也随取代分布改变。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "二维多核NMR区分聚芳醚酮的多位点磺化；ACS Applied Polymer Materials以二维同核、异核NMR比较两种聚芳醚酮磺化路线。浓硫酸主要产生单一位置磺化，而氯磺酸/二氯乙酸体系促进多位点取代；约15 μm膜的力学性能和质子电导也随取代分布改变。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "polymers",
+          "dimension": "application_ids",
+          "basis": "二维多核NMR区分聚芳醚酮的多位点磺化；ACS Applied Polymer Materials以二维同核、异核NMR比较两种聚芳醚酮磺化路线。浓硫酸主要产生单一位置磺化，而氯磺酸/二氯乙酸体系促进多位点取代；约15 μm膜的力学性能和质子电导也随取代分布改变。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "二维多核NMR区分聚芳醚酮的多位点磺化",
+        "original_summary_cn": "ACS Applied Polymer Materials以二维同核、异核NMR比较两种聚芳醚酮磺化路线。浓硫酸主要产生单一位置磺化，而氯磺酸/二氯乙酸体系促进多位点取代；约15 μm膜的力学性能和质子电导也随取代分布改变。",
+        "original_meaning_cn": "工艺比较不能只用总磺化度，应固定聚合物批次、酸浓度、反应温度和后处理，并用¹H/¹³C二维相关谱逐段归属取代位置。积分需校正峰重叠和弛豫；膜性能应与位点分布、含水率、厚度及离子交换容量成套关联。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "聚合物",
+          "材料",
+          "化学结构"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260913-06",
+      "report_date": "2026-09-13",
+      "item_no": 6,
+      "title_cn": "NMR随钻T₂谱驱动渤海疏松砂岩电相分类",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Geophysics and Engineering将NMR随钻T₂谱特征与常规测井联合，用主成分降维和改进K-means++划分渤海馆陶组疏松砂岩电相。方法把孔径分布和束缚/可动流体信息引入分类，补充传统曲线对微观孔隙结构分辨不足的问题。",
+      "meaning_cn": "现场应用需保留原始T₂谱、回波间隔、钻具运动状态、泥浆侵入及温度信息，并将离心或压汞岩心结果用于标定。聚类前应统一深度匹配、归一化和缺失值规则；新井部署必须固定类别中心并报告置信度，避免每井重算导致标签漂移。",
+      "publication_date": "2026-09-09",
+      "time_scope": "7d_extension",
+      "source": "Journal of Geophysics and Engineering",
+      "url": "https://doi.org/10.1093/jge/gxag114",
+      "doi": "10.1093/jge/gxag114",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-13",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-13.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "TD-NMR",
+          "地学与流动"
+        ],
+        "original_type": "TD-NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-13.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "NMR随钻T₂谱驱动渤海疏松砂岩电相分类；Journal of Geophysics and Engineering将NMR随钻T₂谱特征与常规测井联合，用主成分降维和改进K-means++划分渤海馆陶组疏松砂岩电相。方法把孔径分布和束缚/可动流体信息引入分类，补充传统曲线对微观孔隙结构分辨不足的问题。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "NMR随钻T₂谱驱动渤海疏松砂岩电相分类；Journal of Geophysics and Engineering将NMR随钻T₂谱特征与常规测井联合，用主成分降维和改进K-means++划分渤海馆陶组疏松砂岩电相。方法把孔径分布和束缚/可动流体信息引入分类，补充传统曲线对微观孔隙结构分辨不足的问题。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "geoscience_flow",
+          "dimension": "application_ids",
+          "basis": "NMR随钻T₂谱驱动渤海疏松砂岩电相分类；Journal of Geophysics and Engineering将NMR随钻T₂谱特征与常规测井联合，用主成分降维和改进K-means++划分渤海馆陶组疏松砂岩电相。方法把孔径分布和束缚/可动流体信息引入分类，补充传统曲线对微观孔隙结构分辨不足的问题。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "NMR随钻T₂谱驱动渤海疏松砂岩电相分类",
+        "original_summary_cn": "Journal of Geophysics and Engineering将NMR随钻T₂谱特征与常规测井联合，用主成分降维和改进K-means++划分渤海馆陶组疏松砂岩电相。方法把孔径分布和束缚/可动流体信息引入分类，补充传统曲线对微观孔隙结构分辨不足的问题。",
+        "original_meaning_cn": "现场应用需保留原始T₂谱、回波间隔、钻具运动状态、泥浆侵入及温度信息，并将离心或压汞岩心结果用于标定。聚类前应统一深度匹配、归一化和缺失值规则；新井部署必须固定类别中心并报告置信度，避免每井重算导致标签漂移。",
+        "original_tags": [
+          "NMR",
+          "TD-NMR",
+          "地学与流动"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260913-07",
+      "report_date": "2026-09-13",
+      "item_no": 7,
+      "title_cn": "两自旋NMR把混合度与纠缠见证映射为可观测量",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Chemical Physics分析外场中热平衡两自旋1/2 NMR体系，将密度矩阵的混合度与纠缠见证转写为NMR可观测量，并联系谱线、极化和自旋—自旋相关。研究还讨论噪声、实验不完美及重复测量对判据可靠性的影响。",
+      "meaning_cn": "实验验证需记录温度、磁场、J耦合、极化标定和脉冲误差，并以完整谱积分而非单峰高度构造观测量。纠缠结论应同时给出噪声传播和置信区间；在常温弱极化体系中还需区分伪纯态表述与真实热态纠缠。",
+      "publication_date": "2026-09-08",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Chemical Physics",
+      "url": "https://pubs.aip.org/aip/jcp/article/165/10/104105/3403919/Mixedness-and-entanglement-witnessing-analysis-in",
+      "doi": "10.1063/5.0333313",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-13",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-13.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "计算NMR",
+          "仪器、软件与方法"
+        ],
+        "original_type": "NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-13.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "两自旋NMR把混合度与纠缠见证映射为可观测量；Journal of Chemical Physics分析外场中热平衡两自旋1/2 NMR体系，将密度矩阵的混合度与纠缠见证转写为NMR可观测量，并联系谱线、极化和自旋—自旋相关。研究还讨论噪声、实验不完美及重复测量对判据可靠性的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "两自旋NMR把混合度与纠缠见证映射为可观测量；Journal of Chemical Physics分析外场中热平衡两自旋1/2 NMR体系，将密度矩阵的混合度与纠缠见证转写为NMR可观测量，并联系谱线、极化和自旋—自旋相关。研究还讨论噪声、实验不完美及重复测量对判据可靠性的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "两自旋NMR把混合度与纠缠见证映射为可观测量",
+        "original_summary_cn": "Journal of Chemical Physics分析外场中热平衡两自旋1/2 NMR体系，将密度矩阵的混合度与纠缠见证转写为NMR可观测量，并联系谱线、极化和自旋—自旋相关。研究还讨论噪声、实验不完美及重复测量对判据可靠性的影响。",
+        "original_meaning_cn": "实验验证需记录温度、磁场、J耦合、极化标定和脉冲误差，并以完整谱积分而非单峰高度构造观测量。纠缠结论应同时给出噪声传播和置信区间；在常温弱极化体系中还需区分伪纯态表述与真实热态纠缠。",
+        "original_tags": [
+          "NMR",
+          "计算NMR",
+          "仪器、软件与方法"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260913-08",
+      "report_date": "2026-09-13",
+      "item_no": 8,
+      "title_cn": "顺磁NMR比较镧系席夫碱配合物的溶液结构",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr",
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "paramagnetic_nmr"
+      ],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Russian Journal of Coordination Chemistry发表镧系席夫碱配合物溶液NMR研究，利用顺磁中心引起的位移与线宽变化比较配合物在溶液中的配位环境。该路线可补充固态结构信息，并帮助判断配体骨架、金属离子及溶剂条件对物种分布的影响。",
+      "meaning_cn": "顺磁谱采集需使用足够宽的谱宽与短采集延迟，记录金属种类、浓度、溶剂、温度和参照方式，并检查脉冲带宽是否覆盖极端位移。归属应结合抗磁同系物、变温及浓度系列；峰缺失可能来自快速弛豫，不能直接解释为配体解离。",
+      "publication_date": "2026-09-07",
+      "time_scope": "7d_extension",
+      "source": "Russian Journal of Coordination Chemistry",
+      "url": "https://link.springer.com/article/10.1134/S1070328426600476",
+      "doi": "10.1134/s1070328426600476",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-13",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-13.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "顺磁NMR",
+          "无机配位",
+          "化学结构"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-13.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "顺磁NMR比较镧系席夫碱配合物的溶液结构；Russian Journal of Coordination Chemistry发表镧系席夫碱配合物溶液NMR研究，利用顺磁中心引起的位移与线宽变化比较配合物在溶液中的配位环境。该路线可补充固态结构信息，并帮助判断配体骨架、金属离子及溶剂条件对物种分布的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "顺磁NMR比较镧系席夫碱配合物的溶液结构；Russian Journal of Coordination Chemistry发表镧系席夫碱配合物溶液NMR研究，利用顺磁中心引起的位移与线宽变化比较配合物在溶液中的配位环境。该路线可补充固态结构信息，并帮助判断配体骨架、金属离子及溶剂条件对物种分布的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "顺磁NMR比较镧系席夫碱配合物的溶液结构；Russian Journal of Coordination Chemistry发表镧系席夫碱配合物溶液NMR研究，利用顺磁中心引起的位移与线宽变化比较配合物在溶液中的配位环境。该路线可补充固态结构信息，并帮助判断配体骨架、金属离子及溶剂条件对物种分布的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "paramagnetic_nmr",
+          "dimension": "method_ids",
+          "basis": "顺磁NMR比较镧系席夫碱配合物的溶液结构；Russian Journal of Coordination Chemistry发表镧系席夫碱配合物溶液NMR研究，利用顺磁中心引起的位移与线宽变化比较配合物在溶液中的配位环境。该路线可补充固态结构信息，并帮助判断配体骨架、金属离子及溶剂条件对物种分布的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "inorganic_coordination",
+          "dimension": "application_ids",
+          "basis": "顺磁NMR比较镧系席夫碱配合物的溶液结构；Russian Journal of Coordination Chemistry发表镧系席夫碱配合物溶液NMR研究，利用顺磁中心引起的位移与线宽变化比较配合物在溶液中的配位环境。该路线可补充固态结构信息，并帮助判断配体骨架、金属离子及溶剂条件对物种分布的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "顺磁NMR比较镧系席夫碱配合物的溶液结构",
+        "original_summary_cn": "Russian Journal of Coordination Chemistry发表镧系席夫碱配合物溶液NMR研究，利用顺磁中心引起的位移与线宽变化比较配合物在溶液中的配位环境。该路线可补充固态结构信息，并帮助判断配体骨架、金属离子及溶剂条件对物种分布的影响。",
+        "original_meaning_cn": "顺磁谱采集需使用足够宽的谱宽与短采集延迟，记录金属种类、浓度、溶剂、温度和参照方式，并检查脉冲带宽是否覆盖极端位移。归属应结合抗磁同系物、变温及浓度系列；峰缺失可能来自快速弛豫，不能直接解释为配体解离。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "顺磁NMR",
+          "无机配位",
+          "化学结构"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260913-09",
+      "report_date": "2026-09-13",
+      "item_no": 9,
+      "title_cn": "超极化¹³C NMR追踪阿尔茨海默病合并糖尿病代谢",
+      "direction_ids": [
+        "mrs"
+      ],
+      "experiment_type_ids": [
+        "in_vivo_mrs"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Physiology and Biochemistry发表超极化NMR动物研究，以新型大鼠模型考察阿尔茨海默病与2型糖尿病的相互影响。代谢读出表明，阿尔茨海默病背景会加重糖尿病发生与进展，并显著降低脑内丙酮酸脱氢酶相关代谢活性。",
+      "meaning_cn": "复现实验需固定超极化底物剂量、绝对极化度、溶解—注射延迟、采集翻转角及动物血糖、麻醉和体温。脑内代谢通量比较应校正输入函数与T₁衰减，并设置单病种、合并病种和健康对照；酶活推断宜由组织学或离体生化验证。",
+      "publication_date": "2026-09-09",
+      "time_scope": "7d_extension",
+      "source": "Journal of Physiology and Biochemistry",
+      "url": "https://link.springer.com/article/10.1007/s13105-026-01231-w",
+      "doi": "10.1007/s13105-026-01231-w",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-13",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-13.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "MRS",
+          "活体MRS",
+          "代谢组学",
+          "生命科学"
+        ],
+        "original_type": "活体MRS",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-13.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "mrs",
+          "dimension": "direction_ids",
+          "basis": "超极化¹³C NMR追踪阿尔茨海默病合并糖尿病代谢；Journal of Physiology and Biochemistry发表超极化NMR动物研究，以新型大鼠模型考察阿尔茨海默病与2型糖尿病的相互影响。代谢读出表明，阿尔茨海默病背景会加重糖尿病发生与进展，并显著降低脑内丙酮酸脱氢酶相关代谢活性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "in_vivo_mrs",
+          "dimension": "experiment_type_ids",
+          "basis": "超极化¹³C NMR追踪阿尔茨海默病合并糖尿病代谢；Journal of Physiology and Biochemistry发表超极化NMR动物研究，以新型大鼠模型考察阿尔茨海默病与2型糖尿病的相互影响。代谢读出表明，阿尔茨海默病背景会加重糖尿病发生与进展，并显著降低脑内丙酮酸脱氢酶相关代谢活性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "life_science",
+          "dimension": "application_ids",
+          "basis": "超极化¹³C NMR追踪阿尔茨海默病合并糖尿病代谢；Journal of Physiology and Biochemistry发表超极化NMR动物研究，以新型大鼠模型考察阿尔茨海默病与2型糖尿病的相互影响。代谢读出表明，阿尔茨海默病背景会加重糖尿病发生与进展，并显著降低脑内丙酮酸脱氢酶相关代谢活性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "超极化¹³C NMR追踪阿尔茨海默病合并糖尿病代谢",
+        "original_summary_cn": "Journal of Physiology and Biochemistry发表超极化NMR动物研究，以新型大鼠模型考察阿尔茨海默病与2型糖尿病的相互影响。代谢读出表明，阿尔茨海默病背景会加重糖尿病发生与进展，并显著降低脑内丙酮酸脱氢酶相关代谢活性。",
+        "original_meaning_cn": "复现实验需固定超极化底物剂量、绝对极化度、溶解—注射延迟、采集翻转角及动物血糖、麻醉和体温。脑内代谢通量比较应校正输入函数与T₁衰减，并设置单病种、合并病种和健康对照；酶活推断宜由组织学或离体生化验证。",
+        "original_tags": [
+          "MRS",
+          "活体MRS",
+          "代谢组学",
+          "生命科学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "范围说明：常规检索在过去24小时内所得合格新增少于5条，已依次执行增强检索和第二级深度增强检索。检索逐日回扫2026年9月6日至12日，逐站核验专业期刊、预印本与文献元数据、仪器厂商、专业会议及中外采购公告，并按液体NMR、固体NMR/MAS/DNP、低场与TD-NMR、谱图处理、CW与rapid-scan EPR、脉冲EPR、TREPR、operando/EC-EPR及仪器部件逐组检索。本期最终收录9条：2条为9月12日在线发表的近24小时信息，7条为9月7日至9日的近7天扩展。结合最近7期正文与项目索引查重，排除17条既有记录；另排除21条日期无法独立确认、常驻产品页、仅更新卷期、医学MRI或仅将NMR/EPR作为辅助表征的候选。最终不足10条主要来自周末低产出、近期条目已被连续日报覆盖及部分平台索引延迟。\n\n待复核标签：固体NMR弛豫谱、NMR随钻、量子纠缠见证与超极化代谢NMR保留在样品体系和正文中，未创建新的正式ID。",
+    "source_sha256": "8228dc8a71185e4bd18d3488b536d66855740703329a93bd4acf5f1632ebc1c6",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

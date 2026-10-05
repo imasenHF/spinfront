@@ -1,0 +1,1142 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-23",
+  "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260923-01",
+      "report_date": "2026-09-23",
+      "item_no": 1,
+      "title_cn": "高压⁵¹V NMR揭示AV₃Sb₅普适非常规电荷密度波",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "arXiv预印本以压力依赖⁵¹V NMR研究KV₃Sb₅和RbV₃Sb₅，在两种材料中均识别出压力诱导、可能为非公度三Q的电荷密度波。作者结合谱线、Knight shift、1/T₁与Korringa关系，指出范霍夫奇点驱动的电子涨落可能是共同调控因素。",
+      "meaning_cn": "复现实验需逐压力点校准压力、样品取向、线圈灵敏度和实际温度，统一记录谱线分裂/展宽、Knight shift与饱和恢复曲线。相界判断应联合1/T₁T和Korringa比，并做升压—卸压循环及压力梯度检查，避免把非静水效应误判为新CDW相。",
+      "publication_date": "2026-09-19",
+      "time_scope": "7d_extension",
+      "source": "arXiv〔预印本〕",
+      "url": "https://arxiv.org/abs/2609.22794",
+      "doi": "10.48550/arxiv.2609.22794",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-23",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-23.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "材料",
+          "磁体",
+          "探头",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "学术进展",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "mapped_from_original_type",
+        "source_file": "09/SpinFront_2026-09-23.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "高压⁵¹V NMR揭示AV₃Sb₅普适非常规电荷密度波；arXiv预印本以压力依赖⁵¹V NMR研究KV₃Sb₅和RbV₃Sb₅，在两种材料中均识别出压力诱导、可能为非公度三Q的电荷密度波。作者结合谱线、Knight shift、1/T₁与Korringa关系，指出范霍夫奇点驱动的电子涨落可能是共同调控因素。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "高压⁵¹V NMR揭示AV₃Sb₅普适非常规电荷密度波；arXiv预印本以压力依赖⁵¹V NMR研究KV₃Sb₅和RbV₃Sb₅，在两种材料中均识别出压力诱导、可能为非公度三Q的电荷密度波。作者结合谱线、Knight shift、1/T₁与Korringa关系，指出范霍夫奇点驱动的电子涨落可能是共同调控因素。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "高压⁵¹V NMR揭示AV₃Sb₅普适非常规电荷密度波；arXiv预印本以压力依赖⁵¹V NMR研究KV₃Sb₅和RbV₃Sb₅，在两种材料中均识别出压力诱导、可能为非公度三Q的电荷密度波。作者结合谱线、Knight shift、1/T₁与Korringa关系，指出范霍夫奇点驱动的电子涨落可能是共同调控因素。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "高压⁵¹V NMR揭示AV₃Sb₅普适非常规电荷密度波；arXiv预印本以压力依赖⁵¹V NMR研究KV₃Sb₅和RbV₃Sb₅，在两种材料中均识别出压力诱导、可能为非公度三Q的电荷密度波。作者结合谱线、Knight shift、1/T₁与Korringa关系，指出范霍夫奇点驱动的电子涨落可能是共同调控因素。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "高压⁵¹V NMR揭示AV₃Sb₅普适非常规电荷密度波",
+        "original_summary_cn": "arXiv预印本以压力依赖⁵¹V NMR研究KV₃Sb₅和RbV₃Sb₅，在两种材料中均识别出压力诱导、可能为非公度三Q的电荷密度波。作者结合谱线、Knight shift、1/T₁与Korringa关系，指出范霍夫奇点驱动的电子涨落可能是共同调控因素。",
+        "original_meaning_cn": "复现实验需逐压力点校准压力、样品取向、线圈灵敏度和实际温度，统一记录谱线分裂/展宽、Knight shift与饱和恢复曲线。相界判断应联合1/T₁T和Korringa比，并做升压—卸压循环及压力梯度检查，避免把非静水效应误判为新CDW相。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "材料",
+          "磁体",
+          "探头",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260923-02",
+      "report_date": "2026-09-23",
+      "item_no": 2,
+      "title_cn": "Spinach联立核自旋、二级反应与微流控输运",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "computation_nmr",
+        "reaction_monitoring"
+      ],
+      "application_ids": [
+        "process_analysis"
+      ],
+      "instrument_component_ids": [
+        "software"
+      ],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "SCM报告提出核自旋化学流体动力学框架，把密度矩阵演化与二级反应动力学、扩散和流动同时求解，并在Spinach 2.11及以上版本实现。示例模拟微流控NMR探头中Diels–Alder反应及局域stripline RF线圈的空间检测权重。",
+      "meaning_cn": "用于在线反应监测时应输入真实流速、扩散系数、速率常数、线圈灵敏度图和T₁/T₂，并以停流谱和已知转化率校验。数值报告需保留网格、时间步长、边界条件与收敛测试，避免把流动展宽或空间加权误判为反应中间体。",
+      "publication_date": "2026-09-22",
+      "time_scope": "24h",
+      "source": "SCM 2026官方摘要册｜Chemical Hydrodynamics CL",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/Book_of_Abstracts_SCM2026-1.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-23",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-23.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "计算NMR",
+          "反应监测",
+          "催化",
+          "过程分析",
+          "仪器",
+          "探头",
+          "流通池",
+          "软件"
+        ],
+        "original_type": "方法进展",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-23.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "Spinach联立核自旋、二级反应与微流控输运；SCM报告提出核自旋化学流体动力学框架，把密度矩阵演化与二级反应动力学、扩散和流动同时求解，并在Spinach 2.11及以上版本实现。示例模拟微流控NMR探头中Diels–Alder反应及局域stripline RF线圈的空间检测权重。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "computation_nmr",
+          "dimension": "method_ids",
+          "basis": "Spinach联立核自旋、二级反应与微流控输运；SCM报告提出核自旋化学流体动力学框架，把密度矩阵演化与二级反应动力学、扩散和流动同时求解，并在Spinach 2.11及以上版本实现。示例模拟微流控NMR探头中Diels–Alder反应及局域stripline RF线圈的空间检测权重。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "reaction_monitoring",
+          "dimension": "method_ids",
+          "basis": "Spinach联立核自旋、二级反应与微流控输运；SCM报告提出核自旋化学流体动力学框架，把密度矩阵演化与二级反应动力学、扩散和流动同时求解，并在Spinach 2.11及以上版本实现。示例模拟微流控NMR探头中Diels–Alder反应及局域stripline RF线圈的空间检测权重。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "process_analysis",
+          "dimension": "application_ids",
+          "basis": "Spinach联立核自旋、二级反应与微流控输运；SCM报告提出核自旋化学流体动力学框架，把密度矩阵演化与二级反应动力学、扩散和流动同时求解，并在Spinach 2.11及以上版本实现。示例模拟微流控NMR探头中Diels–Alder反应及局域stripline RF线圈的空间检测权重。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "software",
+          "dimension": "instrument_component_ids",
+          "basis": "Spinach联立核自旋、二级反应与微流控输运；SCM报告提出核自旋化学流体动力学框架，把密度矩阵演化与二级反应动力学、扩散和流动同时求解，并在Spinach 2.11及以上版本实现。示例模拟微流控NMR探头中Diels–Alder反应及局域stripline RF线圈的空间检测权重。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Spinach联立核自旋、二级反应与微流控输运",
+        "original_summary_cn": "SCM报告提出核自旋化学流体动力学框架，把密度矩阵演化与二级反应动力学、扩散和流动同时求解，并在Spinach 2.11及以上版本实现。示例模拟微流控NMR探头中Diels–Alder反应及局域stripline RF线圈的空间检测权重。",
+        "original_meaning_cn": "用于在线反应监测时应输入真实流速、扩散系数、速率常数、线圈灵敏度图和T₁/T₂，并以停流谱和已知转化率校验。数值报告需保留网格、时间步长、边界条件与收敛测试，避免把流动展宽或空间加权误判为反应中间体。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "计算NMR",
+          "反应监测",
+          "催化",
+          "过程分析",
+          "仪器",
+          "探头",
+          "流通池",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260923-03",
+      "report_date": "2026-09-23",
+      "item_no": 3,
+      "title_cn": "OD-ENDOR在室温操控分子量子位中的¹⁴N核自旋",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "endor"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "Sarah Mann在SCM报告室温光学探测的电子—核双共振（OD-ENDOR），在化学可调分子量子位中观察耦合¹⁴N核自旋的Rabi振荡。强电子—核超精细作用把核自旋驱动速率提高数个数量级，为室温电子读出、核自旋存储铺路。",
+      "meaning_cn": "复现实验需标定光激发波长、占空比、微波与RF场强、电子/核共振频率及光—脉冲时序，并分别测电子与核Rabi、T₁和相干衰减。应以暗态、失谐和无目标核素对照确认信号，且报告光漂白与样品温升。",
+      "publication_date": "2026-09-22",
+      "time_scope": "24h",
+      "source": "SCM 2026官方摘要册｜Quantum Information and Sensing CL",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/Book_of_Abstracts_SCM2026-1.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-23",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-23.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR＋EPR",
+          "脉冲EPR",
+          "多核NMR",
+          "材料",
+          "仪器",
+          "谐振器",
+          "原位光照",
+          "软件"
+        ],
+        "original_type": "方法进展",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-23.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "OD-ENDOR在室温操控分子量子位中的¹⁴N核自旋；Sarah Mann在SCM报告室温光学探测的电子—核双共振（OD-ENDOR），在化学可调分子量子位中观察耦合¹⁴N核自旋的Rabi振荡。强电子—核超精细作用把核自旋驱动速率提高数个数量级，为室温电子读出、核自旋存储铺路。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "endor",
+          "dimension": "method_ids",
+          "basis": "OD-ENDOR在室温操控分子量子位中的¹⁴N核自旋；Sarah Mann在SCM报告室温光学探测的电子—核双共振（OD-ENDOR），在化学可调分子量子位中观察耦合¹⁴N核自旋的Rabi振荡。强电子—核超精细作用把核自旋驱动速率提高数个数量级，为室温电子读出、核自旋存储铺路。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "OD-ENDOR在室温操控分子量子位中的¹⁴N核自旋；Sarah Mann在SCM报告室温光学探测的电子—核双共振（OD-ENDOR），在化学可调分子量子位中观察耦合¹⁴N核自旋的Rabi振荡。强电子—核超精细作用把核自旋驱动速率提高数个数量级，为室温电子读出、核自旋存储铺路。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "OD-ENDOR在室温操控分子量子位中的¹⁴N核自旋",
+        "original_summary_cn": "Sarah Mann在SCM报告室温光学探测的电子—核双共振（OD-ENDOR），在化学可调分子量子位中观察耦合¹⁴N核自旋的Rabi振荡。强电子—核超精细作用把核自旋驱动速率提高数个数量级，为室温电子读出、核自旋存储铺路。",
+        "original_meaning_cn": "复现实验需标定光激发波长、占空比、微波与RF场强、电子/核共振频率及光—脉冲时序，并分别测电子与核Rabi、T₁和相干衰减。应以暗态、失谐和无目标核素对照确认信号，且报告光漂白与样品温升。",
+        "original_tags": [
+          "NMR＋EPR",
+          "脉冲EPR",
+          "多核NMR",
+          "材料",
+          "仪器",
+          "谐振器",
+          "原位光照",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260923-04",
+      "report_date": "2026-09-23",
+      "item_no": 4,
+      "title_cn": "oop-ESEEM与TREPR确认远红光PSI电子转移双向性",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "eseem",
+        "time_resolved_epr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "SCM闪讲以脉冲EPR和时间分辨EPR研究远红光适应型光系统I。oop-ESEEM调制频率与TREPR极化图样显示，尽管反应中心仅不对称配位一个叶绿素f，P700⁺A1⁻自旋相关自由基对仍沿两条电子转移分支保持双向传递。",
+      "meaning_cn": "实验需统一远红光适应条件、辅因子装载、冻存方式、温度、激光波长/能量及光—微波延迟。oop-ESEEM应报告脉冲长度、τ范围与频谱窗；TREPR需保留完整场—时间数据，并用同一结构模型联合拟合极化相位与超精细耦合。",
+      "publication_date": "2026-09-22",
+      "time_scope": "24h",
+      "source": "SCM 2026官方摘要册｜Biological Spin Chemistry FT",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/Book_of_Abstracts_SCM2026-1.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-23",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-23.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "生命科学",
+          "结构生物学",
+          "谐振器",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "学术进展",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "mapped_from_original_type",
+        "source_file": "09/SpinFront_2026-09-23.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "oop-ESEEM与TREPR确认远红光PSI电子转移双向性；SCM闪讲以脉冲EPR和时间分辨EPR研究远红光适应型光系统I。oop-ESEEM调制频率与TREPR极化图样显示，尽管反应中心仅不对称配位一个叶绿素f，P700⁺A1⁻自旋相关自由基对仍沿两条电子转移分支保持双向传递。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "oop-ESEEM与TREPR确认远红光PSI电子转移双向性；SCM闪讲以脉冲EPR和时间分辨EPR研究远红光适应型光系统I。oop-ESEEM调制频率与TREPR极化图样显示，尽管反应中心仅不对称配位一个叶绿素f，P700⁺A1⁻自旋相关自由基对仍沿两条电子转移分支保持双向传递。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "eseem",
+          "dimension": "method_ids",
+          "basis": "oop-ESEEM与TREPR确认远红光PSI电子转移双向性；SCM闪讲以脉冲EPR和时间分辨EPR研究远红光适应型光系统I。oop-ESEEM调制频率与TREPR极化图样显示，尽管反应中心仅不对称配位一个叶绿素f，P700⁺A1⁻自旋相关自由基对仍沿两条电子转移分支保持双向传递。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "time_resolved_epr",
+          "dimension": "method_ids",
+          "basis": "oop-ESEEM与TREPR确认远红光PSI电子转移双向性；SCM闪讲以脉冲EPR和时间分辨EPR研究远红光适应型光系统I。oop-ESEEM调制频率与TREPR极化图样显示，尽管反应中心仅不对称配位一个叶绿素f，P700⁺A1⁻自旋相关自由基对仍沿两条电子转移分支保持双向传递。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "oop-ESEEM与TREPR确认远红光PSI电子转移双向性；SCM闪讲以脉冲EPR和时间分辨EPR研究远红光适应型光系统I。oop-ESEEM调制频率与TREPR极化图样显示，尽管反应中心仅不对称配位一个叶绿素f，P700⁺A1⁻自旋相关自由基对仍沿两条电子转移分支保持双向传递。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "oop-ESEEM与TREPR确认远红光PSI电子转移双向性",
+        "original_summary_cn": "SCM闪讲以脉冲EPR和时间分辨EPR研究远红光适应型光系统I。oop-ESEEM调制频率与TREPR极化图样显示，尽管反应中心仅不对称配位一个叶绿素f，P700⁺A1⁻自旋相关自由基对仍沿两条电子转移分支保持双向传递。",
+        "original_meaning_cn": "实验需统一远红光适应条件、辅因子装载、冻存方式、温度、激光波长/能量及光—微波延迟。oop-ESEEM应报告脉冲长度、τ范围与频谱窗；TREPR需保留完整场—时间数据，并用同一结构模型联合拟合极化相位与超精细耦合。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "生命科学",
+          "结构生物学",
+          "谐振器",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260923-05",
+      "report_date": "2026-09-23",
+      "item_no": 5,
+      "title_cn": "Gd³⁺非天然氨基酸标记推进细胞环境蛋白EPR结构测量",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "spin_labeling",
+        "pds"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "SCM闪讲开发以遗传编码非天然氨基酸进行位点特异Gd³⁺自旋标记的路线，目标是在复杂、近原生细胞环境中测量细胞色素P450等电子传递蛋白的结构。该策略把生物正交位点引入与脉冲EPR距离约束直接衔接。",
+      "meaning_cn": "方案建立需先验证ncAA掺入率、金属标签占有率、蛋白活性与细胞背景信号，再优化Gd³⁺浓度、玻璃化剂、冻结速率和脉冲带宽。距离实验应配单标记/未标记对照，报告调制深度、背景模型、距离分布及细胞内外差异。",
+      "publication_date": "2026-09-22",
+      "time_scope": "24h",
+      "source": "SCM 2026官方摘要册｜Biological Spin Chemistry FT",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/Book_of_Abstracts_SCM2026-1.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-23",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-23.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "DEER/PELDOR",
+          "自旋标记",
+          "生命科学",
+          "结构生物学",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "应用研究",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-23.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "Gd³⁺非天然氨基酸标记推进细胞环境蛋白EPR结构测量；SCM闪讲开发以遗传编码非天然氨基酸进行位点特异Gd³⁺自旋标记的路线，目标是在复杂、近原生细胞环境中测量细胞色素P450等电子传递蛋白的结构。该策略把生物正交位点引入与脉冲EPR距离约束直接衔接。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "Gd³⁺非天然氨基酸标记推进细胞环境蛋白EPR结构测量；SCM闪讲开发以遗传编码非天然氨基酸进行位点特异Gd³⁺自旋标记的路线，目标是在复杂、近原生细胞环境中测量细胞色素P450等电子传递蛋白的结构。该策略把生物正交位点引入与脉冲EPR距离约束直接衔接。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spin_labeling",
+          "dimension": "method_ids",
+          "basis": "Gd³⁺非天然氨基酸标记推进细胞环境蛋白EPR结构测量；SCM闪讲开发以遗传编码非天然氨基酸进行位点特异Gd³⁺自旋标记的路线，目标是在复杂、近原生细胞环境中测量细胞色素P450等电子传递蛋白的结构。该策略把生物正交位点引入与脉冲EPR距离约束直接衔接。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pds",
+          "dimension": "method_ids",
+          "basis": "Gd³⁺非天然氨基酸标记推进细胞环境蛋白EPR结构测量；SCM闪讲开发以遗传编码非天然氨基酸进行位点特异Gd³⁺自旋标记的路线，目标是在复杂、近原生细胞环境中测量细胞色素P450等电子传递蛋白的结构。该策略把生物正交位点引入与脉冲EPR距离约束直接衔接。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "Gd³⁺非天然氨基酸标记推进细胞环境蛋白EPR结构测量；SCM闪讲开发以遗传编码非天然氨基酸进行位点特异Gd³⁺自旋标记的路线，目标是在复杂、近原生细胞环境中测量细胞色素P450等电子传递蛋白的结构。该策略把生物正交位点引入与脉冲EPR距离约束直接衔接。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Gd³⁺非天然氨基酸标记推进细胞环境蛋白EPR结构测量",
+        "original_summary_cn": "SCM闪讲开发以遗传编码非天然氨基酸进行位点特异Gd³⁺自旋标记的路线，目标是在复杂、近原生细胞环境中测量细胞色素P450等电子传递蛋白的结构。该策略把生物正交位点引入与脉冲EPR距离约束直接衔接。",
+        "original_meaning_cn": "方案建立需先验证ncAA掺入率、金属标签占有率、蛋白活性与细胞背景信号，再优化Gd³⁺浓度、玻璃化剂、冻结速率和脉冲带宽。距离实验应配单标记/未标记对照，报告调制深度、背景模型、距离分布及细胞内外差异。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "DEER/PELDOR",
+          "自旋标记",
+          "生命科学",
+          "结构生物学",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260923-06",
+      "report_date": "2026-09-23",
+      "item_no": 6,
+      "title_cn": "二维W波段EPR量子振荡解析光合自由基对几何",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "Gerd Kothe团队用94 GHz二维W波段EPR量子振荡全局拟合短寿命光合自由基对几何，所得结构与34 GHz Q波段结果一致而收敛率提高至62%。模型还解除无序固体中的镜像歧义，用五个欧拉角追踪QA⁻向QB的门控转移。",
+      "meaning_cn": "复现需准确记录W/Q波段频率、磁场取向、温度、脉冲带宽、时间零点和二维采样网格。全局拟合应公布初值、角度约定、目标函数和多起点收敛率，并用模拟注入检查镜像解；结构结论应与已知反应中心坐标交叉验证。",
+      "publication_date": "2026-09-22",
+      "time_scope": "24h",
+      "source": "SCM 2026官方摘要册｜Biological Spin Chemistry CL",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/Book_of_Abstracts_SCM2026-1.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-23",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-23.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "生命科学",
+          "结构生物学",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "方法进展",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-23.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "二维W波段EPR量子振荡解析光合自由基对几何；Gerd Kothe团队用94 GHz二维W波段EPR量子振荡全局拟合短寿命光合自由基对几何，所得结构与34 GHz Q波段结果一致而收敛率提高至62%。模型还解除无序固体中的镜像歧义，用五个欧拉角追踪QA⁻向QB的门控转移。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "二维W波段EPR量子振荡解析光合自由基对几何；Gerd Kothe团队用94 GHz二维W波段EPR量子振荡全局拟合短寿命光合自由基对几何，所得结构与34 GHz Q波段结果一致而收敛率提高至62%。模型还解除无序固体中的镜像歧义，用五个欧拉角追踪QA⁻向QB的门控转移。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "二维W波段EPR量子振荡解析光合自由基对几何；Gerd Kothe团队用94 GHz二维W波段EPR量子振荡全局拟合短寿命光合自由基对几何，所得结构与34 GHz Q波段结果一致而收敛率提高至62%。模型还解除无序固体中的镜像歧义，用五个欧拉角追踪QA⁻向QB的门控转移。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "二维W波段EPR量子振荡解析光合自由基对几何",
+        "original_summary_cn": "Gerd Kothe团队用94 GHz二维W波段EPR量子振荡全局拟合短寿命光合自由基对几何，所得结构与34 GHz Q波段结果一致而收敛率提高至62%。模型还解除无序固体中的镜像歧义，用五个欧拉角追踪QA⁻向QB的门控转移。",
+        "original_meaning_cn": "复现需准确记录W/Q波段频率、磁场取向、温度、脉冲带宽、时间零点和二维采样网格。全局拟合应公布初值、角度约定、目标函数和多起点收敛率，并用模拟注入检查镜像解；结构结论应与已知反应中心坐标交叉验证。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "生命科学",
+          "结构生物学",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260923-07",
+      "report_date": "2026-09-23",
+      "item_no": 7,
+      "title_cn": "低温平台整合EPR、对氢生产与量子科学",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "instrument_component_ids": [
+        "vt_system"
+      ],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "SCM赞助商讲座“Cooling the Spin”集中讨论低温平台在EPR、对氢生产及量子科学中的共用需求，强调制冷、气路、磁场和样品接口的系统整合。其价值在于把低温EPR与PHIP供气等外围设备放入同一实验室工程框架。",
+      "meaning_cn": "采购或改造时应分别核对最低温度、降温时间、温稳、磁场兼容、振动、微波/射频馈通及对氢转化温区与流量。验收需用有载样品测温而非空腔读数，并设置氧监测、泄压、回暖联锁和低温冷凝风险控制。",
+      "publication_date": "2026-09-22",
+      "time_scope": "24h",
+      "source": "SCM 2026官方摘要册｜Cinquepascal Sponsor Lecture",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/Book_of_Abstracts_SCM2026-1.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-23",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-23.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR＋EPR",
+          "溶液NMR",
+          "脉冲EPR",
+          "仪器",
+          "教育培训",
+          "磁体",
+          "探头",
+          "谐振器",
+          "变温系统"
+        ],
+        "original_type": "仪器技术",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-23.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "低温平台整合EPR、对氢生产与量子科学；SCM赞助商讲座“Cooling the Spin”集中讨论低温平台在EPR、对氢生产及量子科学中的共用需求，强调制冷、气路、磁场和样品接口的系统整合。其价值在于把低温EPR与PHIP供气等外围设备放入同一实验室工程框架。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "instrumentation",
+          "dimension": "application_ids",
+          "basis": "低温平台整合EPR、对氢生产与量子科学；SCM赞助商讲座“Cooling the Spin”集中讨论低温平台在EPR、对氢生产及量子科学中的共用需求，强调制冷、气路、磁场和样品接口的系统整合。其价值在于把低温EPR与PHIP供气等外围设备放入同一实验室工程框架。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "vt_system",
+          "dimension": "instrument_component_ids",
+          "basis": "低温平台整合EPR、对氢生产与量子科学；SCM赞助商讲座“Cooling the Spin”集中讨论低温平台在EPR、对氢生产及量子科学中的共用需求，强调制冷、气路、磁场和样品接口的系统整合。其价值在于把低温EPR与PHIP供气等外围设备放入同一实验室工程框架。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "低温平台整合EPR、对氢生产与量子科学",
+        "original_summary_cn": "SCM赞助商讲座“Cooling the Spin”集中讨论低温平台在EPR、对氢生产及量子科学中的共用需求，强调制冷、气路、磁场和样品接口的系统整合。其价值在于把低温EPR与PHIP供气等外围设备放入同一实验室工程框架。",
+        "original_meaning_cn": "采购或改造时应分别核对最低温度、降温时间、温稳、磁场兼容、振动、微波/射频馈通及对氢转化温区与流量。验收需用有载样品测温而非空腔读数，并设置氧监测、泄压、回暖联锁和低温冷凝风险控制。",
+        "original_tags": [
+          "NMR＋EPR",
+          "溶液NMR",
+          "脉冲EPR",
+          "仪器",
+          "教育培训",
+          "磁体",
+          "探头",
+          "谐振器",
+          "变温系统"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260923-08",
+      "report_date": "2026-09-23",
+      "item_no": 8,
+      "title_cn": "显微ODMR绘制室温有机分子自旋相干空间差异",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "odmr"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "Dane McCamey团队把室温光学探测相干控制与显微成像结合，绘制并五苯掺杂对三联苯中自旋相干的空间变化。微晶磁场灵敏度变异约1.3%，纳米晶仍保持1.09 μs相干时间和25%光学对比度，面向近场量子传感。",
+      "meaning_cn": "平台评估应同步记录晶体厚度、掺杂浓度、像素尺寸、激光功率、微波B₁、脉冲序列与光学归一化。相干图必须配置信噪与温升图，并以同一区域重复扫描检查漂移；比较薄膜、微晶和纳米晶时应统一拟合窗与读出对比度定义。",
+      "publication_date": "2026-09-23",
+      "time_scope": "24h",
+      "source": "SCM 2026官方摘要册｜Qubits & Quantum Sensing IL",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/Book_of_Abstracts_SCM2026-1.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-23",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-23.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "材料",
+          "仪器",
+          "谐振器",
+          "原位光照",
+          "软件"
+        ],
+        "original_type": "方法进展",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-23.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "显微ODMR绘制室温有机分子自旋相干空间差异；Dane McCamey团队把室温光学探测相干控制与显微成像结合，绘制并五苯掺杂对三联苯中自旋相干的空间变化。微晶磁场灵敏度变异约1.3%，纳米晶仍保持1.09 μs相干时间和25%光学对比度，面向近场量子传感。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "odmr",
+          "dimension": "method_ids",
+          "basis": "显微ODMR绘制室温有机分子自旋相干空间差异；Dane McCamey团队把室温光学探测相干控制与显微成像结合，绘制并五苯掺杂对三联苯中自旋相干的空间变化。微晶磁场灵敏度变异约1.3%，纳米晶仍保持1.09 μs相干时间和25%光学对比度，面向近场量子传感。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "显微ODMR绘制室温有机分子自旋相干空间差异；Dane McCamey团队把室温光学探测相干控制与显微成像结合，绘制并五苯掺杂对三联苯中自旋相干的空间变化。微晶磁场灵敏度变异约1.3%，纳米晶仍保持1.09 μs相干时间和25%光学对比度，面向近场量子传感。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "显微ODMR绘制室温有机分子自旋相干空间差异",
+        "original_summary_cn": "Dane McCamey团队把室温光学探测相干控制与显微成像结合，绘制并五苯掺杂对三联苯中自旋相干的空间变化。微晶磁场灵敏度变异约1.3%，纳米晶仍保持1.09 μs相干时间和25%光学对比度，面向近场量子传感。",
+        "original_meaning_cn": "平台评估应同步记录晶体厚度、掺杂浓度、像素尺寸、激光功率、微波B₁、脉冲序列与光学归一化。相干图必须配置信噪与温升图，并以同一区域重复扫描检查漂移；比较薄膜、微晶和纳米晶时应统一拟合窗与读出对比度定义。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "材料",
+          "仪器",
+          "谐振器",
+          "原位光照",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260923-09",
+      "report_date": "2026-09-23",
+      "item_no": 9,
+      "title_cn": "TREPR检验隐花色素CISS对自旋极化各向异性的影响",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "time_resolved_epr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "Yasuhiro Kobori以角度分辨TREPR研究XlCry-DASH隐花色素光生电荷分离态，考察手性诱导自旋选择性（CISS）如何改变电子自旋极化各向异性，并把该效应同蛋白构象变化和长程电子转移联系起来。",
+      "meaning_cn": "实验需固定蛋白构建体、辅因子装载、缓冲液、冻存取向和120 K测量条件，标定450 nm偏振激光、B₀相对光偏振方向及光—微波延迟。全谱模拟应联合g/A张量、交换/偶极耦合与初始布居，避免仅凭正负峰判定CISS。",
+      "publication_date": "2026-09-23",
+      "time_scope": "24h",
+      "source": "SCM 2026官方摘要册｜CISS Effect IL",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/Book_of_Abstracts_SCM2026-1.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-23",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-23.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "生命科学",
+          "结构生物学",
+          "谐振器",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "学术进展",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "mapped_from_original_type",
+        "source_file": "09/SpinFront_2026-09-23.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "TREPR检验隐花色素CISS对自旋极化各向异性的影响；Yasuhiro Kobori以角度分辨TREPR研究XlCry-DASH隐花色素光生电荷分离态，考察手性诱导自旋选择性（CISS）如何改变电子自旋极化各向异性，并把该效应同蛋白构象变化和长程电子转移联系起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "time_resolved_epr",
+          "dimension": "method_ids",
+          "basis": "TREPR检验隐花色素CISS对自旋极化各向异性的影响；Yasuhiro Kobori以角度分辨TREPR研究XlCry-DASH隐花色素光生电荷分离态，考察手性诱导自旋选择性（CISS）如何改变电子自旋极化各向异性，并把该效应同蛋白构象变化和长程电子转移联系起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "TREPR检验隐花色素CISS对自旋极化各向异性的影响；Yasuhiro Kobori以角度分辨TREPR研究XlCry-DASH隐花色素光生电荷分离态，考察手性诱导自旋选择性（CISS）如何改变电子自旋极化各向异性，并把该效应同蛋白构象变化和长程电子转移联系起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "TREPR检验隐花色素CISS对自旋极化各向异性的影响",
+        "original_summary_cn": "Yasuhiro Kobori以角度分辨TREPR研究XlCry-DASH隐花色素光生电荷分离态，考察手性诱导自旋选择性（CISS）如何改变电子自旋极化各向异性，并把该效应同蛋白构象变化和长程电子转移联系起来。",
+        "original_meaning_cn": "实验需固定蛋白构建体、辅因子装载、缓冲液、冻存取向和120 K测量条件，标定450 nm偏振激光、B₀相对光偏振方向及光—微波延迟。全谱模拟应联合g/A张量、交换/偶极耦合与初始布居，避免仅凭正负峰判定CISS。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "生命科学",
+          "结构生物学",
+          "谐振器",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260923-10",
+      "report_date": "2026-09-23",
+      "item_no": 10,
+      "title_cn": "MoQN把分子自旋量子位带入细胞温度传感与MOF",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "odmr"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "Nobuhiro Yanai报告以材料化学组织分子自旋量子位：MoQN把优化自旋中心封装进生物相容纳米晶，实现细胞内室温光学自旋读出和绝对温度感知；MOF进一步提供可编程排列与化学可达性，并延伸至单重态裂分五重态qudit。",
+      "meaning_cn": "应用端需分别核对自旋中心浓度、纳米晶尺寸、细胞摄取、光毒性、ODMR对比度、温度标定曲线和局部环境漂移。MOF样品还应报告孔道可达性、客体负载与相干时间；多能级读出须验证跃迁选择性、脉冲带宽及亚微秒相干。",
+      "publication_date": "2026-09-23",
+      "time_scope": "24h",
+      "source": "SCM 2026官方摘要册｜Qubits & Quantum Sensing PL",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/Book_of_Abstracts_SCM2026-1.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-23",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-23.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "缺陷EPR",
+          "生命科学",
+          "材料",
+          "仪器",
+          "原位光照",
+          "软件"
+        ],
+        "original_type": "学术进展",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "mapped_from_original_type",
+        "source_file": "09/SpinFront_2026-09-23.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "MoQN把分子自旋量子位带入细胞温度传感与MOF；Nobuhiro Yanai报告以材料化学组织分子自旋量子位：MoQN把优化自旋中心封装进生物相容纳米晶，实现细胞内室温光学自旋读出和绝对温度感知；MOF进一步提供可编程排列与化学可达性，并延伸至单重态裂分五重态qudit。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "odmr",
+          "dimension": "method_ids",
+          "basis": "MoQN把分子自旋量子位带入细胞温度传感与MOF；Nobuhiro Yanai报告以材料化学组织分子自旋量子位：MoQN把优化自旋中心封装进生物相容纳米晶，实现细胞内室温光学自旋读出和绝对温度感知；MOF进一步提供可编程排列与化学可达性，并延伸至单重态裂分五重态qudit。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "MoQN把分子自旋量子位带入细胞温度传感与MOF；Nobuhiro Yanai报告以材料化学组织分子自旋量子位：MoQN把优化自旋中心封装进生物相容纳米晶，实现细胞内室温光学自旋读出和绝对温度感知；MOF进一步提供可编程排列与化学可达性，并延伸至单重态裂分五重态qudit。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "MoQN把分子自旋量子位带入细胞温度传感与MOF",
+        "original_summary_cn": "Nobuhiro Yanai报告以材料化学组织分子自旋量子位：MoQN把优化自旋中心封装进生物相容纳米晶，实现细胞内室温光学自旋读出和绝对温度感知；MOF进一步提供可编程排列与化学可达性，并延伸至单重态裂分五重态qudit。",
+        "original_meaning_cn": "应用端需分别核对自旋中心浓度、纳米晶尺寸、细胞摄取、光毒性、ODMR对比度、温度标定曲线和局部环境漂移。MOF样品还应报告孔道可达性、客体负载与相干时间；多能级读出须验证跃迁选择性、脉冲带宽及亚微秒相干。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "缺陷EPR",
+          "生命科学",
+          "材料",
+          "仪器",
+          "原位光照",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "常规检索未确认到过去24小时内可核验的新论文或产品公告，合格新增少于5条，已启动增强搜索。增强阶段分别核查Journal of Magnetic Resonance、Journal of Magnetic Resonance Open、Magnetic Resonance、Journal of Biomolecular NMR、Solid State Nuclear Magnetic Resonance、Magnetic Resonance in Chemistry、Applied Magnetic Resonance及ACS、RSC、Wiley、Springer Nature、Elsevier、AIP等出版平台，并覆盖arXiv、ChemRxiv、PubMed/Crossref、科研机构、Bruker、JEOL、Oxford Instruments、Magritek、Nanalysis、CIQTEK等厂商、专业会议和中外采购公告；液体NMR、固体NMR/MAS/DNP、低场与TD-NMR、谱图处理、CW/rapid-scan EPR、脉冲EPR/DEER/ENDOR/ESEEM/HYSCORE、TREPR、operando/EC-EPR和仪器部件均已独立检索。\n\n本期最终收录10条：1篇9月19日的非SCM预印本归入近7天扩展，9条为9月22日至23日日期明确的SCM 2026技术议程，归入近24小时。SCM 2026官方摘要册承载相互独立且可核验的实验议程，故按独立条目收录。结合9月16—22日最近7期正文、项目文件索引及可访问JSON，按标准化DOI、去除跟踪参数后的URL和规范化标题查重，排除17条既有记录；另排除26条日期不明、常驻页面、医学MRI、缩写误检、超窗或仅把NMR/EPR作为辅助表征的候选。增强搜索后未以低相关性内容补足。\n\n待复核标签：高压⁵¹V NMR、压力诱导incommensurate triple-Q CDW、Spinach化学流体动力学、OD-ENDOR、oop-ESEEM、Gd³⁺非天然氨基酸标记、二维W波段量子振荡、EPR/PHIP低温平台、室温pulsed ODMR、MoQN分子量子纳米传感器与singlet-fission quintet qudit保留在sample_systems及正文中，未创建新的正式ID。",
+    "source_sha256": "eddc916773d02c0e2c341f9adf10c19c0e1e78cb0f072212660be4bd05ec588e",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

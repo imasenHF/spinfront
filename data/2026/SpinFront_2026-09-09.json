@@ -1,0 +1,870 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-09",
+  "scope_note": "本期收录8条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260909-01",
+      "report_date": "2026-09-09",
+      "item_no": 1,
+      "title_cn": "气相机器学习势将混合泛函精度引入NMR晶体学",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Chemical Science正式发表面向有机晶体的NMR晶体学计算流程：先用在气相分子数据上训练的机器学习原子间势优化晶体几何，再由ShiftML3预测屏蔽张量。作者报告结构质量可接近混合泛函周期DFT，而计算成本至少减少三个数量级，使批量候选晶型筛选不再依赖大型计算资源。",
+      "meaning_cn": "用于晶型判别时，应保留实验核种、磁场、MAS条件、化学位移参照及候选晶胞，并记录机器学习势版本、训练域、几何收敛阈值和ShiftML3不确定度。建议以少量周期DFT和未参与筛选的实验峰位作外部核验，尤其检查氢键、离子晶体及训练域外元素造成的系统偏差。",
+      "publication_date": "2026-09-08",
+      "time_scope": "24h",
+      "source": "Chemical Science",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2026/sc/d6sc04941a",
+      "doi": "10.1039/d6sc04941a",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-09",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-09.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "计算NMR",
+          "化学结构解析",
+          "材料与缺陷表征",
+          "仪器、软件与方法"
+        ],
+        "original_type": "固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-09.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "气相机器学习势将混合泛函精度引入NMR晶体学；Chemical Science正式发表面向有机晶体的NMR晶体学计算流程：先用在气相分子数据上训练的机器学习原子间势优化晶体几何，再由ShiftML3预测屏蔽张量。作者报告结构质量可接近混合泛函周期DFT，而计算成本至少减少三个数量级，使批量候选晶型筛选不再依赖大型计算资源。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "computation_nmr",
+          "dimension": "method_ids",
+          "basis": "气相机器学习势将混合泛函精度引入NMR晶体学；Chemical Science正式发表面向有机晶体的NMR晶体学计算流程：先用在气相分子数据上训练的机器学习原子间势优化晶体几何，再由ShiftML3预测屏蔽张量。作者报告结构质量可接近混合泛函周期DFT，而计算成本至少减少三个数量级，使批量候选晶型筛选不再依赖大型计算资源。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "气相机器学习势将混合泛函精度引入NMR晶体学；Chemical Science正式发表面向有机晶体的NMR晶体学计算流程：先用在气相分子数据上训练的机器学习原子间势优化晶体几何，再由ShiftML3预测屏蔽张量。作者报告结构质量可接近混合泛函周期DFT，而计算成本至少减少三个数量级，使批量候选晶型筛选不再依赖大型计算资源。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "气相机器学习势将混合泛函精度引入NMR晶体学",
+        "original_summary_cn": "Chemical Science正式发表面向有机晶体的NMR晶体学计算流程：先用在气相分子数据上训练的机器学习原子间势优化晶体几何，再由ShiftML3预测屏蔽张量。作者报告结构质量可接近混合泛函周期DFT，而计算成本至少减少三个数量级，使批量候选晶型筛选不再依赖大型计算资源。",
+        "original_meaning_cn": "用于晶型判别时，应保留实验核种、磁场、MAS条件、化学位移参照及候选晶胞，并记录机器学习势版本、训练域、几何收敛阈值和ShiftML3不确定度。建议以少量周期DFT和未参与筛选的实验峰位作外部核验，尤其检查氢键、离子晶体及训练域外元素造成的系统偏差。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "计算NMR",
+          "化学结构解析",
+          "材料与缺陷表征",
+          "仪器、软件与方法"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260909-02",
+      "report_date": "2026-09-09",
+      "item_no": 2,
+      "title_cn": "Rb–Xe核自旋磁力计矢量测量近零场残余磁场",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Review of Scientific Instruments报道⁸⁷Rb–¹²⁹Xe混合核自旋磁力计，以频率参照方式测量近零场环境中的微弱残余磁场矢量。方案利用¹²⁹Xe核自旋的窄共振响应建立方向与场强读出，面向零场/超低场磁共振装置的三轴残场标定和长期漂移诊断。",
+      "meaning_cn": "装置评估需记录Rb蒸气池温度、Xe气体组成与压力、泵浦和探测光参数、偏置线圈常数、屏蔽筒剩磁及频率参照稳定度。三轴测量应校正线圈非正交、光移和交叉轴响应，并用独立磁强计或已知测试场检查绝对误差、重复性和零点漂移。",
+      "publication_date": "2026-09-08",
+      "time_scope": "24h",
+      "source": "Review of Scientific Instruments",
+      "url": "https://pubs.aip.org/aip/rsi/article/97/9/093201/3404023/Accurate-vector-measurement-of-residual-magnetic",
+      "doi": "10.1063/5.0334069",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-09",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-09.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "台式NMR",
+          "仪器、软件与方法"
+        ],
+        "original_type": "台式NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-09.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "Rb–Xe核自旋磁力计矢量测量近零场残余磁场；Review of Scientific Instruments报道⁸⁷Rb–¹²⁹Xe混合核自旋磁力计，以频率参照方式测量近零场环境中的微弱残余磁场矢量。方案利用¹²⁹Xe核自旋的窄共振响应建立方向与场强读出，面向零场/超低场磁共振装置的三轴残场标定和长期漂移诊断。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "instrumentation",
+          "dimension": "application_ids",
+          "basis": "Rb–Xe核自旋磁力计矢量测量近零场残余磁场；Review of Scientific Instruments报道⁸⁷Rb–¹²⁹Xe混合核自旋磁力计，以频率参照方式测量近零场环境中的微弱残余磁场矢量。方案利用¹²⁹Xe核自旋的窄共振响应建立方向与场强读出，面向零场/超低场磁共振装置的三轴残场标定和长期漂移诊断。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Rb–Xe核自旋磁力计矢量测量近零场残余磁场",
+        "original_summary_cn": "Review of Scientific Instruments报道⁸⁷Rb–¹²⁹Xe混合核自旋磁力计，以频率参照方式测量近零场环境中的微弱残余磁场矢量。方案利用¹²⁹Xe核自旋的窄共振响应建立方向与场强读出，面向零场/超低场磁共振装置的三轴残场标定和长期漂移诊断。",
+        "original_meaning_cn": "装置评估需记录Rb蒸气池温度、Xe气体组成与压力、泵浦和探测光参数、偏置线圈常数、屏蔽筒剩磁及频率参照稳定度。三轴测量应校正线圈非正交、光移和交叉轴响应，并用独立磁强计或已知测试场检查绝对误差、重复性和零点漂移。",
+        "original_tags": [
+          "NMR",
+          "台式NMR",
+          "仪器、软件与方法"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260909-03",
+      "report_date": "2026-09-09",
+      "item_no": 3,
+      "title_cn": "台式NMR由酒石酸位移直接测定葡萄汁pH",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "benchtop_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "ChemFoodChem提出台式NMR一体化葡萄汁分析方法，通过模型拟合谱图组分，并利用酒石酸信号随酸碱度变化的化学位移计算pH。100份校准与验证样品的结果与电极法一致，方法还用于跟踪酸化、降酸和发酵过程中的pH变化。",
+      "meaning_cn": "方法转移需固定磁场、温度、样品体积、锁场与匀场条件，并用覆盖实际糖度、酒石酸浓度和离子强度的样品重建校准。软件应同时报告拟合残差与pH不确定度；发酵在线应用还需检查气泡、悬浮物、乙醇累积和温度漂移对峰位的影响。",
+      "publication_date": "2026-09-07",
+      "time_scope": "7d_extension",
+      "source": "ChemFoodChem",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/cfch.70035",
+      "doi": "10.1002/cfch.70035",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-09",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-09.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "台式NMR",
+          "反应监测NMR",
+          "食品与农业",
+          "过程分析"
+        ],
+        "original_type": "台式NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-09.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "台式NMR由酒石酸位移直接测定葡萄汁pH；ChemFoodChem提出台式NMR一体化葡萄汁分析方法，通过模型拟合谱图组分，并利用酒石酸信号随酸碱度变化的化学位移计算pH。100份校准与验证样品的结果与电极法一致，方法还用于跟踪酸化、降酸和发酵过程中的pH变化。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "benchtop_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "台式NMR由酒石酸位移直接测定葡萄汁pH；ChemFoodChem提出台式NMR一体化葡萄汁分析方法，通过模型拟合谱图组分，并利用酒石酸信号随酸碱度变化的化学位移计算pH。100份校准与验证样品的结果与电极法一致，方法还用于跟踪酸化、降酸和发酵过程中的pH变化。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "food_agriculture",
+          "dimension": "application_ids",
+          "basis": "台式NMR由酒石酸位移直接测定葡萄汁pH；ChemFoodChem提出台式NMR一体化葡萄汁分析方法，通过模型拟合谱图组分，并利用酒石酸信号随酸碱度变化的化学位移计算pH。100份校准与验证样品的结果与电极法一致，方法还用于跟踪酸化、降酸和发酵过程中的pH变化。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "台式NMR由酒石酸位移直接测定葡萄汁pH",
+        "original_summary_cn": "ChemFoodChem提出台式NMR一体化葡萄汁分析方法，通过模型拟合谱图组分，并利用酒石酸信号随酸碱度变化的化学位移计算pH。100份校准与验证样品的结果与电极法一致，方法还用于跟踪酸化、降酸和发酵过程中的pH变化。",
+        "original_meaning_cn": "方法转移需固定磁场、温度、样品体积、锁场与匀场条件，并用覆盖实际糖度、酒石酸浓度和离子强度的样品重建校准。软件应同时报告拟合残差与pH不确定度；发酵在线应用还需检查气泡、悬浮物、乙醇累积和温度漂移对峰位的影响。",
+        "original_tags": [
+          "NMR",
+          "台式NMR",
+          "反应监测NMR",
+          "食品与农业",
+          "过程分析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260909-04",
+      "report_date": "2026-09-09",
+      "item_no": 4,
+      "title_cn": "¹H MRS以9.7 ppm醛峰在活体脑内读取去甲肾上腺素",
+      "direction_ids": [
+        "mrs"
+      ],
+      "experiment_type_ids": [
+        "in_vivo_mrs"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Translational Medicine报道反应型化学位移工程探针FS：探针与去甲肾上腺素发生级联取代，生成约9.7 ppm的醛质子峰，避开常见1—5 ppm内源代谢物及水峰。方法经水溶液、PC12细胞验证，并在7.0 T系统上监测氟西汀处理大鼠脑内去甲肾上腺素变化。",
+      "meaning_cn": "活体方案需校准探针剂量、反应时间、脑区定位、体素大小、匀场、抑水和采集时序，并设置未加探针、无靶标及竞争物对照。9.7 ppm峰定量应校正T₁/T₂、线宽、探针递送与反应产率；药物前后比较需保持麻醉、温度和线圈负载一致。",
+      "publication_date": "2026-09-07",
+      "time_scope": "7d_extension",
+      "source": "Journal of Translational Medicine",
+      "url": "https://link.springer.com/article/10.1186/s12967-026-08931-3",
+      "doi": "10.1186/s12967-026-08931-3",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-09",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-09.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "MRS",
+          "在体MRS",
+          "反应监测NMR",
+          "计算NMR",
+          "生命科学",
+          "药物与质量分析"
+        ],
+        "original_type": "在体MRS",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-09.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "mrs",
+          "dimension": "direction_ids",
+          "basis": "¹H MRS以9.7 ppm醛峰在活体脑内读取去甲肾上腺素；Journal of Translational Medicine报道反应型化学位移工程探针FS：探针与去甲肾上腺素发生级联取代，生成约9.7 ppm的醛质子峰，避开常见1—5 ppm内源代谢物及水峰。方法经水溶液、PC12细胞验证，并在7.0 T系统上监测氟西汀处理大鼠脑内去甲肾上腺素变化。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "in_vivo_mrs",
+          "dimension": "experiment_type_ids",
+          "basis": "¹H MRS以9.7 ppm醛峰在活体脑内读取去甲肾上腺素；Journal of Translational Medicine报道反应型化学位移工程探针FS：探针与去甲肾上腺素发生级联取代，生成约9.7 ppm的醛质子峰，避开常见1—5 ppm内源代谢物及水峰。方法经水溶液、PC12细胞验证，并在7.0 T系统上监测氟西汀处理大鼠脑内去甲肾上腺素变化。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "¹H MRS以9.7 ppm醛峰在活体脑内读取去甲肾上腺素；Journal of Translational Medicine报道反应型化学位移工程探针FS：探针与去甲肾上腺素发生级联取代，生成约9.7 ppm的醛质子峰，避开常见1—5 ppm内源代谢物及水峰。方法经水溶液、PC12细胞验证，并在7.0 T系统上监测氟西汀处理大鼠脑内去甲肾上腺素变化。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "¹H MRS以9.7 ppm醛峰在活体脑内读取去甲肾上腺素",
+        "original_summary_cn": "Journal of Translational Medicine报道反应型化学位移工程探针FS：探针与去甲肾上腺素发生级联取代，生成约9.7 ppm的醛质子峰，避开常见1—5 ppm内源代谢物及水峰。方法经水溶液、PC12细胞验证，并在7.0 T系统上监测氟西汀处理大鼠脑内去甲肾上腺素变化。",
+        "original_meaning_cn": "活体方案需校准探针剂量、反应时间、脑区定位、体素大小、匀场、抑水和采集时序，并设置未加探针、无靶标及竞争物对照。9.7 ppm峰定量应校正T₁/T₂、线宽、探针递送与反应产率；药物前后比较需保持麻醉、温度和线圈负载一致。",
+        "original_tags": [
+          "MRS",
+          "在体MRS",
+          "反应监测NMR",
+          "计算NMR",
+          "生命科学",
+          "药物与质量分析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260909-05",
+      "report_date": "2026-09-09",
+      "item_no": 5,
+      "title_cn": "⁹⁵Mo NMR读取烯烃复分解预催化剂的亚胺配体电子效应",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "catalysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Helvetica Chimica Acta报道一组Mo(VI)亚胺烯烃复分解预催化剂的⁹⁵Mo NMR、催化实验与DFT分析。研究发现⁹⁵Mo各向同性化学位移可直接反映亚胺配体取代基的电子效应，为比较结构相近的Mo催化剂提供金属中心局域电子环境读出。",
+      "meaning_cn": "⁹⁵Mo灵敏度低且位移范围宽，采集前需确认宽带探头调谐范围、谱宽、脉冲带宽、浓度、温度及长时间累加稳定性。跨系列比较应统一溶剂和参照，并将实验位移与DFT屏蔽、催化活性及分解产物配对，避免把配体交换或浓度效应误作电子效应。",
+      "publication_date": "2026-09-03",
+      "time_scope": "7d_extension",
+      "source": "Helvetica Chimica Acta",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/hlca.70097",
+      "doi": "10.1002/hlca.70097",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-09",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-09.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "计算NMR",
+          "催化",
+          "无机与配位化学",
+          "化学结构解析"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-09.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "⁹⁵Mo NMR读取烯烃复分解预催化剂的亚胺配体电子效应；Helvetica Chimica Acta报道一组Mo(VI)亚胺烯烃复分解预催化剂的⁹⁵Mo NMR、催化实验与DFT分析。研究发现⁹⁵Mo各向同性化学位移可直接反映亚胺配体取代基的电子效应，为比较结构相近的Mo催化剂提供金属中心局域电子环境读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "⁹⁵Mo NMR读取烯烃复分解预催化剂的亚胺配体电子效应；Helvetica Chimica Acta报道一组Mo(VI)亚胺烯烃复分解预催化剂的⁹⁵Mo NMR、催化实验与DFT分析。研究发现⁹⁵Mo各向同性化学位移可直接反映亚胺配体取代基的电子效应，为比较结构相近的Mo催化剂提供金属中心局域电子环境读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "computation_nmr",
+          "dimension": "method_ids",
+          "basis": "⁹⁵Mo NMR读取烯烃复分解预催化剂的亚胺配体电子效应；Helvetica Chimica Acta报道一组Mo(VI)亚胺烯烃复分解预催化剂的⁹⁵Mo NMR、催化实验与DFT分析。研究发现⁹⁵Mo各向同性化学位移可直接反映亚胺配体取代基的电子效应，为比较结构相近的Mo催化剂提供金属中心局域电子环境读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "catalysis",
+          "dimension": "application_ids",
+          "basis": "⁹⁵Mo NMR读取烯烃复分解预催化剂的亚胺配体电子效应；Helvetica Chimica Acta报道一组Mo(VI)亚胺烯烃复分解预催化剂的⁹⁵Mo NMR、催化实验与DFT分析。研究发现⁹⁵Mo各向同性化学位移可直接反映亚胺配体取代基的电子效应，为比较结构相近的Mo催化剂提供金属中心局域电子环境读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "⁹⁵Mo NMR读取烯烃复分解预催化剂的亚胺配体电子效应",
+        "original_summary_cn": "Helvetica Chimica Acta报道一组Mo(VI)亚胺烯烃复分解预催化剂的⁹⁵Mo NMR、催化实验与DFT分析。研究发现⁹⁵Mo各向同性化学位移可直接反映亚胺配体取代基的电子效应，为比较结构相近的Mo催化剂提供金属中心局域电子环境读出。",
+        "original_meaning_cn": "⁹⁵Mo灵敏度低且位移范围宽，采集前需确认宽带探头调谐范围、谱宽、脉冲带宽、浓度、温度及长时间累加稳定性。跨系列比较应统一溶剂和参照，并将实验位移与DFT屏蔽、催化活性及分解产物配对，避免把配体交换或浓度效应误作电子效应。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "计算NMR",
+          "催化",
+          "无机与配位化学",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260909-06",
+      "report_date": "2026-09-09",
+      "item_no": 6,
+      "title_cn": "原位CW-EPR连续追踪水进入UiO-66的慢扩散",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "cw_epr"
+      ],
+      "method_ids": [
+        "spin_probe"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Structural Chemistry以封装在UiO-66孔腔内的TEMPO作为自旋探针，用原位EPR线形连续观察水吸附。水进入孔道后自由基运动改变，谱线逐渐变窄；实测表明吸水过程持续超过50小时，分子动力学模拟给出与实验相符的探针运动变化。",
+      "meaning_cn": "实验需固定相对湿度、温度、样品质量、TEMPO负载量及气体交换死体积，并连续记录峰峰线宽、转动相关时间和积分强度。谱图模拟要区分含水量、探针聚集与微波功率饱和；建议用重量法或吸附等温线同步核对水摄取量，并设置空UiO-66与自由TEMPO对照。",
+      "publication_date": "2026-09-04",
+      "time_scope": "7d_extension",
+      "source": "Journal of Structural Chemistry",
+      "url": "https://link.springer.com/article/10.1134/S0022476626080032",
+      "doi": "10.1134/s0022476626080032",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-09",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-09.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "材料与缺陷表征",
+          "环境与污染控制"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-09.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "原位CW-EPR连续追踪水进入UiO-66的慢扩散；Journal of Structural Chemistry以封装在UiO-66孔腔内的TEMPO作为自旋探针，用原位EPR线形连续观察水吸附。水进入孔道后自由基运动改变，谱线逐渐变窄；实测表明吸水过程持续超过50小时，分子动力学模拟给出与实验相符的探针运动变化。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "cw_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "原位CW-EPR连续追踪水进入UiO-66的慢扩散；Journal of Structural Chemistry以封装在UiO-66孔腔内的TEMPO作为自旋探针，用原位EPR线形连续观察水吸附。水进入孔道后自由基运动改变，谱线逐渐变窄；实测表明吸水过程持续超过50小时，分子动力学模拟给出与实验相符的探针运动变化。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spin_probe",
+          "dimension": "method_ids",
+          "basis": "原位CW-EPR连续追踪水进入UiO-66的慢扩散；Journal of Structural Chemistry以封装在UiO-66孔腔内的TEMPO作为自旋探针，用原位EPR线形连续观察水吸附。水进入孔道后自由基运动改变，谱线逐渐变窄；实测表明吸水过程持续超过50小时，分子动力学模拟给出与实验相符的探针运动变化。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "原位CW-EPR连续追踪水进入UiO-66的慢扩散；Journal of Structural Chemistry以封装在UiO-66孔腔内的TEMPO作为自旋探针，用原位EPR线形连续观察水吸附。水进入孔道后自由基运动改变，谱线逐渐变窄；实测表明吸水过程持续超过50小时，分子动力学模拟给出与实验相符的探针运动变化。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "原位CW-EPR连续追踪水进入UiO-66的慢扩散",
+        "original_summary_cn": "Journal of Structural Chemistry以封装在UiO-66孔腔内的TEMPO作为自旋探针，用原位EPR线形连续观察水吸附。水进入孔道后自由基运动改变，谱线逐渐变窄；实测表明吸水过程持续超过50小时，分子动力学模拟给出与实验相符的探针运动变化。",
+        "original_meaning_cn": "实验需固定相对湿度、温度、样品质量、TEMPO负载量及气体交换死体积，并连续记录峰峰线宽、转动相关时间和积分强度。谱图模拟要区分含水量、探针聚集与微波功率饱和；建议用重量法或吸附等温线同步核对水摄取量，并设置空UiO-66与自由TEMPO对照。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "材料与缺陷表征",
+          "环境与污染控制"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260909-07",
+      "report_date": "2026-09-09",
+      "item_no": 7,
+      "title_cn": "600 MHz二维NMR重定核糖–硼酸2:1配合物结构",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr",
+        "multinuclear_nmr",
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "ACS Earth and Space Chemistry以600 MHz一维及二维¹H/¹³C NMR重新表征核糖–硼酸体系，并用COSY、HSQC和DFT位移计算完成质子与碳信号归属。研究修订早期低场数据对2:1配合物的描述，指出均相2:1物种包含由螺环硼中心构型产生的非对映体对。",
+      "meaning_cn": "复现实验需严格控制核糖/硼酸比例、pH、浓度、温度及平衡时间，并记录600 MHz下的谱宽、数字分辨率与参照。COSY和HSQC归属应与DFT位移逐峰核对；若存在快速交换，需通过变温、浓度系列及时间序列区分真实独立物种与交换平均峰。",
+      "publication_date": "2026-09-07",
+      "time_scope": "7d_extension",
+      "source": "ACS Earth and Space Chemistry",
+      "url": "https://pubs.acs.org/doi/10.1021/acsearthspacechem.6c00191",
+      "doi": "10.1021/acsearthspacechem.6c00191",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-09",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-09.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "计算NMR",
+          "化学结构解析",
+          "天然产物"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-09.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "600 MHz二维NMR重定核糖–硼酸2:1配合物结构；ACS Earth and Space Chemistry以600 MHz一维及二维¹H/¹³C NMR重新表征核糖–硼酸体系，并用COSY、HSQC和DFT位移计算完成质子与碳信号归属。研究修订早期低场数据对2:1配合物的描述，指出均相2:1物种包含由螺环硼中心构型产生的非对映体对。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "600 MHz二维NMR重定核糖–硼酸2:1配合物结构；ACS Earth and Space Chemistry以600 MHz一维及二维¹H/¹³C NMR重新表征核糖–硼酸体系，并用COSY、HSQC和DFT位移计算完成质子与碳信号归属。研究修订早期低场数据对2:1配合物的描述，指出均相2:1物种包含由螺环硼中心构型产生的非对映体对。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "600 MHz二维NMR重定核糖–硼酸2:1配合物结构；ACS Earth and Space Chemistry以600 MHz一维及二维¹H/¹³C NMR重新表征核糖–硼酸体系，并用COSY、HSQC和DFT位移计算完成质子与碳信号归属。研究修订早期低场数据对2:1配合物的描述，指出均相2:1物种包含由螺环硼中心构型产生的非对映体对。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "600 MHz二维NMR重定核糖–硼酸2:1配合物结构；ACS Earth and Space Chemistry以600 MHz一维及二维¹H/¹³C NMR重新表征核糖–硼酸体系，并用COSY、HSQC和DFT位移计算完成质子与碳信号归属。研究修订早期低场数据对2:1配合物的描述，指出均相2:1物种包含由螺环硼中心构型产生的非对映体对。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "computation_nmr",
+          "dimension": "method_ids",
+          "basis": "600 MHz二维NMR重定核糖–硼酸2:1配合物结构；ACS Earth and Space Chemistry以600 MHz一维及二维¹H/¹³C NMR重新表征核糖–硼酸体系，并用COSY、HSQC和DFT位移计算完成质子与碳信号归属。研究修订早期低场数据对2:1配合物的描述，指出均相2:1物种包含由螺环硼中心构型产生的非对映体对。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "600 MHz二维NMR重定核糖–硼酸2:1配合物结构；ACS Earth and Space Chemistry以600 MHz一维及二维¹H/¹³C NMR重新表征核糖–硼酸体系，并用COSY、HSQC和DFT位移计算完成质子与碳信号归属。研究修订早期低场数据对2:1配合物的描述，指出均相2:1物种包含由螺环硼中心构型产生的非对映体对。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "600 MHz二维NMR重定核糖–硼酸2:1配合物结构",
+        "original_summary_cn": "ACS Earth and Space Chemistry以600 MHz一维及二维¹H/¹³C NMR重新表征核糖–硼酸体系，并用COSY、HSQC和DFT位移计算完成质子与碳信号归属。研究修订早期低场数据对2:1配合物的描述，指出均相2:1物种包含由螺环硼中心构型产生的非对映体对。",
+        "original_meaning_cn": "复现实验需严格控制核糖/硼酸比例、pH、浓度、温度及平衡时间，并记录600 MHz下的谱宽、数字分辨率与参照。COSY和HSQC归属应与DFT位移逐峰核对；若存在快速交换，需通过变温、浓度系列及时间序列区分真实独立物种与交换平均峰。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "计算NMR",
+          "化学结构解析",
+          "天然产物"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260909-08",
+      "report_date": "2026-09-09",
+      "item_no": 8,
+      "title_cn": "多核二维NMR解析生物基聚缩醛的链段微结构",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "multidimensional_nmr",
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "polymers"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Macromolecules报道levoglucosenol基聚缩醛的完整微结构分析，使用¹H、¹³C及多种二维NMR分辨烯烃复分解聚合后链段连接方式和局部构型，并把谱学归属与材料热行为联系起来。该工作把复杂生物基聚合物的峰组从经验指认转为多核相关谱约束。",
+      "meaning_cn": "聚合物归属需统一分子量分布、溶剂、浓度和温度，记录¹H/¹³C定量条件、TOCSY混合时间及异核相关谱参数。建议使用单体和低聚物作峰位对照，并将积分结果同端基分析、SEC和热分析配对；峰重叠区应报告拟合规则与可分辨的最低序列含量。",
+      "publication_date": "2026-09-03",
+      "time_scope": "7d_extension",
+      "source": "Macromolecules",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.macromol.6c01762",
+      "doi": "10.1021/acs.macromol.6c01762",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-09",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-09.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "聚合物",
+          "化学结构解析",
+          "材料与缺陷表征"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-09.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "多核二维NMR解析生物基聚缩醛的链段微结构；Macromolecules报道levoglucosenol基聚缩醛的完整微结构分析，使用¹H、¹³C及多种二维NMR分辨烯烃复分解聚合后链段连接方式和局部构型，并把谱学归属与材料热行为联系起来。该工作把复杂生物基聚合物的峰组从经验指认转为多核相关谱约束。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "多核二维NMR解析生物基聚缩醛的链段微结构；Macromolecules报道levoglucosenol基聚缩醛的完整微结构分析，使用¹H、¹³C及多种二维NMR分辨烯烃复分解聚合后链段连接方式和局部构型，并把谱学归属与材料热行为联系起来。该工作把复杂生物基聚合物的峰组从经验指认转为多核相关谱约束。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "多核二维NMR解析生物基聚缩醛的链段微结构；Macromolecules报道levoglucosenol基聚缩醛的完整微结构分析，使用¹H、¹³C及多种二维NMR分辨烯烃复分解聚合后链段连接方式和局部构型，并把谱学归属与材料热行为联系起来。该工作把复杂生物基聚合物的峰组从经验指认转为多核相关谱约束。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "polymers",
+          "dimension": "application_ids",
+          "basis": "多核二维NMR解析生物基聚缩醛的链段微结构；Macromolecules报道levoglucosenol基聚缩醛的完整微结构分析，使用¹H、¹³C及多种二维NMR分辨烯烃复分解聚合后链段连接方式和局部构型，并把谱学归属与材料热行为联系起来。该工作把复杂生物基聚合物的峰组从经验指认转为多核相关谱约束。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "多核二维NMR解析生物基聚缩醛的链段微结构",
+        "original_summary_cn": "Macromolecules报道levoglucosenol基聚缩醛的完整微结构分析，使用¹H、¹³C及多种二维NMR分辨烯烃复分解聚合后链段连接方式和局部构型，并把谱学归属与材料热行为联系起来。该工作把复杂生物基聚合物的峰组从经验指认转为多核相关谱约束。",
+        "original_meaning_cn": "聚合物归属需统一分子量分布、溶剂、浓度和温度，记录¹H/¹³C定量条件、TOCSY混合时间及异核相关谱参数。建议使用单体和低聚物作峰位对照，并将积分结果同端基分析、SEC和热分析配对；峰重叠区应报告拟合规则与可分辨的最低序列含量。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "聚合物",
+          "化学结构解析",
+          "材料与缺陷表征"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "常规检索在过去24小时内所得合格新增少于5条，首轮增强搜索扩展至近7天后仍少于8条，已继续执行第二级深度增强检索，并在首轮结果后再次逐站复核。检索完整回扫2026年9月2日至8日，覆盖专业期刊上线页、预印本与文献元数据、仪器厂商、专业会议及中外采购公告，并按液体NMR、固体NMR/MAS/DNP、低场与TD-NMR、NMR计算与谱图处理、CW与rapid-scan EPR、脉冲EPR/DEER/ENDOR/ESEEM/HYSCORE、TREPR、operando/EC-EPR及仪器部件逐组检索。本期最终收录8条：2条为2026年9月8日发布的近24小时信息，6条为9月3日至7日的近7天扩展。结合最近7期正文与项目索引查重，排除12条既有记录；另排除18条日期无法独立确认、常驻产品页、缩写误检、卷期更新或仅将NMR/EPR作为辅助表征的候选。最终不足10条主要来自近7天既有条目覆盖较多、部分平台索引延迟及候选日期不可核验。待复核标签：气相机器学习原子间势、Rb–Xe核自旋磁力计、反应型化学位移工程与浓缩葡萄汁暂保留在样品体系和正文中，未创建新的正式ID。",
+    "source_sha256": "a5608dec79697b90b523b3efa85d4c81f6e4583acb85964bdc1535e94e9b43b3",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

@@ -1,0 +1,1068 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-08-20",
+  "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260820-01",
+      "report_date": "2026-08-20",
+      "item_no": 1,
+      "title_cn": "Paramagnetic NMR解析S＝1平面Ru(II)配合物",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "paramagnetic_nmr",
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究考察带咔唑PNP钳形配体的Ru(II)卤化物。这类配合物具有S＝1中间自旋基态，常规NMR信号会因顺磁位移、弛豫和谱线展宽而难以解释。作者结合多核NMR、结构与磁性数据，讨论与金属直接成键核的谱峰归属及电子结构关系。",
+      "meaning_cn": "S=1配合物的顺磁位移与快速横向弛豫可能使常规谱宽、接收死时间和积分窗遗漏宽峰。采集条件需覆盖异常位移范围，并比较不同温度下的位移与线宽变化；峰未出现不能直接解释为对应核不存在。结构归属还需结合多核结果及磁性数据，避免仅按抗磁配合物的位移区间指认。",
+      "publication_date": "2026-08-19",
+      "time_scope": "24h",
+      "source": "Chemical Science",
+      "url": "https://doi.org/10.1039/D6SC04475A",
+      "doi": "10.1039/d6sc04475a",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-20",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-20.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR + EPR",
+          "连续波EPR",
+          "溶液NMR",
+          "多核NMR",
+          "顺磁NMR",
+          "化学结构解析",
+          "无机与配位化学"
+        ],
+        "original_type": "连续波EPR / 溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-20.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "Paramagnetic NMR解析S＝1平面Ru(II)配合物；研究考察带咔唑PNP钳形配体的Ru(II)卤化物。这类配合物具有S＝1中间自旋基态，常规NMR信号会因顺磁位移、弛豫和谱线展宽而难以解释。作者结合多核NMR、结构与磁性数据，讨论与金属直接成键核的谱峰归属及电子结构关系。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "Paramagnetic NMR解析S＝1平面Ru(II)配合物；研究考察带咔唑PNP钳形配体的Ru(II)卤化物。这类配合物具有S＝1中间自旋基态，常规NMR信号会因顺磁位移、弛豫和谱线展宽而难以解释。作者结合多核NMR、结构与磁性数据，讨论与金属直接成键核的谱峰归属及电子结构关系。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "paramagnetic_nmr",
+          "dimension": "method_ids",
+          "basis": "Paramagnetic NMR解析S＝1平面Ru(II)配合物；研究考察带咔唑PNP钳形配体的Ru(II)卤化物。这类配合物具有S＝1中间自旋基态，常规NMR信号会因顺磁位移、弛豫和谱线展宽而难以解释。作者结合多核NMR、结构与磁性数据，讨论与金属直接成键核的谱峰归属及电子结构关系。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "Paramagnetic NMR解析S＝1平面Ru(II)配合物；研究考察带咔唑PNP钳形配体的Ru(II)卤化物。这类配合物具有S＝1中间自旋基态，常规NMR信号会因顺磁位移、弛豫和谱线展宽而难以解释。作者结合多核NMR、结构与磁性数据，讨论与金属直接成键核的谱峰归属及电子结构关系。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "inorganic_coordination",
+          "dimension": "application_ids",
+          "basis": "Paramagnetic NMR解析S＝1平面Ru(II)配合物；研究考察带咔唑PNP钳形配体的Ru(II)卤化物。这类配合物具有S＝1中间自旋基态，常规NMR信号会因顺磁位移、弛豫和谱线展宽而难以解释。作者结合多核NMR、结构与磁性数据，讨论与金属直接成键核的谱峰归属及电子结构关系。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Paramagnetic NMR解析S＝1平面Ru(II)配合物",
+        "original_summary_cn": "研究考察带咔唑PNP钳形配体的Ru(II)卤化物。这类配合物具有S＝1中间自旋基态，常规NMR信号会因顺磁位移、弛豫和谱线展宽而难以解释。作者结合多核NMR、结构与磁性数据，讨论与金属直接成键核的谱峰归属及电子结构关系。",
+        "original_meaning_cn": "可作为顺磁配合物NMR实验设计参考，涉及宽谱宽采集、短弛豫参数、温度控制及异常化学位移分析。",
+        "original_tags": [
+          "NMR + EPR",
+          "连续波EPR",
+          "溶液NMR",
+          "多核NMR",
+          "顺磁NMR",
+          "化学结构解析",
+          "无机与配位化学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260820-02",
+      "report_date": "2026-08-20",
+      "item_no": 2,
+      "title_cn": "⁷Li NMR与EPR揭示Li₄Ti₅O₁₂“休眠”扩散通道",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "defect_epr"
+      ],
+      "application_ids": [
+        "battery"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究通过真空处理改变Li₄Ti₅O₁₂中的局部缺陷状态，并联合锂核NMR与EPR分析离子运动和电子缺陷。⁷Li NMR显示原本局限于局部位点的跳跃转变为长程迁移；EPR用于辨认与处理过程相关的顺磁中心，连接微观缺陷与宏观离子传导。",
+      "meaning_cn": "适合面向电池客户配置变温固体NMR、弛豫或交换实验，并将EPR缺陷定量纳入同一材料分析方案。",
+      "publication_date": "2026-08-19",
+      "time_scope": "24h",
+      "source": "Science Advances",
+      "url": "https://www.science.org/doi/10.1126/sciadv.aef5575",
+      "doi": "10.1126/sciadv.aef5575",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-20",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-20.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR + EPR",
+          "连续波EPR",
+          "固体NMR",
+          "缺陷EPR",
+          "电化学与能源",
+          "电池",
+          "材料与缺陷表征"
+        ],
+        "original_type": "连续波EPR / 固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-20.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "⁷Li NMR与EPR揭示Li₄Ti₅O₁₂“休眠”扩散通道；研究通过真空处理改变Li₄Ti₅O₁₂中的局部缺陷状态，并联合锂核NMR与EPR分析离子运动和电子缺陷。⁷Li NMR显示原本局限于局部位点的跳跃转变为长程迁移；EPR用于辨认与处理过程相关的顺磁中心，连接微观缺陷与宏观离子传导。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "⁷Li NMR与EPR揭示Li₄Ti₅O₁₂“休眠”扩散通道；研究通过真空处理改变Li₄Ti₅O₁₂中的局部缺陷状态，并联合锂核NMR与EPR分析离子运动和电子缺陷。⁷Li NMR显示原本局限于局部位点的跳跃转变为长程迁移；EPR用于辨认与处理过程相关的顺磁中心，连接微观缺陷与宏观离子传导。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "defect_epr",
+          "dimension": "method_ids",
+          "basis": "⁷Li NMR与EPR揭示Li₄Ti₅O₁₂“休眠”扩散通道；研究通过真空处理改变Li₄Ti₅O₁₂中的局部缺陷状态，并联合锂核NMR与EPR分析离子运动和电子缺陷。⁷Li NMR显示原本局限于局部位点的跳跃转变为长程迁移；EPR用于辨认与处理过程相关的顺磁中心，连接微观缺陷与宏观离子传导。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "battery",
+          "dimension": "application_ids",
+          "basis": "⁷Li NMR与EPR揭示Li₄Ti₅O₁₂“休眠”扩散通道；研究通过真空处理改变Li₄Ti₅O₁₂中的局部缺陷状态，并联合锂核NMR与EPR分析离子运动和电子缺陷。⁷Li NMR显示原本局限于局部位点的跳跃转变为长程迁移；EPR用于辨认与处理过程相关的顺磁中心，连接微观缺陷与宏观离子传导。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "7 Li NMR与EPR揭示Li₄Ti₅O₁₂“休眠”扩散通道",
+        "original_summary_cn": "研究通过真空处理改变Li₄Ti₅O₁₂中的局部缺陷状态，并联合锂核NMR与EPR分析离子运动和电子缺陷。 7 Li NMR显示原本局限于局部位点的跳跃转变为长程迁移；EPR用于辨认与处理过程相关的顺磁中心，连接微观缺陷与宏观离子传导。",
+        "original_meaning_cn": "适合面向电池客户配置变温固体NMR、弛豫或交换实验，并将EPR缺陷定量纳入同一材料分析方案。",
+        "original_tags": [
+          "NMR + EPR",
+          "连续波EPR",
+          "固体NMR",
+          "缺陷EPR",
+          "电化学与能源",
+          "电池",
+          "材料与缺陷表征"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260820-03",
+      "report_date": "2026-08-20",
+      "item_no": 3,
+      "title_cn": "EPR直接追踪肠道菌产生的DNIC铁—亚硝酰复合物",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Cell论文发现，肠道微生物可把无机硝酸盐和非血红素铁转化为可迁移的二亚硝酰铁复合物（DNIC）。研究在普通小鼠肝脏、肾脏等组织检测到相应EPR信号，而无菌动物中缺失；补充实验进一步区分单体、二聚体及硫醇配位状态。",
+      "meaning_cn": "展示EPR从粪便、组织到细菌培养物的跨样品应用，方案需重视低温保存、组织背景信号和DNIC标准物校准。",
+      "publication_date": "2026-08-19",
+      "time_scope": "24h",
+      "source": "Cell",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0092867426009244",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-20",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-20.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "生命科学",
+          "微生物与肠脑轴"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-20.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "EPR直接追踪肠道菌产生的DNIC铁—亚硝酰复合物；Cell论文发现，肠道微生物可把无机硝酸盐和非血红素铁转化为可迁移的二亚硝酰铁复合物（DNIC）。研究在普通小鼠肝脏、肾脏等组织检测到相应EPR信号，而无菌动物中缺失；补充实验进一步区分单体、二聚体及硫醇配位状态。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "life_science",
+          "dimension": "application_ids",
+          "basis": "EPR直接追踪肠道菌产生的DNIC铁—亚硝酰复合物；Cell论文发现，肠道微生物可把无机硝酸盐和非血红素铁转化为可迁移的二亚硝酰铁复合物（DNIC）。研究在普通小鼠肝脏、肾脏等组织检测到相应EPR信号，而无菌动物中缺失；补充实验进一步区分单体、二聚体及硫醇配位状态。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "EPR直接追踪肠道菌产生的DNIC铁—亚硝酰复合物",
+        "original_summary_cn": "Cell论文发现，肠道微生物可把无机硝酸盐和非血红素铁转化为可迁移的二亚硝酰铁复合物（DNIC）。研究在普通小鼠肝脏、肾脏等组织检测到相应EPR信号，而无菌动物中缺失；补充实验进一步区分单体、二聚体及硫醇配位状态。",
+        "original_meaning_cn": "展示EPR从粪便、组织到细菌培养物的跨样品应用，方案需重视低温保存、组织背景信号和DNIC标准物校准。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "生命科学",
+          "微生物与肠脑轴"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260820-04",
+      "report_date": "2026-08-20",
+      "item_no": 4,
+      "title_cn": "TD-NMR无损判定大麦发芽能力",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [
+        "cpmg",
+        "relaxometry"
+      ],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究使用11 MHz、0.12 T TD-NMR和CPMG序列分析工业来源的大麦样品，以T₂反映水分区隔和细胞膜完整性。116个样品的PLS模型获得R²＝0.8193，TD-NMR与四唑染色法平均偏差为−0.44个百分点，且未观察到有分析意义的系统偏差。",
+      "meaning_cn": "CPMG得到的T₂分布同时受到含水量、温度和回波间隔影响，发芽能力模型需在这些条件一致时评价。R²=0.8193与平均偏差−0.44个百分点不能单独代表单样品预测误差；方法迁移需检查独立批次的预测误差及残差分布，并覆盖不同品种、含水量和储藏条件。",
+      "publication_date": "2026-08-20",
+      "time_scope": "24h",
+      "source": "Journal of Food Measurement and Characterization",
+      "url": "https://link.springer.com/article/10.1007/s11694-026-04854-1",
+      "doi": "10.1007/s11694-026-04854-1",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-20",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-20.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "时域/低场NMR",
+          "食品与农业"
+        ],
+        "original_type": "时域/低场NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-20.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "TD-NMR无损判定大麦发芽能力；研究使用11 MHz、0.12 T TD-NMR和CPMG序列分析工业来源的大麦样品，以T₂反映水分区隔和细胞膜完整性。116个样品的PLS模型获得R²＝0.8193，TD-NMR与四唑染色法平均偏差为−0.44个百分点，且未观察到有分析意义的系统偏差。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "td_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "TD-NMR无损判定大麦发芽能力；研究使用11 MHz、0.12 T TD-NMR和CPMG序列分析工业来源的大麦样品，以T₂反映水分区隔和细胞膜完整性。116个样品的PLS模型获得R²＝0.8193，TD-NMR与四唑染色法平均偏差为−0.44个百分点，且未观察到有分析意义的系统偏差。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "cpmg",
+          "dimension": "method_ids",
+          "basis": "TD-NMR无损判定大麦发芽能力；研究使用11 MHz、0.12 T TD-NMR和CPMG序列分析工业来源的大麦样品，以T₂反映水分区隔和细胞膜完整性。116个样品的PLS模型获得R²＝0.8193，TD-NMR与四唑染色法平均偏差为−0.44个百分点，且未观察到有分析意义的系统偏差。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "TD-NMR无损判定大麦发芽能力；研究使用11 MHz、0.12 T TD-NMR和CPMG序列分析工业来源的大麦样品，以T₂反映水分区隔和细胞膜完整性。116个样品的PLS模型获得R²＝0.8193，TD-NMR与四唑染色法平均偏差为−0.44个百分点，且未观察到有分析意义的系统偏差。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "food_agriculture",
+          "dimension": "application_ids",
+          "basis": "TD-NMR无损判定大麦发芽能力；研究使用11 MHz、0.12 T TD-NMR和CPMG序列分析工业来源的大麦样品，以T₂反映水分区隔和细胞膜完整性。116个样品的PLS模型获得R²＝0.8193，TD-NMR与四唑染色法平均偏差为−0.44个百分点，且未观察到有分析意义的系统偏差。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "TD-NMR无损判定大麦发芽能力",
+        "original_summary_cn": "研究使用11 MHz、0.12 T TD-NMR和CPMG序列分析工业来源的大麦样品，以T₂反映水分区隔和细胞膜完整性。116个样品的PLS模型获得R²＝0.8193，TD-NMR与四唑染色法平均偏差为−0.44个百分点，且未观察到有分析意义的系统偏差。",
+        "original_meaning_cn": "给出了磁场、样品管、温度、回波间隔及3000回波等完整条件，可直接用于低场NMR粮食质控方案核算。",
+        "original_tags": [
+          "NMR",
+          "时域/低场NMR",
+          "食品与农业"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260820-05",
+      "report_date": "2026-08-20",
+      "item_no": 5,
+      "title_cn": "九线超精细分裂用于Cu–N₄位点归属",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "photocatalysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究构建Cu@f-g-C₃N₄无贵金属光催化剂，用于选择性N-去甲基和N-脱烷基反应。EPR观察到Cu²⁺电子与四个等价¹⁴N核耦合形成的九线超精细分裂，作为Cu–N₄孤立位点归属依据；原位EPR与捕获实验还用于判断自由基氧化路径。",
+      "meaning_cn": "四个等价I=1的¹⁴N核在简化一阶模型中可产生九线分裂，但九线外观本身不足以独立确定Cu–N₄结构。归属需检查等价性、线强度与全谱拟合，并结合铜核超精细耦合及独立结构表征；重叠组分和各向异性也可能改变可见线数。光反应中间体的判断应与照光、暗条件及无催化剂对照分开验证。",
+      "publication_date": "2026-08-19",
+      "time_scope": "24h",
+      "source": "Nature Communications",
+      "url": "https://www.nature.com/articles/s41467-026-76282-0",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-20",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-20.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "工况/在线EPR",
+          "催化",
+          "光催化",
+          "无机与配位化学"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-20.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "九线超精细分裂用于Cu–N₄位点归属；研究构建Cu@f-g-C₃N₄无贵金属光催化剂，用于选择性N-去甲基和N-脱烷基反应。EPR观察到Cu²⁺电子与四个等价¹⁴N核耦合形成的九线超精细分裂，作为Cu–N₄孤立位点归属依据；原位EPR与捕获实验还用于判断自由基氧化路径。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "photocatalysis",
+          "dimension": "application_ids",
+          "basis": "九线超精细分裂用于Cu–N₄位点归属；研究构建Cu@f-g-C₃N₄无贵金属光催化剂，用于选择性N-去甲基和N-脱烷基反应。EPR观察到Cu²⁺电子与四个等价¹⁴N核耦合形成的九线超精细分裂，作为Cu–N₄孤立位点归属依据；原位EPR与捕获实验还用于判断自由基氧化路径。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "九线超精细分裂确认Cu–N₄单原子位点",
+        "original_summary_cn": "研究构建Cu@f-g-C₃N₄无贵金属光催化剂，用于选择性N-去甲基和N-脱烷基反应。EPR观察到Cu²⁺电子与四个等价 14 N核耦合形成的九线超精细分裂，确认Cu–N₄孤立位点；原位EPR与捕获实验还用于判断自由基氧化路径。",
+        "original_meaning_cn": "适合展示CW-EPR对单原子配位数、位点均一性及光反应中间体的双重分析能力，样品原位照光附件值得关注。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "工况/在线EPR",
+          "催化",
+          "光催化",
+          "无机与配位化学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260820-06",
+      "report_date": "2026-08-20",
+      "item_no": 6,
+      "title_cn": "¹H/ ³¹P qNMR定量肺炎球菌细胞壁多糖",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "qnmr",
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "论文建立¹H和³¹P联合定量NMR方法，用于测定纯化肺炎球菌荚膜多糖中的细胞壁多糖。质子通道提供较高信号响应，磷通道针对磷酸化结构进行选择性确认；两种核素结果可互相核验，减少复杂多糖峰重叠造成的定量偏差。",
+      "meaning_cn": "可形成疫苗多糖QC方案，重点配置反门控去耦、足够弛豫延迟、磷核探头性能及合适内标。",
+      "publication_date": "2026-08-18",
+      "time_scope": "7d_extension",
+      "source": "ACS Omega",
+      "url": "https://doi.org/10.1021/acsomega.6c06554",
+      "doi": "10.1021/acsomega.6c06554",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-20",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-20.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "定量NMR",
+          "多核NMR",
+          "生命科学",
+          "药物与质量分析",
+          "化学结构解析"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-20.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "¹H/ ³¹P qNMR定量肺炎球菌细胞壁多糖；论文建立¹H和³¹P联合定量NMR方法，用于测定纯化肺炎球菌荚膜多糖中的细胞壁多糖。质子通道提供较高信号响应，磷通道针对磷酸化结构进行选择性确认；两种核素结果可互相核验，减少复杂多糖峰重叠造成的定量偏差。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "¹H/ ³¹P qNMR定量肺炎球菌细胞壁多糖；论文建立¹H和³¹P联合定量NMR方法，用于测定纯化肺炎球菌荚膜多糖中的细胞壁多糖。质子通道提供较高信号响应，磷通道针对磷酸化结构进行选择性确认；两种核素结果可互相核验，减少复杂多糖峰重叠造成的定量偏差。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "qnmr",
+          "dimension": "method_ids",
+          "basis": "¹H/ ³¹P qNMR定量肺炎球菌细胞壁多糖；论文建立¹H和³¹P联合定量NMR方法，用于测定纯化肺炎球菌荚膜多糖中的细胞壁多糖。质子通道提供较高信号响应，磷通道针对磷酸化结构进行选择性确认；两种核素结果可互相核验，减少复杂多糖峰重叠造成的定量偏差。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "¹H/ ³¹P qNMR定量肺炎球菌细胞壁多糖；论文建立¹H和³¹P联合定量NMR方法，用于测定纯化肺炎球菌荚膜多糖中的细胞壁多糖。质子通道提供较高信号响应，磷通道针对磷酸化结构进行选择性确认；两种核素结果可互相核验，减少复杂多糖峰重叠造成的定量偏差。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "life_science",
+          "dimension": "application_ids",
+          "basis": "¹H/ ³¹P qNMR定量肺炎球菌细胞壁多糖；论文建立¹H和³¹P联合定量NMR方法，用于测定纯化肺炎球菌荚膜多糖中的细胞壁多糖。质子通道提供较高信号响应，磷通道针对磷酸化结构进行选择性确认；两种核素结果可互相核验，减少复杂多糖峰重叠造成的定量偏差。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "1 H/ 31 P qNMR定量肺炎球菌细胞壁多糖",
+        "original_summary_cn": "论文建立 1 H和 31 P联合定量NMR方法，用于测定纯化肺炎球菌荚膜多糖中的细胞壁多糖。质子通道提供较高信号响应，磷通道针对磷酸化结构进行选择性确认；两种核素结果可互相核验，减少复杂多糖峰重叠造成的定量偏差。",
+        "original_meaning_cn": "可形成疫苗多糖QC方案，重点配置反门控去耦、足够弛豫延迟、磷核探头性能及合适内标。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "定量NMR",
+          "多核NMR",
+          "生命科学",
+          "药物与质量分析",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260820-07",
+      "report_date": "2026-08-20",
+      "item_no": 7,
+      "title_cn": "X/Q-band EPR分析Eu配合物多氧化态电子结构",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究比较同一铕联吡啶配合物的Eu(III)、Eu(II)和形式Eu(0)状态。X-band与Q-band EPR结合磁圆二色和磁线二色数据，判断Eu(II)近零的零场分裂；形式Eu(0)样品则被归属为Eu(II)中心与两个配体自由基共存的氧化还原非惰性结构。",
+      "meaning_cn": "说明双频EPR在区分金属中心自旋、配体自由基和零场分裂方面的价值，适合稀土与分子磁体客户交流。",
+      "publication_date": "2026-08-18",
+      "time_scope": "7d_extension",
+      "source": "Inorganic Chemistry",
+      "url": "https://doi.org/10.1021/acs.inorgchem.6c02413",
+      "doi": "10.1021/acs.inorgchem.6c02413",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-20",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-20.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "化学结构解析",
+          "无机与配位化学"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-20.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "X/Q-band EPR分析Eu配合物多氧化态电子结构；研究比较同一铕联吡啶配合物的Eu(III)、Eu(II)和形式Eu(0)状态。X-band与Q-band EPR结合磁圆二色和磁线二色数据，判断Eu(II)近零的零场分裂；形式Eu(0)样品则被归属为Eu(II)中心与两个配体自由基共存的氧化还原非惰性结构。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "inorganic_coordination",
+          "dimension": "application_ids",
+          "basis": "X/Q-band EPR分析Eu配合物多氧化态电子结构；研究比较同一铕联吡啶配合物的Eu(III)、Eu(II)和形式Eu(0)状态。X-band与Q-band EPR结合磁圆二色和磁线二色数据，判断Eu(II)近零的零场分裂；形式Eu(0)样品则被归属为Eu(II)中心与两个配体自由基共存的氧化还原非惰性结构。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "X/Q-band EPR分析Eu配合物多氧化态电子结构",
+        "original_summary_cn": "研究比较同一铕联吡啶配合物的Eu(III)、Eu(II)和形式Eu(0)状态。X-band与Q-band EPR结合磁圆二色和磁线二色数据，判断Eu(II)近零的零场分裂；形式Eu(0)样品则被归属为Eu(II)中心与两个配体自由基共存的氧化还原非惰性结构。",
+        "original_meaning_cn": "说明双频EPR在区分金属中心自旋、配体自由基和零场分裂方面的价值，适合稀土与分子磁体客户交流。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "化学结构解析",
+          "无机与配位化学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260820-08",
+      "report_date": "2026-08-20",
+      "item_no": 8,
+      "title_cn": "原位EPR区分PMS活化中的自由基与单线态氧",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "environmental_catalysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "MOF衍生CoFe₂O₄/Ni@C复合材料被用于活化过一硫酸盐并降解四环素。淬灭实验和原位EPR确认SO₄•⁻、•OH及¹O₂同时参与反应，表明体系包含自由基和非自由基通道；多孔结构及金属位点共同影响活性物种生成。",
+      "meaning_cn": "DMPO或TEMP体系的信号受捕获剂反应、加合物稳定性及取样延迟影响，峰强不能直接当作活性物种生成速率。反应比较需统一捕获剂浓度、溶剂、反应时间和采集参数。TEMP氧化产生的信号还可能存在其他氧化途径，单线态氧归属需结合选择性对照及独立测量。",
+      "publication_date": "2026-08-20",
+      "time_scope": "24h",
+      "source": "RSC Advances",
+      "url": "https://doi.org/10.1039/D6RA04311A",
+      "doi": "10.1039/d6ra04311a",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-20",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-20.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "自旋捕获",
+          "工况/在线EPR",
+          "催化",
+          "环境催化",
+          "环境与污染控制",
+          "材料与缺陷表征",
+          "化学结构解析"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-20.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "原位EPR区分PMS活化中的自由基与单线态氧；MOF衍生CoFe₂O₄/Ni@C复合材料被用于活化过一硫酸盐并降解四环素。淬灭实验和原位EPR确认SO₄•⁻、•OH及¹O₂同时参与反应，表明体系包含自由基和非自由基通道；多孔结构及金属位点共同影响活性物种生成。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "environmental_catalysis",
+          "dimension": "application_ids",
+          "basis": "原位EPR区分PMS活化中的自由基与单线态氧；MOF衍生CoFe₂O₄/Ni@C复合材料被用于活化过一硫酸盐并降解四环素。淬灭实验和原位EPR确认SO₄•⁻、•OH及¹O₂同时参与反应，表明体系包含自由基和非自由基通道；多孔结构及金属位点共同影响活性物种生成。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "原位EPR区分PMS活化中的自由基与单线态氧",
+        "original_summary_cn": "MOF衍生CoFe₂O₄/Ni@C复合材料被用于活化过一硫酸盐并降解四环素。淬灭实验和原位EPR确认SO₄•⁻、•OH及 1 O₂同时参与反应，表明体系包含自由基和非自由基通道；多孔结构及金属位点共同影响活性物种生成。",
+        "original_meaning_cn": "对环境催化EPR方案而言，应同时准备DMPO、TEMP等捕获体系，并规定进样、照射和反应后的时间延迟。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "自旋捕获",
+          "工况/在线EPR",
+          "催化",
+          "环境催化",
+          "环境与污染控制",
+          "材料与缺陷表征",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260820-09",
+      "report_date": "2026-08-20",
+      "item_no": 9,
+      "title_cn": "CSIR-IIP发布400 MHz NMR采购动态",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "procurement"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "tender",
+      "summary_cn": "印度CSIR–Indian Institute of Petroleum官网列出400 MHz核磁共振仪项目，编号GEM/2026/B/7821064，对应内部采购号IIP/PUR/1/26-27/301428/NMR/PO。官方页面在8月20日更新，并将当日列为该项目投标截止日期。",
+      "meaning_cn": "400 MHz只限定名义场强，不能据此推断采购方的具体应用及探头配置。配置评价应依据招标文件中检测核种、灵敏度测试条件、变温范围、自动进样和验收要求。页面更新日及投标截止日需与公告发布日期分别保存，截止日期不用于判定新闻发布时间。",
+      "publication_date": "2026-08-20",
+      "time_scope": "24h",
+      "source": "CSIR–Indian Institute of Petroleum",
+      "url": "https://www.iip.res.in/tenders/",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-20",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-20.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "无机与配位化学",
+          "仪器、软件与方法",
+          "采购与行业"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-20.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "CSIR-IIP发布400 MHz NMR采购动态；印度CSIR–Indian Institute of Petroleum官网列出400 MHz核磁共振仪项目，编号GEM/2026/B/7821064，对应内部采购号IIP/PUR/1/26-27/301428/NMR/PO。官方页面在8月20日更新，并将当日列为该项目投标截止日期。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "procurement",
+          "dimension": "application_ids",
+          "basis": "CSIR-IIP发布400 MHz NMR采购动态；印度CSIR–Indian Institute of Petroleum官网列出400 MHz核磁共振仪项目，编号GEM/2026/B/7821064，对应内部采购号IIP/PUR/1/26-27/301428/NMR/PO。官方页面在8月20日更新，并将当日列为该项目投标截止日期。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "CSIR-IIP发布400 MHz NMR采购动态",
+        "original_summary_cn": "印度CSIR–Indian Institute of Petroleum官网列出400 MHz核磁共振仪项目，编号GEM/2026/B/7821064，对应内部采购号IIP/PUR/1/26-27/301428/NMR/PO。官方页面在8月20日更新，并将当日列为该项目投标截止日期。",
+        "original_meaning_cn": "石油研究机构的400 MHz需求通常涉及烃类组成、杂原子化合物和定量分析；后续可关注探头类型、自动进样、变温及行业数据库要求。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "无机与配位化学",
+          "仪器、软件与方法",
+          "采购与行业"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260820-10",
+      "report_date": "2026-08-20",
+      "item_no": 10,
+      "title_cn": "Bruker印度Pharma Roadshow聚焦NMR药物QC",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "benchtop_nmr",
+        "solid_state_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "pharma",
+        "education_training"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "Bruker在Indore举行制药专题活动，议程覆盖肽类表征、TIDES结构分析、生物药高阶结构、80 MHz台式NMR及售后产品。系列活动还介绍NOAH超序列、多接收机检测、超快速方法、固体NMR，以及数据完整性和杂质分析工作流程。",
+      "meaning_cn": "反映制药客户正同时考虑高场、台式与固体NMR；方案交流可按研发、降解物鉴定、生物药可比性和常规QC分层配置。",
+      "publication_date": "2026-08-20",
+      "time_scope": "24h",
+      "source": "Bruker Pharma Roadshow 2026",
+      "url": "https://www.bruker.com/en/news-and-events/events/indian-pharma-roadshow.html",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-20",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-20.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "台式NMR",
+          "环境催化",
+          "药物与质量分析",
+          "化学结构解析",
+          "仪器、软件与方法",
+          "采购与行业",
+          "培训与会议"
+        ],
+        "original_type": "台式NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-20.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "Bruker印度Pharma Roadshow聚焦NMR药物QC；Bruker在Indore举行制药专题活动，议程覆盖肽类表征、TIDES结构分析、生物药高阶结构、80 MHz台式NMR及售后产品。系列活动还介绍NOAH超序列、多接收机检测、超快速方法、固体NMR，以及数据完整性和杂质分析工作流程。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "benchtop_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "Bruker印度Pharma Roadshow聚焦NMR药物QC；Bruker在Indore举行制药专题活动，议程覆盖肽类表征、TIDES结构分析、生物药高阶结构、80 MHz台式NMR及售后产品。系列活动还介绍NOAH超序列、多接收机检测、超快速方法、固体NMR，以及数据完整性和杂质分析工作流程。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "Bruker印度Pharma Roadshow聚焦NMR药物QC；Bruker在Indore举行制药专题活动，议程覆盖肽类表征、TIDES结构分析、生物药高阶结构、80 MHz台式NMR及售后产品。系列活动还介绍NOAH超序列、多接收机检测、超快速方法、固体NMR，以及数据完整性和杂质分析工作流程。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pharma",
+          "dimension": "application_ids",
+          "basis": "Bruker印度Pharma Roadshow聚焦NMR药物QC；Bruker在Indore举行制药专题活动，议程覆盖肽类表征、TIDES结构分析、生物药高阶结构、80 MHz台式NMR及售后产品。系列活动还介绍NOAH超序列、多接收机检测、超快速方法、固体NMR，以及数据完整性和杂质分析工作流程。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "Bruker印度Pharma Roadshow聚焦NMR药物QC；Bruker在Indore举行制药专题活动，议程覆盖肽类表征、TIDES结构分析、生物药高阶结构、80 MHz台式NMR及售后产品。系列活动还介绍NOAH超序列、多接收机检测、超快速方法、固体NMR，以及数据完整性和杂质分析工作流程。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Bruker印度Pharma Roadshow聚焦NMR药物QC",
+        "original_summary_cn": "Bruker在Indore举行制药专题活动，议程覆盖肽类表征、TIDES结构分析、生物药高阶结构、80 MHz台式NMR及售后产品。系列活动还介绍NOAH超序列、多接收机检测、超快速方法、固体NMR，以及数据完整性和杂质分析工作流程。",
+        "original_meaning_cn": "反映制药客户正同时考虑高场、台式与固体NMR；方案交流可按研发、降解物鉴定、生物药可比性和常规QC分层配置。",
+        "original_tags": [
+          "NMR",
+          "台式NMR",
+          "环境催化",
+          "药物与质量分析",
+          "化学结构解析",
+          "仪器、软件与方法",
+          "采购与行业",
+          "培训与会议"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "本期共10条：8条来自过去24小时，2条为近7天扩展；已按历史索引执行去重。",
+    "source_sha256": "e3ba711c9999535950da761b40407b1913ed904d48ab9d54d1527a537ab6719a",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

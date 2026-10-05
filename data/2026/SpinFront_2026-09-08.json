@@ -1,0 +1,558 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-08",
+  "scope_note": "本期收录5条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260908-01",
+      "report_date": "2026-09-08",
+      "item_no": 1,
+      "title_cn": "AnthraPol在14.1 T实现约16%的¹³C光致超极化",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "mas",
+        "photo_cidnp"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Angewandte Chemie报道为固体photo-CIDNP设计的供体–受体分子AnthraPol。在14.1 T MAS NMR中，其稳态¹³C信号增强最高约−4500倍，对应约16%核极化；磁场依赖实验与数值模拟说明电子–电子耦合及光循环参数共同决定高场极化效率，表现约为CarboPol的三倍。",
+      "meaning_cn": "复现实验需记录磁场、MAS转速、样品温度、光源波长与功率、照射几何、极化建立时间及循环延迟，并以暗态热平衡谱校准增强倍数。材料筛选应同步测定瞬态自由基对寿命、g值与电子耦合；向主体样品传递时还要评估¹³C–¹³C自旋扩散在MAS下受抑制的程度。",
+      "publication_date": "2026-09-07",
+      "time_scope": "24h",
+      "source": "Angewandte Chemie International Edition",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/anie.7711870",
+      "doi": "10.1002/anie.7711870",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-08",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-08.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR + EPR",
+          "固体NMR",
+          "多核NMR",
+          "计算NMR",
+          "材料与缺陷表征",
+          "化学结构解析",
+          "仪器、软件与方法"
+        ],
+        "original_type": "固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-08.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "AnthraPol在14.1 T实现约16%的¹³C光致超极化；Angewandte Chemie报道为固体photo-CIDNP设计的供体–受体分子AnthraPol。在14.1 T MAS NMR中，其稳态¹³C信号增强最高约−4500倍，对应约16%核极化；磁场依赖实验与数值模拟说明电子–电子耦合及光循环参数共同决定高场极化效率，表现约为CarboPol的三倍。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "AnthraPol在14.1 T实现约16%的¹³C光致超极化；Angewandte Chemie报道为固体photo-CIDNP设计的供体–受体分子AnthraPol。在14.1 T MAS NMR中，其稳态¹³C信号增强最高约−4500倍，对应约16%核极化；磁场依赖实验与数值模拟说明电子–电子耦合及光循环参数共同决定高场极化效率，表现约为CarboPol的三倍。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "mas",
+          "dimension": "method_ids",
+          "basis": "AnthraPol在14.1 T实现约16%的¹³C光致超极化；Angewandte Chemie报道为固体photo-CIDNP设计的供体–受体分子AnthraPol。在14.1 T MAS NMR中，其稳态¹³C信号增强最高约−4500倍，对应约16%核极化；磁场依赖实验与数值模拟说明电子–电子耦合及光循环参数共同决定高场极化效率，表现约为CarboPol的三倍。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "photo_cidnp",
+          "dimension": "method_ids",
+          "basis": "AnthraPol在14.1 T实现约16%的¹³C光致超极化；Angewandte Chemie报道为固体photo-CIDNP设计的供体–受体分子AnthraPol。在14.1 T MAS NMR中，其稳态¹³C信号增强最高约−4500倍，对应约16%核极化；磁场依赖实验与数值模拟说明电子–电子耦合及光循环参数共同决定高场极化效率，表现约为CarboPol的三倍。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "AnthraPol在14.1 T实现约16%的¹³C光致超极化；Angewandte Chemie报道为固体photo-CIDNP设计的供体–受体分子AnthraPol。在14.1 T MAS NMR中，其稳态¹³C信号增强最高约−4500倍，对应约16%核极化；磁场依赖实验与数值模拟说明电子–电子耦合及光循环参数共同决定高场极化效率，表现约为CarboPol的三倍。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "AnthraPol在14.1 T实现约16%的¹³C光致超极化",
+        "original_summary_cn": "Angewandte Chemie报道为固体photo-CIDNP设计的供体–受体分子AnthraPol。在14.1 T MAS NMR中，其稳态¹³C信号增强最高约−4500倍，对应约16%核极化；磁场依赖实验与数值模拟说明电子–电子耦合及光循环参数共同决定高场极化效率，表现约为CarboPol的三倍。",
+        "original_meaning_cn": "复现实验需记录磁场、MAS转速、样品温度、光源波长与功率、照射几何、极化建立时间及循环延迟，并以暗态热平衡谱校准增强倍数。材料筛选应同步测定瞬态自由基对寿命、g值与电子耦合；向主体样品传递时还要评估¹³C–¹³C自旋扩散在MAS下受抑制的程度。",
+        "original_tags": [
+          "NMR + EPR",
+          "固体NMR",
+          "多核NMR",
+          "计算NMR",
+          "材料与缺陷表征",
+          "化学结构解析",
+          "仪器、软件与方法"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260908-02",
+      "report_date": "2026-09-08",
+      "item_no": 2,
+      "title_cn": "MagRes-2026在怀柔启动，聚焦关联电子材料磁共振",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "中国科学院物理研究所主办的MagRes-2026于9月7日在北京怀柔启动，会期至9月12日。会议围绕NMR及其他磁共振方法研究关联电子材料的局域性质，并依托综合极端条件实验装置交流低温、高压、强磁场和超快光脉冲条件下的自旋与电子态测量。",
+      "meaning_cn": "跟踪此类方案应把静磁场、核种或电子频段、最低温度、压力、样品取向及脉冲同步条件分开记录。极端条件接口需核对探头或谐振器空间、非磁材料、热锚定、压力校准和背景信号；跨温压数据比较应保持参照、脉冲功率与恢复时间一致，并报告不可逆样品变化。",
+      "publication_date": "2026-09-07",
+      "time_scope": "24h",
+      "source": "中国科学院物理研究所 / MagRes-2026",
+      "url": "https://indico.iphy.ac.cn/event/7/",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-08",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-08.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR + EPR",
+          "固体NMR",
+          "连续波EPR",
+          "脉冲EPR",
+          "多核NMR",
+          "顺磁NMR",
+          "材料与缺陷表征",
+          "仪器、软件与方法",
+          "培训与会议"
+        ],
+        "original_type": "固体NMR / 连续波EPR / 脉冲EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-08.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "MagRes-2026在怀柔启动，聚焦关联电子材料磁共振；中国科学院物理研究所主办的MagRes-2026于9月7日在北京怀柔启动，会期至9月12日。会议围绕NMR及其他磁共振方法研究关联电子材料的局域性质，并依托综合极端条件实验装置交流低温、高压、强磁场和超快光脉冲条件下的自旋与电子态测量。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "MagRes-2026在怀柔启动，聚焦关联电子材料磁共振；中国科学院物理研究所主办的MagRes-2026于9月7日在北京怀柔启动，会期至9月12日。会议围绕NMR及其他磁共振方法研究关联电子材料的局域性质，并依托综合极端条件实验装置交流低温、高压、强磁场和超快光脉冲条件下的自旋与电子态测量。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "MagRes-2026在怀柔启动，聚焦关联电子材料磁共振",
+        "original_summary_cn": "中国科学院物理研究所主办的MagRes-2026于9月7日在北京怀柔启动，会期至9月12日。会议围绕NMR及其他磁共振方法研究关联电子材料的局域性质，并依托综合极端条件实验装置交流低温、高压、强磁场和超快光脉冲条件下的自旋与电子态测量。",
+        "original_meaning_cn": "跟踪此类方案应把静磁场、核种或电子频段、最低温度、压力、样品取向及脉冲同步条件分开记录。极端条件接口需核对探头或谐振器空间、非磁材料、热锚定、压力校准和背景信号；跨温压数据比较应保持参照、脉冲功率与恢复时间一致，并报告不可逆样品变化。",
+        "original_tags": [
+          "NMR + EPR",
+          "固体NMR",
+          "连续波EPR",
+          "脉冲EPR",
+          "多核NMR",
+          "顺磁NMR",
+          "材料与缺陷表征",
+          "仪器、软件与方法",
+          "培训与会议"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260908-03",
+      "report_date": "2026-09-08",
+      "item_no": 3,
+      "title_cn": "²H/¹⁷O固体NMR比较Aβ寡聚体与纤维的水合动力学",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr",
+        "relaxometry"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "The Journal of Chemical Physics以D₂O或H₂¹⁷O水合天然Aβ1–40及焦谷氨酸化Aβ的寡聚体和纤维，在300—170 K用²H、¹⁷O固体NMR线形、实验室坐标系及旋转坐标系弛豫测量区分蛋白结合水与远端水层。总体上寡聚体水分子运动强于纤维，焦谷氨酸化寡聚体最明显。",
+      "meaning_cn": "复现实验需统一聚集体制备、冻干与复水量，分别校正D₂O和H₂¹⁷O富集度，并逐温度点记录平衡时间。²H/¹⁷O探头调谐、四极线形、T₁与旋转坐标系弛豫参数应配套报告；比较寡聚体和纤维时，还需用独立方法确认形态与样品含水量，避免把水合差异误判为聚集态差异。",
+      "publication_date": "2026-09-01",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Chemical Physics",
+      "url": "https://doi.org/10.1063/5.0349500",
+      "doi": "10.1063/5.0349500",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-08",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-08.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "生命科学",
+          "结构生物学"
+        ],
+        "original_type": "固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-08.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "²H/¹⁷O固体NMR比较Aβ寡聚体与纤维的水合动力学；The Journal of Chemical Physics以D₂O或H₂¹⁷O水合天然Aβ1–40及焦谷氨酸化Aβ的寡聚体和纤维，在300—170 K用²H、¹⁷O固体NMR线形、实验室坐标系及旋转坐标系弛豫测量区分蛋白结合水与远端水层。总体上寡聚体水分子运动强于纤维，焦谷氨酸化寡聚体最明显。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "²H/¹⁷O固体NMR比较Aβ寡聚体与纤维的水合动力学；The Journal of Chemical Physics以D₂O或H₂¹⁷O水合天然Aβ1–40及焦谷氨酸化Aβ的寡聚体和纤维，在300—170 K用²H、¹⁷O固体NMR线形、实验室坐标系及旋转坐标系弛豫测量区分蛋白结合水与远端水层。总体上寡聚体水分子运动强于纤维，焦谷氨酸化寡聚体最明显。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "²H/¹⁷O固体NMR比较Aβ寡聚体与纤维的水合动力学；The Journal of Chemical Physics以D₂O或H₂¹⁷O水合天然Aβ1–40及焦谷氨酸化Aβ的寡聚体和纤维，在300—170 K用²H、¹⁷O固体NMR线形、实验室坐标系及旋转坐标系弛豫测量区分蛋白结合水与远端水层。总体上寡聚体水分子运动强于纤维，焦谷氨酸化寡聚体最明显。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "²H/¹⁷O固体NMR比较Aβ寡聚体与纤维的水合动力学；The Journal of Chemical Physics以D₂O或H₂¹⁷O水合天然Aβ1–40及焦谷氨酸化Aβ的寡聚体和纤维，在300—170 K用²H、¹⁷O固体NMR线形、实验室坐标系及旋转坐标系弛豫测量区分蛋白结合水与远端水层。总体上寡聚体水分子运动强于纤维，焦谷氨酸化寡聚体最明显。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "²H/¹⁷O固体NMR比较Aβ寡聚体与纤维的水合动力学；The Journal of Chemical Physics以D₂O或H₂¹⁷O水合天然Aβ1–40及焦谷氨酸化Aβ的寡聚体和纤维，在300—170 K用²H、¹⁷O固体NMR线形、实验室坐标系及旋转坐标系弛豫测量区分蛋白结合水与远端水层。总体上寡聚体水分子运动强于纤维，焦谷氨酸化寡聚体最明显。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "²H/¹⁷O固体NMR比较Aβ寡聚体与纤维的水合动力学",
+        "original_summary_cn": "The Journal of Chemical Physics以D₂O或H₂¹⁷O水合天然Aβ1–40及焦谷氨酸化Aβ的寡聚体和纤维，在300—170 K用²H、¹⁷O固体NMR线形、实验室坐标系及旋转坐标系弛豫测量区分蛋白结合水与远端水层。总体上寡聚体水分子运动强于纤维，焦谷氨酸化寡聚体最明显。",
+        "original_meaning_cn": "复现实验需统一聚集体制备、冻干与复水量，分别校正D₂O和H₂¹⁷O富集度，并逐温度点记录平衡时间。²H/¹⁷O探头调谐、四极线形、T₁与旋转坐标系弛豫参数应配套报告；比较寡聚体和纤维时，还需用独立方法确认形态与样品含水量，避免把水合差异误判为聚集态差异。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "生命科学",
+          "结构生物学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260908-04",
+      "report_date": "2026-09-08",
+      "item_no": 4,
+      "title_cn": "vipRFDR用有限射频脉冲逼近无限脉冲偶极再耦合",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "mas"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Magnetic Resonance上线virtual infinite-pulse RFDR（vipRFDR）方法，目标是在有限射频功率下逼近理想无限短脉冲RFDR的同核偶极再耦合行为。该设计针对MAS固体NMR中实际脉冲宽度引入的旋转同步偏差与性能损失，为相关谱和距离约束实验提供更接近理想模型的脉冲实现。",
+      "meaning_cn": "方法迁移时需记录MAS转速、π脉冲宽度、射频场强、相位循环、混合时间及转子同步误差，并以常规RFDR和理想数值模型作为对照。应在不同化学位移偏置与B₁不均匀条件下比较转移效率和伪峰；高占空比实验还要检查探头发热、放大器限幅及样品温升。",
+      "publication_date": "2026-09-01",
+      "time_scope": "7d_extension",
+      "source": "Journal of Magnetic Resonance",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1090780726001552",
+      "doi": "10.1016/j.jmr.2026.108166",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-08",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-08.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "仪器、软件与方法",
+          "化学结构解析"
+        ],
+        "original_type": "固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-08.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "vipRFDR用有限射频脉冲逼近无限脉冲偶极再耦合；Journal of Magnetic Resonance上线virtual infinite-pulse RFDR（vipRFDR）方法，目标是在有限射频功率下逼近理想无限短脉冲RFDR的同核偶极再耦合行为。该设计针对MAS固体NMR中实际脉冲宽度引入的旋转同步偏差与性能损失，为相关谱和距离约束实验提供更接近理想模型的脉冲实现。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "vipRFDR用有限射频脉冲逼近无限脉冲偶极再耦合；Journal of Magnetic Resonance上线virtual infinite-pulse RFDR（vipRFDR）方法，目标是在有限射频功率下逼近理想无限短脉冲RFDR的同核偶极再耦合行为。该设计针对MAS固体NMR中实际脉冲宽度引入的旋转同步偏差与性能损失，为相关谱和距离约束实验提供更接近理想模型的脉冲实现。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "mas",
+          "dimension": "method_ids",
+          "basis": "vipRFDR用有限射频脉冲逼近无限脉冲偶极再耦合；Journal of Magnetic Resonance上线virtual infinite-pulse RFDR（vipRFDR）方法，目标是在有限射频功率下逼近理想无限短脉冲RFDR的同核偶极再耦合行为。该设计针对MAS固体NMR中实际脉冲宽度引入的旋转同步偏差与性能损失，为相关谱和距离约束实验提供更接近理想模型的脉冲实现。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "vipRFDR用有限射频脉冲逼近无限脉冲偶极再耦合；Journal of Magnetic Resonance上线virtual infinite-pulse RFDR（vipRFDR）方法，目标是在有限射频功率下逼近理想无限短脉冲RFDR的同核偶极再耦合行为。该设计针对MAS固体NMR中实际脉冲宽度引入的旋转同步偏差与性能损失，为相关谱和距离约束实验提供更接近理想模型的脉冲实现。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "vipRFDR用有限射频脉冲逼近无限脉冲偶极再耦合",
+        "original_summary_cn": "Journal of Magnetic Resonance上线virtual infinite-pulse RFDR（vipRFDR）方法，目标是在有限射频功率下逼近理想无限短脉冲RFDR的同核偶极再耦合行为。该设计针对MAS固体NMR中实际脉冲宽度引入的旋转同步偏差与性能损失，为相关谱和距离约束实验提供更接近理想模型的脉冲实现。",
+        "original_meaning_cn": "方法迁移时需记录MAS转速、π脉冲宽度、射频场强、相位循环、混合时间及转子同步误差，并以常规RFDR和理想数值模型作为对照。应在不同化学位移偏置与B₁不均匀条件下比较转移效率和伪峰；高占空比实验还要检查探头发热、放大器限幅及样品温升。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "仪器、软件与方法",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260908-05",
+      "report_date": "2026-09-08",
+      "item_no": 5,
+      "title_cn": "旋转坐标系固体回波读取预热¹³C自旋网络",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Magnetic Resonance正式上线金刚石中偶极耦合超极化¹³C自旋网络研究。脉冲自旋锁定建立旋转坐标系预热平台；信号在延迟τ后表观衰减，施加单个αy脉冲可在2τ处再现，α接近π/2时回波最大，包络以约13 ms特征时间呈拉伸指数衰减。",
+      "meaning_cn": "复现实验需报告¹³C超极化方式、脉冲自旋锁定周期、B₁、失谐、α翻转角、τ与逐周期感应读出带宽。应扫描α和脉冲误差，区分真正的预热微运动回波与仪器死时间、相位瞬态或普通Hahn回波；模型比较需保留完整时间轨迹和拉伸指数拟合区间。",
+      "publication_date": "2026-09-01",
+      "time_scope": "7d_extension",
+      "source": "Journal of Magnetic Resonance",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1090780726001497",
+      "doi": "10.1016/j.jmr.2026.108160",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-08",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-08.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "材料与缺陷表征",
+          "仪器、软件与方法"
+        ],
+        "original_type": "固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-08.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "旋转坐标系固体回波读取预热¹³C自旋网络；Journal of Magnetic Resonance正式上线金刚石中偶极耦合超极化¹³C自旋网络研究。脉冲自旋锁定建立旋转坐标系预热平台；信号在延迟τ后表观衰减，施加单个αy脉冲可在2τ处再现，α接近π/2时回波最大，包络以约13 ms特征时间呈拉伸指数衰减。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "旋转坐标系固体回波读取预热¹³C自旋网络；Journal of Magnetic Resonance正式上线金刚石中偶极耦合超极化¹³C自旋网络研究。脉冲自旋锁定建立旋转坐标系预热平台；信号在延迟τ后表观衰减，施加单个αy脉冲可在2τ处再现，α接近π/2时回波最大，包络以约13 ms特征时间呈拉伸指数衰减。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "旋转坐标系固体回波读取预热¹³C自旋网络；Journal of Magnetic Resonance正式上线金刚石中偶极耦合超极化¹³C自旋网络研究。脉冲自旋锁定建立旋转坐标系预热平台；信号在延迟τ后表观衰减，施加单个αy脉冲可在2τ处再现，α接近π/2时回波最大，包络以约13 ms特征时间呈拉伸指数衰减。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "旋转坐标系固体回波读取预热¹³C自旋网络",
+        "original_summary_cn": "Journal of Magnetic Resonance正式上线金刚石中偶极耦合超极化¹³C自旋网络研究。脉冲自旋锁定建立旋转坐标系预热平台；信号在延迟τ后表观衰减，施加单个αy脉冲可在2τ处再现，α接近π/2时回波最大，包络以约13 ms特征时间呈拉伸指数衰减。",
+        "original_meaning_cn": "复现实验需报告¹³C超极化方式、脉冲自旋锁定周期、B₁、失谐、α翻转角、τ与逐周期感应读出带宽。应扫描α和脉冲误差，区分真正的预热微运动回波与仪器死时间、相位瞬态或普通Hahn回波；模型比较需保留完整时间轨迹和拉伸指数拟合区间。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "材料与缺陷表征",
+          "仪器、软件与方法"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "首次深度检索后再次执行增强复核，完整回扫2026年9月1日至7日，重点补查专业期刊的Articles in Press、Online First与期刊元数据，并复核预印本、仪器厂商、专业会议和中外采购路线。复核新增3条近7天扩展论文，本期修订为5条：2条为2026年9月7日正式发布或启动的近24小时信息，3条为9月1日上线的近7天扩展。结合最近7期正文与项目索引查重，排除10条既有记录；另排除16条日期无法独立确认、常驻产品页、缩写误检、早期预印本已无新增事件或仅将NMR/EPR作为辅助表征的候选。仍不足10条主要来自近期可核验新增较少及部分出版平台索引延迟。待复核标签：photo-CIDNP、关联电子材料、极端条件磁共振、vipRFDR与旋转坐标系预热回波保留在样品体系和正文中，未创建新的正式ID。",
+    "source_sha256": "c0cadb23d57fbad4084e1063b0f409f69d74ed4890b779d7c92a9959d568cf78",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

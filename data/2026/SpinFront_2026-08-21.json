@@ -1,0 +1,1071 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-08-21",
+  "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260821-01",
+      "report_date": "2026-08-21",
+      "item_no": 1,
+      "title_cn": "台式NMR以化学位移快速测定浓盐酸浓度",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "benchtop_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "process_analysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "application_note",
+      "summary_cn": "应用说明使用5 mm样品管和密封TMS毛细管外标，测量0–12 mol/L盐酸。¹H FID采用单次扫描、3 s弛豫延迟且不使用氘锁，水峰化学位移与浓度线性相关，拟合为 y＝0.3341x＋5.0750，R²＝0.9964；单个实验约9 s。",
+      "meaning_cn": "该方案适合台式NMR过程检测交流。实施时需控制温度、外标毛细管位置、磁场漂移和强酸玻璃器皿安全，并验证不同批次、温度及基体条件下的校准曲线。",
+      "publication_date": "2026-08-20",
+      "time_scope": "24h",
+      "source": "Oxford Instruments application note",
+      "url": "https://www.oxinst.com/learning/view/article/rapid-determination-of-hydrochloric-acid-concentration-using-the-x-pulse-benchtop-nmr-spectrometer",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-21",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-21.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "台式NMR",
+          "化学结构解析"
+        ],
+        "original_type": "台式NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-21.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "台式NMR以化学位移快速测定浓盐酸浓度；应用说明使用5 mm样品管和密封TMS毛细管外标，测量0–12 mol/L盐酸。¹H FID采用单次扫描、3 s弛豫延迟且不使用氘锁，水峰化学位移与浓度线性相关，拟合为 y＝0.3341x＋5.0750，R²＝0.9964；单个实验约9 s。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "benchtop_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "台式NMR以化学位移快速测定浓盐酸浓度；应用说明使用5 mm样品管和密封TMS毛细管外标，测量0–12 mol/L盐酸。¹H FID采用单次扫描、3 s弛豫延迟且不使用氘锁，水峰化学位移与浓度线性相关，拟合为 y＝0.3341x＋5.0750，R²＝0.9964；单个实验约9 s。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "process_analysis",
+          "dimension": "application_ids",
+          "basis": "台式NMR以化学位移快速测定浓盐酸浓度；应用说明使用5 mm样品管和密封TMS毛细管外标，测量0–12 mol/L盐酸。¹H FID采用单次扫描、3 s弛豫延迟且不使用氘锁，水峰化学位移与浓度线性相关，拟合为 y＝0.3341x＋5.0750，R²＝0.9964；单个实验约9 s。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "台式NMR以化学位移快速测定浓盐酸浓度",
+        "original_summary_cn": "应用说明使用5 mm样品管和密封TMS毛细管外标，测量0–12 mol/L盐酸。¹H FID采用单次扫描、3 s弛豫延迟且不使用氘锁，水峰化学位移与浓度线性相关，拟合为 y＝0.3341x＋5.0750，R²＝0.9964；单个实验约9 s。",
+        "original_meaning_cn": "该方案适合台式NMR过程检测交流。实施时需控制温度、外标毛细管位置、磁场漂移和强酸玻璃器皿安全，并验证不同批次、温度及基体条件下的校准曲线。",
+        "original_tags": [
+          "NMR",
+          "台式NMR",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260821-02",
+      "report_date": "2026-08-21",
+      "item_no": 2,
+      "title_cn": "Makeshift：轻量化NMR数据访问与分析软件",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [],
+      "instrument_component_ids": [
+        "software"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "该预印本发布轻量化NMR数据访问与分析软件Makeshift，目标是降低不同数据格式、数据读取和常用分析操作之间的技术门槛。工具面向NMR数据的导入、检查与处理，可为教学、小型项目及自动化脚本提供较简洁的软件入口。",
+      "meaning_cn": "值得关注其支持的厂商格式、元数据保留、相位与基线处理、峰表导出、批处理接口和可重复运行记录。若用于仪器软件比较，应以同一原始FID和同一处理参数开展结果对照。",
+      "publication_date": "2026-08-20",
+      "time_scope": "24h",
+      "source": "bioRxiv",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.17.745346v1",
+      "doi": "10.64898/2026.08.17.745346v1",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-21",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-21.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "仪器、软件与方法"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-21.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "Makeshift：轻量化NMR数据访问与分析软件；该预印本发布轻量化NMR数据访问与分析软件Makeshift，目标是降低不同数据格式、数据读取和常用分析操作之间的技术门槛。工具面向NMR数据的导入、检查与处理，可为教学、小型项目及自动化脚本提供较简洁的软件入口。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "software",
+          "dimension": "instrument_component_ids",
+          "basis": "Makeshift：轻量化NMR数据访问与分析软件；该预印本发布轻量化NMR数据访问与分析软件Makeshift，目标是降低不同数据格式、数据读取和常用分析操作之间的技术门槛。工具面向NMR数据的导入、检查与处理，可为教学、小型项目及自动化脚本提供较简洁的软件入口。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Makeshift：轻量化NMR数据访问与分析软件",
+        "original_summary_cn": "该预印本发布轻量化NMR数据访问与分析软件Makeshift，目标是降低不同数据格式、数据读取和常用分析操作之间的技术门槛。工具面向NMR数据的导入、检查与处理，可为教学、小型项目及自动化脚本提供较简洁的软件入口。",
+        "original_meaning_cn": "值得关注其支持的厂商格式、元数据保留、相位与基线处理、峰表导出、批处理接口和可重复运行记录。若用于仪器软件比较，应以同一原始FID和同一处理参数开展结果对照。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "仪器、软件与方法"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260821-03",
+      "report_date": "2026-08-21",
+      "item_no": 3,
+      "title_cn": "Solution NMR作为整合结构生物学的定量工具",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "paramagnetic_nmr",
+        "relaxometry"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "review",
+      "summary_cn": "综述讨论溶液NMR在整合结构生物学中的定量作用，覆盖构象异质性、交换动力学、弱瞬态相互作用、变构、无序体系及生物凝聚体。化学位移、弛豫、PRE与RDC等观测量可和冷冻电镜、散射及分子模拟联合，用于描述构象群布居和交换速率。",
+      "meaning_cn": "生物大分子方案需同步评估灵敏度、温控、长时间磁场稳定性、同位素标记及动力学脉冲序列，并将构象群比例、交换速率和结合界面列为预期输出。",
+      "publication_date": "2026-08-20",
+      "time_scope": "24h",
+      "source": "Frontiers in Molecular Biosciences",
+      "url": "https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2026.1941622/full",
+      "doi": "10.3389/fmolb.2026.1941622/full",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-21",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-21.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "顺磁NMR",
+          "结构生物学",
+          "化学结构解析",
+          "仪器、软件与方法"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-21.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "Solution NMR作为整合结构生物学的定量工具；综述讨论溶液NMR在整合结构生物学中的定量作用，覆盖构象异质性、交换动力学、弱瞬态相互作用、变构、无序体系及生物凝聚体。化学位移、弛豫、PRE与RDC等观测量可和冷冻电镜、散射及分子模拟联合，用于描述构象群布居和交换速率。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "Solution NMR作为整合结构生物学的定量工具；综述讨论溶液NMR在整合结构生物学中的定量作用，覆盖构象异质性、交换动力学、弱瞬态相互作用、变构、无序体系及生物凝聚体。化学位移、弛豫、PRE与RDC等观测量可和冷冻电镜、散射及分子模拟联合，用于描述构象群布居和交换速率。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "paramagnetic_nmr",
+          "dimension": "method_ids",
+          "basis": "Solution NMR作为整合结构生物学的定量工具；综述讨论溶液NMR在整合结构生物学中的定量作用，覆盖构象异质性、交换动力学、弱瞬态相互作用、变构、无序体系及生物凝聚体。化学位移、弛豫、PRE与RDC等观测量可和冷冻电镜、散射及分子模拟联合，用于描述构象群布居和交换速率。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "Solution NMR作为整合结构生物学的定量工具；综述讨论溶液NMR在整合结构生物学中的定量作用，覆盖构象异质性、交换动力学、弱瞬态相互作用、变构、无序体系及生物凝聚体。化学位移、弛豫、PRE与RDC等观测量可和冷冻电镜、散射及分子模拟联合，用于描述构象群布居和交换速率。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "Solution NMR作为整合结构生物学的定量工具；综述讨论溶液NMR在整合结构生物学中的定量作用，覆盖构象异质性、交换动力学、弱瞬态相互作用、变构、无序体系及生物凝聚体。化学位移、弛豫、PRE与RDC等观测量可和冷冻电镜、散射及分子模拟联合，用于描述构象群布居和交换速率。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Solution NMR作为整合结构生物学的定量工具",
+        "original_summary_cn": "综述讨论溶液NMR在整合结构生物学中的定量作用，覆盖构象异质性、交换动力学、弱瞬态相互作用、变构、无序体系及生物凝聚体。化学位移、弛豫、PRE与RDC等观测量可和冷冻电镜、散射及分子模拟联合，用于描述构象群布居和交换速率。",
+        "original_meaning_cn": "生物大分子方案需同步评估灵敏度、温控、长时间磁场稳定性、同位素标记及动力学脉冲序列，并将构象群比例、交换速率和结合界面列为预期输出。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "顺磁NMR",
+          "结构生物学",
+          "化学结构解析",
+          "仪器、软件与方法"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260821-04",
+      "report_date": "2026-08-21",
+      "item_no": 4,
+      "title_cn": "LED-illuminated NMR连续观察抗生素光降解",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "reaction_monitoring"
+      ],
+      "application_ids": [],
+      "instrument_component_ids": [
+        "illumination"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究将LED照明直接引入NMR样品区，并与质谱联合分析抗生素光化学转化。原位采集能够在同一样品中连续记录反应物消耗、中间体出现及产物积累，减少离线取样造成的时间偏差，适合分析不同照射条件下的反应路径和动力学。",
+      "meaning_cn": "配置阶段需明确LED波长、光纤或探头内照射几何、光功率、样品升温、氧含量和时间分辨采集方式；与MS比较时需统一取样时刻及中间体编号。",
+      "publication_date": "2026-08-20",
+      "time_scope": "24h",
+      "source": "RSC Sustainability",
+      "url": "https://doi.org/10.1039/D6SU00265J",
+      "doi": "10.1039/d6su00265j",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-21",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-21.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "反应监测NMR",
+          "环境催化",
+          "药物与质量分析"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-21.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "LED-illuminated NMR连续观察抗生素光降解；研究将LED照明直接引入NMR样品区，并与质谱联合分析抗生素光化学转化。原位采集能够在同一样品中连续记录反应物消耗、中间体出现及产物积累，减少离线取样造成的时间偏差，适合分析不同照射条件下的反应路径和动力学。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "LED-illuminated NMR连续观察抗生素光降解；研究将LED照明直接引入NMR样品区，并与质谱联合分析抗生素光化学转化。原位采集能够在同一样品中连续记录反应物消耗、中间体出现及产物积累，减少离线取样造成的时间偏差，适合分析不同照射条件下的反应路径和动力学。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "reaction_monitoring",
+          "dimension": "method_ids",
+          "basis": "LED-illuminated NMR连续观察抗生素光降解；研究将LED照明直接引入NMR样品区，并与质谱联合分析抗生素光化学转化。原位采集能够在同一样品中连续记录反应物消耗、中间体出现及产物积累，减少离线取样造成的时间偏差，适合分析不同照射条件下的反应路径和动力学。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "illumination",
+          "dimension": "instrument_component_ids",
+          "basis": "LED-illuminated NMR连续观察抗生素光降解；研究将LED照明直接引入NMR样品区，并与质谱联合分析抗生素光化学转化。原位采集能够在同一样品中连续记录反应物消耗、中间体出现及产物积累，减少离线取样造成的时间偏差，适合分析不同照射条件下的反应路径和动力学。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "LED-illuminated NMR连续观察抗生素光降解",
+        "original_summary_cn": "研究将LED照明直接引入NMR样品区，并与质谱联合分析抗生素光化学转化。原位采集能够在同一样品中连续记录反应物消耗、中间体出现及产物积累，减少离线取样造成的时间偏差，适合分析不同照射条件下的反应路径和动力学。",
+        "original_meaning_cn": "配置阶段需明确LED波长、光纤或探头内照射几何、光功率、样品升温、氧含量和时间分辨采集方式；与MS比较时需统一取样时刻及中间体编号。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "反应监测NMR",
+          "环境催化",
+          "药物与质量分析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260821-05",
+      "report_date": "2026-08-21",
+      "item_no": 5,
+      "title_cn": "NMR of Gangliosides：糖脂结构与STD-NMR结合分析",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "std_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "application_note",
+      "summary_cn": "方法章节给出神经节苷脂NMR实验流程，重点包括糖链化学结构、唾液酸残基识别以及蛋白—神经节苷脂相互作用的STD-NMR分析。神经节苷脂具有两亲性、易聚集和峰重叠特征，样品状态、温度与溶剂条件会直接影响指认和结合结论。",
+      "meaning_cn": "适用于糖脂、膜模拟体系及受体结合研究。实验前需确认聚集状态、样品浓度、选择性饱和位置及阴性对照，并依据STD信号强度核算探头与实验时间。",
+      "publication_date": "2026-08-20",
+      "time_scope": "24h",
+      "source": "Methods in Molecular Biology",
+      "url": "https://link.springer.com/protocol/10.1007/978-1-0716-5288-6_9",
+      "doi": "10.1007/978-1-0716-5288-6_9",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-21",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-21.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "时域/低场NMR",
+          "STD-NMR",
+          "生命科学",
+          "结构生物学",
+          "化学结构解析"
+        ],
+        "original_type": "时域/低场NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-21.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "NMR of Gangliosides：糖脂结构与STD-NMR结合分析；方法章节给出神经节苷脂NMR实验流程，重点包括糖链化学结构、唾液酸残基识别以及蛋白—神经节苷脂相互作用的STD-NMR分析。神经节苷脂具有两亲性、易聚集和峰重叠特征，样品状态、温度与溶剂条件会直接影响指认和结合结论。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "NMR of Gangliosides：糖脂结构与STD-NMR结合分析；方法章节给出神经节苷脂NMR实验流程，重点包括糖链化学结构、唾液酸残基识别以及蛋白—神经节苷脂相互作用的STD-NMR分析。神经节苷脂具有两亲性、易聚集和峰重叠特征，样品状态、温度与溶剂条件会直接影响指认和结合结论。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "std_nmr",
+          "dimension": "method_ids",
+          "basis": "NMR of Gangliosides：糖脂结构与STD-NMR结合分析；方法章节给出神经节苷脂NMR实验流程，重点包括糖链化学结构、唾液酸残基识别以及蛋白—神经节苷脂相互作用的STD-NMR分析。神经节苷脂具有两亲性、易聚集和峰重叠特征，样品状态、温度与溶剂条件会直接影响指认和结合结论。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "NMR of Gangliosides：糖脂结构与STD-NMR结合分析；方法章节给出神经节苷脂NMR实验流程，重点包括糖链化学结构、唾液酸残基识别以及蛋白—神经节苷脂相互作用的STD-NMR分析。神经节苷脂具有两亲性、易聚集和峰重叠特征，样品状态、温度与溶剂条件会直接影响指认和结合结论。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "NMR of Gangliosides：糖脂结构与STD-NMR结合分析",
+        "original_summary_cn": "方法章节给出神经节苷脂NMR实验流程，重点包括糖链化学结构、唾液酸残基识别以及蛋白—神经节苷脂相互作用的STD-NMR分析。神经节苷脂具有两亲性、易聚集和峰重叠特征，样品状态、温度与溶剂条件会直接影响指认和结合结论。",
+        "original_meaning_cn": "适用于糖脂、膜模拟体系及受体结合研究。实验前需确认聚集状态、样品浓度、选择性饱和位置及阴性对照，并依据STD信号强度核算探头与实验时间。",
+        "original_tags": [
+          "NMR",
+          "时域/低场NMR",
+          "STD-NMR",
+          "生命科学",
+          "结构生物学",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260821-06",
+      "report_date": "2026-08-21",
+      "item_no": 6,
+      "title_cn": "零场与有限场⁵¹V NMR判定GeV₄S₈磁空间群",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "zero_field_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure",
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究利用零场和有限场钒核NMR考察多铁性缺位尖晶石GeV₄S₈。反铁磁态中四个V位点呈现磁学不等价；外场绕晶轴旋转时的谱线角度依赖以及不同位点的自旋回波调制，约束了内部超精细场方向，并给出可能的反铁磁磁空间群。",
+      "meaning_cn": "实验涉及宽频搜索、低温、单晶转角、短死时间和回波调制分析。量子材料方案应核对最低温度、射频调谐范围、零场工作方式及转角重复性。",
+      "publication_date": "2026-08-20",
+      "time_scope": "24h",
+      "source": "Physical Review B",
+      "url": "https://doi.org/10.1103/xn3r-b7g6",
+      "doi": "10.1103/xn3r-b7g6",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-21",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-21.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "材料与缺陷表征"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-21.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "零场与有限场⁵¹V NMR判定GeV₄S₈磁空间群；研究利用零场和有限场钒核NMR考察多铁性缺位尖晶石GeV₄S₈。反铁磁态中四个V位点呈现磁学不等价；外场绕晶轴旋转时的谱线角度依赖以及不同位点的自旋回波调制，约束了内部超精细场方向，并给出可能的反铁磁磁空间群。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "零场与有限场⁵¹V NMR判定GeV₄S₈磁空间群；研究利用零场和有限场钒核NMR考察多铁性缺位尖晶石GeV₄S₈。反铁磁态中四个V位点呈现磁学不等价；外场绕晶轴旋转时的谱线角度依赖以及不同位点的自旋回波调制，约束了内部超精细场方向，并给出可能的反铁磁磁空间群。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "zero_field_nmr",
+          "dimension": "method_ids",
+          "basis": "零场与有限场⁵¹V NMR判定GeV₄S₈磁空间群；研究利用零场和有限场钒核NMR考察多铁性缺位尖晶石GeV₄S₈。反铁磁态中四个V位点呈现磁学不等价；外场绕晶轴旋转时的谱线角度依赖以及不同位点的自旋回波调制，约束了内部超精细场方向，并给出可能的反铁磁磁空间群。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "零场与有限场⁵¹V NMR判定GeV₄S₈磁空间群；研究利用零场和有限场钒核NMR考察多铁性缺位尖晶石GeV₄S₈。反铁磁态中四个V位点呈现磁学不等价；外场绕晶轴旋转时的谱线角度依赖以及不同位点的自旋回波调制，约束了内部超精细场方向，并给出可能的反铁磁磁空间群。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "零场与有限场⁵¹V NMR判定GeV₄S₈磁空间群；研究利用零场和有限场钒核NMR考察多铁性缺位尖晶石GeV₄S₈。反铁磁态中四个V位点呈现磁学不等价；外场绕晶轴旋转时的谱线角度依赖以及不同位点的自旋回波调制，约束了内部超精细场方向，并给出可能的反铁磁磁空间群。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "零场与有限场⁵¹V NMR判定GeV₄S₈磁空间群",
+        "original_summary_cn": "研究利用零场和有限场钒核NMR考察多铁性缺位尖晶石GeV₄S₈。反铁磁态中四个V位点呈现磁学不等价；外场绕晶轴旋转时的谱线角度依赖以及不同位点的自旋回波调制，约束了内部超精细场方向，并给出可能的反铁磁磁空间群。",
+        "original_meaning_cn": "实验涉及宽频搜索、低温、单晶转角、短死时间和回波调制分析。量子材料方案应核对最低温度、射频调谐范围、零场工作方式及转角重复性。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "材料与缺陷表征"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260821-07",
+      "report_date": "2026-08-21",
+      "item_no": 7,
+      "title_cn": "Cryo-EM、NMR与MD联合解析CTX–MthK复合物",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究联合冷冻电镜、NMR和分子动力学模拟，分析蝎毒素CTX与MthK钾通道复合物的原子结构及构象可塑性。NMR提供溶液状态下的局部相互作用与动态信息，并与冷冻电镜获得的整体结合构型比较，用于识别稳定毒素结合和阻断离子传导的关键残基。",
+      "meaning_cn": "适用于膜蛋白、离子通道和多肽药物研究。NMR配置需围绕同位素标记、膜模拟体系、谱峰指认、化学位移扰动和温控展开，并预留结构模型数据接口。",
+      "publication_date": "2026-08-20",
+      "time_scope": "24h",
+      "source": "Nature Communications",
+      "url": "https://www.nature.com/articles/s41467-026-76925-2",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-21",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-21.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "生命科学",
+          "结构生物学",
+          "药物与质量分析",
+          "化学结构解析"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-21.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "Cryo-EM、NMR与MD联合解析CTX–MthK复合物；研究联合冷冻电镜、NMR和分子动力学模拟，分析蝎毒素CTX与MthK钾通道复合物的原子结构及构象可塑性。NMR提供溶液状态下的局部相互作用与动态信息，并与冷冻电镜获得的整体结合构型比较，用于识别稳定毒素结合和阻断离子传导的关键残基。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "Cryo-EM、NMR与MD联合解析CTX–MthK复合物；研究联合冷冻电镜、NMR和分子动力学模拟，分析蝎毒素CTX与MthK钾通道复合物的原子结构及构象可塑性。NMR提供溶液状态下的局部相互作用与动态信息，并与冷冻电镜获得的整体结合构型比较，用于识别稳定毒素结合和阻断离子传导的关键残基。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "Cryo-EM、NMR与MD联合解析CTX–MthK复合物；研究联合冷冻电镜、NMR和分子动力学模拟，分析蝎毒素CTX与MthK钾通道复合物的原子结构及构象可塑性。NMR提供溶液状态下的局部相互作用与动态信息，并与冷冻电镜获得的整体结合构型比较，用于识别稳定毒素结合和阻断离子传导的关键残基。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Cryo-EM、NMR与MD联合解析CTX–MthK复合物",
+        "original_summary_cn": "研究联合冷冻电镜、NMR和分子动力学模拟，分析蝎毒素CTX与MthK钾通道复合物的原子结构及构象可塑性。NMR提供溶液状态下的局部相互作用与动态信息，并与冷冻电镜获得的整体结合构型比较，用于识别稳定毒素结合和阻断离子传导的关键残基。",
+        "original_meaning_cn": "适用于膜蛋白、离子通道和多肽药物研究。NMR配置需围绕同位素标记、膜模拟体系、谱峰指认、化学位移扰动和温控展开，并预留结构模型数据接口。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "生命科学",
+          "结构生物学",
+          "药物与质量分析",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260821-08",
+      "report_date": "2026-08-21",
+      "item_no": 8,
+      "title_cn": "镧系自旋标签用于生物分子顺磁NMR",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "paramagnetic_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "review",
+      "summary_cn": "综述梳理镧系自旋标签的化学设计及其在生物分子NMR中的结构应用，重点讨论PRE、PCS和RDC。内容比较镧系螯合标签、结合肽标签、半胱氨酸连接、生物正交连接及双点固定策略对标签刚性、构象平均和顺磁结构约束准确度的影响。",
+      "meaning_cn": "样品方案需检查标签刚性、金属占有率、抗磁对照、峰展宽范围及磁化率各向异性张量拟合。联合EPR/DEER时可比较长程距离和取向参数。",
+      "publication_date": "2026-08-18",
+      "time_scope": "7d_extension",
+      "source": "Applied Magnetic Resonance",
+      "url": "https://link.springer.com/article/10.1007/s00723-026-01876-2",
+      "doi": "10.1007/s00723-026-01876-2",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-21",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-21.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR + EPR",
+          "脉冲EPR",
+          "溶液NMR",
+          "顺磁NMR",
+          "DEER/PELDOR",
+          "自旋标记",
+          "生命科学",
+          "化学结构解析"
+        ],
+        "original_type": "脉冲EPR / 溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-21.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "镧系自旋标签用于生物分子顺磁NMR；综述梳理镧系自旋标签的化学设计及其在生物分子NMR中的结构应用，重点讨论PRE、PCS和RDC。内容比较镧系螯合标签、结合肽标签、半胱氨酸连接、生物正交连接及双点固定策略对标签刚性、构象平均和顺磁结构约束准确度的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "镧系自旋标签用于生物分子顺磁NMR；综述梳理镧系自旋标签的化学设计及其在生物分子NMR中的结构应用，重点讨论PRE、PCS和RDC。内容比较镧系螯合标签、结合肽标签、半胱氨酸连接、生物正交连接及双点固定策略对标签刚性、构象平均和顺磁结构约束准确度的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "paramagnetic_nmr",
+          "dimension": "method_ids",
+          "basis": "镧系自旋标签用于生物分子顺磁NMR；综述梳理镧系自旋标签的化学设计及其在生物分子NMR中的结构应用，重点讨论PRE、PCS和RDC。内容比较镧系螯合标签、结合肽标签、半胱氨酸连接、生物正交连接及双点固定策略对标签刚性、构象平均和顺磁结构约束准确度的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "镧系自旋标签用于生物分子顺磁NMR；综述梳理镧系自旋标签的化学设计及其在生物分子NMR中的结构应用，重点讨论PRE、PCS和RDC。内容比较镧系螯合标签、结合肽标签、半胱氨酸连接、生物正交连接及双点固定策略对标签刚性、构象平均和顺磁结构约束准确度的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "镧系自旋标签用于生物分子顺磁NMR",
+        "original_summary_cn": "综述梳理镧系自旋标签的化学设计及其在生物分子NMR中的结构应用，重点讨论PRE、PCS和RDC。内容比较镧系螯合标签、结合肽标签、半胱氨酸连接、生物正交连接及双点固定策略对标签刚性、构象平均和顺磁结构约束准确度的影响。",
+        "original_meaning_cn": "样品方案需检查标签刚性、金属占有率、抗磁对照、峰展宽范围及磁化率各向异性张量拟合。联合EPR/DEER时可比较长程距离和取向参数。",
+        "original_tags": [
+          "NMR + EPR",
+          "脉冲EPR",
+          "溶液NMR",
+          "顺磁NMR",
+          "DEER/PELDOR",
+          "自旋标记",
+          "生命科学",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260821-09",
+      "report_date": "2026-08-21",
+      "item_no": 9,
+      "title_cn": "蒽基钴MOF光催化中的EPR自由基鉴定",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "spin_trapping"
+      ],
+      "application_ids": [
+        "photocatalysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究构建可见光吸收的蒽基钴金属有机框架，并利用自由基捕获和EPR实验分析光催化反应中的活性中间体。配体吸光、钴节点电子转移及孔道微环境共同影响自由基生成，EPR用于区分反应路径并检验捕获实验所指向的中间体类型。",
+      "meaning_cn": "实验设计需区分钴中心本征信号和自旋捕获加合物，固定光源波长、光强、氧气条件、照射时间及进样延迟。原位照光附件可减少短寿命物种损失。",
+      "publication_date": "2026-08-20",
+      "time_scope": "24h",
+      "source": "New Journal of Chemistry",
+      "url": "https://doi.org/10.1039/D6NJ02615J",
+      "doi": "10.1039/d6nj02615j",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-21",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-21.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "自旋捕获",
+          "催化",
+          "光催化",
+          "材料与缺陷表征"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-21.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "蒽基钴MOF光催化中的EPR自由基鉴定；研究构建可见光吸收的蒽基钴金属有机框架，并利用自由基捕获和EPR实验分析光催化反应中的活性中间体。配体吸光、钴节点电子转移及孔道微环境共同影响自由基生成，EPR用于区分反应路径并检验捕获实验所指向的中间体类型。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spin_trapping",
+          "dimension": "method_ids",
+          "basis": "蒽基钴MOF光催化中的EPR自由基鉴定；研究构建可见光吸收的蒽基钴金属有机框架，并利用自由基捕获和EPR实验分析光催化反应中的活性中间体。配体吸光、钴节点电子转移及孔道微环境共同影响自由基生成，EPR用于区分反应路径并检验捕获实验所指向的中间体类型。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "photocatalysis",
+          "dimension": "application_ids",
+          "basis": "蒽基钴MOF光催化中的EPR自由基鉴定；研究构建可见光吸收的蒽基钴金属有机框架，并利用自由基捕获和EPR实验分析光催化反应中的活性中间体。配体吸光、钴节点电子转移及孔道微环境共同影响自由基生成，EPR用于区分反应路径并检验捕获实验所指向的中间体类型。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "蒽基钴MOF光催化中的EPR自由基鉴定",
+        "original_summary_cn": "研究构建可见光吸收的蒽基钴金属有机框架，并利用自由基捕获和EPR实验分析光催化反应中的活性中间体。配体吸光、钴节点电子转移及孔道微环境共同影响自由基生成，EPR用于区分反应路径并检验捕获实验所指向的中间体类型。",
+        "original_meaning_cn": "实验设计需区分钴中心本征信号和自旋捕获加合物，固定光源波长、光强、氧气条件、照射时间及进样延迟。原位照光附件可减少短寿命物种损失。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "自旋捕获",
+          "催化",
+          "光催化",
+          "材料与缺陷表征"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260821-10",
+      "report_date": "2026-08-21",
+      "item_no": 10,
+      "title_cn": "脉冲EPR确认室温electride参与芳烃C–H活化",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "catalysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "预印本报道室温条件下促进芳烃C–H活化与C–C偶联的electride体系，并以脉冲EPR确认阴离子电子形成及其磁相互作用。脉冲EPR直接检测开壳层电子态，为判断电子参与的活化机理提供自旋信息；相关结论仍需结合后续同行评议。",
+      "meaning_cn": "方案需关注样品无水无氧转移、低温冻结、回波可检测性、相位循环及激发带宽。可结合CW-EPR、ESEEM/HYSCORE和同位素替换分析邻近核耦合。",
+      "publication_date": "2026-08-20",
+      "time_scope": "24h",
+      "source": "ChemRxiv",
+      "url": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15007674/v1",
+      "doi": "10.26434/chemrxiv.15007674/v1",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-21",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-21.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "催化",
+          "材料与缺陷表征",
+          "仪器、软件与方法"
+        ],
+        "original_type": "脉冲EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-21.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "脉冲EPR确认室温electride参与芳烃C–H活化；预印本报道室温条件下促进芳烃C–H活化与C–C偶联的electride体系，并以脉冲EPR确认阴离子电子形成及其磁相互作用。脉冲EPR直接检测开壳层电子态，为判断电子参与的活化机理提供自旋信息；相关结论仍需结合后续同行评议。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "脉冲EPR确认室温electride参与芳烃C–H活化；预印本报道室温条件下促进芳烃C–H活化与C–C偶联的electride体系，并以脉冲EPR确认阴离子电子形成及其磁相互作用。脉冲EPR直接检测开壳层电子态，为判断电子参与的活化机理提供自旋信息；相关结论仍需结合后续同行评议。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "catalysis",
+          "dimension": "application_ids",
+          "basis": "脉冲EPR确认室温electride参与芳烃C–H活化；预印本报道室温条件下促进芳烃C–H活化与C–C偶联的electride体系，并以脉冲EPR确认阴离子电子形成及其磁相互作用。脉冲EPR直接检测开壳层电子态，为判断电子参与的活化机理提供自旋信息；相关结论仍需结合后续同行评议。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "脉冲EPR确认室温electride参与芳烃C–H活化",
+        "original_summary_cn": "预印本报道室温条件下促进芳烃C–H活化与C–C偶联的electride体系，并以脉冲EPR确认阴离子电子形成及其磁相互作用。脉冲EPR直接检测开壳层电子态，为判断电子参与的活化机理提供自旋信息；相关结论仍需结合后续同行评议。",
+        "original_meaning_cn": "方案需关注样品无水无氧转移、低温冻结、回波可检测性、相位循环及激发带宽。可结合CW-EPR、ESEEM/HYSCORE和同位素替换分析邻近核耦合。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "催化",
+          "材料与缺陷表征",
+          "仪器、软件与方法"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "本期共10条：9条来自过去24小时，1条为近7天扩展；已按历史索引执行去重。",
+    "source_sha256": "4ece3ccf877249d6bda5a258daefccae405b772d4e66a5cb8ec3ee0a6d9814fb",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

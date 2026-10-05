@@ -1,0 +1,1094 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-20",
+  "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260920-01",
+      "report_date": "2026-09-20",
+      "item_no": 1,
+      "title_cn": "SCM教程以EasySpin模拟自旋极化EPR体系",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "SCM 2026于9月20日上午安排两小时专题教程，由Claudia Tait讲授“EPR simulations of spin-polarized systems with EasySpin”，从基础设置延伸至高级模拟。议程直接面向光生、非玻尔兹曼布居及瞬态EPR谱的建模与解释。",
+      "meaning_cn": "用于trEPR或光生自旋体系时，应明确初始子能级布居、g/ZFS/超精细张量、线宽与取向分布，并把磁场—时间二维数据而非单条切片作为拟合对象。软件输出需与微波频率、温度、光激发延迟和仪器响应共同校验。",
+      "publication_date": "2026-09-20",
+      "time_scope": "24h",
+      "source": "SCM 2026官方摘要册｜TL1",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/Book_of_Abstracts_SCM2026.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-20",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-20.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "仪器",
+          "教育培训",
+          "谐振器",
+          "软件"
+        ],
+        "original_type": "技术活动",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-20.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "SCM教程以EasySpin模拟自旋极化EPR体系；SCM 2026于9月20日上午安排两小时专题教程，由Claudia Tait讲授“EPR simulations of spin-polarized systems with EasySpin”，从基础设置延伸至高级模拟。议程直接面向光生、非玻尔兹曼布居及瞬态EPR谱的建模与解释。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "SCM教程以EasySpin模拟自旋极化EPR体系；SCM 2026于9月20日上午安排两小时专题教程，由Claudia Tait讲授“EPR simulations of spin-polarized systems with EasySpin”，从基础设置延伸至高级模拟。议程直接面向光生、非玻尔兹曼布居及瞬态EPR谱的建模与解释。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "SCM教程以EasySpin模拟自旋极化EPR体系",
+        "original_summary_cn": "SCM 2026于9月20日上午安排两小时专题教程，由Claudia Tait讲授“EPR simulations of spin-polarized systems with EasySpin”，从基础设置延伸至高级模拟。议程直接面向光生、非玻尔兹曼布居及瞬态EPR谱的建模与解释。",
+        "original_meaning_cn": "用于trEPR或光生自旋体系时，应明确初始子能级布居、g/ZFS/超精细张量、线宽与取向分布，并把磁场—时间二维数据而非单条切片作为拟合对象。软件输出需与微波频率、温度、光激发延迟和仪器响应共同校验。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "仪器",
+          "教育培训",
+          "谐振器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260920-02",
+      "report_date": "2026-09-20",
+      "item_no": 2,
+      "title_cn": "SCM教程用乘积算符与密度矩阵梳理自旋动力学",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "SCM 2026于9月20日下午设置“Product operators, density matrices and friends”教程。官方议程把乘积算符与密度矩阵作为自旋化学和磁共振的共同语言，适合连接NMR脉冲序列、相干转移与EPR自旋动力学的推导和数值模拟。",
+      "meaning_cn": "内部培训可用单自旋、两自旋和自由基对三个层级组织练习：先写初态与哈密顿量，再逐段传播脉冲、自由演化和弛豫。实施时需固定算符归一化、旋转坐标系、相位约定与检测算符，避免不同软件定义造成符号或幅度不一致。",
+      "publication_date": "2026-09-20",
+      "time_scope": "24h",
+      "source": "SCM 2026官方摘要册｜TL2",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/Book_of_Abstracts_SCM2026.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-20",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-20.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR＋EPR",
+          "溶液NMR",
+          "固体NMR",
+          "脉冲EPR",
+          "仪器",
+          "教育培训",
+          "软件"
+        ],
+        "original_type": "技术活动",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-20.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "SCM教程用乘积算符与密度矩阵梳理自旋动力学；SCM 2026于9月20日下午设置“Product operators, density matrices and friends”教程。官方议程把乘积算符与密度矩阵作为自旋化学和磁共振的共同语言，适合连接NMR脉冲序列、相干转移与EPR自旋动力学的推导和数值模拟。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "SCM教程用乘积算符与密度矩阵梳理自旋动力学；SCM 2026于9月20日下午设置“Product operators, density matrices and friends”教程。官方议程把乘积算符与密度矩阵作为自旋化学和磁共振的共同语言，适合连接NMR脉冲序列、相干转移与EPR自旋动力学的推导和数值模拟。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "SCM教程用乘积算符与密度矩阵梳理自旋动力学",
+        "original_summary_cn": "SCM 2026于9月20日下午设置“Product operators, density matrices and friends”教程。官方议程把乘积算符与密度矩阵作为自旋化学和磁共振的共同语言，适合连接NMR脉冲序列、相干转移与EPR自旋动力学的推导和数值模拟。",
+        "original_meaning_cn": "内部培训可用单自旋、两自旋和自由基对三个层级组织练习：先写初态与哈密顿量，再逐段传播脉冲、自由演化和弛豫。实施时需固定算符归一化、旋转坐标系、相位约定与检测算符，避免不同软件定义造成符号或幅度不一致。",
+        "original_tags": [
+          "NMR＋EPR",
+          "溶液NMR",
+          "固体NMR",
+          "脉冲EPR",
+          "仪器",
+          "教育培训",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260920-03",
+      "report_date": "2026-09-20",
+      "item_no": 3,
+      "title_cn": "SCM教程系统比较核自旋超极化路线",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "SCM 2026于9月20日安排“Routes to nuclear hyperpolarization”教程，聚焦电子自旋向核自旋转移及光化学极化等路径。该议程与随后DNP、photo-CIDNP和液体oDNP报告衔接，强调不同极化机制、场强和样品体系的适用边界。",
+      "meaning_cn": "方案比较不能只看增强倍数，还应同时记录场强、温度、MAS转速、自由基浓度、微波或光功率、建立时间与核T₁。液体和固体体系需分别评估光降解、自由基相容性、探头热负荷以及极化转移对定量积分的影响。",
+      "publication_date": "2026-09-20",
+      "time_scope": "24h",
+      "source": "SCM 2026官方摘要册｜TL4",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/Book_of_Abstracts_SCM2026.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-20",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-20.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR＋EPR",
+          "溶液NMR",
+          "固体NMR",
+          "脉冲EPR",
+          "仪器",
+          "教育培训",
+          "磁体",
+          "探头",
+          "谐振器",
+          "原位光照"
+        ],
+        "original_type": "技术活动",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-20.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "SCM教程系统比较核自旋超极化路线；SCM 2026于9月20日安排“Routes to nuclear hyperpolarization”教程，聚焦电子自旋向核自旋转移及光化学极化等路径。该议程与随后DNP、photo-CIDNP和液体oDNP报告衔接，强调不同极化机制、场强和样品体系的适用边界。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "SCM教程系统比较核自旋超极化路线；SCM 2026于9月20日安排“Routes to nuclear hyperpolarization”教程，聚焦电子自旋向核自旋转移及光化学极化等路径。该议程与随后DNP、photo-CIDNP和液体oDNP报告衔接，强调不同极化机制、场强和样品体系的适用边界。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "SCM教程系统比较核自旋超极化路线；SCM 2026于9月20日安排“Routes to nuclear hyperpolarization”教程，聚焦电子自旋向核自旋转移及光化学极化等路径。该议程与随后DNP、photo-CIDNP和液体oDNP报告衔接，强调不同极化机制、场强和样品体系的适用边界。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "SCM教程系统比较核自旋超极化路线",
+        "original_summary_cn": "SCM 2026于9月20日安排“Routes to nuclear hyperpolarization”教程，聚焦电子自旋向核自旋转移及光化学极化等路径。该议程与随后DNP、photo-CIDNP和液体oDNP报告衔接，强调不同极化机制、场强和样品体系的适用边界。",
+        "original_meaning_cn": "方案比较不能只看增强倍数，还应同时记录场强、温度、MAS转速、自由基浓度、微波或光功率、建立时间与核T₁。液体和固体体系需分别评估光降解、自由基相容性、探头热负荷以及极化转移对定量积分的影响。",
+        "original_tags": [
+          "NMR＋EPR",
+          "溶液NMR",
+          "固体NMR",
+          "脉冲EPR",
+          "仪器",
+          "教育培训",
+          "磁体",
+          "探头",
+          "谐振器",
+          "原位光照"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260920-04",
+      "report_date": "2026-09-20",
+      "item_no": 4,
+      "title_cn": "卟啉–BDPA实现¹H/¹⁹F液体微波自由oDNP",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "dnp",
+        "multinuclear_nmr",
+        "multidimensional_nmr"
+      ],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "SCM摘要报告卟啉–BDPA对在液体oDNP中的进展：样品端LED功率低于0.5 W，室温静态条件下¹H体相增强较既有结果提高约两倍且未见明显光降解，并实现¹⁹F增强及二维¹⁹F COSY。测试场强约0.16—0.37 T。",
+      "meaning_cn": "复现实验需固定BDPA/H₂TPP浓度、溶剂、氧含量、样品厚度、LED波长与样品端实测功率，并同步记录光照占空比、温升、增强符号和T₁。二维实验还要比较暗态与光照态的相位、积分及t₁噪声，排除光化学副产物。",
+      "publication_date": "2026-09-19",
+      "time_scope": "7d_extension",
+      "source": "SCM 2026官方摘要册｜Invited Lecture",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/Book_of_Abstracts_SCM2026.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-20",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-20.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR＋EPR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "仪器",
+          "材料",
+          "探头",
+          "原位光照",
+          "软件"
+        ],
+        "original_type": "会议摘要",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-20.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "卟啉–BDPA实现¹H/¹⁹F液体微波自由oDNP；SCM摘要报告卟啉–BDPA对在液体oDNP中的进展：样品端LED功率低于0.5 W，室温静态条件下¹H体相增强较既有结果提高约两倍且未见明显光降解，并实现¹⁹F增强及二维¹⁹F COSY。测试场强约0.16—0.37 T。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "卟啉–BDPA实现¹H/¹⁹F液体微波自由oDNP；SCM摘要报告卟啉–BDPA对在液体oDNP中的进展：样品端LED功率低于0.5 W，室温静态条件下¹H体相增强较既有结果提高约两倍且未见明显光降解，并实现¹⁹F增强及二维¹⁹F COSY。测试场强约0.16—0.37 T。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "dnp",
+          "dimension": "method_ids",
+          "basis": "卟啉–BDPA实现¹H/¹⁹F液体微波自由oDNP；SCM摘要报告卟啉–BDPA对在液体oDNP中的进展：样品端LED功率低于0.5 W，室温静态条件下¹H体相增强较既有结果提高约两倍且未见明显光降解，并实现¹⁹F增强及二维¹⁹F COSY。测试场强约0.16—0.37 T。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "卟啉–BDPA实现¹H/¹⁹F液体微波自由oDNP；SCM摘要报告卟啉–BDPA对在液体oDNP中的进展：样品端LED功率低于0.5 W，室温静态条件下¹H体相增强较既有结果提高约两倍且未见明显光降解，并实现¹⁹F增强及二维¹⁹F COSY。测试场强约0.16—0.37 T。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "卟啉–BDPA实现¹H/¹⁹F液体微波自由oDNP；SCM摘要报告卟啉–BDPA对在液体oDNP中的进展：样品端LED功率低于0.5 W，室温静态条件下¹H体相增强较既有结果提高约两倍且未见明显光降解，并实现¹⁹F增强及二维¹⁹F COSY。测试场强约0.16—0.37 T。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "卟啉–BDPA实现¹H/¹⁹F液体微波自由oDNP",
+        "original_summary_cn": "SCM摘要报告卟啉–BDPA对在液体oDNP中的进展：样品端LED功率低于0.5 W，室温静态条件下¹H体相增强较既有结果提高约两倍且未见明显光降解，并实现¹⁹F增强及二维¹⁹F COSY。测试场强约0.16—0.37 T。",
+        "original_meaning_cn": "复现实验需固定BDPA/H₂TPP浓度、溶剂、氧含量、样品厚度、LED波长与样品端实测功率，并同步记录光照占空比、温升、增强符号和T₁。二维实验还要比较暗态与光照态的相位、积分及t₁噪声，排除光化学副产物。",
+        "original_tags": [
+          "NMR＋EPR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "仪器",
+          "材料",
+          "探头",
+          "原位光照",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260920-05",
+      "report_date": "2026-09-20",
+      "item_no": 5,
+      "title_cn": "大自旋系综模拟解释18.8 T快MAS DNP传递",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "fast_mas",
+        "dnp"
+      ],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "SCM摘要以QM-DNP与分子动力学联合模拟高场快MAS固体DNP。M‑TinyPol(OH)₄在18.8 T、65 kHz MAS下增强可达约200；模型跟踪极化在溶剂矩阵中的传播，用于拆分双自由基几何、电子—电子相互作用及“antenna”侧链对自旋扩散的贡献。",
+      "meaning_cn": "评估极化剂时应同时测增强倍数、建立时间、核T₁、电子弛豫、MAS频率与温度，不能只报告单点ε。模拟需输入实测g/A、电子耦合、自由基—溶剂径向分布和微波B₁，并用浓度与转速系列检验模型能否外推。",
+      "publication_date": "2026-09-19",
+      "time_scope": "7d_extension",
+      "source": "SCM 2026官方摘要册｜Contributed Lecture",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/Book_of_Abstracts_SCM2026.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-20",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-20.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR＋EPR",
+          "固体NMR",
+          "脉冲EPR",
+          "计算NMR",
+          "仪器",
+          "材料",
+          "磁体",
+          "探头",
+          "谐振器",
+          "软件"
+        ],
+        "original_type": "会议摘要",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-20.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "大自旋系综模拟解释18.8 T快MAS DNP传递；SCM摘要以QM-DNP与分子动力学联合模拟高场快MAS固体DNP。M‑TinyPol(OH)₄在18.8 T、65 kHz MAS下增强可达约200；模型跟踪极化在溶剂矩阵中的传播，用于拆分双自由基几何、电子—电子相互作用及“antenna”侧链对自旋扩散的贡献。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "大自旋系综模拟解释18.8 T快MAS DNP传递；SCM摘要以QM-DNP与分子动力学联合模拟高场快MAS固体DNP。M‑TinyPol(OH)₄在18.8 T、65 kHz MAS下增强可达约200；模型跟踪极化在溶剂矩阵中的传播，用于拆分双自由基几何、电子—电子相互作用及“antenna”侧链对自旋扩散的贡献。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "fast_mas",
+          "dimension": "method_ids",
+          "basis": "大自旋系综模拟解释18.8 T快MAS DNP传递；SCM摘要以QM-DNP与分子动力学联合模拟高场快MAS固体DNP。M‑TinyPol(OH)₄在18.8 T、65 kHz MAS下增强可达约200；模型跟踪极化在溶剂矩阵中的传播，用于拆分双自由基几何、电子—电子相互作用及“antenna”侧链对自旋扩散的贡献。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "dnp",
+          "dimension": "method_ids",
+          "basis": "大自旋系综模拟解释18.8 T快MAS DNP传递；SCM摘要以QM-DNP与分子动力学联合模拟高场快MAS固体DNP。M‑TinyPol(OH)₄在18.8 T、65 kHz MAS下增强可达约200；模型跟踪极化在溶剂矩阵中的传播，用于拆分双自由基几何、电子—电子相互作用及“antenna”侧链对自旋扩散的贡献。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "大自旋系综模拟解释18.8 T快MAS DNP传递",
+        "original_summary_cn": "SCM摘要以QM-DNP与分子动力学联合模拟高场快MAS固体DNP。M‑TinyPol(OH)₄在18.8 T、65 kHz MAS下增强可达约200；模型跟踪极化在溶剂矩阵中的传播，用于拆分双自由基几何、电子—电子相互作用及“antenna”侧链对自旋扩散的贡献。",
+        "original_meaning_cn": "评估极化剂时应同时测增强倍数、建立时间、核T₁、电子弛豫、MAS频率与温度，不能只报告单点ε。模拟需输入实测g/A、电子耦合、自由基—溶剂径向分布和微波B₁，并用浓度与转速系列检验模型能否外推。",
+        "original_tags": [
+          "NMR＋EPR",
+          "固体NMR",
+          "脉冲EPR",
+          "计算NMR",
+          "仪器",
+          "材料",
+          "磁体",
+          "探头",
+          "谐振器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260920-06",
+      "report_date": "2026-09-20",
+      "item_no": 6,
+      "title_cn": "瞬态EPR二维曲面解析有机光伏电荷生成",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "time_resolved_epr"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "SCM摘要汇总有机光伏与光催化体系的瞬态EPR研究。不同给体—受体对呈现差异显著的时间依赖自旋极化演化；研究以同时包含电荷转移态和分离电荷的模型拟合完整时间—磁场EPR曲面，从极化图样提取电荷生成与自旋选择动力学。",
+      "meaning_cn": "实验需报告激光波长、脉宽、能量密度、重复率、温度、微波功率、时间零点和仪器响应函数。拟合应使用完整二维数据并与瞬态吸收或电荷产率交叉验证；只比较某一延迟的正负峰形，容易混淆生成、复合与自旋弛豫。",
+      "publication_date": "2026-09-19",
+      "time_scope": "7d_extension",
+      "source": "SCM 2026官方摘要册｜Invited Lecture",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/Book_of_Abstracts_SCM2026.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-20",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-20.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "光催化",
+          "电化学与能源",
+          "材料",
+          "谐振器",
+          "原位光照",
+          "软件"
+        ],
+        "original_type": "会议摘要",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-20.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "瞬态EPR二维曲面解析有机光伏电荷生成；SCM摘要汇总有机光伏与光催化体系的瞬态EPR研究。不同给体—受体对呈现差异显著的时间依赖自旋极化演化；研究以同时包含电荷转移态和分离电荷的模型拟合完整时间—磁场EPR曲面，从极化图样提取电荷生成与自旋选择动力学。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "time_resolved_epr",
+          "dimension": "method_ids",
+          "basis": "瞬态EPR二维曲面解析有机光伏电荷生成；SCM摘要汇总有机光伏与光催化体系的瞬态EPR研究。不同给体—受体对呈现差异显著的时间依赖自旋极化演化；研究以同时包含电荷转移态和分离电荷的模型拟合完整时间—磁场EPR曲面，从极化图样提取电荷生成与自旋选择动力学。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "瞬态EPR二维曲面解析有机光伏电荷生成；SCM摘要汇总有机光伏与光催化体系的瞬态EPR研究。不同给体—受体对呈现差异显著的时间依赖自旋极化演化；研究以同时包含电荷转移态和分离电荷的模型拟合完整时间—磁场EPR曲面，从极化图样提取电荷生成与自旋选择动力学。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "瞬态EPR二维曲面解析有机光伏电荷生成",
+        "original_summary_cn": "SCM摘要汇总有机光伏与光催化体系的瞬态EPR研究。不同给体—受体对呈现差异显著的时间依赖自旋极化演化；研究以同时包含电荷转移态和分离电荷的模型拟合完整时间—磁场EPR曲面，从极化图样提取电荷生成与自旋选择动力学。",
+        "original_meaning_cn": "实验需报告激光波长、脉宽、能量密度、重复率、温度、微波功率、时间零点和仪器响应函数。拟合应使用完整二维数据并与瞬态吸收或电荷产率交叉验证；只比较某一延迟的正负峰形，容易混淆生成、复合与自旋弛豫。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "光催化",
+          "电化学与能源",
+          "材料",
+          "谐振器",
+          "原位光照",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260920-07",
+      "report_date": "2026-09-20",
+      "item_no": 7,
+      "title_cn": "trEPR与核振荡确认Cu(II)卟啉长寿命四重态",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "time_resolved_epr"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "SCM摘要报道Cu(II)卟啉光激发S=3/2四重态。瞬态吸收、时间分辨发光、脉冲EPR和trEPR共同显示长寿命自旋极化态；nutation实验直接支持四重态多重度，有效四重态哈密顿量模拟还给出相较抗磁卟啉三重态更大的零场劈裂。",
+      "meaning_cn": "复现实验应同步标定激光延迟、磁场取向、微波B₁、nutation频率、D/E及初始子能级布居，并用已知双重态或三重态标准校准转角。四重态归属需同时满足频率比、场依赖和全谱模拟，不能仅凭单条振荡曲线判断。",
+      "publication_date": "2026-09-19",
+      "time_scope": "7d_extension",
+      "source": "SCM 2026官方摘要册｜Contributed Lecture",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/Book_of_Abstracts_SCM2026.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-20",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-20.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "材料",
+          "无机配位",
+          "谐振器",
+          "原位光照",
+          "软件"
+        ],
+        "original_type": "会议摘要",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-20.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "trEPR与核振荡确认Cu(II)卟啉长寿命四重态；SCM摘要报道Cu(II)卟啉光激发S=3/2四重态。瞬态吸收、时间分辨发光、脉冲EPR和trEPR共同显示长寿命自旋极化态；nutation实验直接支持四重态多重度，有效四重态哈密顿量模拟还给出相较抗磁卟啉三重态更大的零场劈裂。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "trEPR与核振荡确认Cu(II)卟啉长寿命四重态；SCM摘要报道Cu(II)卟啉光激发S=3/2四重态。瞬态吸收、时间分辨发光、脉冲EPR和trEPR共同显示长寿命自旋极化态；nutation实验直接支持四重态多重度，有效四重态哈密顿量模拟还给出相较抗磁卟啉三重态更大的零场劈裂。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "time_resolved_epr",
+          "dimension": "method_ids",
+          "basis": "trEPR与核振荡确认Cu(II)卟啉长寿命四重态；SCM摘要报道Cu(II)卟啉光激发S=3/2四重态。瞬态吸收、时间分辨发光、脉冲EPR和trEPR共同显示长寿命自旋极化态；nutation实验直接支持四重态多重度，有效四重态哈密顿量模拟还给出相较抗磁卟啉三重态更大的零场劈裂。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "trEPR与核振荡确认Cu(II)卟啉长寿命四重态；SCM摘要报道Cu(II)卟啉光激发S=3/2四重态。瞬态吸收、时间分辨发光、脉冲EPR和trEPR共同显示长寿命自旋极化态；nutation实验直接支持四重态多重度，有效四重态哈密顿量模拟还给出相较抗磁卟啉三重态更大的零场劈裂。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "trEPR与核振荡确认Cu(II)卟啉长寿命四重态",
+        "original_summary_cn": "SCM摘要报道Cu(II)卟啉光激发S=3/2四重态。瞬态吸收、时间分辨发光、脉冲EPR和trEPR共同显示长寿命自旋极化态；nutation实验直接支持四重态多重度，有效四重态哈密顿量模拟还给出相较抗磁卟啉三重态更大的零场劈裂。",
+        "original_meaning_cn": "复现实验应同步标定激光延迟、磁场取向、微波B₁、nutation频率、D/E及初始子能级布居，并用已知双重态或三重态标准校准转角。四重态归属需同时满足频率比、场依赖和全谱模拟，不能仅凭单条振荡曲线判断。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "材料",
+          "无机配位",
+          "谐振器",
+          "原位光照",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260920-08",
+      "report_date": "2026-09-20",
+      "item_no": 8,
+      "title_cn": "回波形状脉冲序列分离重叠Mn²⁺与Gd³⁺信号",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "endor"
+      ],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "SCM摘要提出利用优化脉冲后的回波形状区分谱线重叠顺磁物种。不同总自旋导致转角和正负回波分量不同，可选积分窗使某组分归零；方法在94 GHz W波段区分生物样品中的S=5/2 Mn²⁺与S=7/2 Gd³⁺，并扩展至FSE及Mims/Davies ENDOR。",
+      "meaning_cn": "方法迁移需实测B₁分布、脉冲长度、转角、回波积分窗和谐振器带宽，并以单组分标准样建立消零条件。真实样品应检查浓度、弛豫和谱扩散是否改变回波形状；定量时必须报告交叉泄漏与B₁不均匀性敏感度。",
+      "publication_date": "2026-09-19",
+      "time_scope": "7d_extension",
+      "source": "SCM 2026官方摘要册｜Flash Talk",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/Book_of_Abstracts_SCM2026.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-20",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-20.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "生命科学",
+          "仪器",
+          "谐振器",
+          "软件"
+        ],
+        "original_type": "会议摘要",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-20.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "回波形状脉冲序列分离重叠Mn²⁺与Gd³⁺信号；SCM摘要提出利用优化脉冲后的回波形状区分谱线重叠顺磁物种。不同总自旋导致转角和正负回波分量不同，可选积分窗使某组分归零；方法在94 GHz W波段区分生物样品中的S=5/2 Mn²⁺与S=7/2 Gd³⁺，并扩展至FSE及Mims/Davies ENDOR。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "回波形状脉冲序列分离重叠Mn²⁺与Gd³⁺信号；SCM摘要提出利用优化脉冲后的回波形状区分谱线重叠顺磁物种。不同总自旋导致转角和正负回波分量不同，可选积分窗使某组分归零；方法在94 GHz W波段区分生物样品中的S=5/2 Mn²⁺与S=7/2 Gd³⁺，并扩展至FSE及Mims/Davies ENDOR。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "endor",
+          "dimension": "method_ids",
+          "basis": "回波形状脉冲序列分离重叠Mn²⁺与Gd³⁺信号；SCM摘要提出利用优化脉冲后的回波形状区分谱线重叠顺磁物种。不同总自旋导致转角和正负回波分量不同，可选积分窗使某组分归零；方法在94 GHz W波段区分生物样品中的S=5/2 Mn²⁺与S=7/2 Gd³⁺，并扩展至FSE及Mims/Davies ENDOR。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "回波形状脉冲序列分离重叠Mn²⁺与Gd³⁺信号",
+        "original_summary_cn": "SCM摘要提出利用优化脉冲后的回波形状区分谱线重叠顺磁物种。不同总自旋导致转角和正负回波分量不同，可选积分窗使某组分归零；方法在94 GHz W波段区分生物样品中的S=5/2 Mn²⁺与S=7/2 Gd³⁺，并扩展至FSE及Mims/Davies ENDOR。",
+        "original_meaning_cn": "方法迁移需实测B₁分布、脉冲长度、转角、回波积分窗和谐振器带宽，并以单组分标准样建立消零条件。真实样品应检查浓度、弛豫和谱扩散是否改变回波形状；定量时必须报告交叉泄漏与B₁不均匀性敏感度。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "生命科学",
+          "仪器",
+          "谐振器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260920-09",
+      "report_date": "2026-09-20",
+      "item_no": 9,
+      "title_cn": "LaserIMD距离分布约束蛋白–配体盲对接",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "pds"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "SCM摘要将LaserIMD距离分布用于筛选蛋白–配体盲对接构象，再以聚类、局部对接和分子动力学细化。方法用于人血清白蛋白与卟啉光敏剂，并联合LaserIMD、RIDME和LITTER建立HSA–Chlorin e6–Cu²⁺复合物的全原子模型。",
+      "meaning_cn": "实施时需明确光激发三重态与顺磁中心、标记位点、玻璃化条件、温度、泵浦/观察频率及演化时间窗。对接筛选应使用完整距离分布和不确定度，而非只用均值；多位点结合还需浓度系列、竞争配体与独立生化实验验证占有率。",
+      "publication_date": "2026-09-19",
+      "time_scope": "7d_extension",
+      "source": "SCM 2026官方摘要册｜Flash Talk",
+      "url": "https://research.chimica.unipd.it/SCM2026/wp-content/uploads/2026/09/Book_of_Abstracts_SCM2026.pdf",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-20",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-20.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "DEER/PELDOR",
+          "自旋标记",
+          "生命科学",
+          "结构生物学",
+          "药物分析",
+          "谐振器",
+          "原位光照",
+          "软件"
+        ],
+        "original_type": "会议摘要",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-20.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "LaserIMD距离分布约束蛋白–配体盲对接；SCM摘要将LaserIMD距离分布用于筛选蛋白–配体盲对接构象，再以聚类、局部对接和分子动力学细化。方法用于人血清白蛋白与卟啉光敏剂，并联合LaserIMD、RIDME和LITTER建立HSA–Chlorin e6–Cu²⁺复合物的全原子模型。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "LaserIMD距离分布约束蛋白–配体盲对接；SCM摘要将LaserIMD距离分布用于筛选蛋白–配体盲对接构象，再以聚类、局部对接和分子动力学细化。方法用于人血清白蛋白与卟啉光敏剂，并联合LaserIMD、RIDME和LITTER建立HSA–Chlorin e6–Cu²⁺复合物的全原子模型。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pds",
+          "dimension": "method_ids",
+          "basis": "LaserIMD距离分布约束蛋白–配体盲对接；SCM摘要将LaserIMD距离分布用于筛选蛋白–配体盲对接构象，再以聚类、局部对接和分子动力学细化。方法用于人血清白蛋白与卟啉光敏剂，并联合LaserIMD、RIDME和LITTER建立HSA–Chlorin e6–Cu²⁺复合物的全原子模型。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "LaserIMD距离分布约束蛋白–配体盲对接；SCM摘要将LaserIMD距离分布用于筛选蛋白–配体盲对接构象，再以聚类、局部对接和分子动力学细化。方法用于人血清白蛋白与卟啉光敏剂，并联合LaserIMD、RIDME和LITTER建立HSA–Chlorin e6–Cu²⁺复合物的全原子模型。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "LaserIMD距离分布约束蛋白–配体盲对接",
+        "original_summary_cn": "SCM摘要将LaserIMD距离分布用于筛选蛋白–配体盲对接构象，再以聚类、局部对接和分子动力学细化。方法用于人血清白蛋白与卟啉光敏剂，并联合LaserIMD、RIDME和LITTER建立HSA–Chlorin e6–Cu²⁺复合物的全原子模型。",
+        "original_meaning_cn": "实施时需明确光激发三重态与顺磁中心、标记位点、玻璃化条件、温度、泵浦/观察频率及演化时间窗。对接筛选应使用完整距离分布和不确定度，而非只用均值；多位点结合还需浓度系列、竞争配体与独立生化实验验证占有率。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "DEER/PELDOR",
+          "自旋标记",
+          "生命科学",
+          "结构生物学",
+          "药物分析",
+          "谐振器",
+          "原位光照",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260920-10",
+      "report_date": "2026-09-20",
+      "item_no": 10,
+      "title_cn": "宁波大学800 MHz NMR四共振超低温探头公布结果",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "procurement"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "宁波中基国际招标有限公司于9月18日发布宁波大学新药技术研究院800 MHz NMR四共振超低温探头项目中标（成交）结果。项目编号CBNB‑20262505G，前期公告预算和最高限价均为400万元；完整中标品牌、附件及服务范围仍应以官方结果正文为准。",
+      "meaning_cn": "升级评审应核对四共振核种组合、低温前置放大器、灵敏度与90°脉宽、梯度兼容、变温范围及同现有800 MHz主机接口。验收须用规定标准样逐通道测试S/N、线形、分辨率和调谐范围，并确认安装培训及低温维护边界。",
+      "publication_date": "2026-09-18",
+      "time_scope": "7d_extension",
+      "source": "宁波大学采购结果〔浙江采购元数据交叉核验〕",
+      "url": "https://www.zchxzb.com/",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-20",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-20.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "仪器",
+          "采购",
+          "药物分析",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_type": "仪器采购",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-20.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "宁波大学800 MHz NMR四共振超低温探头公布结果；宁波中基国际招标有限公司于9月18日发布宁波大学新药技术研究院800 MHz NMR四共振超低温探头项目中标（成交）结果。项目编号CBNB‑20262505G，前期公告预算和最高限价均为400万元；完整中标品牌、附件及服务范围仍应以官方结果正文为准。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "procurement",
+          "dimension": "application_ids",
+          "basis": "宁波大学800 MHz NMR四共振超低温探头公布结果；宁波中基国际招标有限公司于9月18日发布宁波大学新药技术研究院800 MHz NMR四共振超低温探头项目中标（成交）结果。项目编号CBNB‑20262505G，前期公告预算和最高限价均为400万元；完整中标品牌、附件及服务范围仍应以官方结果正文为准。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "宁波大学800 MHz NMR四共振超低温探头公布结果",
+        "original_summary_cn": "宁波中基国际招标有限公司于9月18日发布宁波大学新药技术研究院800 MHz NMR四共振超低温探头项目中标（成交）结果。项目编号CBNB‑20262505G，前期公告预算和最高限价均为400万元；完整中标品牌、附件及服务范围仍应以官方结果正文为准。",
+        "original_meaning_cn": "升级评审应核对四共振核种组合、低温前置放大器、灵敏度与90°脉宽、梯度兼容、变温范围及同现有800 MHz主机接口。验收须用规定标准样逐通道测试S/N、线形、分辨率和调谐范围，并确认安装培训及低温维护边界。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "仪器",
+          "采购",
+          "药物分析",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "常规检索未确认到可严格归入过去24小时的新论文或产品公告，已启动增强搜索；增强阶段合格候选少于8条，继续执行第二级深度增强检索，逐日回扫2026年9月13日至19日。逐站检查专业期刊、arXiv/ChemRxiv/PubMed等文献源、Bruker、JEOL、Oxford Instruments、Magritek、Nanalysis、CIQTEK等厂商、专业会议及中外采购，并按全部规定方法主题簇独立检索。\n\n本期最终收录10条：3条为9月20日有明确日程的SCM 2026教程，7条为9月18日至19日的近7天扩展。9月19日版SCM官方摘要册提供了可独立核验、技术内容不同的议程，因此按独立条目收录；采购条目使用中标元数据交叉确认。结合9月13—19日七期正文与可访问JSON，按DOI、规范化URL和标题查重，排除7条既有记录；另排除4条发布日期无法独立确认的候选，并剔除超窗、常驻页面、医学MRI及仅以NMR/EPR辅助表征的内容。周末期刊低产出和部分平台索引延迟使来源集中于会议摘要，但未降低相关性标准。\n\n待复核标签：EasySpin自旋极化模拟、乘积算符/密度矩阵教程、微波自由oDNP、TinyPol大自旋系综模拟、回波形状物种分离与LaserIMD保留在样品体系和正文中，未创建新的正式ID。",
+    "source_sha256": "66755704a7e9425102d7602fb331e25449ac1bf73bf7f5681739919c0e506449",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

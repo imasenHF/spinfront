@@ -1,0 +1,1184 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-25",
+  "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260925-01",
+      "report_date": "2026-09-25",
+      "item_no": 1,
+      "title_cn": "iPE-TOCSY兼顾碳侧链谱的灵敏度与分辨率",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Biomolecular NMR通过imperfect perfect echo部分抑制间接维同核¹³C耦合去相位。两种碳TOCSY序列分别关联脂肪族/芳香族侧链，以及侧链特别是甲基至主链；在43 kDa MBP上S/N最高约为标准实验的3倍，有效t₁由11 ms延至16 ms。",
+      "meaning_cn": "用于大蛋白侧链归属时，应固定¹³C/¹⁵N标记方案、样品浓度、温度和黏度，并逐项校准perfect-echo脉冲、碳载频、谱宽、TOCSY混合时间及去耦功率。验收要以同一样品比较标准实验与iPE版本的峰数、S/N、线宽和重叠程度，同时检查较长t₁对总采集时间及脉冲占空比的影响。",
+      "publication_date": "2026-09-24",
+      "time_scope": "7d_extension",
+      "source": "Journal of Biomolecular NMR",
+      "url": "https://link.springer.com/article/10.1007/s10858-026-00496-z",
+      "doi": "10.1007/s10858-026-00496-z",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-25",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-25.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "探头",
+          "软件"
+        ],
+        "original_type": "方法进展",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-25.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "iPE-TOCSY兼顾碳侧链谱的灵敏度与分辨率；Journal of Biomolecular NMR通过imperfect perfect echo部分抑制间接维同核¹³C耦合去相位。两种碳TOCSY序列分别关联脂肪族/芳香族侧链，以及侧链特别是甲基至主链；在43 kDa MBP上S/N最高约为标准实验的3倍，有效t₁由11 ms延至16 ms。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "iPE-TOCSY兼顾碳侧链谱的灵敏度与分辨率；Journal of Biomolecular NMR通过imperfect perfect echo部分抑制间接维同核¹³C耦合去相位。两种碳TOCSY序列分别关联脂肪族/芳香族侧链，以及侧链特别是甲基至主链；在43 kDa MBP上S/N最高约为标准实验的3倍，有效t₁由11 ms延至16 ms。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "iPE-TOCSY兼顾碳侧链谱的灵敏度与分辨率；Journal of Biomolecular NMR通过imperfect perfect echo部分抑制间接维同核¹³C耦合去相位。两种碳TOCSY序列分别关联脂肪族/芳香族侧链，以及侧链特别是甲基至主链；在43 kDa MBP上S/N最高约为标准实验的3倍，有效t₁由11 ms延至16 ms。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "iPE-TOCSY兼顾碳侧链谱的灵敏度与分辨率；Journal of Biomolecular NMR通过imperfect perfect echo部分抑制间接维同核¹³C耦合去相位。两种碳TOCSY序列分别关联脂肪族/芳香族侧链，以及侧链特别是甲基至主链；在43 kDa MBP上S/N最高约为标准实验的3倍，有效t₁由11 ms延至16 ms。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "iPE-TOCSY兼顾碳侧链谱的灵敏度与分辨率",
+        "original_summary_cn": "Journal of Biomolecular NMR通过imperfect perfect echo部分抑制间接维同核¹³C耦合去相位。两种碳TOCSY序列分别关联脂肪族/芳香族侧链，以及侧链特别是甲基至主链；在43 kDa MBP上S/N最高约为标准实验的3倍，有效t₁由11 ms延至16 ms。",
+        "original_meaning_cn": "用于大蛋白侧链归属时，应固定¹³C/¹⁵N标记方案、样品浓度、温度和黏度，并逐项校准perfect-echo脉冲、碳载频、谱宽、TOCSY混合时间及去耦功率。验收要以同一样品比较标准实验与iPE版本的峰数、S/N、线宽和重叠程度，同时检查较长t₁对总采集时间及脉冲占空比的影响。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260925-02",
+      "report_date": "2026-09-25",
+      "item_no": 2,
+      "title_cn": "高场低温接收让天然丰度¹⁷O固体NMR在数分钟完成",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "instrument_component_ids": [
+        "probe"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "JACS以高磁场配合低温接收，直接采集室温、未做¹⁷O富集的固体样品。天然丰度¹⁷O谱在数分钟内获得可用信噪比，研究对象可保持货架原样；该配置面向无法同位素富集的工业催化剂、矿物和天然生物样品，为氧配位与键合环境提供直接读出。",
+      "meaning_cn": "配置评估应区分低温接收机与室温样品，记录磁场、探头线圈、前置放大器温度、MAS或静态条件、脉冲带宽、重复延迟及样品质量。¹⁷O为四极核，方法验收需用已知标准样检查激发带宽、谱形重现性和定量偏差，并比较不同场强下二阶四极展宽及单位时间S/N。",
+      "publication_date": "2026-09-23",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://pubs.acs.org/doi/10.1021/jacs.6c15764",
+      "doi": "10.1021/jacs.6c15764",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-25",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-25.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "材料",
+          "催化",
+          "地学流动",
+          "化学结构",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_type": "方法进展",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-25.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "高场低温接收让天然丰度¹⁷O固体NMR在数分钟完成；JACS以高磁场配合低温接收，直接采集室温、未做¹⁷O富集的固体样品。天然丰度¹⁷O谱在数分钟内获得可用信噪比，研究对象可保持货架原样；该配置面向无法同位素富集的工业催化剂、矿物和天然生物样品，为氧配位与键合环境提供直接读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "高场低温接收让天然丰度¹⁷O固体NMR在数分钟完成；JACS以高磁场配合低温接收，直接采集室温、未做¹⁷O富集的固体样品。天然丰度¹⁷O谱在数分钟内获得可用信噪比，研究对象可保持货架原样；该配置面向无法同位素富集的工业催化剂、矿物和天然生物样品，为氧配位与键合环境提供直接读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "instrumentation",
+          "dimension": "application_ids",
+          "basis": "高场低温接收让天然丰度¹⁷O固体NMR在数分钟完成；JACS以高磁场配合低温接收，直接采集室温、未做¹⁷O富集的固体样品。天然丰度¹⁷O谱在数分钟内获得可用信噪比，研究对象可保持货架原样；该配置面向无法同位素富集的工业催化剂、矿物和天然生物样品，为氧配位与键合环境提供直接读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "probe",
+          "dimension": "instrument_component_ids",
+          "basis": "高场低温接收让天然丰度¹⁷O固体NMR在数分钟完成；JACS以高磁场配合低温接收，直接采集室温、未做¹⁷O富集的固体样品。天然丰度¹⁷O谱在数分钟内获得可用信噪比，研究对象可保持货架原样；该配置面向无法同位素富集的工业催化剂、矿物和天然生物样品，为氧配位与键合环境提供直接读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "高场低温接收让天然丰度¹⁷O固体NMR在数分钟完成",
+        "original_summary_cn": "JACS以高磁场配合低温接收，直接采集室温、未做¹⁷O富集的固体样品。天然丰度¹⁷O谱在数分钟内获得可用信噪比，研究对象可保持货架原样；该配置面向无法同位素富集的工业催化剂、矿物和天然生物样品，为氧配位与键合环境提供直接读出。",
+        "original_meaning_cn": "配置评估应区分低温接收机与室温样品，记录磁场、探头线圈、前置放大器温度、MAS或静态条件、脉冲带宽、重复延迟及样品质量。¹⁷O为四极核，方法验收需用已知标准样检查激发带宽、谱形重现性和定量偏差，并比较不同场强下二阶四极展宽及单位时间S/N。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "材料",
+          "催化",
+          "地学流动",
+          "化学结构",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260925-03",
+      "report_date": "2026-09-25",
+      "item_no": 3,
+      "title_cn": "两种D-HMQC序列压低固体NMR的t₁噪声",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr",
+        "relaxometry"
+      ],
+      "application_ids": [
+        "instrumentation",
+        "process_analysis",
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Magnetic Resonance提出SECW-HMQC与DE-HMQC两种固体NMR序列，分别借助spin-echo和dipolar-echo路径抑制二维D-HMQC的t₁噪声，适用于慢速至中等MAS。两种方案针对硬件漂移造成的间接维条纹，并比较CSA与MAS改变下的抑噪表现。",
+      "meaning_cn": "方法移植需严格同步转子相位，校准再耦合块、echo延迟、相位循环、接收增益和间接维步进；同一样品应并列采集常规D-HMQC、SECW-HMQC与DE-HMQC。评估时除峰强外，还要报告t₁噪声底、伪峰、总实验时间及不同CSA、RF不均匀性和MAS漂移下的稳定度。",
+      "publication_date": "2026-09-22",
+      "time_scope": "7d_extension",
+      "source": "Journal of Magnetic Resonance",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1090780726001655",
+      "doi": "10.1016/j.jmr.2026.108176",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-25",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-25.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多维NMR",
+          "材料",
+          "化学结构",
+          "仪器",
+          "探头",
+          "软件"
+        ],
+        "original_type": "脉冲序列",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-25.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "两种D-HMQC序列压低固体NMR的t₁噪声；Journal of Magnetic Resonance提出SECW-HMQC与DE-HMQC两种固体NMR序列，分别借助spin-echo和dipolar-echo路径抑制二维D-HMQC的t₁噪声，适用于慢速至中等MAS。两种方案针对硬件漂移造成的间接维条纹，并比较CSA与MAS改变下的抑噪表现。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "两种D-HMQC序列压低固体NMR的t₁噪声；Journal of Magnetic Resonance提出SECW-HMQC与DE-HMQC两种固体NMR序列，分别借助spin-echo和dipolar-echo路径抑制二维D-HMQC的t₁噪声，适用于慢速至中等MAS。两种方案针对硬件漂移造成的间接维条纹，并比较CSA与MAS改变下的抑噪表现。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "两种D-HMQC序列压低固体NMR的t₁噪声；Journal of Magnetic Resonance提出SECW-HMQC与DE-HMQC两种固体NMR序列，分别借助spin-echo和dipolar-echo路径抑制二维D-HMQC的t₁噪声，适用于慢速至中等MAS。两种方案针对硬件漂移造成的间接维条纹，并比较CSA与MAS改变下的抑噪表现。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "两种D-HMQC序列压低固体NMR的t₁噪声；Journal of Magnetic Resonance提出SECW-HMQC与DE-HMQC两种固体NMR序列，分别借助spin-echo和dipolar-echo路径抑制二维D-HMQC的t₁噪声，适用于慢速至中等MAS。两种方案针对硬件漂移造成的间接维条纹，并比较CSA与MAS改变下的抑噪表现。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "instrumentation",
+          "dimension": "application_ids",
+          "basis": "两种D-HMQC序列压低固体NMR的t₁噪声；Journal of Magnetic Resonance提出SECW-HMQC与DE-HMQC两种固体NMR序列，分别借助spin-echo和dipolar-echo路径抑制二维D-HMQC的t₁噪声，适用于慢速至中等MAS。两种方案针对硬件漂移造成的间接维条纹，并比较CSA与MAS改变下的抑噪表现。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "process_analysis",
+          "dimension": "application_ids",
+          "basis": "两种D-HMQC序列压低固体NMR的t₁噪声；Journal of Magnetic Resonance提出SECW-HMQC与DE-HMQC两种固体NMR序列，分别借助spin-echo和dipolar-echo路径抑制二维D-HMQC的t₁噪声，适用于慢速至中等MAS。两种方案针对硬件漂移造成的间接维条纹，并比较CSA与MAS改变下的抑噪表现。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "两种D-HMQC序列压低固体NMR的t₁噪声；Journal of Magnetic Resonance提出SECW-HMQC与DE-HMQC两种固体NMR序列，分别借助spin-echo和dipolar-echo路径抑制二维D-HMQC的t₁噪声，适用于慢速至中等MAS。两种方案针对硬件漂移造成的间接维条纹，并比较CSA与MAS改变下的抑噪表现。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "两种D-HMQC序列压低固体NMR的t₁噪声",
+        "original_summary_cn": "Journal of Magnetic Resonance提出SECW-HMQC与DE-HMQC两种固体NMR序列，分别借助spin-echo和dipolar-echo路径抑制二维D-HMQC的t₁噪声，适用于慢速至中等MAS。两种方案针对硬件漂移造成的间接维条纹，并比较CSA与MAS改变下的抑噪表现。",
+        "original_meaning_cn": "方法移植需严格同步转子相位，校准再耦合块、echo延迟、相位循环、接收增益和间接维步进；同一样品应并列采集常规D-HMQC、SECW-HMQC与DE-HMQC。评估时除峰强外，还要报告t₁噪声底、伪峰、总实验时间及不同CSA、RF不均匀性和MAS漂移下的稳定度。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多维NMR",
+          "材料",
+          "化学结构",
+          "仪器",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260925-04",
+      "report_date": "2026-09-25",
+      "item_no": 4,
+      "title_cn": "二维交换谱给固体NMR饱和脉冲建立实测评价",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Magnetic Resonance报道用二维交换谱评价固体NMR饱和脉冲的新方法。二维相关把被饱和与未被饱和的谱区分开，可直接观察脉冲对宽谱及旋转边带的覆盖情况，为不同波形、RF场强和偏频条件提供实验比较，而不只依赖名义脉宽或单点模拟。",
+      "meaning_cn": "建立方法时应对同一标准样扫描RF场强、脉冲时长、偏频和MAS转速，并保留完整二维交换矩阵。评价指标应包含目标谱区残余强度、边带覆盖、非目标激发及样品温升；宽线四极核或大CSA核还需把探头带宽、放大器线性和占空比列为硬件边界。",
+      "publication_date": "2026-09-19",
+      "time_scope": "7d_extension",
+      "source": "Journal of Magnetic Resonance",
+      "url": "https://www.sciencedirect.com/science/article/pii/S109078072600162X",
+      "doi": "10.1016/j.jmr.2026.108173",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-25",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-25.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多维NMR",
+          "材料",
+          "化学结构",
+          "仪器",
+          "探头",
+          "软件"
+        ],
+        "original_type": "脉冲评估",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-25.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "二维交换谱给固体NMR饱和脉冲建立实测评价；Journal of Magnetic Resonance报道用二维交换谱评价固体NMR饱和脉冲的新方法。二维相关把被饱和与未被饱和的谱区分开，可直接观察脉冲对宽谱及旋转边带的覆盖情况，为不同波形、RF场强和偏频条件提供实验比较，而不只依赖名义脉宽或单点模拟。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "二维交换谱给固体NMR饱和脉冲建立实测评价；Journal of Magnetic Resonance报道用二维交换谱评价固体NMR饱和脉冲的新方法。二维相关把被饱和与未被饱和的谱区分开，可直接观察脉冲对宽谱及旋转边带的覆盖情况，为不同波形、RF场强和偏频条件提供实验比较，而不只依赖名义脉宽或单点模拟。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "二维交换谱给固体NMR饱和脉冲建立实测评价；Journal of Magnetic Resonance报道用二维交换谱评价固体NMR饱和脉冲的新方法。二维相关把被饱和与未被饱和的谱区分开，可直接观察脉冲对宽谱及旋转边带的覆盖情况，为不同波形、RF场强和偏频条件提供实验比较，而不只依赖名义脉宽或单点模拟。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "二维交换谱给固体NMR饱和脉冲建立实测评价；Journal of Magnetic Resonance报道用二维交换谱评价固体NMR饱和脉冲的新方法。二维相关把被饱和与未被饱和的谱区分开，可直接观察脉冲对宽谱及旋转边带的覆盖情况，为不同波形、RF场强和偏频条件提供实验比较，而不只依赖名义脉宽或单点模拟。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "二维交换谱给固体NMR饱和脉冲建立实测评价",
+        "original_summary_cn": "Journal of Magnetic Resonance报道用二维交换谱评价固体NMR饱和脉冲的新方法。二维相关把被饱和与未被饱和的谱区分开，可直接观察脉冲对宽谱及旋转边带的覆盖情况，为不同波形、RF场强和偏频条件提供实验比较，而不只依赖名义脉宽或单点模拟。",
+        "original_meaning_cn": "建立方法时应对同一标准样扫描RF场强、脉冲时长、偏频和MAS转速，并保留完整二维交换矩阵。评价指标应包含目标谱区残余强度、边带覆盖、非目标激发及样品温升；宽线四极核或大CSA核还需把探头带宽、放大器线性和占空比列为硬件边界。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多维NMR",
+          "材料",
+          "化学结构",
+          "仪器",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260925-05",
+      "report_date": "2026-09-25",
+      "item_no": 5,
+      "title_cn": "MagTetris+加速永磁阵列与铁磁部件场力计算",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "instrument_component_ids": [
+        "magnet",
+        "software"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Magnetic Resonance发布MagTetris+，将既有开源永磁阵列快速计算器扩展至铁磁材料，并同时计算磁场与磁力。软件面向低场磁共振磁体、匀场结构及磁性部件的快速迭代，可在进入有限元细化前筛查阵列几何、材料布局和机械受力风险。",
+      "meaning_cn": "用于台式NMR磁体设计时，应先以解析基准和有限元模型核对中心场、均匀区、梯度及部件受力，再用霍尔探头实测原型。输入必须注明磁体尺寸、磁化方向、剩磁、铁磁材料B-H曲线与空气间隙；方案评审还要检查温漂、装配公差和吸力安全裕量。",
+      "publication_date": "2026-09-24",
+      "time_scope": "7d_extension",
+      "source": "Journal of Magnetic Resonance",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1090780726001576",
+      "doi": "10.1016/j.jmr.2026.108168",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-25",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-25.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "台式NMR",
+          "计算NMR",
+          "仪器",
+          "磁体",
+          "软件"
+        ],
+        "original_type": "仪器软件",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-25.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "MagTetris+加速永磁阵列与铁磁部件场力计算；Journal of Magnetic Resonance发布MagTetris+，将既有开源永磁阵列快速计算器扩展至铁磁材料，并同时计算磁场与磁力。软件面向低场磁共振磁体、匀场结构及磁性部件的快速迭代，可在进入有限元细化前筛查阵列几何、材料布局和机械受力风险。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "instrumentation",
+          "dimension": "application_ids",
+          "basis": "MagTetris+加速永磁阵列与铁磁部件场力计算；Journal of Magnetic Resonance发布MagTetris+，将既有开源永磁阵列快速计算器扩展至铁磁材料，并同时计算磁场与磁力。软件面向低场磁共振磁体、匀场结构及磁性部件的快速迭代，可在进入有限元细化前筛查阵列几何、材料布局和机械受力风险。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "magnet",
+          "dimension": "instrument_component_ids",
+          "basis": "MagTetris+加速永磁阵列与铁磁部件场力计算；Journal of Magnetic Resonance发布MagTetris+，将既有开源永磁阵列快速计算器扩展至铁磁材料，并同时计算磁场与磁力。软件面向低场磁共振磁体、匀场结构及磁性部件的快速迭代，可在进入有限元细化前筛查阵列几何、材料布局和机械受力风险。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "software",
+          "dimension": "instrument_component_ids",
+          "basis": "MagTetris+加速永磁阵列与铁磁部件场力计算；Journal of Magnetic Resonance发布MagTetris+，将既有开源永磁阵列快速计算器扩展至铁磁材料，并同时计算磁场与磁力。软件面向低场磁共振磁体、匀场结构及磁性部件的快速迭代，可在进入有限元细化前筛查阵列几何、材料布局和机械受力风险。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "MagTetris+加速永磁阵列与铁磁部件场力计算",
+        "original_summary_cn": "Journal of Magnetic Resonance发布MagTetris+，将既有开源永磁阵列快速计算器扩展至铁磁材料，并同时计算磁场与磁力。软件面向低场磁共振磁体、匀场结构及磁性部件的快速迭代，可在进入有限元细化前筛查阵列几何、材料布局和机械受力风险。",
+        "original_meaning_cn": "用于台式NMR磁体设计时，应先以解析基准和有限元模型核对中心场、均匀区、梯度及部件受力，再用霍尔探头实测原型。输入必须注明磁体尺寸、磁化方向、剩磁、铁磁材料B-H曲线与空气间隙；方案评审还要检查温漂、装配公差和吸力安全裕量。",
+        "original_tags": [
+          "NMR",
+          "台式NMR",
+          "计算NMR",
+          "仪器",
+          "磁体",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260925-06",
+      "report_date": "2026-09-25",
+      "item_no": 6,
+      "title_cn": "EPR用于工业石墨负极拆解后的质量判别",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "defect_epr"
+      ],
+      "application_ids": [
+        "battery"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Sustainable Energy & Fuels把高级EPR用于工业石墨负极的拆解后质量控制，利用石墨导电电子、缺陷及顺磁杂质信号考察材料在电池使用后的变化。工作把EPR从机理研究推进到工业电极筛查场景，关注循环历史、局部缺陷和残余顺磁组分对谱形与弛豫的影响。",
+      "meaning_cn": "拆解样品应在惰性气氛下取样并记录SOC、循环次数、清洗流程、干燥条件和装样质量。CW谱需统一微波功率、调制幅度与增益，脉冲实验需报告死时间、T₁和Tm；不同电极比较要做质量或碳含量归一化，并用原始石墨、导电剂和粘结剂作分组对照。",
+      "publication_date": "2026-09-24",
+      "time_scope": "7d_extension",
+      "source": "Sustainable Energy & Fuels",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2026/se/d6se00483k",
+      "doi": "10.1039/d6se00483k",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-25",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-25.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "缺陷EPR",
+          "电化学与能源",
+          "电池",
+          "材料",
+          "过程分析",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "电池应用",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-25.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "EPR用于工业石墨负极拆解后的质量判别；Sustainable Energy & Fuels把高级EPR用于工业石墨负极的拆解后质量控制，利用石墨导电电子、缺陷及顺磁杂质信号考察材料在电池使用后的变化。工作把EPR从机理研究推进到工业电极筛查场景，关注循环历史、局部缺陷和残余顺磁组分对谱形与弛豫的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "defect_epr",
+          "dimension": "method_ids",
+          "basis": "EPR用于工业石墨负极拆解后的质量判别；Sustainable Energy & Fuels把高级EPR用于工业石墨负极的拆解后质量控制，利用石墨导电电子、缺陷及顺磁杂质信号考察材料在电池使用后的变化。工作把EPR从机理研究推进到工业电极筛查场景，关注循环历史、局部缺陷和残余顺磁组分对谱形与弛豫的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "battery",
+          "dimension": "application_ids",
+          "basis": "EPR用于工业石墨负极拆解后的质量判别；Sustainable Energy & Fuels把高级EPR用于工业石墨负极的拆解后质量控制，利用石墨导电电子、缺陷及顺磁杂质信号考察材料在电池使用后的变化。工作把EPR从机理研究推进到工业电极筛查场景，关注循环历史、局部缺陷和残余顺磁组分对谱形与弛豫的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "EPR用于工业石墨负极拆解后的质量判别",
+        "original_summary_cn": "Sustainable Energy & Fuels把高级EPR用于工业石墨负极的拆解后质量控制，利用石墨导电电子、缺陷及顺磁杂质信号考察材料在电池使用后的变化。工作把EPR从机理研究推进到工业电极筛查场景，关注循环历史、局部缺陷和残余顺磁组分对谱形与弛豫的影响。",
+        "original_meaning_cn": "拆解样品应在惰性气氛下取样并记录SOC、循环次数、清洗流程、干燥条件和装样质量。CW谱需统一微波功率、调制幅度与增益，脉冲实验需报告死时间、T₁和Tm；不同电极比较要做质量或碳含量归一化，并用原始石墨、导电剂和粘结剂作分组对照。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "缺陷EPR",
+          "电化学与能源",
+          "电池",
+          "材料",
+          "过程分析",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260925-07",
+      "report_date": "2026-09-25",
+      "item_no": 7,
+      "title_cn": "MaRs统一稳态与时间分辨EPR模拟拟合",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "cw_epr"
+      ],
+      "method_ids": [
+        "time_resolved_epr"
+      ],
+      "application_ids": [],
+      "instrument_component_ids": [
+        "software"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "ChemRxiv发布开源Python库MaRs，可模拟并拟合场扫、频扫CW-EPR及完整场—时间二维trEPR。时间演化可选速率方程或Liouville空间，弛豫可用Lindblad参数或Bloch–Redfield机理生成；PyTorch后端支持CPU/GPU、参数优化和不确定度分析。",
+      "meaning_cn": "软件验证应先用已知自旋体系复核g、A、D/E、线宽与热平衡，再处理三重态—双重态或反系间窜越体系。拟合需固定实验微波频率、场轴、时间零点和仪器响应，保存初值、边界、损失函数及置信区间；GPU结果还应与CPU及成熟软件做数值一致性检查。",
+      "publication_date": "2026-09-20",
+      "time_scope": "7d_extension",
+      "source": "ChemRxiv",
+      "url": "https://chemrxiv.org/doi/10.26434/chemrxiv.15009102",
+      "doi": "10.26434/chemrxiv.15009102/v1",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-25",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-25.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "仪器",
+          "材料",
+          "化学结构",
+          "软件"
+        ],
+        "original_type": "软件算法",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-25.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "MaRs统一稳态与时间分辨EPR模拟拟合；ChemRxiv发布开源Python库MaRs，可模拟并拟合场扫、频扫CW-EPR及完整场—时间二维trEPR。时间演化可选速率方程或Liouville空间，弛豫可用Lindblad参数或Bloch–Redfield机理生成；PyTorch后端支持CPU/GPU、参数优化和不确定度分析。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "cw_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "MaRs统一稳态与时间分辨EPR模拟拟合；ChemRxiv发布开源Python库MaRs，可模拟并拟合场扫、频扫CW-EPR及完整场—时间二维trEPR。时间演化可选速率方程或Liouville空间，弛豫可用Lindblad参数或Bloch–Redfield机理生成；PyTorch后端支持CPU/GPU、参数优化和不确定度分析。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "time_resolved_epr",
+          "dimension": "method_ids",
+          "basis": "MaRs统一稳态与时间分辨EPR模拟拟合；ChemRxiv发布开源Python库MaRs，可模拟并拟合场扫、频扫CW-EPR及完整场—时间二维trEPR。时间演化可选速率方程或Liouville空间，弛豫可用Lindblad参数或Bloch–Redfield机理生成；PyTorch后端支持CPU/GPU、参数优化和不确定度分析。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "software",
+          "dimension": "instrument_component_ids",
+          "basis": "MaRs统一稳态与时间分辨EPR模拟拟合；ChemRxiv发布开源Python库MaRs，可模拟并拟合场扫、频扫CW-EPR及完整场—时间二维trEPR。时间演化可选速率方程或Liouville空间，弛豫可用Lindblad参数或Bloch–Redfield机理生成；PyTorch后端支持CPU/GPU、参数优化和不确定度分析。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "MaRs统一稳态与时间分辨EPR模拟拟合",
+        "original_summary_cn": "ChemRxiv发布开源Python库MaRs，可模拟并拟合场扫、频扫CW-EPR及完整场—时间二维trEPR。时间演化可选速率方程或Liouville空间，弛豫可用Lindblad参数或Bloch–Redfield机理生成；PyTorch后端支持CPU/GPU、参数优化和不确定度分析。",
+        "original_meaning_cn": "软件验证应先用已知自旋体系复核g、A、D/E、线宽与热平衡，再处理三重态—双重态或反系间窜越体系。拟合需固定实验微波频率、场轴、时间零点和仪器响应，保存初值、边界、损失函数及置信区间；GPU结果还应与CPU及成熟软件做数值一致性检查。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "仪器",
+          "材料",
+          "化学结构",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260925-08",
+      "report_date": "2026-09-25",
+      "item_no": 8,
+      "title_cn": "260 GHz脉冲EPR量化9.2 T光激发并五苯自旋动力学",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "time_resolved_epr",
+        "relaxometry"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "ChemRxiv以260 GHz、约9.2 T时间分辨脉冲EPR研究光激发并五苯。光—微波同步实验给出三重态子能级布居、衰减、T₁、相干与g张量，其中|Tₓ⟩布居为0.86±0.05；两类晶位的共振与取向依赖衰减还被用于矢量直流磁场大小和方向测量。",
+      "meaning_cn": "复现需校准260 GHz脉冲带宽、谐振器B₁、9.2 T场值、晶体取向、激光波长/能量/重复率及光—微波延迟。三重态DNP评估要同时记录子能级布居、寿命、T₁e、Tm与光稳定性；矢量传感应报告两晶位拟合、角度退化、场强误差和温度漂移。",
+      "publication_date": "2026-09-22",
+      "time_scope": "7d_extension",
+      "source": "ChemRxiv",
+      "url": "https://chemrxiv.org/doi/10.26434/chemrxiv.15009251",
+      "doi": "10.26434/chemrxiv.15009251/v1",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-25",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-25.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "材料",
+          "仪器",
+          "磁体",
+          "谐振器",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "高场EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-25.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "260 GHz脉冲EPR量化9.2 T光激发并五苯自旋动力学；ChemRxiv以260 GHz、约9.2 T时间分辨脉冲EPR研究光激发并五苯。光—微波同步实验给出三重态子能级布居、衰减、T₁、相干与g张量，其中|Tₓ⟩布居为0.86±0.05；两类晶位的共振与取向依赖衰减还被用于矢量直流磁场大小和方向测量。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "260 GHz脉冲EPR量化9.2 T光激发并五苯自旋动力学；ChemRxiv以260 GHz、约9.2 T时间分辨脉冲EPR研究光激发并五苯。光—微波同步实验给出三重态子能级布居、衰减、T₁、相干与g张量，其中|Tₓ⟩布居为0.86±0.05；两类晶位的共振与取向依赖衰减还被用于矢量直流磁场大小和方向测量。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "time_resolved_epr",
+          "dimension": "method_ids",
+          "basis": "260 GHz脉冲EPR量化9.2 T光激发并五苯自旋动力学；ChemRxiv以260 GHz、约9.2 T时间分辨脉冲EPR研究光激发并五苯。光—微波同步实验给出三重态子能级布居、衰减、T₁、相干与g张量，其中|Tₓ⟩布居为0.86±0.05；两类晶位的共振与取向依赖衰减还被用于矢量直流磁场大小和方向测量。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "260 GHz脉冲EPR量化9.2 T光激发并五苯自旋动力学；ChemRxiv以260 GHz、约9.2 T时间分辨脉冲EPR研究光激发并五苯。光—微波同步实验给出三重态子能级布居、衰减、T₁、相干与g张量，其中|Tₓ⟩布居为0.86±0.05；两类晶位的共振与取向依赖衰减还被用于矢量直流磁场大小和方向测量。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "260 GHz脉冲EPR量化9.2 T光激发并五苯自旋动力学；ChemRxiv以260 GHz、约9.2 T时间分辨脉冲EPR研究光激发并五苯。光—微波同步实验给出三重态子能级布居、衰减、T₁、相干与g张量，其中|Tₓ⟩布居为0.86±0.05；两类晶位的共振与取向依赖衰减还被用于矢量直流磁场大小和方向测量。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "260 GHz脉冲EPR量化9.2 T光激发并五苯自旋动力学",
+        "original_summary_cn": "ChemRxiv以260 GHz、约9.2 T时间分辨脉冲EPR研究光激发并五苯。光—微波同步实验给出三重态子能级布居、衰减、T₁、相干与g张量，其中|Tₓ⟩布居为0.86±0.05；两类晶位的共振与取向依赖衰减还被用于矢量直流磁场大小和方向测量。",
+        "original_meaning_cn": "复现需校准260 GHz脉冲带宽、谐振器B₁、9.2 T场值、晶体取向、激光波长/能量/重复率及光—微波延迟。三重态DNP评估要同时记录子能级布居、寿命、T₁e、Tm与光稳定性；矢量传感应报告两晶位拟合、角度退化、场强误差和温度漂移。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "材料",
+          "仪器",
+          "磁体",
+          "谐振器",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260925-09",
+      "report_date": "2026-09-25",
+      "item_no": 9,
+      "title_cn": "EPR校准DPPH吸光法的抗氧化容量偏差",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "ACS Omega同步比较EPR与吸光法测定DPPH自由基清除容量。中和后的DPPH及分解产物仍有残余吸收，导致吸光法低估清除容量并改变IC₅₀和AAI；作者提出三种校正程序，并用酚类标准、花色苷和富色素jambolan果汁检验两类方法的一致性。",
+      "meaning_cn": "方法转移需统一DPPH初始浓度、溶剂、避光、反应时间和温度，并在同一反应液上同步采集EPR自旋积分与517 nm吸光度。EPR应检查功率饱和、调制幅度、增益和基线；有色样品要设置无DPPH背景及分解产物校正，报告IC₅₀、AAI与重复性。",
+      "publication_date": "2026-09-22",
+      "time_scope": "7d_extension",
+      "source": "ACS Omega",
+      "url": "https://pubs.acs.org/doi/10.1021/acsomega.6c03248",
+      "doi": "10.1021/acsomega.6c03248",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-25",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-25.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "食品与农业",
+          "过程分析",
+          "谐振器",
+          "软件"
+        ],
+        "original_type": "分析方法",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-25.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "EPR校准DPPH吸光法的抗氧化容量偏差；ACS Omega同步比较EPR与吸光法测定DPPH自由基清除容量。中和后的DPPH及分解产物仍有残余吸收，导致吸光法低估清除容量并改变IC₅₀和AAI；作者提出三种校正程序，并用酚类标准、花色苷和富色素jambolan果汁检验两类方法的一致性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "life_science",
+          "dimension": "application_ids",
+          "basis": "EPR校准DPPH吸光法的抗氧化容量偏差；ACS Omega同步比较EPR与吸光法测定DPPH自由基清除容量。中和后的DPPH及分解产物仍有残余吸收，导致吸光法低估清除容量并改变IC₅₀和AAI；作者提出三种校正程序，并用酚类标准、花色苷和富色素jambolan果汁检验两类方法的一致性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "EPR校准DPPH吸光法的抗氧化容量偏差",
+        "original_summary_cn": "ACS Omega同步比较EPR与吸光法测定DPPH自由基清除容量。中和后的DPPH及分解产物仍有残余吸收，导致吸光法低估清除容量并改变IC₅₀和AAI；作者提出三种校正程序，并用酚类标准、花色苷和富色素jambolan果汁检验两类方法的一致性。",
+        "original_meaning_cn": "方法转移需统一DPPH初始浓度、溶剂、避光、反应时间和温度，并在同一反应液上同步采集EPR自旋积分与517 nm吸光度。EPR应检查功率饱和、调制幅度、增益和基线；有色样品要设置无DPPH背景及分解产物校正，报告IC₅₀、AAI与重复性。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "食品与农业",
+          "过程分析",
+          "谐振器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260925-10",
+      "report_date": "2026-09-25",
+      "item_no": 10,
+      "title_cn": "¹⁴N固体NMR与NQR区分三种芬太尼晶型",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Communications Chemistry联合第一性原理计算、¹⁴N固体NMR与NQR，比较芬太尼游离碱、柠檬酸盐和盐酸盐中苯胺及哌啶氮的四极参数。哌啶位点C_Q随质子化和邻近氢键显著减小，苯胺位点在三种固体中较接近，可为不透明包装外的NQR非接触识别提供频率指纹。",
+      "meaning_cn": "标准建立需分别确认晶型、盐型、含水量和粒度，在室温采集静态¹⁴N固体NMR并用QUEST等线形拟合获得C_Q与η。NQR筛查要校准频扫范围、脉冲长度、线圈Q值、包装衰减和样品温度；DFT模型应包含质子化、氢键及热运动，并以实测频率逐型核对。",
+      "publication_date": "2026-09-21",
+      "time_scope": "7d_extension",
+      "source": "Communications Chemistry",
+      "url": "https://www.nature.com/articles/s42004-026-02191-4",
+      "doi": "10.1038/s42004-026-02191-4",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-25",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-25.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "计算NMR",
+          "药物分析",
+          "化学结构",
+          "材料",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_type": "安检应用",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-25.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "¹⁴N固体NMR与NQR区分三种芬太尼晶型；Communications Chemistry联合第一性原理计算、¹⁴N固体NMR与NQR，比较芬太尼游离碱、柠檬酸盐和盐酸盐中苯胺及哌啶氮的四极参数。哌啶位点C_Q随质子化和邻近氢键显著减小，苯胺位点在三种固体中较接近，可为不透明包装外的NQR非接触识别提供频率指纹。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "¹⁴N固体NMR与NQR区分三种芬太尼晶型；Communications Chemistry联合第一性原理计算、¹⁴N固体NMR与NQR，比较芬太尼游离碱、柠檬酸盐和盐酸盐中苯胺及哌啶氮的四极参数。哌啶位点C_Q随质子化和邻近氢键显著减小，苯胺位点在三种固体中较接近，可为不透明包装外的NQR非接触识别提供频率指纹。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "computation_nmr",
+          "dimension": "method_ids",
+          "basis": "¹⁴N固体NMR与NQR区分三种芬太尼晶型；Communications Chemistry联合第一性原理计算、¹⁴N固体NMR与NQR，比较芬太尼游离碱、柠檬酸盐和盐酸盐中苯胺及哌啶氮的四极参数。哌啶位点C_Q随质子化和邻近氢键显著减小，苯胺位点在三种固体中较接近，可为不透明包装外的NQR非接触识别提供频率指纹。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "¹⁴N固体NMR与NQR区分三种芬太尼晶型；Communications Chemistry联合第一性原理计算、¹⁴N固体NMR与NQR，比较芬太尼游离碱、柠檬酸盐和盐酸盐中苯胺及哌啶氮的四极参数。哌啶位点C_Q随质子化和邻近氢键显著减小，苯胺位点在三种固体中较接近，可为不透明包装外的NQR非接触识别提供频率指纹。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "¹⁴N固体NMR与NQR区分三种芬太尼晶型",
+        "original_summary_cn": "Communications Chemistry联合第一性原理计算、¹⁴N固体NMR与NQR，比较芬太尼游离碱、柠檬酸盐和盐酸盐中苯胺及哌啶氮的四极参数。哌啶位点C_Q随质子化和邻近氢键显著减小，苯胺位点在三种固体中较接近，可为不透明包装外的NQR非接触识别提供频率指纹。",
+        "original_meaning_cn": "标准建立需分别确认晶型、盐型、含水量和粒度，在室温采集静态¹⁴N固体NMR并用QUEST等线形拟合获得C_Q与η。NQR筛查要校准频扫范围、脉冲长度、线圈Q值、包装衰减和样品温度；DFT模型应包含质子化、氢键及热运动，并以实测频率逐型核对。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "计算NMR",
+          "药物分析",
+          "化学结构",
+          "材料",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "常规检索未确认到可严格归入过去24小时的合格新增：本轮新页面只给出发布日期而无精确时刻，统一按近7天扩展处理，因此已启动增强搜索。检索覆盖Journal of Magnetic Resonance等核心期刊及ACS、RSC、Wiley、Springer Nature、Elsevier平台，并分别核查Crossref、arXiv、ChemRxiv、PubMed、科研机构、Bruker、JEOL、Oxford Instruments、Magritek、Nanalysis、CIQTEK等厂商、专业会议和中外采购；同时按液体NMR、固体NMR/MAS/DNP、低场与TD-NMR、谱图处理、CW/rapid-scan EPR、脉冲EPR/DEER/ENDOR/ESEEM/HYSCORE、TREPR、operando/EC-EPR及仪器部件分组检索。\n\n增强阶段确认10条合格且未重复的非SCM信息，未触发第二级深度增强检索。结合2026年9月18日至24日最近7期共69条记录，按标准化DOI、规范化URL和标题查重，排除8条既有论文；另排除11条日期无法独立确认、常驻页面、医学MRI、缩写误检或仅把NMR/EPR作为辅助表征的候选。本期10条均为近7天扩展，全部来自非SCM来源。\n\n待复核标签：iPE-TOCSY、低温接收天然丰度¹⁷O固体NMR、SECW-HMQC、DE-HMQC、二维交换饱和脉冲评估、MagTetris+、工业石墨负极post-mortem EPR、MaRs、260 GHz时间分辨脉冲EPR与矢量直流磁场传感、DPPH-EPR方法比对及¹⁴N NQR保留在sample_systems和正文中，未创建新的正式ID。",
+    "source_sha256": "36bdad19644db4a71d9e82222dff6c4eec732bdf7bb1470efdbd29726fe01dfa",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

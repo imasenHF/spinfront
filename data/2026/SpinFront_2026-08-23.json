@@ -1,0 +1,1061 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-08-23",
+  "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260823-01",
+      "report_date": "2026-08-23",
+      "item_no": 1,
+      "title_cn": "NMR与网络分析绘出p38α激酶动态变构通路",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究把动态网络分析、NMR、活性测定及突变体比较结合起来，定位p38α激酶N叶与C叶之间的长程通信残基。加入或不加入活性位点抑制剂时，NMR读出全局运动及远端响应，结果连接变构位点、活化环、脂质结合区与C叶隐蔽口袋。",
+      "meaning_cn": "适合规划激酶变构筛选：样品应包含野生型、关键突变体、apo及抑制剂结合态；实验需控制配体占有率与温度，并把化学位移扰动、弛豫或交换参数和酶活结果并列分析。",
+      "publication_date": "2026-08-22",
+      "time_scope": "24h",
+      "source": "Nature Communications",
+      "url": "https://www.nature.com/articles/s41467-026-76885-7",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-23",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-23.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "生命科学",
+          "结构生物学",
+          "配体筛选"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-23.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "NMR与网络分析绘出p38α激酶动态变构通路；研究把动态网络分析、NMR、活性测定及突变体比较结合起来，定位p38α激酶N叶与C叶之间的长程通信残基。加入或不加入活性位点抑制剂时，NMR读出全局运动及远端响应，结果连接变构位点、活化环、脂质结合区与C叶隐蔽口袋。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "NMR与网络分析绘出p38α激酶动态变构通路；研究把动态网络分析、NMR、活性测定及突变体比较结合起来，定位p38α激酶N叶与C叶之间的长程通信残基。加入或不加入活性位点抑制剂时，NMR读出全局运动及远端响应，结果连接变构位点、活化环、脂质结合区与C叶隐蔽口袋。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "NMR与网络分析绘出p38α激酶动态变构通路；研究把动态网络分析、NMR、活性测定及突变体比较结合起来，定位p38α激酶N叶与C叶之间的长程通信残基。加入或不加入活性位点抑制剂时，NMR读出全局运动及远端响应，结果连接变构位点、活化环、脂质结合区与C叶隐蔽口袋。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "NMR与网络分析绘出p38α激酶动态变构通路",
+        "original_summary_cn": "研究把动态网络分析、NMR、活性测定及突变体比较结合起来，定位p38α激酶N叶与C叶之间的长程通信残基。加入或不加入活性位点抑制剂时，NMR读出全局运动及远端响应，结果连接变构位点、活化环、脂质结合区与C叶隐蔽口袋。",
+        "original_meaning_cn": "适合规划激酶变构筛选：样品应包含野生型、关键突变体、apo及抑制剂结合态；实验需控制配体占有率与温度，并把化学位移扰动、弛豫或交换参数和酶活结果并列分析。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "生命科学",
+          "结构生物学",
+          "配体筛选"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260823-02",
+      "report_date": "2026-08-23",
+      "item_no": 2,
+      "title_cn": "PELDOR/DEER捕捉MscL通道的开放样构象",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "deer_peldor",
+        "spin_labeling"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究在DMPC、DOPC和DSPC脂质环境中考察大肠杆菌机械敏感通道MscL。PELDOR/DEER用于筛选自旋标签间距离与构象分布，显示DSPC使体系偏离闭合态并出现开放样群体；结果再与冷冻电镜、HDX-MS和分子动力学合并解释门控过程。",
+      "meaning_cn": "膜蛋白EPR方案要把脂质种类、纳米盘配比、标记效率和冻保护条件视为核心变量。建议先以CW-EPR检查标签运动性，再用脉冲EPR获得距离分布，并配置无标签及单标签背景对照。",
+      "publication_date": "2026-08-22",
+      "time_scope": "24h",
+      "source": "Nature Communications",
+      "url": "https://www.nature.com/articles/s41467-026-76193-0",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-23",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-23.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "DEER/PELDOR",
+          "自旋标记",
+          "生命科学",
+          "结构生物学",
+          "配体筛选",
+          "仪器、软件与方法"
+        ],
+        "original_type": "脉冲EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-23.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "PELDOR/DEER捕捉MscL通道的开放样构象；研究在DMPC、DOPC和DSPC脂质环境中考察大肠杆菌机械敏感通道MscL。PELDOR/DEER用于筛选自旋标签间距离与构象分布，显示DSPC使体系偏离闭合态并出现开放样群体；结果再与冷冻电镜、HDX-MS和分子动力学合并解释门控过程。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "PELDOR/DEER捕捉MscL通道的开放样构象；研究在DMPC、DOPC和DSPC脂质环境中考察大肠杆菌机械敏感通道MscL。PELDOR/DEER用于筛选自旋标签间距离与构象分布，显示DSPC使体系偏离闭合态并出现开放样群体；结果再与冷冻电镜、HDX-MS和分子动力学合并解释门控过程。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "deer_peldor",
+          "dimension": "method_ids",
+          "basis": "PELDOR/DEER捕捉MscL通道的开放样构象；研究在DMPC、DOPC和DSPC脂质环境中考察大肠杆菌机械敏感通道MscL。PELDOR/DEER用于筛选自旋标签间距离与构象分布，显示DSPC使体系偏离闭合态并出现开放样群体；结果再与冷冻电镜、HDX-MS和分子动力学合并解释门控过程。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spin_labeling",
+          "dimension": "method_ids",
+          "basis": "PELDOR/DEER捕捉MscL通道的开放样构象；研究在DMPC、DOPC和DSPC脂质环境中考察大肠杆菌机械敏感通道MscL。PELDOR/DEER用于筛选自旋标签间距离与构象分布，显示DSPC使体系偏离闭合态并出现开放样群体；结果再与冷冻电镜、HDX-MS和分子动力学合并解释门控过程。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "PELDOR/DEER捕捉MscL通道的开放样构象；研究在DMPC、DOPC和DSPC脂质环境中考察大肠杆菌机械敏感通道MscL。PELDOR/DEER用于筛选自旋标签间距离与构象分布，显示DSPC使体系偏离闭合态并出现开放样群体；结果再与冷冻电镜、HDX-MS和分子动力学合并解释门控过程。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "PELDOR/DEER捕捉MscL通道的开放样构象",
+        "original_summary_cn": "研究在DMPC、DOPC和DSPC脂质环境中考察大肠杆菌机械敏感通道MscL。PELDOR/DEER用于筛选自旋标签间距离与构象分布，显示DSPC使体系偏离闭合态并出现开放样群体；结果再与冷冻电镜、HDX-MS和分子动力学合并解释门控过程。",
+        "original_meaning_cn": "膜蛋白EPR方案要把脂质种类、纳米盘配比、标记效率和冻保护条件视为核心变量。建议先以CW-EPR检查标签运动性，再用脉冲EPR获得距离分布，并配置无标签及单标签背景对照。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "DEER/PELDOR",
+          "自旋标记",
+          "生命科学",
+          "结构生物学",
+          "配体筛选",
+          "仪器、软件与方法"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260823-03",
+      "report_date": "2026-08-23",
+      "item_no": 3,
+      "title_cn": "HDX-MS联用NMR解析全长抗体—抗原瞬态接触",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "论文以avelumab/PD-L1全长抗体复合物为对象，将HDX-MS与NMR组合用于表位、互补决定区及短寿命接触的定位。HDX-MS先给出受保护片段，NMR再从残基层面的谱峰变化辨认直接或远程扰动，适合处理完整抗体体量大、信号拥挤的问题。",
+      "meaning_cn": "可按“片段定位—残基验证”设计工作流。样品需保持抗体完整性、结合计量和缓冲液一致；NMR部分宜选同位素标记抗原或结构域，并预留高分子体系常见的线宽、交换和非特异吸附检查。",
+      "publication_date": "2026-08-22",
+      "time_scope": "24h",
+      "source": "Angewandte Chemie International Edition",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/anie.1540355",
+      "doi": "10.1002/anie.1540355",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-23",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-23.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "生命科学",
+          "结构生物学",
+          "化学结构解析",
+          "仪器、软件与方法"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-23.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "HDX-MS联用NMR解析全长抗体—抗原瞬态接触；论文以avelumab/PD-L1全长抗体复合物为对象，将HDX-MS与NMR组合用于表位、互补决定区及短寿命接触的定位。HDX-MS先给出受保护片段，NMR再从残基层面的谱峰变化辨认直接或远程扰动，适合处理完整抗体体量大、信号拥挤的问题。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "HDX-MS联用NMR解析全长抗体—抗原瞬态接触；论文以avelumab/PD-L1全长抗体复合物为对象，将HDX-MS与NMR组合用于表位、互补决定区及短寿命接触的定位。HDX-MS先给出受保护片段，NMR再从残基层面的谱峰变化辨认直接或远程扰动，适合处理完整抗体体量大、信号拥挤的问题。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "HDX-MS联用NMR解析全长抗体—抗原瞬态接触；论文以avelumab/PD-L1全长抗体复合物为对象，将HDX-MS与NMR组合用于表位、互补决定区及短寿命接触的定位。HDX-MS先给出受保护片段，NMR再从残基层面的谱峰变化辨认直接或远程扰动，适合处理完整抗体体量大、信号拥挤的问题。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "HDX-MS联用NMR解析全长抗体—抗原瞬态接触",
+        "original_summary_cn": "论文以avelumab/PD-L1全长抗体复合物为对象，将HDX-MS与NMR组合用于表位、互补决定区及短寿命接触的定位。HDX-MS先给出受保护片段，NMR再从残基层面的谱峰变化辨认直接或远程扰动，适合处理完整抗体体量大、信号拥挤的问题。",
+        "original_meaning_cn": "可按“片段定位—残基验证”设计工作流。样品需保持抗体完整性、结合计量和缓冲液一致；NMR部分宜选同位素标记抗原或结构域，并预留高分子体系常见的线宽、交换和非特异吸附检查。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "生命科学",
+          "结构生物学",
+          "化学结构解析",
+          "仪器、软件与方法"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260823-04",
+      "report_date": "2026-08-23",
+      "item_no": 4,
+      "title_cn": "¹H-NMR代谢组比较CBD处理后的脑、肝与肾",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究对健康小鼠连续两周每日颊内给予CBD后，采用非靶向¹H-NMR代谢组分别分析脑、肝和肾。PCA显示处理组与对照组整体差异较小，较明显变化集中在脑的信号与能量代谢，肝脏涉及糖代谢，肾脏仅见轻微苯丙氨酸变化。",
+      "meaning_cn": "多组织代谢组需统一取材时刻、组织质量、提取比例、pH和内标；采集端应固定水抑制、弛豫延迟及温度。数据分析宜在全谱分箱之外加入代谢物定性确认和组织分层统计。",
+      "publication_date": "2026-08-20",
+      "time_scope": "7d_extension",
+      "source": "Frontiers in Pharmacology",
+      "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2026.1896842/full",
+      "doi": "10.3389/fphar.2026.1896842/full",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-23",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-23.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "NMR代谢组学",
+          "药物与质量分析"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-23.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "¹H-NMR代谢组比较CBD处理后的脑、肝与肾；研究对健康小鼠连续两周每日颊内给予CBD后，采用非靶向¹H-NMR代谢组分别分析脑、肝和肾。PCA显示处理组与对照组整体差异较小，较明显变化集中在脑的信号与能量代谢，肝脏涉及糖代谢，肾脏仅见轻微苯丙氨酸变化。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "metabolomics",
+          "dimension": "method_ids",
+          "basis": "¹H-NMR代谢组比较CBD处理后的脑、肝与肾；研究对健康小鼠连续两周每日颊内给予CBD后，采用非靶向¹H-NMR代谢组分别分析脑、肝和肾。PCA显示处理组与对照组整体差异较小，较明显变化集中在脑的信号与能量代谢，肝脏涉及糖代谢，肾脏仅见轻微苯丙氨酸变化。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "life_science",
+          "dimension": "application_ids",
+          "basis": "¹H-NMR代谢组比较CBD处理后的脑、肝与肾；研究对健康小鼠连续两周每日颊内给予CBD后，采用非靶向¹H-NMR代谢组分别分析脑、肝和肾。PCA显示处理组与对照组整体差异较小，较明显变化集中在脑的信号与能量代谢，肝脏涉及糖代谢，肾脏仅见轻微苯丙氨酸变化。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "¹H-NMR代谢组比较CBD处理后的脑、肝与肾",
+        "original_summary_cn": "研究对健康小鼠连续两周每日颊内给予CBD后，采用非靶向¹H-NMR代谢组分别分析脑、肝和肾。PCA显示处理组与对照组整体差异较小，较明显变化集中在脑的信号与能量代谢，肝脏涉及糖代谢，肾脏仅见轻微苯丙氨酸变化。",
+        "original_meaning_cn": "多组织代谢组需统一取材时刻、组织质量、提取比例、pH和内标；采集端应固定水抑制、弛豫延迟及温度。数据分析宜在全谱分箱之外加入代谢物定性确认和组织分层统计。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "NMR代谢组学",
+          "药物与质量分析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260823-05",
+      "report_date": "2026-08-23",
+      "item_no": 5,
+      "title_cn": "1D/2D NMR确定米托蒽醌—GnRH偶联物连接结构",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure",
+        "pharma"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究围绕激素依赖性肿瘤靶向设计的米托蒽醌—促性腺激素释放激素偶联物展开结构解析。作者用一维与二维NMR区分药物、肽段及连接区域的信号，并结合分子建模检查构象与可能的分子内接触，为复杂药物—肽偶联物的结构确认提供实例。",
+      "meaning_cn": "偶联物方案应预留多核与二维实验时间，优先组合¹H、¹³C及相关谱完成连接位点归属。样品端要控制溶解度、盐型、pH和聚集；必要时采用变温或不同溶剂条件分离重叠峰。",
+      "publication_date": "2026-08-20",
+      "time_scope": "7d_extension",
+      "source": "International Journal of Molecular Sciences",
+      "url": "https://www.mdpi.com/1422-0067/27/16/7437",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-23",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-23.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "药物与质量分析",
+          "化学结构解析"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-23.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "1D/2D NMR确定米托蒽醌—GnRH偶联物连接结构；研究围绕激素依赖性肿瘤靶向设计的米托蒽醌—促性腺激素释放激素偶联物展开结构解析。作者用一维与二维NMR区分药物、肽段及连接区域的信号，并结合分子建模检查构象与可能的分子内接触，为复杂药物—肽偶联物的结构确认提供实例。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "1D/2D NMR确定米托蒽醌—GnRH偶联物连接结构；研究围绕激素依赖性肿瘤靶向设计的米托蒽醌—促性腺激素释放激素偶联物展开结构解析。作者用一维与二维NMR区分药物、肽段及连接区域的信号，并结合分子建模检查构象与可能的分子内接触，为复杂药物—肽偶联物的结构确认提供实例。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "1D/2D NMR确定米托蒽醌—GnRH偶联物连接结构；研究围绕激素依赖性肿瘤靶向设计的米托蒽醌—促性腺激素释放激素偶联物展开结构解析。作者用一维与二维NMR区分药物、肽段及连接区域的信号，并结合分子建模检查构象与可能的分子内接触，为复杂药物—肽偶联物的结构确认提供实例。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pharma",
+          "dimension": "application_ids",
+          "basis": "1D/2D NMR确定米托蒽醌—GnRH偶联物连接结构；研究围绕激素依赖性肿瘤靶向设计的米托蒽醌—促性腺激素释放激素偶联物展开结构解析。作者用一维与二维NMR区分药物、肽段及连接区域的信号，并结合分子建模检查构象与可能的分子内接触，为复杂药物—肽偶联物的结构确认提供实例。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "1D/2D NMR确定米托蒽醌—GnRH偶联物连接结构",
+        "original_summary_cn": "研究围绕激素依赖性肿瘤靶向设计的米托蒽醌—促性腺激素释放激素偶联物展开结构解析。作者用一维与二维NMR区分药物、肽段及连接区域的信号，并结合分子建模检查构象与可能的分子内接触，为复杂药物—肽偶联物的结构确认提供实例。",
+        "original_meaning_cn": "偶联物方案应预留多核与二维实验时间，优先组合¹H、¹³C及相关谱完成连接位点归属。样品端要控制溶解度、盐型、pH和聚集；必要时采用变温或不同溶剂条件分离重叠峰。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "药物与质量分析",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260823-06",
+      "report_date": "2026-08-23",
+      "item_no": 6,
+      "title_cn": "γ辐照后GO–PVA–AgNW缺陷自旋由EPR读出",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "defect_epr"
+      ],
+      "application_ids": [
+        "polymers"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "论文比较GO–PVA–AgNW纳米复合材料在250、500和1500 kGy γ剂量后的结构、光学与顺磁变化。EPR直接观察未配对电子及缺陷相关信号，并与XRD、Raman和光学结果对照，用于判断高剂量辐照如何改变碳基网络及银纳米线周围的局部电子环境。",
+      "meaning_cn": "辐照材料EPR比较应固定样品质量、管径、腔体位置、微波功率与调制幅度，并加入未辐照基线。若需要比较自旋浓度，应使用稳定自由基标样校准双积分，避免仅以峰高作结论。",
+      "publication_date": "2026-08-19",
+      "time_scope": "7d_extension",
+      "source": "RSC Advances",
+      "url": "https://pubs.rsc.org/ra/article/doi/10.1039/d6ra06886c/1292558/Tailoring-the-structural-optical-and-paramagnetic",
+      "doi": "10.1039/d6ra06886c/1292558/tailoring-the-structural-optical-and-paramagnetic",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-23",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-23.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "缺陷EPR",
+          "材料与缺陷表征",
+          "聚合物",
+          "化学结构解析"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-23.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "γ辐照后GO–PVA–AgNW缺陷自旋由EPR读出；论文比较GO–PVA–AgNW纳米复合材料在250、500和1500 kGy γ剂量后的结构、光学与顺磁变化。EPR直接观察未配对电子及缺陷相关信号，并与XRD、Raman和光学结果对照，用于判断高剂量辐照如何改变碳基网络及银纳米线周围的局部电子环境。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "defect_epr",
+          "dimension": "method_ids",
+          "basis": "γ辐照后GO–PVA–AgNW缺陷自旋由EPR读出；论文比较GO–PVA–AgNW纳米复合材料在250、500和1500 kGy γ剂量后的结构、光学与顺磁变化。EPR直接观察未配对电子及缺陷相关信号，并与XRD、Raman和光学结果对照，用于判断高剂量辐照如何改变碳基网络及银纳米线周围的局部电子环境。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "polymers",
+          "dimension": "application_ids",
+          "basis": "γ辐照后GO–PVA–AgNW缺陷自旋由EPR读出；论文比较GO–PVA–AgNW纳米复合材料在250、500和1500 kGy γ剂量后的结构、光学与顺磁变化。EPR直接观察未配对电子及缺陷相关信号，并与XRD、Raman和光学结果对照，用于判断高剂量辐照如何改变碳基网络及银纳米线周围的局部电子环境。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "γ辐照后GO–PVA–AgNW缺陷自旋由EPR读出",
+        "original_summary_cn": "论文比较GO–PVA–AgNW纳米复合材料在250、500和1500 kGy γ剂量后的结构、光学与顺磁变化。EPR直接观察未配对电子及缺陷相关信号，并与XRD、Raman和光学结果对照，用于判断高剂量辐照如何改变碳基网络及银纳米线周围的局部电子环境。",
+        "original_meaning_cn": "辐照材料EPR比较应固定样品质量、管径、腔体位置、微波功率与调制幅度，并加入未辐照基线。若需要比较自旋浓度，应使用稳定自由基标样校准双积分，避免仅以峰高作结论。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "缺陷EPR",
+          "材料与缺陷表征",
+          "聚合物",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260823-07",
+      "report_date": "2026-08-23",
+      "item_no": 7,
+      "title_cn": "EPR表征Ni₆双层配合物的氧化诱导S＝1/2自由基",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究构筑含HHTP双层单元的六核Ni(II)自组装配合物。循环伏安显示四个可逆单电子过程；分离的一电子氧化态由UV–vis、EPR和直流磁测量表征。EPR与计算共同指向HHTP单元上形成S＝1/2自由基，并与Ni中心发生交换耦合。",
+      "meaning_cn": "适合分子磁性与氧化还原开关项目。实验需严格控制氧化剂当量、反离子、溶剂和无氧转移；EPR应同步比较中性态与氧化态的g值、线宽、温度及功率依赖，并和磁化率拟合互证。",
+      "publication_date": "2026-08-19",
+      "time_scope": "7d_extension",
+      "source": "Chemistry—A European Journal",
+      "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/chem.71591",
+      "doi": "10.1002/chem.71591",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-23",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-23.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "化学结构解析",
+          "无机与配位化学"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-23.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "EPR表征Ni₆双层配合物的氧化诱导S＝1/2自由基；研究构筑含HHTP双层单元的六核Ni(II)自组装配合物。循环伏安显示四个可逆单电子过程；分离的一电子氧化态由UV–vis、EPR和直流磁测量表征。EPR与计算共同指向HHTP单元上形成S＝1/2自由基，并与Ni中心发生交换耦合。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "inorganic_coordination",
+          "dimension": "application_ids",
+          "basis": "EPR表征Ni₆双层配合物的氧化诱导S＝1/2自由基；研究构筑含HHTP双层单元的六核Ni(II)自组装配合物。循环伏安显示四个可逆单电子过程；分离的一电子氧化态由UV–vis、EPR和直流磁测量表征。EPR与计算共同指向HHTP单元上形成S＝1/2自由基，并与Ni中心发生交换耦合。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "EPR表征Ni₆双层配合物的氧化诱导S＝1/2自由基",
+        "original_summary_cn": "研究构筑含HHTP双层单元的六核Ni(II)自组装配合物。循环伏安显示四个可逆单电子过程；分离的一电子氧化态由UV–vis、EPR和直流磁测量表征。EPR与计算共同指向HHTP单元上形成S＝1/2自由基，并与Ni中心发生交换耦合。",
+        "original_meaning_cn": "适合分子磁性与氧化还原开关项目。实验需严格控制氧化剂当量、反离子、溶剂和无氧转移；EPR应同步比较中性态与氧化态的g值、线宽、温度及功率依赖，并和磁化率拟合互证。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "化学结构解析",
+          "无机与配位化学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260823-08",
+      "report_date": "2026-08-23",
+      "item_no": 8,
+      "title_cn": "LRESC-Loc拆解过渡金属体系的NMR屏蔽贡献",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "论文把LRESC-Loc局域化响应模型用于含IIB、VIB和VIIIB族过渡金属分子的NMR磁屏蔽分析，分离局域与非局域电子响应对屏蔽张量的贡献。工作关注重元素、相对论效应和金属—配体成键如何影响计算化学位移，适合异常位移归属。",
+      "meaning_cn": "计算NMR项目应明确几何优化层级、相对论处理、基组与参考物，并用实验化学位移做同系列校准。对金属中心附近核，建议同时检查屏蔽张量各向异性，而非只比较各向同性数值。",
+      "publication_date": "2026-08-19",
+      "time_scope": "7d_extension",
+      "source": "Magnetochemistry",
+      "url": "https://www.mdpi.com/2312-7481/12/8/92",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-23",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-23.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "计算NMR",
+          "化学结构解析"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-23.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "LRESC-Loc拆解过渡金属体系的NMR屏蔽贡献；论文把LRESC-Loc局域化响应模型用于含IIB、VIB和VIIIB族过渡金属分子的NMR磁屏蔽分析，分离局域与非局域电子响应对屏蔽张量的贡献。工作关注重元素、相对论效应和金属—配体成键如何影响计算化学位移，适合异常位移归属。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "computation_nmr",
+          "dimension": "method_ids",
+          "basis": "LRESC-Loc拆解过渡金属体系的NMR屏蔽贡献；论文把LRESC-Loc局域化响应模型用于含IIB、VIB和VIIIB族过渡金属分子的NMR磁屏蔽分析，分离局域与非局域电子响应对屏蔽张量的贡献。工作关注重元素、相对论效应和金属—配体成键如何影响计算化学位移，适合异常位移归属。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "inorganic_coordination",
+          "dimension": "application_ids",
+          "basis": "LRESC-Loc拆解过渡金属体系的NMR屏蔽贡献；论文把LRESC-Loc局域化响应模型用于含IIB、VIB和VIIIB族过渡金属分子的NMR磁屏蔽分析，分离局域与非局域电子响应对屏蔽张量的贡献。工作关注重元素、相对论效应和金属—配体成键如何影响计算化学位移，适合异常位移归属。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "LRESC-Loc拆解过渡金属体系的NMR屏蔽贡献",
+        "original_summary_cn": "论文把LRESC-Loc局域化响应模型用于含IIB、VIB和VIIIB族过渡金属分子的NMR磁屏蔽分析，分离局域与非局域电子响应对屏蔽张量的贡献。工作关注重元素、相对论效应和金属—配体成键如何影响计算化学位移，适合异常位移归属。",
+        "original_meaning_cn": "计算NMR项目应明确几何优化层级、相对论处理、基组与参考物，并用实验化学位移做同系列校准。对金属中心附近核，建议同时检查屏蔽张量各向异性，而非只比较各向同性数值。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "计算NMR",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260823-09",
+      "report_date": "2026-08-23",
+      "item_no": 9,
+      "title_cn": "镧系自旋标签扩展生物分子NMR的长程约束",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "paramagnetic_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "review",
+      "summary_cn": "综述总结镧系螯合标签和镧系结合肽标签在生物分子NMR中的化学设计与结构应用。PRE、PCS和RDC可提供超越常规NOE距离范围的信息；文章比较半胱氨酸、生物正交、非天然氨基酸及双点连接策略对标签刚性和构象平均的影响。",
+      "meaning_cn": "选择标签时需先确定所需观测量：PRE适合距离敏感筛查，PCS利于长程定位，RDC反映取向。方案还应准备抗磁参考、标记率测定及多个标签位点，以识别标签柔性带来的系统偏差。",
+      "publication_date": "2026-08-18",
+      "time_scope": "7d_extension",
+      "source": "Applied Magnetic Resonance",
+      "url": "https://link.springer.com/article/10.1007/s00723-026-01876-2",
+      "doi": "10.1007/s00723-026-01876-2",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-23",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-23.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "顺磁NMR",
+          "自旋标记",
+          "生命科学",
+          "化学结构解析"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-23.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "镧系自旋标签扩展生物分子NMR的长程约束；综述总结镧系螯合标签和镧系结合肽标签在生物分子NMR中的化学设计与结构应用。PRE、PCS和RDC可提供超越常规NOE距离范围的信息；文章比较半胱氨酸、生物正交、非天然氨基酸及双点连接策略对标签刚性和构象平均的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "镧系自旋标签扩展生物分子NMR的长程约束；综述总结镧系螯合标签和镧系结合肽标签在生物分子NMR中的化学设计与结构应用。PRE、PCS和RDC可提供超越常规NOE距离范围的信息；文章比较半胱氨酸、生物正交、非天然氨基酸及双点连接策略对标签刚性和构象平均的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "paramagnetic_nmr",
+          "dimension": "method_ids",
+          "basis": "镧系自旋标签扩展生物分子NMR的长程约束；综述总结镧系螯合标签和镧系结合肽标签在生物分子NMR中的化学设计与结构应用。PRE、PCS和RDC可提供超越常规NOE距离范围的信息；文章比较半胱氨酸、生物正交、非天然氨基酸及双点连接策略对标签刚性和构象平均的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "镧系自旋标签扩展生物分子NMR的长程约束；综述总结镧系螯合标签和镧系结合肽标签在生物分子NMR中的化学设计与结构应用。PRE、PCS和RDC可提供超越常规NOE距离范围的信息；文章比较半胱氨酸、生物正交、非天然氨基酸及双点连接策略对标签刚性和构象平均的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "镧系自旋标签扩展生物分子NMR的长程约束",
+        "original_summary_cn": "综述总结镧系螯合标签和镧系结合肽标签在生物分子NMR中的化学设计与结构应用。PRE、PCS和RDC可提供超越常规NOE距离范围的信息；文章比较半胱氨酸、生物正交、非天然氨基酸及双点连接策略对标签刚性和构象平均的影响。",
+        "original_meaning_cn": "选择标签时需先确定所需观测量：PRE适合距离敏感筛查，PCS利于长程定位，RDC反映取向。方案还应准备抗磁参考、标记率测定及多个标签位点，以识别标签柔性带来的系统偏差。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "顺磁NMR",
+          "自旋标记",
+          "生命科学",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260823-10",
+      "report_date": "2026-08-23",
+      "item_no": 10,
+      "title_cn": "低场NMR松弛无损识别木结构UF胶层老化",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "polymers"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究用低场NMR松弛检测层压木材脲醛树脂胶层的人工老化。新鲜与按EN 302-1 A5严苛处理的胶层呈现不同NMR信号；机械拉伸剪切强度最高下降71%，NMR振幅比与胶层强度的相关系数达到0.96，显示便携式检测潜力。",
+      "meaning_cn": "面向现场检测需确定探头单边几何、有效探测深度、木材含水率与表面耦合条件。建模时应把T₂分布或振幅比与胶层位置、老化等级和力学结果配对，并建立不同树种和含水率校准集。",
+      "publication_date": "2026-08-17",
+      "time_scope": "7d_extension",
+      "source": "European Journal of Wood and Wood Products",
+      "url": "https://link.springer.com/article/10.1007/s00107-026-02468-4",
+      "doi": "10.1007/s00107-026-02468-4",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-23",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-23.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "时域/低场NMR",
+          "材料与缺陷表征",
+          "聚合物",
+          "化学结构解析",
+          "无机与配位化学"
+        ],
+        "original_type": "时域/低场NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-23.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "低场NMR松弛无损识别木结构UF胶层老化；研究用低场NMR松弛检测层压木材脲醛树脂胶层的人工老化。新鲜与按EN 302-1 A5严苛处理的胶层呈现不同NMR信号；机械拉伸剪切强度最高下降71%，NMR振幅比与胶层强度的相关系数达到0.96，显示便携式检测潜力。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "td_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "低场NMR松弛无损识别木结构UF胶层老化；研究用低场NMR松弛检测层压木材脲醛树脂胶层的人工老化。新鲜与按EN 302-1 A5严苛处理的胶层呈现不同NMR信号；机械拉伸剪切强度最高下降71%，NMR振幅比与胶层强度的相关系数达到0.96，显示便携式检测潜力。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "低场NMR松弛无损识别木结构UF胶层老化；研究用低场NMR松弛检测层压木材脲醛树脂胶层的人工老化。新鲜与按EN 302-1 A5严苛处理的胶层呈现不同NMR信号；机械拉伸剪切强度最高下降71%，NMR振幅比与胶层强度的相关系数达到0.96，显示便携式检测潜力。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "polymers",
+          "dimension": "application_ids",
+          "basis": "低场NMR松弛无损识别木结构UF胶层老化；研究用低场NMR松弛检测层压木材脲醛树脂胶层的人工老化。新鲜与按EN 302-1 A5严苛处理的胶层呈现不同NMR信号；机械拉伸剪切强度最高下降71%，NMR振幅比与胶层强度的相关系数达到0.96，显示便携式检测潜力。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "低场NMR松弛无损识别木结构UF胶层老化",
+        "original_summary_cn": "研究用低场NMR松弛检测层压木材脲醛树脂胶层的人工老化。新鲜与按EN 302-1 A5严苛处理的胶层呈现不同NMR信号；机械拉伸剪切强度最高下降71%，NMR振幅比与胶层强度的相关系数达到0.96，显示便携式检测潜力。",
+        "original_meaning_cn": "面向现场检测需确定探头单边几何、有效探测深度、木材含水率与表面耦合条件。建模时应把T₂分布或振幅比与胶层位置、老化等级和力学结果配对，并建立不同树种和含水率校准集。",
+        "original_tags": [
+          "NMR",
+          "时域/低场NMR",
+          "材料与缺陷表征",
+          "聚合物",
+          "化学结构解析",
+          "无机与配位化学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "本期共10条：3条来自过去24小时，7条为近7天扩展；已按历史索引执行去重。",
+    "source_sha256": "8c979f5c2af5b08ed0e57e300917b758765bdde9295e723e0230e3394ac1242d",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

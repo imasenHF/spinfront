@@ -1,0 +1,729 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-15",
+  "scope_note": "本期收录6条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260915-01",
+      "report_date": "2026-09-15",
+      "item_no": 1,
+      "title_cn": "单一XY8序列并行纠缠NV中心与三个¹³C核自旋",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Nature Nanotechnology报道室温金刚石NV中心量子寄存器：以单一XY8动态解耦序列并行控制三个弱耦合¹³C核自旋，在14.8 μs内生成四比特GHZ态，速度约为串行双比特门的10倍；多量子相干验证给出0.92(4)保真度。",
+      "meaning_cn": "复现实验需记录静磁场取向、NV与¹³C超精细耦合、XY8脉冲数和单元延迟、微波π脉冲误差及光学初始化/读出效率。并行门应与同一寄存器的串行方案比较总门时和串扰，并用多量子相干相位扫描、读出校正及脉冲层析共同核验保真度。",
+      "publication_date": "2026-09-14",
+      "time_scope": "24h",
+      "source": "Nature Nanotechnology",
+      "url": "https://www.nature.com/articles/s41565-026-02254-6",
+      "doi": "10.1038/s41565-026-02254-6",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-15",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-15.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR＋EPR",
+          "脉冲EPR",
+          "材料",
+          "仪器、软件与方法"
+        ],
+        "original_type": "脉冲EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-15.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "单一XY8序列并行纠缠NV中心与三个¹³C核自旋；Nature Nanotechnology报道室温金刚石NV中心量子寄存器：以单一XY8动态解耦序列并行控制三个弱耦合¹³C核自旋，在14.8 μs内生成四比特GHZ态，速度约为串行双比特门的10倍；多量子相干验证给出0.92(4)保真度。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "单一XY8序列并行纠缠NV中心与三个¹³C核自旋；Nature Nanotechnology报道室温金刚石NV中心量子寄存器：以单一XY8动态解耦序列并行控制三个弱耦合¹³C核自旋，在14.8 μs内生成四比特GHZ态，速度约为串行双比特门的10倍；多量子相干验证给出0.92(4)保真度。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "单一XY8序列并行纠缠NV中心与三个¹³C核自旋",
+        "original_summary_cn": "Nature Nanotechnology报道室温金刚石NV中心量子寄存器：以单一XY8动态解耦序列并行控制三个弱耦合¹³C核自旋，在14.8 μs内生成四比特GHZ态，速度约为串行双比特门的10倍；多量子相干验证给出0.92(4)保真度。",
+        "original_meaning_cn": "复现实验需记录静磁场取向、NV与¹³C超精细耦合、XY8脉冲数和单元延迟、微波π脉冲误差及光学初始化/读出效率。并行门应与同一寄存器的串行方案比较总门时和串扰，并用多量子相干相位扫描、读出校正及脉冲层析共同核验保真度。",
+        "original_tags": [
+          "NMR＋EPR",
+          "脉冲EPR",
+          "材料",
+          "仪器、软件与方法"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260915-02",
+      "report_date": "2026-09-15",
+      "item_no": 2,
+      "title_cn": "二维NMR与QMSA修订β-咔啉天然产物结构",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "natural_products",
+        "process_analysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Frontiers in Natural Products以500/600 MHz一维与二维NMR重新研究Galianthe thalictroides根部成分，结合COSY、edited-HSQC、HMBC、NOESY及量子力学全谱分析，分离三个新化合物并修订两种β-咔啉结构；QMSA进一步优化化学位移与J耦合。",
+      "meaning_cn": "结构复核应保留原始FID、溶剂和参照，并在相同温度下完成COSY、HSQC、HMBC与NOESY流程归属。低量样品可使用5 mm冷探头和自动进样器，但QMSA拟合须报告起始结构、线宽、强耦合处理及残差；相对构型仍应由关键NOE和替代结构共同验证。",
+      "publication_date": "2026-09-14",
+      "time_scope": "24h",
+      "source": "Frontiers in Natural Products",
+      "url": "https://www.frontiersin.org/journals/natural-products/articles/10.3389/fntpr.2026.1840056/full",
+      "doi": "10.3389/fntpr.2026.1840056",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-15",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-15.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "计算NMR",
+          "化学结构",
+          "天然产物",
+          "生命科学"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-15.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "二维NMR与QMSA修订β-咔啉天然产物结构；Frontiers in Natural Products以500/600 MHz一维与二维NMR重新研究Galianthe thalictroides根部成分，结合COSY、edited-HSQC、HMBC、NOESY及量子力学全谱分析，分离三个新化合物并修订两种β-咔啉结构；QMSA进一步优化化学位移与J耦合。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "二维NMR与QMSA修订β-咔啉天然产物结构；Frontiers in Natural Products以500/600 MHz一维与二维NMR重新研究Galianthe thalictroides根部成分，结合COSY、edited-HSQC、HMBC、NOESY及量子力学全谱分析，分离三个新化合物并修订两种β-咔啉结构；QMSA进一步优化化学位移与J耦合。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "二维NMR与QMSA修订β-咔啉天然产物结构；Frontiers in Natural Products以500/600 MHz一维与二维NMR重新研究Galianthe thalictroides根部成分，结合COSY、edited-HSQC、HMBC、NOESY及量子力学全谱分析，分离三个新化合物并修订两种β-咔啉结构；QMSA进一步优化化学位移与J耦合。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "natural_products",
+          "dimension": "application_ids",
+          "basis": "二维NMR与QMSA修订β-咔啉天然产物结构；Frontiers in Natural Products以500/600 MHz一维与二维NMR重新研究Galianthe thalictroides根部成分，结合COSY、edited-HSQC、HMBC、NOESY及量子力学全谱分析，分离三个新化合物并修订两种β-咔啉结构；QMSA进一步优化化学位移与J耦合。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "process_analysis",
+          "dimension": "application_ids",
+          "basis": "二维NMR与QMSA修订β-咔啉天然产物结构；Frontiers in Natural Products以500/600 MHz一维与二维NMR重新研究Galianthe thalictroides根部成分，结合COSY、edited-HSQC、HMBC、NOESY及量子力学全谱分析，分离三个新化合物并修订两种β-咔啉结构；QMSA进一步优化化学位移与J耦合。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "二维NMR与QMSA修订β-咔啉天然产物结构",
+        "original_summary_cn": "Frontiers in Natural Products以500/600 MHz一维与二维NMR重新研究Galianthe thalictroides根部成分，结合COSY、edited-HSQC、HMBC、NOESY及量子力学全谱分析，分离三个新化合物并修订两种β-咔啉结构；QMSA进一步优化化学位移与J耦合。",
+        "original_meaning_cn": "结构复核应保留原始FID、溶剂和参照，并在相同温度下完成COSY、HSQC、HMBC与NOESY闭环归属。低量样品可使用5 mm冷探头和自动进样器，但QMSA拟合须报告起始结构、线宽、强耦合处理及残差；相对构型仍应由关键NOE和替代结构共同验证。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "计算NMR",
+          "化学结构",
+          "天然产物",
+          "生命科学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260915-03",
+      "report_date": "2026-09-15",
+      "item_no": 3,
+      "title_cn": "SMASH 2026启动小分子NMR方法与结构解析交流",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "SMASH 2026于9月13日在美国科罗拉多州Breckenridge启动，会期至16日，并于17日增设小分子结构解析工作坊。官方内容聚焦最新NMR方法、应用和软硬件，工作坊以真实一维/二维谱图训练实验选择、交叉峰解释及结构确认。",
+      "meaning_cn": "参加或转化此类方案时，建议按问题建立最小实验集：先用¹H、¹³C及HSQC确定骨架，再依据长程连接、立体关系和交换行为选择HMBC、NOESY/ROESY或变温实验。案例交流应同时记录浓度、溶剂、场强、探头与采集时间，避免只比较最终结构结论。",
+      "publication_date": "2026-09-13",
+      "time_scope": "7d_extension",
+      "source": "SMASH NMR",
+      "url": "https://smashnmr.org/",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-15",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-15.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "化学结构",
+          "药物分析",
+          "教育培训"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-15.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "SMASH 2026启动小分子NMR方法与结构解析交流；SMASH 2026于9月13日在美国科罗拉多州Breckenridge启动，会期至16日，并于17日增设小分子结构解析工作坊。官方内容聚焦最新NMR方法、应用和软硬件，工作坊以真实一维/二维谱图训练实验选择、交叉峰解释及结构确认。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "SMASH 2026启动小分子NMR方法与结构解析交流；SMASH 2026于9月13日在美国科罗拉多州Breckenridge启动，会期至16日，并于17日增设小分子结构解析工作坊。官方内容聚焦最新NMR方法、应用和软硬件，工作坊以真实一维/二维谱图训练实验选择、交叉峰解释及结构确认。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "SMASH 2026启动小分子NMR方法与结构解析交流；SMASH 2026于9月13日在美国科罗拉多州Breckenridge启动，会期至16日，并于17日增设小分子结构解析工作坊。官方内容聚焦最新NMR方法、应用和软硬件，工作坊以真实一维/二维谱图训练实验选择、交叉峰解释及结构确认。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "SMASH 2026启动小分子NMR方法与结构解析交流；SMASH 2026于9月13日在美国科罗拉多州Breckenridge启动，会期至16日，并于17日增设小分子结构解析工作坊。官方内容聚焦最新NMR方法、应用和软硬件，工作坊以真实一维/二维谱图训练实验选择、交叉峰解释及结构确认。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "SMASH 2026启动小分子NMR方法与结构解析交流",
+        "original_summary_cn": "SMASH 2026于9月13日在美国科罗拉多州Breckenridge启动，会期至16日，并于17日增设小分子结构解析工作坊。官方内容聚焦最新NMR方法、应用和软硬件，工作坊以真实一维/二维谱图训练实验选择、交叉峰解释及结构确认。",
+        "original_meaning_cn": "参加或转化此类方案时，建议按问题建立最小实验集：先用¹H、¹³C及HSQC确定骨架，再依据长程连接、立体关系和交换行为选择HMBC、NOESY/ROESY或变温实验。案例交流应同时记录浓度、溶剂、场强、探头与采集时间，避免只比较最终结构结论。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "化学结构",
+          "药物分析",
+          "教育培训"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260915-04",
+      "report_date": "2026-09-15",
+      "item_no": 4,
+      "title_cn": "Bruker在SMASH展示ACP 2.0与TopSpin 5自动化流程",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "benchtop_nmr",
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "Bruker于9月13日SMASH用户会上安排ACP 2.0自动定量、TopSpin技巧与产品更新，并展示TopSpin 5/SpinPilot自动化、Fourier 80 Duo台式¹H/¹³C梯度NMR、AVANCE NEO-X控制台及Dynamis超极化方案，重点面向提高仪器利用率与批量工作流。",
+      "meaning_cn": "评估升级应以同一标准样和批量队列比较旧/新流程的匀场、调谐、峰识别、积分偏差、失败恢复与单样周转时间。ACP定量需锁定校准物、弛豫延迟和报告模板；SpinPilot还应验证权限、队列优先级、数据命名及与TopSpin版本的兼容性。",
+      "publication_date": "2026-09-13",
+      "time_scope": "7d_extension",
+      "source": "Bruker",
+      "url": "https://www.bruker.com/en/news-and-events/events/smash.html",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-15",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-15.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "台式NMR",
+          "qNMR",
+          "多核NMR",
+          "仪器、软件与方法",
+          "过程分析",
+          "化学结构",
+          "教育培训"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-15.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "Bruker在SMASH展示ACP 2.0与TopSpin 5自动化流程；Bruker于9月13日SMASH用户会上安排ACP 2.0自动定量、TopSpin技巧与产品更新，并展示TopSpin 5/SpinPilot自动化、Fourier 80 Duo台式¹H/¹³C梯度NMR、AVANCE NEO-X控制台及Dynamis超极化方案，重点面向提高仪器利用率与批量工作流。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "benchtop_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "Bruker在SMASH展示ACP 2.0与TopSpin 5自动化流程；Bruker于9月13日SMASH用户会上安排ACP 2.0自动定量、TopSpin技巧与产品更新，并展示TopSpin 5/SpinPilot自动化、Fourier 80 Duo台式¹H/¹³C梯度NMR、AVANCE NEO-X控制台及Dynamis超极化方案，重点面向提高仪器利用率与批量工作流。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "Bruker在SMASH展示ACP 2.0与TopSpin 5自动化流程；Bruker于9月13日SMASH用户会上安排ACP 2.0自动定量、TopSpin技巧与产品更新，并展示TopSpin 5/SpinPilot自动化、Fourier 80 Duo台式¹H/¹³C梯度NMR、AVANCE NEO-X控制台及Dynamis超极化方案，重点面向提高仪器利用率与批量工作流。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "Bruker在SMASH展示ACP 2.0与TopSpin 5自动化流程；Bruker于9月13日SMASH用户会上安排ACP 2.0自动定量、TopSpin技巧与产品更新，并展示TopSpin 5/SpinPilot自动化、Fourier 80 Duo台式¹H/¹³C梯度NMR、AVANCE NEO-X控制台及Dynamis超极化方案，重点面向提高仪器利用率与批量工作流。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "Bruker在SMASH展示ACP 2.0与TopSpin 5自动化流程；Bruker于9月13日SMASH用户会上安排ACP 2.0自动定量、TopSpin技巧与产品更新，并展示TopSpin 5/SpinPilot自动化、Fourier 80 Duo台式¹H/¹³C梯度NMR、AVANCE NEO-X控制台及Dynamis超极化方案，重点面向提高仪器利用率与批量工作流。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Bruker在SMASH展示ACP 2.0与TopSpin 5自动化流程",
+        "original_summary_cn": "Bruker于9月13日SMASH用户会上安排ACP 2.0自动定量、TopSpin技巧与产品更新，并展示TopSpin 5/SpinPilot自动化、Fourier 80 Duo台式¹H/¹³C梯度NMR、AVANCE NEO-X控制台及Dynamis超极化方案，重点面向提高仪器利用率与批量工作流。",
+        "original_meaning_cn": "评估升级应以同一标准样和批量队列比较旧/新流程的匀场、调谐、峰识别、积分偏差、失败恢复与单样周转时间。ACP定量需锁定校准物、弛豫延迟和报告模板；SpinPilot还应验证权限、队列优先级、数据命名及与TopSpin版本的兼容性。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "台式NMR",
+          "qNMR",
+          "多核NMR",
+          "仪器、软件与方法",
+          "过程分析",
+          "化学结构",
+          "教育培训"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260915-05",
+      "report_date": "2026-09-15",
+      "item_no": 5,
+      "title_cn": "SciY用户会预览Mnova 17与NMR预测型LLM",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "computation_nmr",
+        "spectral_processing"
+      ],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [
+        "software"
+      ],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "SciY/Mestrelab于9月13日SMASH用户会介绍Mnova 17新增功能、LOGS数据管理与多厂商NMR工作流，并设置“LLMs for NMR prediction”专题。议程把谱图处理、预测、自动化和数据治理放在同一链路，面向研发实验室的可追溯结构分析。",
+      "meaning_cn": "软件试用不应只比较界面或单谱效果，应准备含重叠峰、杂质和不同厂商格式的盲测集，分别评估相位/基线、峰拾取、化学位移预测和候选排序。LLM输出必须保留模型版本、输入谱图、结构约束与人工修改记录，并用未参与训练的实验谱验证。",
+      "publication_date": "2026-09-13",
+      "time_scope": "7d_extension",
+      "source": "SciY / Mestrelab Research",
+      "url": "https://labrulez.com/en-us/all/events/1380",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-15",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-15.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "计算NMR",
+          "化学结构",
+          "仪器、软件与方法",
+          "教育培训"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-15.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "SciY用户会预览Mnova 17与NMR预测型LLM；SciY/Mestrelab于9月13日SMASH用户会介绍Mnova 17新增功能、LOGS数据管理与多厂商NMR工作流，并设置“LLMs for NMR prediction”专题。议程把谱图处理、预测、自动化和数据治理放在同一链路，面向研发实验室的可追溯结构分析。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "SciY用户会预览Mnova 17与NMR预测型LLM；SciY/Mestrelab于9月13日SMASH用户会介绍Mnova 17新增功能、LOGS数据管理与多厂商NMR工作流，并设置“LLMs for NMR prediction”专题。议程把谱图处理、预测、自动化和数据治理放在同一链路，面向研发实验室的可追溯结构分析。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "computation_nmr",
+          "dimension": "method_ids",
+          "basis": "SciY用户会预览Mnova 17与NMR预测型LLM；SciY/Mestrelab于9月13日SMASH用户会介绍Mnova 17新增功能、LOGS数据管理与多厂商NMR工作流，并设置“LLMs for NMR prediction”专题。议程把谱图处理、预测、自动化和数据治理放在同一链路，面向研发实验室的可追溯结构分析。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spectral_processing",
+          "dimension": "method_ids",
+          "basis": "SciY用户会预览Mnova 17与NMR预测型LLM；SciY/Mestrelab于9月13日SMASH用户会介绍Mnova 17新增功能、LOGS数据管理与多厂商NMR工作流，并设置“LLMs for NMR prediction”专题。议程把谱图处理、预测、自动化和数据治理放在同一链路，面向研发实验室的可追溯结构分析。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "SciY用户会预览Mnova 17与NMR预测型LLM；SciY/Mestrelab于9月13日SMASH用户会介绍Mnova 17新增功能、LOGS数据管理与多厂商NMR工作流，并设置“LLMs for NMR prediction”专题。议程把谱图处理、预测、自动化和数据治理放在同一链路，面向研发实验室的可追溯结构分析。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "software",
+          "dimension": "instrument_component_ids",
+          "basis": "SciY用户会预览Mnova 17与NMR预测型LLM；SciY/Mestrelab于9月13日SMASH用户会介绍Mnova 17新增功能、LOGS数据管理与多厂商NMR工作流，并设置“LLMs for NMR prediction”专题。议程把谱图处理、预测、自动化和数据治理放在同一链路，面向研发实验室的可追溯结构分析。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "SciY用户会预览Mnova 17与NMR预测型LLM",
+        "original_summary_cn": "SciY/Mestrelab于9月13日SMASH用户会介绍Mnova 17新增功能、LOGS数据管理与多厂商NMR工作流，并设置“LLMs for NMR prediction”专题。议程把谱图处理、预测、自动化和数据治理放在同一链路，面向研发实验室的可追溯结构分析。",
+        "original_meaning_cn": "软件试用不应只比较界面或单谱效果，应准备含重叠峰、杂质和不同厂商格式的盲测集，分别评估相位/基线、峰拾取、化学位移预测和候选排序。LLM输出必须保留模型版本、输入谱图、结构约束与人工修改记录，并用未参与训练的实验谱验证。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "计算NMR",
+          "化学结构",
+          "仪器、软件与方法",
+          "教育培训"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260915-06",
+      "report_date": "2026-09-15",
+      "item_no": 6,
+      "title_cn": "ACD/Labs以现场案例检验NMR自动结构验证",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "computation_nmr",
+        "spectral_processing"
+      ],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [
+        "software"
+      ],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "ACD/Labs在9月13—16日SMASH 2026展示“Automated Structure Verification: Experiences from the Field”海报，讨论利用谱图处理算法、NMR预测和仪器数据质量，对候选结构自动给出通过/不通过判断，目标是减少重复人工审谱并提高决策一致性。",
+      "meaning_cn": "部署ASV前应建立包含正确结构、位置异构体、立体异构体和常见杂质的本地验证集，明确一维/二维谱的最低输入要求。验收需分别报告真阳性、误拒绝、无法判定比例和人工复核时间；任何自动结论都应保留原始FID、处理参数、预测版本及差异峰证据。",
+      "publication_date": "2026-09-13",
+      "time_scope": "7d_extension",
+      "source": "ACD/Labs",
+      "url": "https://www.acdlabs.com/events/smash-2026-small-molecule-nmr-conference/",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-15",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-15.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "计算NMR",
+          "化学结构",
+          "药物分析",
+          "过程分析"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-15.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "ACD/Labs以现场案例检验NMR自动结构验证；ACD/Labs在9月13—16日SMASH 2026展示“Automated Structure Verification: Experiences from the Field”海报，讨论利用谱图处理算法、NMR预测和仪器数据质量，对候选结构自动给出通过/不通过判断，目标是减少重复人工审谱并提高决策一致性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "ACD/Labs以现场案例检验NMR自动结构验证；ACD/Labs在9月13—16日SMASH 2026展示“Automated Structure Verification: Experiences from the Field”海报，讨论利用谱图处理算法、NMR预测和仪器数据质量，对候选结构自动给出通过/不通过判断，目标是减少重复人工审谱并提高决策一致性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "computation_nmr",
+          "dimension": "method_ids",
+          "basis": "ACD/Labs以现场案例检验NMR自动结构验证；ACD/Labs在9月13—16日SMASH 2026展示“Automated Structure Verification: Experiences from the Field”海报，讨论利用谱图处理算法、NMR预测和仪器数据质量，对候选结构自动给出通过/不通过判断，目标是减少重复人工审谱并提高决策一致性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spectral_processing",
+          "dimension": "method_ids",
+          "basis": "ACD/Labs以现场案例检验NMR自动结构验证；ACD/Labs在9月13—16日SMASH 2026展示“Automated Structure Verification: Experiences from the Field”海报，讨论利用谱图处理算法、NMR预测和仪器数据质量，对候选结构自动给出通过/不通过判断，目标是减少重复人工审谱并提高决策一致性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "ACD/Labs以现场案例检验NMR自动结构验证；ACD/Labs在9月13—16日SMASH 2026展示“Automated Structure Verification: Experiences from the Field”海报，讨论利用谱图处理算法、NMR预测和仪器数据质量，对候选结构自动给出通过/不通过判断，目标是减少重复人工审谱并提高决策一致性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "software",
+          "dimension": "instrument_component_ids",
+          "basis": "ACD/Labs以现场案例检验NMR自动结构验证；ACD/Labs在9月13—16日SMASH 2026展示“Automated Structure Verification: Experiences from the Field”海报，讨论利用谱图处理算法、NMR预测和仪器数据质量，对候选结构自动给出通过/不通过判断，目标是减少重复人工审谱并提高决策一致性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "ACD/Labs以现场案例检验NMR自动结构验证",
+        "original_summary_cn": "ACD/Labs在9月13—16日SMASH 2026展示“Automated Structure Verification: Experiences from the Field”海报，讨论利用谱图处理算法、NMR预测和仪器数据质量，对候选结构自动给出通过/不通过判断，目标是减少重复人工审谱并提高决策一致性。",
+        "original_meaning_cn": "部署ASV前应建立包含正确结构、位置异构体、立体异构体和常见杂质的本地验证集，明确一维/二维谱的最低输入要求。验收需分别报告真阳性、误拒绝、无法判定比例和人工复核时间；任何自动结论都应保留原始FID、处理参数、预测版本及差异峰证据。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "计算NMR",
+          "化学结构",
+          "药物分析",
+          "过程分析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "范围说明：常规检索在过去24小时内确认到2条符合发布日期、相关性与查重要求的新增信息，少于5条，已依次执行增强检索和第二级深度增强检索。检索逐日回扫2026年9月8日至14日，逐站核验专业期刊、预印本与文献元数据、仪器厂商、专业会议及中外采购公告，并按液体NMR、固体NMR/MAS/DNP、低场与TD-NMR、谱图处理、CW与rapid-scan EPR、脉冲EPR/DEER/ENDOR/ESEEM/HYSCORE、TREPR、operando/EC-EPR及仪器部件逐组检索。本期最终收录6条：2条为9月14日在线发表的近24小时信息，4条为9月13日发生的近7天扩展。结合最近7期正文与项目索引查重，排除27条既有记录；另排除23条日期无法独立确认、常驻产品页、仅更新卷期、医学MRI、缩写误检或仅将NMR/EPR作为辅助表征的候选。最终不足10条主要来自周一清晨部分平台尚未完成索引、近7天高价值论文已被连续日报覆盖，以及可核验新增集中于同一专业会议。\n\n待复核标签：NV中心量子寄存器、QMSA/HiFSA、ACP 2.0、Mnova 17与自动结构验证保留在样品体系和正文中，未创建新的正式ID。",
+    "source_sha256": "2f60845a63827df7690050a339ccd3729a3a823142db9f89c50f7a495c87a24d",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

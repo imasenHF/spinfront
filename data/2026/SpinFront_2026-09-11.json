@@ -1,0 +1,1106 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-11",
+  "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260911-01",
+      "report_date": "2026-09-11",
+      "item_no": 1,
+      "title_cn": "低场NMR与EPR联合修正页岩束缚水孔径解释",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Molecules研究以一维、二维低场TD-NMR结合EPR与分子动力学，分离页岩界面水的分子受限和顺磁弛豫贡献。样品中有效横向表面弛豫率为3.6—9.1 μm/s；引入EPR测得的顺磁中心密度后，孔径换算误差显著降低。",
+      "meaning_cn": "应用于岩心或测井解释时，不能把表面弛豫率设为统一常数。需同步记录T1–T2采集参数、最短回波时间、含水状态、黏土组成和EPR自旋浓度；建立岩性分组标定后，再把T2分布换算为孔径与束缚水比例。",
+      "publication_date": "2026-09-10",
+      "time_scope": "24h",
+      "source": "Molecules",
+      "url": "https://www.mdpi.com/1420-3049/31/18/3185",
+      "doi": "10.3390/molecules31183185",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-11",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-11.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR＋EPR",
+          "TD-NMR",
+          "连续波EPR",
+          "地学与流动",
+          "材料"
+        ],
+        "original_type": "TD-NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-11.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "低场NMR与EPR联合修正页岩束缚水孔径解释；Molecules研究以一维、二维低场TD-NMR结合EPR与分子动力学，分离页岩界面水的分子受限和顺磁弛豫贡献。样品中有效横向表面弛豫率为3.6—9.1 μm/s；引入EPR测得的顺磁中心密度后，孔径换算误差显著降低。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "td_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "低场NMR与EPR联合修正页岩束缚水孔径解释；Molecules研究以一维、二维低场TD-NMR结合EPR与分子动力学，分离页岩界面水的分子受限和顺磁弛豫贡献。样品中有效横向表面弛豫率为3.6—9.1 μm/s；引入EPR测得的顺磁中心密度后，孔径换算误差显著降低。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "低场NMR与EPR联合修正页岩束缚水孔径解释；Molecules研究以一维、二维低场TD-NMR结合EPR与分子动力学，分离页岩界面水的分子受限和顺磁弛豫贡献。样品中有效横向表面弛豫率为3.6—9.1 μm/s；引入EPR测得的顺磁中心密度后，孔径换算误差显著降低。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "geoscience_flow",
+          "dimension": "application_ids",
+          "basis": "低场NMR与EPR联合修正页岩束缚水孔径解释；Molecules研究以一维、二维低场TD-NMR结合EPR与分子动力学，分离页岩界面水的分子受限和顺磁弛豫贡献。样品中有效横向表面弛豫率为3.6—9.1 μm/s；引入EPR测得的顺磁中心密度后，孔径换算误差显著降低。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "低场NMR与EPR联合修正页岩束缚水孔径解释",
+        "original_summary_cn": "Molecules研究以一维、二维低场TD-NMR结合EPR与分子动力学，分离页岩界面水的分子受限和顺磁弛豫贡献。样品中有效横向表面弛豫率为3.6—9.1 μm/s；引入EPR测得的顺磁中心密度后，孔径换算误差显著降低。",
+        "original_meaning_cn": "应用于岩心或测井解释时，不能把表面弛豫率设为统一常数。需同步记录T1–T2采集参数、最短回波时间、含水状态、黏土组成和EPR自旋浓度；建立岩性分组标定后，再把T2分布换算为孔径与束缚水比例。",
+        "original_tags": [
+          "NMR＋EPR",
+          "TD-NMR",
+          "连续波EPR",
+          "地学与流动",
+          "材料"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260911-02",
+      "report_date": "2026-09-11",
+      "item_no": 2,
+      "title_cn": "多频EPR与²³Na MAS NMR拆分硬碳储钠路径",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [
+        "cw_epr",
+        "pulsed_epr",
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "hyscore",
+        "mas"
+      ],
+      "application_ids": [
+        "battery"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "JACS以X/Q波段CW-EPR、脉冲回波、HYSCORE及²³Na MAS NMR解析硬碳负极。三类EPR组分分别对应嵌入相关电子、准金属钠和局域自由基；低于0.0148 V出现金属钠，HYSCORE的¹H耦合则支持Na⁺–溶剂共嵌。",
+      "meaning_cn": "复现实验应按荷电状态惰性转移并冻结样品，统一X/Q波段功率、温度和谱图定量。²³Na MAS需覆盖离子峰及500—700 ppm Knight位移区；HYSCORE要报告场位、τ值和死时间，并与电压、循环数及电解液体系逐点对应。",
+      "publication_date": "2026-09-09",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://pubs.acs.org/doi/10.1021/jacs.6c08138",
+      "doi": "10.1021/jacs.6c08138",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-11",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-11.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR＋EPR",
+          "固体NMR",
+          "连续波EPR",
+          "脉冲EPR",
+          "多核NMR",
+          "缺陷EPR",
+          "电化学与能源",
+          "电池",
+          "材料"
+        ],
+        "original_type": "固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-11.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "多频EPR与²³Na MAS NMR拆分硬碳储钠路径；JACS以X/Q波段CW-EPR、脉冲回波、HYSCORE及²³Na MAS NMR解析硬碳负极。三类EPR组分分别对应嵌入相关电子、准金属钠和局域自由基；低于0.0148 V出现金属钠，HYSCORE的¹H耦合则支持Na⁺–溶剂共嵌。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "cw_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "多频EPR与²³Na MAS NMR拆分硬碳储钠路径；JACS以X/Q波段CW-EPR、脉冲回波、HYSCORE及²³Na MAS NMR解析硬碳负极。三类EPR组分分别对应嵌入相关电子、准金属钠和局域自由基；低于0.0148 V出现金属钠，HYSCORE的¹H耦合则支持Na⁺–溶剂共嵌。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "多频EPR与²³Na MAS NMR拆分硬碳储钠路径；JACS以X/Q波段CW-EPR、脉冲回波、HYSCORE及²³Na MAS NMR解析硬碳负极。三类EPR组分分别对应嵌入相关电子、准金属钠和局域自由基；低于0.0148 V出现金属钠，HYSCORE的¹H耦合则支持Na⁺–溶剂共嵌。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "多频EPR与²³Na MAS NMR拆分硬碳储钠路径；JACS以X/Q波段CW-EPR、脉冲回波、HYSCORE及²³Na MAS NMR解析硬碳负极。三类EPR组分分别对应嵌入相关电子、准金属钠和局域自由基；低于0.0148 V出现金属钠，HYSCORE的¹H耦合则支持Na⁺–溶剂共嵌。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "hyscore",
+          "dimension": "method_ids",
+          "basis": "多频EPR与²³Na MAS NMR拆分硬碳储钠路径；JACS以X/Q波段CW-EPR、脉冲回波、HYSCORE及²³Na MAS NMR解析硬碳负极。三类EPR组分分别对应嵌入相关电子、准金属钠和局域自由基；低于0.0148 V出现金属钠，HYSCORE的¹H耦合则支持Na⁺–溶剂共嵌。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "mas",
+          "dimension": "method_ids",
+          "basis": "多频EPR与²³Na MAS NMR拆分硬碳储钠路径；JACS以X/Q波段CW-EPR、脉冲回波、HYSCORE及²³Na MAS NMR解析硬碳负极。三类EPR组分分别对应嵌入相关电子、准金属钠和局域自由基；低于0.0148 V出现金属钠，HYSCORE的¹H耦合则支持Na⁺–溶剂共嵌。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "battery",
+          "dimension": "application_ids",
+          "basis": "多频EPR与²³Na MAS NMR拆分硬碳储钠路径；JACS以X/Q波段CW-EPR、脉冲回波、HYSCORE及²³Na MAS NMR解析硬碳负极。三类EPR组分分别对应嵌入相关电子、准金属钠和局域自由基；低于0.0148 V出现金属钠，HYSCORE的¹H耦合则支持Na⁺–溶剂共嵌。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "多频EPR与²³Na MAS NMR拆分硬碳储钠路径",
+        "original_summary_cn": "JACS以X/Q波段CW-EPR、脉冲回波、HYSCORE及²³Na MAS NMR解析硬碳负极。三类EPR组分分别对应嵌入相关电子、准金属钠和局域自由基；低于0.0148 V出现金属钠，HYSCORE的¹H耦合则支持Na⁺–溶剂共嵌。",
+        "original_meaning_cn": "复现实验应按荷电状态惰性转移并冻结样品，统一X/Q波段功率、温度和谱图定量。²³Na MAS需覆盖离子峰及500—700 ppm Knight位移区；HYSCORE要报告场位、τ值和死时间，并与电压、循环数及电解液体系逐点对应。",
+        "original_tags": [
+          "NMR＋EPR",
+          "固体NMR",
+          "连续波EPR",
+          "脉冲EPR",
+          "多核NMR",
+          "缺陷EPR",
+          "电化学与能源",
+          "电池",
+          "材料"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260911-03",
+      "report_date": "2026-09-11",
+      "item_no": 3,
+      "title_cn": "³¹P间接检测与DNP读出负载型催化剂¹⁸³W位点",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "dnp",
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "catalysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "JACS用³¹P间接检测和DNP表面增强¹⁸³W固体NMR，获取分子及负载型钨烷基叉配合物的钨位点指纹。方法区分WOx/SiO₂上的两类Lewis酸性表面W位点；约30%的孤立二氧位点可配位PMe₃并进入检测窗口。",
+      "meaning_cn": "方案需明确PMe3探针吸附量、是否改变原始位点、DNP自由基和低温条件，并分别采集直接¹⁸³W与³¹P间接检测对照。定量位点比例时要校正不同转移效率、弛豫和不可接近位点，不能把可检测比例等同于全部活性位。",
+      "publication_date": "2026-09-08",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://pubs.acs.org/doi/10.1021/jacs.6c13173",
+      "doi": "10.1021/jacs.6c13173",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-11",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-11.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "催化",
+          "无机配位",
+          "材料"
+        ],
+        "original_type": "固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-11.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "³¹P间接检测与DNP读出负载型催化剂¹⁸³W位点；JACS用³¹P间接检测和DNP表面增强¹⁸³W固体NMR，获取分子及负载型钨烷基叉配合物的钨位点指纹。方法区分WOx/SiO₂上的两类Lewis酸性表面W位点；约30%的孤立二氧位点可配位PMe₃并进入检测窗口。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "³¹P间接检测与DNP读出负载型催化剂¹⁸³W位点；JACS用³¹P间接检测和DNP表面增强¹⁸³W固体NMR，获取分子及负载型钨烷基叉配合物的钨位点指纹。方法区分WOx/SiO₂上的两类Lewis酸性表面W位点；约30%的孤立二氧位点可配位PMe₃并进入检测窗口。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "dnp",
+          "dimension": "method_ids",
+          "basis": "³¹P间接检测与DNP读出负载型催化剂¹⁸³W位点；JACS用³¹P间接检测和DNP表面增强¹⁸³W固体NMR，获取分子及负载型钨烷基叉配合物的钨位点指纹。方法区分WOx/SiO₂上的两类Lewis酸性表面W位点；约30%的孤立二氧位点可配位PMe₃并进入检测窗口。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "³¹P间接检测与DNP读出负载型催化剂¹⁸³W位点；JACS用³¹P间接检测和DNP表面增强¹⁸³W固体NMR，获取分子及负载型钨烷基叉配合物的钨位点指纹。方法区分WOx/SiO₂上的两类Lewis酸性表面W位点；约30%的孤立二氧位点可配位PMe₃并进入检测窗口。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "catalysis",
+          "dimension": "application_ids",
+          "basis": "³¹P间接检测与DNP读出负载型催化剂¹⁸³W位点；JACS用³¹P间接检测和DNP表面增强¹⁸³W固体NMR，获取分子及负载型钨烷基叉配合物的钨位点指纹。方法区分WOx/SiO₂上的两类Lewis酸性表面W位点；约30%的孤立二氧位点可配位PMe₃并进入检测窗口。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "³¹P间接检测与DNP读出负载型催化剂¹⁸³W位点",
+        "original_summary_cn": "JACS用³¹P间接检测和DNP表面增强¹⁸³W固体NMR，获取分子及负载型钨烷基叉配合物的钨位点指纹。方法区分WOx/SiO₂上的两类Lewis酸性表面W位点；约30%的孤立二氧位点可配位PMe₃并进入检测窗口。",
+        "original_meaning_cn": "方案需明确PMe3探针吸附量、是否改变原始位点、DNP自由基和低温条件，并分别采集直接¹⁸³W与³¹P间接检测对照。定量位点比例时要校正不同转移效率、弛豫和不可接近位点，不能把可检测比例等同于全部活性位。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "催化",
+          "无机配位",
+          "材料"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260911-04",
+      "report_date": "2026-09-11",
+      "item_no": 4,
+      "title_cn": "含氟环铑探针实现胺与腈的免分离¹⁹F NMR手性分析",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Analytical Chemistry报道带CF₃报告基的环铑(III)探针。胺醇、伯胺或腈直接混合后，在慢交换条件下产生分离的¹⁹F信号，最高分辨度Rs为92.4；单管可分辨五组分胺或六组分腈，并可直接测定粗反应液ee值。",
+      "meaning_cn": "方法转移需固定探针/分析物比例、溶剂、温度、平衡时间和¹⁹F参照，先检查交换速率与配位竞争。定量ee应验证峰积分线性、松弛延迟和低丰度对映体检出限；复杂粗品还需设置无探针对照排查含氟杂质。",
+      "publication_date": "2026-09-09",
+      "time_scope": "7d_extension",
+      "source": "Analytical Chemistry",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.analchem.6c04189",
+      "doi": "10.1021/acs.analchem.6c04189",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-11",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-11.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "qNMR",
+          "多核NMR",
+          "药物分析",
+          "化学结构",
+          "过程分析"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-11.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "含氟环铑探针实现胺与腈的免分离¹⁹F NMR手性分析；Analytical Chemistry报道带CF₃报告基的环铑(III)探针。胺醇、伯胺或腈直接混合后，在慢交换条件下产生分离的¹⁹F信号，最高分辨度Rs为92.4；单管可分辨五组分胺或六组分腈，并可直接测定粗反应液ee值。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "含氟环铑探针实现胺与腈的免分离¹⁹F NMR手性分析；Analytical Chemistry报道带CF₃报告基的环铑(III)探针。胺醇、伯胺或腈直接混合后，在慢交换条件下产生分离的¹⁹F信号，最高分辨度Rs为92.4；单管可分辨五组分胺或六组分腈，并可直接测定粗反应液ee值。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "含氟环铑探针实现胺与腈的免分离¹⁹F NMR手性分析；Analytical Chemistry报道带CF₃报告基的环铑(III)探针。胺醇、伯胺或腈直接混合后，在慢交换条件下产生分离的¹⁹F信号，最高分辨度Rs为92.4；单管可分辨五组分胺或六组分腈，并可直接测定粗反应液ee值。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "含氟环铑探针实现胺与腈的免分离¹⁹F NMR手性分析",
+        "original_summary_cn": "Analytical Chemistry报道带CF₃报告基的环铑(III)探针。胺醇、伯胺或腈直接混合后，在慢交换条件下产生分离的¹⁹F信号，最高分辨度Rs为92.4；单管可分辨五组分胺或六组分腈，并可直接测定粗反应液ee值。",
+        "original_meaning_cn": "方法转移需固定探针/分析物比例、溶剂、温度、平衡时间和¹⁹F参照，先检查交换速率与配位竞争。定量ee应验证峰积分线性、松弛延迟和低丰度对映体检出限；复杂粗品还需设置无探针对照排查含氟杂质。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "qNMR",
+          "多核NMR",
+          "药物分析",
+          "化学结构",
+          "过程分析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260911-05",
+      "report_date": "2026-09-11",
+      "item_no": 5,
+      "title_cn": "一维与二维固体NMR区分天然树皮木栓质的脂肪链环境",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Biomacromolecules以一维和二维固体NMR直接研究完整柳树树皮中的木栓质。30与33 ppm两组亚甲基呈不同局部环境：前者化学异质性更高、靠近烯烃/芳香区且更易接触水；后者环境较均一、链段运动受限且水可及性较低。",
+      "meaning_cn": "实验需保持树皮含水量、粉碎程度和热历史一致，报告MAS转速、CP接触时间、弛豫及二维混合时间。30/33 ppm峰的比例应结合直接激发谱和水合系列解释，并以多接触时间或弛豫数据排除CP效率差异。",
+      "publication_date": "2026-09-08",
+      "time_scope": "7d_extension",
+      "source": "Biomacromolecules",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.biomac.6c01651",
+      "doi": "10.1021/acs.biomac.6c01651",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-11",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-11.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多维NMR",
+          "多核NMR",
+          "材料",
+          "聚合物",
+          "生命科学"
+        ],
+        "original_type": "固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-11.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "一维与二维固体NMR区分天然树皮木栓质的脂肪链环境；Biomacromolecules以一维和二维固体NMR直接研究完整柳树树皮中的木栓质。30与33 ppm两组亚甲基呈不同局部环境：前者化学异质性更高、靠近烯烃/芳香区且更易接触水；后者环境较均一、链段运动受限且水可及性较低。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "一维与二维固体NMR区分天然树皮木栓质的脂肪链环境；Biomacromolecules以一维和二维固体NMR直接研究完整柳树树皮中的木栓质。30与33 ppm两组亚甲基呈不同局部环境：前者化学异质性更高、靠近烯烃/芳香区且更易接触水；后者环境较均一、链段运动受限且水可及性较低。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "一维与二维固体NMR区分天然树皮木栓质的脂肪链环境；Biomacromolecules以一维和二维固体NMR直接研究完整柳树树皮中的木栓质。30与33 ppm两组亚甲基呈不同局部环境：前者化学异质性更高、靠近烯烃/芳香区且更易接触水；后者环境较均一、链段运动受限且水可及性较低。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "food_agriculture",
+          "dimension": "application_ids",
+          "basis": "一维与二维固体NMR区分天然树皮木栓质的脂肪链环境；Biomacromolecules以一维和二维固体NMR直接研究完整柳树树皮中的木栓质。30与33 ppm两组亚甲基呈不同局部环境：前者化学异质性更高、靠近烯烃/芳香区且更易接触水；后者环境较均一、链段运动受限且水可及性较低。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "一维与二维固体NMR区分天然树皮木栓质的脂肪链环境",
+        "original_summary_cn": "Biomacromolecules以一维和二维固体NMR直接研究完整柳树树皮中的木栓质。30与33 ppm两组亚甲基呈不同局部环境：前者化学异质性更高、靠近烯烃/芳香区且更易接触水；后者环境较均一、链段运动受限且水可及性较低。",
+        "original_meaning_cn": "实验需保持树皮含水量、粉碎程度和热历史一致，报告MAS转速、CP接触时间、弛豫及二维混合时间。30/33 ppm峰的比例应结合直接激发谱和水合系列解释，并以多接触时间或弛豫数据排除CP效率差异。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多维NMR",
+          "多核NMR",
+          "材料",
+          "聚合物",
+          "生命科学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260911-06",
+      "report_date": "2026-09-11",
+      "item_no": 6,
+      "title_cn": "纳米NMR模型量化液体限域中的表面作用与孔隙噪声",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "nanomagnetic_resonance"
+      ],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Physical Review Applied建立限域液体纳米NMR的两类噪声模型，分别描述表面相互作用与孔隙结构。研究指出，抑制扩散噪声后，较长时间尺度的界面和几何效应会进入可见范围；其谱线特征也可反向提供流体及限域区域信息。",
+      "meaning_cn": "设计纳米NMR样品池时，应把孔径分布、表面吸附、扩散系数、传感器深度和相关时间同时纳入模型。拟合不能只用自由扩散假设；需以不同限域尺寸和表面化学对照，检查谱线尾部及噪声相关函数对参数的可辨识度。",
+      "publication_date": "2026-09-09",
+      "time_scope": "7d_extension",
+      "source": "Physical Review Applied",
+      "url": "https://journals.aps.org/prapplied/abstract/10.1103/7hbs-1q24",
+      "doi": "10.1103/7hbs-1q24",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-11",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-11.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "仪器、软件与方法",
+          "材料",
+          "地学与流动"
+        ],
+        "original_type": "NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-11.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "纳米NMR模型量化液体限域中的表面作用与孔隙噪声；Physical Review Applied建立限域液体纳米NMR的两类噪声模型，分别描述表面相互作用与孔隙结构。研究指出，抑制扩散噪声后，较长时间尺度的界面和几何效应会进入可见范围；其谱线特征也可反向提供流体及限域区域信息。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "nanomagnetic_resonance",
+          "dimension": "method_ids",
+          "basis": "纳米NMR模型量化液体限域中的表面作用与孔隙噪声；Physical Review Applied建立限域液体纳米NMR的两类噪声模型，分别描述表面相互作用与孔隙结构。研究指出，抑制扩散噪声后，较长时间尺度的界面和几何效应会进入可见范围；其谱线特征也可反向提供流体及限域区域信息。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "geoscience_flow",
+          "dimension": "application_ids",
+          "basis": "纳米NMR模型量化液体限域中的表面作用与孔隙噪声；Physical Review Applied建立限域液体纳米NMR的两类噪声模型，分别描述表面相互作用与孔隙结构。研究指出，抑制扩散噪声后，较长时间尺度的界面和几何效应会进入可见范围；其谱线特征也可反向提供流体及限域区域信息。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "纳米NMR模型量化液体限域中的表面作用与孔隙噪声",
+        "original_summary_cn": "Physical Review Applied建立限域液体纳米NMR的两类噪声模型，分别描述表面相互作用与孔隙结构。研究指出，抑制扩散噪声后，较长时间尺度的界面和几何效应会进入可见范围；其谱线特征也可反向提供流体及限域区域信息。",
+        "original_meaning_cn": "设计纳米NMR样品池时，应把孔径分布、表面吸附、扩散系数、传感器深度和相关时间同时纳入模型。拟合不能只用自由扩散假设；需以不同限域尺寸和表面化学对照，检查谱线尾部及噪声相关函数对参数的可辨识度。",
+        "original_tags": [
+          "NMR",
+          "仪器、软件与方法",
+          "材料",
+          "地学与流动"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260911-07",
+      "report_date": "2026-09-11",
+      "item_no": 7,
+      "title_cn": "时间分辨fMRS捕捉持续视觉任务中的Glx动态",
+      "direction_ids": [
+        "mrs"
+      ],
+      "experiment_type_ids": [
+        "in_vivo_mrs"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "NMR in Biomedicine以连续三天的视觉警觉任务检验时间分辨fMRS。5名受试者的初步结果显示，Gabor刺激条件下视觉皮层Glx随任务逐渐增加，而传统时间平均分析未检出显著差异，说明动态分箱可能保留被平均掩盖的代谢变化。",
+      "meaning_cn": "复现实验需固定体素位置、匀场、抑水、任务时序和每时间窗的平均次数，并预注册Glx拟合范围与质量阈值。样本量很小，结果只适合作可行性依据；后续应增加受试者并分离视觉输入、注意负荷和日间重复效应。",
+      "publication_date": "2026-09-08",
+      "time_scope": "7d_extension",
+      "source": "NMR in Biomedicine",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/nbm.70389",
+      "doi": "10.1002/nbm.70389",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-11",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-11.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "MRS",
+          "活体MRS",
+          "代谢组学",
+          "生命科学"
+        ],
+        "original_type": "活体MRS",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-11.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "mrs",
+          "dimension": "direction_ids",
+          "basis": "时间分辨fMRS捕捉持续视觉任务中的Glx动态；NMR in Biomedicine以连续三天的视觉警觉任务检验时间分辨fMRS。5名受试者的初步结果显示，Gabor刺激条件下视觉皮层Glx随任务逐渐增加，而传统时间平均分析未检出显著差异，说明动态分箱可能保留被平均掩盖的代谢变化。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "in_vivo_mrs",
+          "dimension": "experiment_type_ids",
+          "basis": "时间分辨fMRS捕捉持续视觉任务中的Glx动态；NMR in Biomedicine以连续三天的视觉警觉任务检验时间分辨fMRS。5名受试者的初步结果显示，Gabor刺激条件下视觉皮层Glx随任务逐渐增加，而传统时间平均分析未检出显著差异，说明动态分箱可能保留被平均掩盖的代谢变化。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "life_science",
+          "dimension": "application_ids",
+          "basis": "时间分辨fMRS捕捉持续视觉任务中的Glx动态；NMR in Biomedicine以连续三天的视觉警觉任务检验时间分辨fMRS。5名受试者的初步结果显示，Gabor刺激条件下视觉皮层Glx随任务逐渐增加，而传统时间平均分析未检出显著差异，说明动态分箱可能保留被平均掩盖的代谢变化。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "时间分辨fMRS捕捉持续视觉任务中的Glx动态",
+        "original_summary_cn": "NMR in Biomedicine以连续三天的视觉警觉任务检验时间分辨fMRS。5名受试者的初步结果显示，Gabor刺激条件下视觉皮层Glx随任务逐渐增加，而传统时间平均分析未检出显著差异，说明动态分箱可能保留被平均掩盖的代谢变化。",
+        "original_meaning_cn": "复现实验需固定体素位置、匀场、抑水、任务时序和每时间窗的平均次数，并预注册Glx拟合范围与质量阈值。样本量很小，结果只适合作可行性依据；后续应增加受试者并分离视觉输入、注意负荷和日间重复效应。",
+        "original_tags": [
+          "MRS",
+          "活体MRS",
+          "代谢组学",
+          "生命科学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260911-08",
+      "report_date": "2026-09-11",
+      "item_no": 8,
+      "title_cn": "MAS与NV中心实现无微波金刚石¹³C超极化",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "mas"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "arXiv预印本把光泵浦NV中心与MAS结合，在7.1和9.4 T对0.2—2 μm金刚石颗粒实现¹³C超极化，无需微波照射。7.1 T、0—6 kHz MAS下，天然丰度和20%富集样品分别达到411倍和280倍增强，稳态极化超过0.1%。",
+      "meaning_cn": "装置需记录激光波长、功率与入射几何、MAS转速、磁场、颗粒尺寸和NV/P1浓度。应以暗态热平衡谱校准绝对极化，并测试转速依赖、样品升温与取向分布；向外部分子转移极化仍需另行验证界面接触和转移时间。",
+      "publication_date": "2026-09-07",
+      "time_scope": "7d_extension",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2609.07653",
+      "doi": "10.48550/arxiv.2609.07653",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-11",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-11.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR＋EPR",
+          "固体NMR",
+          "多核NMR",
+          "材料",
+          "仪器、软件与方法"
+        ],
+        "original_type": "固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-11.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "MAS与NV中心实现无微波金刚石¹³C超极化；arXiv预印本把光泵浦NV中心与MAS结合，在7.1和9.4 T对0.2—2 μm金刚石颗粒实现¹³C超极化，无需微波照射。7.1 T、0—6 kHz MAS下，天然丰度和20%富集样品分别达到411倍和280倍增强，稳态极化超过0.1%。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "MAS与NV中心实现无微波金刚石¹³C超极化；arXiv预印本把光泵浦NV中心与MAS结合，在7.1和9.4 T对0.2—2 μm金刚石颗粒实现¹³C超极化，无需微波照射。7.1 T、0—6 kHz MAS下，天然丰度和20%富集样品分别达到411倍和280倍增强，稳态极化超过0.1%。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "mas",
+          "dimension": "method_ids",
+          "basis": "MAS与NV中心实现无微波金刚石¹³C超极化；arXiv预印本把光泵浦NV中心与MAS结合，在7.1和9.4 T对0.2—2 μm金刚石颗粒实现¹³C超极化，无需微波照射。7.1 T、0—6 kHz MAS下，天然丰度和20%富集样品分别达到411倍和280倍增强，稳态极化超过0.1%。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "MAS与NV中心实现无微波金刚石¹³C超极化；arXiv预印本把光泵浦NV中心与MAS结合，在7.1和9.4 T对0.2—2 μm金刚石颗粒实现¹³C超极化，无需微波照射。7.1 T、0—6 kHz MAS下，天然丰度和20%富集样品分别达到411倍和280倍增强，稳态极化超过0.1%。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "MAS与NV中心实现无微波金刚石¹³C超极化",
+        "original_summary_cn": "arXiv预印本把光泵浦NV中心与MAS结合，在7.1和9.4 T对0.2—2 μm金刚石颗粒实现¹³C超极化，无需微波照射。7.1 T、0—6 kHz MAS下，天然丰度和20%富集样品分别达到411倍和280倍增强，稳态极化超过0.1%。",
+        "original_meaning_cn": "装置需记录激光波长、功率与入射几何、MAS转速、磁场、颗粒尺寸和NV/P1浓度。应以暗态热平衡谱校准绝对极化，并测试转速依赖、样品升温与取向分布；向外部分子转移极化仍需另行验证界面接触和转移时间。",
+        "original_tags": [
+          "NMR＋EPR",
+          "固体NMR",
+          "多核NMR",
+          "材料",
+          "仪器、软件与方法"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260911-09",
+      "report_date": "2026-09-11",
+      "item_no": 9,
+      "title_cn": "抗原检测NMR用于最小表位工程与NaV1.7纳米抗体筛选",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology",
+        "ligand_screening"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Advanced Science以抗原检测NMR评估人NaV1.7最小胞外表位的折叠并筛选结合物。¹⁵N标记、滴定和zz-exchange mapping提供局部结构与界面信息，结合AlphaFold2排序候选；最终获得具有亚型及物种选择性的R4C8纳米抗体。",
+      "meaning_cn": "筛选前需确认最小表位保留局部二级结构并完成关键共振归属。¹⁵N滴定应统一抗原浓度、温度和交换区间；zz-exchange需优化混合时间并设置无关纳米抗体对照。模型排序只能辅助，仍需细胞识别和功能实验核验。",
+      "publication_date": "2026-09-06",
+      "time_scope": "7d_extension",
+      "source": "Advanced Science",
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.77611",
+      "doi": "10.1002/advs.77611",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-11",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-11.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "配体观察NMR",
+          "生命科学",
+          "结构生物学",
+          "药物分析",
+          "配体筛选"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-11.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "抗原检测NMR用于最小表位工程与NaV1.7纳米抗体筛选；Advanced Science以抗原检测NMR评估人NaV1.7最小胞外表位的折叠并筛选结合物。¹⁵N标记、滴定和zz-exchange mapping提供局部结构与界面信息，结合AlphaFold2排序候选；最终获得具有亚型及物种选择性的R4C8纳米抗体。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "抗原检测NMR用于最小表位工程与NaV1.7纳米抗体筛选；Advanced Science以抗原检测NMR评估人NaV1.7最小胞外表位的折叠并筛选结合物。¹⁵N标记、滴定和zz-exchange mapping提供局部结构与界面信息，结合AlphaFold2排序候选；最终获得具有亚型及物种选择性的R4C8纳米抗体。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "抗原检测NMR用于最小表位工程与NaV1.7纳米抗体筛选；Advanced Science以抗原检测NMR评估人NaV1.7最小胞外表位的折叠并筛选结合物。¹⁵N标记、滴定和zz-exchange mapping提供局部结构与界面信息，结合AlphaFold2排序候选；最终获得具有亚型及物种选择性的R4C8纳米抗体。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "ligand_screening",
+          "dimension": "application_ids",
+          "basis": "抗原检测NMR用于最小表位工程与NaV1.7纳米抗体筛选；Advanced Science以抗原检测NMR评估人NaV1.7最小胞外表位的折叠并筛选结合物。¹⁵N标记、滴定和zz-exchange mapping提供局部结构与界面信息，结合AlphaFold2排序候选；最终获得具有亚型及物种选择性的R4C8纳米抗体。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "抗原检测NMR用于最小表位工程与NaV1.7纳米抗体筛选",
+        "original_summary_cn": "Advanced Science以抗原检测NMR评估人NaV1.7最小胞外表位的折叠并筛选结合物。¹⁵N标记、滴定和zz-exchange mapping提供局部结构与界面信息，结合AlphaFold2排序候选；最终获得具有亚型及物种选择性的R4C8纳米抗体。",
+        "original_meaning_cn": "筛选前需确认最小表位保留局部二级结构并完成关键共振归属。¹⁵N滴定应统一抗原浓度、温度和交换区间；zz-exchange需优化混合时间并设置无关纳米抗体对照。模型排序只能辅助，仍需细胞识别和功能实验核验。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "配体观察NMR",
+          "生命科学",
+          "结构生物学",
+          "药物分析",
+          "配体筛选"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260911-10",
+      "report_date": "2026-09-11",
+      "item_no": 10,
+      "title_cn": "RASER在非均匀超低场中分辨¹²⁹Xe化学位移",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Physical Review Applied报道在非均匀超低磁场中利用RASER自激振荡分辨¹²⁹Xe化学位移。方法借助超极化核自旋的相干反馈形成窄频率读出，面向低场条件下因磁场不均匀而被展宽、难以区分的气相或溶解态Xe信号。",
+      "meaning_cn": "复现实验需记录¹²⁹Xe极化方式、气体压力与组成、偏置场、场梯度、反馈增益和启动阈值。化学位移比较要使用稳定频率参照，并检查自振荡频率牵引、样品交换及磁场漂移；应与普通自由感应衰减谱作同条件对照。",
+      "publication_date": "2026-09-08",
+      "time_scope": "7d_extension",
+      "source": "Physical Review Applied",
+      "url": "https://journals.aps.org/prapplied/abstract/10.1103/64np-3ndy",
+      "doi": "10.1103/64np-3ndy",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-11",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-11.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "台式NMR",
+          "多核NMR",
+          "仪器、软件与方法",
+          "化学结构"
+        ],
+        "original_type": "台式NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-11.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "RASER在非均匀超低场中分辨¹²⁹Xe化学位移；Physical Review Applied报道在非均匀超低磁场中利用RASER自激振荡分辨¹²⁹Xe化学位移。方法借助超极化核自旋的相干反馈形成窄频率读出，面向低场条件下因磁场不均匀而被展宽、难以区分的气相或溶解态Xe信号。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "RASER在非均匀超低场中分辨¹²⁹Xe化学位移",
+        "original_summary_cn": "Physical Review Applied报道在非均匀超低磁场中利用RASER自激振荡分辨¹²⁹Xe化学位移。方法借助超极化核自旋的相干反馈形成窄频率读出，面向低场条件下因磁场不均匀而被展宽、难以区分的气相或溶解态Xe信号。",
+        "original_meaning_cn": "复现实验需记录¹²⁹Xe极化方式、气体压力与组成、偏置场、场梯度、反馈增益和启动阈值。化学位移比较要使用稳定频率参照，并检查自振荡频率牵引、样品交换及磁场漂移；应与普通自由感应衰减谱作同条件对照。",
+        "original_tags": [
+          "NMR",
+          "台式NMR",
+          "多核NMR",
+          "仪器、软件与方法",
+          "化学结构"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "常规检索在过去24小时内所得合格新增少于5条，已依次执行增强检索和第二级深度增强检索。检索逐日回扫2026年9月4日至10日，覆盖专业期刊、预印本与文献元数据、仪器厂商、专业会议及中外采购公告，并按液体NMR、固体NMR/MAS/DNP、低场与TD-NMR、谱图处理、CW与rapid-scan EPR、脉冲EPR、TREPR、operando/EC-EPR及仪器部件逐组核验。本期最终收录10条：1条为9月10日在线发表的近24小时信息，9条为9月6日至9日的近7天扩展。结合最近7期正文与项目索引查重，排除13条既有记录；另排除17条日期无法独立确认、常驻产品页、仅更新卷期或仅将NMR/EPR作为辅助表征的候选。待复核标签：DNP、光致超极化、NV中心纳米NMR与RASER保留在样品体系和正文中，未创建新的正式ID。",
+    "source_sha256": "b899a4ee5f2aa28af50b9902e978071dc56c32b74ed26a4c09f822f8433cb5b4",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

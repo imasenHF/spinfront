@@ -1,0 +1,1200 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-24",
+  "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260924-01",
+      "report_date": "2026-09-24",
+      "item_no": 1,
+      "title_cn": "顺磁标签化学避开锌指蛋白配位半胱氨酸",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "paramagnetic_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Biomolecular NMR以XIAP BIR锌指结构域评估巯基型顺磁标签。甲硫代磺酸酯和马来酰亚胺会按化学计量比攻击锌配位半胱氨酸；吡啶基磺酰基未见该反应。强开放链螯合标签还可能夺取Zn²⁺，预先以Zn²⁺饱和可保持天然锌指并完成位点特异标记。",
+      "meaning_cn": "金属蛋白标记前应先用质谱与二维NMR检查金属位点完整性，再比较游离巯基、金属配位巯基及不同标签剂量。若采用含螯合基团的Gd³⁺或镧系标签，应记录预饱和金属比例、反应时间和缓冲液；DEER或顺磁NMR前还要验证单一标记计量与蛋白折叠。",
+      "publication_date": "2026-09-22",
+      "time_scope": "7d_extension",
+      "source": "Journal of Biomolecular NMR",
+      "url": "https://link.springer.com/article/10.1007/s10858-026-00497-y",
+      "doi": "10.1007/s10858-026-00497-y",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-24",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-24.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR＋EPR",
+          "溶液NMR",
+          "连续波EPR",
+          "脉冲EPR",
+          "顺磁NMR",
+          "自旋标记",
+          "DEER/PELDOR",
+          "生命科学",
+          "结构生物学",
+          "无机配位",
+          "探头",
+          "谐振器",
+          "软件"
+        ],
+        "original_type": "方法进展",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-24.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "顺磁标签化学避开锌指蛋白配位半胱氨酸；Journal of Biomolecular NMR以XIAP BIR锌指结构域评估巯基型顺磁标签。甲硫代磺酸酯和马来酰亚胺会按化学计量比攻击锌配位半胱氨酸；吡啶基磺酰基未见该反应。强开放链螯合标签还可能夺取Zn²⁺，预先以Zn²⁺饱和可保持天然锌指并完成位点特异标记。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "顺磁标签化学避开锌指蛋白配位半胱氨酸；Journal of Biomolecular NMR以XIAP BIR锌指结构域评估巯基型顺磁标签。甲硫代磺酸酯和马来酰亚胺会按化学计量比攻击锌配位半胱氨酸；吡啶基磺酰基未见该反应。强开放链螯合标签还可能夺取Zn²⁺，预先以Zn²⁺饱和可保持天然锌指并完成位点特异标记。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "paramagnetic_nmr",
+          "dimension": "method_ids",
+          "basis": "顺磁标签化学避开锌指蛋白配位半胱氨酸；Journal of Biomolecular NMR以XIAP BIR锌指结构域评估巯基型顺磁标签。甲硫代磺酸酯和马来酰亚胺会按化学计量比攻击锌配位半胱氨酸；吡啶基磺酰基未见该反应。强开放链螯合标签还可能夺取Zn²⁺，预先以Zn²⁺饱和可保持天然锌指并完成位点特异标记。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "顺磁标签化学避开锌指蛋白配位半胱氨酸；Journal of Biomolecular NMR以XIAP BIR锌指结构域评估巯基型顺磁标签。甲硫代磺酸酯和马来酰亚胺会按化学计量比攻击锌配位半胱氨酸；吡啶基磺酰基未见该反应。强开放链螯合标签还可能夺取Zn²⁺，预先以Zn²⁺饱和可保持天然锌指并完成位点特异标记。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "顺磁标签化学避开锌指蛋白配位半胱氨酸",
+        "original_summary_cn": "Journal of Biomolecular NMR以XIAP BIR锌指结构域评估巯基型顺磁标签。甲硫代磺酸酯和马来酰亚胺会按化学计量比攻击锌配位半胱氨酸；吡啶基磺酰基未见该反应。强开放链螯合标签还可能夺取Zn²⁺，预先以Zn²⁺饱和可保持天然锌指并完成位点特异标记。",
+        "original_meaning_cn": "金属蛋白标记前应先用质谱与二维NMR检查金属位点完整性，再比较游离巯基、金属配位巯基及不同标签剂量。若采用含螯合基团的Gd³⁺或镧系标签，应记录预饱和金属比例、反应时间和缓冲液；DEER或顺磁NMR前还要验证单一标记计量与蛋白折叠。",
+        "original_tags": [
+          "NMR＋EPR",
+          "溶液NMR",
+          "连续波EPR",
+          "脉冲EPR",
+          "顺磁NMR",
+          "自旋标记",
+          "DEER/PELDOR",
+          "生命科学",
+          "结构生物学",
+          "无机配位",
+          "探头",
+          "谐振器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260924-02",
+      "report_date": "2026-09-24",
+      "item_no": 2,
+      "title_cn": "3 mm流通管把2 mL反应接入高场NMR",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "reaction_monitoring"
+      ],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "instrument_component_ids": [
+        "flow_cell"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "ACS Medicinal Chemistry Letters报道可插入常规5 mm探头的3 mm流通NMR管，以标准LC泵把带加热块反应瓶中的混合物送至磁体中心再回流，最低反应体积2 mL，温度范围−20至120 °C；普通样品管与流通模式可在数分钟内切换，并用于两类常规分析难以跟踪的反应。",
+      "meaning_cn": "部署时应实测泵速、总回路体积、到检测区的延迟、回流混合效率和温度偏差，并用内标检查循环造成的积分漂移。方法转移还要记录3 mm管在5 mm探头中的定位、锁场匀场、压力上限与材料耐受性；时间分辨率须同时计入输运延迟和采集周期。",
+      "publication_date": "2026-09-21",
+      "time_scope": "7d_extension",
+      "source": "ACS Medicinal Chemistry Letters",
+      "url": "https://pubs.acs.org/doi/10.1021/acsmedchemlett.6c00388",
+      "doi": "10.1021/acsmedchemlett.6c00388",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-24",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-24.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "反应监测",
+          "药物分析",
+          "过程分析",
+          "仪器",
+          "探头",
+          "流通池",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "仪器技术",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-24.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "3 mm流通管把2 mL反应接入高场NMR；ACS Medicinal Chemistry Letters报道可插入常规5 mm探头的3 mm流通NMR管，以标准LC泵把带加热块反应瓶中的混合物送至磁体中心再回流，最低反应体积2 mL，温度范围−20至120 °C；普通样品管与流通模式可在数分钟内切换，并用于两类常规分析难以跟踪的反应。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "3 mm流通管把2 mL反应接入高场NMR；ACS Medicinal Chemistry Letters报道可插入常规5 mm探头的3 mm流通NMR管，以标准LC泵把带加热块反应瓶中的混合物送至磁体中心再回流，最低反应体积2 mL，温度范围−20至120 °C；普通样品管与流通模式可在数分钟内切换，并用于两类常规分析难以跟踪的反应。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "reaction_monitoring",
+          "dimension": "method_ids",
+          "basis": "3 mm流通管把2 mL反应接入高场NMR；ACS Medicinal Chemistry Letters报道可插入常规5 mm探头的3 mm流通NMR管，以标准LC泵把带加热块反应瓶中的混合物送至磁体中心再回流，最低反应体积2 mL，温度范围−20至120 °C；普通样品管与流通模式可在数分钟内切换，并用于两类常规分析难以跟踪的反应。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "instrumentation",
+          "dimension": "application_ids",
+          "basis": "3 mm流通管把2 mL反应接入高场NMR；ACS Medicinal Chemistry Letters报道可插入常规5 mm探头的3 mm流通NMR管，以标准LC泵把带加热块反应瓶中的混合物送至磁体中心再回流，最低反应体积2 mL，温度范围−20至120 °C；普通样品管与流通模式可在数分钟内切换，并用于两类常规分析难以跟踪的反应。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "flow_cell",
+          "dimension": "instrument_component_ids",
+          "basis": "3 mm流通管把2 mL反应接入高场NMR；ACS Medicinal Chemistry Letters报道可插入常规5 mm探头的3 mm流通NMR管，以标准LC泵把带加热块反应瓶中的混合物送至磁体中心再回流，最低反应体积2 mL，温度范围−20至120 °C；普通样品管与流通模式可在数分钟内切换，并用于两类常规分析难以跟踪的反应。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "3 mm流通管把2 mL反应接入高场NMR",
+        "original_summary_cn": "ACS Medicinal Chemistry Letters报道可插入常规5 mm探头的3 mm流通NMR管，以标准LC泵把带加热块反应瓶中的混合物送至磁体中心再回流，最低反应体积2 mL，温度范围−20至120 °C；普通样品管与流通模式可在数分钟内切换，并用于两类常规分析难以跟踪的反应。",
+        "original_meaning_cn": "部署时应实测泵速、总回路体积、到检测区的延迟、回流混合效率和温度偏差，并用内标检查循环造成的积分漂移。方法转移还要记录3 mm管在5 mm探头中的定位、锁场匀场、压力上限与材料耐受性；时间分辨率须同时计入输运延迟和采集周期。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "反应监测",
+          "药物分析",
+          "过程分析",
+          "仪器",
+          "探头",
+          "流通池",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260924-03",
+      "report_date": "2026-09-24",
+      "item_no": 3,
+      "title_cn": "总反应NMR谱积分直接估算分步速率系数",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "reaction_monitoring"
+      ],
+      "application_ids": [
+        "catalysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "JACS提出由常规反应监测数据生成total reaction spectrum，再将时间浓度曲线面积转化为cumulative temporal concentrations。六个案例覆盖中间体、平衡、催化、支化和双分子过程，显示TRS/CTC可在不做曲线拟合的情况下估算孤立化学步骤的流出速率系数。",
+      "meaning_cn": "应用前应保证各时间点采集参数、基线、相位和定量延迟一致，并核对积分区是否受重叠峰、交换或饱和影响。建议同时保留原始时间序列，用传统非线性拟合作对照；对支化和平衡体系要先写清物料衡算与可辨识参数，报告积分误差传播及时间窗截断敏感度。",
+      "publication_date": "2026-09-18",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://pubs.acs.org/doi/10.1021/jacs.6c14628",
+      "doi": "10.1021/jacs.6c14628",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-24",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-24.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "反应监测",
+          "催化",
+          "过程分析",
+          "化学结构",
+          "软件"
+        ],
+        "original_type": "方法进展",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-24.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "总反应NMR谱积分直接估算分步速率系数；JACS提出由常规反应监测数据生成total reaction spectrum，再将时间浓度曲线面积转化为cumulative temporal concentrations。六个案例覆盖中间体、平衡、催化、支化和双分子过程，显示TRS/CTC可在不做曲线拟合的情况下估算孤立化学步骤的流出速率系数。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "总反应NMR谱积分直接估算分步速率系数；JACS提出由常规反应监测数据生成total reaction spectrum，再将时间浓度曲线面积转化为cumulative temporal concentrations。六个案例覆盖中间体、平衡、催化、支化和双分子过程，显示TRS/CTC可在不做曲线拟合的情况下估算孤立化学步骤的流出速率系数。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "reaction_monitoring",
+          "dimension": "method_ids",
+          "basis": "总反应NMR谱积分直接估算分步速率系数；JACS提出由常规反应监测数据生成total reaction spectrum，再将时间浓度曲线面积转化为cumulative temporal concentrations。六个案例覆盖中间体、平衡、催化、支化和双分子过程，显示TRS/CTC可在不做曲线拟合的情况下估算孤立化学步骤的流出速率系数。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "catalysis",
+          "dimension": "application_ids",
+          "basis": "总反应NMR谱积分直接估算分步速率系数；JACS提出由常规反应监测数据生成total reaction spectrum，再将时间浓度曲线面积转化为cumulative temporal concentrations。六个案例覆盖中间体、平衡、催化、支化和双分子过程，显示TRS/CTC可在不做曲线拟合的情况下估算孤立化学步骤的流出速率系数。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "总反应NMR谱积分直接估算分步速率系数",
+        "original_summary_cn": "JACS提出由常规反应监测数据生成total reaction spectrum，再将时间浓度曲线面积转化为cumulative temporal concentrations。六个案例覆盖中间体、平衡、催化、支化和双分子过程，显示TRS/CTC可在不做曲线拟合的情况下估算孤立化学步骤的流出速率系数。",
+        "original_meaning_cn": "应用前应保证各时间点采集参数、基线、相位和定量延迟一致，并核对积分区是否受重叠峰、交换或饱和影响。建议同时保留原始时间序列，用传统非线性拟合作对照；对支化和平衡体系要先写清物料衡算与可辨识参数，报告积分误差传播及时间窗截断敏感度。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "反应监测",
+          "催化",
+          "过程分析",
+          "化学结构",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260924-04",
+      "report_date": "2026-09-24",
+      "item_no": 4,
+      "title_cn": "6.9 T转子同步MAS-EPR追踪百微秒电子自旋动力学",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "mas"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "The Journal of Physical Chemistry Letters展示6.9 T高场条件下首个转子同步三脉冲受激回波MAS-EPR实验，最高MAS转速37 kHz，可观察数百微秒尺度的电子自旋动力学。结果显示动力学同时受EPR线形各向异性和MAS速率影响，并以时域数值模拟复核。",
+      "meaning_cn": "复现实验需同步记录转子触发相位、三脉冲间隔、微波B₁、谐振器带宽、样品温度和实际转速稳定度。应做静态、不同MAS频率及不同谱位点对照，并用同一g张量与线宽模型进行时域模拟；DNP方案评估要把电子动力学与核极化建立时间分开报告。",
+      "publication_date": "2026-09-19",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Physical Chemistry Letters",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.jpclett.6c02108",
+      "doi": "10.1021/acs.jpclett.6c02108",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-24",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-24.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "材料",
+          "仪器",
+          "磁体",
+          "谐振器",
+          "软件"
+        ],
+        "original_type": "方法进展",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-24.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "6.9 T转子同步MAS-EPR追踪百微秒电子自旋动力学；The Journal of Physical Chemistry Letters展示6.9 T高场条件下首个转子同步三脉冲受激回波MAS-EPR实验，最高MAS转速37 kHz，可观察数百微秒尺度的电子自旋动力学。结果显示动力学同时受EPR线形各向异性和MAS速率影响，并以时域数值模拟复核。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "6.9 T转子同步MAS-EPR追踪百微秒电子自旋动力学；The Journal of Physical Chemistry Letters展示6.9 T高场条件下首个转子同步三脉冲受激回波MAS-EPR实验，最高MAS转速37 kHz，可观察数百微秒尺度的电子自旋动力学。结果显示动力学同时受EPR线形各向异性和MAS速率影响，并以时域数值模拟复核。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "mas",
+          "dimension": "method_ids",
+          "basis": "6.9 T转子同步MAS-EPR追踪百微秒电子自旋动力学；The Journal of Physical Chemistry Letters展示6.9 T高场条件下首个转子同步三脉冲受激回波MAS-EPR实验，最高MAS转速37 kHz，可观察数百微秒尺度的电子自旋动力学。结果显示动力学同时受EPR线形各向异性和MAS速率影响，并以时域数值模拟复核。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "6.9 T转子同步MAS-EPR追踪百微秒电子自旋动力学；The Journal of Physical Chemistry Letters展示6.9 T高场条件下首个转子同步三脉冲受激回波MAS-EPR实验，最高MAS转速37 kHz，可观察数百微秒尺度的电子自旋动力学。结果显示动力学同时受EPR线形各向异性和MAS速率影响，并以时域数值模拟复核。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "6.9 T转子同步MAS-EPR追踪百微秒电子自旋动力学",
+        "original_summary_cn": "The Journal of Physical Chemistry Letters展示6.9 T高场条件下首个转子同步三脉冲受激回波MAS-EPR实验，最高MAS转速37 kHz，可观察数百微秒尺度的电子自旋动力学。结果显示动力学同时受EPR线形各向异性和MAS速率影响，并以时域数值模拟复核。",
+        "original_meaning_cn": "复现实验需同步记录转子触发相位、三脉冲间隔、微波B₁、谐振器带宽、样品温度和实际转速稳定度。应做静态、不同MAS频率及不同谱位点对照，并用同一g张量与线宽模型进行时域模拟；DNP方案评估要把电子动力学与核极化建立时间分开报告。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "材料",
+          "仪器",
+          "磁体",
+          "谐振器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260924-05",
+      "report_date": "2026-09-24",
+      "item_no": 5,
+      "title_cn": "模块化快速注射NMR无需改动谱仪与探头",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "reaction_monitoring"
+      ],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Organic Letters报道可携式模块化rapid-injection NMR装置，把标准NMR管直接作为磁体内反应器，无需改造谱仪或探头。系统可在多种溶剂和温度下准确送样，注射后数秒完成混合；四个案例用于结构鉴定、瞬态中间体观察及动力学分析。",
+      "meaning_cn": "设施采用前应以称量或内标验证注射体积准确度，并在各溶剂、温度和黏度下测真实混合死时间。要记录针路惰性、密封、低温结露和磁体内位置重复性；快速序列应预设接收增益、翻转角与采样间隔，避免首个可用谱晚于关键中间体寿命。",
+      "publication_date": "2026-09-17",
+      "time_scope": "7d_extension",
+      "source": "Organic Letters",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.orglett.6c02870",
+      "doi": "10.1021/acs.orglett.6c02870",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-24",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-24.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "反应监测",
+          "化学结构",
+          "催化",
+          "仪器",
+          "探头",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "仪器技术",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-24.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "模块化快速注射NMR无需改动谱仪与探头；Organic Letters报道可携式模块化rapid-injection NMR装置，把标准NMR管直接作为磁体内反应器，无需改造谱仪或探头。系统可在多种溶剂和温度下准确送样，注射后数秒完成混合；四个案例用于结构鉴定、瞬态中间体观察及动力学分析。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "模块化快速注射NMR无需改动谱仪与探头；Organic Letters报道可携式模块化rapid-injection NMR装置，把标准NMR管直接作为磁体内反应器，无需改造谱仪或探头。系统可在多种溶剂和温度下准确送样，注射后数秒完成混合；四个案例用于结构鉴定、瞬态中间体观察及动力学分析。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "reaction_monitoring",
+          "dimension": "method_ids",
+          "basis": "模块化快速注射NMR无需改动谱仪与探头；Organic Letters报道可携式模块化rapid-injection NMR装置，把标准NMR管直接作为磁体内反应器，无需改造谱仪或探头。系统可在多种溶剂和温度下准确送样，注射后数秒完成混合；四个案例用于结构鉴定、瞬态中间体观察及动力学分析。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "instrumentation",
+          "dimension": "application_ids",
+          "basis": "模块化快速注射NMR无需改动谱仪与探头；Organic Letters报道可携式模块化rapid-injection NMR装置，把标准NMR管直接作为磁体内反应器，无需改造谱仪或探头。系统可在多种溶剂和温度下准确送样，注射后数秒完成混合；四个案例用于结构鉴定、瞬态中间体观察及动力学分析。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "模块化快速注射NMR无需改动谱仪与探头",
+        "original_summary_cn": "Organic Letters报道可携式模块化rapid-injection NMR装置，把标准NMR管直接作为磁体内反应器，无需改造谱仪或探头。系统可在多种溶剂和温度下准确送样，注射后数秒完成混合；四个案例用于结构鉴定、瞬态中间体观察及动力学分析。",
+        "original_meaning_cn": "设施采用前应以称量或内标验证注射体积准确度，并在各溶剂、温度和黏度下测真实混合死时间。要记录针路惰性、密封、低温结露和磁体内位置重复性；快速序列应预设接收增益、翻转角与采样间隔，避免首个可用谱晚于关键中间体寿命。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "反应监测",
+          "化学结构",
+          "催化",
+          "仪器",
+          "探头",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260924-06",
+      "report_date": "2026-09-24",
+      "item_no": 6,
+      "title_cn": "¹⁹F DEST定位Tau片段的低占有率微管结合态",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "dest",
+        "relaxometry",
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "The Journal of Physical Chemistry B在Tau368–412片段的Phe、Tyr和Pro位点引入¹⁹F探针，联合¹H/¹³C化学位移、NOESY、¹⁹F弛豫与DEST，观察自由态和低占有率微管结合态之间约500 μs的快速交换。数据把主要结合区定位在邻近R4的N端，同时显示结合态侧链仍具较大运动性。",
+      "meaning_cn": "方法迁移需验证氟化未改变肽段无序特征及cis/trans-Pro比例，固定微管聚合状态、肽/微管比例、温度和缓冲液。¹⁹F DEST应报告饱和偏频、B₁、饱和时间、参照谱及弛豫校正，并用未标记或不同位点探针排除局部标签对结合的扰动。",
+      "publication_date": "2026-09-21",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Physical Chemistry B",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.jpcb.6c04549",
+      "doi": "10.1021/acs.jpcb.6c04549",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-24",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-24.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "探头",
+          "软件"
+        ],
+        "original_type": "应用研究",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-24.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "¹⁹F DEST定位Tau片段的低占有率微管结合态；The Journal of Physical Chemistry B在Tau368–412片段的Phe、Tyr和Pro位点引入¹⁹F探针，联合¹H/¹³C化学位移、NOESY、¹⁹F弛豫与DEST，观察自由态和低占有率微管结合态之间约500 μs的快速交换。数据把主要结合区定位在邻近R4的N端，同时显示结合态侧链仍具较大运动性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "¹⁹F DEST定位Tau片段的低占有率微管结合态；The Journal of Physical Chemistry B在Tau368–412片段的Phe、Tyr和Pro位点引入¹⁹F探针，联合¹H/¹³C化学位移、NOESY、¹⁹F弛豫与DEST，观察自由态和低占有率微管结合态之间约500 μs的快速交换。数据把主要结合区定位在邻近R4的N端，同时显示结合态侧链仍具较大运动性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "dest",
+          "dimension": "method_ids",
+          "basis": "¹⁹F DEST定位Tau片段的低占有率微管结合态；The Journal of Physical Chemistry B在Tau368–412片段的Phe、Tyr和Pro位点引入¹⁹F探针，联合¹H/¹³C化学位移、NOESY、¹⁹F弛豫与DEST，观察自由态和低占有率微管结合态之间约500 μs的快速交换。数据把主要结合区定位在邻近R4的N端，同时显示结合态侧链仍具较大运动性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "¹⁹F DEST定位Tau片段的低占有率微管结合态；The Journal of Physical Chemistry B在Tau368–412片段的Phe、Tyr和Pro位点引入¹⁹F探针，联合¹H/¹³C化学位移、NOESY、¹⁹F弛豫与DEST，观察自由态和低占有率微管结合态之间约500 μs的快速交换。数据把主要结合区定位在邻近R4的N端，同时显示结合态侧链仍具较大运动性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "¹⁹F DEST定位Tau片段的低占有率微管结合态；The Journal of Physical Chemistry B在Tau368–412片段的Phe、Tyr和Pro位点引入¹⁹F探针，联合¹H/¹³C化学位移、NOESY、¹⁹F弛豫与DEST，观察自由态和低占有率微管结合态之间约500 μs的快速交换。数据把主要结合区定位在邻近R4的N端，同时显示结合态侧链仍具较大运动性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "¹⁹F DEST定位Tau片段的低占有率微管结合态；The Journal of Physical Chemistry B在Tau368–412片段的Phe、Tyr和Pro位点引入¹⁹F探针，联合¹H/¹³C化学位移、NOESY、¹⁹F弛豫与DEST，观察自由态和低占有率微管结合态之间约500 μs的快速交换。数据把主要结合区定位在邻近R4的N端，同时显示结合态侧链仍具较大运动性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "¹⁹F DEST定位Tau片段的低占有率微管结合态",
+        "original_summary_cn": "The Journal of Physical Chemistry B在Tau368–412片段的Phe、Tyr和Pro位点引入¹⁹F探针，联合¹H/¹³C化学位移、NOESY、¹⁹F弛豫与DEST，观察自由态和低占有率微管结合态之间约500 μs的快速交换。数据把主要结合区定位在邻近R4的N端，同时显示结合态侧链仍具较大运动性。",
+        "original_meaning_cn": "方法迁移需验证氟化未改变肽段无序特征及cis/trans-Pro比例，固定微管聚合状态、肽/微管比例、温度和缓冲液。¹⁹F DEST应报告饱和偏频、B₁、饱和时间、参照谱及弛豫校正，并用未标记或不同位点探针排除局部标签对结合的扰动。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260924-07",
+      "report_date": "2026-09-24",
+      "item_no": 7,
+      "title_cn": "NMR先筛非天然氨基酸再构建mRNA展示库",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "ligand_observed_nmr"
+      ],
+      "application_ids": [
+        "ligand_screening"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "ChemBioChem提出NMR引导的非天然氨基酸片段筛选：以p53–MDM2为基准，从色氨酸类似物中找到亲和力高于Trp的6Br‑Trp和6Cl‑Trp。6Br‑Trp进入模型肽后仍改善结合；两种单体还可装载tRNA并用于PURE翻译，在mRNA展示选择中获得更高富集。",
+      "meaning_cn": "前端筛选应固定蛋白、单体浓度、缓冲液、DMSO比例和温度，并用竞争或正交NMR实验排除聚集与非特异结合。进入翻译体系前需分别验证氨酰化效率、肽中掺入率和化学稳定性；富集结果应与NMR测得的单体亲和趋势及合成肽结合数据对照。",
+      "publication_date": "2026-09-23",
+      "time_scope": "7d_extension",
+      "source": "ChemBioChem",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/cbic.70540",
+      "doi": "10.1002/cbic.70540",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-24",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-24.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "配体观察NMR",
+          "生命科学",
+          "药物分析",
+          "配体筛选",
+          "探头",
+          "自动进样器",
+          "软件"
+        ],
+        "original_type": "应用研究",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-24.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "NMR先筛非天然氨基酸再构建mRNA展示库；ChemBioChem提出NMR引导的非天然氨基酸片段筛选：以p53–MDM2为基准，从色氨酸类似物中找到亲和力高于Trp的6Br‑Trp和6Cl‑Trp。6Br‑Trp进入模型肽后仍改善结合；两种单体还可装载tRNA并用于PURE翻译，在mRNA展示选择中获得更高富集。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "NMR先筛非天然氨基酸再构建mRNA展示库；ChemBioChem提出NMR引导的非天然氨基酸片段筛选：以p53–MDM2为基准，从色氨酸类似物中找到亲和力高于Trp的6Br‑Trp和6Cl‑Trp。6Br‑Trp进入模型肽后仍改善结合；两种单体还可装载tRNA并用于PURE翻译，在mRNA展示选择中获得更高富集。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "ligand_observed_nmr",
+          "dimension": "method_ids",
+          "basis": "NMR先筛非天然氨基酸再构建mRNA展示库；ChemBioChem提出NMR引导的非天然氨基酸片段筛选：以p53–MDM2为基准，从色氨酸类似物中找到亲和力高于Trp的6Br‑Trp和6Cl‑Trp。6Br‑Trp进入模型肽后仍改善结合；两种单体还可装载tRNA并用于PURE翻译，在mRNA展示选择中获得更高富集。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "ligand_screening",
+          "dimension": "application_ids",
+          "basis": "NMR先筛非天然氨基酸再构建mRNA展示库；ChemBioChem提出NMR引导的非天然氨基酸片段筛选：以p53–MDM2为基准，从色氨酸类似物中找到亲和力高于Trp的6Br‑Trp和6Cl‑Trp。6Br‑Trp进入模型肽后仍改善结合；两种单体还可装载tRNA并用于PURE翻译，在mRNA展示选择中获得更高富集。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "NMR先筛非天然氨基酸再构建mRNA展示库",
+        "original_summary_cn": "ChemBioChem提出NMR引导的非天然氨基酸片段筛选：以p53–MDM2为基准，从色氨酸类似物中找到亲和力高于Trp的6Br‑Trp和6Cl‑Trp。6Br‑Trp进入模型肽后仍改善结合；两种单体还可装载tRNA并用于PURE翻译，在mRNA展示选择中获得更高富集。",
+        "original_meaning_cn": "前端筛选应固定蛋白、单体浓度、缓冲液、DMSO比例和温度，并用竞争或正交NMR实验排除聚集与非特异结合。进入翻译体系前需分别验证氨酰化效率、肽中掺入率和化学稳定性；富集结果应与NMR测得的单体亲和趋势及合成肽结合数据对照。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "配体观察NMR",
+          "生命科学",
+          "药物分析",
+          "配体筛选",
+          "探头",
+          "自动进样器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260924-08",
+      "report_date": "2026-09-24",
+      "item_no": 8,
+      "title_cn": "公共数据库泄漏改写真实NMR谱结构模型排名",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "computation_nmr",
+        "spectral_processing"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [
+        "software"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Chemical Information and Modeling建立泄漏控制的真实NMR谱结构解析基准，发现按既定身份规则，公共测试分子中26.9%与训练语料完全匹配。去除完全匹配后，已发布模型top‑1准确率为24.4%；加入分子式与¹³C峰数一致性的无训练重排后为31.1%。",
+      "meaning_cn": "评测谱图算法时应按标准化结构键拆分训练、验证和测试集，并检查近邻结构而非只去除完全重复。每条真实谱要保存核种、溶剂、场强、峰表和结构真值来源；报告top‑k、置信区间及失败类型，同时把分子式和峰数一致性作为独立解码约束，而不是混入训练泄漏。",
+      "publication_date": "2026-09-18",
+      "time_scope": "7d_extension",
+      "source": "Journal of Chemical Information and Modeling",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.jcim.6c02552",
+      "doi": "10.1021/acs.jcim.6c02552",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-24",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-24.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "计算NMR",
+          "化学结构",
+          "仪器",
+          "软件"
+        ],
+        "original_type": "软件算法",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-24.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "公共数据库泄漏改写真实NMR谱结构模型排名；Journal of Chemical Information and Modeling建立泄漏控制的真实NMR谱结构解析基准，发现按既定身份规则，公共测试分子中26.9%与训练语料完全匹配。去除完全匹配后，已发布模型top‑1准确率为24.4%；加入分子式与¹³C峰数一致性的无训练重排后为31.1%。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "computation_nmr",
+          "dimension": "method_ids",
+          "basis": "公共数据库泄漏改写真实NMR谱结构模型排名；Journal of Chemical Information and Modeling建立泄漏控制的真实NMR谱结构解析基准，发现按既定身份规则，公共测试分子中26.9%与训练语料完全匹配。去除完全匹配后，已发布模型top‑1准确率为24.4%；加入分子式与¹³C峰数一致性的无训练重排后为31.1%。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spectral_processing",
+          "dimension": "method_ids",
+          "basis": "公共数据库泄漏改写真实NMR谱结构模型排名；Journal of Chemical Information and Modeling建立泄漏控制的真实NMR谱结构解析基准，发现按既定身份规则，公共测试分子中26.9%与训练语料完全匹配。去除完全匹配后，已发布模型top‑1准确率为24.4%；加入分子式与¹³C峰数一致性的无训练重排后为31.1%。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "公共数据库泄漏改写真实NMR谱结构模型排名；Journal of Chemical Information and Modeling建立泄漏控制的真实NMR谱结构解析基准，发现按既定身份规则，公共测试分子中26.9%与训练语料完全匹配。去除完全匹配后，已发布模型top‑1准确率为24.4%；加入分子式与¹³C峰数一致性的无训练重排后为31.1%。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "software",
+          "dimension": "instrument_component_ids",
+          "basis": "公共数据库泄漏改写真实NMR谱结构模型排名；Journal of Chemical Information and Modeling建立泄漏控制的真实NMR谱结构解析基准，发现按既定身份规则，公共测试分子中26.9%与训练语料完全匹配。去除完全匹配后，已发布模型top‑1准确率为24.4%；加入分子式与¹³C峰数一致性的无训练重排后为31.1%。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "公共数据库泄漏改写真实NMR谱结构模型排名",
+        "original_summary_cn": "Journal of Chemical Information and Modeling建立泄漏控制的真实NMR谱结构解析基准，发现按既定身份规则，公共测试分子中26.9%与训练语料完全匹配。去除完全匹配后，已发布模型top‑1准确率为24.4%；加入分子式与¹³C峰数一致性的无训练重排后为31.1%。",
+        "original_meaning_cn": "评测谱图算法时应按标准化结构键拆分训练、验证和测试集，并检查近邻结构而非只去除完全重复。每条真实谱要保存核种、溶剂、场强、峰表和结构真值来源；报告top‑k、置信区间及失败类型，同时把分子式和峰数一致性作为独立解码约束，而不是混入训练泄漏。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "计算NMR",
+          "化学结构",
+          "仪器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260924-09",
+      "report_date": "2026-09-24",
+      "item_no": 9,
+      "title_cn": "高场EPR解析Mn(III)配合物谱形与自旋弛豫",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Magnetic Resonance比较乙酰丙酮与焦磷酸配体Mn(III)配合物的EPR谱和电子自旋弛豫，并对两种Mn(III) acetylacetonates开展高场/高频EPR测量。研究把高自旋d4、S=2体系的谱形与配体环境、零场劈裂及快速弛豫联系起来，为Mn(III)参数化和弛豫机理比较提供数据。",
+      "meaning_cn": "复现实验应完整记录微波频段、磁场、谐振器、温度、样品形态与浓度，并分别报告CW谱拟合、脉冲回波相位记忆时间和反转恢复T1。Mn(III)弛豫可能很快，需先测死时间、脉冲带宽与回波可见温区；跨配体比较必须统一场频和温标，并联合g、D/E及温度依赖拟合。",
+      "publication_date": "2026-09-23",
+      "time_scope": "7d_extension",
+      "source": "Journal of Magnetic Resonance",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1090780726001667",
+      "doi": "10.1016/j.jmr.2026.108177",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-24",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-24.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "化学结构",
+          "无机配位",
+          "磁体",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "方法进展",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-24.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "高场EPR解析Mn(III)配合物谱形与自旋弛豫；Journal of Magnetic Resonance比较乙酰丙酮与焦磷酸配体Mn(III)配合物的EPR谱和电子自旋弛豫，并对两种Mn(III) acetylacetonates开展高场/高频EPR测量。研究把高自旋d4、S=2体系的谱形与配体环境、零场劈裂及快速弛豫联系起来，为Mn(III)参数化和弛豫机理比较提供数据。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "高场EPR解析Mn(III)配合物谱形与自旋弛豫；Journal of Magnetic Resonance比较乙酰丙酮与焦磷酸配体Mn(III)配合物的EPR谱和电子自旋弛豫，并对两种Mn(III) acetylacetonates开展高场/高频EPR测量。研究把高自旋d4、S=2体系的谱形与配体环境、零场劈裂及快速弛豫联系起来，为Mn(III)参数化和弛豫机理比较提供数据。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "inorganic_coordination",
+          "dimension": "application_ids",
+          "basis": "高场EPR解析Mn(III)配合物谱形与自旋弛豫；Journal of Magnetic Resonance比较乙酰丙酮与焦磷酸配体Mn(III)配合物的EPR谱和电子自旋弛豫，并对两种Mn(III) acetylacetonates开展高场/高频EPR测量。研究把高自旋d4、S=2体系的谱形与配体环境、零场劈裂及快速弛豫联系起来，为Mn(III)参数化和弛豫机理比较提供数据。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "高场EPR解析Mn(III)配合物谱形与自旋弛豫",
+        "original_summary_cn": "Journal of Magnetic Resonance比较乙酰丙酮与焦磷酸配体Mn(III)配合物的EPR谱和电子自旋弛豫，并对两种Mn(III) acetylacetonates开展高场/高频EPR测量。研究把高自旋d4、S=2体系的谱形与配体环境、零场劈裂及快速弛豫联系起来，为Mn(III)参数化和弛豫机理比较提供数据。",
+        "original_meaning_cn": "复现实验应完整记录微波频段、磁场、谐振器、温度、样品形态与浓度，并分别报告CW谱拟合、脉冲回波相位记忆时间和反转恢复T1。Mn(III)弛豫可能很快，需先测死时间、脉冲带宽与回波可见温区；跨配体比较必须统一场频和温标，并联合g、D/E及温度依赖拟合。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "化学结构",
+          "无机配位",
+          "磁体",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260924-10",
+      "report_date": "2026-09-24",
+      "item_no": 10,
+      "title_cn": "气相¹⁹F NMR重定绝对屏蔽标尺与核磁矩",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Magnetic Resonance in Chemistry测量CFCl₃/Xe气体混合物的¹⁹F NMR，并结合相对论量化计算得到¹⁹F核磁矩2.6283258(27) μN；CFCl₃气—液屏蔽差为−5.28(1) ppm。CH₃F/³He和CF₄/³He数据外推至零压，进而给出16种化合物的绝对¹⁹F屏蔽结果。",
+      "meaning_cn": "气相精密测量需校准压力、温度、混合比例、磁场漂移和²H锁场行为，并对密度序列做零压外推及不确定度传播。建立绝对屏蔽标尺时必须区分气相孤立分子、液相参照和溶剂效应；量化计算还应记录相对论处理、基组和几何来源。",
+      "publication_date": "2026-09-17",
+      "time_scope": "7d_extension",
+      "source": "Magnetic Resonance in Chemistry",
+      "url": "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/mrc.70143",
+      "doi": "10.1002/mrc.70143",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-24",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-24.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "计算NMR",
+          "化学结构",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_type": "方法进展",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-24.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "气相¹⁹F NMR重定绝对屏蔽标尺与核磁矩；Magnetic Resonance in Chemistry测量CFCl₃/Xe气体混合物的¹⁹F NMR，并结合相对论量化计算得到¹⁹F核磁矩2.6283258(27) μN；CFCl₃气—液屏蔽差为−5.28(1) ppm。CH₃F/³He和CF₄/³He数据外推至零压，进而给出16种化合物的绝对¹⁹F屏蔽结果。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "computation_nmr",
+          "dimension": "method_ids",
+          "basis": "气相¹⁹F NMR重定绝对屏蔽标尺与核磁矩；Magnetic Resonance in Chemistry测量CFCl₃/Xe气体混合物的¹⁹F NMR，并结合相对论量化计算得到¹⁹F核磁矩2.6283258(27) μN；CFCl₃气—液屏蔽差为−5.28(1) ppm。CH₃F/³He和CF₄/³He数据外推至零压，进而给出16种化合物的绝对¹⁹F屏蔽结果。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "气相¹⁹F NMR重定绝对屏蔽标尺与核磁矩；Magnetic Resonance in Chemistry测量CFCl₃/Xe气体混合物的¹⁹F NMR，并结合相对论量化计算得到¹⁹F核磁矩2.6283258(27) μN；CFCl₃气—液屏蔽差为−5.28(1) ppm。CH₃F/³He和CF₄/³He数据外推至零压，进而给出16种化合物的绝对¹⁹F屏蔽结果。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "气相¹⁹F NMR重定绝对屏蔽标尺与核磁矩",
+        "original_summary_cn": "Magnetic Resonance in Chemistry测量CFCl₃/Xe气体混合物的¹⁹F NMR，并结合相对论量化计算得到¹⁹F核磁矩2.6283258(27) μN；CFCl₃气—液屏蔽差为−5.28(1) ppm。CH₃F/³He和CF₄/³He数据外推至零压，进而给出16种化合物的绝对¹⁹F屏蔽结果。",
+        "original_meaning_cn": "气相精密测量需校准压力、温度、混合比例、磁场漂移和²H锁场行为，并对密度序列做零压外推及不确定度传播。建立绝对屏蔽标尺时必须区分气相孤立分子、液相参照和溶剂效应；量化计算还应记录相对论处理、基组和几何来源。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "计算NMR",
+          "化学结构",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "常规检索未确认到可严格归入过去24小时的合格新增；仅给出发布日期而无精确时刻的页面统一按近7天扩展处理，因此已启动增强搜索。检索覆盖专业期刊、Crossref等文献元数据、预印本、科研机构、主要仪器厂商、专业会议及中外采购，并按液体NMR、固体NMR/MAS/DNP、低场与TD-NMR、谱图处理、CW/rapid-scan EPR、脉冲EPR、TREPR、operando/EC-EPR和仪器部件分组检索。修订时对Journal of Magnetic Resonance按期刊与ISSN重新独立核查，补入9月23日online的Mn(III)配合物EPR论文。\n\n增强阶段共确认11条合格且未重复的非SCM候选，本期择优收录10条，未触发第二级深度增强检索。结合2026年9月17日至23日最近7期共61条记录，按标准化DOI、规范化URL和标题查重，排除1条DOI完全一致的既有论文；另排除9条日期无法独立确认的常驻或索引页面，并剔除仅把NMR/EPR作为辅助表征、医学MRI及相关性不足的候选。本期10条均为近7天扩展，全部来自非SCM来源。\n\n待复核标签：TRS/CTC总反应谱积分、转子同步三脉冲受激回波MAS-EPR、RI-NMR、19F DEST、非天然氨基酸片段筛选、泄漏控制真实谱基准、Mn(III)高场/高频EPR与电子自旋弛豫、气相绝对屏蔽标尺保留在sample_systems和正文中，未创建新的正式ID。",
+    "source_sha256": "72a48f888586c4c109980a9f767e34cfa7bc18f1f90b5888c770544b5d24e1c1",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

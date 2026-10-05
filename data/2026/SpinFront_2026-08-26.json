@@ -1,0 +1,1066 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-08-26",
+  "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260826-01",
+      "report_date": "2026-08-26",
+      "item_no": 1,
+      "title_cn": "在线EPR–GDE流通池实时监测燃料电池羟基自由基",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "ec_epr"
+      ],
+      "application_ids": [
+        "fuel_cell"
+      ],
+      "instrument_component_ids": [
+        "flow_cell"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究搭建在线EPR与气体扩散电极（GDE）流通池联用装置，在接近实际燃料电池催化层的条件下实时识别和监测羟基自由基。Fe–N–C阴极中的自由基生成速率达到旋转圆盘电极体系的19倍，说明常规离线或模型电极实验可能低估催化层降解风险。",
+      "meaning_cn": "方案需明确GDE流道、进气湿度、流量、电位控制及自旋捕获剂注入位置；从反应到谐振腔的死体积和停留时间必须标定，并以RDE、无催化剂和无偏压条件作对照。",
+      "publication_date": "2026-08-25",
+      "time_scope": "24h",
+      "source": "Applied Catalysis A: General",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0926860X26003029",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-26",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-26.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "自旋捕获",
+          "工况/在线EPR",
+          "电化学与能源",
+          "电池",
+          "燃料电池",
+          "催化",
+          "环境催化"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-26.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "在线EPR–GDE流通池实时监测燃料电池羟基自由基；研究搭建在线EPR与气体扩散电极（GDE）流通池联用装置，在接近实际燃料电池催化层的条件下实时识别和监测羟基自由基。Fe–N–C阴极中的自由基生成速率达到旋转圆盘电极体系的19倍，说明常规离线或模型电极实验可能低估催化层降解风险。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "ec_epr",
+          "dimension": "method_ids",
+          "basis": "在线EPR–GDE流通池实时监测燃料电池羟基自由基；研究搭建在线EPR与气体扩散电极（GDE）流通池联用装置，在接近实际燃料电池催化层的条件下实时识别和监测羟基自由基。Fe–N–C阴极中的自由基生成速率达到旋转圆盘电极体系的19倍，说明常规离线或模型电极实验可能低估催化层降解风险。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "fuel_cell",
+          "dimension": "application_ids",
+          "basis": "在线EPR–GDE流通池实时监测燃料电池羟基自由基；研究搭建在线EPR与气体扩散电极（GDE）流通池联用装置，在接近实际燃料电池催化层的条件下实时识别和监测羟基自由基。Fe–N–C阴极中的自由基生成速率达到旋转圆盘电极体系的19倍，说明常规离线或模型电极实验可能低估催化层降解风险。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "flow_cell",
+          "dimension": "instrument_component_ids",
+          "basis": "在线EPR–GDE流通池实时监测燃料电池羟基自由基；研究搭建在线EPR与气体扩散电极（GDE）流通池联用装置，在接近实际燃料电池催化层的条件下实时识别和监测羟基自由基。Fe–N–C阴极中的自由基生成速率达到旋转圆盘电极体系的19倍，说明常规离线或模型电极实验可能低估催化层降解风险。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "在线EPR–GDE流通池实时监测燃料电池羟基自由基",
+        "original_summary_cn": "研究搭建在线EPR与气体扩散电极（GDE）流通池联用装置，在接近实际燃料电池催化层的条件下实时识别和监测羟基自由基。Fe–N–C阴极中的自由基生成速率达到旋转圆盘电极体系的19倍，说明常规离线或模型电极实验可能低估催化层降解风险。",
+        "original_meaning_cn": "方案需明确GDE流道、进气湿度、流量、电位控制及自旋捕获剂注入位置；从反应到谐振腔的死体积和停留时间必须标定，并以RDE、无催化剂和无偏压条件作对照。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "自旋捕获",
+          "工况/在线EPR",
+          "电化学与能源",
+          "电池",
+          "燃料电池",
+          "催化",
+          "环境催化"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260826-02",
+      "report_date": "2026-08-26",
+      "item_no": 2,
+      "title_cn": "EPR捕捉CO₂与亚磷酸根电合成膦甲酸的自由基路径",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "ec_epr"
+      ],
+      "application_ids": [
+        "electrosynthesis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究以离子液体修饰Bi电极实现CO₂与亚磷酸根偶联制备抗病毒药膦甲酸。EPR测试参与机理确认：离子液体自由基介导电子转移，促进CO₂•⁻及PO₃•²⁻形成并相遇；体系达到37.5%法拉第效率和1555.6 μmol cm⁻² h⁻¹生成速率。",
+      "meaning_cn": "电化学EPR需配置可控电位原位池或快速取样流程，并分别验证CO₂•⁻、含磷自由基及离子液体本征信号；应同步记录电解质、气体流量、电流密度和取样延迟。",
+      "publication_date": "2026-08-25",
+      "time_scope": "24h",
+      "source": "Nature Catalysis",
+      "url": "https://www.nature.com/articles/s41929-026-01608-6",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-26",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-26.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "电化学与能源",
+          "电合成"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-26.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "EPR捕捉CO₂与亚磷酸根电合成膦甲酸的自由基路径；研究以离子液体修饰Bi电极实现CO₂与亚磷酸根偶联制备抗病毒药膦甲酸。EPR测试参与机理确认：离子液体自由基介导电子转移，促进CO₂•⁻及PO₃•²⁻形成并相遇；体系达到37.5%法拉第效率和1555.6 μmol cm⁻² h⁻¹生成速率。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "ec_epr",
+          "dimension": "method_ids",
+          "basis": "EPR捕捉CO₂与亚磷酸根电合成膦甲酸的自由基路径；研究以离子液体修饰Bi电极实现CO₂与亚磷酸根偶联制备抗病毒药膦甲酸。EPR测试参与机理确认：离子液体自由基介导电子转移，促进CO₂•⁻及PO₃•²⁻形成并相遇；体系达到37.5%法拉第效率和1555.6 μmol cm⁻² h⁻¹生成速率。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "electrosynthesis",
+          "dimension": "application_ids",
+          "basis": "EPR捕捉CO₂与亚磷酸根电合成膦甲酸的自由基路径；研究以离子液体修饰Bi电极实现CO₂与亚磷酸根偶联制备抗病毒药膦甲酸。EPR测试参与机理确认：离子液体自由基介导电子转移，促进CO₂•⁻及PO₃•²⁻形成并相遇；体系达到37.5%法拉第效率和1555.6 μmol cm⁻² h⁻¹生成速率。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "EPR捕捉CO₂与亚磷酸根电合成膦甲酸的自由基路径",
+        "original_summary_cn": "研究以离子液体修饰Bi电极实现CO₂与亚磷酸根偶联制备抗病毒药膦甲酸。EPR测试参与机理确认：离子液体自由基介导电子转移，促进CO₂•⁻及PO₃•²⁻形成并相遇；体系达到37.5%法拉第效率和1555.6 μmol cm⁻² h⁻¹生成速率。",
+        "original_meaning_cn": "电化学EPR需配置可控电位原位池或快速取样流程，并分别验证CO₂•⁻、含磷自由基及离子液体本征信号；应同步记录电解质、气体流量、电流密度和取样延迟。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "电化学与能源",
+          "电合成"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260826-03",
+      "report_date": "2026-08-26",
+      "item_no": 3,
+      "title_cn": "¹H-MRS连接肠道微生物通路与脑区GABA/谷氨酸水平",
+      "direction_ids": [
+        "mrs"
+      ],
+      "experiment_type_ids": [
+        "in_vivo_mrs"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "microbiome"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究将粪便宏基因组功能分析与脑¹H-MRS结合，在dlPFC、ACC和IOG三个脑区定量GABA及谷氨酸，发现微生物GABA、谷氨酸、短链脂肪酸等代谢潜能与局部兴奋/抑制平衡存在区域特异性关联。结果为人类肠—脑轴研究提供非侵入神经化学读出。",
+      "meaning_cn": "MRS方案需固定体素位置和组织分割，进行频漂及运动坏平均剔除；本研究以LCModel水峰定标，并采用水峰FWHM≤13 Hz、SNR≥150及GABA/谷氨酸CRLB阈值进行质控。",
+      "publication_date": "2026-08-25",
+      "time_scope": "24h",
+      "source": "Molecular Psychiatry",
+      "url": "https://www.nature.com/articles/s41380-026-03813-y",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-26",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-26.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "MRS",
+          "在体MRS",
+          "生命科学",
+          "微生物与肠脑轴"
+        ],
+        "original_type": "在体MRS",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-26.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "mrs",
+          "dimension": "direction_ids",
+          "basis": "¹H-MRS连接肠道微生物通路与脑区GABA/谷氨酸水平；研究将粪便宏基因组功能分析与脑¹H-MRS结合，在dlPFC、ACC和IOG三个脑区定量GABA及谷氨酸，发现微生物GABA、谷氨酸、短链脂肪酸等代谢潜能与局部兴奋/抑制平衡存在区域特异性关联。结果为人类肠—脑轴研究提供非侵入神经化学读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "in_vivo_mrs",
+          "dimension": "experiment_type_ids",
+          "basis": "¹H-MRS连接肠道微生物通路与脑区GABA/谷氨酸水平；研究将粪便宏基因组功能分析与脑¹H-MRS结合，在dlPFC、ACC和IOG三个脑区定量GABA及谷氨酸，发现微生物GABA、谷氨酸、短链脂肪酸等代谢潜能与局部兴奋/抑制平衡存在区域特异性关联。结果为人类肠—脑轴研究提供非侵入神经化学读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "microbiome",
+          "dimension": "application_ids",
+          "basis": "¹H-MRS连接肠道微生物通路与脑区GABA/谷氨酸水平；研究将粪便宏基因组功能分析与脑¹H-MRS结合，在dlPFC、ACC和IOG三个脑区定量GABA及谷氨酸，发现微生物GABA、谷氨酸、短链脂肪酸等代谢潜能与局部兴奋/抑制平衡存在区域特异性关联。结果为人类肠—脑轴研究提供非侵入神经化学读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "¹H-MRS连接肠道微生物通路与脑区GABA/谷氨酸水平",
+        "original_summary_cn": "研究将粪便宏基因组功能分析与脑¹H-MRS结合，在dlPFC、ACC和IOG三个脑区定量GABA及谷氨酸，发现微生物GABA、谷氨酸、短链脂肪酸等代谢潜能与局部兴奋/抑制平衡存在区域特异性关联。结果为人类肠—脑轴研究提供非侵入神经化学读出。",
+        "original_meaning_cn": "MRS方案需固定体素位置和组织分割，进行频漂及运动坏平均剔除；本研究以LCModel水峰定标，并采用水峰FWHM≤13 Hz、SNR≥150及GABA/谷氨酸CRLB阈值进行质控。",
+        "original_tags": [
+          "MRS",
+          "在体MRS",
+          "生命科学",
+          "微生物与肠脑轴"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260826-04",
+      "report_date": "2026-08-26",
+      "item_no": 4,
+      "title_cn": "DLLME预浓缩结合¹H NMR检测水中氯代芳香物",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "environment"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "论文建立分散液–液微萃取（DLLME）与¹H NMR联用方法，对水中的氯苯、氯苯胺、氯苯酚和氯硝基苯进行预浓缩与谱学表征。方法面向农药生产场地的复杂地下水污染谱，利用微萃取减少水相干扰并提高低浓度芳香物的NMR可见性。",
+      "meaning_cn": "应用开发应系统考察萃取剂、分散剂、pH、盐析和浓缩倍数；NMR端需设置溶剂空白、回收率、检出限与峰重叠检查，并用加标或GC/LC方法确认关键峰归属。",
+      "publication_date": "2026-08-25",
+      "time_scope": "24h",
+      "source": "Environmental Toxicology and Chemistry",
+      "url": "https://academic.oup.com/etc/advance-article-abstract/doi/10.1093/etojnl/vgag234/8770541",
+      "doi": "10.1093/etojnl/vgag234/8770541",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-26",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-26.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "环境催化",
+          "环境与污染控制"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-26.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "DLLME预浓缩结合¹H NMR检测水中氯代芳香物；论文建立分散液–液微萃取（DLLME）与¹H NMR联用方法，对水中的氯苯、氯苯胺、氯苯酚和氯硝基苯进行预浓缩与谱学表征。方法面向农药生产场地的复杂地下水污染谱，利用微萃取减少水相干扰并提高低浓度芳香物的NMR可见性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "environment",
+          "dimension": "application_ids",
+          "basis": "DLLME预浓缩结合¹H NMR检测水中氯代芳香物；论文建立分散液–液微萃取（DLLME）与¹H NMR联用方法，对水中的氯苯、氯苯胺、氯苯酚和氯硝基苯进行预浓缩与谱学表征。方法面向农药生产场地的复杂地下水污染谱，利用微萃取减少水相干扰并提高低浓度芳香物的NMR可见性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "DLLME预浓缩结合¹H NMR检测水中氯代芳香物",
+        "original_summary_cn": "论文建立分散液–液微萃取（DLLME）与¹H NMR联用方法，对水中的氯苯、氯苯胺、氯苯酚和氯硝基苯进行预浓缩与谱学表征。方法面向农药生产场地的复杂地下水污染谱，利用微萃取减少水相干扰并提高低浓度芳香物的NMR可见性。",
+        "original_meaning_cn": "应用开发应系统考察萃取剂、分散剂、pH、盐析和浓缩倍数；NMR端需设置溶剂空白、回收率、检出限与峰重叠检查，并用加标或GC/LC方法确认关键峰归属。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "环境催化",
+          "环境与污染控制"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260826-05",
+      "report_date": "2026-08-26",
+      "item_no": 5,
+      "title_cn": "在线¹H NMR进入沙丁胺醇连续制造质量监测",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "reaction_monitoring"
+      ],
+      "application_ids": [
+        "process_analysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究开发沙丁胺醇硫酸盐连续加氢制造流程，并将在线¹H NMR集成到实验室级先进制造系统中进行实时质量确认。工艺确定液体重量空速不高于10 h⁻¹的关键窗口，单套实验装置产能超过700剂量/小时，展示NMR从终点检测转向连续过程分析。",
+      "meaning_cn": "落地时需确定旁路或流通探头、耐压管路、温度稳定及气泡消除方式；建立原料、中间体、产品和溶剂峰模型，并用离线HPLC/qNMR校准浓度与放行阈值。",
+      "publication_date": "2026-08-25",
+      "time_scope": "24h",
+      "source": "Applied Catalysis A: General",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0926860X26003200",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-26",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-26.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "定量NMR",
+          "反应监测NMR",
+          "药物与质量分析",
+          "过程分析"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-26.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "在线¹H NMR进入沙丁胺醇连续制造质量监测；研究开发沙丁胺醇硫酸盐连续加氢制造流程，并将在线¹H NMR集成到实验室级先进制造系统中进行实时质量确认。工艺确定液体重量空速不高于10 h⁻¹的关键窗口，单套实验装置产能超过700剂量/小时，展示NMR从终点检测转向连续过程分析。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "在线¹H NMR进入沙丁胺醇连续制造质量监测；研究开发沙丁胺醇硫酸盐连续加氢制造流程，并将在线¹H NMR集成到实验室级先进制造系统中进行实时质量确认。工艺确定液体重量空速不高于10 h⁻¹的关键窗口，单套实验装置产能超过700剂量/小时，展示NMR从终点检测转向连续过程分析。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "reaction_monitoring",
+          "dimension": "method_ids",
+          "basis": "在线¹H NMR进入沙丁胺醇连续制造质量监测；研究开发沙丁胺醇硫酸盐连续加氢制造流程，并将在线¹H NMR集成到实验室级先进制造系统中进行实时质量确认。工艺确定液体重量空速不高于10 h⁻¹的关键窗口，单套实验装置产能超过700剂量/小时，展示NMR从终点检测转向连续过程分析。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "process_analysis",
+          "dimension": "application_ids",
+          "basis": "在线¹H NMR进入沙丁胺醇连续制造质量监测；研究开发沙丁胺醇硫酸盐连续加氢制造流程，并将在线¹H NMR集成到实验室级先进制造系统中进行实时质量确认。工艺确定液体重量空速不高于10 h⁻¹的关键窗口，单套实验装置产能超过700剂量/小时，展示NMR从终点检测转向连续过程分析。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "在线¹H NMR进入沙丁胺醇连续制造质量监测",
+        "original_summary_cn": "研究开发沙丁胺醇硫酸盐连续加氢制造流程，并将在线¹H NMR集成到实验室级先进制造系统中进行实时质量确认。工艺确定液体重量空速不高于10 h⁻¹的关键窗口，单套实验装置产能超过700剂量/小时，展示NMR从终点检测转向连续过程分析。",
+        "original_meaning_cn": "落地时需确定旁路或流通探头、耐压管路、温度稳定及气泡消除方式；建立原料、中间体、产品和溶剂峰模型，并用离线HPLC/qNMR校准浓度与放行阈值。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "定量NMR",
+          "反应监测NMR",
+          "药物与质量分析",
+          "过程分析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260826-06",
+      "report_date": "2026-08-26",
+      "item_no": 6,
+      "title_cn": "实时¹H NMR比较两类NDI单体的living ROMP动力学",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "reaction_monitoring",
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "polymers"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究设计带咔唑或三嗪侧基的降冰片烯二甲酰亚胺单体，并用1D/2D NMR确认结构。实时¹H NMR监测Grubbs二代催化的living ROMP：P1双键信号约20分钟消失，而P2约3分钟完成，直接显示侧基结构对聚合反应速率的影响。",
+      "meaning_cn": "动力学采集需选择不与产物重叠的单体烯烃峰，缩短重复时间并固定混合起点；反应很快时宜采用预装催化剂、自动注射或流动NMR，同时校正温度和仪器死时间。",
+      "publication_date": "2026-08-25",
+      "time_scope": "24h",
+      "source": "Journal of Molecular Structure",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022286026010306",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-26",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-26.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "反应监测NMR",
+          "催化",
+          "聚合物",
+          "化学结构解析"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-26.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "实时¹H NMR比较两类NDI单体的living ROMP动力学；研究设计带咔唑或三嗪侧基的降冰片烯二甲酰亚胺单体，并用1D/2D NMR确认结构。实时¹H NMR监测Grubbs二代催化的living ROMP：P1双键信号约20分钟消失，而P2约3分钟完成，直接显示侧基结构对聚合反应速率的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "实时¹H NMR比较两类NDI单体的living ROMP动力学；研究设计带咔唑或三嗪侧基的降冰片烯二甲酰亚胺单体，并用1D/2D NMR确认结构。实时¹H NMR监测Grubbs二代催化的living ROMP：P1双键信号约20分钟消失，而P2约3分钟完成，直接显示侧基结构对聚合反应速率的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "reaction_monitoring",
+          "dimension": "method_ids",
+          "basis": "实时¹H NMR比较两类NDI单体的living ROMP动力学；研究设计带咔唑或三嗪侧基的降冰片烯二甲酰亚胺单体，并用1D/2D NMR确认结构。实时¹H NMR监测Grubbs二代催化的living ROMP：P1双键信号约20分钟消失，而P2约3分钟完成，直接显示侧基结构对聚合反应速率的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "实时¹H NMR比较两类NDI单体的living ROMP动力学；研究设计带咔唑或三嗪侧基的降冰片烯二甲酰亚胺单体，并用1D/2D NMR确认结构。实时¹H NMR监测Grubbs二代催化的living ROMP：P1双键信号约20分钟消失，而P2约3分钟完成，直接显示侧基结构对聚合反应速率的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "polymers",
+          "dimension": "application_ids",
+          "basis": "实时¹H NMR比较两类NDI单体的living ROMP动力学；研究设计带咔唑或三嗪侧基的降冰片烯二甲酰亚胺单体，并用1D/2D NMR确认结构。实时¹H NMR监测Grubbs二代催化的living ROMP：P1双键信号约20分钟消失，而P2约3分钟完成，直接显示侧基结构对聚合反应速率的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "实时¹H NMR比较两类NDI单体的living ROMP动力学",
+        "original_summary_cn": "研究设计带咔唑或三嗪侧基的降冰片烯二甲酰亚胺单体，并用1D/2D NMR确认结构。实时¹H NMR监测Grubbs二代催化的living ROMP：P1双键信号约20分钟消失，而P2约3分钟完成，直接显示侧基结构对聚合反应速率的影响。",
+        "original_meaning_cn": "动力学采集需选择不与产物重叠的单体烯烃峰，缩短重复时间并固定混合起点；反应很快时宜采用预装催化剂、自动注射或流动NMR，同时校正温度和仪器死时间。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "反应监测NMR",
+          "催化",
+          "聚合物",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260826-07",
+      "report_date": "2026-08-26",
+      "item_no": 7,
+      "title_cn": "MRV Challenge 3比较三维湍流中的速度与被动标量测量",
+      "direction_ids": [
+        "mrv"
+      ],
+      "experiment_type_ids": [
+        "mr_velocimetry"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "第三届Magnetic Resonance Velocimetry Challenge围绕三维湍流中的速度场和被动标量分布开展跨团队比较。研究利用MRV无创测量复杂流道内部的三分量速度及标量输运，并通过统一几何、工况和数据格式评估不同系统在空间分辨率、偏差及不确定度上的一致性。",
+      "meaning_cn": "MRV方案需同时校准速度编码梯度、相位背景、温度和流量；比较时应统一体素尺寸、VENC、重复次数与掩膜方法，并报告低速区相位噪声和边界附近部分体积效应。",
+      "publication_date": "2026-08-25",
+      "time_scope": "24h",
+      "source": "Experiments in Fluids",
+      "url": "https://link.springer.com/article/10.1007/s00348-026-04234-x",
+      "doi": "10.1007/s00348-026-04234-x",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-26",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-26.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "MRV",
+          "磁共振测速",
+          "地质与流体"
+        ],
+        "original_type": "磁共振测速",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-26.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "mrv",
+          "dimension": "direction_ids",
+          "basis": "MRV Challenge 3比较三维湍流中的速度与被动标量测量；第三届Magnetic Resonance Velocimetry Challenge围绕三维湍流中的速度场和被动标量分布开展跨团队比较。研究利用MRV无创测量复杂流道内部的三分量速度及标量输运，并通过统一几何、工况和数据格式评估不同系统在空间分辨率、偏差及不确定度上的一致性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "mr_velocimetry",
+          "dimension": "experiment_type_ids",
+          "basis": "MRV Challenge 3比较三维湍流中的速度与被动标量测量；第三届Magnetic Resonance Velocimetry Challenge围绕三维湍流中的速度场和被动标量分布开展跨团队比较。研究利用MRV无创测量复杂流道内部的三分量速度及标量输运，并通过统一几何、工况和数据格式评估不同系统在空间分辨率、偏差及不确定度上的一致性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "geoscience_flow",
+          "dimension": "application_ids",
+          "basis": "MRV Challenge 3比较三维湍流中的速度与被动标量测量；第三届Magnetic Resonance Velocimetry Challenge围绕三维湍流中的速度场和被动标量分布开展跨团队比较。研究利用MRV无创测量复杂流道内部的三分量速度及标量输运，并通过统一几何、工况和数据格式评估不同系统在空间分辨率、偏差及不确定度上的一致性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "MRV Challenge 3比较三维湍流中的速度与被动标量测量",
+        "original_summary_cn": "第三届Magnetic Resonance Velocimetry Challenge围绕三维湍流中的速度场和被动标量分布开展跨团队比较。研究利用MRV无创测量复杂流道内部的三分量速度及标量输运，并通过统一几何、工况和数据格式评估不同系统在空间分辨率、偏差及不确定度上的一致性。",
+        "original_meaning_cn": "MRV方案需同时校准速度编码梯度、相位背景、温度和流量；比较时应统一体素尺寸、VENC、重复次数与掩膜方法，并报告低速区相位噪声和边界附近部分体积效应。",
+        "original_tags": [
+          "MRV",
+          "磁共振测速",
+          "地质与流体"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260826-08",
+      "report_date": "2026-08-26",
+      "item_no": 8,
+      "title_cn": "多核NMR确认α,α-二氟甘氨酸betaine结构与稳定性",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究在温和无水条件下合成一组α,α-二氟甘氨酸betaine，并以多核NMR和单晶XRD确认结构。烷基铵与吡啶鎓衍生物表现出不同的晶体堆积和脱羧稳定性，DFT支持SN2形成路径；含氟位点使¹⁹F及碳–氟耦合成为结构核验的重要读出。",
+      "meaning_cn": "含氟小分子方案宜联合¹H、¹³C和¹⁹F谱，保留¹³C–¹⁹F耦合以确认CF₂位点；应核查¹⁹F化学位移参考、去耦方式、宽谱设置及样品含水量对稳定性的影响。",
+      "publication_date": "2026-08-25",
+      "time_scope": "24h",
+      "source": "Journal of Molecular Structure",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022286026010550",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-26",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-26.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "化学结构解析"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-26.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "多核NMR确认α,α-二氟甘氨酸betaine结构与稳定性；研究在温和无水条件下合成一组α,α-二氟甘氨酸betaine，并以多核NMR和单晶XRD确认结构。烷基铵与吡啶鎓衍生物表现出不同的晶体堆积和脱羧稳定性，DFT支持SN2形成路径；含氟位点使¹⁹F及碳–氟耦合成为结构核验的重要读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "多核NMR确认α,α-二氟甘氨酸betaine结构与稳定性；研究在温和无水条件下合成一组α,α-二氟甘氨酸betaine，并以多核NMR和单晶XRD确认结构。烷基铵与吡啶鎓衍生物表现出不同的晶体堆积和脱羧稳定性，DFT支持SN2形成路径；含氟位点使¹⁹F及碳–氟耦合成为结构核验的重要读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "多核NMR确认α,α-二氟甘氨酸betaine结构与稳定性；研究在温和无水条件下合成一组α,α-二氟甘氨酸betaine，并以多核NMR和单晶XRD确认结构。烷基铵与吡啶鎓衍生物表现出不同的晶体堆积和脱羧稳定性，DFT支持SN2形成路径；含氟位点使¹⁹F及碳–氟耦合成为结构核验的重要读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "多核NMR确认α,α-二氟甘氨酸betaine结构与稳定性",
+        "original_summary_cn": "研究在温和无水条件下合成一组α,α-二氟甘氨酸betaine，并以多核NMR和单晶XRD确认结构。烷基铵与吡啶鎓衍生物表现出不同的晶体堆积和脱羧稳定性，DFT支持SN2形成路径；含氟位点使¹⁹F及碳–氟耦合成为结构核验的重要读出。",
+        "original_meaning_cn": "含氟小分子方案宜联合¹H、¹³C和¹⁹F谱，保留¹³C–¹⁹F耦合以确认CF₂位点；应核查¹⁹F化学位移参考、去耦方式、宽谱设置及样品含水量对稳定性的影响。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260826-09",
+      "report_date": "2026-08-26",
+      "item_no": 9,
+      "title_cn": "NMR与GIAO计算区分邻位/对位偶氮羟基苯甲醛",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究考察反应介质对偶氮羟基苯甲醛邻位/对位区域选择性的影响，NaOH/Na₂CO₃混合体系获得98%对位选择性。FTIR与NMR用于区分区域异构体，DFT/GIAO计算化学位移进一步核验结构与相对稳定性，适合峰重叠条件下的异构体判别。",
+      "meaning_cn": "异构体分析应优先组合¹H、¹³C、HSQC和HMBC建立连接关系，再以同一溶剂和参考体系计算GIAO位移；比较时需报告线性校正、均方误差及可能存在的互变异构影响。",
+      "publication_date": "2026-08-25",
+      "time_scope": "24h",
+      "source": "Journal of Molecular Structure",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022286026010069",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-26",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-26.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "计算NMR",
+          "环境与污染控制",
+          "化学结构解析"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-26.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "NMR与GIAO计算区分邻位/对位偶氮羟基苯甲醛；研究考察反应介质对偶氮羟基苯甲醛邻位/对位区域选择性的影响，NaOH/Na₂CO₃混合体系获得98%对位选择性。FTIR与NMR用于区分区域异构体，DFT/GIAO计算化学位移进一步核验结构与相对稳定性，适合峰重叠条件下的异构体判别。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "NMR与GIAO计算区分邻位/对位偶氮羟基苯甲醛；研究考察反应介质对偶氮羟基苯甲醛邻位/对位区域选择性的影响，NaOH/Na₂CO₃混合体系获得98%对位选择性。FTIR与NMR用于区分区域异构体，DFT/GIAO计算化学位移进一步核验结构与相对稳定性，适合峰重叠条件下的异构体判别。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "computation_nmr",
+          "dimension": "method_ids",
+          "basis": "NMR与GIAO计算区分邻位/对位偶氮羟基苯甲醛；研究考察反应介质对偶氮羟基苯甲醛邻位/对位区域选择性的影响，NaOH/Na₂CO₃混合体系获得98%对位选择性。FTIR与NMR用于区分区域异构体，DFT/GIAO计算化学位移进一步核验结构与相对稳定性，适合峰重叠条件下的异构体判别。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "NMR与GIAO计算区分邻位/对位偶氮羟基苯甲醛；研究考察反应介质对偶氮羟基苯甲醛邻位/对位区域选择性的影响，NaOH/Na₂CO₃混合体系获得98%对位选择性。FTIR与NMR用于区分区域异构体，DFT/GIAO计算化学位移进一步核验结构与相对稳定性，适合峰重叠条件下的异构体判别。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "NMR与GIAO计算区分邻位/对位偶氮羟基苯甲醛",
+        "original_summary_cn": "研究考察反应介质对偶氮羟基苯甲醛邻位/对位区域选择性的影响，NaOH/Na₂CO₃混合体系获得98%对位选择性。FTIR与NMR用于区分区域异构体，DFT/GIAO计算化学位移进一步核验结构与相对稳定性，适合峰重叠条件下的异构体判别。",
+        "original_meaning_cn": "异构体分析应优先组合¹H、¹³C、HSQC和HMBC建立连接关系，再以同一溶剂和参考体系计算GIAO位移；比较时需报告线性校正、均方误差及可能存在的互变异构影响。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "计算NMR",
+          "环境与污染控制",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260826-10",
+      "report_date": "2026-08-26",
+      "item_no": 10,
+      "title_cn": "多维NMR解析12种新型penithoaustalide五环天然产物",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "natural_products"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究从土壤真菌Penicillium thomii KNI-73113中分离12种新的austalide meroterpenoid及4种已知类似物。结构归属依赖系统NMR、HRESIMS、ECD与单晶XRD，解析具有5/6/6/6/6五环骨架的系列化合物，并筛得免疫抑制和抗炎活性成员。",
+      "meaning_cn": "复杂天然产物需预留高灵敏度1D/2D组合，包括COSY、HSQC、HMBC、NOESY/ROESY，并对微量组分使用低体积管或低温探头；绝对构型应与ECD或晶体学交叉核验。",
+      "publication_date": "2026-08-25",
+      "time_scope": "24h",
+      "source": "Journal of Molecular Structure",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022286026010951",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-26",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-26.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "化学结构解析",
+          "天然产物"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-26.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "多维NMR解析12种新型penithoaustalide五环天然产物；研究从土壤真菌Penicillium thomii KNI-73113中分离12种新的austalide meroterpenoid及4种已知类似物。结构归属依赖系统NMR、HRESIMS、ECD与单晶XRD，解析具有5/6/6/6/6五环骨架的系列化合物，并筛得免疫抑制和抗炎活性成员。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "多维NMR解析12种新型penithoaustalide五环天然产物；研究从土壤真菌Penicillium thomii KNI-73113中分离12种新的austalide meroterpenoid及4种已知类似物。结构归属依赖系统NMR、HRESIMS、ECD与单晶XRD，解析具有5/6/6/6/6五环骨架的系列化合物，并筛得免疫抑制和抗炎活性成员。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "多维NMR解析12种新型penithoaustalide五环天然产物；研究从土壤真菌Penicillium thomii KNI-73113中分离12种新的austalide meroterpenoid及4种已知类似物。结构归属依赖系统NMR、HRESIMS、ECD与单晶XRD，解析具有5/6/6/6/6五环骨架的系列化合物，并筛得免疫抑制和抗炎活性成员。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "natural_products",
+          "dimension": "application_ids",
+          "basis": "多维NMR解析12种新型penithoaustalide五环天然产物；研究从土壤真菌Penicillium thomii KNI-73113中分离12种新的austalide meroterpenoid及4种已知类似物。结构归属依赖系统NMR、HRESIMS、ECD与单晶XRD，解析具有5/6/6/6/6五环骨架的系列化合物，并筛得免疫抑制和抗炎活性成员。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "多维NMR解析12种新型penithoaustalide五环天然产物",
+        "original_summary_cn": "研究从土壤真菌Penicillium thomii KNI-73113中分离12种新的austalide meroterpenoid及4种已知类似物。结构归属依赖系统NMR、HRESIMS、ECD与单晶XRD，解析具有5/6/6/6/6五环骨架的系列化合物，并筛得免疫抑制和抗炎活性成员。",
+        "original_meaning_cn": "复杂天然产物需预留高灵敏度1D/2D组合，包括COSY、HSQC、HMBC、NOESY/ROESY，并对微量组分使用低体积管或低温探头；绝对构型应与ECD或晶体学交叉核验。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "化学结构解析",
+          "天然产物"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "本期共10条，均来自过去24小时；已按历史索引执行去重。",
+    "source_sha256": "d8f235258032f39da16d980e059015b6c4f3c3f038f5bb2dc6d80470d3d1b9e9",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

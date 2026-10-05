@@ -1,0 +1,1056 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-12",
+  "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260912-01",
+      "report_date": "2026-09-12",
+      "item_no": 1,
+      "title_cn": "2D EXSY固体NMR区分锂金属电池的电子与离子失联",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "battery"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "JACS以二维交换固体NMR定义失活金属锂/SEI比例及SEI—Li⁰交换强度。酯类电解液主要形成电子隔离的须状死锂；醚类局域高浓度电解液虽抑制死锂，却会随循环出现无机富集SEI两侧离子接触减弱。",
+      "meaning_cn": "失效分析需按循环状态惰性拆解并保持样品含液量，配对采集一维定量谱与2D EXSY。应记录混合时间、重复延迟、转子密封和温度，并校正不同锂物种的弛豫及交换效率，避免把峰强直接等同于绝对含量。",
+      "publication_date": "2026-09-11",
+      "time_scope": "24h",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://pubs.acs.org/doi/10.1021/jacs.6c12458",
+      "doi": "10.1021/jacs.6c12458",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-12",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-12.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多维NMR",
+          "电化学与能源",
+          "电池",
+          "材料"
+        ],
+        "original_type": "固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-12.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "2D EXSY固体NMR区分锂金属电池的电子与离子失联；JACS以二维交换固体NMR定义失活金属锂/SEI比例及SEI—Li⁰交换强度。酯类电解液主要形成电子隔离的须状死锂；醚类局域高浓度电解液虽抑制死锂，却会随循环出现无机富集SEI两侧离子接触减弱。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "2D EXSY固体NMR区分锂金属电池的电子与离子失联；JACS以二维交换固体NMR定义失活金属锂/SEI比例及SEI—Li⁰交换强度。酯类电解液主要形成电子隔离的须状死锂；醚类局域高浓度电解液虽抑制死锂，却会随循环出现无机富集SEI两侧离子接触减弱。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "2D EXSY固体NMR区分锂金属电池的电子与离子失联；JACS以二维交换固体NMR定义失活金属锂/SEI比例及SEI—Li⁰交换强度。酯类电解液主要形成电子隔离的须状死锂；醚类局域高浓度电解液虽抑制死锂，却会随循环出现无机富集SEI两侧离子接触减弱。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "battery",
+          "dimension": "application_ids",
+          "basis": "2D EXSY固体NMR区分锂金属电池的电子与离子失联；JACS以二维交换固体NMR定义失活金属锂/SEI比例及SEI—Li⁰交换强度。酯类电解液主要形成电子隔离的须状死锂；醚类局域高浓度电解液虽抑制死锂，却会随循环出现无机富集SEI两侧离子接触减弱。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "2D EXSY固体NMR区分锂金属电池的电子与离子失联",
+        "original_summary_cn": "JACS以二维交换固体NMR定义失活金属锂/SEI比例及SEI—Li⁰交换强度。酯类电解液主要形成电子隔离的须状死锂；醚类局域高浓度电解液虽抑制死锂，却会随循环出现无机富集SEI两侧离子接触减弱。",
+        "original_meaning_cn": "失效分析需按循环状态惰性拆解并保持样品含液量，配对采集一维定量谱与2D EXSY。应记录混合时间、重复延迟、转子密封和温度，并校正不同锂物种的弛豫及交换效率，避免把峰强直接等同于绝对含量。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多维NMR",
+          "电化学与能源",
+          "电池",
+          "材料"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260912-02",
+      "report_date": "2026-09-12",
+      "item_no": 2,
+      "title_cn": "半经典分子动力学模拟凝聚相NMR谱线展宽",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "JCTC将Meyer–Miller形式与Caldeira–Leggett热浴模型用于单、双自旋NMR线形模拟，把自旋变量与离散谐振子环境耦合。该方法可处理较长热浴相关时间；所得谱线比Redfield理论预测更宽，显示非久期环境频率的影响。",
+      "meaning_cn": "用于实验线形解释时，应以实测温度、黏度、相关时间和耦合强度限定热浴谱密度，并同时计算Redfield基线。模拟需报告离散模式数、时间步长、轨迹数和收敛性；不能只凭更宽线形反推唯一动力学机制。",
+      "publication_date": "2026-09-11",
+      "time_scope": "24h",
+      "source": "Journal of Chemical Theory and Computation",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.jctc.6c01206",
+      "doi": "10.1021/acs.jctc.6c01206",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-12",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-12.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "computation_nmr",
+          "化学结构",
+          "材料"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-12.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "半经典分子动力学模拟凝聚相NMR谱线展宽；JCTC将Meyer–Miller形式与Caldeira–Leggett热浴模型用于单、双自旋NMR线形模拟，把自旋变量与离散谐振子环境耦合。该方法可处理较长热浴相关时间；所得谱线比Redfield理论预测更宽，显示非久期环境频率的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "computation_nmr",
+          "dimension": "method_ids",
+          "basis": "半经典分子动力学模拟凝聚相NMR谱线展宽；JCTC将Meyer–Miller形式与Caldeira–Leggett热浴模型用于单、双自旋NMR线形模拟，把自旋变量与离散谐振子环境耦合。该方法可处理较长热浴相关时间；所得谱线比Redfield理论预测更宽，显示非久期环境频率的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "半经典分子动力学模拟凝聚相NMR谱线展宽",
+        "original_summary_cn": "JCTC将Meyer–Miller形式与Caldeira–Leggett热浴模型用于单、双自旋NMR线形模拟，把自旋变量与离散谐振子环境耦合。该方法可处理较长热浴相关时间；所得谱线比Redfield理论预测更宽，显示非久期环境频率的影响。",
+        "original_meaning_cn": "用于实验线形解释时，应以实测温度、黏度、相关时间和耦合强度限定热浴谱密度，并同时计算Redfield基线。模拟需报告离散模式数、时间步长、轨迹数和收敛性；不能只凭更宽线形反推唯一动力学机制。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "computation_nmr",
+          "化学结构",
+          "材料"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260912-03",
+      "report_date": "2026-09-12",
+      "item_no": 3,
+      "title_cn": "¹¹B高压NMR解析SrCu₂(BO₃)₂的两种单斜相",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Physical Review B以¹¹B NMR把SrCu₂(BO₃)₂测至14 GPa，谱线识别出两种压力诱导单斜相。4 GPa以上、10 K以下的快速展宽与1/T₁幂律支持无能隙三维反铁磁态；约20 K还出现二维短程有序信号。",
+      "meaning_cn": "高压复现实验需逐压力点校准压力标尺、线圈灵敏度、样品取向和实际温度，并记录频率扫场方式、回波延迟及恢复曲线。相变判断应联合谱线分裂、积分强度和1/T₁，排查压力梯度及砧体背景造成的假展宽。",
+      "publication_date": "2026-09-11",
+      "time_scope": "24h",
+      "source": "Physical Review B",
+      "url": "https://journals.aps.org/prb/abstract/10.1103/6bxt-c4zm",
+      "doi": "10.1103/6bxt-c4zm",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-12",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-12.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "材料"
+        ],
+        "original_type": "固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-12.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "¹¹B高压NMR解析SrCu₂(BO₃)₂的两种单斜相；Physical Review B以¹¹B NMR把SrCu₂(BO₃)₂测至14 GPa，谱线识别出两种压力诱导单斜相。4 GPa以上、10 K以下的快速展宽与1/T₁幂律支持无能隙三维反铁磁态；约20 K还出现二维短程有序信号。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "¹¹B高压NMR解析SrCu₂(BO₃)₂的两种单斜相；Physical Review B以¹¹B NMR把SrCu₂(BO₃)₂测至14 GPa，谱线识别出两种压力诱导单斜相。4 GPa以上、10 K以下的快速展宽与1/T₁幂律支持无能隙三维反铁磁态；约20 K还出现二维短程有序信号。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "¹¹B高压NMR解析SrCu₂(BO₃)₂的两种单斜相；Physical Review B以¹¹B NMR把SrCu₂(BO₃)₂测至14 GPa，谱线识别出两种压力诱导单斜相。4 GPa以上、10 K以下的快速展宽与1/T₁幂律支持无能隙三维反铁磁态；约20 K还出现二维短程有序信号。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "¹¹B高压NMR解析SrCu₂(BO₃)₂的两种单斜相；Physical Review B以¹¹B NMR把SrCu₂(BO₃)₂测至14 GPa，谱线识别出两种压力诱导单斜相。4 GPa以上、10 K以下的快速展宽与1/T₁幂律支持无能隙三维反铁磁态；约20 K还出现二维短程有序信号。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "¹¹B高压NMR解析SrCu₂(BO₃)₂的两种单斜相",
+        "original_summary_cn": "Physical Review B以¹¹B NMR把SrCu₂(BO₃)₂测至14 GPa，谱线识别出两种压力诱导单斜相。4 GPa以上、10 K以下的快速展宽与1/T₁幂律支持无能隙三维反铁磁态；约20 K还出现二维短程有序信号。",
+        "original_meaning_cn": "高压复现实验需逐压力点校准压力标尺、线圈灵敏度、样品取向和实际温度，并记录频率扫场方式、回波延迟及恢复曲线。相变判断应联合谱线分裂、积分强度和1/T₁，排查压力梯度及砧体背景造成的假展宽。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "材料"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260912-04",
+      "report_date": "2026-09-12",
+      "item_no": 4,
+      "title_cn": "综述定位溶液NMR在整合结构生物学中的定量角色",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "review",
+      "summary_cn": "Frontiers综述从科学问题而非单项实验出发，梳理溶液NMR如何定量读取构象群、交换动力学、弱相互作用、变构、无序、组装与相分离，并讨论将原子分辨观测量同冷冻电镜、散射、质谱及分子模拟联合约束。",
+      "meaning_cn": "联合方案应先把问题映射为可观测量，例如化学位移、R₁/R₂、PRE、残余偶极耦合或交换速率，再确定同位素标记和浓度系列。整合建模必须保留各数据的时间尺度、误差和互相独立性，并用未参与拟合的数据验证。",
+      "publication_date": "2026-09-11",
+      "time_scope": "24h",
+      "source": "Frontiers in Molecular Biosciences",
+      "url": "https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2026.1941622/full",
+      "doi": "10.3389/fmolb.2026.1941622",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-12",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-12.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "paramagnetic_nmr",
+          "生命科学",
+          "结构生物学"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-12.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "综述定位溶液NMR在整合结构生物学中的定量角色；Frontiers综述从科学问题而非单项实验出发，梳理溶液NMR如何定量读取构象群、交换动力学、弱相互作用、变构、无序、组装与相分离，并讨论将原子分辨观测量同冷冻电镜、散射、质谱及分子模拟联合约束。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "综述定位溶液NMR在整合结构生物学中的定量角色；Frontiers综述从科学问题而非单项实验出发，梳理溶液NMR如何定量读取构象群、交换动力学、弱相互作用、变构、无序、组装与相分离，并讨论将原子分辨观测量同冷冻电镜、散射、质谱及分子模拟联合约束。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "综述定位溶液NMR在整合结构生物学中的定量角色；Frontiers综述从科学问题而非单项实验出发，梳理溶液NMR如何定量读取构象群、交换动力学、弱相互作用、变构、无序、组装与相分离，并讨论将原子分辨观测量同冷冻电镜、散射、质谱及分子模拟联合约束。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "综述定位溶液NMR在整合结构生物学中的定量角色",
+        "original_summary_cn": "Frontiers综述从科学问题而非单项实验出发，梳理溶液NMR如何定量读取构象群、交换动力学、弱相互作用、变构、无序、组装与相分离，并讨论将原子分辨观测量同冷冻电镜、散射、质谱及分子模拟联合约束。",
+        "original_meaning_cn": "联合方案应先把问题映射为可观测量，例如化学位移、R₁/R₂、PRE、残余偶极耦合或交换速率，再确定同位素标记和浓度系列。整合建模必须保留各数据的时间尺度、误差和互相独立性，并用未参与拟合的数据验证。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "paramagnetic_nmr",
+          "生命科学",
+          "结构生物学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260912-05",
+      "report_date": "2026-09-12",
+      "item_no": 5,
+      "title_cn": "多核化学位移完成TANGO1货物识别域MOTH的NMR归属",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Biomolecular NMR Assignments发布人TANGO1货物识别MOTH结构域的¹H、¹³C和¹⁵N主链及侧链化学位移归属。该数据为后续检测胶原结合、构象扰动及界面残基提供逐位点基准，也便于比较相关MOTH结构域的折叠差异。",
+      "meaning_cn": "复用归属时需匹配构建体边界、同位素标记、缓冲液、pH、盐度和温度，并检查样品单分散性。滴定实验应保持峰表中的编号体系，报告化学位移扰动、峰强和线宽；显著缺峰需结合交换或聚集而非直接视为无序。",
+      "publication_date": "2026-09-11",
+      "time_scope": "24h",
+      "source": "Biomolecular NMR Assignments",
+      "url": "https://link.springer.com/article/10.1007/s12104-026-10278-1",
+      "doi": "10.1007/s12104-026-10278-1",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-12",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-12.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-12.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "多核化学位移完成TANGO1货物识别域MOTH的NMR归属；Biomolecular NMR Assignments发布人TANGO1货物识别MOTH结构域的¹H、¹³C和¹⁵N主链及侧链化学位移归属。该数据为后续检测胶原结合、构象扰动及界面残基提供逐位点基准，也便于比较相关MOTH结构域的折叠差异。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "多核化学位移完成TANGO1货物识别域MOTH的NMR归属；Biomolecular NMR Assignments发布人TANGO1货物识别MOTH结构域的¹H、¹³C和¹⁵N主链及侧链化学位移归属。该数据为后续检测胶原结合、构象扰动及界面残基提供逐位点基准，也便于比较相关MOTH结构域的折叠差异。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "多核化学位移完成TANGO1货物识别域MOTH的NMR归属；Biomolecular NMR Assignments发布人TANGO1货物识别MOTH结构域的¹H、¹³C和¹⁵N主链及侧链化学位移归属。该数据为后续检测胶原结合、构象扰动及界面残基提供逐位点基准，也便于比较相关MOTH结构域的折叠差异。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "多核化学位移完成TANGO1货物识别域MOTH的NMR归属",
+        "original_summary_cn": "Biomolecular NMR Assignments发布人TANGO1货物识别MOTH结构域的¹H、¹³C和¹⁵N主链及侧链化学位移归属。该数据为后续检测胶原结合、构象扰动及界面残基提供逐位点基准，也便于比较相关MOTH结构域的折叠差异。",
+        "original_meaning_cn": "复用归属时需匹配构建体边界、同位素标记、缓冲液、pH、盐度和温度，并检查样品单分散性。滴定实验应保持峰表中的编号体系，报告化学位移扰动、峰强和线宽；显著缺峰需结合交换或聚集而非直接视为无序。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260912-06",
+      "report_date": "2026-09-12",
+      "item_no": 6,
+      "title_cn": "纵向¹H MRS分离连续麻醉与应激后的海马谷氨酸变化",
+      "direction_ids": [
+        "mrs"
+      ],
+      "experiment_type_ids": [
+        "in_vivo_mrs"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Spectroscopy对24只小鼠在0.33—24小时进行纵向¹H MRS。连续异氟烷麻醉阶段海马谷氨酸随时间下降；清醒恢复阶段应激组总体较低，但多数时间点经多重校正后不显著，提示麻醉时程本身是重要混杂因素。",
+      "meaning_cn": "动物MRS方案需把持续麻醉期和清醒恢复期预先分层，固定体素、匀场、抑水、异氟烷浓度、呼吸和体温。谷氨酸定量应报告拟合误差及参照方式；探索性时间点差异必须在独立、更大样本中预注册验证。",
+      "publication_date": "2026-09-11",
+      "time_scope": "24h",
+      "source": "Journal of Spectroscopy",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1155/jspe/8275909",
+      "doi": "10.1155/jspe/8275909",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-12",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-12.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "MRS",
+          "活体MRS",
+          "代谢组学",
+          "生命科学"
+        ],
+        "original_type": "活体MRS",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-12.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "mrs",
+          "dimension": "direction_ids",
+          "basis": "纵向¹H MRS分离连续麻醉与应激后的海马谷氨酸变化；Journal of Spectroscopy对24只小鼠在0.33—24小时进行纵向¹H MRS。连续异氟烷麻醉阶段海马谷氨酸随时间下降；清醒恢复阶段应激组总体较低，但多数时间点经多重校正后不显著，提示麻醉时程本身是重要混杂因素。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "in_vivo_mrs",
+          "dimension": "experiment_type_ids",
+          "basis": "纵向¹H MRS分离连续麻醉与应激后的海马谷氨酸变化；Journal of Spectroscopy对24只小鼠在0.33—24小时进行纵向¹H MRS。连续异氟烷麻醉阶段海马谷氨酸随时间下降；清醒恢复阶段应激组总体较低，但多数时间点经多重校正后不显著，提示麻醉时程本身是重要混杂因素。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "life_science",
+          "dimension": "application_ids",
+          "basis": "纵向¹H MRS分离连续麻醉与应激后的海马谷氨酸变化；Journal of Spectroscopy对24只小鼠在0.33—24小时进行纵向¹H MRS。连续异氟烷麻醉阶段海马谷氨酸随时间下降；清醒恢复阶段应激组总体较低，但多数时间点经多重校正后不显著，提示麻醉时程本身是重要混杂因素。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "纵向¹H MRS分离连续麻醉与应激后的海马谷氨酸变化",
+        "original_summary_cn": "Journal of Spectroscopy对24只小鼠在0.33—24小时进行纵向¹H MRS。连续异氟烷麻醉阶段海马谷氨酸随时间下降；清醒恢复阶段应激组总体较低，但多数时间点经多重校正后不显著，提示麻醉时程本身是重要混杂因素。",
+        "original_meaning_cn": "动物MRS方案需把持续麻醉期和清醒恢复期预先分层，固定体素、匀场、抑水、异氟烷浓度、呼吸和体温。谷氨酸定量应报告拟合误差及参照方式；探索性时间点差异必须在独立、更大样本中预注册验证。",
+        "original_tags": [
+          "MRS",
+          "活体MRS",
+          "代谢组学",
+          "生命科学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260912-07",
+      "report_date": "2026-09-12",
+      "item_no": 7,
+      "title_cn": "热频率锁定使永磁磁共振长期稳定度进入亚ppm",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "instrument_component_ids": [
+        "magnet"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Analytical Chemistry提出thermal-frequency locking，以温度控制与共振频率反馈补偿永磁体慢漂移，实现长期亚ppm场稳定度。方法针对温漂导致的线宽增加、谱形失真和成像伪影，减少传统独立场锁硬件链路的复杂度。",
+      "meaning_cn": "部署前需测量磁体频率—温度系数、传感器位置、热惯性和环境温度扰动，并记录控制周期与频率估计误差。验收应以数小时标准样连续谱比较峰位、半高宽和短期噪声，确认反馈不会把样品温变误判为磁场漂移。",
+      "publication_date": "2026-09-10",
+      "time_scope": "7d_extension",
+      "source": "Analytical Chemistry",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.analchem.6c02978",
+      "doi": "10.1021/acs.analchem.6c02978",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-12",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-12.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "台式NMR",
+          "仪器、软件与方法",
+          "过程分析"
+        ],
+        "original_type": "台式NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-12.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "热频率锁定使永磁磁共振长期稳定度进入亚ppm；Analytical Chemistry提出thermal-frequency locking，以温度控制与共振频率反馈补偿永磁体慢漂移，实现长期亚ppm场稳定度。方法针对温漂导致的线宽增加、谱形失真和成像伪影，减少传统独立场锁硬件链路的复杂度。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "instrumentation",
+          "dimension": "application_ids",
+          "basis": "热频率锁定使永磁磁共振长期稳定度进入亚ppm；Analytical Chemistry提出thermal-frequency locking，以温度控制与共振频率反馈补偿永磁体慢漂移，实现长期亚ppm场稳定度。方法针对温漂导致的线宽增加、谱形失真和成像伪影，减少传统独立场锁硬件链路的复杂度。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "magnet",
+          "dimension": "instrument_component_ids",
+          "basis": "热频率锁定使永磁磁共振长期稳定度进入亚ppm；Analytical Chemistry提出thermal-frequency locking，以温度控制与共振频率反馈补偿永磁体慢漂移，实现长期亚ppm场稳定度。方法针对温漂导致的线宽增加、谱形失真和成像伪影，减少传统独立场锁硬件链路的复杂度。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "热频率锁定使永磁磁共振长期稳定度进入亚ppm",
+        "original_summary_cn": "Analytical Chemistry提出thermal-frequency locking，以温度控制与共振频率反馈补偿永磁体慢漂移，实现长期亚ppm场稳定度。方法针对温漂导致的线宽增加、谱形失真和成像伪影，减少传统独立场锁硬件链路的复杂度。",
+        "original_meaning_cn": "部署前需测量磁体频率—温度系数、传感器位置、热惯性和环境温度扰动，并记录控制周期与频率估计误差。验收应以数小时标准样连续谱比较峰位、半高宽和短期噪声，确认反馈不会把样品温变误判为磁场漂移。",
+        "original_tags": [
+          "NMR",
+          "台式NMR",
+          "仪器、软件与方法",
+          "过程分析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260912-08",
+      "report_date": "2026-09-12",
+      "item_no": 8,
+      "title_cn": "最优实验设计缩短磁共振弛豫时间测量",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Magnetic Resonance in Chemistry报道用于快速、准确弛豫测量的最优实验设计方法，根据参数敏感度选择采样延迟，而非在整个时间轴等间隔采点。目标是在给定总采集时间内降低T₁或T₂估计方差，并减少信息重复的扫描。",
+      "meaning_cn": "方法迁移需先给出样品预期弛豫范围、噪声模型、扫描时间和参数上下界，再生成延迟表。应以独立标准样比较优化与常规采样的偏差、置信区间和失配鲁棒性；多指数体系不能直接沿用单指数最优点。",
+      "publication_date": "2026-09-10",
+      "time_scope": "7d_extension",
+      "source": "Magnetic Resonance in Chemistry",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/mrc.70140",
+      "doi": "10.1002/mrc.70140",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-12",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-12.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "TD-NMR",
+          "仪器、软件与方法",
+          "过程分析"
+        ],
+        "original_type": "TD-NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-12.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "最优实验设计缩短磁共振弛豫时间测量；Magnetic Resonance in Chemistry报道用于快速、准确弛豫测量的最优实验设计方法，根据参数敏感度选择采样延迟，而非在整个时间轴等间隔采点。目标是在给定总采集时间内降低T₁或T₂估计方差，并减少信息重复的扫描。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "最优实验设计缩短磁共振弛豫时间测量；Magnetic Resonance in Chemistry报道用于快速、准确弛豫测量的最优实验设计方法，根据参数敏感度选择采样延迟，而非在整个时间轴等间隔采点。目标是在给定总采集时间内降低T₁或T₂估计方差，并减少信息重复的扫描。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "最优实验设计缩短磁共振弛豫时间测量",
+        "original_summary_cn": "Magnetic Resonance in Chemistry报道用于快速、准确弛豫测量的最优实验设计方法，根据参数敏感度选择采样延迟，而非在整个时间轴等间隔采点。目标是在给定总采集时间内降低T₁或T₂估计方差，并减少信息重复的扫描。",
+        "original_meaning_cn": "方法迁移需先给出样品预期弛豫范围、噪声模型、扫描时间和参数上下界，再生成延迟表。应以独立标准样比较优化与常规采样的偏差、置信区间和失配鲁棒性；多指数体系不能直接沿用单指数最优点。",
+        "original_tags": [
+          "NMR",
+          "TD-NMR",
+          "仪器、软件与方法",
+          "过程分析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260912-09",
+      "report_date": "2026-09-12",
+      "item_no": 9,
+      "title_cn": "综述梳理CW-EPR在药物研发与质量分析中的应用",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "cw_epr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "pharma"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "review",
+      "summary_cn": "Pharmaceuticals综述CW-EPR在药物研究中的近期用途，包括自由基与顺磁杂质检出、氧化降解和辐照效应监测、自旋探针微环境分析及制剂稳定性评价，并讨论EPR从机理研究进入质量控制时的灵敏度与标准化问题。",
+      "meaning_cn": "药物分析需按目标物选择直接EPR或自旋捕获，明确样品质量、溶剂、氧水平、温度、微波功率和调制幅度。定量应使用可追溯自旋标准并做功率饱和曲线；复杂基质还需空白制剂、加标回收和保存时间对照。",
+      "publication_date": "2026-09-09",
+      "time_scope": "7d_extension",
+      "source": "Pharmaceuticals",
+      "url": "https://www.mdpi.com/1424-8247/19/9/1424",
+      "doi": "10.3390/ph19091424",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-12",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-12.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "spin_trapping",
+          "药物分析",
+          "过程分析",
+          "生命科学"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-12.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "综述梳理CW-EPR在药物研发与质量分析中的应用；Pharmaceuticals综述CW-EPR在药物研究中的近期用途，包括自由基与顺磁杂质检出、氧化降解和辐照效应监测、自旋探针微环境分析及制剂稳定性评价，并讨论EPR从机理研究进入质量控制时的灵敏度与标准化问题。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "cw_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "综述梳理CW-EPR在药物研发与质量分析中的应用；Pharmaceuticals综述CW-EPR在药物研究中的近期用途，包括自由基与顺磁杂质检出、氧化降解和辐照效应监测、自旋探针微环境分析及制剂稳定性评价，并讨论EPR从机理研究进入质量控制时的灵敏度与标准化问题。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pharma",
+          "dimension": "application_ids",
+          "basis": "综述梳理CW-EPR在药物研发与质量分析中的应用；Pharmaceuticals综述CW-EPR在药物研究中的近期用途，包括自由基与顺磁杂质检出、氧化降解和辐照效应监测、自旋探针微环境分析及制剂稳定性评价，并讨论EPR从机理研究进入质量控制时的灵敏度与标准化问题。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "综述梳理CW-EPR在药物研发与质量分析中的应用",
+        "original_summary_cn": "Pharmaceuticals综述CW-EPR在药物研究中的近期用途，包括自由基与顺磁杂质检出、氧化降解和辐照效应监测、自旋探针微环境分析及制剂稳定性评价，并讨论EPR从机理研究进入质量控制时的灵敏度与标准化问题。",
+        "original_meaning_cn": "药物分析需按目标物选择直接EPR或自旋捕获，明确样品质量、溶剂、氧水平、温度、微波功率和调制幅度。定量应使用可追溯自旋标准并做功率饱和曲线；复杂基质还需空白制剂、加标回收和保存时间对照。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "spin_trapping",
+          "药物分析",
+          "过程分析",
+          "生命科学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260912-10",
+      "report_date": "2026-09-12",
+      "item_no": 10,
+      "title_cn": "原位ESR与HYSCORE/ENDOR定位MoS₂析氢活性缺陷",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "ec_epr",
+        "defect_epr",
+        "hyscore",
+        "endor"
+      ],
+      "application_ids": [
+        "fuel_cell"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "JPC C比较6、11和48 nm纳米晶MoS₂，原位ESR显示小晶粒中随电位变化的硫空位参与析氢；HYSCORE、ENDOR与计算进一步表明，空位优先被OH而非H钝化，形成MoS₂-(OH)S吸附物—缺陷复合体。",
+      "meaning_cn": "复现实验需把晶粒尺寸、缺陷浓度、电位、电解液和产氢速率逐点对应，记录原位池几何、微波功率及温度。HYSCORE/ENDOR应报告场位、τ值、射频范围和背景扣除，并用同位素替换或含水量对照验证OH相关超精细归属。",
+      "publication_date": "2026-09-07",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Physical Chemistry C",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.jpcc.6c02267",
+      "doi": "10.1021/acs.jpcc.6c02267",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-12",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-12.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "缺陷EPR",
+          "operando_epr",
+          "电化学与能源",
+          "催化",
+          "材料"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-12.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "原位ESR与HYSCORE/ENDOR定位MoS₂析氢活性缺陷；JPC C比较6、11和48 nm纳米晶MoS₂，原位ESR显示小晶粒中随电位变化的硫空位参与析氢；HYSCORE、ENDOR与计算进一步表明，空位优先被OH而非H钝化，形成MoS₂-(OH)S吸附物—缺陷复合体。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "原位ESR与HYSCORE/ENDOR定位MoS₂析氢活性缺陷；JPC C比较6、11和48 nm纳米晶MoS₂，原位ESR显示小晶粒中随电位变化的硫空位参与析氢；HYSCORE、ENDOR与计算进一步表明，空位优先被OH而非H钝化，形成MoS₂-(OH)S吸附物—缺陷复合体。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "ec_epr",
+          "dimension": "method_ids",
+          "basis": "原位ESR与HYSCORE/ENDOR定位MoS₂析氢活性缺陷；JPC C比较6、11和48 nm纳米晶MoS₂，原位ESR显示小晶粒中随电位变化的硫空位参与析氢；HYSCORE、ENDOR与计算进一步表明，空位优先被OH而非H钝化，形成MoS₂-(OH)S吸附物—缺陷复合体。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "defect_epr",
+          "dimension": "method_ids",
+          "basis": "原位ESR与HYSCORE/ENDOR定位MoS₂析氢活性缺陷；JPC C比较6、11和48 nm纳米晶MoS₂，原位ESR显示小晶粒中随电位变化的硫空位参与析氢；HYSCORE、ENDOR与计算进一步表明，空位优先被OH而非H钝化，形成MoS₂-(OH)S吸附物—缺陷复合体。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "hyscore",
+          "dimension": "method_ids",
+          "basis": "原位ESR与HYSCORE/ENDOR定位MoS₂析氢活性缺陷；JPC C比较6、11和48 nm纳米晶MoS₂，原位ESR显示小晶粒中随电位变化的硫空位参与析氢；HYSCORE、ENDOR与计算进一步表明，空位优先被OH而非H钝化，形成MoS₂-(OH)S吸附物—缺陷复合体。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "endor",
+          "dimension": "method_ids",
+          "basis": "原位ESR与HYSCORE/ENDOR定位MoS₂析氢活性缺陷；JPC C比较6、11和48 nm纳米晶MoS₂，原位ESR显示小晶粒中随电位变化的硫空位参与析氢；HYSCORE、ENDOR与计算进一步表明，空位优先被OH而非H钝化，形成MoS₂-(OH)S吸附物—缺陷复合体。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "fuel_cell",
+          "dimension": "application_ids",
+          "basis": "原位ESR与HYSCORE/ENDOR定位MoS₂析氢活性缺陷；JPC C比较6、11和48 nm纳米晶MoS₂，原位ESR显示小晶粒中随电位变化的硫空位参与析氢；HYSCORE、ENDOR与计算进一步表明，空位优先被OH而非H钝化，形成MoS₂-(OH)S吸附物—缺陷复合体。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "原位ESR与HYSCORE/ENDOR定位MoS₂析氢活性缺陷",
+        "original_summary_cn": "JPC C比较6、11和48 nm纳米晶MoS₂，原位ESR显示小晶粒中随电位变化的硫空位参与析氢；HYSCORE、ENDOR与计算进一步表明，空位优先被OH而非H钝化，形成MoS₂-(OH)S吸附物—缺陷复合体。",
+        "original_meaning_cn": "复现实验需把晶粒尺寸、缺陷浓度、电位、电解液和产氢速率逐点对应，记录原位池几何、微波功率及温度。HYSCORE/ENDOR应报告场位、τ值、射频范围和背景扣除，并用同位素替换或含水量对照验证OH相关超精细归属。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "缺陷EPR",
+          "operando_epr",
+          "电化学与能源",
+          "催化",
+          "材料"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "范围说明：常规检索在过去24小时内所得合格新增少于5条，已依次执行增强检索和第二级深度增强检索。检索逐日回扫2026年9月5日至11日，逐站核验专业期刊、预印本与文献元数据、仪器厂商、专业会议及中外采购公告，并按液体NMR、固体NMR/MAS/DNP、低场与TD-NMR、谱图处理、CW与rapid-scan EPR、脉冲EPR、TREPR、operando/EC-EPR及仪器部件逐组检索。本期最终收录10条：6条为9月11日在线发表的近24小时信息，4条为9月7日至10日的近7天扩展。结合最近7期正文与项目索引查重，排除14条既有记录；另排除19条日期无法独立确认、常驻产品页、仅更新卷期、医学MRI或仅将NMR/EPR作为辅助表征的候选。\n\n待复核标签：2D EXSY固体NMR、热频率锁定及高压量子磁体保留在样品体系和正文中，未创建新的正式ID。",
+    "source_sha256": "166bd5e9839342a9565a1aa5a86b9e9c6f68a7d104730212b06e1350eb1c5c57",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

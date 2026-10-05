@@ -1,0 +1,1182 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-26",
+  "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260926-01",
+      "report_date": "2026-09-26",
+      "item_no": 1,
+      "title_cn": "单PL5色心以ODMR锁定SiC纳米电荷噪声",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "odmr",
+        "defect_epr"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Science Advances利用商业4H-SiC中的单个PL5色心，在室温以ODMR实时记录单电荷隧穿产生的随机电报噪声。动态去耦把噪声谱覆盖至MHz，T₁弛豫谱进一步延伸到GHz，并获得自旋缺陷的纳米尺度EPR指纹；表面化学对照指向天然氧化层为主要噪声源。",
+      "meaning_cn": "复现实验需标定PL5深度、电荷态、偏置场、激光功率、微波B₁、读出窗口和计数率。随机电报噪声应报告驻留时间分布；动态去耦须给出序列、脉冲误差与滤波函数；T₁谱和晶圆成像需用不同表面处理及暗态对照区分电荷噪声、自旋噪声和读出漂移。",
+      "publication_date": "2026-09-25",
+      "time_scope": "24h",
+      "source": "Science Advances",
+      "url": "https://www.science.org/doi/10.1126/sciadv.aej5462",
+      "doi": "10.1126/sciadv.aej5462",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-26",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-26.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "缺陷EPR",
+          "材料",
+          "仪器",
+          "磁体",
+          "谐振器",
+          "原位光照",
+          "软件"
+        ],
+        "original_type": "量子传感与缺陷EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-26.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "单PL5色心以ODMR锁定SiC纳米电荷噪声；Science Advances利用商业4H-SiC中的单个PL5色心，在室温以ODMR实时记录单电荷隧穿产生的随机电报噪声。动态去耦把噪声谱覆盖至MHz，T₁弛豫谱进一步延伸到GHz，并获得自旋缺陷的纳米尺度EPR指纹；表面化学对照指向天然氧化层为主要噪声源。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "odmr",
+          "dimension": "method_ids",
+          "basis": "单PL5色心以ODMR锁定SiC纳米电荷噪声；Science Advances利用商业4H-SiC中的单个PL5色心，在室温以ODMR实时记录单电荷隧穿产生的随机电报噪声。动态去耦把噪声谱覆盖至MHz，T₁弛豫谱进一步延伸到GHz，并获得自旋缺陷的纳米尺度EPR指纹；表面化学对照指向天然氧化层为主要噪声源。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "defect_epr",
+          "dimension": "method_ids",
+          "basis": "单PL5色心以ODMR锁定SiC纳米电荷噪声；Science Advances利用商业4H-SiC中的单个PL5色心，在室温以ODMR实时记录单电荷隧穿产生的随机电报噪声。动态去耦把噪声谱覆盖至MHz，T₁弛豫谱进一步延伸到GHz，并获得自旋缺陷的纳米尺度EPR指纹；表面化学对照指向天然氧化层为主要噪声源。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "单PL5色心以ODMR锁定SiC纳米电荷噪声；Science Advances利用商业4H-SiC中的单个PL5色心，在室温以ODMR实时记录单电荷隧穿产生的随机电报噪声。动态去耦把噪声谱覆盖至MHz，T₁弛豫谱进一步延伸到GHz，并获得自旋缺陷的纳米尺度EPR指纹；表面化学对照指向天然氧化层为主要噪声源。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "单PL5色心以ODMR锁定SiC纳米电荷噪声",
+        "original_summary_cn": "Science Advances利用商业4H-SiC中的单个PL5色心，在室温以ODMR实时记录单电荷隧穿产生的随机电报噪声。动态去耦把噪声谱覆盖至MHz，T₁弛豫谱进一步延伸到GHz，并获得自旋缺陷的纳米尺度EPR指纹；表面化学对照指向天然氧化层为主要噪声源。",
+        "original_meaning_cn": "复现实验需标定PL5深度、电荷态、偏置场、激光功率、微波B₁、读出窗口和计数率。随机电报噪声应报告驻留时间分布；动态去耦须给出序列、脉冲误差与滤波函数；T₁谱和晶圆成像需用不同表面处理及暗态对照区分电荷噪声、自旋噪声和读出漂移。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "缺陷EPR",
+          "材料",
+          "仪器",
+          "磁体",
+          "谐振器",
+          "原位光照",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260926-02",
+      "report_date": "2026-09-26",
+      "item_no": 2,
+      "title_cn": "1.2 GHz固体NMR直接测量完整酿酒酵母细胞",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Solid State Nuclear Magnetic Resonance报道在1.2 GHz超高场平台直接研究完整酿酒酵母细胞。完整细胞保留膜、细胞壁及胞内大分子的原位环境，超高场用于缓解复杂生物固体谱的重叠。当前公开元数据尚未列出核种、MAS转速和具体灵敏度增益，参数应以论文正文为准。",
+      "meaning_cn": "评估1.2 GHz生物固体NMR时需记录细胞培养阶段、同位素标记、洗涤与转子填装、细胞完整性、MAS转速、温度及质子检测条件。建议用同批样品在较低场强作对照，比较峰数、线宽、分辨率和单位时间S/N，并检查快MAS与RF加热对细胞状态的影响。",
+      "publication_date": "2026-09-25",
+      "time_scope": "7d_extension",
+      "source": "Solid State Nuclear Magnetic Resonance",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0926204026000780",
+      "doi": "10.1016/j.ssnmr.2026.102139",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-26",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-26.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "生命科学",
+          "结构生物学",
+          "仪器",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_type": "超高场生物固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-26.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "1.2 GHz固体NMR直接测量完整酿酒酵母细胞；Solid State Nuclear Magnetic Resonance报道在1.2 GHz超高场平台直接研究完整酿酒酵母细胞。完整细胞保留膜、细胞壁及胞内大分子的原位环境，超高场用于缓解复杂生物固体谱的重叠。当前公开元数据尚未列出核种、MAS转速和具体灵敏度增益，参数应以论文正文为准。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "1.2 GHz固体NMR直接测量完整酿酒酵母细胞；Solid State Nuclear Magnetic Resonance报道在1.2 GHz超高场平台直接研究完整酿酒酵母细胞。完整细胞保留膜、细胞壁及胞内大分子的原位环境，超高场用于缓解复杂生物固体谱的重叠。当前公开元数据尚未列出核种、MAS转速和具体灵敏度增益，参数应以论文正文为准。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "1.2 GHz固体NMR直接测量完整酿酒酵母细胞；Solid State Nuclear Magnetic Resonance报道在1.2 GHz超高场平台直接研究完整酿酒酵母细胞。完整细胞保留膜、细胞壁及胞内大分子的原位环境，超高场用于缓解复杂生物固体谱的重叠。当前公开元数据尚未列出核种、MAS转速和具体灵敏度增益，参数应以论文正文为准。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "1.2 GHz固体NMR直接测量完整酿酒酵母细胞",
+        "original_summary_cn": "Solid State Nuclear Magnetic Resonance报道在1.2 GHz超高场平台直接研究完整酿酒酵母细胞。完整细胞保留膜、细胞壁及胞内大分子的原位环境，超高场用于缓解复杂生物固体谱的重叠。当前公开元数据尚未列出核种、MAS转速和具体灵敏度增益，参数应以论文正文为准。",
+        "original_meaning_cn": "评估1.2 GHz生物固体NMR时需记录细胞培养阶段、同位素标记、洗涤与转子填装、细胞完整性、MAS转速、温度及质子检测条件。建议用同批样品在较低场强作对照，比较峰数、线宽、分辨率和单位时间S/N，并检查快MAS与RF加热对细胞状态的影响。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "生命科学",
+          "结构生物学",
+          "仪器",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260926-03",
+      "report_date": "2026-09-26",
+      "item_no": 3,
+      "title_cn": "四元数最优控制改善大CSA下的偶极再耦合",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "mas",
+        "polarization_transfer"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "PCCP将四元数表示引入有效哈密顿量最优控制，面向大化学屏蔽各向异性条件下的MAS固体NMR偶极再耦合。方法以单自旋操作构建对CSA更稳健的控制目标，并通过¹⁹F→¹³C极化转移的数值与实验结果验证，可用于核间距测量和多维相关谱极化转移。",
+      "meaning_cn": "移植序列需明确磁场、MAS转速、¹⁹F/¹³C载频、RF上限、脉冲步长、转子同步和探头占空比，并把实际B₁分布与脉冲响应加入优化。验收应比较常规再耦合与优化序列在偏频、CSA、RF误差和MAS漂移下的转移效率、选择性及样品温升。",
+      "publication_date": "2026-09-25",
+      "time_scope": "7d_extension",
+      "source": "Physical Chemistry Chemical Physics",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2026/cp/d6cp02762h",
+      "doi": "10.1039/d6cp02762h",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-26",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-26.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "多维NMR",
+          "计算NMR",
+          "化学结构",
+          "材料",
+          "仪器",
+          "探头",
+          "软件"
+        ],
+        "original_type": "脉冲序列与最优控制",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-26.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "四元数最优控制改善大CSA下的偶极再耦合；PCCP将四元数表示引入有效哈密顿量最优控制，面向大化学屏蔽各向异性条件下的MAS固体NMR偶极再耦合。方法以单自旋操作构建对CSA更稳健的控制目标，并通过¹⁹F→¹³C极化转移的数值与实验结果验证，可用于核间距测量和多维相关谱极化转移。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "四元数最优控制改善大CSA下的偶极再耦合；PCCP将四元数表示引入有效哈密顿量最优控制，面向大化学屏蔽各向异性条件下的MAS固体NMR偶极再耦合。方法以单自旋操作构建对CSA更稳健的控制目标，并通过¹⁹F→¹³C极化转移的数值与实验结果验证，可用于核间距测量和多维相关谱极化转移。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "mas",
+          "dimension": "method_ids",
+          "basis": "四元数最优控制改善大CSA下的偶极再耦合；PCCP将四元数表示引入有效哈密顿量最优控制，面向大化学屏蔽各向异性条件下的MAS固体NMR偶极再耦合。方法以单自旋操作构建对CSA更稳健的控制目标，并通过¹⁹F→¹³C极化转移的数值与实验结果验证，可用于核间距测量和多维相关谱极化转移。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "polarization_transfer",
+          "dimension": "method_ids",
+          "basis": "四元数最优控制改善大CSA下的偶极再耦合；PCCP将四元数表示引入有效哈密顿量最优控制，面向大化学屏蔽各向异性条件下的MAS固体NMR偶极再耦合。方法以单自旋操作构建对CSA更稳健的控制目标，并通过¹⁹F→¹³C极化转移的数值与实验结果验证，可用于核间距测量和多维相关谱极化转移。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "四元数最优控制改善大CSA下的偶极再耦合；PCCP将四元数表示引入有效哈密顿量最优控制，面向大化学屏蔽各向异性条件下的MAS固体NMR偶极再耦合。方法以单自旋操作构建对CSA更稳健的控制目标，并通过¹⁹F→¹³C极化转移的数值与实验结果验证，可用于核间距测量和多维相关谱极化转移。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "四元数最优控制改善大CSA下的偶极再耦合",
+        "original_summary_cn": "PCCP将四元数表示引入有效哈密顿量最优控制，面向大化学屏蔽各向异性条件下的MAS固体NMR偶极再耦合。方法以单自旋操作构建对CSA更稳健的控制目标，并通过¹⁹F→¹³C极化转移的数值与实验结果验证，可用于核间距测量和多维相关谱极化转移。",
+        "original_meaning_cn": "移植序列需明确磁场、MAS转速、¹⁹F/¹³C载频、RF上限、脉冲步长、转子同步和探头占空比，并把实际B₁分布与脉冲响应加入优化。验收应比较常规再耦合与优化序列在偏频、CSA、RF误差和MAS漂移下的转移效率、选择性及样品温升。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "多维NMR",
+          "计算NMR",
+          "化学结构",
+          "材料",
+          "仪器",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260926-04",
+      "report_date": "2026-09-26",
+      "item_no": 4,
+      "title_cn": "宽线NMR拆分钠电池固态电解质的离子与链段运动",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "polymers"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "J. Phys. Chem. C以宽线NMR联合离子电导研究PEO–NaTFSI及加入50 wt% NaSICON的复合固态电解质。盐含量增加会降低钠离子和聚合物链段运动；NaSICON颗粒进一步限制两类运动并降低实测电导，提示填料效应必须与盐比和链段动力学共同解释。",
+      "meaning_cn": "实验应严格控制EO/Na比、NaSICON粒径与质量分数、含水量、热历史和膜厚，并在同一温度序列采集宽线谱、弛豫参数与阻抗电导。谱线拟合需区分刚性和运动组分；电导比较要统一电极接触、升降温程序及平衡时间，避免把界面极化误作体相迁移率。",
+      "publication_date": "2026-09-25",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Physical Chemistry C",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.jpcc.6c02912",
+      "doi": "10.1021/acs.jpcc.6c02912",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-26",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-26.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "电化学与能源",
+          "电池",
+          "材料",
+          "探头",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "电池固态电解质",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-26.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "宽线NMR拆分钠电池固态电解质的离子与链段运动；J. Phys. Chem. C以宽线NMR联合离子电导研究PEO–NaTFSI及加入50 wt% NaSICON的复合固态电解质。盐含量增加会降低钠离子和聚合物链段运动；NaSICON颗粒进一步限制两类运动并降低实测电导，提示填料效应必须与盐比和链段动力学共同解释。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "宽线NMR拆分钠电池固态电解质的离子与链段运动；J. Phys. Chem. C以宽线NMR联合离子电导研究PEO–NaTFSI及加入50 wt% NaSICON的复合固态电解质。盐含量增加会降低钠离子和聚合物链段运动；NaSICON颗粒进一步限制两类运动并降低实测电导，提示填料效应必须与盐比和链段动力学共同解释。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "宽线NMR拆分钠电池固态电解质的离子与链段运动；J. Phys. Chem. C以宽线NMR联合离子电导研究PEO–NaTFSI及加入50 wt% NaSICON的复合固态电解质。盐含量增加会降低钠离子和聚合物链段运动；NaSICON颗粒进一步限制两类运动并降低实测电导，提示填料效应必须与盐比和链段动力学共同解释。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "polymers",
+          "dimension": "application_ids",
+          "basis": "宽线NMR拆分钠电池固态电解质的离子与链段运动；J. Phys. Chem. C以宽线NMR联合离子电导研究PEO–NaTFSI及加入50 wt% NaSICON的复合固态电解质。盐含量增加会降低钠离子和聚合物链段运动；NaSICON颗粒进一步限制两类运动并降低实测电导，提示填料效应必须与盐比和链段动力学共同解释。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "宽线NMR拆分钠电池固态电解质的离子与链段运动",
+        "original_summary_cn": "J. Phys. Chem. C以宽线NMR联合离子电导研究PEO–NaTFSI及加入50 wt% NaSICON的复合固态电解质。盐含量增加会降低钠离子和聚合物链段运动；NaSICON颗粒进一步限制两类运动并降低实测电导，提示填料效应必须与盐比和链段动力学共同解释。",
+        "original_meaning_cn": "实验应严格控制EO/Na比、NaSICON粒径与质量分数、含水量、热历史和膜厚，并在同一温度序列采集宽线谱、弛豫参数与阻抗电导。谱线拟合需区分刚性和运动组分；电导比较要统一电极接触、升降温程序及平衡时间，避免把界面极化误作体相迁移率。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "电化学与能源",
+          "电池",
+          "材料",
+          "探头",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260926-05",
+      "report_date": "2026-09-26",
+      "item_no": 5,
+      "title_cn": "氨共吸附与固体NMR捕获沸石异丙醇脱水中间体",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "catalysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Angewandte Chemie以氨共吸附降低沸石催化异丙醇脱水速率，再用一维/二维固体NMR和理论计算捕获短寿命异丙基烷氧基及碳正离子中间体。结果显示活性物种与丙烯的形成顺序受沸石拓扑控制，为快速醇脱水机理提供可实验核对的位点图景。",
+      "meaning_cn": "复现需固定沸石拓扑、Si/Al比、Brønsted酸量、氨/异丙醇比例、含水量、反应温度和淬灭时间。固体NMR应报告核种、MAS转速、交叉极化/直接激发、二维混合时间及定量限制；同位素标记、空白沸石和无氨对照可检验中间体归属。",
+      "publication_date": "2026-09-25",
+      "time_scope": "24h",
+      "source": "Angewandte Chemie International Edition",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.8996543",
+      "doi": "10.1002/anie.8996543",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-26",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-26.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多维NMR",
+          "催化",
+          "材料",
+          "化学结构",
+          "探头",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "催化原位机理",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-26.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "氨共吸附与固体NMR捕获沸石异丙醇脱水中间体；Angewandte Chemie以氨共吸附降低沸石催化异丙醇脱水速率，再用一维/二维固体NMR和理论计算捕获短寿命异丙基烷氧基及碳正离子中间体。结果显示活性物种与丙烯的形成顺序受沸石拓扑控制，为快速醇脱水机理提供可实验核对的位点图景。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "氨共吸附与固体NMR捕获沸石异丙醇脱水中间体；Angewandte Chemie以氨共吸附降低沸石催化异丙醇脱水速率，再用一维/二维固体NMR和理论计算捕获短寿命异丙基烷氧基及碳正离子中间体。结果显示活性物种与丙烯的形成顺序受沸石拓扑控制，为快速醇脱水机理提供可实验核对的位点图景。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "氨共吸附与固体NMR捕获沸石异丙醇脱水中间体；Angewandte Chemie以氨共吸附降低沸石催化异丙醇脱水速率，再用一维/二维固体NMR和理论计算捕获短寿命异丙基烷氧基及碳正离子中间体。结果显示活性物种与丙烯的形成顺序受沸石拓扑控制，为快速醇脱水机理提供可实验核对的位点图景。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "catalysis",
+          "dimension": "application_ids",
+          "basis": "氨共吸附与固体NMR捕获沸石异丙醇脱水中间体；Angewandte Chemie以氨共吸附降低沸石催化异丙醇脱水速率，再用一维/二维固体NMR和理论计算捕获短寿命异丙基烷氧基及碳正离子中间体。结果显示活性物种与丙烯的形成顺序受沸石拓扑控制，为快速醇脱水机理提供可实验核对的位点图景。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "氨共吸附与固体NMR捕获沸石异丙醇脱水中间体",
+        "original_summary_cn": "Angewandte Chemie以氨共吸附降低沸石催化异丙醇脱水速率，再用一维/二维固体NMR和理论计算捕获短寿命异丙基烷氧基及碳正离子中间体。结果显示活性物种与丙烯的形成顺序受沸石拓扑控制，为快速醇脱水机理提供可实验核对的位点图景。",
+        "original_meaning_cn": "复现需固定沸石拓扑、Si/Al比、Brønsted酸量、氨/异丙醇比例、含水量、反应温度和淬灭时间。固体NMR应报告核种、MAS转速、交叉极化/直接激发、二维混合时间及定量限制；同位素标记、空白沸石和无氨对照可检验中间体归属。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多维NMR",
+          "催化",
+          "材料",
+          "化学结构",
+          "探头",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260926-06",
+      "report_date": "2026-09-26",
+      "item_no": 6,
+      "title_cn": "溶液NMR解析RNA如何改写FUS凝聚体相互作用",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Angewandte Chemie以溶液NMR、相分离实验和分子模拟研究FUS LC–RGG1与RNA。低RNA浓度促进凝聚，过量RNA使凝聚体解体；残基分辨结果显示分散相主要由RGG1结合RNA，凝聚相中LC也参与。RNA降低致密相密度并加快局部运动，同时促进纤维化转变。",
+      "meaning_cn": "样品应固定FUS构建体、RNA序列/长度、蛋白与RNA浓度、盐、pH和温度，并同步记录稀相/浓相浓度及老化时间。NMR需区分分散相和凝聚相峰强、位移及弛豫变化；浓度滴定、无RNA及RGG1/LC截短对照用于分开结合、相分离与聚集效应。",
+      "publication_date": "2026-09-25",
+      "time_scope": "24h",
+      "source": "Angewandte Chemie International Edition",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.1070299",
+      "doi": "10.1002/anie.1070299",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-26",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-26.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "探头",
+          "软件"
+        ],
+        "original_type": "生物分子凝聚体",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-26.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "溶液NMR解析RNA如何改写FUS凝聚体相互作用；Angewandte Chemie以溶液NMR、相分离实验和分子模拟研究FUS LC–RGG1与RNA。低RNA浓度促进凝聚，过量RNA使凝聚体解体；残基分辨结果显示分散相主要由RGG1结合RNA，凝聚相中LC也参与。RNA降低致密相密度并加快局部运动，同时促进纤维化转变。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "溶液NMR解析RNA如何改写FUS凝聚体相互作用；Angewandte Chemie以溶液NMR、相分离实验和分子模拟研究FUS LC–RGG1与RNA。低RNA浓度促进凝聚，过量RNA使凝聚体解体；残基分辨结果显示分散相主要由RGG1结合RNA，凝聚相中LC也参与。RNA降低致密相密度并加快局部运动，同时促进纤维化转变。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "溶液NMR解析RNA如何改写FUS凝聚体相互作用；Angewandte Chemie以溶液NMR、相分离实验和分子模拟研究FUS LC–RGG1与RNA。低RNA浓度促进凝聚，过量RNA使凝聚体解体；残基分辨结果显示分散相主要由RGG1结合RNA，凝聚相中LC也参与。RNA降低致密相密度并加快局部运动，同时促进纤维化转变。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "溶液NMR解析RNA如何改写FUS凝聚体相互作用",
+        "original_summary_cn": "Angewandte Chemie以溶液NMR、相分离实验和分子模拟研究FUS LC–RGG1与RNA。低RNA浓度促进凝聚，过量RNA使凝聚体解体；残基分辨结果显示分散相主要由RGG1结合RNA，凝聚相中LC也参与。RNA降低致密相密度并加快局部运动，同时促进纤维化转变。",
+        "original_meaning_cn": "样品应固定FUS构建体、RNA序列/长度、蛋白与RNA浓度、盐、pH和温度，并同步记录稀相/浓相浓度及老化时间。NMR需区分分散相和凝聚相峰强、位移及弛豫变化；浓度滴定、无RNA及RGG1/LC截短对照用于分开结合、相分离与聚集效应。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260926-07",
+      "report_date": "2026-09-26",
+      "item_no": 7,
+      "title_cn": "Nanobody成为蛋白NMR的稳定与选择性标记工具",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "review",
+      "summary_cn": "FEBS Letters综述nanobody在蛋白NMR中的用途：其体积小、稳定性高且识别特异，可固定柔性区域、减少构象异质性并改善谱峰质量。文章覆盖膜蛋白、大型复合物和无序蛋白，并讨论合成nanobody、选择性标记及用NMR观察近生理条件下构象交换和蛋白互作。",
+      "meaning_cn": "项目设计应先确认nanobody亲和力、交换区间、结合化学计量和目标表位，再选择标记目标蛋白、nanobody或二者之一。采集前需比较游离与复合态HSQC、线宽、弛豫和聚集状态；结构解释还要排除nanobody本身造成的构象锁定，并保留竞争配体对照。",
+      "publication_date": "2026-09-25",
+      "time_scope": "7d_extension",
+      "source": "FEBS Letters",
+      "url": "https://febs.onlinelibrary.wiley.com/doi/10.1002/1873-3468.70473",
+      "doi": "10.1002/1873-3468.70473",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-26",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-26.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "药物分析",
+          "探头",
+          "软件"
+        ],
+        "original_type": "方法综述",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-26.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "Nanobody成为蛋白NMR的稳定与选择性标记工具；FEBS Letters综述nanobody在蛋白NMR中的用途：其体积小、稳定性高且识别特异，可固定柔性区域、减少构象异质性并改善谱峰质量。文章覆盖膜蛋白、大型复合物和无序蛋白，并讨论合成nanobody、选择性标记及用NMR观察近生理条件下构象交换和蛋白互作。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "Nanobody成为蛋白NMR的稳定与选择性标记工具；FEBS Letters综述nanobody在蛋白NMR中的用途：其体积小、稳定性高且识别特异，可固定柔性区域、减少构象异质性并改善谱峰质量。文章覆盖膜蛋白、大型复合物和无序蛋白，并讨论合成nanobody、选择性标记及用NMR观察近生理条件下构象交换和蛋白互作。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Nanobody成为蛋白NMR的稳定与选择性标记工具",
+        "original_summary_cn": "FEBS Letters综述nanobody在蛋白NMR中的用途：其体积小、稳定性高且识别特异，可固定柔性区域、减少构象异质性并改善谱峰质量。文章覆盖膜蛋白、大型复合物和无序蛋白，并讨论合成nanobody、选择性标记及用NMR观察近生理条件下构象交换和蛋白互作。",
+        "original_meaning_cn": "项目设计应先确认nanobody亲和力、交换区间、结合化学计量和目标表位，再选择标记目标蛋白、nanobody或二者之一。采集前需比较游离与复合态HSQC、线宽、弛豫和聚集状态；结构解释还要排除nanobody本身造成的构象锁定，并保留竞争配体对照。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "药物分析",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260926-08",
+      "report_date": "2026-09-26",
+      "item_no": 8,
+      "title_cn": "二维COLMARq量化妥布霉素压力下的铜绿假单胞菌生物膜",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr",
+        "metabolomics",
+        "qnmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Proteome Research以异核二维NMR和COLMARq定量分析亚抑制浓度妥布霉素处理的铜绿假单胞菌生物膜。UDP-glucose升高、putrescine降低，氧化型谷胱甘肽积累，β-alanine、succinate和GABA减少，显示氧化应激与代谢重排。",
+      "meaning_cn": "复现需固定菌株、生物膜龄、妥布霉素浓度/处理时间、淬灭和提取流程，以细胞量或蛋白量归一化。二维NMR应统一核种、谱宽、非均匀采样或间接维点数、内标和温度；COLMARq匹配要保存峰表、数据库版本、置信度及人工复核记录，并设置浮游菌对照。",
+      "publication_date": "2026-09-24",
+      "time_scope": "7d_extension",
+      "source": "Journal of Proteome Research",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.jproteome.6c00323",
+      "doi": "10.1021/acs.jproteome.6c00323",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-26",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-26.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "代谢组学",
+          "生命科学",
+          "药物分析",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR代谢组学",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-26.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "二维COLMARq量化妥布霉素压力下的铜绿假单胞菌生物膜；Journal of Proteome Research以异核二维NMR和COLMARq定量分析亚抑制浓度妥布霉素处理的铜绿假单胞菌生物膜。UDP-glucose升高、putrescine降低，氧化型谷胱甘肽积累，β-alanine、succinate和GABA减少，显示氧化应激与代谢重排。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "二维COLMARq量化妥布霉素压力下的铜绿假单胞菌生物膜；Journal of Proteome Research以异核二维NMR和COLMARq定量分析亚抑制浓度妥布霉素处理的铜绿假单胞菌生物膜。UDP-glucose升高、putrescine降低，氧化型谷胱甘肽积累，β-alanine、succinate和GABA减少，显示氧化应激与代谢重排。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "二维COLMARq量化妥布霉素压力下的铜绿假单胞菌生物膜；Journal of Proteome Research以异核二维NMR和COLMARq定量分析亚抑制浓度妥布霉素处理的铜绿假单胞菌生物膜。UDP-glucose升高、putrescine降低，氧化型谷胱甘肽积累，β-alanine、succinate和GABA减少，显示氧化应激与代谢重排。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "metabolomics",
+          "dimension": "method_ids",
+          "basis": "二维COLMARq量化妥布霉素压力下的铜绿假单胞菌生物膜；Journal of Proteome Research以异核二维NMR和COLMARq定量分析亚抑制浓度妥布霉素处理的铜绿假单胞菌生物膜。UDP-glucose升高、putrescine降低，氧化型谷胱甘肽积累，β-alanine、succinate和GABA减少，显示氧化应激与代谢重排。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "qnmr",
+          "dimension": "method_ids",
+          "basis": "二维COLMARq量化妥布霉素压力下的铜绿假单胞菌生物膜；Journal of Proteome Research以异核二维NMR和COLMARq定量分析亚抑制浓度妥布霉素处理的铜绿假单胞菌生物膜。UDP-glucose升高、putrescine降低，氧化型谷胱甘肽积累，β-alanine、succinate和GABA减少，显示氧化应激与代谢重排。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "二维COLMARq量化妥布霉素压力下的铜绿假单胞菌生物膜；Journal of Proteome Research以异核二维NMR和COLMARq定量分析亚抑制浓度妥布霉素处理的铜绿假单胞菌生物膜。UDP-glucose升高、putrescine降低，氧化型谷胱甘肽积累，β-alanine、succinate和GABA减少，显示氧化应激与代谢重排。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "二维COLMARq量化妥布霉素压力下的铜绿假单胞菌生物膜",
+        "original_summary_cn": "Journal of Proteome Research以异核二维NMR和COLMARq定量分析亚抑制浓度妥布霉素处理的铜绿假单胞菌生物膜。UDP-glucose升高、putrescine降低，氧化型谷胱甘肽积累，β-alanine、succinate和GABA减少，显示氧化应激与代谢重排。",
+        "original_meaning_cn": "复现需固定菌株、生物膜龄、妥布霉素浓度/处理时间、淬灭和提取流程，以细胞量或蛋白量归一化。二维NMR应统一核种、谱宽、非均匀采样或间接维点数、内标和温度；COLMARq匹配要保存峰表、数据库版本、置信度及人工复核记录，并设置浮游菌对照。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "代谢组学",
+          "生命科学",
+          "药物分析",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260926-09",
+      "report_date": "2026-09-26",
+      "item_no": 9,
+      "title_cn": "NMR揭示特拉唑嗪对PGK1呈浓度依赖的激活与抑制",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "JACS Au以溶液NMR化学位移滴定确认特拉唑嗪结合PGK1并部分占据核苷酸口袋，使酶偏向开放构象。低浓度时开放态有利于产物释放，高浓度则阻碍底物结合；研究又以选择性去标记和部分归属获得PGK1–特拉唑嗪复合物三维NMR结构。",
+      "meaning_cn": "机制验证需在固定PGK1浓度、缓冲液、Mg²⁺、温度和核苷酸条件下做宽范围药物滴定，记录CSP、峰强、交换展宽和沉淀。低剂量激活与高剂量抑制必须同酶动力学逐点对应；结构计算应公开选择性去标记方案、归属覆盖率、约束数量和构象集合精度。",
+      "publication_date": "2026-09-24",
+      "time_scope": "7d_extension",
+      "source": "JACS Au",
+      "url": "https://pubs.acs.org/doi/10.1021/jacsau.6c00823",
+      "doi": "10.1021/jacsau.6c00823",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-26",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-26.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "药物分析",
+          "探头",
+          "软件"
+        ],
+        "original_type": "蛋白–药物作用",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-26.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "NMR揭示特拉唑嗪对PGK1呈浓度依赖的激活与抑制；JACS Au以溶液NMR化学位移滴定确认特拉唑嗪结合PGK1并部分占据核苷酸口袋，使酶偏向开放构象。低浓度时开放态有利于产物释放，高浓度则阻碍底物结合；研究又以选择性去标记和部分归属获得PGK1–特拉唑嗪复合物三维NMR结构。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "NMR揭示特拉唑嗪对PGK1呈浓度依赖的激活与抑制；JACS Au以溶液NMR化学位移滴定确认特拉唑嗪结合PGK1并部分占据核苷酸口袋，使酶偏向开放构象。低浓度时开放态有利于产物释放，高浓度则阻碍底物结合；研究又以选择性去标记和部分归属获得PGK1–特拉唑嗪复合物三维NMR结构。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "NMR揭示特拉唑嗪对PGK1呈浓度依赖的激活与抑制；JACS Au以溶液NMR化学位移滴定确认特拉唑嗪结合PGK1并部分占据核苷酸口袋，使酶偏向开放构象。低浓度时开放态有利于产物释放，高浓度则阻碍底物结合；研究又以选择性去标记和部分归属获得PGK1–特拉唑嗪复合物三维NMR结构。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "NMR揭示特拉唑嗪对PGK1呈浓度依赖的激活与抑制",
+        "original_summary_cn": "JACS Au以溶液NMR化学位移滴定确认特拉唑嗪结合PGK1并部分占据核苷酸口袋，使酶偏向开放构象。低浓度时开放态有利于产物释放，高浓度则阻碍底物结合；研究又以选择性去标记和部分归属获得PGK1–特拉唑嗪复合物三维NMR结构。",
+        "original_meaning_cn": "机制验证需在固定PGK1浓度、缓冲液、Mg²⁺、温度和核苷酸条件下做宽范围药物滴定，记录CSP、峰强、交换展宽和沉淀。低剂量激活与高剂量抑制必须同酶动力学逐点对应；结构计算应公开选择性去标记方案、归属覆盖率、约束数量和构象集合精度。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "药物分析",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260926-10",
+      "report_date": "2026-09-26",
+      "item_no": 10,
+      "title_cn": "多模态NMR比较三种含氟抗癌药与POPC膜结合",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "std_nmr",
+        "multinuclear_nmr",
+        "multidimensional_nmr",
+        "relaxometry"
+      ],
+      "application_ids": [
+        "pharma"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "ChemistrySelect以约100 nm POPC大单层囊泡为膜模型，组合瞬态NOE/NOESY、¹H弛豫、STD-NMR及¹⁹F T₂，比较5-FdU、gemcitabine与capecitabine。多项参数均显示capecitabine结合更强，并有更明显的化学交换贡献。",
+      "meaning_cn": "实验应固定囊泡粒径/分散度、脂质与药物浓度、D₂O比例、温度和孵育时间；NOESY需报告混合时间，STD需给出饱和频率/功率及空白脂质对照，¹H/¹⁹F弛豫需使用完整延迟表。结果应联合扩散系数和游离药物对照，避免把黏度或聚集误判为膜结合。",
+      "publication_date": "2026-09-24",
+      "time_scope": "7d_extension",
+      "source": "ChemistrySelect",
+      "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/slct.74616",
+      "doi": "10.1002/slct.74616",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-26",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-26.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "STD-NMR",
+          "配体观察NMR",
+          "生命科学",
+          "药物分析",
+          "探头",
+          "软件"
+        ],
+        "original_type": "药物–膜相互作用",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-26.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "多模态NMR比较三种含氟抗癌药与POPC膜结合；ChemistrySelect以约100 nm POPC大单层囊泡为膜模型，组合瞬态NOE/NOESY、¹H弛豫、STD-NMR及¹⁹F T₂，比较5-FdU、gemcitabine与capecitabine。多项参数均显示capecitabine结合更强，并有更明显的化学交换贡献。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "多模态NMR比较三种含氟抗癌药与POPC膜结合；ChemistrySelect以约100 nm POPC大单层囊泡为膜模型，组合瞬态NOE/NOESY、¹H弛豫、STD-NMR及¹⁹F T₂，比较5-FdU、gemcitabine与capecitabine。多项参数均显示capecitabine结合更强，并有更明显的化学交换贡献。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "std_nmr",
+          "dimension": "method_ids",
+          "basis": "多模态NMR比较三种含氟抗癌药与POPC膜结合；ChemistrySelect以约100 nm POPC大单层囊泡为膜模型，组合瞬态NOE/NOESY、¹H弛豫、STD-NMR及¹⁹F T₂，比较5-FdU、gemcitabine与capecitabine。多项参数均显示capecitabine结合更强，并有更明显的化学交换贡献。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "多模态NMR比较三种含氟抗癌药与POPC膜结合；ChemistrySelect以约100 nm POPC大单层囊泡为膜模型，组合瞬态NOE/NOESY、¹H弛豫、STD-NMR及¹⁹F T₂，比较5-FdU、gemcitabine与capecitabine。多项参数均显示capecitabine结合更强，并有更明显的化学交换贡献。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multidimensional_nmr",
+          "dimension": "method_ids",
+          "basis": "多模态NMR比较三种含氟抗癌药与POPC膜结合；ChemistrySelect以约100 nm POPC大单层囊泡为膜模型，组合瞬态NOE/NOESY、¹H弛豫、STD-NMR及¹⁹F T₂，比较5-FdU、gemcitabine与capecitabine。多项参数均显示capecitabine结合更强，并有更明显的化学交换贡献。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "多模态NMR比较三种含氟抗癌药与POPC膜结合；ChemistrySelect以约100 nm POPC大单层囊泡为膜模型，组合瞬态NOE/NOESY、¹H弛豫、STD-NMR及¹⁹F T₂，比较5-FdU、gemcitabine与capecitabine。多项参数均显示capecitabine结合更强，并有更明显的化学交换贡献。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pharma",
+          "dimension": "application_ids",
+          "basis": "多模态NMR比较三种含氟抗癌药与POPC膜结合；ChemistrySelect以约100 nm POPC大单层囊泡为膜模型，组合瞬态NOE/NOESY、¹H弛豫、STD-NMR及¹⁹F T₂，比较5-FdU、gemcitabine与capecitabine。多项参数均显示capecitabine结合更强，并有更明显的化学交换贡献。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "多模态NMR比较三种含氟抗癌药与POPC膜结合",
+        "original_summary_cn": "ChemistrySelect以约100 nm POPC大单层囊泡为膜模型，组合瞬态NOE/NOESY、¹H弛豫、STD-NMR及¹⁹F T₂，比较5-FdU、gemcitabine与capecitabine。多项参数均显示capecitabine结合更强，并有更明显的化学交换贡献。",
+        "original_meaning_cn": "实验应固定囊泡粒径/分散度、脂质与药物浓度、D₂O比例、温度和孵育时间；NOESY需报告混合时间，STD需给出饱和频率/功率及空白脂质对照，¹H/¹⁹F弛豫需使用完整延迟表。结果应联合扩散系数和游离药物对照，避免把黏度或聚集误判为膜结合。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "STD-NMR",
+          "配体观察NMR",
+          "生命科学",
+          "药物分析",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "常规检索在过去24小时内确认3条日期和上线时点明确的合格新增，少于5条，已启动增强搜索。增强检索独立检查Journal of Magnetic Resonance、Journal of Magnetic Resonance Open、Magnetic Resonance、Journal of Biomolecular NMR、Solid State Nuclear Magnetic Resonance、Magnetic Resonance in Chemistry和Applied Magnetic Resonance，并扩展至ACS、RSC、Wiley、Springer Nature、Elsevier、AIP、Science、Crossref、PubMed、arXiv、ChemRxiv、科研机构、主要厂商、专业会议及中外采购；同时按规定的九个方法主题簇分组检索。\n\n增强阶段确认10条合格候选，因此未触发第二级深度增强检索。本期最终收录10条：3条近24小时，7条近7天扩展，全部来自非SCM来源。结合2026年9月19日至25日最近7期共69条记录，按标准化DOI、规范化URL和标题查重，排除8条既有记录；另排除9条发布日期无法证明、常驻页面、医学MRI、EPR缩写误检、旧会议记录或仅作辅助表征的候选。JMR已按独立期刊路线核查，最近新增的4篇均已在前期日报发送，故本期未重复收录；厂商和采购路线未发现日期明确且达到相关性门槛的新内容。\n\n待复核标签：PL5色心ODMR/随机电报噪声、1.2 GHz完整细胞固体NMR、四元数有效哈密顿量最优控制、大CSA偶极再耦合、宽线NMR离子/链段动力学、氨共吸附中间体捕获、FUS–RNA凝聚体、nanobody辅助NMR、COLMARq、选择性去标记三维NMR及多模态药物–膜动态NMR保留在sample_systems和正文中，未创建新的正式ID。",
+    "source_sha256": "c7cc84417c0b29d306b3398b8c2fa58427c2001a5256110f427a3ca98556936b",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

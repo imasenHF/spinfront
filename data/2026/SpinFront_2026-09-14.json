@@ -1,0 +1,491 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-14",
+  "scope_note": "本期收录5条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260914-01",
+      "report_date": "2026-09-14",
+      "item_no": 1,
+      "title_cn": "双浓度脉冲偶极EPR直接分离分子内信号与背景",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "pds",
+        "spectral_processing"
+      ],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "arXiv预印本提出无需预设背景函数的脉冲偶极EPR处理方法：分别测量两种双自由基浓度，通过数据重排直接分离分子内form factor与分子间background。方案面向高自旋浓度样品，并进一步给出液液相分离体系及RIDME数据的处理思路。",
+      "meaning_cn": "实施时两份样品除标记物浓度外应保持缓冲液、相体积分数、温度和冻存历史一致，并记录调制深度、演化时间与重复延迟。浓度必须准确可追溯；结果宜同常规背景拟合及稀释样对照比较，并检查两相分配改变是否破坏线性组合假设。",
+      "publication_date": "2026-09-09",
+      "time_scope": "7d_extension",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2609.10204",
+      "doi": "10.48550/arxiv.2609.10204",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-14",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-14.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "deer_peldor",
+          "spin_labeling",
+          "生命科学",
+          "结构生物学"
+        ],
+        "original_type": "脉冲EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-14.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "双浓度脉冲偶极EPR直接分离分子内信号与背景；arXiv预印本提出无需预设背景函数的脉冲偶极EPR处理方法：分别测量两种双自由基浓度，通过数据重排直接分离分子内form factor与分子间background。方案面向高自旋浓度样品，并进一步给出液液相分离体系及RIDME数据的处理思路。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "双浓度脉冲偶极EPR直接分离分子内信号与背景；arXiv预印本提出无需预设背景函数的脉冲偶极EPR处理方法：分别测量两种双自由基浓度，通过数据重排直接分离分子内form factor与分子间background。方案面向高自旋浓度样品，并进一步给出液液相分离体系及RIDME数据的处理思路。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pds",
+          "dimension": "method_ids",
+          "basis": "双浓度脉冲偶极EPR直接分离分子内信号与背景；arXiv预印本提出无需预设背景函数的脉冲偶极EPR处理方法：分别测量两种双自由基浓度，通过数据重排直接分离分子内form factor与分子间background。方案面向高自旋浓度样品，并进一步给出液液相分离体系及RIDME数据的处理思路。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spectral_processing",
+          "dimension": "method_ids",
+          "basis": "双浓度脉冲偶极EPR直接分离分子内信号与背景；arXiv预印本提出无需预设背景函数的脉冲偶极EPR处理方法：分别测量两种双自由基浓度，通过数据重排直接分离分子内form factor与分子间background。方案面向高自旋浓度样品，并进一步给出液液相分离体系及RIDME数据的处理思路。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "双浓度脉冲偶极EPR直接分离分子内信号与背景",
+        "original_summary_cn": "arXiv预印本提出无需预设背景函数的脉冲偶极EPR处理方法：分别测量两种双自由基浓度，通过数据重排直接分离分子内form factor与分子间background。方案面向高自旋浓度样品，并进一步给出液液相分离体系及RIDME数据的处理思路。",
+        "original_meaning_cn": "实施时两份样品除标记物浓度外应保持缓冲液、相体积分数、温度和冻存历史一致，并记录调制深度、演化时间与重复延迟。浓度必须准确可追溯；结果宜同常规背景拟合及稀释样对照比较，并检查两相分配改变是否破坏线性组合假设。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "deer_peldor",
+          "spin_labeling",
+          "生命科学",
+          "结构生物学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260914-02",
+      "report_date": "2026-09-14",
+      "item_no": 2,
+      "title_cn": "零场NMR解析α-Mn常压反铁磁相",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "zero_field_nmr"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of the Physical Society of Japan报道常压α-Mn反铁磁相的零场NMR测量。研究在无需外加静磁场的条件下读取内部超精细场产生的共振，并以谱线和温度演化检验复杂晶格中不同Mn位点的磁有序环境，为其低温磁结构提供局域探针证据。",
+      "meaning_cn": "零场实验需先以宽频扫描定位共振，记录温度、RF脉冲带宽、回波延迟、线圈调谐和频率相关灵敏度。不同频段的强度不能直接比较，应校正增益与Q值；位点归属需联合晶体学占位、超精细场方向及外场NMR或磁化数据验证。",
+      "publication_date": "2026-09-10",
+      "time_scope": "7d_extension",
+      "source": "Journal of the Physical Society of Japan",
+      "url": "https://journals.jps.jp/doi/10.7566/JPSJ.95.103701",
+      "doi": "10.7566/jpsj.95.103701",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-14",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-14.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "材料"
+        ],
+        "original_type": "固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-14.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "零场NMR解析α-Mn常压反铁磁相；Journal of the Physical Society of Japan报道常压α-Mn反铁磁相的零场NMR测量。研究在无需外加静磁场的条件下读取内部超精细场产生的共振，并以谱线和温度演化检验复杂晶格中不同Mn位点的磁有序环境，为其低温磁结构提供局域探针证据。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "零场NMR解析α-Mn常压反铁磁相；Journal of the Physical Society of Japan报道常压α-Mn反铁磁相的零场NMR测量。研究在无需外加静磁场的条件下读取内部超精细场产生的共振，并以谱线和温度演化检验复杂晶格中不同Mn位点的磁有序环境，为其低温磁结构提供局域探针证据。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "zero_field_nmr",
+          "dimension": "method_ids",
+          "basis": "零场NMR解析α-Mn常压反铁磁相；Journal of the Physical Society of Japan报道常压α-Mn反铁磁相的零场NMR测量。研究在无需外加静磁场的条件下读取内部超精细场产生的共振，并以谱线和温度演化检验复杂晶格中不同Mn位点的磁有序环境，为其低温磁结构提供局域探针证据。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "零场NMR解析α-Mn常压反铁磁相；Journal of the Physical Society of Japan报道常压α-Mn反铁磁相的零场NMR测量。研究在无需外加静磁场的条件下读取内部超精细场产生的共振，并以谱线和温度演化检验复杂晶格中不同Mn位点的磁有序环境，为其低温磁结构提供局域探针证据。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "零场NMR解析α-Mn常压反铁磁相",
+        "original_summary_cn": "Journal of the Physical Society of Japan报道常压α-Mn反铁磁相的零场NMR测量。研究在无需外加静磁场的条件下读取内部超精细场产生的共振，并以谱线和温度演化检验复杂晶格中不同Mn位点的磁有序环境，为其低温磁结构提供局域探针证据。",
+        "original_meaning_cn": "零场实验需先以宽频扫描定位共振，记录温度、RF脉冲带宽、回波延迟、线圈调谐和频率相关灵敏度。不同频段的强度不能直接比较，应校正增益与Q值；位点归属需联合晶体学占位、超精细场方向及外场NMR或磁化数据验证。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "材料"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260914-03",
+      "report_date": "2026-09-14",
+      "item_no": 3,
+      "title_cn": "中国科大启动脉冲式EPR波谱仪公开招标",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "procurement"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "tender",
+      "summary_cn": "中国科学技术大学于9月10日发布脉冲式电子顺磁共振波谱仪公开招标，拟采购一套脉冲EPR系统。项目直接涉及脉冲主机、磁场与微波链路、谐振器、低温附件及数据处理能力，是近期国内高校扩展自旋动力学和距离测量条件的设备采购动态。",
+      "meaning_cn": "响应与验收应逐项明确工作频段、最短微波脉冲、激发带宽、相位与时序分辨率、回波灵敏度、最大磁场及低温范围。若承担DEER、ENDOR或HYSCORE，还需核对独立通道、射频附件、相循环深度、任意波形控制及标准样测试条件。",
+      "publication_date": "2026-09-10",
+      "time_scope": "7d_extension",
+      "source": "中国科学技术大学采购管理平台",
+      "url": "https://cggl.ustc.edu.cn/",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-14",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-14.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "仪器、软件与方法",
+          "procurement"
+        ],
+        "original_type": "脉冲EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-14.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "中国科大启动脉冲式EPR波谱仪公开招标；中国科学技术大学于9月10日发布脉冲式电子顺磁共振波谱仪公开招标，拟采购一套脉冲EPR系统。项目直接涉及脉冲主机、磁场与微波链路、谐振器、低温附件及数据处理能力，是近期国内高校扩展自旋动力学和距离测量条件的设备采购动态。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "procurement",
+          "dimension": "application_ids",
+          "basis": "中国科大启动脉冲式EPR波谱仪公开招标；中国科学技术大学于9月10日发布脉冲式电子顺磁共振波谱仪公开招标，拟采购一套脉冲EPR系统。项目直接涉及脉冲主机、磁场与微波链路、谐振器、低温附件及数据处理能力，是近期国内高校扩展自旋动力学和距离测量条件的设备采购动态。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "中国科大启动脉冲式EPR波谱仪公开招标",
+        "original_summary_cn": "中国科学技术大学于9月10日发布脉冲式电子顺磁共振波谱仪公开招标，拟采购一套脉冲EPR系统。项目直接涉及脉冲主机、磁场与微波链路、谐振器、低温附件及数据处理能力，是近期国内高校扩展自旋动力学和距离测量条件的设备采购动态。",
+        "original_meaning_cn": "响应与验收应逐项明确工作频段、最短微波脉冲、激发带宽、相位与时序分辨率、回波灵敏度、最大磁场及低温范围。若承担DEER、ENDOR或HYSCORE，还需核对独立通道、射频附件、相循环深度、任意波形控制及标准样测试条件。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "仪器、软件与方法",
+          "procurement"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260914-04",
+      "report_date": "2026-09-14",
+      "item_no": 4,
+      "title_cn": "港科大（广州）采购科研用NMR波谱仪耗材",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "procurement"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "tender",
+      "summary_cn": "香港科技大学（广州）采购处于9月11日发布科研用核磁共振波谱仪耗材竞价公告，项目编号HKUSTGZ-26-BG00555。公告强调短交付周期和现场交付要求，反映高通量科研平台对样品管、转子或其他谱仪专用消耗件的即时保障需求。",
+      "meaning_cn": "耗材采购应按原设备型号核对尺寸、公差、耐温耐压、材料磁性与化学兼容性，不能仅按通用名称替代。到货验收宜抽检外观、同轴度、装样体积和空白背景；涉及转子或密封件时，还应按额定转速及温度完成安全检查。",
+      "publication_date": "2026-09-11",
+      "time_scope": "7d_extension",
+      "source": "香港科技大学（广州）采购处",
+      "url": "https://puro.hkust-gz.edu.cn/bid/index?redirect=/zh-cn",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-14",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-14.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "仪器、软件与方法",
+          "procurement"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-14.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "港科大（广州）采购科研用NMR波谱仪耗材；香港科技大学（广州）采购处于9月11日发布科研用核磁共振波谱仪耗材竞价公告，项目编号HKUSTGZ-26-BG00555。公告强调短交付周期和现场交付要求，反映高通量科研平台对样品管、转子或其他谱仪专用消耗件的即时保障需求。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "procurement",
+          "dimension": "application_ids",
+          "basis": "港科大（广州）采购科研用NMR波谱仪耗材；香港科技大学（广州）采购处于9月11日发布科研用核磁共振波谱仪耗材竞价公告，项目编号HKUSTGZ-26-BG00555。公告强调短交付周期和现场交付要求，反映高通量科研平台对样品管、转子或其他谱仪专用消耗件的即时保障需求。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "港科大（广州）采购科研用NMR波谱仪耗材",
+        "original_summary_cn": "香港科技大学（广州）采购处于9月11日发布科研用核磁共振波谱仪耗材竞价公告，项目编号HKUSTGZ-26-BG00555。公告强调短交付周期和现场交付要求，反映高通量科研平台对样品管、转子或其他谱仪专用消耗件的即时保障需求。",
+        "original_meaning_cn": "耗材采购应按原设备型号核对尺寸、公差、耐温耐压、材料磁性与化学兼容性，不能仅按通用名称替代。到货验收宜抽检外观、同轴度、装样体积和空白背景；涉及转子或密封件时，还应按额定转速及温度完成安全检查。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "仪器、软件与方法",
+          "procurement"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260914-05",
+      "report_date": "2026-09-14",
+      "item_no": 5,
+      "title_cn": "自由基对模型比较⁶Li与⁷Li的超精细和三重态产率",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "PLOS One以量子化学超精细耦合常数和自由基对自旋动力学模型，比较⁶Li与⁷Li对黄素—抗坏血酸自由基对单重态/三重态产率的影响。计算结果同既有EPR参数和动物行为数据对照，讨论锂核自旋差异可能引起的磁同位素效应。",
+      "meaning_cn": "该结果首先是模型假设而非直接EPR定量。复核时需检查g值、交换/偶极耦合、各向异性超精细张量、重组速率和磁场强度，并对参数范围做敏感性分析。若开展实验，应分别制备同位素纯化样品并以脉冲EPR测定关键耦合。",
+      "publication_date": "2026-09-10",
+      "time_scope": "7d_extension",
+      "source": "PLOS One",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0356617",
+      "doi": "10.1371/journal.pone.0356617",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-14",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-14.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "生命科学"
+        ],
+        "original_type": "EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-14.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "自由基对模型比较⁶Li与⁷Li的超精细和三重态产率；PLOS One以量子化学超精细耦合常数和自由基对自旋动力学模型，比较⁶Li与⁷Li对黄素—抗坏血酸自由基对单重态/三重态产率的影响。计算结果同既有EPR参数和动物行为数据对照，讨论锂核自旋差异可能引起的磁同位素效应。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "自由基对模型比较⁶Li与⁷Li的超精细和三重态产率；PLOS One以量子化学超精细耦合常数和自由基对自旋动力学模型，比较⁶Li与⁷Li对黄素—抗坏血酸自由基对单重态/三重态产率的影响。计算结果同既有EPR参数和动物行为数据对照，讨论锂核自旋差异可能引起的磁同位素效应。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "自由基对模型比较⁶Li与⁷Li的超精细和三重态产率",
+        "original_summary_cn": "PLOS One以量子化学超精细耦合常数和自由基对自旋动力学模型，比较⁶Li与⁷Li对黄素—抗坏血酸自由基对单重态/三重态产率的影响。计算结果同既有EPR参数和动物行为数据对照，讨论锂核自旋差异可能引起的磁同位素效应。",
+        "original_meaning_cn": "该结果首先是模型假设而非直接EPR定量。复核时需检查g值、交换/偶极耦合、各向异性超精细张量、重组速率和磁场强度，并对参数范围做敏感性分析。若开展实验，应分别制备同位素纯化样品并以脉冲EPR测定关键耦合。",
+        "original_tags": [
+          "EPR",
+          "生命科学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "范围说明：常规检索在过去24小时内未确认到符合发布日期、相关性与查重要求的新增条目，已依次执行增强检索和第二级深度增强检索。检索逐日回扫2026年9月7日至13日，逐站核验专业期刊、预印本与文献元数据、仪器厂商、专业会议及中外采购公告，并按液体NMR、固体NMR/MAS/DNP、低场与TD-NMR、谱图处理、CW与rapid-scan EPR、脉冲EPR/DEER/ENDOR/ESEEM/HYSCORE、TREPR、operando/EC-EPR及仪器部件逐组检索。本期最终收录5条，均为9月9日至11日的近7天扩展。结合最近7期正文与项目索引查重，排除21条既有记录；另排除24条日期无法独立确认、常驻产品页、仅更新卷期、医学MRI或仅将NMR/EPR作为辅助表征的候选。最终不足10条主要来自周末低产出、搜索索引延迟及近7天高价值条目已被连续日报覆盖。\n\n待复核标签：双浓度PDS背景分离、零场反铁磁NMR与自由基对自旋动力学保留在样品体系和正文中，未创建新的正式ID。",
+    "source_sha256": "0e5fe45583a900a42b855c252b14d7cb07f178a43bdf1c46fbffd2a125cf638c",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

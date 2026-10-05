@@ -1,0 +1,561 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-08-30",
+  "scope_note": "本期收录5条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260830-01",
+      "report_date": "2026-08-30",
+      "item_no": 1,
+      "title_cn": "高场与地磁场NMR联用解析氟代芬太尼",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "The Journal of Physical Chemistry A报道以氟代芬太尼为案例，对照高场NMR与Earth’s-field NMR（EFNMR）的谱学信息。研究利用高场数据完成结构和耦合参数约束，再评估地磁场条件下低频谱图的可解释性，展示超低场、低成本核磁在含氟化合物识别中的方法边界。",
+      "meaning_cn": "应用时应先用高场¹H/¹⁹F及二维谱建立可靠归属和J耦合网络，再将参数输入EFNMR谱图模拟。地磁场实验需记录预极化方式、磁场均匀性、采样时间和环境磁噪声；异构体区分不能只依赖单条低场峰形。",
+      "publication_date": "2026-08-29",
+      "time_scope": "24h",
+      "source": "The Journal of Physical Chemistry A",
+      "url": "https://pubs.acs.org/jpcafh/article/doi/10.1021/acs.jpca.6c00487/5355464/Interplay-of-High-Field-and-Earth-s-Field-NMR",
+      "doi": "10.1021/acs.jpca.6c00487",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-30",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-30.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "台式NMR",
+          "多核NMR",
+          "多维NMR",
+          "化学结构解析",
+          "药物与质量分析",
+          "仪器、软件与方法"
+        ],
+        "original_type": "溶液NMR / 台式NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-30.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "高场与地磁场NMR联用解析氟代芬太尼；The Journal of Physical Chemistry A报道以氟代芬太尼为案例，对照高场NMR与Earth’s-field NMR（EFNMR）的谱学信息。研究利用高场数据完成结构和耦合参数约束，再评估地磁场条件下低频谱图的可解释性，展示超低场、低成本核磁在含氟化合物识别中的方法边界。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "高场与地磁场NMR联用解析氟代芬太尼；The Journal of Physical Chemistry A报道以氟代芬太尼为案例，对照高场NMR与Earth’s-field NMR（EFNMR）的谱学信息。研究利用高场数据完成结构和耦合参数约束，再评估地磁场条件下低频谱图的可解释性，展示超低场、低成本核磁在含氟化合物识别中的方法边界。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "高场与地磁场NMR联用解析氟代芬太尼",
+        "original_summary_cn": "The Journal of Physical Chemistry A报道以氟代芬太尼为案例，对照高场NMR与Earth’s-field NMR（EFNMR）的谱学信息。研究利用高场数据完成结构和耦合参数约束，再评估地磁场条件下低频谱图的可解释性，展示超低场、低成本核磁在含氟化合物识别中的方法边界。",
+        "original_meaning_cn": "应用时应先用高场¹H/¹⁹F及二维谱建立可靠归属和J耦合网络，再将参数输入EFNMR谱图模拟。地磁场实验需记录预极化方式、磁场均匀性、采样时间和环境磁噪声；异构体区分不能只依赖单条低场峰形。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "台式NMR",
+          "多核NMR",
+          "多维NMR",
+          "化学结构解析",
+          "药物与质量分析",
+          "仪器、软件与方法"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260830-02",
+      "report_date": "2026-08-30",
+      "item_no": 2,
+      "title_cn": "NMR定量肝脏磷脂酰胆碱两条生物合成通路",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "qnmr"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Analytical Chemistry发布NMR定量方法，用于区分肝脏磷脂酰胆碱由PEMT甲基化通路和Kennedy通路产生的相对贡献。方法把通路特异性分子标记与核磁定量读出结合，面向脂质生物合成流向分析，减少仅凭总磷脂酰胆碱含量推断代谢来源的局限。",
+      "meaning_cn": "实验设计需明确同位素或前体示踪方案、肝组织取样时间、脂质提取回收率及内标；定量脉冲序列应满足充分弛豫并校正峰重叠。建议以空白、单通路抑制或遗传对照验证归属，并报告两条通路比例的不确定度。",
+      "publication_date": "2026-08-29",
+      "time_scope": "24h",
+      "source": "Analytical Chemistry",
+      "url": "https://pubs.acs.org/ancham",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-30",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-30.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "定量NMR",
+          "多核NMR",
+          "NMR代谢组学",
+          "生命科学"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-30.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "NMR定量肝脏磷脂酰胆碱两条生物合成通路；Analytical Chemistry发布NMR定量方法，用于区分肝脏磷脂酰胆碱由PEMT甲基化通路和Kennedy通路产生的相对贡献。方法把通路特异性分子标记与核磁定量读出结合，面向脂质生物合成流向分析，减少仅凭总磷脂酰胆碱含量推断代谢来源的局限。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "qnmr",
+          "dimension": "method_ids",
+          "basis": "NMR定量肝脏磷脂酰胆碱两条生物合成通路；Analytical Chemistry发布NMR定量方法，用于区分肝脏磷脂酰胆碱由PEMT甲基化通路和Kennedy通路产生的相对贡献。方法把通路特异性分子标记与核磁定量读出结合，面向脂质生物合成流向分析，减少仅凭总磷脂酰胆碱含量推断代谢来源的局限。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "life_science",
+          "dimension": "application_ids",
+          "basis": "NMR定量肝脏磷脂酰胆碱两条生物合成通路；Analytical Chemistry发布NMR定量方法，用于区分肝脏磷脂酰胆碱由PEMT甲基化通路和Kennedy通路产生的相对贡献。方法把通路特异性分子标记与核磁定量读出结合，面向脂质生物合成流向分析，减少仅凭总磷脂酰胆碱含量推断代谢来源的局限。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "NMR定量肝脏磷脂酰胆碱两条生物合成通路",
+        "original_summary_cn": "Analytical Chemistry发布NMR定量方法，用于区分肝脏磷脂酰胆碱由PEMT甲基化通路和Kennedy通路产生的相对贡献。方法把通路特异性分子标记与核磁定量读出结合，面向脂质生物合成流向分析，减少仅凭总磷脂酰胆碱含量推断代谢来源的局限。",
+        "original_meaning_cn": "实验设计需明确同位素或前体示踪方案、肝组织取样时间、脂质提取回收率及内标；定量脉冲序列应满足充分弛豫并校正峰重叠。建议以空白、单通路抑制或遗传对照验证归属，并报告两条通路比例的不确定度。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "定量NMR",
+          "多核NMR",
+          "NMR代谢组学",
+          "生命科学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260830-03",
+      "report_date": "2026-08-30",
+      "item_no": 3,
+      "title_cn": "固体NMR揭示几何限域弹性体中的有序氢键硬域",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "polymers"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Nature Communications报道以高密度氢键半卡巴肼扩链剂构建聚氨酯-脲弹性体，并用固体NMR确认几何限域诱导的有序、高密度氢键硬域。谱学结果用于联系纳米相分离、能量耗散与材料的强度、抗裂性和耐磨性。",
+      "meaning_cn": "材料比较应保持样品热历史、含水量和制样厚度一致；固体NMR需报告观测核、MAS转速、CP接触时间和弛豫条件。可结合变温¹H/¹³C谱、弛豫及二维相关实验区分硬域氢键、有序程度与软段运动贡献。",
+      "publication_date": "2026-08-29",
+      "time_scope": "24h",
+      "source": "Nature Communications",
+      "url": "https://www.nature.com/articles/s41467-026-77193-w",
+      "doi": "10.1038/s41467-026-77193-w",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-30",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-30.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "材料与缺陷表征",
+          "聚合物",
+          "化学结构解析"
+        ],
+        "original_type": "固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-30.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "固体NMR揭示几何限域弹性体中的有序氢键硬域；Nature Communications报道以高密度氢键半卡巴肼扩链剂构建聚氨酯-脲弹性体，并用固体NMR确认几何限域诱导的有序、高密度氢键硬域。谱学结果用于联系纳米相分离、能量耗散与材料的强度、抗裂性和耐磨性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "固体NMR揭示几何限域弹性体中的有序氢键硬域；Nature Communications报道以高密度氢键半卡巴肼扩链剂构建聚氨酯-脲弹性体，并用固体NMR确认几何限域诱导的有序、高密度氢键硬域。谱学结果用于联系纳米相分离、能量耗散与材料的强度、抗裂性和耐磨性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "polymers",
+          "dimension": "application_ids",
+          "basis": "固体NMR揭示几何限域弹性体中的有序氢键硬域；Nature Communications报道以高密度氢键半卡巴肼扩链剂构建聚氨酯-脲弹性体，并用固体NMR确认几何限域诱导的有序、高密度氢键硬域。谱学结果用于联系纳米相分离、能量耗散与材料的强度、抗裂性和耐磨性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "固体NMR揭示几何限域弹性体中的有序氢键硬域",
+        "original_summary_cn": "Nature Communications报道以高密度氢键半卡巴肼扩链剂构建聚氨酯-脲弹性体，并用固体NMR确认几何限域诱导的有序、高密度氢键硬域。谱学结果用于联系纳米相分离、能量耗散与材料的强度、抗裂性和耐磨性。",
+        "original_meaning_cn": "材料比较应保持样品热历史、含水量和制样厚度一致；固体NMR需报告观测核、MAS转速、CP接触时间和弛豫条件。可结合变温¹H/¹³C谱、弛豫及二维相关实验区分硬域氢键、有序程度与软段运动贡献。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "材料与缺陷表征",
+          "聚合物",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260830-04",
+      "report_date": "2026-08-30",
+      "item_no": 4,
+      "title_cn": "¹⁵N示踪¹H NMR核验硝酸盐光催化制氨来源",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "photocatalysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Angewandte Chemie报道原子精确Cu₄I₄/TiO₂光催化硝酸盐制氨，并以¹⁵NO₃⁻和¹⁴NO₃⁻对照的¹H NMR核验氨氮来源。生成的¹⁵NH₄⁺双峰与¹⁴NH₄⁺三重峰分别呈71.8和51.7 Hz耦合，结果同时与比色及离子色谱定量交叉验证。",
+      "meaning_cn": "制氨核验应设置无光、无催化剂和无硝酸盐空白，使用密闭洁净体系排除环境氨污染。¹H NMR需固定pH、温度、内标和弛豫延迟，并分别积分同位素特征多重峰；同位素丰度与背景氮应计入物料衡算。",
+      "publication_date": "2026-08-29",
+      "time_scope": "24h",
+      "source": "Angewandte Chemie International Edition",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/anie.5529008",
+      "doi": "10.1002/anie.5529008",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-30",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-30.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "定量NMR",
+          "光催化",
+          "环境催化",
+          "电合成"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-30.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "¹⁵N示踪¹H NMR核验硝酸盐光催化制氨来源；Angewandte Chemie报道原子精确Cu₄I₄/TiO₂光催化硝酸盐制氨，并以¹⁵NO₃⁻和¹⁴NO₃⁻对照的¹H NMR核验氨氮来源。生成的¹⁵NH₄⁺双峰与¹⁴NH₄⁺三重峰分别呈71.8和51.7 Hz耦合，结果同时与比色及离子色谱定量交叉验证。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "¹⁵N示踪¹H NMR核验硝酸盐光催化制氨来源；Angewandte Chemie报道原子精确Cu₄I₄/TiO₂光催化硝酸盐制氨，并以¹⁵NO₃⁻和¹⁴NO₃⁻对照的¹H NMR核验氨氮来源。生成的¹⁵NH₄⁺双峰与¹⁴NH₄⁺三重峰分别呈71.8和51.7 Hz耦合，结果同时与比色及离子色谱定量交叉验证。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "photocatalysis",
+          "dimension": "application_ids",
+          "basis": "¹⁵N示踪¹H NMR核验硝酸盐光催化制氨来源；Angewandte Chemie报道原子精确Cu₄I₄/TiO₂光催化硝酸盐制氨，并以¹⁵NO₃⁻和¹⁴NO₃⁻对照的¹H NMR核验氨氮来源。生成的¹⁵NH₄⁺双峰与¹⁴NH₄⁺三重峰分别呈71.8和51.7 Hz耦合，结果同时与比色及离子色谱定量交叉验证。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "¹⁵N示踪¹H NMR核验硝酸盐光催化制氨来源",
+        "original_summary_cn": "Angewandte Chemie报道原子精确Cu₄I₄/TiO₂光催化硝酸盐制氨，并以¹⁵NO₃⁻和¹⁴NO₃⁻对照的¹H NMR核验氨氮来源。生成的¹⁵NH₄⁺双峰与¹⁴NH₄⁺三重峰分别呈71.8和51.7 Hz耦合，结果同时与比色及离子色谱定量交叉验证。",
+        "original_meaning_cn": "制氨核验应设置无光、无催化剂和无硝酸盐空白，使用密闭洁净体系排除环境氨污染。¹H NMR需固定pH、温度、内标和弛豫延迟，并分别积分同位素特征多重峰；同位素丰度与背景氮应计入物料衡算。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "定量NMR",
+          "光催化",
+          "环境催化",
+          "电合成"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260830-05",
+      "report_date": "2026-08-30",
+      "item_no": 5,
+      "title_cn": "yEFEPR 2026启动，议题覆盖脉冲EPR、原位电化学与计算自旋动力学",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "defect_epr",
+        "ec_epr",
+        "spin_labeling",
+        "time_resolved_epr"
+      ],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "第13届European Federation of EPR Conference配套青年会议yEFEPR于布尔诺启动，主会期延续至9月4日。官方议程覆盖脉冲与时间分辨EPR、超精细谱学、膜蛋白自旋标记、film-electrochemical EPR、原位催化、缺陷与分子自旋计算等方向。",
+      "meaning_cn": "技术跟踪可按频段、脉冲带宽、谐振器样品体积、低温与光照接口、原位电化学池及分析软件建立记录表。对DEER、TREPR和operando EPR报告，应优先收集原始实验条件和可复现实例，避免仅按报告标题比较能力。",
+      "publication_date": "2026-08-29",
+      "time_scope": "24h",
+      "source": "EFEPR 2026",
+      "url": "https://ta-service.cz/efepr2026/",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-30",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-30.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "DEER/PELDOR",
+          "自旋标记",
+          "时间分辨EPR",
+          "工况/在线EPR",
+          "缺陷EPR",
+          "结构生物学",
+          "催化",
+          "材料与缺陷表征",
+          "仪器、软件与方法",
+          "培训与会议"
+        ],
+        "original_type": "连续波EPR / 脉冲EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-30.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "yEFEPR 2026启动，议题覆盖脉冲EPR、原位电化学与计算自旋动力学；第13届European Federation of EPR Conference配套青年会议yEFEPR于布尔诺启动，主会期延续至9月4日。官方议程覆盖脉冲与时间分辨EPR、超精细谱学、膜蛋白自旋标记、film-electrochemical EPR、原位催化、缺陷与分子自旋计算等方向。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "defect_epr",
+          "dimension": "method_ids",
+          "basis": "yEFEPR 2026启动，议题覆盖脉冲EPR、原位电化学与计算自旋动力学；第13届European Federation of EPR Conference配套青年会议yEFEPR于布尔诺启动，主会期延续至9月4日。官方议程覆盖脉冲与时间分辨EPR、超精细谱学、膜蛋白自旋标记、film-electrochemical EPR、原位催化、缺陷与分子自旋计算等方向。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "ec_epr",
+          "dimension": "method_ids",
+          "basis": "yEFEPR 2026启动，议题覆盖脉冲EPR、原位电化学与计算自旋动力学；第13届European Federation of EPR Conference配套青年会议yEFEPR于布尔诺启动，主会期延续至9月4日。官方议程覆盖脉冲与时间分辨EPR、超精细谱学、膜蛋白自旋标记、film-electrochemical EPR、原位催化、缺陷与分子自旋计算等方向。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spin_labeling",
+          "dimension": "method_ids",
+          "basis": "yEFEPR 2026启动，议题覆盖脉冲EPR、原位电化学与计算自旋动力学；第13届European Federation of EPR Conference配套青年会议yEFEPR于布尔诺启动，主会期延续至9月4日。官方议程覆盖脉冲与时间分辨EPR、超精细谱学、膜蛋白自旋标记、film-electrochemical EPR、原位催化、缺陷与分子自旋计算等方向。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "time_resolved_epr",
+          "dimension": "method_ids",
+          "basis": "yEFEPR 2026启动，议题覆盖脉冲EPR、原位电化学与计算自旋动力学；第13届European Federation of EPR Conference配套青年会议yEFEPR于布尔诺启动，主会期延续至9月4日。官方议程覆盖脉冲与时间分辨EPR、超精细谱学、膜蛋白自旋标记、film-electrochemical EPR、原位催化、缺陷与分子自旋计算等方向。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "yEFEPR 2026启动，议题覆盖脉冲EPR、原位电化学与计算自旋动力学；第13届European Federation of EPR Conference配套青年会议yEFEPR于布尔诺启动，主会期延续至9月4日。官方议程覆盖脉冲与时间分辨EPR、超精细谱学、膜蛋白自旋标记、film-electrochemical EPR、原位催化、缺陷与分子自旋计算等方向。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "yEFEPR 2026启动，议题覆盖脉冲EPR、原位电化学与计算自旋动力学",
+        "original_summary_cn": "第13届European Federation of EPR Conference配套青年会议yEFEPR于布尔诺启动，主会期延续至9月4日。官方议程覆盖脉冲与时间分辨EPR、超精细谱学、膜蛋白自旋标记、film-electrochemical EPR、原位催化、缺陷与分子自旋计算等方向。",
+        "original_meaning_cn": "技术跟踪可按频段、脉冲带宽、谐振器样品体积、低温与光照接口、原位电化学池及分析软件建立记录表。对DEER、TREPR和operando EPR报告，应优先收集原始实验条件和可复现实例，避免仅按报告标题比较能力。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "DEER/PELDOR",
+          "自旋标记",
+          "时间分辨EPR",
+          "工况/在线EPR",
+          "缺陷EPR",
+          "结构生物学",
+          "催化",
+          "材料与缺陷表征",
+          "仪器、软件与方法",
+          "培训与会议"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "本期收录5条，均为2026年8月29日发布或正式启动的近24小时高相关信息。已按历史DOI、规范化URL和标题查重；周末新增较少，未用常规辅助表征、旧页面更新或前期重复内容补足数量。待复核标签：无。",
+    "source_sha256": "96afcc144caac6c51bbb54d98008e0f5299e3557cb3694b5f066ed22899cb599",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

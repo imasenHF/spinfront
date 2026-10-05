@@ -1,0 +1,1230 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-10-01",
+  "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20261001-01",
+      "report_date": "2026-10-01",
+      "item_no": 1,
+      "title_cn": "磁各向异性辅助¹⁹F NMR同时定量多种镧系离子",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "qnmr",
+        "paramagnetic_nmr"
+      ],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Analytical Chemistry设计CF₃-TDA与F-TDA两种含¹⁹F报告基和螯合位点的化学—磁探针。不同Ln³⁺形成稳定配合物后，由磁各向异性产生可分辨的¹⁹F位移，可在常见金属离子竞争下同时识别并定量多种镧系离子。",
+      "meaning_cn": "方法转移需固定探针/Ln比例、pH、离子强度、温度和配位平衡时间，校准¹⁹F载频、谱宽、弛豫延迟及内标。定量应逐个测响应因子、线性范围和检出限，并用竞争金属、不同阴离子及真实样品加标回收验证峰归属与基质效应。",
+      "publication_date": "2026-09-30",
+      "time_scope": "24h",
+      "source": "Analytical Chemistry",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.analchem.6c02571",
+      "doi": "10.1021/acs.analchem.6c02571",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-01",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-01.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "顺磁NMR",
+          "化学结构",
+          "无机配位",
+          "过程分析",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜溶液NMR｜多核NMR｜顺磁NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-01.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "磁各向异性辅助¹⁹F NMR同时定量多种镧系离子；Analytical Chemistry设计CF₃-TDA与F-TDA两种含¹⁹F报告基和螯合位点的化学—磁探针。不同Ln³⁺形成稳定配合物后，由磁各向异性产生可分辨的¹⁹F位移，可在常见金属离子竞争下同时识别并定量多种镧系离子。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "磁各向异性辅助¹⁹F NMR同时定量多种镧系离子；Analytical Chemistry设计CF₃-TDA与F-TDA两种含¹⁹F报告基和螯合位点的化学—磁探针。不同Ln³⁺形成稳定配合物后，由磁各向异性产生可分辨的¹⁹F位移，可在常见金属离子竞争下同时识别并定量多种镧系离子。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "qnmr",
+          "dimension": "method_ids",
+          "basis": "磁各向异性辅助¹⁹F NMR同时定量多种镧系离子；Analytical Chemistry设计CF₃-TDA与F-TDA两种含¹⁹F报告基和螯合位点的化学—磁探针。不同Ln³⁺形成稳定配合物后，由磁各向异性产生可分辨的¹⁹F位移，可在常见金属离子竞争下同时识别并定量多种镧系离子。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "paramagnetic_nmr",
+          "dimension": "method_ids",
+          "basis": "磁各向异性辅助¹⁹F NMR同时定量多种镧系离子；Analytical Chemistry设计CF₃-TDA与F-TDA两种含¹⁹F报告基和螯合位点的化学—磁探针。不同Ln³⁺形成稳定配合物后，由磁各向异性产生可分辨的¹⁹F位移，可在常见金属离子竞争下同时识别并定量多种镧系离子。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "inorganic_coordination",
+          "dimension": "application_ids",
+          "basis": "磁各向异性辅助¹⁹F NMR同时定量多种镧系离子；Analytical Chemistry设计CF₃-TDA与F-TDA两种含¹⁹F报告基和螯合位点的化学—磁探针。不同Ln³⁺形成稳定配合物后，由磁各向异性产生可分辨的¹⁹F位移，可在常见金属离子竞争下同时识别并定量多种镧系离子。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "磁各向异性辅助¹⁹F NMR同时定量多种镧系离子",
+        "original_summary_cn": "Analytical Chemistry设计CF₃-TDA与F-TDA两种含¹⁹F报告基和螯合位点的化学—磁探针。不同Ln³⁺形成稳定配合物后，由磁各向异性产生可分辨的¹⁹F位移，可在常见金属离子竞争下同时识别并定量多种镧系离子。",
+        "original_meaning_cn": "方法转移需固定探针/Ln比例、pH、离子强度、温度和配位平衡时间，校准¹⁹F载频、谱宽、弛豫延迟及内标。定量应逐个测响应因子、线性范围和检出限，并用竞争金属、不同阴离子及真实样品加标回收验证峰归属与基质效应。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "顺磁NMR",
+          "化学结构",
+          "无机配位",
+          "过程分析",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261001-02",
+      "report_date": "2026-10-01",
+      "item_no": 2,
+      "title_cn": "Bruker ACP 2.0把qNMR批量采集与自动处理串联",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "qnmr",
+        "spectral_processing"
+      ],
+      "application_ids": [
+        "education_training",
+        "process_analysis"
+      ],
+      "instrument_component_ids": [
+        "software"
+      ],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "Bruker在9月30日举行qNMR workflow automation实操活动，展示ACP 2.0把定量方法设置、IconNMR队列、批量谱图处理和结果输出衔接起来。重点是让数百样品由软件一致执行，降低操作者差异，并面向受监管实验室的数据完整性。",
+      "meaning_cn": "部署前应锁定内标、称量与纯度溯源、脉冲角、弛豫延迟、温度、自动匀场及积分区间，并用代表性样品验证T₁充分恢复。验收需比较人工与自动流程的准确度、精密度、失败恢复、审计追踪和原始FID保留，不能只比较吞吐量。",
+      "publication_date": "2026-09-30",
+      "time_scope": "24h",
+      "source": "Bruker BioSpin",
+      "url": "https://www.bruker.com/en/news-and-events/webinars/2026/quantitative-nmr-qnmr-workflow-automation-with-acp-2-practical-sessions.html",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-01",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-01.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "qNMR",
+          "过程分析",
+          "药物分析",
+          "仪器",
+          "教育培训",
+          "探头",
+          "自动进样器",
+          "软件"
+        ],
+        "original_type": "NMR｜溶液NMR｜qNMR｜自动化",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-01.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "Bruker ACP 2.0把qNMR批量采集与自动处理串联；Bruker在9月30日举行qNMR workflow automation实操活动，展示ACP 2.0把定量方法设置、IconNMR队列、批量谱图处理和结果输出衔接起来。重点是让数百样品由软件一致执行，降低操作者差异，并面向受监管实验室的数据完整性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "Bruker ACP 2.0把qNMR批量采集与自动处理串联；Bruker在9月30日举行qNMR workflow automation实操活动，展示ACP 2.0把定量方法设置、IconNMR队列、批量谱图处理和结果输出衔接起来。重点是让数百样品由软件一致执行，降低操作者差异，并面向受监管实验室的数据完整性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "qnmr",
+          "dimension": "method_ids",
+          "basis": "Bruker ACP 2.0把qNMR批量采集与自动处理串联；Bruker在9月30日举行qNMR workflow automation实操活动，展示ACP 2.0把定量方法设置、IconNMR队列、批量谱图处理和结果输出衔接起来。重点是让数百样品由软件一致执行，降低操作者差异，并面向受监管实验室的数据完整性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spectral_processing",
+          "dimension": "method_ids",
+          "basis": "Bruker ACP 2.0把qNMR批量采集与自动处理串联；Bruker在9月30日举行qNMR workflow automation实操活动，展示ACP 2.0把定量方法设置、IconNMR队列、批量谱图处理和结果输出衔接起来。重点是让数百样品由软件一致执行，降低操作者差异，并面向受监管实验室的数据完整性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "Bruker ACP 2.0把qNMR批量采集与自动处理串联；Bruker在9月30日举行qNMR workflow automation实操活动，展示ACP 2.0把定量方法设置、IconNMR队列、批量谱图处理和结果输出衔接起来。重点是让数百样品由软件一致执行，降低操作者差异，并面向受监管实验室的数据完整性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "process_analysis",
+          "dimension": "application_ids",
+          "basis": "Bruker ACP 2.0把qNMR批量采集与自动处理串联；Bruker在9月30日举行qNMR workflow automation实操活动，展示ACP 2.0把定量方法设置、IconNMR队列、批量谱图处理和结果输出衔接起来。重点是让数百样品由软件一致执行，降低操作者差异，并面向受监管实验室的数据完整性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "software",
+          "dimension": "instrument_component_ids",
+          "basis": "Bruker ACP 2.0把qNMR批量采集与自动处理串联；Bruker在9月30日举行qNMR workflow automation实操活动，展示ACP 2.0把定量方法设置、IconNMR队列、批量谱图处理和结果输出衔接起来。重点是让数百样品由软件一致执行，降低操作者差异，并面向受监管实验室的数据完整性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Bruker ACP 2.0把qNMR批量采集与自动处理串联",
+        "original_summary_cn": "Bruker在9月30日举行qNMR workflow automation实操活动，展示ACP 2.0把定量方法设置、IconNMR队列、批量谱图处理和结果输出衔接起来。重点是让数百样品由软件一致执行，降低操作者差异，并面向受监管实验室的数据完整性。",
+        "original_meaning_cn": "部署前应锁定内标、称量与纯度溯源、脉冲角、弛豫延迟、温度、自动匀场及积分区间，并用代表性样品验证T₁充分恢复。验收需比较人工与自动流程的准确度、精密度、失败恢复、审计追踪和原始FID保留，不能只比较吞吐量。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "qNMR",
+          "过程分析",
+          "药物分析",
+          "仪器",
+          "教育培训",
+          "探头",
+          "自动进样器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261001-03",
+      "report_date": "2026-10-01",
+      "item_no": 3,
+      "title_cn": "¹H NMR联合OPLS-DA优先筛选真菌共培养代谢物",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "natural_products"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Frontiers in Natural Products以¹H NMR谱型和OPLS-DA比较真菌单培养、双/三元共培养及31个纯化代谢物。模型把生物活性粗提物与交互诱导信号关联，并从三元共培养中优先定位一个仅在该条件出现的候选化合物。",
+      "meaning_cn": "复现需统一菌株接种比、培养基、时间、提取溶剂、干重归一化、NMR缓冲液和内标，并保留原始谱的相位/基线处理记录。多变量模型应报告训练集、交叉验证Q²、置换检验和载荷区间；候选物仍需纯化、二维NMR及剂量—反应验证。",
+      "publication_date": "2026-09-30",
+      "time_scope": "7d_extension",
+      "source": "Frontiers in Natural Products",
+      "url": "https://www.frontiersin.org/journals/natural-products/articles/10.3389/fntpr.2026.1879578/full",
+      "doi": "10.3389/fntpr.2026.1879578",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-01",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-01.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "代谢组学",
+          "天然产物",
+          "生命科学",
+          "化学结构",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜溶液NMR｜代谢组学",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-01.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "¹H NMR联合OPLS-DA优先筛选真菌共培养代谢物；Frontiers in Natural Products以¹H NMR谱型和OPLS-DA比较真菌单培养、双/三元共培养及31个纯化代谢物。模型把生物活性粗提物与交互诱导信号关联，并从三元共培养中优先定位一个仅在该条件出现的候选化合物。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "¹H NMR联合OPLS-DA优先筛选真菌共培养代谢物；Frontiers in Natural Products以¹H NMR谱型和OPLS-DA比较真菌单培养、双/三元共培养及31个纯化代谢物。模型把生物活性粗提物与交互诱导信号关联，并从三元共培养中优先定位一个仅在该条件出现的候选化合物。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "metabolomics",
+          "dimension": "method_ids",
+          "basis": "¹H NMR联合OPLS-DA优先筛选真菌共培养代谢物；Frontiers in Natural Products以¹H NMR谱型和OPLS-DA比较真菌单培养、双/三元共培养及31个纯化代谢物。模型把生物活性粗提物与交互诱导信号关联，并从三元共培养中优先定位一个仅在该条件出现的候选化合物。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "natural_products",
+          "dimension": "application_ids",
+          "basis": "¹H NMR联合OPLS-DA优先筛选真菌共培养代谢物；Frontiers in Natural Products以¹H NMR谱型和OPLS-DA比较真菌单培养、双/三元共培养及31个纯化代谢物。模型把生物活性粗提物与交互诱导信号关联，并从三元共培养中优先定位一个仅在该条件出现的候选化合物。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "¹H NMR联合OPLS-DA优先筛选真菌共培养代谢物",
+        "original_summary_cn": "Frontiers in Natural Products以¹H NMR谱型和OPLS-DA比较真菌单培养、双/三元共培养及31个纯化代谢物。模型把生物活性粗提物与交互诱导信号关联，并从三元共培养中优先定位一个仅在该条件出现的候选化合物。",
+        "original_meaning_cn": "复现需统一菌株接种比、培养基、时间、提取溶剂、干重归一化、NMR缓冲液和内标，并保留原始谱的相位/基线处理记录。多变量模型应报告训练集、交叉验证Q²、置换检验和载荷区间；候选物仍需纯化、二维NMR及剂量—反应验证。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "代谢组学",
+          "天然产物",
+          "生命科学",
+          "化学结构",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261001-04",
+      "report_date": "2026-10-01",
+      "item_no": 4,
+      "title_cn": "qNMR为紫杉醇杂质建立ISO 17034标准物质定值",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "qnmr"
+      ],
+      "application_ids": [
+        "pharma"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "CHIMIA报道以qNMR为紫杉醇相关杂质开发认证标准物质，并与药典标准进行比较。工作把质量分数定值、不确定度和SI溯源纳入ISO 17034生产框架，解决部分药物杂质缺乏高质量参照物时的纯度赋值问题。",
+      "meaning_cn": "CRM定值需选可溯源内标，评估称量、吸湿、残留溶剂、峰重叠、T₁、脉冲校准和积分基线带来的不确定度。实验应使用足够长弛豫延迟、多个独立装样与稳定性/均匀性研究，并保存原始FID、计算表和不确定度预算。",
+      "publication_date": "2026-09-30",
+      "time_scope": "7d_extension",
+      "source": "CHIMIA",
+      "url": "https://www.chimia.ch/chimia/article/view/2026_631",
+      "doi": "10.2533/chimia.2026.631",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-01",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-01.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "qNMR",
+          "药物分析",
+          "过程分析",
+          "化学结构",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜溶液NMR｜qNMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-01.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "qNMR为紫杉醇杂质建立ISO 17034标准物质定值；CHIMIA报道以qNMR为紫杉醇相关杂质开发认证标准物质，并与药典标准进行比较。工作把质量分数定值、不确定度和SI溯源纳入ISO 17034生产框架，解决部分药物杂质缺乏高质量参照物时的纯度赋值问题。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "qNMR为紫杉醇杂质建立ISO 17034标准物质定值；CHIMIA报道以qNMR为紫杉醇相关杂质开发认证标准物质，并与药典标准进行比较。工作把质量分数定值、不确定度和SI溯源纳入ISO 17034生产框架，解决部分药物杂质缺乏高质量参照物时的纯度赋值问题。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "qnmr",
+          "dimension": "method_ids",
+          "basis": "qNMR为紫杉醇杂质建立ISO 17034标准物质定值；CHIMIA报道以qNMR为紫杉醇相关杂质开发认证标准物质，并与药典标准进行比较。工作把质量分数定值、不确定度和SI溯源纳入ISO 17034生产框架，解决部分药物杂质缺乏高质量参照物时的纯度赋值问题。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pharma",
+          "dimension": "application_ids",
+          "basis": "qNMR为紫杉醇杂质建立ISO 17034标准物质定值；CHIMIA报道以qNMR为紫杉醇相关杂质开发认证标准物质，并与药典标准进行比较。工作把质量分数定值、不确定度和SI溯源纳入ISO 17034生产框架，解决部分药物杂质缺乏高质量参照物时的纯度赋值问题。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "qNMR为紫杉醇杂质建立ISO 17034标准物质定值",
+        "original_summary_cn": "CHIMIA报道以qNMR为紫杉醇相关杂质开发认证标准物质，并与药典标准进行比较。工作把质量分数定值、不确定度和SI溯源纳入ISO 17034生产框架，解决部分药物杂质缺乏高质量参照物时的纯度赋值问题。",
+        "original_meaning_cn": "CRM定值需选可溯源内标，评估称量、吸湿、残留溶剂、峰重叠、T₁、脉冲校准和积分基线带来的不确定度。实验应使用足够长弛豫延迟、多个独立装样与稳定性/均匀性研究，并保存原始FID、计算表和不确定度预算。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "qNMR",
+          "药物分析",
+          "过程分析",
+          "化学结构",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261001-05",
+      "report_date": "2026-10-01",
+      "item_no": 5,
+      "title_cn": "氢键充当铁(III)血红素顺磁自旋离域开关",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "paramagnetic_nmr",
+        "multinuclear_nmr",
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Inorganic Chemistry比较一组氢键强度不同的五配位联苯酚盐Fe(III)卟啉。顺磁¹H/¹⁹F NMR在存在氢键时观察到远端环境的超精细位移，无氢键对照则不出现；DFT重现自旋密度，支持氢键控制自旋离域。",
+      "meaning_cn": "实验需固定配体质子化、溶剂含水、浓度和温度，并用¹H/¹⁹F变温谱、弛豫和抗磁对照区分接触与赝接触位移。DFT应报告构型、氢键距离、泛函及自旋态；若用于传感设计，还需做可逆滴定、交换速率和竞争受体测试。",
+      "publication_date": "2026-09-29",
+      "time_scope": "7d_extension",
+      "source": "Inorganic Chemistry",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.inorgchem.6c03997",
+      "doi": "10.1021/acs.inorgchem.6c03997",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-01",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-01.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "顺磁NMR",
+          "计算NMR",
+          "化学结构",
+          "无机配位",
+          "生命科学",
+          "探头",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "NMR｜顺磁NMR｜计算NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-01.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "氢键充当铁(III)血红素顺磁自旋离域开关；Inorganic Chemistry比较一组氢键强度不同的五配位联苯酚盐Fe(III)卟啉。顺磁¹H/¹⁹F NMR在存在氢键时观察到远端环境的超精细位移，无氢键对照则不出现；DFT重现自旋密度，支持氢键控制自旋离域。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "氢键充当铁(III)血红素顺磁自旋离域开关；Inorganic Chemistry比较一组氢键强度不同的五配位联苯酚盐Fe(III)卟啉。顺磁¹H/¹⁹F NMR在存在氢键时观察到远端环境的超精细位移，无氢键对照则不出现；DFT重现自旋密度，支持氢键控制自旋离域。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "paramagnetic_nmr",
+          "dimension": "method_ids",
+          "basis": "氢键充当铁(III)血红素顺磁自旋离域开关；Inorganic Chemistry比较一组氢键强度不同的五配位联苯酚盐Fe(III)卟啉。顺磁¹H/¹⁹F NMR在存在氢键时观察到远端环境的超精细位移，无氢键对照则不出现；DFT重现自旋密度，支持氢键控制自旋离域。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "氢键充当铁(III)血红素顺磁自旋离域开关；Inorganic Chemistry比较一组氢键强度不同的五配位联苯酚盐Fe(III)卟啉。顺磁¹H/¹⁹F NMR在存在氢键时观察到远端环境的超精细位移，无氢键对照则不出现；DFT重现自旋密度，支持氢键控制自旋离域。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "computation_nmr",
+          "dimension": "method_ids",
+          "basis": "氢键充当铁(III)血红素顺磁自旋离域开关；Inorganic Chemistry比较一组氢键强度不同的五配位联苯酚盐Fe(III)卟啉。顺磁¹H/¹⁹F NMR在存在氢键时观察到远端环境的超精细位移，无氢键对照则不出现；DFT重现自旋密度，支持氢键控制自旋离域。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "inorganic_coordination",
+          "dimension": "application_ids",
+          "basis": "氢键充当铁(III)血红素顺磁自旋离域开关；Inorganic Chemistry比较一组氢键强度不同的五配位联苯酚盐Fe(III)卟啉。顺磁¹H/¹⁹F NMR在存在氢键时观察到远端环境的超精细位移，无氢键对照则不出现；DFT重现自旋密度，支持氢键控制自旋离域。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "氢键充当铁(III)血红素顺磁自旋离域开关",
+        "original_summary_cn": "Inorganic Chemistry比较一组氢键强度不同的五配位联苯酚盐Fe(III)卟啉。顺磁¹H/¹⁹F NMR在存在氢键时观察到远端环境的超精细位移，无氢键对照则不出现；DFT重现自旋密度，支持氢键控制自旋离域。",
+        "original_meaning_cn": "实验需固定配体质子化、溶剂含水、浓度和温度，并用¹H/¹⁹F变温谱、弛豫和抗磁对照区分接触与赝接触位移。DFT应报告构型、氢键距离、泛函及自旋态；若用于传感设计，还需做可逆滴定、交换速率和竞争受体测试。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "顺磁NMR",
+          "计算NMR",
+          "化学结构",
+          "无机配位",
+          "生命科学",
+          "探头",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261001-06",
+      "report_date": "2026-10-01",
+      "item_no": 6,
+      "title_cn": "NV连续波ODMR以dressed states扩展交流磁场带宽",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "odmr",
+        "defect_epr"
+      ],
+      "application_ids": [
+        "materials",
+        "instrumentation"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Japanese Journal of Applied Physics提出用微波驱动dressed states拓宽金刚石NV中心连续波ODMR的交流磁场探测。理论与数值结果显示，传统仅数MHz的窄带响应可扩展至约100 MHz量级，同时保留室温连续波读出的简化硬件。",
+      "meaning_cn": "实验实现需标定偏置场方向、微波频率/功率、Rabi频率、激光功率、荧光对比度和锁相带宽，并测量不同交流频率下的传递函数。灵敏度比较必须同时报告带宽、光子噪声、功率展宽与温漂；dressed-state增益需用已知线圈场幅校准。",
+      "publication_date": "2026-09-29",
+      "time_scope": "7d_extension",
+      "source": "Japanese Journal of Applied Physics",
+      "url": "https://iopscience.iop.org/article/10.35848/1347-4065/aeadfb",
+      "doi": "10.35848/1347-4065/aeadfb",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-01",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-01.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "缺陷EPR",
+          "材料",
+          "仪器",
+          "磁体",
+          "谐振器",
+          "原位光照",
+          "软件"
+        ],
+        "original_type": "EPR｜连续波EPR｜缺陷EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-01.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "NV连续波ODMR以dressed states扩展交流磁场带宽；Japanese Journal of Applied Physics提出用微波驱动dressed states拓宽金刚石NV中心连续波ODMR的交流磁场探测。理论与数值结果显示，传统仅数MHz的窄带响应可扩展至约100 MHz量级，同时保留室温连续波读出的简化硬件。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "odmr",
+          "dimension": "method_ids",
+          "basis": "NV连续波ODMR以dressed states扩展交流磁场带宽；Japanese Journal of Applied Physics提出用微波驱动dressed states拓宽金刚石NV中心连续波ODMR的交流磁场探测。理论与数值结果显示，传统仅数MHz的窄带响应可扩展至约100 MHz量级，同时保留室温连续波读出的简化硬件。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "defect_epr",
+          "dimension": "method_ids",
+          "basis": "NV连续波ODMR以dressed states扩展交流磁场带宽；Japanese Journal of Applied Physics提出用微波驱动dressed states拓宽金刚石NV中心连续波ODMR的交流磁场探测。理论与数值结果显示，传统仅数MHz的窄带响应可扩展至约100 MHz量级，同时保留室温连续波读出的简化硬件。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "NV连续波ODMR以dressed states扩展交流磁场带宽；Japanese Journal of Applied Physics提出用微波驱动dressed states拓宽金刚石NV中心连续波ODMR的交流磁场探测。理论与数值结果显示，传统仅数MHz的窄带响应可扩展至约100 MHz量级，同时保留室温连续波读出的简化硬件。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "instrumentation",
+          "dimension": "application_ids",
+          "basis": "NV连续波ODMR以dressed states扩展交流磁场带宽；Japanese Journal of Applied Physics提出用微波驱动dressed states拓宽金刚石NV中心连续波ODMR的交流磁场探测。理论与数值结果显示，传统仅数MHz的窄带响应可扩展至约100 MHz量级，同时保留室温连续波读出的简化硬件。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "NV连续波ODMR以dressed states扩展交流磁场带宽",
+        "original_summary_cn": "Japanese Journal of Applied Physics提出用微波驱动dressed states拓宽金刚石NV中心连续波ODMR的交流磁场探测。理论与数值结果显示，传统仅数MHz的窄带响应可扩展至约100 MHz量级，同时保留室温连续波读出的简化硬件。",
+        "original_meaning_cn": "实验实现需标定偏置场方向、微波频率/功率、Rabi频率、激光功率、荧光对比度和锁相带宽，并测量不同交流频率下的传递函数。灵敏度比较必须同时报告带宽、光子噪声、功率展宽与温漂；dressed-state增益需用已知线圈场幅校准。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "缺陷EPR",
+          "材料",
+          "仪器",
+          "磁体",
+          "谐振器",
+          "原位光照",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20261001-07",
+      "report_date": "2026-10-01",
+      "item_no": 7,
+      "title_cn": "¹H NMR化学计量学识别葡萄汁掺苹果汁与配方差异",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Revista Brasileira de Viticultura e Enologia以¹H NMR和化学计量学比较65份纯葡萄汁、苹果汁及商业葡萄配方。苹果掺入与较高苹果酸相关，而葡萄糖、果糖和蔗糖组合反映原料及加工差异，为真实性筛查建立无靶向谱型依据。",
+      "meaning_cn": "方法库需覆盖品种、产地、年份、成熟度、浓缩还原和热处理，并固定pH、温度、缓冲液、内标和抑水条件。模型验证应使用独立盲样、明确预处理与变量选择，报告灵敏度、特异度和适用域；异常样还需用靶向有机酸方法复核。",
+      "publication_date": "2026-09-29",
+      "time_scope": "7d_extension",
+      "source": "Revista Brasileira de Viticultura e Enologia",
+      "url": "https://doi.org/10.68110/9hsr6c91",
+      "doi": "10.68110/9hsr6c91",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-01",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-01.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "代谢组学",
+          "食品与农业",
+          "过程分析",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜溶液NMR｜食品真实性",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-01.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "¹H NMR化学计量学识别葡萄汁掺苹果汁与配方差异；Revista Brasileira de Viticultura e Enologia以¹H NMR和化学计量学比较65份纯葡萄汁、苹果汁及商业葡萄配方。苹果掺入与较高苹果酸相关，而葡萄糖、果糖和蔗糖组合反映原料及加工差异，为真实性筛查建立无靶向谱型依据。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "¹H NMR化学计量学识别葡萄汁掺苹果汁与配方差异；Revista Brasileira de Viticultura e Enologia以¹H NMR和化学计量学比较65份纯葡萄汁、苹果汁及商业葡萄配方。苹果掺入与较高苹果酸相关，而葡萄糖、果糖和蔗糖组合反映原料及加工差异，为真实性筛查建立无靶向谱型依据。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "metabolomics",
+          "dimension": "method_ids",
+          "basis": "¹H NMR化学计量学识别葡萄汁掺苹果汁与配方差异；Revista Brasileira de Viticultura e Enologia以¹H NMR和化学计量学比较65份纯葡萄汁、苹果汁及商业葡萄配方。苹果掺入与较高苹果酸相关，而葡萄糖、果糖和蔗糖组合反映原料及加工差异，为真实性筛查建立无靶向谱型依据。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "food_agriculture",
+          "dimension": "application_ids",
+          "basis": "¹H NMR化学计量学识别葡萄汁掺苹果汁与配方差异；Revista Brasileira de Viticultura e Enologia以¹H NMR和化学计量学比较65份纯葡萄汁、苹果汁及商业葡萄配方。苹果掺入与较高苹果酸相关，而葡萄糖、果糖和蔗糖组合反映原料及加工差异，为真实性筛查建立无靶向谱型依据。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "¹H NMR化学计量学识别葡萄汁掺苹果汁与配方差异",
+        "original_summary_cn": "Revista Brasileira de Viticultura e Enologia以¹H NMR和化学计量学比较65份纯葡萄汁、苹果汁及商业葡萄配方。苹果掺入与较高苹果酸相关，而葡萄糖、果糖和蔗糖组合反映原料及加工差异，为真实性筛查建立无靶向谱型依据。",
+        "original_meaning_cn": "方法库需覆盖品种、产地、年份、成熟度、浓缩还原和热处理，并固定pH、温度、缓冲液、内标和抑水条件。模型验证应使用独立盲样、明确预处理与变量选择，报告灵敏度、特异度和适用域；异常样还需用靶向有机酸方法复核。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "代谢组学",
+          "食品与农业",
+          "过程分析",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261001-08",
+      "report_date": "2026-10-01",
+      "item_no": 8,
+      "title_cn": "NMR响应连接CO₂–盐水作用与砂岩力学演化",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "geoscience_flow",
+        "environment"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Energy Sources, Part A跟踪长7储层砂岩在名义超临界CO₂–盐水条件下最长60天的变化，把低场NMR微观孔隙/流体响应同宏观力学行为并列分析。该设计面向碳封存条件下溶蚀、孔隙演化和强度变化的时间关联。",
+      "meaning_cn": "复现实验需记录岩心矿物、孔隙度、含水饱和、盐度、温压、暴露时间和卸压路径，固定CPMG回波间隔、等待时间及T₂反演参数。NMR信号须用质量与孔隙体积归一化，并与干湿基准、CT/矿物学及抗压实验交叉验证。",
+      "publication_date": "2026-09-29",
+      "time_scope": "7d_extension",
+      "source": "Energy Sources, Part A",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/19386362.2026.2740667",
+      "doi": "10.1080/19386362.2026.2740667",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-01",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-01.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "时域NMR",
+          "地学流动",
+          "环境",
+          "材料",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜时域NMR｜地学流动",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-01.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "NMR响应连接CO₂–盐水作用与砂岩力学演化；Energy Sources, Part A跟踪长7储层砂岩在名义超临界CO₂–盐水条件下最长60天的变化，把低场NMR微观孔隙/流体响应同宏观力学行为并列分析。该设计面向碳封存条件下溶蚀、孔隙演化和强度变化的时间关联。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "td_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "NMR响应连接CO₂–盐水作用与砂岩力学演化；Energy Sources, Part A跟踪长7储层砂岩在名义超临界CO₂–盐水条件下最长60天的变化，把低场NMR微观孔隙/流体响应同宏观力学行为并列分析。该设计面向碳封存条件下溶蚀、孔隙演化和强度变化的时间关联。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "geoscience_flow",
+          "dimension": "application_ids",
+          "basis": "NMR响应连接CO₂–盐水作用与砂岩力学演化；Energy Sources, Part A跟踪长7储层砂岩在名义超临界CO₂–盐水条件下最长60天的变化，把低场NMR微观孔隙/流体响应同宏观力学行为并列分析。该设计面向碳封存条件下溶蚀、孔隙演化和强度变化的时间关联。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "environment",
+          "dimension": "application_ids",
+          "basis": "NMR响应连接CO₂–盐水作用与砂岩力学演化；Energy Sources, Part A跟踪长7储层砂岩在名义超临界CO₂–盐水条件下最长60天的变化，把低场NMR微观孔隙/流体响应同宏观力学行为并列分析。该设计面向碳封存条件下溶蚀、孔隙演化和强度变化的时间关联。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "NMR响应连接CO₂–盐水作用与砂岩力学演化",
+        "original_summary_cn": "Energy Sources, Part A跟踪长7储层砂岩在名义超临界CO₂–盐水条件下最长60天的变化，把低场NMR微观孔隙/流体响应同宏观力学行为并列分析。该设计面向碳封存条件下溶蚀、孔隙演化和强度变化的时间关联。",
+        "original_meaning_cn": "复现实验需记录岩心矿物、孔隙度、含水饱和、盐度、温压、暴露时间和卸压路径，固定CPMG回波间隔、等待时间及T₂反演参数。NMR信号须用质量与孔隙体积归一化，并与干湿基准、CT/矿物学及抗压实验交叉验证。",
+        "original_tags": [
+          "NMR",
+          "时域NMR",
+          "地学流动",
+          "环境",
+          "材料",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261001-09",
+      "report_date": "2026-10-01",
+      "item_no": 9,
+      "title_cn": "NMR综述梳理RNA驱动生物分子凝聚体的结构动力学",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "review",
+      "summary_cn": "Current Opinion in Structural Biology综述NMR解析RNA驱动生物分子凝聚体的进展，重点关注相分离前后残基分辨相互作用、构象集合和交换动力学。文章讨论高浓度、黏度、谱线展宽及多组分样品对溶液NMR采集与解释的限制。",
+      "meaning_cn": "实验设计应明确RNA长度/序列、蛋白构建体、盐浓度、温度、浓度阈值和相态确认，并比较稀相、浓相与未相分离对照。采集可结合弛豫、扩散和交换实验；必须报告样品老化、沉降、线宽损失及选择性标记，避免只解释可见峰。",
+      "publication_date": "2026-09-24",
+      "time_scope": "7d_extension",
+      "source": "Current Opinion in Structural Biology",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0959440X26001727",
+      "doi": "10.1016/j.sbi.2026.103390",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-01",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-01.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "探头",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "NMR｜溶液NMR｜结构生物学",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-01.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "NMR综述梳理RNA驱动生物分子凝聚体的结构动力学；Current Opinion in Structural Biology综述NMR解析RNA驱动生物分子凝聚体的进展，重点关注相分离前后残基分辨相互作用、构象集合和交换动力学。文章讨论高浓度、黏度、谱线展宽及多组分样品对溶液NMR采集与解释的限制。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "NMR综述梳理RNA驱动生物分子凝聚体的结构动力学；Current Opinion in Structural Biology综述NMR解析RNA驱动生物分子凝聚体的进展，重点关注相分离前后残基分辨相互作用、构象集合和交换动力学。文章讨论高浓度、黏度、谱线展宽及多组分样品对溶液NMR采集与解释的限制。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "NMR综述梳理RNA驱动生物分子凝聚体的结构动力学；Current Opinion in Structural Biology综述NMR解析RNA驱动生物分子凝聚体的进展，重点关注相分离前后残基分辨相互作用、构象集合和交换动力学。文章讨论高浓度、黏度、谱线展宽及多组分样品对溶液NMR采集与解释的限制。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "NMR综述梳理RNA驱动生物分子凝聚体的结构动力学",
+        "original_summary_cn": "Current Opinion in Structural Biology综述NMR解析RNA驱动生物分子凝聚体的进展，重点关注相分离前后残基分辨相互作用、构象集合和交换动力学。文章讨论高浓度、黏度、谱线展宽及多组分样品对溶液NMR采集与解释的限制。",
+        "original_meaning_cn": "实验设计应明确RNA长度/序列、蛋白构建体、盐浓度、温度、浓度阈值和相态确认，并比较稀相、浓相与未相分离对照。采集可结合弛豫、扩散和交换实验；必须报告样品老化、沉降、线宽损失及选择性标记，避免只解释可见峰。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "结构生物学",
+          "探头",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261001-10",
+      "report_date": "2026-10-01",
+      "item_no": 10,
+      "title_cn": "Chemistry World回顾NMR从Ernst脉冲到超极化与电池原位分析",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "education_training",
+        "battery"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "news_feature",
+      "summary_cn": "Chemistry World专题从Richard Ernst奠定的傅里叶变换与多维脉冲方法出发，串联现代超极化、灵敏度改善和原位电池分析。文章以方法演进解释NMR如何从结构确证扩展到低丰度体系与工作状态材料的时序观测。",
+      "meaning_cn": "方案交流应把灵敏度问题拆成磁场、探头、样品量、极化方式和采集效率，并区分DNP等超极化的增强倍数与定量代价。原位电池NMR还需明确电池几何、RF屏蔽、电解液背景、时间分辨率及充放电同步，避免用离线谱替代operando结论。",
+      "publication_date": "2026-09-28",
+      "time_scope": "7d_extension",
+      "source": "Chemistry World",
+      "url": "https://www.chemistryworld.com/features/nmr-spectroscopy-from-its-origins-to-hyperpolarisation-and-beyond/4024253.article",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-01",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-01.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "固体NMR",
+          "多维NMR",
+          "反应监测",
+          "电化学与能源",
+          "电池",
+          "仪器",
+          "教育培训",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜超极化｜原位电池",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-01.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "Chemistry World回顾NMR从Ernst脉冲到超极化与电池原位分析；Chemistry World专题从Richard Ernst奠定的傅里叶变换与多维脉冲方法出发，串联现代超极化、灵敏度改善和原位电池分析。文章以方法演进解释NMR如何从结构确证扩展到低丰度体系与工作状态材料的时序观测。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "Chemistry World回顾NMR从Ernst脉冲到超极化与电池原位分析；Chemistry World专题从Richard Ernst奠定的傅里叶变换与多维脉冲方法出发，串联现代超极化、灵敏度改善和原位电池分析。文章以方法演进解释NMR如何从结构确证扩展到低丰度体系与工作状态材料的时序观测。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "battery",
+          "dimension": "application_ids",
+          "basis": "Chemistry World回顾NMR从Ernst脉冲到超极化与电池原位分析；Chemistry World专题从Richard Ernst奠定的傅里叶变换与多维脉冲方法出发，串联现代超极化、灵敏度改善和原位电池分析。文章以方法演进解释NMR如何从结构确证扩展到低丰度体系与工作状态材料的时序观测。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Chemistry World回顾NMR从Ernst脉冲到超极化与电池原位分析",
+        "original_summary_cn": "Chemistry World专题从Richard Ernst奠定的傅里叶变换与多维脉冲方法出发，串联现代超极化、灵敏度提升和原位电池分析。文章以方法演进解释NMR如何从结构确证扩展到低丰度体系与工作状态材料的时序观测。",
+        "original_meaning_cn": "方案交流应把灵敏度问题拆成磁场、探头、样品量、极化方式和采集效率，并区分DNP等超极化的增强倍数与定量代价。原位电池NMR还需明确电池几何、RF屏蔽、电解液背景、时间分辨率及充放电同步，避免用离线谱替代operando结论。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "固体NMR",
+          "多维NMR",
+          "反应监测",
+          "电化学与能源",
+          "电池",
+          "仪器",
+          "教育培训",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "属相关动态，不代表新增实验方法或采购公告。"
+      ]
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "常规检索仅确认2条具有可核验在线时刻或明确事件时段、可严格归入过去24小时的高相关新增，少于5条，已启动增强搜索；增强阶段去重后仍不足8条，继续完成第二级深度增强检索。检索逐站覆盖Journal of Magnetic Resonance（含Articles in Press）、Journal of Magnetic Resonance Open、Magnetic Resonance、Journal of Biomolecular NMR、Solid State Nuclear Magnetic Resonance、Magnetic Resonance in Chemistry、Applied Magnetic Resonance及ACS、RSC、Wiley、Springer Nature、Elsevier、AIP等期刊，同时分别核查Crossref、PubMed、arXiv、ChemRxiv、机构、Bruker等厂商、专业会议与中外采购，并按全部规定方法主题簇回扫2026年9月24日至30日。JMR Articles in Press逐篇核查后，108172—108177等近期条目均已在最近日报中收录，未重复使用。结合9月24日至30日最近7期共70条记录，按标准化DOI、规范化URL和标题查重，排除18条既有记录；另排除13条日期无法独立核验、Early Access早于窗口、常驻页面、医学MRI或仅将NMR/EPR作为辅助表征的候选。本期最终收录10条非SCM信息：2条近24小时、8条近7天扩展。待复核标签：magnetic-anisotropy-assisted 19F NMR、OPLS-DA interaction-associated metabolite prioritization、ISO 17034 qNMR CRM、ACP 2.0 qNMR automation、hydrogen-bond-gated spin delocalization、dressed-state broadband NV magnetometry、grape-juice authenticity chemometrics、CO2-brine sandstone NMR response、RNA condensate NMR及hyperpolarisation feature保留在sample_systems和正文中，未创建新的正式ID。",
+    "source_sha256": "f8b9a97814236e6194d985105954639a647487cb73a93d2f1356a7d98f1f6b99",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

@@ -1,0 +1,1120 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-18",
+  "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260918-01",
+      "report_date": "2026-09-18",
+      "item_no": 1,
+      "title_cn": "原位EPR揭示F中心电荷态控制H₂O₂选择性",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "ec_epr",
+        "defect_epr"
+      ],
+      "application_ids": [
+        "electrochemistry_energy",
+        "catalysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Nature Chemistry以原位电化学EPR结合原位拉曼和DFT，区分ZrO₂−x中带正电F¹与电中性F²氧空位。F²并非直接吸附位，却通过动态电子补偿促进*OOH演化并导向两电子氧还原；F¹直接结合O₂并引发O–O断裂。",
+      "meaning_cn": "复现实验应记录EPR温度、微波功率、调制幅度、g值、线宽与自旋积分，并按开路、工作电位和反应时间采集原位谱。需以功率饱和排除定量偏差，再把各EPR组分与RRDE/流通池H₂O₂选择性、原位拉曼和DFT逐点对应。",
+      "publication_date": "2026-09-17",
+      "time_scope": "7d_extension",
+      "source": "Nature Chemistry",
+      "url": "https://www.nature.com/articles/s41557-026-02256-w",
+      "doi": "10.1038/s41557-026-02256-w",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-18",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-18.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "缺陷EPR",
+          "工况EPR",
+          "电化学与能源",
+          "催化",
+          "环境催化",
+          "材料",
+          "谐振器",
+          "流通池",
+          "软件"
+        ],
+        "original_type": "原位连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-18.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "原位EPR揭示F中心电荷态控制H₂O₂选择性；Nature Chemistry以原位电化学EPR结合原位拉曼和DFT，区分ZrO₂−x中带正电F¹与电中性F²氧空位。F²并非直接吸附位，却通过动态电子补偿促进*OOH演化并导向两电子氧还原；F¹直接结合O₂并引发O–O断裂。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "ec_epr",
+          "dimension": "method_ids",
+          "basis": "原位EPR揭示F中心电荷态控制H₂O₂选择性；Nature Chemistry以原位电化学EPR结合原位拉曼和DFT，区分ZrO₂−x中带正电F¹与电中性F²氧空位。F²并非直接吸附位，却通过动态电子补偿促进*OOH演化并导向两电子氧还原；F¹直接结合O₂并引发O–O断裂。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "defect_epr",
+          "dimension": "method_ids",
+          "basis": "原位EPR揭示F中心电荷态控制H₂O₂选择性；Nature Chemistry以原位电化学EPR结合原位拉曼和DFT，区分ZrO₂−x中带正电F¹与电中性F²氧空位。F²并非直接吸附位，却通过动态电子补偿促进*OOH演化并导向两电子氧还原；F¹直接结合O₂并引发O–O断裂。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "electrochemistry_energy",
+          "dimension": "application_ids",
+          "basis": "原位EPR揭示F中心电荷态控制H₂O₂选择性；Nature Chemistry以原位电化学EPR结合原位拉曼和DFT，区分ZrO₂−x中带正电F¹与电中性F²氧空位。F²并非直接吸附位，却通过动态电子补偿促进*OOH演化并导向两电子氧还原；F¹直接结合O₂并引发O–O断裂。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "catalysis",
+          "dimension": "application_ids",
+          "basis": "原位EPR揭示F中心电荷态控制H₂O₂选择性；Nature Chemistry以原位电化学EPR结合原位拉曼和DFT，区分ZrO₂−x中带正电F¹与电中性F²氧空位。F²并非直接吸附位，却通过动态电子补偿促进*OOH演化并导向两电子氧还原；F¹直接结合O₂并引发O–O断裂。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "原位EPR揭示F中心电荷态控制H₂O₂选择性",
+        "original_summary_cn": "Nature Chemistry以原位电化学EPR结合原位拉曼和DFT，区分ZrO₂−x中带正电F¹与电中性F²氧空位。F²并非直接吸附位，却通过动态电子补偿促进*OOH演化并导向两电子氧还原；F¹直接结合O₂并引发O–O断裂。",
+        "original_meaning_cn": "复现实验应记录EPR温度、微波功率、调制幅度、g值、线宽与自旋积分，并按开路、工作电位和反应时间采集原位谱。需以功率饱和排除定量偏差，再把各EPR组分与RRDE/流通池H₂O₂选择性、原位拉曼和DFT逐点对应。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "缺陷EPR",
+          "工况EPR",
+          "电化学与能源",
+          "催化",
+          "环境催化",
+          "材料",
+          "谐振器",
+          "流通池",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260918-02",
+      "report_date": "2026-09-18",
+      "item_no": 2,
+      "title_cn": "对称性脉冲序列统一DNP与EPR控制",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "dnp"
+      ],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Science Advances把MAS NMR的C/R对称性思想移植到脉冲DNP与EPR，改为同步核拉莫尔周期，并在0.35 T X波段OX071体系验证。Riffled-RN对微波功率不均匀更耐受，还可用恒时EPR同步跟踪DNP极化建立过程。",
+      "meaning_cn": "设备迁移需核对AWG采样率、TWT线性区、谐振器带宽、B₁均匀性及核拉莫尔同步误差。建议以NOVEL和PulsePol为基线，逐点测偏频与功率容差、核极化增益和电子回波建立曲线，并与自旋动力学模拟联合拟合。",
+      "publication_date": "2026-09-16",
+      "time_scope": "7d_extension",
+      "source": "Science Advances",
+      "url": "https://www.science.org/doi/10.1126/sciadv.aef4949",
+      "doi": "10.1126/sciadv.aef4949",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-18",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-18.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR＋EPR",
+          "固体NMR",
+          "脉冲EPR",
+          "仪器",
+          "材料",
+          "磁体",
+          "谐振器",
+          "软件"
+        ],
+        "original_type": "脉冲DNP / EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-18.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "对称性脉冲序列统一DNP与EPR控制；Science Advances把MAS NMR的C/R对称性思想移植到脉冲DNP与EPR，改为同步核拉莫尔周期，并在0.35 T X波段OX071体系验证。Riffled-RN对微波功率不均匀更耐受，还可用恒时EPR同步跟踪DNP极化建立过程。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "对称性脉冲序列统一DNP与EPR控制；Science Advances把MAS NMR的C/R对称性思想移植到脉冲DNP与EPR，改为同步核拉莫尔周期，并在0.35 T X波段OX071体系验证。Riffled-RN对微波功率不均匀更耐受，还可用恒时EPR同步跟踪DNP极化建立过程。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "dnp",
+          "dimension": "method_ids",
+          "basis": "对称性脉冲序列统一DNP与EPR控制；Science Advances把MAS NMR的C/R对称性思想移植到脉冲DNP与EPR，改为同步核拉莫尔周期，并在0.35 T X波段OX071体系验证。Riffled-RN对微波功率不均匀更耐受，还可用恒时EPR同步跟踪DNP极化建立过程。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "对称性脉冲序列统一DNP与EPR控制",
+        "original_summary_cn": "Science Advances把MAS NMR的C/R对称性思想移植到脉冲DNP与EPR，改为同步核拉莫尔周期，并在0.35 T X波段OX071体系验证。Riffled-RN对微波功率不均匀更耐受，还可用恒时EPR同步跟踪DNP极化建立过程。",
+        "original_meaning_cn": "设备迁移需核对AWG采样率、TWT线性区、谐振器带宽、B₁均匀性及核拉莫尔同步误差。建议以NOVEL和PulsePol为基线，逐点测偏频与功率容差、核极化增益和电子回波建立曲线，并与自旋动力学模拟联合拟合。",
+        "original_tags": [
+          "NMR＋EPR",
+          "固体NMR",
+          "脉冲EPR",
+          "仪器",
+          "材料",
+          "磁体",
+          "谐振器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260918-03",
+      "report_date": "2026-09-18",
+      "item_no": 3,
+      "title_cn": "溶液NMR把脂肪链映射为一维XY自旋通道",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Science Advances显示，在各CH₂具有可分辨化学位移并通过跨对耦合保持磁不等价时，偕氢单重态布居可沿脂肪链传播，形成磁静默自旋波。相应哈密顿量可分解为一维XY模型，并定义spin-chain zero-quantum NMR读出。",
+      "meaning_cn": "实验前应筛选CH₂位移分离充分且跨对J耦合明确的分子，校准多色SLIC场强、偏频、作用时间和相位循环。需同时测单重态寿命、零量子演化和常规谱作对照，并用实测J网络验证传播模型与边界效应。",
+      "publication_date": "2026-09-16",
+      "time_scope": "7d_extension",
+      "source": "Science Advances",
+      "url": "https://www.science.org/doi/10.1126/sciadv.aef7347",
+      "doi": "10.1126/sciadv.aef7347",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-18",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-18.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "化学结构",
+          "材料",
+          "仪器",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-18.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "溶液NMR把脂肪链映射为一维XY自旋通道；Science Advances显示，在各CH₂具有可分辨化学位移并通过跨对耦合保持磁不等价时，偕氢单重态布居可沿脂肪链传播，形成磁静默自旋波。相应哈密顿量可分解为一维XY模型，并定义spin-chain zero-quantum NMR读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "溶液NMR把脂肪链映射为一维XY自旋通道；Science Advances显示，在各CH₂具有可分辨化学位移并通过跨对耦合保持磁不等价时，偕氢单重态布居可沿脂肪链传播，形成磁静默自旋波。相应哈密顿量可分解为一维XY模型，并定义spin-chain zero-quantum NMR读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "溶液NMR把脂肪链映射为一维XY自旋通道",
+        "original_summary_cn": "Science Advances显示，在各CH₂具有可分辨化学位移并通过跨对耦合保持磁不等价时，偕氢单重态布居可沿脂肪链传播，形成磁静默自旋波。相应哈密顿量可分解为一维XY模型，并定义spin-chain zero-quantum NMR读出。",
+        "original_meaning_cn": "实验前应筛选CH₂位移分离充分且跨对J耦合明确的分子，校准多色SLIC场强、偏频、作用时间和相位循环。需同时测单重态寿命、零量子演化和常规谱作对照，并用实测J网络验证传播模型与边界效应。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "化学结构",
+          "材料",
+          "仪器",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260918-04",
+      "report_date": "2026-09-18",
+      "item_no": 4,
+      "title_cn": "双氙NMR搜索地球源长程核自旋相互作用",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Science Advances建立地球表面NMR搜索方案：用核物理与地球物理数据绘制地下极化核子分布，再以双氙共磁强计探测其可能产生的异常自旋依赖场。方法把地球自身作为宏观自旋源，约束标准模型之外的长程自旋—自旋耦合。",
+      "meaning_cn": "复现实验需锁定两种氙同位素的极化、气压、偏置场、屏蔽系数和频率比，并记录地球自转、仪器方位及环境磁漂。信号提取应盲化并采用日周期/方位调制、空通道和注入信号验证，误差模型须覆盖地球核子分布不确定度。",
+      "publication_date": "2026-09-16",
+      "time_scope": "7d_extension",
+      "source": "Science Advances",
+      "url": "https://www.science.org/doi/10.1126/sciadv.aeg0974",
+      "doi": "10.1126/sciadv.aeg0974",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-18",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-18.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "仪器",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_type": "多核NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-18.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "双氙NMR搜索地球源长程核自旋相互作用；Science Advances建立地球表面NMR搜索方案：用核物理与地球物理数据绘制地下极化核子分布，再以双氙共磁强计探测其可能产生的异常自旋依赖场。方法把地球自身作为宏观自旋源，约束标准模型之外的长程自旋—自旋耦合。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "双氙NMR搜索地球源长程核自旋相互作用；Science Advances建立地球表面NMR搜索方案：用核物理与地球物理数据绘制地下极化核子分布，再以双氙共磁强计探测其可能产生的异常自旋依赖场。方法把地球自身作为宏观自旋源，约束标准模型之外的长程自旋—自旋耦合。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "双氙NMR搜索地球源长程核自旋相互作用",
+        "original_summary_cn": "Science Advances建立地球表面NMR搜索方案：用核物理与地球物理数据绘制地下极化核子分布，再以双氙共磁强计探测其可能产生的异常自旋依赖场。方法把地球自身作为宏观自旋源，约束标准模型之外的长程自旋—自旋耦合。",
+        "original_meaning_cn": "复现实验需锁定两种氙同位素的极化、气压、偏置场、屏蔽系数和频率比，并记录地球自转、仪器方位及环境磁漂。信号提取应盲化并采用日周期/方位调制、空通道和注入信号验证，误差模型须覆盖地球核子分布不确定度。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "仪器",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260918-05",
+      "report_date": "2026-09-18",
+      "item_no": 5,
+      "title_cn": "Science Advances综述EPR八十年方法演进",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "catalysis",
+        "chemical_structure",
+        "materials",
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "review",
+      "summary_cn": "Goldfarb、Jeschke、Stoll等在Science Advances回顾EPR八十年发展，从CW与脉冲EPR的定量谱图解释，扩展到高场EPR、脉冲偶极距离测量、超精细谱和计算建模，并覆盖金属蛋白、活性自由基、功能材料与催化体系。",
+      "meaning_cn": "新方案应先按问题选择CW定量、ENDOR/ESEEM/HYSCORE局域核环境或DEER距离分布。验收需同时报告场频、谐振器、温度、微波功率、脉冲带宽、相循环和背景模型；稀样还应提前规划自旋标记、灵敏度与模拟流程。",
+      "publication_date": "2026-09-16",
+      "time_scope": "7d_extension",
+      "source": "Science Advances",
+      "url": "https://www.science.org/doi/10.1126/sciadv.aeg0169",
+      "doi": "10.1126/sciadv.aeg0169",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-18",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-18.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "DEER/PELDOR",
+          "自旋标记",
+          "缺陷EPR",
+          "仪器",
+          "生命科学",
+          "结构生物学",
+          "催化",
+          "材料"
+        ],
+        "original_type": "CW / 脉冲EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-18.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "Science Advances综述EPR八十年方法演进；Goldfarb、Jeschke、Stoll等在Science Advances回顾EPR八十年发展，从CW与脉冲EPR的定量谱图解释，扩展到高场EPR、脉冲偶极距离测量、超精细谱和计算建模，并覆盖金属蛋白、活性自由基、功能材料与催化体系。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "Science Advances综述EPR八十年方法演进；Goldfarb、Jeschke、Stoll等在Science Advances回顾EPR八十年发展，从CW与脉冲EPR的定量谱图解释，扩展到高场EPR、脉冲偶极距离测量、超精细谱和计算建模，并覆盖金属蛋白、活性自由基、功能材料与催化体系。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "catalysis",
+          "dimension": "application_ids",
+          "basis": "Science Advances综述EPR八十年方法演进；Goldfarb、Jeschke、Stoll等在Science Advances回顾EPR八十年发展，从CW与脉冲EPR的定量谱图解释，扩展到高场EPR、脉冲偶极距离测量、超精细谱和计算建模，并覆盖金属蛋白、活性自由基、功能材料与催化体系。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "Science Advances综述EPR八十年方法演进；Goldfarb、Jeschke、Stoll等在Science Advances回顾EPR八十年发展，从CW与脉冲EPR的定量谱图解释，扩展到高场EPR、脉冲偶极距离测量、超精细谱和计算建模，并覆盖金属蛋白、活性自由基、功能材料与催化体系。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "Science Advances综述EPR八十年方法演进；Goldfarb、Jeschke、Stoll等在Science Advances回顾EPR八十年发展，从CW与脉冲EPR的定量谱图解释，扩展到高场EPR、脉冲偶极距离测量、超精细谱和计算建模，并覆盖金属蛋白、活性自由基、功能材料与催化体系。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "Science Advances综述EPR八十年方法演进；Goldfarb、Jeschke、Stoll等在Science Advances回顾EPR八十年发展，从CW与脉冲EPR的定量谱图解释，扩展到高场EPR、脉冲偶极距离测量、超精细谱和计算建模，并覆盖金属蛋白、活性自由基、功能材料与催化体系。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Science Advances综述EPR八十年方法演进",
+        "original_summary_cn": "Goldfarb、Jeschke、Stoll等在Science Advances回顾EPR八十年发展，从CW与脉冲EPR的定量谱图解释，扩展到高场EPR、脉冲偶极距离测量、超精细谱和计算建模，并覆盖金属蛋白、活性自由基、功能材料与催化体系。",
+        "original_meaning_cn": "新方案应先按问题选择CW定量、ENDOR/ESEEM/HYSCORE局域核环境或DEER距离分布。验收需同时报告场频、谐振器、温度、微波功率、脉冲带宽、相循环和背景模型；稀样还应提前规划自旋标记、灵敏度与模拟闭环。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "DEER/PELDOR",
+          "自旋标记",
+          "缺陷EPR",
+          "仪器",
+          "生命科学",
+          "结构生物学",
+          "催化",
+          "材料"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260918-06",
+      "report_date": "2026-09-18",
+      "item_no": 6,
+      "title_cn": "最优控制综述连接NMR脉冲设计与量子工程",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "review",
+      "summary_cn": "Science Advances综述最优控制在自旋与赝自旋体系中的关键进展，串联早期核自旋操控、数值优化、解析设计及复杂量子系统控制。文章重点讨论其在NMR/MRI脉冲序列中的成熟应用，并评估最优控制与机器学习结合的方向。",
+      "meaning_cn": "脉冲开发应明确目标传播子、RF幅度/占空比、偏频与B₁分布约束，并在真实探头响应下重新优化。部署前需用标准样完成场图、功率和温升校准，比较传统与优化脉冲的保真度、鲁棒性、时长及硬件余量，保留优化版本和目标函数。",
+      "publication_date": "2026-09-17",
+      "time_scope": "7d_extension",
+      "source": "Science Advances",
+      "url": "https://www.science.org/doi/10.1126/sciadv.aeh1978",
+      "doi": "10.1126/sciadv.aeh1978",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-18",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-18.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR＋EPR",
+          "溶液NMR",
+          "固体NMR",
+          "脉冲EPR",
+          "计算NMR",
+          "仪器",
+          "教育培训",
+          "磁体",
+          "探头",
+          "谐振器",
+          "软件"
+        ],
+        "original_type": "最优控制",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-18.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "最优控制综述连接NMR脉冲设计与量子工程；Science Advances综述最优控制在自旋与赝自旋体系中的关键进展，串联早期核自旋操控、数值优化、解析设计及复杂量子系统控制。文章重点讨论其在NMR/MRI脉冲序列中的成熟应用，并评估最优控制与机器学习结合的方向。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "最优控制综述连接NMR脉冲设计与量子工程",
+        "original_summary_cn": "Science Advances综述最优控制在自旋与赝自旋体系中的关键进展，串联早期核自旋操控、数值优化、解析设计及复杂量子系统控制。文章重点讨论其在NMR/MRI脉冲序列中的成熟应用，并评估最优控制与机器学习结合的方向。",
+        "original_meaning_cn": "脉冲开发应明确目标传播子、RF幅度/占空比、偏频与B₁分布约束，并在真实探头响应下重新优化。部署前需用标准样完成场图、功率和温升校准，比较传统与优化脉冲的保真度、鲁棒性、时长及硬件余量，保留优化版本和目标函数。",
+        "original_tags": [
+          "NMR＋EPR",
+          "溶液NMR",
+          "固体NMR",
+          "脉冲EPR",
+          "计算NMR",
+          "仪器",
+          "教育培训",
+          "磁体",
+          "探头",
+          "谐振器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260918-07",
+      "report_date": "2026-09-18",
+      "item_no": 7,
+      "title_cn": "EPR比较La(II)三联苯酚盐与硫醇盐/酰胺配体",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Chemical Communications合成La(II)三联苯酚盐配合物，并以EPR同硫醇盐和酰胺类似物比较电子结构。结果显示配体骨架中的金属—芳烃相互作用对稳定低价镧比单纯供体原子类型更关键，为稀土低价态的谱学判定提供系列参照。",
+      "meaning_cn": "样品需在严格无水无氧条件下制备并密封，记录溶剂、浓度、温度、微波功率、调制幅度及g/超精细参数。比较不同配体时应统一频段和增益，并联合功率饱和、变温谱、抗磁对照与DFT模拟，避免把分解自由基误判为La(II)。",
+      "publication_date": "2026-09-16",
+      "time_scope": "7d_extension",
+      "source": "Chemical Communications",
+      "url": "https://pubs.rsc.org/cc/article/doi/10.1039/d6cc05241j",
+      "doi": "10.1039/d6cc05241j",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-18",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-18.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "化学结构",
+          "无机配位",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-18.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "EPR比较La(II)三联苯酚盐与硫醇盐/酰胺配体；Chemical Communications合成La(II)三联苯酚盐配合物，并以EPR同硫醇盐和酰胺类似物比较电子结构。结果显示配体骨架中的金属—芳烃相互作用对稳定低价镧比单纯供体原子类型更关键，为稀土低价态的谱学判定提供系列参照。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "inorganic_coordination",
+          "dimension": "application_ids",
+          "basis": "EPR比较La(II)三联苯酚盐与硫醇盐/酰胺配体；Chemical Communications合成La(II)三联苯酚盐配合物，并以EPR同硫醇盐和酰胺类似物比较电子结构。结果显示配体骨架中的金属—芳烃相互作用对稳定低价镧比单纯供体原子类型更关键，为稀土低价态的谱学判定提供系列参照。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "EPR比较La(II)三联苯酚盐与硫醇盐/酰胺配体",
+        "original_summary_cn": "Chemical Communications合成La(II)三联苯酚盐配合物，并以EPR同硫醇盐和酰胺类似物比较电子结构。结果显示配体骨架中的金属—芳烃相互作用对稳定低价镧比单纯供体原子类型更关键，为稀土低价态的谱学判定提供系列参照。",
+        "original_meaning_cn": "样品需在严格无水无氧条件下制备并密封，记录溶剂、浓度、温度、微波功率、调制幅度及g/超精细参数。比较不同配体时应统一频段和增益，并联合功率饱和、变温谱、抗磁对照与DFT模拟，避免把分解自由基误判为La(II)。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "化学结构",
+          "无机配位",
+          "谐振器",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260918-08",
+      "report_date": "2026-09-18",
+      "item_no": 8,
+      "title_cn": "英国Government Chemist发布蜂蜜掺糖NMR培训",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "英国Government Chemist发布蜂蜜外源糖检测e-seminar，讲解NMR靶向与非靶向指纹、真实性标志物验证、参考数据库及结果解释，并延伸到检测服务选择、分析证书判读和数据库驱动认证的局限，面向实验室与监管人员。",
+      "meaning_cn": "方法落地需固定蜂蜜稀释、缓冲液、pH、温度、内标和抑水条件，并建立覆盖产地、花源、年份及掺假梯度的真实参考集。报告应区分单标志物与多变量模型，给出盲样、重复性、模型适用域及数据库版本。",
+      "publication_date": "2026-09-17",
+      "time_scope": "7d_extension",
+      "source": "UK Government Chemist",
+      "url": "https://www.gov.uk/government/news/e-seminar-determination-of-exogenous-sugar-in-honey-using-nmr",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-18",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-18.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "食品与农业",
+          "过程分析",
+          "教育培训",
+          "探头",
+          "自动进样器",
+          "软件"
+        ],
+        "original_type": "食品真实性NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-18.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "英国Government Chemist发布蜂蜜掺糖NMR培训；英国Government Chemist发布蜂蜜外源糖检测e-seminar，讲解NMR靶向与非靶向指纹、真实性标志物验证、参考数据库及结果解释，并延伸到检测服务选择、分析证书判读和数据库驱动认证的局限，面向实验室与监管人员。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "food_agriculture",
+          "dimension": "application_ids",
+          "basis": "英国Government Chemist发布蜂蜜掺糖NMR培训；英国Government Chemist发布蜂蜜外源糖检测e-seminar，讲解NMR靶向与非靶向指纹、真实性标志物验证、参考数据库及结果解释，并延伸到检测服务选择、分析证书判读和数据库驱动认证的局限，面向实验室与监管人员。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "英国Government Chemist发布蜂蜜掺糖NMR培训",
+        "original_summary_cn": "英国Government Chemist发布蜂蜜外源糖检测e-seminar，讲解NMR靶向与非靶向指纹、真实性标志物验证、参考数据库及结果解释，并延伸到检测服务选择、分析证书判读和数据库驱动认证的局限，面向实验室与监管人员。",
+        "original_meaning_cn": "方法落地需固定蜂蜜稀释、缓冲液、pH、温度、内标和抑水条件，并建立覆盖产地、花源、年份及掺假梯度的真实参考集。报告应区分单标志物与多变量模型，给出盲样、重复性、模型适用域及数据库版本。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "食品与农业",
+          "过程分析",
+          "教育培训",
+          "探头",
+          "自动进样器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260918-09",
+      "report_date": "2026-09-18",
+      "item_no": 9,
+      "title_cn": "CCPN工作坊聚焦NMR弛豫与交换数据分析",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "cest",
+        "relaxation_dispersion",
+        "relaxometry"
+      ],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [
+        "software"
+      ],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "英国生物分子NMR设施与CCPN于9月17日在伯明翰举办Relaxation Data Analysis Workshop，围绕CcpNmr AnalysisDynamics的T₁、T₂和异核NOE无模型分析，以及ChemEx处理弛豫色散和CEST数据，贯通峰表、模型拟合与结果审查。",
+      "meaning_cn": "内部复现应准备已归属峰表、误差估计及R₁/R₂/NOE或CPMG/CEST数据，统一磁场、温度、延迟表和重复测量。模型比较需保存初值、参数边界、残差与置信区间，并用留出数据或模拟数据检验交换模型可辨识度。",
+      "publication_date": "2026-09-17",
+      "time_scope": "24h",
+      "source": "CCPN",
+      "url": "https://ccpn.ac.uk/outreach/workshops/",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-18",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-18.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "生命科学",
+          "结构生物学",
+          "教育培训",
+          "软件"
+        ],
+        "original_type": "NMR数据分析",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-18.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "CCPN工作坊聚焦NMR弛豫与交换数据分析；英国生物分子NMR设施与CCPN于9月17日在伯明翰举办Relaxation Data Analysis Workshop，围绕CcpNmr AnalysisDynamics的T₁、T₂和异核NOE无模型分析，以及ChemEx处理弛豫色散和CEST数据，贯通峰表、模型拟合与结果审查。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "cest",
+          "dimension": "method_ids",
+          "basis": "CCPN工作坊聚焦NMR弛豫与交换数据分析；英国生物分子NMR设施与CCPN于9月17日在伯明翰举办Relaxation Data Analysis Workshop，围绕CcpNmr AnalysisDynamics的T₁、T₂和异核NOE无模型分析，以及ChemEx处理弛豫色散和CEST数据，贯通峰表、模型拟合与结果审查。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxation_dispersion",
+          "dimension": "method_ids",
+          "basis": "CCPN工作坊聚焦NMR弛豫与交换数据分析；英国生物分子NMR设施与CCPN于9月17日在伯明翰举办Relaxation Data Analysis Workshop，围绕CcpNmr AnalysisDynamics的T₁、T₂和异核NOE无模型分析，以及ChemEx处理弛豫色散和CEST数据，贯通峰表、模型拟合与结果审查。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "CCPN工作坊聚焦NMR弛豫与交换数据分析；英国生物分子NMR设施与CCPN于9月17日在伯明翰举办Relaxation Data Analysis Workshop，围绕CcpNmr AnalysisDynamics的T₁、T₂和异核NOE无模型分析，以及ChemEx处理弛豫色散和CEST数据，贯通峰表、模型拟合与结果审查。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "CCPN工作坊聚焦NMR弛豫与交换数据分析；英国生物分子NMR设施与CCPN于9月17日在伯明翰举办Relaxation Data Analysis Workshop，围绕CcpNmr AnalysisDynamics的T₁、T₂和异核NOE无模型分析，以及ChemEx处理弛豫色散和CEST数据，贯通峰表、模型拟合与结果审查。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "software",
+          "dimension": "instrument_component_ids",
+          "basis": "CCPN工作坊聚焦NMR弛豫与交换数据分析；英国生物分子NMR设施与CCPN于9月17日在伯明翰举办Relaxation Data Analysis Workshop，围绕CcpNmr AnalysisDynamics的T₁、T₂和异核NOE无模型分析，以及ChemEx处理弛豫色散和CEST数据，贯通峰表、模型拟合与结果审查。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "CCPN工作坊聚焦NMR弛豫与交换数据分析",
+        "original_summary_cn": "英国生物分子NMR设施与CCPN于9月17日在伯明翰举办Relaxation Data Analysis Workshop，围绕CcpNmr AnalysisDynamics的T₁、T₂和异核NOE无模型分析，以及ChemEx处理弛豫色散和CEST数据，贯通峰表、模型拟合与结果审查。",
+        "original_meaning_cn": "内部复现应准备已归属峰表、误差估计及R₁/R₂/NOE或CPMG/CEST数据，统一磁场、温度、延迟表和重复测量。模型比较需保存初值、参数边界、残差与置信区间，并用留出数据或模拟数据检验交换模型可辨识度。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "生命科学",
+          "结构生物学",
+          "教育培训",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260918-10",
+      "report_date": "2026-09-18",
+      "item_no": 10,
+      "title_cn": "伯明翰NMR年会集中展示CEST、最优脉冲与配体筛选",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "cest",
+        "multinuclear_nmr",
+        "relaxation_dispersion"
+      ],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "伯明翰HWB-NMR于9月18日举行年度NMR研讨会，议程包括甲基弛豫色散解析抗生素耐药、Seedless最优控制宽带/多核脉冲、自动蛋白NMR采集、¹H配体观察药物发现、隐藏蛋白态、¹⁹F CEST及1 K以下静态NMR。",
+      "meaning_cn": "方案交流可重点核对三类条件：CEST的B₁、偏频和饱和时间；Seedless脉冲的探头响应、峰值功率与带宽；配体观察NMR的蛋白/配体浓度、竞争对照和聚集排查。采购或升级时还应验证1.2 GHz平台的探头与自动化兼容性。",
+      "publication_date": "2026-09-18",
+      "time_scope": "24h",
+      "source": "University of Birmingham HWB-NMR",
+      "url": "https://www.birmingham.ac.uk/research/centres-institutes/henry-wellcome-building-for-nuclear-magnetic-resonance-hwb-nmr/news-events/annual-nmr-symposium-2026",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-18",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-18.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "固体NMR",
+          "多核NMR",
+          "配体观察NMR",
+          "仪器",
+          "结构生物学",
+          "药物分析",
+          "配体筛选",
+          "材料",
+          "教育培训"
+        ],
+        "original_type": "NMR专业会议",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-18.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "伯明翰NMR年会集中展示CEST、最优脉冲与配体筛选；伯明翰HWB-NMR于9月18日举行年度NMR研讨会，议程包括甲基弛豫色散解析抗生素耐药、Seedless最优控制宽带/多核脉冲、自动蛋白NMR采集、¹H配体观察药物发现、隐藏蛋白态、¹⁹F CEST及1 K以下静态NMR。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "cest",
+          "dimension": "method_ids",
+          "basis": "伯明翰NMR年会集中展示CEST、最优脉冲与配体筛选；伯明翰HWB-NMR于9月18日举行年度NMR研讨会，议程包括甲基弛豫色散解析抗生素耐药、Seedless最优控制宽带/多核脉冲、自动蛋白NMR采集、¹H配体观察药物发现、隐藏蛋白态、¹⁹F CEST及1 K以下静态NMR。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "伯明翰NMR年会集中展示CEST、最优脉冲与配体筛选；伯明翰HWB-NMR于9月18日举行年度NMR研讨会，议程包括甲基弛豫色散解析抗生素耐药、Seedless最优控制宽带/多核脉冲、自动蛋白NMR采集、¹H配体观察药物发现、隐藏蛋白态、¹⁹F CEST及1 K以下静态NMR。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxation_dispersion",
+          "dimension": "method_ids",
+          "basis": "伯明翰NMR年会集中展示CEST、最优脉冲与配体筛选；伯明翰HWB-NMR于9月18日举行年度NMR研讨会，议程包括甲基弛豫色散解析抗生素耐药、Seedless最优控制宽带/多核脉冲、自动蛋白NMR采集、¹H配体观察药物发现、隐藏蛋白态、¹⁹F CEST及1 K以下静态NMR。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "伯明翰NMR年会集中展示CEST、最优脉冲与配体筛选；伯明翰HWB-NMR于9月18日举行年度NMR研讨会，议程包括甲基弛豫色散解析抗生素耐药、Seedless最优控制宽带/多核脉冲、自动蛋白NMR采集、¹H配体观察药物发现、隐藏蛋白态、¹⁹F CEST及1 K以下静态NMR。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "伯明翰NMR年会集中展示CEST、最优脉冲与配体筛选",
+        "original_summary_cn": "伯明翰HWB-NMR于9月18日举行年度NMR研讨会，议程包括甲基弛豫色散解析抗生素耐药、Seedless最优控制宽带/多核脉冲、自动蛋白NMR采集、¹H配体观察药物发现、隐藏蛋白态、¹⁹F CEST及1 K以下静态NMR。",
+        "original_meaning_cn": "方案交流可重点核对三类条件：CEST的B₁、偏频和饱和时间；Seedless脉冲的探头响应、峰值功率与带宽；配体观察NMR的蛋白/配体浓度、竞争对照和聚集排查。采购或升级时还应验证1.2 GHz平台的探头与自动化兼容性。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "固体NMR",
+          "多核NMR",
+          "配体观察NMR",
+          "仪器",
+          "结构生物学",
+          "药物分析",
+          "配体筛选",
+          "材料",
+          "教育培训"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "范围说明：常规检索在过去24小时内确认的合格新增少于5条，已启动增强搜索，并继续执行第二级深度增强检索，逐日回扫2026年9月11日至17日。检索覆盖专业期刊、预印本与文献元数据、仪器厂商、专业会议及中外采购公告，并按液体NMR、固体NMR/MAS/DNP、低场与TD-NMR、谱图处理、CW与rapid-scan EPR、脉冲EPR/DEER/ENDOR/ESEEM/HYSCORE、TREPR、operando/EC-EPR及仪器部件逐组核验。\n\n本期最终收录10条：2条为9月17日至18日时间明确的专业活动，8条为9月16日至17日的近7天扩展。结合最近7期正文与项目索引查重，排除18条既有记录；另排除27条日期不明、常驻产品页、仅更新卷期、医学MRI、缩写误检或仅将NMR/EPR作为辅助表征的候选。\n\n待复核标签：DNP、C/R对称性脉冲序列、spin-chain zero-quantum NMR、双氙共磁强计、最优控制、CcpNmr AnalysisDynamics、ChemEx与Seedless脉冲保留在样品体系和正文中，未创建新的正式ID。",
+    "source_sha256": "b6bfc8f445491fa98e5221a3ab7a20e307e3b34b71a3d703661601daf5024d2f",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

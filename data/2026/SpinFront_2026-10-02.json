@@ -1,0 +1,1200 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-10-02",
+  "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20261002-01",
+      "report_date": "2026-10-02",
+      "item_no": 1,
+      "title_cn": "263 GHz无谐振器脉冲EPR覆盖高自旋金属中心",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation",
+        "inorganic_coordination",
+        "structural_biology"
+      ],
+      "instrument_component_ids": [
+        "amplifier"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Nature Communications报道以10 W行波真空管放大器构建263 GHz宽带脉冲EPR。高频高场压缩高自旋体系的零场劈裂展宽，且无需谐振器即可获得高信噪自旋回波；作者在多种S=5/2 Mn(II)配合物、杂质及金属结合蛋白上验证。",
+      "meaning_cn": "配置评估需核对263 GHz源功率、脉冲带宽、准光路损耗、9 T级磁场稳定度、样品体积与低温系统，并实测π/2脉宽、死时间和回波S/N。无谐振器降低填充因子，定量比较必须按自旋数归一化，并用Mn(II)标准检查g、A和ZFS覆盖。",
+      "publication_date": "2026-10-01",
+      "time_scope": "24h",
+      "source": "Nature Communications",
+      "url": "https://www.nature.com/articles/s41467-026-78076-w",
+      "doi": "10.1038/s41467-026-78076-w",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-02",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-02.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "仪器",
+          "无机配位",
+          "生命科学",
+          "磁体",
+          "软件"
+        ],
+        "original_type": "EPR｜脉冲EPR｜高场仪器",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-02.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "263 GHz无谐振器脉冲EPR覆盖高自旋金属中心；Nature Communications报道以10 W行波真空管放大器构建263 GHz宽带脉冲EPR。高频高场压缩高自旋体系的零场劈裂展宽，且无需谐振器即可获得高信噪自旋回波；作者在多种S=5/2 Mn(II)配合物、杂质及金属结合蛋白上验证。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "263 GHz无谐振器脉冲EPR覆盖高自旋金属中心；Nature Communications报道以10 W行波真空管放大器构建263 GHz宽带脉冲EPR。高频高场压缩高自旋体系的零场劈裂展宽，且无需谐振器即可获得高信噪自旋回波；作者在多种S=5/2 Mn(II)配合物、杂质及金属结合蛋白上验证。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "instrumentation",
+          "dimension": "application_ids",
+          "basis": "263 GHz无谐振器脉冲EPR覆盖高自旋金属中心；Nature Communications报道以10 W行波真空管放大器构建263 GHz宽带脉冲EPR。高频高场压缩高自旋体系的零场劈裂展宽，且无需谐振器即可获得高信噪自旋回波；作者在多种S=5/2 Mn(II)配合物、杂质及金属结合蛋白上验证。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "inorganic_coordination",
+          "dimension": "application_ids",
+          "basis": "263 GHz无谐振器脉冲EPR覆盖高自旋金属中心；Nature Communications报道以10 W行波真空管放大器构建263 GHz宽带脉冲EPR。高频高场压缩高自旋体系的零场劈裂展宽，且无需谐振器即可获得高信噪自旋回波；作者在多种S=5/2 Mn(II)配合物、杂质及金属结合蛋白上验证。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "263 GHz无谐振器脉冲EPR覆盖高自旋金属中心；Nature Communications报道以10 W行波真空管放大器构建263 GHz宽带脉冲EPR。高频高场压缩高自旋体系的零场劈裂展宽，且无需谐振器即可获得高信噪自旋回波；作者在多种S=5/2 Mn(II)配合物、杂质及金属结合蛋白上验证。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "amplifier",
+          "dimension": "instrument_component_ids",
+          "basis": "263 GHz无谐振器脉冲EPR覆盖高自旋金属中心；Nature Communications报道以10 W行波真空管放大器构建263 GHz宽带脉冲EPR。高频高场压缩高自旋体系的零场劈裂展宽，且无需谐振器即可获得高信噪自旋回波；作者在多种S=5/2 Mn(II)配合物、杂质及金属结合蛋白上验证。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "263 GHz无谐振器脉冲EPR覆盖高自旋金属中心",
+        "original_summary_cn": "Nature Communications报道以10 W行波真空管放大器构建263 GHz宽带脉冲EPR。高频高场压缩高自旋体系的零场劈裂展宽，且无需谐振器即可获得高信噪自旋回波；作者在多种S=5/2 Mn(II)配合物、杂质及金属结合蛋白上验证。",
+        "original_meaning_cn": "配置评估需核对263 GHz源功率、脉冲带宽、准光路损耗、9 T级磁场稳定度、样品体积与低温系统，并实测π/2脉宽、死时间和回波S/N。无谐振器降低填充因子，定量比较必须按自旋数归一化，并用Mn(II)标准检查g、A和ZFS覆盖。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "仪器",
+          "无机配位",
+          "生命科学",
+          "磁体",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261002-02",
+      "report_date": "2026-10-02",
+      "item_no": 2,
+      "title_cn": "0.3 T探头把低场NMR扩展至¹³C与²³Na岩心分析",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr",
+        "relaxometry"
+      ],
+      "application_ids": [
+        "geoscience_flow",
+        "instrumentation"
+      ],
+      "instrument_component_ids": [
+        "probe"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Petrophysics为现有0.3 T磁体开发¹³C/²³Na低场NMR探头：对应¹H、¹³C、²³Na频率约12、3.25和3.41 MHz。研究获得甘油、癸烷、原油及2%—25%盐水/岩心的T₁、T₂与T₁–T₂数据，并讨论天然丰度¹³C低灵敏度和声学振铃。",
+      "meaning_cn": "岩心平台升级应校准三核线圈Q值、调谐范围、90°脉宽、接收死时间与屏蔽材料，并分别优化重复延迟和CPMG回波间隔。¹³C需评估长时间累加和天然丰度极限；²³Na定量须用盐度系列校准，三核饱和度计算还要统一体积与弛豫归一化。",
+      "publication_date": "2026-10-01",
+      "time_scope": "7d_extension",
+      "source": "Petrophysics",
+      "url": "https://doi.org/10.30632/pjv67n5-2026a11",
+      "doi": "10.30632/pjv67n5-2026a11",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-02",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-02.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "时域NMR",
+          "台式NMR",
+          "多核NMR",
+          "仪器",
+          "地学流动",
+          "过程分析",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜低场/时域NMR｜多核探头",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-02.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "0.3 T探头把低场NMR扩展至¹³C与²³Na岩心分析；Petrophysics为现有0.3 T磁体开发¹³C/²³Na低场NMR探头：对应¹H、¹³C、²³Na频率约12、3.25和3.41 MHz。研究获得甘油、癸烷、原油及2%—25%盐水/岩心的T₁、T₂与T₁–T₂数据，并讨论天然丰度¹³C低灵敏度和声学振铃。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "td_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "0.3 T探头把低场NMR扩展至¹³C与²³Na岩心分析；Petrophysics为现有0.3 T磁体开发¹³C/²³Na低场NMR探头：对应¹H、¹³C、²³Na频率约12、3.25和3.41 MHz。研究获得甘油、癸烷、原油及2%—25%盐水/岩心的T₁、T₂与T₁–T₂数据，并讨论天然丰度¹³C低灵敏度和声学振铃。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "multinuclear_nmr",
+          "dimension": "method_ids",
+          "basis": "0.3 T探头把低场NMR扩展至¹³C与²³Na岩心分析；Petrophysics为现有0.3 T磁体开发¹³C/²³Na低场NMR探头：对应¹H、¹³C、²³Na频率约12、3.25和3.41 MHz。研究获得甘油、癸烷、原油及2%—25%盐水/岩心的T₁、T₂与T₁–T₂数据，并讨论天然丰度¹³C低灵敏度和声学振铃。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "0.3 T探头把低场NMR扩展至¹³C与²³Na岩心分析；Petrophysics为现有0.3 T磁体开发¹³C/²³Na低场NMR探头：对应¹H、¹³C、²³Na频率约12、3.25和3.41 MHz。研究获得甘油、癸烷、原油及2%—25%盐水/岩心的T₁、T₂与T₁–T₂数据，并讨论天然丰度¹³C低灵敏度和声学振铃。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "geoscience_flow",
+          "dimension": "application_ids",
+          "basis": "0.3 T探头把低场NMR扩展至¹³C与²³Na岩心分析；Petrophysics为现有0.3 T磁体开发¹³C/²³Na低场NMR探头：对应¹H、¹³C、²³Na频率约12、3.25和3.41 MHz。研究获得甘油、癸烷、原油及2%—25%盐水/岩心的T₁、T₂与T₁–T₂数据，并讨论天然丰度¹³C低灵敏度和声学振铃。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "instrumentation",
+          "dimension": "application_ids",
+          "basis": "0.3 T探头把低场NMR扩展至¹³C与²³Na岩心分析；Petrophysics为现有0.3 T磁体开发¹³C/²³Na低场NMR探头：对应¹H、¹³C、²³Na频率约12、3.25和3.41 MHz。研究获得甘油、癸烷、原油及2%—25%盐水/岩心的T₁、T₂与T₁–T₂数据，并讨论天然丰度¹³C低灵敏度和声学振铃。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "probe",
+          "dimension": "instrument_component_ids",
+          "basis": "0.3 T探头把低场NMR扩展至¹³C与²³Na岩心分析；Petrophysics为现有0.3 T磁体开发¹³C/²³Na低场NMR探头：对应¹H、¹³C、²³Na频率约12、3.25和3.41 MHz。研究获得甘油、癸烷、原油及2%—25%盐水/岩心的T₁、T₂与T₁–T₂数据，并讨论天然丰度¹³C低灵敏度和声学振铃。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "0.3 T探头把低场NMR扩展至¹³C与²³Na岩心分析",
+        "original_summary_cn": "Petrophysics为现有0.3 T磁体开发¹³C/²³Na低场NMR探头：对应¹H、¹³C、²³Na频率约12、3.25和3.41 MHz。研究获得甘油、癸烷、原油及2%—25%盐水/岩心的T₁、T₂与T₁–T₂数据，并讨论天然丰度¹³C低灵敏度和声学振铃。",
+        "original_meaning_cn": "岩心平台升级应校准三核线圈Q值、调谐范围、90°脉宽、接收死时间与屏蔽材料，并分别优化重复延迟和CPMG回波间隔。¹³C需评估长时间累加和天然丰度极限；²³Na定量须用盐度系列校准，三核饱和度计算还要统一体积与弛豫归一化。",
+        "original_tags": [
+          "NMR",
+          "时域NMR",
+          "台式NMR",
+          "多核NMR",
+          "仪器",
+          "地学流动",
+          "过程分析",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261002-03",
+      "report_date": "2026-10-02",
+      "item_no": 3,
+      "title_cn": "ODMR分离CsPbI₃纳米晶电子与空穴的纵向弛豫",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "odmr",
+        "relaxometry"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Physical Review B正式发表CsPbI₃玻璃基纳米晶的resonant spin-inertia ODMR研究。方法分别提取电子与空穴T₁、g因子和核自旋浴的有效Overhauser场；1.6 K时电子T₁最长约0.9 ms，核场相关时间约60 μs。",
+      "meaning_cn": "复现实验需固定纳米晶尺寸/浓度、玻璃基体、温度、偏置场、光泵功率和微波调制频率，并对电子与空穴共振分别拟合幅相响应。低场T₁解释要同时纳入核场涨落；温度系列还需验证两LO声子Raman模型，避免把光致载流子寿命等同于自旋T₁。",
+      "publication_date": "2026-10-01",
+      "time_scope": "7d_extension",
+      "source": "Physical Review B",
+      "url": "https://doi.org/10.1103/84NX-1R8C",
+      "doi": "10.1103/84nx-1r8c",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-02",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-02.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "时间分辨EPR",
+          "材料",
+          "仪器",
+          "磁体",
+          "谐振器",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "EPR｜时间分辨EPR｜ODMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-02.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "ODMR分离CsPbI₃纳米晶电子与空穴的纵向弛豫；Physical Review B正式发表CsPbI₃玻璃基纳米晶的resonant spin-inertia ODMR研究。方法分别提取电子与空穴T₁、g因子和核自旋浴的有效Overhauser场；1.6 K时电子T₁最长约0.9 ms，核场相关时间约60 μs。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "odmr",
+          "dimension": "method_ids",
+          "basis": "ODMR分离CsPbI₃纳米晶电子与空穴的纵向弛豫；Physical Review B正式发表CsPbI₃玻璃基纳米晶的resonant spin-inertia ODMR研究。方法分别提取电子与空穴T₁、g因子和核自旋浴的有效Overhauser场；1.6 K时电子T₁最长约0.9 ms，核场相关时间约60 μs。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "relaxometry",
+          "dimension": "method_ids",
+          "basis": "ODMR分离CsPbI₃纳米晶电子与空穴的纵向弛豫；Physical Review B正式发表CsPbI₃玻璃基纳米晶的resonant spin-inertia ODMR研究。方法分别提取电子与空穴T₁、g因子和核自旋浴的有效Overhauser场；1.6 K时电子T₁最长约0.9 ms，核场相关时间约60 μs。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "ODMR分离CsPbI₃纳米晶电子与空穴的纵向弛豫；Physical Review B正式发表CsPbI₃玻璃基纳米晶的resonant spin-inertia ODMR研究。方法分别提取电子与空穴T₁、g因子和核自旋浴的有效Overhauser场；1.6 K时电子T₁最长约0.9 ms，核场相关时间约60 μs。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "ODMR分离CsPbI₃纳米晶电子与空穴的纵向弛豫",
+        "original_summary_cn": "Physical Review B正式发表CsPbI₃玻璃基纳米晶的resonant spin-inertia ODMR研究。方法分别提取电子与空穴T₁、g因子和核自旋浴的有效Overhauser场；1.6 K时电子T₁最长约0.9 ms，核场相关时间约60 μs。",
+        "original_meaning_cn": "复现实验需固定纳米晶尺寸/浓度、玻璃基体、温度、偏置场、光泵功率和微波调制频率，并对电子与空穴共振分别拟合幅相响应。低场T₁解释要同时纳入核场涨落；温度系列还需验证两LO声子Raman模型，避免把光致载流子寿命等同于自旋T₁。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "时间分辨EPR",
+          "材料",
+          "仪器",
+          "磁体",
+          "谐振器",
+          "原位光照",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20261002-04",
+      "report_date": "2026-10-02",
+      "item_no": 4,
+      "title_cn": "磁共振力显微镜提出约1 GHz轴子暗物质搜索方案",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "instrument_component_ids": [
+        "magnet"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Physical Review D正式发表约1 GHz轴子暗物质的MRFM搜索方案：直流场与微磁体极化电子自旋，轴子—电子导数耦合等效为交流磁场；邻频泵浦把差频匹配至负载磁体的机械振子，再由光学干涉读取自旋力。",
+      "meaning_cn": "原型设计需联立电子自旋线宽/T₁/T₂、泵浦频率与功率、直流场均匀度、磁场梯度、机械Q值及干涉仪位移噪声。扫频必须同步校准泵浦失谐和DC场；灵敏度预算应含热噪声、振动、读出反作用与自旋投影噪声，不能只给理想积分时间。",
+      "publication_date": "2026-10-01",
+      "time_scope": "24h",
+      "source": "Physical Review D",
+      "url": "https://doi.org/10.1103/GR5N-PVP1",
+      "doi": "10.1103/gr5n-pvp1",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-02",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-02.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "仪器",
+          "材料",
+          "磁体",
+          "谐振器",
+          "软件"
+        ],
+        "original_type": "EPR｜MRFM｜量子传感",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-02.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "磁共振力显微镜提出约1 GHz轴子暗物质搜索方案；Physical Review D正式发表约1 GHz轴子暗物质的MRFM搜索方案：直流场与微磁体极化电子自旋，轴子—电子导数耦合等效为交流磁场；邻频泵浦把差频匹配至负载磁体的机械振子，再由光学干涉读取自旋力。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "instrumentation",
+          "dimension": "application_ids",
+          "basis": "磁共振力显微镜提出约1 GHz轴子暗物质搜索方案；Physical Review D正式发表约1 GHz轴子暗物质的MRFM搜索方案：直流场与微磁体极化电子自旋，轴子—电子导数耦合等效为交流磁场；邻频泵浦把差频匹配至负载磁体的机械振子，再由光学干涉读取自旋力。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "magnet",
+          "dimension": "instrument_component_ids",
+          "basis": "磁共振力显微镜提出约1 GHz轴子暗物质搜索方案；Physical Review D正式发表约1 GHz轴子暗物质的MRFM搜索方案：直流场与微磁体极化电子自旋，轴子—电子导数耦合等效为交流磁场；邻频泵浦把差频匹配至负载磁体的机械振子，再由光学干涉读取自旋力。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "磁共振力显微镜提出约1 GHz轴子暗物质搜索方案",
+        "original_summary_cn": "Physical Review D正式发表约1 GHz轴子暗物质的MRFM搜索方案：直流场与微磁体极化电子自旋，轴子—电子导数耦合等效为交流磁场；邻频泵浦把差频匹配至负载磁体的机械振子，再由光学干涉读取自旋力。",
+        "original_meaning_cn": "原型设计需联立电子自旋线宽/T₁/T₂、泵浦频率与功率、直流场均匀度、磁场梯度、机械Q值及干涉仪位移噪声。扫频必须同步校准泵浦失谐和DC场；灵敏度预算应含热噪声、振动、读出反作用与自旋投影噪声，不能只给理想积分时间。",
+        "original_tags": [
+          "EPR",
+          "仪器",
+          "材料",
+          "磁体",
+          "谐振器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20261002-05",
+      "report_date": "2026-10-02",
+      "item_no": 5,
+      "title_cn": "超高速MAS显露限制¹H分辨率的¹H–¹⁴N二阶效应",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "fast_mas"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Journal of Magnetic Resonance的Article in Press指出，在超高速MAS和当前最高磁场下，¹H谱的剩余线宽不再只由同核偶极耦合决定；与I=1的¹⁴N耦合产生二阶效应，可成为含氮固体¹H分辨率继续改善的限制因素。",
+      "meaning_cn": "比较实验应固定磁场、MAS转速、转子规格、温度和¹H RF场，并选择氮环境明确的标准样做转速/场强系列。解析需同时模拟¹⁴N四极参数与¹H–¹⁴N耦合，区分二阶展宽、转速波动和样品不均匀；探头验收不能仅用无氮样品线宽。",
+      "publication_date": "2026-09-30",
+      "time_scope": "7d_extension",
+      "source": "Journal of Magnetic Resonance",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1090780726001679",
+      "doi": "10.1016/j.jmr.2026.108178",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-02",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-02.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "仪器",
+          "化学结构",
+          "材料",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜固体NMR｜超高速MAS",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-02.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "超高速MAS显露限制¹H分辨率的¹H–¹⁴N二阶效应；Journal of Magnetic Resonance的Article in Press指出，在超高速MAS和当前最高磁场下，¹H谱的剩余线宽不再只由同核偶极耦合决定；与I=1的¹⁴N耦合产生二阶效应，可成为含氮固体¹H分辨率继续改善的限制因素。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "超高速MAS显露限制¹H分辨率的¹H–¹⁴N二阶效应；Journal of Magnetic Resonance的Article in Press指出，在超高速MAS和当前最高磁场下，¹H谱的剩余线宽不再只由同核偶极耦合决定；与I=1的¹⁴N耦合产生二阶效应，可成为含氮固体¹H分辨率继续改善的限制因素。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "fast_mas",
+          "dimension": "method_ids",
+          "basis": "超高速MAS显露限制¹H分辨率的¹H–¹⁴N二阶效应；Journal of Magnetic Resonance的Article in Press指出，在超高速MAS和当前最高磁场下，¹H谱的剩余线宽不再只由同核偶极耦合决定；与I=1的¹⁴N耦合产生二阶效应，可成为含氮固体¹H分辨率继续改善的限制因素。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "超高速MAS显露限制¹H分辨率的¹H–¹⁴N二阶效应；Journal of Magnetic Resonance的Article in Press指出，在超高速MAS和当前最高磁场下，¹H谱的剩余线宽不再只由同核偶极耦合决定；与I=1的¹⁴N耦合产生二阶效应，可成为含氮固体¹H分辨率继续改善的限制因素。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "超高速MAS显露限制¹H分辨率的¹H–¹⁴N二阶效应",
+        "original_summary_cn": "Journal of Magnetic Resonance的Article in Press指出，在超高速MAS和当前最高磁场下，¹H谱的剩余线宽不再只由同核偶极耦合决定；与I=1的¹⁴N耦合产生二阶效应，可成为含氮固体¹H分辨率继续提升的限制因素。",
+        "original_meaning_cn": "比较实验应固定磁场、MAS转速、转子规格、温度和¹H RF场，并选择氮环境明确的标准样做转速/场强系列。解析需同时模拟¹⁴N四极参数与¹H–¹⁴N耦合，区分二阶展宽、转速波动和样品不均匀；探头验收不能仅用无氮样品线宽。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "仪器",
+          "化学结构",
+          "材料",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261002-06",
+      "report_date": "2026-10-02",
+      "item_no": 6,
+      "title_cn": "fast-MAS顺磁NMR用“间谍分子”扫描镧系磁化率张量",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "fast_mas",
+        "paramagnetic_nmr"
+      ],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "PCCP以≥100 kHz MAS的¹H探测顺磁固体NMR研究Eu(III) π容器。孔腔中的孤立水和胍鎓离子充当“间谍分子”，其赝接触位移报告镧系磁化率张量方向；未稀释配合物还显示分子间磁性贡献。",
+      "meaning_cn": "方法迁移需控制Eu浓度、客体占有率、含水量、温度、MAS转速与¹H脉冲带宽，并以抗磁同系物建立化学位移基线。张量拟合应纳入晶体结构、金属—核坐标和分子间贡献；高转速条件要监控摩擦升温与转子稳定性，避免把温漂误作赝接触位移。",
+      "publication_date": "2026-09-29",
+      "time_scope": "7d_extension",
+      "source": "Physical Chemistry Chemical Physics",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2026/cp/d6cp03495k",
+      "doi": "10.1039/d6cp03495k",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-02",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-02.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "顺磁NMR",
+          "无机配位",
+          "材料",
+          "化学结构",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_type": "NMR｜固体NMR｜顺磁fast MAS",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-02.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "fast-MAS顺磁NMR用“间谍分子”扫描镧系磁化率张量；PCCP以≥100 kHz MAS的¹H探测顺磁固体NMR研究Eu(III) π容器。孔腔中的孤立水和胍鎓离子充当“间谍分子”，其赝接触位移报告镧系磁化率张量方向；未稀释配合物还显示分子间磁性贡献。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "fast-MAS顺磁NMR用“间谍分子”扫描镧系磁化率张量；PCCP以≥100 kHz MAS的¹H探测顺磁固体NMR研究Eu(III) π容器。孔腔中的孤立水和胍鎓离子充当“间谍分子”，其赝接触位移报告镧系磁化率张量方向；未稀释配合物还显示分子间磁性贡献。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "fast_mas",
+          "dimension": "method_ids",
+          "basis": "fast-MAS顺磁NMR用“间谍分子”扫描镧系磁化率张量；PCCP以≥100 kHz MAS的¹H探测顺磁固体NMR研究Eu(III) π容器。孔腔中的孤立水和胍鎓离子充当“间谍分子”，其赝接触位移报告镧系磁化率张量方向；未稀释配合物还显示分子间磁性贡献。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "paramagnetic_nmr",
+          "dimension": "method_ids",
+          "basis": "fast-MAS顺磁NMR用“间谍分子”扫描镧系磁化率张量；PCCP以≥100 kHz MAS的¹H探测顺磁固体NMR研究Eu(III) π容器。孔腔中的孤立水和胍鎓离子充当“间谍分子”，其赝接触位移报告镧系磁化率张量方向；未稀释配合物还显示分子间磁性贡献。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "inorganic_coordination",
+          "dimension": "application_ids",
+          "basis": "fast-MAS顺磁NMR用“间谍分子”扫描镧系磁化率张量；PCCP以≥100 kHz MAS的¹H探测顺磁固体NMR研究Eu(III) π容器。孔腔中的孤立水和胍鎓离子充当“间谍分子”，其赝接触位移报告镧系磁化率张量方向；未稀释配合物还显示分子间磁性贡献。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "fast-MAS顺磁NMR用“间谍分子”扫描镧系磁化率张量",
+        "original_summary_cn": "PCCP以≥100 kHz MAS的¹H探测顺磁固体NMR研究Eu(III) π容器。孔腔中的孤立水和胍鎓离子充当“间谍分子”，其赝接触位移报告镧系磁化率张量方向；未稀释配合物还显示分子间磁性贡献。",
+        "original_meaning_cn": "方法迁移需控制Eu浓度、客体占有率、含水量、温度、MAS转速与¹H脉冲带宽，并以抗磁同系物建立化学位移基线。张量拟合应纳入晶体结构、金属—核坐标和分子间贡献；高转速条件要监控摩擦升温与转子稳定性，避免把温漂误作赝接触位移。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "顺磁NMR",
+          "无机配位",
+          "材料",
+          "化学结构",
+          "磁体",
+          "探头",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261002-07",
+      "report_date": "2026-10-02",
+      "item_no": 7,
+      "title_cn": "EPR跟踪辐照药用植物自由基的生成与120天衰减",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "cw_epr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Oxygen比较夏枯草叶片与果穗在1、5、10 kGy γ辐照后的自由基。EPR观察到叠加于半醌信号的辐射诱导单峰，未见典型纤维素卫星峰；信号随器官、剂量和约120天贮藏变化，并与HPLC酚类及DPPH抗氧化结果对照。",
+      "meaning_cn": "辐照鉴别需固定含水量、粉碎粒径、装样质量、微波功率、调制幅度、增益与测量时刻，并用未辐照和剂量系列建立归一化响应。长期追踪应在相同储存温湿度下重复测量；缺少纤维素卫星峰时，不能仅凭单峰存在作辐照阳性判定。",
+      "publication_date": "2026-09-30",
+      "time_scope": "7d_extension",
+      "source": "Oxygen",
+      "url": "https://doi.org/10.3390/oxygen6040029",
+      "doi": "10.3390/oxygen6040029",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-02",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-02.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "食品与农业",
+          "过程分析",
+          "生命科学",
+          "谐振器",
+          "软件"
+        ],
+        "original_type": "EPR｜连续波EPR｜辐照自由基",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-02.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "EPR跟踪辐照药用植物自由基的生成与120天衰减；Oxygen比较夏枯草叶片与果穗在1、5、10 kGy γ辐照后的自由基。EPR观察到叠加于半醌信号的辐射诱导单峰，未见典型纤维素卫星峰；信号随器官、剂量和约120天贮藏变化，并与HPLC酚类及DPPH抗氧化结果对照。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "cw_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "EPR跟踪辐照药用植物自由基的生成与120天衰减；Oxygen比较夏枯草叶片与果穗在1、5、10 kGy γ辐照后的自由基。EPR观察到叠加于半醌信号的辐射诱导单峰，未见典型纤维素卫星峰；信号随器官、剂量和约120天贮藏变化，并与HPLC酚类及DPPH抗氧化结果对照。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "food_agriculture",
+          "dimension": "application_ids",
+          "basis": "EPR跟踪辐照药用植物自由基的生成与120天衰减；Oxygen比较夏枯草叶片与果穗在1、5、10 kGy γ辐照后的自由基。EPR观察到叠加于半醌信号的辐射诱导单峰，未见典型纤维素卫星峰；信号随器官、剂量和约120天贮藏变化，并与HPLC酚类及DPPH抗氧化结果对照。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "EPR跟踪辐照药用植物自由基的生成与120天衰减",
+        "original_summary_cn": "Oxygen比较夏枯草叶片与果穗在1、5、10 kGy γ辐照后的自由基。EPR观察到叠加于半醌信号的辐射诱导单峰，未见典型纤维素卫星峰；信号随器官、剂量和约120天贮藏变化，并与HPLC酚类及DPPH抗氧化结果对照。",
+        "original_meaning_cn": "辐照鉴别需固定含水量、粉碎粒径、装样质量、微波功率、调制幅度、增益与测量时刻，并用未辐照和剂量系列建立归一化响应。长期追踪应在相同储存温湿度下重复测量；缺少纤维素卫星峰时，不能仅凭单峰存在作辐照阳性判定。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "食品与农业",
+          "过程分析",
+          "生命科学",
+          "谐振器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261002-08",
+      "report_date": "2026-10-02",
+      "item_no": 8,
+      "title_cn": "综述比较放疗EPR剂量计的材料性能与临床适配",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "cw_epr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "review",
+      "summary_cn": "Applied Radiation and Isotopes综述放疗EPR剂量学，比较糖/葡萄糖、丙氨酸、甲酸锂一水合物和氨基磺酸等材料在光子与电子束下的响应。重点涵盖剂量线性、能量依赖、稳定性、重复读出及临床质量保证的适用边界。",
+      "meaning_cn": "选型不能只看灵敏度，应按临床剂量范围、组织等效性、读出延迟、环境稳定性和可重复读出综合评估。实验室需统一样品几何、质量、谐振器位置、微波功率、调制幅度和积分算法，并以水模体/参考剂量计完成批次校准和不确定度预算。",
+      "publication_date": "2026-09-26",
+      "time_scope": "7d_extension",
+      "source": "Applied Radiation and Isotopes",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0969804326005452",
+      "doi": "10.1016/j.apradiso.2026.112961",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-02",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-02.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "生命科学",
+          "过程分析",
+          "仪器",
+          "谐振器",
+          "软件"
+        ],
+        "original_type": "EPR｜连续波EPR｜放疗剂量学",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-02.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "综述比较放疗EPR剂量计的材料性能与临床适配；Applied Radiation and Isotopes综述放疗EPR剂量学，比较糖/葡萄糖、丙氨酸、甲酸锂一水合物和氨基磺酸等材料在光子与电子束下的响应。重点涵盖剂量线性、能量依赖、稳定性、重复读出及临床质量保证的适用边界。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "cw_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "综述比较放疗EPR剂量计的材料性能与临床适配；Applied Radiation and Isotopes综述放疗EPR剂量学，比较糖/葡萄糖、丙氨酸、甲酸锂一水合物和氨基磺酸等材料在光子与电子束下的响应。重点涵盖剂量线性、能量依赖、稳定性、重复读出及临床质量保证的适用边界。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "life_science",
+          "dimension": "application_ids",
+          "basis": "综述比较放疗EPR剂量计的材料性能与临床适配；Applied Radiation and Isotopes综述放疗EPR剂量学，比较糖/葡萄糖、丙氨酸、甲酸锂一水合物和氨基磺酸等材料在光子与电子束下的响应。重点涵盖剂量线性、能量依赖、稳定性、重复读出及临床质量保证的适用边界。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "综述比较放疗EPR剂量计的材料性能与临床适配",
+        "original_summary_cn": "Applied Radiation and Isotopes综述放疗EPR剂量学，比较糖/葡萄糖、丙氨酸、甲酸锂一水合物和氨基磺酸等材料在光子与电子束下的响应。重点涵盖剂量线性、能量依赖、稳定性、重复读出及临床质量保证的适用边界。",
+        "original_meaning_cn": "选型不能只看灵敏度，应按临床剂量范围、组织等效性、读出延迟、环境稳定性和可重复读出综合评估。实验室需统一样品几何、质量、谐振器位置、微波功率、调制幅度和积分算法，并以水模体/参考剂量计完成批次校准和不确定度预算。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "生命科学",
+          "过程分析",
+          "仪器",
+          "谐振器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261002-09",
+      "report_date": "2026-10-02",
+      "item_no": 9,
+      "title_cn": "六年qNMR谱系揭示同一蜂场蜂蜜的采收季差异",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "qnmr",
+        "metabolomics"
+      ],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Food Chemistry对日本冈山同一区域四个相邻蜂场的多花蜂蜜开展六年定量¹H NMR追踪，并以常规谱与broadband-WET抑制主峰后观察微量组分。研究把长期地域背景固定下来，突出采收季对有机酸、氨基酸等低丰度代谢物的影响。",
+      "meaning_cn": "真实性数据库应固定取样月份、蜂场距离、储存时间、温度、稀释倍数、pH和内标，并用标准加入验证抑峰后积分线性。跨年度比较要监控谱仪漂移和批次效应；模型需保留独立年份作为外部验证，避免把季节差异误判为地理来源标志。",
+      "publication_date": "2026-09-26",
+      "time_scope": "7d_extension",
+      "source": "Food Chemistry",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0308814626034801",
+      "doi": "10.1016/j.foodchem.2026.151320",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-02",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-02.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "qNMR",
+          "代谢组学",
+          "食品与农业",
+          "过程分析",
+          "探头",
+          "自动进样器",
+          "软件"
+        ],
+        "original_type": "NMR｜qNMR｜蜂蜜长期谱系",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-02.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "六年qNMR谱系揭示同一蜂场蜂蜜的采收季差异；Food Chemistry对日本冈山同一区域四个相邻蜂场的多花蜂蜜开展六年定量¹H NMR追踪，并以常规谱与broadband-WET抑制主峰后观察微量组分。研究把长期地域背景固定下来，突出采收季对有机酸、氨基酸等低丰度代谢物的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "六年qNMR谱系揭示同一蜂场蜂蜜的采收季差异；Food Chemistry对日本冈山同一区域四个相邻蜂场的多花蜂蜜开展六年定量¹H NMR追踪，并以常规谱与broadband-WET抑制主峰后观察微量组分。研究把长期地域背景固定下来，突出采收季对有机酸、氨基酸等低丰度代谢物的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "qnmr",
+          "dimension": "method_ids",
+          "basis": "六年qNMR谱系揭示同一蜂场蜂蜜的采收季差异；Food Chemistry对日本冈山同一区域四个相邻蜂场的多花蜂蜜开展六年定量¹H NMR追踪，并以常规谱与broadband-WET抑制主峰后观察微量组分。研究把长期地域背景固定下来，突出采收季对有机酸、氨基酸等低丰度代谢物的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "metabolomics",
+          "dimension": "method_ids",
+          "basis": "六年qNMR谱系揭示同一蜂场蜂蜜的采收季差异；Food Chemistry对日本冈山同一区域四个相邻蜂场的多花蜂蜜开展六年定量¹H NMR追踪，并以常规谱与broadband-WET抑制主峰后观察微量组分。研究把长期地域背景固定下来，突出采收季对有机酸、氨基酸等低丰度代谢物的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "food_agriculture",
+          "dimension": "application_ids",
+          "basis": "六年qNMR谱系揭示同一蜂场蜂蜜的采收季差异；Food Chemistry对日本冈山同一区域四个相邻蜂场的多花蜂蜜开展六年定量¹H NMR追踪，并以常规谱与broadband-WET抑制主峰后观察微量组分。研究把长期地域背景固定下来，突出采收季对有机酸、氨基酸等低丰度代谢物的影响。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "六年qNMR谱系揭示同一蜂场蜂蜜的采收季差异",
+        "original_summary_cn": "Food Chemistry对日本冈山同一区域四个相邻蜂场的多花蜂蜜开展六年定量¹H NMR追踪，并以常规谱与broadband-WET抑制主峰后观察微量组分。研究把长期地域背景固定下来，突出采收季对有机酸、氨基酸等低丰度代谢物的影响。",
+        "original_meaning_cn": "真实性数据库应固定取样月份、蜂场距离、储存时间、温度、稀释倍数、pH和内标，并用标准加入验证抑峰后积分线性。跨年度比较要监控谱仪漂移和批次效应；模型需保留独立年份作为外部验证，避免把季节差异误判为地理来源标志。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "qNMR",
+          "代谢组学",
+          "食品与农业",
+          "过程分析",
+          "探头",
+          "自动进样器",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20261002-10",
+      "report_date": "2026-10-02",
+      "item_no": 10,
+      "title_cn": "固态¹³C NMR原位监测可可制品结晶与多晶型迁移",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Food Chemistry用固态¹³C NMR连续观察可可脂、黑巧克力和牛奶巧克力在80、50、40 °C预处理后的结晶进程与多晶型变化。方法从分子运动和晶态碳位点追踪脂肪相演化，为富脂食品在复杂基质中的晶型控制提供非破坏读出。",
+      "meaning_cn": "工艺移植需严格记录热历史、降温速率、等温时间、样品厚度和乳脂/糖含量，统一CP/MAS或直接激发、转速、接触时间及重复延迟。需用DSC或XRD标定晶型并检查RF加热；若做动力学，应保证各时间点温度与采集窗口一致。",
+      "publication_date": "2026-09-25",
+      "time_scope": "7d_extension",
+      "source": "Food Chemistry",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0308814626033959",
+      "doi": "10.1016/j.foodchem.2026.151235",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-02",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-10-02.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "食品与农业",
+          "过程分析",
+          "材料",
+          "探头",
+          "变温系统",
+          "软件"
+        ],
+        "original_type": "NMR｜固体¹³C NMR｜结晶过程",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "10/SpinFront_2026-10-02.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "固态¹³C NMR原位监测可可制品结晶与多晶型迁移；Food Chemistry用固态¹³C NMR连续观察可可脂、黑巧克力和牛奶巧克力在80、50、40 °C预处理后的结晶进程与多晶型变化。方法从分子运动和晶态碳位点追踪脂肪相演化，为富脂食品在复杂基质中的晶型控制提供非破坏读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "固态¹³C NMR原位监测可可制品结晶与多晶型迁移；Food Chemistry用固态¹³C NMR连续观察可可脂、黑巧克力和牛奶巧克力在80、50、40 °C预处理后的结晶进程与多晶型变化。方法从分子运动和晶态碳位点追踪脂肪相演化，为富脂食品在复杂基质中的晶型控制提供非破坏读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "food_agriculture",
+          "dimension": "application_ids",
+          "basis": "固态¹³C NMR原位监测可可制品结晶与多晶型迁移；Food Chemistry用固态¹³C NMR连续观察可可脂、黑巧克力和牛奶巧克力在80、50、40 °C预处理后的结晶进程与多晶型变化。方法从分子运动和晶态碳位点追踪脂肪相演化，为富脂食品在复杂基质中的晶型控制提供非破坏读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "固态¹³C NMR原位监测可可制品结晶与多晶型迁移",
+        "original_summary_cn": "Food Chemistry用固态¹³C NMR连续观察可可脂、黑巧克力和牛奶巧克力在80、50、40 °C预处理后的结晶进程与多晶型变化。方法从分子运动和晶态碳位点追踪脂肪相演化，为富脂食品在复杂基质中的晶型控制提供非破坏读出。",
+        "original_meaning_cn": "工艺移植需严格记录热历史、降温速率、等温时间、样品厚度和乳脂/糖含量，统一CP/MAS或直接激发、转速、接触时间及重复延迟。需用DSC或XRD标定晶型并检查RF加热；若做动力学，应保证各时间点温度与采集窗口一致。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "食品与农业",
+          "过程分析",
+          "材料",
+          "探头",
+          "变温系统",
+          "软件"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "常规检索仅确认2条具有可核验在线时刻、可严格归入过去24小时的高相关新增，少于5条，已启动增强搜索；另有2条仅能确认10月1日正式出版而无精确上线时刻，按规则归入近7天扩展。增强检索逐站核查Journal of Magnetic Resonance（含Articles in Press）、Journal of Magnetic Resonance Open、Magnetic Resonance、Journal of Biomolecular NMR、Solid State Nuclear Magnetic Resonance、Magnetic Resonance in Chemistry、Applied Magnetic Resonance及ACS、RSC、Wiley、Springer Nature、Elsevier、AIP相关期刊，并分别检查Crossref、PubMed、arXiv、ChemRxiv、科研机构、主要厂商、专业会议及中外采购；同时按液体NMR、固体NMR/MAS/DNP、低场与TD-NMR、谱图处理、CW/rapid-scan EPR、脉冲EPR、TREPR、operando/EC-EPR及仪器部件主题簇检索。增强阶段获得10条合格且未重复的信息，因此未触发第二级深度增强检索。结合2026年9月25日至10月1日最近7期共70条记录，按标准化DOI、规范化URL和标题查重，排除12条既有记录；另排除17条网上首发早于窗口、日期不明、常驻页面、医学MRI或仅将NMR/EPR作为辅助表征的候选。本期最终收录10条非SCM信息：2条近24小时、8条近7天扩展。待复核标签：263 GHz无谐振器脉冲EPR、0.3 T可换核低场探头与声学振铃、resonant spin-inertia ODMR、MRFM轴子暗物质搜索、超高速MAS下¹H–¹⁴N二阶效应、spy-molecule磁化率张量扫描、放疗EPR剂量学、broadband-WET qNMR及可可脂晶型原位固态¹³C NMR保留在sample_systems和正文中，未创建新的正式ID。",
+    "source_sha256": "4acd72c3aaceead0207ef6592a15ee3f9643370faa68fc526059c46887324e6a",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

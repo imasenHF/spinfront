@@ -1,0 +1,920 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-08-28",
+  "scope_note": "本期收录9条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260828-01",
+      "report_date": "2026-08-28",
+      "item_no": 1,
+      "title_cn": "高压NMR追踪利拉鲁肽寡聚体转化与纤维解离",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "pharma"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究采用高压NMR原位观察利拉鲁肽聚集体系，在受控压力下区分寡聚体相互转化及纤维解离过程。压力作为可逆扰动变量，可解析常压谱中被平均或受交换展宽影响的构象状态，为多肽药物聚集机理和制剂稳定性评价提供分子尺度读出。",
+      "meaning_cn": "应用时需配置耐压NMR管路或高压样品池，记录压力、温度、加压速率和平衡时间；谱图比较应统一浓度、缓冲液及脉冲序列。建议联合DOSY、弛豫或二维相关谱区分解聚、构象变化与不可逆沉淀。",
+      "publication_date": "2026-08-27",
+      "time_scope": "24h",
+      "source": "Analytical Chemistry",
+      "url": "https://pubs.acs.org/ancham/article/doi/10.1021/acs.analchem.5c07959/5333195/Monitoring-Liraglutide-Oligomeric-Interconversion",
+      "doi": "10.1021/acs.analchem.5c07959",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-28",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-28.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "药物与质量分析"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-28.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "高压NMR追踪利拉鲁肽寡聚体转化与纤维解离；研究采用高压NMR原位观察利拉鲁肽聚集体系，在受控压力下区分寡聚体相互转化及纤维解离过程。压力作为可逆扰动变量，可解析常压谱中被平均或受交换展宽影响的构象状态，为多肽药物聚集机理和制剂稳定性评价提供分子尺度读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pharma",
+          "dimension": "application_ids",
+          "basis": "高压NMR追踪利拉鲁肽寡聚体转化与纤维解离；研究采用高压NMR原位观察利拉鲁肽聚集体系，在受控压力下区分寡聚体相互转化及纤维解离过程。压力作为可逆扰动变量，可解析常压谱中被平均或受交换展宽影响的构象状态，为多肽药物聚集机理和制剂稳定性评价提供分子尺度读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "高压NMR追踪利拉鲁肽寡聚体转化与纤维解离",
+        "original_summary_cn": "研究采用高压NMR原位观察利拉鲁肽聚集体系，在受控压力下区分寡聚体相互转化及纤维解离过程。压力作为可逆扰动变量，可解析常压谱中被平均或受交换展宽影响的构象状态，为多肽药物聚集机理和制剂稳定性评价提供分子尺度读出。",
+        "original_meaning_cn": "应用时需配置耐压NMR管路或高压样品池，记录压力、温度、加压速率和平衡时间；谱图比较应统一浓度、缓冲液及脉冲序列。建议联合DOSY、弛豫或二维相关谱区分解聚、构象变化与不可逆沉淀。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "生命科学",
+          "药物与质量分析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260828-02",
+      "report_date": "2026-08-28",
+      "item_no": 2,
+      "title_cn": "¹⁹⁵Pt固体NMR监测晶格限域Pt位点的基元反应",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "reaction_monitoring"
+      ],
+      "application_ids": [
+        "inorganic_coordination",
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究在晶体晶格内构建位点隔离的阳离子Pt中心，并以¹⁹⁵Pt固体NMR识别固—气反应前后金属局部配位环境的变化。该方法用于单晶XRD或三维电子衍射难以处理的反应产物，直接把过渡金属核信号与原子尺度活性位结构联系起来。",
+      "meaning_cn": "¹⁹⁵Pt低天然丰度且化学位移范围宽，实验需评估高场磁体、宽带探头、脉冲带宽、回波采集及长时间累加。谱图归属宜结合DFT化学位移计算、XAS和元素分析，并设置反应前后及惰性气氛对照。",
+      "publication_date": "2026-08-27",
+      "time_scope": "24h",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c12374/5339413/Monitoring-In-Crystallo-Elementary-Steps-at",
+      "doi": "10.1021/jacs.6c12374",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-28",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-28.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "计算NMR",
+          "催化",
+          "无机与配位化学"
+        ],
+        "original_type": "固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-28.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "¹⁹⁵Pt固体NMR监测晶格限域Pt位点的基元反应；研究在晶体晶格内构建位点隔离的阳离子Pt中心，并以¹⁹⁵Pt固体NMR识别固—气反应前后金属局部配位环境的变化。该方法用于单晶XRD或三维电子衍射难以处理的反应产物，直接把过渡金属核信号与原子尺度活性位结构联系起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solid_state_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "¹⁹⁵Pt固体NMR监测晶格限域Pt位点的基元反应；研究在晶体晶格内构建位点隔离的阳离子Pt中心，并以¹⁹⁵Pt固体NMR识别固—气反应前后金属局部配位环境的变化。该方法用于单晶XRD或三维电子衍射难以处理的反应产物，直接把过渡金属核信号与原子尺度活性位结构联系起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "reaction_monitoring",
+          "dimension": "method_ids",
+          "basis": "¹⁹⁵Pt固体NMR监测晶格限域Pt位点的基元反应；研究在晶体晶格内构建位点隔离的阳离子Pt中心，并以¹⁹⁵Pt固体NMR识别固—气反应前后金属局部配位环境的变化。该方法用于单晶XRD或三维电子衍射难以处理的反应产物，直接把过渡金属核信号与原子尺度活性位结构联系起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "inorganic_coordination",
+          "dimension": "application_ids",
+          "basis": "¹⁹⁵Pt固体NMR监测晶格限域Pt位点的基元反应；研究在晶体晶格内构建位点隔离的阳离子Pt中心，并以¹⁹⁵Pt固体NMR识别固—气反应前后金属局部配位环境的变化。该方法用于单晶XRD或三维电子衍射难以处理的反应产物，直接把过渡金属核信号与原子尺度活性位结构联系起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "¹⁹⁵Pt固体NMR监测晶格限域Pt位点的基元反应；研究在晶体晶格内构建位点隔离的阳离子Pt中心，并以¹⁹⁵Pt固体NMR识别固—气反应前后金属局部配位环境的变化。该方法用于单晶XRD或三维电子衍射难以处理的反应产物，直接把过渡金属核信号与原子尺度活性位结构联系起来。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "¹⁹⁵Pt固体NMR监测晶格限域Pt位点的基元反应",
+        "original_summary_cn": "研究在晶体晶格内构建位点隔离的阳离子Pt中心，并以¹⁹⁵Pt固体NMR识别固—气反应前后金属局部配位环境的变化。该方法用于单晶XRD或三维电子衍射难以处理的反应产物，直接把过渡金属核信号与原子尺度活性位结构联系起来。",
+        "original_meaning_cn": "¹⁹⁵Pt低天然丰度且化学位移范围宽，实验需评估高场磁体、宽带探头、脉冲带宽、回波采集及长时间累加。谱图归属宜结合DFT化学位移计算、XAS和元素分析，并设置反应前后及惰性气氛对照。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多核NMR",
+          "计算NMR",
+          "催化",
+          "无机与配位化学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260828-03",
+      "report_date": "2026-08-28",
+      "item_no": 3,
+      "title_cn": "国仪量子公布Q波段脉冲EPR与AI谱图处理技术议程",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "spectral_processing"
+      ],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "国仪量子公布EFEPR 2026报告内容：Q波段脉冲EPR采用固态功率放大，π/2脉冲短于10 ns；软件模型基于超过10万组真实与模拟数据训练，面向自动拟合、组分表征、实验报告生成及后续实验建议。",
+      "meaning_cn": "硬件比较需核对短脉冲对应的谐振器类型、样品负载、有效激发带宽及功率标定条件。软件验证应使用盲测谱图，分别统计参数偏差、组分识别率、拟合残差及复杂基线下的稳定性。",
+      "publication_date": "2026-08-27",
+      "time_scope": "24h",
+      "source": "CIQTEK Global",
+      "url": "https://it.ciqtekglobal.com/ciqtek-at-efepr-2026-next-generation-q-band-epr-and-ai-driven-spectral-processing_n356",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-28",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-28.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "DEER/PELDOR",
+          "仪器、软件与方法",
+          "结构生物学"
+        ],
+        "original_type": "脉冲EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-28.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "国仪量子公布Q波段脉冲EPR与AI谱图处理技术议程；国仪量子公布EFEPR 2026报告内容：Q波段脉冲EPR采用固态功率放大，π/2脉冲短于10 ns；软件模型基于超过10万组真实与模拟数据训练，面向自动拟合、组分表征、实验报告生成及后续实验建议。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "国仪量子公布Q波段脉冲EPR与AI谱图处理技术议程；国仪量子公布EFEPR 2026报告内容：Q波段脉冲EPR采用固态功率放大，π/2脉冲短于10 ns；软件模型基于超过10万组真实与模拟数据训练，面向自动拟合、组分表征、实验报告生成及后续实验建议。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spectral_processing",
+          "dimension": "method_ids",
+          "basis": "国仪量子公布Q波段脉冲EPR与AI谱图处理技术议程；国仪量子公布EFEPR 2026报告内容：Q波段脉冲EPR采用固态功率放大，π/2脉冲短于10 ns；软件模型基于超过10万组真实与模拟数据训练，面向自动拟合、组分表征、实验报告生成及后续实验建议。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "国仪量子公布Q波段脉冲EPR与AI谱图处理技术议程；国仪量子公布EFEPR 2026报告内容：Q波段脉冲EPR采用固态功率放大，π/2脉冲短于10 ns；软件模型基于超过10万组真实与模拟数据训练，面向自动拟合、组分表征、实验报告生成及后续实验建议。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "国仪量子公布Q波段脉冲EPR与AI谱图处理技术议程",
+        "original_summary_cn": "国仪量子公布EFEPR 2026报告内容：Q波段脉冲EPR采用固态功率放大，π/2脉冲短于10 ns；软件模型基于超过10万组真实与模拟数据训练，面向自动拟合、组分表征、实验报告生成及后续实验建议。",
+        "original_meaning_cn": "硬件比较需核对短脉冲对应的谐振器类型、样品负载、有效激发带宽及功率标定条件。软件验证应使用盲测谱图，分别统计参数偏差、组分识别率、拟合残差及复杂基线下的稳定性。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "DEER/PELDOR",
+          "仪器、软件与方法",
+          "结构生物学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260828-04",
+      "report_date": "2026-08-28",
+      "item_no": 4,
+      "title_cn": "TREPR与脉冲EPR研究苝基MOF中的量子相干",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "time_resolved_epr"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "ACS Fall 2026报告以时间分辨EPR和脉冲EPR研究苝基金属有机框架中的光生自旋态。TREPR识别多个三重态物种，脉冲实验用于考察相干行为，目标是评估该类有序多孔材料作为固态自旋量子比特载体的可行性。",
+      "meaning_cn": "方案需配置脉冲激光同步、低温系统和适合光照的谐振器，并记录激光波长、脉宽、重复频率及光功率。相干性评价应报告T₁、Tₘ、回波相位循环和温度依赖。",
+      "publication_date": "2026-08-27",
+      "time_scope": "24h",
+      "source": "ACS Fall 2026",
+      "url": "https://acs.digitellinc.com/live/37/session/596812",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-28",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-28.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "材料与缺陷表征"
+        ],
+        "original_type": "脉冲EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-28.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "TREPR与脉冲EPR研究苝基MOF中的量子相干；ACS Fall 2026报告以时间分辨EPR和脉冲EPR研究苝基金属有机框架中的光生自旋态。TREPR识别多个三重态物种，脉冲实验用于考察相干行为，目标是评估该类有序多孔材料作为固态自旋量子比特载体的可行性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pulsed_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "TREPR与脉冲EPR研究苝基MOF中的量子相干；ACS Fall 2026报告以时间分辨EPR和脉冲EPR研究苝基金属有机框架中的光生自旋态。TREPR识别多个三重态物种，脉冲实验用于考察相干行为，目标是评估该类有序多孔材料作为固态自旋量子比特载体的可行性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "time_resolved_epr",
+          "dimension": "method_ids",
+          "basis": "TREPR与脉冲EPR研究苝基MOF中的量子相干；ACS Fall 2026报告以时间分辨EPR和脉冲EPR研究苝基金属有机框架中的光生自旋态。TREPR识别多个三重态物种，脉冲实验用于考察相干行为，目标是评估该类有序多孔材料作为固态自旋量子比特载体的可行性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "TREPR与脉冲EPR研究苝基MOF中的量子相干；ACS Fall 2026报告以时间分辨EPR和脉冲EPR研究苝基金属有机框架中的光生自旋态。TREPR识别多个三重态物种，脉冲实验用于考察相干行为，目标是评估该类有序多孔材料作为固态自旋量子比特载体的可行性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "TREPR与脉冲EPR研究苝基MOF中的量子相干",
+        "original_summary_cn": "ACS Fall 2026报告以时间分辨EPR和脉冲EPR研究苝基金属有机框架中的光生自旋态。TREPR识别多个三重态物种，脉冲实验用于考察相干行为，目标是评估该类有序多孔材料作为固态自旋量子比特载体的可行性。",
+        "original_meaning_cn": "方案需配置脉冲激光同步、低温系统和适合光照的谐振器，并记录激光波长、脉宽、重复频率及光功率。相干性评价应报告T₁、Tₘ、回波相位循环和温度依赖。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "材料与缺陷表征"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260828-05",
+      "report_date": "2026-08-28",
+      "item_no": 5,
+      "title_cn": "稳定π共轭亚硝基自由基呈现SOMO–HOMO能级反转",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究合成并分离具有SOMO–HOMO能级反转电子构型的热力学稳定π共轭亚硝基自由基，并结合EPR、晶体结构及计算分析其自旋离域和轨道能级关系。工作提供了可直接表征的稳定开壳层分子模型。",
+      "meaning_cn": "EPR分析应报告溶液与固态g值、超精细耦合、线宽及温度依赖，并用自旋浓度标样排查二聚或杂质自由基。若需比较离域范围，可联合多频EPR、ENDOR或DFT自旋密度。",
+      "publication_date": "2026-08-27",
+      "time_scope": "24h",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c10503/5338818/Thermodynamically-Stabilized-Conjugated-Nitroxide",
+      "doi": "10.1021/jacs.6c10503",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-28",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-28.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "材料与缺陷表征",
+          "化学结构解析"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-28.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "稳定π共轭亚硝基自由基呈现SOMO–HOMO能级反转；研究合成并分离具有SOMO–HOMO能级反转电子构型的热力学稳定π共轭亚硝基自由基，并结合EPR、晶体结构及计算分析其自旋离域和轨道能级关系。工作提供了可直接表征的稳定开壳层分子模型。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "chemical_structure",
+          "dimension": "application_ids",
+          "basis": "稳定π共轭亚硝基自由基呈现SOMO–HOMO能级反转；研究合成并分离具有SOMO–HOMO能级反转电子构型的热力学稳定π共轭亚硝基自由基，并结合EPR、晶体结构及计算分析其自旋离域和轨道能级关系。工作提供了可直接表征的稳定开壳层分子模型。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "稳定π共轭亚硝基自由基呈现SOMO–HOMO能级反转",
+        "original_summary_cn": "研究合成并分离具有SOMO–HOMO能级反转电子构型的热力学稳定π共轭亚硝基自由基，并结合EPR、晶体结构及计算分析其自旋离域和轨道能级关系。工作提供了可直接表征的稳定开壳层分子模型。",
+        "original_meaning_cn": "EPR分析应报告溶液与固态g值、超精细耦合、线宽及温度依赖，并用自旋浓度标样排查二聚或杂质自由基。若需比较离域范围，可联合多频EPR、ENDOR或DFT自旋密度。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "材料与缺陷表征",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260828-06",
+      "report_date": "2026-08-28",
+      "item_no": 6,
+      "title_cn": "EPR检出Mo(V)物种解释质子耦合氧原子转移活化乙炔",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "catalysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究报道质子耦合氧原子转移触发金属体系活化乙炔，并以EPR检出Mo(V)物种，支持反应包含自由基性质的电子转移过程。EPR读出为区分闭壳层路径与开壳层中间体提供了直接依据。",
+      "meaning_cn": "机理验证应设置无底物、无质子源和不同反应时间对照，记录微波功率、调制幅度与温度。若Mo(V)信号存在g与超精细各向异性，宜在低温玻璃态测量并结合模拟。",
+      "publication_date": "2026-08-27",
+      "time_scope": "24h",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c08123/5337803/Proton-Coupled-OAT-Triggers-C2H2-Activation-in-a",
+      "doi": "10.1021/jacs.6c08123",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-28",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-28.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "催化",
+          "无机与配位化学"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-28.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "EPR检出Mo(V)物种解释质子耦合氧原子转移活化乙炔；研究报道质子耦合氧原子转移触发金属体系活化乙炔，并以EPR检出Mo(V)物种，支持反应包含自由基性质的电子转移过程。EPR读出为区分闭壳层路径与开壳层中间体提供了直接依据。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "catalysis",
+          "dimension": "application_ids",
+          "basis": "EPR检出Mo(V)物种解释质子耦合氧原子转移活化乙炔；研究报道质子耦合氧原子转移触发金属体系活化乙炔，并以EPR检出Mo(V)物种，支持反应包含自由基性质的电子转移过程。EPR读出为区分闭壳层路径与开壳层中间体提供了直接依据。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "EPR检出Mo(V)物种解释质子耦合氧原子转移活化乙炔",
+        "original_summary_cn": "研究报道质子耦合氧原子转移触发金属体系活化乙炔，并以EPR检出Mo(V)物种，支持反应包含自由基性质的电子转移过程。EPR读出为区分闭壳层路径与开壳层中间体提供了直接依据。",
+        "original_meaning_cn": "机理验证应设置无底物、无质子源和不同反应时间对照，记录微波功率、调制幅度与温度。若Mo(V)信号存在g与超精细各向异性，宜在低温玻璃态测量并结合模拟。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "催化",
+          "无机与配位化学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260828-07",
+      "report_date": "2026-08-28",
+      "item_no": 7,
+      "title_cn": "自旋捕获EPR解析氧还原中间体与催化稳定性的关系",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "spin_trapping"
+      ],
+      "application_ids": [
+        "catalysis",
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究围绕氧还原反应中间体对催化效率和稳定性的影响展开，并使用DMPO相关EPR谱识别活性自由基物种。EPR结果用于连接反应路径、中间体生成及材料衰减行为，使电化学性能变化具有明确的自旋化学读出。",
+      "meaning_cn": "实验需明确DMPO浓度、捕获时间、溶剂和电解质条件，并设置无催化剂、无偏压及惰性气氛对照。原位方案还需控制气体流量与电极到谐振区的停留时间。",
+      "publication_date": "2026-08-27",
+      "time_scope": "24h",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c03202/5335638/Oxygen-Reduction-Intermediates-Facilitate-Stable",
+      "doi": "10.1021/jacs.6c03202",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-28",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-28.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "自旋捕获",
+          "工况/在线EPR",
+          "电化学与能源",
+          "燃料电池",
+          "催化"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-28.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "自旋捕获EPR解析氧还原中间体与催化稳定性的关系；研究围绕氧还原反应中间体对催化效率和稳定性的影响展开，并使用DMPO相关EPR谱识别活性自由基物种。EPR结果用于连接反应路径、中间体生成及材料衰减行为，使电化学性能变化具有明确的自旋化学读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spin_trapping",
+          "dimension": "method_ids",
+          "basis": "自旋捕获EPR解析氧还原中间体与催化稳定性的关系；研究围绕氧还原反应中间体对催化效率和稳定性的影响展开，并使用DMPO相关EPR谱识别活性自由基物种。EPR结果用于连接反应路径、中间体生成及材料衰减行为，使电化学性能变化具有明确的自旋化学读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "catalysis",
+          "dimension": "application_ids",
+          "basis": "自旋捕获EPR解析氧还原中间体与催化稳定性的关系；研究围绕氧还原反应中间体对催化效率和稳定性的影响展开，并使用DMPO相关EPR谱识别活性自由基物种。EPR结果用于连接反应路径、中间体生成及材料衰减行为，使电化学性能变化具有明确的自旋化学读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "自旋捕获EPR解析氧还原中间体与催化稳定性的关系；研究围绕氧还原反应中间体对催化效率和稳定性的影响展开，并使用DMPO相关EPR谱识别活性自由基物种。EPR结果用于连接反应路径、中间体生成及材料衰减行为，使电化学性能变化具有明确的自旋化学读出。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "自旋捕获EPR解析氧还原中间体与催化稳定性的关系",
+        "original_summary_cn": "研究围绕氧还原反应中间体对催化效率和稳定性的影响展开，并使用DMPO相关EPR谱识别活性自由基物种。EPR结果用于连接反应路径、中间体生成及材料衰减行为，使电化学性能变化具有明确的自旋化学读出。",
+        "original_meaning_cn": "实验需明确DMPO浓度、捕获时间、溶剂和电解质条件，并设置无催化剂、无偏压及惰性气氛对照。原位方案还需控制气体流量与电极到谐振区的停留时间。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "自旋捕获",
+          "工况/在线EPR",
+          "电化学与能源",
+          "燃料电池",
+          "催化"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260828-08",
+      "report_date": "2026-08-28",
+      "item_no": 8,
+      "title_cn": "HRMAS固体NMR用于聚合物非均相结构表征",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "mas"
+      ],
+      "application_ids": [
+        "polymers"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "ACS Fall 2026报告讨论高分辨魔角旋转NMR用于聚合物表征。HRMAS兼顾魔角旋转与样品局部运动带来的窄化，可处理溶胀、交联或多相聚合物中常规溶液NMR难溶、传统固体NMR谱峰较宽的问题。",
+      "meaning_cn": "配置需确认HRMAS探头、转子规格、最高转速、溶剂兼容性及温控范围。实验应记录溶胀溶剂和时间，避免旋转摩擦升温；可联合¹H、¹³C或二维相关实验区分不同链段。",
+      "publication_date": "2026-08-27",
+      "time_scope": "24h",
+      "source": "ACS Fall 2026",
+      "url": "https://acs.digitellinc.com/p/s/hrmas-solid-state-nmr-spectroscopy-as-a-superior-method-for-studying-polymers-669050",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-28",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-28.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多维NMR",
+          "材料与缺陷表征",
+          "聚合物"
+        ],
+        "original_type": "固体NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-28.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "HRMAS固体NMR用于聚合物非均相结构表征；ACS Fall 2026报告讨论高分辨魔角旋转NMR用于聚合物表征。HRMAS兼顾魔角旋转与样品局部运动带来的窄化，可处理溶胀、交联或多相聚合物中常规溶液NMR难溶、传统固体NMR谱峰较宽的问题。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "mas",
+          "dimension": "method_ids",
+          "basis": "HRMAS固体NMR用于聚合物非均相结构表征；ACS Fall 2026报告讨论高分辨魔角旋转NMR用于聚合物表征。HRMAS兼顾魔角旋转与样品局部运动带来的窄化，可处理溶胀、交联或多相聚合物中常规溶液NMR难溶、传统固体NMR谱峰较宽的问题。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "polymers",
+          "dimension": "application_ids",
+          "basis": "HRMAS固体NMR用于聚合物非均相结构表征；ACS Fall 2026报告讨论高分辨魔角旋转NMR用于聚合物表征。HRMAS兼顾魔角旋转与样品局部运动带来的窄化，可处理溶胀、交联或多相聚合物中常规溶液NMR难溶、传统固体NMR谱峰较宽的问题。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "HRMAS固体NMR用于聚合物非均相结构表征",
+        "original_summary_cn": "ACS Fall 2026报告讨论高分辨魔角旋转NMR用于聚合物表征。HRMAS兼顾魔角旋转与样品局部运动带来的窄化，可处理溶胀、交联或多相聚合物中常规溶液NMR难溶、传统固体NMR谱峰较宽的问题。",
+        "original_meaning_cn": "配置需确认HRMAS探头、转子规格、最高转速、溶剂兼容性及温控范围。实验应记录溶胀溶剂和时间，避免旋转摩擦升温；可联合¹H、¹³C或二维相关实验区分不同链段。",
+        "original_tags": [
+          "NMR",
+          "固体NMR",
+          "多维NMR",
+          "材料与缺陷表征",
+          "聚合物"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260828-09",
+      "report_date": "2026-08-28",
+      "item_no": 9,
+      "title_cn": "光诱导量子点—有机分子共轭体生成自旋量子比特对",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "ACS Fall 2026报告研究ZnO量子点与有机染料连接后产生的光诱导自旋对，并以EPR检测半导体量子点—分子界面的自旋状态。该体系面向通过光激发生成、操控并读取成对电子自旋的材料设计。",
+      "meaning_cn": "实验需同步激光与EPR时序，分别测量未连接量子点、自由染料和共轭体。需报告激发波长、光功率、延迟时间、温度及暗态背景，并以回波、Rabi振荡和相干时间评价可操作性。",
+      "publication_date": "2026-08-27",
+      "time_scope": "24h",
+      "source": "ACS Fall 2026",
+      "url": "https://acs.digitellinc.com/live/37/session/596815",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-28",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-28.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "材料与缺陷表征"
+        ],
+        "original_type": "脉冲EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-28.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "光诱导量子点—有机分子共轭体生成自旋量子比特对；ACS Fall 2026报告研究ZnO量子点与有机染料连接后产生的光诱导自旋对，并以EPR检测半导体量子点—分子界面的自旋状态。该体系面向通过光激发生成、操控并读取成对电子自旋的材料设计。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "materials",
+          "dimension": "application_ids",
+          "basis": "光诱导量子点—有机分子共轭体生成自旋量子比特对；ACS Fall 2026报告研究ZnO量子点与有机染料连接后产生的光诱导自旋对，并以EPR检测半导体量子点—分子界面的自旋状态。该体系面向通过光激发生成、操控并读取成对电子自旋的材料设计。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "光诱导量子点—有机分子共轭体生成自旋量子比特对",
+        "original_summary_cn": "ACS Fall 2026报告研究ZnO量子点与有机染料连接后产生的光诱导自旋对，并以EPR检测半导体量子点—分子界面的自旋状态。该体系面向通过光激发生成、操控并读取成对电子自旋的材料设计。",
+        "original_meaning_cn": "实验需同步激光与EPR时序，分别测量未连接量子点、自由染料和共轭体。需报告激发波长、光功率、延迟时间、温度及暗态背景，并以回波、Rabi振荡和相干时间评价可操作性。",
+        "original_tags": [
+          "EPR",
+          "脉冲EPR",
+          "时间分辨EPR",
+          "材料与缺陷表征"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "本期共9条，均为2026-08-27发布或举行的高相关信息，属于近24小时范围；检索不足10条，未用低相关内容补足。已按历史索引检查DOI、规范化URL和标题，排除2条历史重复。待复核标签：无。",
+    "source_sha256": "976e3e8bef4aee9ab28eb7e39d370ae8bb8887ac2f666be109fb9f9107783d05",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

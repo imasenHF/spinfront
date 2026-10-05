@@ -1,0 +1,331 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-07",
+  "scope_note": "本期收录3条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260907-01",
+      "report_date": "2026-09-07",
+      "item_no": 1,
+      "title_cn": "HYP26在哥廷根启动，覆盖DNP、PHIP与超极化硬件",
+      "direction_ids": [
+        "nmr_epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "dnp",
+        "phip"
+      ],
+      "application_ids": [
+        "education_training"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "International Hyperpolarization Conference 2026于9月6日在德国哥廷根大学开幕，会期至9月10日。官方议题覆盖动态核极化、对氢诱导极化、自旋交换光泵、自旋物理、硬件开发、理论模拟与应用；约200名参会者参与特邀报告、投稿报告、百余场短讲圆桌及海报交流。",
+      "meaning_cn": "技术跟踪应按极化路线分别记录磁场、温度、自由基或催化剂、微波/激光参数、build-up时间和转移损失。d-DNP需核对溶解及传输死时间，PHIP需检查成对加氢比例与催化剂残留，SEOP则应记录气体组成、压力和光泵效率；跨平台比较统一以绝对极化度和重复性为准。",
+      "publication_date": "2026-09-06",
+      "time_scope": "24h",
+      "source": "HYP26 International Hyperpolarization Conference",
+      "url": "https://hyp26.org/",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-07",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-07.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR + EPR",
+          "溶液NMR",
+          "固体NMR",
+          "脉冲EPR",
+          "仪器、软件与方法",
+          "培训与会议"
+        ],
+        "original_type": "溶液NMR / 固体NMR / 脉冲EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-07.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr_epr",
+          "dimension": "direction_ids",
+          "basis": "HYP26在哥廷根启动，覆盖DNP、PHIP与超极化硬件；International Hyperpolarization Conference 2026于9月6日在德国哥廷根大学开幕，会期至9月10日。官方议题覆盖动态核极化、对氢诱导极化、自旋交换光泵、自旋物理、硬件开发、理论模拟与应用；约200名参会者参与特邀报告、投稿报告、百余场短讲圆桌及海报交流。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "dnp",
+          "dimension": "method_ids",
+          "basis": "HYP26在哥廷根启动，覆盖DNP、PHIP与超极化硬件；International Hyperpolarization Conference 2026于9月6日在德国哥廷根大学开幕，会期至9月10日。官方议题覆盖动态核极化、对氢诱导极化、自旋交换光泵、自旋物理、硬件开发、理论模拟与应用；约200名参会者参与特邀报告、投稿报告、百余场短讲圆桌及海报交流。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "phip",
+          "dimension": "method_ids",
+          "basis": "HYP26在哥廷根启动，覆盖DNP、PHIP与超极化硬件；International Hyperpolarization Conference 2026于9月6日在德国哥廷根大学开幕，会期至9月10日。官方议题覆盖动态核极化、对氢诱导极化、自旋交换光泵、自旋物理、硬件开发、理论模拟与应用；约200名参会者参与特邀报告、投稿报告、百余场短讲圆桌及海报交流。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "education_training",
+          "dimension": "application_ids",
+          "basis": "HYP26在哥廷根启动，覆盖DNP、PHIP与超极化硬件；International Hyperpolarization Conference 2026于9月6日在德国哥廷根大学开幕，会期至9月10日。官方议题覆盖动态核极化、对氢诱导极化、自旋交换光泵、自旋物理、硬件开发、理论模拟与应用；约200名参会者参与特邀报告、投稿报告、百余场短讲圆桌及海报交流。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "HYP26在哥廷根启动，覆盖DNP、PHIP与超极化硬件",
+        "original_summary_cn": "International Hyperpolarization Conference 2026于9月6日在德国哥廷根大学开幕，会期至9月10日。官方议题覆盖动态核极化、对氢诱导极化、自旋交换光泵、自旋物理、硬件开发、理论模拟与应用；约200名参会者参与特邀报告、投稿报告、百余场短讲圆桌及海报交流。",
+        "original_meaning_cn": "技术跟踪应按极化路线分别记录磁场、温度、自由基或催化剂、微波/激光参数、build-up时间和转移损失。d-DNP需核对溶解及传输死时间，PHIP需检查成对加氢比例与催化剂残留，SEOP则应记录气体组成、压力和光泵效率；跨平台比较统一以绝对极化度和重复性为准。",
+        "original_tags": [
+          "NMR + EPR",
+          "溶液NMR",
+          "固体NMR",
+          "脉冲EPR",
+          "仪器、软件与方法",
+          "培训与会议"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260907-02",
+      "report_date": "2026-09-07",
+      "item_no": 2,
+      "title_cn": "NMR-DOSY追踪PVA–硼砂凝胶的链簇扩散与网络松弛",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "dosy"
+      ],
+      "application_ids": [
+        "polymers"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "ChemRxiv发布聚乙烯醇与硼砂水溶液的链簇扩散和网络松弛研究。作者以NMR-DOSY测量不同条件下聚合物相关组分的扩散，并与流变松弛相联系；温度变化会改变透明凝胶的慢松弛机制，说明宏观黏弹行为不能只用单一交联寿命解释。",
+      "meaning_cn": "复现实验需统一PVA分子量、浓度、硼砂比例、pH、温度历史和静置时间；DOSY应报告梯度脉冲形状、δ/Δ、梯度标定、对流抑制及黏度修正。扩散组分拟合不宜预设单指数，应同时比较残差和分布稳定性，并用相同样品的频率扫描或应力松弛数据检验链簇尺度与网络时间尺度的对应关系。",
+      "publication_date": "2026-09-03",
+      "time_scope": "7d_extension",
+      "source": "ChemRxiv",
+      "url": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15008274/v1",
+      "doi": "10.26434/chemrxiv.15008274",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-07",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-07.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "材料与缺陷表征",
+          "聚合物"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-07.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "NMR-DOSY追踪PVA–硼砂凝胶的链簇扩散与网络松弛；ChemRxiv发布聚乙烯醇与硼砂水溶液的链簇扩散和网络松弛研究。作者以NMR-DOSY测量不同条件下聚合物相关组分的扩散，并与流变松弛相联系；温度变化会改变透明凝胶的慢松弛机制，说明宏观黏弹行为不能只用单一交联寿命解释。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "NMR-DOSY追踪PVA–硼砂凝胶的链簇扩散与网络松弛；ChemRxiv发布聚乙烯醇与硼砂水溶液的链簇扩散和网络松弛研究。作者以NMR-DOSY测量不同条件下聚合物相关组分的扩散，并与流变松弛相联系；温度变化会改变透明凝胶的慢松弛机制，说明宏观黏弹行为不能只用单一交联寿命解释。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "dosy",
+          "dimension": "method_ids",
+          "basis": "NMR-DOSY追踪PVA–硼砂凝胶的链簇扩散与网络松弛；ChemRxiv发布聚乙烯醇与硼砂水溶液的链簇扩散和网络松弛研究。作者以NMR-DOSY测量不同条件下聚合物相关组分的扩散，并与流变松弛相联系；温度变化会改变透明凝胶的慢松弛机制，说明宏观黏弹行为不能只用单一交联寿命解释。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "polymers",
+          "dimension": "application_ids",
+          "basis": "NMR-DOSY追踪PVA–硼砂凝胶的链簇扩散与网络松弛；ChemRxiv发布聚乙烯醇与硼砂水溶液的链簇扩散和网络松弛研究。作者以NMR-DOSY测量不同条件下聚合物相关组分的扩散，并与流变松弛相联系；温度变化会改变透明凝胶的慢松弛机制，说明宏观黏弹行为不能只用单一交联寿命解释。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "NMR-DOSY追踪PVA–硼砂凝胶的链簇扩散与网络松弛",
+        "original_summary_cn": "ChemRxiv发布聚乙烯醇与硼砂水溶液的链簇扩散和网络松弛研究。作者以NMR-DOSY测量不同条件下聚合物相关组分的扩散，并与流变松弛相联系；温度变化会改变透明凝胶的慢松弛机制，说明宏观黏弹行为不能只用单一交联寿命解释。",
+        "original_meaning_cn": "复现实验需统一PVA分子量、浓度、硼砂比例、pH、温度历史和静置时间；DOSY应报告梯度脉冲形状、δ/Δ、梯度标定、对流抑制及黏度修正。扩散组分拟合不宜预设单指数，应同时比较残差和分布稳定性，并用相同样品的频率扫描或应力松弛数据检验链簇尺度与网络时间尺度的对应关系。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多维NMR",
+          "材料与缺陷表征",
+          "聚合物"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260907-03",
+      "report_date": "2026-09-07",
+      "item_no": 3,
+      "title_cn": "南京师范大学600 MHz液体NMR采购完成评审",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "procurement"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "tender",
+      "summary_cn": "南京师范大学600 MHz液体核磁共振波谱仪采购项目于9月4日完成评审。项目预算600万元，拟购一套系统，用于复杂有机化合物、高分子材料和天然产物的高分辨结构分析；公开结果显示评审总得分79.37，招标文件同时明确本项目不接受进口产品投标。",
+      "meaning_cn": "后续合同与验收应把国产化声明同整机、探头、前放、梯度及软件的产地和兼容性逐项对应。性能测试需明确¹H/¹³C灵敏度样品、线宽与线形条件、90°脉宽、梯度强度、变温范围和多维谱稳定性；若配置自动进样，还应检查样品位识别、温度平衡时间及批量数据命名。",
+      "publication_date": "2026-09-04",
+      "time_scope": "7d_extension",
+      "source": "江苏政府采购信息 / 机电设备采购平台",
+      "url": "https://www.chinamae.com/purchases/3f7b2d1f72e0bc66a8589e457b537106.html",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-07",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-07.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "仪器、软件与方法",
+          "采购与行业",
+          "化学结构解析",
+          "天然产物",
+          "聚合物"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-07.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "南京师范大学600 MHz液体NMR采购完成评审；南京师范大学600 MHz液体核磁共振波谱仪采购项目于9月4日完成评审。项目预算600万元，拟购一套系统，用于复杂有机化合物、高分子材料和天然产物的高分辨结构分析；公开结果显示评审总得分79.37，招标文件同时明确本项目不接受进口产品投标。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "procurement",
+          "dimension": "application_ids",
+          "basis": "南京师范大学600 MHz液体NMR采购完成评审；南京师范大学600 MHz液体核磁共振波谱仪采购项目于9月4日完成评审。项目预算600万元，拟购一套系统，用于复杂有机化合物、高分子材料和天然产物的高分辨结构分析；公开结果显示评审总得分79.37，招标文件同时明确本项目不接受进口产品投标。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "南京师范大学600 MHz液体NMR采购完成评审",
+        "original_summary_cn": "南京师范大学600 MHz液体核磁共振波谱仪采购项目于9月4日完成评审。项目预算600万元，拟购一套系统，用于复杂有机化合物、高分子材料和天然产物的高分辨结构分析；公开结果显示评审总得分79.37，招标文件同时明确本项目不接受进口产品投标。",
+        "original_meaning_cn": "后续合同与验收应把国产化声明同整机、探头、前放、梯度及软件的产地和兼容性逐项对应。性能测试需明确¹H/¹³C灵敏度样品、线宽与线形条件、90°脉宽、梯度强度、变温范围和多维谱稳定性；若配置自动进样，还应检查样品位识别、温度平衡时间及批量数据命名。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "多维NMR",
+          "仪器、软件与方法",
+          "采购与行业",
+          "化学结构解析",
+          "天然产物",
+          "聚合物"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "常规检索在过去24小时内所得合格新增少于5条，首轮增强搜索扩展至近7天后仍少于8条，已继续启动第二级深度增强检索。检索逐日回扫2026年8月31日至9月6日，逐站核验专业期刊的Latest Articles、Articles in Press、Early View、ASAP与Online First页面，并分别检查预印本及文献数据库、NMR/EPR厂商、专业会议和中外采购公告；方法词按高分辨液体NMR、固体NMR/MAS/DNP、低场与TD-NMR、谱图处理、CW与rapid-scan EPR、脉冲EPR/DEER/ENDOR/ESEEM/HYSCORE、TREPR、operando/EC-EPR及仪器部件拆分检索。本期最终收录3条：1条为2026年9月6日发生的近24小时信息，2条为9月3日至4日的近7天扩展。结合最近7期正文与项目索引查重，排除9条既有记录；另排除12条实际日期无法确认、仅更新卷期或抓取时间、常驻产品页及仅把NMR/EPR作为辅助表征的候选。最终不足10条主要由周末低产出、索引延迟和日期不可核验造成。待复核标签：DNP、PHIP、SEOP与DOSY保留在样品体系和正文中，未创建新的正式ID。",
+    "source_sha256": "9b3af983452310b0f688459e560b2f14f569501ab6425b607227b9f0fd8cb6fb",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

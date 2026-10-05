@@ -1,0 +1,308 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-09-10",
+  "scope_note": "本期收录3条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260910-01",
+      "report_date": "2026-09-10",
+      "item_no": 1,
+      "title_cn": "超导微谐振器面向薄膜与金属酶EPR表征",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "instrument_component_ids": [
+        "resonator"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "ChemRxiv上线一项超导微谐振器研究，面向从功能薄膜到金属酶的EPR测量。工作以微型谐振结构改善小体积、低自旋数样品与微波磁场的耦合，讨论同一器件路线跨材料和生物无机体系的适用性，为常规腔体难以处理的薄层样品提供新的检测几何。",
+      "meaning_cn": "评估时应记录谐振频率、品质因数、模式体积、样品覆盖面积、温度和静磁场方向，并分别测量空载与装样后的频移和Q值。薄膜需控制厚度、基底损耗与取向；金属酶还要核对缓冲盐、含水量、冷冻方式及器件表面兼容性。",
+      "publication_date": "2026-09-09",
+      "time_scope": "24h",
+      "source": "ChemRxiv",
+      "url": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15008536/v1",
+      "doi": "10.26434/chemrxiv.15008536",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-10",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-10.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "仪器、软件与方法",
+          "材料与缺陷表征",
+          "生命科学"
+        ],
+        "original_type": "脉冲EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-10.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "超导微谐振器面向薄膜与金属酶EPR表征；ChemRxiv上线一项超导微谐振器研究，面向从功能薄膜到金属酶的EPR测量。工作以微型谐振结构改善小体积、低自旋数样品与微波磁场的耦合，讨论同一器件路线跨材料和生物无机体系的适用性，为常规腔体难以处理的薄层样品提供新的检测几何。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "instrumentation",
+          "dimension": "application_ids",
+          "basis": "超导微谐振器面向薄膜与金属酶EPR表征；ChemRxiv上线一项超导微谐振器研究，面向从功能薄膜到金属酶的EPR测量。工作以微型谐振结构改善小体积、低自旋数样品与微波磁场的耦合，讨论同一器件路线跨材料和生物无机体系的适用性，为常规腔体难以处理的薄层样品提供新的检测几何。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "resonator",
+          "dimension": "instrument_component_ids",
+          "basis": "超导微谐振器面向薄膜与金属酶EPR表征；ChemRxiv上线一项超导微谐振器研究，面向从功能薄膜到金属酶的EPR测量。工作以微型谐振结构改善小体积、低自旋数样品与微波磁场的耦合，讨论同一器件路线跨材料和生物无机体系的适用性，为常规腔体难以处理的薄层样品提供新的检测几何。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "超导微谐振器面向薄膜与金属酶EPR表征",
+        "original_summary_cn": "ChemRxiv上线一项超导微谐振器研究，面向从功能薄膜到金属酶的EPR测量。工作以微型谐振结构改善小体积、低自旋数样品与微波磁场的耦合，讨论同一器件路线跨材料和生物无机体系的适用性，为常规腔体难以处理的薄层样品提供新的检测几何。",
+        "original_meaning_cn": "评估时应记录谐振频率、品质因数、模式体积、样品覆盖面积、温度和静磁场方向，并分别测量空载与装样后的频移和Q值。薄膜需控制厚度、基底损耗与取向；金属酶还要核对缓冲盐、含水量、冷冻方式及器件表面兼容性。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "脉冲EPR",
+          "仪器、软件与方法",
+          "材料与缺陷表征",
+          "生命科学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260910-02",
+      "report_date": "2026-09-10",
+      "item_no": 2,
+      "title_cn": "SPWLA NMR SIG进入试验台参观与岩心核磁技术交流",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "SPWLA 2026 NMR SIG在德国Celle进入会前技术活动，9月9日安排Baker Hughes试验台参观，正式会议于9月10—11日举行。论坛专门讨论NMR岩石物理、井下测井、岩心分析、数据处理和传感器技术，内容直接关联低场核磁硬件与地层评价流程。",
+      "meaning_cn": "技术比较应把实验室岩心仪与井下传感器分开记录，重点核对静磁场梯度、回波间隔、探测深度、温压范围、天线结构和运动条件下的信噪比。岩心—测井对比还需统一含水饱和度、盐度、温度及T₁/T₂反演模型。",
+      "publication_date": "2026-09-09",
+      "time_scope": "24h",
+      "source": "Society of Petrophysicists and Well Log Analysts",
+      "url": "https://www.spwla.org/SPWLA/SPWLA/Meetings_Resources/Event_Display.aspx?EventKey=26NMRSIG",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-10",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-10.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "TD-NMR",
+          "地学与流动",
+          "仪器、软件与方法",
+          "教育培训"
+        ],
+        "original_type": "TD-NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-10.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "SPWLA NMR SIG进入试验台参观与岩心核磁技术交流；SPWLA 2026 NMR SIG在德国Celle进入会前技术活动，9月9日安排Baker Hughes试验台参观，正式会议于9月10—11日举行。论坛专门讨论NMR岩石物理、井下测井、岩心分析、数据处理和传感器技术，内容直接关联低场核磁硬件与地层评价流程。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "geoscience_flow",
+          "dimension": "application_ids",
+          "basis": "SPWLA NMR SIG进入试验台参观与岩心核磁技术交流；SPWLA 2026 NMR SIG在德国Celle进入会前技术活动，9月9日安排Baker Hughes试验台参观，正式会议于9月10—11日举行。论坛专门讨论NMR岩石物理、井下测井、岩心分析、数据处理和传感器技术，内容直接关联低场核磁硬件与地层评价流程。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "SPWLA NMR SIG进入试验台参观与岩心核磁技术交流",
+        "original_summary_cn": "SPWLA 2026 NMR SIG在德国Celle进入会前技术活动，9月9日安排Baker Hughes试验台参观，正式会议于9月10—11日举行。论坛专门讨论NMR岩石物理、井下测井、岩心分析、数据处理和传感器技术，内容直接关联低场核磁硬件与地层评价流程。",
+        "original_meaning_cn": "技术比较应把实验室岩心仪与井下传感器分开记录，重点核对静磁场梯度、回波间隔、探测深度、温压范围、天线结构和运动条件下的信噪比。岩心—测井对比还需统一含水饱和度、盐度、温度及T₁/T₂反演模型。",
+        "original_tags": [
+          "NMR",
+          "TD-NMR",
+          "地学与流动",
+          "仪器、软件与方法",
+          "教育培训"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260910-03",
+      "report_date": "2026-09-10",
+      "item_no": 3,
+      "title_cn": "单NV中心检出表面固定含氟DNA的纳米尺度NMR",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "nanomagnetic_resonance"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "arXiv预印本以金刚石纳米柱波导中的单个近表面NV中心，在室温条件下检测共价固定的¹⁹F标记寡核苷酸。概率自旋模拟表明信号与少数分子尺度相符，并显示NV—分子距离、连接构型和表面异质性会显著改变读出，为表面生物分子的纳米NMR提供实验框架。",
+      "meaning_cn": "复现实验需控制NV深度、纳米柱几何、表面氮/氧终止比例、DNA连接密度及¹⁹F标记位置。采集应报告脉冲序列、磁场、NV相干时间和重复次数；数据拟合要把单NV深度不确定度、表面覆盖分布与背景¹⁹F信号纳入模型。",
+      "publication_date": "2026-09-04",
+      "time_scope": "7d_extension",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2609.05570",
+      "doi": "10.48550/arxiv.2609.05570",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-09-10",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-09-10.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "多核NMR",
+          "生命科学",
+          "结构生物学",
+          "仪器、软件与方法"
+        ],
+        "original_type": "纳米NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "09/SpinFront_2026-09-10.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "单NV中心检出表面固定含氟DNA的纳米尺度NMR；arXiv预印本以金刚石纳米柱波导中的单个近表面NV中心，在室温条件下检测共价固定的¹⁹F标记寡核苷酸。概率自旋模拟表明信号与少数分子尺度相符，并显示NV—分子距离、连接构型和表面异质性会显著改变读出，为表面生物分子的纳米NMR提供实验框架。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "nanomagnetic_resonance",
+          "dimension": "method_ids",
+          "basis": "单NV中心检出表面固定含氟DNA的纳米尺度NMR；arXiv预印本以金刚石纳米柱波导中的单个近表面NV中心，在室温条件下检测共价固定的¹⁹F标记寡核苷酸。概率自旋模拟表明信号与少数分子尺度相符，并显示NV—分子距离、连接构型和表面异质性会显著改变读出，为表面生物分子的纳米NMR提供实验框架。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "单NV中心检出表面固定含氟DNA的纳米尺度NMR；arXiv预印本以金刚石纳米柱波导中的单个近表面NV中心，在室温条件下检测共价固定的¹⁹F标记寡核苷酸。概率自旋模拟表明信号与少数分子尺度相符，并显示NV—分子距离、连接构型和表面异质性会显著改变读出，为表面生物分子的纳米NMR提供实验框架。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "单NV中心检出表面固定含氟DNA的纳米尺度NMR",
+        "original_summary_cn": "arXiv预印本以金刚石纳米柱波导中的单个近表面NV中心，在室温条件下检测共价固定的¹⁹F标记寡核苷酸。概率自旋模拟表明信号与少数分子尺度相符，并显示NV—分子距离、连接构型和表面异质性会显著改变读出，为表面生物分子的纳米NMR提供实验框架。",
+        "original_meaning_cn": "复现实验需控制NV深度、纳米柱几何、表面氮/氧终止比例、DNA连接密度及¹⁹F标记位置。采集应报告脉冲序列、磁场、NV相干时间和重复次数；数据拟合要把单NV深度不确定度、表面覆盖分布与背景¹⁹F信号纳入模型。",
+        "original_tags": [
+          "NMR",
+          "多核NMR",
+          "生命科学",
+          "结构生物学",
+          "仪器、软件与方法"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "常规检索在过去24小时内所得合格新增少于5条，首轮增强检索扩展至近7天后仍少于8条，已继续执行第二级深度增强检索。检索逐日回扫2026年9月3日至9日，覆盖专业期刊、预印本与文献元数据、仪器厂商、专业会议及中外采购公告，并按液体NMR、固体NMR/MAS/DNP、低场与TD-NMR、谱图处理、CW与rapid-scan EPR、脉冲EPR、TREPR、operando/EC-EPR及仪器部件分组核验。本期最终收录3条：2条为9月9日发布或举行的近24小时信息，1条为9月4日的近7天扩展。结合最近7期正文与项目索引查重，排除11条既有记录；另排除16条日期无法独立确认、常驻产品页、仅更新刊期或仅将NMR/EPR作为辅助表征的候选。最终不足10条主要来自近7天既有覆盖较多、期刊索引延迟及可核验新增较少。待复核标签：超导微谐振器、井下核磁试验台和NV中心纳米NMR保留在样品体系与正文中，未创建新的正式ID。",
+    "source_sha256": "a327cba8fd6ca9d589b4f53f4cce3b95d507cf1f3269648820c1bb14b684f07d",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

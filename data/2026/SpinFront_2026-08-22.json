@@ -1,0 +1,997 @@
+{
+  "schema_version": "1.4-tag-reviewed",
+  "taxonomy_version": "1.0.0",
+  "report_date": "2026-08-22",
+  "scope_note": "本期收录10条NMR/EPR及直接相关技术信息。条目日期与近24小时、近7天分类沿用历史记录，尚未完成全部原始来源的日期复核。",
+  "items": [
+    {
+      "item_id": "SF-20260822-01",
+      "report_date": "2026-08-22",
+      "item_no": 1,
+      "title_cn": "CW-EPR解析AcrA铰链微环境的路径依赖重排",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "cw_epr"
+      ],
+      "method_ids": [
+        "spin_labeling"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究以位点特异性自旋标记和CW-EPR考察AcrA适配蛋白铰链区域。不同化学处理路径产生可区分的谱线形状与运动性变化，说明局部构象重排受到样品经历影响。EPR由标签转动受限程度读取局部环境，适合补充静态结构方法难以描述的柔性状态。",
+      "meaning_cn": "蛋白自旋标记实验需统一标记位点、还原条件、温度、黏度和处理顺序，并保留空白蛋白及自由标签对照。谱图比较宜同时报告线宽、运动相关参数与双积分。",
+      "publication_date": "2026-08-21",
+      "time_scope": "24h",
+      "source": "Biochemistry / ACS",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.biochem.6c00276",
+      "doi": "10.1021/acs.biochem.6c00276",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-22",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-22.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "自旋标记",
+          "生命科学",
+          "结构生物学",
+          "化学结构解析"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-22.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "CW-EPR解析AcrA铰链微环境的路径依赖重排；研究以位点特异性自旋标记和CW-EPR考察AcrA适配蛋白铰链区域。不同化学处理路径产生可区分的谱线形状与运动性变化，说明局部构象重排受到样品经历影响。EPR由标签转动受限程度读取局部环境，适合补充静态结构方法难以描述的柔性状态。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "cw_epr",
+          "dimension": "experiment_type_ids",
+          "basis": "CW-EPR解析AcrA铰链微环境的路径依赖重排；研究以位点特异性自旋标记和CW-EPR考察AcrA适配蛋白铰链区域。不同化学处理路径产生可区分的谱线形状与运动性变化，说明局部构象重排受到样品经历影响。EPR由标签转动受限程度读取局部环境，适合补充静态结构方法难以描述的柔性状态。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spin_labeling",
+          "dimension": "method_ids",
+          "basis": "CW-EPR解析AcrA铰链微环境的路径依赖重排；研究以位点特异性自旋标记和CW-EPR考察AcrA适配蛋白铰链区域。不同化学处理路径产生可区分的谱线形状与运动性变化，说明局部构象重排受到样品经历影响。EPR由标签转动受限程度读取局部环境，适合补充静态结构方法难以描述的柔性状态。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "CW-EPR解析AcrA铰链微环境的路径依赖重排；研究以位点特异性自旋标记和CW-EPR考察AcrA适配蛋白铰链区域。不同化学处理路径产生可区分的谱线形状与运动性变化，说明局部构象重排受到样品经历影响。EPR由标签转动受限程度读取局部环境，适合补充静态结构方法难以描述的柔性状态。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "CW-EPR解析AcrA铰链微环境的路径依赖重排",
+        "original_summary_cn": "研究以位点特异性自旋标记和CW-EPR考察AcrA适配蛋白铰链区域。不同化学处理路径产生可区分的谱线形状与运动性变化，说明局部构象重排受到样品经历影响。EPR由标签转动受限程度读取局部环境，适合补充静态结构方法难以描述的柔性状态。",
+        "original_meaning_cn": "蛋白自旋标记实验需统一标记位点、还原条件、温度、黏度和处理顺序，并保留空白蛋白及自由标签对照。谱图比较宜同时报告线宽、运动相关参数与双积分。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "自旋标记",
+          "生命科学",
+          "结构生物学",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260822-02",
+      "report_date": "2026-08-22",
+      "item_no": 2,
+      "title_cn": "非自由基PMS体系以EPR区分活性物种路径",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "spin_trapping"
+      ],
+      "application_ids": [
+        "environmental_catalysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "论文研究过一硫酸盐类Fenton反应中的非自由基氧化路径，并结合捕获实验与EPR辨认反应物种。分析重点在自由基加合物信号与非自由基氧化现象之间的一致性，避免仅依据单一淬灭剂判断机理，对复杂水基体中的活性物种归属具有直接参考价值。",
+      "meaning_cn": "环境催化EPR应并行设置DMPO、TEMP等捕获体系，固定混合至采集的时间延迟，并检查溶剂、pH和催化剂本征信号。阴性对照与时间序列比单点谱图更可靠。",
+      "publication_date": "2026-08-21",
+      "time_scope": "24h",
+      "source": "Journal of Environmental Chemical Engineering",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2213343726036912",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-22",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-22.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "自旋捕获",
+          "催化",
+          "环境催化",
+          "环境与污染控制"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-22.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "非自由基PMS体系以EPR区分活性物种路径；论文研究过一硫酸盐类Fenton反应中的非自由基氧化路径，并结合捕获实验与EPR辨认反应物种。分析重点在自由基加合物信号与非自由基氧化现象之间的一致性，避免仅依据单一淬灭剂判断机理，对复杂水基体中的活性物种归属具有直接参考价值。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "spin_trapping",
+          "dimension": "method_ids",
+          "basis": "非自由基PMS体系以EPR区分活性物种路径；论文研究过一硫酸盐类Fenton反应中的非自由基氧化路径，并结合捕获实验与EPR辨认反应物种。分析重点在自由基加合物信号与非自由基氧化现象之间的一致性，避免仅依据单一淬灭剂判断机理，对复杂水基体中的活性物种归属具有直接参考价值。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "environmental_catalysis",
+          "dimension": "application_ids",
+          "basis": "非自由基PMS体系以EPR区分活性物种路径；论文研究过一硫酸盐类Fenton反应中的非自由基氧化路径，并结合捕获实验与EPR辨认反应物种。分析重点在自由基加合物信号与非自由基氧化现象之间的一致性，避免仅依据单一淬灭剂判断机理，对复杂水基体中的活性物种归属具有直接参考价值。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "非自由基PMS体系以EPR区分活性物种路径",
+        "original_summary_cn": "论文研究过一硫酸盐类Fenton反应中的非自由基氧化路径，并结合捕获实验与EPR辨认反应物种。分析重点在自由基加合物信号与非自由基氧化现象之间的一致性，避免仅依据单一淬灭剂判断机理，对复杂水基体中的活性物种归属具有直接参考价值。",
+        "original_meaning_cn": "环境催化EPR应并行设置DMPO、TEMP等捕获体系，固定混合至采集的时间延迟，并检查溶剂、pH和催化剂本征信号。阴性对照与时间序列比单点谱图更可靠。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "自旋捕获",
+          "催化",
+          "环境催化",
+          "环境与污染控制"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260822-03",
+      "report_date": "2026-08-22",
+      "item_no": 3,
+      "title_cn": "MoS₂@Fe₃O₄缺陷界面体系用EPR追踪硫空位与自由基",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "defect_epr"
+      ],
+      "application_ids": [
+        "environmental_catalysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究构建富硫空位MoS₂@Fe₃O₄异质界面，用于双酚A氧化。EPR用于观察缺陷相关电子态及反应阶段的自由基信号，并与界面电子转移和自由基、非自由基并行路径联系。材料缺陷与反应中间体由同一谱学手段连续考察，是该工作的主要方法特征。",
+      "meaning_cn": "可采用暗态、反应态和猝灭态三组谱图区分缺陷中心与捕获加合物。方案需关注磁性Fe₃O₄导致的基线和展宽，并控制样品浓度以避免腔体Q值明显下降。",
+      "publication_date": "2026-08-21",
+      "time_scope": "24h",
+      "source": "Journal of Colloid and Interface Science",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0021979726015705",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-22",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-22.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "缺陷EPR",
+          "材料与缺陷表征"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-22.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "MoS₂@Fe₃O₄缺陷界面体系用EPR追踪硫空位与自由基；研究构建富硫空位MoS₂@Fe₃O₄异质界面，用于双酚A氧化。EPR用于观察缺陷相关电子态及反应阶段的自由基信号，并与界面电子转移和自由基、非自由基并行路径联系。材料缺陷与反应中间体由同一谱学手段连续考察，是该工作的主要方法特征。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "defect_epr",
+          "dimension": "method_ids",
+          "basis": "MoS₂@Fe₃O₄缺陷界面体系用EPR追踪硫空位与自由基；研究构建富硫空位MoS₂@Fe₃O₄异质界面，用于双酚A氧化。EPR用于观察缺陷相关电子态及反应阶段的自由基信号，并与界面电子转移和自由基、非自由基并行路径联系。材料缺陷与反应中间体由同一谱学手段连续考察，是该工作的主要方法特征。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "environmental_catalysis",
+          "dimension": "application_ids",
+          "basis": "MoS₂@Fe₃O₄缺陷界面体系用EPR追踪硫空位与自由基；研究构建富硫空位MoS₂@Fe₃O₄异质界面，用于双酚A氧化。EPR用于观察缺陷相关电子态及反应阶段的自由基信号，并与界面电子转移和自由基、非自由基并行路径联系。材料缺陷与反应中间体由同一谱学手段连续考察，是该工作的主要方法特征。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "MoS₂@Fe₃O₄缺陷界面体系用EPR追踪硫空位与自由基",
+        "original_summary_cn": "研究构建富硫空位MoS₂@Fe₃O₄异质界面，用于双酚A氧化。EPR用于观察缺陷相关电子态及反应阶段的自由基信号，并与界面电子转移和自由基、非自由基并行路径联系。材料缺陷与反应中间体由同一谱学手段连续考察，是该工作的主要方法特征。",
+        "original_meaning_cn": "可采用暗态、反应态和猝灭态三组谱图区分缺陷中心与捕获加合物。方案需关注磁性Fe₃O₄导致的基线和展宽，并控制样品浓度以避免腔体Q值明显下降。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "缺陷EPR",
+          "材料与缺陷表征"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260822-04",
+      "report_date": "2026-08-22",
+      "item_no": 4,
+      "title_cn": "X-band EPR确认太阳能驱动光催化中的自由基中间体",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "photocatalysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "论文报道无贵金属太阳能驱动的一锅光催化合成体系，并在9.41 GHz MiniScope X-band EPR上检测反应相关自由基。EPR与光催化性能、捕获实验及反应条件对照共同用于判断电子转移路径，体现常温台式X波段设备在光催化机理筛查中的实用性。",
+      "meaning_cn": "应用方案可突出常温X波段、原位照光和快速进样。采集记录应包含微波功率、调制幅度、光源光谱、照射时间与氧气条件，避免把饱和或过调制谱线用于定量比较。",
+      "publication_date": "2026-08-21",
+      "time_scope": "24h",
+      "source": "Catalysis Today",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0920586126002841",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-22",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-22.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "催化",
+          "光催化"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-22.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "X-band EPR确认太阳能驱动光催化中的自由基中间体；论文报道无贵金属太阳能驱动的一锅光催化合成体系，并在9.41 GHz MiniScope X-band EPR上检测反应相关自由基。EPR与光催化性能、捕获实验及反应条件对照共同用于判断电子转移路径，体现常温台式X波段设备在光催化机理筛查中的实用性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "photocatalysis",
+          "dimension": "application_ids",
+          "basis": "X-band EPR确认太阳能驱动光催化中的自由基中间体；论文报道无贵金属太阳能驱动的一锅光催化合成体系，并在9.41 GHz MiniScope X-band EPR上检测反应相关自由基。EPR与光催化性能、捕获实验及反应条件对照共同用于判断电子转移路径，体现常温台式X波段设备在光催化机理筛查中的实用性。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "X-band EPR确认太阳能驱动光催化中的自由基中间体",
+        "original_summary_cn": "论文报道无贵金属太阳能驱动的一锅光催化合成体系，并在9.41 GHz MiniScope X-band EPR上检测反应相关自由基。EPR与光催化性能、捕获实验及反应条件对照共同用于判断电子转移路径，体现常温台式X波段设备在光催化机理筛查中的实用性。",
+        "original_meaning_cn": "应用方案可突出常温X波段、原位照光和快速进样。采集记录应包含微波功率、调制幅度、光源光谱、照射时间与氧气条件，避免把饱和或过调制谱线用于定量比较。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "催化",
+          "光催化"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260822-05",
+      "report_date": "2026-08-22",
+      "item_no": 5,
+      "title_cn": "ZnO/TiO₂界面EPR比较光生•OH与•O₂⁻",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "photocatalysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究比较不同晶面关联的ZnO/TiO₂界面在光催化净化中的行为。TPD和XPS用于分析表面吸附，EPR则比较光照后•OH与•O₂⁻相关信号，结果指向界面结构对电荷分离和活性氧生成比例的调节作用，适合展示原位EPR对界面反应的时间分辨观察。",
+      "meaning_cn": "需分别设置暗态、单组分和异质界面对照，并统一DMPO浓度、光照剂量及扫描起始时刻。若比较峰强，应同步检查腔体负载和样品介电损耗。",
+      "publication_date": "2026-08-21",
+      "time_scope": "24h",
+      "source": "Separation and Purification Technology",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1383586626031060",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-22",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-22.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "自旋捕获",
+          "工况/在线EPR",
+          "催化",
+          "光催化",
+          "环境催化",
+          "材料与缺陷表征",
+          "化学结构解析"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-22.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "ZnO/TiO₂界面EPR比较光生•OH与•O₂⁻；研究比较不同晶面关联的ZnO/TiO₂界面在光催化净化中的行为。TPD和XPS用于分析表面吸附，EPR则比较光照后•OH与•O₂⁻相关信号，结果指向界面结构对电荷分离和活性氧生成比例的调节作用，适合展示原位EPR对界面反应的时间分辨观察。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "photocatalysis",
+          "dimension": "application_ids",
+          "basis": "ZnO/TiO₂界面EPR比较光生•OH与•O₂⁻；研究比较不同晶面关联的ZnO/TiO₂界面在光催化净化中的行为。TPD和XPS用于分析表面吸附，EPR则比较光照后•OH与•O₂⁻相关信号，结果指向界面结构对电荷分离和活性氧生成比例的调节作用，适合展示原位EPR对界面反应的时间分辨观察。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "ZnO/TiO₂界面EPR比较光生•OH与•O₂⁻",
+        "original_summary_cn": "研究比较不同晶面关联的ZnO/TiO₂界面在光催化净化中的行为。TPD和XPS用于分析表面吸附，EPR则比较光照后•OH与•O₂⁻相关信号，结果指向界面结构对电荷分离和活性氧生成比例的调节作用，适合展示原位EPR对界面反应的时间分辨观察。",
+        "original_meaning_cn": "需分别设置暗态、单组分和异质界面对照，并统一DMPO浓度、光照剂量及扫描起始时刻。若比较峰强，应同步检查腔体负载和样品介电损耗。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "自旋捕获",
+          "工况/在线EPR",
+          "催化",
+          "光催化",
+          "环境催化",
+          "材料与缺陷表征",
+          "化学结构解析"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260822-06",
+      "report_date": "2026-08-22",
+      "item_no": 6,
+      "title_cn": "EPR验证单电子转移驱动的亲核取代反应",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "catalysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究通过实验、EPR与计算化学分析单电子转移驱动的亲核取代过程。EPR用于直接检查开壳层中间体，使反应路径判断不再仅依赖产物分布和自由基钟。该工作适合关注有机反应机理、自由基离子及电子转移化学的用户。",
+      "meaning_cn": "实验设计需采用无氧制样、快速冻结或原位混合，并结合自旋捕获、自由基钟和DFT超精细耦合常数。模拟谱与实测谱的g值、A值及线宽应使用同一单位比较。",
+      "publication_date": "2026-08-20",
+      "time_scope": "7d_extension",
+      "source": "RSC Chemical Science",
+      "url": "https://doi.org/10.1039/D6QI01448H",
+      "doi": "10.1039/d6qi01448h",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-22",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-22.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "自旋捕获",
+          "材料与缺陷表征"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-22.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "EPR验证单电子转移驱动的亲核取代反应；研究通过实验、EPR与计算化学分析单电子转移驱动的亲核取代过程。EPR用于直接检查开壳层中间体，使反应路径判断不再仅依赖产物分布和自由基钟。该工作适合关注有机反应机理、自由基离子及电子转移化学的用户。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "catalysis",
+          "dimension": "application_ids",
+          "basis": "EPR验证单电子转移驱动的亲核取代反应；研究通过实验、EPR与计算化学分析单电子转移驱动的亲核取代过程。EPR用于直接检查开壳层中间体，使反应路径判断不再仅依赖产物分布和自由基钟。该工作适合关注有机反应机理、自由基离子及电子转移化学的用户。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "EPR验证单电子转移驱动的亲核取代反应",
+        "original_summary_cn": "研究通过实验、EPR与计算化学分析单电子转移驱动的亲核取代过程。EPR用于直接检查开壳层中间体，使反应路径判断不再仅依赖产物分布和自由基钟。该工作适合关注有机反应机理、自由基离子及电子转移化学的用户。",
+        "original_meaning_cn": "实验设计需采用无氧制样、快速冻结或原位混合，并结合自旋捕获、自由基钟和DFT超精细耦合常数。模拟谱与实测谱的g值、A值及线宽应使用同一单位比较。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "自旋捕获",
+          "材料与缺陷表征"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260822-07",
+      "report_date": "2026-08-22",
+      "item_no": 7,
+      "title_cn": "AI设计低功率宽带通用NMR脉冲并应用于¹⁹F",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究利用算法设计低功率宽带通用π/2和π脉冲，并在¹⁹F NMR中验证。设计目标同时考虑频率偏置、B₁不均匀性和射频能量，使较低峰值功率下仍可获得宽带激发或反转。该方向直接关联高场宽谱宽核、探头功率负荷与脉冲校准。",
+      "meaning_cn": "仪器验证应比较有效带宽、最大B₁、脉冲时长、积分误差和不同偏置下的相位误差，并记录占空比与探头温升。¹⁹F宽化学位移范围是较严格的测试对象。",
+      "publication_date": "2026-08-20",
+      "time_scope": "7d_extension",
+      "source": "Journal of Magnetic Resonance",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1090780726001473",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-22",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-22.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "仪器、软件与方法"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-22.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "AI设计低功率宽带通用NMR脉冲并应用于¹⁹F；研究利用算法设计低功率宽带通用π/2和π脉冲，并在¹⁹F NMR中验证。设计目标同时考虑频率偏置、B₁不均匀性和射频能量，使较低峰值功率下仍可获得宽带激发或反转。该方向直接关联高场宽谱宽核、探头功率负荷与脉冲校准。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "solution_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "AI设计低功率宽带通用NMR脉冲并应用于¹⁹F；研究利用算法设计低功率宽带通用π/2和π脉冲，并在¹⁹F NMR中验证。设计目标同时考虑频率偏置、B₁不均匀性和射频能量，使较低峰值功率下仍可获得宽带激发或反转。该方向直接关联高场宽谱宽核、探头功率负荷与脉冲校准。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "instrumentation",
+          "dimension": "application_ids",
+          "basis": "AI设计低功率宽带通用NMR脉冲并应用于¹⁹F；研究利用算法设计低功率宽带通用π/2和π脉冲，并在¹⁹F NMR中验证。设计目标同时考虑频率偏置、B₁不均匀性和射频能量，使较低峰值功率下仍可获得宽带激发或反转。该方向直接关联高场宽谱宽核、探头功率负荷与脉冲校准。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "AI设计低功率宽带通用NMR脉冲并应用于¹⁹F",
+        "original_summary_cn": "研究利用算法设计低功率宽带通用π/2和π脉冲，并在¹⁹F NMR中验证。设计目标同时考虑频率偏置、B₁不均匀性和射频能量，使较低峰值功率下仍可获得宽带激发或反转。该方向直接关联高场宽谱宽核、探头功率负荷与脉冲校准。",
+        "original_meaning_cn": "仪器验证应比较有效带宽、最大B₁、脉冲时长、积分误差和不同偏置下的相位误差，并记录占空比与探头温升。¹⁹F宽化学位移范围是较严格的测试对象。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "多核NMR",
+          "仪器、软件与方法"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    },
+    {
+      "item_id": "SF-20260822-08",
+      "report_date": "2026-08-22",
+      "item_no": 8,
+      "title_cn": "NMR综述聚焦生物分子凝聚体的双相状态",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "review",
+      "summary_cn": "综述总结NMR研究生物分子凝聚体双相状态的方法，重点涉及稀相与浓相之间的组分分配、分子交换、局部运动及构象变化。凝聚体高黏度、峰展宽和相间交换会改变常规谱图，因此样品状态确认与弛豫、扩散和交换实验的组合尤为重要。",
+      "meaning_cn": "方案需评估高浓度样品兼容性、温控均匀性、锁场稳定性和短T₂信号采集。可组合DOSY、弛豫、交换谱与选择性观测，并把相分离前后谱图作为基础对照。",
+      "publication_date": "2026-08-19",
+      "time_scope": "7d_extension",
+      "source": "Progress in Nuclear Magnetic Resonance Spectroscopy",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0079656526000191",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-22",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-22.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "生命科学",
+          "结构生物学"
+        ],
+        "original_type": "溶液NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-22.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "NMR综述聚焦生物分子凝聚体的双相状态；综述总结NMR研究生物分子凝聚体双相状态的方法，重点涉及稀相与浓相之间的组分分配、分子交换、局部运动及构象变化。凝聚体高黏度、峰展宽和相间交换会改变常规谱图，因此样品状态确认与弛豫、扩散和交换实验的组合尤为重要。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "structural_biology",
+          "dimension": "application_ids",
+          "basis": "NMR综述聚焦生物分子凝聚体的双相状态；综述总结NMR研究生物分子凝聚体双相状态的方法，重点涉及稀相与浓相之间的组分分配、分子交换、局部运动及构象变化。凝聚体高黏度、峰展宽和相间交换会改变常规谱图，因此样品状态确认与弛豫、扩散和交换实验的组合尤为重要。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "NMR综述聚焦生物分子凝聚体的双相状态",
+        "original_summary_cn": "综述总结NMR研究生物分子凝聚体双相状态的方法，重点涉及稀相与浓相之间的组分分配、分子交换、局部运动及构象变化。凝聚体高黏度、峰展宽和相间交换会改变常规谱图，因此样品状态确认与弛豫、扩散和交换实验的组合尤为重要。",
+        "original_meaning_cn": "方案需评估高浓度样品兼容性、温控均匀性、锁场稳定性和短T₂信号采集。可组合DOSY、弛豫、交换谱与选择性观测，并把相分离前后谱图作为基础对照。",
+        "original_tags": [
+          "NMR",
+          "溶液NMR",
+          "生命科学",
+          "结构生物学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260822-09",
+      "report_date": "2026-08-22",
+      "item_no": 9,
+      "title_cn": "时间分辨EPR观察Fe(III)配合物光诱导自旋交叉",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "time_resolved_epr"
+      ],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "研究采用时间分辨EPR与DFT考察五齿Schiff碱Fe(III)配合物的光诱导自旋交叉。时间分辨谱用于区分光激发后不同自旋多重态及其衰减行为，计算结果用于解释自旋态能级和可能的系间窜越路径，适合分子磁性与光控自旋研究。",
+      "meaning_cn": "需要明确激光波长、脉宽、重复频率、延迟时间窗和温度。瞬态信号归属应结合暗态CW-EPR、功率依赖、温度依赖和零场分裂参数，避免只依据单一瞬态峰判断自旋态。",
+      "publication_date": "2026-08-18",
+      "time_scope": "7d_extension",
+      "source": "Journal of Photochemistry and Photobiology A",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0301010426003836",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-22",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-22.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "时间分辨EPR",
+          "化学结构解析",
+          "无机与配位化学"
+        ],
+        "original_type": "连续波EPR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-22.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "epr",
+          "dimension": "direction_ids",
+          "basis": "时间分辨EPR观察Fe(III)配合物光诱导自旋交叉；研究采用时间分辨EPR与DFT考察五齿Schiff碱Fe(III)配合物的光诱导自旋交叉。时间分辨谱用于区分光激发后不同自旋多重态及其衰减行为，计算结果用于解释自旋态能级和可能的系间窜越路径，适合分子磁性与光控自旋研究。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "time_resolved_epr",
+          "dimension": "method_ids",
+          "basis": "时间分辨EPR观察Fe(III)配合物光诱导自旋交叉；研究采用时间分辨EPR与DFT考察五齿Schiff碱Fe(III)配合物的光诱导自旋交叉。时间分辨谱用于区分光激发后不同自旋多重态及其衰减行为，计算结果用于解释自旋态能级和可能的系间窜越路径，适合分子磁性与光控自旋研究。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "inorganic_coordination",
+          "dimension": "application_ids",
+          "basis": "时间分辨EPR观察Fe(III)配合物光诱导自旋交叉；研究采用时间分辨EPR与DFT考察五齿Schiff碱Fe(III)配合物的光诱导自旋交叉。时间分辨谱用于区分光激发后不同自旋多重态及其衰减行为，计算结果用于解释自旋态能级和可能的系间窜越路径，适合分子磁性与光控自旋研究。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "时间分辨EPR观察Fe(III)配合物光诱导自旋交叉",
+        "original_summary_cn": "研究采用时间分辨EPR与DFT考察五齿Schiff碱Fe(III)配合物的光诱导自旋交叉。时间分辨谱用于区分光激发后不同自旋多重态及其衰减行为，计算结果用于解释自旋态能级和可能的系间窜越路径，适合分子磁性与光控自旋研究。",
+        "original_meaning_cn": "需要明确激光波长、脉宽、重复频率、延迟时间窗和温度。瞬态信号归属应结合暗态CW-EPR、功率依赖、温度依赖和零场分裂参数，避免只依据单一瞬态峰判断自旋态。",
+        "original_tags": [
+          "EPR",
+          "连续波EPR",
+          "时间分辨EPR",
+          "化学结构解析",
+          "无机与配位化学"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": [
+        "所提供内容不足以确定标准实验类型，保留谱学方向及有明确依据的方法。"
+      ]
+    },
+    {
+      "item_id": "SF-20260822-10",
+      "report_date": "2026-08-22",
+      "item_no": 10,
+      "title_cn": "Bruker Ahmedabad站集中展示制药NMR工作流",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "benchtop_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "pharma"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "event",
+      "summary_cn": "Bruker印度Pharma Roadshow于Ahmedabad完成最后一站，议程覆盖肽与TIDES结构分析、生物药高阶结构、80 MHz台式NMR、NOAH超序列、多接收机检测和超快速方法。内容同时面向药物发现、降解物分析、杂质控制及常规QC。",
+      "meaning_cn": "制药用户可按研发、高阶结构比较和常规QC区分配置。交流时需分别说明高场、台式及固体NMR的样品量、自动化程度、数据完整性要求和定量方法验证范围。",
+      "publication_date": "2026-08-21",
+      "time_scope": "24h",
+      "source": "Bruker Pharma Roadshow 2026",
+      "url": "https://www.bruker.com/en/news-and-events/events/indian-pharma-roadshow.html",
+      "doi": null,
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-08-22",
+      "last_updated": null,
+      "report_file": "SpinFront_2026-08-22.html",
+      "provenance": {
+        "content": "extracted_from_supplied_html",
+        "original_tags": [
+          "NMR",
+          "台式NMR",
+          "环境催化",
+          "药物与质量分析",
+          "化学结构解析",
+          "仪器、软件与方法",
+          "采购与行业",
+          "培训与会议"
+        ],
+        "original_type": "台式NMR",
+        "publication_date_verified": false,
+        "time_scope_verified": false,
+        "first_seen_basis": "first occurrence in supplied issue; not discovery timestamp",
+        "information_type_status": "unknown",
+        "source_file": "08/SpinFront_2026-08-22.html"
+      },
+      "taxonomy_version": "1.0.0",
+      "tag_review_status": "approved",
+      "tag_assignments": [
+        {
+          "tag_id": "nmr",
+          "dimension": "direction_ids",
+          "basis": "Bruker Ahmedabad站集中展示制药NMR工作流；Bruker印度Pharma Roadshow于Ahmedabad完成最后一站，议程覆盖肽与TIDES结构分析、生物药高阶结构、80 MHz台式NMR、NOAH超序列、多接收机检测和超快速方法。内容同时面向药物发现、降解物分析、杂质控制及常规QC。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "benchtop_nmr",
+          "dimension": "experiment_type_ids",
+          "basis": "Bruker Ahmedabad站集中展示制药NMR工作流；Bruker印度Pharma Roadshow于Ahmedabad完成最后一站，议程覆盖肽与TIDES结构分析、生物药高阶结构、80 MHz台式NMR、NOAH超序列、多接收机检测和超快速方法。内容同时面向药物发现、降解物分析、杂质控制及常规QC。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        },
+        {
+          "tag_id": "pharma",
+          "dimension": "application_ids",
+          "basis": "Bruker Ahmedabad站集中展示制药NMR工作流；Bruker印度Pharma Roadshow于Ahmedabad完成最后一站，议程覆盖肽与TIDES结构分析、生物药高阶结构、80 MHz台式NMR、NOAH超序列、多接收机检测和超快速方法。内容同时面向药物发现、降解物分析、杂质控制及常规QC。",
+          "basis_location": "supplied_report.title_and_summary",
+          "review_status": "approved",
+          "reviewed_by": "Codex"
+        }
+      ],
+      "revision": {
+        "revision_date": "2026-10-05",
+        "original_title_cn": "Bruker Ahmedabad站集中展示制药NMR工作流",
+        "original_summary_cn": "Bruker印度Pharma Roadshow于Ahmedabad完成最后一站，议程覆盖肽与TIDES结构分析、生物药高阶结构、80 MHz台式NMR、NOAH超序列、多接收机检测和超快速方法。内容同时面向药物发现、降解物分析、杂质控制及常规QC。",
+        "original_meaning_cn": "制药用户可按研发、高阶结构比较和常规QC区分配置。交流时需分别说明高场、台式及固体NMR的样品量、自动化程度、数据完整性要求和定量方法验证范围。",
+        "original_tags": [
+          "NMR",
+          "台式NMR",
+          "环境催化",
+          "药物与质量分析",
+          "化学结构解析",
+          "仪器、软件与方法",
+          "采购与行业",
+          "培训与会议"
+        ],
+        "original_scope_note_preserved_in_issue": true,
+        "fact_verification": "not_completed"
+      },
+      "source_review_status": "unchecked",
+      "date_review_status": "unchecked",
+      "duplicate_review_status": "unchecked",
+      "reviewed_by": "Codex",
+      "tag_reviewed_at": "2026-10-05",
+      "tag_review_basis": "supplied_title_and_summary",
+      "review_note": "依据所提供标题与摘要确定分类；缺少实验形式的条目保留较宽方向，不补造方法及部件。原始来源、日期及科学结论未据全文逐条核查。",
+      "classification_limits": []
+    }
+  ],
+  "revision": {
+    "revision_date": "2026-10-05",
+    "original_scope_note": "本期共10条：6条来自过去24小时，4条为近7天扩展；已按历史索引执行去重。",
+    "source_sha256": "c83afee0359272b7e51bed4b9861f6121a9372e01d131efdb5263473e9a918ff",
+    "source_verification": "not_completed"
+  },
+  "tag_review_note": "标题与摘要内容分类审阅完成；来源、日期及科学结论核查状态独立记录。"
+}

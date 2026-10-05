@@ -1648,6 +1648,25 @@
       "status": "active",
       "approval_status": "active",
       "replaced_by": null
+    },
+    {
+      "id": "quality_control",
+      "dimension": "application_ids",
+      "label_cn": "质量控制与标准物质",
+      "label_en": "Quality control and reference materials",
+      "aliases": [
+        "质量控制",
+        "标准物质",
+        "reference material",
+        "quality control"
+      ],
+      "parent_ids": [],
+      "definition": "以纯度赋值、认证标准物质、溯源性、不确定度或质量控制为主要目的的磁共振分析。",
+      "include_when": "正文明确报告标准物质定值、计量溯源或质量控制流程。",
+      "exclude_when": "潜在应用和讨论中顺带提及不产生领域标签",
+      "status": "active",
+      "approval_status": "active",
+      "replaced_by": null
     }
   ],
   "filter_rules": {
@@ -1864,9 +1883,10 @@
       "id": "process",
       "label_cn": "分析检测与工艺",
       "ids": [
-        "process_analysis"
+        "process_analysis",
+        "quality_control"
       ],
-      "description": "过程分析与工艺监测"
+      "description": "过程监测、质量控制与标准物质"
     },
     {
       "id": "quantum",

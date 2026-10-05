@@ -1219,6 +1219,46 @@
       "reasons": [
         "采购及培训不作为研究应用标签；保留原有信息类型及实际研究对象。"
       ]
+    },
+    {
+      "item_id": "SF-20261001-04",
+      "before": {
+        "application_ids": [
+          "pharma"
+        ],
+        "information_type": "paper"
+      },
+      "after": {
+        "application_ids": [
+          "pharma",
+          "quality_control"
+        ],
+        "information_type": "paper"
+      },
+      "basis": "现有摘要明确ISO 17034认证标准物质、质量分数赋值和SI溯源；未重新核验原始来源。",
+      "reasons": [
+        "补充质量控制与标准物质应用标签，保留药物对象标签。"
+      ]
+    },
+    {
+      "item_id": "SF-20261005-07",
+      "before": {
+        "application_ids": [
+          "pharma"
+        ],
+        "information_type": "paper"
+      },
+      "after": {
+        "application_ids": [
+          "pharma",
+          "quality_control"
+        ],
+        "information_type": "paper"
+      },
+      "basis": "现有摘要明确ISO 17034认证标准物质、质量分数赋值和SI溯源；未重新核验原始来源。",
+      "reasons": [
+        "补充质量控制与标准物质应用标签，保留药物对象标签。"
+      ]
     }
   ]
 }

@@ -1,1 +1,3 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{{TITLE}}</title>{{STYLES}}</head><body><main class="wrap">{{BODY}}</main></body></html>
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{{TITLE}}</title>{{STYLES}}</head><body><main class="wrap">{{BODY}}</main><script>/* Carry archive filters on the explicit return link; no external dependency. */
+(()=>{const value=new URLSearchParams(location.search).get('return');if(!value||!value.startsWith('?'))return;const a=document.querySelector('.archive-link');if(!a)return;const base=new URL(a.href,location.href);if(base.origin!==location.origin)return;const p=new URLSearchParams(value);base.search=p.toString();a.href=base.href;})();
+</script></body></html>

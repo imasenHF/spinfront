@@ -27,3 +27,5 @@
 阅读位置在当前浏览器会话内保存；返回归档时恢复URL条件、加载数量、页面与侧栏位置。来源性质仅使用明确publication_status，或已有product_software/application_note/tender信息类型；unknown论文不冒充正式出版。历史381条均缺少publication_status，不批量推定。后续有来源核验才补写preprint/early_access/published。
 
 quality_control覆盖质量控制、认证标准物质及计量溯源；现有两条qNMR/CRM记录提供新增依据，不因使用qNMR自动添加此应用。日期定位默认收起以优先显示应用筛选，可随时展开日历与日期范围。
+
+从检索结果打开完整条目时，返回链接显式携带筛选条件、视图、已加载数量及滚动位置；即使会话存储不可用，也能返回原检索状态。来源链接不添加这些参数，外部站点不能指定归档返回目标。

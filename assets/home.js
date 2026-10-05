@@ -2,9 +2,10 @@
 (async function(){
 const $=id=>document.getElementById(id),C=SpinSearch,esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 try{
-const [data,tax]=await Promise.all(['search-index.json','taxonomy/taxonomy.json'].map(path=>fetch(path+'?v=1.2.0-r3').then(r=>{if(!r.ok)throw Error(path);return r.json()})));
+const [data,tax]=await Promise.all(['search-index.json','taxonomy/taxonomy.json'].map(path=>fetch(path+'?v=1.2.0-r4').then(r=>{if(!r.ok)throw Error(path);return r.json()})));
 const items=C.prepare(data.items,tax).sort((a,b)=>b.report_date.localeCompare(a.report_date)||a.item_no-b.item_no),latest=data.issues.at(-1).report_date,days=new Map(data.issues.map(d=>[d.report_date,d.item_count])),labels=new Map(tax.tags.map(t=>[t.id,t.label_cn]));
 let state=C.parse(location.search,tax,latest,true),month=(state.date||latest).slice(0,7),limit=20,appFocus='',expanded=new Set();
+const entryParams=new URLSearchParams(location.search);if(entryParams.has('loaded'))limit=Math.max(20,Math.min(items.length,Number(entryParams.get('loaded'))||20));
 const cacheKey='spinfront-reading-v2',saved=(()=>{try{return JSON.parse(sessionStorage.getItem(cacheKey)||'null')}catch{return null}})();
 if(saved&&(saved.url===location.pathname+location.search||(!location.search&&saved.url.split('?')[0]===location.pathname))){if(!location.search&&saved.url.includes('?'))state=C.parse('?'+saved.url.split('?')[1],tax,latest,false);limit=saved.limit||20;appFocus=saved.appFocus||'';month=saved.month||month;expanded=new Set(saved.expanded||[]);}
 $('cal-panel').open=false;if(matchMedia('(max-width:680px)').matches)$('filters').open=false;
@@ -65,7 +66,8 @@ $('more').onclick=()=>{limit+=20;results();persist()};$('filter-toggle').onclick
 const panels=[...document.querySelectorAll('.archive-month-panel')];let archiveMonth=latest.slice(0,7);
 function archive(){const y=$('archive-year').value,months=panels.filter(p=>p.dataset.month.startsWith(y)).map(p=>p.dataset.month);if(!months.includes(archiveMonth))archiveMonth=months[0];$('archive-months').innerHTML=months.map(m=>'<button data-month="'+m+'"'+pressed(m===archiveMonth)+'>'+Number(m.slice(5))+'月</button>').join('');panels.forEach(p=>p.hidden=p.dataset.month!==archiveMonth);$('archive-months').querySelectorAll('button').forEach(b=>b.onclick=()=>{archiveMonth=b.dataset.month;archive()})}
 $('archive-year').onchange=archive;archive();
-$('cal-panel').addEventListener('toggle',persist);$('filters').addEventListener('toggle',persist);window.addEventListener('pagehide',persist);document.addEventListener('click',e=>{if(e.target.closest('a[href]'))persist()});window.addEventListener('popstate',()=>{state=C.parse(location.search,tax,latest,false);month=(state.date||month).slice(0,7);limit=20;render()});history(false);render();
-if(saved&&saved.url===location.pathname+location.search){$('filters').open=saved.filtersOpen??true;$('cal-panel').open=saved.calendarOpen??true;requestAnimationFrame(()=>{document.querySelector('.sidebar').scrollTop=saved.sidebar||0;scrollTo(0,saved.y||0)})}
+$('cal-panel').addEventListener('toggle',persist);$('filters').addEventListener('toggle',persist);window.addEventListener('pagehide',persist);document.addEventListener('click',e=>{const a=e.target.closest('a[href]');if(!a)return;persist();if(a.closest('#results')&&/^\d{4}-\d{2}-\d{2}\//.test(a.getAttribute('href'))){const href=a.getAttribute('href'),hash=href.includes('#')?'#'+href.split('#')[1]:'';const p=new URLSearchParams(C.serialize(state));p.set('pos',Math.round(scrollY));p.set('side',Math.round(document.querySelector('.sidebar').scrollTop));p.set('loaded',limit);a.setAttribute('href',href.split('#')[0]+'?return='+encodeURIComponent('?'+p.toString())+hash)}});window.addEventListener('popstate',()=>{state=C.parse(location.search,tax,latest,false);month=(state.date||month).slice(0,7);limit=20;render()});history(false);render();
+if(saved&&saved.url===location.pathname+location.search){$('filters').open=saved.filtersOpen??true;$('cal-panel').open=saved.calendarOpen??true;requestAnimationFrame(()=>{document.querySelector('.sidebar').scrollTop=saved.sidebar||0;scrollTo({top:saved.y||0,behavior:'instant'})})}
+if(entryParams.has('pos'))requestAnimationFrame(()=>{document.querySelector('.sidebar').scrollTop=Math.min(100000,Math.max(0,Number(entryParams.get('side'))||0));scrollTo({top:Math.min(100000,Math.max(0,Number(entryParams.get('pos'))||0)),behavior:'instant'})});
 }catch(e){$('loading').textContent='归档数据暂时无法加载。请刷新页面，或使用下方日期归档。';console.error(e)}
 })();

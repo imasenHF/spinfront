@@ -1,0 +1,485 @@
+{
+  "schema_version": "1.0",
+  "report_date": "2026-10-07",
+  "retrieval_cutoff": "2026-10-07T06:18:10+08:00",
+  "repository": {
+    "name": "imasenHF/spinfront",
+    "branch": "main",
+    "head_sha": "3b7d8739ce0e81c6f35decea5632fa0953159022",
+    "taxonomy_version": "1.2.0",
+    "full_index_latest_report": "2026-10-06",
+    "full_index_issue_count": 48,
+    "full_index_item_count": 391
+  },
+  "search_summary": {
+    "regular_search_qualified_24h_count": 0,
+    "regular_search_selected_count": 5,
+    "enhanced_search_triggered": true,
+    "enhanced_search_trigger_reason": "来源均缺少可证明落在过去24小时内的精确上线时刻，严格24小时合格条目少于5条",
+    "enhanced_search_candidate_count": 22,
+    "deep_enhanced_search_triggered": false,
+    "deep_enhanced_search_reason": "增强搜索后合格条目达到10条，高于第二级触发阈值8条",
+    "final_item_count": 10,
+    "time_scope_note": "10条来源均只给出日期或正式出版日，无法证明精确落入过去24小时，统一记为7d_extension",
+    "direction_distribution": {"nmr": 10, "epr": 0},
+    "direction_note": "未设置方向配额；当期没有通过新增日期、技术内容和历史查重三项检查的EPR候选"
+  },
+  "deduplication": {
+    "recent_issue_dates": [
+      "2026-09-30",
+      "2026-10-01",
+      "2026-10-02",
+      "2026-10-03",
+      "2026-10-04",
+      "2026-10-05",
+      "2026-10-06"
+    ],
+    "index_basis": "repository HEAD 3b7d8739ce0e81c6f35decea5632fa0953159022; all 48 canonical issue files / 391 items plus the most recent seven issues",
+    "keys": ["normalized_doi", "tracking_parameters_removed_url", "normalized_title"],
+    "duplicate_candidates_excluded": 4,
+    "date_unknown_candidates_excluded": 2,
+    "out_of_window_candidates_excluded": 2,
+    "low_relevance_or_no_increment_candidates_excluded": 4
+  },
+  "search_routes": [
+    {
+      "route": "专业期刊与高影响期刊",
+      "status": "completed",
+      "details": "分别检查JMR、JMR Open、Magnetic Resonance、Journal of Biomolecular NMR、Solid State Nuclear Magnetic Resonance、Magnetic Resonance in Chemistry、Applied Magnetic Resonance，以及Nature、ACS、RSC、Wiley、Springer、Elsevier、AIP和APS的近期条目；收录固体NMR、低场NMR、CP/MAS、临床代谢组与高压NMR内容。"
+    },
+    {
+      "route": "预印本与文献数据库",
+      "status": "completed",
+      "details": "分别检索arXiv、ChemRxiv、PubMed和Crossref；SrCu₂(BO₃)₂的arXiv版本与正式PRB论文按标题和作者合并，只收录10月5日正式版本。"
+    },
+    {
+      "route": "仪器与软件",
+      "status": "completed",
+      "details": "分别检查Bruker、JEOL、Oxford Instruments、Magritek、Nanalysis与CIQTEK的新闻、产品、软件、应用说明及活动页；未发现日期明确且包含新增技术参数的独立发布。"
+    },
+    {
+      "route": "会议与培训",
+      "status": "completed",
+      "details": "检查ENC、EUROMAR、ICMRBS、EFEPR、APES、ISMAR及专业Workshop。Bruker EPR Users’ Meeting于10月6日举行，但公开页只给出概括性活动信息，缺少可核对的独立技术议程，未收录。"
+    },
+    {
+      "route": "采购与政策",
+      "status": "completed",
+      "details": "检查中国政府采购网、全国公共资源交易入口、高校采购页、仪器采购聚合页及SAM.gov；窗口内命中均已收录于近7期，或公告日期早于本期窗口，未新增采购条目。"
+    },
+    {
+      "route": "中国与海外来源分开检索",
+      "status": "completed",
+      "details": "中国路线覆盖政府采购、科研机构、高校与本土厂商；海外路线覆盖期刊平台、PubMed/Crossref、厂商及学会活动。"
+    }
+  ],
+  "method_clusters": [
+    {"cluster": "高分辨液体NMR", "status": "completed", "result": "收录果胶DOSY/qNMR、SIRT1残基分辨NMR及临床NMR代谢与脂蛋白分析"},
+    {"cluster": "固体NMR/MAS/DNP", "status": "completed", "result": "收录PDF-固体NMR联合结构解析、腐殖酸CP/MAS和SnF₂相关固体³¹P NMR；无合格新增DNP条目"},
+    {"cluster": "低场与TD-NMR", "status": "completed", "result": "收录植物油残留正己烷的低场T₂定量方法"},
+    {"cluster": "NMR软件与谱图处理", "status": "completed", "result": "低场T₂条目包含Savitzky–Golay、遗传算法特征筛选和PLS回归；其余命中或已收录、或日期超窗"},
+    {"cluster": "CW/rapid-scan EPR", "status": "completed", "result": "未发现满足新增日期与主要作用门槛的条目"},
+    {"cluster": "脉冲EPR/DEER/ENDOR/ESEEM/HYSCORE", "status": "completed", "result": "TRIM25长程PDS正式论文已在2026-10-06期收录，其他候选无新增"},
+    {"cluster": "TREPR与光照", "status": "completed", "result": "近期Si量子点TREPR论文已在历史日报收录"},
+    {"cluster": "operando/EC-EPR", "status": "completed", "result": "近期电化学原位EPR综述与光电化学偶联条目均与历史DOI重复"},
+    {"cluster": "探头/谐振器/磁体/控制台/自动进样", "status": "completed", "result": "厂商产品常驻页无窗口内新增日期，会议页无可核对的新硬件参数"},
+    {"cluster": "qNMR/NUS/pure shift/DOSY/CEST/DEST/paramagnetic NMR", "status": "completed", "result": "收录果胶DOSY/qNMR；单谱主客体结合常数论文实际Online First为9月3日，排除"}
+  ],
+  "access_notes": [
+    {
+      "target": "部分Elsevier、ACS与OUP DOI落地页",
+      "status": "partial",
+      "detail": "使用Crossref、PubMed及期刊索引共同确认标题、DOI、日期和摘要；正文不可访问时，摘要和具体意义未写入摘要以外的实验细节。"
+    },
+    {
+      "target": "Bruker EPR Users’ Meeting公开页面",
+      "status": "accessible_limited_content",
+      "detail": "页面确认活动日期为2026-10-06，但未给出足以形成独立技术条目的详细议程或新增参数，故排除。"
+    }
+  ],
+  "candidates": [
+    {
+      "title": "Pair distribution function ‘feat.’ solid-state NMR in a combined approach for structure determination of organic molecules",
+      "source": "Communications Chemistry",
+      "normalized_doi": "10.1038/s42004-026-02233-x",
+      "normalized_url": "https://www.nature.com/articles/s42004-026-02233-x",
+      "actual_online_date": "2026-10-06",
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "method_core",
+      "basis": "摘要明确以1D MAS、2D ¹H–¹³C双交叉极化和¹H DQ/SQ MAS约束Global-PDF-Fit候选结构",
+      "source_location": "Nature文章页摘要与方法概述",
+      "decision": "included",
+      "decision_reason": "固体NMR约束直接参与方法设计与无歧义结构判定",
+      "duplicate_key": "doi:10.1038/s42004-026-02233-x",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed_date_only",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "confirmed_from_article_page",
+      "tag_review_status": "approved",
+      "tags": [
+        {"dimension": "direction_ids", "id": "nmr", "reason": "核心方法为固体NMR"},
+        {"dimension": "experiment_type_ids", "id": "solid_state_nmr", "reason": "对象为纳米晶有机固体"},
+        {"dimension": "method_ids", "id": "mas", "reason": "明确使用MAS实验"},
+        {"dimension": "method_ids", "id": "multidimensional_nmr", "reason": "明确使用二维固体NMR"},
+        {"dimension": "method_ids", "id": "cross_polarization", "reason": "明确使用双交叉极化"},
+        {"dimension": "application_ids", "id": "chemical_structure", "reason": "目标为有机固体结构判定"}
+      ]
+    },
+    {
+      "title": "Low-Field NMR T2 Relaxation Signal–Based Quantitative Determination of n-Hexane in Vegetable Oils with Feature Selection Algorithms",
+      "source": "Food Analytical Methods",
+      "normalized_doi": "10.1007/s12161-026-03289-0",
+      "normalized_url": "https://link.springer.com/article/10.1007/s12161-026-03289-0",
+      "actual_online_date": "2026-10-06",
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "method_core",
+      "basis": "摘要给出低场T₂衰减、七类油样、SG-GA-PLS模型、RMSEP和RPD",
+      "source_location": "Springer文章页摘要与元数据",
+      "decision": "included",
+      "decision_reason": "NMR信号及特征选择共同构成残留正己烷定量方法",
+      "duplicate_key": "doi:10.1007/s12161-026-03289-0",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed_date_only",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "confirmed_from_abstract",
+      "tag_review_status": "approved",
+      "tags": [
+        {"dimension": "direction_ids", "id": "nmr", "reason": "低场核磁为核心测量"},
+        {"dimension": "experiment_type_ids", "id": "td_nmr", "reason": "基于T₂衰减与横向弛豫时间"},
+        {"dimension": "method_ids", "id": "relaxometry", "reason": "定量对象来自T₂弛豫"},
+        {"dimension": "method_ids", "id": "spectral_processing", "reason": "SG预处理、遗传算法与PLS为核心流程"},
+        {"dimension": "application_ids", "id": "food_agriculture", "reason": "对象为食用植物油"},
+        {"dimension": "application_ids", "id": "process_analysis", "reason": "面向脱溶过程监控"},
+        {"dimension": "application_ids", "id": "quality_control", "reason": "测量残留加工溶剂"},
+        {"dimension": "instrument_component_ids", "id": "software", "reason": "算法模型是定量过程的一部分"}
+      ]
+    },
+    {
+      "title": "NMR-Derived Metabolic Profiles Associated with Incident Acute Myocardial Infarction and Pre-Diagnostic Metabolic Trajectories in the UK Biobank",
+      "source": "Journal of Proteome Research",
+      "normalized_doi": "10.1021/acs.jproteome.6c00392",
+      "normalized_url": "https://pubs.acs.org/doi/10.1021/acs.jproteome.6c00392",
+      "actual_online_date": "2026-10-06",
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "application_core",
+      "basis": "摘要明确以271430人的168项NMR代谢指标建立AMI风险和诊断前轨迹模型",
+      "source_location": "ACS/Crossref出版商摘要",
+      "decision": "included",
+      "decision_reason": "研究围绕NMR代谢面板和风险评估展开",
+      "duplicate_key": "doi:10.1021/acs.jproteome.6c00392",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed_date_only",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "confirmed_from_abstract",
+      "tag_review_status": "approved",
+      "tags": [
+        {"dimension": "direction_ids", "id": "nmr", "reason": "代谢指标由NMR获得"},
+        {"dimension": "experiment_type_ids", "id": "solution_nmr", "reason": "生物样本代谢分析"},
+        {"dimension": "method_ids", "id": "metabolomics", "reason": "168项代谢指标及轨迹分析"},
+        {"dimension": "application_ids", "id": "life_science", "reason": "心肌梗死风险研究"},
+        {"dimension": "instrument_component_ids", "id": "software", "reason": "CatBoost、SHAP和生存模型为核心分析"}
+      ]
+    },
+    {
+      "title": "Nicotine pouch use induces alterations in salivary metabolites and metabolic pathways. Preliminary study based on NMR spectroscopy",
+      "source": "Nicotine & Tobacco Research",
+      "normalized_doi": "10.1093/ntr/ntag217",
+      "normalized_url": "https://doi.org/10.1093/ntr/ntag217",
+      "actual_online_date": "2026-10-06",
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "application_core",
+      "basis": "摘要明确三类唾液采样、35种NMR定量代谢物及MetaboAnalyst通路结果",
+      "source_location": "PubMed完整摘要与Crossref日期",
+      "decision": "included",
+      "decision_reason": "研究主流程为NMR唾液代谢组比较",
+      "duplicate_key": "doi:10.1093/ntr/ntag217",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed_date_only",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "confirmed_from_abstract",
+      "tag_review_status": "approved",
+      "tags": [
+        {"dimension": "direction_ids", "id": "nmr", "reason": "NMR为代谢物测量平台"},
+        {"dimension": "experiment_type_ids", "id": "solution_nmr", "reason": "样品为唾液"},
+        {"dimension": "method_ids", "id": "metabolomics", "reason": "定量代谢物并进行通路分析"},
+        {"dimension": "application_ids", "id": "life_science", "reason": "研究尼古丁使用与唾液代谢"},
+        {"dimension": "instrument_component_ids", "id": "software", "reason": "MetaboAnalyst参与通路分析"}
+      ]
+    },
+    {
+      "title": "The Influence of CP/MAS 13C NMR Spectral Parameters on the Analysis of the Molecular Structure of Humic Acids",
+      "source": "Eurasian Soil Science",
+      "normalized_doi": "10.1134/s1064229326602179",
+      "normalized_url": "https://link.springer.com/article/10.1134/s1064229326602179",
+      "actual_online_date": "2026-10-06",
+      "publication_status": "published",
+      "magnetic_resonance_role": "method_core",
+      "basis": "摘要系统比较CP接触时间对各¹³C谱区及T₁ρH估算的影响",
+      "source_location": "Springer文章页摘要与Crossref日期",
+      "decision": "included",
+      "decision_reason": "直接检验CP/MAS参数对定量解释的偏差",
+      "duplicate_key": "doi:10.1134/s1064229326602179",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed_date_only",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "confirmed_from_abstract",
+      "tag_review_status": "approved",
+      "tags": [
+        {"dimension": "direction_ids", "id": "nmr", "reason": "核心方法为¹³C NMR"},
+        {"dimension": "experiment_type_ids", "id": "solid_state_nmr", "reason": "腐殖酸固体样品"},
+        {"dimension": "method_ids", "id": "mas", "reason": "明确为MAS"},
+        {"dimension": "method_ids", "id": "cross_polarization", "reason": "核心变量为CP接触时间"},
+        {"dimension": "application_ids", "id": "environment", "reason": "样品来自永久冻土影响泥炭土"}
+      ]
+    },
+    {
+      "title": "Determination of the weight-average molecular weight and monomer composition of sugar beet pulp pectin using NMR spectra",
+      "source": "International Journal of Biological Macromolecules",
+      "normalized_doi": "10.1016/j.ijbiomac.2026.154734",
+      "normalized_url": "https://doi.org/10.1016/j.ijbiomac.2026.154734",
+      "actual_online_date": "2026-10-05",
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "method_core",
+      "basis": "摘要给出DOSY水动力半径和分子量、¹H/¹³C/COSY/HSQC指认及zg30外标qNMR参数",
+      "source_location": "PubMed完整摘要与Crossref日期",
+      "decision": "included",
+      "decision_reason": "NMR直接完成分子量与单糖组成测量",
+      "duplicate_key": "doi:10.1016/j.ijbiomac.2026.154734",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed_date_only",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "confirmed_from_abstract",
+      "tag_review_status": "approved",
+      "tags": [
+        {"dimension": "direction_ids", "id": "nmr", "reason": "组合方法全部基于NMR"},
+        {"dimension": "experiment_type_ids", "id": "solution_nmr", "reason": "果胶水解与扩散测量为溶液实验"},
+        {"dimension": "method_ids", "id": "dosy", "reason": "用扩散系数计算水动力半径和分子量"},
+        {"dimension": "method_ids", "id": "qnmr", "reason": "zg30外标测定单糖摩尔比"},
+        {"dimension": "method_ids", "id": "multinuclear_nmr", "reason": "明确使用¹H与¹³C"},
+        {"dimension": "method_ids", "id": "multidimensional_nmr", "reason": "明确使用COSY和HSQC"},
+        {"dimension": "application_ids", "id": "food_agriculture", "reason": "原料为制糖副产物甜菜浆果胶"},
+        {"dimension": "application_ids", "id": "chemical_structure", "reason": "确定果胶单糖组成与支化特征"}
+      ]
+    },
+    {
+      "title": "NMR evidence of pressure-induced structural transition and enhanced spin fluctuations up to 14 GPa in SrCu2(BO3)2",
+      "source": "Physical Review B",
+      "normalized_doi": "10.1103/6bxt-c4zm",
+      "normalized_url": "https://journals.aps.org/prb/abstract/10.1103/6bxt-c4zm",
+      "actual_online_date": "2026-10-05",
+      "publication_status": "published",
+      "magnetic_resonance_role": "key_evidence",
+      "basis": "¹¹B NMR谱线、场依赖劈裂和1/T₁分别判定压力相变及三个温区的磁关联",
+      "source_location": "APS文章页摘要、出版日期和DOI",
+      "decision": "included",
+      "decision_reason": "NMR观测直接决定主要结构与磁性结论；预印本和正式版合并",
+      "duplicate_key": "doi:10.1103/6bxt-c4zm|arxiv:2609.06472",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed_date_only",
+      "duplicate_review_status": "clear_formal_version_preferred",
+      "scientific_review_status": "confirmed_from_article_page",
+      "tag_review_status": "approved",
+      "tags": [
+        {"dimension": "direction_ids", "id": "nmr", "reason": "核心实验为¹¹B NMR"},
+        {"dimension": "experiment_type_ids", "id": "solid_state_nmr", "reason": "研究固体量子磁体"},
+        {"dimension": "application_ids", "id": "quantum_spin", "reason": "明确研究磁阻挫、自旋涨落和反铁磁相"}
+      ]
+    },
+    {
+      "title": "Stannous Fluoride: NMR Characterization and Antibacterial Activity by Microbiome Analysis",
+      "source": "Journal of Dentistry",
+      "normalized_doi": "10.1016/j.jdent.2026.107089",
+      "normalized_url": "https://doi.org/10.1016/j.jdent.2026.107089",
+      "actual_online_date": "2026-10-01",
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "key_evidence",
+      "basis": "¹⁹F NMR确认Sn–F物种，固体³¹P NMR区分SnF₂与NaF形成的磷灰石环境",
+      "source_location": "PubMed完整摘要与出版商DOI",
+      "decision": "included",
+      "decision_reason": "NMR直接决定含氟物种和矿化差异",
+      "duplicate_key": "doi:10.1016/j.jdent.2026.107089",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed_date_only",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "confirmed_from_abstract",
+      "tag_review_status": "approved",
+      "tags": [
+        {"dimension": "direction_ids", "id": "nmr", "reason": "¹⁹F与³¹P NMR为主要物种分析"},
+        {"dimension": "experiment_type_ids", "id": "solution_nmr", "reason": "¹⁹F NMR分析溶液物种"},
+        {"dimension": "experiment_type_ids", "id": "solid_state_nmr", "reason": "³¹P NMR分析磷灰石固体"},
+        {"dimension": "method_ids", "id": "multinuclear_nmr", "reason": "明确使用¹⁹F和³¹P两个核种"},
+        {"dimension": "application_ids", "id": "life_science", "reason": "研究口腔生物膜与龋病相关体系"},
+        {"dimension": "application_ids", "id": "chemical_structure", "reason": "判定Sn–F物种与磷灰石环境"}
+      ]
+    },
+    {
+      "title": "Molecular mechanism of SIRT1 activation by polymethoxyflavonoids derived from citrus peels",
+      "source": "Food Chemistry",
+      "normalized_doi": "10.1016/j.foodchem.2026.151390",
+      "normalized_url": "https://doi.org/10.1016/j.foodchem.2026.151390",
+      "actual_online_date": "2026-10-03",
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "key_evidence",
+      "basis": "残基分辨NMR把PMF响应表面定位于SIRT1 N端α2-loop-α3区域并给出具体残基",
+      "source_location": "PubMed完整摘要与出版商DOI",
+      "decision": "included",
+      "decision_reason": "NMR位点信息直接参与结合表面和激活模型解释",
+      "duplicate_key": "doi:10.1016/j.foodchem.2026.151390",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed_date_only",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "confirmed_from_abstract",
+      "tag_review_status": "approved",
+      "tags": [
+        {"dimension": "direction_ids", "id": "nmr", "reason": "残基分辨NMR为关键证据"},
+        {"dimension": "experiment_type_ids", "id": "solution_nmr", "reason": "蛋白-小分子结合表面分析"},
+        {"dimension": "application_ids", "id": "structural_biology", "reason": "定位SIRT1 N端结构域响应表面"},
+        {"dimension": "application_ids", "id": "natural_products", "reason": "配体为柑橘来源多甲氧基黄酮"}
+      ]
+    },
+    {
+      "title": "A-021 Lipoprotein particle measurement by Nuclear Magnetic Resonance (NMR) spectroscopy correlates with diabetes independently from kidney function",
+      "source": "Clinical Chemistry",
+      "normalized_doi": "10.1093/clinchem/hvag086.018",
+      "normalized_url": "https://doi.org/10.1093/clinchem/hvag086.018",
+      "actual_online_date": "2026-10-04",
+      "publication_status": "published",
+      "magnetic_resonance_role": "application_core",
+      "basis": "摘要明确600 MHz NMR、AXINON、330份临床血清、GFR分层和脂蛋白粒子定量",
+      "source_location": "Crossref结构化摘要与Clinical Chemistry补充刊元数据",
+      "decision": "included",
+      "decision_reason": "研究围绕NMR脂蛋白定量及混杂因素评估展开",
+      "duplicate_key": "doi:10.1093/clinchem/hvag086.018",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed_date_only",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "confirmed_from_abstract",
+      "tag_review_status": "approved",
+      "tags": [
+        {"dimension": "direction_ids", "id": "nmr", "reason": "600 MHz NMR为测量平台"},
+        {"dimension": "experiment_type_ids", "id": "solution_nmr", "reason": "临床血清样本"},
+        {"dimension": "method_ids", "id": "qnmr", "reason": "定量脂蛋白粒子浓度和尺寸"},
+        {"dimension": "application_ids", "id": "life_science", "reason": "糖尿病与肾功能临床分析"},
+        {"dimension": "instrument_component_ids", "id": "software", "reason": "AXINON参与定量计算"}
+      ]
+    },
+    {
+      "title": "Spins Afar—Long-Range Pulse Dipolar EPR Spectroscopy Uncovers Curvature in TRIM25's Coiled Coil",
+      "source": "The Journal of Physical Chemistry Letters",
+      "normalized_doi": "10.1021/acs.jpclett.6c02671",
+      "actual_online_date": "2026-10-05",
+      "decision": "excluded_duplicate",
+      "decision_reason": "已收录于2026-10-06期",
+      "duplicate_key": "doi:10.1021/acs.jpclett.6c02671"
+    },
+    {
+      "title": "Motifs in an Amorphous Aluminum Oxychloride Solid-State Electrolyte (LAOC) from NMR Crystallography",
+      "source": "The Journal of Physical Chemistry C",
+      "normalized_doi": "10.1021/acs.jpcc.6c05752",
+      "actual_online_date": "2026-10-05",
+      "decision": "excluded_duplicate",
+      "decision_reason": "已收录于2026-10-06期",
+      "duplicate_key": "doi:10.1021/acs.jpcc.6c05752"
+    },
+    {
+      "title": "23Na-NMR study on the one-dimensional superoxide spin-chain compound NaO2",
+      "source": "Physical Review B",
+      "normalized_doi": "10.1103/8bvh-ld52",
+      "actual_online_date": "2026-10-05",
+      "decision": "excluded_duplicate",
+      "decision_reason": "已收录于2026-10-06期",
+      "duplicate_key": "doi:10.1103/8bvh-ld52"
+    },
+    {
+      "title": "Simultaneous Quantification of Lanthanoid Ions in Solution by Magnetic Anisotropy-Assisted 19F NMR",
+      "source": "Analytical Chemistry",
+      "normalized_doi": "10.1021/acs.analchem.6c02571",
+      "actual_online_date": "2026-09-30",
+      "decision": "excluded_duplicate",
+      "decision_reason": "已收录于2026-10-01及10-05历史期",
+      "duplicate_key": "doi:10.1021/acs.analchem.6c02571"
+    },
+    {
+      "title": "New efficient (aug-)pecS-n basis sets for 19F NMR chemical shift quantum chemical calculations",
+      "source": "Physical Chemistry Chemical Physics",
+      "normalized_doi": "10.1039/d6cp02711c",
+      "actual_online_date": "2026-09-22",
+      "decision": "excluded_out_of_window",
+      "decision_reason": "Crossref检索结果日期较晚，但RSC页面显示9月22日上线，早于近7日窗口",
+      "duplicate_key": "doi:10.1039/d6cp02711c"
+    },
+    {
+      "title": "Rapid single-spectrum NMR estimation of multiple binding constants in diastereomer-resolved host-guest systems",
+      "source": "Organic & Biomolecular Chemistry",
+      "normalized_doi": "10.1039/d6ob01071g",
+      "actual_online_date": "2026-09-03",
+      "decision": "excluded_out_of_window",
+      "decision_reason": "期刊/机构记录显示Published Online为9月3日；9月30日为刊期日期，不能按刊期重算新增",
+      "duplicate_key": "doi:10.1039/d6ob01071g"
+    },
+    {
+      "title": "Bruker EPR Users’ Meeting 2026",
+      "source": "Bruker",
+      "normalized_url": "https://www.bruker.com/en/news-and-events/events/epr-um.html",
+      "actual_online_date": null,
+      "decision": "excluded_date_unknown",
+      "decision_reason": "活动日期为10月6日，但页面发布时间不能确认，且无独立技术议程"
+    },
+    {
+      "title": "Nanalysis-100 platform homepage update",
+      "source": "Nanalysis",
+      "normalized_url": "https://www.nanalysis.com/",
+      "actual_online_date": null,
+      "decision": "excluded_date_unknown",
+      "decision_reason": "首页出现10月1日日期，但无法将该日期可靠关联到一项新增产品或软件事件"
+    },
+    {
+      "title": "First Spectrofluorimetric Determination of Mirogabalin in Biological Fluids: A Validated Hantzsch Derivatization Strategy With Full NMR Structural Confirmation",
+      "source": "Luminescence",
+      "normalized_doi": "10.1002/bio.70643",
+      "actual_online_date": "2026-10-05",
+      "decision": "excluded_low_relevance",
+      "decision_reason": "核心方法为荧光定量，NMR只确认衍生产物结构，属于例行表征"
+    },
+    {
+      "title": "Two new drimane sesquiterpenes from the endophytic fungus Curvularia tuberculata SC3295",
+      "source": "Natural Product Research",
+      "normalized_doi": "10.1080/14786419.2026.2743789",
+      "actual_online_date": "2026-10-06",
+      "decision": "excluded_low_relevance",
+      "decision_reason": "NMR用于常规天然产物结构表征，未满足method_core、key_evidence或application_core"
+    },
+    {
+      "title": "Bulk PM2.5 Masks Oxidative Potential and Reactive Oxygen Species Responses by Metal-Organic Complexation in PM1 and PM1-2.5 Fractions",
+      "source": "Environmental Science & Technology",
+      "normalized_doi": "10.1021/acs.est.6c09837",
+      "actual_online_date": "2026-10-01",
+      "decision": "excluded_low_relevance",
+      "decision_reason": "EPR仅作为ROS测定之一，公开摘要不能确认其决定主要机制结论"
+    },
+    {
+      "title": "Bruker EPR Users’ Meeting 2026 event occurrence",
+      "source": "Bruker",
+      "normalized_url": "https://www.bruker.com/en/news-and-events/events/epr-um.html#2026-10-06",
+      "actual_online_date": "2026-10-06",
+      "decision": "excluded_no_technical_increment",
+      "decision_reason": "会议举行本身未附可独立核对的硬件、软件、方法或应用新增内容"
+    }
+  ],
+  "final_audit": {
+    "json_item_count": 10,
+    "html_item_count": 10,
+    "screen_item_count": 10,
+    "order_match": true,
+    "text_match": true,
+    "date_source_match": true,
+    "external_css_dependency_in_download": false,
+    "image_fields_present": false,
+    "full_history_dedup_completed": true,
+    "recent_seven_issue_dedup_completed": true,
+    "build_check": "passed: 49 issues / 401 items",
+    "build": "passed",
+    "search_tests": "passed",
+    "status": "passed"
+  }
+}

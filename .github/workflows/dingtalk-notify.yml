@@ -1,0 +1,85 @@
+name: SpinFront DingTalk Notify
+
+on:
+  schedule:
+    # 22:15 UTC = 06:15 Asia/Shanghai (next day)
+    - cron: '15 22 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Prepare today's SpinFront URL
+        id: spinfront
+        shell: bash
+        run: |
+          DATE=$(TZ=Asia/Shanghai date +%Y-%m-%d)
+          URL="https://plastocyanin.org/spinfront/${DATE}/"
+
+          echo "date=${DATE}" >> "$GITHUB_OUTPUT"
+          echo "url=${URL}" >> "$GITHUB_OUTPUT"
+
+          echo "SpinFront date: ${DATE}"
+          echo "SpinFront URL: ${URL}"
+
+      - name: Wait for page to become available
+        shell: bash
+        env:
+          URL: ${{ steps.spinfront.outputs.url }}
+        run: |
+          for i in {1..5}; do
+            STATUS=$(curl -L -sS -o /dev/null -w "%{http_code}" "$URL" || true)
+
+            if [ "$STATUS" = "200" ]; then
+              echo "SpinFront page is available."
+              exit 0
+            fi
+
+            echo "Attempt ${i}/5: HTTP ${STATUS}; retrying in 60 seconds."
+            sleep 60
+          done
+
+          echo "SpinFront page is still unavailable; notification will not be sent."
+          exit 1
+
+      - name: Send DingTalk notification
+        shell: bash
+        env:
+          DINGTALK_WEBHOOK: ${{ secrets.DINGTALK_WEBHOOK }}
+          DATE: ${{ steps.spinfront.outputs.date }}
+          URL: ${{ steps.spinfront.outputs.url }}
+        run: |
+          if [ -z "$DINGTALK_WEBHOOK" ]; then
+            echo "Repository secret DINGTALK_WEBHOOK is not configured."
+            exit 1
+          fi
+
+          PAYLOAD=$(jq -n \
+            --arg date "$DATE" \
+            --arg url "$URL" \
+            '{
+              msgtype: "markdown",
+              markdown: {
+                title: ("SpinFront · NMR / EPR Daily Brief · " + $date),
+                text: ("### SpinFront · NMR / EPR Daily Brief · " + $date + "\n\n今日 NMR / EPR 前沿内容已更新。\n\n[阅读全文](" + $url + ")")
+              }
+            }')
+
+          RESPONSE=$(curl -sS \
+            -X POST \
+            -H "Content-Type: application/json" \
+            -d "$PAYLOAD" \
+            "$DINGTALK_WEBHOOK")
+
+          echo "$RESPONSE"
+
+          ERRCODE=$(echo "$RESPONSE" | jq -r '.errcode // -1')
+          if [ "$ERRCODE" != "0" ]; then
+            echo "DingTalk returned an error."
+            exit 1
+          fi

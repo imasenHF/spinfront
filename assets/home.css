@@ -22,3 +22,92 @@ html{scrollbar-gutter:stable;scroll-behavior:smooth}button,input,select{font:inh
 .advanced-filters>summary,.facet>summary{cursor:pointer}.advanced-filters>summary::after{content:'+';color:#b68c37;margin-left:8px}.advanced-filters[open]>summary::after{content:'−'}.advanced-filters>summary small{margin-left:auto}.facet>summary::after{content:'+';color:#b68c37;margin-left:8px}.facet[open]>summary::after{content:'−'}.facet>summary small{margin-left:auto}
 
 .app-mode-row{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 10px}.app-mode-row>span{font-size:11px;color:#738188}.multi-switch{display:inline-flex;align-items:center;gap:7px;font-size:11px;color:#536872;cursor:pointer;user-select:none}.multi-switch input{position:absolute;opacity:0;pointer-events:none}.multi-switch-track{position:relative;display:inline-block;width:34px;height:20px;border-radius:999px;background:#dce4e7;box-shadow:inset 0 0 0 1px #cfd9dd;transition:background .16s,box-shadow .16s}.multi-switch-track i{position:absolute;top:3px;left:3px;width:14px;height:14px;border-radius:50%;background:#fff;box-shadow:0 1px 3px #20313933;transition:transform .16s}.multi-switch input:checked+.multi-switch-track{background:#203139;box-shadow:inset 0 0 0 1px #203139}.multi-switch input:checked+.multi-switch-track i{transform:translateX(14px)}.multi-switch input:focus-visible+.multi-switch-track{outline:3px solid #b68c3780;outline-offset:3px}
+
+
+/* SpinFront theme: Mist Blue A */
+:root{
+  --navy:#365a6c;
+  --gold:#b99045;
+  --ink:#24343b;
+  --muted:#6b787d;
+  --line:#d9e1e4;
+  --paper:#fff;
+  --bg:#f6f7f5;
+  --soft:#eaf0f2;
+}
+body{background:var(--bg)}
+#search-form{border-color:#c3cfd4}
+#search-form button{background:#365a6c}
+#search-form button:hover{background:#2c4958}
+.panel{border-color:#d9e1e4;box-shadow:0 4px 20px #365a6c08}
+.calendar-control button{background:#eaf0f2;color:#365a6c}
+.calendar .day.has:hover{background:#f3f6f7}
+.calendar .day.picked{
+  background:#f8eedb;
+  border-color:#c39a4d;
+  color:#654b1c;
+}
+.calendar .day.picked i{background:#b99045}
+.calendar-shortcuts button{
+  background:#f7f9f9;
+  border-color:#d9e1e4;
+  color:#4c6570;
+}
+.calendar-shortcuts button:hover{background:#eef3f4;border-color:#b7c7ce}
+.direction-switch{background:#eaf0f2}
+.direction-switch button{color:#60737c}
+.direction-switch button[aria-pressed=true]{
+  background:#eef4f6;
+  color:#365a6c;
+  box-shadow:inset 0 0 0 1px #b9cbd2;
+}
+.domain-grid button{
+  border-color:#dbe4e7;
+  background:#fbfcfc;
+  color:#4b616b;
+}
+.domain-grid button[aria-pressed=true]{
+  border-color:#b8cbd2;
+  background:#eef4f6;
+  color:#365a6c;
+}
+.domain-grid button:hover:not(:disabled){border-color:#9eb8c2;background:#f5f8f9}
+.app-detail{
+  background:#f3f6f7;
+  border-left-color:#b99045;
+}
+.filter-pill{border-color:#d9e3e6;color:#49616c}
+.filter-pill[aria-pressed=true]{
+  background:#eef4f6;
+  border-color:#b8cbd2;
+  color:#365a6c;
+}
+.filter-pill[aria-pressed=true] small{color:#80652f}
+.topic-shortcuts button{
+  border-color:#d9e2e5;
+  color:#4e6975;
+}
+.topic-shortcuts button:hover{background:#f4f7f8;border-color:#a9bec6}
+.view-switch{background:#eaf0f2}
+.view-switch button[aria-pressed=true]{
+  color:#365a6c;
+  background:#fff;
+  box-shadow:0 1px 4px #365a6c1a;
+}
+.chips button{
+  border-color:#dccda7;
+  background:#faf5e9;
+  color:#5c5748;
+}
+.result-card{border-color:#d9e1e4;box-shadow:0 5px 20px #365a6c08}
+.result-card:hover{border-color:#bccbd1;box-shadow:0 5px 20px #365a6c10}
+.result-tags span{background:#eaf0f2;color:#4e6873}
+.result-meta .source-badge{background:#f8eedb;color:#80622b}
+.commentary>summary,.search-help a,.show-more{color:#8f6c2e}
+.compact-results{border-color:#d9e1e4}
+.archive-controls select,.archive-date-grid a{border-color:#d9e1e4}
+.archive-date-grid a:hover{border-color:#b99045;background:#faf5e9}
+.month-tabs button{background:#eaf0f2;color:#526c77}
+.month-tabs button[aria-pressed=true]{background:#365a6c;color:#fff}
+.multi-switch-track{background:#dce6e9;box-shadow:inset 0 0 0 1px #ccd9dd}
+.multi-switch input:checked+.multi-switch-track{background:#365a6c;box-shadow:inset 0 0 0 1px #365a6c}

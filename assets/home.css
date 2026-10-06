@@ -111,3 +111,42 @@ body{background:var(--bg)}
 .month-tabs button[aria-pressed=true]{background:#365a6c;color:#fff}
 .multi-switch-track{background:#dce6e9;box-shadow:inset 0 0 0 1px #ccd9dd}
 .multi-switch input:checked+.multi-switch-track{background:#365a6c;box-shadow:inset 0 0 0 1px #365a6c}
+
+
+/* Direction switch: compact segmented control */
+.direction-switch{
+  display:inline-flex;
+  width:max-content;
+  max-width:100%;
+  background:#eaf0f2;
+  padding:4px;
+  border-radius:10px;
+  gap:3px;
+}
+.direction-switch button{
+  flex:0 0 auto;
+  min-width:58px;
+  min-height:32px;
+  padding:5px 11px;
+  border:0;
+  border-radius:7px;
+  background:transparent;
+  color:#738188;
+  font-size:12px;
+  font-weight:400;
+  box-shadow:none;
+  transition:background .16s,color .16s,box-shadow .16s;
+}
+.direction-switch button[aria-pressed=true]{
+  background:#fff;
+  color:#365a6c;
+  font-weight:400;
+  box-shadow:0 1px 4px #365a6c1a;
+}
+@media(max-width:680px){
+  .direction-switch button{
+    min-height:38px;
+    min-width:60px;
+    font-size:12px;
+  }
+}

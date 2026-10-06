@@ -28,7 +28,7 @@ function pressed(active){return ' aria-pressed="'+Boolean(active)+'"'}
 function pill(t,f,n){const selected=state[f].includes(t.id);return '<button class="filter-pill '+(!n&&!selected?'zero':'')+'" data-field="'+f+'" data-id="'+t.id+'"'+pressed(selected)+' '+(!n&&!selected?'disabled':'')+'>'+esc(t.label_cn)+'<small>'+n+'</small></button>'}
 function filters(){
 const direction=state.direction_ids.length===1?state.direction_ids[0]:'';
-$('facet-0').innerHTML='<div class="direction-switch" role="group" aria-label="谱学方向">'+[['','全部'],['nmr','NMR'],['epr','EPR']].map(([id,n])=>'<button data-direction="'+id+'"'+pressed(direction===id&&state.direction_match!=='all')+'>'+n+'</button>').join('')+'</div><p class="filter-note">双方向条目在 NMR、EPR 中均可查到</p>';
+$('facet-0').innerHTML='<div class="direction-switch" role="group" aria-label="谱学方向">'+[['','both'],['nmr','NMR'],['epr','EPR']].map(([id,n])=>'<button data-direction="'+id+'"'+pressed(direction===id&&state.direction_match!=='all')+'>'+n+'</button>').join('')+'</div><p class="filter-note">双方向条目在 NMR、EPR 中均可查到</p>';
 $('facet-0').querySelectorAll('button').forEach(b=>b.onclick=()=>{if(b.dataset.direction)useArchiveForSearch();state.direction_ids=b.dataset.direction?[b.dataset.direction]:[];state.direction_match='any';update()});
 const available=C.filter(items,filterState(),tax,'application_ids'),domains=tax.application_domains,apps=tax.tags.filter(t=>t.dimension==='application_ids');
 function domainIds(g){return new Set(g.ids.flatMap(id=>[...C.descendants(tax,'application_ids',id)]))}

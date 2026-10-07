@@ -1,9 +1,8 @@
 name: SpinFront DingTalk Notify
 
 on:
-  schedule:
-    # Temporary scheduler test: 01:00 UTC = 09:00 Asia/Shanghai
-    - cron: '0 1 * * *'
+  # Triggered by Cloudflare Worker via GitHub workflow_dispatch API.
+  # Cron scheduling is managed in Cloudflare.
   workflow_dispatch:
 
 permissions:

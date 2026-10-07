@@ -140,3 +140,18 @@ a:focus-visible,summary:focus-visible{outline:2px solid var(--gold);outline-offs
 .footer-brand{font:400 14px/1.25 var(--serif)}
 .footer-dot{color:var(--gold)}
 .footer-brand-stack small{margin-top:4px;color:var(--muted);font-size:9px;letter-spacing:.5px}
+
+
+/* plastocyanin parent brand: gold o + gold dot everywhere. */
+.plastocyanin-o,
+.plastocyanin-dot,
+.footer-o,
+.footer-dot{
+  color:var(--gold);
+}
+.plastocyanin-link:is(:hover,:active,:focus-visible) .plastocyanin-o,
+.plastocyanin-link:is(:hover,:active,:focus-visible) .plastocyanin-dot,
+.footer-parent-brand:is(:hover,:active,:focus-visible) .footer-o,
+.footer-parent-brand:is(:hover,:active,:focus-visible) .footer-dot{
+  color:var(--gold);
+}

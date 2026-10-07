@@ -46,6 +46,7 @@ a:focus-visible,summary:focus-visible{outline:2px solid var(--gold);outline-offs
 .scope-copy p{margin:0;color:var(--muted);font-size:12px;line-height:1.9}
 .issue{padding:0 40px 20px}
 .story{display:grid;grid-template-columns:72px minmax(0,1fr) 145px;gap:26px;padding:38px 0;border-bottom:1px solid var(--line)}
+.story:last-child{border-bottom:0}
 .story-index{font:400 32px/1 var(--serif);color:var(--gold);padding-top:3px}
 .story-index span{color:#a8b1ae;margin-left:2px}
 .story-type{margin-bottom:8px;font-size:9px;letter-spacing:1.3px;color:var(--muted);text-transform:uppercase}

@@ -103,6 +103,11 @@ def archive_html(issues):
   out.append('</ul></section>')
  return ''.join(out)
 
+def latest_feature(d):
+ date=d['report_date'];day=datetime.date.fromisoformat(date);nmr=sum('nmr' in a['direction_ids'] for a in d['items']);epr=sum('epr' in a['direction_ids'] for a in d['items'])
+ stories=''.join('<article class="latest-story"><span>'+f'{a["item_no"]:02d}'+' /</span><h2><a href="'+date+'/#'+a['item_id']+'">'+esc(a['title_cn'])+'</a></h2><small>'+esc(a['source'])+'</small></article>' for a in d['items'][:4])
+ return '<section class="mag-front"><div class="mag-front-main"><div class="mag-eyebrow">NMR / EPR Daily Brief</div><h1>'+spinfront_wordmark()+'</h1><p>追踪自旋、谱学与应用进展。每日筛选磁共振研究、方法、仪器与应用信息。</p><div class="mag-stats"><span>'+str(len(d['items']))+' reports</span><span>NMR '+str(nmr)+'</span><span>EPR '+str(epr)+'</span></div></div><aside class="mag-latest-date"><small>LATEST ISSUE</small><strong>'+date[8:]+'</strong><span>'+MONTHS_EN[day.month-1]+'</span><em>'+date[:4]+'</em><a href="'+date+'/">Read full issue →</a></aside></section><section class="latest-issue"><header><div><span>LATEST ISSUE</span><h2>'+esc(date)+'</h2></div><a href="'+date+'/">READ FULL ISSUE →</a></header><div class="latest-stories">'+stories+'</div></section>'
+
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('--check',action='store_true');ap.add_argument('--output',default='_site');args=ap.parse_args();tax,labels,issues=load()
  if args.check:print(f'Validated {len(issues)} issues / {sum(len(d["items"]) for d in issues)} items');return
@@ -122,7 +127,7 @@ def main():
  for i,name in [(2,'方法'),(1,'实验类型'),(5,'信息类型'),(4,'仪器部件')]:
   facet_html+='<details class="facet"><summary>'+name+'<small id="facet-count-'+str(i)+'"></small></summary><div class="facet-options" id="facet-'+str(i)+'"></div></details>'
  facet_html+='</details>'
- for key,value in {'{{TOTAL}}':f'{len(issues)}期 · {sum(len(d["items"]) for d in issues)}条','{{RANGE}}':issues[0]['report_date']+' — '+issues[-1]['report_date'],'{{YEAR}}':str(datetime.date.today().year),'{{FACETS}}':facet_html,'{{ARCHIVE}}':archive_html(issues)}.items():template=template.replace(key,value)
+ for key,value in {'{{TOTAL}}':f'{len(issues)}期 · {sum(len(d["items"]) for d in issues)}条','{{RANGE}}':issues[0]['report_date']+' — '+issues[-1]['report_date'],'{{YEAR}}':str(datetime.date.today().year),'{{FACETS}}':facet_html,'{{ARCHIVE}}':archive_html(issues),'{{LATEST_FEATURE}}':latest_feature(issues[-1])}.items():template=template.replace(key,value)
  (out/'index.html').write_text(template,encoding='utf-8')
  compact_fields=['item_id','item_no','report_date','title_cn','summary_cn','meaning_cn','publication_date','source','url','doi','sample_systems',*FIELDS,'information_type']
  compact={'taxonomy_version':tax['taxonomy_version'],'issues':[{'report_date':d['report_date'],'item_count':len(d['items'])} for d in issues],'items':[{**{k:a[k] for k in compact_fields},'publication_status':a.get('publication_status','unknown')} for d in issues for a in d['items']]}

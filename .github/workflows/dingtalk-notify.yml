@@ -109,6 +109,10 @@ jobs:
           echo "SpinFront page is still unavailable; notification will not be sent."
           exit 1
 
+      - name: Checkout SpinFront data
+        if: ${{ steps.dedupe.outputs.already_sent != 'true' }}
+        uses: actions/checkout@v4
+
       - name: Send DingTalk notification
         if: ${{ steps.dedupe.outputs.already_sent != 'true' }}
         shell: bash
@@ -122,25 +126,54 @@ jobs:
             exit 1
           fi
 
-          PAYLOAD=$(jq -n \
-            --arg date "$DATE" \
-            --arg url "$URL" \
-            '{
-              msgtype: "markdown",
-              markdown: {
-                title: ("SpinFront · NMR / EPR Daily Brief · " + $date),
-                text: ("### SpinFront · NMR / EPR Daily Brief · " + $date + "\n\n今日 NMR / EPR 前沿内容已更新。\n\n[阅读全文](" + $url + ")")
-              }
-            }')
+          python3 - <<'PY'
+          import json
+          import os
+          from pathlib import Path
 
-          RESPONSE=$(curl -sS \
+          date = os.environ['DATE']
+          url = os.environ['URL']
+          source = Path('data') / date[:4] / f'SpinFront_{date}.json'
+          with source.open('r', encoding='utf-8') as f:
+              report = json.load(f)
+
+          if report.get('report_date') != date:
+              raise ValueError(f'Report date does not match: {source}')
+          items = report.get('items')
+          if not isinstance(items, list) or not items:
+              raise ValueError(f'No daily entries found: {source}')
+
+          nmr_count = sum('nmr' in (item.get('direction_ids') or []) for item in items)
+          epr_count = sum('epr' in (item.get('direction_ids') or []) for item in items)
+          titles = [item.get('title_cn', '').strip() for item in items]
+          titles = [title for title in titles if title][:3]
+          if not titles:
+              raise ValueError(f'No titles available in: {source}')
+
+          text = '\n\n'.join([
+              f'### SpinFront · {date}',
+              '**NMR / EPR Daily Brief**',
+              f'本期收录 **{len(items)} 条**（NMR {nmr_count} / EPR {epr_count}）。',
+              '**本期内容预览**',
+              '\n'.join(f'{index}. {title}' for index, title in enumerate(titles, 1)),
+              f'[阅读完整日报 →]({url})',
+          ])
+          payload = {
+              'msgtype': 'markdown',
+              'markdown': {'title': f'SpinFront · {date}', 'text': text},
+          }
+          with open('/tmp/spinfront-dingtalk.json', 'w', encoding='utf-8') as f:
+              json.dump(payload, f, ensure_ascii=False)
+          print(f'Prepared SpinFront notification for {date}: {len(items)} items, NMR={nmr_count}, EPR={epr_count}')
+          PY
+
+          RESPONSE=$(curl -sS --fail-with-body \
             -X POST \
             -H "Content-Type: application/json" \
-            -d "$PAYLOAD" \
+            --data-binary @/tmp/spinfront-dingtalk.json \
             "$DINGTALK_WEBHOOK")
 
           echo "$RESPONSE"
-
           ERRCODE=$(echo "$RESPONSE" | jq -r '.errcode // -1')
           if [ "$ERRCODE" != "0" ]; then
             echo "DingTalk returned an error."

@@ -526,3 +526,18 @@ body{background:var(--bg)}
     text-align:left;
   }
 }
+
+
+/* plastocyanin parent brand: gold o + gold dot everywhere. */
+.mag-parent-gold,
+.mag-parent-dot,
+.mag-footer-o,
+.mag-footer-dot{
+  color:var(--gold);
+}
+.mag-parent:is(:hover,:active,:focus-visible) .mag-parent-gold,
+.mag-parent:is(:hover,:active,:focus-visible) .mag-parent-dot,
+.mag-footer-parent:is(:hover,:active,:focus-visible) .mag-footer-o,
+.mag-footer-parent:is(:hover,:active,:focus-visible) .mag-footer-dot{
+  color:var(--gold);
+}

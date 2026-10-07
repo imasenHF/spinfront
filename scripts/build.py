@@ -44,15 +44,52 @@ def shell(title,body,prefix,standalone=False):
  styles=('<style>'+(ROOT/'assets/style.css').read_text(encoding='utf-8')+'</style>') if standalone else '<link rel="stylesheet" href="'+prefix+'assets/style.css">'
  return template.replace('{{TITLE}}',esc(title)).replace('{{STYLES}}',styles).replace('{{BODY}}',body)
 
-def hero(date=''):return '<header class="hero"><h1>自旋前沿｜SpinFront</h1><p class="en">NMR / EPR Daily Brief</p><p>追踪自旋、谱学与应用进展</p>'+('<p>'+esc(date)+'</p>' if date else '')+'</header>'
-def footer(date):return '<footer class="footer"><div>SpinFront · NMR / EPR Daily Brief · '+esc(date)+'</div><div>© '+date[:4]+' wuhaifeng@ustc.edu.cn. All rights reserved.</div><div>本报告版权归作者所有，未经许可不得复制、转载或用于商业用途。</div></footer>'
-def issue_html(d,labels,standalone=False):
- date=d['report_date'];body=('<a class="archive-link" href="https://plastocyanin.org/spinfront/">← SpinFront归档</a>' if standalone else '<a class="archive-link" href="../">← SpinFront归档</a>')+hero(date)+'<div class="note"><p>'+esc(d['scope_note'])+'</p></div>'
+MONTHS_EN=['January','February','March','April','May','June','July','August','September','October','November','December']
+
+def spinfront_wordmark():
+ return 'SpinFr<span class="gold-o">o</span>nt'
+
+def issue_href(date,standalone=False):
+ if not date:return ''
+ return ('https://plastocyanin.org/spinfront/'+date+'/' if standalone else '../'+date+'/')
+
+def archive_href(standalone=False):
+ return 'https://plastocyanin.org/spinfront/' if standalone else '../'
+
+def cutoff_label(note):
+ m=re.search(r'检索截至(\\d{4}-\\d{2}-\\d{2})\\s+([0-9:]+)（([^）]+)）',note or '')
+ return (m.group(2)+' · '+m.group(3)) if m else 'SEE EDITORIAL NOTE'
+
+def issue_header(d,standalone=False):
+ date=d['report_date'];day=datetime.date.fromisoformat(date)
+ archive=archive_href(standalone);nmr=sum('nmr' in a['direction_ids'] for a in d['items']);epr=sum('epr' in a['direction_ids'] for a in d['items'])
+ scopes={a['time_scope'] for a in d['items']}
+ scope='7-DAY EXTENSION' if scopes=={'7d_extension'} else ('24H' if scopes=={'24h'} else '24H + 7D')
+ return '<header class="issue-topbar"><a class="plastocyanin-link" href="https://plastocyanin.org/">plastocyanin<span>.</span></a><a class="archive-link" href="'+archive+'">Daily archive →</a></header><section class="cover"><div class="cover-main"><div class="eyebrow">NMR / EPR Daily Brief</div><a class="hero-title" href="'+archive+'"><h1>'+spinfront_wordmark()+'</h1></a><p class="deck">追踪自旋、谱学与应用进展。每日筛选磁共振研究、方法、仪器与应用信息。</p><div class="issue-stats"><span>'+str(len(d['items']))+' reports</span><span>NMR '+str(nmr)+'</span><span>EPR '+str(epr)+'</span><span>'+scope+'</span></div></div><div class="cover-date"><strong>'+date[8:]+'</strong><div class="month">'+MONTHS_EN[day.month-1]+'</div><div class="year">'+date[:4]+' · DAILY ISSUE</div><div class="scope-chip">Search cutoff<br>'+esc(cutoff_label(d.get('scope_note','')))+'</div></div></section>'
+
+def scope_block(note):
+ return '<details class="scope"><summary>本期检索范围与筛选说明</summary><div class="scope-copy"><span>EDITORIAL NOTE</span><p>'+esc(note)+'</p></div></details>'
+
+def issue_nav(prev_date,next_date,standalone=False):
+ prev=('<a class="prev" href="'+issue_href(prev_date,standalone)+'"><small>PREVIOUS ISSUE</small><strong>← '+esc(prev_date)+'</strong></a>' if prev_date else '<span></span>')
+ nxt=('<a class="next" href="'+issue_href(next_date,standalone)+'"><small>NEXT ISSUE</small><strong>'+esc(next_date)+' →</strong></a>' if next_date else '<span></span>')
+ return '<nav class="issue-nav" aria-label="相邻日报">'+prev+nxt+'</nav>'
+
+def footer(date,standalone=False):
+ archive=archive_href(standalone)
+ return '<footer class="footer"><div><a class="footer-brand" href="'+archive+'">'+spinfront_wordmark()+'</a><br>NMR / EPR Daily Brief · '+esc(date)+'</div><div class="footer-right">© '+date[:4]+' wuhaifeng@ustc.edu.cn. All rights reserved.<br>本报告版权归作者所有，未经许可不得复制、转载或用于商业用途。</div></footer>'
+
+def issue_html(d,labels,prev_date='',next_date='',standalone=False):
+ date=d['report_date'];body=issue_header(d,standalone)+scope_block(d.get('scope_note',''))+'<main class="issue">'
  for a in d['items']:
   time='近7天扩展' if a['time_scope']=='7d_extension' else '近24小时'
   tags=[labels[(f,t)] for f in FIELDS for t in a[f]]
-  body+='<article class="card" id="'+a['item_id']+'"><div class="top"><span class="num">'+f'{a["item_no"]:02d}'+'</span><span class="type">'+esc(labels[('information_type',a['information_type'])])+'</span><span class="tag">'+time+'</span></div><div class="content"><h2>'+esc(a['title_cn'])+'</h2><div class="labels">'+''.join('<span>'+esc(t)+'</span>' for t in tags)+'</div><p>'+esc(a['summary_cn']).replace('\n','<br>')+'</p><p><span class="label">具体意义：</span>'+esc(a['meaning_cn']).replace('\n','<br>')+'</p><div class="meta">发布日期：'+esc(a['publication_date'] or '待核实')+'｜'+time+'<br>原始来源：'+link(a['url'],a['source'])+''.join(' · '+link(s['url'],s['name']) for s in a['alternative_sources'])+('<br>DOI：'+esc(a['doi']) if a['doi'] else '')+'</div></div></article>'
- return shell('自旋前沿｜SpinFront｜'+date,body+footer(date),'../',standalone)
+  side=[str(t).replace('_',' ').upper() for f in FIELDS for t in a[f]]
+  source=link(a['url'],a['source'])+''.join(' · '+link(s['url'],s['name']) for s in a['alternative_sources'])
+  doi=('<a href="https://doi.org/'+html.escape(a['doi'],quote=True)+'" rel="noopener noreferrer">'+esc(a['doi'])+'</a>' if a['doi'] else '—')
+  body+='<article class="story" id="'+a['item_id']+'"><div class="story-index">'+f'{a["item_no"]:02d}'+'<span>/</span></div><div class="story-main"><div class="story-type">'+esc(labels[('information_type',a['information_type'])])+' · '+time+'</div><h2>'+esc(a['title_cn'])+'</h2><div class="story-tags-inline">'+''.join('<span>'+esc(t)+'</span>' for t in tags)+'</div><p class="summary">'+esc(a['summary_cn']).replace('\n','<br>')+'</p><aside class="commentary"><div class="commentary-label">TECHNICAL COMMENTARY</div><p>'+esc(a['meaning_cn']).replace('\n','<br>')+'</p></aside><div class="story-meta"><span>Published</span><strong>'+esc(a['publication_date'] or '待核实')+'</strong><span>Source</span><div>'+source+'</div><span>DOI</span><div class="doi">'+doi+'</div></div></div><div class="story-side">'+('<br>'.join(esc(t) for t in side) if side else esc(labels[('information_type',a['information_type'])]))+'</div></article>'
+ body+='</main>'+issue_nav(prev_date,next_date,standalone)+footer(date,standalone)
+ return shell('SpinFront · '+date,body,'../',standalone)
 def archive_html(issues):
  groups={}
  for d in reversed(issues):groups.setdefault(d['report_date'][:7],[]).append(d)
@@ -73,8 +110,9 @@ def main():
  out.mkdir(parents=True,exist_ok=True);shutil.copytree(ROOT/'assets',out/'assets',dirs_exist_ok=True);shutil.copytree(ROOT/'data',out/'data',dirs_exist_ok=True);shutil.copytree(ROOT/'taxonomy',out/'taxonomy',dirs_exist_ok=True)
  downloads=out/'downloads';downloads.mkdir(exist_ok=True)
  listings=[]
- for d in reversed(issues):
-  date=d['report_date'];p=out/date;p.mkdir(exist_ok=True);s=issue_html(d,labels);(p/'index.html').write_text(s,encoding='utf-8');(downloads/f'SpinFront_{date}.html').write_text(issue_html(d,labels,standalone=True),encoding='utf-8')
+ for i,d in enumerate(issues):
+  date=d['report_date'];prev_date=issues[i-1]['report_date'] if i>0 else '';next_date=issues[i+1]['report_date'] if i+1<len(issues) else ''
+  p=out/date;p.mkdir(exist_ok=True);s=issue_html(d,labels,prev_date,next_date);(p/'index.html').write_text(s,encoding='utf-8');(downloads/f'SpinFront_{date}.html').write_text(issue_html(d,labels,prev_date,next_date,standalone=True),encoding='utf-8')
   assert s.count('<article ')==len(d['items']) and '<img' not in s
   for a in d['items']:
    for k in ['title_cn','summary_cn','meaning_cn']:assert esc(a[k]).replace('\n','<br>') in s

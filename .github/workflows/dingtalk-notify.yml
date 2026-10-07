@@ -2,12 +2,8 @@ name: SpinFront DingTalk Notify
 
 on:
   schedule:
-    # Primary send: 07:20 Asia/Shanghai
-    - cron: '20 7 * * *'
-      timezone: 'Asia/Shanghai'
-    # Fallback check: 08:45 Asia/Shanghai
-    - cron: '45 8 * * *'
-      timezone: 'Asia/Shanghai'
+    # Temporary scheduler test: 01:00 UTC = 09:00 Asia/Shanghai
+    - cron: '0 1 * * *'
   workflow_dispatch:
 
 permissions:

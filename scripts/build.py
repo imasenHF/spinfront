@@ -41,7 +41,7 @@ def load():
 
 def shell(title,body,prefix,standalone=False):
  template=(ROOT/'templates/issue.html').read_text(encoding='utf-8')
- styles=('<style>'+(ROOT/'assets/style.css').read_text(encoding='utf-8')+'</style>') if standalone else '<link rel="stylesheet" href="'+prefix+'assets/style.css?v=20261007-links">'
+ styles=('<style>'+(ROOT/'assets/style.css').read_text(encoding='utf-8')+'</style>') if standalone else '<link rel="stylesheet" href="'+prefix+'assets/style.css?v=20261007-brand-gold-o">'
  return template.replace('{{TITLE}}',esc(title)).replace('{{STYLES}}',styles).replace('{{BODY}}',body)
 
 MONTHS_EN=['January','February','March','April','May','June','July','August','September','October','November','December']
@@ -65,7 +65,7 @@ def issue_header(d,standalone=False):
  archive=archive_href(standalone);nmr=sum('nmr' in a['direction_ids'] for a in d['items']);epr=sum('epr' in a['direction_ids'] for a in d['items'])
  scopes={a['time_scope'] for a in d['items']}
  scope='7-DAY EXTENSION' if scopes=={'7d_extension'} else ('24H' if scopes=={'24h'} else '24H + 7D')
- return '<header class="issue-topbar"><a class="plastocyanin-link" href="https://plastocyanin.org/">plastocyanin<span>.</span></a><a class="archive-link" href="'+archive+'">Daily archive →</a></header><section class="cover"><div class="cover-main"><div class="eyebrow">NMR / EPR Daily Brief</div><a class="hero-title" href="'+archive+'"><h1>'+spinfront_wordmark()+'</h1></a><p class="deck">追踪自旋、谱学与应用进展。每日筛选磁共振研究、方法、仪器与应用信息。</p><div class="issue-stats"><span>'+str(len(d['items']))+' reports</span><span>NMR '+str(nmr)+'</span><span>EPR '+str(epr)+'</span><span>'+scope+'</span></div></div><div class="cover-date"><strong>'+date[8:]+'</strong><div class="month">'+MONTHS_EN[day.month-1]+'</div><div class="year">'+date[:4]+' · DAILY ISSUE</div><div class="scope-chip">Search cutoff<br>'+esc(cutoff_label(d.get('scope_note','')))+'</div></div></section>'
+ return '<header class="issue-topbar"><a class="plastocyanin-link" href="https://plastocyanin.org/">plast<span class="plastocyanin-o">o</span>cyanin<span class="plastocyanin-dot">.</span></a><a class="archive-link" href="'+archive+'">Daily archive →</a></header><section class="cover"><div class="cover-main"><div class="eyebrow">NMR / EPR Daily Brief</div><a class="hero-title" href="'+archive+'"><h1>'+spinfront_wordmark()+'</h1></a><p class="deck">追踪自旋、谱学与应用进展。每日筛选磁共振研究、方法、仪器与应用信息。</p><div class="issue-stats"><span>'+str(len(d['items']))+' reports</span><span>NMR '+str(nmr)+'</span><span>EPR '+str(epr)+'</span><span>'+scope+'</span></div></div><div class="cover-date"><strong>'+date[8:]+'</strong><div class="month">'+MONTHS_EN[day.month-1]+'</div><div class="year">'+date[:4]+' · DAILY ISSUE</div><div class="scope-chip">Search cutoff<br>'+esc(cutoff_label(d.get('scope_note','')))+'</div></div></section>'
 
 def scope_block(note):
  return '<details class="scope"><summary>本期检索范围与筛选说明</summary><div class="scope-copy"><span>EDITORIAL NOTE</span><p>'+esc(note)+'</p></div></details>'
@@ -77,7 +77,7 @@ def issue_nav(prev_date,next_date,standalone=False):
 
 def footer(date,standalone=False):
  archive=archive_href(standalone)
- return '<footer class="footer"><div class="footer-brand-stack"><a class="footer-parent-brand" href="https://plastocyanin.org/">plastocyanin<span class="footer-dot">.</span></a><a class="footer-brand" href="'+archive+'">'+spinfront_wordmark()+'</a><small>NMR / EPR Daily Brief · '+esc(date)+'</small></div><div class="footer-right">© '+date[:4]+' wuhaifeng@ustc.edu.cn. All rights reserved.<br>本报告版权归作者所有，未经许可不得复制、转载或用于商业用途。</div></footer>'
+ return '<footer class="footer"><div class="footer-brand-stack"><a class="footer-parent-brand" href="https://plastocyanin.org/">plast<span class="footer-o">o</span>cyanin<span class="footer-dot">.</span></a><a class="footer-brand" href="'+archive+'">'+spinfront_wordmark()+'</a><small>NMR / EPR Daily Brief · '+esc(date)+'</small></div><div class="footer-right">© '+date[:4]+' wuhaifeng@ustc.edu.cn. All rights reserved.<br>本报告版权归作者所有，未经许可不得复制、转载或用于商业用途。</div></footer>'
 
 def issue_html(d,labels,prev_date='',next_date='',standalone=False):
  date=d['report_date'];body=issue_header(d,standalone)+scope_block(d.get('scope_note',''))+'<section class="issue">'

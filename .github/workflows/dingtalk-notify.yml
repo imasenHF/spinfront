@@ -2,12 +2,17 @@ name: SpinFront DingTalk Notify
 
 on:
   schedule:
-    # 23:20 UTC = 07:20 Asia/Shanghai (next day)
-    - cron: '20 23 * * *'
+    # Primary send: 07:20 Asia/Shanghai
+    - cron: '20 7 * * *'
+      timezone: 'Asia/Shanghai'
+    # Fallback check: 08:45 Asia/Shanghai
+    - cron: '45 8 * * *'
+      timezone: 'Asia/Shanghai'
   workflow_dispatch:
 
 permissions:
   contents: read
+  actions: read
 
 jobs:
   notify:
@@ -27,7 +32,70 @@ jobs:
           echo "SpinFront date: ${DATE}"
           echo "SpinFront URL: ${URL}"
 
+      - name: Check whether today's notification already succeeded
+        id: dedupe
+        if: ${{ github.event_name == 'schedule' && github.event.schedule == '45 8 * * *' }}
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+          CURRENT_RUN_ID: ${{ github.run_id }}
+        run: |
+          curl -sS --fail-with-body \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/${REPOSITORY}/actions/workflows/dingtalk-notify.yml/runs?status=success&per_page=30" \
+            -o /tmp/dingtalk-runs.json
+
+          python3 - <<'PY'
+          import json
+          import os
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+
+          tz = ZoneInfo("Asia/Shanghai")
+          today = datetime.now(tz).date()
+          current_run_id = int(os.environ["CURRENT_RUN_ID"])
+
+          with open("/tmp/dingtalk-runs.json", "r", encoding="utf-8") as f:
+              data = json.load(f)
+
+          already_sent = False
+          matched_run_id = None
+
+          for run in data.get("workflow_runs", []):
+              if run.get("id") == current_run_id:
+                  continue
+
+              timestamp = run.get("run_started_at") or run.get("created_at")
+              if not timestamp:
+                  continue
+
+              run_date = datetime.fromisoformat(
+                  timestamp.replace("Z", "+00:00")
+              ).astimezone(tz).date()
+
+              if run_date == today:
+                  already_sent = True
+                  matched_run_id = run.get("id")
+                  break
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
+              f.write(f"already_sent={'true' if already_sent else 'false'}\n")
+
+          if already_sent:
+              print(f"A successful DingTalk notification run already exists today: {matched_run_id}")
+          else:
+              print("No successful DingTalk notification run exists today; fallback will continue.")
+          PY
+
+      - name: Stop duplicate fallback
+        if: ${{ steps.dedupe.outputs.already_sent == 'true' }}
+        run: echo "Today's notification was already sent successfully; fallback exits without sending again."
+
       - name: Wait for page to become available
+        if: ${{ steps.dedupe.outputs.already_sent != 'true' }}
         shell: bash
         env:
           URL: ${{ steps.spinfront.outputs.url }}
@@ -48,6 +116,7 @@ jobs:
           exit 1
 
       - name: Send DingTalk notification
+        if: ${{ steps.dedupe.outputs.already_sent != 'true' }}
         shell: bash
         env:
           DINGTALK_WEBHOOK: ${{ secrets.DINGTALK_WEBHOOK }}

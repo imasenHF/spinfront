@@ -34,7 +34,6 @@ jobs:
 
       - name: Check whether today's notification already succeeded
         id: dedupe
-        if: ${{ github.event_name == 'schedule' && github.event.schedule == '45 8 * * *' }}
         shell: bash
         env:
           GH_TOKEN: ${{ github.token }}
@@ -87,12 +86,12 @@ jobs:
           if already_sent:
               print(f"A successful DingTalk notification run already exists today: {matched_run_id}")
           else:
-              print("No successful DingTalk notification run exists today; fallback will continue.")
+              print("No successful DingTalk notification run exists today; this run will continue.")
           PY
 
-      - name: Stop duplicate fallback
+      - name: Stop duplicate notification
         if: ${{ steps.dedupe.outputs.already_sent == 'true' }}
-        run: echo "Today's notification was already sent successfully; fallback exits without sending again."
+        run: echo "Today's notification was already sent successfully; this run exits without sending again."
 
       - name: Wait for page to become available
         if: ${{ steps.dedupe.outputs.already_sent != 'true' }}

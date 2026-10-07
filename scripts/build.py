@@ -80,7 +80,7 @@ def footer(date,standalone=False):
  return '<footer class="footer"><div><a class="footer-brand" href="'+archive+'">'+spinfront_wordmark()+'</a><br>NMR / EPR Daily Brief · '+esc(date)+'</div><div class="footer-right">© '+date[:4]+' wuhaifeng@ustc.edu.cn. All rights reserved.<br>本报告版权归作者所有，未经许可不得复制、转载或用于商业用途。</div></footer>'
 
 def issue_html(d,labels,prev_date='',next_date='',standalone=False):
- date=d['report_date'];body=issue_header(d,standalone)+scope_block(d.get('scope_note',''))+'<main class="issue">'
+ date=d['report_date'];body=issue_header(d,standalone)+scope_block(d.get('scope_note',''))+'<section class="issue">'
  for a in d['items']:
   time='近7天扩展' if a['time_scope']=='7d_extension' else '近24小时'
   tags=[labels[(f,t)] for f in FIELDS for t in a[f]]
@@ -88,7 +88,7 @@ def issue_html(d,labels,prev_date='',next_date='',standalone=False):
   source=link(a['url'],a['source'])+''.join(' · '+link(s['url'],s['name']) for s in a['alternative_sources'])
   doi=('<a href="https://doi.org/'+html.escape(a['doi'],quote=True)+'" rel="noopener noreferrer">'+esc(a['doi'])+'</a>' if a['doi'] else '—')
   body+='<article class="story" id="'+a['item_id']+'"><div class="story-index">'+f'{a["item_no"]:02d}'+'<span>/</span></div><div class="story-main"><div class="story-type">'+esc(labels[('information_type',a['information_type'])])+' · '+time+'</div><h2>'+esc(a['title_cn'])+'</h2><div class="story-tags-inline">'+''.join('<span>'+esc(t)+'</span>' for t in tags)+'</div><p class="summary">'+esc(a['summary_cn']).replace('\n','<br>')+'</p><aside class="commentary"><div class="commentary-label">TECHNICAL COMMENTARY</div><p>'+esc(a['meaning_cn']).replace('\n','<br>')+'</p></aside><div class="story-meta"><span>Published</span><strong>'+esc(a['publication_date'] or '待核实')+'</strong><span>Source</span><div>'+source+'</div><span>DOI</span><div class="doi">'+doi+'</div></div></div><div class="story-side">'+('<br>'.join(esc(t) for t in side) if side else esc(labels[('information_type',a['information_type'])]))+'</div></article>'
- body+='</main>'+issue_nav(prev_date,next_date,standalone)+footer(date,standalone)
+ body+='</section>'+issue_nav(prev_date,next_date,standalone)+footer(date,standalone)
  return shell('SpinFront · '+date,body,'../',standalone)
 def archive_html(issues):
  groups={}

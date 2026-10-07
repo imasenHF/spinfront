@@ -104,3 +104,39 @@ a:focus-visible,summary:focus-visible{outline:2px solid var(--gold);outline-offs
   .issue-topbar,.archive-link,.issue-nav{display:none}
   .story{break-inside:avoid}
 }
+
+/* Shared editorial hover/focus treatment for issue title and brand links. */
+.plastocyanin-link,
+.hero-title,
+.footer-parent-brand,
+.footer-brand{
+  color:var(--ink);
+  text-decoration:none;
+}
+.plastocyanin-link:is(:hover,:active,:focus-visible),
+.hero-title:is(:hover,:active,:focus-visible),
+.footer-parent-brand:is(:hover,:active,:focus-visible),
+.footer-brand:is(:hover,:active,:focus-visible){
+  color:var(--blue);
+  text-decoration:underline;
+  text-decoration-thickness:1px;
+  text-underline-offset:.18em;
+  text-decoration-skip-ink:auto;
+}
+.plastocyanin-link:is(:hover,:active,:focus-visible) span,
+.hero-title:is(:hover,:active,:focus-visible) .gold-o,
+.footer-parent-brand:is(:hover,:active,:focus-visible) .footer-dot,
+.footer-brand:is(:hover,:active,:focus-visible) .gold-o{
+  color:var(--gold);
+}
+.hero-title h1{color:inherit}
+.footer-brand-stack{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  gap:3px;
+}
+.footer-parent-brand{font:400 16px/1.25 var(--serif)}
+.footer-brand{font:400 14px/1.25 var(--serif)}
+.footer-dot{color:var(--gold)}
+.footer-brand-stack small{margin-top:4px;color:var(--muted);font-size:9px;letter-spacing:.5px}

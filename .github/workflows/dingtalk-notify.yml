@@ -162,11 +162,11 @@ jobs:
               raise ValueError(f'No titles available in: {source}')
 
           text = '\n\n'.join([
-              f'#### SpinFront · {date}',
+              f'### SpinFront · {date}',
               'NMR / EPR Daily Brief',
-              f'> **本期收录 {len(items)} 条** · NMR {nmr_count} / EPR {epr_count}',
+              f'**本期收录 {len(items)} 条** · NMR {nmr_count} / EPR {epr_count}',
               '**内容预览**',
-              '\n\n'.join(f'**{index:02d}** · {title}' for index, title in enumerate(titles, 1)),
+              '\n'.join(f'{index}. {title}' for index, title in enumerate(titles, 1)),
               f'[阅读完整日报 →]({url})',
           ])
           payload = {

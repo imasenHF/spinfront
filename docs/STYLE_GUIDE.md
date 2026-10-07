@@ -13,12 +13,12 @@
 - serif：Georgia / Times New Roman，用于 SpinFront 品牌、大标题、日期、编号
 - sans-serif：正文、标签、筛选与界面
 
-`SpinFront` 中字母 o 使用金色。plastocyanin. 的末尾圆点使用金色。
+`SpinFront` 中字母 o 使用金色。所有作为品牌显示的 `plastocyanin.` 中，字母 `o` 与末尾圆点均使用金色；其余字母保持深蓝灰。
 
 所有已有语义链接的品牌与标题：
 - 默认深蓝灰。
 - hover / active / focus 时主体变蓝，并显示细下划线。
-- 金色 o / 圆点保持金色。
+- SpinFront 的金色 o，以及 plastocyanin. 的金色 o / 圆点，在 hover / active / focus 时均保持金色。
 - 键盘 focus 必须可见。
 
 ## 2. 日报主页 `/spinfront/`

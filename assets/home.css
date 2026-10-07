@@ -348,6 +348,7 @@ body{background:var(--bg)}
   box-shadow:none;
 }
 .result-card:hover{border-color:var(--line);box-shadow:none}
+#results .result-card:last-child{border-bottom:0}
 .result-card::before{
   content:counter(sf-results,decimal-leading-zero) " /";
   position:absolute;

@@ -4,6 +4,12 @@ on:
   # Triggered by Cloudflare Worker via GitHub workflow_dispatch API.
   # Cron scheduling is managed in Cloudflare.
   workflow_dispatch:
+    inputs:
+      force_send:
+        description: 'Send a test message even if today was already notified'
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -27,8 +33,13 @@ jobs:
           echo "SpinFront date: ${DATE}"
           echo "SpinFront URL: ${URL}"
 
+      - name: Explain forced test send
+        if: ${{ inputs.force_send }}
+        run: echo "Manual force_send enabled; bypassing today's duplicate check for this test."
+
       - name: Check whether today's notification already succeeded
         id: dedupe
+        if: ${{ !inputs.force_send }}
         shell: bash
         env:
           GH_TOKEN: ${{ github.token }}

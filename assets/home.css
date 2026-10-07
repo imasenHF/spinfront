@@ -500,3 +500,29 @@ body{background:var(--bg)}
 .mag-footer-brand{font:400 14px/1.25 Georgia,"Times New Roman",serif}
 .mag-footer-dot,.mag-footer-gold{color:var(--gold)}
 .mag-footer-brand-stack small{margin-top:4px;color:var(--muted);font-size:9px;letter-spacing:.5px}
+
+
+/* Footer: same balanced two-column composition as daily issues. */
+.mag-footer{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:40px;
+}
+.mag-footer-right{
+  margin-left:auto;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  gap:4px;
+  text-align:right;
+  color:var(--muted);
+}
+@media(max-width:680px){
+  .mag-footer{display:block}
+  .mag-footer-right{
+    margin-top:18px;
+    align-items:flex-start;
+    text-align:left;
+  }
+}

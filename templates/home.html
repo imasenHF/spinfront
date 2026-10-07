@@ -96,21 +96,23 @@
       <div id="chips" class="chips"></div>
       <div id="results"></div>
       <button id="more" class="load-more" hidden>加载更多</button>
+
+      <div class="feed-extras">
+        <details class="about">
+          <summary>关于归档与数据</summary>
+          <p>首次进入归档默认显示当天日报；当天尚无记录时显示最近一期。直接输入检索词或启用主题、应用、方法等筛选时，如未主动指定日期或日期范围，检索自动覆盖全部历史日报；用户主动选择单日、最近7天、本月或起止日期后，后续检索保留该日期条件。来源发布日期在各条目中单独显示。历史内容已按所提供材料完成标签分类；原始来源、发布日期与科学结论尚未全面复核。</p>
+          <p>应用领域默认单选；开启多选后，同一应用维度中的多个条件按任一条件匹配。其他支持多选的筛选维度沿用同维度 OR、不同维度 AND。父标签包含子标签；NMR和EPR可分别选择，或限定同时涉及两者的记录。活体磁共振波谱和磁共振测速归于NMR实验类型。</p>
+          <p><a href="https://github.com/imasenHF/spinfront">项目仓库</a> · <a href="taxonomy/taxonomy.json">标签词表</a></p>
+        </details>
+
+        <details id="archive" class="archive-fallback">
+          <summary>完整日报归档 <small>{{TOTAL}}</small></summary>
+          <p class="archive-note">按年份和月份查阅完整日报。</p>
+          <div class="archive-tree">{{ARCHIVE}}</div>
+        </details>
+      </div>
     </section>
   </div>
-
-  <details class="about">
-    <summary>关于归档与数据</summary>
-    <p>首次进入归档默认显示当天日报；当天尚无记录时显示最近一期。直接输入检索词或启用主题、应用、方法等筛选时，如未主动指定日期或日期范围，检索自动覆盖全部历史日报；用户主动选择单日、最近7天、本月或起止日期后，后续检索保留该日期条件。来源发布日期在各条目中单独显示。历史内容已按所提供材料完成标签分类；原始来源、发布日期与科学结论尚未全面复核。</p>
-    <p>应用领域默认单选；开启多选后，同一应用维度中的多个条件按任一条件匹配。其他支持多选的筛选维度沿用同维度 OR、不同维度 AND。父标签包含子标签；NMR和EPR可分别选择，或限定同时涉及两者的记录。活体磁共振波谱和磁共振测速归于NMR实验类型。</p>
-    <p><a href="https://github.com/imasenHF/spinfront">项目仓库</a> · <a href="taxonomy/taxonomy.json">标签词表</a></p>
-  </details>
-
-  <details id="archive" class="archive-fallback">
-    <summary>完整日报归档 <small>{{TOTAL}}</small></summary>
-    <p class="archive-note">按年份和月份查阅完整日报。</p>
-    <div class="archive-tree">{{ARCHIVE}}</div>
-  </details>
 </main>
 
 <footer class="mag-footer">

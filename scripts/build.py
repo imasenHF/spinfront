@@ -77,7 +77,7 @@ def issue_nav(prev_date,next_date,standalone=False):
 
 def footer(date,standalone=False):
  archive=archive_href(standalone)
- return '<footer class="footer"><div><a class="footer-brand" href="'+archive+'">'+spinfront_wordmark()+'</a><br>NMR / EPR Daily Brief · '+esc(date)+'</div><div class="footer-right">© '+date[:4]+' wuhaifeng@ustc.edu.cn. All rights reserved.<br>本报告版权归作者所有，未经许可不得复制、转载或用于商业用途。</div></footer>'
+ return '<footer class="footer"><div class="footer-brand-stack"><a class="footer-parent-brand" href="https://plastocyanin.org/">plastocyanin<span class="footer-dot">.</span></a><a class="footer-brand" href="'+archive+'">'+spinfront_wordmark()+'</a><small>NMR / EPR Daily Brief · '+esc(date)+'</small></div><div class="footer-right">© '+date[:4]+' wuhaifeng@ustc.edu.cn. All rights reserved.<br>本报告版权归作者所有，未经许可不得复制、转载或用于商业用途。</div></footer>'
 
 def issue_html(d,labels,prev_date='',next_date='',standalone=False):
  date=d['report_date'];body=issue_header(d,standalone)+scope_block(d.get('scope_note',''))+'<section class="issue">'

@@ -197,7 +197,7 @@ body{background:var(--bg)}
   margin:18px 0 14px;
   font:400 clamp(66px,8.2vw,108px)/.88 Georgia,"Times New Roman",serif;
   letter-spacing:-4px;
-  color:var(--ink);
+  color:inherit;
 }
 .mag-front-main>p{max-width:720px;margin:0;color:var(--muted);font-size:17px;line-height:1.95}
 .mag-stats{display:flex;gap:25px;flex-wrap:wrap;margin-top:34px;font-size:10px;letter-spacing:1.35px;text-transform:uppercase}
@@ -455,5 +455,8 @@ body{background:var(--bg)}
   overscroll-behavior:auto;
   scrollbar-gutter:auto;
 }
-.mag-front-title{display:inline-block}
-.mag-front-title:hover{color:var(--blue);text-decoration:underline;text-underline-offset:.18em}
+.mag-front-title{display:inline-block;color:var(--ink)}
+.mag-front-title:hover,
+.mag-front-title:focus-visible{color:var(--blue);text-decoration:underline;text-underline-offset:.18em}
+.mag-front-title:hover .gold-o,
+.mag-front-title:focus-visible .gold-o{color:var(--gold)}

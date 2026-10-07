@@ -41,7 +41,7 @@ def load():
 
 def shell(title,body,prefix,standalone=False):
  template=(ROOT/'templates/issue.html').read_text(encoding='utf-8')
- styles=('<style>'+(ROOT/'assets/style.css').read_text(encoding='utf-8')+'</style>') if standalone else '<link rel="stylesheet" href="'+prefix+'assets/style.css">'
+ styles=('<style>'+(ROOT/'assets/style.css').read_text(encoding='utf-8')+'</style>') if standalone else '<link rel="stylesheet" href="'+prefix+'assets/style.css?v=20261007-links">'
  return template.replace('{{TITLE}}',esc(title)).replace('{{STYLES}}',styles).replace('{{BODY}}',body)
 
 MONTHS_EN=['January','February','March','April','May','June','July','August','September','October','November','December']

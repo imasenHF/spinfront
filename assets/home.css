@@ -455,11 +455,5 @@ body{background:var(--bg)}
   overscroll-behavior:auto;
   scrollbar-gutter:auto;
 }
-.mag-front-title{display:inline-block;color:inherit;text-decoration:none}
-.mag-front-title:hover{
-  color:inherit;
-  text-decoration:underline;
-  text-decoration-thickness:1px;
-  text-underline-offset:.12em;
-  text-decoration-skip-ink:auto;
-}
+.mag-front-title{display:inline-block}
+.mag-front-title:hover{color:var(--blue);text-decoration:underline;text-underline-offset:.18em}

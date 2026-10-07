@@ -460,3 +460,43 @@ body{background:var(--bg)}
 .mag-front-title:focus-visible{color:var(--blue);text-decoration:underline;text-underline-offset:.18em}
 .mag-front-title:hover .gold-o,
 .mag-front-title:focus-visible .gold-o{color:var(--gold)}
+
+
+/* Shared editorial hover/focus treatment for linked titles and brands. */
+.mag-parent,
+.mag-front-title,
+.latest-story h2 a,
+.result-card h2 a,
+.mag-footer-parent,
+.mag-footer-brand{
+  color:var(--ink);
+  text-decoration:none;
+}
+.mag-parent:is(:hover,:active,:focus-visible),
+.mag-front-title:is(:hover,:active,:focus-visible),
+.latest-story h2 a:is(:hover,:active,:focus-visible),
+.result-card h2 a:is(:hover,:active,:focus-visible),
+.mag-footer-parent:is(:hover,:active,:focus-visible),
+.mag-footer-brand:is(:hover,:active,:focus-visible){
+  color:var(--blue);
+  text-decoration:underline;
+  text-decoration-thickness:1px;
+  text-underline-offset:.18em;
+  text-decoration-skip-ink:auto;
+}
+.mag-parent:is(:hover,:active,:focus-visible) span,
+.mag-front-title:is(:hover,:active,:focus-visible) .gold-o,
+.mag-footer-parent:is(:hover,:active,:focus-visible) .mag-footer-dot,
+.mag-footer-brand:is(:hover,:active,:focus-visible) .mag-footer-gold{
+  color:var(--gold);
+}
+.mag-footer-brand-stack{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  gap:3px;
+}
+.mag-footer-parent{font:400 16px/1.25 Georgia,"Times New Roman",serif}
+.mag-footer-brand{font:400 14px/1.25 Georgia,"Times New Roman",serif}
+.mag-footer-dot,.mag-footer-gold{color:var(--gold)}
+.mag-footer-brand-stack small{margin-top:4px;color:var(--muted);font-size:9px;letter-spacing:.5px}

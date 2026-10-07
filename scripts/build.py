@@ -1,5 +1,5 @@
 """Build the SpinFront static archive from canonical issue JSON (Python stdlib)."""
-import argparse,datetime,html,json,re,shutil
+import argparse,datetime,html,json,re,shutil,urllib.parse
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 FIELDS=['direction_ids','experiment_type_ids','method_ids','application_ids','instrument_component_ids']
@@ -41,7 +41,7 @@ def load():
 
 def shell(title,body,prefix,standalone=False):
  template=(ROOT/'templates/issue.html').read_text(encoding='utf-8')
- styles=('<style>'+(ROOT/'assets/style.css').read_text(encoding='utf-8')+'</style>') if standalone else '<link rel="stylesheet" href="'+prefix+'assets/style.css?v=20261007-brand-gold-o">'
+ styles=('<style>'+(ROOT/'assets/style.css').read_text(encoding='utf-8')+'</style>') if standalone else '<link rel="stylesheet" href="'+prefix+'assets/style.css?v=20261007-metadata-tags">'
  return template.replace('{{TITLE}}',esc(title)).replace('{{STYLES}}',styles).replace('{{BODY}}',body)
 
 MONTHS_EN=['January','February','March','April','May','June','July','August','September','October','November','December']
@@ -55,6 +55,13 @@ def issue_href(date,standalone=False):
 
 def archive_href(standalone=False):
  return 'https://plastocyanin.org/spinfront/' if standalone else '../'
+
+def filter_href(field,tag,standalone=False):
+ query=urllib.parse.urlencode({'view':'all',field:tag})
+ return archive_href(standalone)+'?'+html.escape(query,quote=True)+'#explore'
+
+def taxonomy_link(field,tag,labels,standalone=False,cls='story-tag-link'):
+ return '<a class="'+cls+'" href="'+filter_href(field,tag,standalone)+'">'+esc(labels[(field,tag)])+'</a>'
 
 def cutoff_label(note):
  m=re.search(r'检索截至(\\d{4}-\\d{2}-\\d{2})\\s+([0-9:]+)（([^）]+)）',note or '')
@@ -83,11 +90,15 @@ def issue_html(d,labels,prev_date='',next_date='',standalone=False):
  date=d['report_date'];body=issue_header(d,standalone)+scope_block(d.get('scope_note',''))+'<section class="issue">'
  for a in d['items']:
   time='近7天扩展' if a['time_scope']=='7d_extension' else '近24小时'
-  tags=[labels[(f,t)] for f in FIELDS for t in a[f]]
-  side=[str(t).replace('_',' ').upper() for f in FIELDS for t in a[f]]
+  tag_pairs=[(f,t) for f in FIELDS for t in a[f]]
+  inline_tags=''.join(taxonomy_link(f,t,labels,standalone) for f,t in tag_pairs)
+  side_tags='<br>'.join(taxonomy_link(f,t,labels,standalone,'story-side-link') for f,t in tag_pairs)
+  info_type=taxonomy_link('information_type',a['information_type'],labels,standalone,'story-type-link')
   source=link(a['url'],a['source'])+''.join(' · '+link(s['url'],s['name']) for s in a['alternative_sources'])
-  doi=('<a href="https://doi.org/'+html.escape(a['doi'],quote=True)+'" rel="noopener noreferrer">'+esc(a['doi'])+'</a>' if a['doi'] else '—')
-  body+='<article class="story" id="'+a['item_id']+'"><div class="story-index">'+f'{a["item_no"]:02d}'+'<span>/</span></div><div class="story-main"><div class="story-type">'+esc(labels[('information_type',a['information_type'])])+' · '+time+'</div><h2>'+esc(a['title_cn'])+'</h2><div class="story-tags-inline">'+''.join('<span>'+esc(t)+'</span>' for t in tags)+'</div><p class="summary">'+esc(a['summary_cn']).replace('\n','<br>')+'</p><aside class="commentary"><div class="commentary-label">TECHNICAL COMMENTARY</div><p>'+esc(a['meaning_cn']).replace('\n','<br>')+'</p></aside><div class="story-meta"><span>Published</span><strong>'+esc(a['publication_date'] or '待核实')+'</strong><span>Source</span><div>'+source+'</div><span>DOI</span><div class="doi">'+doi+'</div></div></div><div class="story-side">'+('<br>'.join(esc(t) for t in side) if side else esc(labels[('information_type',a['information_type'])]))+'</div></article>'
+  if a['doi']:
+   doi_url='https://doi.org/'+html.escape(a['doi'],quote=True)
+   source+=' · <span class="source-doi">DOI <a href="'+doi_url+'" rel="noopener noreferrer">'+esc(a['doi'])+'</a></span>'
+  body+='<article class="story" id="'+a['item_id']+'"><div class="story-index">'+f'{a["item_no"]:02d}'+'<span>/</span></div><div class="story-main"><div class="story-type">'+info_type+' · '+time+'</div><h2>'+esc(a['title_cn'])+'</h2><div class="story-tags-inline">'+inline_tags+'</div><p class="summary">'+esc(a['summary_cn']).replace('\n','<br>')+'</p><aside class="commentary"><div class="commentary-label">TECHNICAL COMMENTARY</div><p>'+esc(a['meaning_cn']).replace('\n','<br>')+'</p></aside><div class="story-meta"><span>Published</span><strong>'+esc(a['publication_date'] or '待核实')+'</strong><span>Source</span><div class="source-line">'+source+'</div></div></div><div class="story-side">'+(side_tags if side_tags else info_type)+'</div></article>'
  body+='</section>'+issue_nav(prev_date,next_date,standalone)+footer(date,standalone)
  return shell('SpinFront · '+date,body,'../',standalone)
 def archive_html(issues):

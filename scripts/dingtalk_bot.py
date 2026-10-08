@@ -1,38 +1,43 @@
 """Reusable DingTalk webhook sender for SpinFront automation.
 
-The actual webhook values are provided by GitHub Actions secret:
-DINGTALK_WEBHOOKS
+Webhook values are provided by GitHub Actions secret:
+SPINFRONT_DINGTALK_WEBHOOKS
 
 Expected JSON format:
 {
-  "spinfront": "https://oapi.dingtalk.com/robot/send?...",
-  "other_group": "https://oapi.dingtalk.com/robot/send?..."
+  "ciqtek": {
+    "enabled": true,
+    "webhook": "https://oapi.dingtalk.com/robot/send?..."
+  },
+  "test": {
+    "enabled": false,
+    "webhook": "https://oapi.dingtalk.com/robot/send?..."
+  }
 }
+
+All enabled targets receive the same message. Adding or disabling a target
+only requires editing the secret value.
 """
 
 import json
 import os
-from typing import Dict
+from typing import Dict, Any
 
 import requests
 
 
 class DingTalkBot:
-    def __init__(self, target: str = "spinfront"):
-        self.target = target
+    def __init__(self):
         self.webhooks = self._load_webhooks()
 
     @staticmethod
-    def _load_webhooks() -> Dict[str, str]:
-        value = os.environ.get("DINGTALK_WEBHOOKS")
+    def _load_webhooks() -> Dict[str, Any]:
+        value = os.environ.get("SPINFRONT_DINGTALK_WEBHOOKS")
         if not value:
-            raise RuntimeError("Missing DINGTALK_WEBHOOKS secret")
+            raise RuntimeError("Missing SPINFRONT_DINGTALK_WEBHOOKS secret")
         return json.loads(value)
 
     def send_markdown(self, title: str, text: str):
-        if self.target not in self.webhooks:
-            raise KeyError(f"Unknown DingTalk target: {self.target}")
-
         payload = {
             "msgtype": "markdown",
             "markdown": {
@@ -41,15 +46,30 @@ class DingTalkBot:
             },
         }
 
-        response = requests.post(
-            self.webhooks[self.target],
-            json=payload,
-            timeout=20,
-        )
-        response.raise_for_status()
-        result = response.json()
+        results = {}
 
-        if result.get("errcode") != 0:
-            raise RuntimeError(result)
+        for name, config in self.webhooks.items():
+            if not config.get("enabled", False):
+                continue
 
-        return result
+            webhook = config.get("webhook")
+            if not webhook:
+                raise ValueError(f"Missing webhook for target: {name}")
+
+            response = requests.post(
+                webhook,
+                json=payload,
+                timeout=20,
+            )
+            response.raise_for_status()
+
+            result = response.json()
+            if result.get("errcode") != 0:
+                raise RuntimeError(f"DingTalk target {name} failed: {result}")
+
+            results[name] = result
+
+        if not results:
+            raise RuntimeError("No enabled DingTalk webhook targets")
+
+        return results

@@ -43,7 +43,7 @@ jobs:
 
       - name: Send SpinFront DingTalk notification
         env:
-          DINGTALK_WEBHOOKS: ${{ secrets.DINGTALK_WEBHOOKS }}
+          SPINFRONT_DINGTALK_WEBHOOKS: ${{ secrets.SPINFRONT_DINGTALK_WEBHOOKS }}
           DATE: ${{ steps.prepare.outputs.date }}
           URL: ${{ steps.prepare.outputs.url }}
         run: |
@@ -78,9 +78,11 @@ jobs:
               f'[阅读完整日报 →]({url})'
           ])
 
-          bot = DingTalkBot(target='spinfront')
-          bot.send_markdown(
+          bot = DingTalkBot()
+          results = bot.send_markdown(
               title=f'SpinFront · {date}',
               text=text
           )
+
+          print(f'Sent DingTalk notifications: {list(results.keys())}')
           PY

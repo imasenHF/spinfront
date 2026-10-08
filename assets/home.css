@@ -558,3 +558,37 @@ body{background:var(--bg)}
 .mag-front-title:is(:hover,:active,:focus-visible) .gold-o{
   color:var(--gold);
 }
+
+
+/* Taxonomy labels shown on the archive homepage are search links. */
+.result-tags a{
+  color:#4e6873;
+  background:#eaf0f2;
+  border-radius:5px;
+  font-size:11px;
+  padding:3px 7px;
+  text-decoration:none;
+}
+.result-tags a:is(:hover,:active,:focus-visible){
+  color:var(--blue);
+  text-decoration:underline;
+  text-underline-offset:.18em;
+}
+.compact-row .result-tags a{font-size:10px}
+.result-info-tag{
+  color:#95752f;
+  text-decoration:none;
+}
+.result-info-tag:is(:hover,:active,:focus-visible){
+  color:var(--blue);
+  text-decoration:underline;
+  text-underline-offset:.18em;
+}
+.more-tags a{
+  color:var(--blue);
+  text-decoration:none;
+}
+.more-tags a:is(:hover,:active,:focus-visible){
+  text-decoration:underline;
+  text-underline-offset:.18em;
+}

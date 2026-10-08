@@ -1,8 +1,6 @@
 name: SpinFront DingTalk Notify
 
 on:
-  # Triggered by Cloudflare Worker via GitHub workflow_dispatch API.
-  # Cron scheduling is managed in Cloudflare.
   workflow_dispatch:
     inputs:
       force_send:
@@ -20,173 +18,69 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Prepare today's SpinFront URL
-        id: spinfront
+      - name: Checkout SpinFront data
+        uses: actions/checkout@v4
+
+      - name: Prepare notification
+        id: prepare
         shell: bash
         run: |
           DATE=$(TZ=Asia/Shanghai date +%Y-%m-%d)
           URL="https://plastocyanin.org/spinfront/${DATE}/"
-
           echo "date=${DATE}" >> "$GITHUB_OUTPUT"
           echo "url=${URL}" >> "$GITHUB_OUTPUT"
 
-          echo "SpinFront date: ${DATE}"
-          echo "SpinFront URL: ${URL}"
-
-      - name: Explain forced test send
-        if: ${{ inputs.force_send }}
-        run: echo "Manual force_send enabled; bypassing today's duplicate check for this test."
-
-      - name: Check whether today's notification already succeeded
-        id: dedupe
-        if: ${{ !inputs.force_send }}
+      - name: Check page availability
         shell: bash
         env:
-          GH_TOKEN: ${{ github.token }}
-          REPOSITORY: ${{ github.repository }}
-          CURRENT_RUN_ID: ${{ github.run_id }}
+          URL: ${{ steps.prepare.outputs.url }}
         run: |
-          curl -sS --fail-with-body \
-            -H "Accept: application/vnd.github+json" \
-            -H "Authorization: Bearer ${GH_TOKEN}" \
-            -H "X-GitHub-Api-Version: 2022-11-28" \
-            "https://api.github.com/repos/${REPOSITORY}/actions/workflows/dingtalk-notify.yml/runs?status=success&per_page=30" \
-            -o /tmp/dingtalk-runs.json
-
-          python3 - <<'PY'
-          import json
-          import os
-          from datetime import datetime
-          from zoneinfo import ZoneInfo
-
-          tz = ZoneInfo("Asia/Shanghai")
-          today = datetime.now(tz).date()
-          current_run_id = int(os.environ["CURRENT_RUN_ID"])
-
-          with open("/tmp/dingtalk-runs.json", "r", encoding="utf-8") as f:
-              data = json.load(f)
-
-          already_sent = False
-          matched_run_id = None
-
-          for run in data.get("workflow_runs", []):
-              if run.get("id") == current_run_id:
-                  continue
-
-              timestamp = run.get("run_started_at") or run.get("created_at")
-              if not timestamp:
-                  continue
-
-              run_date = datetime.fromisoformat(
-                  timestamp.replace("Z", "+00:00")
-              ).astimezone(tz).date()
-
-              if run_date == today:
-                  already_sent = True
-                  matched_run_id = run.get("id")
-                  break
-
-          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
-              f.write(f"already_sent={'true' if already_sent else 'false'}\n")
-
-          if already_sent:
-              print(f"A successful DingTalk notification run already exists today: {matched_run_id}")
-          else:
-              print("No successful DingTalk notification run exists today; this run will continue.")
-          PY
-
-      - name: Stop duplicate notification
-        if: ${{ steps.dedupe.outputs.already_sent == 'true' }}
-        run: echo "Today's notification was already sent successfully; this run exits without sending again."
-
-      - name: Wait for page to become available
-        if: ${{ steps.dedupe.outputs.already_sent != 'true' }}
-        shell: bash
-        env:
-          URL: ${{ steps.spinfront.outputs.url }}
-        run: |
-          for i in {1..5}; do
-            STATUS=$(curl -L -sS -o /dev/null -w "%{http_code}" "$URL" || true)
-
-            if [ "$STATUS" = "200" ]; then
-              echo "SpinFront page is available."
-              exit 0
-            fi
-
-            echo "Attempt ${i}/5: HTTP ${STATUS}; retrying in 60 seconds."
-            sleep 60
-          done
-
-          echo "SpinFront page is still unavailable; notification will not be sent."
-          exit 1
-
-      - name: Checkout SpinFront data
-        if: ${{ steps.dedupe.outputs.already_sent != 'true' }}
-        uses: actions/checkout@v4
-
-      - name: Send DingTalk notification
-        if: ${{ steps.dedupe.outputs.already_sent != 'true' }}
-        shell: bash
-        env:
-          DINGTALK_WEBHOOK: ${{ secrets.DINGTALK_WEBHOOK }}
-          DATE: ${{ steps.spinfront.outputs.date }}
-          URL: ${{ steps.spinfront.outputs.url }}
-        run: |
-          if [ -z "$DINGTALK_WEBHOOK" ]; then
-            echo "Repository secret DINGTALK_WEBHOOK is not configured."
+          STATUS=$(curl -L -sS -o /dev/null -w "%{http_code}" "$URL")
+          if [ "$STATUS" != "200" ]; then
+            echo "SpinFront page unavailable: ${STATUS}"
             exit 1
           fi
 
+      - name: Send SpinFront DingTalk notification
+        env:
+          DINGTALK_WEBHOOKS: ${{ secrets.DINGTALK_WEBHOOKS }}
+          DATE: ${{ steps.prepare.outputs.date }}
+          URL: ${{ steps.prepare.outputs.url }}
+        run: |
           python3 - <<'PY'
           import json
           import os
+          import sys
           from pathlib import Path
+          sys.path.insert(0, '.')
+          from scripts.dingtalk_bot import DingTalkBot
 
           date = os.environ['DATE']
           url = os.environ['URL']
+
           source = Path('data') / date[:4] / f'SpinFront_{date}.json'
           with source.open('r', encoding='utf-8') as f:
               report = json.load(f)
 
-          if report.get('report_date') != date:
-              raise ValueError(f'Report date does not match: {source}')
-          items = report.get('items')
-          if not isinstance(items, list) or not items:
-              raise ValueError(f'No daily entries found: {source}')
+          items = report.get('items', [])
+          nmr = sum('nmr' in (x.get('direction_ids') or []) for x in items)
+          epr = sum('epr' in (x.get('direction_ids') or []) for x in items)
 
-          nmr_count = sum('nmr' in (item.get('direction_ids') or []) for item in items)
-          epr_count = sum('epr' in (item.get('direction_ids') or []) for item in items)
-          titles = [item.get('title_cn', '').strip() for item in items]
-          titles = [title for title in titles if title][:3]
-          if not titles:
-              raise ValueError(f'No titles available in: {source}')
+          titles = [x.get('title_cn', '').strip() for x in items]
+          titles = [x for x in titles if x][:3]
 
           text = '\n\n'.join([
               f'#### SpinFront | {date}',
               '> NMR / EPR Daily Brief',
-              f'本期收录 **{len(items)}** 条 · NMR {nmr_count} / EPR {epr_count}',
+              f'本期收录 **{len(items)}** 条 · NMR {nmr} / EPR {epr}',
               '**内容预览**',
-              '\n'.join(f'{index}. {title}' for index, title in enumerate(titles, 1)),
-              f'[阅读完整日报 →]({url})',
+              '\n'.join(f'{i}. {t}' for i, t in enumerate(titles, 1)),
+              f'[阅读完整日报 →]({url})'
           ])
-          payload = {
-              'msgtype': 'markdown',
-              'markdown': {'title': f'SpinFront · {date}', 'text': text},
-          }
-          with open('/tmp/spinfront-dingtalk.json', 'w', encoding='utf-8') as f:
-              json.dump(payload, f, ensure_ascii=False)
-          print(f'Prepared SpinFront notification for {date}: {len(items)} items, NMR={nmr_count}, EPR={epr_count}')
+
+          bot = DingTalkBot(target='spinfront')
+          bot.send_markdown(
+              title=f'SpinFront · {date}',
+              text=text
+          )
           PY
-
-          RESPONSE=$(curl -sS --fail-with-body \
-            -X POST \
-            -H "Content-Type: application/json" \
-            --data-binary @/tmp/spinfront-dingtalk.json \
-            "$DINGTALK_WEBHOOK")
-
-          echo "$RESPONSE"
-          ERRCODE=$(echo "$RESPONSE" | jq -r '.errcode // -1')
-          if [ "$ERRCODE" != "0" ]; then
-            echo "DingTalk returned an error."
-            exit 1
-          fi

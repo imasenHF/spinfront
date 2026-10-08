@@ -55,7 +55,7 @@ python -m http.server 8000 --directory _site
 
 GitHub Pages使用GitHub Actions构建并发布。提交main分支后触发发布，也可手动运行发布工作流。资源使用相对路径；本项目不配置指向主站域名的CNAME。
 
-钉钉通知由独立工作流执行，计划时间为北京时间07:20。工作流检查当日页面可访问后发送链接，需要仓库Secret `DINGTALK_WEBHOOK`；通知工作流本身不生成日报。配置或页面不可用时，工作流会记录失败。
+钉钉通知由 `.github/workflows/dingtalk-notify.yml` 处理，工作流仅接受 `workflow_dispatch` 触发，不包含 GitHub Actions 定时 cron。北京时间 07:20 为外部调度计划时间，实际执行时刻需核对 Cloudflare Worker 的 Cron 配置。工作流检查当日页面返回 HTTP 200 后发送链接，读取仓库 Secret `SPINFRONT_DINGTALK_WEBHOOKS`（多机器人 JSON 配置）；通知工作流本身不生成日报。配置或页面不可用时，工作流会记录失败。
 
 ## 版权
 

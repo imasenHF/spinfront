@@ -55,7 +55,7 @@ python -m http.server 8000 --directory _site
 
 GitHub Pages使用GitHub Actions构建并发布。提交main分支后触发发布，也可手动运行发布工作流。资源使用相对路径；本项目不配置指向主站域名的CNAME。
 
-钉钉通知由 `.github/workflows/dingtalk-notify.yml` 处理，工作流仅接受 `workflow_dispatch` 触发，不包含 GitHub Actions 定时 cron。北京时间 07:20 为外部调度计划时间，实际执行时刻需核对 Cloudflare Worker 的 Cron 配置。工作流检查当日页面返回 HTTP 200 后发送链接，读取仓库 Secret `SPINFRONT_DINGTALK_WEBHOOKS`（多机器人 JSON 配置）；通知工作流本身不生成日报。配置或页面不可用时，工作流会记录失败。
+钉钉通知由 `.github/workflows/dingtalk-notify.yml` 处理，仅接受 `workflow_dispatch` 触发，不包含 GitHub Actions 定时 cron。北京时间 07:20 为计划推送时间；实际 Cloudflare Worker 触发配置需单独核对。工作流以北京时间判断当日是否已有成功的通知运行，已有记录则跳过，默认手动运行同样适用；`force_send=true` 仅用于明确要求重复发送的人工测试。工作流设置并发串行，避免同一时刻触发的任务同时通过去重检查。检查当日页面 HTTP 200 后，读取仓库 Secret `SPINFRONT_DINGTALK_WEBHOOKS`，向 JSON 中所有 `enabled: true` 的群机器人发送同一条日报，新增、禁用目标只修改 Secret，不修改代码；通知工作流本身不生成日报。异常时工作流记录失败；若部分群已成功收到消息而后续群失败，重新运行可能导致此前成功的群重复收到消息，应先核查发送记录。
 
 ## 版权
 

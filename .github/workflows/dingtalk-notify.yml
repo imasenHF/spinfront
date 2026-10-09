@@ -13,6 +13,11 @@ permissions:
   contents: read
   actions: read
 
+# Serialize incoming Cloudflare/manual dispatches so duplicate checks do not race.
+concurrency:
+  group: spinfront-dingtalk-notify
+  cancel-in-progress: false
+
 jobs:
   notify:
     runs-on: ubuntu-latest
@@ -30,7 +35,59 @@ jobs:
           echo "date=${DATE}" >> "$GITHUB_OUTPUT"
           echo "url=${URL}" >> "$GITHUB_OUTPUT"
 
+      - name: Check whether today's notification already succeeded
+        id: dedupe
+        if: ${{ !inputs.force_send }}
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+          CURRENT_RUN_ID: ${{ github.run_id }}
+        run: |
+          curl -sS --fail-with-body \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/${REPOSITORY}/actions/workflows/dingtalk-notify.yml/runs?status=success&per_page=100" \
+            -o /tmp/spinfront-notify-runs.json
+
+          python3 - <<'PY'
+          import json
+          import os
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+
+          timezone = ZoneInfo('Asia/Shanghai')
+          today = datetime.now(timezone).date()
+          current_run_id = int(os.environ['CURRENT_RUN_ID'])
+          with open('/tmp/spinfront-notify-runs.json', encoding='utf-8') as file:
+              runs = json.load(file).get('workflow_runs', [])
+
+          matched = None
+          for run in runs:
+              if run.get('id') == current_run_id:
+                  continue
+              timestamp = run.get('run_started_at') or run.get('created_at')
+              if not timestamp:
+                  continue
+              started = datetime.fromisoformat(timestamp.replace('Z', '+00:00'))
+              if started.astimezone(timezone).date() == today:
+                  matched = run['id']
+                  break
+
+          with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as file:
+              file.write(f"already_sent={'true' if matched else 'false'}\n")
+          if matched:
+              print(f'SpinFront notification already completed today (run {matched}); skipping.')
+          else:
+              print('No successful SpinFront notification run today; proceeding.')
+          PY
+
+      - name: Skip duplicate notification
+        if: ${{ steps.dedupe.outputs.already_sent == 'true' }}
+        run: echo 'Notification already delivered today; nothing to send.'
       - name: Check page availability
+        if: ${{ steps.dedupe.outputs.already_sent != 'true' }}
         shell: bash
         env:
           URL: ${{ steps.prepare.outputs.url }}
@@ -42,6 +99,7 @@ jobs:
           fi
 
       - name: Send SpinFront DingTalk notification
+        if: ${{ steps.dedupe.outputs.already_sent != 'true' }}
         env:
           SPINFRONT_DINGTALK_WEBHOOKS: ${{ secrets.SPINFRONT_DINGTALK_WEBHOOKS }}
           DATE: ${{ steps.prepare.outputs.date }}

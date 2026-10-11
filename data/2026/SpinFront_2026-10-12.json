@@ -1,0 +1,408 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-10-12",
+  "scope_note": "检索截至2026-10-12 06:17（Asia/Shanghai），覆盖2026-10-05至10-11。常规检索仅确认1条可由出版商和Crossref精确登记时刻证明处于过去24小时，低于5条阈值，已执行增强检索；增强检索覆盖专业期刊与综合出版平台、Crossref/PubMed、ChemRxiv/SSRN、仪器厂商、会议培训、中国及海外采购，并按NMR/EPR方法主题簇扩展。增强后获得10条可由出版商页面、Crossref、PubMed、OpenAlex或J-STAGE题录和摘要核实的高相关内容，高于8条阈值，未触发深度增强检索。以全库53期441条和最近7期共同查重，在22条重点候选中排除4条历史重复、3条实际在线日期超窗、3条原始内容或日期不足、2条仅属常规辅助表征，最终收录10条，其中1条标注“近24小时”、9条标注“近7天扩展”。待复核标签：无。",
+  "items": [
+    {
+      "item_id": "SF-20261012-01",
+      "report_date": "2026-10-12",
+      "item_no": 1,
+      "title_cn": "固体NMR与介电谱分开解析晶态三转子协同运动",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "materials",
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "叔丁基铵-18-冠-6-金属卤化物水合物晶体",
+        "冠醚-配位水-铵盐三转子"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Wang等把固体NMR与介电谱用于一组同构超分子陀螺晶体。固体NMR分别辨认叔丁基铵阳离子与18-冠-6的独立转动；冠醚的NMR动力学与配位水介电弛豫在宽温区相关，显示电荷辅助氢键介导冠醚—水—铵盐三转子的同步运动，并伴随烷基重取向。",
+      "meaning_cn": "两种谱学对不同运动单元具有互补选择性，可减少把复合介电弛豫归给单一转子的歧义。比较不同晶体时需固定温区、变温平衡、NMR线形模型和介电拟合模型，并以独立峰指认确认各转子；跨技术相关仍需排除共同温度依赖造成的表观同步。",
+      "publication_date": "2026-10-11",
+      "time_scope": "24h",
+      "source": "Chemistry of Materials",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.chemmater.6c01722",
+      "doi": "10.1021/acs.chemmater.6c01722",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-12",
+      "last_updated": "2026-10-12",
+      "report_file": "SpinFront_2026-10-12.html",
+      "publication_status": "early_access",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261012-02",
+      "report_date": "2026-10-12",
+      "item_no": 2,
+      "title_cn": "DMSO-d₆内校准把六种萘普生杂质RRF连接至HPLC",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "qnmr"
+      ],
+      "application_ids": [
+        "pharma",
+        "quality_control"
+      ],
+      "sample_systems": [
+        "萘普生及六种杂质",
+        "DMSO-d₆内校准体系"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Pu等以DMSO-d₆的δ 2.5 ppm信号作内校准，分别对萘普生及六种杂质进行¹H qNMR，再把含量关系换算为HPLC相对响应因子。六个RRF为0.30–1.14，与HPLC标准曲线结果相符；1–12 mg·mL⁻¹范围R²为1，五次重复及24 h稳定性RSD均为0.10%。",
+      "meaning_cn": "分开测定各组分可绕开主成分与结构相近杂质的谱峰重叠，也省去杂质对照品的精确称量和纯化。复用时应校准DMSO-d₆纯度与含水量、弛豫延迟、温度和积分区间，并单独核查HPLC检测器线性及RRF在不同仪器和流动相中的可迁移性。",
+      "publication_date": "2026-10-10",
+      "time_scope": "7d_extension",
+      "source": "Molecules",
+      "url": "https://www.mdpi.com/1420-3049/31/20/3598",
+      "doi": "10.3390/molecules31203598",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-12",
+      "last_updated": "2026-10-12",
+      "report_file": "SpinFront_2026-10-12.html",
+      "publication_status": "published",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261012-03",
+      "report_date": "2026-10-12",
+      "item_no": 3,
+      "title_cn": "¹H/³¹P qNMR直接定量野生裸盖菇中的裸盖菇素与裸盖菇碱",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "qnmr",
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "natural_products",
+        "quality_control"
+      ],
+      "sample_systems": [
+        "希腊野生Psilocybe子实体",
+        "D₂O提取液",
+        "裸盖菇素与裸盖菇碱"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Dadiotis等以D₂O提取希腊野生Psilocybe子实体，分别用甲酸钙和二甲基甲基膦酸酯作为¹H与³¹P qNMR内标，直接测定裸盖菇碱和含磷的裸盖菇素。研究还设置脱磷酸步骤并用GC–MS确认裸盖菇碱，形成不依赖目标分析物纯品作外部校准的双核定量流程。",
+      "meaning_cn": "¹H与³¹P通道分别约束含氢和含磷分析物，可用于对照品受管制或样品量有限的真菌材料。方法转用到法医学或质量控制时需报告提取回收率、脱磷酸转化率、内标纯度、D₂O中pH、积分信号与完全弛豫条件，并保留样品来源记录。",
+      "publication_date": "2026-10-09",
+      "time_scope": "7d_extension",
+      "source": "ACS Omega",
+      "url": "https://pubs.acs.org/doi/10.1021/acsomega.5c13069",
+      "doi": "10.1021/acsomega.5c13069",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-12",
+      "last_updated": "2026-10-12",
+      "report_file": "SpinFront_2026-10-12.html",
+      "publication_status": "early_access",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261012-04",
+      "report_date": "2026-10-12",
+      "item_no": 4,
+      "title_cn": "在线NMR分辨化学辅助CO₂吞吐中的孔喉开闭阶段",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "reaction_monitoring"
+      ],
+      "application_ids": [
+        "geoscience_flow",
+        "process_analysis"
+      ],
+      "sample_systems": [
+        "页岩岩心",
+        "CO₂吞吐体系",
+        "DZ-1/RS-3复配驱油剂RH-2"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Du等把微流控可视化、岩心吞吐与在线NMR组合，比较DZ-1、RS-3及复配RH-2对页岩油采收的影响。RH-2在微流控实验中达到56%波及效率和92%累计采收，0.2 HCPV化学段塞时岩心采收率最高为48.94%；在线NMR把加压过程分为大孔喉部分弹性闭合与微裂缝快速扩展两个阶段。",
+      "meaning_cn": "在线NMR把总采收率进一步分解为空间受限流体和压力相关孔喉变化，适合检验化学段塞与CO₂注入顺序。结果目前为预印本；复现实验需固定岩心含油饱和度、围压、注入强度、回波间隔及T₂—孔径映射，并用压力与微流控结果区分弹性闭合和真实流体动用。",
+      "publication_date": "2026-10-10",
+      "time_scope": "7d_extension",
+      "source": "SSRN",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7593074",
+      "doi": "10.2139/ssrn.7593074",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-12",
+      "last_updated": "2026-10-12",
+      "report_file": "SpinFront_2026-10-12.html",
+      "publication_status": "preprint",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261012-05",
+      "report_date": "2026-10-12",
+      "item_no": 5,
+      "title_cn": "GARField一维¹H NMR无损跟踪不透明防污涂层释放前沿",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials",
+        "polymers",
+        "process_analysis"
+      ],
+      "sample_systems": [
+        "PDMS防污涂层",
+        "吡啶硫酮铜释放体系",
+        "水填充孔隙"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Raemaekers等用GARField一维¹H NMR剖面连续观察PDMS防污涂层中吡啶硫酮铜释放后形成的水填充孔隙，并以同类样品截面SEM验证。释放前沿随浸出时间平方根推进，符合扩散控制；15 wt%吡啶硫酮铜仍可可靠识别前沿，10 wt%时仅能分辨释放初期。",
+      "meaning_cn": "该方法可在不切片的条件下重复测量同一不透明样品，减少不同试片间差异。用于配方比较时需固定浸出温度、介质、样品厚度、空间分辨率和含水信号阈值；NMR观察的是水进入后的信号变化，仍需质量损失或化学分析核对活性物真实释放量。",
+      "publication_date": "2026-10-09",
+      "time_scope": "7d_extension",
+      "source": "Progress in Organic Coatings",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0300944026007307",
+      "doi": "10.1016/j.porgcoat.2026.110674",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-12",
+      "last_updated": "2026-10-12",
+      "report_file": "SpinFront_2026-10-12.html",
+      "publication_status": "early_access",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261012-06",
+      "report_date": "2026-10-12",
+      "item_no": 6,
+      "title_cn": "机器学习分子动力学计算纳米管限域¹²⁹Xe的T₁/T₂",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "computation_nmr",
+        "relaxometry"
+      ],
+      "application_ids": [
+        "materials",
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "碳纳米管限域¹²⁹Xe",
+        "不同温度、管径与Xe负载"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Zakary等把微调原子基础模型的分子动力学与NMR屏蔽张量机器学习模型结合，在任意纳米管取向下用Redfield理论计算限域¹²⁹Xe由化学位移各向异性驱动的T₁和T₂。多组温度、管径和负载条件出现非单调变化；与实验自由Xe密度相当时，限域可使T₁缩短至约五分之一。",
+      "meaning_cn": "该计算把¹²⁹Xe弛豫与限域扩散联系起来，并提出用T₁间接识别单列扩散。当前结果为预印本且聚焦化学位移各向异性通道；与实验比较还需加入壁面缺陷、核偶极、自旋旋转、吸附位点分布及纳米管取向分散，并报告势能面与屏蔽模型误差。",
+      "publication_date": "2026-10-06",
+      "time_scope": "7d_extension",
+      "source": "ChemRxiv",
+      "url": "https://chemrxiv.org/doi/10.26434/chemrxiv.15009993",
+      "doi": "10.26434/chemrxiv.15009993/v1",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-12",
+      "last_updated": "2026-10-12",
+      "report_file": "SpinFront_2026-10-12.html",
+      "publication_status": "preprint",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261012-07",
+      "report_date": "2026-10-12",
+      "item_no": 7,
+      "title_cn": "多核固体NMR结晶学区分甘氨酰甘氨酸三种固体形态",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr",
+        "multidimensional_nmr",
+        "mas",
+        "cross_polarization",
+        "cpmg",
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure",
+        "materials"
+      ],
+      "sample_systems": [
+        "甘氨酰甘氨酸游离碱",
+        "盐酸盐",
+        "半盐酸盐"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Holmes等联合XRD、DFT与多核固体NMR比较甘氨酰甘氨酸游离碱、盐酸盐和半盐酸盐。实验包含二维¹H–¹H DQ-SQ BABA、慢速MAS下¹H–¹³C/¹⁵N CP、超宽线¹⁴N WURST-CPMG、³⁵Cl谱及³⁵Cl→¹H D-RINEPT，以化学位移张量、EFG和偶极相关解析晶体结构与氢键。",
+      "meaning_cn": "同一样品中组合高分辨质子相关、四极核超宽线谱和DFT，可检验盐型及局部氢键，尤其适合常规PXRD难以区分的近似结构。跨晶型比较需严格确认相纯度、含水量、MAS转速和化学位移参照；文中细微¹³C/¹⁵N张量差异还依赖双杂化泛函计算精度。",
+      "publication_date": "2026-10-07",
+      "time_scope": "7d_extension",
+      "source": "Physical Chemistry Chemical Physics",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2026/cp/d6cp02448c",
+      "doi": "10.1039/d6cp02448c",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-12",
+      "last_updated": "2026-10-12",
+      "report_file": "SpinFront_2026-10-12.html",
+      "publication_status": "published",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261012-08",
+      "report_date": "2026-10-12",
+      "item_no": 8,
+      "title_cn": "¹⁴N倍频固体NMR模拟检验六重分子跳跃的方向偏置",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "mas"
+      ],
+      "application_ids": [
+        "chemical_structure",
+        "materials"
+      ],
+      "sample_systems": [
+        "六甲基硼嗪粉末",
+        "六重环跳跃模型"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Lafrance等测定六甲基硼嗪单晶结构，并获得硼嗪基团首组¹⁴N倍频固体NMR谱。谱重心随MAS转速呈已知变化；六重位点跳跃的自旋动力学模拟显示，倍频谱对顺、逆方向跳跃概率不等具有响应。该样品本身没有方向优选，现有实验尚未完整验证偏置效应。",
+      "meaning_cn": "¹⁴N倍频通道可避开常规单量子谱中强四极展宽，并有可能读取分子转子运动的方向性。应用到分子机器时需选择具有足够¹⁴N信号和明确跳跃几何的体系，系统扫描MAS转速与温度，同时核对取向分布、射频场和动力学模型，避免把转子不对称误判为运动偏置。",
+      "publication_date": "2026-10-06",
+      "time_scope": "7d_extension",
+      "source": "Molecular Physics",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/00268976.2026.2738819",
+      "doi": "10.1080/00268976.2026.2738819",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-12",
+      "last_updated": "2026-10-12",
+      "report_file": "SpinFront_2026-10-12.html",
+      "publication_status": "early_access",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261012-09",
+      "report_date": "2026-10-12",
+      "item_no": 9,
+      "title_cn": "¹¹³Cd/¹³³Cs NMR分辨CsCdBr₃局域电子响应与低频晶格涨落",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr",
+        "relaxometry"
+      ],
+      "application_ids": [
+        "materials",
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "六方CsCdBr₃晶体",
+        "300–500 K变温体系"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Lim等以XRD、热分析和变温¹¹³Cd/¹³³Cs NMR研究CsCdBr₃。300–500 K晶格保持P6₃/mmc，两个核种的位移随温度呈相反趋势且线宽近似不变；300 K时¹¹³Cd T₁为678 s、¹³³Cs T₁为1471 s，而¹³³Cs T₁ρ仅0.11 s，显示旋转坐标系弛豫对低频晶格涨落更敏感。",
+      "meaning_cn": "两个局域探针将CdBr₆八面体与Cs⁺环境分开，T₁和T₁ρ的数量级差异还能约束不同频率区间的晶格运动。476 K附近热异常未见明确XRD相变；解释时需统一射频锁场强度、温度校准和恢复延迟，并用更密集变温弛豫或声子计算检验非谐振动假设。",
+      "publication_date": "2026-10-06",
+      "time_scope": "7d_extension",
+      "source": "Chemical Physics Impact",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2667022426001891",
+      "doi": "10.1016/j.chphi.2026.101188",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-12",
+      "last_updated": "2026-10-12",
+      "report_file": "SpinFront_2026-10-12.html",
+      "publication_status": "early_access",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261012-10",
+      "report_date": "2026-10-12",
+      "item_no": 10,
+      "title_cn": "EPR氧成像以外源顺磁探针定量绘制肿瘤pO₂",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "spin_probe"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "实体瘤缺氧微环境",
+        "外源氧敏顺磁探针"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "review",
+      "summary_cn": "Yasui等综述实体瘤供氧与耗氧失衡、现有组织氧测量方法，以及EPR氧成像的定量原理。该方法利用外源顺磁探针EPR参数随氧浓度变化，生成活体组织pO₂分布，可用于比较肿瘤异质性并纵向观察放疗、化疗或免疫治疗期间的氧合响应。",
+      "meaning_cn": "EPR氧成像直接输出绝对pO₂及空间分布，适合检验治疗前后缺氧区域是否改变。实际结果受探针递送与清除、氧标定、组织深度、空间分辨率和重复测量稳定性限制；不同探针或成像序列的数据需分别建立校准曲线，不能直接用线宽变化替代统一pO₂标尺。",
+      "publication_date": "2026-10-07",
+      "time_scope": "7d_extension",
+      "source": "Journal of Clinical Biochemistry and Nutrition",
+      "url": "https://www.jstage.jst.go.jp/article/jcbn/advpub/0/advpub_26-144/_article/-char/en",
+      "doi": "10.3164/jcbn.26-144",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-12",
+      "last_updated": "2026-10-12",
+      "report_file": "SpinFront_2026-10-12.html",
+      "publication_status": "early_access",
+      "tag_review_status": "approved"
+    }
+  ]
+}

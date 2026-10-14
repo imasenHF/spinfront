@@ -1,0 +1,1095 @@
+{
+  "schema_version": "1.0.0",
+  "report_date": "2026-10-14",
+  "retrieval_cutoff": "2026-10-14T06:07:54+08:00",
+  "repository": {
+    "name": "imasenHF/spinfront",
+    "branch": "main",
+    "head_sha": "7ad0511ca1beee59e67a4e67b4ed88546673d1f0",
+    "taxonomy_version": "1.2.0",
+    "full_index_issue_count": 55,
+    "full_index_item_count": 461,
+    "full_index_latest_report": "2026-10-13",
+    "permissions_read_check": "GitHub get_repo confirmed pull=true push=true"
+  },
+  "search_summary": {
+    "regular_search_qualified_24h_count": 0,
+    "enhanced_search_triggered": true,
+    "enhanced_search_trigger_reason": "缺少5条可证明实际出版时刻在24小时内的合格内容；初始候选不足8条",
+    "deep_enhanced_search_triggered": false,
+    "deep_enhanced_search_reason": "完成增强路线后有10条合格内容",
+    "focus_candidate_count": 26,
+    "final_item_count": 10,
+    "direction_distribution": {
+      "nmr": 9,
+      "epr": 2,
+      "joint": 1
+    },
+    "time_scope_counts": {
+      "24h": 1,
+      "7d_extension": 9
+    }
+  },
+  "deduplication": {
+    "recent_issue_dates": [
+      "2026-10-07",
+      "2026-10-08",
+      "2026-10-09",
+      "2026-10-10",
+      "2026-10-11",
+      "2026-10-12",
+      "2026-10-13"
+    ],
+    "index_basis": "HEAD 7ad0511；全部55期461条正式JSON与最近7期正文，同时查同一工作不同URL/出版状态",
+    "keys": [
+      "normalized_doi",
+      "tracking_parameters_removed_url",
+      "normalized_title",
+      "same_work_title_and_author"
+    ],
+    "duplicate_candidates_excluded": 10,
+    "out_of_window_underlying_work_excluded": 2,
+    "unverified_dates_excluded": 1,
+    "role_unverified_or_out_of_scope_excluded": 3,
+    "selected_history_collisions": 0,
+    "selected_internal_collisions": 0
+  },
+  "search_routes": [
+    {
+      "route": "专业期刊与高影响期刊",
+      "status": "completed_with_documented_access_limits",
+      "details": "常规与增强查询JMR/JMRO、Magnetic Resonance、Journal of Biomolecular NMR、Solid State Nuclear Magnetic Resonance、Magnetic Resonance in Chemistry、Applied Magnetic Resonance，以及Nature/Science/PNAS/JACS、ACS/RSC/Wiley/Springer/AIP。部分站点403；专业期刊无日期明确的新条目，不将刊期当作新日期。"
+    },
+    {
+      "route": "预印本与文献数据库",
+      "status": "completed_with_documented_access_limits",
+      "details": "分别检索arXiv/ChemRxiv、PubMed与Crossref；Crossref批量出现429，单DOI成功。bioRxiv原始页面读取成功。"
+    },
+    {
+      "route": "仪器与软件",
+      "status": "completed_with_documented_access_limits",
+      "details": "Bruker、JEOL、Oxford Instruments、Magritek、Nanalysis、CIQTEK专项联合域名检索；选入NVision发行人公告，其PHIP制备为具体技术内容。其他结果无新增日期或已收录。"
+    },
+    {
+      "route": "会议与培训",
+      "status": "completed_with_documented_access_limits",
+      "details": "ENC、EUROMAR、ICMRBS、EFEPR、APES、ISMAR与专业workshop独立检索，查看ISMAR/IES/Bruker近期议程检索结果；未来会议时间不等于新增发布日期，未收录。"
+    },
+    {
+      "route": "中国采购与政策",
+      "status": "completed_with_documented_access_limits",
+      "details": "中国政府采购网、全国公共资源交易平台及高校采购关键词检索，旧公告开标日期误匹配与医学MRI内容排除。"
+    },
+    {
+      "route": "海外采购",
+      "status": "completed_with_documented_access_limits",
+      "details": "SAM.gov及海外高校采购独立查询；结果为不相关仪器或旧公告，未找到符合范围的新信息。"
+    },
+    {
+      "route": "中国与海外来源",
+      "status": "completed_with_documented_access_limits",
+      "details": "中文采购与英文论文分别检索；成功读取Science China Chemistry中国研究团队论文原始摘要。"
+    }
+  ],
+  "method_clusters": [
+    {
+      "cluster": "高分辨液体NMR/pure shift/DOSY/CEST/DEST",
+      "status": "searched",
+      "result": "按作用、日期与历史查重筛选；没有符合门槛的新信息不补足数量"
+    },
+    {
+      "cluster": "固体NMR/MAS/fast MAS/DNP",
+      "status": "searched",
+      "result": "按作用、日期与历史查重筛选；没有符合门槛的新信息不补足数量"
+    },
+    {
+      "cluster": "低场/TD-NMR/benchtop/qNMR",
+      "status": "searched",
+      "result": "按作用、日期与历史查重筛选；没有符合门槛的新信息不补足数量"
+    },
+    {
+      "cluster": "NMR软件/NUS/谱图处理",
+      "status": "searched",
+      "result": "按作用、日期与历史查重筛选；没有符合门槛的新信息不补足数量"
+    },
+    {
+      "cluster": "CW/rapid-scan EPR",
+      "status": "searched",
+      "result": "按作用、日期与历史查重筛选；没有符合门槛的新信息不补足数量"
+    },
+    {
+      "cluster": "脉冲EPR/DEER/ENDOR/ESEEM/HYSCORE",
+      "status": "searched",
+      "result": "按作用、日期与历史查重筛选；没有符合门槛的新信息不补足数量"
+    },
+    {
+      "cluster": "TREPR/光照/自旋捕获",
+      "status": "searched",
+      "result": "按作用、日期与历史查重筛选；没有符合门槛的新信息不补足数量"
+    },
+    {
+      "cluster": "operando/EC-EPR",
+      "status": "searched",
+      "result": "按作用、日期与历史查重筛选；没有符合门槛的新信息不补足数量"
+    },
+    {
+      "cluster": "探头/谐振器/磁体/控制台/自动进样",
+      "status": "searched",
+      "result": "按作用、日期与历史查重筛选；没有符合门槛的新信息不补足数量"
+    }
+  ],
+  "access_notes": [
+    {
+      "target": "ACS网页",
+      "status": "403_in_web_open",
+      "detail": "单篇Crossref正式作者与完整摘要、日期成功；机构接受稿用于交叉确认，不补写无法访问全文的参数。"
+    },
+    {
+      "target": "Crossref批量",
+      "status": "partial_429",
+      "detail": "研究脚本部分查询限流，后续逐DOI及按相关度查询成功；未将失败查询记为完整无结果。"
+    },
+    {
+      "target": "Springer与bioRxiv",
+      "status": "direct_primary_pages_success",
+      "detail": "web open部分失败，经公开原始URL直接HTTP读取成功，取得苹果汁、艾蒿、in-cell与Exo9完整摘要。"
+    },
+    {
+      "target": "DICP新闻",
+      "status": "502",
+      "detail": "未入选；此前Review确认原论文9月29日，新闻无独立新增实验。"
+    },
+    {
+      "target": "教材与付费全文",
+      "status": "not_used",
+      "detail": "未读取用户教材或付费全文，解释基于原始摘要。"
+    }
+  ],
+  "candidates": [
+    {
+      "title": "Integrated Solid/Solution\nNMR Assignment Enables Mapping\nof Dynamics and Ligand Binding in a 134 kDa Enzyme",
+      "source": "Journal of the American\nChemical Society",
+      "normalized_doi": "10.1021/jacs.6c14423",
+      "normalized_url": "https://pubs.acs.org/doi/10.1021/jacs.6c14423",
+      "actual_online_date": "2026-10-13",
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "method_core",
+      "basis": "Crossref摘要明确92%主链重原子、91%指定甲基归属、MAS ¹⁵N R1ρ、溶液甲基序参量与TROSY配体扰动",
+      "source_location": "https://pubs.acs.org/doi/10.1021/jacs.6c14423；原始摘要或发行人公告",
+      "decision": "included",
+      "decision_reason": "method_core；Crossref摘要明确92%主链重原子、91%指定甲基归属、MAS ¹⁵N R1ρ、溶液甲基序参量与TROSY配体扰动",
+      "duplicate_key": "doi:10.1021/jacs.6c14423",
+      "source_review_status": "confirmed_primary_abstract_or_issuer_notice",
+      "date_review_status": "confirmed_7d_date_only",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "confirmed_with_analysis_distinguished",
+      "tag_review_status": "approved",
+      "author_subject": "Napoli",
+      "author_verification": "Crossref正式作者顺序；单作者Okay依据Springer题录；NVision依据发行人公告",
+      "tags": [
+        {
+          "dimension": "direction_ids",
+          "id": "nmr",
+          "reason": "NMR：Crossref摘要明确92%主链重原子、91%指定甲基归属、MAS ¹⁵N R1ρ、溶液甲基序参量与TROSY配体扰动"
+        },
+        {
+          "dimension": "experiment_type_ids",
+          "id": "solid_state_nmr",
+          "reason": "固体NMR：Crossref摘要明确92%主链重原子、91%指定甲基归属、MAS ¹⁵N R1ρ、溶液甲基序参量与TROSY配体扰动"
+        },
+        {
+          "dimension": "experiment_type_ids",
+          "id": "solution_nmr",
+          "reason": "溶液NMR：Crossref摘要明确92%主链重原子、91%指定甲基归属、MAS ¹⁵N R1ρ、溶液甲基序参量与TROSY配体扰动"
+        },
+        {
+          "dimension": "method_ids",
+          "id": "mas",
+          "reason": "魔角旋转：Crossref摘要明确92%主链重原子、91%指定甲基归属、MAS ¹⁵N R1ρ、溶液甲基序参量与TROSY配体扰动"
+        },
+        {
+          "dimension": "method_ids",
+          "id": "multidimensional_nmr",
+          "reason": "多维NMR：Crossref摘要明确92%主链重原子、91%指定甲基归属、MAS ¹⁵N R1ρ、溶液甲基序参量与TROSY配体扰动"
+        },
+        {
+          "dimension": "method_ids",
+          "id": "relaxometry",
+          "reason": "弛豫测量：Crossref摘要明确92%主链重原子、91%指定甲基归属、MAS ¹⁵N R1ρ、溶液甲基序参量与TROSY配体扰动"
+        },
+        {
+          "dimension": "application_ids",
+          "id": "structural_biology",
+          "reason": "结构生物学：Crossref摘要明确92%主链重原子、91%指定甲基归属、MAS ¹⁵N R1ρ、溶液甲基序参量与TROSY配体扰动"
+        },
+        {
+          "dimension": "information_type",
+          "id": "paper",
+          "reason": "原始研究论文或预印本"
+        }
+      ],
+      "limitations": "论文参数与结论限于可访问摘要，meaning_cn中的条件与限制为编辑分析，不补写全文实验细节。",
+      "metadata_created_timestamp": "2026-10-13T14:25:35Z",
+      "timestamp_note": "Crossref创建时刻只记录元数据登记，不作为在线出版精确时刻。"
+    },
+    {
+      "title": "CW-EPR、DEER与RIDME分辨七自旋超分子的溶液构象",
+      "source": "Journal of the American Chemical Society",
+      "normalized_doi": "10.1021/jacs.6c08331",
+      "normalized_url": "https://pubs.acs.org/doi/10.1021/jacs.6c08331",
+      "actual_online_date": "2026-10-13",
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "key_evidence",
+      "basis": "Crossref完整摘要与曼彻斯特大学题录均明确CW、取向选择DEER与RIDME的作用；大学页面9月10日为Accepted/In press记录，ACS在线出版为10月13日",
+      "source_location": "https://pubs.acs.org/doi/10.1021/jacs.6c08331；原始摘要或发行人公告",
+      "decision": "included",
+      "decision_reason": "key_evidence；Crossref完整摘要与曼彻斯特大学题录均明确CW、取向选择DEER与RIDME的作用；大学页面9月10日为Accepted/In press记录，ACS在线出版为10月13日",
+      "duplicate_key": "doi:10.1021/jacs.6c08331",
+      "source_review_status": "confirmed_primary_abstract_or_issuer_notice",
+      "date_review_status": "confirmed_7d_date_only",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "confirmed_with_analysis_distinguished",
+      "tag_review_status": "approved",
+      "author_subject": "Loci",
+      "author_verification": "Crossref正式作者顺序；单作者Okay依据Springer题录；NVision依据发行人公告",
+      "tags": [
+        {
+          "dimension": "direction_ids",
+          "id": "epr",
+          "reason": "EPR：Crossref完整摘要与曼彻斯特大学题录均明确CW、取向选择DEER与RIDME的作用；大学页面9月10日为Accepted/In press记录，ACS在线出版为10月13日"
+        },
+        {
+          "dimension": "experiment_type_ids",
+          "id": "cw_epr",
+          "reason": "连续波EPR：Crossref完整摘要与曼彻斯特大学题录均明确CW、取向选择DEER与RIDME的作用；大学页面9月10日为Accepted/In press记录，ACS在线出版为10月13日"
+        },
+        {
+          "dimension": "experiment_type_ids",
+          "id": "pulsed_epr",
+          "reason": "脉冲EPR：Crossref完整摘要与曼彻斯特大学题录均明确CW、取向选择DEER与RIDME的作用；大学页面9月10日为Accepted/In press记录，ACS在线出版为10月13日"
+        },
+        {
+          "dimension": "method_ids",
+          "id": "deer_peldor",
+          "reason": "DEER/PELDOR：Crossref完整摘要与曼彻斯特大学题录均明确CW、取向选择DEER与RIDME的作用；大学页面9月10日为Accepted/In press记录，ACS在线出版为10月13日"
+        },
+        {
+          "dimension": "application_ids",
+          "id": "inorganic_coordination",
+          "reason": "无机配位：Crossref完整摘要与曼彻斯特大学题录均明确CW、取向选择DEER与RIDME的作用；大学页面9月10日为Accepted/In press记录，ACS在线出版为10月13日"
+        },
+        {
+          "dimension": "information_type",
+          "id": "paper",
+          "reason": "原始研究论文或预印本"
+        }
+      ],
+      "limitations": "论文参数与结论限于可访问摘要，meaning_cn中的条件与限制为编辑分析，不补写全文实验细节。"
+    },
+    {
+      "title": "Chemoenzymatic Proline Isotope Labeling for Solution and Magic-Angle Spinning Protein Nuclear Magnetic Resonance",
+      "source": "ACS Chemical Biology",
+      "normalized_doi": "10.1021/acschembio.6c00587",
+      "normalized_url": "https://pubs.acs.org/doi/10.1021/acschembio.6c00587",
+      "actual_online_date": "2026-10-13",
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "method_core",
+      "basis": "Crossref完整摘要与PubMed作者、日期一致；示范实验为134 kDa酶MAS，不由题名推定另一项溶液实测",
+      "source_location": "https://pubs.acs.org/doi/10.1021/acschembio.6c00587；原始摘要或发行人公告",
+      "decision": "included",
+      "decision_reason": "method_core；Crossref完整摘要与PubMed作者、日期一致；示范实验为134 kDa酶MAS，不由题名推定另一项溶液实测",
+      "duplicate_key": "doi:10.1021/acschembio.6c00587",
+      "source_review_status": "confirmed_primary_abstract_or_issuer_notice",
+      "date_review_status": "confirmed_7d_date_only",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "confirmed_with_analysis_distinguished",
+      "tag_review_status": "approved",
+      "author_subject": "Rohden",
+      "author_verification": "Crossref正式作者顺序；单作者Okay依据Springer题录；NVision依据发行人公告",
+      "tags": [
+        {
+          "dimension": "direction_ids",
+          "id": "nmr",
+          "reason": "NMR：Crossref完整摘要与PubMed作者、日期一致；示范实验为134 kDa酶MAS，不由题名推定另一项溶液实测"
+        },
+        {
+          "dimension": "experiment_type_ids",
+          "id": "solid_state_nmr",
+          "reason": "固体NMR：Crossref完整摘要与PubMed作者、日期一致；示范实验为134 kDa酶MAS，不由题名推定另一项溶液实测"
+        },
+        {
+          "dimension": "method_ids",
+          "id": "mas",
+          "reason": "魔角旋转：Crossref完整摘要与PubMed作者、日期一致；示范实验为134 kDa酶MAS，不由题名推定另一项溶液实测"
+        },
+        {
+          "dimension": "method_ids",
+          "id": "multinuclear_nmr",
+          "reason": "多核NMR：Crossref完整摘要与PubMed作者、日期一致；示范实验为134 kDa酶MAS，不由题名推定另一项溶液实测"
+        },
+        {
+          "dimension": "application_ids",
+          "id": "structural_biology",
+          "reason": "结构生物学：Crossref完整摘要与PubMed作者、日期一致；示范实验为134 kDa酶MAS，不由题名推定另一项溶液实测"
+        },
+        {
+          "dimension": "information_type",
+          "id": "paper",
+          "reason": "原始研究论文或预印本"
+        }
+      ],
+      "limitations": "论文参数与结论限于可访问摘要，meaning_cn中的条件与限制为编辑分析，不补写全文实验细节。",
+      "metadata_created_timestamp": "2026-10-12T21:01:40Z",
+      "timestamp_note": "Crossref创建时刻只记录元数据登记，不作为在线出版精确时刻。"
+    },
+    {
+      "title": "Probing Lithium\nMetal Microstructures with Dynamic\nNuclear Polarization from Lithium Metal",
+      "source": "The Journal of Physical\nChemistry C",
+      "normalized_doi": "10.1021/acs.jpcc.6c02985",
+      "normalized_url": "https://pubs.acs.org/doi/10.1021/acs.jpcc.6c02985",
+      "actual_online_date": "2026-10-13",
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "method_core",
+      "basis": "Crossref摘要与剑桥大学接受稿摘要互相一致；脉冲EPR致谢不足以单独判定EPR为主方向",
+      "source_location": "https://pubs.acs.org/doi/10.1021/acs.jpcc.6c02985；原始摘要或发行人公告",
+      "decision": "included",
+      "decision_reason": "method_core；Crossref摘要与剑桥大学接受稿摘要互相一致；脉冲EPR致谢不足以单独判定EPR为主方向",
+      "duplicate_key": "doi:10.1021/acs.jpcc.6c02985",
+      "source_review_status": "confirmed_primary_abstract_or_issuer_notice",
+      "date_review_status": "confirmed_7d_date_only",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "confirmed_with_analysis_distinguished",
+      "tag_review_status": "approved",
+      "author_subject": "Juramy",
+      "author_verification": "Crossref正式作者顺序；单作者Okay依据Springer题录；NVision依据发行人公告",
+      "tags": [
+        {
+          "dimension": "direction_ids",
+          "id": "nmr",
+          "reason": "NMR：Crossref摘要与剑桥大学接受稿摘要互相一致；脉冲EPR致谢不足以单独判定EPR为主方向"
+        },
+        {
+          "dimension": "experiment_type_ids",
+          "id": "solid_state_nmr",
+          "reason": "固体NMR：Crossref摘要与剑桥大学接受稿摘要互相一致；脉冲EPR致谢不足以单独判定EPR为主方向"
+        },
+        {
+          "dimension": "method_ids",
+          "id": "dnp",
+          "reason": "动态核极化：Crossref摘要与剑桥大学接受稿摘要互相一致；脉冲EPR致谢不足以单独判定EPR为主方向"
+        },
+        {
+          "dimension": "method_ids",
+          "id": "polarization_transfer",
+          "reason": "极化转移：Crossref摘要与剑桥大学接受稿摘要互相一致；脉冲EPR致谢不足以单独判定EPR为主方向"
+        },
+        {
+          "dimension": "application_ids",
+          "id": "battery",
+          "reason": "电池：Crossref摘要与剑桥大学接受稿摘要互相一致；脉冲EPR致谢不足以单独判定EPR为主方向"
+        },
+        {
+          "dimension": "information_type",
+          "id": "paper",
+          "reason": "原始研究论文或预印本"
+        }
+      ],
+      "limitations": "论文参数与结论限于可访问摘要，meaning_cn中的条件与限制为编辑分析，不补写全文实验细节。",
+      "metadata_created_timestamp": "2026-10-13T04:02:20Z",
+      "timestamp_note": "Crossref创建时刻只记录元数据登记，不作为在线出版精确时刻。"
+    },
+    {
+      "title": "How Multivariate\nDesign of Experiments and Feature\nExtraction Strategy Can Support the Understanding of Time Domain Nuclear\nMagnetic Resonance Signals from Complex Elastomeric Systems",
+      "source": "ACS Measurement Science\nAu",
+      "normalized_doi": "10.1021/acsmeasuresciau.6c00276",
+      "normalized_url": "https://pubs.acs.org/doi/10.1021/acsmeasuresciau.6c00276",
+      "actual_online_date": "2026-10-13",
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "method_core",
+      "basis": "Crossref摘要明确实验因素水平、衰减特征比较与响应面；未公开具体温度值，不补写",
+      "source_location": "https://pubs.acs.org/doi/10.1021/acsmeasuresciau.6c00276；原始摘要或发行人公告",
+      "decision": "included",
+      "decision_reason": "method_core；Crossref摘要明确实验因素水平、衰减特征比较与响应面；未公开具体温度值，不补写",
+      "duplicate_key": "doi:10.1021/acsmeasuresciau.6c00276",
+      "source_review_status": "confirmed_primary_abstract_or_issuer_notice",
+      "date_review_status": "confirmed_7d_date_only",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "confirmed_with_analysis_distinguished",
+      "tag_review_status": "approved",
+      "author_subject": "Voccio",
+      "author_verification": "Crossref正式作者顺序；单作者Okay依据Springer题录；NVision依据发行人公告",
+      "tags": [
+        {
+          "dimension": "direction_ids",
+          "id": "nmr",
+          "reason": "NMR：Crossref摘要明确实验因素水平、衰减特征比较与响应面；未公开具体温度值，不补写"
+        },
+        {
+          "dimension": "experiment_type_ids",
+          "id": "td_nmr",
+          "reason": "时域NMR：Crossref摘要明确实验因素水平、衰减特征比较与响应面；未公开具体温度值，不补写"
+        },
+        {
+          "dimension": "method_ids",
+          "id": "spectral_processing",
+          "reason": "谱图处理：Crossref摘要明确实验因素水平、衰减特征比较与响应面；未公开具体温度值，不补写"
+        },
+        {
+          "dimension": "application_ids",
+          "id": "polymers",
+          "reason": "聚合物：Crossref摘要明确实验因素水平、衰减特征比较与响应面；未公开具体温度值，不补写"
+        },
+        {
+          "dimension": "information_type",
+          "id": "paper",
+          "reason": "原始研究论文或预印本"
+        }
+      ],
+      "limitations": "论文参数与结论限于可访问摘要，meaning_cn中的条件与限制为编辑分析，不补写全文实验细节。",
+      "metadata_created_timestamp": "2026-10-13T16:01:54Z",
+      "timestamp_note": "Crossref创建时刻只记录元数据登记，不作为在线出版精确时刻。"
+    },
+    {
+      "title": "TD-NMR and ILT Analysis for Rapid Detection of Apple Juice Adulteration",
+      "source": "Food Analytical Methods",
+      "normalized_doi": "10.1007/s12161-026-03312-4",
+      "normalized_url": "https://link.springer.com/article/10.1007/s12161-026-03312-4",
+      "actual_online_date": "2026-10-13",
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "application_core",
+      "basis": "直接读取Springer原始页面Abstract，给出三类掺混T1/T2方向及CPMG-ILT；题录只有一位作者，不写等",
+      "source_location": "https://link.springer.com/article/10.1007/s12161-026-03312-4；原始摘要或发行人公告",
+      "decision": "included",
+      "decision_reason": "application_core；直接读取Springer原始页面Abstract，给出三类掺混T1/T2方向及CPMG-ILT；题录只有一位作者，不写等",
+      "duplicate_key": "doi:10.1007/s12161-026-03312-4",
+      "source_review_status": "confirmed_primary_abstract_or_issuer_notice",
+      "date_review_status": "confirmed_7d_date_only",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "confirmed_with_analysis_distinguished",
+      "tag_review_status": "approved",
+      "author_subject": "Okay",
+      "author_verification": "Crossref正式作者顺序；单作者Okay依据Springer题录；NVision依据发行人公告",
+      "tags": [
+        {
+          "dimension": "direction_ids",
+          "id": "nmr",
+          "reason": "NMR：直接读取Springer原始页面Abstract，给出三类掺混T1/T2方向及CPMG-ILT；题录只有一位作者，不写等"
+        },
+        {
+          "dimension": "experiment_type_ids",
+          "id": "td_nmr",
+          "reason": "时域NMR：直接读取Springer原始页面Abstract，给出三类掺混T1/T2方向及CPMG-ILT；题录只有一位作者，不写等"
+        },
+        {
+          "dimension": "method_ids",
+          "id": "cpmg",
+          "reason": "CPMG：直接读取Springer原始页面Abstract，给出三类掺混T1/T2方向及CPMG-ILT；题录只有一位作者，不写等"
+        },
+        {
+          "dimension": "method_ids",
+          "id": "relaxometry",
+          "reason": "弛豫测量：直接读取Springer原始页面Abstract，给出三类掺混T1/T2方向及CPMG-ILT；题录只有一位作者，不写等"
+        },
+        {
+          "dimension": "method_ids",
+          "id": "spectral_processing",
+          "reason": "谱图处理：直接读取Springer原始页面Abstract，给出三类掺混T1/T2方向及CPMG-ILT；题录只有一位作者，不写等"
+        },
+        {
+          "dimension": "application_ids",
+          "id": "food_agriculture",
+          "reason": "食品与农业：直接读取Springer原始页面Abstract，给出三类掺混T1/T2方向及CPMG-ILT；题录只有一位作者，不写等"
+        },
+        {
+          "dimension": "application_ids",
+          "id": "quality_control",
+          "reason": "质量控制与标准物质：直接读取Springer原始页面Abstract，给出三类掺混T1/T2方向及CPMG-ILT；题录只有一位作者，不写等"
+        },
+        {
+          "dimension": "information_type",
+          "id": "paper",
+          "reason": "原始研究论文或预印本"
+        }
+      ],
+      "limitations": "论文参数与结论限于可访问摘要，meaning_cn中的条件与限制为编辑分析，不补写全文实验细节。",
+      "metadata_created_timestamp": "2026-10-13T08:09:15Z",
+      "timestamp_note": "Crossref创建时刻只记录元数据登记，不作为在线出版精确时刻。"
+    },
+    {
+      "title": "Functional dynamics of the eukaryotic RNA exosome upon complex formation",
+      "source": "bioRxiv（预印本）",
+      "normalized_doi": "10.64898/2026.10.10.758228",
+      "normalized_url": "https://www.biorxiv.org/content/10.64898/2026.10.10.758228v1",
+      "actual_online_date": "2026-10-12",
+      "publication_status": "preprint",
+      "magnetic_resonance_role": "key_evidence",
+      "basis": "直接读取bioRxiv原始Abstract与Posted October 12, 2026；Crossref确认作者及摘要；不把DOI中的10月10日当作发布日",
+      "source_location": "https://www.biorxiv.org/content/10.64898/2026.10.10.758228v1；原始摘要或发行人公告",
+      "decision": "included",
+      "decision_reason": "key_evidence；直接读取bioRxiv原始Abstract与Posted October 12, 2026；Crossref确认作者及摘要；不把DOI中的10月10日当作发布日",
+      "duplicate_key": "doi:10.64898/2026.10.10.758228",
+      "source_review_status": "confirmed_primary_abstract_or_issuer_notice",
+      "date_review_status": "confirmed_7d_date_only",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "confirmed_with_analysis_distinguished",
+      "tag_review_status": "approved",
+      "author_subject": "Liebau",
+      "author_verification": "Crossref正式作者顺序；单作者Okay依据Springer题录；NVision依据发行人公告",
+      "tags": [
+        {
+          "dimension": "direction_ids",
+          "id": "nmr",
+          "reason": "NMR：直接读取bioRxiv原始Abstract与Posted October 12, 2026；Crossref确认作者及摘要；不把DOI中的10月10日当作发布日"
+        },
+        {
+          "dimension": "direction_ids",
+          "id": "epr",
+          "reason": "EPR：直接读取bioRxiv原始Abstract与Posted October 12, 2026；Crossref确认作者及摘要；不把DOI中的10月10日当作发布日"
+        },
+        {
+          "dimension": "experiment_type_ids",
+          "id": "solution_nmr",
+          "reason": "溶液NMR：直接读取bioRxiv原始Abstract与Posted October 12, 2026；Crossref确认作者及摘要；不把DOI中的10月10日当作发布日"
+        },
+        {
+          "dimension": "method_ids",
+          "id": "relaxation_dispersion",
+          "reason": "弛豫色散：直接读取bioRxiv原始Abstract与Posted October 12, 2026；Crossref确认作者及摘要；不把DOI中的10月10日当作发布日"
+        },
+        {
+          "dimension": "method_ids",
+          "id": "cest",
+          "reason": "化学交换饱和转移：直接读取bioRxiv原始Abstract与Posted October 12, 2026；Crossref确认作者及摘要；不把DOI中的10月10日当作发布日"
+        },
+        {
+          "dimension": "method_ids",
+          "id": "spin_labeling",
+          "reason": "自旋标记：直接读取bioRxiv原始Abstract与Posted October 12, 2026；Crossref确认作者及摘要；不把DOI中的10月10日当作发布日"
+        },
+        {
+          "dimension": "application_ids",
+          "id": "structural_biology",
+          "reason": "结构生物学：直接读取bioRxiv原始Abstract与Posted October 12, 2026；Crossref确认作者及摘要；不把DOI中的10月10日当作发布日"
+        },
+        {
+          "dimension": "information_type",
+          "id": "paper",
+          "reason": "原始研究论文或预印本"
+        }
+      ],
+      "limitations": "论文参数与结论限于可访问摘要，meaning_cn中的条件与限制为编辑分析，不补写全文实验细节。",
+      "metadata_created_timestamp": "2026-10-12T23:40:15Z",
+      "timestamp_note": "Crossref创建时刻只记录元数据登记，不作为在线出版精确时刻。"
+    },
+    {
+      "title": "Engineering a bacterial regulatory system for high-yield protein expression and in-cell 19F NMR in mammalian cells",
+      "source": "Science China Chemistry",
+      "normalized_doi": "10.1007/s11426-026-3732-9",
+      "normalized_url": "https://link.springer.com/article/10.1007/s11426-026-3732-9",
+      "actual_online_date": "2026-10-08",
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "method_core",
+      "basis": "本次成功读取Springer原始完整摘要；与前一期因原始内容不足排除的候选为同一篇，但从未进入历史正式data",
+      "source_location": "https://link.springer.com/article/10.1007/s11426-026-3732-9；原始摘要或发行人公告",
+      "decision": "included",
+      "decision_reason": "method_core；本次成功读取Springer原始完整摘要；与前一期因原始内容不足排除的候选为同一篇，但从未进入历史正式data",
+      "duplicate_key": "doi:10.1007/s11426-026-3732-9",
+      "source_review_status": "confirmed_primary_abstract_or_issuer_notice",
+      "date_review_status": "confirmed_7d_date_only",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "confirmed_with_analysis_distinguished",
+      "tag_review_status": "approved",
+      "author_subject": "Huang",
+      "author_verification": "Crossref正式作者顺序；单作者Okay依据Springer题录；NVision依据发行人公告",
+      "tags": [
+        {
+          "dimension": "direction_ids",
+          "id": "nmr",
+          "reason": "NMR：本次成功读取Springer原始完整摘要；与前一期因原始内容不足排除的候选为同一篇，但从未进入历史正式data"
+        },
+        {
+          "dimension": "experiment_type_ids",
+          "id": "solution_nmr",
+          "reason": "溶液NMR：本次成功读取Springer原始完整摘要；与前一期因原始内容不足排除的候选为同一篇，但从未进入历史正式data"
+        },
+        {
+          "dimension": "application_ids",
+          "id": "structural_biology",
+          "reason": "结构生物学：本次成功读取Springer原始完整摘要；与前一期因原始内容不足排除的候选为同一篇，但从未进入历史正式data"
+        },
+        {
+          "dimension": "information_type",
+          "id": "paper",
+          "reason": "原始研究论文或预印本"
+        }
+      ],
+      "limitations": "论文参数与结论限于可访问摘要，meaning_cn中的条件与限制为编辑分析，不补写全文实验细节。",
+      "metadata_created_timestamp": "2026-10-12T01:59:56Z",
+      "timestamp_note": "Crossref创建时刻只记录元数据登记，不作为在线出版精确时刻。"
+    },
+    {
+      "title": "Understanding methyl jasmonate- and salicylic acid-mediated stress response pathways using untargeted ¹H NMR metabolomics in Artemisia vulgaris L. (mugwort)",
+      "source": "Journal of Plant Biochemistry and Biotechnology",
+      "normalized_doi": "10.1007/s13562-026-01145-0",
+      "normalized_url": "https://link.springer.com/article/10.1007/s13562-026-01145-0",
+      "actual_online_date": "2026-10-13",
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "application_core",
+      "basis": "直接读取Springer原始Abstract和10月13日在线日期；明确NMR代谢谱是比较诱导条件与时间的核心分析",
+      "source_location": "https://link.springer.com/article/10.1007/s13562-026-01145-0；原始摘要或发行人公告",
+      "decision": "included",
+      "decision_reason": "application_core；直接读取Springer原始Abstract和10月13日在线日期；明确NMR代谢谱是比较诱导条件与时间的核心分析",
+      "duplicate_key": "doi:10.1007/s13562-026-01145-0",
+      "source_review_status": "confirmed_primary_abstract_or_issuer_notice",
+      "date_review_status": "confirmed_7d_date_only",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "confirmed_with_analysis_distinguished",
+      "tag_review_status": "approved",
+      "author_subject": "Zakariya",
+      "author_verification": "Crossref正式作者顺序；单作者Okay依据Springer题录；NVision依据发行人公告",
+      "tags": [
+        {
+          "dimension": "direction_ids",
+          "id": "nmr",
+          "reason": "NMR：直接读取Springer原始Abstract和10月13日在线日期；明确NMR代谢谱是比较诱导条件与时间的核心分析"
+        },
+        {
+          "dimension": "experiment_type_ids",
+          "id": "solution_nmr",
+          "reason": "溶液NMR：直接读取Springer原始Abstract和10月13日在线日期；明确NMR代谢谱是比较诱导条件与时间的核心分析"
+        },
+        {
+          "dimension": "method_ids",
+          "id": "metabolomics",
+          "reason": "代谢组学：直接读取Springer原始Abstract和10月13日在线日期；明确NMR代谢谱是比较诱导条件与时间的核心分析"
+        },
+        {
+          "dimension": "application_ids",
+          "id": "food_agriculture",
+          "reason": "食品与农业：直接读取Springer原始Abstract和10月13日在线日期；明确NMR代谢谱是比较诱导条件与时间的核心分析"
+        },
+        {
+          "dimension": "information_type",
+          "id": "paper",
+          "reason": "原始研究论文或预印本"
+        }
+      ],
+      "limitations": "论文参数与结论限于可访问摘要，meaning_cn中的条件与限制为编辑分析，不补写全文实验细节。",
+      "metadata_created_timestamp": "2026-10-13T20:05:59Z",
+      "timestamp_note": "Crossref创建时刻只记录元数据登记，不作为在线出版精确时刻。"
+    },
+    {
+      "title": "NVision在UCLouvain部署PHIP超极化平台POLARIS",
+      "source": "NVision公司公告（EQS News）",
+      "normalized_doi": "",
+      "normalized_url": "https://www.eqs-news.com/news/corporate/nvision-deploys-polaris-at-uclouvain-to-advance-cancer-metabolism-research/13508cb5-f6a4-4f62-ab8e-db692a646a12_en",
+      "actual_online_date": "2026-10-13",
+      "publication_status": "unknown",
+      "magnetic_resonance_role": "instrument_core",
+      "basis": "EQS原始发行人公告，13.10.2026 10:00 CEST即北京时间16:00；明确PHIP约三分钟制备流程，EPR仅为NEST既有技术背景不加方向标签",
+      "source_location": "https://www.eqs-news.com/news/corporate/nvision-deploys-polaris-at-uclouvain-to-advance-cancer-metabolism-research/13508cb5-f6a4-4f62-ab8e-db692a646a12_en；原始摘要或发行人公告",
+      "decision": "included",
+      "decision_reason": "instrument_core；EQS原始发行人公告，13.10.2026 10:00 CEST即北京时间16:00；明确PHIP约三分钟制备流程，EPR仅为NEST既有技术背景不加方向标签",
+      "duplicate_key": "url:https://www.eqs-news.com/news/corporate/nvision-deploys-polaris-at-uclouvain-to-advance-cancer-metabolism-research/13508cb5-f6a4-4f62-ab8e-db692a646a12_en",
+      "source_review_status": "confirmed_primary_abstract_or_issuer_notice",
+      "date_review_status": "confirmed_exact_24h",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "confirmed_with_analysis_distinguished",
+      "tag_review_status": "approved",
+      "author_subject": "NVision",
+      "author_verification": "Crossref正式作者顺序；单作者Okay依据Springer题录；NVision依据发行人公告",
+      "tags": [
+        {
+          "dimension": "direction_ids",
+          "id": "nmr",
+          "reason": "NMR：EQS原始发行人公告，13.10.2026 10:00 CEST即北京时间16:00；明确PHIP约三分钟制备流程，EPR仅为NEST既有技术背景不加方向标签"
+        },
+        {
+          "dimension": "method_ids",
+          "id": "phip",
+          "reason": "对氢诱导极化：EQS原始发行人公告，13.10.2026 10:00 CEST即北京时间16:00；明确PHIP约三分钟制备流程，EPR仅为NEST既有技术背景不加方向标签"
+        },
+        {
+          "dimension": "application_ids",
+          "id": "life_science",
+          "reason": "生命科学：EQS原始发行人公告，13.10.2026 10:00 CEST即北京时间16:00；明确PHIP约三分钟制备流程，EPR仅为NEST既有技术背景不加方向标签"
+        },
+        {
+          "dimension": "application_ids",
+          "id": "instrumentation",
+          "reason": "仪器：EQS原始发行人公告，13.10.2026 10:00 CEST即北京时间16:00；明确PHIP约三分钟制备流程，EPR仅为NEST既有技术背景不加方向标签"
+        },
+        {
+          "dimension": "information_type",
+          "id": "funding_facility",
+          "reason": "本次研究设施部署公告"
+        }
+      ],
+      "limitations": "三分钟流程为发行人声明；未有本次安装的肿瘤结果。"
+    },
+    {
+      "title": "Motion-Corrected Structural Realignment and Quantitative Voxel Targeting in Magnetic Resonance Spectroscopy",
+      "source": "Imaging Neuroscience",
+      "normalized_doi": "10.1162/imag.a.1425",
+      "normalized_url": "https://doi.org/10.1162/imag.a.1425",
+      "actual_online_date": [
+        [
+          2026,
+          10,
+          7
+        ]
+      ],
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "previously_reviewed",
+      "basis": "与历史正式data DOI完全一致",
+      "source_location": "全库461条及Crossref题录",
+      "decision": "excluded",
+      "decision_reason": "历史重复",
+      "duplicate_key": "doi:10.1162/imag.a.1425",
+      "duplicate_review_status": "duplicate_exact_doi",
+      "tag_review_status": "not_applicable",
+      "tags": []
+    },
+    {
+      "title": "Practical Considerations for\n                    <i>Operando</i>\n                    7Li Nuclear Magnetic Resonance in Coin and Pouch Cells",
+      "source": "Chemistry of Materials",
+      "normalized_doi": "10.1021/acs.chemmater.6c01590",
+      "normalized_url": "https://doi.org/10.1021/acs.chemmater.6c01590",
+      "actual_online_date": [
+        [
+          2026,
+          10,
+          10
+        ]
+      ],
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "previously_reviewed",
+      "basis": "与历史正式data DOI完全一致",
+      "source_location": "全库461条及Crossref题录",
+      "decision": "excluded",
+      "decision_reason": "历史重复",
+      "duplicate_key": "doi:10.1021/acs.chemmater.6c01590",
+      "duplicate_review_status": "duplicate_exact_doi",
+      "tag_review_status": "not_applicable",
+      "tags": []
+    },
+    {
+      "title": "Revealing the Structure\nof Barium Oxyfluoroborate\nGlasses Using Molecular Dynamics, Total Neutron Scattering, and Nuclear\nMagnetic Resonance",
+      "source": "The Journal of Physical\nChemistry B",
+      "normalized_doi": "10.1021/acs.jpcb.6c03122",
+      "normalized_url": "https://doi.org/10.1021/acs.jpcb.6c03122",
+      "actual_online_date": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ],
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "previously_reviewed",
+      "basis": "与历史正式data DOI完全一致",
+      "source_location": "全库461条及Crossref题录",
+      "decision": "excluded",
+      "decision_reason": "历史重复",
+      "duplicate_key": "doi:10.1021/acs.jpcb.6c03122",
+      "duplicate_review_status": "duplicate_exact_doi",
+      "tag_review_status": "not_applicable",
+      "tags": []
+    },
+    {
+      "title": "EPR Study of Crystal Lattice Distortions in Mn-Doped YGa3(BO3)4 and EuGa3(BO3)4",
+      "source": "Applied Magnetic Resonance",
+      "normalized_doi": "10.1007/s00723-026-01886-0",
+      "normalized_url": "https://doi.org/10.1007/s00723-026-01886-0",
+      "actual_online_date": [
+        [
+          2026,
+          10,
+          7
+        ]
+      ],
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "previously_reviewed",
+      "basis": "与历史正式data DOI完全一致",
+      "source_location": "全库461条及Crossref题录",
+      "decision": "excluded",
+      "decision_reason": "历史重复",
+      "duplicate_key": "doi:10.1007/s00723-026-01886-0",
+      "duplicate_review_status": "duplicate_exact_doi",
+      "tag_review_status": "not_applicable",
+      "tags": []
+    },
+    {
+      "title": "Cerebellar involvement in sporadic amyotrophic lateral sclerosis: a magnetic resonance spectroscopy study",
+      "source": "Brain Communications",
+      "normalized_doi": "10.1093/braincomms/fcag382",
+      "normalized_url": "https://doi.org/10.1093/braincomms/fcag382",
+      "actual_online_date": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ],
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "previously_reviewed",
+      "basis": "与历史正式data DOI完全一致",
+      "source_location": "全库461条及Crossref题录",
+      "decision": "excluded",
+      "decision_reason": "历史重复",
+      "duplicate_key": "doi:10.1093/braincomms/fcag382",
+      "duplicate_review_status": "duplicate_exact_doi",
+      "tag_review_status": "not_applicable",
+      "tags": []
+    },
+    {
+      "title": "Using High‐Field Magnetic Resonance Spectroscopy to Measure Muscle Glycogen in Patients With\n                    <scp>McArdle</scp>\n                    Disease",
+      "source": "Muscle &amp; Nerve",
+      "normalized_doi": "10.1002/mus.70433",
+      "normalized_url": "https://doi.org/10.1002/mus.70433",
+      "actual_online_date": [
+        [
+          2026,
+          10,
+          7
+        ]
+      ],
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "previously_reviewed",
+      "basis": "与历史正式data DOI完全一致",
+      "source_location": "全库461条及Crossref题录",
+      "decision": "excluded",
+      "decision_reason": "历史重复",
+      "duplicate_key": "doi:10.1002/mus.70433",
+      "duplicate_review_status": "duplicate_exact_doi",
+      "tag_review_status": "not_applicable",
+      "tags": []
+    },
+    {
+      "title": "Electron spin resonance in scanning probe microscopy: From single‐spin spectroscopy to atomically engineered quantum operations",
+      "source": "Journal of Microscopy",
+      "normalized_doi": "10.1111/jmi.70187",
+      "normalized_url": "https://doi.org/10.1111/jmi.70187",
+      "actual_online_date": [
+        [
+          2026,
+          10,
+          10
+        ]
+      ],
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "previously_reviewed",
+      "basis": "与历史正式data DOI完全一致",
+      "source_location": "全库461条及Crossref题录",
+      "decision": "excluded",
+      "decision_reason": "历史重复",
+      "duplicate_key": "doi:10.1111/jmi.70187",
+      "duplicate_review_status": "duplicate_exact_doi",
+      "tag_review_status": "not_applicable",
+      "tags": []
+    },
+    {
+      "title": "Synergy of Solid-State NMR and Dielectric Spectroscopy\nReveals Synchronized Multi-Rotor Dynamics in Crystalline Supramolecular\nGyroscopes",
+      "source": "Chemistry of Materials",
+      "normalized_doi": "10.1021/acs.chemmater.6c01722",
+      "normalized_url": "https://doi.org/10.1021/acs.chemmater.6c01722",
+      "actual_online_date": [
+        [
+          2026,
+          10,
+          11
+        ]
+      ],
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "previously_reviewed",
+      "basis": "与历史正式data DOI完全一致",
+      "source_location": "全库461条及Crossref题录",
+      "decision": "excluded",
+      "decision_reason": "历史重复",
+      "duplicate_key": "doi:10.1021/acs.chemmater.6c01722",
+      "duplicate_review_status": "duplicate_exact_doi",
+      "tag_review_status": "not_applicable",
+      "tags": []
+    },
+    {
+      "title": "Simulating NMR on a Quantum Computer: A Step Toward Practical Quantum Chemistry",
+      "source": "Quantinuum",
+      "normalized_doi": "",
+      "normalized_url": "https://www.quantinuum.com/blog/simulating-nmr-on-a-quantum-computer-a-step-toward-practical-quantum-chemistry",
+      "actual_online_date": "2026-10-08",
+      "publication_status": "unknown",
+      "magnetic_resonance_role": "method_core",
+      "basis": "原始工作arXiv:2609.17102已收录于9月19日；10月8日厂商文章重复介绍同一结果",
+      "source_location": "https://www.quantinuum.com/blog/simulating-nmr-on-a-quantum-computer-a-step-toward-practical-quantum-chemistry",
+      "decision": "excluded",
+      "decision_reason": "same_work_duplicate",
+      "duplicate_key": "url:https://www.quantinuum.com/blog/simulating-nmr-on-a-quantum-computer-a-step-toward-practical-quantum-chemistry",
+      "source_review_status": "primary_or_metadata_checked_except_documented_502",
+      "date_review_status": "date_confirmed",
+      "duplicate_review_status": "same_work_duplicate",
+      "scientific_review_status": "method_core",
+      "tag_review_status": "not_applicable",
+      "tags": []
+    },
+    {
+      "title": "2D NMR Spectroscopy in Fragment-Based Drug Discovery",
+      "source": "News-Medical",
+      "normalized_doi": "",
+      "normalized_url": "https://www.news-medical.net/life-sciences/2D-NMR-Spectroscopy-in-Fragment-Based-Drug-Discovery.aspx",
+      "actual_online_date": "2026-10-08",
+      "publication_status": "unknown",
+      "magnetic_resonance_role": "application_core",
+      "basis": "10月9日正式data已收录同一URL",
+      "source_location": "https://www.news-medical.net/life-sciences/2D-NMR-Spectroscopy-in-Fragment-Based-Drug-Discovery.aspx",
+      "decision": "excluded",
+      "decision_reason": "duplicate_exact_url",
+      "duplicate_key": "url:https://www.news-medical.net/life-sciences/2D-NMR-Spectroscopy-in-Fragment-Based-Drug-Discovery.aspx",
+      "source_review_status": "primary_or_metadata_checked_except_documented_502",
+      "date_review_status": "date_confirmed",
+      "duplicate_review_status": "duplicate_exact_url",
+      "scientific_review_status": "application_core",
+      "tag_review_status": "not_applicable",
+      "tags": []
+    },
+    {
+      "title": "Bimodal Q-band probehead with improved signal-to-noise ratio in pulse electron paramagnetic resonance",
+      "source": "Magnetic Resonance",
+      "normalized_doi": "10.5194/mr-7-21-2026",
+      "normalized_url": "https://mr.copernicus.org/articles/7/21/2026/",
+      "actual_online_date": "2026-03-20",
+      "publication_status": "unknown",
+      "magnetic_resonance_role": "method_core",
+      "basis": "原始论文3月20日；10月新闻再报道不构成新技术结果",
+      "source_location": "https://mr.copernicus.org/articles/7/21/2026/",
+      "decision": "excluded",
+      "decision_reason": "out_of_window",
+      "duplicate_key": "doi:10.5194/mr-7-21-2026",
+      "source_review_status": "primary_or_metadata_checked_except_documented_502",
+      "date_review_status": "out_of_window",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "method_core",
+      "tag_review_status": "not_applicable",
+      "tags": []
+    },
+    {
+      "title": "Ultrafast Operando 2D MAS NMR Reveals Proton-Mediated Molecular Sieve Crystallization",
+      "source": "中国科学院大连化物所",
+      "normalized_doi": "10.1021/jacs.6c12306",
+      "normalized_url": "https://english.dicp.cas.cn/news/rn/202610/t20261010_1202195.html",
+      "actual_online_date": "2026-10-10",
+      "publication_status": "unknown",
+      "magnetic_resonance_role": "key_evidence",
+      "basis": "10月10日机构新闻对应9月29日论文，前一期Review已确认无独立新增数据；本次直接访问502",
+      "source_location": "https://english.dicp.cas.cn/news/rn/202610/t20261010_1202195.html",
+      "decision": "excluded",
+      "decision_reason": "out_of_window_underlying_work",
+      "duplicate_key": "doi:10.1021/jacs.6c12306",
+      "source_review_status": "primary_or_metadata_checked_except_documented_502",
+      "date_review_status": "out_of_window_underlying_work",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "key_evidence",
+      "tag_review_status": "not_applicable",
+      "tags": []
+    },
+    {
+      "title": "NMR Relaxometry across ultra-wide range fields using atomic magnetometers",
+      "source": "Journal of Magnetic Resonance",
+      "normalized_doi": "10.1016/j.jmr.2026.108128",
+      "normalized_url": "https://www.sciencedirect.com/science/article/pii/S1090780726001175",
+      "actual_online_date": "unknown",
+      "publication_status": "unknown",
+      "magnetic_resonance_role": "method_core",
+      "basis": "当前可访问检索结果仅显示October刊期与抓取时间，未取得满足近7天要求的在线日期",
+      "source_location": "https://www.sciencedirect.com/science/article/pii/S1090780726001175",
+      "decision": "excluded",
+      "decision_reason": "date_unverified",
+      "duplicate_key": "doi:10.1016/j.jmr.2026.108128",
+      "source_review_status": "primary_or_metadata_checked_except_documented_502",
+      "date_review_status": "date_unverified",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "method_core",
+      "tag_review_status": "not_applicable",
+      "tags": []
+    },
+    {
+      "title": "Identification of Quasi-Solid Bound Water in High-Liquid-Limit Soils Based on Water Density Evolution",
+      "source": "Applied Sciences",
+      "normalized_doi": "10.3390/app162010149",
+      "normalized_url": "https://www.mdpi.com/2076-3417/16/20/10149",
+      "actual_online_date": "2026-10-13",
+      "publication_status": "unknown",
+      "magnetic_resonance_role": "unverified",
+      "basis": "直接读取early-access摘要，仅列NMR与其他表征，未明确哪个主要结论依赖NMR数据；完整方法尚未公开",
+      "source_location": "https://www.mdpi.com/2076-3417/16/20/10149",
+      "decision": "excluded",
+      "decision_reason": "role_unverified",
+      "duplicate_key": "doi:10.3390/app162010149",
+      "source_review_status": "primary_or_metadata_checked_except_documented_502",
+      "date_review_status": "date_confirmed",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "unverified",
+      "tag_review_status": "not_applicable",
+      "tags": []
+    },
+    {
+      "title": "Beyond Organic Synthesis: Impurity, Oxidative, and Solid-State Challenges in Pharmacopoeial-Grade Droperidol API Development",
+      "source": "Journal of Pharmaceutical Innovation",
+      "normalized_doi": "10.1007/s12247-026-11091-y",
+      "normalized_url": "https://link.springer.com/article/10.1007/s12247-026-11091-y",
+      "actual_online_date": "2026-10-07",
+      "publication_status": "unknown",
+      "magnetic_resonance_role": "routine_characterization",
+      "basis": "摘要中NMR用于确认制得杂质，主要内容为工艺选择性、分离和固态行为",
+      "source_location": "https://link.springer.com/article/10.1007/s12247-026-11091-y",
+      "decision": "excluded",
+      "decision_reason": "low_relevance",
+      "duplicate_key": "doi:10.1007/s12247-026-11091-y",
+      "source_review_status": "primary_or_metadata_checked_except_documented_502",
+      "date_review_status": "date_confirmed",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "routine_characterization",
+      "tag_review_status": "not_applicable",
+      "tags": []
+    },
+    {
+      "title": "Musculoskeletal MRI Relaxometry Phantom for T1, T2, and T1ρ Measurements",
+      "source": "Journal of Magnetic Resonance Imaging",
+      "normalized_doi": "10.1002/jmri.70570",
+      "normalized_url": "https://onlinelibrary.wiley.com/doi/10.1002/jmri.70570",
+      "actual_online_date": "2026-10-11",
+      "publication_status": "unknown",
+      "magnetic_resonance_role": "unverified",
+      "basis": "主用途为MRI多厂商质控体模；NMR作为参照测量，未满足波谱核心范围",
+      "source_location": "https://onlinelibrary.wiley.com/doi/10.1002/jmri.70570",
+      "decision": "excluded",
+      "decision_reason": "out_of_scope_mri",
+      "duplicate_key": "doi:10.1002/jmri.70570",
+      "source_review_status": "primary_or_metadata_checked_except_documented_502",
+      "date_review_status": "date_confirmed",
+      "duplicate_review_status": "clear",
+      "scientific_review_status": "unverified",
+      "tag_review_status": "not_applicable",
+      "tags": []
+    }
+  ],
+  "validation": {
+    "passed": [
+      "python scripts/build.py --check",
+      "python scripts/build.py",
+      "node tests/search.test.cjs"
+    ],
+    "screen_html_json_consistency": "passed; all ten titles, summaries, meanings, dates and source labels match canonical JSON; order and article counts match",
+    "standalone_css": "passed; inline style present; no external stylesheet dependency",
+    "full_build_counts": {"issues": 56, "items": 471},
+    "git_diff_check": "passed; only two new authorized files",
+    "image_fields": "none"
+  },
+  "publication": {
+    "target_branch": "main",
+    "atomic_files": [
+      "data/2026/SpinFront_2026-10-14.json",
+      "docs/reviews/2026-10-14.json"
+    ],
+    "state_at_review_commit": "prepublication; Actions/Pages verified after commit and reported in chat"
+  }
+}

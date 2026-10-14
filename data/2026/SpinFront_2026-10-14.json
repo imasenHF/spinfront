@@ -1,0 +1,424 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-10-14",
+  "scope_note": "检索截至2026-10-14 06:07（Asia/Shanghai），覆盖2026-10-07至10-13。常规检索未确认5条具有精确出版时刻的近24小时信息，已启动增强搜索；覆盖高影响与磁共振专业期刊、Crossref/PubMed、预印本、机构新闻、仪器软件、会议培训及中国与海外采购，并轮换液体NMR、MAS/DNP、低场与TD-NMR、谱图处理及CW/脉冲/时间分辨/工况EPR等方法词。以全库55期461条和最近7期共同查重，重点候选中排除10条重复、2条原始工作超窗的再报道、1条在线日期不明及3条作用不足或超出波谱范围的内容，最终收录10条，NMR 9条、EPR 2条（其中1条同时涉及两者）。只有NVision公告有可核实的精确发布时间，标为近24小时；其余9条按可靠在线日期标为近7天扩展，不把Crossref登记时刻当作出版时刻。ACS等部分页面403、机构新闻502及Crossref批量429均已记录，以单篇元数据和可访问一手摘要补核；未读取付费全文，科学表述限于摘要可确认范围。增强检索已获得10条，未触发第二级深度增强。待复核标签：无。",
+  "items": [
+    {
+      "item_id": "SF-20261014-01",
+      "report_date": "2026-10-14",
+      "item_no": 1,
+      "title_cn": "固体与溶液NMR联合完成134 kDa酶的高覆盖率归属",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr",
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "mas",
+        "multidimensional_nmr",
+        "relaxometry"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "134 kDa IiMDH四聚体",
+        "沉降蛋白与溶液蛋白",
+        "草氨酸"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Napoli 等结合沉降蛋白的最高四维MAS实验与溶液NMR，研究134 kDa四聚体苹果酸脱氢酶IiMDH，完成92%主链重原子和91%指定甲基归属。¹⁵N R₁ρ及甲基序参量辨认柔性区域；加入草氨酸后的¹H–¹⁵N TROSY位移扰动同时涉及活性位点及α2F、α3G螺旋。",
+      "meaning_cn": "同一大型寡聚酶的主链与侧链归属可连接慢运动、疏水核心柔性和配体响应。复用时需确认沉降态与溶液态的折叠及活性一致，并区分位移扰动与直接结合接触；α2F、α3G的响应仅显示与同源酶信号传递区域相关，尚不能直接确定变构路径。",
+      "publication_date": "2026-10-13",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American\nChemical Society",
+      "url": "https://pubs.acs.org/doi/10.1021/jacs.6c14423",
+      "doi": "10.1021/jacs.6c14423",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-14",
+      "last_updated": "2026-10-14",
+      "report_file": "SpinFront_2026-10-14.html",
+      "publication_status": "early_access",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261014-02",
+      "report_date": "2026-10-14",
+      "item_no": 2,
+      "title_cn": "CW-EPR、DEER与RIDME分辨七自旋超分子的溶液构象",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "cw_epr",
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "deer_peldor"
+      ],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "七自旋[4]轮烷",
+        "Cu(II)、{CrNi₂}与{Cr₇Ni}",
+        "冻结溶液"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Loci 等合成含七个自旋中心的[4]轮烷，以{CrNi₂}为中心、三臂末端为Cu(II)，各臂穿有{Cr₇Ni}金属环。CW-EPR确认超分子在溶液中保持完整，三类中心可分别寻址；取向选择性DEER和RIDME进一步解析冻结溶液中的不同自旋对，并辨认其与晶体构象的差异。",
+      "meaning_cn": "异类顺磁中心的谱学选择性使多自旋体系中的不同偶极相互作用可分别测量。冻结溶液与晶体的构象差异提示距离分析需考虑柔性与取向选择；对照DEER和RIDME时还需检查多自旋效应、激发带宽及背景模型，不能把单一距离分布直接等同于完整分子结构。",
+      "publication_date": "2026-10-13",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://pubs.acs.org/doi/10.1021/jacs.6c08331",
+      "doi": "10.1021/jacs.6c08331",
+      "alternative_sources": [
+        {
+          "name": "曼彻斯特大学研究记录",
+          "url": "https://research.manchester.ac.uk/en/publications/probing-the-conformational-behavior-of-a-seven-hetero-spin-supra-/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-14",
+      "last_updated": "2026-10-14",
+      "report_file": "SpinFront_2026-10-14.html",
+      "publication_status": "early_access",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261014-03",
+      "report_date": "2026-10-14",
+      "item_no": 3,
+      "title_cn": "选择性脯氨酸标记把134 kDa蛋白的局部位点带入MAS NMR",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "mas",
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "选择性同位素标记脯氨酸",
+        "氘代蛋白",
+        "134 kDa酶"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Rohden 等利用同位素前体合成鸟氨酸，再经酶促转化，在其余部分氘代的蛋白中构建脯氨酸¹H₂δ–¹³Cδ–¹⁵N孤立自旋体系。该标记避开脯氨酸缺少酰胺质子造成的常规检测限制，并在134 kDa酶的MAS NMR中演示局部位点检测，为研究功能铰链及相互作用区域提供特定探针。",
+      "meaning_cn": "脯氨酸无法使用常规酰胺¹H–¹⁵N检测，δ位点的选择性保氢可提供替代读出。该策略依赖整体氘代背景和同位素前体的定点转化；用于其他蛋白时应核对掺入率、代谢串标及残余质子，并分别验证溶液与MAS条件下的峰分辨和位点归属。",
+      "publication_date": "2026-10-13",
+      "time_scope": "7d_extension",
+      "source": "ACS Chemical Biology",
+      "url": "https://pubs.acs.org/doi/10.1021/acschembio.6c00587",
+      "doi": "10.1021/acschembio.6c00587",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-14",
+      "last_updated": "2026-10-14",
+      "report_file": "SpinFront_2026-10-14.html",
+      "publication_status": "early_access",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261014-04",
+      "report_date": "2026-10-14",
+      "item_no": 4,
+      "title_cn": "锂枝晶形貌与铜界面共同改变内源DNP响应",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "dnp",
+        "polarization_transfer"
+      ],
+      "application_ids": [
+        "battery"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "铜基底锂枝晶",
+        "锂金属/SEI界面"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Juramy 等在铜电极上制备可控形貌锂枝晶，研究锂金属内源DNP及向SEI盐物种的极化转移。DNP响应随枝晶形貌、基底和电子自旋弛豫改变；部分细枝晶出现极短弛豫，作者提出Li/SEI界面铜杂质可能参与。微波与射频条件、射频在微结构中的穿透也影响信号增益。",
+      "meaning_cn": "内源DNP利用锂金属的电子极化读取附近SEI物种，避免外加自由基改变界面组成。形貌、界面杂质和场穿透均会改变响应，跨电极比较应固定基底、沉积条件及微波/射频设置，并分别报告弛豫与增益；铜杂质解释属于作者假设，不能据增益单独判定SEI含量。",
+      "publication_date": "2026-10-13",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Physical\nChemistry C",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.jpcc.6c02985",
+      "doi": "10.1021/acs.jpcc.6c02985",
+      "alternative_sources": [
+        {
+          "name": "剑桥大学接受稿题录",
+          "url": "https://www.repository.cam.ac.uk/items/50c4c291-91a5-403b-bfbc-46f0020e3215"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-14",
+      "last_updated": "2026-10-14",
+      "report_file": "SpinFront_2026-10-14.html",
+      "publication_status": "early_access",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261014-05",
+      "report_date": "2026-10-14",
+      "item_no": 5,
+      "title_cn": "TD-NMR衰减特征分开考察橡胶温度、配方和硫化影响",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [
+        "spectral_processing"
+      ],
+      "application_ids": [
+        "polymers"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "复杂弹性体",
+        "三聚合物配方",
+        "不同硫化状态"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Voccio 等用多变量实验设计研究复杂弹性体的TD-NMR信号，考察三水平测量温度、两水平三种聚合物相对组成及两水平硫化状态。比较多个衰减特征后，选出信号达到指定强度所需时间作为单参数指标，并建立响应面，描述该指标随配方、温度和硫化状态的变化。",
+      "meaning_cn": "达到指定信号强度的时间可压缩衰减曲线，同时保留文中体系的主要变化信息。温度和配方都影响链段运动，硫化比较需在固定温度、归一化与强度阈值下进行；该指标属于经验特征，不能未经校准换算为交联密度，也不能默认适用于不同填料和聚合物组合。",
+      "publication_date": "2026-10-13",
+      "time_scope": "7d_extension",
+      "source": "ACS Measurement Science\nAu",
+      "url": "https://pubs.acs.org/doi/10.1021/acsmeasuresciau.6c00276",
+      "doi": "10.1021/acsmeasuresciau.6c00276",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-14",
+      "last_updated": "2026-10-14",
+      "report_file": "SpinFront_2026-10-14.html",
+      "publication_status": "early_access",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261014-06",
+      "report_date": "2026-10-14",
+      "item_no": 6,
+      "title_cn": "T₁、T₂与ILT区分苹果汁加水、加糖及混入橙汁",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [
+        "cpmg",
+        "relaxometry",
+        "spectral_processing"
+      ],
+      "application_ids": [
+        "food_agriculture",
+        "quality_control"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "苹果汁",
+        "水、糖与橙汁掺混"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Okay 以TD-NMR测量苹果汁添加水、橙汁或糖后的T₁与T₂，并对CPMG数据做逆拉普拉斯变换（ILT）。加水使两种弛豫时间变长，加入橙汁使T₁变长而T₂变短，加糖使两者变短；ILT分离不同水群体与弛豫组分，在所测试条件下区分三类组成变化。",
+      "meaning_cn": "两种弛豫时间的变化方向提供互补判据，ILT显示单一平均T₂难以表达的水群体差异。实际果汁筛查需控制温度、可溶性固形物、pH与果肉含量，并固定回波间隔和正则化参数；现有摘要未给出检出限、盲样准确率或跨产地验证，不能据此设定通用判别阈值。",
+      "publication_date": "2026-10-13",
+      "time_scope": "7d_extension",
+      "source": "Food Analytical Methods",
+      "url": "https://link.springer.com/article/10.1007/s12161-026-03312-4",
+      "doi": "10.1007/s12161-026-03312-4",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-14",
+      "last_updated": "2026-10-14",
+      "report_file": "SpinFront_2026-10-14.html",
+      "publication_status": "early_access",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261014-07",
+      "report_date": "2026-10-14",
+      "item_no": 7,
+      "title_cn": "NMR与EPR联合解析超过300 kDa RNA外切体的多时标运动",
+      "direction_ids": [
+        "nmr",
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "relaxation_dispersion",
+        "cest",
+        "spin_labeling"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "Exo9非对称RNA外切体",
+        "Rrp44与底物RNA",
+        "选择性甲基及自旋标记"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Liebau 等在预印本中以选择性甲基NMR研究超过300 kDa的非对称Exo9复合物。弛豫色散及CEST显示，组装后环亚基运动受限，帽亚基和功能环仍保持柔性；自旋标记EPR补充揭示Rrp44结合及底物RNA引起的构象群体与纳秒运动变化，联合覆盖毫秒至秒及纳秒时标。",
+      "meaning_cn": "甲基NMR读取大型复合物的慢交换，自旋标记EPR补充特定环区的快运动，两者可区分组装与底物作用。实验依赖选择性标记、复合物完整性和标记位点不干扰功能；比较时需控制亚基及RNA占有率，并检查标签自身运动。结果尚属预印本，具体交换模型仍需独立复现。",
+      "publication_date": "2026-10-12",
+      "time_scope": "7d_extension",
+      "source": "bioRxiv（预印本）",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.10.758228v1",
+      "doi": "10.64898/2026.10.10.758228",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-14",
+      "last_updated": "2026-10-14",
+      "report_file": "SpinFront_2026-10-14.html",
+      "publication_status": "preprint",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261014-08",
+      "report_date": "2026-10-14",
+      "item_no": 8,
+      "title_cn": "NarX/NarL表达系统用于哺乳动物细胞内¹⁹F NMR",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "HEK293T细胞",
+        "NarX/NarL调控系统",
+        "定点含氟氨基酸"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Huang 等把细菌NarX/NarL双组分调控系统改造为HEK293T细胞的诱导表达平台，用于生产常规体系难以表达的蛋白。团队定点引入含氟氨基酸，获得高分辨细胞内¹⁹F NMR谱，并直接观察目标蛋白构象及配体相互作用，将表达工程与细胞内结构分析结合。",
+      "meaning_cn": "细胞内¹⁹F谱的有效浓度受表达量与定点标记共同限制，调控系统提供了样品制备路径。应用到其他蛋白时需测定细胞活率、胞外泄漏与标签对功能的影响，并结合裂解前后谱比较定位信号来源；摘要未给出浓度、场强或采集时间，暂不能量化灵敏度和时间成本。",
+      "publication_date": "2026-10-08",
+      "time_scope": "7d_extension",
+      "source": "Science China Chemistry",
+      "url": "https://link.springer.com/article/10.1007/s11426-026-3732-9",
+      "doi": "10.1007/s11426-026-3732-9",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-14",
+      "last_updated": "2026-10-14",
+      "report_file": "SpinFront_2026-10-14.html",
+      "publication_status": "early_access",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261014-09",
+      "report_date": "2026-10-14",
+      "item_no": 9,
+      "title_cn": "¹H NMR代谢组比较艾蒿对两种诱导剂的时序响应",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "艾蒿Artemisia vulgaris幼苗",
+        "MJ与SA诱导处理"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Zakariya 等以非靶向¹H NMR代谢组及化学计量学分析艾蒿幼苗对茉莉酸甲酯（MJ）和水杨酸（SA）的响应。文中选出的有效浓度为MJ 150 μM与SA 100 μM；代谢谱显示莽草酸、苯丙烷和青蒿素相关途径改变，代谢组成同时依赖诱导剂种类、浓度和取样时间。",
+      "meaning_cn": "NMR代谢谱可把不同诱导处理与代谢物群的协同变化对应，适合比较植物培养条件。150与100 μM的选择限于文中艾蒿体系；跨批次应用需固定植株阶段、提取条件及积分归一化，并用独立定量核对青蒿素含量，避免把通路富集或多变量分离直接解释为代谢通量。",
+      "publication_date": "2026-10-13",
+      "time_scope": "7d_extension",
+      "source": "Journal of Plant Biochemistry and Biotechnology",
+      "url": "https://link.springer.com/article/10.1007/s13562-026-01145-0",
+      "doi": "10.1007/s13562-026-01145-0",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-14",
+      "last_updated": "2026-10-14",
+      "report_file": "SpinFront_2026-10-14.html",
+      "publication_status": "early_access",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261014-10",
+      "report_date": "2026-10-14",
+      "item_no": 10,
+      "title_cn": "NVision在UCLouvain部署PHIP超极化平台POLARIS",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "phip"
+      ],
+      "application_ids": [
+        "life_science",
+        "instrumentation"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "POLARIS",
+        "超极化¹³C代谢成像试剂",
+        "临床前肿瘤模型"
+      ],
+      "information_type": "funding_facility",
+      "summary_cn": "NVision 宣布在比利时UCLouvain的NEST平台部署POLARIS，拟用于黑色素瘤、三阴性乳腺癌及转移性疾病的临床前代谢研究。公告称系统采用自动化对氢诱导极化（PHIP），约三分钟制备超极化代谢成像试剂，并与既有磁共振设备配合；初期研究将比较治疗响应及耐药相关代谢变化。",
+      "meaning_cn": "PHIP制备时间与极化衰减共同决定注射及¹³C读出时间窗口，约三分钟的制备流程属于此次厂商声明。研究比较仍需报告实际极化率、产物浓度、纯度、转移时间及序列翻转角；本次消息确认设备部署和研究计划，尚未提供上述肿瘤模型的实测疗效预测结果。",
+      "publication_date": "2026-10-13",
+      "time_scope": "24h",
+      "source": "NVision公司公告（EQS News）",
+      "url": "https://www.eqs-news.com/news/corporate/nvision-deploys-polaris-at-uclouvain-to-advance-cancer-metabolism-research/13508cb5-f6a4-4f62-ab8e-db692a646a12_en",
+      "doi": "",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "first_seen": "2026-10-14",
+      "last_updated": "2026-10-14",
+      "report_file": "SpinFront_2026-10-14.html",
+      "publication_status": "unknown",
+      "tag_review_status": "approved"
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-10-15",
+  "scope_note": "检索截至2026-10-15 06:11（Asia/Shanghai），覆盖2026-10-08至10-14。常规检索未确认5条具有精确出版时刻的近24小时信息，已启动增强搜索，分别检索高影响与磁共振专业期刊、Crossref、预印本与机构、仪器软件、会议及中国与海外采购，并轮换液体NMR、MAS/DNP、低场/TD-NMR、谱图处理、CW/脉冲/工况/时间分辨EPR方法词。以全库56期471条及最近7期共同查重，已登记候选中排除25条历史重复，最终收录10条日报内容；末条汇总2份合格采购公告，采购候选登记22份、排除20份，不将登记数视为全部搜索命中数。全部条目缺少可证明位于24小时窗口的完整时刻，统一按近7天扩展。部分出版社/政府页403或502、Crossref主题批量查询429；使用可访问原文、权威摘要或原始公告索引交叉核对，无法确认原始内容的候选不发布。未触发深度增强：增强阶段合格内容已达9条学术内容加1条采购汇总。待复核标签：无。",
+  "items": [
+    {
+      "item_id": "SF-20261015-01",
+      "report_date": "2026-10-15",
+      "item_no": 1,
+      "title_cn": "双重水抑制二维Pure Shift解析柔性配合物的构型与慢交换",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "pure_shift",
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "sample_systems": [
+        "造影剂的抗磁类似物",
+        "LuXo4结晶辅助配合物"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "El Hayek 等提出Presat-PSYCHE-TOCSY-ES与NOESY-Presat-PSYCHE-NOESY-ES，将宽带同核去耦与双重溶剂抑制组合，用于水溶液中柔性分子的二维相关谱。实验区分常规谱中重叠的非对映异构体，并以Pure Shift EXSY量化LuXo4的慢构象交换；DFT结果与配体臂旋转机制一致。",
+      "meaning_cn": "同核多重峰压缩与水信号抑制可同时保留构型归属及交换相关信息。用于配位化合物时，需以常规TOCSY/NOESY作归属对照，并核查水峰附近信号损失、混合时间依赖和交换峰积分；EXSY速率解释仍受弛豫与交叉弛豫影响。",
+      "publication_date": "2026-10-14",
+      "time_scope": "7d_extension",
+      "source": "Analytical Chemistry",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.analchem.6c04345",
+      "doi": "10.1021/acs.analchem.6c04345",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-10-15",
+      "last_updated": "2026-10-15",
+      "report_file": "SpinFront_2026-10-15.html"
+    },
+    {
+      "item_id": "SF-20261015-02",
+      "report_date": "2026-10-15",
+      "item_no": 2,
+      "title_cn": "²³Na中心跃迁NMR直接读取58 kDa酶的结合钠位点",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "Bacillus licheniformis α-amylase",
+        "Bacillus amyloliquefaciens α-amylase",
+        "Ca–Na–Ca金属三联位点"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Peng 等以²³Na四极中心跃迁NMR直接检测两种约58 kDa细菌α-淀粉酶中紧密结合的Na⁺，获得亚ppm分辨率。实验考察pH、热失活、化学变性和抑制剂响应；EDTA滴定得到BAA与BLA的Na⁺表观结合常数分别为(0.3±0.1)×10⁹和(0.6±0.1)×10⁹ M⁻¹。",
+      "meaning_cn": "²³Na可作为酶内Ca–Na–Ca位点的局部探针，补充蛋白整体构象测量。比较热稳定性与抑制剂响应时需固定游离钠背景、pH和温度，并区分金属脱离与蛋白展开；EDTA滴定所得常数为该实验条件下的表观值，不能直接替代独立结合热力学测量。",
+      "publication_date": "2026-10-14",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://pubs.acs.org/doi/10.1021/jacs.6c16474",
+      "doi": "10.1021/jacs.6c16474",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-10-15",
+      "last_updated": "2026-10-15",
+      "report_file": "SpinFront_2026-10-15.html"
+    },
+    {
+      "item_id": "SF-20261015-03",
+      "report_date": "2026-10-15",
+      "item_no": 3,
+      "title_cn": "低温¹³C/⁷Li固体NMR检验电解液中的多锂离子簇",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "mas",
+        "cross_polarization",
+        "multinuclear_nmr",
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "battery"
+      ],
+      "sample_systems": [
+        "LiPF₆/碳酸乙烯酯电解液",
+        "0.5、1.2与2.0 M盐浓度"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Stevenson 等联合机器学习分子动力学、量子化学与低温固体NMR，检验碳酸乙烯酯电解液中无直接配位阴离子的多Li⁺簇。¹H→¹³C CPMAS谱随盐浓度增加出现更明显的羰基肩峰；QRNN结构所计算的谱形与实验吻合，常规OPLS4模型在1.2与2.0 M时偏差较大。",
+      "meaning_cn": "实验在20 kHz MAS下测量，¹³C条件为14.1 T、116 K，⁷Li为9.32 T、210 K，并采用快速冻结保留局部溶剂化结构。谱形比较可检验不同配位模型；簇比例与还原电位仍来自计算，冻结样品的谱学一致性不能直接等同于室温动态分布。",
+      "publication_date": "2026-10-14",
+      "time_scope": "7d_extension",
+      "source": "Nature",
+      "url": "https://www.nature.com/articles/s41586-026-11138-7",
+      "doi": "10.1038/s41586-026-11138-7",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-15",
+      "last_updated": "2026-10-15",
+      "report_file": "SpinFront_2026-10-15.html"
+    },
+    {
+      "item_id": "SF-20261015-04",
+      "report_date": "2026-10-15",
+      "item_no": 4,
+      "title_cn": "CMD-Net以合成一维训练数据处理低信噪比多维NMR",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "spectral_processing"
+      ],
+      "application_ids": [],
+      "sample_systems": [
+        "一维异核NMR",
+        "二维与三维NMR数据"
+      ],
+      "instrument_component_ids": [
+        "software"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Ni 等提出CMD-Net，在U形编码器—解码器中结合CNN局部特征与Mamba-2全局建模，直接对频域NMR谱去噪。模型仅用合成一维谱训练，随后用于一维异核及二维、三维数据；以多扫描高信噪比谱作参照，检验不同噪声水平下的弱峰保留与伪影抑制。",
+      "meaning_cn": "合成一维训练可减少模型对特定多维训练集的依赖。实际使用时应保留未经去噪的谱，与独立高信噪比数据逐峰比较位置、面积和峰宽，并检验噪声相关性及动态范围；摘要未给出统一定量误差阈值，去噪结果不能直接视为可靠积分值。",
+      "publication_date": "2026-10-14",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Physical Chemistry Letters",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.jpclett.6c02887",
+      "doi": "10.1021/acs.jpclett.6c02887",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-10-15",
+      "last_updated": "2026-10-15",
+      "report_file": "SpinFront_2026-10-15.html"
+    },
+    {
+      "item_id": "SF-20261015-05",
+      "report_date": "2026-10-15",
+      "item_no": 5,
+      "title_cn": "分子与骨架独立划分检验¹H/¹³C谱指纹预测的泛化",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr",
+        "spectral_processing"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "nmrshiftdb2的555组实验观测",
+        "514种规范化分子结构"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "López-Rosas 等整理555组配对实验¹H/¹³C数据、涉及514种结构，以岭回归预测2048位Morgan指纹。分子独立划分时，联合核种的平均Tanimoto相似度为0.327、Top-10检索率39.0%；骨架独立划分后降为0.265和23.7%，重复谱均按分子分组，模型选择仅使用验证集。",
+      "meaning_cn": "¹H与¹³C峰列表提供互补结构信息，但新骨架测试的表现明显低于同类分子测试。评估结构预测工具时应报告划分方式、重复谱处理与实验数据来源；本研究输入为已归属位移计数向量，结果不能直接代表对未经处理FID或混合物谱的识别能力。",
+      "publication_date": "2026-10-14",
+      "time_scope": "7d_extension",
+      "source": "Chemistry",
+      "url": "https://www.mdpi.com/2624-8549/8/10/140",
+      "doi": "10.3390/chemistry8100140",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-15",
+      "last_updated": "2026-10-15",
+      "report_file": "SpinFront_2026-10-15.html"
+    },
+    {
+      "item_id": "SF-20261015-06",
+      "report_date": "2026-10-15",
+      "item_no": 6,
+      "title_cn": "稀释与竞争结合NMR定位羧基麦芽糖铁的配体接触",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr",
+        "paramagnetic_nmr"
+      ],
+      "application_ids": [
+        "pharma"
+      ],
+      "sample_systems": [
+        "Injectafer羧基麦芽糖铁",
+        "羧基麦芽三糖",
+        "TSP竞争配体"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Zhang 等用NMR比较Injectafer中分离的羧基麦芽糖与不同葡萄糖当量的合成样品，发现其最接近DE 4–7的材料。原制剂¹³C峰展宽并向低场移动；¹H谱中普通峰在100倍稀释时可见，羧基邻近峰需400倍或更高稀释才出现，提示羧基参与铁核接触。",
+      "meaning_cn": "浓度依赖位移、展宽及竞争结合实验可区分自由糖链与铁核相关配体。稀释同时改变结合平衡和顺磁弛豫，因此信号恢复需配合TSP及不同链长材料对照；强稀释谱反映的糖链状态与原制剂可能不同，不能直接推定制剂中全部配位比例。",
+      "publication_date": "2026-10-14",
+      "time_scope": "7d_extension",
+      "source": "Molecular Pharmaceutics",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.molpharmaceut.6c00375",
+      "doi": "10.1021/acs.molpharmaceut.6c00375",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-10-15",
+      "last_updated": "2026-10-15",
+      "report_file": "SpinFront_2026-10-15.html"
+    },
+    {
+      "item_id": "SF-20261015-07",
+      "report_date": "2026-10-15",
+      "item_no": 7,
+      "title_cn": "分级气体与D₂O驱替测定易损岩心的T₂截止值",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [
+        "cpmg",
+        "relaxometry"
+      ],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "sample_systems": [
+        "R7与R30常规岩心",
+        "R1500弱固结岩心",
+        "H₂O/HDO残余信号"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Li 等将分级气体驱替与D₂O置换组合，以残余含氢水信号作累积匹配参照，确定岩心T₂截止值。R7、R30和弱固结R1500所得值分别为32.45、5.66和24.25 ms；离心对照中R1500在首步损坏，两种常规岩心在高转速下破裂，MRI还显示出口端残水聚集。",
+      "meaning_cn": "CPMG谱与质量含水量、空间水分布对照可减少离心损伤造成的截止值偏差。D₂O置换末端仍可能含H₂O/HDO及未驱出的可动水，须确认置换终点和连通性；验证仅涉及三块岩心，Timur–Coates渗透率估算不能据此推广到所有储层。",
+      "publication_date": "2026-10-14",
+      "time_scope": "7d_extension",
+      "source": "Energies",
+      "url": "https://www.mdpi.com/1996-1073/19/20/4866",
+      "doi": "10.3390/en19204866",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-15",
+      "last_updated": "2026-10-15",
+      "report_file": "SpinFront_2026-10-15.html"
+    },
+    {
+      "item_id": "SF-20261015-08",
+      "report_date": "2026-10-15",
+      "item_no": 8,
+      "title_cn": "超低温NMR分辨苯甲酸铜自旋链的三类激发",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "sample_systems": [
+        "S=1/2苯甲酸铜反铁磁链"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Chen 等在超低温下改变磁场，利用NMR弛豫与Knight位移分辨苯甲酸铜的自旋激发。0.2 T下近恒定1/T₁及降温时发散趋势的1/T₂G符合自旋子响应；低于0.4 K出现额外1/T₁∝T通道和异常位移，指向随机单态类行为；高于1 T的能隙满足Δ∝H²ᐟ³。",
+      "meaning_cn": "弛豫率与静态Knight位移对照，可检验低能激发随温度和磁场的变化。该结论针对超低温自旋链，复现需确认样品温度、场方向和低温平衡；随机单态类表述属于数据与模型的解释，不能仅凭单一弛豫幂律认定特定无序机制。",
+      "publication_date": "2026-10-09",
+      "time_scope": "7d_extension",
+      "source": "Nature Communications",
+      "url": "https://www.nature.com/articles/s41467-026-77134-7",
+      "doi": "10.1038/s41467-026-77134-7",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-10-15",
+      "last_updated": "2026-10-15",
+      "report_file": "SpinFront_2026-10-15.html"
+    },
+    {
+      "item_id": "SF-20261015-09",
+      "report_date": "2026-10-15",
+      "item_no": 9,
+      "title_cn": "多核动态MRSI综述区分代谢物存量与示踪转化",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "in_vivo_mrs"
+      ],
+      "method_ids": [
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "神经退行性疾病脑代谢",
+        "²H与¹³C同位素示踪剂"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "review",
+      "summary_cn": "Pokotylo 等综述¹H及²H、¹³C、¹⁵N、¹⁷O活体波谱在神经退行性疾病中的用途，讨论示踪剂选择、核自旋超极化、采集硬件、重建与代谢建模。动态MRSI跟踪底物后续代谢命运；²H示踪可在无超极化条件下开展动态测量，研究间差异涉及场强、硬件与处理流程。",
+      "meaning_cn": "²H和¹³C示踪的观测窗口、背景信号及模型约束各不相同。设计动态脑代谢实验时需联合考虑标记位置、给药时间、时空分辨率和极化衰减；代谢物浓度与反应通量需要分别建模，综述提出的标准化要求尚不能替代经过验证的临床定量方案。",
+      "publication_date": "2026-10-10",
+      "time_scope": "7d_extension",
+      "source": "Journal of Translational Medicine",
+      "url": "https://link.springer.com/article/10.1186/s12967-026-09084-z",
+      "doi": "10.1186/s12967-026-09084-z",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-15",
+      "last_updated": "2026-10-15",
+      "report_file": "SpinFront_2026-10-15.html"
+    },
+    {
+      "item_id": "SF-20261015-10",
+      "report_date": "2026-10-15",
+      "item_no": 10,
+      "title_cn": "采购动态：台式EPR中标与600 MHz低温探头维护成交",
+      "direction_ids": [
+        "nmr",
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [],
+      "instrument_component_ids": [
+        "probe"
+      ],
+      "sample_systems": [],
+      "information_type": "tender",
+      "summary_cn": "北京石油化工学院于2026-10-14公布大气环境设备02、03包中标结果，其中台式电子顺磁共振波谱仪1台由北京瑞达科仪科技发展有限责任公司以69万元中标；华东理工大学于2026-10-12公布600MHz核磁共振波谱仪超低温探头维护成交结果，项目编号03_F2026092801，采用单一来源采购，推荐成交供应商为布鲁克（北京）科技有限公司，成交金额98000元，评审时间为2026-09-24。",
+      "meaning_cn": "两份公告分别处于设备中标与附件维护成交阶段。北京公告中的119.81万元为02、03包合计额，台式EPR对应69万元；华东理工公告的98000元对应既有600 MHz超低温探头维护。两者反映整机购置与既有附件维护的成交费用，均已完成评审，不能作为仍开放的投标机会。",
+      "publication_date": "2026-10-14",
+      "time_scope": "7d_extension",
+      "source": "北京石油化工学院—台式EPR中标公告",
+      "url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261014/5747151.html",
+      "doi": "",
+      "alternative_sources": [
+        {
+          "name": "华东理工大学—600 MHz低温探头维护成交",
+          "url": "https://czzx.ecust.edu.cn/ejdwjggg/8461.chtml"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-10-15",
+      "last_updated": "2026-10-15",
+      "report_file": "SpinFront_2026-10-15.html"
+    }
+  ]
+}

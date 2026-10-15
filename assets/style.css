@@ -27,9 +27,12 @@ a:focus-visible,summary:focus-visible{outline:2px solid var(--gold);outline-offs
 .hero-title{display:inline-block}
 .hero-title h1{margin:18px 0 14px;font:400 clamp(56px,8vw,92px)/.9 var(--serif);letter-spacing:-3.5px}
 .deck{max-width:610px;margin:0;color:var(--muted);font-size:16px;line-height:1.95}
-.issue-stats{display:flex;gap:24px;flex-wrap:wrap;margin-top:32px;font-size:10px;letter-spacing:1.4px;text-transform:uppercase}
-.issue-stats span{position:relative;padding-left:13px}
-.issue-stats span::before{content:"";position:absolute;left:0;top:.75em;width:4px;height:4px;border-radius:50%;background:var(--gold)}
+.cover-epigraph{position:absolute;left:40px;bottom:28px;z-index:1;width:50%;max-width:470px;margin:0;padding-top:9px;border-top:1px solid #b68c3760}
+.cover-epigraph-label{margin-bottom:4px;font-size:8px;letter-spacing:1.65px;color:var(--gold);text-transform:uppercase}
+.cover-epigraph blockquote{margin:0;font:400 12.5px/1.45 var(--serif);color:#405159}
+.cover-epigraph-source{margin-top:5px;color:var(--muted);font-size:8.5px;line-height:1.4}
+.cover-epigraph-source strong{font:400 9.5px/1.35 var(--serif);color:var(--ink)}
+.cover-epigraph-source a{color:var(--blue)}
 .cover-date{background:var(--ink);color:#fff;padding:38px 30px;display:flex;flex-direction:column;justify-content:flex-end;position:relative;overflow:hidden}
 .cover-date::before{content:"";position:absolute;width:150px;height:150px;border:1px solid #ffffff12;border-radius:50%;top:-54px;right:-42px}
 .cover-date strong{font:400 92px/.76 var(--serif);color:#d3ad61}
@@ -86,6 +89,8 @@ a:focus-visible,summary:focus-visible{outline:2px solid var(--gold);outline-offs
   .cover-main::after{font-size:110px}
   .hero-title h1{font-size:60px;letter-spacing:-2px}
   .deck{font-size:14px}
+  .cover-epigraph{position:static;width:100%;max-width:none;margin-top:18px;padding-top:9px}
+  .cover-epigraph blockquote{font-size:12px}
   .cover-date{min-height:170px;padding:22px 20px}
   .cover-date strong{font-size:66px}
   .scope-chip{margin-top:18px}

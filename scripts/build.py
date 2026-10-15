@@ -5,6 +5,17 @@ ROOT=Path(__file__).resolve().parents[1]
 FIELDS=['direction_ids','experiment_type_ids','method_ids','application_ids','instrument_component_ids']
 REQUIRED=['item_id','report_date','item_no','title_cn',*FIELDS,'sample_systems','information_type','summary_cn','meaning_cn','publication_date','time_scope','source','url','doi','alternative_sources','related_to','review_status','first_seen','last_updated','report_file']
 def read(path):return json.loads(path.read_text(encoding='utf-8'))
+def load_epigraphs():
+ lib=read(ROOT/'assets/data/epigraphs.json');entries=lib.get('entries',[]);rotation=lib.get('rotation',{})
+ assert entries and rotation.get('mode')=='daily_sequential','Invalid Daily Epigraph library'
+ epoch=datetime.date.fromisoformat(rotation['epoch']);repeat=int(rotation.get('repeat_days') or len(entries))
+ by_id={e['id']:e for e in entries};assert len(by_id)==len(entries) and repeat<=len(entries)
+ return lib,epoch,repeat,by_id
+def epigraph_for_date(date,epigraphs):
+ lib,epoch,repeat,by_id=epigraphs
+ day=datetime.date.fromisoformat(date);seq=((day-epoch).days%repeat)+1;eid=f'EP-{seq:04d}'
+ assert eid in by_id,(date,eid,'missing epigraph')
+ return by_id[eid]
 def esc(s):return html.escape(str(s or ''))
 def link(url,label):
  if not re.match(r'^https?://',url or '',re.I):raise ValueError('Unsupported source URL')
@@ -41,7 +52,7 @@ def load():
 
 def shell(title,body,prefix,standalone=False):
  template=(ROOT/'templates/issue.html').read_text(encoding='utf-8')
- styles=('<style>'+(ROOT/'assets/style.css').read_text(encoding='utf-8')+'</style>') if standalone else '<link rel="stylesheet" href="'+prefix+'assets/style.css?v=20261007-metadata-tags">'
+ styles=('<style>'+(ROOT/'assets/style.css').read_text(encoding='utf-8')+'</style>') if standalone else '<link rel="stylesheet" href="'+prefix+'assets/style.css?v=20261015-daily-epigraph">'
  return template.replace('{{TITLE}}',esc(title)).replace('{{STYLES}}',styles).replace('{{BODY}}',body)
 
 MONTHS_EN=['January','February','March','April','May','June','July','August','September','October','November','December']
@@ -67,12 +78,18 @@ def cutoff_label(note):
  m=re.search(r'检索截至(\\d{4}-\\d{2}-\\d{2})\\s+([0-9:]+)（([^）]+)）',note or '')
  return (m.group(2)+' · '+m.group(3)) if m else 'SEE EDITORIAL NOTE'
 
-def issue_header(d,standalone=False):
- date=d['report_date'];day=datetime.date.fromisoformat(date)
- archive=archive_href(standalone);nmr=sum('nmr' in a['direction_ids'] for a in d['items']);epr=sum('epr' in a['direction_ids'] for a in d['items'])
- scopes={a['time_scope'] for a in d['items']}
- scope='7-DAY EXTENSION' if scopes=={'7d_extension'} else ('24H' if scopes=={'24h'} else '24H + 7D')
- return '<header class="issue-topbar"><a class="plastocyanin-link" href="https://plastocyanin.org/">plast<span class="plastocyanin-o">o</span>cyanin<span class="plastocyanin-dot">.</span></a><a class="archive-link" href="'+archive+'">Daily archive →</a></header><section class="cover"><div class="cover-main"><div class="eyebrow">NMR / EPR Daily Brief</div><a class="hero-title" href="'+archive+'"><h1>'+spinfront_wordmark()+'</h1></a><p class="deck">追踪自旋、谱学与应用进展。每日筛选磁共振研究、方法、仪器与应用信息。</p><div class="issue-stats"><span>'+str(len(d['items']))+' reports</span><span>NMR '+str(nmr)+'</span><span>EPR '+str(epr)+'</span><span>'+scope+'</span></div></div><div class="cover-date"><strong>'+date[8:]+'</strong><div class="month">'+MONTHS_EN[day.month-1]+'</div><div class="year">'+date[:4]+' · DAILY ISSUE</div><div class="scope-chip">Search cutoff<br>'+esc(cutoff_label(d.get('scope_note','')))+'</div></div></section>'
+def epigraph_html(e):
+ text=esc(e.get('text','')).replace(' / ','<br>')
+ author=esc(e.get('author',''));work=esc(e.get('work',''));lang=esc(e.get('language','en'))
+ if e.get('source_url'):
+  work_html='<a href="'+html.escape(e['source_url'],quote=True)+'" rel="noopener noreferrer"><em>'+work+'</em> ↗</a>'
+ else:
+  work_html='<em>'+work+'</em>'
+ return '<aside class="cover-epigraph" aria-label="Daily Epigraph"><div class="cover-epigraph-label">Daily Epigraph</div><blockquote lang="'+lang+'">“'+text+'”</blockquote><div class="cover-epigraph-source"><strong>— '+author+'</strong><br>'+work_html+'</div></aside>'
+
+def issue_header(d,epigraph,standalone=False):
+ date=d['report_date'];day=datetime.date.fromisoformat(date);archive=archive_href(standalone)
+ return '<header class="issue-topbar"><a class="plastocyanin-link" href="https://plastocyanin.org/">plast<span class="plastocyanin-o">o</span>cyanin<span class="plastocyanin-dot">.</span></a><a class="archive-link" href="'+archive+'">Daily archive →</a></header><section class="cover"><div class="cover-main"><div class="eyebrow">NMR / EPR Daily Brief</div><a class="hero-title" href="'+archive+'"><h1>'+spinfront_wordmark()+'</h1></a><p class="deck">追踪自旋、谱学与应用进展。每日筛选磁共振研究、方法、仪器与应用信息。</p>'+epigraph_html(epigraph)+'</div><div class="cover-date"><strong>'+date[8:]+'</strong><div class="month">'+MONTHS_EN[day.month-1]+'</div><div class="year">'+date[:4]+' · DAILY ISSUE</div><div class="scope-chip">Search cutoff<br>'+esc(cutoff_label(d.get('scope_note','')))+'</div></div></section>'
 
 def scope_block(note):
  return '<details class="scope"><summary>本期检索范围与筛选说明</summary><div class="scope-copy"><span>EDITORIAL NOTE</span><p>'+esc(note)+'</p></div></details>'
@@ -86,8 +103,8 @@ def footer(date,standalone=False):
  archive=archive_href(standalone)
  return '<footer class="footer"><div class="footer-brand-stack"><a class="footer-parent-brand" href="https://plastocyanin.org/">plast<span class="footer-o">o</span>cyanin<span class="footer-dot">.</span></a><a class="footer-brand" href="'+archive+'">'+spinfront_wordmark()+'</a><small>NMR / EPR Daily Brief · '+esc(date)+'</small></div><div class="footer-right">© '+date[:4]+' wuhaifeng@ustc.edu.cn. All rights reserved.<br>本报告版权归作者所有，未经许可不得复制、转载或用于商业用途。</div></footer>'
 
-def issue_html(d,labels,prev_date='',next_date='',standalone=False):
- date=d['report_date'];body=issue_header(d,standalone)+scope_block(d.get('scope_note',''))+'<section class="issue">'
+def issue_html(d,labels,epigraphs,prev_date='',next_date='',standalone=False):
+ date=d['report_date'];body=issue_header(d,epigraph_for_date(date,epigraphs),standalone)+scope_block(d.get('scope_note',''))+'<section class="issue">'
  for a in d['items']:
   time='近7天扩展' if a['time_scope']=='7d_extension' else '近24小时'
   tag_pairs=[(f,t) for f in FIELDS for t in a[f]]
@@ -120,15 +137,16 @@ def latest_feature(d):
  return '<section class="mag-front"><div class="mag-front-main"><div class="mag-eyebrow">NMR / EPR Daily Brief</div><a class="mag-front-title" href="./"><h1>'+spinfront_wordmark()+'</h1></a><p>追踪自旋、谱学与应用进展。每日筛选磁共振研究、方法、仪器与应用信息。</p><div class="mag-stats"><span>'+str(len(d['items']))+' reports</span><span>NMR '+str(nmr)+'</span><span>EPR '+str(epr)+'</span></div></div><aside class="mag-latest-date"><small>LATEST ISSUE</small><strong>'+date[8:]+'</strong><span>'+MONTHS_EN[day.month-1]+'</span><em>'+date[:4]+'</em><a href="'+date+'/">Read full issue →</a></aside></section><section class="latest-issue"><header><div><span>LATEST ISSUE</span><h2>'+esc(date)+'</h2></div><a href="'+date+'/">READ FULL ISSUE →</a></header><div class="latest-stories">'+stories+'</div></section>'
 
 def main():
- ap=argparse.ArgumentParser();ap.add_argument('--check',action='store_true');ap.add_argument('--output',default='_site');args=ap.parse_args();tax,labels,issues=load()
- if args.check:print(f'Validated {len(issues)} issues / {sum(len(d["items"]) for d in issues)} items');return
+ ap=argparse.ArgumentParser();ap.add_argument('--check',action='store_true');ap.add_argument('--output',default='_site');args=ap.parse_args();tax,labels,issues=load();epigraphs=load_epigraphs()
+ for d in issues:epigraph_for_date(d['report_date'],epigraphs)
+ if args.check:print(f'Validated {len(issues)} issues / {sum(len(d["items"]) for d in issues)} items / Daily Epigraph date mapping');return
  out=(ROOT/args.output).resolve();assert out!=ROOT and ROOT in out.parents,'Output must be a child directory of this repo'
  out.mkdir(parents=True,exist_ok=True);shutil.copytree(ROOT/'assets',out/'assets',dirs_exist_ok=True);shutil.copytree(ROOT/'data',out/'data',dirs_exist_ok=True);shutil.copytree(ROOT/'taxonomy',out/'taxonomy',dirs_exist_ok=True)
  downloads=out/'downloads';downloads.mkdir(exist_ok=True)
  listings=[]
  for i,d in enumerate(issues):
   date=d['report_date'];prev_date=issues[i-1]['report_date'] if i>0 else '';next_date=issues[i+1]['report_date'] if i+1<len(issues) else ''
-  p=out/date;p.mkdir(exist_ok=True);s=issue_html(d,labels,prev_date,next_date);(p/'index.html').write_text(s,encoding='utf-8');(downloads/f'SpinFront_{date}.html').write_text(issue_html(d,labels,prev_date,next_date,standalone=True),encoding='utf-8')
+  p=out/date;p.mkdir(exist_ok=True);s=issue_html(d,labels,epigraphs,prev_date,next_date);(p/'index.html').write_text(s,encoding='utf-8');(downloads/f'SpinFront_{date}.html').write_text(issue_html(d,labels,epigraphs,prev_date,next_date,standalone=True),encoding='utf-8')
   assert s.count('<article ')==len(d['items']) and '<img' not in s
   for a in d['items']:
    for k in ['title_cn','summary_cn','meaning_cn']:assert esc(a[k]).replace('\n','<br>') in s

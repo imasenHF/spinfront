@@ -1,6 +1,6 @@
 # SpinFront Style Guide
 
-更新日期：2026-10-07（Asia/Shanghai）
+更新日期：2026-10-15（Asia/Shanghai）
 
 用途：保存 SpinFront 当前正式版式与交互要求。跨站共用品牌、字体和页尾规则以主站仓库 `docs/SITE_STYLE_GUIDE.md` 为总备份；本文件只记录 SpinFront 专属实现。
 
@@ -54,7 +54,9 @@
 - plastocyanin. 返回主站。
 - 大号 SpinFront 返回日报主页。
 - 右侧深蓝灰日期封面块。
-- 封面显示报告数量、NMR/EPR 数量和时间范围。
+- 封面不再显示 `REPORTS / NMR / EPR / 24H+7D` 统计行；这些信息保留在检索说明和归档数据中。
+- Daily Epigraph 作为每一期日报的固定卷首语，嵌入封面左下原有空白区；桌面端使用绝对定位，不增加封面高度、不拉长右侧日期栏、不移动或遮挡淡色 `SPIN` 水印；移动端恢复普通文档流。
+- Daily Epigraph 使用 `assets/data/epigraphs.json` 作为唯一正式数据源。日期到条目的映射按 `rotation.epoch`、`repeat_days` 和稳定 ID（`EP-0001`…）确定；同一个日报日期始终对应同一个 epigraph。例如 2026-10-07 → EP-0001，2026-10-14 → EP-0008。条目 ID 与已有顺序不得重排或复用。
 
 正文：
 - 金色编号、Georgia 标题、细分隔线。
@@ -113,7 +115,8 @@ SpinFront | YYYY-MM-DD
 - `templates/issue.html`：单期日报外壳
 - `assets/home.css`：日报主页、归档、日历、搜索结果与页尾
 - `assets/home.js`：筛选、检索结果、技术评注默认展开
-- `assets/style.css`：完整日报版式
+- `assets/style.css`：完整日报版式及封面 Daily Epigraph
+- `assets/data/epigraphs.json`：Daily Epigraph 唯一正式数据源与日期轮换规则
 - `.github/workflows/dingtalk-notify.yml`：钉钉消息格式与防重复逻辑
 
 ## 7. 保留约束
@@ -124,4 +127,6 @@ SpinFront | YYYY-MM-DD
 - 不取消来源、DOI、检索说明或技术评注。
 - 不把桌面右栏标签与标题下标签同时显示造成重复。
 - 不取消完整日报 URL 结构。
+- 不恢复封面统计行；不为 Daily Epigraph 增加独立整行区块或改变桌面端封面高度。
+- 不移动淡色 `SPIN` 水印来给 Epigraph 腾位置。
 - 不把钉钉前三条标题改成单独可点击链接，除非用户重新确认。

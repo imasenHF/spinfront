@@ -1943,5 +1943,27 @@
         "result": "Resumed web fetch failed; the complete original announcement read during initial research is retained in local source evidence, and included fields were checked against that text."
       }
     ]
-  }
+  },
+  "standard_flow_tests": [
+    {
+      "tested_at": "2026-10-16T00:58:03.361Z",
+      "mode": "manual standard publishing flow with existing issue content",
+      "research": "not rerun; published issue JSON reused byte-for-byte",
+      "base_commit": "2196b410c3e664f09845d542b54def8191207f1a",
+      "precommit_checks": {
+        "canonical_data": "PASS: 58 issues / 491 items",
+        "build": "PASS: 58 issues",
+        "search_and_filters": "PASS: all repository search tests",
+        "semantic_identity": "PASS: 10 items; order, titles, summaries, meanings, dates and sources identical across JSON/web/standalone HTML; embedded CSS."
+      },
+      "issue_blob": {
+        "status": "upload endpoint returned success",
+        "sha": "e88e7c4f7fe92da8b392cc758e39396b221b701d",
+        "elapsed_ms": 640
+      },
+      "scope": "Daily JSON unchanged; record this test in the existing review log; use two blob uploads, one tree, one non-forced branch update and verify the resulting deployment.",
+      "record_timing": "Prepared before commit; resulting commit and deployment are verified after publication and recorded in Git/Actions.",
+      "limit": "Manual execution in this conversation; does not verify the next scheduled execution environment."
+    }
+  ]
 }

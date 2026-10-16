@@ -1,0 +1,1947 @@
+{
+  "schema_version": "1.0.0",
+  "report_date": "2026-10-16",
+  "retrieval_cutoff": "2026-10-16T06:11:25+08:00",
+  "repository": {
+    "full_name": "imasenHF/spinfront",
+    "branch": "main",
+    "head_sha": "61819c04087224a5b77fba684346d0ea21d3ca1a",
+    "taxonomy_version": "1.2.0",
+    "scope": "only two new issue/review files"
+  },
+  "dedup": {
+    "history_issue_count": 57,
+    "history_item_count": 481,
+    "recent_issues": [
+      "2026-10-09",
+      "2026-10-10",
+      "2026-10-11",
+      "2026-10-12",
+      "2026-10-13",
+      "2026-10-14",
+      "2026-10-15"
+    ],
+    "index_version": "61819c04087224a5b77fba684346d0ea21d3ca1a",
+    "keys": [
+      "normalized DOI with preprint version handling",
+      "canonical URL incl alternative_sources",
+      "normalized title",
+      "review procurement project identifier"
+    ],
+    "excluded_registered_duplicates": 11,
+    "notes": "Makeshift新机构介绍追溯至8月21日已收录预印本，排除；采购分别检查历史汇总alternative_sources及既有Review。"
+  },
+  "search_summary": {
+    "stages": [
+      "regular",
+      "enhanced",
+      "deep_enhanced"
+    ],
+    "trigger": "regular<5 strictly confirmed 24h; enhanced<8; deeper journal page pass found Q-BEST and refining review",
+    "daily_rescan_dates": [
+      "2026-10-09",
+      "2026-10-10",
+      "2026-10-11",
+      "2026-10-12",
+      "2026-10-13",
+      "2026-10-14",
+      "2026-10-15"
+    ],
+    "method_clusters": [
+      "solution NMR/pure shift/DOSY/CEST/DEST",
+      "solid state/MAS/fast MAS/DNP",
+      "benchtop/low field/TD-NMR",
+      "software/NUS/spectral processing",
+      "CW/rapid-scan EPR",
+      "pulsed EPR/DEER/ENDOR/ESEEM/HYSCORE",
+      "TREPR/photoexcitation",
+      "operando/EC-EPR",
+      "probe/resonator/magnet/console/autosampler"
+    ],
+    "routes": [
+      {
+        "route_key": "journalopen1",
+        "queries": [],
+        "access_observations": [
+          {
+            "reference": "turn12view0",
+            "access": "failed_or_incomplete",
+            "excerpt": "Internal Error () 【turn12view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://www.sciencedirect.com/journal/journal-of-magnetic-resonance/articles-in-press\",\"lineno\":null}); Total lines: 1 L0: Failed to fetch https://www.sciencedirect.com/journal/journal-of-magnetic-resonance/articles-in-press: (403) Forbidden"
+          },
+          {
+            "reference": "turn12view1",
+            "access": "failed_or_incomplete",
+            "excerpt": "Internal Error () 【turn12view1】 [wordlim: 200] Source: open({\"ref_id\":\"https://www.sciencedirect.com/journal/journal-of-magnetic-resonance-open/articles-in-press\",\"lineno\":null}); Total lines: 1 L0: Failed to fetch https://www.sciencedirect.com/journal/journal-of-magnetic-resonance-open/articles-in-press: (403) Forbidden"
+          },
+          {
+            "reference": "turn12view2",
+            "access": "failed_or_incomplete",
+            "excerpt": "Internal Error () 【turn12view2】 [wordlim: 200] Source: open({\"ref_id\":\"https://link.springer.com/journal/10858/online-first\",\"lineno\":null}); Total lines: 1 L0: Failed to fetch https://link.springer.com/journal/10858/online-first: (404) Not Found"
+          },
+          {
+            "reference": "turn12view3",
+            "access": "failed_or_incomplete",
+            "excerpt": "Internal Error () 【turn12view3】 [wordlim: 200] Source: open({\"ref_id\":\"https://mr.copernicus.org/articles/7/\",\"lineno\":null}); Total lines: 1 L0: URL https://mr.copernicus.org/articles/7/ is not accessible via this tool."
+          }
+        ],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "journalopen2",
+        "queries": [],
+        "access_observations": [
+          {
+            "reference": "turn23view0",
+            "access": "failed_or_incomplete",
+            "excerpt": "Internal Error () 【turn23view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://www.sciencedirect.com/journal/solid-state-nuclear-magnetic-resonance/articles-in-press\",\"lineno\":null}); Total lines: 1 L0: Failed to fetch https://www.sciencedirect.com/journal/solid-state-nuclear-magnetic-resonance/articles-in-press: (403) Forbidden"
+          },
+          {
+            "reference": "turn23view1",
+            "access": "readable",
+            "excerpt": "Magnetic Resonance in Chemistry: Early View (https://analyticalsciencejournals.onlinelibrary.wiley.com/toc/1097458xa/0/0) 【turn23view1】 [wordlim: 200] Crawled: yesterday; Content type: text/html; Source: open({\"ref_id\":\"https://analyticalsciencejournals.onlinelibrary.wiley.com/toc/1097458xa/0/0\",\"lineno\":null}); Total lines: 260 L0:   * [Button: Skip to Main Content]"
+          },
+          {
+            "reference": "turn23view2",
+            "access": "readable",
+            "excerpt": "Volumes and issues | Applied Magnetic Resonance | Springer Nature Link (https://link.springer.com/journal/723/volumes-and-issues) 【turn23view2】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://link.springer.com/journal/723/volumes-and-issues\",\"lineno\":null}); Total lines: 684 L0: 【0†Menu】"
+          },
+          {
+            "reference": "turn23view3",
+            "access": "failed_or_incomplete",
+            "excerpt": "Internal Error () 【turn23view3】 [wordlim: 200] Source: open({\"ref_id\":\"https://mr.copernicus.org/articles/recent.html\",\"lineno\":null}); Total lines: 1"
+          }
+        ],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "journal3",
+        "queries": [
+          {
+            "q": "site:mr.copernicus.org \"2026\" \"Oct\" NMR"
+          },
+          {
+            "q": "site:link.springer.com/journal/10858/articles \"October 2026\""
+          },
+          {
+            "q": "site:pubs.aip.org NMR EPR \"Oct\" \"2026\""
+          },
+          {
+            "q": "site:chemrxiv.org/doi \"NMR\" \"October\" \"2026\""
+          }
+        ],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "vendors1",
+        "queries": [
+          {
+            "q": "site:bruker.com NMR EPR October 2026 news"
+          },
+          {
+            "q": "site:jeol.com NMR ESR October 2026 news"
+          },
+          {
+            "q": "site:oxinst.com NMR October 2026 news"
+          },
+          {
+            "q": "site:magritek.com October 2026 NMR"
+          }
+        ],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "vendors2",
+        "queries": [
+          {
+            "q": "site:nanalysis.com October 2026 NMR"
+          },
+          {
+            "q": "site:ciqtek.com EPR October 2026"
+          },
+          {
+            "q": "site:ciqtek.com.cn 2026 10 顺磁 核磁"
+          },
+          {
+            "q": "site:spinsolve.com NMR 2026 October"
+          }
+        ],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "vendoropens",
+        "queries": [],
+        "access_observations": [
+          {
+            "reference": "turn46view0",
+            "access": "readable",
+            "excerpt": "News | JEOL Ltd. (https://www.jeol.com/news/) 【turn46view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.jeol.com/news/\",\"lineno\":null}); Total lines: 381 L0: 【0†iframe†www.googletagmanager.com】"
+          },
+          {
+            "reference": "turn46view1",
+            "access": "readable",
+            "excerpt": "News - Oxford Instruments (https://www.oxinst.com/news) 【turn46view1】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.oxinst.com/news\",\"lineno\":null}); Redirected to URL: https://www.oxinst.com/news/; Total lines: 98"
+          },
+          {
+            "reference": "turn46view2",
+            "access": "readable",
+            "excerpt": "News | Bruker (https://www.bruker.com/en/news-and-events/news.html) 【turn46view2】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.bruker.com/en/news-and-events/news.html\",\"lineno\":null}); Total lines: 54"
+          },
+          {
+            "reference": "turn46view3",
+            "access": "failed_or_incomplete",
+            "excerpt": "Internal Error () 【turn46view3】 [wordlim: 200] Source: open({\"ref_id\":\"https://magritek.com/news/\",\"lineno\":null}); Total lines: 1"
+          },
+          {
+            "reference": "turn46view4",
+            "access": "readable",
+            "excerpt": "NMR users can deal with spectrum evaluation in the daily work, but how is the spectrum information stored in the time domain (FID)? Read Blog — Nanalysis (https://www.nanalysis.com/nmready-blog) 【turn46view4】 [wordlim: 200] Crawled: 3 weeks ago; Content type: text/html; Source: open({\"ref_id\":\"https://www.nanalysis.com/nmready-blog\",\"lineno\":null}); Total lines: 406"
+          },
+          {
+            "reference": "turn46view5",
+            "access": "failed_or_incomplete",
+            "excerpt": "Internal Error () 【turn46view5】 [wordlim: 200] Source: open({\"ref_id\":\"https://www.ciqtek.com/news.html\",\"lineno\":null}); Total lines: 1"
+          }
+        ],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "routesconfmethods",
+        "queries": [
+          {
+            "q": "ENC EUROMAR ICMRBS \"2026\" \"October\" NMR program"
+          },
+          {
+            "q": "EFEPR APES ISMAR \"2026\" \"October\" programme"
+          },
+          {
+            "q": "\"NMR\" \"2026\" \"October 13\" CEST DEST DOSY pure shift"
+          },
+          {
+            "q": "\"EPR\" \"2026\" \"October\" operando TREPR EC-EPR"
+          }
+        ],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "dailyrescan1",
+        "queries": [
+          {
+            "q": "\"NMR\" \"2026-10-09\" MAS DNP"
+          },
+          {
+            "q": "\"NMR\" \"2026-10-10\" spectroscopy"
+          },
+          {
+            "q": "\"EPR\" \"2026-10-11\" spectroscopy"
+          },
+          {
+            "q": "\"NMR\" \"2026-10-12\" spectroscopy"
+          }
+        ],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "days1",
+        "queries": [],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "days2",
+        "queries": [],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "days3",
+        "queries": [
+          {
+            "q": "\"NMR\" \"2026\" \"October 14\" \"pubmed\""
+          },
+          {
+            "q": "\"NMR\" \"2026\" \"October 15\" -Numeraire -Nomura -stock -market -crypto -BRAIN -magneticresonanceimaging"
+          },
+          {
+            "q": "\"spin trapping\" \"2026\" \"October 15\""
+          },
+          {
+            "q": "\"NMR\" \"2026\" \"October 13\" \"relaxation\""
+          }
+        ],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "deepopens",
+        "queries": [],
+        "access_observations": [
+          {
+            "reference": "turn52view0",
+            "access": "readable",
+            "excerpt": "MR - Volumes (https://mr.copernicus.org/articles/) 【turn52view0】 [wordlim: 200] Crawled: 2 weeks ago; Content type: text/html; Source: open({\"ref_id\":\"https://mr.copernicus.org/articles/\",\"lineno\":null}); Total lines: 174 L0: 【0†MR†www.magnetic-resonance-ampere.net】"
+          },
+          {
+            "reference": "turn52view1",
+            "access": "readable",
+            "excerpt": "Articles | Journal of Biomolecular NMR | Springer Nature Link (https://link.springer.com/journal/10858/articles) 【turn52view1】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://link.springer.com/journal/10858/articles\",\"lineno\":null}); Total lines: 621 L0: 【0†Menu】"
+          },
+          {
+            "reference": "turn52view2",
+            "access": "readable",
+            "excerpt": "Articles | Applied Magnetic Resonance | Springer Nature Link (https://link.springer.com/journal/723/articles) 【turn52view2】 [wordlim: 200] Crawled: yesterday; Content type: text/html; Source: open({\"ref_id\":\"https://link.springer.com/journal/723/articles\",\"lineno\":null}); Total lines: 701"
+          },
+          {
+            "reference": "turn52view3",
+            "access": "failed_or_incomplete",
+            "excerpt": "Internal Error () 【turn52view3】 [wordlim: 200] Source: open({\"ref_id\":\"https://pubs.acs.org/jacsat/latest-articles\",\"lineno\":null}); Total lines: 1"
+          },
+          {
+            "reference": "turn52view4",
+            "access": "failed_or_incomplete",
+            "excerpt": "Internal Error () 【turn52view4】 [wordlim: 200] Source: open({\"ref_id\":\"https://pubs.rsc.org/en/journals/journalissues/cp\",\"lineno\":null}); Total lines: 1"
+          },
+          {
+            "reference": "turn52view5",
+            "access": "readable",
+            "excerpt": "The Journal of Chemical Physics | AIP Publishing (https://pubs.aip.org/jcp) 【turn52view5】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://pubs.aip.org/jcp\",\"lineno\":null}); Redirected to URL: https://pubs.aip.org/aip/jcp; Total lines: 267"
+          },
+          {
+            "reference": "turn52view6",
+            "access": "readable",
+            "excerpt": "Asia-Pacific EPR/ESR Symposium 2026 (https://sest-nenkai.org/APES2026/) 【turn52view6】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://sest-nenkai.org/APES2026/\",\"lineno\":null}); Total lines: 288"
+          },
+          {
+            "reference": "turn52view7",
+            "access": "readable",
+            "excerpt": "Meetings – IEPRS (https://ieprs.org/upcoming-meetings/) 【turn52view7】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://ieprs.org/upcoming-meetings/\",\"lineno\":null}); Total lines: 279"
+          },
+          {
+            "reference": "turn52view8",
+            "access": "readable",
+            "excerpt": "Events – ISMAR (https://ismar.org/event/) 【turn52view8】 [wordlim: 200] Crawled: last month; Content type: text/html; Source: open({\"ref_id\":\"https://ismar.org/event/\",\"lineno\":null}); Total lines: 305"
+          },
+          {
+            "reference": "turn52view9",
+            "access": "failed_or_incomplete",
+            "excerpt": "Internal Error () 【turn52view9】 [wordlim: 200] Source: open({\"ref_id\":\"https://www.euromar2026.org/\",\"lineno\":null}); Total lines: 1"
+          },
+          {
+            "reference": "turn52view10",
+            "access": "readable",
+            "excerpt": "ENC - Experimental Nuclear Magnetic Resonance Conference - Home (https://www.enc-conference.org/) 【turn52view10】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.enc-conference.org/\",\"lineno\":null}); Total lines: 235"
+          },
+          {
+            "reference": "turn52view11",
+            "access": "readable",
+            "excerpt": "ICMRBS 2026 – ICMRBS 2026 – Davos, Switzerland (https://icmrbs2026.org/) 【turn52view11】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://icmrbs2026.org/\",\"lineno\":null}); Total lines: 189"
+          },
+          {
+            "reference": "turn52view12",
+            "access": "readable",
+            "excerpt": "全国公共资源交易平台 (https://www.ggzy.gov.cn/) 【turn52view12】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.ggzy.gov.cn/\",\"lineno\":null}); Total lines: 411"
+          }
+        ],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "mrrecent",
+        "queries": [],
+        "access_observations": [
+          {
+            "reference": "turn60view0",
+            "access": "readable",
+            "excerpt": "MR - Recent (https://mr.copernicus.org/) 【turn60view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":\"turn52view0\",\"id\":2}); Total lines: 208 L0: 【0†MR†www.magnetic-resonance-ampere.net】"
+          }
+        ],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "preprints1",
+        "queries": [],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "purchase2",
+        "queries": [],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "purchase3",
+        "queries": [],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "purchase4",
+        "queries": [],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "purchase5",
+        "queries": [
+          {
+            "q": "湖南大学 JY-2026077 2026 采购"
+          },
+          {
+            "q": "重庆 CQS26A04726 招标 ccgp"
+          },
+          {
+            "q": "过程工程研究所 多频率 顺磁 延期 10月15日"
+          },
+          {
+            "q": "IISERB SP 2026-27 50 helium tender"
+          }
+        ],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "procurelast",
+        "queries": [
+          {
+            "q": "湖南大学JY-2026077货物及服务采购项目公开招标公告"
+          },
+          {
+            "q": "重庆医药高等专科学校生物医药科创港科研仪器设备 CQS26A04726"
+          }
+        ],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "procureprimary",
+        "queries": [],
+        "access_observations": [
+          {
+            "reference": "turn31view0",
+            "access": "readable",
+            "excerpt": "中国科学技术大学 (https://cggl.ustc.edu.cn/sfw_cms/e?page=cms.index2) 【turn31view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://cggl.ustc.edu.cn/sfw_cms/e?page=cms.index2\",\"lineno\":null}); Total lines: 20 L0: 采购公告 澄清/变更 单一来源公示 关联业务公示 结果公告"
+          },
+          {
+            "reference": "turn31view1",
+            "access": "readable",
+            "excerpt": "杭州师范大学核磁共振采购招标公告 - 仪器信息网 (https://www.instrument.com.cn/event/bid/t163920.html) 【turn31view1】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.instrument.com.cn/event/bid/t163920.html\",\"lineno\":null}); Total lines: 199 L0: 【0†仪器优选】"
+          },
+          {
+            "reference": "turn31view2",
+            "access": "failed_or_incomplete",
+            "excerpt": "Internal Error () 【turn31view2】 [wordlim: 200] Source: open({\"ref_id\":\"https://www.ccgp.gov.cn/cggg/\",\"lineno\":null}); Total lines: 1 L0: Failed to fetch https://www.ccgp.gov.cn/cggg/: (403) Forbidden"
+          },
+          {
+            "reference": "turn31view3",
+            "access": "failed_or_incomplete",
+            "excerpt": "Internal Error () 【turn31view3】 [wordlim: 200] Source: open({\"ref_id\":\"https://sam.gov/search/?index=opp&keywords=nuclear%20magnetic%20resonance\",\"lineno\":null}); Total lines: 1 L0: URL https://sam.gov/search/?index=opp&keywords=nuclear+magnetic+resonance is not accessible via this tool."
+          }
+        ],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "procureclick",
+        "queries": [],
+        "access_observations": [
+          {
+            "reference": "turn33view0",
+            "access": "readable",
+            "excerpt": "中国科学技术大学脉冲式电子顺磁共振波谱仪中标公告 (https://www.ccgp.gov.cn/cggg/zygg/zbgg/202610/t20261013_27480833.htm) 【turn33view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":\"turn31view0\",\"id\":16}); Total lines: 137 L0: 财政部唯一指定政府采购信息网络发布媒体 国家级政府采购专业网站"
+          },
+          {
+            "reference": "turn33view1",
+            "access": "readable",
+            "excerpt": "湖南大学核磁共振采购招标公告 - 仪器信息网 (https://www.instrument.com.cn/event/bid/t164381.html) 【turn33view1】 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":\"turn31view1\",\"id\":3}); Total lines: 205 L0: 【0†仪器优选】"
+          },
+          {
+            "reference": "turn33view2",
+            "access": "readable",
+            "excerpt": "重庆医药高等专科学校核磁共振采购招标公告 - 仪器信息网 (https://www.instrument.com.cn/event/bid/t164356.html) 【turn33view2】 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":\"turn31view1\",\"id\":4}); Total lines: 236 L0: 【0†仪器优选】"
+          }
+        ],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "purchaselist",
+        "queries": [],
+        "access_observations": [
+          {
+            "reference": "turn29view0",
+            "access": "failed_or_incomplete",
+            "excerpt": "Internal Error () 【turn29view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://www.bidcenter.com.cn/zhaobiao/zbkeyw-28950-110000.html\",\"lineno\":null}); Total lines: 1 L0: Failed to fetch https://www.bidcenter.com.cn/zhaobiao/zbkeyw-28950-110000.html: (500) Redirected to https://shuju.bidcenter.com.cn/HumanMachineVerification.shtml?url=https://www.bidcenter.com.cn/zhaobiao/zbkeyw-28950-110000.html which is not accessible via this tool. (non-retryable error)"
+          },
+          {
+            "reference": "turn29view1",
+            "access": "failed_or_incomplete",
+            "excerpt": "Internal Error () 【turn29view1】 [wordlim: 200] Source: open({\"ref_id\":\"https://cq.zhaobiao.lanyancloud.com/notice/d19174aaed084783\",\"lineno\":null}); Total lines: 1 L0: URL https://cq.zhaobiao.lanyancloud.com/notice/d19174aaed084783 is not accessible via this tool."
+          },
+          {
+            "reference": "turn29view2",
+            "access": "failed_or_incomplete",
+            "excerpt": "Internal Error () 【turn29view2】 [wordlim: 200] Source: open({\"ref_id\":\"https://www.iiserbhopal.ac.in/tender\",\"lineno\":null}); Total lines: 1 L0: Failed to fetch https://www.iiserbhopal.ac.in/tender: (400) Timeout fetching"
+          }
+        ],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "india",
+        "queries": [],
+        "access_observations": [
+          {
+            "reference": "turn44view0",
+            "access": "failed_or_incomplete",
+            "excerpt": "Stale Session (https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndTenderDetails&service=direct&session=T&sp=SGOQlvnDc13kGSlUHIIA2HeSJge%2FMOuBR%2BaAsI38I%2Bs4%3D) 【turn44view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndTenderDetails&service=direct&session=T&sp=SGOQlvnDc13kGSlUHIIA2HeSJge%2FMOuBR%2BaAsI38I%2Bs4%3D\",\"lineno\":null}); Redirected to URL: https://eprocure.gov.in/eprocure/app?component=$DirectLink&page=FrontEndTenderDetails&service=direct&session=T&sp=SGOQlvnDc13kGSlUHIIA2HeSJge/MOuBR%2BaAsI38I%2Bs4%3D; Total lines: 7 L0: Your session has timed out."
+          }
+        ],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "indiaprimary",
+        "queries": [],
+        "access_observations": [
+          {
+            "reference": "turn56view0",
+            "access": "readable",
+            "excerpt": "eProcurement System Government of India (https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndTendersByOrganisation&service=direct&sp=SvWTitFnlLzNjqe5zwZCZM6hl77dSWMTKfeJVodpjiuY%3D) 【turn56view0】 [wordlim: 200] Crawled: last month; Content type: text/html; Source: open({\"ref_id\":\"https://eprocure.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndTendersByOrganisation&service=direct&sp=SvWTitFnlLzNjqe5zwZCZM6hl77dSWMTKfeJVodpjiuY%3D\",\"lineno\":null}); Redirected to URL: https://eprocure.gov.in/eprocure/app?component=$DirectLink&page=FrontEndTendersByOrganisation&service=direct&sp=SvWTitFnlLzNjqe5zwZCZM6hl77dSWMTKfeJVodpjiuY%3D; Total lines: 35 L0: 【0†Screen Reader "
+          }
+        ],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "qbestfull",
+        "queries": [],
+        "access_observations": [
+          {
+            "reference": "turn57view0",
+            "access": "readable",
+            "excerpt": "Accurate quantification of protein concentrations and state populations by 2D 1H-N Q-BEST NMR | Journal of Biomolecular NMR | Springer Nature Link (https://link.springer.com/article/10.1007/s10858-026-00498-x) 【turn57view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"turn54view0\",\"lineno\":20}); Total lines: 276 L0: Account"
+          }
+        ],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "refining",
+        "queries": [],
+        "access_observations": [
+          {
+            "reference": "turn59view0",
+            "access": "readable",
+            "excerpt": "Applications of Low-Field Nuclear Magnetic Resonance Technology in Petroleum Refining Processes | Applied Magnetic Resonance | Springer Nature Link (https://link.springer.com/article/10.1007/s00723-026-01887-z) 【turn59view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":\"turn54view1\",\"id\":33}); Total lines: 434 L0: Account"
+          }
+        ],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "arxivpages",
+        "queries": [],
+        "access_observations": [
+          {
+            "reference": "turn17view0",
+            "access": "readable",
+            "excerpt": "[2610.14262] Mn--Cr dopant association in dilute co-doped $\\mathrm{ZnAl_2O_4}$ revealed by combined EPR and optical spectroscopy (https://arxiv.org/abs/2610.14262) 【turn17view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://arxiv.org/abs/2610.14262\",\"lineno\":null}); Total lines: 166 L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】"
+          },
+          {
+            "reference": "turn17view1",
+            "access": "readable",
+            "excerpt": "[2610.16098] Noise-resistant off-resonance π-rotation realized in an NMR system (https://arxiv.org/abs/2610.16098) 【turn17view1】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://arxiv.org/abs/2610.16098\",\"lineno\":null}); Total lines: 156 L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】"
+          },
+          {
+            "reference": "turn17view2",
+            "access": "readable",
+            "excerpt": "[2610.14451] Quadrature-detected zero-to-ultralow-field nuclear magnetic resonance (https://arxiv.org/abs/2610.14451) 【turn17view2】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://arxiv.org/abs/2610.14451\",\"lineno\":null}); Total lines: 161 L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】"
+          },
+          {
+            "reference": "turn17view3",
+            "access": "readable",
+            "excerpt": "[2610.14139] Electric-dipole-induced nuclear electric resonance in silicon (https://arxiv.org/abs/2610.14139) 【turn17view3】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://arxiv.org/abs/2610.14139\",\"lineno\":null}); Total lines: 166 L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】"
+          }
+        ],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "leucine",
+        "queries": [],
+        "access_observations": [
+          {
+            "reference": "turn48view0",
+            "access": "readable",
+            "excerpt": "Extended local deuteration of leucine enhances methyl NMR of large proteins expressed in eukaryotic cells - PubMed (https://pubmed.ncbi.nlm.nih.gov/42861561/) 【turn48view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://pubmed.ncbi.nlm.nih.gov/42861561/\",\"lineno\":null}); Total lines: 341 L0: 【0†Skip to main page content】"
+          }
+        ],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "leucinefull",
+        "queries": [],
+        "access_observations": [
+          {
+            "reference": "turn53view0",
+            "access": "failed_or_incomplete",
+            "excerpt": "Internal Error () 【turn53view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://pubs.rsc.org/en/content/articlelanding/2026/cc/d6cc04840d\",\"lineno\":null}); Total lines: 1 L0: URL https://pubs.rsc.org/en/content/articlelanding/2026/cc/d6cc04840d is not accessible via this tool."
+          },
+          {
+            "reference": "turn53view1",
+            "access": "failed_or_incomplete",
+            "excerpt": "Checking your browser - reCAPTCHA (https://pmc.ncbi.nlm.nih.gov/articles/PMC13655881/) 【turn53view1】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://pmc.ncbi.nlm.nih.gov/articles/PMC13655881/\",\"lineno\":null}); Total lines: 3 L0: Checking your browser before accessing pmc.ncbi.nlm.nih.gov ..."
+          }
+        ],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "jmrverify",
+        "queries": [],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "verify2",
+        "queries": [],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "verify3",
+        "queries": [],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "verify4",
+        "queries": [],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "verify5",
+        "queries": [],
+        "access_observations": [
+          {
+            "reference": "turn37view0",
+            "access": "failed_or_incomplete",
+            "excerpt": "Internal Error () 【turn37view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://www.sciencedirect.com/science/article/pii/S1090780726001771?via%3Dihub\",\"lineno\":null}); Total lines: 1 L0: Failed to fetch https://www.sciencedirect.com/science/article/pii/S1090780726001771?via%3Dihub=: DisabledError"
+          }
+        ],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "selectedverification",
+        "queries": [],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "candidateverify1",
+        "queries": [],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "mechanism",
+        "queries": [],
+        "access_observations": [
+          {
+            "reference": "turn41view0",
+            "access": "failed_or_incomplete",
+            "excerpt": "Internal Error () 【turn41view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://www.nature.com/articles/s41586-026-11120-3\",\"lineno\":null}); Total lines: 1 L0: Failed to fetch https://www.nature.com/articles/s41586-026-11120-3: (500) Redirected to https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=https://www.nature.com/articles/s41586-026-11120-3 which is not accessible via this tool. (non-retryable error)"
+          },
+          {
+            "reference": "turn41view1",
+            "access": "failed_or_incomplete",
+            "excerpt": "Internal Error () 【turn41view1】 [wordlim: 200] Source: open({\"ref_id\":\"https://rosettacommons.org/2026/10/15/introducing-makeshift-bringing-biomolecular-nmr-and-dynamics-analysis-into-python/\",\"lineno\":null}); Total lines: 1 L0: URL https://rosettacommons.org/2026/10/15/introducing-makeshift-bringing-biomolecular-nmr-and-dynamics-analysis-into-python/ is not accessible via this tool."
+          },
+          {
+            "reference": "turn41view2",
+            "access": "failed_or_incomplete",
+            "excerpt": "Internal Error () 【turn41view2】 [wordlim: 200] Source: open({\"ref_id\":\"https://www.instrument.com.cn/event/bid/t164381.html\",\"lineno\":null}); Total lines: 1 L0: URL https://www.instrument.com.cn/event/bid/t164381.html is not accessible via this tool."
+          }
+        ],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "eventpurchasepages",
+        "queries": [],
+        "access_observations": [
+          {
+            "reference": "turn20view0",
+            "access": "readable",
+            "excerpt": "Lyophilization-based protocol for human plasma and serum metabolomics by benchtop NMR spectroscopy: optimization and validation - SCIFORUM (https://sciforum.net/paper/34436) 【turn20view0】 [wordlim: 200] Crawled: 4 days ago; Content type: text/html; Source: open({\"ref_id\":\"https://sciforum.net/paper/34436\",\"lineno\":null}); Total lines: 122 L0: Log in Open navigation menu"
+          },
+          {
+            "reference": "turn20view1",
+            "access": "readable",
+            "excerpt": "From 600 to 100 MHz: Developing Reliable Benchtop NMR Protocols for Urine Metabolomics - SCIFORUM (https://sciforum.net/paper/34493) 【turn20view1】 [wordlim: 200] Crawled: 2 days ago; Content type: text/html; Source: open({\"ref_id\":\"https://sciforum.net/paper/34493\",\"lineno\":null}); Total lines: 121 L0: Log in Open navigation menu"
+          },
+          {
+            "reference": "turn20view2",
+            "access": "failed_or_incomplete",
+            "excerpt": "Internal Error () 【turn20view2】 [wordlim: 200] Source: open({\"ref_id\":\"https://stic.sz.gov.cn/xxgk/tzgg/content/post_13021723.html\",\"lineno\":null}); Total lines: 1 L0: URL https://stic.sz.gov.cn/xxgk/tzgg/content/post_13021723.html is not accessible via this tool."
+          },
+          {
+            "reference": "turn20view3",
+            "access": "failed_or_incomplete",
+            "excerpt": "Internal Error () 【turn20view3】 [wordlim: 200] Source: open({\"ref_id\":\"https://www.iiserbhopal.ac.in/tender\",\"lineno\":null}); Total lines: 1 L0: Failed to fetch https://www.iiserbhopal.ac.in/tender: (502) Bad Gateway"
+          }
+        ],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "njacs",
+        "queries": [],
+        "access_observations": [
+          {
+            "reference": "turn43view0",
+            "access": "readable",
+            "excerpt": "Annual NMR Symposium - North Jersey Section - American Chemical Society (https://www.njacs.org/event/annual-nmr-symposium-3/) 【turn43view0】 [wordlim: 200] Crawled: 3 days ago; Content type: text/html; Source: open({\"ref_id\":\"https://www.njacs.org/event/annual-nmr-symposium-3/\",\"lineno\":null}); Total lines: 219 L0: 【0†Event Calendar】"
+          }
+        ],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "highimpactfinal",
+        "queries": [],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "search0",
+        "queries": [
+          {
+            "q": "site:sciencedirect.com \"NMR\" \"Available online 15 October 2026\""
+          },
+          {
+            "q": "site:sciencedirect.com \"NMR\" \"Available online 12 October 2026\""
+          },
+          {
+            "q": "site:sciencedirect.com \"EPR\" \"Available online\" \"October 2026\""
+          },
+          {
+            "q": "\"NMR\" \"First published\" \"October 2026\" spectroscopy"
+          }
+        ],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "search1",
+        "queries": [
+          {
+            "q": "核磁共振 采购 \"2026-10-14\""
+          },
+          {
+            "q": "顺磁共振 采购 \"2026-10-15\""
+          },
+          {
+            "q": "\"NMR\" \"tender\" \"October\" \"2026\""
+          },
+          {
+            "q": "\"electron paramagnetic resonance\" procurement \"2026\" October"
+          }
+        ],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "search2",
+        "queries": [
+          {
+            "q": "\"NMR\" \"2026\" \"October\" site:science.org/doi \"9\""
+          },
+          {
+            "q": "\"NMR\" \"2026\" \"October\" site:pubs.acs.org/jacsat/article \"15\""
+          },
+          {
+            "q": "\"NMR\" \"2026\" \"October\" site:onlinelibrary.wiley.com/doi \"First published\""
+          },
+          {
+            "q": "\"EPR\" \"2026\" \"October\" site:pubs.rsc.org/en/content"
+          }
+        ],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "search3",
+        "queries": [
+          {
+            "q": "\"Journal of Magnetic Resonance Open\" \"October\" \"2026\""
+          },
+          {
+            "q": "\"Journal of Biomolecular NMR\" \"October 2026\""
+          },
+          {
+            "q": "\"Solid State Nuclear Magnetic Resonance\" \"October\" \"2026\""
+          },
+          {
+            "q": "\"Applied Magnetic Resonance\" \"October 2026\""
+          }
+        ],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "search4",
+        "queries": [
+          {
+            "q": "\"Quantitative 1H\" \"BRAIN\" \"108187\""
+          },
+          {
+            "q": "\"NMR Analysis of Complex Formation Underlying\" "
+          },
+          {
+            "q": "\"Antigen-Detected NMR for Minimal\" "
+          },
+          {
+            "q": "\"makeshift\" \"rosettacommons.org/2026/10/15\""
+          }
+        ],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "search5",
+        "queries": [
+          {
+            "q": "\"MAS\" \"DNP\" \"2026\" \"October\" site:pubs.acs.org -5c"
+          },
+          {
+            "q": "\"benchtop NMR\" \"2026\" \"October\" -Troy"
+          },
+          {
+            "q": "\"ENDOR\" \"HYSCORE\" \"2026\" \"October\""
+          },
+          {
+            "q": "\"rapid-scan\" \"EPR\" \"2026\" \"October\""
+          }
+        ],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "search6",
+        "queries": [
+          {
+            "q": "\"2026\" \"October\" NMR \"pure shift\" DOSY CEST DEST"
+          },
+          {
+            "q": "\"2026\" \"October\" \"fast MAS\" DNP NMR"
+          },
+          {
+            "q": "\"2026\" \"October\" \"TD-NMR\" \"low-field\""
+          },
+          {
+            "q": "\"2026\" \"October\" NMR \"spectral processing\" NUS"
+          }
+        ],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "search7",
+        "queries": [
+          {
+            "q": "\"2026\" \"October\" \"CW-EPR\" \"rapid-scan\""
+          },
+          {
+            "q": "\"2026\" \"October\" \"DEER\" ENDOR ESEEM HYSCORE"
+          },
+          {
+            "q": "\"2026\" \"October\" \"TREPR\" \"time-resolved EPR\""
+          },
+          {
+            "q": "\"2026\" \"October\" \"operando EPR\" \"EC-EPR\""
+          }
+        ],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      },
+      {
+        "route_key": "search8",
+        "queries": [
+          {
+            "q": "\"2026\" \"October\" NMR EPR resonator probe magnet console autosampler"
+          },
+          {
+            "q": "\"NMR\" \"2026-10-13\" spectroscopy"
+          },
+          {
+            "q": "\"NMR\" \"2026-10-14\" spectroscopy"
+          },
+          {
+            "q": "\"EPR\" \"2026-10-15\" spectroscopy"
+          }
+        ],
+        "access_observations": [],
+        "search_result_count": "not treated as exhaustive",
+        "notes": "实际返回页面/索引可读性单列；未将尝试访问记为已读全文。"
+      }
+    ],
+    "access_limitations": [
+      "Direct git clone failed proxy connection; current files verified by blob SHA and only changed remote files retrieved with authorized connector.",
+      "Elsevier in-press pages 403; BRAIN candidate excluded because online date remained unconfirmed.",
+      "Crossref was inaccessible during the initial search; resumed verification successfully read the BRAIN DOI record, which lacks published-online.",
+      "Some latest pages and procurement original details unavailable or returned stale snapshots; no unverified procurement fields published.",
+      "No private textbooks or images used."
+    ],
+    "registered_candidates": 31,
+    "selected_daily_items": 10,
+    "registered_procurement_candidates": 20,
+    "qualified_procurement_notices": 1,
+    "excluded_procurement_notices": 19,
+    "date_unconfirmed_exclusions": 3,
+    "remaining_coverage_gaps": "Some publisher latest-page bodies unavailable; coverage attempts recorded, not claimed complete full-text access."
+  },
+  "candidates": [
+    {
+      "candidate_id": "C01",
+      "item_id": "SF-20261016-01",
+      "title": "2D Q-BEST以三组相关谱定量蛋白浓度与构象布居",
+      "source": "Journal of Biomolecular NMR",
+      "normalized_doi": "10.1007/s10858-026-00498-x",
+      "normalized_url": "https://link.springer.com/article/10.1007/s10858-026-00498-x",
+      "actual_online_date": "2026-10-14",
+      "publication_status": "published",
+      "first_author_verified": "Yacine Ouali",
+      "magnetic_resonance_role": "method_core",
+      "role_evidence": "出版社摘要明确三组¹H–¹⁵N相关谱、蛋白浓度、状态布居及单峰15%–20%精度。",
+      "source_location": "Abstract; publication metadata; figure captions only when specified",
+      "decision": "include",
+      "reason": "日期在窗口内，磁共振为方法或应用核心；全库及最近7期未重复。",
+      "duplicate_key": "doi:10.1007/s10858-026-00498-x",
+      "tag_review_status": "approved",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed_date_only",
+      "science_review_status": "checked_with_scope_limits",
+      "limitations": "只使用可访问摘要、题录或明确图注；不补写未读取全文中的参数。",
+      "tag_rationales": {
+        "direction_ids": {
+          "nmr": "正文依据：出版社摘要明确三组¹H–¹⁵N相关谱、蛋白浓度、状态布居及单峰15%–20%精度。"
+        },
+        "experiment_type_ids": {
+          "solution_nmr": "正文依据：出版社摘要明确三组¹H–¹⁵N相关谱、蛋白浓度、状态布居及单峰15%–20%精度。"
+        },
+        "method_ids": {
+          "qnmr": "正文依据：出版社摘要明确三组¹H–¹⁵N相关谱、蛋白浓度、状态布居及单峰15%–20%精度。",
+          "multidimensional_nmr": "正文依据：出版社摘要明确三组¹H–¹⁵N相关谱、蛋白浓度、状态布居及单峰15%–20%精度。"
+        },
+        "application_ids": {
+          "structural_biology": "正文依据：出版社摘要明确三组¹H–¹⁵N相关谱、蛋白浓度、状态布居及单峰15%–20%精度。"
+        },
+        "instrument_component_ids": {}
+      }
+    },
+    {
+      "candidate_id": "C02",
+      "item_id": "SF-20261016-02",
+      "title": "亮氨酸β位局部氘代减少大蛋白甲基NMR线宽",
+      "source": "Chemical Communications",
+      "normalized_doi": "10.1039/d6cc04840d",
+      "normalized_url": "https://pubs.rsc.org/cc/article/doi/10.1039/d6cc04840d/1368285/Extended-local-deuteration-of-leucine-enhances",
+      "actual_online_date": "2026-10-12",
+      "publication_status": "early_access",
+      "first_author_verified": "Sebastian Schindler",
+      "magnetic_resonance_role": "method_core",
+      "role_evidence": "PubMed摘要和Fig.2图注确认β位氘代、¹H/¹³C-HMQC及线宽比0.86/0.83。",
+      "source_location": "Abstract; publication metadata; figure captions only when specified",
+      "decision": "include",
+      "reason": "日期在窗口内，磁共振为方法或应用核心；全库及最近7期未重复。",
+      "duplicate_key": "doi:10.1039/d6cc04840d",
+      "tag_review_status": "approved",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed_date_only",
+      "science_review_status": "checked_with_scope_limits",
+      "limitations": "只使用可访问摘要、题录或明确图注；不补写未读取全文中的参数。",
+      "tag_rationales": {
+        "direction_ids": {
+          "nmr": "正文依据：PubMed摘要和Fig.2图注确认β位氘代、¹H/¹³C-HMQC及线宽比0.86/0.83。"
+        },
+        "experiment_type_ids": {
+          "solution_nmr": "正文依据：PubMed摘要和Fig.2图注确认β位氘代、¹H/¹³C-HMQC及线宽比0.86/0.83。"
+        },
+        "method_ids": {
+          "multidimensional_nmr": "正文依据：PubMed摘要和Fig.2图注确认β位氘代、¹H/¹³C-HMQC及线宽比0.86/0.83。"
+        },
+        "application_ids": {
+          "structural_biology": "正文依据：PubMed摘要和Fig.2图注确认β位氘代、¹H/¹³C-HMQC及线宽比0.86/0.83。"
+        },
+        "instrument_component_ids": {}
+      }
+    },
+    {
+      "candidate_id": "C03",
+      "title": "BRAIN Multi-CP以啁啾极化转移实现宽偏移¹³C固体定量",
+      "source": "Journal of Magnetic Resonance",
+      "normalized_doi": "10.1016/j.jmr.2026.108187",
+      "normalized_url": "https://www.sciencedirect.com/science/article/pii/S1090780726001771",
+      "actual_online_date": null,
+      "publication_status": "early_access",
+      "first_author_verified": "Sungsool Wi",
+      "magnetic_resonance_role": "method_core",
+      "role_evidence": "出版社索引确认题名、DOI、10月13日在线日期及省去存储脉冲的Highlights；同题作者预印本摘要核对转移机理与模型样品。",
+      "source_location": "Abstract; publication metadata; figure captions only when specified",
+      "decision": "exclude",
+      "reason": "发布前复核：出版社搜索索引仅给3 days ago；Crossref published仅为2026年10月，缺少published-online。created=2026-10-13T23:25:29Z是DOI注册日期，不能作为论文在线日期。作者预印本8月4日已超窗，本期不发布。",
+      "duplicate_key": "doi:10.1016/j.jmr.2026.108187",
+      "tag_review_status": "approved",
+      "source_review_status": "confirmed_with_limitations",
+      "date_review_status": "unconfirmed",
+      "science_review_status": "checked_with_scope_limits",
+      "limitations": "正式网页返回403；无法确认准确online日期。",
+      "tag_rationales": {
+        "direction_ids": {
+          "nmr": "正文依据：出版社索引确认题名、DOI、10月13日在线日期及省去存储脉冲的Highlights；同题作者预印本摘要核对转移机理与模型样品。"
+        },
+        "experiment_type_ids": {
+          "solid_state_nmr": "正文依据：出版社索引确认题名、DOI、10月13日在线日期及省去存储脉冲的Highlights；同题作者预印本摘要核对转移机理与模型样品。"
+        },
+        "method_ids": {
+          "mas": "正文依据：出版社索引确认题名、DOI、10月13日在线日期及省去存储脉冲的Highlights；同题作者预印本摘要核对转移机理与模型样品。",
+          "cross_polarization": "正文依据：出版社索引确认题名、DOI、10月13日在线日期及省去存储脉冲的Highlights；同题作者预印本摘要核对转移机理与模型样品。",
+          "qnmr": "正文依据：出版社索引确认题名、DOI、10月13日在线日期及省去存储脉冲的Highlights；同题作者预印本摘要核对转移机理与模型样品。"
+        },
+        "application_ids": {},
+        "instrument_component_ids": {}
+      },
+      "exclusion_category": "date_unconfirmed",
+      "crossref_date_metadata": {
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              10
+            ]
+          ]
+        },
+        "published-online": null,
+        "created": "2026-10-13T23:25:29Z",
+        "source": "https://api.crossref.org/works/10.1016/j.jmr.2026.108187"
+      }
+    },
+    {
+      "candidate_id": "C04",
+      "item_id": "SF-20261016-04",
+      "title": "两轴正交检测区分零至超低场NMR的正负频率",
+      "source": "arXiv（预印本）",
+      "normalized_doi": "10.48550/arxiv.2610.14451",
+      "normalized_url": "https://arxiv.org/abs/2610.14451",
+      "actual_online_date": "2026-10-10",
+      "publication_status": "preprint",
+      "first_author_verified": "Anne M. Fabricant",
+      "magnetic_resonance_role": "method_core",
+      "role_evidence": "arXiv摘要明确两个正交OPM、正负频率、旋磁比符号与两种实测J谱。",
+      "source_location": "Abstract; publication metadata; figure captions only when specified",
+      "decision": "include",
+      "reason": "日期在窗口内，磁共振为方法或应用核心；全库及最近7期未重复。",
+      "duplicate_key": "doi:10.48550/arxiv.2610.14451",
+      "tag_review_status": "approved",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed_date_only",
+      "science_review_status": "checked_with_scope_limits",
+      "limitations": "只使用可访问摘要、题录或明确图注；不补写未读取全文中的参数。",
+      "tag_rationales": {
+        "direction_ids": {
+          "nmr": "正文依据：arXiv摘要明确两个正交OPM、正负频率、旋磁比符号与两种实测J谱。"
+        },
+        "experiment_type_ids": {},
+        "method_ids": {
+          "zero_field_nmr": "正文依据：arXiv摘要明确两个正交OPM、正负频率、旋磁比符号与两种实测J谱。"
+        },
+        "application_ids": {
+          "instrumentation": "正文依据：arXiv摘要明确两个正交OPM、正负频率、旋磁比符号与两种实测J谱。"
+        },
+        "instrument_component_ids": {}
+      },
+      "online_timestamp": "2026-10-10T01:27:01Z"
+    },
+    {
+      "candidate_id": "C05",
+      "item_id": "SF-20261016-05",
+      "title": "离共振π旋转以双脉冲与十八脉冲检验噪声容限",
+      "source": "arXiv（预印本）",
+      "normalized_doi": "10.48550/arxiv.2610.16098",
+      "normalized_url": "https://arxiv.org/abs/2610.16098",
+      "actual_online_date": "2026-10-12",
+      "publication_status": "preprint",
+      "first_author_verified": "Xilong Wang",
+      "magnetic_resonance_role": "method_core",
+      "role_evidence": "arXiv摘要明确实验NMR自旋控制、两种序列、保真度和噪声容限。",
+      "source_location": "Abstract; publication metadata; figure captions only when specified",
+      "decision": "include",
+      "reason": "日期在窗口内，磁共振为方法或应用核心；全库及最近7期未重复。",
+      "duplicate_key": "doi:10.48550/arxiv.2610.16098",
+      "tag_review_status": "approved",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed_date_only",
+      "science_review_status": "checked_with_scope_limits",
+      "limitations": "只使用可访问摘要、题录或明确图注；不补写未读取全文中的参数。",
+      "tag_rationales": {
+        "direction_ids": {
+          "nmr": "正文依据：arXiv摘要明确实验NMR自旋控制、两种序列、保真度和噪声容限。"
+        },
+        "experiment_type_ids": {},
+        "method_ids": {},
+        "application_ids": {
+          "quantum_spin": "正文依据：arXiv摘要明确实验NMR自旋控制、两种序列、保真度和噪声容限。"
+        },
+        "instrument_component_ids": {}
+      },
+      "online_timestamp": "2026-10-12T03:05:17Z"
+    },
+    {
+      "candidate_id": "C06",
+      "item_id": "SF-20261016-06",
+      "title": "EPR自旋计数辨认ZnAl₂O₄中Mn–Cr缺陷缔合",
+      "source": "arXiv（预印本）",
+      "normalized_doi": "10.48550/arxiv.2610.14262",
+      "normalized_url": "https://arxiv.org/abs/2610.14262",
+      "actual_online_date": "2026-10-09",
+      "publication_status": "preprint",
+      "first_author_verified": "Apoko S. Omondi",
+      "magnetic_resonance_role": "key_evidence",
+      "role_evidence": "arXiv摘要直接以定量EPR自旋计数判定缺陷缔合、浓度重分配和EPR静默构型。",
+      "source_location": "Abstract; publication metadata; figure captions only when specified",
+      "decision": "include",
+      "reason": "日期在窗口内，磁共振为方法或应用核心；全库及最近7期未重复。",
+      "duplicate_key": "doi:10.48550/arxiv.2610.14262",
+      "tag_review_status": "approved",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed_date_only",
+      "science_review_status": "checked_with_scope_limits",
+      "limitations": "只使用可访问摘要、题录或明确图注；不补写未读取全文中的参数。",
+      "tag_rationales": {
+        "direction_ids": {
+          "epr": "正文依据：arXiv摘要直接以定量EPR自旋计数判定缺陷缔合、浓度重分配和EPR静默构型。"
+        },
+        "experiment_type_ids": {},
+        "method_ids": {},
+        "application_ids": {
+          "materials": "正文依据：arXiv摘要直接以定量EPR自旋计数判定缺陷缔合、浓度重分配和EPR静默构型。"
+        },
+        "instrument_component_ids": {}
+      },
+      "online_timestamp": "2026-10-09T19:34:51Z"
+    },
+    {
+      "candidate_id": "C07",
+      "item_id": "SF-20261016-07",
+      "title": "血浆与血清冻干重溶方案用于100 MHz台式代谢组",
+      "source": "SCIFORUM · IECM 2026会议摘要",
+      "normalized_doi": "",
+      "normalized_url": "https://sciforum.net/paper/34436",
+      "actual_online_date": "2026-10-09",
+      "publication_status": "unknown",
+      "first_author_verified": "Valentina Giraldi",
+      "magnetic_resonance_role": "application_core",
+      "role_evidence": "会议摘要原页Published date 09 Oct 2026；摘要给出1.2/0.7 mL、18h、90:10、WET/CPMG-WET及代谢物损失。",
+      "source_location": "Abstract; publication metadata; figure captions only when specified",
+      "decision": "include",
+      "reason": "日期在窗口内，磁共振为方法或应用核心；全库及最近7期未重复。",
+      "duplicate_key": "url:https://sciforum.net/paper/34436",
+      "tag_review_status": "approved",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed_date_only",
+      "science_review_status": "checked_with_scope_limits",
+      "limitations": "只使用可访问摘要、题录或明确图注；不补写未读取全文中的参数。",
+      "tag_rationales": {
+        "direction_ids": {
+          "nmr": "正文依据：会议摘要原页Published date 09 Oct 2026；摘要给出1.2/0.7 mL、18h、90:10、WET/CPMG-WET及代谢物损失。"
+        },
+        "experiment_type_ids": {
+          "benchtop_nmr": "正文依据：会议摘要原页Published date 09 Oct 2026；摘要给出1.2/0.7 mL、18h、90:10、WET/CPMG-WET及代谢物损失。",
+          "solution_nmr": "正文依据：会议摘要原页Published date 09 Oct 2026；摘要给出1.2/0.7 mL、18h、90:10、WET/CPMG-WET及代谢物损失。"
+        },
+        "method_ids": {
+          "metabolomics": "正文依据：会议摘要原页Published date 09 Oct 2026；摘要给出1.2/0.7 mL、18h、90:10、WET/CPMG-WET及代谢物损失。",
+          "cpmg": "正文依据：会议摘要原页Published date 09 Oct 2026；摘要给出1.2/0.7 mL、18h、90:10、WET/CPMG-WET及代谢物损失。"
+        },
+        "application_ids": {
+          "life_science": "正文依据：会议摘要原页Published date 09 Oct 2026；摘要给出1.2/0.7 mL、18h、90:10、WET/CPMG-WET及代谢物损失。"
+        },
+        "instrument_component_ids": {}
+      }
+    },
+    {
+      "candidate_id": "C08",
+      "item_id": "SF-20261016-08",
+      "title": "尿液100/600 MHz对照检验冻干、缓冲与储存条件",
+      "source": "SCIFORUM · IECM 2026会议摘要",
+      "normalized_doi": "",
+      "normalized_url": "https://sciforum.net/paper/34493",
+      "actual_online_date": "2026-10-09",
+      "publication_status": "unknown",
+      "first_author_verified": "Linda Fantato",
+      "magnetic_resonance_role": "application_core",
+      "role_evidence": "独立会议摘要原页Published date 09 Oct 2026；正文给出尿液处理、100/600MHz、时间稳定性及排除肌酐/柠檬酸。",
+      "source_location": "Abstract; publication metadata; figure captions only when specified",
+      "decision": "include",
+      "reason": "日期在窗口内，磁共振为方法或应用核心；全库及最近7期未重复。",
+      "duplicate_key": "url:https://sciforum.net/paper/34493",
+      "tag_review_status": "approved",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed_date_only",
+      "science_review_status": "checked_with_scope_limits",
+      "limitations": "只使用可访问摘要、题录或明确图注；不补写未读取全文中的参数。",
+      "tag_rationales": {
+        "direction_ids": {
+          "nmr": "正文依据：独立会议摘要原页Published date 09 Oct 2026；正文给出尿液处理、100/600MHz、时间稳定性及排除肌酐/柠檬酸。"
+        },
+        "experiment_type_ids": {
+          "benchtop_nmr": "正文依据：独立会议摘要原页Published date 09 Oct 2026；正文给出尿液处理、100/600MHz、时间稳定性及排除肌酐/柠檬酸。",
+          "solution_nmr": "正文依据：独立会议摘要原页Published date 09 Oct 2026；正文给出尿液处理、100/600MHz、时间稳定性及排除肌酐/柠檬酸。"
+        },
+        "method_ids": {
+          "metabolomics": "正文依据：独立会议摘要原页Published date 09 Oct 2026；正文给出尿液处理、100/600MHz、时间稳定性及排除肌酐/柠檬酸。"
+        },
+        "application_ids": {
+          "life_science": "正文依据：独立会议摘要原页Published date 09 Oct 2026；正文给出尿液处理、100/600MHz、时间稳定性及排除肌酐/柠檬酸。"
+        },
+        "instrument_component_ids": {}
+      }
+    },
+    {
+      "candidate_id": "C09",
+      "item_id": "SF-20261016-09",
+      "title": "低场时域NMR综述梳理炼油物性、混合物与多孔材料分析",
+      "source": "Applied Magnetic Resonance",
+      "normalized_doi": "10.1007/s00723-026-01887-z",
+      "normalized_url": "https://link.springer.com/article/10.1007/s00723-026-01887-z",
+      "actual_online_date": "2026-10-15",
+      "publication_status": "published",
+      "first_author_verified": "Ruiyi Zhang",
+      "magnetic_resonance_role": "application_core",
+      "role_evidence": "出版社摘要明确LF-NMR/TD-NMR在炼油物性、组成、混合物、多孔材料分析中的核心作用；缩略语表列T1/T2/CPMG。",
+      "source_location": "Abstract; publication metadata; figure captions only when specified",
+      "decision": "include",
+      "reason": "日期在窗口内，磁共振为方法或应用核心；全库及最近7期未重复。",
+      "duplicate_key": "doi:10.1007/s00723-026-01887-z",
+      "tag_review_status": "approved",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed_date_only",
+      "science_review_status": "checked_with_scope_limits",
+      "limitations": "只使用可访问摘要、题录或明确图注；不补写未读取全文中的参数。",
+      "tag_rationales": {
+        "direction_ids": {
+          "nmr": "正文依据：出版社摘要明确LF-NMR/TD-NMR在炼油物性、组成、混合物、多孔材料分析中的核心作用；缩略语表列T1/T2/CPMG。"
+        },
+        "experiment_type_ids": {
+          "td_nmr": "正文依据：出版社摘要明确LF-NMR/TD-NMR在炼油物性、组成、混合物、多孔材料分析中的核心作用；缩略语表列T1/T2/CPMG。"
+        },
+        "method_ids": {
+          "relaxometry": "正文依据：出版社摘要明确LF-NMR/TD-NMR在炼油物性、组成、混合物、多孔材料分析中的核心作用；缩略语表列T1/T2/CPMG。"
+        },
+        "application_ids": {
+          "process_analysis": "正文依据：出版社摘要明确LF-NMR/TD-NMR在炼油物性、组成、混合物、多孔材料分析中的核心作用；缩略语表列T1/T2/CPMG。"
+        },
+        "instrument_component_ids": {}
+      }
+    },
+    {
+      "candidate_id": "C10",
+      "item_id": "SF-20261016-10",
+      "title": "采购动态：中国科学技术大学脉冲EPR中标599.5万元",
+      "source": "中国科学技术大学脉冲EPR中标公告 · 中国政府采购网",
+      "normalized_doi": "",
+      "normalized_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202610/t20261013_27480833.htm",
+      "actual_online_date": "2026-10-13",
+      "publication_status": "unknown",
+      "first_author_verified": null,
+      "magnetic_resonance_role": "direct_procurement",
+      "role_evidence": "中国政府采购网原始公告L15/21为日期，L36项目号，L42–51为中标单位、599.5万元、EPR100与1台。",
+      "source_location": "Abstract; publication metadata; figure captions only when specified",
+      "decision": "include",
+      "reason": "日期在窗口内，磁共振为方法或应用核心；全库及最近7期未重复。",
+      "duplicate_key": "url:https://www.ccgp.gov.cn/cggg/zygg/zbgg/202610/t20261013_27480833.htm",
+      "tag_review_status": "approved",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed_date_only",
+      "science_review_status": "checked_with_scope_limits",
+      "limitations": "只使用可访问摘要、题录或明确图注；不补写未读取全文中的参数。",
+      "tag_rationales": {
+        "direction_ids": {
+          "epr": "正文依据：中国政府采购网原始公告L15/21为日期，L36项目号，L42–51为中标单位、599.5万元、EPR100与1台。"
+        },
+        "experiment_type_ids": {
+          "pulsed_epr": "正文依据：中国政府采购网原始公告L15/21为日期，L36项目号，L42–51为中标单位、599.5万元、EPR100与1台。"
+        },
+        "method_ids": {},
+        "application_ids": {},
+        "instrument_component_ids": {}
+      }
+    },
+    {
+      "candidate_id": "C11",
+      "title": "低温¹³C/⁷Li固体NMR检验电解液中的多锂离子簇",
+      "source": "Nature",
+      "normalized_doi": "10.1038/s41586-026-11138-7",
+      "normalized_url": "https://www.nature.com/articles/s41586-026-11138-7",
+      "actual_online_date": "2026-10-14",
+      "publication_status": "published",
+      "magnetic_resonance_role": "previously_reviewed",
+      "decision": "exclude",
+      "reason": "历史日报已收录同一工作；新转载、题录入库或卷期变化不作为新内容。",
+      "duplicate_key": "doi:10.1038/s41586-026-11138-7",
+      "matched_item_id": "SF-20261015-03",
+      "matched_report_date": "2026-10-15"
+    },
+    {
+      "candidate_id": "C12",
+      "title": "选择性脯氨酸标记把134 kDa蛋白的局部位点带入MAS NMR",
+      "source": "ACS Chemical Biology",
+      "normalized_doi": "10.1021/acschembio.6c00587",
+      "normalized_url": "https://pubs.acs.org/doi/10.1021/acschembio.6c00587",
+      "actual_online_date": "2026-10-13",
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "previously_reviewed",
+      "decision": "exclude",
+      "reason": "历史日报已收录同一工作；新转载、题录入库或卷期变化不作为新内容。",
+      "duplicate_key": "doi:10.1021/acschembio.6c00587",
+      "matched_item_id": "SF-20261014-03",
+      "matched_report_date": "2026-10-14"
+    },
+    {
+      "candidate_id": "C13",
+      "title": "固体与溶液NMR联合完成134 kDa酶的高覆盖率归属",
+      "source": "Journal of the American\nChemical Society",
+      "normalized_doi": "10.1021/jacs.6c14423",
+      "normalized_url": "https://pubs.acs.org/doi/10.1021/jacs.6c14423",
+      "actual_online_date": "2026-10-13",
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "previously_reviewed",
+      "decision": "exclude",
+      "reason": "历史日报已收录同一工作；新转载、题录入库或卷期变化不作为新内容。",
+      "duplicate_key": "doi:10.1021/jacs.6c14423",
+      "matched_item_id": "SF-20261014-01",
+      "matched_report_date": "2026-10-14"
+    },
+    {
+      "candidate_id": "C14",
+      "title": "CW-EPR、DEER与RIDME分辨七自旋超分子的溶液构象",
+      "source": "Journal of the American Chemical Society",
+      "normalized_doi": "10.1021/jacs.6c08331",
+      "normalized_url": "https://pubs.acs.org/doi/10.1021/jacs.6c08331",
+      "actual_online_date": "2026-10-13",
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "previously_reviewed",
+      "decision": "exclude",
+      "reason": "历史日报已收录同一工作；新转载、题录入库或卷期变化不作为新内容。",
+      "duplicate_key": "doi:10.1021/jacs.6c08331",
+      "matched_item_id": "SF-20261014-02",
+      "matched_report_date": "2026-10-14"
+    },
+    {
+      "candidate_id": "C15",
+      "title": "14种Blatter自由基给出甲基驱动Overhauser DNP设计规则",
+      "source": "Chemistry – A European Journal",
+      "normalized_doi": "10.1002/chem.71772",
+      "normalized_url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/chem.71772",
+      "actual_online_date": "2026-10-09",
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "previously_reviewed",
+      "decision": "exclude",
+      "reason": "历史日报已收录同一工作；新转载、题录入库或卷期变化不作为新内容。",
+      "duplicate_key": "doi:10.1002/chem.71772",
+      "matched_item_id": "SF-20261011-04",
+      "matched_report_date": "2026-10-11"
+    },
+    {
+      "candidate_id": "C16",
+      "title": "零至超低场NMR揭示强耦合多自旋弛豫的多指数行为",
+      "source": "The Journal of Chemical Physics",
+      "normalized_doi": "10.1063/5.0341458",
+      "normalized_url": "https://doi.org/10.1063/5.0341458",
+      "actual_online_date": "2026-10-09",
+      "publication_status": "published",
+      "magnetic_resonance_role": "previously_reviewed",
+      "decision": "exclude",
+      "reason": "历史日报已收录同一工作；新转载、题录入库或卷期变化不作为新内容。",
+      "duplicate_key": "doi:10.1063/5.0341458",
+      "matched_item_id": "SF-20261011-07",
+      "matched_report_date": "2026-10-11"
+    },
+    {
+      "candidate_id": "C17",
+      "title": "1H NMR以410份牛奶区分乳房健康状态",
+      "source": "Journal of Dairy Science",
+      "normalized_doi": "10.3168/jds.2026-28941",
+      "normalized_url": "https://doi.org/10.3168/jds.2026-28941",
+      "actual_online_date": "2026-10-09",
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "previously_reviewed",
+      "decision": "exclude",
+      "reason": "历史日报已收录同一工作；新转载、题录入库或卷期变化不作为新内容。",
+      "duplicate_key": "doi:10.3168/jds.2026-28941",
+      "matched_item_id": "SF-20261011-06",
+      "matched_report_date": "2026-10-11"
+    },
+    {
+      "candidate_id": "C18",
+      "title": "36套新DP4+参数检验计算NMR结构判别边界",
+      "source": "The Journal of Organic Chemistry",
+      "normalized_doi": "10.1021/acs.joc.6c01828",
+      "normalized_url": "https://pubs.acs.org/doi/10.1021/acs.joc.6c01828",
+      "actual_online_date": "2026-10-12",
+      "publication_status": "early_access",
+      "magnetic_resonance_role": "previously_reviewed",
+      "decision": "exclude",
+      "reason": "历史日报已收录同一工作；新转载、题录入库或卷期变化不作为新内容。",
+      "duplicate_key": "doi:10.1021/acs.joc.6c01828",
+      "matched_item_id": "SF-20261013-02",
+      "matched_report_date": "2026-10-13"
+    },
+    {
+      "candidate_id": "C19",
+      "title": "Makeshift：轻量化NMR数据访问与分析软件",
+      "source": "bioRxiv",
+      "normalized_doi": "10.64898/2026.08.17.745346",
+      "normalized_url": "https://www.biorxiv.org/content/10.64898/2026.08.17.745346v1",
+      "actual_online_date": "2026-08-20",
+      "publication_status": "unknown",
+      "magnetic_resonance_role": "previously_reviewed",
+      "decision": "exclude",
+      "reason": "历史日报已收录同一工作；新转载、题录入库或卷期变化不作为新内容。",
+      "duplicate_key": "doi:10.64898/2026.08.17.745346",
+      "matched_item_id": "SF-20260821-02",
+      "matched_report_date": "2026-08-21"
+    },
+    {
+      "candidate_id": "C20",
+      "title": "双重水抑制二维Pure Shift解析柔性配合物的构型与慢交换",
+      "source": "Analytical Chemistry",
+      "normalized_doi": "10.1021/acs.analchem.6c04345",
+      "normalized_url": "https://pubs.acs.org/doi/10.1021/acs.analchem.6c04345",
+      "actual_online_date": "2026-10-14",
+      "publication_status": "unknown",
+      "magnetic_resonance_role": "previously_reviewed",
+      "decision": "exclude",
+      "reason": "历史日报已收录同一工作；新转载、题录入库或卷期变化不作为新内容。",
+      "duplicate_key": "doi:10.1021/acs.analchem.6c04345",
+      "matched_item_id": "SF-20261015-01",
+      "matched_report_date": "2026-10-15"
+    },
+    {
+      "candidate_id": "C21",
+      "title": "CMD-Net以合成一维训练数据处理低信噪比多维NMR",
+      "source": "The Journal of Physical Chemistry Letters",
+      "normalized_doi": "10.1021/acs.jpclett.6c02887",
+      "normalized_url": "https://pubs.acs.org/doi/10.1021/acs.jpclett.6c02887",
+      "actual_online_date": "2026-10-14",
+      "publication_status": "unknown",
+      "magnetic_resonance_role": "previously_reviewed",
+      "decision": "exclude",
+      "reason": "历史日报已收录同一工作；新转载、题录入库或卷期变化不作为新内容。",
+      "duplicate_key": "doi:10.1021/acs.jpclett.6c02887",
+      "matched_item_id": "SF-20261015-04",
+      "matched_report_date": "2026-10-15"
+    },
+    {
+      "candidate_id": "C22",
+      "title": "A Multinuclear 1H and 31P NMR Approach for Quantification of Pneumococcal Cell-Wall Polysaccharide in Vaccine Development",
+      "source": "pubs.acs.org",
+      "normalized_url": "https://pubs.acs.org/doi/10.1021/acsomega.6c06554",
+      "normalized_doi": "10.1021/acsomega.6c06554",
+      "actual_online_date": "2026-08-18",
+      "publication_status": "unknown",
+      "magnetic_resonance_role": "application_core",
+      "decision": "exclude",
+      "reason": "online日期8月18日；10月13日编辑推荐/页面栏目日期不作为新出版。",
+      "exclusion_category": "date_outside_window",
+      "duplicate_key": "doi:10.1021/acsomega.6c06554"
+    },
+    {
+      "candidate_id": "C23",
+      "title": "Antigen-Detected NMR for Minimal Epitope Engineering",
+      "source": "pubmed.ncbi.nlm.nih.gov",
+      "normalized_url": "https://pubmed.ncbi.nlm.nih.gov/42702812/",
+      "normalized_doi": "10.1002/advs.77611",
+      "actual_online_date": "2026-09-06",
+      "publication_status": "unknown",
+      "magnetic_resonance_role": "method_core",
+      "decision": "exclude",
+      "reason": "PubMed在线日期9月6日；二手网站10月14日建档日期不采用。",
+      "exclusion_category": "date_outside_window",
+      "duplicate_key": "doi:10.1002/advs.77611"
+    },
+    {
+      "candidate_id": "C24",
+      "title": "NMR Analysis of Complex Formation Underlying the Precipitation of Rosmarinic Acid with Protoberberine Derivatives",
+      "source": "www.pha.fukuoka-u.ac.jp",
+      "normalized_url": "https://www.pha.fukuoka-u.ac.jp/bukka/paper",
+      "normalized_doi": "",
+      "actual_online_date": null,
+      "publication_status": "unknown",
+      "magnetic_resonance_role": "unverified",
+      "decision": "exclude",
+      "reason": "机构页仅列accepted，二手页面建档10月15日不能独立确认online日期。",
+      "exclusion_category": "date_unconfirmed",
+      "duplicate_key": "url:https://www.pha.fukuoka-u.ac.jp/bukka/paper"
+    },
+    {
+      "candidate_id": "C25",
+      "title": "A low-frequency pulsed EPR spectrometer for hyperfine clock transition measurement",
+      "source": "www.keaipublishing.com",
+      "normalized_url": "https://www.keaipublishing.com/en/journals/magnetic-resonance-letters/recent-articles/",
+      "normalized_doi": "",
+      "actual_online_date": null,
+      "publication_status": "unknown",
+      "magnetic_resonance_role": "method_core",
+      "decision": "exclude",
+      "reason": "列表按卷期排序且存在早于窗口的题录；缺少可靠新online日期，排除。",
+      "exclusion_category": "date_unconfirmed",
+      "duplicate_key": "url:https://www.keaipublishing.com/en/journals/magnetic-resonance-letters/recent-articles/"
+    },
+    {
+      "candidate_id": "C26",
+      "title": "Hidden reaction pathways inform additive engineering for perovskite LEDs",
+      "source": "www.nature.com",
+      "normalized_url": "https://www.nature.com/articles/s41586-026-11120-3",
+      "normalized_doi": "10.1038/s41586-026-11120-3",
+      "actual_online_date": "2026-10-14",
+      "publication_status": "unknown",
+      "magnetic_resonance_role": "unverified",
+      "decision": "exclude",
+      "reason": "原文重定向不可读取；当前可见摘要不足以确认NMR决定主要机制结论。",
+      "exclusion_category": "role_unverified",
+      "duplicate_key": "doi:10.1038/s41586-026-11120-3"
+    },
+    {
+      "candidate_id": "C27",
+      "title": "EPR Study of Crystal Lattice Distortions in Mn-Doped YGa3(BO3)4 and EuGa3(BO3)4",
+      "source": "link.springer.com",
+      "normalized_url": "https://link.springer.com/article/10.1007/s00723-026-01886-0",
+      "normalized_doi": "10.1007/s00723-026-01886-0",
+      "actual_online_date": "2026-10-07",
+      "publication_status": "unknown",
+      "magnetic_resonance_role": "key_evidence",
+      "decision": "exclude",
+      "reason": "原页Published 7 October；早于10月9–15日窗口。",
+      "exclusion_category": "date_outside_window",
+      "duplicate_key": "doi:10.1007/s00723-026-01886-0"
+    },
+    {
+      "candidate_id": "C28",
+      "title": "硅中磷核自旋的电偶极驱动共振理论结合超精细与磁场梯度",
+      "source": "arXiv（理论预印本）",
+      "normalized_url": "https://arxiv.org/abs/2610.14139",
+      "normalized_doi": "10.48550/arxiv.2610.14139",
+      "actual_online_date": "2026-10-09",
+      "publication_status": "preprint",
+      "magnetic_resonance_role": "method_core",
+      "decision": "include",
+      "reason": "日期与作者已由arXiv原页确认；研究直接涉及核自旋相干操控，替代日期未确认的BRAIN候选；未当作实验NMR谱仪性能。",
+      "duplicate_key": "doi:10.48550/arxiv.2610.14139",
+      "item_id": "SF-20261016-03",
+      "first_author_verified": "Jiyun Su",
+      "online_timestamp": "2026-10-09T14:10:44Z",
+      "role_evidence": "arXiv摘要L16–18明确磷核自旋共振控制的理论方案，以超精细耦合与磁场梯度介导电偶极驱动，并讨论电噪声不敏感工作点。",
+      "source_location": "arXiv abstract L16–18; authors L11; submission history L27",
+      "tag_review_status": "approved",
+      "source_review_status": "confirmed",
+      "date_review_status": "confirmed",
+      "science_review_status": "checked_with_scope_limits",
+      "limitations": "仅采用摘要可确认的理论结论，不写实验实现或未读取全文中的速率和精度。",
+      "tag_rationales": {
+        "direction_ids": {
+          "nmr": "磷核自旋共振与相干操控；不据电子介导机制增加EPR方向。"
+        },
+        "experiment_type_ids": {},
+        "method_ids": {},
+        "application_ids": {
+          "quantum_spin": "以硅中磷核自旋量子位及相干控制为核心。"
+        },
+        "instrument_component_ids": {}
+      }
+    },
+    {
+      "candidate_id": "C29",
+      "title": "Selected developments in ultra-low field magnetic resonance",
+      "source": "indico.ifj.edu.pl",
+      "normalized_url": "https://indico.ifj.edu.pl/event/1679/",
+      "normalized_doi": "",
+      "actual_online_date": "2026-10-15",
+      "publication_status": "unknown",
+      "magnetic_resonance_role": "direct_event",
+      "decision": "exclude",
+      "reason": "明确讲座技术摘要及活动时刻；当前9条研究/方法内容已选，未将讲座重复拆成多条。",
+      "exclusion_category": "editorial_priority",
+      "duplicate_key": "url:https://indico.ifj.edu.pl/event/1679/"
+    },
+    {
+      "candidate_id": "C30",
+      "title": "Annual NMR Symposium: 19F-enhanced solid-state NMR and AI structure elucidation",
+      "source": "www.njacs.org",
+      "normalized_url": "https://www.njacs.org/event/annual-nmr-symposium-3/",
+      "normalized_doi": "",
+      "actual_online_date": "2026-10-15",
+      "publication_status": "unknown",
+      "magnetic_resonance_role": "direct_event",
+      "decision": "exclude",
+      "reason": "独立议程已核对，但只列报告题目；当期研究/方法内容优先。",
+      "exclusion_category": "editorial_priority",
+      "duplicate_key": "url:https://www.njacs.org/event/annual-nmr-symposium-3/"
+    },
+    {
+      "candidate_id": "C31",
+      "title": "深圳市大型科研仪器实验人员技术课程通知",
+      "source": "stic.sz.gov.cn",
+      "normalized_url": "https://stic.sz.gov.cn/xxgk/tzgg/content/post_13021723.html",
+      "normalized_doi": "",
+      "actual_online_date": "2026-10-15",
+      "publication_status": "unknown",
+      "magnetic_resonance_role": "unverified",
+      "decision": "exclude",
+      "reason": "原页无法访问，仅索引提及NMR课程，未确认独立技术增量。",
+      "exclusion_category": "source_incomplete",
+      "duplicate_key": "url:https://stic.sz.gov.cn/xxgk/tzgg/content/post_13021723.html"
+    }
+  ],
+  "procurement_candidates": [
+    {
+      "candidate_id": "P01",
+      "title": "采购动态：中国科学技术大学脉冲EPR中标599.5万元",
+      "procurement_unit": "中国科学技术大学",
+      "source": "www.ccgp.gov.cn",
+      "normalized_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202610/t20261013_27480833.htm",
+      "announcement_date": "2026-10-13",
+      "procurement_stage": "award",
+      "decision": "include",
+      "reason": "原始公告已读；日期、型号、数量与中标金额确认；全库及历史Review未重复。",
+      "duplicate_key": "url:https://www.ccgp.gov.cn/cggg/zygg/zbgg/202610/t20261013_27480833.htm",
+      "award_amount_cny": 5995000,
+      "model": "EPR100",
+      "quantity": 1,
+      "announcement_timestamp": "2026-10-13T16:24:00+08:00",
+      "merged_item_id": "SF-20261016-10"
+    },
+    {
+      "candidate_id": "P02",
+      "title": "HZNU-2026255低场核磁共振分析仪招标",
+      "procurement_unit": "杭州师范大学",
+      "source": "www.instrument.com.cn",
+      "normalized_url": "https://www.instrument.com.cn/event/bid/t163920.html",
+      "announcement_date": "2026-10-12",
+      "procurement_stage": "invitation",
+      "decision": "exclude",
+      "reason": "学校官方首页索引确认题名和日期；公告详情未返回正文。转载确认预算86万元和11月3日10:00截止，但本期严格保留原始详情不可读限制，暂不发布。",
+      "duplicate_key": "url:https://www.instrument.com.cn/event/bid/t163920.html",
+      "primary_index": "https://cgzx.hznu.edu.cn/",
+      "secondary_reported_budget_cny": 860000,
+      "secondary_reported_deadline": "2026-11-03T10:00:00+08:00"
+    },
+    {
+      "candidate_id": "P03",
+      "title": "IISER Bhopal 400/500/700MHz NMR一年液氦供应",
+      "procurement_unit": "IISER Bhopal",
+      "source": "www.iiserbhopal.ac.in",
+      "normalized_url": "https://www.iiserbhopal.ac.in/tender",
+      "announcement_date": "2026-10-13",
+      "procurement_stage": "invitation",
+      "decision": "exclude",
+      "reason": "高校及政府搜索索引确认项目号2026_IISRB_930077_1；高校详情502/超时，政府详情会话过期，组织列表打开为8月旧快照，未独立读到当前原始详情，暂不发布。",
+      "duplicate_key": "url:https://www.iiserbhopal.ac.in/tender",
+      "secondary_reported_deadline": "2026-10-29T15:00:00+05:30"
+    },
+    {
+      "candidate_id": "P04",
+      "title": "湖南大学JY-2026077 X波段脉冲EPR招标",
+      "procurement_unit": "湖南大学",
+      "source": "www.instrument.com.cn",
+      "normalized_url": "https://www.instrument.com.cn/event/bid/t164381.html",
+      "announcement_date": "2026-10-15",
+      "procurement_stage": "invitation",
+      "decision": "exclude",
+      "reason": "转载正文可读，520万元、1台、不接受进口及11月5日09:00截止；未找到可读原始公告，暂不发布。",
+      "duplicate_key": "url:https://www.instrument.com.cn/event/bid/t164381.html"
+    },
+    {
+      "candidate_id": "P05",
+      "title": "重庆医药高等专科学校CQS26A04726科研仪器设备",
+      "procurement_unit": "重庆医药高等专科学校",
+      "source": "www.instrument.com.cn",
+      "normalized_url": "https://www.instrument.com.cn/event/bid/t164356.html",
+      "announcement_date": "2026-10-15",
+      "procurement_stage": "invitation",
+      "decision": "exclude",
+      "reason": "转载正文可读，批次预算244万元含≥80MHz台式NMR，未读取原始公告；批次预算不能当作单台NMR价格。暂不发布。",
+      "duplicate_key": "url:https://www.instrument.com.cn/event/bid/t164356.html"
+    },
+    {
+      "candidate_id": "P06",
+      "title": "中国科学院过程工程研究所多频率EPR延期公告",
+      "procurement_unit": "中国科学院过程工程研究所",
+      "source": "www.chinabidding.org.cn",
+      "normalized_url": "https://www.chinabidding.org.cn/BidInfoDetails_bid_27254258.html",
+      "announcement_date": "2026-10-15",
+      "procurement_stage": "amendment",
+      "decision": "exclude",
+      "reason": "仅聚合索引确认延期公告；未读取原始更正内容和新的截止时间。不得沿用9月旧招标截止日期，排除。",
+      "duplicate_key": "url:https://www.chinabidding.org.cn/BidInfoDetails_bid_27254258.html"
+    },
+    {
+      "candidate_id": "P07",
+      "title": "武汉理工大学核磁共振谱仪分散采购",
+      "procurement_unit": "武汉理工大学",
+      "source": "cgyztb.whut.edu.cn",
+      "normalized_url": "https://cgyztb.whut.edu.cn/",
+      "announcement_date": "2026-10-13",
+      "procurement_stage": "invitation",
+      "decision": "exclude",
+      "reason": "官方首页超时；聚合页出现49万元，未读取原始公告技术对象、发布日期和截止时间，排除。",
+      "duplicate_key": "url:https://cgyztb.whut.edu.cn/"
+    },
+    {
+      "candidate_id": "P08",
+      "title": "山东师范大学2026年化学院电子顺磁共振波谱仪竞争性磋商",
+      "procurement_unit": "山东师范大学",
+      "source": "sd.zhaobiao.lanyancloud.com",
+      "normalized_url": "https://sd.zhaobiao.lanyancloud.com/notice/da89c1fdabf04081",
+      "announcement_date": "2026-09-28",
+      "procurement_stage": "invitation",
+      "decision": "exclude",
+      "reason": "实际公告9月28日；10月15日为截止日期，不作为新公告。",
+      "duplicate_key": "url:https://sd.zhaobiao.lanyancloud.com/notice/da89c1fdabf04081"
+    },
+    {
+      "candidate_id": "P09",
+      "title": "中国科学院基础医学与肿瘤研究所（筹）EPR招标",
+      "procurement_unit": "中国科学院基础医学与肿瘤研究所（筹）",
+      "source": "zj.qianlima.com",
+      "normalized_url": "https://zj.qianlima.com/zbcontent-634638704.html",
+      "announcement_date": "2026-09-24",
+      "procurement_stage": "invitation",
+      "decision": "exclude",
+      "reason": "9月24日发布，10月15日为截止日期，超窗。",
+      "duplicate_key": "url:https://zj.qianlima.com/zbcontent-634638704.html"
+    },
+    {
+      "candidate_id": "P10",
+      "title": "长春应化所EPR高温及时间分辨系统",
+      "procurement_unit": "中国科学院长春应用化学研究所",
+      "source": "m.instrument.com.cn",
+      "normalized_url": "https://m.instrument.com.cn/event/bid/t163199.html",
+      "announcement_date": "2026-10-08",
+      "procurement_stage": "invitation",
+      "decision": "exclude",
+      "reason": "已在10月9日报收录且原始日期早于本期自然日窗口。",
+      "duplicate_key": "url:https://m.instrument.com.cn/event/bid/t163199.html"
+    },
+    {
+      "candidate_id": "P11",
+      "title": "北京石油化工学院台式EPR中标",
+      "procurement_unit": "北京石油化工学院",
+      "source": "ggzyfw.beijing.gov.cn",
+      "normalized_url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261014/5747151.html",
+      "announcement_date": "2026-10-14",
+      "procurement_stage": "award",
+      "decision": "exclude",
+      "reason": "已在10月15日采购汇总中收录。",
+      "duplicate_key": "url:https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261014/5747151.html"
+    },
+    {
+      "candidate_id": "P12",
+      "title": "铜陵市人民医院3.0T核磁共振移机",
+      "procurement_unit": "铜陵市人民医院",
+      "source": "ggzyjyzx.tl.gov.cn",
+      "normalized_url": "https://ggzyjyzx.tl.gov.cn/jyxx/003002/003002002/20261015/bd9be2f9-f11d-40e5-b378-9dfbe3d1c295.html",
+      "announcement_date": "2026-10-14",
+      "procurement_stage": "single_source",
+      "decision": "exclude",
+      "reason": "医学MRI移机，非NMR波谱采购。",
+      "duplicate_key": "url:https://ggzyjyzx.tl.gov.cn/jyxx/003002/003002002/20261015/bd9be2f9-f11d-40e5-b378-9dfbe3d1c295.html"
+    },
+    {
+      "candidate_id": "P13",
+      "title": "隆回县人民医院3.0T维保",
+      "procurement_unit": "隆回县人民医院",
+      "source": "www.instrument.com.cn",
+      "normalized_url": "https://www.instrument.com.cn/event/bid/t164185.html",
+      "announcement_date": "2026-10-14",
+      "procurement_stage": "single_source",
+      "decision": "exclude",
+      "reason": "医学MRI维保排除。",
+      "duplicate_key": "url:https://www.instrument.com.cn/event/bid/t164185.html"
+    },
+    {
+      "candidate_id": "P14",
+      "title": "天津宝坻区中医医院影像中心磁共振设备",
+      "procurement_unit": "天津市宝坻区中医医院",
+      "source": "ggzyfw.beijing.gov.cn",
+      "normalized_url": "https://ggzyfw.beijing.gov.cn/xtggtjcjjg/20261015/5749345.html",
+      "announcement_date": "2026-10-15",
+      "procurement_stage": "award",
+      "decision": "exclude",
+      "reason": "医学MRI设备排除。",
+      "duplicate_key": "url:https://ggzyfw.beijing.gov.cn/xtggtjcjjg/20261015/5749345.html"
+    },
+    {
+      "candidate_id": "P15",
+      "title": "正电子发射型磁共振成像系统等设备维保",
+      "procurement_unit": "",
+      "source": "ggzyfw.beijing.gov.cn",
+      "normalized_url": "https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261015/5748604.html",
+      "announcement_date": "2026-10-15",
+      "procurement_stage": "award",
+      "decision": "exclude",
+      "reason": "医学PET/MRI维保排除。",
+      "duplicate_key": "url:https://ggzyfw.beijing.gov.cn/jyxxzbjggg/20261015/5748604.html"
+    },
+    {
+      "candidate_id": "P16",
+      "title": "NIST benchtop EPR sources sought",
+      "procurement_unit": "NIST",
+      "source": "govtribe.com",
+      "normalized_url": "https://govtribe.com/opportunity/federal-contract-opportunity/sources-sought-benchtop-epresr-spectrometer-nb6860802601894",
+      "announcement_date": "2026-06",
+      "procurement_stage": "market_research",
+      "decision": "exclude",
+      "reason": "6月旧市场调查；非10月新公告。",
+      "duplicate_key": "url:https://govtribe.com/opportunity/federal-contract-opportunity/sources-sought-benchtop-epresr-spectrometer-nb6860802601894"
+    },
+    {
+      "candidate_id": "P17",
+      "title": "USAFA EPR spectrometer system components",
+      "procurement_unit": "US Air Force Academy",
+      "source": "console.sweetspotgov.com",
+      "normalized_url": "https://console.sweetspotgov.com/federal-contracts/8f75eda2-eb36-5306-97d8-ac9da691d42a",
+      "announcement_date": "2026-06",
+      "procurement_stage": "market_research",
+      "decision": "exclude",
+      "reason": "旧公告，预期授标时间7月15日，超窗。",
+      "duplicate_key": "url:https://console.sweetspotgov.com/federal-contracts/8f75eda2-eb36-5306-97d8-ac9da691d42a"
+    },
+    {
+      "candidate_id": "P18",
+      "title": "太原理工大学2026年10月采购意向",
+      "procurement_unit": "太原理工大学",
+      "source": "cgzb.tyut.edu.cn",
+      "normalized_url": "https://cgzb.tyut.edu.cn/info/1092/33020.htm",
+      "announcement_date": "2026-09",
+      "procurement_stage": "intent",
+      "decision": "exclude",
+      "reason": "搜索索引标记三周前发布；计划采购月份不能替代公告日期。",
+      "duplicate_key": "url:https://cgzb.tyut.edu.cn/info/1092/33020.htm"
+    },
+    {
+      "candidate_id": "P19",
+      "title": "惠州石化低分辨NMR招标/采购异常",
+      "procurement_unit": "中海石油惠州石化",
+      "source": "www.bidcenter.com.cn",
+      "normalized_url": "https://www.bidcenter.com.cn/zhaobiao/zbkeyw-64202.html",
+      "announcement_date": "2026-10-15",
+      "procurement_stage": "exception",
+      "decision": "exclude",
+      "reason": "仅聚合索引，原始异常原因及公告详情未确认。",
+      "duplicate_key": "url:https://www.bidcenter.com.cn/zhaobiao/zbkeyw-64202.html"
+    },
+    {
+      "candidate_id": "P20",
+      "title": "CSIR liquid helium LPI-NMR-016-SLS",
+      "procurement_unit": "CSIR",
+      "source": "tenders.infralens.in",
+      "normalized_url": "https://tenders.infralens.in/tender/supply-and-refilling-of-liquid-helium-lpi-nmr-016-2026-csir-294236-1",
+      "announcement_date": "2026-10-12",
+      "procurement_stage": "invitation",
+      "decision": "exclude",
+      "reason": "仅聚合页；未读取原始CPPP公告，排除。",
+      "duplicate_key": "url:https://tenders.infralens.in/tender/supply-and-refilling-of-liquid-helium-lpi-nmr-016-2026-csir-294236-1"
+    }
+  ],
+  "publication": {
+    "authorized": true,
+    "status": "ready_for_atomic_commit",
+    "target_branch": "main",
+    "expected_parent_sha": "61819c04087224a5b77fba684346d0ea21d3ca1a",
+    "paths": [
+      "data/2026/SpinFront_2026-10-16.json",
+      "docs/reviews/2026-10-16.json"
+    ],
+    "commit_message": "Publish SpinFront 2026-10-16 (10 items)",
+    "deployment_status": "not_yet_triggered_at_review_creation",
+    "note": "提交/部署的实际完成结果由最终执行状态报告；此日志生成于提交前。"
+  },
+  "validation": {
+    "tag_review": "approved",
+    "source_date_science_review": "completed_with_explicit_limitations",
+    "image_fields": "absent",
+    "commands": {
+      "python scripts/build.py --check": "PASS:58 issues/491 items",
+      "python scripts/build.py": "PASS:58 issues",
+      "node tests/search.test.cjs": "PASS:all search tests"
+    },
+    "dedup_new_items": "PASS:no DOI URL title duplicates against 57 issues/481 items; includes historic alternative_sources",
+    "existing_source_integrity": "All pinned HEAD blobs match remote tree SHAs",
+    "semantic_identity": "PASS:titles summaries meanings order dates sources URLs equal in issue page and standalone HTML; screen response derived from same JSON",
+    "standalone_html": "inline CSS; no external stylesheet or images"
+  },
+  "resumed_prepublication_review": {
+    "completed_at": "2026-10-16T08:47:29+08:00",
+    "remote_parent_verified": "61819c04087224a5b77fba684346d0ea21d3ca1a",
+    "snapshot": "All 102 remote tree entries compared with local snapshot; all blob content hashes matched. Original working directory was left unchanged.",
+    "content_change": "C03 excluded for unconfirmed online date; C28 included in slot SF-20261016-03. No same-day remote file existed at review.",
+    "validation": "Required commands, whole-history dedup, and issue/standalone HTML semantic comparison rerun after this correction.",
+    "source_checks": [
+      {
+        "url": "https://arxiv.org/abs/2610.14139",
+        "result": "Author, abstract and timestamp verified against original page."
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1016/j.jmr.2026.108187",
+        "result": "No published-online; published month and DOI-created timestamp distinguished."
+      },
+      {
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202610/t20261013_27480833.htm",
+        "result": "Resumed web fetch failed; the complete original announcement read during initial research is retained in local source evidence, and included fields were checked against that text."
+      }
+    ]
+  }
+}

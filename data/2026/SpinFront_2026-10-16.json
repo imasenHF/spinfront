@@ -1,0 +1,396 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-10-16",
+  "scope_note": "检索截至2026-10-16 06:11（Asia/Shanghai），回扫2026-10-09至10-15。常规阶段可严格确认处于近24小时且合格的信息少于5条，已启动增强搜索；增强阶段不足8条，继续深度增强检索。已按九类方法主题簇逐轮检索，并分别尝试高影响与磁共振专业期刊最新页、arXiv/ChemRxiv、PubMed/Crossref、机构、厂商、会议及中国与海外采购。全库57期481条及最近7期共同查重，已登记候选排除11条历史重复、3条日期不明；最终收录10条日报内容，其中末条为1份采购公告。已登记采购候选20份，合格1份、排除19份；登记数不代表所有搜索命中数。条目仅有日期或早于24小时，均标近7天扩展。部分Elsevier/ACS/RSC入口403或不可访问，Crossref API及采购详情访问受限，深度覆盖存在原文获取缺口；相关候选未确认时不发布。两条SCIFORUM内容均为10月9日公开的独立会议摘要。发布前复核截至08:47：BRAIN Multi-CP缺少可确认的正式在线日，已排除，补入原候选中的硅核自旋电控制理论预印本。待复核标签：无。",
+  "items": [
+    {
+      "item_id": "SF-20261016-01",
+      "report_date": "2026-10-16",
+      "item_no": 1,
+      "title_cn": "2D Q-BEST以三组相关谱定量蛋白浓度与构象布居",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "qnmr",
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "泛素",
+        "蛋白构象异质性"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Ouali 等提出2D Q-BEST，从三组¹H–¹⁵N相关谱计算蛋白浓度及相对状态布居。泛素模型中，单个交叉峰的精度约为15%–20%；对属于同一状态且分辨良好的峰作校正强度平均，可减小统计误差。方法进一步用于多样品浓度比较及内源性、配体诱导的构象异质性分析。",
+      "meaning_cn": "该方法直接量化NMR可见蛋白组分，适合比较同一蛋白不同状态的比例。单峰15%–20%的精度不能视为最终浓度误差；平均前需确认峰归属与分辨情况，并保留校正步骤。因聚集、交换或快速弛豫而不可见的组分，仍需其他质量平衡测量。",
+      "publication_date": "2026-10-14",
+      "time_scope": "7d_extension",
+      "source": "Journal of Biomolecular NMR",
+      "url": "https://link.springer.com/article/10.1007/s10858-026-00498-x",
+      "doi": "10.1007/s10858-026-00498-x",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-16",
+      "last_updated": "2026-10-16",
+      "report_file": "SpinFront_2026-10-16.html"
+    },
+    {
+      "item_id": "SF-20261016-02",
+      "report_date": "2026-10-16",
+      "item_no": 2,
+      "title_cn": "亮氨酸β位局部氘代减少大蛋白甲基NMR线宽",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "Leu-d₄-Cβ-d₂",
+        "MBP",
+        "真核表达蛋白"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Schindler 等将亮氨酸侧链局部氘代扩展到β位，保留立体选择性¹³CH₃标记，用于真核表达蛋白的甲基NMR。MBP对照的¹H、¹³C-HMQC图注报告，两核平均线宽比约为0.86和0.83；研究针对难以在细菌中正确表达、又难以整体氘代的大蛋白提出样品标记方案。",
+      "meaning_cn": "标记设计针对甲基周围的局部质子环境。0.86和0.83来自所列MBP对照，不能直接作为所有真核蛋白的预期线宽比。实际采用时需检查标记掺入、甲基峰数与同批对照谱；样品表达体系和整体氘代背景均会影响结果。",
+      "publication_date": "2026-10-12",
+      "time_scope": "7d_extension",
+      "source": "Chemical Communications",
+      "url": "https://pubs.rsc.org/cc/article/doi/10.1039/d6cc04840d/1368285/Extended-local-deuteration-of-leucine-enhances",
+      "doi": "10.1039/d6cc04840d",
+      "alternative_sources": [
+        {
+          "name": "PubMed题录与图注",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42861561/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-16",
+      "last_updated": "2026-10-16",
+      "report_file": "SpinFront_2026-10-16.html"
+    },
+    {
+      "item_id": "SF-20261016-03",
+      "report_date": "2026-10-16",
+      "item_no": 3,
+      "title_cn": "硅中磷核自旋的电偶极驱动共振理论结合超精细与磁场梯度",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "quantum_spin"
+      ],
+      "sample_systems": [
+        "硅中磷核自旋量子位",
+        "超精细耦合",
+        "磁场梯度",
+        "EDNER"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Su 等提出硅中磷核自旋的电偶极诱导核电共振（EDNER）理论方案。超精细相互作用连接核自旋与电子自旋，磁场梯度再连接电子的自旋和电荷自由度，使电场能够驱动核自旋跃迁。模型还给出核自旋能级劈裂对电噪声较不敏感的工作点；该结果为理论预印本，尚无本文实验验证。",
+      "meaning_cn": "该方案把核自旋操控与局域电场、超精细耦合及磁场梯度联系起来，研究对象为硅中自旋量子位。应用前需检验驱动速率与电噪声敏感性的共同变化，并用实验核对工作点和相干时间。摘要未给出可直接用于常规液体或固体NMR谱仪的脉冲参数。",
+      "publication_date": "2026-10-09",
+      "time_scope": "7d_extension",
+      "source": "arXiv（理论预印本）",
+      "url": "https://arxiv.org/abs/2610.14139",
+      "doi": "10.48550/arxiv.2610.14139",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-10-16",
+      "last_updated": "2026-10-16",
+      "report_file": "SpinFront_2026-10-16.html"
+    },
+    {
+      "item_id": "SF-20261016-04",
+      "report_date": "2026-10-16",
+      "item_no": 4,
+      "title_cn": "两轴正交检测区分零至超低场NMR的正负频率",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "zero_field_nmr"
+      ],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "sample_systems": [
+        "热极化¹³C甲酸",
+        "热极化¹³C甲醇",
+        "XA/XA₃自旋体系"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Fabricant 等以两个正交光泵原子磁力计分别记录振荡磁化分量，组合成零至超低场NMR正交信号。预印本展示热极化¹³C甲酸与¹³C甲醇的J谱，区分实验室系中的正负共振频率，并讨论旋磁比绝对符号的判定。与单轴检测相比，谱峰密度和重叠减少。",
+      "meaning_cn": "正负频率分辨依赖两路信号的方向、相位及增益标定，不能仅将两个独立谱相加。已展示样品对应XA与XA₃体系；复杂多自旋混合物仍需结合自旋动力学模型检查归属。该工作为预印本，所述能力限于其已报告的实验与理论范围。",
+      "publication_date": "2026-10-10",
+      "time_scope": "7d_extension",
+      "source": "arXiv（预印本）",
+      "url": "https://arxiv.org/abs/2610.14451",
+      "doi": "10.48550/arxiv.2610.14451",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-10-16",
+      "last_updated": "2026-10-16",
+      "report_file": "SpinFront_2026-10-16.html"
+    },
+    {
+      "item_id": "SF-20261016-05",
+      "report_date": "2026-10-16",
+      "item_no": 5,
+      "title_cn": "离共振π旋转以双脉冲与十八脉冲检验噪声容限",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "quantum_spin"
+      ],
+      "sample_systems": [
+        "极化初态NMR自旋体系",
+        "离共振π旋转"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Wang 等提出双脉冲与十八脉冲序列，在离共振条件下实现单自旋π旋转，并以极化初态NMR自旋体系作实验检验。预印本报告两者保真度分别为0.9992±0.0008和0.9997±0.0006；十八脉冲方案的噪声容限约为驱动场强度的20%，约为双脉冲方案的三倍。",
+      "meaning_cn": "保真度及容限均对应文中规定的初态与噪声模型。用于谱学脉冲控制前，应进一步检查总序列长度、失谐范围、RF幅度分布及弛豫损失；这些参数可能改变多自旋样品中的净信号。该预印本的数值不能直接作为整套NMR实验的精度指标。",
+      "publication_date": "2026-10-12",
+      "time_scope": "7d_extension",
+      "source": "arXiv（预印本）",
+      "url": "https://arxiv.org/abs/2610.16098",
+      "doi": "10.48550/arxiv.2610.16098",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-10-16",
+      "last_updated": "2026-10-16",
+      "report_file": "SpinFront_2026-10-16.html"
+    },
+    {
+      "item_id": "SF-20261016-06",
+      "report_date": "2026-10-16",
+      "item_no": 6,
+      "title_cn": "EPR自旋计数辨认ZnAl₂O₄中Mn–Cr缺陷缔合",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "sample_systems": [
+        "Mn/Cr共掺杂ZnAl₂O₄纳米颗粒",
+        "交换耦合Cr–Mn缺陷"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Omondi 等结合定量EPR自旋计数与多种发光谱，研究两组稀Mn/Cr共掺杂ZnAl₂O₄纳米颗粒。预印本将结果解释为共边八面体Cr–Mn交换耦合缺陷；Mn改变Cr位点对称性及吸收。超过一定Mn浓度后，Mn进入EPR静默构型，两个发光通道均受到猝灭。",
+      "meaning_cn": "掺杂总量、EPR可见自旋数与发光强度需要分别比较；信号减少不能直接等同于元素流失。交换耦合及EPR静默组分会影响计数解释，需与光谱和浓度系列联用。该研究将发光最适浓度联系到缺陷物种分配，结论仍属预印本阶段。",
+      "publication_date": "2026-10-09",
+      "time_scope": "7d_extension",
+      "source": "arXiv（预印本）",
+      "url": "https://arxiv.org/abs/2610.14262",
+      "doi": "10.48550/arxiv.2610.14262",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-10-16",
+      "last_updated": "2026-10-16",
+      "report_file": "SpinFront_2026-10-16.html"
+    },
+    {
+      "item_id": "SF-20261016-07",
+      "report_date": "2026-10-16",
+      "item_no": 7,
+      "title_cn": "血浆与血清冻干重溶方案用于100 MHz台式代谢组",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "benchtop_nmr",
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "metabolomics",
+        "cpmg"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "商业人血浆",
+        "商业人血清",
+        "冻干/D₂O重溶"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "event",
+      "summary_cn": "Giraldi 等在会议摘要中报告血浆、血清台式NMR前处理：1.2 mL样品冻干18 h，以0.7 mL、90:10的D₂O/磷酸盐缓冲液重溶，并使用WET和CPMG-WET。600 MHz对照显示整体代谢轮廓大体保留；部分挥发性代谢物丢失，肌酐等痕量组分出现氘代相关变化。",
+      "meaning_cn": "冻干重溶减少水信号干扰，同时改变部分分析物的回收与交换状态。面向定量代谢组时，应逐物质检查回收率与重溶稳定性，避免仅凭PCA相近推定全部组分稳定。会议摘要中的100/600 MHz比较限于所测商业血浆及血清样品。",
+      "publication_date": "2026-10-09",
+      "time_scope": "7d_extension",
+      "source": "SCIFORUM · IECM 2026会议摘要",
+      "url": "https://sciforum.net/paper/34436",
+      "doi": "",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-10-16",
+      "last_updated": "2026-10-16",
+      "report_file": "SpinFront_2026-10-16.html"
+    },
+    {
+      "item_id": "SF-20261016-08",
+      "report_date": "2026-10-16",
+      "item_no": 8,
+      "title_cn": "尿液100/600 MHz对照检验冻干、缓冲与储存条件",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "benchtop_nmr",
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "健康志愿者尿液",
+        "冻干/WET",
+        "100/600 MHz对照"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "event",
+      "summary_cn": "Fantato 等在独立会议摘要中比较100与600 MHz尿液代谢谱，考察6、18和24 h冻干、重溶及储存条件。1.2 mL样品的18 h冻干方案水去除效果最佳；采用WET采集，并比较摇匀、离心的重复性。肌酐和柠檬酸出现时间依赖谱变，作者将其排除出后续分析。",
+      "meaning_cn": "低场与高场谱的整体可比性不能替代单个代谢物定量一致性。摘要中的磷酸盐缓冲液浓度为制备条件，未给出最终样品浓度，不宜直接照搬。肌酐、柠檬酸的时间依赖变化要求固定制样至采集的间隔，并保留未经冻干的参照样。",
+      "publication_date": "2026-10-09",
+      "time_scope": "7d_extension",
+      "source": "SCIFORUM · IECM 2026会议摘要",
+      "url": "https://sciforum.net/paper/34493",
+      "doi": "",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-10-16",
+      "last_updated": "2026-10-16",
+      "report_file": "SpinFront_2026-10-16.html"
+    },
+    {
+      "item_id": "SF-20261016-09",
+      "report_date": "2026-10-16",
+      "item_no": 9,
+      "title_cn": "低场时域NMR综述梳理炼油物性、混合物与多孔材料分析",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "process_analysis"
+      ],
+      "sample_systems": [
+        "石油炼制产物",
+        "流体混合物",
+        "多孔材料"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "review",
+      "summary_cn": "Zhang 等综述低场NMR、尤其时域NMR在炼油过程中的应用，覆盖物性测定、化学组成、混合物及多孔材料表征。研究以流体状态与性质监测为主线，讨论有限分辨率下的适用范围和方法限制；文中梳理T₁、T₂、CPMG及多指数反演等相关概念。",
+      "meaning_cn": "时域弛豫可用于油品状态和经验物性关联，但弛豫分布与具体化学组分之间通常缺少唯一映射。用于炼油样品时，需按温度、黏度、含水状态和组成范围建立独立对照；综述未提供可直接跨油品迁移的统一校准参数。",
+      "publication_date": "2026-10-15",
+      "time_scope": "7d_extension",
+      "source": "Applied Magnetic Resonance",
+      "url": "https://link.springer.com/article/10.1007/s00723-026-01887-z",
+      "doi": "10.1007/s00723-026-01887-z",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-16",
+      "last_updated": "2026-10-16",
+      "report_file": "SpinFront_2026-10-16.html"
+    },
+    {
+      "item_id": "SF-20261016-10",
+      "report_date": "2026-10-16",
+      "item_no": 10,
+      "title_cn": "采购动态：中国科学技术大学脉冲EPR中标599.5万元",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [],
+      "application_ids": [],
+      "sample_systems": [
+        "EPR100",
+        "ZF2026-17-1103"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "tender",
+      "summary_cn": "中国科学技术大学于2026年10月13日16:24发布脉冲式电子顺磁共振波谱仪中标公告，项目编号ZF2026-17-1103；国仪量子技术（合肥）股份有限公司中标，设备为国仪量子EPR100，数量1台，中标金额599.5万元。本条为中标结果公告，未将中标金额写为采购预算。",
+      "meaning_cn": "原始公告确认了型号、数量和成交价格，未列频段、脉冲宽度、探头或低温附件等技术配置；这些内容需依据该项目招标文件与合同另行核对。中标公告对应结果阶段，正文不补写原文未载的投标截止时间。",
+      "publication_date": "2026-10-13",
+      "time_scope": "7d_extension",
+      "source": "中国科学技术大学脉冲EPR中标公告 · 中国政府采购网",
+      "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202610/t20261013_27480833.htm",
+      "doi": "",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-10-16",
+      "last_updated": "2026-10-16",
+      "report_file": "SpinFront_2026-10-16.html"
+    }
+  ]
+}

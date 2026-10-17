@@ -20,6 +20,25 @@ def esc(s):return html.escape(str(s or ''))
 def link(url,label):
  if not re.match(r'^https?://',url or '',re.I):raise ValueError('Unsupported source URL')
  return '<a href="'+html.escape(url,quote=True)+'" rel="noopener noreferrer">'+esc(label)+'</a>'
+def validate_procurement(d):
+ tenders=[n for n,a in enumerate(d['items']) if a['information_type']=='tender']
+ status=d.get('procurement_status')
+ if d['report_date']>='2026-10-17':
+  assert len(tenders)<=1 and (not tenders or tenders==[len(d['items'])-1]),'Procurement must be the final combined item'
+  assert tenders or status is not None,'Missing final procurement check'
+ if status is not None:
+  assert not tenders,'Use a tender item or a no-update status, never both'
+  assert status['status']=='no_verified_updates'
+  assert status['title_cn']=='采购与需求动态'
+  assert '本期未检索到新增已核实公告' in status['summary_cn']
+  assert isinstance(status['registered_candidates'],int) and status['registered_candidates']>=0
+  checked=datetime.datetime.fromisoformat(status['checked_at'])
+  assert checked.tzinfo is not None and checked.astimezone(datetime.timezone(datetime.timedelta(hours=8))).date().isoformat()==d['report_date']
+  assert not any('image' in k.lower() for k in status)
+def procurement_status_html(d):
+ status=d.get('procurement_status')
+ if status is None:return ''
+ return '<div class="story" id="procurement-status-'+esc(d['report_date'])+'"><div class="story-index">'+f'{len(d["items"])+1:02d}'+'<span>/</span></div><div class="story-main"><div class="story-type">采购核查 · 暂无新增已核实公告</div><h2>'+esc(status['title_cn'])+'</h2><p class="summary">'+esc(status['summary_cn'])+'</p><div class="story-meta"><span>核查时刻</span><strong>'+esc(status['checked_at'])+'</strong><span>登记候选</span><div>'+str(status['registered_candidates'])+'份；本栏不计为采购公告或新增资讯。</div></div></div></div>'
 def load():
  tax=read(ROOT/'taxonomy/taxonomy.json');labels={(t['dimension'],t['id']):t['label_cn'] for t in tax['tags']};issues=[];seen=set()
  for p in sorted((ROOT/'data').glob('*/SpinFront_*.json')):
@@ -37,6 +56,7 @@ def load():
    link(a['url'],a['source'])
    for src in a['alternative_sources']:link(src['url'],src['name'])
    assert not any(k.lower() in ['image','images','image_url','image_data','image_keywords'] for k in a)
+  validate_procurement(d)
   issues.append(d)
  for dim,groups in tax.get('ui_groups',{}).items():
   roots={t['id'] for t in tax['tags'] if t['dimension']==dim and not t['parent_ids']}
@@ -116,7 +136,7 @@ def issue_html(d,labels,epigraphs,prev_date='',next_date='',standalone=False):
    doi_url='https://doi.org/'+html.escape(a['doi'],quote=True)
    source+=' · <span class="source-doi">DOI <a href="'+doi_url+'" rel="noopener noreferrer">'+esc(a['doi'])+'</a></span>'
   body+='<article class="story" id="'+a['item_id']+'"><div class="story-index">'+f'{a["item_no"]:02d}'+'<span>/</span></div><div class="story-main"><div class="story-type">'+info_type+' · '+time+'</div><h2>'+esc(a['title_cn'])+'</h2><div class="story-tags-inline">'+inline_tags+'</div><p class="summary">'+esc(a['summary_cn']).replace('\n','<br>')+'</p><aside class="commentary"><div class="commentary-label">TECHNICAL COMMENTARY</div><p>'+esc(a['meaning_cn']).replace('\n','<br>')+'</p></aside><div class="story-meta"><span>Published</span><strong>'+esc(a['publication_date'] or '待核实')+'</strong><span>Source</span><div class="source-line">'+source+'</div></div></div><div class="story-side">'+(side_tags if side_tags else info_type)+'</div></article>'
- body+='</section>'+issue_nav(prev_date,next_date,standalone)+footer(date,standalone)
+ body+=procurement_status_html(d)+'</section>'+issue_nav(prev_date,next_date,standalone)+footer(date,standalone)
  return shell('SpinFront · '+date,body,'../',standalone)
 def archive_html(issues):
  groups={}

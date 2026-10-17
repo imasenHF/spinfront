@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "report_date": "2026-10-17",
-  "retrieval_cutoff": "2026-10-17T00:10:10.414781+00:00",
+  "retrieval_cutoff": "2026-10-17T00:24:10.689652+00:00",
   "repository": {
     "full_name": "imasenHF/spinfront",
     "base_head": "dce72634d36be5f351a1f598978b82ab91496fd5",
@@ -33,7 +33,9 @@
     "excluded_duplicate_candidates": 18,
     "unconfirmed_date_exclusions": 2,
     "selected_collisions": 0,
-    "procurement_review_records_checked": true
+    "procurement_review_records_checked": true,
+    "revision_base_issues": 59,
+    "revision_base_items": 501
   },
   "search_summary": {
     "regular_trigger": "strict 24h qualified <5",
@@ -131,21 +133,22 @@
           "SAM.gov",
           "IISER Bhopal"
         ],
-        "status": "independent China and overseas checks; CCGP403, university pages incomplete, SAM front page does not supply qualifying dated opportunity; 8 registered candidates excluded"
+        "status": "原阶段已登记8候选；补查官方公开接口及实时高校首页后，现登记12候选，1份公告原文核实入选、11份排除或待核实。"
       }
     ],
-    "registered_candidate_count": 59,
-    "daily_item_count": 10,
+    "registered_candidate_count": 60,
+    "daily_item_count": 11,
     "procurement": {
-      "registered_candidates": 8,
-      "qualified_announcements": 0,
-      "excluded_announcements": 8,
-      "summary_item_id": null
+      "registered_candidates": 12,
+      "qualified_announcements": 1,
+      "excluded_announcements": 11,
+      "summary_item_id": "SF-20261017-11"
     },
     "limitations": [
       "Unsuccessful primary retrievals retained as exclusions, never recast as no events.",
       "Date-only records conservatively classified 7d_extension.",
-      "No inaccessible textbooks used; no images retrieved."
+      "No inaccessible textbooks used; no images retrieved.",
+      "2026-10-17补查发现OITC普通页面读取不执行动态请求；已通过官网实际公开接口读取原文，修正此前排除。BNU意向记录仍未核实。"
     ]
   },
   "candidates": [
@@ -1181,6 +1184,32 @@
       "duplicate_match": "SF-20261016-06",
       "source_location": "primary publisher/arXiv and historical issue comparison",
       "tag_review_status": "not_applicable"
+    },
+    {
+      "candidate_title": "采购与需求动态：大连化物所550万元EPR时间分辨系统招标",
+      "item_id": "SF-20261017-11",
+      "normalized_url": "https://www.oitccas.com/pages/tender_online_info.html?FormNo=ZBLX26100217",
+      "normalized_doi": "",
+      "actual_date": "2026-10-16",
+      "publication_status": "unknown",
+      "magnetic_resonance_role": "direct_procurement",
+      "source_location": "官方详情API data.TenderContent、ReleaseTime、ProjectNo；列表API检索定位FormNo。",
+      "role_evidence": "采购1套EPR时间分辨系统，直接仪器采购。",
+      "decision": "include",
+      "reason": "公开只读接口已取得完整原公告；时间、采购对象与预算确认，全库项目编号/URL未匹配既有入选项目。",
+      "duplicate_key": "project_id:OITC-G260670471",
+      "tags": {
+        "direction_ids": {
+          "epr": "采购对象明确为电子顺磁共振系统。"
+        },
+        "method_ids": {
+          "time_resolved_epr": "原公告设备名称明确时间分辨系统，不推定频段或时间参数。"
+        }
+      },
+      "tag_review_status": "approved",
+      "source_review": "verified_primary_full_text",
+      "date_review": "verified_release_date",
+      "science_review": "no_unpublished_specifications_inferred"
     }
   ],
   "procurement_candidates": [
@@ -1189,12 +1218,40 @@
       "candidate_title": "EPR时间分辨系统",
       "project_id": "OITC-G260670471",
       "reported_date": "2026-10-16",
-      "actual_date_verified": false,
+      "actual_date_verified": true,
       "primary_site_attempt": "https://www.oitccas.com/",
-      "decision": "exclude",
-      "reason": "聚合页提供550万元与11月9日截止线索，代理网站未返回可核对的本项目正文。",
+      "decision": "include",
+      "reason": "公开只读接口已取得完整原公告；时间、采购对象与预算确认，全库项目编号/URL未匹配既有入选项目。",
       "duplicate_key": "project_id:OITC-G260670471",
-      "tag_review_status": "not_applicable"
+      "tag_review_status": "approved",
+      "actual_date": "2026-10-16",
+      "release_time_raw": "2026-10-16 16:45:41",
+      "time_scope": "7d_extension",
+      "primary_url": "https://www.oitccas.com/pages/tender_online_info.html?FormNo=ZBLX26100217",
+      "primary_api": "https://www.oitccas.com/WLH/WorkFlow/Services/BIDHandler.ashx?method=TenderProjectByFormNo&FormNo=ZBLX26100217",
+      "source_location": "官方详情API data.TenderContent、ReleaseTime、ProjectNo；列表API检索定位FormNo。",
+      "item_id": "SF-20261017-11",
+      "source_review": "verified_primary_full_text",
+      "date_review": "verified_release_date",
+      "verified_fields": {
+        "unit": "中国科学院大连化学物理研究所",
+        "instrument": "电子顺磁共振时间分辨系统",
+        "quantity": 1,
+        "budget_cny": 5500000,
+        "cap_cny": 5500000,
+        "import_allowed": false,
+        "documents_end": "2026-10-23",
+        "bid_deadline": "2026-11-09T09:30:00+08:00",
+        "consortium_allowed": false
+      },
+      "tags": {
+        "direction_ids": {
+          "epr": "采购对象明确为电子顺磁共振系统。"
+        },
+        "method_ids": {
+          "time_resolved_epr": "原公告设备名称明确时间分辨系统，不推定频段或时间参数。"
+        }
+      }
     },
     {
       "procurement_unit": "西安交通大学",
@@ -1281,39 +1338,70 @@
       "duplicate_key": "project_id:ZX2026-04-62",
       "tag_review_status": "not_applicable",
       "historical_context": "原招标已收录SF-20260902-02；合同阶段尚无已核实原文，不重复刊登旧招标。"
+    },
+    {
+      "candidate_title": "核磁共振电子控制与数据处理系统采购意向",
+      "procurement_unit": "北京师范大学",
+      "source_url": "https://www.qianlima.com/bid-639389004.html",
+      "reported_date": "2026-10-16",
+      "decision": "exclude",
+      "reason": "聚合页显示750万元、1套、预计2026-11；CCGP意向原始记录未读取，保留线索不入正文。",
+      "tag_review_status": "not_applicable"
+    },
+    {
+      "candidate_title": "多规格固体核磁共振探头套装采购意向",
+      "procurement_unit": "北京师范大学",
+      "source_url": "https://www.qianlima.com/bid-639389009.html",
+      "reported_date": "2026-10-16",
+      "decision": "exclude",
+      "reason": "聚合页显示360万元、1套、预计2026-11；CCGP意向原始记录未读取，保留线索不入正文。",
+      "tag_review_status": "not_applicable"
+    },
+    {
+      "candidate_title": "2026年化学院EPR波谱仪（11417）结果公告",
+      "procurement_unit": "山东师范大学",
+      "source_url": "https://zcb.sdnu.edu.cn/",
+      "reported_date": "2026-10-16",
+      "decision": "exclude",
+      "reason": "实时校方首页确认10月16日结果公告并取得山东政采原文链接，原文返回502，未核实成交配置与金额。",
+      "tag_review_status": "not_applicable"
+    },
+    {
+      "candidate_title": "中国科学院基础医学与肿瘤研究所（筹）EPR采购",
+      "procurement_unit": "中国科学院基础医学与肿瘤研究所（筹）",
+      "source_url": "https://www.oitccas.com/pages/tender_online_info.html?FormNo=ZBLX26100202",
+      "reported_date": "2026-10-16",
+      "decision": "exclude",
+      "reason": "代理机构10月16日重发记录的截标时间为10月15日，并有9月28日同项目；新事件/变更未确认，排除重复重发。",
+      "tag_review_status": "not_applicable"
     }
   ],
   "publication": {
-    "status": "prepared_for_atomic_commit",
-    "paths": [
-      "data/2026/SpinFront_2026-10-17.json",
-      "docs/reviews/2026-10-17.json"
-    ],
-    "expected_parent_sha": "dce72634d36be5f351a1f598978b82ab91496fd5",
-    "background_execution_requested": false,
-    "concurrency_policy": "refetch HEAD and same-day paths before update; reject mismatched expected SHA"
+    "status": "revision_prepared_for_atomic_commit",
+    "previous_published_commit": "29ec852f16617cf493545b53bb8357c0d5e77c6a",
+    "expected_parent_sha": "29ec852f16617cf493545b53bb8357c0d5e77c6a",
+    "background_execution_requested": false
   },
   "validation": {
     "status": "passed",
     "commands": [
       "python scripts/build.py --check",
       "python scripts/build.py",
-      "node tests/search.test.cjs"
+      "node tests/search.test.cjs",
+      "python tests/procurement.test.py"
     ],
     "results": {
       "issues": 59,
-      "items": 501,
-      "new_items": 10,
-      "web_and_standalone_article_order": true,
-      "title_summary_meaning_date_source_url_fields_match": true,
-      "standalone_inline_css": true,
-      "no_images": true,
-      "copyright_and_date_match_existing_template": true,
-      "search_index_new_items": 10,
-      "verified_preexisting_source_blobs": 92,
-      "preexisting_source_blobs_unchanged": true
+      "items": 502,
+      "today_items": 11,
+      "procurement_announcements": 1,
+      "registered_procurement_candidates": 12,
+      "procurement_tests": 6,
+      "last_item_is_combined_tender": true,
+      "original_10_item_ids_and_content_preserved": true,
+      "source_text_fields_verified_against_official_api": true
     },
-    "tag_audit": "approved after removing unsupported computation_nmr, zero_field_nmr, magnet and nanomagnetic_resonance tags"
+    "deployment": "checked after commit; not claimed in advance"
   },
   "tag_review_notes": [
     "EPR计算未映射到计算NMR；超低场不强行映射零场；磁屏蔽未标磁体；单细胞尺度未标纳米尺度。未覆盖概念保留样品或正文。"
@@ -2528,5 +2616,37 @@
       ],
       "failures": []
     }
-  ]
+  ],
+  "revisions": [
+    {
+      "at": "2026-10-17T00:24:10.689652+00:00",
+      "request": "每天最后一条固定采购、招投标、需求或意向信息。",
+      "previous_commit": "29ec852f16617cf493545b53bb8357c0d5e77c6a",
+      "changed_item_ids": [
+        "SF-20261017-11"
+      ],
+      "preserved_item_ids": [
+        "SF-20261017-01",
+        "SF-20261017-02",
+        "SF-20261017-03",
+        "SF-20261017-04",
+        "SF-20261017-05",
+        "SF-20261017-06",
+        "SF-20261017-07",
+        "SF-20261017-08",
+        "SF-20261017-09",
+        "SF-20261017-10"
+      ],
+      "reason": "补查官方动态接口后大连化物所公告达到原文核验要求；追加采购末条。同步规则及无新增公告的末尾说明。"
+    }
+  ],
+  "policy_change": {
+    "fixed_last_section": "采购与需求动态",
+    "includes_intentions_and_demand_consultations": true,
+    "no_update_status_is_not_an_announcement": true,
+    "automation_prompt_updated": true,
+    "automation_enabled_observed": false,
+    "automation_schedule_unchanged": true,
+    "background_run_started": false
+  }
 }

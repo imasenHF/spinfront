@@ -6,7 +6,7 @@
 
 不设置EPR与NMR的固定条数或主题顺序，按当日信息价值动态分配；允许当日内容主要或全部属于NMR或EPR。混合编排学术进展、仪器产品与技术、应用案例、行业市场、政策及采购动态，兼顾中国与海外来源，采用中英混合表达。
 
-采购编排固定为末条：多条合格采购公告合并为一条连续段落，不分点；仅一条也放在最后，没有合格公告不设空条目。合并、逐公告来源与日期、JSON字段、查重及双重计数的完整规则以docs/DAILY_OUTPUT_RULES.md的“采购信息合并编排”为准。此规则优先于普通条目的字数与动态主题顺序约定；正常日报仍以10条内容为目标，采购汇总只占1条。
+采购与需求动态每天固定为正文末条。首先专项检查采购意向、需求调查/征集、市场调研、招标/询价/磋商、变更/延期、成交/中标、终止/废标及合同公告，再选择其他资讯，通常为9条其他资讯加1条采购汇总。多份合格公告合并为一个连续段落，不分点；仅一份也放末条。近7天仍无新增已核实公告时，在items之后输出顶层procurement_status对应的采购核查说明，不能省略末尾栏目，也不能虚构公告。合并、分阶段写法、逐公告来源与日期、JSON字段、查重、双重计数及公开接口补查方法完整执行docs/DAILY_OUTPUT_RULES.md的“采购与需求动态固定末条”。此规则优先于普通条目的字数与主题顺序约定。
 
 优先检索过去24小时。若不足10条，可扩展至过去7天，并在对应条目中标注“近7天扩展”及准确发布日期；仍不足时只发送符合质量要求的实际条目，不用低相关性内容补足。核对页面发布时间与事件发生时间，避免重复上一期已经发送的内容。优先使用论文原文、期刊、机构官网、公司公告和政府采购等一手来源。
 
@@ -74,7 +74,7 @@ SpinFront · NMR / EPR Daily Brief · YYYY-MM-DD
 
 模板、数据与发布：先生成唯一当期JSON作为内容源，顶层包含schema_version、taxonomy_version、report_date、scope_note、items，taxonomy_version使用仓库当前版本。按仓库既有字段规则生成items，不携带图片字段。由同一JSON输出屏幕正文、网页与可下载HTML；使用templates/issue.html、assets/style.css和scripts/build.py，禁止每期重新写CSS或独立设计卡片。可下载HTML取构建产物_site/downloads/SpinFront_YYYY-MM-DD.html，其中CSS内嵌；JSON取data/YYYY/SpinFront_YYYY-MM-DD.json。网页日报由构建生成YYYY-MM-DD/index.html，主页日历、搜索索引及归档随构建自动更新。
 
-用户已授权此每日任务自动向公开仓库imasenHF/spinfront提交合格日报JSON和当期Review日志，并触发GitHub Pages发布，无需每天再次确认。每次先用GitHub只读工具验证当前运行具备仓库读写能力并读取main最新HEAD。只提交data/YYYY/当期JSON与docs/reviews/当期日志；正常日报运行不得修改模板、样式、词表、工作流、历史记录或主站仓库。不得提交凭证、私人教材、客户材料、下载的第三方全文或本地生成的_site目录。运行python scripts/build.py --check、python scripts/build.py、node tests/search.test.cjs，并核对屏幕/HTML/JSON数量、顺序、正文、日期、来源相同，单文件HTML不依赖外部CSS。检查全库DOI/URL/标题查重及至少7期近期发送内容后再提交。提交信息为Publish SpinFront YYYY-MM-DD (N items)。使用已授权GitHub连接的写入能力，原子提交两个文件，以最新HEAD为父提交，禁止force push。已有同日文件先比较内容；相同不重复提交，不同作为明确修订保留既有item_id并记录日志，不能无依据覆盖。冲突时重读最新HEAD和当日数据重新校验，不能覆盖并发修改。
+用户已授权此每日任务自动向公开仓库imasenHF/spinfront提交合格日报JSON和当期Review日志，并触发GitHub Pages发布，无需每天再次确认。每次先用GitHub只读工具验证当前运行具备仓库读写能力并读取main最新HEAD。只提交data/YYYY/当期JSON与docs/reviews/当期日志；正常日报运行不得修改模板、样式、词表、工作流、历史记录或主站仓库。不得提交凭证、私人教材、客户材料、下载的第三方全文或本地生成的_site目录。运行python scripts/build.py --check、python scripts/build.py、node tests/search.test.cjs、python tests/procurement.test.py，并核对屏幕/HTML/JSON数量、顺序、正文、日期、来源相同，单文件HTML不依赖外部CSS。检查全库DOI/URL/标题查重及至少7期近期发送内容后再提交。提交信息为Publish SpinFront YYYY-MM-DD (N items)。使用已授权GitHub连接的写入能力，原子提交两个文件，以最新HEAD为父提交，禁止force push。已有同日文件先比较内容；相同不重复提交，不同作为明确修订保留既有item_id并记录日志，不能无依据覆盖。冲突时重读最新HEAD和当日数据重新校验，不能覆盖并发修改。
 
 提交后检查该commit对应Actions构建及Pages部署状态，访问并验证当期公开页面与索引中实际有新日期和正确条目数。最终在版权页脚之后另附简短执行状态，注明报告/标签审阅完成情况、提交SHA、部署状态及公开链接；发布状态不写入学术条目正文。只有提交和部署核实成功才写已发布。GitHub写入工具不可用、连接过期或权限不足时，继续完成正文与HTML/JSON并保留Review日志，明确写未提交及具体原因；自动化执行上下文的工具与授权可能不同于当前对话，不得把提示词写入视作未来成功发布的保证。部署仍进行中写待部署确认；失败报告日志中的原因与已保存结果，不声称主页已更新。
 

@@ -1,0 +1,383 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-10-18",
+  "scope_note": "检索截止2026-10-18 06:11（Asia/Shanghai），优先过去24小时并回扫10月11日至17日七个自然日。因常规阶段严格24小时合格项不足5条、增强阶段七日合格项不足8条，已启动增强搜索及深度增强检索，逐日及分路线核查高影响/专业期刊、预印本与文献数据库、厂商、会议及中外采购，并轮查九组方法词。本期实际10条，含9条论文/综述与1条末尾采购汇总，采购公告实际1份；均标为近7天扩展，未由日期边界推定24小时。全库59期502条及最近7期正文、采购来源和Review已查重，已登记重复候选排除7项；另10份采购候选因未同时核实原始正文与实际日期而排除，具体状态见Review。部分出版商、厂商、采购与会议页面访问失败或未渲染，已尝试一手元数据、官方列表与公开只读接口补查；杭州师大采购原文已读取，其余未核实公告不纳入。未取得私人教材，技术解释限于可读正文或明确的一手摘要。待复核正式标签：无。",
+  "items": [
+    {
+      "item_id": "SF-20261018-01",
+      "report_date": "2026-10-18",
+      "item_no": 1,
+      "title_cn": "SIM-SSFP同步追踪¹H与¹⁹F，检查PFAS氧化中的氟去向",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr",
+        "reaction_monitoring"
+      ],
+      "application_ids": [
+        "environment"
+      ],
+      "sample_systems": [
+        "PFAS",
+        "6:2氟调聚醇",
+        "水成膜泡沫"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Wolff 等将稳态自由进动与多接收NMR结合，同步采集¹H、¹⁹F独立一维数据，用于PFAS体系的过程监测。应用于总可氧化前体测定时，谱图显示泡沫中部分未知PFAS未完全转化，且有机氟会转为无机氟离子；仅追踪可被质谱测出的产物可能低估污染物。",
+      "meaning_cn": "双核同步采集保留传统SSFP的灵敏度和分辨率，可对照含氢片段与含氟物种的同步变化。SSFP以谱分辨率换取快速重复采集，不能直接等同常规高分辨谱；TOP测定的氟收支还需区分残留有机氟、目标产物及无机氟。",
+      "publication_date": "2026-10-17",
+      "time_scope": "7d_extension",
+      "source": "Analytical Chemistry",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.analchem.6c04038",
+      "doi": "10.1021/acs.analchem.6c04038",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-18",
+      "last_updated": "2026-10-18",
+      "report_file": "SpinFront_2026-10-18.html"
+    },
+    {
+      "item_id": "SF-20261018-02",
+      "report_date": "2026-10-18",
+      "item_no": 2,
+      "title_cn": "THz-EPR揭示高自旋锁定Fe(II)体系的自旋–声子耦合",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "sample_systems": [
+        "高自旋锁定Fe(II)自旋交叉化合物"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Al Said 等用频域傅里叶变换THz-EPR研究两种低温仍保持S=2高自旋态的Fe(II)自旋交叉体系。零场下约5–10及30 cm⁻¹的跃迁可用零场分裂与菱形各向异性解释；其中一种化合物的磁场色散需纳入自旋–声子耦合，才能得到充分模拟。",
+      "meaning_cn": "THz频段直接约束大零场分裂体系中的低能磁跃迁，磁场色散进一步检验静态自旋哈密顿量是否足够。该工作比较的是两个特定化合物，不能仅凭S=2就预设相同耦合；摘要未给出完整温度、场强与装置参数，不据此添加X波段或脉冲EPR配置。",
+      "publication_date": "2026-10-14",
+      "time_scope": "7d_extension",
+      "source": "Inorganic Chemistry",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.inorgchem.6c04101",
+      "doi": "10.1021/acs.inorgchem.6c04101",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-18",
+      "last_updated": "2026-10-18",
+      "report_file": "SpinFront_2026-10-18.html"
+    },
+    {
+      "item_id": "SF-20261018-03",
+      "report_date": "2026-10-18",
+      "item_no": 3,
+      "title_cn": "固体NMR综述比较peptaibol膜取向与浓度依赖寡聚",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr",
+        "mas"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "peptaibol抗菌肽",
+        "磷脂双层"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "review",
+      "summary_cn": "Bechinger 等综述peptaibol在磷脂双层中的固体NMR研究：¹⁵N标记与取向膜约束肽链倾角，¹⁹F标记及MAS CODEX辅助分析组装。alamethicin在不同肽脂比下呈二聚或五聚，而模拟细菌膜的脂质组成可使其转为平行取向，提示膜组成与浓度共同影响作用模式。",
+      "meaning_cn": "比较实验须同时记录同位素标记、脂质配方及肽脂比，不能把某一聚集数当成肽的固定属性。综述所汇集的CODEX结果中，alamethicin在肽脂比1/30与1/13分别形成二聚和五聚；取向膜与MAS提供不同约束，不宜混作同一种结构测量。",
+      "publication_date": "2026-10-16",
+      "time_scope": "7d_extension",
+      "source": "Journal of Peptide Science",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/psc.70138",
+      "doi": "10.1002/psc.70138",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-18",
+      "last_updated": "2026-10-18",
+      "report_file": "SpinFront_2026-10-18.html"
+    },
+    {
+      "item_id": "SF-20261018-04",
+      "report_date": "2026-10-18",
+      "item_no": 4,
+      "title_cn": "室温光学读出分子¹⁴N核自旋的相干控制",
+      "direction_ids": [
+        "nmr",
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "odmr"
+      ],
+      "application_ids": [
+        "quantum_spin"
+      ],
+      "sample_systems": [
+        "6,13-diazapentacene光激发三重态",
+        "¹⁴N核自旋"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Irving 等在预印本中报告，利用6,13-diazapentacene的光激发三重态，在室温下光学检测¹⁴N核自旋Rabi振荡。强超精细相互作用提高了核自旋Rabi频率，将光学读出与分子核自旋相干操控联系起来；研究对象是特定光激发分子体系，并非通用溶液NMR检测方案。",
+      "meaning_cn": "该方案需要可光激发并具有适当电子–核超精细耦合的分子，核自旋控制与电子自旋光学读出必须协同设计。室温结果不等于已证明任意分子、任意核种均可采用相同读出；目前为预印本，器件化与跨体系适用性仍需独立验证。",
+      "publication_date": "2026-10-12",
+      "time_scope": "7d_extension",
+      "source": "arXiv（预印本）",
+      "url": "https://arxiv.org/abs/2610.17050",
+      "doi": "10.48550/arxiv.2610.17050",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-10-18",
+      "last_updated": "2026-10-18",
+      "report_file": "SpinFront_2026-10-18.html"
+    },
+    {
+      "item_id": "SF-20261018-05",
+      "report_date": "2026-10-18",
+      "item_no": 5,
+      "title_cn": "配对样本如何影响跨平台NMR代谢组校准",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "人血浆",
+        "跨队列配对样本"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Ottas 等比较跨队列NMR代谢组的多种协调方法，将500 MHz平台的大队列与600 MHz平台的小队列联系起来，并利用108份两端均测量的配对样本评价迁移效果。配对信息改善部分分析，但简单归一化往往可达到或超过更复杂方法；模型复杂度本身不保证更可靠的跨平台预测。",
+      "meaning_cn": "研究以共同测得的11种代谢物比较归一化、最优传输及其他校准策略，配对样本能帮助识别平台差异。原始定量流程包括Nightingale与PULCON/Chenomx，比较时不能只看磁场强弱；分类表现受样本构成与代谢物交集约束，不代表已验证临床诊断能力。",
+      "publication_date": "2026-10-17",
+      "time_scope": "7d_extension",
+      "source": "Metabolomics",
+      "url": "https://link.springer.com/article/10.1007/s11306-026-02543-0",
+      "doi": "10.1007/s11306-026-02543-0",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-18",
+      "last_updated": "2026-10-18",
+      "report_file": "SpinFront_2026-10-18.html"
+    },
+    {
+      "item_id": "SF-20261018-06",
+      "report_date": "2026-10-18",
+      "item_no": 6,
+      "title_cn": "V NMR区分ScV₆Sn₆中的短程与长程电荷密度波",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "sample_systems": [
+        "kagome晶格ScV₆Sn₆"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Zhang 等用NMR研究ScV₆Sn₆的电荷密度波。88 K转变温度以上的线宽变化指向短程有序；转变以下，V卫星跃迁分成强度约2:1的双峰。两种谱学特征分别支持不同的短程与长程调制图景，使局域电子环境成为辨别竞争电荷序的依据。",
+      "meaning_cn": "线宽与四极卫星分裂分别反映局域分布及不等价V位点，可补充衍射对长程周期的表征。作者将高温短程序与√3×√3×2、低温长程序与√3×√3×3联系起来；这些归属依赖结构模型，不能把峰面积比单独当成完整晶体结构的直接测定。",
+      "publication_date": "2026-10-13",
+      "time_scope": "7d_extension",
+      "source": "Physical Review Materials",
+      "url": "https://journals.aps.org/prmaterials/abstract/10.1103/5pky-5cwq",
+      "doi": "10.1103/5pky-5cwq",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-18",
+      "last_updated": "2026-10-18",
+      "report_file": "SpinFront_2026-10-18.html"
+    },
+    {
+      "item_id": "SF-20261018-07",
+      "report_date": "2026-10-18",
+      "item_no": 7,
+      "title_cn": "¹³C{¹H} NMR引导分离焦糖色素IV的候选标志物",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "sample_systems": [
+        "亚硫酸铵法焦糖色素IV"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Zhao 等分析31份中国及1份美国焦糖色素IV样品，以δ 31.6和55.7 ppm信号引导分离，并结合NMR与高分辨质谱解析一种磺酸盐小分子。其相对构型由合成支持，绝对构型仍为暂定；该物质在多数样品中出现，可作为候选标志物，但尚需更广样本验证。",
+      "meaning_cn": "特征¹³C信号把复杂色素混合物筛查与后续提取、凝胶过滤及C18分离连接起来，目标不是常规合成产物确认。一份中国样品未呈现对应信号，因此不能把阴性结果直接解释为掺假；暂定绝对构型也不应写成已经确证的质量标准。",
+      "publication_date": "2026-10-16",
+      "time_scope": "7d_extension",
+      "source": "Journal of Agricultural and Food Chemistry",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.jafc.6c12495",
+      "doi": "10.1021/acs.jafc.6c12495",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-18",
+      "last_updated": "2026-10-18",
+      "report_file": "SpinFront_2026-10-18.html"
+    },
+    {
+      "item_id": "SF-20261018-08",
+      "report_date": "2026-10-18",
+      "item_no": 8,
+      "title_cn": "多维NMR拆分BDDE交联胶原的修饰位点与产物分布",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr",
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "polymers"
+      ],
+      "sample_systems": [
+        "BDDE交联重组人III型胶原"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Cui 等在预印本中结合¹H、¹³C及COSY、HSQC、HMBC研究BDDE交联重组人III型胶原，定位赖氨酸ε-氨基的主要修饰，并区分单臂连接与双臂交联产物。研究以NMR量化修饰和交联参数，强调总BDDE引入量不等于有效交联比例，而非仅用谱图确认材料合成。",
+      "meaning_cn": "文中样品约30 mg溶于500 μL D₂O，常规实验在600 MHz、298 K进行，定量¹³C另用800 MHz低温探头条件。峰重叠与单臂、双臂产物区分是分析要点；跨样品比较须沿用同一定量与积分定义，预印本中的材料性能或相容性测试不等同临床安全认证。",
+      "publication_date": "2026-10-13",
+      "time_scope": "7d_extension",
+      "source": "Preprints.org（预印本）",
+      "url": "https://www.preprints.org/manuscript/202610.1197",
+      "doi": "",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-10-18",
+      "last_updated": "2026-10-18",
+      "report_file": "SpinFront_2026-10-18.html"
+    },
+    {
+      "item_id": "SF-20261018-09",
+      "report_date": "2026-10-18",
+      "item_no": 9,
+      "title_cn": "NV-NMR自动调试案例报告频率估计精度与漂移瓶颈",
+      "direction_ids": [
+        "nmr",
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "odmr",
+        "dnp"
+      ],
+      "application_ids": [
+        "instrumentation",
+        "quantum_spin"
+      ],
+      "sample_systems": [
+        "NV金刚石传感器",
+        "含5 mM 4-hydroxy-TEMPO的水"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Reed 等在预印本中报告NV-NMR调试案例：围绕约21 mT下的水样信号执行151次实验，耗时约20.8小时。以10分钟测量得到的¹H频率估计不确定度为优化指标，最佳值为0.97 Hz；多次复测显示磁场漂移仍是主要限制。这里的Hz数值是估计不确定度，不是谱线宽度。",
+      "meaning_cn": "该案例使用亚纳升级水样与5 mM稳定自由基，通过ODNP增强后由NV光学读出。最终设置的10次复测中，频率不确定度中位数为1.47 Hz，不能只以单次最佳值代表稳定性能；讨论自动调参成效须同时报告测量时长、重复结果与漂移影响。",
+      "publication_date": "2026-10-12",
+      "time_scope": "7d_extension",
+      "source": "arXiv（预印本）",
+      "url": "https://arxiv.org/abs/2610.17193",
+      "doi": "10.48550/arxiv.2610.17193",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-10-18",
+      "last_updated": "2026-10-18",
+      "report_file": "SpinFront_2026-10-18.html"
+    },
+    {
+      "item_id": "SF-20261018-10",
+      "report_date": "2026-10-18",
+      "item_no": 10,
+      "title_cn": "采购与需求动态：杭州师大低场NMR公开招标",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [],
+      "sample_systems": [
+        "低场核磁共振分析仪"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "tender",
+      "summary_cn": "杭州师范大学于2026年10月12日发布低场核磁共振分析仪公开招标公告（HZNU-2026255），拟采购1套，预算及最高限价均为86万元；招标文件获取期为10月12日至26日，投标截止及开标时间为2026年11月3日10:00（北京时间）。公告不允许进口产品、不接受联合体，合同签订后15日历天内供货到位。",
+      "meaning_cn": "本公告处于公开招标阶段，并非采购意向或成交结果。15日历天供货要求与不允许进口产品是已确认的采购条件；磁场强度、脉冲序列及探头配置须以采购文件为准，公开公告未提供，不能仅凭“低场”推定为TD-NMR或台式高分辨设备。",
+      "publication_date": "2026-10-12",
+      "time_scope": "7d_extension",
+      "source": "杭州师范大学采购网—低场核磁共振分析仪",
+      "url": "https://cgzx.hznu.edu.cn/J-pb-purchase/anno/projectAnnoReader.jsf?annoId=26081247",
+      "doi": "",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-10-18",
+      "last_updated": "2026-10-18",
+      "report_file": "SpinFront_2026-10-18.html"
+    }
+  ]
+}

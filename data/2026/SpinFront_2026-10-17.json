@@ -1,0 +1,402 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-10-17",
+  "scope_note": "检索优先过去24小时，并扩展回扫2026-10-10至10-16七个自然日。因常规核验未获得5条严格24小时条目、增强阶段合格内容不足8条，已启动增强搜索及深度增强检索，覆盖高影响与磁共振专业期刊、预印本/文献数据库、厂商、会议及中外采购，轮查九组方法词。本期10条内容全部按“近7天扩展”处理，其中8条论文/协议、2条有独立技术摘要的报告；报告采用活动日期，未将网页抓取时间视为发布时间。已与全库58期491条及最近7期查重，已登记候选排除DOI重复18项；另有2项在线/公告日期不明排除。已登记采购候选8份，合格0份，本期不设采购汇总。部分出版商、厂商和采购网站访问失败；可收录论文限于明确的一手摘要、出版商提交的元数据或可读取正文，未按缺失全文补写实验参数。待复核正式标签：无。",
+  "items": [
+    {
+      "item_id": "SF-20261017-01",
+      "report_date": "2026-10-17",
+      "item_no": 1,
+      "title_cn": "¹H–¹⁵N NMR与EPR定位tau模板聚集的水合热点",
+      "direction_ids": [
+        "nmr",
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr",
+        "cw_epr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr",
+        "dosy",
+        "dnp",
+        "spin_labeling"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "jR2R3-P301L tau片段",
+        "tau纤维种子"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Han等用实时¹H–¹⁵N SOFAST-HMQC追踪tau片段向纤维种子的结合，并以DOSY、ODNP水合测量和CW-EPR线形分析区分组装阶段。结果指向300/301位附近的局部水合热点：初始固定后，其他残基依次进入纤维；在热点引入自旋标签会抑制模板聚集并形成较短纤维。",
+      "meaning_cn": "SOFAST-HMQC提供残基级信号消失动力学，ODNP与EPR分别补充界面水运动及标签局部运动信息。NMR峰消失还受分子转动和纤维增长影响，不能直接等同锁定速率；自旋标记位点也须先确认可耐受半胱氨酸替换，结论目前针对所用tau片段。",
+      "publication_date": "2026-10-12",
+      "time_scope": "7d_extension",
+      "source": "PNAS",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2611158123",
+      "doi": "10.1073/pnas.2611158123",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-17",
+      "last_updated": "2026-10-17",
+      "report_file": "SpinFront_2026-10-17.html"
+    },
+    {
+      "item_id": "SF-20261017-02",
+      "report_date": "2026-10-17",
+      "item_no": 2,
+      "title_cn": "⁶Li固体NMR分辨顺磁LiFeCl₃正极的三类锂环境",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "mas",
+        "paramagnetic_nmr"
+      ],
+      "application_ids": [
+        "battery"
+      ],
+      "sample_systems": [
+        "⁶Li富集LiFeCl₃",
+        "全固态电池正极"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Liu等通过⁶Li富集、采集条件优化和变温固体NMR，在顺磁LiFeCl₃正极中分辨并定量三类锂环境。谱学结果联系局部Li/Fe无序、原位Fe²⁺还原及嵌入与转化反应，并检出少量不可逆Fe⁰。调整电压窗口后，样品循环500次保留85.9%容量，但能量密度降低16.3%。",
+      "meaning_cn": "⁶Li核种与同位素富集是分开顺磁展宽信号的关键实验选择，变温数据用于判断锂局部运动与环境变化。循环表现同时受电压窗口影响，比较时须同时报告能量密度代价；不同循环次数下的容量保持率不能直接相减，也不能将此结果外推到其他卤化物正极。",
+      "publication_date": "2026-10-15",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://pubs.acs.org/doi/10.1021/jacs.6c17473",
+      "doi": "10.1021/jacs.6c17473",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-17",
+      "last_updated": "2026-10-17",
+      "report_file": "SpinFront_2026-10-17.html"
+    },
+    {
+      "item_id": "SF-20261017-03",
+      "report_date": "2026-10-17",
+      "item_no": 3,
+      "title_cn": "原位多核NMR拆分稀土MOF调节剂与氟源的双重作用",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr",
+        "reaction_monitoring"
+      ],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "sample_systems": [
+        "Y(III)-UiO-66",
+        "稀土金属有机框架"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Blanchard等用原位多核NMR跟踪Y(III)-UiO-66形成，发现反应呈零级动力学，调节剂消耗约比连接体快一个数量级。调节剂与原位生成的二甲胺反应产生氟源；溶剂预先水解时，乙酸可承担调节作用。团队据此将苯甲酸与四甲基氟化铵分用，重新设计稀土框架合成。",
+      "meaning_cn": "同时跟踪调节剂和连接体消耗，可检验配位竞争与氟源生成是否同步，避免把一种添加剂的多重作用合并解释。预水解条件会改变反应速度，比较合成批次时应记录溶剂处理与加料顺序。可读取依据限于出版商提交的摘要，未据此补写核种、温度或采集间隔。",
+      "publication_date": "2026-10-16",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://pubs.acs.org/doi/10.1021/jacs.6c16606",
+      "doi": "10.1021/jacs.6c16606",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-17",
+      "last_updated": "2026-10-17",
+      "report_file": "SpinFront_2026-10-17.html"
+    },
+    {
+      "item_id": "SF-20261017-04",
+      "report_date": "2026-10-17",
+      "item_no": 4,
+      "title_cn": "TorchSpin将EPR模拟与可微分参数反演接入PyTorch",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "cw_epr",
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "endor"
+      ],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "sample_systems": [
+        "Cu(II)粉末谱",
+        "自旋哈密顿量"
+      ],
+      "instrument_component_ids": [
+        "software"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Follmer提出TorchSpin，在PyTorch中实现可微分EPR模拟，并沿用EasySpin的部分模型与输入约定。工作比较连续波、ENDOR、脉冲EPR及自旋动力学等任务；九项CPU基准中六项更快。Cu(II)粉末谱示例将卷积网络初值与模拟细化结合，无需参数标签即可进行谱形匹配。",
+      "meaning_cn": "自动微分可用于谱学参数优化和模拟器内嵌训练，但基准速度依赖任务、硬件与批处理方式，不能据六项优势判断全部计算更快。Cu(II)示例检验了特定模型的反演流程；迁移到实验谱前仍需检查噪声、基线、参数可辨识性和所用自旋体系。该工作为预印本。",
+      "publication_date": "2026-10-12",
+      "time_scope": "7d_extension",
+      "source": "arXiv（预印本）",
+      "url": "https://arxiv.org/abs/2610.18924",
+      "doi": "10.48550/arxiv.2610.18924",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-10-17",
+      "last_updated": "2026-10-17",
+      "report_file": "SpinFront_2026-10-17.html"
+    },
+    {
+      "item_id": "SF-20261017-05",
+      "report_date": "2026-10-17",
+      "item_no": 5,
+      "title_cn": "快速MAS质子谱量化负载金属配合物的配体运动限制",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "fast_mas"
+      ],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "sample_systems": [
+        "负载有机金属配合物",
+        "配体烷基链"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Mayer等以快速MAS下的质子双量子边带和表面敏感NMR研究负载有机金属配合物的构象重排，比较配体体积、金属种类与限域作用。所考察体系中，连接的烷基链长度超过五个碳后，取向运动趋于冻结；机器学习加速的分子动力学模拟定量再现实验运动，配体体积的影响最明显。",
+      "meaning_cn": "快速MAS双量子边带可把配体局部运动与仅有静态结构的解释区分开，并为模拟中的运动幅度提供实验约束。链长阈值来自本研究的负载配合物，不能视为所有表面体系的普适界限；若要关联催化速率，还需在对应温度、覆盖度及反应环境下单独测量。",
+      "publication_date": "2026-10-12",
+      "time_scope": "7d_extension",
+      "source": "Physical Chemistry Chemical Physics",
+      "url": "https://doi.org/10.1039/d6cp03084j",
+      "doi": "10.1039/d6cp03084j",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-17",
+      "last_updated": "2026-10-17",
+      "report_file": "SpinFront_2026-10-17.html"
+    },
+    {
+      "item_id": "SF-20261017-06",
+      "report_date": "2026-10-17",
+      "item_no": 6,
+      "title_cn": "位置分辨¹³C NMR比较线粒体扰动后的细胞代谢状态",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "SH-SY5Y细胞",
+        "[U-¹³C₆]葡萄糖"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Li与Baykal将SH-SY5Y细胞分别暴露于五种线粒体呼吸链扰动药物，洗脱后用[U-¹³C₆]葡萄糖标记24小时，以位置分辨¹³C NMR比较代谢物标记。每组含三个生物学重复；寡霉素组谷氨酸C3标记接近对照的两倍，而C4无显著改变，显示洗脱后的代谢状态并不相同。",
+      "meaning_cn": "碳位置标记可分开总丰度变化与不同碳来源的相对贡献，实验须保留共同载体对照、洗脱及标记时间。这里酶测量给出PC/PDH容量，药物也并非完全选择性，因此不能将位置标记直接解释为某一呼吸链复合体的特异通量。小样本结果还需独立重复。",
+      "publication_date": "2026-10-15",
+      "time_scope": "7d_extension",
+      "source": "International Journal of Molecular Sciences",
+      "url": "https://www.mdpi.com/1422-0067/27/20/9160",
+      "doi": "10.3390/ijms27209160",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-17",
+      "last_updated": "2026-10-17",
+      "report_file": "SpinFront_2026-10-17.html"
+    },
+    {
+      "item_id": "SF-20261017-07",
+      "report_date": "2026-10-17",
+      "item_no": 7,
+      "title_cn": "固体¹³C NMR补充马铃薯伤口木栓质的非降解结构信息",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "sample_systems": [
+        "马铃薯伤口周皮",
+        "木栓质富集聚合物"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Dastmalchi等比较四个马铃薯品种在损伤后0、1、2、3和7天的保护屏障形成，将LC/GC-MS代谢谱、木栓质富集样品的固体¹³C NMR及温和解聚产物分析结合。多方法结果揭示脂肪族与芳香族组分的积累，并提示糖生物碱、甾醇和酚胺参与伤口木栓质聚合物的形成。",
+      "meaning_cn": "固体¹³C NMR可观察难以完全化学解聚的聚合物整体碳环境，与可溶性前体和解聚片段相互对照。新增组分归属依赖联合分析，不能全部归因于NMR单项测量；比较品种时应采用一致的伤后时间与富集流程，避免把提取选择性当作生物合成差异。",
+      "publication_date": "2026-10-10",
+      "time_scope": "7d_extension",
+      "source": "Phytochemistry",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42858827/",
+      "doi": "10.1016/j.phytochem.2026.115099",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-17",
+      "last_updated": "2026-10-17",
+      "report_file": "SpinFront_2026-10-17.html"
+    },
+    {
+      "item_id": "SF-20261017-08",
+      "report_date": "2026-10-17",
+      "item_no": 8,
+      "title_cn": "DDX3X最小功能核心的溶液NMR同位素标记制样协议",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "DDX3X最小功能核心",
+        "同位素标记蛋白"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "application_note",
+      "summary_cn": "Toyama等以RNA解旋酶DDX3X的最小功能核心为例，给出用于溶液NMR的同位素标记蛋白制备协议。章节围绕获得较大量纯化蛋白展开，服务于RNA结合、蛋白动态及分子间相互作用研究，也说明样品可用于其他体外结构与生化实验；在线日期为10月12日，纸本卷年为2027年。",
+      "meaning_cn": "这份协议的直接用途是建立可测NMR的蛋白样品来源，适用于计划研究DDX3X核心区与RNA相互作用的实验。最小功能核心不包含全长蛋白的所有调控区域，不能由此推断完整细胞机制；公开摘要未列出培养基、标记核种或纯化产率，采用时仍须读取协议细节。",
+      "publication_date": "2026-10-12",
+      "time_scope": "7d_extension",
+      "source": "Methods in Molecular Biology（协议章节）",
+      "url": "https://doi.org/10.1007/978-1-0716-5571-9_18",
+      "doi": "10.1007/978-1-0716-5571-9_18",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-17",
+      "last_updated": "2026-10-17",
+      "report_file": "SpinFront_2026-10-17.html"
+    },
+    {
+      "item_id": "SF-20261017-09",
+      "report_date": "2026-10-17",
+      "item_no": 9,
+      "title_cn": "超低场报告讨论10⁻¹¹ T屏蔽环境中的核自旋相互作用",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "sample_systems": [
+        "³He",
+        "¹²⁹Xe",
+        "超低场自旋体系"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "event",
+      "summary_cn": "Peter Fierlinger在波兰科学院核物理研究所10月15日报告中介绍超低场磁共振进展。官方摘要说明，慕尼黑工业大学新的屏蔽环境达到约10⁻¹¹ T背景场，使自旋相互作用相对NMR外场占优的区域可以研究；报告将³He等体系的测量与¹²⁹Xe电偶极矩实验系统误差联系起来。",
+      "meaning_cn": "在这一极低背景场条件下，自旋之间的相互作用及残余场控制共同决定进动行为，适合研究电偶极矩测量中的系统效应。10⁻¹¹ T指摘要给出的环境背景场，不能直接视为探测灵敏度或场稳定性指标；本条依据报告摘要，未将尚未公开的结果写成独立论文结论。",
+      "publication_date": "2026-10-15",
+      "time_scope": "7d_extension",
+      "source": "IFJ PAN官方报告议程",
+      "url": "https://indico.ifj.edu.pl/event/1679/",
+      "doi": "",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-10-17",
+      "last_updated": "2026-10-17",
+      "report_file": "SpinFront_2026-10-17.html"
+    },
+    {
+      "item_id": "SF-20261017-10",
+      "report_date": "2026-10-17",
+      "item_no": 10,
+      "title_cn": "色心报告展示室温低场下大规模¹³C核自旋光学读出",
+      "direction_ids": [
+        "nmr",
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "odmr"
+      ],
+      "application_ids": [
+        "quantum_spin"
+      ],
+      "sample_systems": [
+        "金刚石NV色心",
+        "¹³C核自旋系综"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "event",
+      "summary_cn": "Victor Acosta在新墨西哥大学10月16日的报告中介绍金刚石NV色心精密测量，包括将传感器嵌入微流控芯片进行单细胞尺度NMR，以及室温低场下约10¹⁶个极化¹³C核自旋的光学读出。官方摘要将这些结果与进一步扩大可读出自旋数量的设想分别陈述，后者尚属研究方向。",
+      "meaning_cn": "色心电子自旋读出与核自旋极化耦合，为小体积NMR和大系综核自旋检测提供不同实验路径。约10¹⁶个自旋是摘要声称的已演示规模，10²⁰及更高数量仅是设想；报告未给出完整灵敏度、带宽或样品协议，不能据此比较仪器的定量检测限。",
+      "publication_date": "2026-10-16",
+      "time_scope": "7d_extension",
+      "source": "University of New Mexico官方报告议程",
+      "url": "https://physics-temp.unm.edu/events/2026/10/-colloquium-1016.html",
+      "doi": "",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-10-17",
+      "last_updated": "2026-10-17",
+      "report_file": "SpinFront_2026-10-17.html"
+    }
+  ]
+}

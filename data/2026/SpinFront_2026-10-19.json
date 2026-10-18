@@ -1,0 +1,303 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-10-19",
+  "scope_note": "检索截至2026-10-19 06:08（Asia/Shanghai），优先过去24小时并逐日回扫10月12日至18日。常规严格24小时合格项不足5条、增强阶段七日合格项不足8条，已启动增强搜索及深度增强检索，覆盖高影响与专业期刊、预印本/文献数据库、机构、厂商、会议及中外采购，轮查九组方法词。本期实际8条：7条研究论文/公开接收稿与1条采购汇总，采购公告实际1份；均按近7天扩展标记。已对全库60期512条、最近7期正文及采购Review查重，登记排除23项DOI重复与3份采购重复；另7份采购候选原始正文或日期未核实，未纳入。未达10条，主要受周末新增有限、历史重复及部分来源/作用不可核验影响，不以常驻页面、普通辅助表征或旧刊期补足。英国官方OCDS已完整读取10月12、13日更新记录，15日另读首100条；后续日分页因429未完成，不宣称英国全部公告已遍历。部分出版商/高校页面403、503或动态未渲染，已检查官方列表、公开只读接口及权威题录；具体访问状态见Review。未读取私人教材；待复核正式标签：无。",
+  "items": [
+    {
+      "item_id": "SF-20261019-01",
+      "report_date": "2026-10-19",
+      "item_no": 1,
+      "title_cn": "SMASH以天然丰度¹³C实现低毫摩尔混合物单次二维相关谱",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "dnp",
+        "multinuclear_nmr",
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "天然丰度¹³C小分子混合物",
+        "代谢物混合物"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Adamski 等将SMASH选择性多路采集与溶解动态核极化结合，在天然丰度¹³C、低毫摩尔浓度混合物中获取单次¹³C–¹H相关信息。相较所比较的超快二维实验，方法提高约10–20倍灵敏度，旨在利用不可逆衰减的超极化磁化，而非依靠多次扫描积累完整二维谱。",
+      "meaning_cn": "该比较针对d-DNP溶解后样品中的低毫摩尔小分子，不能把10–20倍增益直接推广到常规热平衡二维NMR。应用时需确认可选择性提取的相关信息与混合物峰重叠情况；单次检测减少重复激发需求，但仍受溶解、转移及液相极化衰减约束。",
+      "publication_date": "2026-10-17",
+      "time_scope": "7d_extension",
+      "source": "Analytical Chemistry",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.analchem.6c04662",
+      "doi": "10.1021/acs.analchem.6c04662",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-19",
+      "last_updated": "2026-10-19",
+      "report_file": "SpinFront_2026-10-19.html"
+    },
+    {
+      "item_id": "SF-20261019-02",
+      "report_date": "2026-10-19",
+      "item_no": 2,
+      "title_cn": "DMPO-EPR拆分微塑料–水界面的自由基信号",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "cw_epr"
+      ],
+      "method_ids": [
+        "spin_trapping"
+      ],
+      "application_ids": [
+        "environment"
+      ],
+      "sample_systems": [
+        "聚苯乙烯微塑料",
+        "水",
+        "DMPO"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Qian 等结合DMPO自旋捕获EPR、谱图模拟及荧光成像，检验聚苯乙烯微塑料在水中的自发自由基生成。EPR主要六线组分归属于DMPO氧化后形成的自由基，同时存在较弱的直接羟基自由基捕获信号；成像与表面活性剂对照进一步支持反应发生在塑料–水界面。",
+      "meaning_cn": "原文将200 mg聚苯乙烯与20 mM DMPO水溶液孵育20分钟，滤液在室温、约9.768 GHz下测量，采用20.23 mW功率、1 G调制及12次扫描。主要六线谱不能直接当作经典DMPO–OH四线谱；自由基归属需结合模拟、捕获剂氧化路径及独立对照，而非仅看信号增强。",
+      "publication_date": "2026-10-14",
+      "time_scope": "7d_extension",
+      "source": "Nature",
+      "url": "https://www.nature.com/articles/s41586-026-11141-y",
+      "doi": "10.1038/s41586-026-11141-y",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-19",
+      "last_updated": "2026-10-19",
+      "report_file": "SpinFront_2026-10-19.html"
+    },
+    {
+      "item_id": "SF-20261019-03",
+      "report_date": "2026-10-19",
+      "item_no": 3,
+      "title_cn": "磁稀释ESR区分三角晶格中的单离子各向异性与集体关联",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "sample_systems": [
+        "KBaGd(BO₃)₂",
+        "KBaGd₀.₀₀₅Y₀.₉₉₅(BO₃)₂"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Huo 等在公开接收稿中用温度依赖ESR研究KBaGd(BO₃)₂的易平面磁各向异性，并以磁稀释样品KBaGd₀.₀₀₅Y₀.₉₉₅(BO₃)₂分离单离子贡献。稀释体系给出Gd³⁺各向异性参数D=0.053 K，其能量尺度与反铁磁交换及偶极相互作用相近，提示不能忽略单离子项。",
+      "meaning_cn": "浓体系共振场的低温位移与稀释体系的单离子结果提供互补约束，不能把前者全部归因于独立离子晶场。D以温度单位表达，比较模型时须核对哈密顿量约定；当前可读的是接收稿摘要，未提供完整频段、场强和拟合细节，不据此推断CW或脉冲配置。",
+      "publication_date": "2026-10-16",
+      "time_scope": "7d_extension",
+      "source": "Physical Review B（公开接收稿）",
+      "url": "https://journals.aps.org/prb/accepted/10.1103/lhj7-vqvw",
+      "doi": "10.1103/lhj7-vqvw",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-19",
+      "last_updated": "2026-10-19",
+      "report_file": "SpinFront_2026-10-19.html"
+    },
+    {
+      "item_id": "SF-20261019-04",
+      "report_date": "2026-10-19",
+      "item_no": 4,
+      "title_cn": "钻孔NMR渗透系数模型需要场地校准，不能照搬油藏常数",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "sample_systems": [
+        "英国Sherwood砂岩群",
+        "三口钻孔地下水含水层"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Oguntade 等在三口Sherwood砂岩钻孔中比较NMR测井与抽水试验，发现直接采用油藏经验常数的SDR和Timur–Coates模型会将渗透系数低估至少两个数量级。将测井结果上尺度化，并以半约束最小二乘重新标定场地参数后，两类估计与抽水结果的差距缩至一个数量级以内。",
+      "meaning_cn": "NMR测井的含水孔隙度与孔隙几何信息对应较高垂向分辨率，而抽水试验代表更大的采样体积，模型校准前应先统一比较尺度。这里的改善来自特定砂岩群及三口井的现场参数，并非证明油藏模型可直接迁移到任意浅层含水层，也不能将误差范围写成精确预测。",
+      "publication_date": "2026-10-17",
+      "time_scope": "7d_extension",
+      "source": "Hydrogeology Journal",
+      "url": "https://link.springer.com/article/10.1007/s10040-026-03192-2",
+      "doi": "10.1007/s10040-026-03192-2",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-19",
+      "last_updated": "2026-10-19",
+      "report_file": "SpinFront_2026-10-19.html"
+    },
+    {
+      "item_id": "SF-20261019-05",
+      "report_date": "2026-10-19",
+      "item_no": 5,
+      "title_cn": "1.2 GHz多维NMR支持替尔泊肽的分段有序构象集合",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr",
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "替尔泊肽tirzepatide",
+        "含Aib及脂化侧链的肽"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Nordin 等通过¹H–¹⁵N HMQC、TOCSY、NOESY及1.2 GHz NMR与CD分析替尔泊肽的水溶液构象。Aib²为归属锚点，但不代表稳定末端结构；Aib¹³附近呈局部短螺旋样有序。研究将可靠NOE约束与未分辨信号分开处理，支持局部有序区和柔性区共存的构象集合，而非单一刚性结构。",
+      "meaning_cn": "非天然氨基酸与脂化侧链增加归属难度，结构解释应限于可靠的顺序NOE和可分辨残基。高场数据帮助解析局部构象，但不能由游离肽的短螺旋倾向推断受体结合姿态、药效或制剂稳定性；比较不同实验条件时，还需区分局部有序与整体折叠。",
+      "publication_date": "2026-10-14",
+      "time_scope": "7d_extension",
+      "source": "Biomacromolecules",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.biomac.6c01139",
+      "doi": "10.1021/acs.biomac.6c01139",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-19",
+      "last_updated": "2026-10-19",
+      "report_file": "SpinFront_2026-10-19.html"
+    },
+    {
+      "item_id": "SF-20261019-06",
+      "report_date": "2026-10-19",
+      "item_no": 6,
+      "title_cn": "模块化Halbach低场NMR设计比较磁环与RLC探头模型",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "sample_systems": [
+        "低场NMR建模系统",
+        "N52/N55永磁体"
+      ],
+      "instrument_component_ids": [
+        "magnet",
+        "probe"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Montero-Castillo 等对模块化Halbach低场NMR方案进行设计与仿真，在六种几何–磁性配置中比较磁环数量及N52、N55材料。所选六环N55模型给出0.305 T中心场及1.14%场不均匀度，并将串联RLC探头、前置放大与射频放大环节纳入模型；这些参数描述设计方案，不应当作商品谱仪验收结果。",
+      "meaning_cn": "探头模型使用1 μH、8.16 Ω和150.15 pF参数，便于检查磁体场值、射频谐振与激发链路的配合。中心场强不能单独证明可做高分辨谱；1.14%的场不均匀度也不能替代实测线宽、漂移及均匀区尺寸。仿真与实体系统的性能验证须分开表述。",
+      "publication_date": "2026-10-16",
+      "time_scope": "7d_extension",
+      "source": "Revista Tecnología en Marcha",
+      "url": "https://revistas.tec.ac.cr/index.php/tec_marcha/article/view/8480",
+      "doi": "10.18845/tm.v39i4.8480",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-19",
+      "last_updated": "2026-10-19",
+      "report_file": "SpinFront_2026-10-19.html"
+    },
+    {
+      "item_id": "SF-20261019-07",
+      "report_date": "2026-10-19",
+      "item_no": 7,
+      "title_cn": "成分依赖ESR追踪铬取代钴铁氧体的磁共振变化",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "sample_systems": [
+        "CoCrₓFe₂₋ₓO₄纳米颗粒"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Sethosa 等研究CoCrₓFe₂₋ₓO₄纳米颗粒的成分依赖磁性，并用ESR比较共振场、g值及自旋弛豫变化。报告的g值由未取代样品的4.49变为x=1.0时的2.04，作者将其与更对称的局域晶场及Fe³⁺–Cr³⁺交换作用联系起来；磁共振数据为取代调节自旋响应提供直接观测。",
+      "meaning_cn": "这里的g值来自磁性纳米颗粒的共振响应，不能简单按孤立离子g因子解读。成分、各向异性与交换均可能影响共振位置；局域晶场及交换解释需与结构和磁性测量共同约束。摘要没有给出完整频率、温度与线宽拟合条件，不据此比较不同仪器的弛豫或灵敏度指标。",
+      "publication_date": "2026-10-14",
+      "time_scope": "7d_extension",
+      "source": "ChemistrySelect",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/slct.74733",
+      "doi": "10.1002/slct.74733",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-19",
+      "last_updated": "2026-10-19",
+      "report_file": "SpinFront_2026-10-19.html"
+    },
+    {
+      "item_id": "SF-20261019-08",
+      "report_date": "2026-10-19",
+      "item_no": 8,
+      "title_cn": "采购与需求动态：UKRI公布NMR服务合同结果",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [],
+      "sample_systems": [
+        "NMR维修维护服务"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "tender",
+      "summary_cn": "英国研究与创新署（UKRI）于2026年10月12日公布NMR服务合同详情（CSP27932，公告095924-2026），供应商为Bruker UK Limited，合同金额不含税£18,922.21、含税£22,706.65，服务期为2026年11月14日至2027年11月13日。公告明确这是无需竞争的合同详情通知，不是公开征集投标；合同已于10月9日签署，因此不另设投标截止时间。",
+      "meaning_cn": "官方记录将该项目列为维修维护服务、低于门槛的直接采购，理由为技术原因导致特定供应商供货。已确认的信息是合同结果、金额和服务时间，而非新的整机采购预算；记录未列仪器型号、磁场强度、探头及具体保修范围，不能从供应商名称推定配置。",
+      "publication_date": "2026-10-12",
+      "time_scope": "7d_extension",
+      "source": "UKRI／Find a Tender—CSP27932 NMR服务合同",
+      "url": "https://www.find-tender.service.gov.uk/Notice/095924-2026",
+      "doi": "",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-10-19",
+      "last_updated": "2026-10-19",
+      "report_file": "SpinFront_2026-10-19.html"
+    }
+  ]
+}

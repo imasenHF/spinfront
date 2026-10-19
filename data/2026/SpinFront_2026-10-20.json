@@ -1,0 +1,363 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-10-20",
+  "scope_note": "检索截至2026-10-20 06:13:10（Asia/Shanghai）；优先过去24小时，并逐日回扫10月13—19日。24小时合格数不足5条，已启动增强搜索；增强后不足8条时继续深度增强，覆盖专业及高影响期刊、预印本/题录与机构、厂商软件、会议及中国/海外采购五路线和九个方法主题簇。以main e9e5a7cc1c42的61期520条及最近7期正文、Review查重；逐项登记排除18篇DOI重复和3份采购重复，共21项，不代表所有搜索命中。部分出版商403，Crossref首轮EPR429后补查成功；部分高校动态壳页或503使采购原始日期/正文未证实。登记采购候选18份，合格3份、排除15份，其中9份原始来源或日期未核实；不以旧页或常规表征补足。最终8条日报内容：6篇论文、1项设施开放、1条含3份公告的采购汇总。全部条目因日期精度或混合日期标近7天扩展。无待新增正式标签；未映射样品保留sample_systems。",
+  "items": [
+    {
+      "item_id": "SF-20261020-01",
+      "report_date": "2026-10-20",
+      "item_no": 1,
+      "title_cn": "负时间信息重建让二维J谱与纯位移¹H谱更清晰",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "pure_shift",
+        "multidimensional_nmr",
+        "spectral_processing"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "多种质子NMR样品"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Morris 等针对¹H谱中化学位移与标量耦合共同造成的峰拥挤，提出从实测数据重建无法直接采集的负时间自旋演化信息。研究在多种样品上展示分离化学位移与耦合维度的二维谱，并由此得到去除同核多重峰结构的一维纯位移谱，将谱峰简化与二维分辨率改善联系起来。",
+      "meaning_cn": "重建对象是实验缺失的负时间信息，并非单纯加窗或零填充。对于依赖J分裂辨认耦合关系的分析，纯位移谱与二维J谱应配合解读；摘要尚未给出可推广的灵敏度增益、强耦合适用范围或定量误差，不能据此断言所有拥挤谱均可无损恢复。",
+      "publication_date": "2026-10-18",
+      "time_scope": "7d_extension",
+      "source": "Chemistry–Methods",
+      "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cmtd.70172",
+      "doi": "10.1002/cmtd.70172",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期与出版商摘要",
+          "url": "https://api.crossref.org/works/10.1002/cmtd.70172"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-20",
+      "last_updated": "2026-10-20",
+      "report_file": "SpinFront_2026-10-20.html"
+    },
+    {
+      "item_id": "SF-20261020-02",
+      "report_date": "2026-10-20",
+      "item_no": 2,
+      "title_cn": "二维¹³C位移图谱区分完整细胞壁中的G/S木质素结构",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr",
+        "dnp"
+      ],
+      "application_ids": [
+        "polymers"
+      ],
+      "sample_systems": [
+        "完整植物细胞壁",
+        "G/S木质素",
+        "拟南芥、杨树、桉树、云杉"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Xiao 等整理完整植物细胞壁中愈创木基与紫丁香基木质素的诊断性¹³C位移及连接类型，建立二维固体NMR归属框架。在拟南芥及其突变体、杨树、桉树和云杉中，研究区分物种、基因型与发育阶段相关结构差异，同时标出独特与重叠谱区；适用对象包括¹³C富集植物及DNP分析的未标记样品。",
+      "meaning_cn": "该框架减少分离、溶解木质素带来的结构扰动，重点是原位G/S基元与连接的归属，而非所有木质素类型的通用定量。¹³C富集或DNP条件需与样品对应；二维重叠仍会产生歧义，复杂网络的确定性归属可能需要更高维相关实验。",
+      "publication_date": "2026-10-18",
+      "time_scope": "7d_extension",
+      "source": "Magnetic Resonance in Chemistry",
+      "url": "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/mrc.70145",
+      "doi": "10.1002/mrc.70145",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期与出版商摘要",
+          "url": "https://api.crossref.org/works/10.1002/mrc.70145"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-20",
+      "last_updated": "2026-10-20",
+      "report_file": "SpinFront_2026-10-20.html"
+    },
+    {
+      "item_id": "SF-20261020-03",
+      "report_date": "2026-10-20",
+      "item_no": 3,
+      "title_cn": "³¹P滴定区分焦磷酸与亚氨基二磷酸的质子化物种",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "sample_systems": [
+        "焦磷酸根",
+        "亚氨基二磷酸根",
+        "水溶液磷氧与磷氮配体"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Maki 等结合电位滴定、pH依赖³¹P NMR位移及非线性最小二乘分析，求得焦磷酸根与亚氨基二磷酸根逐级质子化常数和各物种本征位移。亚氨基桥提高碱性；跨短链与环状类似物比较显示，端位或内部磷酸基的位置及相邻桥原子主导位移，每个相邻亚氨基氮约带来10 ppm低场移动。",
+      "meaning_cn": "³¹P位移随pH变化同时反映物种比例与本征电子环境，不能把混合物观测位移直接当作单一结构的指纹。该分析把逐级质子化与桥连原子的贡献分开，但互变异构及远端桥原子仍会影响位移，配位体系的解释需保留这些修正因素。",
+      "publication_date": "2026-10-19",
+      "time_scope": "7d_extension",
+      "source": "Bulletin of the Chemical Society of Japan",
+      "url": "https://academic.oup.com/bcsj/advance-article/doi/10.1093/bulcsj/uoag142/8943740",
+      "doi": "10.1093/bulcsj/uoag142",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期与出版商摘要",
+          "url": "https://api.crossref.org/works/10.1093/bulcsj/uoag142"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-20",
+      "last_updated": "2026-10-20",
+      "report_file": "SpinFront_2026-10-20.html"
+    },
+    {
+      "item_id": "SF-20261020-04",
+      "report_date": "2026-10-20",
+      "item_no": 4,
+      "title_cn": "热丝封口降低Rb–Xe气室的四极不对称性",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "multinuclear_nmr",
+        "relaxometry"
+      ],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "sample_systems": [
+        "Rb–Xe原子气室",
+        "¹²⁹Xe与¹³¹Xe"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Hong 等用XYZ位移台控制电阻加热丝扫过长颈管，制备几何形状更可重复的Rb–Xe封闭气室，并与火焰封口气室比较。¹³¹Xe四极分裂随偏置场方向的变化给出不对称参数0.13与0.77；但在窄颈口条件下，外加梯度中的¹²⁹Xe横向弛豫对两类气室仍显示相近的颈部非对称贡献。",
+      "meaning_cn": "¹³¹Xe四极分裂提供了对封口几何差异更敏感的读数，不能仅凭外观或¹²⁹Xe弛豫判断气室对称性。该结果针对所比较的Rb–Xe气室与窄颈口条件；降低不对称参数不等于已证明所有梯度条件下T₂延长或精密测量系统误差均被消除。",
+      "publication_date": "2026-10-19",
+      "time_scope": "7d_extension",
+      "source": "Review of Scientific Instruments",
+      "url": "https://pubs.aip.org/rsi/article/97/10/103203/3406719/Wire-sealed-atomic-gas-cells-for-noble-gas-nuclear",
+      "doi": "10.1063/5.0338890",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期与出版商摘要",
+          "url": "https://api.crossref.org/works/10.1063/5.0338890"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-20",
+      "last_updated": "2026-10-20",
+      "report_file": "SpinFront_2026-10-20.html"
+    },
+    {
+      "item_id": "SF-20261020-05",
+      "report_date": "2026-10-20",
+      "item_no": 5,
+      "title_cn": "海马3 T波谱：高信噪比不保证个体差异可靠性",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "in_vivo_mrs"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "健康成人海马",
+        "肌醇、总胆碱、总肌酸"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Nilsson 等让19名健康成人在连续两天完成四次海马单体素¹H MRS测量，采用3 T semi-LASER及ICED方差分解评价可靠性。水参照的肌醇、总胆碱和总肌酸达到良好的相对可靠性，肌酸参照的代谢物均未达到该水平；增加采集次数虽提高信噪比，却未改善相对可靠性。",
+      "meaning_cn": "低个体内变异与稳定的个体间排序并非同一指标，平均浓度可靠不代表适合相关性或个体生物标志物分析。该结论限于19名健康成人、海马及3 T semi-LASER流程；增加扫描平均不能替代对体素定位、运动、匀场和定量方法的重复性控制。",
+      "publication_date": "2026-10-16",
+      "time_scope": "7d_extension",
+      "source": "Imaging Neuroscience",
+      "url": "https://direct.mit.edu/imag/article/doi/10.1162/IMAG.a.1401/139161/Assessing-the-reliability-of-hippocampal-single",
+      "doi": "10.1162/imag.a.1401",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期与出版商摘要",
+          "url": "https://api.crossref.org/works/10.1162/imag.a.1401"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-20",
+      "last_updated": "2026-10-20",
+      "report_file": "SpinFront_2026-10-20.html"
+    },
+    {
+      "item_id": "SF-20261020-06",
+      "report_date": "2026-10-20",
+      "item_no": 6,
+      "title_cn": "实测与计算NMR共同检验软珊瑚倍半萜的结构修订",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "computation_nmr",
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "natural_products"
+      ],
+      "sample_systems": [
+        "Clavularia viridis软珊瑚倍半萜",
+        "antheliol",
+        "clavuridin C/D"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Tani 等从冲绳软珊瑚Clavularia viridis分离四种新降三碳愈创木烷型倍半萜，结合实测NMR与DFT计算、DP4及CP3分析确定相对结构，并重新检验antheliol的既有结构。绝对构型另由ECD计算或苯甲酰化后的经验规则支持；其中clavuridin C的绝对构型仍未能明确指定。",
+      "meaning_cn": "NMR在这里直接裁定相近骨架与立体异构体的结构，而不是仅确认分离产物。实测位移与计算候选需成套比较，DP4/CP3的结构支持不能等同绝对构型证明；研究中仍有一个新化合物的绝对构型未定，说明互补手性证据不可省略。",
+      "publication_date": "2026-10-16",
+      "time_scope": "7d_extension",
+      "source": "ACS Omega",
+      "url": "https://pubs.acs.org/acsodf/article/doi/10.1021/acsomega.6c08064/5452765/Trinor-Guaiane-Type-Sesquiterpenes-with-Unusual",
+      "doi": "10.1021/acsomega.6c08064",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期与出版商摘要",
+          "url": "https://api.crossref.org/works/10.1021/acsomega.6c08064"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-20",
+      "last_updated": "2026-10-20",
+      "report_file": "SpinFront_2026-10-20.html"
+    },
+    {
+      "item_id": "SF-20261020-07",
+      "report_date": "2026-10-20",
+      "item_no": 7,
+      "title_cn": "南京大学EPR300开放校内试运行，披露原位与变温配置",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "cw_epr"
+      ],
+      "method_ids": [
+        "ec_epr"
+      ],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "sample_systems": [
+        "固体、液体及尺寸适配的块状或片状样品"
+      ],
+      "instrument_component_ids": [
+        "vt_system",
+        "illumination",
+        "resonator"
+      ],
+      "information_type": "funding_facility",
+      "summary_cn": "南京大学科研设施共享中心宣布仙林校区EPR300完成安装调试，10月14日至23日向校内开放试运行。公告列出9.2–9.9 GHz频率范围、100–600 K变温、320–780 nm氙灯光照、原位电化学及双模腔平行/垂直检测能力；每课题组两个样品且总时长小于两小时可免测试费。",
+      "meaning_cn": "这是一则设施开放通知，不是采购公告或新型号发布。公告要求块状、片状样品小于4×4×20 mm，自由基捕获试剂由送样方自备并现场反应；光照、变温与电化学条件需按实际样品兼容性确认，不能把可选功能等同已完成的具体应用验证。",
+      "publication_date": "2026-10-14",
+      "time_scope": "7d_extension",
+      "source": "南京大学科研设施共享中心",
+      "url": "https://cssrf.nju.edu.cn/e9/03/c63176a846083/page.htm",
+      "doi": "",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-10-20",
+      "last_updated": "2026-10-20",
+      "report_file": "SpinFront_2026-10-20.html"
+    },
+    {
+      "item_id": "SF-20261020-08",
+      "report_date": "2026-10-20",
+      "item_no": 8,
+      "title_cn": "采购与需求动态：两项国内NMR招标及Leicester合同",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "benchtop_nmr"
+      ],
+      "method_ids": [
+        "photo_cidnp"
+      ],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "sample_systems": [],
+      "instrument_component_ids": [
+        "probe",
+        "illumination"
+      ],
+      "information_type": "tender",
+      "summary_cn": "烟台大学于10月18日发布药学院设备公开招标，包3为核磁共振波谱仪1套，预算及最高限价均为380万元，允许进口，投标截止11月10日08:30；福建物构所于10月19日发布晶态材料自动合成系统招标，含台式低场核磁共振波谱仪1套、分项预算70万元、不允许进口，整包预算及最高限价555万元且不得拆包投标，截止11月10日09:30，以上均为北京时间；University of Leicester于10月15日发布LUV01495合同详情，直接向Quad Systems AG采购C4 NMR及配套设备，含税合同额99万英镑，10月1日签约、履行期为2026年10月2日至2027年8月2日，该合同公告不再征集投标。",
+      "meaning_cn": "烟台项目的380万元属于核磁采购包，福建项目的70万元为整包中的NMR分项预算，两者均不代表最终成交价；福建标须覆盖全部设备。Leicester公告列出非低温探头在150 mM离子强度蔗糖样品下≥400:1信噪比、脉冲序列触发LED及¹H/¹⁹F通道要求，属于采购方直接授予理由，并非跨厂商独立性能结论。",
+      "publication_date": "2026-10-19",
+      "time_scope": "7d_extension",
+      "source": "中国政府采购网｜烟台大学核磁共振波谱仪包3",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202610/t20261018_27513941.htm",
+      "doi": "",
+      "alternative_sources": [
+        {
+          "name": "福建物构所｜含台式低场NMR的晶态材料系统",
+          "url": "https://www.oitccas.com/pages/tender_online_info.html?FormNo=ZBLX26100238"
+        },
+        {
+          "name": "University of Leicester｜C4 NMR合同097339-2026",
+          "url": "https://www.find-tender.service.gov.uk/Notice/097339-2026"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-10-20",
+      "last_updated": "2026-10-20",
+      "report_file": "SpinFront_2026-10-20.html"
+    }
+  ]
+}

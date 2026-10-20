@@ -1,0 +1,443 @@
+{
+  "schema_version": "1.0.0",
+  "report_date": "2026-10-21",
+  "taxonomy_version": "1.2.0",
+  "scope_note": "检索截至2026-10-21 06:23:00（Asia/Shanghai）；优先过去24小时，并逐日回扫10月14—20日。因来源多只给日期而无法证明严格24小时内达到5条，已启动增强搜索，并继续完成专业与高影响期刊、预印本/题录与机构、厂商软件、会议及采购五路线和九个方法主题簇回扫。以main af9d9b23f4eb的62期528条及最近7期正文、15份Review查重；登记18篇学术候选，其中9篇入选、5篇与历史日报重复、4篇因证据或优先级排除。采购专项登记13份候选，4份合格、9份排除；最终10条日报内容含9篇论文和末条采购汇总，采购汇总实际包含4份公告。出版商页面存在部分访问限制，作者均以出版商页面或Crossref题录核实；未以搜索摘要猜测作者。全部条目因日期精度或混合公告日期标为近7天扩展。无待新增正式标签。",
+  "items": [
+    {
+      "item_id": "SF-20261021-01",
+      "report_date": "2026-10-21",
+      "item_no": 1,
+      "title_cn": "双核NMR解析螺磁Fe₁₋ₓCoₓGe中的局域磁态",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "Fe₁₋ₓCoₓGe螺旋磁有序化合物"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Volkova 等利用⁵⁷Fe与⁵⁹Co NMR研究Fe₁₋ₓCoₓGe（0≤x≤0.3）的螺旋磁有序态，确认Co在晶格中随机分布；4.2 K下Fe平均磁矩由x=0时的0.9 μB降至x=0.3时的0.85 μB，而Co磁矩接近零。",
+      "meaning_cn": "两种核素给出了元素分辨的超精细场证据，并将Co核处的诱导超精细场联系到Fe 3d与Co 3d轨道强杂化。页面标为accepted paper，当前结果适用于给定成分范围和4.2 K条件，不宜外推到更高温区。",
+      "publication_date": "2026-10-20",
+      "time_scope": "7d_extension",
+      "source": "Physical Review B",
+      "url": "https://journals.aps.org/prb/accepted/10.1103/pwrm-5hw8",
+      "doi": "10.1103/pwrm-5hw8",
+      "alternative_sources": [
+        {
+          "name": "Crossref题录与在线日期",
+          "url": "https://api.crossref.org/works/10.1103/pwrm-5hw8"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-21",
+      "last_updated": "2026-10-21",
+      "report_file": "SpinFront_2026-10-21.html"
+    },
+    {
+      "item_id": "SF-20261021-02",
+      "report_date": "2026-10-21",
+      "item_no": 2,
+      "title_cn": "波长与水合状态切换Ti-MOF中的两类Ti(III)中心",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "cw_epr"
+      ],
+      "method_ids": [
+        "defect_epr",
+        "endor"
+      ],
+      "application_ids": [
+        "materials",
+        "photocatalysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "MUV-10(Ca)钛基金属有机框架"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Larionov 等以X/Q波段连续波EPR和¹H Davies ENDOR研究光生Ti(III)，区分出理想Ti₂Ca₂簇中心与缺失配体缺陷中心；材料水合状态及入射光波长共同改变两类中心的生成选择性。",
+      "meaning_cn": "双频EPR先区分局域中心，ENDOR再借助邻近质子环境完成结构归属，为调控Ti-MOF光活性缺陷提供可检验的谱学判据。结论针对MUV-10(Ca)，不能直接等同于所有Ti-MOF。",
+      "publication_date": "2026-10-20",
+      "time_scope": "7d_extension",
+      "source": "ACS Applied Materials & Interfaces",
+      "url": "https://pubs.acs.org/doi/10.1021/acsami.6c14732",
+      "doi": "10.1021/acsami.6c14732",
+      "alternative_sources": [
+        {
+          "name": "Crossref题录、作者与摘要",
+          "url": "https://api.crossref.org/works/10.1021/acsami.6c14732"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-21",
+      "last_updated": "2026-10-21",
+      "report_file": "SpinFront_2026-10-21.html"
+    },
+    {
+      "item_id": "SF-20261021-03",
+      "report_date": "2026-10-21",
+      "item_no": 3,
+      "title_cn": "隐蔽非Kekulé纳米石墨烯呈现交换耦合自旋量子位行为",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "quantum_spin",
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "cis-bisphenaleno-perylene纳米石墨烯"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Imran 等合成动力学稳定的cis-bisphenaleno-perylene，并以EPR确认反铁磁交换耦合自旋对具有单重态基态和热可达三重态；场选择自旋分辨、相干章动以及较长T₁和Tₘ显示出量子位相关动力学。",
+      "meaning_cn": "该工作把拓扑受挫π体系的结构证据与相干自旋响应联系起来，提供了可批量获得的碳基分子候选。现阶段证据证明的是分子内在自旋性质，尚不等同于器件级量子门或可扩展读出。",
+      "publication_date": "2026-10-20",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://pubs.acs.org/doi/10.1021/jacs.6c16438",
+      "doi": "10.1021/jacs.6c16438",
+      "alternative_sources": [
+        {
+          "name": "Crossref题录、作者与摘要",
+          "url": "https://api.crossref.org/works/10.1021/jacs.6c16438"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-21",
+      "last_updated": "2026-10-21",
+      "report_file": "SpinFront_2026-10-21.html"
+    },
+    {
+      "item_id": "SF-20261021-04",
+      "report_date": "2026-10-21",
+      "item_no": 4,
+      "title_cn": "血清NMR区分脓毒症与择期手术后的脂蛋白响应",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "脓毒症、择期手术患者及健康对照血清"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Villa 等用靶向质子NMR定量250项血清代谢指标，比较34例脓毒症、21例择期手术患者术前术后及89名健康对照；两种炎症状态均伴胆固醇降低，但富甘油三酯VLDL与GlycA升高只见于脓毒症。",
+      "meaning_cn": "共同变化提示低胆固醇并非感染特异，而VLDL亚类协同升高可能更有区分价值。样本量有限，且没有代谢物区分脓毒症存活与死亡，作者明确要求在匹配队列中复核。",
+      "publication_date": "2026-10-20",
+      "time_scope": "7d_extension",
+      "source": "Critical Care",
+      "url": "https://ccforum.biomedcentral.com/articles/10.1186/s13054-026-06401-2",
+      "doi": "10.1186/s13054-026-06401-2",
+      "alternative_sources": [
+        {
+          "name": "Crossref题录、作者与摘要",
+          "url": "https://api.crossref.org/works/10.1186/s13054-026-06401-2"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-21",
+      "last_updated": "2026-10-21",
+      "report_file": "SpinFront_2026-10-21.html"
+    },
+    {
+      "item_id": "SF-20261021-05",
+      "report_date": "2026-10-21",
+      "item_no": 5,
+      "title_cn": "工况ESR直接判定有机晶体管载流分子的取向差异",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "cw_epr"
+      ],
+      "method_ids": [
+        "operando_epr"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "anti-与syn-DMADT有机晶体管"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Somiya 等在器件工作状态下测量anti-与syn-二甲基蒽并二噻吩晶体管的角度依赖ESR，并结合DFT计算的g张量确定分子取向；两种异构体均呈end-on取向，anti异构体相对基底倾斜更明显。",
+      "meaning_cn": "结果与既有X射线分析一致，说明各向异性g因子可在载流状态下提供局域取向信息。方法价值在于工况测量；摘要未给出不同器件结构或偏压范围下的普适精度。",
+      "publication_date": "2026-10-15",
+      "time_scope": "7d_extension",
+      "source": "Japanese Journal of Applied Physics",
+      "url": "https://iopscience.iop.org/article/10.35848/1347-4065/aeb4c3",
+      "doi": "10.35848/1347-4065/aeb4c3",
+      "alternative_sources": [
+        {
+          "name": "Crossref题录、作者与摘要",
+          "url": "https://api.crossref.org/works/10.35848/1347-4065/aeb4c3"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-21",
+      "last_updated": "2026-10-21",
+      "report_file": "SpinFront_2026-10-21.html"
+    },
+    {
+      "item_id": "SF-20261021-06",
+      "report_date": "2026-10-21",
+      "item_no": 6,
+      "title_cn": "NV中心ODMR量化微金属环的GHz近场磁屏蔽",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "odmr"
+      ],
+      "application_ids": [
+        "quantum_spin",
+        "instrumentation"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "金刚石NV中心与平面微金属环"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Tanaka 等利用金刚石NV中心的光学探测磁共振与Rabi振荡，空间分辨探测平面微金属环附近的微波磁场；宽200 μm的环在2.84 GHz使局域磁场衰减约70%，模拟显示环宽缩至数微米仍可保持屏蔽。",
+      "meaning_cn": "实测与模拟共同给出集成微波器件的近场磁通管理尺度。70%衰减对应特定几何与频率，缩小结构后的性能来自数值模拟，不能视为已完成器件实测。",
+      "publication_date": "2026-10-20",
+      "time_scope": "7d_extension",
+      "source": "Japanese Journal of Applied Physics",
+      "url": "https://iopscience.iop.org/article/10.35848/1347-4065/aead6e",
+      "doi": "10.35848/1347-4065/aead6e",
+      "alternative_sources": [
+        {
+          "name": "Crossref题录、作者与摘要",
+          "url": "https://api.crossref.org/works/10.35848/1347-4065/aead6e"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-21",
+      "last_updated": "2026-10-21",
+      "report_file": "SpinFront_2026-10-21.html"
+    },
+    {
+      "item_id": "SF-20261021-07",
+      "report_date": "2026-10-21",
+      "item_no": 7,
+      "title_cn": "快速¹H qNMR同步定量何首乌加工品与复方中的指标成分",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "qnmr"
+      ],
+      "application_ids": [
+        "natural_products",
+        "quality_control"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "生、制何首乌及七宝美髯丹煎剂"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Li 等建立¹H qNMR方法，定量何首乌中的二苯乙烯苷、游离蒽醌等指标成分；验证结果显示准确度与精密度良好，并用于生品、微波加工品以及七宝美髯丹煎剂的含量监测。",
+      "meaning_cn": "该流程减少对多种标准品校准曲线的依赖，适合比较加工前后与复方样品。作者仍将其定位为可行方法和未来药典方法的参考，尚不能表述为已获药典采纳。",
+      "publication_date": "2026-10-18",
+      "time_scope": "7d_extension",
+      "source": "International Journal of Analytical Chemistry",
+      "url": "https://doi.org/10.1155/ianc/6092060",
+      "doi": "10.1155/ianc/6092060",
+      "alternative_sources": [
+        {
+          "name": "Crossref题录、作者与摘要",
+          "url": "https://api.crossref.org/works/10.1155/ianc/6092060"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-21",
+      "last_updated": "2026-10-21",
+      "report_file": "SpinFront_2026-10-21.html"
+    },
+    {
+      "item_id": "SF-20261021-08",
+      "report_date": "2026-10-21",
+      "item_no": 8,
+      "title_cn": "³¹P NMR揭示N-甲基化对Eu(III)-草甘膦配位的影响",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "Eu(III)与草甘膦/N-甲基草甘膦水溶液"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Zhao 等结合电位滴定、³¹P NMR、ESI-MS与Eu(III)发光，比较草甘膦及N-甲基衍生物的质子化和配位；N-甲基化主要改变第一步质子化，并提高1:1/1:2 Eu(III)配合物的累积生成常数。",
+      "meaning_cn": "多技术结果支持最高1:2的金属—配体模型，未在测量条件下确认1:3物种。NMR提供磷酸膦位点与局域配位响应证据；形成常数差异受本研究溶液条件约束。",
+      "publication_date": "2026-10-16",
+      "time_scope": "7d_extension",
+      "source": "Inorganics",
+      "url": "https://www.mdpi.com/2304-6740/14/10/264",
+      "doi": "10.3390/inorganics14100264",
+      "alternative_sources": [
+        {
+          "name": "Crossref题录、作者与摘要",
+          "url": "https://api.crossref.org/works/10.3390/inorganics14100264"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-21",
+      "last_updated": "2026-10-21",
+      "report_file": "SpinFront_2026-10-21.html"
+    },
+    {
+      "item_id": "SF-20261021-09",
+      "report_date": "2026-10-21",
+      "item_no": 9,
+      "title_cn": "EPR与UV-Vis联用评估植物提取物的抗氧化能力",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "cw_epr"
+      ],
+      "method_ids": [
+        "spin_probe"
+      ],
+      "application_ids": [
+        "natural_products"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "植物提取物与DPPH自由基"
+      ],
+      "information_type": "review",
+      "summary_cn": "Pilawa 等综述X波段EPR与UV-Vis在植物抗氧化物研究中的联合使用，重点讨论DPPH自由基与植物提取物作用时两类谱信号随时间衰减并达到平台的规律，以及生境条件对提取物抗氧化表现的影响。",
+      "meaning_cn": "以DPPH信号最低平台值比较提取物时，EPR提供自由基响应，UV-Vis给出互补吸收证据。该文属于方法综述并列举实例，不是统一标准方法；不同提取与反应条件下的数值不能未经校准直接横比。",
+      "publication_date": "2026-10-16",
+      "time_scope": "7d_extension",
+      "source": "Journal of Water and Land Development",
+      "url": "https://doi.org/10.24425/jwld.2026.7086",
+      "doi": "10.24425/jwld.2026.7086",
+      "alternative_sources": [
+        {
+          "name": "Crossref题录、作者与摘要",
+          "url": "https://api.crossref.org/works/10.24425/jwld.2026.7086"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-21",
+      "last_updated": "2026-10-21",
+      "report_file": "SpinFront_2026-10-21.html"
+    },
+    {
+      "item_id": "SF-20261021-10",
+      "report_date": "2026-10-21",
+      "item_no": 10,
+      "title_cn": "采购与需求动态：三项NMR招标与一项EPR延期",
+      "direction_ids": [
+        "nmr",
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "400 MHz固体核磁共振波谱仪",
+        "固体核磁共振谱仪",
+        "核磁共振波谱仪与共振激光拉曼谱仪",
+        "多频率电子顺磁共振波谱仪"
+      ],
+      "information_type": "tender",
+      "summary_cn": "湖南大学10月20日发布400 MHz固体核磁共振波谱仪公开招标，预算及最高限价498万元，投标截止11月11日09:00；重庆大学10月19日发布固体核磁共振谱仪公开招标，预算及最高限价400万元，投标截止11月9日10:00；中国科学院高能物理研究所10月19日发布CSNS-II分子精细结构表征系统第二次公开招标，含核磁共振波谱仪和共振激光拉曼谱仪各1套，项目预算及最高限价515万元，投标截止11月10日09:30；中国科学院过程工程研究所10月15日发布多频率电子顺磁共振波谱仪延期公告，原定开标时间延期，新的开标时间另行通知。",
+      "meaning_cn": "前三项均为公开招标：湖南大学项目允许采购进口产品，CSNS-II项目两类设备同属一个采购包且接受进口产品，因此515万元不能拆算为核磁单机价格；重庆大学公告正文未公开频率配置。过程工程所公告属于延期而非新招标，未给出新截止时间，故不补写日期。",
+      "publication_date": "2026-10-20",
+      "time_scope": "7d_extension",
+      "source": "湖南大学采购与招标管理中心",
+      "url": "http://zczx1.hnu.edu.cn/cggghw/7493.chtml",
+      "doi": "",
+      "alternative_sources": [
+        {
+          "name": "重庆大学固体核磁共振谱仪公告",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261019_27516060.htm"
+        },
+        {
+          "name": "高能物理研究所CSNS-II表征系统公告",
+          "url": "https://www.oitccas.com/pages/tender_online_info.html?FormNo=ZBLX26100270"
+        },
+        {
+          "name": "过程工程所多频率EPR延期公告",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/gzgg/202610/t20261015_27494923.htm"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-21",
+      "last_updated": "2026-10-21",
+      "report_file": "SpinFront_2026-10-21.html"
+    }
+  ]
+}

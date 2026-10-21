@@ -1,0 +1,437 @@
+{
+  "schema_version": "1.0.0",
+  "report_date": "2026-10-22",
+  "taxonomy_version": "1.2.0",
+  "scope_note": "检索截至2026-10-22 06:05:18（Asia/Shanghai）；严格24小时来源无法稳定提供精确时分且不足5条，已完成10月15—21日增强回扫，以及期刊、预印本/题录与机构、厂商软件、会议和采购五路线与九个方法主题簇检索。以main 81393654df3b的63期538条和16份Review查重；登记18篇学术候选，其中9篇入选、4篇历史重复、5篇因证据或优先级排除。采购专项登记10份候选，4份合格、6份医疗MRI排除；最终10条含9篇论文/综述和末条采购汇总，汇总实际包含4份公告。作者均由Crossref、PubMed或出版商题录核实；所有学术条目因日期精度按近7天扩展标注。",
+  "items": [
+    {
+      "item_id": "SF-20261022-01",
+      "report_date": "2026-10-22",
+      "item_no": 1,
+      "title_cn": "溶液NMR串联解析GPCR激活与信号动态",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "structural_biology",
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "G蛋白偶联受体"
+      ],
+      "information_type": "review",
+      "summary_cn": "Zhai 等综述溶液NMR解析GPCR激活与信号传导动态的进展，涵盖样品制备、同位素标记和关键实验策略，并归纳NMR如何捕捉受体—配体及受体—转导蛋白的瞬态相互作用与功能中间态。",
+      "meaning_cn": "文章聚焦冷冻电镜和晶体学静态结构较难覆盖的构象能量景观，为设计GPCR动态研究提供方法路线；其性质为综述，所列策略的适用性仍取决于具体受体、标记方案和样品稳定性。",
+      "publication_date": "2026-10-21",
+      "time_scope": "7d_extension",
+      "source": "Health and Metabolism",
+      "url": "https://doi.org/10.53941/hm.2026.100024",
+      "doi": "10.53941/hm.2026.100024",
+      "alternative_sources": [
+        {
+          "name": "Crossref题录、作者与在线日期",
+          "url": "https://api.crossref.org/works/10.53941/hm.2026.100024"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-22",
+      "last_updated": "2026-10-22",
+      "report_file": "SpinFront_2026-10-22.html"
+    },
+    {
+      "item_id": "SF-20261022-02",
+      "report_date": "2026-10-22",
+      "item_no": 2,
+      "title_cn": "NMR建立39种血清代谢物的短期与长期生物变异参数",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "30名健康成人的系列血清样本"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Campas 等以NMR定量30名健康成人血清中的39种代谢物，按每周10周和每月10个月采样估算个体内、个体间变异、个体指数、参考变化值及分析性能要求；两种时间尺度的变异估计总体相近。",
+      "meaning_cn": "结果为纵向代谢组结果判读和实验室质量目标提供了可复用参数，但8种代谢物未达到不精密度要求，且队列仅含23—40岁健康人，临床人群与不同平台仍需独立验证。",
+      "publication_date": "2026-10-21",
+      "time_scope": "7d_extension",
+      "source": "Clinical Chemistry and Laboratory Medicine",
+      "url": "https://doi.org/10.1515/cclm-2026-1138",
+      "doi": "10.1515/cclm-2026-1138",
+      "alternative_sources": [
+        {
+          "name": "Crossref题录、作者与在线日期",
+          "url": "https://api.crossref.org/works/10.1515/cclm-2026-1138"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-22",
+      "last_updated": "2026-10-22",
+      "report_file": "SpinFront_2026-10-22.html"
+    },
+    {
+      "item_id": "SF-20261022-03",
+      "report_date": "2026-10-22",
+      "item_no": 3,
+      "title_cn": "¹H NMR与可解释集成学习连接丹参成分和心血管活性",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "metabolomics",
+        "qnmr"
+      ],
+      "application_ids": [
+        "natural_products",
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "丹参样品与斑马鱼心血管活性模型"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Li 等以定量¹H NMR测定丹参中的28种代谢物，并以斑马鱼评估促血管生成、抗血栓和舒血管三类活性；两层堆叠模型在独立样本验证中实现R²为0.895—0.931、RMSE为0.116—0.130。",
+      "meaning_cn": "研究把化学指纹与多种功能读数进行双向映射，并用可解释模型识别候选贡献成分；性能来自特定丹参样本和斑马鱼测定体系，不能直接替代人体疗效或安全性证据。",
+      "publication_date": "2026-10-21",
+      "time_scope": "7d_extension",
+      "source": "Metabolites",
+      "url": "https://www.mdpi.com/2218-1989/16/10/798",
+      "doi": "10.3390/metabo16100798",
+      "alternative_sources": [
+        {
+          "name": "Crossref题录、作者与在线日期",
+          "url": "https://api.crossref.org/works/10.3390/metabo16100798"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-22",
+      "last_updated": "2026-10-22",
+      "report_file": "SpinFront_2026-10-22.html"
+    },
+    {
+      "item_id": "SF-20261022-04",
+      "report_date": "2026-10-22",
+      "item_no": 4,
+      "title_cn": "电流密度框架计算顺磁分子的二阶磁性质",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "paramagnetic_nmr",
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "含3d过渡金属的顺磁分子"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Summa 等提出基于磁致电流密度的计算框架，同时处理顺磁分子的核磁屏蔽、核超精细与磁化率张量，并通过自旋电流显式恢复温度依赖的Curie贡献，避免直接求解g张量和零场分裂哈密顿量。",
+      "meaning_cn": "标量相对论ZORA修正与原点无关电流密度的混合策略可捕捉¹H、¹³C屏蔽中的重原子—轻原子效应；示例限于3d系列体系，忽略更高阶相对论项的近似边界需在更重元素中另行检验。",
+      "publication_date": "2026-10-21",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Chemical Physics",
+      "url": "https://doi.org/10.1063/5.0350864",
+      "doi": "10.1063/5.0350864",
+      "alternative_sources": [
+        {
+          "name": "Crossref题录、作者与在线日期",
+          "url": "https://api.crossref.org/works/10.1063/5.0350864"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-22",
+      "last_updated": "2026-10-22",
+      "report_file": "SpinFront_2026-10-22.html"
+    },
+    {
+      "item_id": "SF-20261022-05",
+      "report_date": "2026-10-22",
+      "item_no": 5,
+      "title_cn": "单边NMR区分MOF纳米通道中的两类水扩散",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "UiO-66功能化径迹蚀刻固态纳米通道"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Milana 等用单边NMR原位测量UiO-66功能化固态纳米通道内的水扩散，将信号衰减分解为颗粒内微孔的少量慢扩散组分和颗粒间构造孔隙的主要快扩散组分，并比较两种界面生长路线。",
+      "meaning_cn": "一锅法形成团聚且曲折的孔路，反向扩散法所得连通孔道的水迁移还随pH可测变化，表明构造孔隙是膜内局域传质的重要结构参数；结论针对该材料和制备条件。",
+      "publication_date": "2026-10-21",
+      "time_scope": "7d_extension",
+      "source": "ACS Applied Materials & Interfaces",
+      "url": "https://pubs.acs.org/doi/10.1021/acsami.6c16040",
+      "doi": "10.1021/acsami.6c16040",
+      "alternative_sources": [
+        {
+          "name": "Crossref题录、作者与在线日期",
+          "url": "https://api.crossref.org/works/10.1021/acsami.6c16040"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-22",
+      "last_updated": "2026-10-22",
+      "report_file": "SpinFront_2026-10-22.html"
+    },
+    {
+      "item_id": "SF-20261022-06",
+      "report_date": "2026-10-22",
+      "item_no": 6,
+      "title_cn": "NMR鉴定红树林来源镰刀菌的新二氢异香豆素",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "natural_products",
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "红树林相关Fusarium sp. IQ-1921代谢物"
+      ],
+      "information_type": "paper",
+      "summary_cn": "García-Oceguera 等筛选56份红树林相关子囊菌提取物，并以活性结果和LC–MS/MS分子网络优选Fusarium sp. IQ-1921；1D/2D NMR与高分辨质谱鉴定出1个新二氢异香豆素和4个已知类似物。",
+      "meaning_cn": "该流程把耐药菌活性筛查、分子网络和结构解析贯通，用于降低天然产物重复分离；化合物仅表现中等抗菌活性，当前证据支持先导发现而非临床抗菌效能。",
+      "publication_date": "2026-10-21",
+      "time_scope": "7d_extension",
+      "source": "Magnetic Resonance in Chemistry",
+      "url": "https://doi.org/10.1002/mrc.70146",
+      "doi": "10.1002/mrc.70146",
+      "alternative_sources": [
+        {
+          "name": "Crossref题录、作者与在线日期",
+          "url": "https://api.crossref.org/works/10.1002/mrc.70146"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-22",
+      "last_updated": "2026-10-22",
+      "report_file": "SpinFront_2026-10-22.html"
+    },
+    {
+      "item_id": "SF-20261022-07",
+      "report_date": "2026-10-22",
+      "item_no": 7,
+      "title_cn": "NMR与CT量化低频脉动注水对煤孔裂隙的改造",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "低频脉动注水煤样与煤层气现场"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Fang 等结合NMR、CT和三轴实验量化低频脉动注水后的煤孔裂隙变化，观察到200—300 μm大孔增加并形成大于500 μm主流通道，渗透率比值k/k₀达到4.07，现场案例产气量提高17.07%。",
+      "meaning_cn": "多模态表征把孔径演化、力学劣化和渗透率联系到注水参数，为煤层气增产参数选择提供实验依据；现场增幅来自单一案例，不能视为不同煤层条件下的通用效果。",
+      "publication_date": "2026-10-21",
+      "time_scope": "7d_extension",
+      "source": "ACS Omega",
+      "url": "https://pubs.acs.org/doi/10.1021/acsomega.6c08410",
+      "doi": "10.1021/acsomega.6c08410",
+      "alternative_sources": [
+        {
+          "name": "Crossref题录、作者与在线日期",
+          "url": "https://api.crossref.org/works/10.1021/acsomega.6c08410"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-22",
+      "last_updated": "2026-10-22",
+      "report_file": "SpinFront_2026-10-22.html"
+    },
+    {
+      "item_id": "SF-20261022-08",
+      "report_date": "2026-10-22",
+      "item_no": 8,
+      "title_cn": "在细胞固体NMR揭示噬菌体扰动细菌膜有序度",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "三株Aeromonas salmonicida及噬菌体SW69-9"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Moussaoui 等以棕榈酸氘代标记结合在细胞²H固体NMR，比较三株杀鲑气单胞菌受噬菌体SW69-9作用后的膜动态；敏感株膜有序度下降，而耐受株BIM93维持原有状态。",
+      "meaning_cn": "三种包膜结构和敏感性组合显示，噬菌体诱导的膜扰动取决于宿主包膜架构；该标记策略能在尽量保持脂质组成的条件下观察完整细胞，但结论尚限于所测菌株—噬菌体体系。",
+      "publication_date": "2026-10-16",
+      "time_scope": "7d_extension",
+      "source": "Biochimica et Biophysica Acta - Biomembranes",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42887633/",
+      "doi": "10.1016/j.bbamem.2026.184582",
+      "alternative_sources": [
+        {
+          "name": "PubMed题录、作者与摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42887633/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-22",
+      "last_updated": "2026-10-22",
+      "report_file": "SpinFront_2026-10-22.html"
+    },
+    {
+      "item_id": "SF-20261022-09",
+      "report_date": "2026-10-22",
+      "item_no": 9,
+      "title_cn": "NMR锁定睾酮外用凝胶的三种降解杂质",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "pharma",
+        "quality_control",
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "睾酮1%外用凝胶加速稳定性样品"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Mukkapati 等针对睾酮1%外用凝胶在40 ℃、75%相对湿度下出现的3个超阈值杂质，结合制备色谱、LC–MS、高分辨质谱与400 MHz ¹H NMR，鉴定为6β-羟基、6β-氢过氧和6-酮睾酮。",
+      "meaning_cn": "结构归属为稳定性调查和杂质控制提供直接依据，TOPKAT与Derek Nexus评估未提示致突变性并归入Class 5；计算毒理结论不能替代必要的实验安全性验证。",
+      "publication_date": "2026-10-18",
+      "time_scope": "7d_extension",
+      "source": "Separation Science Plus",
+      "url": "https://doi.org/10.1002/sscp.70321",
+      "doi": "10.1002/sscp.70321",
+      "alternative_sources": [
+        {
+          "name": "Crossref题录、作者与在线日期",
+          "url": "https://api.crossref.org/works/10.1002/sscp.70321"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-22",
+      "last_updated": "2026-10-22",
+      "report_file": "SpinFront_2026-10-22.html"
+    },
+    {
+      "item_id": "SF-20261022-10",
+      "report_date": "2026-10-22",
+      "item_no": 10,
+      "title_cn": "采购与需求动态：一项NMR招标、两项NMR中标与一项EPR更正",
+      "direction_ids": [
+        "nmr",
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "400兆宽腔固体核磁共振波谱仪",
+        "600 MHz核磁共振波谱仪",
+        "400 MHz固体核磁共振采样系统",
+        "多频率电子顺磁共振波谱仪"
+      ],
+      "information_type": "tender",
+      "summary_cn": "天津大学10月21日发布400兆宽腔固体核磁共振波谱仪公开招标，采购1套，预算及最高限价500万元，投标截止11月11日09:30；北京师范大学10月21日发布珠海校区核磁共振波谱仪中标公告，中标设备为中科牛津Quantum-II 600 MHz 1台，中标金额531.5万元；中国科学院化学研究所10月21日发布400 MHz固体核磁共振采样系统中标公告，布鲁克AVANCE NEO-X 1套中标金额379.85万元；中国科学院过程工程研究所10月21日发布多频率电子顺磁共振波谱仪更正公告，调整多项磁体、变温与谐振腔技术指标，并将投标截止及开标时间更正为11月9日13:30。",
+      "meaning_cn": "四份公告均经中国政府采购网正文独立核验。天津大学项目允许进口产品投标；两项中标金额为相应公告所列成交金额。过程工程所公告属于既有项目的采购文件更正，并非新增招标，公告正文未重列预算，故不补写金额。",
+      "publication_date": "2026-10-21",
+      "time_scope": "7d_extension",
+      "source": "中国政府采购网",
+      "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261021_27536717.htm",
+      "doi": "",
+      "alternative_sources": [
+        {
+          "name": "北京师范大学珠海校区NMR中标公告",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202610/t20261021_27538096.htm"
+        },
+        {
+          "name": "中国科学院化学研究所固体NMR采样系统中标公告",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202610/t20261021_27536801.htm"
+        },
+        {
+          "name": "中国科学院过程工程研究所多频率EPR更正公告",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/gzgg/202610/t20261021_27532021.htm"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-22",
+      "last_updated": "2026-10-22",
+      "report_file": "SpinFront_2026-10-22.html"
+    }
+  ]
+}

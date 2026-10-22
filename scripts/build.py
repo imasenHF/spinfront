@@ -162,11 +162,14 @@ def main():
  if args.check:print(f'Validated {len(issues)} issues / {sum(len(d["items"]) for d in issues)} items / Daily Epigraph date mapping');return
  out=(ROOT/args.output).resolve();assert out!=ROOT and ROOT in out.parents,'Output must be a child directory of this repo'
  out.mkdir(parents=True,exist_ok=True);shutil.copytree(ROOT/'assets',out/'assets',dirs_exist_ok=True);shutil.copytree(ROOT/'data',out/'data',dirs_exist_ok=True);shutil.copytree(ROOT/'taxonomy',out/'taxonomy',dirs_exist_ok=True)
- downloads=out/'downloads';downloads.mkdir(exist_ok=True)
+ # Remove obsolete download artifacts when rebuilding an existing output tree.
+ downloads=out/'downloads'
+ if downloads.is_symlink():downloads.unlink()
+ elif downloads.exists():shutil.rmtree(downloads)
  listings=[]
  for i,d in enumerate(issues):
   date=d['report_date'];prev_date=issues[i-1]['report_date'] if i>0 else '';next_date=issues[i+1]['report_date'] if i+1<len(issues) else ''
-  p=out/date;p.mkdir(exist_ok=True);s=issue_html(d,labels,epigraphs,prev_date,next_date);(p/'index.html').write_text(s,encoding='utf-8');(downloads/f'SpinFront_{date}.html').write_text(issue_html(d,labels,epigraphs,prev_date,next_date,standalone=True),encoding='utf-8')
+  p=out/date;p.mkdir(exist_ok=True);s=issue_html(d,labels,epigraphs,prev_date,next_date);(p/'index.html').write_text(s,encoding='utf-8')
   assert s.count('<article ')==len(d['items']) and '<img' not in s
   for a in d['items']:
    for k in ['title_cn','summary_cn','meaning_cn']:assert esc(a[k]).replace('\n','<br>') in s

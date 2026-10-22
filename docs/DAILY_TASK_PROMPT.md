@@ -23,7 +23,7 @@ NMR / EPR Daily Brief
 
 聊天屏幕版标题使用“自旋前沿｜SpinFront｜YYYY-MM-DD”，并保留“NMR / EPR Daily Brief”和“追踪自旋、谱学与应用进展”。随后提供范围说明，再逐条排列“编号＋简洁标题—分类标签—约100–150字中文摘要—具体意义—发布日期—原始来源链接”，条目之间使用分隔线。具体意义需面向NMR/EPR应用研发、仪器配置、方案交流或客户工作，给出明确的实验条件、部件、脉冲序列、数据处理或样品要求。屏幕版采用纯文本内容，不显示图片、图片占位区域或图片检索关键词。
 
-发送屏幕版完整正文的同时，生成可下载的单文件HTML，文件名固定为SpinFront_YYYY-MM-DD.html，例如SpinFront_2026-08-26.html。HTML内容和条目顺序与屏幕版一致，采用UTF-8、响应式单栏排版，优先适配手机阅读。HTML页首同样使用三行品牌信息。正文最大宽度约720px；每条使用独立卡片，标题、分类标签、摘要、具体意义、日期和来源集中在同一卡片内。控制信息密度，使每条在常见6–7英寸手机上约占一屏。
+交付方式（2026-10-23更新）：发送屏幕版完整正文并提供公开日报页面链接，不再单独提供下载版HTML、附件或下载链接；下载版不再作为每日交付、专项验收或执行回执中的必报项目。仓库现有构建程序如仍自动生成downloads兼容产物，可随构建保留，无需为每日任务另行制作或逐日验收；历史下载文件和链接不追溯删除。网页内容和条目顺序与屏幕版一致，采用仓库既有模板和响应式单栏样式，适配手机阅读。
 
 纯文本规则：后续日报不检索、不下载、不嵌入任何图片；不生成Base64数据、图片占位图、自制摘要图或图片检索关键词。HTML、屏幕正文和结构化记录均不保留图片字段。
 
@@ -33,7 +33,7 @@ SpinFront · NMR / EPR Daily Brief · YYYY-MM-DD
 本报告版权归作者所有，未经许可不得复制、转载或用于商业用途。
 日期使用当期晨报日期。邮箱仅显示为纯文本，不设置mailto或其他超链接。页脚使用低干扰、居中、小字号样式，并与正文保持适当间距。
 
-结构化输出规则：除屏幕正文和SpinFront_YYYY-MM-DD.html外，同时生成SpinFront_YYYY-MM-DD.json，作为SpinFront_Project的单期数据。JSON顶层固定包含schema_version、taxonomy_version、report_date、scope_note和items；无新增合格采购公告时，还必须按输出规则包含procurement_status（不计入items）。每条items记录必须包含item_id、report_date、item_no、title_cn、direction_ids、experiment_type_ids、method_ids、application_ids、sample_systems、instrument_component_ids、information_type、summary_cn、meaning_cn、publication_date、time_scope、source、url、doi、alternative_sources、related_to、review_status、first_seen、last_updated和report_file。item_id格式为SF-YYYYMMDD-NN；time_scope只允许24h或7d_extension；review_status默认unreviewed。JSON与HTML的条目数量、顺序、标题、摘要、具体意义、日期和来源必须一致。
+结构化输出规则：除屏幕正文和公开网页外，同时生成SpinFront_YYYY-MM-DD.json，作为SpinFront_Project的单期数据。JSON顶层固定包含schema_version、taxonomy_version、report_date、scope_note和items；无新增合格采购公告时，还必须按输出规则包含procurement_status（不计入items）。每条items记录必须包含item_id、report_date、item_no、title_cn、direction_ids、experiment_type_ids、method_ids、application_ids、sample_systems、instrument_component_ids、information_type、summary_cn、meaning_cn、publication_date、time_scope、source、url、doi、alternative_sources、related_to、review_status、first_seen、last_updated和report_file。item_id格式为SF-YYYYMMDD-NN；time_scope只允许24h或7d_extension；review_status默认unreviewed。JSON与HTML的条目数量、顺序、标题、摘要、具体意义、日期和来源必须一致。
 
 标准标签规则：正式标签、版本、定义和父子关系以仓库当前taxonomy/taxonomy.json为唯一依据，输出前读取并验证。谱学方向只使用nmr、epr；同时涉及两者时使用两个ID。活体波谱使用nmr与in_vivo_mrs；磁共振测速使用nmr与mr_velocimetry，排除将医学静脉成像误标为测速。顶层taxonomy_version与仓库版本一致。UI展示分组不作为正式ID。无法可靠映射的概念保留在sample_systems或正文，并在范围说明后列出待复核标签。
 
@@ -78,11 +78,11 @@ SpinFront · NMR / EPR Daily Brief · YYYY-MM-DD
 
 自动Review：由执行者逐条完成，不将常规审阅转交用户。生成docs/reviews/YYYY-MM-DD.json，包含报告日期、检索截止时刻、查重使用的最近至少7期日期和全库索引版本、各检索路线执行/访问失败状态，以及候选标题、来源、规范化DOI/URL、实际在线日期、出版状态、磁共振作用类别、判定依据及来源定位、入选或排除理由、重复键、标签及每个标签的短理由。审阅正式标签的ID、维度、父子关系和正文依据；存储最具体且有依据的ID，不因一般关联添加仪器部件或应用。direction_ids仅允许nmr、epr，两者都是主要内容时才同时标记。MRS与磁共振测速按现有词表实验类型记录。应用标签依据实际用途，不把方法名、样品名、采购或会议性质强行映射为科学应用。无法映射的概念放sample_systems和候选日志，不自动扩展词表。tag_review_status在完成分类审阅后记approved，分类理由保存在审阅日志。来源、日期、重复和科学解释分别记录状态；不得用tag_review_status=approved代替事实复核。原始来源无法确认、日期超窗或不明、主要作用不明的候选不能发布。候选不足保留实际数量；访问失败或执行资源限制如实写入范围说明，不能声称未执行的路线已完成。
 
-模板、数据与发布：先生成唯一当期JSON作为内容源，顶层包含schema_version、taxonomy_version、report_date、scope_note、items，taxonomy_version使用仓库当前版本。按仓库既有字段规则生成items，不携带图片字段。由同一JSON输出屏幕正文、网页与可下载HTML；使用templates/issue.html、assets/style.css和scripts/build.py，禁止每期重新写CSS或独立设计卡片。可下载HTML取构建产物_site/downloads/SpinFront_YYYY-MM-DD.html，其中CSS内嵌；JSON取data/YYYY/SpinFront_YYYY-MM-DD.json。网页日报由构建生成YYYY-MM-DD/index.html，主页日历、搜索索引及归档随构建自动更新。
+模板、数据与发布：先生成唯一当期JSON作为内容源，顶层包含schema_version、taxonomy_version、report_date、scope_note、items，taxonomy_version使用仓库当前版本。按仓库既有字段规则生成items，不携带图片字段。由同一JSON输出屏幕正文与网页；使用templates/issue.html、assets/style.css和scripts/build.py，禁止每期重新写CSS或独立设计卡片。现有构建自动生成的downloads产物仅作兼容保留，不作为每日交付或专项验收要求；JSON取data/YYYY/SpinFront_YYYY-MM-DD.json。网页日报由构建生成YYYY-MM-DD/index.html，主页日历、搜索索引及归档随构建自动更新。
 
-用户已授权此每日任务自动向公开仓库imasenHF/spinfront提交合格日报JSON和当期Review日志，并触发GitHub Pages发布，无需每天再次确认。每次先用GitHub只读工具验证当前运行具备仓库读写能力并读取main最新HEAD。只提交data/YYYY/当期JSON与docs/reviews/当期日志；正常日报运行不得修改模板、样式、词表、工作流、历史记录或主站仓库。不得提交凭证、私人教材、客户材料、下载的第三方全文或本地生成的_site目录。运行python scripts/build.py --check、python scripts/build.py、node tests/search.test.cjs、python tests/procurement.test.py，并核对屏幕/HTML/JSON数量、顺序、正文、日期、来源相同，单文件HTML不依赖外部CSS。检查全库DOI/URL/标题查重及至少7期近期发送内容后再提交。提交信息为Publish SpinFront YYYY-MM-DD (N items)。使用已授权GitHub连接的写入能力，原子提交两个文件，以最新HEAD为父提交，禁止force push。已有同日文件先比较内容；相同不重复提交，不同作为明确修订保留既有item_id并记录日志，不能无依据覆盖。冲突时重读最新HEAD和当日数据重新校验，不能覆盖并发修改。
+用户已授权此每日任务自动向公开仓库imasenHF/spinfront提交合格日报JSON和当期Review日志，并触发GitHub Pages发布，无需每天再次确认。每次先用GitHub只读工具验证当前运行具备仓库读写能力并读取main最新HEAD。只提交data/YYYY/当期JSON与docs/reviews/当期日志；正常日报运行不得修改模板、样式、词表、工作流、历史记录或主站仓库。不得提交凭证、私人教材、客户材料、下载的第三方全文或本地生成的_site目录。运行python scripts/build.py --check、python scripts/build.py、node tests/search.test.cjs、python tests/procurement.test.py，并核对屏幕/网页HTML/JSON数量、顺序、正文、日期、来源相同。检查全库DOI/URL/标题查重及至少7期近期发送内容后再提交。提交信息为Publish SpinFront YYYY-MM-DD (N items)。使用已授权GitHub连接的写入能力，原子提交两个文件，以最新HEAD为父提交，禁止force push。已有同日文件先比较内容；相同不重复提交，不同作为明确修订保留既有item_id并记录日志，不能无依据覆盖。冲突时重读最新HEAD和当日数据重新校验，不能覆盖并发修改。
 
-提交后分别检查该commit对应Actions构建、Pages部署以及当期公开页面的HTTP访问和实际内容，验证当期页面与归档索引出现正确日期、条目数、来源及采购末条或采购核查说明。最终在版权页脚之后另附简短执行状态，注明报告与标签审阅、构建及测试、提交SHA、Actions/Pages状态、公开页面验证及实际链接；发布状态不写入学术条目正文。仅在提交、构建、Pages部署和公开页面核查均成功时写“已发布”，不能用GitHub提交成功代替公开页面验收。GitHub写入工具不可用、连接过期或权限不足时，继续完成正文与HTML/JSON并保留Review日志，明确写未提交及具体原因；自动化执行上下文的工具与授权可能不同于当前对话，不得把提示词写入视作未来成功发布的保证。部署仍进行中写待部署确认；失败报告日志中的原因与已保存结果，不声称主页已更新。
+提交后分别检查该commit对应Actions构建、Pages部署以及当期公开页面的HTTP访问和实际内容，验证当期页面与归档索引出现正确日期、条目数、来源及采购末条或采购核查说明。最终在版权页脚之后另附简短执行状态，注明报告与标签审阅、构建及测试、提交SHA、Actions/Pages状态、公开页面验证及实际链接；发布状态不写入学术条目正文。仅在提交、构建、Pages部署和公开页面核查均成功时写“已发布”，不能用GitHub提交成功代替公开页面验收。GitHub写入工具不可用、连接过期或权限不足时，继续完成正文、网页构建和JSON并保留Review日志，明确写未提交及具体原因；自动化执行上下文的工具与授权可能不同于当前对话，不得把提示词写入视作未来成功发布的保证。部署仍进行中写待部署确认；失败报告日志中的原因与已保存结果，不声称主页已更新。
 
 
 标签补充约定：应用分组application_domains仅用于展示，正式记录使用tags中的标准ID；采购与培训不再使用procurement/education_training应用ID，按实际公告/活动/科普/应用说明性质填写information_type。量子自旋应用须明确涉及自旋量子位、相干控制或量子传感，不能由一般磁性材料推定。核验来源后可增加publication_status，枚举preprint、early_access、published、unknown；不知道时写unknown，不凭期刊名字判定出版状态。

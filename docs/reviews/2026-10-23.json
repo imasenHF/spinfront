@@ -1,0 +1,709 @@
+{
+  "schema_version": "1.0.0",
+  "report_date": "2026-10-23",
+  "retrieval_cutoff": "2026-10-23T06:18:00+08:00",
+  "repository": {
+    "full_name": "imasenHF/spinfront",
+    "base_head": "18c5c864048870ae490aee8ad5c396f0f99b38c8",
+    "branch": "main",
+    "read_write_permission": "GitHub connector read/write access used",
+    "rules_read": [
+      "docs/DAILY_TASK_PROMPT.md",
+      "docs/DAILY_OUTPUT_RULES.md",
+      "docs/MAINTENANCE.md",
+      "taxonomy/taxonomy.json",
+      "templates/issue.html",
+      "assets/style.css",
+      "scripts/build.py",
+      "tests/procurement.test.py",
+      "tests/search.test.cjs"
+    ],
+    "commit_scope": [
+      "data/2026/SpinFront_2026-10-23.json",
+      "docs/reviews/2026-10-23.json"
+    ]
+  },
+  "search_summary": {
+    "regular_trigger": "strict24h qualified<5 because exact publication time was unavailable for most academic sources",
+    "enhanced_completed": true,
+    "deep_rescan_completed_for_coverage": true,
+    "dates_rescanned": [
+      "2026-10-16",
+      "2026-10-17",
+      "2026-10-18",
+      "2026-10-19",
+      "2026-10-20",
+      "2026-10-21",
+      "2026-10-22"
+    ],
+    "routes": [
+      "journals_high_impact_and_specialist",
+      "preprints_databases_institutions",
+      "vendors_software",
+      "meetings_workshops",
+      "procurement_policy"
+    ],
+    "method_clusters": [
+      "liquid:NUS,pure shift,DOSY,CEST,DEST,paramagnetic,reaction monitoring",
+      "solid:MAS,fast MAS,DNP",
+      "low_field:TD-NMR,benchtop",
+      "software:qNMR,spectral processing",
+      "CW,rapid-scan EPR",
+      "pulsed EPR,DEER/PELDOR,ENDOR,ESEEM,HYSCORE",
+      "TREPR,spin trapping,spin labeling",
+      "operando,EC-EPR",
+      "probe,resonator,magnet,console,autosampler"
+    ],
+    "sources_checked": [
+      "Crossref REST API with 30 targeted queries (1219 unique records)",
+      "PubMed E-utilities date/method searches (103 records)",
+      "publisher, DOI and APS accepted-paper pages",
+      "arXiv/preprint searches",
+      "Bruker/JEOL/Oxford Instruments/Magritek/Nanalysis/CIQTEK searches",
+      "ENC/EUROMAR/ICMRBS/EFEPR/APES/ISMAR searches",
+      "CCGP central/local lists across tender, inquiry, correction, award and termination stages",
+      "OITC public read-only interface and international procurement searches"
+    ],
+    "limits": [
+      "部分出版商页面限制自动读取；使用出版商提交Crossref的完整题录与摘要，并保留原始论文链接。",
+      "CCGP详情页在直接HTTP读取时可能返回403，随后在公开浏览器中逐公告读取官方正文；未把未渲染内容视为无公告。",
+      "严格24小时无法仅凭日期字段证明，学术条目按7d_extension标注。"
+    ]
+  },
+  "candidates": [
+    {
+      "item_id": "SF-20261023-01",
+      "title": "定制多价配体以NMR解析无序蛋白识别",
+      "source": "Journal of the American Chemical Society",
+      "doi": "10.1021/jacs.6c16561",
+      "url": "https://doi.org/10.1021/jacs.6c16561",
+      "publication_date": "2026-10-22",
+      "publication_status": "early_access",
+      "mr_role": "method_core",
+      "role_evidence": "原始摘要明确NMR/EPR/ODMR为核心方法或解释链条中的关键证据。",
+      "author_verification": {
+        "status": "verified",
+        "first_author": "Ciabini",
+        "url": "https://api.crossref.org/works/10.1021/jacs.6c16561"
+      },
+      "source_review": "verified_primary_or_publisher_deposited_metadata",
+      "date_review": "verified_date_without_exact_time_7d_extension",
+      "scientific_review": "passed_with_stated_limits",
+      "duplicate_review": "no_published_doi_url_title_collision",
+      "decision": "selected",
+      "tags": {
+        "direction_ids": [
+          "nmr"
+        ],
+        "experiment_type_ids": [
+          "solution_nmr"
+        ],
+        "method_ids": [],
+        "application_ids": [
+          "structural_biology"
+        ],
+        "instrument_component_ids": []
+      },
+      "tag_review_status": "approved",
+      "information_type_reason": "原始来源为学术论文",
+      "review_status": "unreviewed"
+    },
+    {
+      "item_id": "SF-20261023-02",
+      "title": "¹⁹F探针NMR追踪人神经球蛋白构象与蛋白互作",
+      "source": "Biochemistry",
+      "doi": "10.1021/acs.biochem.6c00592",
+      "url": "https://doi.org/10.1021/acs.biochem.6c00592",
+      "publication_date": "2026-10-22",
+      "publication_status": "early_access",
+      "mr_role": "method_core",
+      "role_evidence": "原始摘要明确NMR/EPR/ODMR为核心方法或解释链条中的关键证据。",
+      "author_verification": {
+        "status": "verified",
+        "first_author": "Xia",
+        "url": "https://api.crossref.org/works/10.1021/acs.biochem.6c00592"
+      },
+      "source_review": "verified_primary_or_publisher_deposited_metadata",
+      "date_review": "verified_date_without_exact_time_7d_extension",
+      "scientific_review": "passed_with_stated_limits",
+      "duplicate_review": "no_published_doi_url_title_collision",
+      "decision": "selected",
+      "tags": {
+        "direction_ids": [
+          "nmr"
+        ],
+        "experiment_type_ids": [
+          "solution_nmr"
+        ],
+        "method_ids": [],
+        "application_ids": [
+          "structural_biology",
+          "life_science"
+        ],
+        "instrument_component_ids": []
+      },
+      "tag_review_status": "approved",
+      "information_type_reason": "原始来源为学术论文",
+      "review_status": "unreviewed"
+    },
+    {
+      "item_id": "SF-20261023-03",
+      "title": "双向NMR基础模型连接峰表、结构与预测谱",
+      "source": "Angewandte Chemie International Edition",
+      "doi": "10.1002/anie.7185622",
+      "url": "https://doi.org/10.1002/anie.7185622",
+      "publication_date": "2026-10-21",
+      "publication_status": "early_access",
+      "mr_role": "method_core",
+      "role_evidence": "原始摘要明确NMR/EPR/ODMR为核心方法或解释链条中的关键证据。",
+      "author_verification": {
+        "status": "verified",
+        "first_author": "Hoque",
+        "url": "https://api.crossref.org/works/10.1002/anie.7185622"
+      },
+      "source_review": "verified_primary_or_publisher_deposited_metadata",
+      "date_review": "verified_date_without_exact_time_7d_extension",
+      "scientific_review": "passed_with_stated_limits",
+      "duplicate_review": "no_published_doi_url_title_collision",
+      "decision": "selected",
+      "tags": {
+        "direction_ids": [
+          "nmr"
+        ],
+        "experiment_type_ids": [
+          "solution_nmr"
+        ],
+        "method_ids": [
+          "spectral_processing",
+          "computation_nmr"
+        ],
+        "application_ids": [
+          "chemical_structure"
+        ],
+        "instrument_component_ids": []
+      },
+      "tag_review_status": "approved",
+      "information_type_reason": "原始来源为学术论文",
+      "review_status": "unreviewed"
+    },
+    {
+      "item_id": "SF-20261023-04",
+      "title": "模型量化NMR传感器中的温度诱导Rb–Xe耦合误差",
+      "source": "Measurement Science and Technology",
+      "doi": "10.1088/1361-6501/aeb718",
+      "url": "https://doi.org/10.1088/1361-6501/aeb718",
+      "publication_date": "2026-10-21",
+      "publication_status": "early_access",
+      "mr_role": "method_core",
+      "role_evidence": "原始摘要明确NMR/EPR/ODMR为核心方法或解释链条中的关键证据。",
+      "author_verification": {
+        "status": "verified",
+        "first_author": "Zhang",
+        "url": "https://api.crossref.org/works/10.1088/1361-6501/aeb718"
+      },
+      "source_review": "verified_primary_or_publisher_deposited_metadata",
+      "date_review": "verified_date_without_exact_time_7d_extension",
+      "scientific_review": "passed_with_stated_limits",
+      "duplicate_review": "no_published_doi_url_title_collision",
+      "decision": "selected",
+      "tags": {
+        "direction_ids": [
+          "nmr"
+        ],
+        "experiment_type_ids": [],
+        "method_ids": [],
+        "application_ids": [
+          "instrumentation"
+        ],
+        "instrument_component_ids": []
+      },
+      "tag_review_status": "approved",
+      "information_type_reason": "原始来源为学术论文",
+      "review_status": "unreviewed"
+    },
+    {
+      "item_id": "SF-20261023-05",
+      "title": "EPR揭示X射线能质改变骨剂量信号衰减",
+      "source": "Physics in Medicine & Biology",
+      "doi": "10.1088/1361-6560/aeb791",
+      "url": "https://doi.org/10.1088/1361-6560/aeb791",
+      "publication_date": "2026-10-21",
+      "publication_status": "early_access",
+      "mr_role": "method_core",
+      "role_evidence": "原始摘要明确NMR/EPR/ODMR为核心方法或解释链条中的关键证据。",
+      "author_verification": {
+        "status": "verified",
+        "first_author": "Roussel",
+        "url": "https://api.crossref.org/works/10.1088/1361-6560/aeb791"
+      },
+      "source_review": "verified_primary_or_publisher_deposited_metadata",
+      "date_review": "verified_date_without_exact_time_7d_extension",
+      "scientific_review": "passed_with_stated_limits",
+      "duplicate_review": "no_published_doi_url_title_collision",
+      "decision": "selected",
+      "tags": {
+        "direction_ids": [
+          "epr"
+        ],
+        "experiment_type_ids": [],
+        "method_ids": [],
+        "application_ids": [
+          "life_science"
+        ],
+        "instrument_component_ids": []
+      },
+      "tag_review_status": "approved",
+      "information_type_reason": "原始来源为学术论文",
+      "review_status": "unreviewed"
+    },
+    {
+      "item_id": "SF-20261023-06",
+      "title": "三维配对离子框架调控钒酰卟啉自旋退相干",
+      "source": "The Journal of Physical Chemistry Letters",
+      "doi": "10.1021/acs.jpclett.6c02513",
+      "url": "https://doi.org/10.1021/acs.jpclett.6c02513",
+      "publication_date": "2026-10-22",
+      "publication_status": "early_access",
+      "mr_role": "method_core",
+      "role_evidence": "原始摘要明确NMR/EPR/ODMR为核心方法或解释链条中的关键证据。",
+      "author_verification": {
+        "status": "verified",
+        "first_author": "Epure",
+        "url": "https://api.crossref.org/works/10.1021/acs.jpclett.6c02513"
+      },
+      "source_review": "verified_primary_or_publisher_deposited_metadata",
+      "date_review": "verified_date_without_exact_time_7d_extension",
+      "scientific_review": "passed_with_stated_limits",
+      "duplicate_review": "no_published_doi_url_title_collision",
+      "decision": "selected",
+      "tags": {
+        "direction_ids": [
+          "epr"
+        ],
+        "experiment_type_ids": [
+          "pulsed_epr"
+        ],
+        "method_ids": [],
+        "application_ids": [
+          "quantum_spin",
+          "materials"
+        ],
+        "instrument_component_ids": []
+      },
+      "tag_review_status": "approved",
+      "information_type_reason": "原始来源为学术论文",
+      "review_status": "unreviewed"
+    },
+    {
+      "item_id": "SF-20261023-07",
+      "title": "范德华光子棘轮增强自旋缺陷发光与ODMR传感",
+      "source": "Nature Communications",
+      "doi": "10.1038/s41467-026-78802-4",
+      "url": "https://doi.org/10.1038/s41467-026-78802-4",
+      "publication_date": "2026-10-22",
+      "publication_status": "published",
+      "mr_role": "method_core",
+      "role_evidence": "原始摘要明确NMR/EPR/ODMR为核心方法或解释链条中的关键证据。",
+      "author_verification": {
+        "status": "verified",
+        "first_author": "Mayner",
+        "url": "https://api.crossref.org/works/10.1038/s41467-026-78802-4"
+      },
+      "source_review": "verified_primary_or_publisher_deposited_metadata",
+      "date_review": "verified_date_without_exact_time_7d_extension",
+      "scientific_review": "passed_with_stated_limits",
+      "duplicate_review": "no_published_doi_url_title_collision",
+      "decision": "selected",
+      "tags": {
+        "direction_ids": [
+          "epr"
+        ],
+        "experiment_type_ids": [],
+        "method_ids": [
+          "odmr"
+        ],
+        "application_ids": [
+          "quantum_spin",
+          "materials"
+        ],
+        "instrument_component_ids": []
+      },
+      "tag_review_status": "approved",
+      "information_type_reason": "原始来源为学术论文",
+      "review_status": "unreviewed"
+    },
+    {
+      "item_id": "SF-20261023-08",
+      "title": "等变神经网络预测碳纳米管内¹²⁹Xe磁屏蔽",
+      "source": "Physical Chemistry Chemical Physics",
+      "doi": "10.1039/d6cp03538h",
+      "url": "https://doi.org/10.1039/d6cp03538h",
+      "publication_date": "2026-10-21",
+      "publication_status": "early_access",
+      "mr_role": "method_core",
+      "role_evidence": "原始摘要明确NMR/EPR/ODMR为核心方法或解释链条中的关键证据。",
+      "author_verification": {
+        "status": "verified",
+        "first_author": "Zakary",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42902756/"
+      },
+      "source_review": "verified_primary_or_publisher_deposited_metadata",
+      "date_review": "verified_date_without_exact_time_7d_extension",
+      "scientific_review": "passed_with_stated_limits",
+      "duplicate_review": "no_published_doi_url_title_collision",
+      "decision": "selected",
+      "tags": {
+        "direction_ids": [
+          "nmr"
+        ],
+        "experiment_type_ids": [],
+        "method_ids": [
+          "computation_nmr"
+        ],
+        "application_ids": [
+          "materials"
+        ],
+        "instrument_component_ids": []
+      },
+      "tag_review_status": "approved",
+      "information_type_reason": "原始来源为学术论文",
+      "review_status": "unreviewed"
+    },
+    {
+      "item_id": "SF-20261023-09",
+      "title": "将铊NMR屏蔽不确定度压缩至QED尺度",
+      "source": "Physical Review A",
+      "doi": "10.1103/bnts-69js",
+      "url": "https://journals.aps.org/pra/accepted/10.1103/bnts-69js",
+      "publication_date": "2026-10-22",
+      "publication_status": "early_access",
+      "mr_role": "method_core",
+      "role_evidence": "原始摘要明确NMR/EPR/ODMR为核心方法或解释链条中的关键证据。",
+      "author_verification": {
+        "status": "verified",
+        "first_author": "Žňava",
+        "url": "https://api.crossref.org/works/10.1103/bnts-69js"
+      },
+      "source_review": "verified_primary_or_publisher_deposited_metadata",
+      "date_review": "verified_date_without_exact_time_7d_extension",
+      "scientific_review": "passed_with_stated_limits",
+      "duplicate_review": "no_published_doi_url_title_collision",
+      "decision": "selected",
+      "tags": {
+        "direction_ids": [
+          "nmr"
+        ],
+        "experiment_type_ids": [],
+        "method_ids": [
+          "computation_nmr"
+        ],
+        "application_ids": [],
+        "instrument_component_ids": []
+      },
+      "tag_review_status": "approved",
+      "information_type_reason": "原始来源为学术论文",
+      "review_status": "unreviewed"
+    },
+    {
+      "candidate_id": "A10",
+      "title": "10.1021/acs.langmuir.6c04722",
+      "doi": "10.1021/acs.langmuir.6c04722",
+      "url": "https://doi.org/10.1021/acs.langmuir.6c04722",
+      "publication_date": "2026-10-16/22",
+      "decision": "historical_duplicate",
+      "reason": "已在历史日报收录"
+    },
+    {
+      "candidate_id": "A11",
+      "title": "10.1021/acs.analchem.6c04147",
+      "doi": "10.1021/acs.analchem.6c04147",
+      "url": "https://doi.org/10.1021/acs.analchem.6c04147",
+      "publication_date": "2026-10-16/22",
+      "decision": "historical_duplicate",
+      "reason": "已在历史日报收录"
+    },
+    {
+      "candidate_id": "A12",
+      "title": "10.1021/acs.analchem.6c02571",
+      "doi": "10.1021/acs.analchem.6c02571",
+      "url": "https://doi.org/10.1021/acs.analchem.6c02571",
+      "publication_date": "2026-10-16/22",
+      "decision": "historical_duplicate",
+      "reason": "已在历史日报收录"
+    },
+    {
+      "candidate_id": "A13",
+      "title": "10.1021/acs.jafc.6c12495",
+      "doi": "10.1021/acs.jafc.6c12495",
+      "url": "https://doi.org/10.1021/acs.jafc.6c12495",
+      "publication_date": "2026-10-16/22",
+      "decision": "historical_duplicate",
+      "reason": "已在历史日报收录"
+    },
+    {
+      "candidate_id": "A14",
+      "title": "10.1515/cclm-2026-1138",
+      "doi": "10.1515/cclm-2026-1138",
+      "url": "https://doi.org/10.1515/cclm-2026-1138",
+      "publication_date": "2026-10-16/22",
+      "decision": "historical_duplicate",
+      "reason": "已在2026-10-22日报收录"
+    },
+    {
+      "candidate_id": "A15",
+      "title": "10.53941/hm.2026.100024",
+      "doi": "10.53941/hm.2026.100024",
+      "url": "https://doi.org/10.53941/hm.2026.100024",
+      "publication_date": "2026-10-16/22",
+      "decision": "historical_duplicate",
+      "reason": "已在2026-10-22日报收录"
+    },
+    {
+      "candidate_id": "A16",
+      "title": "10.1021/acsami.6c16040",
+      "doi": "10.1021/acsami.6c16040",
+      "url": "https://doi.org/10.1021/acsami.6c16040",
+      "publication_date": "2026-10-16/22",
+      "decision": "historical_duplicate",
+      "reason": "已在2026-10-22日报收录"
+    },
+    {
+      "candidate_id": "A17",
+      "title": "10.3390/metabo16100798",
+      "doi": "10.3390/metabo16100798",
+      "url": "https://doi.org/10.3390/metabo16100798",
+      "publication_date": "2026-10-16/22",
+      "decision": "historical_duplicate",
+      "reason": "已在2026-10-22日报收录"
+    },
+    {
+      "candidate_id": "A18",
+      "title": "10.1002/mrc.70146",
+      "doi": "10.1002/mrc.70146",
+      "url": "https://doi.org/10.1002/mrc.70146",
+      "publication_date": "2026-10-16/22",
+      "decision": "historical_duplicate",
+      "reason": "已在2026-10-22日报收录"
+    },
+    {
+      "candidate_id": "A19",
+      "title": "10.1002/nbm.70426",
+      "doi": "10.1002/nbm.70426",
+      "url": "https://doi.org/10.1002/nbm.70426",
+      "publication_date": "2026-10-16/22",
+      "decision": "excluded_irrelevant",
+      "reason": "医学磁共振血管成像，不属于NMR/EPR波谱前沿"
+    },
+    {
+      "candidate_id": "A20",
+      "title": "10.1002/nbm.70428",
+      "doi": "10.1002/nbm.70428",
+      "url": "https://doi.org/10.1002/nbm.70428",
+      "publication_date": "2026-10-16/22",
+      "decision": "excluded_priority",
+      "reason": "CEST成像相关但方法信息与优先级不足，未挤占更强候选"
+    },
+    {
+      "candidate_id": "A21",
+      "title": "10.1116/6.0005655",
+      "doi": "10.1116/6.0005655",
+      "url": "https://doi.org/10.1116/6.0005655",
+      "publication_date": "2026-10-16/22",
+      "decision": "excluded_irrelevant",
+      "reason": "主题为金刚石沉积用磁共振腔体，非NMR/EPR测量"
+    },
+    {
+      "candidate_id": "A22",
+      "title": "10.1098/rsta.2015.0202",
+      "doi": "10.1098/rsta.2015.0202",
+      "url": "https://doi.org/10.1098/rsta.2015.0202",
+      "publication_date": "2026-10-16/22",
+      "decision": "excluded_metadata_conflict",
+      "reason": "题录日期与DOI年份严重冲突，无法可靠确认当期新内容"
+    },
+    {
+      "candidate_id": "A23",
+      "title": "arXiv近期NMR/EPR候选汇总",
+      "doi": "",
+      "url": "https://arxiv.org/",
+      "publication_date": "2026-10-16/22",
+      "decision": "excluded_priority",
+      "reason": "命中超出近7天、历史重复或证据强度低于入选论文"
+    }
+  ],
+  "dedup": {
+    "history_issues": 64,
+    "history_items": 548,
+    "recent_issue_dates": [
+      "2026-10-16",
+      "2026-10-17",
+      "2026-10-18",
+      "2026-10-19",
+      "2026-10-20",
+      "2026-10-21",
+      "2026-10-22"
+    ],
+    "index_head": "18c5c864048870ae490aee8ad5c396f0f99b38c8",
+    "keys": [
+      "normalized_doi",
+      "canonical_url_including_each_alternative_source",
+      "normalized_title",
+      "procurement_project_stage_date_and_notice_id",
+      "prior_review_excluded_is_not_published"
+    ],
+    "prior_review_files": 17,
+    "registered_doi_duplicates": 9,
+    "registered_procurement_duplicates": 5,
+    "registered_duplicate_total": 14,
+    "selected_collisions": 0
+  },
+  "procurement": {
+    "registered_candidates": 11,
+    "qualified_announcements": 4,
+    "excluded_announcements": 7,
+    "daily_item_count": 10,
+    "combined_item_count": 1,
+    "combined_item_id": "SF-20261023-10",
+    "announcements": [
+      {
+        "candidate_id": "P01",
+        "title": "兰州化物所600 MHz超导核磁共振波谱仪公开招标",
+        "buyer": "中国科学院兰州化学物理研究所",
+        "publication_date": "2026-10-22",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261022_27544896.htm",
+        "stage": "公开招标",
+        "project_id": "OITC-G260882852",
+        "budget_cny": 5200000,
+        "deadline": "2026-11-12T09:30:00+08:00",
+        "decision": "selected",
+        "duplicate_review": "no published project/stage/date/url collision",
+        "reason": "官方正文核实设备、预算、项目编号、公告日期和投标截止时间。"
+      },
+      {
+        "candidate_id": "P02",
+        "title": "兰州化物所600 MHz超导核磁共振波谱仪终止公告",
+        "buyer": "中国科学院兰州化学物理研究所",
+        "publication_date": "2026-10-22",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/fblbgg/202610/t20261022_27541930.htm",
+        "stage": "终止/废标",
+        "project_id": "OITC-G260882833",
+        "decision": "selected",
+        "duplicate_review": "same instrument but new stage/date/notice; no notice URL collision",
+        "reason": "官方正文核实因有效投标人不足三家而废标；公告未重列预算或截止时间，未补写。"
+      },
+      {
+        "candidate_id": "P03",
+        "title": "青岛大学原位电池EPR测试系统结果公告",
+        "buyer": "青岛大学",
+        "publication_date": "2026-10-22",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202610/t20261022_27547235.htm",
+        "stage": "中标/成交",
+        "project_id": "SDGP370000000202602009103",
+        "award_cny": 3498000,
+        "decision": "selected",
+        "duplicate_review": "no published award notice collision",
+        "reason": "官方正文核实国仪量子EPR-Q300一套及成交金额。"
+      },
+      {
+        "candidate_id": "P04",
+        "title": "青岛大学原位电池EPR测试系统结果更正公告",
+        "buyer": "青岛大学",
+        "publication_date": "2026-10-22",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/gzgg/202610/t20261022_27547149.htm",
+        "stage": "结果更正",
+        "project_id": "SDGP370000000202602009103",
+        "decision": "selected",
+        "duplicate_review": "same project but distinct correction stage/date/notice",
+        "reason": "官方正文核实代理服务费由42478元改为33982.4元，其他内容不变。"
+      },
+      {
+        "candidate_id": "P05",
+        "title": "天津大学400兆宽腔固体NMR公开招标",
+        "publication_date": "2026-10-15/21",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261021_27536717.htm",
+        "decision": "excluded_duplicate",
+        "reason": "对应公告URL或项目阶段已在历史日报登记。"
+      },
+      {
+        "candidate_id": "P06",
+        "title": "北京师范大学珠海校区NMR中标",
+        "publication_date": "2026-10-15/21",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202610/t20261021_27538096.htm",
+        "decision": "excluded_duplicate",
+        "reason": "对应公告URL或项目阶段已在历史日报登记。"
+      },
+      {
+        "candidate_id": "P07",
+        "title": "中科院化学所400 MHz固体NMR采样系统中标",
+        "publication_date": "2026-10-15/21",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202610/t20261021_27536801.htm",
+        "decision": "excluded_duplicate",
+        "reason": "对应公告URL或项目阶段已在历史日报登记。"
+      },
+      {
+        "candidate_id": "P08",
+        "title": "中科院过程所多频率EPR更正",
+        "publication_date": "2026-10-15/21",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/gzgg/202610/t20261021_27532021.htm",
+        "decision": "excluded_duplicate",
+        "reason": "对应公告URL或项目阶段已在历史日报登记。"
+      },
+      {
+        "candidate_id": "P09",
+        "title": "中科院过程所多频率EPR延期",
+        "publication_date": "2026-10-15/21",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/gzgg/202610/t20261015_27494923.htm",
+        "decision": "excluded_duplicate",
+        "reason": "对应公告URL或项目阶段已在历史日报登记。"
+      },
+      {
+        "candidate_id": "P10",
+        "title": "江苏省县域共体设备更新项目核磁共振（1.5T）更正",
+        "publication_date": "2026-10-22",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/gzgg/202610/t20261022_27544322.htm",
+        "decision": "excluded_irrelevant",
+        "reason": "医学MRI泛采购，不属于NMR/EPR波谱。"
+      },
+      {
+        "candidate_id": "P11",
+        "title": "西安市红会医院核磁共振室改造终止",
+        "publication_date": "2026-10-21",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/fblbgg/202610/t20261021_27532335.htm",
+        "decision": "excluded_irrelevant",
+        "reason": "医学MRI机房工程，不属于NMR/EPR波谱。"
+      }
+    ],
+    "counting_note": "11份登记候选中4份合格公告合并为末条1条日报内容；5份历史重复、2份医疗MRI相关命中排除。"
+  },
+  "editorial_review": {
+    "author_subjects": "nine first-author surnames verified using Crossref, PubMed or the publisher; no journal used as acting subject",
+    "facts": "summaries limited to accessible abstracts and official notice bodies; limitations retained; four procurement notices independently checked for stages, dates, amounts and applicable deadline",
+    "textbook_access": "none_available_no_textbook_claim",
+    "publication_status": "online/early-access status preserved and not overstated as final issue publication",
+    "screen_html_json": "one canonical issue JSON; rendering and downloads generated from same data",
+    "images": "not searched, downloaded or embedded",
+    "tag_review": "all selected tags exist in taxonomy 1.2.0 and were manually reviewed; review_status remains unreviewed",
+    "pending_taxonomy": []
+  },
+  "verification": {
+    "local_tests": {
+      "build_check": "pending",
+      "build": "pending",
+      "search": "pending",
+      "procurement": "pending",
+      "canonical_consistency": "pending",
+      "history_collision_check": "passed before write: no selected DOI or procurement notice collision"
+    },
+    "commit": "prepared atomic two-file commit; not yet submitted",
+    "actions": "not yet checked",
+    "pages": "not yet checked",
+    "public_http_content": "not yet checked",
+    "post_commit_audit_note": "deployment results are checked after commit and reported in the run receipt, not asserted in committed data."
+  },
+  "followup_audit": {
+    "ccgp": "official public category lists crawled; four new scientific spectroscopy notices opened and read; five published notice duplicates and two medical MRI hits excluded",
+    "crossref": "1219 unique records collected without query failures; selected author names and online dates verified",
+    "pubmed": "103 records searched; PMID 42902756 used for the carbon-nanotube 129Xe paper author/date metadata",
+    "cutoff_note": "search and source verification completed before the recorded cutoff; no future-dated publication included."
+  }
+}

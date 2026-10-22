@@ -1,0 +1,426 @@
+{
+  "schema_version": "1.0.0",
+  "report_date": "2026-10-23",
+  "taxonomy_version": "1.2.0",
+  "scope_note": "检索截至2026-10-23 06:18:00（Asia/Shanghai）；严格24小时来源无法稳定提供精确时分且不足5条，已完成10月16—22日增强回扫，以及期刊、预印本/题录、机构、厂商软件、会议和采购五路线与九个方法主题簇检索。以main 18c5c8640488的64期548条和17份Review查重；登记23篇学术候选，其中9篇入选、9篇历史重复、5篇因证据或优先级排除。采购专项登记11份候选，4份合格、5份历史重复、2份医疗MRI排除；最终10条含9篇论文和末条采购汇总，汇总实际包含4份公告。作者均由Crossref、PubMed或出版商题录核实；所有学术条目因日期精度按近7天扩展标注。",
+  "items": [
+    {
+      "item_id": "SF-20261023-01",
+      "report_date": "2026-10-23",
+      "item_no": 1,
+      "title_cn": "定制多价配体以NMR解析无序蛋白识别",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "α-突触核蛋白与功能化杯[4]芳烃配体"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Ciabini 等设计带不同功能基团的杯[4]芳烃多价配体，并以专门的溶液NMR实验把分析从主链扩展到侧链核自旋，在原子分辨率下定位配体与α-突触核蛋白甲基或芳香基团的短程接触。",
+      "meaning_cn": "结果细化了配体在不同富赖氨酸基序中对静电缔合的调节，为无序蛋白配体的理性设计提供结构依据；结论针对所测大环配体和α-突触核蛋白体系，功能调控仍待验证。",
+      "publication_date": "2026-10-22",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://doi.org/10.1021/jacs.6c16561",
+      "doi": "10.1021/jacs.6c16561",
+      "alternative_sources": [
+        {
+          "name": "Crossref题录、作者与在线日期",
+          "url": "https://api.crossref.org/works/10.1021/jacs.6c16561"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-23",
+      "last_updated": "2026-10-23",
+      "report_file": "SpinFront_2026-10-23.html"
+    },
+    {
+      "item_id": "SF-20261023-02",
+      "report_date": "2026-10-23",
+      "item_no": 2,
+      "title_cn": "¹⁹F探针NMR追踪人神经球蛋白构象与蛋白互作",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology",
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "人神经球蛋白及其半胱氨酸突变体"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Xia 等在Cys120及C120S突变体的指定半胱氨酸位点共价引入Ph–OCF₃型¹⁹F探针，利用¹⁹F NMR观察Cys46–Cys55分子内二硫键断裂引起的构象变化，并检测神经球蛋白与细胞色素c复合物形成。",
+      "meaning_cn": "位点特异¹⁹F读出为血红素球蛋白的二硫键调控和蛋白互作提供简洁动态探针；可迁移性取决于标记位点是否保持原始结构与结合行为，摘要未给出更广泛蛋白体系验证。",
+      "publication_date": "2026-10-22",
+      "time_scope": "7d_extension",
+      "source": "Biochemistry",
+      "url": "https://doi.org/10.1021/acs.biochem.6c00592",
+      "doi": "10.1021/acs.biochem.6c00592",
+      "alternative_sources": [
+        {
+          "name": "Crossref题录、作者与在线日期",
+          "url": "https://api.crossref.org/works/10.1021/acs.biochem.6c00592"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-23",
+      "last_updated": "2026-10-23",
+      "report_file": "SpinFront_2026-10-23.html"
+    },
+    {
+      "item_id": "SF-20261023-03",
+      "report_date": "2026-10-23",
+      "item_no": 3,
+      "title_cn": "双向NMR基础模型连接峰表、结构与预测谱",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "spectral_processing",
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "¹H/¹³C峰表与小分子结构"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Hoque 等提出双向Transformer模型PRISM：spec2mol把¹H/¹³C峰表翻译为SMILES，mol2spec反向预测完整谱图；模型以119万对实验NMR—结构数据训练，立体感知Top-1精确匹配率为60.1%。",
+      "meaning_cn": "反向预测的¹H和¹³C平均绝对误差分别为0.036和0.358 ppm，单分子用时低于0.3秒，可用于候选结构排序与专家复核；指标来自给定测试集，不能替代人工谱学判定。",
+      "publication_date": "2026-10-21",
+      "time_scope": "7d_extension",
+      "source": "Angewandte Chemie International Edition",
+      "url": "https://doi.org/10.1002/anie.7185622",
+      "doi": "10.1002/anie.7185622",
+      "alternative_sources": [
+        {
+          "name": "Crossref题录、作者与在线日期",
+          "url": "https://api.crossref.org/works/10.1002/anie.7185622"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-23",
+      "last_updated": "2026-10-23",
+      "report_file": "SpinFront_2026-10-23.html"
+    },
+    {
+      "item_id": "SF-20261023-04",
+      "report_date": "2026-10-23",
+      "item_no": 4,
+      "title_cn": "模型量化NMR传感器中的温度诱导Rb–Xe耦合误差",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "Rb原子磁力计与¹²⁹Xe/¹³¹Xe核自旋传感器"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Zhang 等基于Bloch方程和解调过程建立温度依赖模型，将蒸气泡温度引起的光移等效场、核自旋等效场及Rb横向弛豫时间变化映射为Xe进动相位误差，并用¹²⁹Xe和¹³¹Xe实验验证。",
+      "meaning_cn": "计算相移与实测结果的R²分别为0.9910和0.9931，并显示更高Xe自旋频率对耦合误差更敏感，为小型NMR传感器的长期温稳补偿提供依据；模型边界仍受特定闭环与工作点限制。",
+      "publication_date": "2026-10-21",
+      "time_scope": "7d_extension",
+      "source": "Measurement Science and Technology",
+      "url": "https://doi.org/10.1088/1361-6501/aeb718",
+      "doi": "10.1088/1361-6501/aeb718",
+      "alternative_sources": [
+        {
+          "name": "Crossref题录、作者与在线日期",
+          "url": "https://api.crossref.org/works/10.1088/1361-6501/aeb718"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-23",
+      "last_updated": "2026-10-23",
+      "report_file": "SpinFront_2026-10-23.html"
+    },
+    {
+      "item_id": "SF-20261023-05",
+      "report_date": "2026-10-23",
+      "item_no": 5,
+      "title_cn": "EPR揭示X射线能质改变骨剂量信号衰减",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "不同能质X射线照射的小鼠胫骨"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Roussel 等以50 kVp、220 kVp和10 MV X射线局部照射小鼠后肢，用EPR跟踪骨中辐射诱导自由基从照射当日至6个月的变化，并结合GEANT4模拟比较骨与周围组织的剂量分布。",
+      "meaning_cn": "10 MV组21天信号损失75%、42天后在该条件下不可检出；低能组衰减较慢但存在不均匀沉积，说明回顾性骨剂量重建须同时校正取样延迟与能质，结果仍属小鼠模型。",
+      "publication_date": "2026-10-21",
+      "time_scope": "7d_extension",
+      "source": "Physics in Medicine & Biology",
+      "url": "https://doi.org/10.1088/1361-6560/aeb791",
+      "doi": "10.1088/1361-6560/aeb791",
+      "alternative_sources": [
+        {
+          "name": "Crossref题录、作者与在线日期",
+          "url": "https://api.crossref.org/works/10.1088/1361-6560/aeb791"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-23",
+      "last_updated": "2026-10-23",
+      "report_file": "SpinFront_2026-10-23.html"
+    },
+    {
+      "item_id": "SF-20261023-06",
+      "report_date": "2026-10-23",
+      "item_no": 6,
+      "title_cn": "三维配对离子框架调控钒酰卟啉自旋退相干",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "quantum_spin",
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "VO-3D-PIF-1钒酰卟啉自旋量子位"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Epure 等构筑由S=1/2钒酰卟啉量子位组成的三维配对离子框架VO-3D-PIF-1，并用EPR表征框架结构和0.125 spins/nm³自旋密度对自旋—晶格弛豫T₁与相干时间Tₘ的影响。",
+      "meaning_cn": "5—140 K范围内Tₘ为200—400 ns，主要受偶极退相干限制；T₁接近稀溶液中的钒酰卟啉，说明弱离子组装未明显恶化声子诱导弛豫，为有序分子量子位阵列设计提供约束。",
+      "publication_date": "2026-10-22",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Physical Chemistry Letters",
+      "url": "https://doi.org/10.1021/acs.jpclett.6c02513",
+      "doi": "10.1021/acs.jpclett.6c02513",
+      "alternative_sources": [
+        {
+          "name": "Crossref题录、作者与在线日期",
+          "url": "https://api.crossref.org/works/10.1021/acs.jpclett.6c02513"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-23",
+      "last_updated": "2026-10-23",
+      "report_file": "SpinFront_2026-10-23.html"
+    },
+    {
+      "item_id": "SF-20261023-07",
+      "report_date": "2026-10-23",
+      "item_no": 7,
+      "title_cn": "范德华光子棘轮增强自旋缺陷发光与ODMR传感",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "odmr"
+      ],
+      "application_ids": [
+        "quantum_spin",
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "PbI₂—含负电硼空位hBN异质结构"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Mayner 等将含负电硼空位的hBN与PbI₂构成范德华异质结构，在4 K下把缺陷光致发光最多增强45倍；能带与第一性原理分析支持层间能量转移和光子棘轮机制。",
+      "meaning_cn": "界面耦合保持较小的电子与自旋杂化，未牺牲ODMR对比度，并改善外磁场灵敏度，为二维缺陷弱信号放大提供材料路线；45倍增益对应低温和特定异质界面，常温性能需另证。",
+      "publication_date": "2026-10-22",
+      "time_scope": "7d_extension",
+      "source": "Nature Communications",
+      "url": "https://doi.org/10.1038/s41467-026-78802-4",
+      "doi": "10.1038/s41467-026-78802-4",
+      "alternative_sources": [
+        {
+          "name": "Crossref题录、作者与在线日期",
+          "url": "https://api.crossref.org/works/10.1038/s41467-026-78802-4"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-23",
+      "last_updated": "2026-10-23",
+      "report_file": "SpinFront_2026-10-23.html"
+    },
+    {
+      "item_id": "SF-20261023-08",
+      "report_date": "2026-10-23",
+      "item_no": 8,
+      "title_cn": "等变神经网络预测碳纳米管内¹²⁹Xe磁屏蔽",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "碳纳米管限域氙"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Zakary 等以等变图神经网络微调机器学习势，模拟氙在碳纳米管中的分子动力学，再用独立网络预测¹²⁹Xe屏蔽张量；结果显示各向同性化学位移随管径呈非单调负移，并受温度和氙负载影响。",
+      "meaning_cn": "该工作把长时间尺度限域采样与NMR可观测量预测衔接，可用于从¹²⁹Xe位移反推纳米孔环境；结论来自学习势和屏蔽模型，外推至训练域外管径、缺陷或表面化学前需验证。",
+      "publication_date": "2026-10-21",
+      "time_scope": "7d_extension",
+      "source": "Physical Chemistry Chemical Physics",
+      "url": "https://doi.org/10.1039/d6cp03538h",
+      "doi": "10.1039/d6cp03538h",
+      "alternative_sources": [
+        {
+          "name": "PubMed题录与作者信息",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42902756/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-23",
+      "last_updated": "2026-10-23",
+      "report_file": "SpinFront_2026-10-23.html"
+    },
+    {
+      "item_id": "SF-20261023-09",
+      "report_date": "2026-10-23",
+      "item_no": 9,
+      "title_cn": "将铊NMR屏蔽不确定度压缩至QED尺度",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "水合Tl⁺及²⁰³Tl/²⁰⁵Tl核磁矩"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Žňava 等以SCAN机器学习力场分子动力学描述Tl⁺水合结构，再用耦合簇校准的四分量Dirac–Kohn–Sham方法计算系综平均NMR屏蔽，得到²⁰³Tl与²⁰⁵Tl磁偶极矩1.6198(3)和1.6357(3) μN。",
+      "meaning_cn": "组合流程消除了约10⁻³ μN的既有系统偏差，把剩余不确定度降至10⁻⁴ μN量级，使核磁矩基准接近QED效应尺度；精度依赖水合系综、相对论电子结构与误差传播假设。",
+      "publication_date": "2026-10-22",
+      "time_scope": "7d_extension",
+      "source": "Physical Review A",
+      "url": "https://journals.aps.org/pra/accepted/10.1103/bnts-69js",
+      "doi": "10.1103/bnts-69js",
+      "alternative_sources": [
+        {
+          "name": "Crossref题录与作者信息",
+          "url": "https://api.crossref.org/works/10.1103/bnts-69js"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-23",
+      "last_updated": "2026-10-23",
+      "report_file": "SpinFront_2026-10-23.html"
+    },
+    {
+      "item_id": "SF-20261023-10",
+      "report_date": "2026-10-23",
+      "item_no": 10,
+      "title_cn": "采购与需求动态：NMR招标、EPR成交与结果更正",
+      "direction_ids": [
+        "nmr",
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "600 MHz超导NMR波谱仪",
+        "原位电池EPR测试系统"
+      ],
+      "information_type": "tender",
+      "summary_cn": "中国科学院兰州化学物理研究所10月22日发布600 MHz超导核磁共振波谱仪公开招标公告（OITC-G260882852），预算520万元，投标截止时间为11月12日09:30；该所同日另发布原项目（OITC-G260882833）终止公告，因有效投标人不足三家予以废标；青岛大学10月22日发布原位电池EPR测试系统结果公告，国仪量子EPR-Q300一套以349.8万元中标，并于同日发布第一次结果更正，将代理服务费由42478元改为33982.4元，其他内容不变。",
+      "meaning_cn": "兰州化物所新招标使用不同项目编号，公告明确不接受联合体、设备不允许进口且合同签订后6个月内履行；青岛大学两份公告对应同一成交项目的结果与费用更正，未把更正误写为新的设备采购。",
+      "publication_date": "2026-10-22",
+      "time_scope": "7d_extension",
+      "source": "中国政府采购网",
+      "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261022_27544896.htm",
+      "doi": "",
+      "alternative_sources": [
+        {
+          "name": "中国科学院兰州化学物理研究所600 MHz NMR项目终止公告",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/fblbgg/202610/t20261022_27541930.htm"
+        },
+        {
+          "name": "青岛大学原位电池EPR测试系统结果公告",
+          "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202610/t20261022_27547235.htm"
+        },
+        {
+          "name": "青岛大学原位电池EPR测试系统结果更正公告",
+          "url": "https://www.ccgp.gov.cn/cggg/dfgg/gzgg/202610/t20261022_27547149.htm"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-23",
+      "last_updated": "2026-10-23",
+      "report_file": "SpinFront_2026-10-23.html"
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "schema_version": "1.0.0",
+  "report_date": "2026-10-24",
+  "taxonomy_version": "1.2.0",
+  "scope_note": "检索截至2026-10-24 06:12:49（Asia/Shanghai）；优先24小时并回扫10月17—23日。严格24小时可确认论文不足5条，已启动增强搜索，覆盖期刊、预印本/题录与机构、厂商软件、会议及采购五路线和九个方法主题簇；增强后合格9篇论文，未触发不足8条的第二级深度增强。全库65期558条、最近7期及18份Review查重；登记39篇学术候选，入选9篇、排除24篇历史或跨版本重复和6篇证据/出版历史/优先级不合格项。采购登记16份候选，合格7份、排除9份；7份公告涉及5个项目，合并为末条1条日报内容，最终10条。CCGP官方分类列表读取400页，东方招标公开列表回扫200条；西湖大学动态列表初始未渲染，继续用公开只读接口核实原公告与延期。部分出版商列表无法读取、两项专项Crossref请求429，未宣称完整遍历。全部论文按日期精度标为近7天扩展；采购汇总含10月19/22/23日公告。未读取私人教材，待复核标签无。",
+  "items": [
+    {
+      "item_id": "SF-20261024-01",
+      "report_date": "2026-10-24",
+      "item_no": 1,
+      "title_cn": "固体NMR解析katanin无序区的微管锚定与凝聚双功能",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "katanin催化亚基Kp60的N端无序区与微管"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Xu 等以固体NMR在katanin催化亚基Kp60的N端无序区定位微管结合域，并在凝聚相识别三个协同作用区域。功能分离突变表明，微管锚定与凝聚均对切割活性必不可少；相分离还伴随ATPase活性增强。",
+      "meaning_cn": "同一无序区兼顾底物定位与多价组装，固体NMR为两种功能提供分子层面的区分。凝聚与ATPase增强之间的联系需结合突变实验解释；可读摘要未列残基范围、转速或定量速率，不据此补写。",
+      "publication_date": "2026-10-23",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://doi.org/10.1021/jacs.6c15214",
+      "doi": "10.1021/jacs.6c15214",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期与摘要",
+          "url": "https://api.crossref.org/works/10.1021/jacs.6c15214"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-24",
+      "last_updated": "2026-10-24",
+      "report_file": "SpinFront_2026-10-24.html"
+    },
+    {
+      "item_id": "SF-20261024-02",
+      "report_date": "2026-10-24",
+      "item_no": 2,
+      "title_cn": "超快MAS与部分氘代改善完整真菌细胞壁的质子分辨率",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "fast_mas",
+        "multidimensional_nmr",
+        "relaxometry"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "白色念珠菌完整细胞壁的刚性聚糖"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Zvirgzdins 等在60—150 kHz MAS及不同部分氘代方案下，系统比较白色念珠菌细胞壁刚性聚糖的¹H线宽和T₂′相干时间，并展示¹H检测多维¹H/¹³C位移归属实验，进一步以弛豫测量探查纳秒至微秒运动。",
+      "meaning_cn": "完整细胞壁的刚性与异质性会限制质子检测；该比较将转速、氘代与可获得的位点分辨信息直接联系起来。摘要未给出通用最佳氘代比例或数值灵敏度增益，向其他病原体迁移时仍需验证标记与样品适配。",
+      "publication_date": "2026-10-23",
+      "time_scope": "7d_extension",
+      "source": "ChemBioChem",
+      "url": "https://doi.org/10.1002/cbic.70574",
+      "doi": "10.1002/cbic.70574",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期与摘要",
+          "url": "https://api.crossref.org/works/10.1002/cbic.70574"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-24",
+      "last_updated": "2026-10-24",
+      "report_file": "SpinFront_2026-10-24.html"
+    },
+    {
+      "item_id": "SF-20261024-03",
+      "report_date": "2026-10-24",
+      "item_no": 3,
+      "title_cn": "³¹P MAS探针NMR连接纳米氧化铈表面酸性与水解活性",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "mas"
+      ],
+      "application_ids": [
+        "catalysis"
+      ],
+      "sample_systems": [
+        "纳米氧化铈表面与三甲基氧膦探针"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Čundrle 等利用三甲基氧膦探针的³¹P MAS NMR映射纳米氧化铈表面Lewis与Brønsted酸位的分布和强度，并结合LC-HRMS及DFT研究磺酰脲除草剂在常温、暗条件下的自发水解。",
+      "meaning_cn": "NMR直接约束表面酸位，DFT提出晶格氧亲核进攻及优先断裂磺酰侧N–C键的路径；两类证据各有分工。探针酸性分布与产物鉴定不能单独证明全部反应步骤，机理解释仍依赖计算与界面模型。",
+      "publication_date": "2026-10-23",
+      "time_scope": "7d_extension",
+      "source": "Inorganic Chemistry",
+      "url": "https://doi.org/10.1021/acs.inorgchem.6c04712",
+      "doi": "10.1021/acs.inorgchem.6c04712",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期与摘要",
+          "url": "https://api.crossref.org/works/10.1021/acs.inorgchem.6c04712"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-24",
+      "last_updated": "2026-10-24",
+      "report_file": "SpinFront_2026-10-24.html"
+    },
+    {
+      "item_id": "SF-20261024-04",
+      "report_date": "2026-10-24",
+      "item_no": 4,
+      "title_cn": "配对差谱降低跨细胞模型NMR代谢组的基线干扰",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "metabolomics",
+        "spectral_processing"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "两种卵巢癌细胞系与四种金(I)化合物处理"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Di Paco 等提出以配对处理组减去对照组的分箱NMR差谱作为统计输入，再对重复层面的差谱取平均。四种金(I)化合物在两种基础代谢和培养基不同的卵巢癌细胞系中，差谱分析识别出常规个体谱分析未提取的共同扰动。",
+      "meaning_cn": "先做配对差值可突出处理效应，但依赖合适的对照配对和一致的分箱预处理；平均后的输入也不能直接沿用独立重复的统计假设。当前验证限于两类细胞与所测化合物，不能据此宣称跨模型药效已被统一量化。",
+      "publication_date": "2026-10-23",
+      "time_scope": "7d_extension",
+      "source": "Bioinorganic Chemistry and Applications",
+      "url": "https://doi.org/10.1155/bca/9636071",
+      "doi": "10.1155/bca/9636071",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期与摘要",
+          "url": "https://api.crossref.org/works/10.1155/bca/9636071"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-24",
+      "last_updated": "2026-10-24",
+      "report_file": "SpinFront_2026-10-24.html"
+    },
+    {
+      "item_id": "SF-20261024-05",
+      "report_date": "2026-10-24",
+      "item_no": 5,
+      "title_cn": "原位EPR追踪多孔液体的气体吸附、运输与释放",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "spin_probe",
+        "operando_epr"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "sample_systems": [
+        "ZIF-8/全氟萘烷Ⅲ型多孔液体与O₂/CO₂"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Golovina 等把ZIF-8与全氟萘烷组合为Ⅲ型多孔液体，利用封装在ZIF-8中的自旋探针开展原位EPR，跟踪材料稳定性及O₂、CO₂的吸附、运输和脱附，并构建带EPR检测的原型流动系统演示可控吸附循环。",
+      "meaning_cn": "探针提供孔内局域环境读数，流动检测把静态储气能力与循环传质行为连接起来。摘要未给出跨体系可比较的吸附容量、流速或检测限；化学和生物医学用途仍是后续方向，不能把材料循环结果写成临床供氧证据。",
+      "publication_date": "2026-10-23",
+      "time_scope": "7d_extension",
+      "source": "ACS Applied Materials & Interfaces",
+      "url": "https://doi.org/10.1021/acsami.6c14079",
+      "doi": "10.1021/acsami.6c14079",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期与摘要",
+          "url": "https://api.crossref.org/works/10.1021/acsami.6c14079"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-24",
+      "last_updated": "2026-10-24",
+      "report_file": "SpinFront_2026-10-24.html"
+    },
+    {
+      "item_id": "SF-20261024-06",
+      "report_date": "2026-10-24",
+      "item_no": 6,
+      "title_cn": "500 MHz原位¹H谱拆分页岩孔隙流体与干酪根响应",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "spectral_processing"
+      ],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "sample_systems": [
+        "保留原始状态的完整细柱页岩岩心与CO₂"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Chen 等在40 ℃下将CO₂压力从0逐级升至6000 psi再卸压，以500 MHz¹H NMR将岩心信号分解为两个孔隙流体Lorentzian峰和一个干酪根Gaussian峰；完整循环估算初始孔隙流体约24.5%被采出。",
+      "meaning_cn": "氦气加压对照未产生可测谱变，CO₂进入超临界区及高压段则出现组分和运动性变化。24.5%是特定岩心与加载—卸载循环的结果，不能直接当作普遍采收率；线宽还受残留重质组分影响。",
+      "publication_date": "2026-10-23",
+      "time_scope": "7d_extension",
+      "source": "Energy & Fuels",
+      "url": "https://doi.org/10.1021/acs.energyfuels.6c03407",
+      "doi": "10.1021/acs.energyfuels.6c03407",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期与摘要",
+          "url": "https://api.crossref.org/works/10.1021/acs.energyfuels.6c03407"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-24",
+      "last_updated": "2026-10-24",
+      "report_file": "SpinFront_2026-10-24.html"
+    },
+    {
+      "item_id": "SF-20261024-07",
+      "report_date": "2026-10-24",
+      "item_no": 7,
+      "title_cn": "低场NMR划定水合物沉积物的水锁与解锁条件",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "sample_systems": [
+        "南海神狐区泥质粉砂水合物储层材料"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Mi 等用低场NMR比较50%、70%、90%和100%初始含水饱和度下的水锁演化，并测试两种氟碳类与一种非离子表面活性剂。水锁主要集中在T₂小于10 ms的微孔域，所测材料约70%饱和度附近进入关键变化区间。",
+      "meaning_cn": "两种氟碳药剂在低至中等饱和度较有效，在≥90%及全饱和条件下效果受限；驱替压力与药剂协同，但压力单独作用不足。T₂向孔径的换算和70%界限均依赖该沉积物体系，不能照搬为通用储层阈值。",
+      "publication_date": "2026-10-23",
+      "time_scope": "7d_extension",
+      "source": "Energy & Fuels",
+      "url": "https://doi.org/10.1021/acs.energyfuels.6c04198",
+      "doi": "10.1021/acs.energyfuels.6c04198",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期与摘要",
+          "url": "https://api.crossref.org/works/10.1021/acs.energyfuels.6c04198"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-24",
+      "last_updated": "2026-10-24",
+      "report_file": "SpinFront_2026-10-24.html"
+    },
+    {
+      "item_id": "SF-20261024-08",
+      "report_date": "2026-10-24",
+      "item_no": 8,
+      "title_cn": "原位变温NMR在冻结状态追踪面团水分与面筋损伤",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "sample_systems": [
+        "40%、46%和50%加水量面团的冻融循环"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Wang 等以原位变温NMR和共聚焦显微镜，在−30 ℃下比较三种加水量面团的冻融变化。冻结状态T₂与面筋微结构损伤相关系数为0.92，未冻水含量与解冻损失相关系数为−0.58，46%加水量样品表现出最佳冻融稳定性。",
+      "meaning_cn": "冻结状态的水迁移与蛋白网络变化可被同步比较，减少仅凭解冻后样品反推过程的局限。相关性不等于NMR直接测得面筋结构；46%的最优结果针对所测配方和冻融条件，仍需显微结构证据共同解释。",
+      "publication_date": "2026-10-19",
+      "time_scope": "7d_extension",
+      "source": "Food Chemistry",
+      "url": "https://doi.org/10.1016/j.foodchem.2026.151584",
+      "doi": "10.1016/j.foodchem.2026.151584",
+      "alternative_sources": [
+        {
+          "name": "PubMed题录、作者与摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42906464/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-24",
+      "last_updated": "2026-10-24",
+      "report_file": "SpinFront_2026-10-24.html"
+    },
+    {
+      "item_id": "SF-20261024-09",
+      "report_date": "2026-10-24",
+      "item_no": 9,
+      "title_cn": "TD-NMR体成分比值纵向跟踪小鼠肝内胆管癌变化",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "pNICD/pAKT诱导肝内胆管癌小鼠模型"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Jandia 等用TD-NMR纵向测量肝内胆管癌模型小鼠的全身体成分。尽管总重较稳定，带瘤小鼠的体液/体重比逐渐上升、脂肪/体重比下降；这些比值随病程推进更能区分带瘤与无瘤小鼠，而每日相对变化的表现较不稳定。",
+      "meaning_cn": "体成分比值可补充体重对整体生理变化的观察，但体液读数尚未通过直接腹水定量确认，超声也只是定性结构评估。结果支持模型内纵向监测，独立队列前瞻验证之前不宜设为通用诊断或人道终点阈值。",
+      "publication_date": "2026-10-23",
+      "time_scope": "7d_extension",
+      "source": "Scientific Reports",
+      "url": "https://www.nature.com/articles/s41598-026-77276-0",
+      "doi": "10.1038/s41598-026-77276-0",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者与在线日期",
+          "url": "https://api.crossref.org/works/10.1038/s41598-026-77276-0"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-24",
+      "last_updated": "2026-10-24",
+      "report_file": "SpinFront_2026-10-24.html"
+    },
+    {
+      "item_id": "SF-20261024-10",
+      "report_date": "2026-10-24",
+      "item_no": 10,
+      "title_cn": "采购与需求动态：岩心NMR、四共振探头及西湖大学延期公告",
+      "direction_ids": [
+        "nmr",
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "instrument_component_ids": [
+        "probe",
+        "resonator",
+        "illumination"
+      ],
+      "sample_systems": [
+        "全直径岩心测量仪与在线夹持系统",
+        "液体NMR及600 MHz四共振探头",
+        "顺磁低温谐振腔单元",
+        "磁共振原位探头检测激光器"
+      ],
+      "information_type": "tender",
+      "summary_cn": "中国政府采购网以采购单位代码zycgr22011902于10月23日发布两份公告：全直径岩心核磁共振测量仪1套公开招标（THTC-HR-LDTFC2026020），预算260万元，投标截止11月13日09:30；核磁共振在线测试设备升级改造1套采用便捷磋商（THTC-HR-LDTFC2026018），预算30万元，响应截止11月6日09:30。中国科学院基础医学与肿瘤研究所（筹）的液体NMR及600 MHz四共振探头与模块单一来源邀请于10月22日在东方招标发布，预算及最高限价均为2920万元，原文响应截止为10月22日14:00，检索时已截止。西湖大学10月19日分别发布顺磁低温谐振腔单元1套（WLU-HW-KS-WM-2026-0226，预算39万元）及磁共振原位探头检测激光器1台（WLU-HW-KS-NM-2026-1298，预算29万元）的快速竞价公告，原截止均为10月22日09:00；10月22日两项目各发布一份延期公告，谐振腔项目因报价供应商数量不足、激光器项目因报价情况不满足要求，截止均改至10月27日10:00。以上时间均为北京时间。",
+      "meaning_cn": "岩心测量仪公告要求容纳直径5—10 cm岩心；升级模块要求耐压≥30 MPa、耐温≥80 ℃、最短回波时间≤200 μs，两项均不接受进口。西湖大学原公告列出约9.8 GHz谐振腔、死时间≤80 ns及光学通道；激光器要求1064/532/355/266 nm可切换、脉宽≤9 ns。上述均为采购要求，单一来源邀请的官网发布日期晚于其原文响应截止时刻，按历史阶段记录。",
+      "publication_date": "2026-10-23",
+      "time_scope": "7d_extension",
+      "source": "中国政府采购网｜采购单位zycgr22011902—全直径岩心NMR",
+      "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261023_27555593.htm",
+      "doi": "",
+      "alternative_sources": [
+        {
+          "name": "zycgr22011902｜核磁共振在线测试设备升级改造采购公告",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/qtgg/202610/t20261023_27555666.htm"
+        },
+        {
+          "name": "中国科学院基础医学与肿瘤研究所（筹）｜液体NMR及600 MHz四共振探头与模块单一来源邀请",
+          "url": "https://www.oitccas.com/pages/tender_online_info.html?FormNo=ZBLX26100335"
+        },
+        {
+          "name": "西湖大学｜顺磁低温谐振腔单元（WLU-HW-KS-WM-2026-0226）采购公告",
+          "url": "https://procurement.westlake.edu.cn/provider/#/publish/20MVEIIW3YF3CHHB"
+        },
+        {
+          "name": "西湖大学｜顺磁低温谐振腔单元（WLU-HW-KS-WM-2026-0226）延期公告",
+          "url": "https://procurement.westlake.edu.cn/provider/#/publish/20MVIU51LCZO9BP7"
+        },
+        {
+          "name": "西湖大学｜磁共振原位探头检测激光器（WLU-HW-KS-NM-2026-1298）采购公告",
+          "url": "https://procurement.westlake.edu.cn/provider/#/publish/20MVEIDQ4UHEW1XL"
+        },
+        {
+          "name": "西湖大学｜磁共振原位探头检测激光器（WLU-HW-KS-NM-2026-1298）延期公告",
+          "url": "https://procurement.westlake.edu.cn/provider/#/publish/20MVIUTGARAH0L2Z"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-24",
+      "last_updated": "2026-10-24",
+      "report_file": "SpinFront_2026-10-24.html"
+    }
+  ]
+}

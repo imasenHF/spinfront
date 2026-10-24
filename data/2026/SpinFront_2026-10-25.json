@@ -1,0 +1,402 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-10-25",
+  "scope_note": "检索截至2026-10-25 05:58:03（Asia/Shanghai）；优先过去24小时并回扫10月18—24日。严格24小时因缺少精确在线时刻可确认不足5条，已启动增强搜索，覆盖高影响与磁共振专业期刊、预印本/数据库及机构、仪器软件、会议培训和采购五路线，轮换九个方法主题簇。增强后获得9篇合格论文，未触发不足8条的第二级深度增强；最终9条资讯、0份新增采购公告，末尾另附采购核查说明。全库66期568条、最近7期及19份Review查重，登记学术/机构候选48项，排除重复31项；另排除常规表征、封面、旧事件、证据不足及优先级较低候选。10月22日设施新闻与10月19日软件新闻分别追溯为10月1日、7月23日旧工作，未用于补足数量。所有入选项以实际在线日期标近7天扩展，作者核实完成。CCGP采购登记18份候选，重复12份，其余为超窗或医学MRI；部分期刊列表403/404或仅返回Site Unavailable，未宣称完整遍历。未读取私人教材，待复核标签无。",
+  "items": [
+    {
+      "item_id": "SF-20261025-01",
+      "report_date": "2026-10-25",
+      "item_no": 1,
+      "title_cn": "局域探针分辨单个表面⁴⁷Ti原子的核自旋跃迁",
+      "direction_ids": [
+        "nmr",
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "endor"
+      ],
+      "application_ids": [
+        "quantum_spin"
+      ],
+      "sample_systems": [
+        "单个表面⁴⁷Ti原子，核自旋I=5/2"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Vennema 等利用扫描隧道显微镜与电子—核双共振方案，分辨单个表面⁴⁷Ti原子的核自旋跃迁，并以测量和数值分析确定超精细及四极耦合特征。团队还在电子与核自旋弱混合极限下寻址核自旋，探索长寿命核自旋的直接控制条件。",
+      "meaning_cn": "该实验将原子尺度环境控制与核自旋能级读出联系起来，I=5/2体系中的超精细和四极作用均需纳入分析。弱混合条件下的可寻址性是后续直接控制的条件之一，不能据此宣称已实现通用量子计算门或跨平台相干性能。",
+      "publication_date": "2026-10-24",
+      "time_scope": "7d_extension",
+      "source": "Nature Communications",
+      "url": "https://www.nature.com/articles/s41467-026-78801-5",
+      "doi": "10.1038/s41467-026-78801-5",
+      "alternative_sources": [
+        {
+          "name": "作者、日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1038/s41467-026-78801-5"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-25",
+      "last_updated": "2026-10-25",
+      "report_file": "SpinFront_2026-10-25.html"
+    },
+    {
+      "item_id": "SF-20261025-02",
+      "report_date": "2026-10-25",
+      "item_no": 2,
+      "title_cn": "实时多维NMR解析光开关诱导的DNA G4分叉折叠路径",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "凝血酶结合适配体G4与偶氮苯衍生物"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Martins 等以偶氮苯衍生物的E/Z光异构状态可逆调控凝血酶结合适配体G4构象，并扩展实时NMR实验，追踪配体结合、解离及G4重新折叠。结果显示折叠路径发生动力学分流，并显著占据中间态，而非沿单一路径直接达到终态。",
+      "meaning_cn": "可逆配体开关使结合与解离过程可分别触发并用多维谱跟踪，将终态结构比较推进到路径和中间态分析。当前摘要未提供时间分辨率、光照波长或中间态比例，不能据此给出适用于其他G4序列的统一采样间隔。",
+      "publication_date": "2026-10-24",
+      "time_scope": "7d_extension",
+      "source": "Angewandte Chemie International Edition",
+      "url": "https://doi.org/10.1002/anie.4831000",
+      "doi": "10.1002/anie.4831000",
+      "alternative_sources": [
+        {
+          "name": "作者、日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1002/anie.4831000"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-25",
+      "last_updated": "2026-10-25",
+      "report_file": "SpinFront_2026-10-25.html"
+    },
+    {
+      "item_id": "SF-20261025-03",
+      "report_date": "2026-10-25",
+      "item_no": 3,
+      "title_cn": "EPR与DNP固体NMR连接生物膜基质组成和自由基还原",
+      "direction_ids": [
+        "nmr",
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "dnp",
+        "spin_probe"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "Pseudomonas fluorescens Pf0-1原生菌落生物膜与氮氧自由基"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Mandato 等结合EPR、固体NMR和DNP固体NMR，研究不同形态原生生物膜中的氮氧自由基还原。野生型生物膜比浮游细胞还原更慢；分离基质及脱水生物膜的还原可忽略。NMR显示自由基靠近多糖和脂质，多糖增多与还原减慢相关。",
+      "meaning_cn": "EPR提供自由基还原动力学，固体NMR提供局域接近关系，支持基质限制分子进入、细胞完成还原的模型。氮氧自由基在这里是可还原探针，不是短寿命自由基捕获剂；生物膜相关性也不能直接外推为抗菌药物疗效。",
+      "publication_date": "2026-10-23",
+      "time_scope": "7d_extension",
+      "source": "Angewandte Chemie International Edition",
+      "url": "https://doi.org/10.1002/anie.8397448",
+      "doi": "10.1002/anie.8397448",
+      "alternative_sources": [
+        {
+          "name": "作者、日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1002/anie.8397448"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-25",
+      "last_updated": "2026-10-25",
+      "report_file": "SpinFront_2026-10-25.html"
+    },
+    {
+      "item_id": "SF-20261025-04",
+      "report_date": "2026-10-25",
+      "item_no": 4,
+      "title_cn": "固体NMR追踪釉原蛋白矿化过程中的分域重排",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "mas",
+        "cross_polarization",
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "釉原蛋白组装体与羟基磷灰石矿化"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Zhang 等结合交叉极化与J耦合MAS固体NMR，在近生理条件下追踪釉原蛋白矿化。N端逐步形成更有序的淀粉样β链特征并伴随晶体伸长；C端保持刚性但重组，中央区则随矿化逐渐变得更动态，呈现不同结构域的时空分工。",
+      "meaning_cn": "刚性组分与动态组分需采用不同传递机制观察；摘要列出HNCA、HNcoCA、HNCO及CBCAcoNH等J耦合三维实验。蛋白域变化与矿物形貌的联系来自磁共振和显微等联合证据，不能把时间相关性单独解释为因果机制。",
+      "publication_date": "2026-10-23",
+      "time_scope": "7d_extension",
+      "source": "Acta Biomaterialia",
+      "url": "https://doi.org/10.1016/j.actbio.2026.10.045",
+      "doi": "10.1016/j.actbio.2026.10.045",
+      "alternative_sources": [
+        {
+          "name": "作者、日期与摘要核验",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42918475/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-25",
+      "last_updated": "2026-10-25",
+      "report_file": "SpinFront_2026-10-25.html"
+    },
+    {
+      "item_id": "SF-20261025-05",
+      "report_date": "2026-10-25",
+      "item_no": 5,
+      "title_cn": "专用氟基组改善DFT预测¹⁹F化学位移",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "不同电子环境中的含氟分子"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Rusakov 等在性质—能量一致方法下优化氟原子的(aug-)pecS-1/2基组，并在七种DFT模型中检验¹⁹F化学位移。推荐的两种B97-2计算方案给出约2.6和2.4 ppm平均绝对偏差，在所测体系中优于相近规模的常用基组。",
+      "meaning_cn": "比较关注氟位移计算的精度与基组规模折中；推荐方案包括氟原子采用aug-pecS-1、其余原子采用pecS-1，以及全体系pecS-2。误差是测试集表现，不能当作任意含氟结构的置信区间，单一¹⁹F研究也不标为多核NMR。",
+      "publication_date": "2026-10-21",
+      "time_scope": "7d_extension",
+      "source": "Physical Chemistry Chemical Physics",
+      "url": "https://doi.org/10.1039/d6cp02711c",
+      "doi": "10.1039/d6cp02711c",
+      "alternative_sources": [
+        {
+          "name": "作者、日期与摘要核验",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42831544/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-25",
+      "last_updated": "2026-10-25",
+      "report_file": "SpinFront_2026-10-25.html"
+    },
+    {
+      "item_id": "SF-20261025-06",
+      "report_date": "2026-10-25",
+      "item_no": 6,
+      "title_cn": "固体与溶液NMR比较南海颗粒和溶解有机质",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr",
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr",
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "environment"
+      ],
+      "sample_systems": [
+        "南海北部400—600 m水深POM与DOM"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Song 等结合固体¹³C、溶液NMR及¹H—¹³C HSQC，比较南海北部400—600 m颗粒与溶解有机质。颗粒相富含长链脂肪族、肽类N-烷基和完整多糖；两相均检出N-乙酰氨基糖，支持部分共享生物大分子来源与结构域。",
+      "meaning_cn": "不同物态与核种的谱学信息共同约束难表征有机质，而非仅靠总碳含量判断组成。作者以官能团及谱编辑结果讨论颗粒—溶解有机质联系；静态样品谱不直接测定交换通量或碳封存速率，原文全文仍受订阅限制。",
+      "publication_date": "2026-10-24",
+      "time_scope": "7d_extension",
+      "source": "Journal of Ocean University of China",
+      "url": "https://link.springer.com/article/10.1007/s11802-026-6542-y",
+      "doi": "10.1007/s11802-026-6542-y",
+      "alternative_sources": [
+        {
+          "name": "作者、日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1007/s11802-026-6542-y"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-25",
+      "last_updated": "2026-10-25",
+      "report_file": "SpinFront_2026-10-25.html"
+    },
+    {
+      "item_id": "SF-20261025-07",
+      "report_date": "2026-10-25",
+      "item_no": 7,
+      "title_cn": "低场T₂谱比较含盐土冻融后的孔隙重分布",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [
+        "cpmg",
+        "relaxometry"
+      ],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "sample_systems": [
+        "吉林盐土与非盐土重装土柱"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Qiu 等设置三种初始含水水平及1、3、5、10、15次冻融，利用低场NMR T₂谱比较盐土与非盐土孔隙。微孔总体减少、中孔增加、大孔波动；路径分析中含水量贡献最大。所有样品均在冻融处理后真空饱和再测量。",
+      "meaning_cn": "Q-CPMG测量反映标准化饱和条件下的处理后孔隙结构，不能当作冻融中的原位水盐分布。真空饱和可能溶解并重分布可溶盐，T₂到孔径的解释也受表面弛豫假设影响；含水量的路径贡献是统计关联而非独立因果效应。",
+      "publication_date": "2026-10-21",
+      "time_scope": "7d_extension",
+      "source": "Environmental Earth Sciences",
+      "url": "https://link.springer.com/article/10.1007/s12665-026-13095-w",
+      "doi": "10.1007/s12665-026-13095-w",
+      "alternative_sources": [
+        {
+          "name": "作者、日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1007/s12665-026-13095-w"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-25",
+      "last_updated": "2026-10-25",
+      "report_file": "SpinFront_2026-10-25.html"
+    },
+    {
+      "item_id": "SF-20261025-08",
+      "report_date": "2026-10-25",
+      "item_no": 8,
+      "title_cn": "1D/2D NMR确认橙皮素碱性降解的两种主要产物",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "quality_control"
+      ],
+      "sample_systems": [
+        "橙皮素及碱性应力下分离的降解产物"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Bondarkar 等比较橙皮素在水解、氧化、热和光应力下的稳定性，发现碱性条件产生三种降解物。团队用质谱触发制备LC分离其中两种主要产物，结合LC-MS/MS与1D/2D NMR确定其结构，使稳定性分析能够关联到具体降解物。",
+      "meaning_cn": "NMR的关键作用是对分离产物建立结构约束，定量分离仍由稳定性指示色谱承担。该结果支持针对碱性暴露审查制剂条件，但未给出可直接套用的储存寿命；细胞毒性实验也不能替代体内安全性评价。",
+      "publication_date": "2026-10-22",
+      "time_scope": "7d_extension",
+      "source": "SEPARATION SCIENCE PLUS",
+      "url": "https://doi.org/10.1002/sscp.70310",
+      "doi": "10.1002/sscp.70310",
+      "alternative_sources": [
+        {
+          "name": "作者、日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1002/sscp.70310"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-25",
+      "last_updated": "2026-10-25",
+      "report_file": "SpinFront_2026-10-25.html"
+    },
+    {
+      "item_id": "SF-20261025-09",
+      "report_date": "2026-10-25",
+      "item_no": 9,
+      "title_cn": "核酸NMR综述聚焦瞬态构象、复杂组装及细胞环境",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "非经典核酸结构、大型核酸组装体及细胞环境"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Podbevšek 等综述仪器、同位素标记、脉冲序列、灵敏度及采样进展如何拓展核酸NMR，重点讨论构象系综、瞬态状态和多时间尺度动态，并介绍与结构及计算方法联合研究非经典核酸、大型组装体和天然细胞环境的方向。",
+      "meaning_cn": "该综述将结构和动态信息放在同一实验框架内，适合梳理复杂核酸问题需要哪些标记、采样与互补方法。可读摘要未比较具体序列效率、核酸尺寸上限或样品浓度，因此不据此给出通用实验配方，也不将综述写成新方法验证。",
+      "publication_date": "2026-10-22",
+      "time_scope": "7d_extension",
+      "source": "Current Opinion in Chemical Biology",
+      "url": "https://doi.org/10.1016/j.cbpa.2026.102797",
+      "doi": "10.1016/j.cbpa.2026.102797",
+      "alternative_sources": [
+        {
+          "name": "作者、日期与摘要核验",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42913324/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-25",
+      "last_updated": "2026-10-25",
+      "report_file": "SpinFront_2026-10-25.html"
+    }
+  ],
+  "procurement_status": {
+    "status": "no_verified_updates",
+    "title_cn": "采购与需求动态",
+    "summary_cn": "本期未检索到新增已核实公告。已专项检查采购意向、需求调查/征集、市场调研、招标/询价/磋商、更正/延期、成交/中标、终止/废标及合同公告，优先24小时并回扫10月18—24日；登记18份候选。中国政府采购网400个分类列表页面返回，另80个深分页为404；东方招标回扫200条，西湖大学动态列表继续以实际查询及公开只读接口补查。已收录公告不重复，医学MRI项目排除；海外及部分高校站点覆盖有限，本结论不代表所有网站均无公告。",
+    "checked_at": "2026-10-25T05:58:03+08:00",
+    "registered_candidates": 18
+  }
+}

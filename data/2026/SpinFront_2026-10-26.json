@@ -1,0 +1,270 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-10-26",
+  "scope_note": "检索截至2026-10-26 05:56:06（Asia/Shanghai）；优先过去24小时，逐日回扫10月19—25日。严格24小时缺少可确认精确时刻且不足5条，已启动增强搜索；增强后不足8条，继续启动深度增强检索。已分别检查期刊、预印本/数据库与机构、厂商软件、会议培训及采购五路线和九个方法主题簇。Crossref30方法查询取得1207条去重元数据，另专项查七种专业期刊和PubMed；访问失败及未渲染列表均记录，不宣称穷尽全文。全库67期577条、最近7期和20份Review查重，登记66项内容候选，重复排除34项，单纯日期不明排除0项；最终6篇论文，新增采购公告0份。数量不足主要因历史重复、周末新增有限及来源/角色不可核验；全部论文按日期精度列近7天扩展，未降低门槛补足10条。采购候选逐公告登记，核查说明置于末尾，不计资讯条目。未读取私人教材，待复核标签无。",
+  "items": [
+    {
+      "item_id": "SF-20261026-01",
+      "item_no": 1,
+      "report_date": "2026-10-26",
+      "title_cn": "双相手性液晶以单次一维谱提取残余化学位移各向异性",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "聚芳基异氰化物液晶与八种有机分子"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Li 等构建单手性螺旋聚异氰化物双相溶致液晶，使同一样品的一次一维¹³C NMR即可提取ΔRCSA，无需专用装置或后校正。团队用八种分子验证结构与立体化学判别，并修正隐丹参酮中有疑问的碳归属；¹⁹F测量还可区分外消旋混合物中的对映体。",
+      "meaning_cn": "双相介质将不同取向条件置于同一测量中，降低ΔRCSA获取的操作复杂度。其手性判别与取向能力仍依赖溶质—液晶相容性；所测八种分子的成功不能直接外推到任意溶剂或样品浓度，摘要也未给出通用配方。",
+      "publication_date": "2026-10-23",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://doi.org/10.1021/jacs.6c14664",
+      "doi": "10.1021/jacs.6c14664",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1021/jacs.6c14664"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-26",
+      "last_updated": "2026-10-26",
+      "report_file": "SpinFront_2026-10-26.html"
+    },
+    {
+      "item_id": "SF-20261026-02",
+      "item_no": 2,
+      "report_date": "2026-10-26",
+      "title_cn": "三氟位点化学编码在一维¹⁹F谱中辨识复杂胺类混合物",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "qnmr"
+      ],
+      "application_ids": [
+        "natural_products"
+      ],
+      "sample_systems": [
+        "多氟探针、胺类代谢物与麦冬粗提物"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Su 等设计含三个化学不等价氟位点的探针，将单一分析物编码为三个位移组成的指纹，使用常规一维¹⁹F NMR构建伪三维化学位移空间。方法给出多巴胺0.8 μM检测限和R²=0.999的定量关系，并在麦冬粗提物中确认17种内源氨基酸。",
+      "meaning_cn": "分辨能力来自化学探针的多位点响应，并未实际采集三维脉冲序列，因此不标为多维NMR。定量检测限针对所测多巴胺体系；迁移到其他胺类或生物基质时，仍需验证衍生反应、峰归属及各分析物响应的一致性。",
+      "publication_date": "2026-10-24",
+      "time_scope": "7d_extension",
+      "source": "Analytical Chemistry",
+      "url": "https://doi.org/10.1021/acs.analchem.6c05927",
+      "doi": "10.1021/acs.analchem.6c05927",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1021/acs.analchem.6c05927"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-26",
+      "last_updated": "2026-10-26",
+      "report_file": "SpinFront_2026-10-26.html"
+    },
+    {
+      "item_id": "SF-20261026-03",
+      "item_no": 3,
+      "report_date": "2026-10-26",
+      "title_cn": "固体仲氢基质分辨磷中心自由基的质子超精细结构",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "低温基质中的二苯基膦自由基"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Maehara 等在低温基质中生成二苯基膦自由基，比较固体仲氢、普通氢和氩中的EPR。低场翼模拟所需有效Gaussian展宽分别为0.83、1.13和4.95 G；仲氢中的窄谱线分辨出七线质子超精细包络，结合计算支持磷上自旋局域并向苯环离域的π型自由基。",
+      "meaning_cn": "基质选择直接影响活泼磷自由基的可分辨超精细结构，所列展宽是模拟参数，不能等同于任意谱线的实测半峰宽。仲氢同时参与光化学氢抽取，反应路径仍涉及非绝热或次级自由基对过程；这里不属于PHIP增强NMR。",
+      "publication_date": "2026-10-25",
+      "time_scope": "7d_extension",
+      "source": "ChemistryEurope",
+      "url": "https://doi.org/10.1002/ceur.70380",
+      "doi": "10.1002/ceur.70380",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1002/ceur.70380"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-26",
+      "last_updated": "2026-10-26",
+      "report_file": "SpinFront_2026-10-26.html"
+    },
+    {
+      "item_id": "SF-20261026-04",
+      "item_no": 4,
+      "report_date": "2026-10-26",
+      "title_cn": "外标¹¹B qNMR定量溶液中的三氯化硼",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "qnmr"
+      ],
+      "application_ids": [
+        "quality_control"
+      ],
+      "sample_systems": [
+        "三氯化硼有机溶液及甲醇转化产物"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Van Niekerk 等将三氯化硼与甲醇反应转为硼酸三甲酯，再以外标¹¹B qNMR定量，使反应和样品制备在同一小瓶完成。方法在线性范围0.02—0.50 M内得到r=0.9999、回收率100.05%，并检验日内与日间精密度、稳定性和稳健性。",
+      "meaning_cn": "检测对象是转化后的含硼产物，准确度依赖转化完全性、外标校准与样品处理的一致性。该验证支持二氯甲烷等所测有机溶液中的分析流程，不能据摘要直接外推到含水体系或复杂含硼混合物，也不能把相关系数r改写成R²。",
+      "publication_date": "2026-10-25",
+      "time_scope": "7d_extension",
+      "source": "Journal of Analytical Methods in Chemistry",
+      "url": "https://doi.org/10.1155/jamc/4351793",
+      "doi": "10.1155/jamc/4351793",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1155/jamc/4351793"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-26",
+      "last_updated": "2026-10-26",
+      "report_file": "SpinFront_2026-10-26.html"
+    },
+    {
+      "item_id": "SF-20261026-05",
+      "item_no": 5,
+      "report_date": "2026-10-26",
+      "title_cn": "多核固体NMR定位卡马西平在磷脂膜中的界面分布",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "mas",
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "pharma"
+      ],
+      "sample_systems": [
+        "卡马西平与POPC模型双层膜"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Khodov 等结合¹H MAS NOESY、²H、³¹P NMR与分子动力学，研究卡马西平在POPC膜中的位置和影响。甘油及磷酸胆碱片段具有最高的NOESY交叉弛豫速率，支持药物优先位于脂质—水界面；整体链序变化较小，而头基运动性略有增加。",
+      "meaning_cn": "NOESY接近信息、氘谱链序与磷谱头基动态分别约束药物定位和膜响应，模拟给出相互补充的分布图景。结论针对POPC及所测浓度，不能直接替代含离子通道的复杂神经膜研究，更不能由模型膜结果推导临床药效。",
+      "publication_date": "2026-10-25",
+      "time_scope": "7d_extension",
+      "source": "Langmuir",
+      "url": "https://doi.org/10.1021/acs.langmuir.6c03722",
+      "doi": "10.1021/acs.langmuir.6c03722",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1021/acs.langmuir.6c03722"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-26",
+      "last_updated": "2026-10-26",
+      "report_file": "SpinFront_2026-10-26.html"
+    },
+    {
+      "item_id": "SF-20261026-06",
+      "item_no": 6,
+      "report_date": "2026-10-26",
+      "title_cn": "¹⁹⁵Pt位移揭示第二金属阳离子对铂配合物的电子调控",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "sample_systems": [
+        "含Pt(II)及K⁺、Sr²⁺、Lu³⁺的抗磁异金属配合物"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Golwankar 等测量含K⁺、Sr²⁺或Lu³⁺的抗磁Pt(II)异金属配合物¹⁹⁵Pt化学位移，发现位移变化与第二阳离子的Lewis酸性密切相关。计算分析进一步将位移变化归因于桥联酚氧基向铂的电子给体作用改变，建立阳离子调控的定量解释。",
+      "meaning_cn": "¹⁹⁵Pt位移在该配合物系列中连接局域电子环境与第二阳离子酸性，适合与光谱、电化学和计算共同解释。相关关系针对所研究的桥联配位框架，不能当成所有铂配合物的通用酸度标尺；单独¹⁹⁵Pt测量不标为多核NMR。",
+      "publication_date": "2026-10-23",
+      "time_scope": "7d_extension",
+      "source": "Dalton Transactions",
+      "url": "https://doi.org/10.1039/d6dt01469k",
+      "doi": "10.1039/d6dt01469k",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42922400/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-26",
+      "last_updated": "2026-10-26",
+      "report_file": "SpinFront_2026-10-26.html"
+    }
+  ],
+  "procurement_status": {
+    "status": "no_verified_updates",
+    "title_cn": "采购与需求动态",
+    "summary_cn": "本期未检索到新增已核实公告。优先过去24小时并回扫10月19—25日，检查采购意向、需求调查/征集、市场调研、招标/询价/磋商、更正/延期、成交/中标、终止/废标及合同公告，登记20份候选。中国政府采购网16类列表共尝试400页，东方招标回扫200条，并检查全国公共资源、高校采购与海外公开检索；西湖大学动态列表未据初始空白判定无公告，继续读取公开阶段关联接口，现有原公告和延期均已收录。部分高校动态页面及海外详情读取受限，不能据此断言所有来源均无新增。",
+    "checked_at": "2026-10-26T05:56:06+08:00",
+    "registered_candidates": 20
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-10-27",
+  "scope_note": "检索截至2026-10-27 06:02:41（Asia/Shanghai），优先过去24小时并回扫10月20—26日。严格24小时可确认资讯不足5条，已启动增强搜索，覆盖高影响及磁共振专业期刊、预印本/数据库与机构、厂商软件、会议及采购五路线和九个方法主题簇。增强后7篇论文加1条采购汇总，共8条，未触发不足8条的第二级深度增强。全库68期583条、最近7期及21份Review查重，登记79项内容候选，排除36项历史或跨版本重复；采购登记13份候选，合格1份、排除12份。论文因缺少精确时刻均列近7天扩展；采购原文ReleaseTime为10月26日20:30:20，位于24小时内。DiCaprio等为在审预印本；Salikhov为单作者。部分期刊列表403/404或仅返回不可用提示，JMRO专项元数据请求429，未宣称完整遍历；数量不足不以旧报道、常规辅助表征或未核实角色内容补足。未读取私人教材，待复核标签无。",
+  "items": [
+    {
+      "item_id": "SF-20261027-01",
+      "item_no": 1,
+      "report_date": "2026-10-27",
+      "title_cn": "顺磁弛豫增强提升1,1-ADEQUATE小分子结构分析灵敏度",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "paramagnetic_nmr",
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "柠檬烯、樟脑、阿莫沙平及奎尼丁"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "DiCaprio 等以10 mM Cr³⁺作为顺磁弛豫增强剂，缩短循环延迟，改善天然丰度1,1-ADEQUATE实验的灵敏度。在柠檬烯、樟脑、阿莫沙平及奎尼丁中，相较抗磁条件信噪比最高提高4.5倍。该工作目前为在审预印本。",
+      "meaning_cn": "1,1-ADEQUATE通过C—C磁化转移提供两键H—C相关，天然丰度¹³C限制其灵敏度。顺磁添加剂同时改变T₁与T₂，缩短循环等待与信号衰减需共同权衡；最高4.5倍增益并非所有分子或碳位点均可达到。",
+      "publication_date": "2026-10-26",
+      "time_scope": "7d_extension",
+      "source": "Magnetic Resonance Discussions",
+      "url": "https://doi.org/10.5194/mr-2026-11",
+      "doi": "10.5194/mr-2026-11",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://mr.copernicus.org/preprints/mr-2026-11/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-10-27",
+      "last_updated": "2026-10-27",
+      "report_file": "SpinFront_2026-10-27.html"
+    },
+    {
+      "item_id": "SF-20261027-02",
+      "item_no": 2,
+      "report_date": "2026-10-27",
+      "title_cn": "NMR时间分辨追踪葡萄糖变旋中的位点同位素分馏",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "天然¹³C丰度下的α/β葡萄糖水溶液"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Rasmussen 等以葡萄糖变旋为模型，用NMR同时测量异头体布居及位点特异¹³C/¹²C比值。从α-葡萄糖出发，初期β异头体形成使两者¹³C丰度暂时相差超过30‰；持续互变后，C1位点的平衡差异约为7‰。",
+      "meaning_cn": "同一可逆反应中的动力学与平衡同位素效应会生成随时间变化的分子内异质性，不能把瞬态位点差异直接视为固定来源指纹。上述数值对应葡萄糖C1与所测变旋过程，推广至生物地球化学网络仍需逐反应验证。",
+      "publication_date": "2026-10-26",
+      "time_scope": "7d_extension",
+      "source": "Proceedings of the National Academy of Sciences",
+      "url": "https://doi.org/10.1073/pnas.2617402123",
+      "doi": "10.1073/pnas.2617402123",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1073/pnas.2617402123"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-27",
+      "last_updated": "2026-10-27",
+      "report_file": "SpinFront_2026-10-27.html"
+    },
+    {
+      "item_id": "SF-20261027-03",
+      "item_no": 3,
+      "report_date": "2026-10-27",
+      "title_cn": "固体¹³C NMR区分橙源纤维素结晶度与残余果胶影响",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "mas",
+        "cross_polarization",
+        "spectral_processing"
+      ],
+      "application_ids": [
+        "polymers"
+      ],
+      "sample_systems": [
+        "十四份橙生物质来源的富纤维素样品"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Costa de Castro 等对14份橙源富纤维素样品比较FT-IR、CP/MAS ¹³C NMR及XRD结晶度指标。C4峰解卷积所得NMR指标约27%—49%，对残余果胶较不敏感；FT-IR指标约65%—91%，起始生物质虽含果胶却显示最高值。",
+      "meaning_cn": "三种指标的响应对象与计算方法不同，不能将其数值作为可互换的绝对结晶比例。NMR提供对纤维素局域组织更有选择性的读数，但仍依赖C4峰分解；评价部分纯化的柑橘生物质时应保留各方法定义及残余组分信息。",
+      "publication_date": "2026-10-23",
+      "time_scope": "7d_extension",
+      "source": "Molecules",
+      "url": "https://doi.org/10.3390/molecules31213833",
+      "doi": "10.3390/molecules31213833",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.3390/molecules31213833"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-27",
+      "last_updated": "2026-10-27",
+      "report_file": "SpinFront_2026-10-27.html"
+    },
+    {
+      "item_id": "SF-20261027-04",
+      "item_no": 4,
+      "report_date": "2026-10-27",
+      "title_cn": "交换速率高为何仍可能看不到EPR交换窄化",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "稀溶液自由基碰撞与气相碱金属原子"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Salikhov 分析EPR交换窄化缺失的条件，指出高自旋交换速率只是必要条件。要使快速交换不再贡献明显展宽，还需满足等价交换：碰撞中Heisenberg交换占主导，计算退相位和相干转移的有效碰撞半径时，其他相互作用可忽略。",
+      "meaning_cn": "线宽不能仅依据碰撞频率或交换速率解释，还要区分退相位与相干转移，以及自旋—轨道、偶极和超精细作用是否可忽略。该文为理论条件分析，可读摘要没有给出通用于不同自由基体系的浓度或温度阈值。",
+      "publication_date": "2026-10-26",
+      "time_scope": "7d_extension",
+      "source": "Applied Magnetic Resonance",
+      "url": "https://doi.org/10.1007/s00723-026-01882-4",
+      "doi": "10.1007/s00723-026-01882-4",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://link.springer.com/article/10.1007/s00723-026-01882-4"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-27",
+      "last_updated": "2026-10-27",
+      "report_file": "SpinFront_2026-10-27.html"
+    },
+    {
+      "item_id": "SF-20261027-05",
+      "item_no": 5,
+      "report_date": "2026-10-27",
+      "title_cn": "NMR位移预测与自动结构解析的双向整合综述",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "小分子¹H/¹³C位移预测、归属及候选结构"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "review",
+      "summary_cn": "Dong 等综述¹H与¹³C位移预测从经验规则、数据库到图神经网络及三维表示的发展，并梳理正向谱库预测与逆向结构约束的整合。文章重点讨论预测误差、候选覆盖和实验数据质量如何影响峰—原子归属及最终结构判断。",
+      "meaning_cn": "预测位移与实验谱匹配可筛选候选，但较低预测误差并不保证正确结构一定包含在候选集合中。综述将适用域、可靠谱库和可由实验检验的结论作为自动解析前提；未据此把代理式工具组织等同于独立验证的新算法。",
+      "publication_date": "2026-10-26",
+      "time_scope": "7d_extension",
+      "source": "Journal of Chemical Information and Modeling",
+      "url": "https://doi.org/10.1021/acs.jcim.6c02915",
+      "doi": "10.1021/acs.jcim.6c02915",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1021/acs.jcim.6c02915"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-27",
+      "last_updated": "2026-10-27",
+      "report_file": "SpinFront_2026-10-27.html"
+    },
+    {
+      "item_id": "SF-20261027-06",
+      "item_no": 6,
+      "report_date": "2026-10-27",
+      "title_cn": "唾液¹H NMR探索糖尿病合并牙周炎的代谢差异",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "糖尿病伴或不伴牙周炎患者的未刺激全唾液"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Vaziri-Amjad 等比较各13名糖尿病伴与不伴牙周炎患者的唾液¹H NMR代谢谱。PLS-DA筛选VIP>1变量后，78个区分变量用于注释10种关键代谢物；代谢物集富集分析提示嘧啶代谢等通路改变，形成候选标志物线索。",
+      "meaning_cn": "样本量较小且依赖监督分类，区分变量和代谢物注释尚不能作为临床诊断证据。后续需独立大队列验证，并检验采样、口腔状态及模型泛化对差异的影响；本研究提供探索性代谢谱结果，不给出已验证的诊断阈值。",
+      "publication_date": "2026-10-26",
+      "time_scope": "7d_extension",
+      "source": "Genomics & Informatics",
+      "url": "https://doi.org/10.1186/s44342-026-00085-4",
+      "doi": "10.1186/s44342-026-00085-4",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1186/s44342-026-00085-4"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-27",
+      "last_updated": "2026-10-27",
+      "report_file": "SpinFront_2026-10-27.html"
+    },
+    {
+      "item_id": "SF-20261027-07",
+      "item_no": 7,
+      "report_date": "2026-10-27",
+      "title_cn": "EPR与淬灭实验检验电芬顿降解的自由基及非自由基路径",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "environmental_catalysis"
+      ],
+      "sample_systems": [
+        "Fe/Cu MOF衍生三层阴极与恩诺沙星废水"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Fan 等构建Fe/Cu MOF衍生三层阴极，将H₂O₂电生成与活化耦合，并以淬灭及EPR分析确认·OH与¹O₂共同参与恩诺沙星降解。在初始pH 7.0、电流密度18 mA/cm²及污染物100 mg/L条件下，体系矿化程度为75.6%。",
+      "meaning_cn": "EPR与淬灭对照共同约束活性物种路径，降解中间体另由质谱和计算分析。75.6%是特定电解条件下的矿化程度，不能等同于污染物去除率，也不能由中性pH运行直接推导实际废水处理成本；摘要未给出微波频段或捕获剂。",
+      "publication_date": "2026-10-26",
+      "time_scope": "7d_extension",
+      "source": "ACS Applied Materials & Interfaces",
+      "url": "https://doi.org/10.1021/acsami.6c15604",
+      "doi": "10.1021/acsami.6c15604",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1021/acsami.6c15604"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-27",
+      "last_updated": "2026-10-27",
+      "report_file": "SpinFront_2026-10-27.html"
+    },
+    {
+      "item_id": "SF-20261027-08",
+      "item_no": 8,
+      "report_date": "2026-10-27",
+      "title_cn": "采购与需求动态：科学智能物质创制中心招标EPR与液体NMR",
+      "direction_ids": [
+        "nmr",
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "sample_systems": [
+        "电子顺磁共振波谱仪及液体核磁共振波谱仪各1套"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "tender",
+      "summary_cn": "科学智能物质创制中心于10月26日发布电子顺磁共振波谱仪及液体核磁共振波谱仪公开招标公告（OITC-G260321059），采购EPR和液体NMR各1套，项目预算及最高限价均为560万元，其中EPR最高限价340万元、液体NMR最高限价220万元。招标文件获取时间为10月26日09:00至11月2日17:00，投标截止及开标时间均为11月17日14:00，地点为合肥市高新区创新大道2809号置地创新中心28层2815室；EPR为核心产品，项目不接受进口产品。以上时间均为北京时间。",
+      "meaning_cn": "该公告将EPR与液体NMR合并采购，并分别列出设备最高限价；所报总预算不能直接当作任一台设备的价格。公开邀请确认各1套、国产采购边界及递交时点，但未在可读正文列出NMR场强、EPR频段或灵敏度，不补写具体配置。",
+      "publication_date": "2026-10-26",
+      "time_scope": "24h",
+      "source": "东方国际招标｜科学智能物质创制中心—EPR与液体NMR",
+      "url": "https://www.oitccas.com/pages/tender_online_info.html?FormNo=ZBLX26100414",
+      "doi": "",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-27",
+      "last_updated": "2026-10-27",
+      "report_file": "SpinFront_2026-10-27.html"
+    }
+  ]
+}

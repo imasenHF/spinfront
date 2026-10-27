@@ -1,0 +1,436 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-10-28",
+  "scope_note": "检索截至2026-10-28 06:09:05（Asia/Shanghai）；优先过去24小时并逐日回扫10月21—27日。严格24小时可确认时刻的合格内容不足5条，已启动增强搜索，覆盖专业及高影响期刊、预印本与机构、厂商软件、会议培训、采购五路线和九个方法主题簇；增强后达到10条，未触发第二级深度增强检索。全库69期591条、最近7期及22份Review查重，登记内容候选中排除重复36项、采购重复7份；日期或首次在线日未能核实排除4项。最终10条，包括8篇期刊论文、1篇预印本及末条采购汇总；采购登记16份，合格5份、排除11份，涉及4个项目，汇总计日报1条。期刊论文仅有在线日期、预印本提交在窗内较早日期，均标近7天扩展；采购含10月21日与23日公告，同样列近7天扩展。部分出版商403、动态壳页及SAM附件读取有限，所选论文以明确摘要和可靠题录为限，不宣称全量穷尽；未读取私人教材，待复核标签无。",
+  "items": [
+    {
+      "item_id": "SF-20261028-01",
+      "item_no": 1,
+      "report_date": "2026-10-28",
+      "title_cn": "低温光解与脉冲ENDOR追踪铁硫簇的氰根配位",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "endor"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "氰根配位的Pyrococcus furiosus铁氧还蛋白"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Ho 等结合X波段EPR和¹³C/¹⁵N Q波段ENDOR，发现氰根配位的[4Fe–4S]¹⁺铁氧还蛋白在12 K可见光照下释放氰根，升温至150 K才发生同笼重结合。PESTRE脉冲ENDOR进一步确定¹³C超精细耦合的绝对符号，用于约束簇内铁价态局域化。",
+      "meaning_cn": "同位素标记配体的超精细信号连接了光解、复合及电子结构；绝对耦合符号比仅测耦合幅值提供更多约束。所述反应在低温冻态发生，不能直接推断室温溶液中的配体释放寿命或生理电子转移；Q波段ENDOR也不应与X波段EPR混写。",
+      "publication_date": "2026-10-27",
+      "time_scope": "7d_extension",
+      "source": "Inorganic Chemistry",
+      "url": "https://doi.org/10.1021/acs.inorgchem.6c04022",
+      "doi": "10.1021/acs.inorgchem.6c04022",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1021/acs.inorgchem.6c04022"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-28",
+      "last_updated": "2026-10-28",
+      "report_file": "SpinFront_2026-10-28.html"
+    },
+    {
+      "item_id": "SF-20261028-02",
+      "item_no": 2,
+      "report_date": "2026-10-28",
+      "title_cn": "Co(II)替代探针揭示烟酰胺酶配位变化与硫酯中间体",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "肺炎链球菌烟酰胺酶SpPncA及配体复合物"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Acosta 等以Co(II)替代烟酰胺酶中的Zn(II)，获得带可分辨超精细结构的S=3/2 EPR信号，支持五配位金属中心。团队比较底物、中间体、产物及抑制剂复合物的谱形菱形度，并结合Asp9定点突变，解析第二配位层对几何结构的影响，捕捉催化相关硫酯中间体。",
+      "meaning_cn": "Co(II)使原本抗磁的Zn位点成为可读出的配位探针，谱形变化可区分不同配体状态，Asp9突变则检验第二层静电网络的作用。替代金属可能改变酶的反应性质，结论须限定于经验证的替代体系；摘要未给出频段和温度，不能补写。",
+      "publication_date": "2026-10-27",
+      "time_scope": "7d_extension",
+      "source": "Inorganic Chemistry",
+      "url": "https://doi.org/10.1021/acs.inorgchem.6c04023",
+      "doi": "10.1021/acs.inorgchem.6c04023",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1021/acs.inorgchem.6c04023"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-28",
+      "last_updated": "2026-10-28",
+      "report_file": "SpinFront_2026-10-28.html"
+    },
+    {
+      "item_id": "SF-20261028-03",
+      "item_no": 3,
+      "report_date": "2026-10-28",
+      "title_cn": "多核NMR弛豫色散约束勃姆石孔内水的表面动力学",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "relaxometry",
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "sample_systems": [
+        "介孔勃姆石中不同含水量的受限水"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Levitz 等结合¹H、²H纵向弛豫色散、小角X射线散射、孔结构重建与模拟，研究勃姆石孔内水。两核种R₁频率依赖相近，支持强表面动力学限制及分子内偶极相互作用的贡献；模拟以约10⁻¹⁰ m²/s表面扩散系数和超过10 μs的驻留时间较好再现实验。",
+      "meaning_cn": "多模态约束有助于降低单独拟合宽时间窗弛豫色散时的非唯一性，并将弛豫响应与孔表面取向联系起来。扩散系数和驻留时间来自所设模型与实验的一致性，不能作为直接测得的普适常数；推广到其他孔材还需验证几何和含水条件。",
+      "publication_date": "2026-10-27",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Physical Chemistry C",
+      "url": "https://doi.org/10.1021/acs.jpcc.6c05410",
+      "doi": "10.1021/acs.jpcc.6c05410",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1021/acs.jpcc.6c05410"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-28",
+      "last_updated": "2026-10-28",
+      "report_file": "SpinFront_2026-10-28.html"
+    },
+    {
+      "item_id": "SF-20261028-04",
+      "item_no": 4,
+      "report_date": "2026-10-28",
+      "title_cn": "CCL11末端有序结构伴随与30s环关联的构象交换",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "relaxation_dispersion"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "缓冲液中的趋化因子CCL11"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Jang 等在pH 5.0、100 mM NaCl条件下用溶液NMR求解CCL11结构，并结合纳秒与微秒—毫秒弛豫测量。结果显示N端整体有序，但多数N端及30s环残基参与构象交换，只有末端少数残基自由运动；受体对接据此给出候选结合几何，而非直接确定完整复合物结构。",
+      "meaning_cn": "结构有序与中间时间尺度交换可以同时存在，解释N端时需结合快、慢两类运动读数。作者提出交换可能参与诱导结合及受体多效性，但该机制仍是假说；酸性缓冲液结果和对接模型不能替代生理条件下完整CCL11–CCR3复合物的验证。",
+      "publication_date": "2026-10-27",
+      "time_scope": "7d_extension",
+      "source": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-76811-3",
+      "doi": "10.1038/s41598-026-76811-3",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://www.nature.com/articles/s41598-026-76811-3"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-28",
+      "last_updated": "2026-10-28",
+      "report_file": "SpinFront_2026-10-28.html"
+    },
+    {
+      "item_id": "SF-20261028-05",
+      "item_no": 5,
+      "report_date": "2026-10-28",
+      "title_cn": "EPR与高分辨质谱确认硝酸羟胺分解中的自由基",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "catalysis"
+      ],
+      "sample_systems": [
+        "Rh/C催化的硝酸羟胺水溶液分解体系"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Zhang 等研究Rh/C催化硝酸羟胺水溶液分解，以EPR和高分辨质谱确认羟基与一氧化氮自由基。结合新旧催化剂XPS、原位红外和拉曼，团队提出羟基自由基始于硝酸均裂，随后与羟胺阳离子等反应生成NO•的修订路径；金属Rh⁰被识别为活性位点。",
+      "meaning_cn": "自由基物种的直接证据使反应路径不再仅依赖终产物推测，但物种检出与每个基元步骤的证明仍有区别。所提来源与转化路径来自联合机制分析；摘要未公开捕获剂、EPR频段或温度，不能据此指定自旋捕获或工况EPR标签。",
+      "publication_date": "2026-10-27",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Physical Chemistry C",
+      "url": "https://doi.org/10.1021/acs.jpcc.6c04485",
+      "doi": "10.1021/acs.jpcc.6c04485",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1021/acs.jpcc.6c04485"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-28",
+      "last_updated": "2026-10-28",
+      "report_file": "SpinFront_2026-10-28.html"
+    },
+    {
+      "item_id": "SF-20261028-06",
+      "item_no": 6,
+      "report_date": "2026-10-28",
+      "title_cn": "低场NMR食用油数据检验对话式AI的化学计量学能力",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "spectral_processing"
+      ],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "sample_systems": [
+        "食用植物油低场NMR数据与九个未标记样本"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Belmonte-Sánchez 等让五种对话式大模型分析食用油低场NMR数据，完成探索、无监督与监督分类、验证及解释。Claude Opus 4.6独立完成全流程并正确预测九个未标记样本；其他模型在自主性、数据处理或监督分类阶段表现不同，语言流畅度并不能替代分析能力验证。",
+      "meaning_cn": "评价对象是完整数据分析流程，而非模型回答谱学问题的措辞质量。九个样本的分类成功不能代表所有低场NMR数据或当前同名服务的性能；部署时仍应检查数据划分、验证逻辑及可重现代码，避免把单数据集结果当作通用模型排名。",
+      "publication_date": "2026-10-27",
+      "time_scope": "7d_extension",
+      "source": "Analytical Chemistry",
+      "url": "https://doi.org/10.1021/acs.analchem.6c02701",
+      "doi": "10.1021/acs.analchem.6c02701",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1021/acs.analchem.6c02701"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-28",
+      "last_updated": "2026-10-28",
+      "report_file": "SpinFront_2026-10-28.html"
+    },
+    {
+      "item_id": "SF-20261028-07",
+      "item_no": 7,
+      "report_date": "2026-10-28",
+      "title_cn": "按化合物分块验证揭示¹³C位移校准的迁移局限",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "pharma"
+      ],
+      "sample_systems": [
+        "三种原料药的有限簇GIAO–DFT位移基准及拉米夫定II型"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Al‐Sou'od 等按化合物分块重评¹³C NMR计算位移校准。20个内部位点的未校准RMSE为1.311 ppm，留一化合物验证中偏移修正降至1.065 ppm；独立拉米夫定II型的八个位点原始RMSE为4.174 ppm，三种迁移校准均使误差增大，显示内部改进未保证外部泛化。",
+      "meaning_cn": "偏移、线性缩放和二次模型的比较提醒计算位移使用者：校准优劣应在未参与拟合的化合物上检验。外部挑战采用不同的已发表Gaussian09 GIAO流程，因此同时包含化合物与计算协议域变化，不能把误差恶化单独归因于某一校准公式。",
+      "publication_date": "2026-10-26",
+      "time_scope": "7d_extension",
+      "source": "Journal of Chemometrics",
+      "url": "https://doi.org/10.1002/cem.70186",
+      "doi": "10.1002/cem.70186",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1002/cem.70186"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-28",
+      "last_updated": "2026-10-28",
+      "report_file": "SpinFront_2026-10-28.html"
+    },
+    {
+      "item_id": "SF-20261028-08",
+      "item_no": 8,
+      "report_date": "2026-10-28",
+      "title_cn": "非负局部回归分离MRSI中的组织代谢贡献",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "in_vivo_mrs"
+      ],
+      "method_ids": [
+        "spectral_processing"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "3 T脑MRSI、36名健康志愿者与胶质母细胞瘤病例"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Giraud 等提出非负地理加权回归，将组织部分体积与MRSI联合建模，分离不同组织的代谢贡献并保留空间异质性。合成数据中，该方法的中位绝对百分比误差低于三次样条与零填充；36名健康志愿者的120组3 T数据用于预测评价，临床病例进一步展示肿瘤与坏死区代谢比差异。",
+      "meaning_cn": "局部回归和稳健重加权可减少混合组织及低质量谱对估计的影响，并提供局部置信信息。其空间细化是模型推断，不等同于采集分辨率提高；单个肿瘤病例也不足以确立诊断效能，仍需不同病变和采集协议下的独立验证。",
+      "publication_date": "2026-10-22",
+      "time_scope": "7d_extension",
+      "source": "NMR in Biomedicine",
+      "url": "https://doi.org/10.1002/nbm.70424",
+      "doi": "10.1002/nbm.70424",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1002/nbm.70424"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-28",
+      "last_updated": "2026-10-28",
+      "report_file": "SpinFront_2026-10-28.html"
+    },
+    {
+      "item_id": "SF-20261028-09",
+      "item_no": 9,
+      "report_date": "2026-10-28",
+      "title_cn": "退火气氛改变ZnO微粒的顺磁缺陷与温变响应",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "defect_epr"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "sample_systems": [
+        "氮气与空气退火的ZnO微粒"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Savchenko 等以5—297 K温变EPR及谱模拟比较氮气与空气退火的ZnO微粒。不同气氛形成不同缺陷组合：浅施主与氢相关信号在约50 K以下迅速淬灭，氧空位相关信号则延续至室温并随温度升高增强；谐振腔Q值总体随升温降低。该结果目前为预印本。",
+      "meaning_cn": "温变行为为区分重叠的施主与氧空位信号增加约束，且Q值变化提醒分析微波损耗对观测信号的影响。缺陷归属依赖谱模拟和所选模型，信号强度变化不能直接等同缺陷浓度变化；结论针对所制备微粒与退火条件，尚待同行评审。",
+      "publication_date": "2026-10-24",
+      "time_scope": "7d_extension",
+      "source": "arXiv｜2610.33870v1｜预印本",
+      "url": "https://arxiv.org/abs/2610.33870v1",
+      "doi": "",
+      "alternative_sources": [
+        {
+          "name": "arXiv官方作者、提交时间与摘要",
+          "url": "https://export.arxiv.org/api/query?id_list=2610.33870"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-10-28",
+      "last_updated": "2026-10-28",
+      "report_file": "SpinFront_2026-10-28.html"
+    },
+    {
+      "item_id": "SF-20261028-10",
+      "item_no": 10,
+      "report_date": "2026-10-28",
+      "title_cn": "采购与需求动态：教学NMR、匀场线圈与海外设备及维护需求",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "sample_systems": [
+        "教学NMR装置、液体NMR匀场线圈、多系统采购意向与NMR维护需求"
+      ],
+      "instrument_component_ids": [
+        "magnet",
+        "probe",
+        "console",
+        "software"
+      ],
+      "information_type": "tender",
+      "summary_cn": "杭州医学院于10月26日发布教学仪器成交公告，中国政府采购网10月27日刊载；标项一原预算27.8万元、成交27.508万元，供应商为忆玺智能科技（杭州）有限公司，其中YMP-6105核磁共振实验装置8台、单价1.3万元，属于教学共振实验装置。南开大学10月23日发布JJ2026003196匀场线圈网上竞价采购公告，采购1个布鲁克Z49734.1，配置为400 MHz（9.4 T）液体NMR室温匀场、5 mm样品管和36通道，响应已于10月26日18:00截止；10月27日另发成交结果，成交价2.9万元，供应商名称未公开。南卡罗来纳大学10月21日公示拟向Bruker BioSPIN单一来源采购，拟合同金额2,908,594.26美元，范围含600/500 MHz系统、TCI Prodigy低温探头、固体探头、400 MHz磁体及软件、安装和培训，公示期截至11月3日，属于采购意向公示，尚非成交。美国DHA于10月21日15:59 EDT发布Bruker设备预防维护需求征集HT942627RE004，公开附件含USAMRICD NMR工作说明，响应截止为11月5日11:00 EST；该阶段为Sources Sought，不是正式招标。南开大学时间均为北京时间。",
+      "meaning_cn": "教学装置的单价不能与整个教学设备包成交额混用；匀场线圈采购则明确现有400 MHz液体NMR及5 mm样品管适配边界。南卡罗来纳大学公示覆盖多套设备与服务，拟合同金额不能作为单台系统报价；DHA要求的是维护能力信息响应，不能据此推定合同已授予。四个项目的五份公告分别核验阶段，已截止竞价与后续成交同时保留真实状态。",
+      "publication_date": "2026-10-27",
+      "time_scope": "7d_extension",
+      "source": "中国政府采购网｜杭州医学院—教学NMR成交（校方10月26日，政府网10月27日）",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202610/t20261027_27567358.htm",
+      "doi": "",
+      "alternative_sources": [
+        {
+          "name": "南开大学—匀场线圈采购（10月23日）",
+          "url": "https://zhgl.nankai.edu.cn/provider/#/publish/20MVKSN502O97WJ0"
+        },
+        {
+          "name": "南开大学—匀场线圈成交（10月27日）",
+          "url": "https://zhgl.nankai.edu.cn/provider/#/publish/20MVQB3LW99KHCC2"
+        },
+        {
+          "name": "南卡罗来纳大学—NMR拟单一来源（10月21日）",
+          "url": "https://scbo.sc.gov/printad?a=69681"
+        },
+        {
+          "name": "DHA—Bruker设备含NMR维护需求征集（10月21日）",
+          "url": "https://sam.gov/workspace/contract/opp/a6bff20dda6148bc8881e9f3bbe2811e/view"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-10-28",
+      "last_updated": "2026-10-28",
+      "report_file": "SpinFront_2026-10-28.html"
+    }
+  ]
+}

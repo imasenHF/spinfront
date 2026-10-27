@@ -1,0 +1,2524 @@
+{
+  "schema_version": "1.0.0",
+  "report_date": "2026-10-28",
+  "retrieval_cutoff": "2026-10-28T06:09:05+08:00",
+  "repository": {
+    "full_name": "imasenHF/spinfront",
+    "base_head": "10b040cc23aba9cd1f76bdd933f3dad9e88e1279",
+    "rules_read": [
+      "docs/DAILY_TASK_PROMPT.md",
+      "docs/DAILY_OUTPUT_RULES.md",
+      "docs/MAINTENANCE.md",
+      "taxonomy/taxonomy.json",
+      "templates/issue.html",
+      "assets/style.css",
+      "scripts/build.py"
+    ],
+    "commit_scope": [
+      "data/2026/SpinFront_2026-10-28.json",
+      "docs/reviews/2026-10-28.json"
+    ]
+  },
+  "search_summary": {
+    "strict24h_qualified_lt5": true,
+    "enhanced_trigger": "strict24h qualified<5;papers lack exact online timestamps",
+    "enhanced_completed": true,
+    "deep_enhancement_triggered": false,
+    "deep_reason": "enhanced search yielded8journal papers,1preprint and1procurement aggregate, >=8items",
+    "dates_rescanned": [
+      "2026-10-21",
+      "2026-10-22",
+      "2026-10-23",
+      "2026-10-24",
+      "2026-10-25",
+      "2026-10-26",
+      "2026-10-27"
+    ],
+    "crossref_query_count": 30,
+    "crossref_records": 1252,
+    "crossref_failures": {},
+    "method_queries": [
+      "NMR spectroscopy",
+      "nuclear magnetic resonance",
+      "solid-state NMR",
+      "solution NMR",
+      "low-field NMR",
+      "TD-NMR",
+      "benchtop NMR",
+      "qNMR",
+      "NUS NMR",
+      "pure shift NMR",
+      "DOSY NMR",
+      "NMR spectral processing",
+      "DNP NMR",
+      "MAS NMR",
+      "paramagnetic NMR",
+      "reaction monitoring NMR",
+      "EPR spectroscopy",
+      "electron paramagnetic resonance",
+      "CW EPR",
+      "pulsed EPR",
+      "DEER PELDOR",
+      "ENDOR ESEEM HYSCORE",
+      "TREPR",
+      "spin trapping EPR",
+      "spin labeling EPR",
+      "operando EPR",
+      "EC-EPR",
+      "rapid-scan EPR",
+      "NMR probe resonator magnet console autosampler",
+      "CEST DEST NMR"
+    ],
+    "pubmed_records": 206,
+    "specialist": [
+      {
+        "journal": "JMR",
+        "url": "https://api.crossref.org/journals/1090-7807/works?filter=from-online-pub-date%3A2026-10-21%2Cuntil-online-pub-date%3A2026-10-28&rows=100",
+        "error": null,
+        "record_count": 0
+      },
+      {
+        "journal": "JMRO",
+        "url": "https://api.crossref.org/journals/2666-4410/works?filter=from-online-pub-date%3A2026-10-21%2Cuntil-online-pub-date%3A2026-10-28&rows=100",
+        "error": null,
+        "record_count": 0
+      },
+      {
+        "journal": "MR",
+        "url": "https://api.crossref.org/journals/2699-0016/works?filter=from-online-pub-date%3A2026-10-21%2Cuntil-online-pub-date%3A2026-10-28&rows=100",
+        "error": null,
+        "record_count": 0
+      },
+      {
+        "journal": "JBNMR",
+        "url": "https://api.crossref.org/journals/1573-5001/works?filter=from-online-pub-date%3A2026-10-21%2Cuntil-online-pub-date%3A2026-10-28&rows=100",
+        "error": null,
+        "record_count": 0
+      },
+      {
+        "journal": "SSNMR",
+        "url": "https://api.crossref.org/journals/0926-2040/works?filter=from-online-pub-date%3A2026-10-21%2Cuntil-online-pub-date%3A2026-10-28&rows=100",
+        "error": null,
+        "record_count": 0
+      },
+      {
+        "journal": "MRC",
+        "url": "https://api.crossref.org/journals/1097-458X/works?filter=from-online-pub-date%3A2026-10-21%2Cuntil-online-pub-date%3A2026-10-28&rows=100",
+        "error": null,
+        "record_count": 1
+      },
+      {
+        "journal": "AMR",
+        "url": "https://api.crossref.org/journals/1613-7507/works?filter=from-online-pub-date%3A2026-10-21%2Cuntil-online-pub-date%3A2026-10-28&rows=100",
+        "error": null,
+        "record_count": 1
+      }
+    ],
+    "route_access": [
+      {
+        "route": "westlake",
+        "url": "https://procurement.westlake.edu.cn/sfw_cms/e?page=cms.psms.gglist&typeDetail=XQ",
+        "http": 200,
+        "bytes": 18714,
+        "status": "dynamic_list_without_announcements;public_relative_API_read_separately"
+      },
+      {
+        "route": "mrc",
+        "url": "https://onlinelibrary.wiley.com/toc/1097458xa/0/0",
+        "status": "access_failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "route": "jmr",
+        "url": "https://www.sciencedirect.com/journal/journal-of-magnetic-resonance/articles-in-press",
+        "http": 200,
+        "bytes": 195,
+        "status": "unreadable_placeholder"
+      },
+      {
+        "route": "jmro",
+        "url": "https://www.sciencedirect.com/journal/journal-of-magnetic-resonance-open/articles-in-press",
+        "http": 200,
+        "bytes": 195,
+        "status": "unreadable_placeholder"
+      },
+      {
+        "route": "jbnmr",
+        "url": "https://link.springer.com/journal/10858/online-first-articles",
+        "status": "access_failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "route": "ssnmr",
+        "url": "https://www.sciencedirect.com/journal/solid-state-nuclear-magnetic-resonance/articles-in-press",
+        "http": 200,
+        "bytes": 195,
+        "status": "unreadable_placeholder"
+      },
+      {
+        "route": "amr",
+        "url": "https://link.springer.com/journal/723/online-first-articles",
+        "status": "access_failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "route": "aip",
+        "url": "https://pubs.aip.org/jcp/issue",
+        "status": "access_failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "route": "bruker",
+        "url": "https://www.bruker.com/en/news-and-events/news.html",
+        "http": 200,
+        "bytes": 76942,
+        "status": "read"
+      },
+      {
+        "route": "ciqtek",
+        "url": "https://www.ciqtek.com/news_nc1",
+        "status": "access_failed",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "route": "enc",
+        "url": "https://www.enc-conference.org/",
+        "http": 200,
+        "bytes": 55094,
+        "status": "read"
+      },
+      {
+        "route": "euromar",
+        "url": "https://euromar2026.org/",
+        "http": 200,
+        "bytes": 52393,
+        "status": "read"
+      },
+      {
+        "route": "icmrbs",
+        "url": "https://www.icmrbs2026.org/",
+        "http": 200,
+        "bytes": 67474,
+        "status": "read"
+      },
+      {
+        "route": "apes",
+        "url": "https://www.apees2026.jp/",
+        "status": "access_failed",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "route": "ismar",
+        "url": "https://www.ismar.org/",
+        "http": 200,
+        "bytes": 52247,
+        "status": "read"
+      },
+      {
+        "route": "mr",
+        "url": "https://mr.copernicus.org/recent_papers.html",
+        "http": 200,
+        "bytes": 99556,
+        "status": "read"
+      },
+      {
+        "route": "acs",
+        "url": "https://pubs.acs.org/toc/jacsat/0/0",
+        "status": "access_failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "route": "rsc",
+        "url": "https://pubs.rsc.org/en/journals/journalissues/cp",
+        "status": "access_failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "route": "nature",
+        "url": "https://www.nature.com/nature/research-articles",
+        "http": 200,
+        "bytes": 217486,
+        "status": "read"
+      },
+      {
+        "route": "science",
+        "url": "https://www.science.org/journal/science",
+        "status": "access_failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "route": "jeol",
+        "url": "https://www.jeol.com/news/",
+        "http": 200,
+        "bytes": 87686,
+        "status": "read"
+      },
+      {
+        "route": "oxford",
+        "url": "https://www.oxinst.com/news",
+        "http": 200,
+        "bytes": 72918,
+        "status": "read"
+      },
+      {
+        "route": "magritek",
+        "url": "https://magritek.com/news-events/",
+        "http": 200,
+        "bytes": 253457,
+        "status": "read"
+      },
+      {
+        "route": "nanalysis",
+        "url": "https://www.nanalysis.com/",
+        "http": 200,
+        "bytes": 473902,
+        "status": "read"
+      },
+      {
+        "route": "efepr",
+        "url": "https://www.ceitec.eu/efepr-conference-2026/a5609",
+        "status": "access_failed",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "route": "arxiv",
+        "url": "https://export.arxiv.org/api/query?search_query=all:NMR+OR+all:EPR&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
+        "http": 200,
+        "bytes": 246429,
+        "status": "read"
+      },
+      {
+        "route": "chemrxiv",
+        "url": "https://chemrxiv.org/engage/chemrxiv/search-dashboard?text=NMR",
+        "status": "access_failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "route": "tju",
+        "url": "https://zbb.tju.edu.cn/",
+        "http": 200,
+        "bytes": 98,
+        "status": "unreadable_placeholder"
+      },
+      {
+        "route": "westlake_resonator",
+        "url": "https://provider.yuncaitong.cn/api/publish/solr/relative/?projectId=20MVEIIW118TTQQ1",
+        "http": 200,
+        "bytes": 2449,
+        "status": "read"
+      },
+      {
+        "route": "westlake_laser",
+        "url": "https://provider.yuncaitong.cn/api/publish/solr/relative/?projectId=20MVEIDQ2EQAJQNG",
+        "http": 200,
+        "bytes": 2467,
+        "status": "read"
+      },
+      {
+        "route": "CIQTEK corrected news URL",
+        "url": "https://www.ciqtek.com/news.html",
+        "status": "read;latest NMR product and prior conference already covered; SEM unrelated"
+      },
+      {
+        "route": "Nankai homepage recovered",
+        "url": "https://zhgl.nankai.edu.cn/sfw_cms/e?page=cms.index",
+        "status": "read;official procurement rows and stage IDs recovered"
+      },
+      {
+        "route": "Nankai public stage JSON",
+        "url": "https://provider.yuncaitong.cn/api/publish/solr/relative/?projectId=20MVKSN4S4BH95P7",
+        "status": "read2stages;each public sson body read"
+      },
+      {
+        "route": "HMC official award list",
+        "url": "https://czptmh.hmc.edu.cn/pbAnnouncements.jsf?purchaseAnnouncementType=BIDDING_TRANSACTION",
+        "status": "read actual Oct26 date; detail redirects to login; did not sign in; CCGP indexed official full text read separately"
+      },
+      {
+        "route": "CCGP HMC body",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202610/t20261027_27567358.htm",
+        "status": "direct403;official indexed complete award text verified"
+      },
+      {
+        "route": "South Carolina procurement",
+        "url": "https://scbo.sc.gov/online-edition?c=121-2026-10-23",
+        "status": "read official NMR intent and independent Print Ad"
+      },
+      {
+        "route": "SAM official",
+        "url": "https://sam.gov/workspace/contract/opp/a6bff20dda6148bc8881e9f3bbe2811e/view",
+        "status": "official indexed notice read; stage/date/deadline/NMR attachment title verified; attachments not downloaded"
+      },
+      {
+        "route": "JBNMR corrected articles route",
+        "url": "https://link.springer.com/journal/10858/articles",
+        "status": "HTTP200 readable articles listing; latest Q-BEST already archived; journal Crossref window query0"
+      },
+      {
+        "route": "AMR corrected articles route",
+        "url": "https://link.springer.com/journal/723/articles",
+        "status": "HTTP200 readable articles listing; latest Salikhov already archived; Crossref window query1duplicate"
+      }
+    ],
+    "ccgp_pages_attempted": 400,
+    "ccgp_errors": [],
+    "ccgp_keyword_hits": 5,
+    "ccgp_coverage_limit": "25pages per16category did not enumerate all of seven days in high-volume local awards. Targeted source searches recovered HMC; absence from first400pages not treated as absent.",
+    "oitc_records": 200,
+    "method_clusters": [
+      "liquid NUS/pure shift/DOSY/CEST/DEST/paramagnetic/reaction monitoring",
+      "MAS/fast MAS/DNP",
+      "low-field/TD/benchtop",
+      "software/qNMR/spectral processing",
+      "CW/rapid-scan",
+      "pulsed/DEER/PELDOR/ENDOR/ESEEM/HYSCORE",
+      "TREPR/light/spin trapping/spin labeling",
+      "operando/EC-EPR",
+      "probe/resonator/magnet/console/autosampler"
+    ],
+    "route_notes": [
+      "Seven specialist article-list URLs individually attempted; Crossref journal queries retried after429, all succeeded; not a claim of exhaustive publisher full-text coverage.",
+      "arXiv100official feed read; ZnO paper selected after abstract page/author/date verification; PET and Fast2Peak specific NMR evidence insufficient. ChemRxiv403 and independent indexed search. PubMed date query21—28 returned206records.",
+      "Bruker/JEOL/Oxford/Magritek/Nanalysis/CIQTEK individually inspected or searched; old meetings, SEM products and standing pages excluded.",
+      "ENC/EUROMAR/ICMRBS/ISMAR actual pages read; EFEPR/APES503, separate indexed conference/workshop search. Events without newly dated distinct technical content excluded.",
+      "CCGP/OITC official lists and public university APIs checked; national resources, Chinese demand/intention/market survey categories, SAM and UK official notices separately searched. Payment publication not relabeled new award.",
+      "Crossref30independent queries cover all9method clusters; high-impact Nature/Science/JACS/Angew/PNAS and APS checked alongside specialists."
+    ]
+  },
+  "candidates": [
+    {
+      "item_id": "SF-20261028-01",
+      "title": "Cyanide Photodissociation\nfrom the Site-Differentiated\n[4Fe-4S]1+ Cluster of\n                    Pyrococcus furiosus\n                    Ferredoxin Characterized by EPR and 13C/15N ENDOR",
+      "source": "Inorganic Chemistry",
+      "doi": "10.1021/acs.inorgchem.6c04022",
+      "url": "https://doi.org/10.1021/acs.inorgchem.6c04022",
+      "publication_date": "2026-10-27",
+      "publication_status": "early_access",
+      "mr_role": "key_evidence",
+      "role_evidence": "Ho 等结合X波段EPR和¹³C/¹⁵N Q波段ENDOR，发现氰根配位的[4Fe–4S]¹⁺铁氧还蛋白在12 K可见光照下释放氰根，升温至150 K才发生同笼重结合。PESTRE脉冲ENDOR进一步确定¹³C超精细耦合的绝对符号，用于约束簇内铁价态局域化。",
+      "evidence_location": "https://api.crossref.org/works/10.1021/acs.inorgchem.6c04022 Abstract / authors / online publication date",
+      "author_verification": {
+        "first_author": "Ho",
+        "source": "https://api.crossref.org/works/10.1021/acs.inorgchem.6c04022",
+        "status": "verified"
+      },
+      "source_review": "passed_publisher_deposited_crossref_abstract",
+      "date_review": "passed_actual_online_date_no_exact_time;7d_extension",
+      "scientific_review": "passed_each_claim_and_boundary_against_accessible_abstract",
+      "duplicate_review": "No full-history DOI/title/URL collision including alternatives and recent seven issues",
+      "duplicate_key": "doi:10.1021/acs.inorgchem.6c04022",
+      "decision": "selected",
+      "tags": {
+        "direction_ids": [
+          "epr"
+        ],
+        "experiment_type_ids": [
+          "pulsed_epr"
+        ],
+        "method_ids": [
+          "endor"
+        ],
+        "application_ids": [
+          "structural_biology"
+        ],
+        "instrument_component_ids": []
+      },
+      "tag_reasons": {
+        "epr": "EPR：氰根配位的Pyrococcus furiosus铁氧还蛋白；以正文实际测量、数据处理或研究用途为依据。",
+        "pulsed_epr": "脉冲EPR：氰根配位的Pyrococcus furiosus铁氧还蛋白；以正文实际测量、数据处理或研究用途为依据。",
+        "endor": "电子核双共振：氰根配位的Pyrococcus furiosus铁氧还蛋白；以正文实际测量、数据处理或研究用途为依据。",
+        "structural_biology": "结构生物学：氰根配位的Pyrococcus furiosus铁氧还蛋白；以正文实际测量、数据处理或研究用途为依据。"
+      },
+      "tag_review_status": "approved",
+      "review_status": "unreviewed"
+    },
+    {
+      "item_id": "SF-20261028-02",
+      "title": "Mechanistic\nInsights into Nicotinamidase by CoII EPR Spectroscopy",
+      "source": "Inorganic Chemistry",
+      "doi": "10.1021/acs.inorgchem.6c04023",
+      "url": "https://doi.org/10.1021/acs.inorgchem.6c04023",
+      "publication_date": "2026-10-27",
+      "publication_status": "early_access",
+      "mr_role": "key_evidence",
+      "role_evidence": "Acosta 等以Co(II)替代烟酰胺酶中的Zn(II)，获得带可分辨超精细结构的S=3/2 EPR信号，支持五配位金属中心。团队比较底物、中间体、产物及抑制剂复合物的谱形菱形度，并结合Asp9定点突变，解析第二配位层对几何结构的影响，捕捉催化相关硫酯中间体。",
+      "evidence_location": "https://api.crossref.org/works/10.1021/acs.inorgchem.6c04023 Abstract / authors / online publication date",
+      "author_verification": {
+        "first_author": "Acosta",
+        "source": "https://api.crossref.org/works/10.1021/acs.inorgchem.6c04023",
+        "status": "verified"
+      },
+      "source_review": "passed_publisher_deposited_crossref_abstract",
+      "date_review": "passed_actual_online_date_no_exact_time;7d_extension",
+      "scientific_review": "passed_each_claim_and_boundary_against_accessible_abstract",
+      "duplicate_review": "No full-history DOI/title/URL collision including alternatives and recent seven issues",
+      "duplicate_key": "doi:10.1021/acs.inorgchem.6c04023",
+      "decision": "selected",
+      "tags": {
+        "direction_ids": [
+          "epr"
+        ],
+        "experiment_type_ids": [],
+        "method_ids": [],
+        "application_ids": [
+          "structural_biology"
+        ],
+        "instrument_component_ids": []
+      },
+      "tag_reasons": {
+        "epr": "EPR：肺炎链球菌烟酰胺酶SpPncA及配体复合物；以正文实际测量、数据处理或研究用途为依据。",
+        "structural_biology": "结构生物学：肺炎链球菌烟酰胺酶SpPncA及配体复合物；以正文实际测量、数据处理或研究用途为依据。"
+      },
+      "tag_review_status": "approved",
+      "review_status": "unreviewed"
+    },
+    {
+      "item_id": "SF-20261028-03",
+      "title": "Dynamics of Interfacial\nWater Molecules Inside a Mesoporous\nMaterial as Probed by NMR Relaxometry: A Multimodal Approach",
+      "source": "The Journal of Physical Chemistry C",
+      "doi": "10.1021/acs.jpcc.6c05410",
+      "url": "https://doi.org/10.1021/acs.jpcc.6c05410",
+      "publication_date": "2026-10-27",
+      "publication_status": "early_access",
+      "mr_role": "method_core",
+      "role_evidence": "Levitz 等结合¹H、²H纵向弛豫色散、小角X射线散射、孔结构重建与模拟，研究勃姆石孔内水。两核种R₁频率依赖相近，支持强表面动力学限制及分子内偶极相互作用的贡献；模拟以约10⁻¹⁰ m²/s表面扩散系数和超过10 μs的驻留时间较好再现实验。",
+      "evidence_location": "https://api.crossref.org/works/10.1021/acs.jpcc.6c05410 Abstract / authors / online publication date",
+      "author_verification": {
+        "first_author": "Levitz",
+        "source": "https://api.crossref.org/works/10.1021/acs.jpcc.6c05410",
+        "status": "verified"
+      },
+      "source_review": "passed_publisher_deposited_crossref_abstract",
+      "date_review": "passed_actual_online_date_no_exact_time;7d_extension",
+      "scientific_review": "passed_each_claim_and_boundary_against_accessible_abstract",
+      "duplicate_review": "No full-history DOI/title/URL collision including alternatives and recent seven issues",
+      "duplicate_key": "doi:10.1021/acs.jpcc.6c05410",
+      "decision": "selected",
+      "tags": {
+        "direction_ids": [
+          "nmr"
+        ],
+        "experiment_type_ids": [],
+        "method_ids": [
+          "relaxometry",
+          "multinuclear_nmr"
+        ],
+        "application_ids": [
+          "materials"
+        ],
+        "instrument_component_ids": []
+      },
+      "tag_reasons": {
+        "nmr": "NMR：介孔勃姆石中不同含水量的受限水；以正文实际测量、数据处理或研究用途为依据。",
+        "relaxometry": "弛豫测量：介孔勃姆石中不同含水量的受限水；以正文实际测量、数据处理或研究用途为依据。",
+        "multinuclear_nmr": "多核NMR：介孔勃姆石中不同含水量的受限水；以正文实际测量、数据处理或研究用途为依据。",
+        "materials": "材料：介孔勃姆石中不同含水量的受限水；以正文实际测量、数据处理或研究用途为依据。"
+      },
+      "tag_review_status": "approved",
+      "review_status": "unreviewed"
+    },
+    {
+      "item_id": "SF-20261028-04",
+      "title": "NMR reveals an ordered but conformationally exchanging N-terminus in the chemokine CCL11",
+      "source": "Scientific Reports",
+      "doi": "10.1038/s41598-026-76811-3",
+      "url": "https://doi.org/10.1038/s41598-026-76811-3",
+      "publication_date": "2026-10-27",
+      "publication_status": "early_access",
+      "mr_role": "key_evidence",
+      "role_evidence": "Jang 等在pH 5.0、100 mM NaCl条件下用溶液NMR求解CCL11结构，并结合纳秒与微秒—毫秒弛豫测量。结果显示N端整体有序，但多数N端及30s环残基参与构象交换，只有末端少数残基自由运动；受体对接据此给出候选结合几何，而非直接确定完整复合物结构。",
+      "evidence_location": "https://www.nature.com/articles/s41598-026-76811-3 Abstract / authors / online publication date",
+      "author_verification": {
+        "first_author": "Jang",
+        "source": "https://www.nature.com/articles/s41598-026-76811-3",
+        "status": "verified"
+      },
+      "source_review": "passed_publisher_page",
+      "date_review": "passed_actual_online_date_no_exact_time;7d_extension",
+      "scientific_review": "passed_each_claim_and_boundary_against_accessible_abstract",
+      "duplicate_review": "No full-history DOI/title/URL collision including alternatives and recent seven issues",
+      "duplicate_key": "doi:10.1038/s41598-026-76811-3",
+      "decision": "selected",
+      "tags": {
+        "direction_ids": [
+          "nmr"
+        ],
+        "experiment_type_ids": [
+          "solution_nmr"
+        ],
+        "method_ids": [
+          "relaxation_dispersion"
+        ],
+        "application_ids": [
+          "structural_biology"
+        ],
+        "instrument_component_ids": []
+      },
+      "tag_reasons": {
+        "nmr": "NMR：缓冲液中的趋化因子CCL11；以正文实际测量、数据处理或研究用途为依据。",
+        "solution_nmr": "溶液NMR：缓冲液中的趋化因子CCL11；以正文实际测量、数据处理或研究用途为依据。",
+        "relaxation_dispersion": "弛豫色散：缓冲液中的趋化因子CCL11；以正文实际测量、数据处理或研究用途为依据。",
+        "structural_biology": "结构生物学：缓冲液中的趋化因子CCL11；以正文实际测量、数据处理或研究用途为依据。"
+      },
+      "tag_review_status": "approved",
+      "review_status": "unreviewed"
+    },
+    {
+      "item_id": "SF-20261028-05",
+      "title": "Detection and Origin\nof Radical Species in the Catalytic\nDecomposition of Hydroxylammonium Nitrate Aqueous Solution",
+      "source": "The Journal of Physical Chemistry C",
+      "doi": "10.1021/acs.jpcc.6c04485",
+      "url": "https://doi.org/10.1021/acs.jpcc.6c04485",
+      "publication_date": "2026-10-27",
+      "publication_status": "early_access",
+      "mr_role": "key_evidence",
+      "role_evidence": "Zhang 等研究Rh/C催化硝酸羟胺水溶液分解，以EPR和高分辨质谱确认羟基与一氧化氮自由基。结合新旧催化剂XPS、原位红外和拉曼，团队提出羟基自由基始于硝酸均裂，随后与羟胺阳离子等反应生成NO•的修订路径；金属Rh⁰被识别为活性位点。",
+      "evidence_location": "https://api.crossref.org/works/10.1021/acs.jpcc.6c04485 Abstract / authors / online publication date",
+      "author_verification": {
+        "first_author": "Zhang",
+        "source": "https://api.crossref.org/works/10.1021/acs.jpcc.6c04485",
+        "status": "verified"
+      },
+      "source_review": "passed_publisher_deposited_crossref_abstract",
+      "date_review": "passed_actual_online_date_no_exact_time;7d_extension",
+      "scientific_review": "passed_each_claim_and_boundary_against_accessible_abstract",
+      "duplicate_review": "No full-history DOI/title/URL collision including alternatives and recent seven issues",
+      "duplicate_key": "doi:10.1021/acs.jpcc.6c04485",
+      "decision": "selected",
+      "tags": {
+        "direction_ids": [
+          "epr"
+        ],
+        "experiment_type_ids": [],
+        "method_ids": [],
+        "application_ids": [
+          "catalysis"
+        ],
+        "instrument_component_ids": []
+      },
+      "tag_reasons": {
+        "epr": "EPR：Rh/C催化的硝酸羟胺水溶液分解体系；以正文实际测量、数据处理或研究用途为依据。",
+        "catalysis": "催化：Rh/C催化的硝酸羟胺水溶液分解体系；以正文实际测量、数据处理或研究用途为依据。"
+      },
+      "tag_review_status": "approved",
+      "review_status": "unreviewed"
+    },
+    {
+      "item_id": "SF-20261028-06",
+      "title": "LLMs in the Laboratory: Benchmarking Conversational AI for Multivariate Analysis of NMR Spectroscopic Data",
+      "source": "Analytical Chemistry",
+      "doi": "10.1021/acs.analchem.6c02701",
+      "url": "https://doi.org/10.1021/acs.analchem.6c02701",
+      "publication_date": "2026-10-27",
+      "publication_status": "early_access",
+      "mr_role": "application_core",
+      "role_evidence": "Belmonte-Sánchez 等让五种对话式大模型分析食用油低场NMR数据，完成探索、无监督与监督分类、验证及解释。Claude Opus 4.6独立完成全流程并正确预测九个未标记样本；其他模型在自主性、数据处理或监督分类阶段表现不同，语言流畅度并不能替代分析能力验证。",
+      "evidence_location": "https://api.crossref.org/works/10.1021/acs.analchem.6c02701 Abstract / authors / online publication date",
+      "author_verification": {
+        "first_author": "Belmonte-Sánchez",
+        "source": "https://api.crossref.org/works/10.1021/acs.analchem.6c02701",
+        "status": "verified"
+      },
+      "source_review": "passed_publisher_deposited_crossref_abstract",
+      "date_review": "passed_actual_online_date_no_exact_time;7d_extension",
+      "scientific_review": "passed_each_claim_and_boundary_against_accessible_abstract",
+      "duplicate_review": "No full-history DOI/title/URL collision including alternatives and recent seven issues",
+      "duplicate_key": "doi:10.1021/acs.analchem.6c02701",
+      "decision": "selected",
+      "tags": {
+        "direction_ids": [
+          "nmr"
+        ],
+        "experiment_type_ids": [],
+        "method_ids": [
+          "spectral_processing"
+        ],
+        "application_ids": [
+          "food_agriculture"
+        ],
+        "instrument_component_ids": []
+      },
+      "tag_reasons": {
+        "nmr": "NMR：食用植物油低场NMR数据与九个未标记样本；以正文实际测量、数据处理或研究用途为依据。",
+        "spectral_processing": "谱图处理：食用植物油低场NMR数据与九个未标记样本；以正文实际测量、数据处理或研究用途为依据。",
+        "food_agriculture": "食品与农业：食用植物油低场NMR数据与九个未标记样本；以正文实际测量、数据处理或研究用途为依据。"
+      },
+      "tag_review_status": "approved",
+      "review_status": "unreviewed"
+    },
+    {
+      "item_id": "SF-20261028-07",
+      "title": "Compound‐Blocked Calibration Transfer in a Three‐API Finite‐Cluster GIAO‐DFT\n                    13\n                    C NMR Benchmark",
+      "source": "Journal of Chemometrics",
+      "doi": "10.1002/cem.70186",
+      "url": "https://doi.org/10.1002/cem.70186",
+      "publication_date": "2026-10-26",
+      "publication_status": "early_access",
+      "mr_role": "method_core",
+      "role_evidence": "Al‐Sou'od 等按化合物分块重评¹³C NMR计算位移校准。20个内部位点的未校准RMSE为1.311 ppm，留一化合物验证中偏移修正降至1.065 ppm；独立拉米夫定II型的八个位点原始RMSE为4.174 ppm，三种迁移校准均使误差增大，显示内部改进未保证外部泛化。",
+      "evidence_location": "https://api.crossref.org/works/10.1002/cem.70186 Abstract / authors / online publication date",
+      "author_verification": {
+        "first_author": "Al‐Sou'od",
+        "source": "https://api.crossref.org/works/10.1002/cem.70186",
+        "status": "verified"
+      },
+      "source_review": "passed_publisher_deposited_crossref_abstract",
+      "date_review": "passed_actual_online_date_no_exact_time;7d_extension",
+      "scientific_review": "passed_each_claim_and_boundary_against_accessible_abstract",
+      "duplicate_review": "No full-history DOI/title/URL collision including alternatives and recent seven issues",
+      "duplicate_key": "doi:10.1002/cem.70186",
+      "decision": "selected",
+      "tags": {
+        "direction_ids": [
+          "nmr"
+        ],
+        "experiment_type_ids": [],
+        "method_ids": [
+          "computation_nmr"
+        ],
+        "application_ids": [
+          "pharma"
+        ],
+        "instrument_component_ids": []
+      },
+      "tag_reasons": {
+        "nmr": "NMR：三种原料药的有限簇GIAO–DFT位移基准及拉米夫定II型；以正文实际测量、数据处理或研究用途为依据。",
+        "computation_nmr": "计算NMR：三种原料药的有限簇GIAO–DFT位移基准及拉米夫定II型；以正文实际测量、数据处理或研究用途为依据。",
+        "pharma": "药物分析：三种原料药的有限簇GIAO–DFT位移基准及拉米夫定II型；以正文实际测量、数据处理或研究用途为依据。"
+      },
+      "tag_review_status": "approved",
+      "review_status": "unreviewed"
+    },
+    {
+      "item_id": "SF-20261028-08",
+      "title": "Separation of Anatomical Contributions in MRSI Using a Non‐Negative Geographically Weighted Regression Model",
+      "source": "NMR in Biomedicine",
+      "doi": "10.1002/nbm.70424",
+      "url": "https://doi.org/10.1002/nbm.70424",
+      "publication_date": "2026-10-22",
+      "publication_status": "early_access",
+      "mr_role": "method_core",
+      "role_evidence": "Giraud 等提出非负地理加权回归，将组织部分体积与MRSI联合建模，分离不同组织的代谢贡献并保留空间异质性。合成数据中，该方法的中位绝对百分比误差低于三次样条与零填充；36名健康志愿者的120组3 T数据用于预测评价，临床病例进一步展示肿瘤与坏死区代谢比差异。",
+      "evidence_location": "https://api.crossref.org/works/10.1002/nbm.70424 Abstract / authors / online publication date",
+      "author_verification": {
+        "first_author": "Giraud",
+        "source": "https://api.crossref.org/works/10.1002/nbm.70424",
+        "status": "verified"
+      },
+      "source_review": "passed_publisher_deposited_crossref_abstract",
+      "date_review": "passed_actual_online_date_no_exact_time;7d_extension",
+      "scientific_review": "passed_each_claim_and_boundary_against_accessible_abstract",
+      "duplicate_review": "No full-history DOI/title/URL collision including alternatives and recent seven issues",
+      "duplicate_key": "doi:10.1002/nbm.70424",
+      "decision": "selected",
+      "tags": {
+        "direction_ids": [
+          "nmr"
+        ],
+        "experiment_type_ids": [
+          "in_vivo_mrs"
+        ],
+        "method_ids": [
+          "spectral_processing"
+        ],
+        "application_ids": [
+          "life_science"
+        ],
+        "instrument_component_ids": []
+      },
+      "tag_reasons": {
+        "nmr": "NMR：3 T脑MRSI、36名健康志愿者与胶质母细胞瘤病例；以正文实际测量、数据处理或研究用途为依据。",
+        "in_vivo_mrs": "活体磁共振波谱：3 T脑MRSI、36名健康志愿者与胶质母细胞瘤病例；以正文实际测量、数据处理或研究用途为依据。",
+        "spectral_processing": "谱图处理：3 T脑MRSI、36名健康志愿者与胶质母细胞瘤病例；以正文实际测量、数据处理或研究用途为依据。",
+        "life_science": "生命科学：3 T脑MRSI、36名健康志愿者与胶质母细胞瘤病例；以正文实际测量、数据处理或研究用途为依据。"
+      },
+      "tag_review_status": "approved",
+      "review_status": "unreviewed"
+    },
+    {
+      "title": "Integrated NMR, HPLC-Chemometrics, and Network Pharmacology Strategy for Quality Assessment and Mechanism Elucidation of Gelatinous Chinese Medicines",
+      "source": "Molecules",
+      "doi": "10.3390/molecules31213812",
+      "url": "https://doi.org/10.3390/molecules31213812",
+      "publication_date": "2026-10-22",
+      "publication_status": "published",
+      "mr_role": "key_evidence",
+      "role_evidence": "Zhou 等以¹H NMR表征胶类中药酸水解物，识别16种可水解氨基酸与牛磺酸，比较七类胶的组成相似性。团队随后用经验证的衍生化HPLC定量16种目标氨基酸，并结合65批样品的化学计量学区分皮、角、骨及甲壳胶；网络药理学仅用于提出潜在作用关联。",
+      "evidence_location": "https://api.crossref.org/works/10.3390/molecules31213812 Abstract / authors / online publication date",
+      "author_verification": {
+        "first_author": "Zhou",
+        "source": "https://api.crossref.org/works/10.3390/molecules31213812",
+        "status": "verified"
+      },
+      "source_review": "passed_publisher_deposited_crossref_abstract",
+      "date_review": "passed_actual_online_date_no_exact_time;7d_extension",
+      "scientific_review": "passed_each_claim_and_boundary_against_accessible_abstract",
+      "duplicate_review": "No full-history DOI/title/URL collision including alternatives and recent seven issues",
+      "duplicate_key": "doi:10.3390/molecules31213812",
+      "decision": "qualified_not_selected_capacity",
+      "tags": {
+        "direction_ids": [
+          "nmr"
+        ],
+        "experiment_type_ids": [
+          "solution_nmr"
+        ],
+        "method_ids": [],
+        "application_ids": [
+          "quality_control"
+        ],
+        "instrument_component_ids": []
+      },
+      "tag_reasons": {
+        "nmr": "NMR：七类胶类中药的酸水解物及65批样品；以正文实际测量、数据处理或研究用途为依据。",
+        "solution_nmr": "溶液NMR：七类胶类中药的酸水解物及65批样品；以正文实际测量、数据处理或研究用途为依据。",
+        "quality_control": "质量控制与标准物质：七类胶类中药的酸水解物及65批样品；以正文实际测量、数据处理或研究用途为依据。"
+      },
+      "tag_review_status": "approved",
+      "review_status": "unreviewed",
+      "reason": "满足组分鉴定关键证据门槛，但本期优先选取温变缺陷EPR预印本，其他资讯限9条。"
+    },
+    {
+      "title": "Salivary 1H NMR metabolic profiling of diabetic patients with and without periodontitis: an exploratory pilot study",
+      "source": "Genomics &amp; Informatics",
+      "doi": "10.1186/s44342-026-00085-4",
+      "url": "https://doi.org/10.1186/s44342-026-00085-4",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            26
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1186/s44342-026-00085-4"
+    },
+    {
+      "title": "Automated Cerebrospinal Fluid Flow Quantification in Hydrocephalus Using Phase‐Contrast Magnetic Resonance Imaging",
+      "source": "NMR in Biomedicine",
+      "doi": "10.1002/nbm.70431",
+      "url": "https://doi.org/10.1002/nbm.70431",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            26
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "routine_characterization_or_out_of_scope",
+      "decision": "excluded_routine_or_out_of_scope",
+      "reason": "泛MRI、非波谱EPR缩写，或磁共振仅常规表征/背景提及，未满足三类作用门槛。",
+      "duplicate_key": "doi:10.1002/nbm.70431"
+    },
+    {
+      "title": "Chemical Navigation of Plastic Waste: 2D Solid-State NMR-Guided Upcycling of Mixed Plastics into High-Value Chemicals",
+      "source": "Transactions of Tianjin University",
+      "doi": "10.1007/s12209-026-00503-2",
+      "url": "https://doi.org/10.1007/s12209-026-00503-2",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            26
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "unverified",
+      "decision": "excluded_no_independent_research",
+      "reason": "封面或对既刊研究的评论，不构成独立技术增量。",
+      "duplicate_key": "doi:10.1007/s12209-026-00503-2"
+    },
+    {
+      "title": "Small-Molecule 1H and 13C NMR:\nFrom Chemical-Shift Prediction to Automated Structure Elucidation",
+      "source": "Journal of Chemical Information\nand Modeling",
+      "doi": "10.1021/acs.jcim.6c02915",
+      "url": "https://doi.org/10.1021/acs.jcim.6c02915",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            26
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1021/acs.jcim.6c02915"
+    },
+    {
+      "title": "Investigation\nof the Interactions of Carbamazepine\nwith Lipid Membranes: Insights from Molecular Dynamics Simulations\nand NMR Experiments",
+      "source": "Langmuir",
+      "doi": "10.1021/acs.langmuir.6c03722",
+      "url": "https://doi.org/10.1021/acs.langmuir.6c03722",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            25
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1021/acs.langmuir.6c03722"
+    },
+    {
+      "title": "Time‐Resolved Multidimensional NMR Spectroscopy Reveals the Bifurcated Folding Pathway of a Thrombin‐Binding DNA G4–Azobenzene Derivative Complex",
+      "source": "Angewandte Chemie",
+      "doi": "10.1002/ange.4831000",
+      "url": "https://doi.org/10.1002/ange.4831000",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            24
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1002/ange.4831000"
+    },
+    {
+      "title": "Insights to Molecularly-Uncharacterized Components of POM and Comparison of POM and DOM Using Multi-NMR Spectroscopy: A Case Study in the Northern South China Sea",
+      "source": "Journal of Ocean University of China",
+      "doi": "10.1007/s11802-026-6542-y",
+      "url": "https://doi.org/10.1007/s11802-026-6542-y",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            24
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1007/s11802-026-6542-y"
+    },
+    {
+      "title": "Time‐Resolved Multidimensional NMR Spectroscopy Reveals the Bifurcated Folding Pathway of a Thrombin‐Binding DNA G4–Azobenzene Derivative Complex",
+      "source": "Angewandte Chemie International Edition",
+      "doi": "10.1002/anie.4831000",
+      "url": "https://doi.org/10.1002/anie.4831000",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            24
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1002/anie.4831000"
+    },
+    {
+      "title": "Time-domain NMR enables non-invasive longitudinal monitoring of intrahepatic cholangiocarcinoma in mice",
+      "source": "Scientific Reports",
+      "doi": "10.1038/s41598-026-77276-0",
+      "url": "https://doi.org/10.1038/s41598-026-77276-0",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            23
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1038/s41598-026-77276-0"
+    },
+    {
+      "title": "Nanoceria\nas an Acid–Base Catalyst for Interfacial\nHydrolysis of Sulfonylureas: A Combined 31P MAS NMR and\nDFT Study",
+      "source": "Inorganic Chemistry",
+      "doi": "10.1021/acs.inorgchem.6c04712",
+      "url": "https://doi.org/10.1021/acs.inorgchem.6c04712",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            23
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1021/acs.inorgchem.6c04712"
+    },
+    {
+      "title": "Ultrafast MAS and Deuteration for High‐Resolution Proton Detected Solid‐State NMR of Intact Fungal Cell Walls",
+      "source": "ChemBioChem",
+      "doi": "10.1002/cbic.70574",
+      "url": "https://doi.org/10.1002/cbic.70574",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            23
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1002/cbic.70574"
+    },
+    {
+      "title": "CO2 Enhanced Hydrocarbon Recovery in Organic-Rich\nShales: Insights from 500 MHz 1H NMR",
+      "source": "Energy &amp; Fuels",
+      "doi": "10.1021/acs.energyfuels.6c03407",
+      "url": "https://doi.org/10.1021/acs.energyfuels.6c03407",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            23
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1021/acs.energyfuels.6c03407"
+    },
+    {
+      "title": "Cellulose Crystallinity in Orange Biomass-Derived Cellulose: Comparative Assessment by FT-IR, Solid-State 13C NMR, and X-Ray Diffraction",
+      "source": "Molecules",
+      "doi": "10.3390/molecules31213833",
+      "url": "https://doi.org/10.3390/molecules31213833",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            23
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.3390/molecules31213833"
+    },
+    {
+      "title": "Water-Locking and Its Release Effects in Argillaceous\nSilt Hydrate-Bearing Sediments by NMR Technology",
+      "source": "Energy &amp; Fuels",
+      "doi": "10.1021/acs.energyfuels.6c04198",
+      "url": "https://doi.org/10.1021/acs.energyfuels.6c04198",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            23
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1021/acs.energyfuels.6c04198"
+    },
+    {
+      "title": "Solid-State NMR Reveals\na Bifunctional Disordered\nLinker That Couples Katanin Microtubule Anchoring to Condensate-Activated\nSevering",
+      "source": "Journal of the American\nChemical Society",
+      "doi": "10.1021/jacs.6c15214",
+      "url": "https://doi.org/10.1021/jacs.6c15214",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            23
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1021/jacs.6c15214"
+    },
+    {
+      "title": "Multifractal Characteristics and Factors Associated with Pore Structure in Taiyuan Formation Transitional Shales Based on LTNA and NMR",
+      "source": "Fractal and Fractional",
+      "doi": "10.3390/fractalfract10110739",
+      "url": "https://doi.org/10.3390/fractalfract10110739",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            23
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "routine_characterization_or_out_of_scope",
+      "decision": "excluded_routine_or_out_of_scope",
+      "reason": "泛MRI、非波谱EPR缩写，或磁共振仅常规表征/背景提及，未满足三类作用门槛。",
+      "duplicate_key": "doi:10.3390/fractalfract10110739"
+    },
+    {
+      "title": "Toward the Rational\nDesign of Tailored Ligands for\nIntrinsically Disordered Proteins through NMR",
+      "source": "Journal of the American\nChemical Society",
+      "doi": "10.1021/jacs.6c16561",
+      "url": "https://doi.org/10.1021/jacs.6c16561",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            22
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1021/jacs.6c16561"
+    },
+    {
+      "title": "Eco-Friendly Microwave-Assisted Synthesis and Complete 2D NMR Analysis of Tryptanthrin",
+      "source": "ECSOC 2026",
+      "doi": "10.3390/chemproc2026022042",
+      "url": "https://doi.org/10.3390/chemproc2026022042",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            22
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "unverified",
+      "decision": "excluded_unverified_role",
+      "reason": "未获得足以确认磁共振核心作用的摘要。",
+      "duplicate_key": "doi:10.3390/chemproc2026022042"
+    },
+    {
+      "title": "Covalent Labeling\nof Human Neuroglobin with a 19F-Probe to Study its\nConformational Changes Using 19F NMR",
+      "source": "Biochemistry",
+      "doi": "10.1021/acs.biochem.6c00592",
+      "url": "https://doi.org/10.1021/acs.biochem.6c00592",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            22
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1021/acs.biochem.6c00592"
+    },
+    {
+      "title": "Magnetic resonance imaging predicts perianal fistula in Crohn’s disease",
+      "source": "World Journal of Gastroenterology",
+      "doi": "10.3748/wjg.116827",
+      "url": "https://doi.org/10.3748/wjg.116827",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            28
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "routine_characterization_or_out_of_scope",
+      "decision": "excluded_routine_or_out_of_scope",
+      "reason": "泛MRI、非波谱EPR缩写，或磁共振仅常规表征/背景提及，未满足三类作用门槛。",
+      "duplicate_key": "doi:10.3748/wjg.116827"
+    },
+    {
+      "title": "Metaphyseal changes on whole-body magnetic resonance imaging following bisphosphonate therapy in children with chronic nonbacterial osteomyelitis: distinguishing treatment effect from disease flare",
+      "source": "Pediatric Radiology",
+      "doi": "10.1007/s00247-026-06819-4",
+      "url": "https://doi.org/10.1007/s00247-026-06819-4",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            27
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "routine_characterization_or_out_of_scope",
+      "decision": "excluded_routine_or_out_of_scope",
+      "reason": "泛MRI、非波谱EPR缩写，或磁共振仅常规表征/背景提及，未满足三类作用门槛。",
+      "duplicate_key": "doi:10.1007/s00247-026-06819-4"
+    },
+    {
+      "title": "Automatic detection of simulated artifacts on T1w magnetic resonance images: Comparing performance of different QC strategies",
+      "source": "Aperture Neuro",
+      "doi": "10.52294/001c.172318",
+      "url": "https://doi.org/10.52294/001c.172318",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            27
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "routine_characterization_or_out_of_scope",
+      "decision": "excluded_routine_or_out_of_scope",
+      "reason": "泛MRI、非波谱EPR缩写，或磁共振仅常规表征/背景提及，未满足三类作用门槛。",
+      "duplicate_key": "doi:10.52294/001c.172318"
+    },
+    {
+      "title": "Beyond Electroanatomical Mapping: The Role of Cardiac Magnetic Resonance in Ventricular Tachycardia Ablation, A Systematic Review and Meta-analyses",
+      "source": "BMC Cardiovascular Disorders",
+      "doi": "10.1186/s12872-026-06667-y",
+      "url": "https://doi.org/10.1186/s12872-026-06667-y",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            27
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "routine_characterization_or_out_of_scope",
+      "decision": "excluded_routine_or_out_of_scope",
+      "reason": "泛MRI、非波谱EPR缩写，或磁共振仅常规表征/背景提及，未满足三类作用门槛。",
+      "duplicate_key": "doi:10.1186/s12872-026-06667-y"
+    },
+    {
+      "title": "Correlation between three-dimensional arterial spin labelling perfusion parameters and microvessel density in brain tumours: a prospective study",
+      "source": "Egyptian Journal of Radiology and Nuclear Medicine",
+      "doi": "10.1186/s43055-026-01900-2",
+      "url": "https://doi.org/10.1186/s43055-026-01900-2",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            27
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "routine_characterization_or_out_of_scope",
+      "decision": "excluded_routine_or_out_of_scope",
+      "reason": "泛MRI、非波谱EPR缩写，或磁共振仅常规表征/背景提及，未满足三类作用门槛。",
+      "duplicate_key": "doi:10.1186/s43055-026-01900-2"
+    },
+    {
+      "title": "The Evolving Phenotype of Myocarditis: The Role of Cardiovascular Magnetic Resonance from Acute Injury to Healing and Residual Scar",
+      "source": "Journal of Clinical Medicine",
+      "doi": "10.3390/jcm15218352",
+      "url": "https://doi.org/10.3390/jcm15218352",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            27
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "routine_characterization_or_out_of_scope",
+      "decision": "excluded_routine_or_out_of_scope",
+      "reason": "泛MRI、非波谱EPR缩写，或磁共振仅常规表征/背景提及，未满足三类作用门槛。",
+      "duplicate_key": "doi:10.3390/jcm15218352"
+    },
+    {
+      "title": "Structural Analysis of Paramagnetic Cationic Sites in Aluminum-Free Layered Double Hydroxides as Contrast Agents for Magnetic Resonance Imaging",
+      "source": "Journal of Inorganic and Organometallic Polymers and Materials",
+      "doi": "10.1007/s10904-026-04544-x",
+      "url": "https://doi.org/10.1007/s10904-026-04544-x",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            27
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "unverified",
+      "decision": "excluded_unverified_role",
+      "reason": "未获得足以确认磁共振核心作用的摘要。",
+      "duplicate_key": "doi:10.1007/s10904-026-04544-x"
+    },
+    {
+      "title": "Canadian Spine SocietyLongitudinal changes in comprehensive radiographic parameters following short-segment surgery (1–2 levels) for degenerative lumbar spondylolisthesisMeasuring spinopelvic parameters in patients with 6 lumbar vertebrae: a matched comparison of asymptomatic volunteersSupervised and unsupervised machine learning reveals distinct clinical phenotypes across degenerative lumbar conditions: sex-specific clustering for personalized surgical careDoes disc degeneration matter? Outcomes of decompression-alone surgery in low-grade spondylolisthesisIntervertebral disc degeneration in humans: altered peripheral immune cell profile in patients and inflammation-mediated matrix metalloproteinase upregulation in human disc cellsDomino toppling: when the disruption of one disc negatively impacts its neighbour. An investigation into the mechanism of adjacent segment diseaseMultimodal analgesia after surgery for thoracolumbar spinal stenosisLumbar foraminal morphology can affect outcomes of indirect decompression: a novel classificationPredictors of intraoperative vascular complications during anterior lumbar spinal exposure: a retrospective analysisHigher rates of fusion with porous titanium than with polyetheretherketone (PEEK) lumbar interbody cages: a retrospective cohort studyCan measuring preoperative postvoid urine residual values influence care in patients undergoing elective spine surgery?To respond or not to respond: the many faces of recovery after lumbar spine surgeryPostoperative outcomes in primary versus revision lumbar decompressive surgery: a propensity-matched analysisWhat are the barriers and enablers influencing physical activity among patients awaiting spine surgery? A qualitative study guided by the Theoretical Domains FrameworkEffects of childbearing on spinopelvic alignmentClinical and radiological outcomes of biportal endoscopic lumbar interbody fusion using oblique lateral interbody fusion-type cage: preliminary results and learning curve analysisArtificial intelligence for spine surgery education: a comparative analysis of ChatGPT and DeepSeek performanceSpineNavigator: a surgeon-trained large language model to enhance communication and patient education in spine surgeryDoes comorbidity count, ASA score, or Quan-modified Charlson Comorbidity Index score better predict morbidity after elective spinal surgery?Factors associated with perioperative adverse events in patients with degenerative lumbar spondylolisthesisImplementation of an awake spine surgery program in Canada: lessons learned from the surgeon’s perspectiveLongitudinal finite mixture models for mining complex prognostic phenotypes of degenerative cervical myelopathyEnvironmental impacts of a cervical laminectomy and fusion procedure from first consultation to patient recovery: insights from a life cycle assessmentReframing mild degenerative cervical myelopathy: insights from a latent profile analysisPredictive algorithm for treatment recommendation between operative and nonoperative management in mild degenerative cervical myelopathyMachine learning classification of patients with degenerative cervical myelopathy into clinically relevant clusters and development of an adoptable clinical algorithmReassessing the minimal clinically important differences of patient-reported outcomes in cervical myelopathy: a patient-centred approach from the Canadian Spine Outcomes and Research NetworkCurrent practices in return-to-play recommendations for recreational athletes following cervical spine surgeries: a preliminary global surveyCage subsidence and fusion in ACDF, a comparison between autograft, allograft, and synthetic cagesQuantifying cervical cord deformation with automated MRI: validation and clinical correlates in degenerative cervical myelopathyThe impact of estrogen replacement therapy on revision rates and outcomes after anterior cervical discectomy and fusion: a propensity-matched cohort studyImaging biomarkers derived using artificial intelligence pipeline–enhanced prognostication of patients undergoing surgery for nontraumatic spinal cord injury due to degenerative cervical myelopathyWhat patients expect and what they experience: symptom-specific expectation fulfillment and functional recovery in degenerative cervical myelopathy. A retrospective analysis of prospectively collected data from the multicentre Canadian Surgical Spine RegistryBiomechanical comparison of 7 occipital–cervical fixation constructs using finite element analysisOutpatient anterior cervical decompression and fusion: a survey of Canadian surgeonsNational trends in surgical approach for degenerative cervical myelopathy and associated inpatient costsVariability of mechanism of mechanical complications between low-thoracic to pelvis and lumbar to pelvis fusions accurately predicted by musculoskeletal analysisOutcomes of circumferential minimally invasive technique versus open technique in adult spinal deformity surgery patients over 80 years of age: a propensity-matched analysisOutcomes of spinal cord stimulation in patients with nonsurgical refractory back and/or lower extremity radicular pain: a retrospective single-centre reviewDistal junctional kyphosis at the cervicothoracic junction in adult cervical deformity: a systematic review and future directionElectroSacroGram: a novel point-of-care neurophysiological tool for early detection of incomplete cauda equina or conus medullaris syndrome to improve surgical triageA randomized controlled trial evaluating the effectiveness of a 5-layer foam dressing in preventing sacral pressure injuries after acute spinal cord injuryTiming of thromboprophylaxis in acute spinal cord injury patients: a Trauma Quality Improvement Program studyCharacterization of Canadian traumatic spinal cord injury patient candidates for upper extremity functional restoration through peripheral nerve transferImplications of polypharmacy for clinical practice in traumatic spinal cord injury: a population-based approachPerformance of prognostic scores in breast cancer patients with spinal metastases undergoing surgeryInternational Delphi consensus on defining the optimal surgical composite outcome in primary malignant bone tumours of the spineImpact of bowel and bladder dysfunction on patient-reported outcomes in patients undergoing sacrectomy for a primary bone tumourReoperation rates following spinal epidural abscess evacuation with and without instrumentationEarly in-bed cycling during acute hospitalization modulates spinal cord excitability after traumatic spinal cord injuryDecompressions alone in patients with adult spinal deformity have variable outcomes: pilot data from the Canadian Spine Outcomes and Research Network ASD registryComparing realignment strategies in lumbar-to-pelvic fusion: insights from the Global Alignment and Proportion (GAP) score and biomechanical loadingDurability of adult spinal deformity correction based on upper instrumented level and baseline deformity severity: a survival analysis of a prospective 18-centre studyTwo-dimensional predictive modelling of proximal junctional failure in patients undergoing adult spinal deformity surgeryRod fracture after spine fusion: distinguishing fusion mass failure from pseudarthrosis. A 10-year single-centre experienceA step closer to bringing idiopathic scoliosis monitoring at home: a smartphone app accurately generates digital twins in 624 pediatric patientsThree-dimensional parameters predicting postoperative success after growth modulation (vertebral body tethering) in adolescent idiopathic scoliosisThree-dimensional radiological predictors of brace treatment outcomes in adolescent idiopathic scoliosisMinimally invasive bipolar fixation versus conventional open posterior spinal fusion in neuromuscular scoliosis: a retrospective comparative study of perioperative and short-term outcomesA meta-analysis of the role of erector spinae plane block for perioperative analgesia in posterior spinal fusion surgery for paediatric scoliosisProspective multicentre comparison of hybrid and bilateral vertebral body tethering in the treatment of idiopathic scoliosis”It was so easy to miss”: a qualitative exploration of scoliosis diagnosis from an adolescent and parent perspectiveFrailty and surgical invasiveness are independent and synergistic predictors of complications in pediatric spinal deformity surgerySpondylolysis and spondylolisthesis is associated with disc degeneration in pediatric patientsRadiological predictors of intraoperative neuromonitoring alerts in thoracic spine deformity correction surgery: a validation study of a novel classification system and risk predictor toolDefining segment-specific rod protrusion safe zones in spinal fusion surgery using computed tomography–based 3-dimensional modellingDoes tether failure lead to a lower instrumented vertebra at posterior spinal fusion?Endoscopic spine surgery: a scoping review of the literatureMental health recovery after surgery for degenerative cervical myelopathy: a group-based trajectory modelling analysisThe economics of surgical decision-making in geriatric type II odontoid fractures: reframing the role of frailtyIntegrated robotic spine surgery with navigation: a 1-year prospective multicentre analysis of complications and revision rates in 657 thoracolumbar fusionsEvaluating patient readiness for spine surgery: a cross-sectional studyOne-year fusion outcomes using an integrated robotic navigation system for thoracolumbar instrumentation: analysis of 234 levelsFrom surgery to recovery: a systematic review of postoperative rehabilitation in degenerative cervical myelopathyNew pedicle screw stimulation technique can identify medial pedicle breachesAnatomy of spondylolysis fractures in adolescent patientsPatient perspective on adjunctive treatment for early-onset scoliosisElective spine surgery in octogenarians: early postoperative mortality and morbidityLonger operative times are associated with increased morbidity in pediatric neuromuscular scoliosis surgerySimulation model for training in lumbar laminectomy: design and initial validationMorphometric analysis of lumbar nerve root takeoff in the lumbar spineThe cord-to-canal ratio as a radiographic tool in congenital cervical spinal stenosisRelationship of posterior superior iliac spine posterior superior iliac spine (PSIS) morphology and ideal S1 pedicle screw trajectory: a cross-sectional study of closed versus open PSIS morphologyBiomechanical impact of screw length and addition of posterior fixation to fatigue failure in worst-case conditions for anterior cervical fixation modelsDischarge with opioids is associated with reduced length of stay after posterior spinal fusion for scoliosis in pediatric patientsUnexpected intraoperative positive culture in presumed aseptic revision spine surgery: a propensity score–matched cohort studyPredictive respiratory motion compensation for robotic-assisted spinal procedures using a time-variant seasonal autoregressive modelDetermining the impact of concomitant traumatic brain injury on acute care outcomes following traumatic spinal cord injuryEarly improvement in resilience reduces anxiety and depression after traumatic spinal cord injury: a prospective longitudinal studyDoes image guidance reduce unexpected returns to the operating room after spinal screw fixation? A systematic review and meta-analysisRobot-assisted hydrogel injection for spinal cord injury repairTraumatic spinal cord injury in Manitoba: adverse medical and surgical outcomes among surgical spinal cord injury patients in ManitobaTraumatic spinal cord injury in Manitoba: analysis of correlation between mean arterial pressure and recovery in spinal cord injury patientsUpper extremity sensation after surgery for degenerative cervical myelopathy: Does it change? An observational study from the Canadian Spine Outcomes and Research NetworkDo outcomes differ between semi-elective and emergent treatment of spinal metastases? A retrospective cohort studyImpact of preoperative cannabis use on clinical outcomes of spinal fusion — systematic review and meta-analysisMeta-analysis comparing 3-dimensional–printed guidance with conventional pedicle screw placement in minimally invasive instrumentation for thoracolumbar fracturesMultiple fixation, fewer failures: a multicentre adult spinal deformity analysisPatient, hospital, and geographic factors associated with intraoperative neuromonitoring for cervical spine surgery: a national analysisInpatient outcomes of degenerative cervical myelopathy patients undergoing surgery in teaching versus nonteaching hospitalsThe weekend effect in patients undergoing emergent spine surgery for cervical myelopathyInternal lumbar disc derangement with instability catch from monosegmental discopathy. Cohort study of a forgotten mechanical and kinetic surgical back pain syndromeNormal anatomy of the lumbar sublaminar ridge in the lateral recess with potential implications to surgical technique in degenerative spinal stenosis. A cadaveric studyPerioperative outcomes after surgical treatment of spinal cord injury due to low-energy falls. A comparative study between patients with rigid versus nonrigid spineDeterminants of surgical outcomes in degenerative cervical myelopathy: a comprehensive thematic review of 16 prospective Canadian Spine Outcomes and Research Network studiesThe role of tranexamic acid for posterior spinal fusion in nonidiopathic scoliosis: a systematic review and meta-analysisImpact on quality of life of full-time and nighttime braces in adolescent idiopathic scoliosis: a randomized clinical trialSemiautomated 3-dimensional reconstruction of instrumented postoperative spines: validation against surgeon measurementsToward automated classification of adolescent idiopathic scoliosis using a robust deep-learning approachThe effects of class III obesity among patients undergoing surgery for degenerative lumbar conditions: an observational study from the Canadian Spine Outcomes and Research NetworkContemporary analysis of adverse cardiopulmonary events following corrective surgery for complex adult spinal deformitiesTypes of pelvic fixation and their influence on pelvic incidence change after surgery for adult spinal deformity: a retrospective analysisClinical validation of patient-specific finite element biomechanical modelling for oblique lumbar interbody fusion in grade I degenerative spondylolisthesisEnhanced clinical success and accelerated fusion with P-15L versus autograft in higher-risk patients undergoing transforaminal lumbar interbody fusion: a subgroup analysis of a multicentre randomized controlled trialEpidemiology of work-related traumatic spinal cord injury in British ColumbiaImaging assessment of cervical and lumbar muscle characteristics in collegiate athletes with and without a recent history of concussionRoutine practices in anesthesiology for spine deformity surgery: a preliminary multicentre comparisonImpact of scoliosis surgery on breast and trunk aesthetics in female patientsCost-effectiveness of preoperative tests in adolescent idiopathic scoliosisEvaluating the reliability and effectiveness of the Braden Scale score for pressure injury prevention in spinal cord injury patients during the acute phaseCombined endoscopic spine surgery with uniportal and biportal approaches: a new technique that adds advantages and unifies endoscopic spine surgery, with a case reportPreoperative patient factors affecting length of stay following posterior spinal fusion in adolescent idiopathic scoliosisSurface topography modifications of pedicle screws in spine surgery: a scoping reviewAssociation between sagittal malalignment and proximal junctional compression in lumbar fusion patientsTransabdominal motor evoked potentials as a robust adjunct to transcranial monitoring in lumbar spine surgery: superior performance in patients with brain pathologyArterial contributor to spinal cord perfusion at tumour level — Does it still affect management?When the spine lesion reveals the cancer: survival and neurological recovery in patients with breast cancer presenting as spinal metastasisBreast cancer first diagnosed at the time of spinal metastasis: clinical and epidemiologic profile from a Canadian spine surgery cohortOsteoinductive response of a growth factor bioavailability–enhanced allograft–magnesium cement compositeThe association of magnetic resonance imaging–derived tissue bridge morphometrics with baseline impairment and recovery in traumatic spinal cord injury: a preplanned subanalysis of the Riluzole in SCI Study (RISCIS) randomized controlled trialRisk factors and clinical outcomes associated with delayed extubation in spine surgery: a systematic review and meta-analysisHealth care utilization and the journey of patients with traumatic spinal cord injury after hospital discharge: a retrospective evaluation of 20 years of linked health care dataLateral lumbar interbody fusion versus single-position prone transpsoas approach: a comprehensive bibliometric analysisPostoperative chyle-related complications in lumbar spine surgery: a systematic review of risk factors, management approaches, and clinical outcomesBiomechanical analysis of long-segment cervical spine stabilization: finite element analysis of pedicle, pars, translaminar, and hybrid screw fixation modelsSimulation training in spinal endoscopic surgery: a systematic review of current status and future directionsImpact of antibiotic prophylaxis duration on surgical site infection rates in patients undergoing surgery for spinal metastasesPreadmission frailty predicts in-hospital mortality following complete cervical spinal cord injuryEndoscopic decompression with percutaneous pedicle screw fixation for thoracolumbar burst fractures: systematic review and illustrative casesFrom pediatric to adult spine care: a guide for clinicians when their patient turns 18Thoracic duct injury in spine surgery: a systematic review of presentation, management, and clinical outcomesLearning from lived experience: a prospective study of patient and family insights to bridge the gaps in scoliosis transition careThe impact of tumour board on clinical decision-making for patients with metastatic spinal tumours: retrospective single-centre studyEarly identification of neurogenic bladder and bowel dysfunction after incomplete spinal cord and cauda equina injury using the ElectroSacroGram for precision rehabilitation triageDevelopment and validation of a porcine simulation model for biportal endoscopic lumbar decompression training: a prospective studyIncidence and predictors of local recurrence following surgical management of spinal metastasesOutcomes of reoperation for spinal metastases at different anatomical levels: a 10-year cohort analysis“Why’d I come?”: How often do follow-up visits lead to management changes in adolescent idiopathic scoliosis?Rate and risk of curve progression in moderate adolescent idiopathic scoliosis following skeletal maturityClinical validation of real-time topographical assessment using 3-dimensional imaging softwareComparison of biportal and uniportal endoscopic spine surgery in lumbar degenerative diseaseThe use of unilateral biportal endoscopy as an alternative to lumbar in spine fusion surgery with large cageCervical spine endoscopy and biportal approach in cervical myelopathyTorsemide enhances functional recovery after cervical spinal cord injury by modulating Na–K–2Cl cotransporter 1-mediated hyperexcitabilityRobot-assisted versus conventional vertebral augmentation procedures. Bayesian meta-analysis and trial sequential analysis of randomized controlled studiesThe patient-acceptable symptom state of the ISYQOL, BIDQS, TAASQ, and SRS-22r quality-of-life and appearance questionnaires for adolescents with idiopathic scoliosisMechanical analysis of a strut implant for operative management of burst fracturesPercutaneous cement discoplasty: an effective, safe, and feasible option for elderly patientsDevelopment and assessment of a patient decision aid for adult spinal deformity fusion surgery: using visual art to draw a better understandingPelvic incidence–lumbar lordosis mismatch correction in lumbar fusion: a systematic review and meta-analysisMinimal clinically important differences in pain and disability after cervical spine surgeryDesigning for inclusion: a qualitative study on the needs and suggestions of people living with spinal cord injury for inclusive outdoor adaptive recreation programsThree-dimensional changes following anterior vertebral body tethering: 5-year preliminary resultsFinancial impact of acellular bone graft substitutes on spinal fusion surgeries: a Monte Carlo analysisA comparison of appropriateness of lumbar spine magnetic resonance imaging before and after COVID-19: a retrospective propensity-matched cohort studyPreliminary comparative evaluation of MOBI (My Orthopedic Brace Inventory) in adolescents with idiopathic scoliosis treated with a nighttime braceAbstract ID 180Use of artificial intelligence for implant identification and classification in spine surgery: a scoping reviewQuantifying the learning curve for robotic-assisted spine surgery using the MAZOR X Stealth System: a prospective Canadian cohort studyThree-dimensional–printed patient-specific brace for adolescent idiopathic scoliosis: preliminary evaluation of feasibility, acceptability, and immediate correctionAcceptability and acceptance of a mobile health application for pediatric scoliosis monitoring among patients: a conceptual and empirical analysisChange in American Spinal Injury Association Impairment Scale score as a predictor of functional improvement during spinal cord injury rehabilitation: What could be better?Reliability and agreement in the use of a 3-dimensional imaging application assisted by artificial intelligence for home-based scoliosis monitoringA network meta-analysis of randomized controlled trials on different doses of tranexamic acid in posterior-approach lumbar fusion and instrumentationCement augmentation of pedicle screw fixation for non-osteoporotic bone: a systematic review of clinical outcomes and complicationsPredicting postoperative length of stay after single-level discectomy utilizing ordinal machine-learning modelsUse of topical tranexamic acid alone in instrumentation and posterior fusion in lumbar spine: systematic review and meta-analysis of randomized controlled trialsAnalysis of International Prostate Symptom Score as a risk factor for postoperative urinary retention in a thoracolumbar spine surgery patient populationPredictors of functional recovery following perioperative adverse events in lumbar spine surgeryHow altered thoracolumbar fascia morphology contributes to spinal stiffness: a finite-element investigationInfluence of thoracolumbar fascia anisotropy on lumbar spine stabilityDo males and females have similar patient-reported outcomes in adult spinal deformity surgery?",
+      "source": "Canadian Journal of Surgery",
+      "doi": "10.1503/cjs.017726",
+      "url": "https://doi.org/10.1503/cjs.017726",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            27
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "unverified",
+      "decision": "excluded_unverified_role",
+      "reason": "未获得足以确认磁共振核心作用的摘要。",
+      "duplicate_key": "doi:10.1503/cjs.017726"
+    },
+    {
+      "title": "Stable recovery of Kelvin–Voigt viscoelasticity from a single magnetic resonance elastography measurement",
+      "source": "Applicable Analysis",
+      "doi": "10.1080/00036811.2026.2752103",
+      "url": "https://doi.org/10.1080/00036811.2026.2752103",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            27
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "unverified",
+      "decision": "excluded_unverified_role",
+      "reason": "未获得足以确认磁共振核心作用的摘要。",
+      "duplicate_key": "doi:10.1080/00036811.2026.2752103"
+    },
+    {
+      "title": "Functional Deficits and Diffusion Tensor Magnetic Resonance Imaging of the Olfactory and Vision Systems in the Alzheimer’s Disease Model of Aging GluN3A Knockout Mice",
+      "source": "Cells",
+      "doi": "10.3390/cells15211951",
+      "url": "https://doi.org/10.3390/cells15211951",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            27
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "routine_characterization_or_out_of_scope",
+      "decision": "excluded_routine_or_out_of_scope",
+      "reason": "泛MRI、非波谱EPR缩写，或磁共振仅常规表征/背景提及，未满足三类作用门槛。",
+      "duplicate_key": "doi:10.3390/cells15211951"
+    },
+    {
+      "title": "Comprehensive Evaluation of Fontan-Associated Liver Disease: The Role of Magnetic Resonance Imaging",
+      "source": "Diagnostics",
+      "doi": "10.3390/diagnostics16213512",
+      "url": "https://doi.org/10.3390/diagnostics16213512",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            27
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "routine_characterization_or_out_of_scope",
+      "decision": "excluded_routine_or_out_of_scope",
+      "reason": "泛MRI、非波谱EPR缩写，或磁共振仅常规表征/背景提及，未满足三类作用门槛。",
+      "duplicate_key": "doi:10.3390/diagnostics16213512"
+    },
+    {
+      "title": "Deep-learning-based contrast synthesis in knee magnetic resonance imaging: performance across multiple target contrasts",
+      "source": "Magnetic Resonance Materials in Physics, Biology and Medicine",
+      "doi": "10.1007/s10334-026-01432-w",
+      "url": "https://doi.org/10.1007/s10334-026-01432-w",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            27
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "routine_characterization_or_out_of_scope",
+      "decision": "excluded_routine_or_out_of_scope",
+      "reason": "泛MRI、非波谱EPR缩写，或磁共振仅常规表征/背景提及，未满足三类作用门槛。",
+      "duplicate_key": "doi:10.1007/s10334-026-01432-w"
+    },
+    {
+      "title": "Chronological Magnetic Resonance Angiography Demonstration of Spontaneous Posterior Cerebral Artery Recanalization: Unmasking Cardioembolic Stroke and Postprandial Atrial Fibrillation Mislabeled as Dumping Syndrome",
+      "source": "Diagnostics",
+      "doi": "10.3390/diagnostics16213529",
+      "url": "https://doi.org/10.3390/diagnostics16213529",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            27
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "routine_characterization_or_out_of_scope",
+      "decision": "excluded_routine_or_out_of_scope",
+      "reason": "泛MRI、非波谱EPR缩写，或磁共振仅常规表征/背景提及，未满足三类作用门槛。",
+      "duplicate_key": "doi:10.3390/diagnostics16213529"
+    },
+    {
+      "title": "Ex-Vivo Magnetic Resonance Elastography (MRE) : Assessing Structural Heterogeneity in Meningiomas",
+      "source": "Multidisciplinary Biomechanics Journal",
+      "doi": "10.46298/mbj.19230",
+      "url": "https://doi.org/10.46298/mbj.19230",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            26
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "unverified",
+      "decision": "excluded_unverified_role",
+      "reason": "未获得足以确认磁共振核心作用的摘要。",
+      "duplicate_key": "doi:10.46298/mbj.19230"
+    },
+    {
+      "title": "Enhanced Resolution in EPR Spectroscopy: Solid\n                    para\n                    ‐Hydrogen Resolves Proton Hyperfine Splitting in the Diphenylphosphinyl Radical",
+      "source": "ChemistryEurope",
+      "doi": "10.1002/ceur.70380",
+      "url": "https://doi.org/10.1002/ceur.70380",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            25
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1002/ceur.70380"
+    },
+    {
+      "title": "Cerebral metabolite alterations and cognitive dysfunction in chronic kidney disease: a systematic review of proton magnetic resonance spectroscopy studies",
+      "source": "Egyptian Journal of Radiology and Nuclear Medicine",
+      "doi": "10.1186/s43055-026-01890-1",
+      "url": "https://doi.org/10.1186/s43055-026-01890-1",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            25
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "routine_characterization_or_out_of_scope",
+      "decision": "excluded_routine_or_out_of_scope",
+      "reason": "泛MRI、非波谱EPR缩写，或磁共振仅常规表征/背景提及，未满足三类作用门槛。",
+      "duplicate_key": "doi:10.1186/s43055-026-01890-1"
+    },
+    {
+      "title": "Type-III Porous Liquid ZIF-8/Perfluorodecalin for O2 Delivery and CO2 Removal: Stability, Sorption, and Transport Monitored by In Situ EPR Spectroscopy",
+      "source": "ACS Applied Materials &amp; Interfaces",
+      "doi": "10.1021/acsami.6c14079",
+      "url": "https://doi.org/10.1021/acsami.6c14079",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            23
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1021/acsami.6c14079"
+    },
+    {
+      "title": "Research Progress of Liposomes in the Anti-tumor Field",
+      "source": "Theoretical and Natural Science",
+      "doi": "10.54254/2753-8818/2026.hz38163",
+      "url": "https://doi.org/10.54254/2753-8818/2026.hz38163",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            27
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "routine_characterization_or_out_of_scope",
+      "decision": "excluded_routine_or_out_of_scope",
+      "reason": "泛MRI、非波谱EPR缩写，或磁共振仅常规表征/背景提及，未满足三类作用门槛。",
+      "duplicate_key": "doi:10.54254/2753-8818/2026.hz38163"
+    },
+    {
+      "title": "Radiologic mimicry: CNS lymphoma mimicking meningioma on CT and MRI",
+      "source": "Państwo i Społeczeństwo / State and Society",
+      "doi": "10.31749/2451-0858-sas-2026-111",
+      "url": "https://doi.org/10.31749/2451-0858-sas-2026-111",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            27
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "routine_characterization_or_out_of_scope",
+      "decision": "excluded_routine_or_out_of_scope",
+      "reason": "泛MRI、非波谱EPR缩写，或磁共振仅常规表征/背景提及，未满足三类作用门槛。",
+      "duplicate_key": "doi:10.31749/2451-0858-sas-2026-111"
+    },
+    {
+      "title": "Whole‐Brain 4D MRA With Improved Vessel Delineation Using Undersampled Multiple Overlapping Thin‐Slab Radial Acquisition",
+      "source": "NMR in Biomedicine",
+      "doi": "10.1002/nbm.70426",
+      "url": "https://doi.org/10.1002/nbm.70426",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            22
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "routine_characterization_or_out_of_scope",
+      "decision": "excluded_routine_or_out_of_scope",
+      "reason": "泛MRI、非波谱EPR缩写，或磁共振仅常规表征/背景提及，未满足三类作用门槛。",
+      "duplicate_key": "doi:10.1002/nbm.70426"
+    },
+    {
+      "title": "Outside Front Cover: Preserving Proton Resolution Under Cryogenic Dynamic Nuclear Polarization for Biomolecular Solid‐State NMR",
+      "source": "Angewandte Chemie",
+      "doi": "10.1002/ange.2026-m1910125400",
+      "url": "https://doi.org/10.1002/ange.2026-m1910125400",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            22
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "unverified",
+      "decision": "excluded_no_independent_research",
+      "reason": "封面或对既刊研究的评论，不构成独立技术增量。",
+      "duplicate_key": "doi:10.1002/ange.2026-m1910125400"
+    },
+    {
+      "title": "Reducing NMR shielding uncertainty to the QED scale: Nuclear magnetic dipole moments of\n                    \n                      \n                        \n                        203\n                      \n                    \n                    Tl and\n                    \n                      \n                        \n                        205\n                      \n                    \n                    Tl from hydrated Tl\n                    \n                      \n                        \n                        +\n                      \n                    ",
+      "source": "Physical Review A",
+      "doi": "10.1103/bnts-69js",
+      "url": "https://doi.org/10.1103/bnts-69js",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            22
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1103/bnts-69js"
+    },
+    {
+      "title": "Quantitative Chemical Exchange Saturation Transfer Imaging With Golden‐Angle Radial k‐Space Sampling and Locally Low‐Rank Reconstruction",
+      "source": "NMR in Biomedicine",
+      "doi": "10.1002/nbm.70428",
+      "url": "https://doi.org/10.1002/nbm.70428",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            21
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "routine_characterization_or_out_of_scope",
+      "decision": "excluded_routine_or_out_of_scope",
+      "reason": "泛MRI、非波谱EPR缩写，或磁共振仅常规表征/背景提及，未满足三类作用门槛。",
+      "duplicate_key": "doi:10.1002/nbm.70428"
+    },
+    {
+      "title": "PRISM, a Bidirectional NMR Foundation Model: From Peak List to Structure and Back",
+      "source": "Angewandte Chemie International Edition",
+      "doi": "10.1002/anie.7185622",
+      "url": "https://doi.org/10.1002/anie.7185622",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            21
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1002/anie.7185622"
+    },
+    {
+      "title": "Outside Front Cover: Preserving Proton Resolution Under Cryogenic Dynamic Nuclear Polarization for Biomolecular Solid‐State NMR",
+      "source": "Angewandte Chemie International Edition",
+      "doi": "10.1002/anie.2026-m1910125400",
+      "url": "https://doi.org/10.1002/anie.2026-m1910125400",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            21
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "unverified",
+      "decision": "excluded_no_independent_research",
+      "reason": "封面或对既刊研究的评论，不构成独立技术增量。",
+      "duplicate_key": "doi:10.1002/anie.2026-m1910125400"
+    },
+    {
+      "title": "Assessment of short- and long-term biological variation for 39 serum metabolites using an NMR-based metabolomics approach",
+      "source": "Clinical Chemistry and Laboratory Medicine (CCLM)",
+      "doi": "10.1515/cclm-2026-1138",
+      "url": "https://doi.org/10.1515/cclm-2026-1138",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            21
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1515/cclm-2026-1138"
+    },
+    {
+      "title": "Temperature-induced Rb-Xe coupling error modeling and analysis in NMR sensors",
+      "source": "Measurement Science and Technology",
+      "doi": "10.1088/1361-6501/aeb718",
+      "url": "https://doi.org/10.1088/1361-6501/aeb718",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            21
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1088/1361-6501/aeb718"
+    },
+    {
+      "title": "PRISM, a Bidirectional NMR Foundation Model: From Peak List to Structure and Back",
+      "source": "Angewandte Chemie",
+      "doi": "10.1002/ange.7185622",
+      "url": "https://doi.org/10.1002/ange.7185622",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            21
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1002/ange.7185622"
+    },
+    {
+      "title": "Resolving GPCR Activation and Signaling Dynamics by Solution NMR Spectroscopy",
+      "source": "Health and Metabolism",
+      "doi": "10.53941/hm.2026.100024",
+      "url": "https://doi.org/10.53941/hm.2026.100024",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            21
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.53941/hm.2026.100024"
+    },
+    {
+      "title": "Moisture–dependent evolution of NMR–derived pore structure in saline and non–saline soils during freeze–thaw cycles",
+      "source": "Environmental Earth Sciences",
+      "doi": "10.1007/s12665-026-13095-w",
+      "url": "https://doi.org/10.1007/s12665-026-13095-w",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            21
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1007/s12665-026-13095-w"
+    },
+    {
+      "title": "Manipulation of the Nanoarchitecture of Porous Media Determines Water Mobility: NMR Experiments using Metal–Organic Framework (MOF)-Functionalized Track-Etched Solid-State Nanochannels (SSNs)",
+      "source": "ACS Applied Materials &amp; Interfaces",
+      "doi": "10.1021/acsami.6c16040",
+      "url": "https://doi.org/10.1021/acsami.6c16040",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            21
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1021/acsami.6c16040"
+    },
+    {
+      "title": "An Interpretable Ensemble-Learning Framework for Decoding Multi-Component–Multi-Bioactivity Relationships in Salvia miltiorrhiza Based on 1H NMR Metabolomics and Lifecycle-Oriented Bioassays",
+      "source": "Metabolites",
+      "doi": "10.3390/metabo16100798",
+      "url": "https://doi.org/10.3390/metabo16100798",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            21
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.3390/metabo16100798"
+    },
+    {
+      "title": "NMR‐Based Structural Elucidation of a New Dihydroisocoumarin and Related Polyketides From a Mangrove‐Derived\n                    \n                      Fusarium\n                    \n                    sp.",
+      "source": "Magnetic Resonance in Chemistry",
+      "doi": "10.1002/mrc.70146",
+      "url": "https://doi.org/10.1002/mrc.70146",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            21
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1002/mrc.70146"
+    },
+    {
+      "title": "Impact of Stress Conditions on Hesperetin Stability: Isolation and Structural Characterization of Major Degradation Products Using Dual‐Mode Prep‐LC‐PDA/MS, LC‐MS/MS, 1D/2D NMR, In Vitro Cytotoxicity and Greenness Assessment",
+      "source": "SEPARATION SCIENCE PLUS",
+      "doi": "10.1002/sscp.70310",
+      "url": "https://doi.org/10.1002/sscp.70310",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            22
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1002/sscp.70310"
+    },
+    {
+      "title": "Identifying Drug‐Induced Metabolic Signatures in Comparative Untargeted NMR Metabolomics Using Difference Spectra",
+      "source": "Bioinorganic Chemistry and Applications",
+      "doi": "10.1155/bca/9636071",
+      "url": "https://doi.org/10.1155/bca/9636071",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            23
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1155/bca/9636071"
+    },
+    {
+      "title": "Quantitative Analysis of Boron Trichloride Using\n                    11\n                    B Quantitative Nuclear Magnetic Resonance Spectroscopy (qNMR)",
+      "source": "Journal of Analytical Methods in Chemistry",
+      "doi": "10.1155/jamc/4351793",
+      "url": "https://doi.org/10.1155/jamc/4351793",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            25
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1155/jamc/4351793"
+    },
+    {
+      "title": "Achieving Three-Dimensional Resolution in One-Dimensional Time: Multiplex 19F Chemical Shift Encoding for Profiling Amines in Complex Mixtures",
+      "source": "Analytical Chemistry",
+      "doi": "10.1021/acs.analchem.6c05927",
+      "url": "https://doi.org/10.1021/acs.analchem.6c05927",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            24
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1021/acs.analchem.6c05927"
+    },
+    {
+      "title": "Biphasic Polyarylisocyanide\nLiquid Crystals with Enhanced\nEnantiodiscrimination for Residual Chemical Shift Anisotropy Measurements",
+      "source": "Journal of the American\nChemical Society",
+      "doi": "10.1021/jacs.6c14664",
+      "url": "https://doi.org/10.1021/jacs.6c14664",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            23
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1021/jacs.6c14664"
+    },
+    {
+      "title": "Unilateral deposition of paramagnetic substances in basal ganglia as early sign of neurodegeneration in magnetic resonance imaging",
+      "source": "Frontiers in Neurology",
+      "doi": "10.3389/fneur.2026.1917665",
+      "url": "https://doi.org/10.3389/fneur.2026.1917665",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            26
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "routine_characterization_or_out_of_scope",
+      "decision": "excluded_routine_or_out_of_scope",
+      "reason": "泛MRI、非波谱EPR缩写，或磁共振仅常规表征/背景提及，未满足三类作用门槛。",
+      "duplicate_key": "doi:10.3389/fneur.2026.1917665"
+    },
+    {
+      "title": "Bell and EPR experiments with signalling data",
+      "source": "Quantum Science and Technology",
+      "doi": "10.1088/2058-9565/aeb975",
+      "url": "https://doi.org/10.1088/2058-9565/aeb975",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            26
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "routine_characterization_or_out_of_scope",
+      "decision": "excluded_routine_or_out_of_scope",
+      "reason": "泛MRI、非波谱EPR缩写，或磁共振仅常规表征/背景提及，未满足三类作用门槛。",
+      "duplicate_key": "doi:10.1088/2058-9565/aeb975"
+    },
+    {
+      "title": "Exploring the Case of Exchange Narrowing Absence in EPR Spectrum",
+      "source": "Applied Magnetic Resonance",
+      "doi": "10.1007/s00723-026-01882-4",
+      "url": "https://doi.org/10.1007/s00723-026-01882-4",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            26
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1007/s00723-026-01882-4"
+    },
+    {
+      "title": "Influence of x-ray beam quality on retrospective bone dose estimation in a murine model: experimental investigation of EPR signal kinetics and computational modeling",
+      "source": "Physics in Medicine &amp; Biology",
+      "doi": "10.1088/1361-6560/aeb791",
+      "url": "https://doi.org/10.1088/1361-6560/aeb791",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            21
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1088/1361-6560/aeb791"
+    },
+    {
+      "title": "Cerebral Safety of Two Pulsed Field Ablation Workflows for Pulmonary Vein Isolation: Results From the Randomized TWOSOME MRI Study",
+      "source": "Journal of Cardiovascular Electrophysiology",
+      "doi": "10.1111/jce.70544",
+      "url": "https://doi.org/10.1111/jce.70544",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            25
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "routine_characterization_or_out_of_scope",
+      "decision": "excluded_routine_or_out_of_scope",
+      "reason": "泛MRI、非波谱EPR缩写，或磁共振仅常规表征/背景提及，未满足三类作用门槛。",
+      "duplicate_key": "doi:10.1111/jce.70544"
+    },
+    {
+      "title": "Pulsed radiofrequency neuromodulation of subchondral bone in knee osteoarthritis",
+      "source": "Frontiers in Pain Research",
+      "doi": "10.3389/fpain.2026.1968444",
+      "url": "https://doi.org/10.3389/fpain.2026.1968444",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            21
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "routine_characterization_or_out_of_scope",
+      "decision": "excluded_routine_or_out_of_scope",
+      "reason": "泛MRI、非波谱EPR缩写，或磁共振仅常规表征/背景提及，未满足三类作用门槛。",
+      "duplicate_key": "doi:10.3389/fpain.2026.1968444"
+    },
+    {
+      "title": "Cardiac magnetic resonance for assessment of pulsed field ablation-induced ventricular septal lesions: correlation with pathology and functional outcomes in a porcine model",
+      "source": "European Heart Journal",
+      "doi": "10.1093/eurheartj/ehag785.698",
+      "url": "https://doi.org/10.1093/eurheartj/ehag785.698",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            26
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "routine_characterization_or_out_of_scope",
+      "decision": "excluded_routine_or_out_of_scope",
+      "reason": "泛MRI、非波谱EPR缩写，或磁共振仅常规表征/背景提及，未满足三类作用门槛。",
+      "duplicate_key": "doi:10.1093/eurheartj/ehag785.698"
+    },
+    {
+      "title": "In Situ and Operando Spectroscopy for CO\n                    2\n                    Capture and Utilization Technologies",
+      "source": "Chemistry – A European Journal",
+      "doi": "10.1002/chem.71803",
+      "url": "https://doi.org/10.1002/chem.71803",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            22
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "routine_characterization_or_out_of_scope",
+      "decision": "excluded_routine_or_out_of_scope",
+      "reason": "泛MRI、非波谱EPR缩写，或磁共振仅常规表征/背景提及，未满足三类作用门槛。",
+      "duplicate_key": "doi:10.1002/chem.71803"
+    },
+    {
+      "title": "Evolving role of cardiac magnetic resonance in cardiac amyloidosis",
+      "source": "World Journal of Cardiology",
+      "doi": "10.4330/wjc.125443",
+      "url": "https://doi.org/10.4330/wjc.125443",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            26
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "routine_characterization_or_out_of_scope",
+      "decision": "excluded_routine_or_out_of_scope",
+      "reason": "泛MRI、非波谱EPR缩写，或磁共振仅常规表征/背景提及，未满足三类作用门槛。",
+      "duplicate_key": "doi:10.4330/wjc.125443"
+    },
+    {
+      "title": "A systematic review of the spectrum of magnetic resonance imaging features of degenerative thoracic myelopathy",
+      "source": "Neurosurgical Review",
+      "doi": "10.1007/s10143-026-04535-z",
+      "url": "https://doi.org/10.1007/s10143-026-04535-z",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            26
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "routine_characterization_or_out_of_scope",
+      "decision": "excluded_routine_or_out_of_scope",
+      "reason": "泛MRI、非波谱EPR缩写，或磁共振仅常规表征/背景提及，未满足三类作用门槛。",
+      "duplicate_key": "doi:10.1007/s10143-026-04535-z"
+    },
+    {
+      "title": "Nuclear magnetic resonance on a single atom with a local probe",
+      "source": "Nature Communications",
+      "doi": "10.1038/s41467-026-78801-5",
+      "url": "https://doi.org/10.1038/s41467-026-78801-5",
+      "publication_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            24
+          ]
+        ]
+      },
+      "publication_status": "unknown",
+      "mr_role": "not_reassessed_duplicate",
+      "decision": "excluded_duplicate",
+      "reason": "全历史已收录DOI或同一工作的德文/国际版本。",
+      "duplicate_key": "doi:10.1038/s41467-026-78801-5"
+    },
+    {
+      "doi": "10.1039/d6cp03264h",
+      "url": "https://doi.org/10.1039/d6cp03264h",
+      "decision": "excluded_date_unverified_or_outside_window",
+      "publication_status": "unknown",
+      "mr_role": "method_core_or_key_evidence",
+      "reason": "PubMed Electronic日期10月27日与已于10月14日转载的实际在线工作冲突；Crossref仅年份，无法确认窗内首次在线，不按新索引日期收录。",
+      "duplicate_key": "doi:10.1039/d6cp03264h"
+    },
+    {
+      "doi": "10.1039/d6cc03248f",
+      "url": "https://doi.org/10.1039/d6cc03248f",
+      "decision": "excluded_date_unverified_or_outside_window",
+      "publication_status": "unknown",
+      "mr_role": "method_core_or_key_evidence",
+      "reason": "PubMed已于10月2日入库，10月27日Electronic日期不能当作新的首次出版，排除跨期更新。",
+      "duplicate_key": "doi:10.1039/d6cc03248f"
+    },
+    {
+      "doi": "10.1039/d6cp02967a",
+      "url": "https://doi.org/10.1039/d6cp02967a",
+      "decision": "excluded_date_unverified_or_outside_window",
+      "publication_status": "unknown",
+      "mr_role": "method_core_or_key_evidence",
+      "reason": "PubMed9月17日已入库；10月21日Electronic不能覆盖原在线日期。",
+      "duplicate_key": "doi:10.1039/d6cp02967a"
+    },
+    {
+      "doi": "10.1039/d6dt02307j",
+      "url": "https://doi.org/10.1039/d6dt02307j",
+      "decision": "excluded_date_unverified_or_outside_window",
+      "publication_status": "unknown",
+      "mr_role": "method_core_or_key_evidence",
+      "reason": "PubMed10月27日Electronic；Crossref online仅年份，未独立核实实际首次在线日，不以题录更新推定新增。",
+      "duplicate_key": "doi:10.1039/d6dt02307j"
+    },
+    {
+      "title": "国仪量子分子手性研讨会报道",
+      "url": "https://www.ciqtek.com/news/news.html?id=9022dc86-d57d-4ff8-8552-751ef5a9c187",
+      "publication_date": "2026-10-22",
+      "decision": "excluded_outside_window_or_no_increment",
+      "reason": "活动10月12—15日，后续报道无独立新增技术数据。",
+      "duplicate_key": "url:https://www.ciqtek.com/news/news.html?id=9022dc86-d57d-4ff8-8552-751ef5a9c187"
+    },
+    {
+      "title": "Bruker北美用户会",
+      "url": "https://www.bruker.com/ru/news-and-events/events/us-um.html",
+      "publication_date": "2026-10-27",
+      "decision": "excluded_duplicate",
+      "reason": "相同页面已有历史技术议程条目；不以芝加哥会期重新收录TopSpin、DNP等既刊议程。",
+      "duplicate_key": "url:https://www.bruker.com/ru/news-and-events/events/us-um.html"
+    },
+    {
+      "title": "SwedNMR dissolution DNP workshop",
+      "url": "https://www.gu.se/en/event/swednmr-workshop-dissolution-dnp-nmr",
+      "publication_date": "2026-10-06",
+      "decision": "excluded_outside_window_or_no_increment",
+      "reason": "实际活动10月6—7日，官网更新8月31日，超窗。",
+      "duplicate_key": "url:https://www.gu.se/en/event/swednmr-workshop-dissolution-dnp-nmr"
+    },
+    {
+      "item_id": "SF-20261028-09",
+      "title": "Annealing-atmosphere control of paramagnetic defects in ZnO microparticles",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2610.33870v1",
+      "doi": "",
+      "publication_date": "2026-10-24",
+      "official_timestamp": "2026-10-24T19:24:04Z",
+      "publication_status": "preprint",
+      "mr_role": "key_evidence",
+      "role_evidence": "Savchenko 等以5—297 K温变EPR及谱模拟比较氮气与空气退火的ZnO微粒。不同气氛形成不同缺陷组合：浅施主与氢相关信号在约50 K以下迅速淬灭，氧空位相关信号则延续至室温并随温度升高增强；谐振腔Q值总体随升温降低。该结果目前为预印本。",
+      "evidence_location": "arXiv abstract page and official Atom feed: authors, published, summary",
+      "author_verification": {
+        "first_author": "D. Savchenko",
+        "surname": "Savchenko",
+        "source": "https://export.arxiv.org/api/query?id_list=2610.33870",
+        "status": "verified"
+      },
+      "source_review": "passed_official_page_and_feed",
+      "date_review": "passed_initial_v1_submission_timestamp;7d_extension",
+      "scientific_review": "passed_abstract_only;assignment_model_dependent_and_Q_not_ignored",
+      "duplicate_review": "No full-history normalized title, canonical arXiv ID or same-work DOI match; no journal DOI provided by feed",
+      "duplicate_key": "arxiv:2610.33870",
+      "decision": "selected",
+      "tags": {
+        "direction_ids": [
+          "epr"
+        ],
+        "experiment_type_ids": [],
+        "method_ids": [
+          "defect_epr"
+        ],
+        "application_ids": [
+          "materials"
+        ],
+        "instrument_component_ids": []
+      },
+      "tag_reasons": {
+        "epr": "温变电子顺磁共振",
+        "defect_epr": "ZnO缺陷归属及信号温变为主结论",
+        "materials": "ZnO半导体微粒退火"
+      },
+      "tag_review_status": "approved",
+      "review_status": "unreviewed"
+    },
+    {
+      "title": "Unconstrained learning of equivariant atomistic properties",
+      "url": "https://arxiv.org/abs/2610.31183v1",
+      "publication_status": "preprint",
+      "mr_role": "unverified",
+      "decision": "excluded_unverified_specific_mr_role",
+      "reason": "包含NMR屏蔽张量预测，但可读摘要缺少独立NMR基准细节；未优先于已核实的专门波谱方法条目。",
+      "duplicate_key": "url:https://arxiv.org/abs/2610.31183v1"
+    },
+    {
+      "title": "Fast2Peak",
+      "url": "https://arxiv.org/abs/2610.29753v1",
+      "publication_status": "preprint",
+      "mr_role": "unverified",
+      "decision": "excluded_unverified_specific_mr_role",
+      "reason": "主验证为SERS与拉曼；NMR仅列跨模态泛化，摘要不足以确认NMR具体实验效果。",
+      "duplicate_key": "url:https://arxiv.org/abs/2610.29753v1"
+    },
+    {
+      "title": "NMR‐Based Structural Elucidation of a New Dihydroisocoumarin and Related Polyketides From a Mangrove‐Derived\n                    \n                      Fusarium\n                    \n                    sp.",
+      "doi": "10.1002/mrc.70146",
+      "url": "https://doi.org/10.1002/mrc.70146",
+      "publication_date": "2026-10-21",
+      "publication_status": "early_access",
+      "mr_role": "key_evidence",
+      "decision": "qualified_not_selected_capacity",
+      "reason": "明确1D/2D NMR与HRMS解析新天然产物，满足结构证据门槛；本期9条其他资讯优先方法和缺陷EPR，未低相关性补数。",
+      "duplicate_key": "doi:10.1002/mrc.70146"
+    }
+  ],
+  "dedup": {
+    "history_issues": 69,
+    "history_items": 591,
+    "prior_review_files": 22,
+    "recent_issue_dates": [
+      "2026-10-21",
+      "2026-10-22",
+      "2026-10-23",
+      "2026-10-24",
+      "2026-10-25",
+      "2026-10-26",
+      "2026-10-27"
+    ],
+    "index_head": "10b040cc23aba9cd1f76bdd933f3dad9e88e1279",
+    "keys": [
+      "normalized DOI",
+      "canonical URL including alternatives and fragment publish ID",
+      "normalized title plus author for cross-versions",
+      "procurement project stage date;prior selected versus excluded"
+    ],
+    "content_duplicates": 36,
+    "procurement_duplicates": 7,
+    "date_unverified_or_outside_count": 4,
+    "selected_collisions": 0
+  },
+  "procurement": {
+    "registered_candidates": 16,
+    "qualified_announcements": 5,
+    "excluded_announcements": 11,
+    "daily_item_count": 10,
+    "combined_item_count": 1,
+    "combined_item_id": "SF-20261028-10",
+    "announcements": [
+      {
+        "title": "中国科学院过程工程研究所多频率电子顺磁共振波谱仪采购项目更正公告",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/gzgg/202610/t20261021_27532021.htm",
+        "publication_date": "2026-10-21",
+        "decision": "excluded_duplicate",
+        "duplicate_key": "https://www.ccgp.gov.cn/cggg/zygg/gzgg/202610/t20261021_27532021.htm",
+        "reason": "历史已刊同一公告；无新阶段。",
+        "candidate_id": "P01"
+      },
+      {
+        "title": "中国科学院兰州化学物理研究所600MHz超导核磁共振波谱仪采购项目终止公告",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/fblbgg/202610/t20261022_27541930.htm",
+        "publication_date": "2026-10-22",
+        "decision": "excluded_duplicate",
+        "duplicate_key": "https://www.ccgp.gov.cn/cggg/zygg/fblbgg/202610/t20261022_27541930.htm",
+        "reason": "历史已刊同一公告；无新阶段。",
+        "candidate_id": "P02"
+      },
+      {
+        "title": "核磁共振在线测试设备升级改造采购项目采购公告",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/qtgg/202610/t20261023_27555666.htm",
+        "publication_date": "2026-10-23",
+        "decision": "excluded_duplicate",
+        "duplicate_key": "https://www.ccgp.gov.cn/cggg/zygg/qtgg/202610/t20261023_27555666.htm",
+        "reason": "历史已刊同一公告；无新阶段。",
+        "candidate_id": "P03"
+      },
+      {
+        "title": "镇巴县人民医院1.5T核磁共振维保服务项目(二次)中标结果公告",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202610/t20261027_27572433.htm",
+        "publication_date": "2026-10-27",
+        "decision": "excluded_medical_mri",
+        "reason": "医院1.5T MRI维保或CT/MRI维保，不属于NMR/EPR波谱。",
+        "candidate_id": "P04"
+      },
+      {
+        "title": "绵阳市中医医院GECT和核磁维保采购项目采购更正公告（第二次）",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/gzgg/202610/t20261027_27570940.htm",
+        "publication_date": "2026-10-27",
+        "decision": "excluded_medical_mri",
+        "reason": "医院1.5T MRI维保或CT/MRI维保，不属于NMR/EPR波谱。",
+        "candidate_id": "P05"
+      },
+      {
+        "title": "OITC-G260321059",
+        "buyer": "科学智能物质创制中心",
+        "url": "https://www.oitccas.com/pages/tender_online_info.html?FormNo=ZBLX26100414",
+        "publication_date": "2026-10-26",
+        "decision": "excluded_duplicate",
+        "reason": "全历史及已选Review核查，原公告/该阶段已发布；本轮列表及公开关联接口未显示新的独立阶段。",
+        "candidate_id": "P06"
+      },
+      {
+        "title": "OITC-G260882852",
+        "buyer": "中国科学院兰州化学物理研究所",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261022_27544896.htm",
+        "publication_date": "2026-10-22",
+        "decision": "excluded_duplicate",
+        "reason": "全历史及已选Review核查，原公告/该阶段已发布；本轮列表及公开关联接口未显示新的独立阶段。",
+        "candidate_id": "P07"
+      },
+      {
+        "title": "EPR谐振器延期",
+        "buyer": "西湖大学",
+        "url": "https://provider.yuncaitong.cn/api/publish/solr/relative/?projectId=20MVEIIW118TTQQ1",
+        "publication_date": "2026-10-22",
+        "decision": "excluded_duplicate",
+        "reason": "全历史及已选Review核查，原公告/该阶段已发布；本轮列表及公开关联接口未显示新的独立阶段。",
+        "candidate_id": "P08"
+      },
+      {
+        "title": "原位光照系统延期",
+        "buyer": "西湖大学",
+        "url": "https://provider.yuncaitong.cn/api/publish/solr/relative/?projectId=20MVEIDQ2EQAJQNG",
+        "publication_date": "2026-10-22",
+        "decision": "excluded_duplicate",
+        "reason": "全历史及已选Review核查，原公告/该阶段已发布；本轮列表及公开关联接口未显示新的独立阶段。",
+        "candidate_id": "P09"
+      },
+      {
+        "title": "Service Contract for the operation of the NMR instrument — payment publication",
+        "buyer": "未从可读支付记录确认",
+        "publication_date": "2026-10-27",
+        "url": "https://payments-transparency-register.supplier-information.find-tender.service.gov.uk/Home/Details/77bbe755-1e7e-4008-9572-1a594bfccde7?returnUrl=%2F",
+        "decision": "excluded_no_new_procurement_stage",
+        "reason": "7月30日付款的10月27日公开记录，非本期新合同或采购阶段公告；不将付款公开当新授标。",
+        "candidate_id": "P10"
+      },
+      {
+        "title": "杭州医学院教学仪器原招标",
+        "buyer": "杭州医学院",
+        "publication_date": "2026-09-30",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202609/t20260930_27428181.htm",
+        "decision": "excluded_outside_window",
+        "reason": "原招标9月30日；用于核对原预算，不按10月21日投标截止或附件修订文件名当作新公告。",
+        "candidate_id": "P11"
+      },
+      {
+        "title": "杭州医学院核磁共振实验装置等教学仪器成交公告",
+        "buyer": "杭州医学院",
+        "project_id": "330000263030370000380-HMC20260917102",
+        "publication_date": "2026-10-26",
+        "official_timestamp": "2026-10-26T17:26:00+08:00",
+        "stage": "中标成交",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202610/t20261027_27567358.htm",
+        "verification_url": "https://czptmh.hmc.edu.cn/pbAnnouncements.jsf?purchaseAnnouncementType=BIDDING_TRANSACTION",
+        "secondary_publication_date": "2026-10-27",
+        "budget_cny": 278000,
+        "award_package_cny": 275080,
+        "nmr_unit_price_cny": 13000,
+        "nmr_quantity": 8,
+        "configuration": "忆玺智科YMP-6105教学NMR装置；厂商原理说明为氢/氟核扫场共振实验，非医学MRI。",
+        "decision": "selected",
+        "reason": "官方校方列表日期与CCGP成交全文交叉核实；原始日10月26日，CCGP10月27日转载不重复计。标项预算与仪器单价不混同。",
+        "duplicate_key": "HMC20260917102|中标成交|2026-10-26",
+        "relevance_verification": "https://yixist.cn/YMP-6105.html",
+        "candidate_id": "P12"
+      },
+      {
+        "title": "核磁共振仪匀场线圈采购公告",
+        "buyer": "南开大学",
+        "project_id": "JJ2026003196",
+        "publication_date": "2026-10-23",
+        "official_timestamp": "2026-10-23T17:54:19+08:00",
+        "deadline": "2026-10-26T18:00:00+08:00",
+        "stage": "网上竞价采购（已截止）",
+        "url": "https://zhgl.nankai.edu.cn/provider/#/publish/20MVKSN502O97WJ0",
+        "verification_url": "https://provider.yuncaitong.cn/publish/2026/10/23/20MVKSN502O97WJ0.sson",
+        "configuration": "1个布鲁克Z49734.1；400MHz/9.4T液体NMR室温匀场线圈、5mm标准管、36通道。",
+        "decision": "selected",
+        "reason": "官方主页及公开阶段接口/公告JSON核实原发布、截止及参数；全历史无该公告。budgetOpen=false，预算未知不补写。",
+        "duplicate_key": "JJ2026003196|采购|2026-10-23",
+        "candidate_id": "P13"
+      },
+      {
+        "title": "核磁共振仪匀场线圈成交结果公告",
+        "buyer": "南开大学",
+        "project_id": "JJ2026003196",
+        "publication_date": "2026-10-27",
+        "official_timestamp": "2026-10-27T14:30:24+08:00",
+        "stage": "成交结果",
+        "url": "https://zhgl.nankai.edu.cn/provider/#/publish/20MVQB3LW99KHCC2",
+        "verification_url": "https://provider.yuncaitong.cn/publish/2026/10/27/20MVQB3LW99KHCC2.sson",
+        "award_cny": 29000,
+        "decision": "selected",
+        "reason": "公开JSON的publish.timeBegin及enquiry.win.price核实。与原采购不同阶段，独立计公告；供应商未公开，不补写。",
+        "duplicate_key": "JJ2026003196|成交|2026-10-27",
+        "candidate_id": "P14"
+      },
+      {
+        "title": "University of South Carolina — Bruker NMR sole-source intent",
+        "buyer": "University of South Carolina",
+        "publication_date": "2026-10-21",
+        "stage": "拟单一来源采购公示",
+        "url": "https://scbo.sc.gov/printad?a=69681",
+        "proposed_contract_usd": 2908594.26,
+        "configuration": "600MHz和500MHz NMR、磁体、控制台、TCI Prodigy低温探头、固体探头、400MHz磁体及软件服务。",
+        "decision": "selected",
+        "reason": "州采购官网原文与独立Print Ad确认发布日/拟合同金额及配置；无精确发布时间，7d_extension；非已授标。",
+        "duplicate_key": "SCBO69681|单一来源意向|2026-10-21",
+        "candidate_id": "P15",
+        "notice_end_date": "2026-11-03"
+      },
+      {
+        "title": "Preventative Maintenance of Bruker Equipment",
+        "buyer": "Defense Health Agency (DHA)",
+        "project_id": "HT942627RE004",
+        "publication_date": "2026-10-21",
+        "official_timestamp": "2026-10-21T15:59:00-04:00",
+        "stage": "Sources Sought需求征集",
+        "url": "https://sam.gov/workspace/contract/opp/a6bff20dda6148bc8881e9f3bbe2811e/view",
+        "deadline": "2026-11-05T11:00:00-05:00",
+        "configuration": "Bruker设备维护需求，官方公开附件明确含USAMRICD NMR工作说明。",
+        "decision": "selected",
+        "reason": "SAM官方题录确认Sources Sought、发布日期、响应时刻和NMR PWS附件标题；不采用聚合页AI摘要中的具体型号、服务周期或地点。未公开预算不补写，不表述成已招标。",
+        "duplicate_key": "HT942627RE004|SourcesSought|2026-10-21",
+        "candidate_id": "P16"
+      }
+    ],
+    "counting_note": "4projects,5notices: Nankai procurement and award are distinct verified stages. HMC campus Oct26 and CCGP Oct27 are one notice. Registered candidates are not all search hits.",
+    "tag_reasons": {
+      "nmr": "全部公告明确NMR仪器、匀场或维护",
+      "instrumentation": "设备及服务采购",
+      "magnet": "SC原文包括600/500/400MHz磁体",
+      "probe": "SC原文TCI Prodigy及固体探头",
+      "console": "SC原文NEO-X控制台",
+      "software": "SC原文TopSpin5和ParaVision360软件"
+    }
+  },
+  "editorial_review": {
+    "source_review": "passed all selected publisher-deposited abstracts/primary preview and official procurement metadata/bodies; per-route access limits retained",
+    "date_review": "actual online dates; HMC original26 versus CCGP27 recorded; all7d_extension",
+    "scientific_review": "claims limited to abstracts; low-temperature photolysis not room-temperature mechanism; Co substitution caveat; modeled water diffusion not direct universal value; LLM one-dataset not universal ranking; HPLC quantitation not attributed to NMR; no inferred spin trapping or operando label; ZnO preprint limitations and cavity-Q caveat retained",
+    "author_subjects": "8journal first-author surnames verified with Crossref; Jang publisher page read; Savchenko verified with arXiv official feed and abstract page",
+    "tag_review_status": "approved",
+    "review_status": "unreviewed",
+    "pending_taxonomy": [],
+    "textbook_access": "none;no textbook-derived claims"
+  },
+  "verification": {
+    "local_tests": {
+      "build_check": "passed70issues/601items",
+      "build": "passed70issues",
+      "search": "passed existing search/filter suite",
+      "procurement": "passed6tests",
+      "build_output": "passed1test fresh/repeated build",
+      "canonical_consistency": "passed10articles all fields/order/sources; procurement last; no image fields or downloads outputs",
+      "history_collision_check": "passed591items normalized DOI/canonical URL/normalized title collisions0"
+    },
+    "commit": "not submitted yet",
+    "actions": "not checked yet",
+    "pages": "not checked yet",
+    "public_http_content": "not checked yet",
+    "note": "Post-commit results will be reported only after actual checks; no future deployment success asserted in this pre-commit log."
+  }
+}

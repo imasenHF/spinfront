@@ -1,0 +1,410 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-10-29",
+  "scope_note": "检索截至2026-10-29 06:09:50（Asia/Shanghai）；优先过去24小时并回扫10月22—28日。期刊仅有日期，严格24小时可确认内容不足5条，已启动增强搜索，覆盖专业及高影响期刊、预印本/数据库与机构、厂商软件、会议培训、采购五路线及九个方法主题簇。增强后10条，未触发少于8条的深度增强条件。全库70期601条、最近7期及23份Review查重，内容候选排除重复31项、采购重复7份；日期不明单独排除0项。最终9篇学术条目（含2篇综述）及1条采购汇总，合格采购公告1份；登记采购候选14份、排除13份。全部按日期精度标近7天扩展。部分出版商、政府列表及动态页面读取失败，已补查官方列表、公开接口和索引；不宣称完整穷尽。未读取私人教材，待复核标签无。",
+  "items": [
+    {
+      "item_id": "SF-20261029-01",
+      "item_no": 1,
+      "report_date": "2026-10-29",
+      "title_cn": "单分子ODMR连接卡宾自旋与光子界面",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "odmr"
+      ],
+      "application_ids": [
+        "quantum_spin"
+      ],
+      "sample_systems": [
+        "匹配主体晶体中的三重态基态卡宾分子"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Roggors 等将三重态基态卡宾嵌入结构匹配的主体晶体，实现单分子光学寻址与ODMR。体系具有窄零声子线、超过一小时的光谱稳定性及自旋选择光学跃迁；在4.5 K下，相干控制获得毫秒量级动态解耦相干时间和数十毫秒自旋弛豫时间。",
+      "meaning_cn": "单分子层面的光学读出与相干控制同时出现，为化学可设计的自旋—光子界面提供实验基础。所报性能依赖低温和主体晶体环境；动态解耦后的相干时间不等同于自由演化相干时间，也不能直接外推至室温或溶液中的分子。",
+      "publication_date": "2026-10-28",
+      "time_scope": "7d_extension",
+      "source": "Nature",
+      "url": "https://doi.org/10.1038/s41586-026-11147-6",
+      "doi": "10.1038/s41586-026-11147-6",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1038/s41586-026-11147-6"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-29",
+      "last_updated": "2026-10-29",
+      "report_file": "SpinFront_2026-10-29.html"
+    },
+    {
+      "item_id": "SF-20261029-02",
+      "item_no": 2,
+      "report_date": "2026-10-29",
+      "title_cn": "260 GHz脉冲EPR测量光激发并五苯的高场自旋动力学",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "time_resolved_epr"
+      ],
+      "application_ids": [
+        "quantum_spin"
+      ],
+      "sample_systems": [
+        "约9.2 T下光激发并五苯三重态"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Zhang 等以260 GHz、约9.2 T时间分辨脉冲EPR同步光激发，测定并五苯三重态的亚能级布居、衰减、自旋弛豫及g张量。主要|Tₓ⟩布居为0.86±0.05；团队进一步结合两种晶体学不等价位点的共振及取向相关衰减，提出矢量直流磁场感知方案。",
+      "meaning_cn": "高场下保留的非Boltzmann布居为三重态DNP及自旋传感提供具体动力学约束。矢量感知同时利用位点共振和取向依赖，不能由单个共振峰直接推出完整场方向；本研究测量的是电子自旋性质，不能把布居数值改写成核极化率。",
+      "publication_date": "2026-10-28",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Physical Chemistry Letters",
+      "url": "https://doi.org/10.1021/acs.jpclett.6c03130",
+      "doi": "10.1021/acs.jpclett.6c03130",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1021/acs.jpclett.6c03130"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-29",
+      "last_updated": "2026-10-29",
+      "report_file": "SpinFront_2026-10-29.html"
+    },
+    {
+      "item_id": "SF-20261029-03",
+      "item_no": 3,
+      "report_date": "2026-10-29",
+      "title_cn": "快速非绝热关场NMR探针测量未知低磁场",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "sample_systems": [
+        "1—45 mT范围的模块化NMR场探针"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Povolni 等开发NMR场探针，以高压碳化硅晶体管受控雪崩击穿实现预极化场快速非绝热关闭，产生可观测进动磁化。探针无需预先知道磁场即可测量Larmor频率，并在1—45 mT范围验证，用于低场磁体开发和场稳定性测量。",
+      "meaning_cn": "该工作的核心是核自旋场测量硬件，场强范围和关场机制直接关系磁体调试时的可用性。无需先验场值不代表任意场强、梯度或样品条件下都能稳定读出；用于图像改进的潜力仍需与具体成像系统的场控制及校准流程联验。",
+      "publication_date": "2026-10-28",
+      "time_scope": "7d_extension",
+      "source": "Communications Engineering",
+      "url": "https://doi.org/10.1038/s44172-026-00815-0",
+      "doi": "10.1038/s44172-026-00815-0",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1038/s44172-026-00815-0"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-29",
+      "last_updated": "2026-10-29",
+      "report_file": "SpinFront_2026-10-29.html"
+    },
+    {
+      "item_id": "SF-20261029-04",
+      "item_no": 4,
+      "report_date": "2026-10-29",
+      "title_cn": "邻苯二酚重叠信号改变木质素³¹P定量归属",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "qnmr"
+      ],
+      "application_ids": [
+        "polymers"
+      ],
+      "sample_systems": [
+        "含邻苯二酚的木质素模型及技术、分析级木质素"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Pajer 等以模型化合物检验木质素³¹P qNMR归属，发现亚磷酰化邻苯二酚羟基与常规愈创木基、紫丁香基区域显著重叠，常规HSQC也难以区分。结合半定量螯合/紫外可见测量后，邻苯二酚约占传统归于愈创木基的酚羟基含量的6%—27%。",
+      "meaning_cn": "重叠峰会使结构单元归属偏高，但并不意味着³¹P积分失去全部定量价值；需要区分总酚羟基响应与具体结构类型。所报6%—27%来自研究中的木质素样品，不能作为所有原料的固定扣除系数，补充方法本身也为半定量。",
+      "publication_date": "2026-10-28",
+      "time_scope": "7d_extension",
+      "source": "ACS Omega",
+      "url": "https://doi.org/10.1021/acsomega.6c09845",
+      "doi": "10.1021/acsomega.6c09845",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1021/acsomega.6c09845"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-29",
+      "last_updated": "2026-10-29",
+      "report_file": "SpinFront_2026-10-29.html"
+    },
+    {
+      "item_id": "SF-20261029-05",
+      "item_no": 5,
+      "report_date": "2026-10-29",
+      "title_cn": "¹⁹F NMR综述梳理PFAS检测与降解监测",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "environment"
+      ],
+      "sample_systems": [
+        "全氟和多氟烷基物质及其降解体系"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "review",
+      "summary_cn": "Huang 等梳理¹⁹F NMR在PFAS检测与降解监测中的应用，重点讨论对含氟物质的非靶向分析、存在状态判别及减少复杂前处理的潜力。文章同时介绍新兴灵敏度增强技术，讨论如何缓解¹⁹F NMR在环境分析中面临的检测能力限制。",
+      "meaning_cn": "非靶向含氟信号可补充仅针对已知物种的分析，但不能自动提供所有PFAS的唯一结构归属或超痕量定量。本文是方法教程与综述，未在摘要中给出统一检测限；具体基质、浓度和降解产物仍应采用经验证的谱峰归属与定量条件。",
+      "publication_date": "2026-10-28",
+      "time_scope": "7d_extension",
+      "source": "Analytical Chemistry",
+      "url": "https://doi.org/10.1021/acs.analchem.6c04264",
+      "doi": "10.1021/acs.analchem.6c04264",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1021/acs.analchem.6c04264"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-29",
+      "last_updated": "2026-10-29",
+      "report_file": "SpinFront_2026-10-29.html"
+    },
+    {
+      "item_id": "SF-20261029-06",
+      "item_no": 6,
+      "report_date": "2026-10-29",
+      "title_cn": "在线NMR与微CT联合定位重油驱替后的剩余油",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "sample_systems": [
+        "水驱重油岩心及不同孔喉区间"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Liu 等将在线NMR与微CT联合，以T₂—孔喉半径标定跟踪不同区间的油相减少，并以CT识别剩余油的空间形态。所测岩心中，幂律标定比线性关系更符合压汞分布；渗透率升高时，主要动用区间由1—20 μm转向20—40 μm及更大孔喉。",
+      "meaning_cn": "NMR提供孔径分区定量，CT补足空间位置证据，两者趋势一致有助于检验驱替解释。T₂到孔喉尺寸的换算依赖标定，不能将所用幂律直接移植到其他岩性、黏度或表面弛豫条件；后期加速驱替的增益也呈递减。",
+      "publication_date": "2026-10-28",
+      "time_scope": "7d_extension",
+      "source": "ACS Omega",
+      "url": "https://doi.org/10.1021/acsomega.6c08334",
+      "doi": "10.1021/acsomega.6c08334",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1021/acsomega.6c08334"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-29",
+      "last_updated": "2026-10-29",
+      "report_file": "SpinFront_2026-10-29.html"
+    },
+    {
+      "item_id": "SF-20261029-07",
+      "item_no": 7,
+      "report_date": "2026-10-29",
+      "title_cn": "低场T₂谱区分脉冲水驱的孔隙动用差异",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "sample_systems": [
+        "低—中渗砂岩单岩心与双岩心并联系统"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Zhu 等结合低场NMR T₂测量比较连续与脉冲水驱。单岩心连续驱替在0.20 mL/min时采收率最高为32.53%，15/15 min脉冲方案达到39.64%；双岩心30/30 min方案中，高、低渗岩心分别为35.83%和19.48%，显示流量分配与启停节奏共同影响孔隙动用。",
+      "meaning_cn": "不同孔区的T₂变化支持脉冲注入与停注再平衡对小孔及连通不良孔喉的作用。单岩心和并联系统的最优节奏不同，不能把某一方案作为通用注水参数；实验采收率也不能直接换算成现场储层增产，仍需考虑渗透率与连通条件。",
+      "publication_date": "2026-10-28",
+      "time_scope": "7d_extension",
+      "source": "ACS Omega",
+      "url": "https://doi.org/10.1021/acsomega.6c06514",
+      "doi": "10.1021/acsomega.6c06514",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1021/acsomega.6c06514"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-29",
+      "last_updated": "2026-10-29",
+      "report_file": "SpinFront_2026-10-29.html"
+    },
+    {
+      "item_id": "SF-20261029-08",
+      "item_no": 8,
+      "report_date": "2026-10-29",
+      "title_cn": "¹H NMR检验改性壳聚糖脱乙酰度的滴定算法",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "polymers"
+      ],
+      "sample_systems": [
+        "萘基改性壳聚糖及三类重复单元"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Cardinal 等以¹H NMR测定系列萘基壳聚糖的脱乙酰度，并与既有电位滴定结果比较。考虑改性重复单元分子量的新方程比传统方程更接近NMR结果，改善幅度最高为5个脱乙酰度百分点，支持传统计算对该类改性聚合物存在低估。",
+      "meaning_cn": "NMR在这里作为滴定计算的独立组成参照，关键在于区分未改性与改性重复单元的贡献。改善上限对应所研究的萘基衍生物系列，不能据此宣称滴定与NMR普遍等效；其他取代基或更复杂组成仍需重新核验计算模型和谱峰积分。",
+      "publication_date": "2026-10-28",
+      "time_scope": "7d_extension",
+      "source": "Molecules",
+      "url": "https://doi.org/10.3390/molecules31213892",
+      "doi": "10.3390/molecules31213892",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.3390/molecules31213892"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-29",
+      "last_updated": "2026-10-29",
+      "report_file": "SpinFront_2026-10-29.html"
+    },
+    {
+      "item_id": "SF-20261029-09",
+      "item_no": 9,
+      "report_date": "2026-10-29",
+      "title_cn": "NMR综述汇总肝素结构、批次质量与污染物筛查",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "quality_control",
+        "pharma"
+      ],
+      "sample_systems": [
+        "肝素及其杂质、来源与生物类似药比较"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "review",
+      "summary_cn": "Luo 等综述NMR在肝素结构归属、构象、定量组成、分子量及含氮结构识别中的进展，并讨论掺杂物、工艺杂质、物种来源与生物类似药可比性。文章总结PCA、偏最小二乘及机器学习与NMR指纹结合的批次一致性分析，以及与色谱、质谱和电泳的互补。",
+      "meaning_cn": "肝素的硫酸化与组成异质性使单一谱图指标难以覆盖质量评价。综述提供多方法连接结构与质量要求的框架，但不是一套已统一验证的放行规程；具体污染物检测、来源分类和批间模型仍需标准样品、可追溯归属及独立批次验证。",
+      "publication_date": "2026-10-27",
+      "time_scope": "7d_extension",
+      "source": "Magnetic Resonance in Chemistry",
+      "url": "https://doi.org/10.1002/mrc.70148",
+      "doi": "10.1002/mrc.70148",
+      "alternative_sources": [
+        {
+          "name": "作者、在线日期与摘要核验",
+          "url": "https://api.crossref.org/works/10.1002/mrc.70148"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-29",
+      "last_updated": "2026-10-29",
+      "report_file": "SpinFront_2026-10-29.html"
+    },
+    {
+      "item_id": "SF-20261029-10",
+      "item_no": 10,
+      "report_date": "2026-10-29",
+      "title_cn": "采购与需求动态：武汉工程大学1600万元固体NMR招标",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "sample_systems": [
+        "固体核磁共振波谱仪1套"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "tender",
+      "summary_cn": "武汉工程大学于10月28日发布固体核磁共振波谱仪公开招标公告，项目编号20260112-HD0047（WLZC-2026-100221），采购1套，预算及最高限价均为1600万元，允许进口产品。采购文件获取期为10月29日至11月4日，投标截止及开标为11月18日09:00，通过布络供应商客户端递交。合同签订后12个月内完成供货、安装、调试、培训及正常使用，验收后质保不少于3年；不接受联合体及合同分包。以上时间均为北京时间。",
+      "meaning_cn": "公告确认固体NMR整机、数量、进口许可及交付和质保边界，1600万元为该采购包最高限价。可读正文未列场强、探头口径、转速或核种，配置判断须以采购需求书为准；进口产品代理投标还须满足公告所列完整授权链要求，不能仅凭预算推定具体型号。",
+      "publication_date": "2026-10-28",
+      "time_scope": "7d_extension",
+      "source": "武汉工程大学招标采购处｜固体NMR公开招标",
+      "url": "https://zbcg.wit.edu.cn/cgggwtcg/2997.chtml",
+      "doi": "",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-10-29",
+      "last_updated": "2026-10-29",
+      "report_file": "SpinFront_2026-10-29.html"
+    }
+  ]
+}

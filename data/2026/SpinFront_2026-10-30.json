@@ -1,0 +1,463 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-10-30",
+  "scope_note": "检索截至2026-10-30 06:14:35（Asia/Shanghai）；优先过去24小时并回扫10月23—29日。严格24小时可确认内容不足5条，已启动增强搜索，覆盖专业及高影响期刊、预印本/数据库与机构、厂商软件、会议培训、采购五路线及九个方法主题簇。增强后10条，未触发少于8条的深度增强条件。全库71期611条、最近7期及24份Review查重，内容候选排除重复35项、采购重复4份；日期不明未核实采购候选1份。最终9篇论文及1条采购汇总，采购公告5份；登记采购候选14份、排除9份。含日期精度有限及较早公告，全部标近7天扩展。部分出版商、官方列表及动态页面访问受限，已补查官方公开接口；莆田附件未能读取，不补未知字段。不宣称检索完整穷尽。未读取私人教材，待复核标签无。",
+  "items": [
+    {
+      "item_id": "SF-20261030-01",
+      "item_no": 1,
+      "report_date": "2026-10-30",
+      "title_cn": "HOT-operando-NMR将固体电池工况实验推至300 ℃",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "reaction_monitoring"
+      ],
+      "application_ids": [
+        "battery",
+        "instrumentation"
+      ],
+      "sample_systems": [
+        "高温固体电池材料",
+        "离子液体电解质"
+      ],
+      "instrument_component_ids": [
+        "probe",
+        "vt_system"
+      ],
+      "information_type": "paper",
+      "summary_cn": "A. Salout 等开发模块化高温工况固体NMR探头，将电化学测量温度扩展至300 ℃。系统结合多传感器实时监测、±1 ℃温度监测精度、磁体孔径热隔离及新型高温电化学池，可与NMR采集同步，面向固体电池与高温离子液体电解质研究。",
+      "meaning_cn": "高温电化学池必须同时解决样品温度控制与磁体孔径隔热，不能只提高加热功率。该系统给出了300 ℃、±1 ℃监测精度等边界；与具体谱仪集成仍需核对接口、热负荷及池体材料。文中商业化尚属预期，不能当作已上市标准产品。",
+      "publication_date": "2026-10-23",
+      "time_scope": "7d_extension",
+      "source": "Journal of Magnetic Resonance",
+      "url": "https://doi.org/10.1016/j.jmr.2026.108191",
+      "doi": "10.1016/j.jmr.2026.108191",
+      "alternative_sources": [
+        {
+          "name": "作者与题录核验｜Crossref",
+          "url": "https://api.crossref.org/works/10.1016/j.jmr.2026.108191"
+        },
+        {
+          "name": "在线日期、完整作者及摘要｜PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42950546/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-30",
+      "last_updated": "2026-10-30",
+      "report_file": "SpinFront_2026-10-30.html"
+    },
+    {
+      "item_id": "SF-20261030-02",
+      "item_no": 2,
+      "report_date": "2026-10-30",
+      "title_cn": "PNPShift针对嘌呤核苷酸结合蛋白修正化学位移",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "嘌呤核苷酸结合蛋白",
+        "游离蛋白"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Zeng 等提出PNPShift神经网络化学位移预测方法，分别处理嘌呤核苷酸结合态与游离蛋白。对28个结合态蛋白，局部校正在核苷酸结合区域将酰胺¹HN预测误差最多降低约30%；独立60个游离蛋白测试中的均方根误差改善约6%，并用于结构集合优化。",
+      "meaning_cn": "结合位点附近的化学位移包含配体环境信息，通用蛋白预测器的误差未必均匀分布。局部校正适合检验核苷酸结合区与结构集合的一致性；约30%的改善限定于所测区域和酰胺¹HN，不能外推为全部核种或任意配体结合蛋白的整体精度提升。",
+      "publication_date": "2026-10-28",
+      "time_scope": "7d_extension",
+      "source": "Journal of Biomolecular NMR",
+      "url": "https://link.springer.com/article/10.1007/s10858-026-00499-w",
+      "doi": "10.1007/s10858-026-00499-w",
+      "alternative_sources": [
+        {
+          "name": "作者与题录核验｜Crossref",
+          "url": "https://api.crossref.org/works/10.1007/s10858-026-00499-w"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-30",
+      "last_updated": "2026-10-30",
+      "report_file": "SpinFront_2026-10-30.html"
+    },
+    {
+      "item_id": "SF-20261030-03",
+      "item_no": 3,
+      "report_date": "2026-10-30",
+      "title_cn": "轴手性¹⁹F探针区分多类手性胺",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "手性一级胺",
+        "手性二级胺",
+        "联萘硫脲衍生物"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Zhai 等设计含¹⁹F的轴手性联萘异硫氰酸酯探针P1/P2，在温和条件下与一级、二级胺形成硫脲衍生物。两种探针对29种测试底物中的27种给出可区分的¹⁹F NMR信号，并演示多组分手性胺混合物辨识；模型体系的对映体过量测定显示良好线性。",
+      "meaning_cn": "该方案依赖共价衍生化产生非对映异构体的¹⁹F位移差，分析对象会被化学转化。变温与弛豫等结果提示构象动力学可能影响峰宽；应用于新底物前，应分别检查衍生化转化率、峰分离与积分线性，不能将27/29的结果视为普遍适用性。",
+      "publication_date": "2026-10-29",
+      "time_scope": "7d_extension",
+      "source": "Analytical Chemistry",
+      "url": "https://doi.org/10.1021/acs.analchem.6c03946",
+      "doi": "10.1021/acs.analchem.6c03946",
+      "alternative_sources": [
+        {
+          "name": "作者与题录核验｜Crossref",
+          "url": "https://api.crossref.org/works/10.1021/acs.analchem.6c03946"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-30",
+      "last_updated": "2026-10-30",
+      "report_file": "SpinFront_2026-10-30.html"
+    },
+    {
+      "item_id": "SF-20261030-04",
+      "item_no": 4,
+      "report_date": "2026-10-30",
+      "title_cn": "NHERF1双PDZ构建体完成三核骨架指认",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "人NHERF1 N端280残基",
+        "PDZ1与PDZ2结构域"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Hornero-Romera 等完成NHERF1蛋白N端280残基构建体的¹H、¹³C及¹⁵N骨架共振指认，同时保留PDZ1和PDZ2结构域。该设计移除C端ezrin结合区，避免全长蛋白中该区域与PDZ2相互作用造成的展宽，为后续化学位移映射研究结合伙伴提供指认基础。",
+      "meaning_cn": "同时保留两个PDZ域，使后续实验能够在同一构建体中比较结合位点，而非分别测孤立结构域。截短有助于缓解全长358残基体系的谱峰重叠与域间作用展宽，但也移除了天然C端调控；本次指认不等于已经测出ICAM-1结合界面或完整亲和力。",
+      "publication_date": "2026-10-29",
+      "time_scope": "7d_extension",
+      "source": "Biomolecular NMR Assignments",
+      "url": "https://doi.org/10.1007/s12104-026-10281-6",
+      "doi": "10.1007/s12104-026-10281-6",
+      "alternative_sources": [
+        {
+          "name": "作者与题录核验｜Crossref",
+          "url": "https://api.crossref.org/works/10.1007/s12104-026-10281-6"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-30",
+      "last_updated": "2026-10-30",
+      "report_file": "SpinFront_2026-10-30.html"
+    },
+    {
+      "item_id": "SF-20261030-05",
+      "item_no": 5,
+      "report_date": "2026-10-30",
+      "title_cn": "EPR与电化学共同刻画FixABCX电子分岔",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "Azotobacter vinelandii FixABCX",
+        "4Fe-4S簇"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Mohamed-Raseek 等结合EPR、蛋白薄膜电化学和瞬态吸收等方法刻画AvFixABCX电子转移能级。结果区分两个还原电位不同的[4Fe–4S]簇，其中高电位簇参与放能通路；结构与动力学测量共同支持构象门控、可逆的黄素电子分岔机制。",
+      "meaning_cn": "铁硫簇电子态与还原电位需要联用谱学和电化学约束，低电位簇的存在本身不等于其参与主传递通路。EPR属于能级分析的关键证据之一，构象门控判断还依赖冷冻电镜、散射与交联等测量，不能将整套能量景观归因于单一EPR谱图。",
+      "publication_date": "2026-10-29",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American\nChemical Society",
+      "url": "https://doi.org/10.1021/jacs.6c11513",
+      "doi": "10.1021/jacs.6c11513",
+      "alternative_sources": [
+        {
+          "name": "作者与题录核验｜Crossref",
+          "url": "https://api.crossref.org/works/10.1021/jacs.6c11513"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-30",
+      "last_updated": "2026-10-30",
+      "report_file": "SpinFront_2026-10-30.html"
+    },
+    {
+      "item_id": "SF-20261030-06",
+      "item_no": 6,
+      "report_date": "2026-10-30",
+      "title_cn": "实时TOCSY量化APOBEC3C的位点脱氨差异",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr",
+        "reaction_monitoring"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "APOBEC3C",
+        "26 nt单链DNA",
+        "49 nt单链DNA"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Tozawa 等利用实时NMR跟踪APOBEC3C对单链DNA的脱氨反应。在含两个靶位点的26 nt底物上，H5–H6 TOCSY交叉峰给出C22的表观一级速率常数为C6的2.2倍；49 nt底物测定也显示靶胞嘧啶靠近3′端时脱氨产物比例通常更高。",
+      "meaning_cn": "位点分辨的H5–H6交叉峰可将同一DNA分子上的两个反应速率分开，避免只测总产物而丢失位置效应。所见偏好与APOBEC3G相反，但环7结构、定向接近及滑移速率仍是解释假设；2.2倍限定于该26 nt底物与实验条件。",
+      "publication_date": "2026-10-25",
+      "time_scope": "7d_extension",
+      "source": "Journal of Magnetic Resonance",
+      "url": "https://doi.org/10.1016/j.jmr.2026.108192",
+      "doi": "10.1016/j.jmr.2026.108192",
+      "alternative_sources": [
+        {
+          "name": "作者与题录核验｜Crossref",
+          "url": "https://api.crossref.org/works/10.1016/j.jmr.2026.108192"
+        },
+        {
+          "name": "在线日期、作者与摘要｜PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42950543/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-30",
+      "last_updated": "2026-10-30",
+      "report_file": "SpinFront_2026-10-30.html"
+    },
+    {
+      "item_id": "SF-20261030-07",
+      "item_no": 7,
+      "report_date": "2026-10-30",
+      "title_cn": "MetabHub整合251项血浆NMR性状与疾病风险",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "人血浆",
+        "UK Biobank欧洲参与者"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Yuan 等构建MetabHub，将UK Biobank中364795名欧洲参与者的251项血浆NMR性状，与临床指标、暴露、遗传变异及57种新发疾病关联。平台汇集约295万项显著关联，提供中介分析、代谢组疾病预测与随访风险分层，连接可规模化的NMR读出与队列分析。",
+      "meaning_cn": "该资源将同一组NMR性状用于关联检索和风险模型，适合比较代谢特征在不同分析任务中的表现。模型以欧洲人群队列为基础，迁移到其他人群或检测平台前需要外部验证与校准；关联及统计中介路径不能直接证明代谢物的因果作用。",
+      "publication_date": "2026-10-29",
+      "time_scope": "7d_extension",
+      "source": "Nucleic Acids Research",
+      "url": "https://doi.org/10.1093/nar/gkag1066",
+      "doi": "10.1093/nar/gkag1066",
+      "alternative_sources": [
+        {
+          "name": "作者与题录核验｜Crossref",
+          "url": "https://api.crossref.org/works/10.1093/nar/gkag1066"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-30",
+      "last_updated": "2026-10-30",
+      "report_file": "SpinFront_2026-10-30.html"
+    },
+    {
+      "item_id": "SF-20261030-08",
+      "item_no": 8,
+      "report_date": "2026-10-30",
+      "title_cn": "NMR代谢特征量化运动与糖尿病心血管风险关联",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "2型糖尿病患者血浆"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Yang 等分析6887名2型糖尿病患者的血浆NMR代谢组与活动资料，用弹性网构建不同运动强度的代谢特征。中位15.17年随访记录974起主要心血管事件；三组特征联合在统计上解释运动—事件关联的26.1%，不同强度对应的代谢通路明显重叠。",
+      "meaning_cn": "NMR代谢组将炎症、糖代谢与脂质相关读出纳入同一队列模型，但三组特征高度相关，相关系数为0.78–0.84，不能将其贡献简单相加。26.1%为统计中介比例，受观察性设计与混杂影响，不等于已证明的生物因果份额或个体运动处方。",
+      "publication_date": "2026-10-29",
+      "time_scope": "7d_extension",
+      "source": "Cardiovascular Diabetology",
+      "url": "https://doi.org/10.1186/s12933-026-03426-3",
+      "doi": "10.1186/s12933-026-03426-3",
+      "alternative_sources": [
+        {
+          "name": "作者与题录核验｜Crossref",
+          "url": "https://api.crossref.org/works/10.1186/s12933-026-03426-3"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-30",
+      "last_updated": "2026-10-30",
+      "report_file": "SpinFront_2026-10-30.html"
+    },
+    {
+      "item_id": "SF-20261030-09",
+      "item_no": 9,
+      "report_date": "2026-10-30",
+      "title_cn": "碳酸盐岩剩余油饱和度对T₂截断值敏感",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "sample_systems": [
+        "Indiana石灰岩岩心",
+        "轻质原油",
+        "盐水"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Al-Siyabi 等对三块Indiana石灰岩岩心开展盐水驱油后的低场NMR T₂分析，以X射线CT作独立饱和度参照。经校准的截断体积法比对数平均T₂法更接近CT结果；截断值从70增至100 ms时，估计剩余油饱和度上升4.4–5.0个百分点。",
+      "meaning_cn": "在该三块岩心中，90 ms截断值得到42.0%、38.8%和40.1%的油饱和度，显示定量结果依赖截断选择。岩石润湿性、流体性质与孔径分布均可能改变校准关系；跨岩性或驱替条件使用时，需要独立饱和度参照及截断敏感性分析。",
+      "publication_date": "2026-10-29",
+      "time_scope": "7d_extension",
+      "source": "Applied Sciences",
+      "url": "https://doi.org/10.3390/app162110710",
+      "doi": "10.3390/app162110710",
+      "alternative_sources": [
+        {
+          "name": "作者与题录核验｜Crossref",
+          "url": "https://api.crossref.org/works/10.3390/app162110710"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-30",
+      "last_updated": "2026-10-30",
+      "report_file": "SpinFront_2026-10-30.html"
+    },
+    {
+      "item_id": "SF-20261030-10",
+      "item_no": 10,
+      "report_date": "2026-10-30",
+      "title_cn": "采购与需求动态：两项中标、400 MHz招标、维保协商及进口意向",
+      "direction_ids": [
+        "nmr",
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "sample_systems": [
+        "EPR100",
+        "CAN400等",
+        "不含磁体400 MHz NMR",
+        "NMR维护保养服务",
+        "进口NMR采购意向"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "tender",
+      "summary_cn": "北京大学化学与分子工程学院10月29日公布EPR采购中标结果（OITC-G260312268）：EPR100一台，由国仪量子技术（合肥）股份有限公司以399万元中标，原招标预算400万元；中国科学院化学研究所同日公布400 MHz液体NMR中标结果（OITC-G260583783）：CAN400等一套，同一供应商以280万元中标，原招标预算320万元；华东理工大学10月28日公开招标400 MHz核磁共振波谱仪一套、不含磁体（S2026102701），预算99.8万元，投标截止11月18日09:30；大湾区大学10月28日发布NMR维护保养服务单一来源协商公告（M4400000707540270001），一项预算28万元，邀请布鲁克（北京）科技有限公司，报价截止11月11日10:00；莆田学院10月28日发布核磁共振波谱仪进口产品采购意向公示，尚非公开招标，其官网正文未列预算、配置及预计采购月份。以上截止时间均为北京时间。",
+      "meaning_cn": "两份中标公告对应已完成评审的采购阶段，不再列为开放投标机会。华东理工项目不含磁体，不能与完整400 MHz整机预算直接比较，文件获取至11月4日，合同约定6个月内交付及交货通知后3个月内安装验收。大湾区大学项目为受邀单一来源服务，采购文件获取至11月10日，不面向任意供应商公开竞争；莆田学院本次仅确认进口产品公示阶段。",
+      "publication_date": "2026-10-29",
+      "time_scope": "7d_extension",
+      "source": "北京大学化学与分子工程学院｜EPR中标",
+      "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202610/t20261029_27582613.htm",
+      "doi": "",
+      "alternative_sources": [
+        {
+          "name": "中国科学院化学研究所｜400MHz液体核磁共振波谱仪采购项目中标公告",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202610/t20261029_27585255.htm"
+        },
+        {
+          "name": "华东理工大学｜400MHz核磁共振波谱仪采购项目公开招标公告",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261028_27576982.htm"
+        },
+        {
+          "name": "大湾区大学｜核磁共振波谱仪维护保养服务单一来源公告",
+          "url": "https://www.gzebid.cn/api/bid/share/api/platform/article/3a769b640cf9a48371c60eef314b7ac3"
+        },
+        {
+          "name": "莆田学院｜核磁共振波谱仪进口产品采购意向公示",
+          "url": "https://www.ptu.edu.cn/info/1025/28705.htm"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-10-30",
+      "last_updated": "2026-10-30",
+      "report_file": "SpinFront_2026-10-30.html"
+    }
+  ]
+}

@@ -1,6 +1,12 @@
 {
   "schema_version": "1.0.0",
   "report_date": "2026-10-30",
+  "revision": {
+    "parent_commit": "5378be2197f292c465a908cf5d35c829c4285f25",
+    "reason": "复核后撤回一条错误关联单位与访问域名、无法确认原始公告的已排除线索；不将访问失败的网站入口当作已经登记的实际采购公告。登记候选14改13、排除9改8；原始访问审计保留实际qimg.cgs.gov.cn及503状态。",
+    "preserved": "全部10个item_id、标题、摘要、意义、日期、来源和5份入选公告不变；仅范围说明计数与Review订正。",
+    "previous_deployment_verified": "父提交5378be2197f292c465a908cf5d35c829c4285f25对应Actions40964471786 build/deploy均success；公开日报/正式JSON/首页/index/search-index均200且10条内容一致。当前校订提交的部署将在提交后另行核对，不预断成功。"
+  },
   "retrieval_cutoff": "2026-10-30T06:14:35+08:00",
   "repository": {
     "name": "imasenHF/spinfront",
@@ -2341,9 +2347,9 @@
     "cross_version_check": "单原子47Ti DOI/s41467-026-78801-5已存在历史，剔除，不能因较早arXiv2512.11652不在历史而误判新工作；PNPShift题名/作者一致只留一次；正式期刊/预印本不拆分"
   },
   "procurement": {
-    "registered_candidates": 14,
+    "registered_candidates": 13,
     "qualified_announcements": 5,
-    "excluded_candidates": 9,
+    "excluded_candidates": 8,
     "daily_items": 10,
     "procurement_items": 1,
     "summary_item_id": "SF-20261030-10",
@@ -2483,16 +2489,6 @@
         "duplicate_key": "中国科学院基础医学与肿瘤研究所（筹） |液体核磁共振波谱仪+600MHz核磁共振波谱仪配套的四共振探头及相关模块|2026-10-22|单一来源",
         "project_no": "330000263210500000029-OITC-G260321043",
         "date_basis": "ReleaseTime；不使用CreateDate替代"
-      },
-      {
-        "title": "核磁共振波谱仪相关驱动附件",
-        "unit": "中国科学院精密测量科学与技术创新研究院",
-        "actual_announcement_date": "2026-10-26",
-        "original_url": "https://www.qimg.cn/",
-        "stage": "附件采购",
-        "decision": "excluded_unverified",
-        "reason": "官方来源本期503；仅候选线索，未核实原始公告正文及精确配置，不发布。",
-        "duplicate_key": "中国科学院精密测量科学与技术创新研究院|核磁共振波谱仪相关驱动附件|2026-10-26|附件采购"
       },
       {
         "title": "单自旋磁共振与NV状态测量系统和宽场磁成像与介观物理场测量系统中标候选人公示",

@@ -1,0 +1,410 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-10-31",
+  "scope_note": "检索截至2026-10-31 06:10:07（Asia/Shanghai）；优先过去24小时并回扫10月24—30日。严格24小时可确认条目不足5条，已启动增强搜索，覆盖专业及高影响期刊、预印本/数据库、机构、厂商软件、会议培训及中外采购路线和九个方法主题簇。增强后10条，未触发少于8条的深度增强条件。全库72期621条、最近7期及25份Review查重，排除DOI重复32项、采购重复3份，另排除旧刊期及版本重复；待复核标签无。最终6篇研究论文、2篇预印本、1篇专题导读及1条采购汇总，新增已核实采购公告1份。登记采购候选12份、排除11份；多条采购线索因原始来源或日期未确认未刊。部分出版商、官方搜索、列表及动态页面受限，已补查公开列表与接口，不宣称穷尽；未读取私人教材。",
+  "items": [
+    {
+      "item_id": "SF-20261031-01",
+      "report_date": "2026-10-31",
+      "item_no": 1,
+      "title_cn": "超精细耦合将静默Cu(I)转为可读EPR信号",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "spin_probe"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "Cu(I)",
+        "三苯甲基自由基探针"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Wang 等将稳定三苯甲基自由基连接至Cu(I)选择性配体，使本征EPR静默的Cu(I)通过电子—核超精细耦合产生特征信号。CHYP7与Cu(I)形成1:1配合物，呈铜核自旋3/2对应的四线谱，检测限约4 nM；亲水CHYP8进一步用于细胞、组织及血清的活性铜池测量。",
+      "meaning_cn": "读出来自自由基探针与铜核的耦合，并非Cu(I)自身产生未配对电子。CHYP7的约4 nM检测限不能直接套用到CHYP8或任意生物基质；后者在酸性条件及内源配体竞争下验证，样品制备和铜结合平衡仍会限定所测“活性铜池”的含义。",
+      "publication_date": "2026-10-30",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American\nChemical Society",
+      "url": "https://doi.org/10.1021/jacs.6c18607",
+      "doi": "10.1021/jacs.6c18607",
+      "alternative_sources": [
+        {
+          "name": "作者、日期与题录核验",
+          "url": "https://api.crossref.org/works/10.1021/jacs.6c18607"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-31",
+      "last_updated": "2026-10-31",
+      "report_file": "SpinFront_2026-10-31.html"
+    },
+    {
+      "item_id": "SF-20261031-02",
+      "report_date": "2026-10-31",
+      "item_no": 2,
+      "title_cn": "EPR与ENDOR辨认酶支架调控的酮基自由基",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "endor"
+      ],
+      "application_ids": [
+        "catalysis"
+      ],
+      "sample_systems": [
+        "TPP结合酮基自由基",
+        "BFD",
+        "BAL"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Rao 等以冷冻淬灭、多频EPR、ENDOR及DFT研究TPP依赖自由基生物催化。团队直接辨认酶结合的酮基自由基，并通过¹H、¹⁹F、³¹P及¹⁴N超精细作用比较BFD和BAL中的自旋分布；相同化学组成的中间体因活性位点构象不同而呈现不同电子结构。",
+      "meaning_cn": "多核超精细约束把蛋白环境与底物片段上的自旋离域联系起来，支持BFD中更强的底物中心离域与自由基碳—碳偶联活性的关系。该解释依赖谱学与计算共同分析，不能把某一核的耦合直接等同于催化速率，也不能忽略冷冻捕获对所见中间体的选择。",
+      "publication_date": "2026-10-30",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American\nChemical Society",
+      "url": "https://doi.org/10.1021/jacs.6c16863",
+      "doi": "10.1021/jacs.6c16863",
+      "alternative_sources": [
+        {
+          "name": "作者、日期与题录核验",
+          "url": "https://api.crossref.org/works/10.1021/jacs.6c16863"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-31",
+      "last_updated": "2026-10-31",
+      "report_file": "SpinFront_2026-10-31.html"
+    },
+    {
+      "item_id": "SF-20261031-03",
+      "report_date": "2026-10-31",
+      "item_no": 3,
+      "title_cn": "配位笼支持−30 ℃蛋白NMR与配体结合观测",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr",
+        "std_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "配位笼限域蛋白",
+        "溶菌酶",
+        "糖配体"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Ebihara 等利用球形配位笼限域蛋白，在低黏度丙酮—水混合体系中将约20 kDa蛋白的多维NMR测量扩展至−30 ℃。低温减慢动力学后，两种构象呈分裂信号，并可观察常温难见的可交换羟基质子；STD-NMR还检出糖羟基与溶菌酶的结合。",
+      "meaning_cn": "笼体抑制聚集，较大的孔口允许配体扩散，使低温动力学和结合实验能够兼顾。条件依赖特定笼体、溶剂与蛋白相容性；丙酮—水混合物中的构象和交换行为不能直接外推为生理水溶液结果，STD信号也不单独给出完整结合常数。",
+      "publication_date": "2026-10-29",
+      "time_scope": "7d_extension",
+      "source": "Chemistry – An Asian Journal",
+      "url": "https://doi.org/10.1002/asia.71029",
+      "doi": "10.1002/asia.71029",
+      "alternative_sources": [
+        {
+          "name": "作者、日期与题录核验",
+          "url": "https://api.crossref.org/works/10.1002/asia.71029"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-31",
+      "last_updated": "2026-10-31",
+      "report_file": "SpinFront_2026-10-31.html"
+    },
+    {
+      "item_id": "SF-20261031-04",
+      "report_date": "2026-10-31",
+      "item_no": 4,
+      "title_cn": "弛豫理论解释脂肪链中的长寿命核自旋模式",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [],
+      "sample_systems": [
+        "亚甲基核自旋链"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Markelov 等从Redfield弛豫理论出发，通过主导同对偶极弛豫超算符的零空间构建脂肪链长寿命态与零量子长寿命相干。框架适用于任意亚甲基链长，并显式演示两至四组亚甲基；含相干演化及对间偶极弛豫的模拟重现实验衰减趋势。",
+      "meaning_cn": "该框架把受保护自旋序与普通T₁、T₂衰减区分开，并说明化学等价性和宇称会限制实验可访问的模式。理论允许的模式与实验可激发的模式需要分别判断；寿命延长仍依赖具体耦合与弛豫通道，不代表任意链分子都能等效保存极化。",
+      "publication_date": "2026-10-29",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Chemical Physics",
+      "url": "https://doi.org/10.1063/5.0355673",
+      "doi": "10.1063/5.0355673",
+      "alternative_sources": [
+        {
+          "name": "作者、日期与题录核验",
+          "url": "https://api.crossref.org/works/10.1063/5.0355673"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-10-31",
+      "last_updated": "2026-10-31",
+      "report_file": "SpinFront_2026-10-31.html"
+    },
+    {
+      "item_id": "SF-20261031-05",
+      "report_date": "2026-10-31",
+      "item_no": 5,
+      "title_cn": "宽带SQUID读取²⁰⁷Pb NMR搜寻轴子样暗物质",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "sample_systems": [
+        "极化铁电晶体",
+        "207Pb自旋系综"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Winter 等在极化铁电晶体的²⁰⁷Pb自旋系综上开展固体NMR，以宽带感应耦合SQUID读取低场共振。实验用脉冲磁共振标定4.57–4.97及5.23–5.29 MHz频带，覆盖18.9–20.6和21.6–21.9 neV质量区间，对轴子—核电偶极矩耦合给出95%置信上界。",
+      "meaning_cn": "本工作展示低场²⁰⁷Pb共振的检测与小翻转角标定，并以扫磁场方式连接自旋响应和目标频带。给出的是指定频带内的耦合上限，并非发现暗物质；灵敏度解释依赖铁电样品极化、标定和宽带拾取回路，不能推广为全质量范围的排除。",
+      "publication_date": "2026-10-29",
+      "time_scope": "7d_extension",
+      "source": "Universe",
+      "url": "https://doi.org/10.3390/universe12110327",
+      "doi": "10.3390/universe12110327",
+      "alternative_sources": [
+        {
+          "name": "作者、日期与题录核验",
+          "url": "https://api.crossref.org/works/10.3390/universe12110327"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-31",
+      "last_updated": "2026-10-31",
+      "report_file": "SpinFront_2026-10-31.html"
+    },
+    {
+      "item_id": "SF-20261031-06",
+      "report_date": "2026-10-31",
+      "item_no": 6,
+      "title_cn": "活体MRS中脑区差异大于约34小时纵向变化",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "in_vivo_mrs"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "人前扣带回",
+        "人后扣带回"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Wang 等在138名参与者的前瞻性观察研究中，以MEGA-PRESS和SVS-PRESS比较前、后扣带回代谢物/肌酸比值。116名具有成对时间戳者两次扫描间隔中位34.01小时；脑区差异的标准化效应总体大于纵向变化，结果随序列与质量控制条件而异。",
+      "meaning_cn": "研究以区域、序列和谱质量约束纵向MRS解释，避免把不同脑区的基线差异混入时间效应。约34小时对比同时包含昼夜相位、重新定位和监测夜等影响，不能归为睡眠特异效应；代谢物/肌酸比值变化也不等于已确认的绝对浓度变化。",
+      "publication_date": "2026-10-28",
+      "time_scope": "7d_extension",
+      "source": "Frontiers in Medicine",
+      "url": "https://doi.org/10.3389/fmed.2026.1990412",
+      "doi": "10.3389/fmed.2026.1990412",
+      "alternative_sources": [
+        {
+          "name": "作者、日期与题录核验",
+          "url": "https://api.crossref.org/works/10.3389/fmed.2026.1990412"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-31",
+      "last_updated": "2026-10-31",
+      "report_file": "SpinFront_2026-10-31.html"
+    },
+    {
+      "item_id": "SF-20261031-07",
+      "report_date": "2026-10-31",
+      "item_no": 7,
+      "title_cn": "多频EPR解析五铜金属冠的低温基态",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "sample_systems": [
+        "Cu4Cu金属冠"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Bischof 等在预印本中以体积较大的配体取代基抑制五铜金属冠的分子间作用，并结合磁化、DFT及X波段和高频高场EPR研究交换耦合。体系低温基态为S=1/2，EPR给出近轴向的g张量；升温后出现的激发态EPR信号支持双重态至四重态的热跃迁。",
+      "meaning_cn": "不同频率EPR约束基态各向异性，磁化与计算补充交换参数及能隙信息，适合区分分子内交换和分子间作用。所研究的是经配体改性的特定五铜簇；交换常数并非由单张EPR谱独立求出，预印本结论尚待同行评审。",
+      "publication_date": "2026-10-28",
+      "time_scope": "7d_extension",
+      "source": "arXiv｜预印本",
+      "url": "https://arxiv.org/abs/2610.38989v1",
+      "doi": "",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-10-31",
+      "last_updated": "2026-10-31",
+      "report_file": "SpinFront_2026-10-31.html"
+    },
+    {
+      "item_id": "SF-20261031-08",
+      "report_date": "2026-10-31",
+      "item_no": 8,
+      "title_cn": "模拟谱图强化学习选择后续NMR与红外测量",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "spectral_processing",
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "模拟小分子多模态光谱"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Gao 等在预印本中提出结构信息驱动的深度Q网络，以已有串联质谱证据选择补充光谱并判断何时停止。测试覆盖79462个具有模拟质谱、红外及NMR的样本；正离子起始条件下Top-1正确率从80.10%升至93.78%，平均新增测量数为0.227。",
+      "meaning_cn": "候选结构差异可用于决定是否需要补充NMR信息，展示了识别精度与测量成本间的可计算权衡。结果来自固定候选集、正确结构在集内且测量成本等权的模拟评估；尚不能直接当作真实仪器自动排程的节时比例，也未验证实验谱图噪声与缺峰影响。",
+      "publication_date": "2026-10-29",
+      "time_scope": "7d_extension",
+      "source": "arXiv｜预印本",
+      "url": "https://arxiv.org/abs/2610.40264v1",
+      "doi": "",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-10-31",
+      "last_updated": "2026-10-31",
+      "report_file": "SpinFront_2026-10-31.html"
+    },
+    {
+      "item_id": "SF-20261031-09",
+      "report_date": "2026-10-31",
+      "item_no": 9,
+      "title_cn": "双共振专题导读梳理ODMR与ENDOR读出路线",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "odmr",
+        "endor"
+      ],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "sample_systems": [
+        "固态缺陷",
+        "自旋标记体系"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "news_feature",
+      "summary_cn": "Babunts 等在专题导读中梳理ODMR与ENDOR的间接读出原理及应用，涵盖晶体缺陷交叉弛豫、微波光电导检测、共振自旋惯性、自由基自旋标记与噪声谱学等方向。文章连接自旋依赖吸收、发光及电导读出，介绍专题中各项工作的技术对象。",
+      "meaning_cn": "不同读出通道提供的选择性不同，光学可寻址、复合中心电导响应和电子—核耦合不能按同一灵敏度指标直接比较。本文为专题编辑导读，未新增一套经过统一验证的测量参数；具体频段、温度、样品和性能仍须回到各篇原始研究。",
+      "publication_date": "2026-10-30",
+      "time_scope": "7d_extension",
+      "source": "Applied Magnetic Resonance",
+      "url": "https://link.springer.com/article/10.1007/s00723-026-01888-y",
+      "doi": "10.1007/s00723-026-01888-y",
+      "alternative_sources": [
+        {
+          "name": "作者、日期与题录核验",
+          "url": "https://api.crossref.org/works/10.1007/s00723-026-01888-y"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-10-31",
+      "last_updated": "2026-10-31",
+      "report_file": "SpinFront_2026-10-31.html"
+    },
+    {
+      "item_id": "SF-20261031-10",
+      "report_date": "2026-10-31",
+      "item_no": 10,
+      "title_cn": "采购与需求动态：长春应化所EPR高温及时间分辨系统中标",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "sample_systems": [
+        "EPR-TRHT高温及时间分辨系统1套"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "tender",
+      "summary_cn": "中国科学院长春应用化学研究所于10月30日09:51发布电子顺磁共振波谱仪高温及时间分辨系统中标公告，项目编号JTZB-20260313。广东省中科进出口有限公司以154.5万元中标，所供货物品牌为国仪量子技术（合肥）股份有限公司，型号EPR-TRHT，数量1套。本次为中标结果阶段；可读公告未列采购预算，不以中标金额替代预算，也不再设置投标截止时间。",
+      "meaning_cn": "公告区分了中标供应商与制造商品牌，154.5万元对应一套高温及时间分辨系统。名称与型号确认采购对象，但可读结果正文未给最高温度、时间分辨率、频段或适配主机，不能由型号推断性能；具体交付配置及验收仍以合同和采购需求为准。",
+      "publication_date": "2026-10-30",
+      "time_scope": "24h",
+      "source": "中国政府采购网｜长春应化所EPR高温及时间分辨系统中标",
+      "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202610/t20261030_27588571.htm",
+      "doi": "",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-10-31",
+      "last_updated": "2026-10-31",
+      "report_file": "SpinFront_2026-10-31.html"
+    }
+  ]
+}

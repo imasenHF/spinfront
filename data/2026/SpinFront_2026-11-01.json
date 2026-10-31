@@ -1,0 +1,277 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-11-01",
+  "scope_note": "检索截至2026-11-01 06:10:55（Asia/Shanghai）；优先过去24小时，并逐日回扫10月25—31日。常规24小时不足5条，已启动增强搜索；增强后仍不足8条，继续深度增强检索，覆盖专业/高影响期刊、预印本与数据库、厂商软件、会议和中外采购五路线及九个方法主题簇。全库73期631条、最近7期及26份Review查重，排除DOI重复33项、采购重复4份，另有2项具体日期不明排除。最终6条资讯、0份新增已核实采购公告，采购核查说明固定在末尾且不计条目。未满10条主要因重复、周末新增有限、日期冲突及原始来源访问限制；不以常规表征或泛MRI补位。Crossref初次429已降并发重试成功，部分出版商与采购动态页面仍受限；不宣称检索穷尽。待复核标签无，未读取私人教材。",
+  "items": [
+    {
+      "item_id": "SF-20261101-01",
+      "report_date": "2026-11-01",
+      "item_no": 1,
+      "title_cn": "图网络从实验NMR数据重建分子连接",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr",
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "实验及模拟小分子NMR数据"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Jin 等提出inverse-IMPRESSION平台，将¹H、¹³C及COSY、HSQC、HMBC信息输入图网络，经连接预测、错误键修正与多次预测排序重建结构。在最多30个重原子的模拟数据上正确率为77.8%；实验数据中正确识别19个分子的11个，显示模拟与实际谱图之间仍有差距。",
+      "meaning_cn": "该方法利用二维相关约束恢复成键关系，适用于给定原子信息和可提取NMR参数的结构解析。实验集仅19个分子，58%的成功率不能由模拟结果替代；混合物、缺峰及重叠谱中的适用性仍需单独验证，候选排序也不能替代化学合理性复核。",
+      "publication_date": "2026-10-31",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American\nChemical Society",
+      "url": "https://doi.org/10.1021/jacs.6c14119",
+      "doi": "10.1021/jacs.6c14119",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者及题录",
+          "url": "https://api.crossref.org/works/10.1021/jacs.6c14119"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-01",
+      "last_updated": "2026-11-01",
+      "report_file": "SpinFront_2026-11-01.html"
+    },
+    {
+      "item_id": "SF-20261101-02",
+      "report_date": "2026-11-01",
+      "item_no": 2,
+      "title_cn": "核量子效应解释³¹P位移的H/D反号",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "FcPMe",
+        "FcPMe单阴离子",
+        "氢键H/D同位素体系"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Udagawa 等以多组分量子力学研究含磷二茂铁衍生物及其单阴离子的³¹P NMR氢氘同位素效应。计算显示，核量子效应改变氢键几何与电子结构，使位移随几何变化的曲线由M形转为近二次型，从而解释此前近似方法未能预测的阴离子位移差反号。",
+      "meaning_cn": "³¹P同位素位移对氢键质子位置呈非线性响应，比较H/D时需要同时考虑几何弛豫与电子结构变化。这里的势垒消失及对称结构属于特定体系的计算结果，不能推广到所有氢键；也不能只靠位移差的正负直接判定普适的质子转移路径。",
+      "publication_date": "2026-10-31",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Physical\nChemistry A",
+      "url": "https://doi.org/10.1021/acs.jpca.6c03984",
+      "doi": "10.1021/acs.jpca.6c03984",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者及题录",
+          "url": "https://api.crossref.org/works/10.1021/acs.jpca.6c03984"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-01",
+      "last_updated": "2026-11-01",
+      "report_file": "SpinFront_2026-11-01.html"
+    },
+    {
+      "item_id": "SF-20261101-03",
+      "report_date": "2026-11-01",
+      "item_no": 3,
+      "title_cn": "内标qNMR用于非处方药活性成分教学",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "qnmr"
+      ],
+      "application_ids": [
+        "pharma"
+      ],
+      "sample_systems": [
+        "非处方药活性成分",
+        "内标定量教学样品"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Adels 等设计本科仪器分析实验，以内标qNMR辨认并定量非处方药中的活性成分。实验围绕真实复方产品，串联样品制备、采集参数、谱图解释和定量概念，将常用于结构确认的NMR进一步用于含量测定；摘要未给出可直接复用的完整验证参数。",
+      "meaning_cn": "内标法把待测峰与已知量标准物的积分联系起来，但能否定量仍取决于峰分离、标准纯度及充分弛豫。摘要提到40—100 MHz台式仪器的背景，不等于本实验已在全部这些场强验证；具体药物、内标和采集条件需要查阅实验方案后再复现。",
+      "publication_date": "2026-10-31",
+      "time_scope": "7d_extension",
+      "source": "Journal of Chemical Education",
+      "url": "https://doi.org/10.1021/acs.jchemed.6c00558",
+      "doi": "10.1021/acs.jchemed.6c00558",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者及题录",
+          "url": "https://api.crossref.org/works/10.1021/acs.jchemed.6c00558"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-01",
+      "last_updated": "2026-11-01",
+      "report_file": "SpinFront_2026-11-01.html"
+    },
+    {
+      "item_id": "SF-20261101-04",
+      "report_date": "2026-11-01",
+      "item_no": 4,
+      "title_cn": "聚集效应挑战¹²⁹Xe生物传感两位点模型",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "水溶性cryptophane笼",
+        "氙—聚集体"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Hilla 利用分子动力学模拟研究水溶性cryptophane笼的聚集及氙结合。亲水基团较少的笼更易聚集，趋势在重复模拟、不同力场及加盐条件下保持；氙可在聚集表面富集，并出现额外结合位点，提示超极化¹²⁹Xe NMR常用的笼内—溶剂两位点交换模型需谨慎检验。",
+      "meaning_cn": "模拟将笼聚集与氙可访问位点联系起来，提示浓度、盐和取代基会影响交换模型的解释。超过百纳秒的驻留仅见于特定模拟位点，不能直接当作实验交换寿命；文章未以新NMR实验验证全部预测，实际传感体系仍须检验聚集和交换贡献。",
+      "publication_date": "2026-10-29",
+      "time_scope": "7d_extension",
+      "source": "Physical Chemistry Chemical Physics",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42954067/",
+      "doi": "10.1039/d6cp03070j",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者及题录",
+          "url": "https://api.crossref.org/works/10.1039/d6cp03070j"
+        },
+        {
+          "name": "论文原始DOI",
+          "url": "https://doi.org/10.1039/d6cp03070j"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-01",
+      "last_updated": "2026-11-01",
+      "report_file": "SpinFront_2026-11-01.html"
+    },
+    {
+      "item_id": "SF-20261101-05",
+      "report_date": "2026-11-01",
+      "item_no": 5,
+      "title_cn": "¹H/¹³C位移检验甲状腺胺类似物结构模型",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr",
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "APA二盐酸盐",
+        "DMSO-d6"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Eresko 等比较甲状腺胺类似物APA的双质子化模型与中性二盐酸盐模型，用DFT/GIAO计算¹H和¹³C化学位移，并与DMSO-d₆中400/100 MHz实验谱对照。会议论文将氯化氢局部相互作用和连续介质溶剂处理并列，讨论模型选择对位移与构象解释的影响。",
+      "meaning_cn": "实验核种及溶剂与模型比较直接对应：¹H为400 MHz、¹³C为100 MHz，计算采用B3LYP/6-31G(d,p)并考虑DMSO连续介质。位移吻合支持特定结构描述，不能独立证明溶液中仅有一种质子化态，更不能由此推出该类似物的生物活性。",
+      "publication_date": "2026-10-28",
+      "time_scope": "7d_extension",
+      "source": "ECSOC 2026",
+      "url": "https://www.mdpi.com/2673-4583/22/1/71",
+      "doi": "10.3390/chemproc2026022071",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者及题录",
+          "url": "https://api.crossref.org/works/10.3390/chemproc2026022071"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-01",
+      "last_updated": "2026-11-01",
+      "report_file": "SpinFront_2026-11-01.html"
+    },
+    {
+      "item_id": "SF-20261101-06",
+      "report_date": "2026-11-01",
+      "item_no": 6,
+      "title_cn": "国仪发布CryoHe低温探头与CAN-S固体NMR",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr",
+        "solid_state_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "sample_systems": [],
+      "instrument_component_ids": [
+        "probe"
+      ],
+      "information_type": "product_software",
+      "summary_cn": "国仪公司于10月31日在分析科学与仪器大会发布CryoHe系列核磁超低温探头及CAN-S固体核磁共振波谱仪。官方探头资料显示，闭循环系统把射频线圈冷却至约20 K，支持自动调谐匹配；厂商标称¹H灵敏度约为常规室温探头的3倍，发布事件由证券时报报道确认。",
+      "meaning_cn": "20 K对应射频线圈温度，并非样品温度。CryoHe面向CAN系列液体NMR平台，支持¹H、¹³C、¹⁵N、³¹P及¹⁹F；约3倍为厂商给出的¹H对比值，不能外推到所有核种、浓度或盐含量，跨平台兼容性及实际样品增益还需独立验收。",
+      "publication_date": "2026-10-31",
+      "time_scope": "24h",
+      "source": "国仪官网技术资料；证券时报发布报道",
+      "url": "https://www.ciqtek.com/products/detail/cryohe.html?id=f06761ec-8b4d-42ce-9fe0-a4267d961b56",
+      "doi": "",
+      "alternative_sources": [
+        {
+          "name": "证券时报报道转载｜发布事件与日期",
+          "url": "https://finance.ifeng.com/c/8xgBEFA9UZe"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-01",
+      "last_updated": "2026-11-01",
+      "report_file": "SpinFront_2026-11-01.html"
+    }
+  ],
+  "procurement_status": {
+    "status": "no_verified_updates",
+    "title_cn": "采购与需求动态",
+    "summary_cn": "本期未检索到新增已核实公告。已核查采购意向、需求/调研、招标、更正、成交、中止及合同，并回扫10月25—31日的中国政府采购、全国/地方公共资源、高校及海外来源和公开只读列表。登记采购候选16份，均因历史重复、超窗、范围不符或原始来源未核实排除。部分官网403/503、动态搜索或占位页受限，已补查列表及接口；这不等于相关单位没有公告。",
+    "checked_at": "2026-11-01T06:10:55+08:00",
+    "registered_candidates": 16
+  }
+}

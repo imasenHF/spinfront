@@ -1,0 +1,2506 @@
+{
+  "schema_version": "1.0.0",
+  "report_date": "2026-11-02",
+  "retrieval_cutoff": "2026-11-02T06:04:34+08:00",
+  "repository": {
+    "base_head": "2a8189c14524b23246d3a42140495b55fc6dbc0f",
+    "branch": "main",
+    "permissions": "GitHub admin/maintain/push verified current run",
+    "rules": "Current main DAILY_TASK_PROMPT sha c0ef9e2c6d31af7063e84dbd386aabff35af9b69 and referenced files read; bytes unchanged; no old automation overrides"
+  },
+  "search_summary": {
+    "enhanced": true,
+    "deep": true,
+    "trigger": "strict24h <5 and enhanced <8",
+    "date_window": [
+      "2026-10-26",
+      "2026-11-01"
+    ],
+    "fresh_access_audit": [
+      {
+        "key": "oitc1102_1",
+        "url": "https://www.oitccas.com/WLH/WorkFlow/Services/BIDHandler.ashx?method=TenderProjectPagedList&page=1&limit=100&start=0",
+        "status": "read",
+        "bytes": 3233015
+      },
+      {
+        "key": "oitc1102_2",
+        "url": "https://www.oitccas.com/WLH/WorkFlow/Services/BIDHandler.ashx?method=TenderProjectPagedList&page=2&limit=100&start=100",
+        "status": "read",
+        "bytes": 3103418
+      },
+      {
+        "key": "ccgp1102_zygg_gkzb_0",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/index.htm",
+        "status": "read",
+        "bytes": 20485
+      },
+      {
+        "key": "ccgp1102_zygg_gkzb_1",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/index_1.htm",
+        "status": "read",
+        "bytes": 21516
+      },
+      {
+        "key": "ccgp1102_zygg_gkzb_2",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/index_2.htm",
+        "status": "read",
+        "bytes": 21325
+      },
+      {
+        "key": "ccgp1102_zygg_gkzb_3",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/index_3.htm",
+        "status": "read",
+        "bytes": 20691
+      },
+      {
+        "key": "ccgp1102_zygg_gkzb_4",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/index_4.htm",
+        "status": "read",
+        "bytes": 21007
+      },
+      {
+        "key": "ccgp1102_zygg_jzxcs_0",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/jzxcs/index.htm",
+        "status": "read",
+        "bytes": 21417
+      },
+      {
+        "key": "ccgp1102_zygg_jzxcs_1",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/jzxcs/index_1.htm",
+        "status": "read",
+        "bytes": 21138
+      },
+      {
+        "key": "ccgp1102_zygg_jzxcs_2",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/jzxcs/index_2.htm",
+        "status": "read",
+        "bytes": 21499
+      },
+      {
+        "key": "ccgp1102_zygg_jzxcs_3",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/jzxcs/index_3.htm",
+        "status": "read",
+        "bytes": 21325
+      },
+      {
+        "key": "ccgp1102_zygg_jzxcs_4",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/jzxcs/index_4.htm",
+        "status": "read",
+        "bytes": 21482
+      },
+      {
+        "key": "ccgp1102_zygg_xjgg_0",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/xjgg/index.htm",
+        "status": "read",
+        "bytes": 20643
+      },
+      {
+        "key": "ccgp1102_zygg_xjgg_1",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/xjgg/index_1.htm",
+        "status": "read",
+        "bytes": 21560
+      },
+      {
+        "key": "ccgp1102_zygg_xjgg_2",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/xjgg/index_2.htm",
+        "status": "read",
+        "bytes": 21406
+      },
+      {
+        "key": "ccgp1102_zygg_xjgg_3",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/xjgg/index_3.htm",
+        "status": "read",
+        "bytes": 21022
+      },
+      {
+        "key": "ccgp1102_zygg_xjgg_4",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/xjgg/index_4.htm",
+        "status": "read",
+        "bytes": 20818
+      },
+      {
+        "key": "ccgp1102_zygg_zbgg_0",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/index.htm",
+        "status": "read",
+        "bytes": 20742
+      },
+      {
+        "key": "ccgp1102_zygg_zbgg_1",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/index_1.htm",
+        "status": "read",
+        "bytes": 21097
+      },
+      {
+        "key": "ccgp1102_zygg_zbgg_2",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/index_2.htm",
+        "status": "read",
+        "bytes": 21862
+      },
+      {
+        "key": "ccgp1102_zygg_zbgg_3",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/index_3.htm",
+        "status": "read",
+        "bytes": 21448
+      },
+      {
+        "key": "ccgp1102_zygg_zbgg_4",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/index_4.htm",
+        "status": "read",
+        "bytes": 20435
+      },
+      {
+        "key": "ccgp1102_zygg_cjgg_0",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/cjgg/index.htm",
+        "status": "read",
+        "bytes": 21056
+      },
+      {
+        "key": "ccgp1102_zygg_cjgg_1",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/cjgg/index_1.htm",
+        "status": "read",
+        "bytes": 21485
+      },
+      {
+        "key": "ccgp1102_zygg_cjgg_2",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/cjgg/index_2.htm",
+        "status": "read",
+        "bytes": 21117
+      },
+      {
+        "key": "ccgp1102_zygg_cjgg_3",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/cjgg/index_3.htm",
+        "status": "read",
+        "bytes": 20955
+      },
+      {
+        "key": "ccgp1102_zygg_cjgg_4",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/cjgg/index_4.htm",
+        "status": "read",
+        "bytes": 21199
+      },
+      {
+        "key": "ccgp1102_zygg_gzgg_0",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/gzgg/index.htm",
+        "status": "read",
+        "bytes": 21403
+      },
+      {
+        "key": "ccgp1102_zygg_gzgg_1",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/gzgg/index_1.htm",
+        "status": "read",
+        "bytes": 20803
+      },
+      {
+        "key": "ccgp1102_zygg_gzgg_2",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/gzgg/index_2.htm",
+        "status": "read",
+        "bytes": 20859
+      },
+      {
+        "key": "ccgp1102_zygg_gzgg_3",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/gzgg/index_3.htm",
+        "status": "read",
+        "bytes": 21061
+      },
+      {
+        "key": "ccgp1102_zygg_gzgg_4",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/gzgg/index_4.htm",
+        "status": "read",
+        "bytes": 20836
+      },
+      {
+        "key": "ccgp1102_zygg_fblbgg_0",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/fblbgg/index.htm",
+        "status": "read",
+        "bytes": 21304
+      },
+      {
+        "key": "ccgp1102_zygg_fblbgg_1",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/fblbgg/index_1.htm",
+        "status": "read",
+        "bytes": 21722
+      },
+      {
+        "key": "ccgp1102_zygg_fblbgg_2",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/fblbgg/index_2.htm",
+        "status": "read",
+        "bytes": 20737
+      },
+      {
+        "key": "ccgp1102_zygg_fblbgg_3",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/fblbgg/index_3.htm",
+        "status": "read",
+        "bytes": 21033
+      },
+      {
+        "key": "ccgp1102_zygg_fblbgg_4",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/fblbgg/index_4.htm",
+        "status": "read",
+        "bytes": 21031
+      },
+      {
+        "key": "ccgp1102_zygg_qtgg_0",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/qtgg/index.htm",
+        "status": "read",
+        "bytes": 21250
+      },
+      {
+        "key": "ccgp1102_zygg_qtgg_1",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/qtgg/index_1.htm",
+        "status": "read",
+        "bytes": 20976
+      },
+      {
+        "key": "ccgp1102_zygg_qtgg_2",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/qtgg/index_2.htm",
+        "status": "read",
+        "bytes": 21316
+      },
+      {
+        "key": "ccgp1102_zygg_qtgg_3",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/qtgg/index_3.htm",
+        "status": "read",
+        "bytes": 20693
+      },
+      {
+        "key": "ccgp1102_zygg_qtgg_4",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/qtgg/index_4.htm",
+        "status": "read",
+        "bytes": 20910
+      },
+      {
+        "key": "ccgp1102_dfgg_gkzb_0",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/index.htm",
+        "status": "read",
+        "bytes": 21033
+      },
+      {
+        "key": "ccgp1102_dfgg_gkzb_1",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/index_1.htm",
+        "status": "read",
+        "bytes": 21593
+      },
+      {
+        "key": "ccgp1102_dfgg_gkzb_2",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/index_2.htm",
+        "status": "read",
+        "bytes": 21449
+      },
+      {
+        "key": "ccgp1102_dfgg_gkzb_3",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/index_3.htm",
+        "status": "read",
+        "bytes": 21120
+      },
+      {
+        "key": "ccgp1102_dfgg_gkzb_4",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/index_4.htm",
+        "status": "read",
+        "bytes": 21364
+      },
+      {
+        "key": "ccgp1102_dfgg_jzxcs_0",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/jzxcs/index.htm",
+        "status": "read",
+        "bytes": 20643
+      },
+      {
+        "key": "ccgp1102_dfgg_jzxcs_1",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/jzxcs/index_1.htm",
+        "status": "read",
+        "bytes": 21460
+      },
+      {
+        "key": "ccgp1102_dfgg_jzxcs_2",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/jzxcs/index_2.htm",
+        "status": "read",
+        "bytes": 21303
+      },
+      {
+        "key": "ccgp1102_dfgg_jzxcs_3",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/jzxcs/index_3.htm",
+        "status": "read",
+        "bytes": 20953
+      },
+      {
+        "key": "ccgp1102_dfgg_jzxcs_4",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/jzxcs/index_4.htm",
+        "status": "read",
+        "bytes": 21320
+      },
+      {
+        "key": "ccgp1102_dfgg_xjgg_0",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/xjgg/index.htm",
+        "status": "read",
+        "bytes": 20701
+      },
+      {
+        "key": "ccgp1102_dfgg_xjgg_1",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/xjgg/index_1.htm",
+        "status": "read",
+        "bytes": 21136
+      },
+      {
+        "key": "ccgp1102_dfgg_xjgg_2",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/xjgg/index_2.htm",
+        "status": "read",
+        "bytes": 20750
+      },
+      {
+        "key": "ccgp1102_dfgg_xjgg_3",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/xjgg/index_3.htm",
+        "status": "read",
+        "bytes": 20971
+      },
+      {
+        "key": "ccgp1102_dfgg_xjgg_4",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/xjgg/index_4.htm",
+        "status": "read",
+        "bytes": 20933
+      },
+      {
+        "key": "ccgp1102_dfgg_zbgg_0",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/index.htm",
+        "status": "read",
+        "bytes": 21815
+      },
+      {
+        "key": "ccgp1102_dfgg_zbgg_1",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/index_1.htm",
+        "status": "read",
+        "bytes": 22843
+      },
+      {
+        "key": "ccgp1102_dfgg_zbgg_2",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/index_2.htm",
+        "status": "read",
+        "bytes": 21626
+      },
+      {
+        "key": "ccgp1102_dfgg_zbgg_3",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/index_3.htm",
+        "status": "read",
+        "bytes": 22321
+      },
+      {
+        "key": "ccgp1102_dfgg_zbgg_4",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/index_4.htm",
+        "status": "read",
+        "bytes": 22602
+      },
+      {
+        "key": "ccgp1102_dfgg_cjgg_0",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/cjgg/index.htm",
+        "status": "read",
+        "bytes": 21119
+      },
+      {
+        "key": "ccgp1102_dfgg_cjgg_1",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/cjgg/index_1.htm",
+        "status": "read",
+        "bytes": 21439
+      },
+      {
+        "key": "ccgp1102_dfgg_cjgg_2",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/cjgg/index_2.htm",
+        "status": "read",
+        "bytes": 20791
+      },
+      {
+        "key": "ccgp1102_dfgg_cjgg_3",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/cjgg/index_3.htm",
+        "status": "read",
+        "bytes": 21209
+      },
+      {
+        "key": "ccgp1102_dfgg_cjgg_4",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/cjgg/index_4.htm",
+        "status": "read",
+        "bytes": 22504
+      },
+      {
+        "key": "ccgp1102_dfgg_gzgg_0",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/gzgg/index.htm",
+        "status": "read",
+        "bytes": 21406
+      },
+      {
+        "key": "ccgp1102_dfgg_gzgg_1",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/gzgg/index_1.htm",
+        "status": "read",
+        "bytes": 22291
+      },
+      {
+        "key": "ccgp1102_dfgg_gzgg_2",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/gzgg/index_2.htm",
+        "status": "read",
+        "bytes": 22323
+      },
+      {
+        "key": "ccgp1102_dfgg_gzgg_3",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/gzgg/index_3.htm",
+        "status": "read",
+        "bytes": 21962
+      },
+      {
+        "key": "ccgp1102_dfgg_gzgg_4",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/gzgg/index_4.htm",
+        "status": "read",
+        "bytes": 21582
+      },
+      {
+        "key": "ccgp1102_dfgg_fblbgg_0",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/fblbgg/index.htm",
+        "status": "read",
+        "bytes": 20772
+      },
+      {
+        "key": "ccgp1102_dfgg_fblbgg_1",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/fblbgg/index_1.htm",
+        "status": "read",
+        "bytes": 21775
+      },
+      {
+        "key": "ccgp1102_dfgg_fblbgg_2",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/fblbgg/index_2.htm",
+        "status": "read",
+        "bytes": 21530
+      },
+      {
+        "key": "ccgp1102_dfgg_fblbgg_3",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/fblbgg/index_3.htm",
+        "status": "read",
+        "bytes": 20484
+      },
+      {
+        "key": "ccgp1102_dfgg_fblbgg_4",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/fblbgg/index_4.htm",
+        "status": "read",
+        "bytes": 21117
+      },
+      {
+        "key": "ccgp1102_dfgg_qtgg_0",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/qtgg/index.htm",
+        "status": "read",
+        "bytes": 20985
+      },
+      {
+        "key": "ccgp1102_dfgg_qtgg_1",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/qtgg/index_1.htm",
+        "status": "read",
+        "bytes": 21793
+      },
+      {
+        "key": "ccgp1102_dfgg_qtgg_2",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/qtgg/index_2.htm",
+        "status": "read",
+        "bytes": 22223
+      },
+      {
+        "key": "ccgp1102_dfgg_qtgg_3",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/qtgg/index_3.htm",
+        "status": "read",
+        "bytes": 21319
+      },
+      {
+        "key": "ccgp1102_dfgg_qtgg_4",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/qtgg/index_4.htm",
+        "status": "read",
+        "bytes": 21379
+      },
+      {
+        "key": "wit1102",
+        "url": "https://zbcg.wit.edu.cn/",
+        "status": "read",
+        "bytes": 88223
+      },
+      {
+        "key": "pku1102",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202610/t20261029_27582613.htm",
+        "status": "read",
+        "bytes": 13547
+      },
+      {
+        "key": "cr1102_0",
+        "url": "https://api.crossref.org/works?query.bibliographic=NMR+spectroscopy&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "read",
+        "bytes": 1284914
+      },
+      {
+        "key": "cr1102_1",
+        "url": "https://api.crossref.org/works?query.bibliographic=nuclear+magnetic+resonance&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "read",
+        "bytes": 1436455
+      },
+      {
+        "key": "cr1102_2",
+        "url": "https://api.crossref.org/works?query.bibliographic=solid-state+NMR&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "read",
+        "bytes": 1134353
+      },
+      {
+        "key": "cr1102_3",
+        "url": "https://api.crossref.org/works?query.bibliographic=solution+NMR&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "failed",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "key": "cr1102_4",
+        "url": "https://api.crossref.org/works?query.bibliographic=low-field+NMR&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "read",
+        "bytes": 762199
+      },
+      {
+        "key": "cr1102_5",
+        "url": "https://api.crossref.org/works?query.bibliographic=TD-NMR&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "read",
+        "bytes": 682317
+      },
+      {
+        "key": "cr1102_6",
+        "url": "https://api.crossref.org/works?query.bibliographic=benchtop+NMR&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "read",
+        "bytes": 634886
+      },
+      {
+        "key": "cr1102_7",
+        "url": "https://api.crossref.org/works?query.bibliographic=qNMR&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "placeholder",
+        "bytes": 188
+      },
+      {
+        "key": "cr1102_8",
+        "url": "https://api.crossref.org/works?query.bibliographic=NUS+NMR&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "failed",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "key": "cr1102_9",
+        "url": "https://api.crossref.org/works?query.bibliographic=pure+shift+NMR&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "read",
+        "bytes": 936174
+      },
+      {
+        "key": "cr1102_10",
+        "url": "https://api.crossref.org/works?query.bibliographic=DOSY+NMR&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "read",
+        "bytes": 549702
+      },
+      {
+        "key": "cr1102_11",
+        "url": "https://api.crossref.org/works?query.bibliographic=NMR+spectral+processing&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "read",
+        "bytes": 1093316
+      },
+      {
+        "key": "cr1102_12",
+        "url": "https://api.crossref.org/works?query.bibliographic=DNP+NMR&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "read",
+        "bytes": 555445
+      },
+      {
+        "key": "cr1102_13",
+        "url": "https://api.crossref.org/works?query.bibliographic=MAS+NMR&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "read",
+        "bytes": 794547
+      },
+      {
+        "key": "cr1102_14",
+        "url": "https://api.crossref.org/works?query.bibliographic=paramagnetic+NMR&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "read",
+        "bytes": 638940
+      },
+      {
+        "key": "cr1102_15",
+        "url": "https://api.crossref.org/works?query.bibliographic=reaction+monitoring+NMR&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "read",
+        "bytes": 833262
+      },
+      {
+        "key": "cr1102_16",
+        "url": "https://api.crossref.org/works?query.bibliographic=EPR+spectroscopy&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "read",
+        "bytes": 1222739
+      },
+      {
+        "key": "cr1102_17",
+        "url": "https://api.crossref.org/works?query.bibliographic=electron+paramagnetic+resonance&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "failed",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "key": "cr1102_18",
+        "url": "https://api.crossref.org/works?query.bibliographic=CW+EPR&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "read",
+        "bytes": 194163
+      },
+      {
+        "key": "cr1102_19",
+        "url": "https://api.crossref.org/works?query.bibliographic=pulsed+EPR&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "failed",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "key": "cr1102_20",
+        "url": "https://api.crossref.org/works?query.bibliographic=DEER+PELDOR&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "read",
+        "bytes": 280834
+      },
+      {
+        "key": "cr1102_21",
+        "url": "https://api.crossref.org/works?query.bibliographic=ENDOR+ESEEM+HYSCORE&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "failed",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "key": "cr1102_22",
+        "url": "https://api.crossref.org/works?query.bibliographic=TREPR&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "placeholder",
+        "bytes": 188
+      },
+      {
+        "key": "cr1102_23",
+        "url": "https://api.crossref.org/works?query.bibliographic=spin+trapping+EPR&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "read",
+        "bytes": 1374068
+      },
+      {
+        "key": "cr1102_24",
+        "url": "https://api.crossref.org/works?query.bibliographic=spin+labeling+EPR&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "read",
+        "bytes": 1313101
+      },
+      {
+        "key": "cr1102_25",
+        "url": "https://api.crossref.org/works?query.bibliographic=operando+EPR&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "read",
+        "bytes": 459949
+      },
+      {
+        "key": "cr1102_26",
+        "url": "https://api.crossref.org/works?query.bibliographic=EC-EPR&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "read",
+        "bytes": 283793
+      },
+      {
+        "key": "cr1102_27",
+        "url": "https://api.crossref.org/works?query.bibliographic=rapid-scan+EPR&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "read",
+        "bytes": 1364525
+      },
+      {
+        "key": "cr1102_28",
+        "url": "https://api.crossref.org/works?query.bibliographic=NMR+probe+resonator+magnet+console+autosampler&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "failed",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "key": "cr1102_1102",
+        "url": "https://api.crossref.org/works?query.bibliographic=CEST+DEST+NMR&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "read",
+        "bytes": 549699
+      },
+      {
+        "key": "journal1102_JMR",
+        "url": "https://api.crossref.org/journals/1090-7807/works?filter=from-online-pub-date:2026-10-26,until-online-pub-date:2026-11-02&rows=100",
+        "status": "placeholder",
+        "bytes": 188
+      },
+      {
+        "key": "journal1102_JMRO",
+        "url": "https://api.crossref.org/journals/2666-4410/works?filter=from-online-pub-date:2026-10-26,until-online-pub-date:2026-11-02&rows=100",
+        "status": "placeholder",
+        "bytes": 188
+      },
+      {
+        "key": "journal1102_MR",
+        "url": "https://api.crossref.org/journals/2699-0016/works?filter=from-online-pub-date:2026-10-26,until-online-pub-date:2026-11-02&rows=100",
+        "status": "placeholder",
+        "bytes": 188
+      },
+      {
+        "key": "journal1102_JBNMR",
+        "url": "https://api.crossref.org/journals/1573-5001/works?filter=from-online-pub-date:2026-10-26,until-online-pub-date:2026-11-02&rows=100",
+        "status": "read",
+        "bytes": 30503
+      },
+      {
+        "key": "journal1102_SSNMR",
+        "url": "https://api.crossref.org/journals/0926-2040/works?filter=from-online-pub-date:2026-10-26,until-online-pub-date:2026-11-02&rows=100",
+        "status": "placeholder",
+        "bytes": 188
+      },
+      {
+        "key": "journal1102_MRC",
+        "url": "https://api.crossref.org/journals/1097-458X/works?filter=from-online-pub-date:2026-10-26,until-online-pub-date:2026-11-02&rows=100",
+        "status": "read",
+        "bytes": 79901
+      },
+      {
+        "key": "journal1102_AMR",
+        "url": "https://api.crossref.org/journals/1613-7507/works?filter=from-online-pub-date:2026-10-26,until-online-pub-date:2026-11-02&rows=100",
+        "status": "read",
+        "bytes": 12502
+      },
+      {
+        "key": "route1102_0",
+        "url": "https://procurement.westlake.edu.cn/sfw_cms/e?page=cms.psms.gglist&typeDetail=XQ",
+        "status": "read",
+        "bytes": 19262
+      },
+      {
+        "key": "route1102_1",
+        "url": "https://onlinelibrary.wiley.com/toc/1097458xa/0/0",
+        "status": "failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "key": "route1102_2",
+        "url": "https://www.sciencedirect.com/journal/journal-of-magnetic-resonance/articles-in-press",
+        "status": "failed",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "key": "route1102_3",
+        "url": "https://www.sciencedirect.com/journal/journal-of-magnetic-resonance-open/articles-in-press",
+        "status": "failed",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "key": "route1102_4",
+        "url": "https://link.springer.com/journal/10858/online-first-articles",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "key": "route1102_5",
+        "url": "https://www.sciencedirect.com/journal/solid-state-nuclear-magnetic-resonance/articles-in-press",
+        "status": "placeholder",
+        "bytes": 195
+      },
+      {
+        "key": "route1102_6",
+        "url": "https://link.springer.com/journal/723/online-first-articles",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "key": "route1102_7",
+        "url": "https://pubs.aip.org/jcp/issue",
+        "status": "failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "key": "route1102_8",
+        "url": "https://www.bruker.com/en/news-and-events/news.html",
+        "status": "read",
+        "bytes": 77362
+      },
+      {
+        "key": "route1102_9",
+        "url": "https://www.ciqtek.com/news_nc1",
+        "status": "read",
+        "bytes": 44117
+      },
+      {
+        "key": "route1102_10",
+        "url": "https://www.enc-conference.org/",
+        "status": "read",
+        "bytes": 54001
+      },
+      {
+        "key": "route1102_11",
+        "url": "https://euromar2026.org/",
+        "status": "read",
+        "bytes": 52412
+      },
+      {
+        "key": "route1102_12",
+        "url": "https://www.icmrbs2026.org/",
+        "status": "read",
+        "bytes": 67487
+      },
+      {
+        "key": "route1102_13",
+        "url": "https://www.apees2026.jp/",
+        "status": "failed",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "key": "route1102_14",
+        "url": "https://www.ismar.org/",
+        "status": "read",
+        "bytes": 52263
+      },
+      {
+        "key": "route1102_15",
+        "url": "https://mr.copernicus.org/recent_papers.html",
+        "status": "read",
+        "bytes": 99571
+      },
+      {
+        "key": "route1102_16",
+        "url": "https://pubs.acs.org/toc/jacsat/0/0",
+        "status": "failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "key": "route1102_17",
+        "url": "https://pubs.rsc.org/en/journals/journalissues/cp",
+        "status": "failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "key": "route1102_18",
+        "url": "https://www.nature.com/nature/research-articles",
+        "status": "read",
+        "bytes": 219708
+      },
+      {
+        "key": "route1102_19",
+        "url": "https://www.science.org/journal/science",
+        "status": "failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "key": "route1102_20",
+        "url": "https://www.jeol.com/news/",
+        "status": "read",
+        "bytes": 89833
+      },
+      {
+        "key": "route1102_21",
+        "url": "https://www.oxinst.com/news",
+        "status": "read",
+        "bytes": 71468
+      },
+      {
+        "key": "route1102_22",
+        "url": "https://magritek.com/news-events/",
+        "status": "read",
+        "bytes": 253466
+      },
+      {
+        "key": "route1102_23",
+        "url": "https://www.nanalysis.com/",
+        "status": "read",
+        "bytes": 500061
+      },
+      {
+        "key": "route1102_24",
+        "url": "https://www.ceitec.eu/efepr-conference-2026/a5609",
+        "status": "read",
+        "bytes": 21380
+      },
+      {
+        "key": "route1102_25",
+        "url": "https://export.arxiv.org/api/query?search_query=all:NMR+OR+all:EPR&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
+        "status": "read",
+        "bytes": 247404
+      },
+      {
+        "key": "route1102_26",
+        "url": "https://chemrxiv.org/engage/chemrxiv/search-dashboard?text=NMR",
+        "status": "failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "key": "route1102_27",
+        "url": "https://zbb.tju.edu.cn/",
+        "status": "placeholder",
+        "bytes": 98
+      },
+      {
+        "key": "route1102_28",
+        "url": "https://provider.yuncaitong.cn/api/publish/solr/relative/?projectId=20MVEIIW118TTQQ1",
+        "status": "read",
+        "bytes": 2701
+      },
+      {
+        "key": "route1102_29",
+        "url": "https://provider.yuncaitong.cn/api/publish/solr/relative/?projectId=20MVEIDQ2EQAJQNG",
+        "status": "read",
+        "bytes": 2755
+      },
+      {
+        "key": "route1102_30",
+        "url": "https://www.ciqtek.com/news.html",
+        "status": "read",
+        "bytes": 62677
+      },
+      {
+        "key": "route1102_1102",
+        "url": "https://zhgl.nankai.edu.cn/sfw_cms/e?page=cms.index",
+        "status": "read",
+        "bytes": 34922
+      },
+      {
+        "key": "route1102_32",
+        "url": "https://provider.yuncaitong.cn/api/publish/solr/relative/?projectId=20MVKSN4S4BH95P7",
+        "status": "read",
+        "bytes": 1786
+      },
+      {
+        "key": "route1102_33",
+        "url": "https://czptmh.hmc.edu.cn/pbAnnouncements.jsf?purchaseAnnouncementType=BIDDING_TRANSACTION",
+        "status": "read",
+        "bytes": 36472
+      },
+      {
+        "key": "route1102_34",
+        "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202610/t20261027_27567358.htm",
+        "status": "read",
+        "bytes": 31041
+      },
+      {
+        "key": "route1102_35",
+        "url": "https://scbo.sc.gov/online-edition?c=121-2026-10-23",
+        "status": "read",
+        "bytes": 185189
+      },
+      {
+        "key": "route1102_36",
+        "url": "https://sam.gov/workspace/contract/opp/a6bff20dda6148bc8881e9f3bbe2811e/view",
+        "status": "read",
+        "bytes": 41847
+      },
+      {
+        "key": "route1102_37",
+        "url": "https://link.springer.com/journal/10858/articles",
+        "status": "read",
+        "bytes": 368155
+      },
+      {
+        "key": "route1102_38",
+        "url": "https://link.springer.com/journal/723/articles",
+        "status": "read",
+        "bytes": 402892
+      },
+      {
+        "key": "qimg1102",
+        "url": "https://www.qimg.cgs.gov.cn/",
+        "status": "failed",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "key": "chem1102",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202610/t20261029_27585255.htm",
+        "status": "read",
+        "bytes": 13857
+      }
+    ],
+    "additional_access": [
+      {
+        "key": "day1102_2026-10-26",
+        "url": "https://api.crossref.org/works?filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-10-26&query=magnetic+resonance+NMR+EPR&rows=100",
+        "status": "read",
+        "bytes": 1017406
+      },
+      {
+        "key": "day1102_2026-10-27",
+        "url": "https://api.crossref.org/works?filter=from-online-pub-date%3A2026-10-27%2Cuntil-online-pub-date%3A2026-10-27&query=magnetic+resonance+NMR+EPR&rows=100",
+        "status": "read",
+        "bytes": 1613090
+      },
+      {
+        "key": "day1102_2026-10-28",
+        "url": "https://api.crossref.org/works?filter=from-online-pub-date%3A2026-10-28%2Cuntil-online-pub-date%3A2026-10-28&query=magnetic+resonance+NMR+EPR&rows=100",
+        "status": "read",
+        "bytes": 1241048
+      },
+      {
+        "key": "day1102_2026-10-29",
+        "url": "https://api.crossref.org/works?filter=from-online-pub-date%3A2026-10-29%2Cuntil-online-pub-date%3A2026-10-29&query=magnetic+resonance+NMR+EPR&rows=100",
+        "status": "read",
+        "bytes": 1113134
+      },
+      {
+        "key": "day1102_2026-10-30",
+        "url": "https://api.crossref.org/works?filter=from-online-pub-date%3A2026-10-30%2Cuntil-online-pub-date%3A2026-10-30&query=magnetic+resonance+NMR+EPR&rows=100",
+        "status": "read",
+        "bytes": 1128333
+      },
+      {
+        "key": "day1102_2026-10-31",
+        "url": "https://api.crossref.org/works?filter=from-online-pub-date%3A2026-10-31%2Cuntil-online-pub-date%3A2026-10-31&query=magnetic+resonance+NMR+EPR&rows=100",
+        "status": "failed",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "key": "day1102_2026-11-01",
+        "url": "https://api.crossref.org/works?filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-01&query=magnetic+resonance+NMR+EPR&rows=100",
+        "status": "read",
+        "bytes": 269276
+      },
+      {
+        "key": "arxivdate1102",
+        "url": "https://export.arxiv.org/api/query?search_query=%28all%3ANMR+OR+all%3A%22electron+paramagnetic+resonance%22+OR+all%3A%22nuclear+magnetic+resonance%22%29+AND+submittedDate%3A%5B202610260000+TO+202611022359%5D&sortBy=submittedDate&sortOrder=descending&max_results=100",
+        "status": "read",
+        "bytes": 10606
+      },
+      {
+        "key": "hilla1102extra",
+        "url": "https://pubs.rsc.org/en/content/articlehtml/2026/cp/d6cp03070j",
+        "status": "failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "key": "sely1102extra",
+        "url": "https://pubs.rsc.org/en/content/articlehtml/2026/cp/d6cp02914k",
+        "status": "failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "key": "matt1102extra",
+        "url": "https://pubs.rsc.org/en/content/articlehtml/2026/cc/d6cc03248f",
+        "status": "failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "key": "grifft1102extra",
+        "url": "https://pubs.acs.org/doi/10.1021/accountsmr.6c00250",
+        "status": "failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "key": "hn1102extra",
+        "url": "https://zcc.hunnu.edu.cn/",
+        "status": "failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "key": "sust21102extra",
+        "url": "https://zcgl.sust.edu.cn/zbcg.htm",
+        "status": "failed",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "key": "proc1102extra",
+        "url": "https://www.mdpi.com/2673-4583/22/1/71",
+        "status": "read",
+        "bytes": 264433
+      },
+      {
+        "key": "ggzy1102extra",
+        "url": "https://ggzy.hunan.gov.cn/",
+        "status": "read",
+        "bytes": 106257
+      },
+      {
+        "key": "sam1102extra",
+        "url": "https://sam.gov/search/?index=opp&keywords=NMR&sort=-modifiedDate&date_filter_index=0",
+        "status": "read",
+        "bytes": 43308
+      },
+      {
+        "key": "bidsfactory1102",
+        "url": "https://bidsfactory.com/en/tenders/106-china_ccgp-9409f8142aee5482",
+        "status": "read",
+        "bytes": 180138
+      },
+      {
+        "key": "ggzy1102",
+        "url": "https://www.ggzy.gov.cn/",
+        "status": "failed",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "key": "ccgphn1102",
+        "url": "https://www.ccgp-hunan.gov.cn/",
+        "status": "failed",
+        "error": "HTTP Error 503: Service Unavailable"
+      }
+    ],
+    "verification_access": [
+      {
+        "key": "torchi_meta1102",
+        "url": "https://api.crossref.org/works/10.1038/s41467-026-79053-z",
+        "status": "read",
+        "bytes": 6560
+      },
+      {
+        "key": "crystal1102",
+        "url": "https://link.springer.com/article/10.1007/s12104-026-10280-7",
+        "status": "read",
+        "bytes": 303436
+      },
+      {
+        "key": "susthome1102",
+        "url": "https://zcgl.sust.edu.cn/",
+        "status": "failed",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "key": "ggzyplatform1102",
+        "url": "https://www.hnsggzy.com/",
+        "status": "failed",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "key": "sino1102",
+        "url": "https://hyszpt.com/#/zcnotice",
+        "status": "read",
+        "bytes": 1675
+      },
+      {
+        "key": "hnlist1102",
+        "url": "https://zcc.hunnu.edu.cn/",
+        "status": "failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "key": "qims1102",
+        "url": "https://qims.amegroups.org/article/view/160879/html",
+        "status": "read",
+        "bytes": 125576
+      }
+    ],
+    "rate_limit_retries": [
+      {
+        "key": "cr1102_3",
+        "url": "https://api.crossref.org/works?query.bibliographic=solution+NMR&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "read_retry",
+        "error": "HTTP Error 429: Too Many Requests",
+        "bytes": 1295963
+      },
+      {
+        "key": "cr1102_8",
+        "url": "https://api.crossref.org/works?query.bibliographic=NUS+NMR&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "read_retry",
+        "error": "HTTP Error 429: Too Many Requests",
+        "bytes": 557154
+      },
+      {
+        "key": "cr1102_17",
+        "url": "https://api.crossref.org/works?query.bibliographic=electron+paramagnetic+resonance&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "read_retry",
+        "error": "HTTP Error 429: Too Many Requests",
+        "bytes": 1398025
+      },
+      {
+        "key": "cr1102_19",
+        "url": "https://api.crossref.org/works?query.bibliographic=pulsed+EPR&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "read_retry",
+        "error": "HTTP Error 429: Too Many Requests",
+        "bytes": 1037974
+      },
+      {
+        "key": "cr1102_21",
+        "url": "https://api.crossref.org/works?query.bibliographic=ENDOR+ESEEM+HYSCORE&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "read_retry",
+        "error": "HTTP Error 429: Too Many Requests",
+        "bytes": 56716
+      },
+      {
+        "key": "cr1102_28",
+        "url": "https://api.crossref.org/works?query.bibliographic=NMR+probe+resonator+magnet+console+autosampler&filter=from-online-pub-date%3A2026-10-26%2Cuntil-online-pub-date%3A2026-11-02&rows=100&sort=published&order=desc",
+        "status": "read_retry",
+        "error": "HTTP Error 429: Too Many Requests",
+        "bytes": 1440557
+      },
+      {
+        "key": "day1102_2026-10-31",
+        "url": "https://api.crossref.org/works?filter=from-online-pub-date%3A2026-10-31%2Cuntil-online-pub-date%3A2026-10-31&query=magnetic+resonance+NMR+EPR&rows=100",
+        "status": "read_retry",
+        "error": "HTTP Error 429: Too Many Requests",
+        "bytes": 437321
+      }
+    ],
+    "crossref_unique_records": 1662,
+    "pubmed_records": 200,
+    "topic_clusters": [
+      "solution/pure shift/DOSY/qNMR/NUS/CEST/DEST/reaction monitoring",
+      "MAS/fast MAS/DNP",
+      "TD/benchtop/low-field",
+      "spectral processing/computation",
+      "CW/rapid-scan EPR",
+      "pulsed/DEER/ENDOR/ESEEM/HYSCORE",
+      "TREPR/illumination",
+      "operando/EC-EPR",
+      "resonator/probe/magnet/console/autosampler"
+    ],
+    "notes": "All five routes and nine clusters attempted separately; seven per-day metadata queries; arXiv submittedDate fresh feed; prior two preprints duplicates; nuclear refrigerator/Majorana not spectroscopy core. Publisher Latest/InPress pages failures preserved; specialist7ISSN metadata also checked. Conference persistent pages no newly dated independent technical agenda. SAM and some procurement pages JS shells, not absence. China and overseas queries separate; no login, registration, bidding or paid actions."
+  },
+  "candidates": [
+    {
+      "item_id": "SF-20261102-01",
+      "title": "Backbone and side-chain NMR resonance assignments of Ciona intestinalis$$\\beta \\gamma$$-crystallin",
+      "doi": "10.1007/s12104-026-10280-7",
+      "url": "https://link.springer.com/article/10.1007/s12104-026-10280-7",
+      "source": "Biomolecular NMR Assignments",
+      "actual_online_date": "2026-11-01",
+      "publication_status": "published",
+      "author_verification": {
+        "first_author_family": "Jimenez",
+        "source": "https://api.crossref.org/works/10.1007/s12104-026-10280-7",
+        "publisher_author_list": "also checked"
+      },
+      "mr_role": "method_core",
+      "role_evidence": "Jimenez 等更新海鞘Ciona intestinalis βγ-crystallin的骨架共振指认，并补充无钙与结合钙两种状态的侧链数据。两种状态均指认79/82个目标侧链碳，覆盖率96.3%；结合化学位移和TALOS-N预测，研究为比较钙结合、局部结构及蛋白稳定性提供位点分辨基础。",
+      "evidence_location": "Publisher abstract and about/date; crystallin full NMR measurements and assignment/deposition sections",
+      "decision": "included",
+      "reason": "七日内、磁共振为核心方法/应用；全库与最近7期无DOI/规范化URL/题名或工作版本重复",
+      "duplicate_key": "10.1007/s12104-026-10280-7",
+      "source_review": "verified primary publisher and Crossref",
+      "date_review": "publisher exact date; no precise time so7d_extension",
+      "scientific_review": "approved; conditions and interpretation bounded",
+      "tag_review_status": "approved",
+      "tag_reasons": {
+        "nmr": "NMR：Jimenez 等更新海鞘Ciona intestinalis βγ-crystallin的骨架共振指认，并补充无钙与结合钙两种状态的侧链数据。两种状态均指认79/82个目标侧链碳，覆盖率96.3%；结合化学位移和TALOS-N预测，研究为比较钙结合、局部结构及蛋白稳定性提供位点分辨基础。",
+        "solution_nmr": "溶液NMR：Jimenez 等更新海鞘Ciona intestinalis βγ-crystallin的骨架共振指认，并补充无钙与结合钙两种状态的侧链数据。两种状态均指认79/82个目标侧链碳，覆盖率96.3%；结合化学位移和TALOS-N预测，研究为比较钙结合、局部结构及蛋白稳定性提供位点分辨基础。",
+        "multinuclear_nmr": "多核NMR：Jimenez 等更新海鞘Ciona intestinalis βγ-crystallin的骨架共振指认，并补充无钙与结合钙两种状态的侧链数据。两种状态均指认79/82个目标侧链碳，覆盖率96.3%；结合化学位移和TALOS-N预测，研究为比较钙结合、局部结构及蛋白稳定性提供位点分辨基础。",
+        "multidimensional_nmr": "多维NMR：Jimenez 等更新海鞘Ciona intestinalis βγ-crystallin的骨架共振指认，并补充无钙与结合钙两种状态的侧链数据。两种状态均指认79/82个目标侧链碳，覆盖率96.3%；结合化学位移和TALOS-N预测，研究为比较钙结合、局部结构及蛋白稳定性提供位点分辨基础。",
+        "structural_biology": "结构生物学：Jimenez 等更新海鞘Ciona intestinalis βγ-crystallin的骨架共振指认，并补充无钙与结合钙两种状态的侧链数据。两种状态均指认79/82个目标侧链碳，覆盖率96.3%；结合化学位移和TALOS-N预测，研究为比较钙结合、局部结构及蛋白稳定性提供位点分辨基础。"
+      }
+    },
+    {
+      "item_id": "SF-20261102-02",
+      "title": "Real-time quantification of skeletal muscle metabolism in healthy men using hyperpolarised [1-¹³C]pyruvate reveals training-dependent adaptation",
+      "doi": "10.1038/s41467-026-79053-z",
+      "url": "https://www.nature.com/articles/s41467-026-79053-z",
+      "source": "Nature Communications",
+      "actual_online_date": "2026-10-30",
+      "publication_status": "early_access",
+      "author_verification": {
+        "first_author_family": "Torchi",
+        "source": "https://api.crossref.org/works/10.1038/s41467-026-79053-z",
+        "publisher_author_list": "also checked"
+      },
+      "mr_role": "application_core",
+      "role_evidence": "Torchi 等将超极化[1-¹³C]丙酮酸MRS与³¹P-MRS结合，在静坐生活与耐力训练男性的跖屈运动中跟踪腓肠肌代谢。随强度增加，丙酮酸至乳酸的相对转化增强；训练组碳酸氢盐标记较高、乳酸生成较低，并伴随磷酸肌酸消耗及细胞内pH变化。",
+      "evidence_location": "Nature publisher abstract, author list and Published30Oct2026; early accepted manuscript notice",
+      "decision": "included",
+      "reason": "七日内、磁共振为核心方法/应用；全库与最近7期无DOI/规范化URL/题名或工作版本重复",
+      "duplicate_key": "10.1038/s41467-026-79053-z",
+      "source_review": "verified primary publisher and Crossref",
+      "date_review": "publisher exact date; no precise time so7d_extension",
+      "scientific_review": "abstract-limited; no sample count/field/pulse timing inferred; association not intervention causality",
+      "tag_review_status": "approved",
+      "tag_reasons": {
+        "nmr": "NMR：Torchi 等将超极化[1-¹³C]丙酮酸MRS与³¹P-MRS结合，在静坐生活与耐力训练男性的跖屈运动中跟踪腓肠肌代谢。随强度增加，丙酮酸至乳酸的相对转化增强；训练组碳酸氢盐标记较高、乳酸生成较低，并伴随磷酸肌酸消耗及细胞内pH变化。",
+        "in_vivo_mrs": "活体磁共振波谱：Torchi 等将超极化[1-¹³C]丙酮酸MRS与³¹P-MRS结合，在静坐生活与耐力训练男性的跖屈运动中跟踪腓肠肌代谢。随强度增加，丙酮酸至乳酸的相对转化增强；训练组碳酸氢盐标记较高、乳酸生成较低，并伴随磷酸肌酸消耗及细胞内pH变化。",
+        "multinuclear_nmr": "多核NMR：Torchi 等将超极化[1-¹³C]丙酮酸MRS与³¹P-MRS结合，在静坐生活与耐力训练男性的跖屈运动中跟踪腓肠肌代谢。随强度增加，丙酮酸至乳酸的相对转化增强；训练组碳酸氢盐标记较高、乳酸生成较低，并伴随磷酸肌酸消耗及细胞内pH变化。",
+        "life_science": "生命科学：Torchi 等将超极化[1-¹³C]丙酮酸MRS与³¹P-MRS结合，在静坐生活与耐力训练男性的跖屈运动中跟踪腓肠肌代谢。随强度增加，丙酮酸至乳酸的相对转化增强；训练组碳酸氢盐标记较高、乳酸生成较低，并伴随磷酸肌酸消耗及细胞内pH变化。"
+      }
+    },
+    {
+      "title": "Quantitative\nNMR spectroscopy in the Instrumental\nAnalysis Laboratory: Identification and Quantification of Active Ingredients\nin Over-the-Counter Pharmaceutical Products",
+      "doi": "10.1021/acs.jchemed.6c00558",
+      "url": "https://doi.org/10.1021/acs.jchemed.6c00558",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            31
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1021/acs.jchemed.6c00558",
+      "existing_item_id": "SF-20261101-03",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "Double Resonance Spectroscopy: Optically Detected Magnetic Resonance and Electron-Nuclear Double Resonance",
+      "doi": "10.1007/s00723-026-01888-y",
+      "url": "https://doi.org/10.1007/s00723-026-01888-y",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            30
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1007/s00723-026-01888-y",
+      "existing_item_id": "SF-20261031-09",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "Protein Scaffolds Modulate\nthe Electronic Structure\nof a Common Ketyl Radical Intermediate in Thiamine Pyrophosphate-Dependent\nRadical Biocatalysis: Insights from EPR and ENDOR Spectroscopy",
+      "doi": "10.1021/jacs.6c16863",
+      "url": "https://doi.org/10.1021/jacs.6c16863",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            30
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1021/jacs.6c16863",
+      "existing_item_id": "SF-20261031-02",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "Regional cingulate metabolite-ratio differences exceed longitudinal changes across an approximately 34-h protocol: a prospective quality-controlled proton magnetic resonance spectroscopy study",
+      "doi": "10.3389/fmed.2026.1990412",
+      "url": "https://doi.org/10.3389/fmed.2026.1990412",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            28
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.3389/fmed.2026.1990412",
+      "existing_item_id": "SF-20261031-06",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "Origin of Divergent\nH/D Isotope Effects on 31P NMR Chemical Shifts in Ferrocene\nDerivatives: A Multicomponent\nDFT Study",
+      "doi": "10.1021/acs.jpca.6c03984",
+      "url": "https://doi.org/10.1021/acs.jpca.6c03984",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            31
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1021/acs.jpca.6c03984",
+      "existing_item_id": "SF-20261101-02",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "Inverse-IMPRESSION:\nA Graph-Based Platform for Molecular\nStructure Elucidation from Experimental NMR Spectroscopic Properties",
+      "doi": "10.1021/jacs.6c14119",
+      "url": "https://doi.org/10.1021/jacs.6c14119",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            31
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1021/jacs.6c14119",
+      "existing_item_id": "SF-20261101-01",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "Axially Chiral Binaphthyl Isothiocyanates as Versatile 19F NMR Probes for Chiral Discrimination",
+      "doi": "10.1021/acs.analchem.6c03946",
+      "url": "https://doi.org/10.1021/acs.analchem.6c03946",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            29
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1021/acs.analchem.6c03946",
+      "existing_item_id": "SF-20261030-03",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "Subzero‐Temperature NMR Observation of Protein Dynamics and Ligand Binding Enabled by Encapsulation Within Coordination Cages",
+      "doi": "10.1002/asia.71029",
+      "url": "https://doi.org/10.1002/asia.71029",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            29
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1002/asia.71029",
+      "existing_item_id": "SF-20261031-03",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "Exercise intensity-dependent metabolic signatures and cardiovascular protection in type 2 diabetes: evidence from NMR metabolomics in the UK Biobank",
+      "doi": "10.1186/s12933-026-03426-3",
+      "url": "https://doi.org/10.1186/s12933-026-03426-3",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            29
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1186/s12933-026-03426-3",
+      "existing_item_id": "SF-20261030-08",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "Evaluation of Low-Field NMR T2 Methods for Residual Oil Saturation Estimation in Carbonate Core Plugs",
+      "doi": "10.3390/app162110710",
+      "url": "https://doi.org/10.3390/app162110710",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            29
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.3390/app162110710",
+      "existing_item_id": "SF-20261030-09",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "1H, 13C, and 15N backbone resonance assignment of the N-terminal 280 amino acids of human NHERF1 protein",
+      "doi": "10.1007/s12104-026-10281-6",
+      "url": "https://doi.org/10.1007/s12104-026-10281-6",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            29
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1007/s12104-026-10281-6",
+      "existing_item_id": "SF-20261030-04",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "An integrated NMR field probe using rapid non-adiabatic field switch-off for (ultra) low field MRI",
+      "doi": "10.1038/s44172-026-00815-0",
+      "url": "https://doi.org/10.1038/s44172-026-00815-0",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            28
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1038/s44172-026-00815-0",
+      "existing_item_id": "SF-20261029-03",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "NMR\n                    <i>T</i>\n                    2-Based Mechanistic\nStudy of Residual Oil Distribution during Pulsed Waterflooding in\nLow- to Medium-Permeability Cores",
+      "doi": "10.1021/acsomega.6c06514",
+      "url": "https://doi.org/10.1021/acsomega.6c06514",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            28
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1021/acsomega.6c06514",
+      "existing_item_id": "SF-20261029-07",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "PNPShift: an NMR chemical shift predictor for purine-nucleotide-bound and unliganded proteins",
+      "doi": "10.1007/s10858-026-00499-w",
+      "url": "https://doi.org/10.1007/s10858-026-00499-w",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            28
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1007/s10858-026-00499-w",
+      "existing_item_id": "SF-20261030-02",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "Reconsidering Catechol\nContributions in Quantitative 31P NMR Analyses of Lignins",
+      "doi": "10.1021/acsomega.6c09845",
+      "url": "https://doi.org/10.1021/acsomega.6c09845",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            28
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1021/acsomega.6c09845",
+      "existing_item_id": "SF-20261029-04",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "Can Potentiometric Titration Be Almost as Accurate as 1H NMR to Determine the Degree of Deacetylation of Modified Chitosan?",
+      "doi": "10.3390/molecules31213892",
+      "url": "https://doi.org/10.3390/molecules31213892",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            28
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.3390/molecules31213892",
+      "existing_item_id": "SF-20261029-08",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "Structural Analogues of Thyronamines. Computational 1H and 13C NMR Study of 4-[4-(2-Aminoetoxy)phenoxy]aniline—A New Structural Analogue of Thyronamines",
+      "doi": "10.3390/chemproc2026022071",
+      "url": "https://doi.org/10.3390/chemproc2026022071",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            28
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.3390/chemproc2026022071",
+      "existing_item_id": "SF-20261101-05",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "Applications of 19F NMR Spectroscopy in Detection and Degradation Monitoring of Per- and Polyfluoroalkyl Substances",
+      "doi": "10.1021/acs.analchem.6c04264",
+      "url": "https://doi.org/10.1021/acs.analchem.6c04264",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            28
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1021/acs.analchem.6c04264",
+      "existing_item_id": "SF-20261029-05",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "Pore-Scale Remaining\nOil Characterization by Integrated\nOnline NMR and Micro-CT",
+      "doi": "10.1021/acsomega.6c08334",
+      "url": "https://doi.org/10.1021/acsomega.6c08334",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            28
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1021/acsomega.6c08334",
+      "existing_item_id": "SF-20261029-06",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "NMR Spectroscopy in Heparin Research: Structural Characterization, Quality Control, and Contaminant Screening",
+      "doi": "10.1002/mrc.70148",
+      "url": "https://doi.org/10.1002/mrc.70148",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            27
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1002/mrc.70148",
+      "existing_item_id": "SF-20261029-09",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "LLMs in the Laboratory: Benchmarking Conversational AI for Multivariate Analysis of NMR Spectroscopic Data",
+      "doi": "10.1021/acs.analchem.6c02701",
+      "url": "https://doi.org/10.1021/acs.analchem.6c02701",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            27
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1021/acs.analchem.6c02701",
+      "existing_item_id": "SF-20261028-06",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "NMR reveals an ordered but conformationally exchanging N-terminus in the chemokine CCL11",
+      "doi": "10.1038/s41598-026-76811-3",
+      "url": "https://doi.org/10.1038/s41598-026-76811-3",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            27
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1038/s41598-026-76811-3",
+      "existing_item_id": "SF-20261028-04",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "Dynamics of Interfacial\nWater Molecules Inside a Mesoporous\nMaterial as Probed by NMR Relaxometry: A Multimodal Approach",
+      "doi": "10.1021/acs.jpcc.6c05410",
+      "url": "https://doi.org/10.1021/acs.jpcc.6c05410",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            27
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1021/acs.jpcc.6c05410",
+      "existing_item_id": "SF-20261028-03",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "Salivary 1H NMR metabolic profiling of diabetic patients with and without periodontitis: an exploratory pilot study",
+      "doi": "10.1186/s44342-026-00085-4",
+      "url": "https://doi.org/10.1186/s44342-026-00085-4",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            26
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1186/s44342-026-00085-4",
+      "existing_item_id": "SF-20261027-06",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "Compound‐Blocked Calibration Transfer in a Three‐API Finite‐Cluster GIAO‐DFT\n                    <sup>13</sup>\n                    C NMR Benchmark",
+      "doi": "10.1002/cem.70186",
+      "url": "https://doi.org/10.1002/cem.70186",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            26
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1002/cem.70186",
+      "existing_item_id": "SF-20261028-07",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "Small-Molecule 1H and 13C NMR:\nFrom Chemical-Shift Prediction to Automated Structure Elucidation",
+      "doi": "10.1021/acs.jcim.6c02915",
+      "url": "https://doi.org/10.1021/acs.jcim.6c02915",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            26
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1021/acs.jcim.6c02915",
+      "existing_item_id": "SF-20261027-05",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "High-Field Spin\nDynamics of Photoexcited Pentacene\nat 9.2 T by Time-Resolved Pulsed EPR and Vector DC Magnetic-Field\nSensing",
+      "doi": "10.1021/acs.jpclett.6c03130",
+      "url": "https://doi.org/10.1021/acs.jpclett.6c03130",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            28
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1021/acs.jpclett.6c03130",
+      "existing_item_id": "SF-20261029-02",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "Cyanide Photodissociation\nfrom the Site-Differentiated\n[4Fe-4S]1+ Cluster of\n                    <i>Pyrococcus furiosus</i>\n                    Ferredoxin Characterized by EPR and 13C/15N ENDOR",
+      "doi": "10.1021/acs.inorgchem.6c04022",
+      "url": "https://doi.org/10.1021/acs.inorgchem.6c04022",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            27
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1021/acs.inorgchem.6c04022",
+      "existing_item_id": "SF-20261028-01",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "Mechanistic\nInsights into Nicotinamidase by CoII EPR Spectroscopy",
+      "doi": "10.1021/acs.inorgchem.6c04023",
+      "url": "https://doi.org/10.1021/acs.inorgchem.6c04023",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            27
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1021/acs.inorgchem.6c04023",
+      "existing_item_id": "SF-20261028-02",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "Exploring the Case of Exchange Narrowing Absence in EPR Spectrum",
+      "doi": "10.1007/s00723-026-01882-4",
+      "url": "https://doi.org/10.1007/s00723-026-01882-4",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            26
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1007/s00723-026-01882-4",
+      "existing_item_id": "SF-20261027-04",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "Electron–Nuclear\nHyperfine Coupling Enables\nElectron Paramagnetic Resonance Detection of Diamagnetic Cu(I) with\nTrityl Spin Probes",
+      "doi": "10.1021/jacs.6c18607",
+      "url": "https://doi.org/10.1021/jacs.6c18607",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            30
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1021/jacs.6c18607",
+      "existing_item_id": "SF-20261031-01",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "Clock-transition-enabled long electron spin coherence of telecom emitters in\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n                      <mml:msub>\n                        <mml:mi>CeO</mml:mi>\n                        <mml:mn>2</mml:mn>\n                      </mml:msub>\n                    </mml:math>",
+      "doi": "10.1103/zb3k-h546",
+      "url": "https://doi.org/10.1103/zb3k-h546",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            29
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1103/zb3k-h546",
+      "existing_item_id": "SF-20261010-06",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "Origin of long-lived nuclear spin states and coherences in aliphatic chains revealed by relaxation theory",
+      "doi": "10.1063/5.0355673",
+      "url": "https://doi.org/10.1063/5.0355673",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            29
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1063/5.0355673",
+      "existing_item_id": "SF-20261031-04",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "A single-molecule spin–photon interface",
+      "doi": "10.1038/s41586-026-11147-6",
+      "url": "https://doi.org/10.1038/s41586-026-11147-6",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            28
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1038/s41586-026-11147-6",
+      "existing_item_id": "SF-20261029-01",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "MetabHub: an integrative platform for plasma nuclear magnetic resonance metabolomics using mediation analysis, disease prediction, and risk stratification",
+      "doi": "10.1093/nar/gkag1066",
+      "url": "https://doi.org/10.1093/nar/gkag1066",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            29
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1093/nar/gkag1066",
+      "existing_item_id": "SF-20261030-07",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "Solid-State Nuclear Magnetic Resonance Search for Axion-like Dark Matter with Broadband SQUID Magnetometry",
+      "doi": "10.3390/universe12110327",
+      "url": "https://doi.org/10.3390/universe12110327",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            29
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.3390/universe12110327",
+      "existing_item_id": "SF-20261031-05",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "Motion-corrected structural realignment and quantitative voxel targeting in magnetic resonance spectroscopy",
+      "doi": "10.1162/imag.a.1425",
+      "url": "https://doi.org/10.1162/imag.a.1425",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            26
+          ]
+        ]
+      },
+      "publication_status": "not reclassified",
+      "mr_role": "historical same work",
+      "decision": "excluded_duplicate",
+      "duplicate_key": "10.1162/imag.a.1425",
+      "existing_item_id": "SF-20261008-05",
+      "reason": "全库已收录相同标准化DOI"
+    },
+    {
+      "title": "EPR-based Assessment of Gd Retention",
+      "doi": "10.1097/rli.0000000000001280",
+      "url": "https://www.mdc-berlin.de/research/publications/epr-based-assessment-gadolinium-based-contrast-agent-retention-and-gadolinium",
+      "decision": "excluded_date",
+      "duplicate_key": "10.1097/rli.0000000000001280",
+      "reason": "MDC作者机构原页明确13April2026，November1为刊期；超窗"
+    },
+    {
+      "title": "5T short-echo MRS with two MM models",
+      "doi": "10.21037/qims-2025-1-2810",
+      "url": "https://qims.amegroups.org/article/view/160879/html",
+      "decision": "excluded_date",
+      "duplicate_key": "10.21037/qims-2025-1-2810",
+      "reason": "出版商全文Published online Sep29 2026；11月1为刊期，超窗"
+    },
+    {
+      "title": "Simultaneous Chemical and Isotopic Monitoring",
+      "doi": "10.1021/accountsmr.6c00250",
+      "url": "https://pubs.acs.org/doi/10.1021/accountsmr.6c00250",
+      "decision": "excluded_unverified",
+      "duplicate_key": "10.1021/accountsmr.6c00250",
+      "reason": "ASAP目录SPOTLIGHT，无可读原始摘要/全文，方法增量未核实"
+    },
+    {
+      "title": "Ln-M4B3T-DOTA",
+      "doi": "10.1039/d6cc03248f",
+      "url": "https://doi.org/10.1039/d6cc03248f",
+      "decision": "excluded_date",
+      "duplicate_key": "10.1039/d6cc03248f",
+      "reason": "先前原始记录10月2与电子题录10月27冲突；本次RSC403，不当新论文"
+    },
+    {
+      "title": "S-ketoprofen CIDNP peptide epimers",
+      "doi": "10.1039/d6cp02914k",
+      "url": "https://doi.org/10.1039/d6cp02914k",
+      "decision": "excluded_date",
+      "duplicate_key": "10.1039/d6cp02914k",
+      "reason": "首次公开10月19与电子题录10月26冲突；本次RSC403未消歧"
+    },
+    {
+      "title": "Statistical analysis of DNA NMR relaxation",
+      "doi": "10.46481/jnsps.2027.3527",
+      "url": "https://doi.org/10.46481/jnsps.2027.3527",
+      "decision": "excluded_unverified",
+      "duplicate_key": "10.46481/jnsps.2027.3527",
+      "reason": "摘要仅对既有数据生成500点，原始实验与统计独立性未核实，不发布功能判别结论"
+    },
+    {
+      "title": "2D NMR azo-quinoline derivatives",
+      "doi": "10.55373/mjchem.v28i5.243",
+      "url": "https://doi.org/10.55373/mjchem.v28i5.243",
+      "decision": "excluded_unverified",
+      "duplicate_key": "10.55373/mjchem.v28i5.243",
+      "reason": "缺摘要/可靠作者；NMR实际作用未核实"
+    },
+    {
+      "title": "Bruker ACP2.0",
+      "doi": "",
+      "url": "https://www.bruker.com/en/products-and-solutions/mr/nmr-software/advanced-chemical-profiling.html",
+      "decision": "excluded_date_unknown",
+      "duplicate_key": "https://www.bruker.com/en/products-and-solutions/mr/nmr-software/advanced-chemical-profiling.html",
+      "reason": "常驻产品资料，没有窗口内新增发布日期；不可用抓取日期替代"
+    },
+    {
+      "title": "Bruker UK user meeting",
+      "doi": "",
+      "url": "https://www.bruker.com/en/news-and-events/events/uk-um.html",
+      "decision": "excluded_date_unknown",
+      "duplicate_key": "https://www.bruker.com/en/news-and-events/events/uk-um.html",
+      "reason": "有未来活动日期而无新增发布日，不能据未来会议重复发"
+    },
+    {
+      "title": "Integrative metabolomic and pharmacological profiling of Nyctanthes arbor-tristis L. tissues using HPTLC ¹H-NMR molecular docking and anti-inflammatory assays",
+      "doi": "10.1007/s44371-026-01056-y",
+      "url": "https://doi.org/10.1007/s44371-026-01056-y",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            30
+          ]
+        ]
+      },
+      "decision": "excluded_unverified",
+      "reason": "题录不足以核实NMR实际作用",
+      "duplicate_key": "10.1007/s44371-026-01056-y"
+    },
+    {
+      "title": "Chemical Navigation of Plastic Waste: 2D Solid-State NMR-Guided Upcycling of Mixed Plastics into High-Value Chemicals",
+      "doi": "10.1007/s12209-026-00503-2",
+      "url": "https://doi.org/10.1007/s12209-026-00503-2",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            26
+          ]
+        ]
+      },
+      "decision": "excluded_scope_or_version",
+      "reason": "评论指向已刊原工作，无新技术增量",
+      "duplicate_key": "10.1007/s12209-026-00503-2"
+    },
+    {
+      "title": "Nanomedicine without the EPR effect: design principles for leukemia and other hematological malignancies",
+      "doi": "10.1088/2399-1984/aeb636",
+      "url": "https://doi.org/10.1088/2399-1984/aeb636",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            30
+          ]
+        ]
+      },
+      "decision": "excluded_scope_or_version",
+      "reason": "EPR为增强渗透滞留效应，不是电子顺磁共振",
+      "duplicate_key": "10.1088/2399-1984/aeb636"
+    },
+    {
+      "title": "To What Extent Does EPR Compliance Cost Act as a Barrier to Entry for Small and Medium Enterprises in the Packaging Industry?",
+      "doi": "10.47191/jefms/v9-i10-45",
+      "url": "https://doi.org/10.47191/jefms/v9-i10-45",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            29
+          ]
+        ]
+      },
+      "decision": "excluded_scope_or_version",
+      "reason": "EPR为生产者责任，不是波谱",
+      "duplicate_key": "10.47191/jefms/v9-i10-45"
+    },
+    {
+      "title": "Bell and EPR experiments with signalling data",
+      "doi": "10.1088/2058-9565/aeb975",
+      "url": "https://doi.org/10.1088/2058-9565/aeb975",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            26
+          ]
+        ]
+      },
+      "decision": "excluded_scope_or_version",
+      "reason": "EPR为量子非局域相关实验，未确认磁共振测量核心",
+      "duplicate_key": "10.1088/2058-9565/aeb975"
+    }
+  ],
+  "dedup": {
+    "history_issues": 74,
+    "history_items": 637,
+    "prior_reviews": 27,
+    "recent_issue_dates": [
+      "2026-10-26",
+      "2026-10-27",
+      "2026-10-28",
+      "2026-10-29",
+      "2026-10-30",
+      "2026-10-31",
+      "2026-11-01"
+    ],
+    "index_head": "2a8189c14524b23246d3a42140495b55fc6dbc0f",
+    "doi_duplicates": 37,
+    "procurement_duplicates": 4,
+    "selected_collisions": 0,
+    "keys": [
+      "normalized DOI",
+      "canonical URL including alternatives",
+      "normalized title and author/work/preprint",
+      "procurement unit/project/stage/date; prior Review included vs excluded"
+    ]
+  },
+  "procurement": {
+    "registered_candidates": 20,
+    "qualified_announcements": 0,
+    "excluded_candidates": 20,
+    "daily_items": 2,
+    "summary_item_id": null,
+    "status_object": true,
+    "announcements": [
+      {
+        "title": "实验室电子顺磁共振谱仪招标",
+        "unit": "吉林大学中日联谊医院",
+        "actual_date": null,
+        "lead_url": "https://www.instrument.com.cn/event/bid/t166196.html",
+        "original_url": null,
+        "stage": "待原始来源核实",
+        "decision": "excluded_unverified",
+        "reason": "聚合正文可读，医院官网503、CCGP搜索返回频繁访问且未取得原公告URL；180万元与11月25日截止仅作线索，不发布。",
+        "recheck_date": "2026-11-02",
+        "recheck_note": "本期官方分类列表/公开只读接口与定向检索复查；仍按实际原文可核实程度处理，不将旧排除记录视为入选"
+      },
+      {
+        "title": "800MHz核磁共振波谱仪超低温探头成交",
+        "unit": "中国医学科学院药物研究所",
+        "actual_date": null,
+        "lead_url": "https://www.bidcenter.com.cn/zhaobiao/zbkeyw-28429-110000-4.html",
+        "original_url": null,
+        "stage": "待原始来源核实",
+        "decision": "excluded_unverified",
+        "reason": "已查聚合及官方列表延伸、搜索；原始来源链接未确认，不发布555万元线索。",
+        "recheck_date": "2026-11-02",
+        "recheck_note": "本期官方分类列表/公开只读接口与定向检索复查；仍按实际原文可核实程度处理，不将旧排除记录视为入选"
+      },
+      {
+        "title": "核磁共振及小动物成像仪磁体及超低温平台维护公示",
+        "unit": "中国科学院基础医学与肿瘤研究所（筹）",
+        "actual_date": null,
+        "lead_url": "https://www.bidcenter.com.cn/zhaobiao/zbkeyw-28950-330000.html",
+        "original_url": null,
+        "stage": "待原始来源核实",
+        "decision": "excluded_unverified",
+        "reason": "38万元线索存在，未取得原始公告，不发布。",
+        "recheck_date": "2026-11-02",
+        "recheck_note": "本期官方分类列表/公开只读接口与定向检索复查；仍按实际原文可核实程度处理，不将旧排除记录视为入选"
+      },
+      {
+        "title": "核磁共振波谱仪空压机竞价结果",
+        "unit": "中山大学",
+        "actual_date": null,
+        "lead_url": "https://industry.qianlima.com/industry/506036-2703",
+        "original_url": null,
+        "stage": "待原始来源核实",
+        "decision": "excluded_unverified",
+        "reason": "聚合更新时间10月30与所示公告10月26混合，原始结果日期和公告链接未确认，不发布。",
+        "recheck_date": "2026-11-02",
+        "recheck_note": "本期官方分类列表/公开只读接口与定向检索复查；仍按实际原文可核实程度处理，不将旧排除记录视为入选"
+      },
+      {
+        "title": "食品科研仪器更新项目包5",
+        "unit": "哈尔滨商业大学",
+        "actual_date": null,
+        "lead_url": "https://www.bidcenter.com.cn/zhaobiao/zbkeyw-28950-230000.html",
+        "original_url": null,
+        "stage": "待原始来源核实",
+        "decision": "excluded_unverified",
+        "reason": "聚合仅背景出现磁共振，未确认采购包具体对象和原始来源，不发布。",
+        "recheck_date": "2026-11-02",
+        "recheck_note": "本期官方分类列表/公开只读接口与定向检索复查；仍按实际原文可核实程度处理，不将旧排除记录视为入选"
+      },
+      {
+        "title": "NMR-CHH26039询比采购",
+        "unit": "中国石油化工股份有限公司茂名分公司",
+        "actual_date": null,
+        "lead_url": "https://ec.sinopec.com/f/supp/notice/bidNotice.do?id=A0AE53EB57E8DA64D1F2E9F3116B78C1",
+        "original_url": null,
+        "stage": "待原始来源核实",
+        "decision": "excluded_unverified",
+        "reason": "官方索引有10月27标题，但链接重定向总入口；未核实完整公告及截止，记录待补查，不发布。",
+        "recheck_date": "2026-11-02",
+        "recheck_note": "本期官方分类列表/公开只读接口与定向检索复查；仍按实际原文可核实程度处理，不将旧排除记录视为入选"
+      },
+      {
+        "title": "3.0T医用磁共振维保",
+        "unit": "铜陵市人民医院",
+        "actual_date": null,
+        "lead_url": "https://ggzyjyzx.tl.gov.cn/jyxx/003002/003002002/20261030/d4ad341b-da05-48f6-bb59-64cf851665da.html",
+        "original_url": null,
+        "stage": "医用MRI维护",
+        "decision": "excluded_scope",
+        "reason": "医学MRI服务，范围排除。",
+        "recheck_date": "2026-11-02",
+        "recheck_note": "本期官方分类列表/公开只读接口与定向检索复查；仍按实际原文可核实程度处理，不将旧排除记录视为入选"
+      },
+      {
+        "title": "未来技术研究院电子顺磁共振波谱仪公开招标",
+        "unit": "湖南师范大学",
+        "lead_url": "https://www.instrument.com.cn/event/bid/t166245.html",
+        "original_url": null,
+        "actual_date": "2026-10-30",
+        "date_status": "lead date only",
+        "stage": "公开招标",
+        "decision": "excluded_unverified",
+        "reason": "HNSZJZ202600813；聚合见300万元、12月4日09:00截止，官方大学403、省政府列表未取得独立详情URL；不将聚合作正式来源",
+        "recheck_date": "2026-11-02",
+        "recheck_note": "本期官方分类列表/公开只读接口与定向检索复查；仍按实际原文可核实程度处理，不将旧排除记录视为入选"
+      },
+      {
+        "title": "600MHz核磁共振波谱仪探头维修采购结果",
+        "unit": "陕西科技大学",
+        "lead_url": "https://industry.qianlima.com/industry/506036-2703",
+        "original_url": null,
+        "actual_date": "2026-10-30",
+        "date_status": "lead date only",
+        "stage": "候选人公示",
+        "decision": "excluded_unverified",
+        "reason": "SUST-HW2026-0811；聚合只给第一候选人，学校503；无可核验官方详情日期/原文，不冒充成交",
+        "recheck_date": "2026-11-02",
+        "recheck_note": "本期官方分类列表/公开只读接口与定向检索复查；仍按实际原文可核实程度处理，不将旧排除记录视为入选"
+      },
+      {
+        "title": "核磁共振波谱仪验收",
+        "unit": "湖州师范学院",
+        "lead_url": "https://www.bidcenter.com.cn/zhaobiao/zbkeyw-28950-330000.html",
+        "original_url": null,
+        "actual_date": "2026-10-30",
+        "date_status": "lead date only",
+        "stage": "验收",
+        "decision": "excluded_unverified",
+        "reason": "SZ2026-0009聚合线索；未确认原始公告链接与正文",
+        "recheck_date": "2026-11-02",
+        "recheck_note": "本期官方分类列表/公开只读接口与定向检索复查；仍按实际原文可核实程度处理，不将旧排除记录视为入选"
+      },
+      {
+        "title": "CBMR500MHz NMR EOI",
+        "unit": "Centre of Biomedical Research Lucknow",
+        "lead_url": "https://www.cbmr.res.in/notice-circulars.php",
+        "original_url": null,
+        "actual_date": "2026-06-17",
+        "date_status": "outside_window",
+        "stage": "EOI",
+        "decision": "excluded_date",
+        "reason": "公开列表所示旧意向，10月31为其他招生截止，不是新公告",
+        "recheck_date": "2026-11-02",
+        "recheck_note": "本期官方分类列表/公开只读接口与定向检索复查；仍按实际原文可核实程度处理，不将旧排除记录视为入选"
+      },
+      {
+        "title": "科学智能物质创制中心电子顺磁共振波谱仪及液体核磁共振波谱仪采购项目",
+        "unit": "科学智能物质创制中心",
+        "actual_date": "2026-10-26",
+        "original_url": "https://www.oitccas.com/pages/tender_online_info.html?FormNo=ZBLX26100414",
+        "project_no": "OITC-G260321059",
+        "stage": "公开招标",
+        "decision": "excluded_duplicate",
+        "reason": "当期公开接口ReleaseTime及项目阶段；历史已刊同项目同阶段",
+        "recheck_date": "2026-11-02",
+        "recheck_note": "本期官方分类列表/公开只读接口与定向检索复查；仍按实际原文可核实程度处理，不将旧排除记录视为入选",
+        "fresh_list_verification": {
+          "ReleaseTime": "2026-10-26",
+          "stage": "公开招标",
+          "project_no": "OITC-G260321059"
+        }
+      },
+      {
+        "title": "中国科学院兰州化学物理研究所600MHz超导核磁共振波谱仪采购项目",
+        "unit": "中国科学院兰州化学物理研究所",
+        "actual_date": "2026-10-23",
+        "original_url": "https://www.oitccas.com/pages/tender_online_info.html?FormNo=ZBLX26100342",
+        "project_no": "OITC-G260882852",
+        "stage": "公开招标",
+        "decision": "excluded_duplicate",
+        "reason": "当期公开接口ReleaseTime及项目阶段；历史已刊同项目同阶段",
+        "recheck_date": "2026-11-02",
+        "recheck_note": "本期官方分类列表/公开只读接口与定向检索复查；仍按实际原文可核实程度处理，不将旧排除记录视为入选",
+        "fresh_list_verification": {
+          "ReleaseTime": "2026-10-23",
+          "stage": "公开招标",
+          "project_no": "OITC-G260882852"
+        }
+      },
+      {
+        "title": "液体核磁共振波谱仪+600MHz核磁共振波谱仪配套的四共振探头及相关模块",
+        "unit": "中国科学院基础医学与肿瘤研究所（筹） ",
+        "actual_date": "2026-10-22",
+        "original_url": "https://www.oitccas.com/pages/tender_online_info.html?FormNo=ZBLX26100335",
+        "project_no": "330000263210500000029-OITC-G260321043",
+        "stage": "单一来源",
+        "decision": "excluded_duplicate",
+        "reason": "当期公开接口ReleaseTime及项目阶段；历史已刊同项目同阶段",
+        "recheck_date": "2026-11-02",
+        "recheck_note": "本期官方分类列表/公开只读接口与定向检索复查；仍按实际原文可核实程度处理，不将旧排除记录视为入选",
+        "fresh_list_verification": {
+          "ReleaseTime": "2026-10-22",
+          "stage": "单一来源",
+          "project_no": "330000263210500000029-OITC-G260321043"
+        }
+      },
+      {
+        "title": "电子顺磁共振波谱仪高温及时间分辨系统采购项目中标公告",
+        "unit": "中国科学院长春应用化学研究所",
+        "actual_date": "2026-10-30",
+        "time": "09:51",
+        "original_url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202610/t20261030_27588571.htm",
+        "project_no": "JTZB-20260313",
+        "stage": "中标",
+        "decision": "excluded_duplicate",
+        "reason": "2026-10-31 SF-20261031-10已刊同一中标结果；不重复。",
+        "supplier": "广东省中科进出口有限公司",
+        "brand": "国仪量子技术（合肥）股份有限公司",
+        "model": "EPR-TRHT",
+        "quantity": "1套",
+        "award_cny": 1545000,
+        "deadline": null,
+        "budget": null,
+        "source_review": "原页直接请求403，官方原文只读搜索索引成功；未将代理供应商与制造商混同。",
+        "recheck_date": "2026-11-02",
+        "recheck_note": "本期官方分类列表/公开只读接口与定向检索复查；仍按实际原文可核实程度处理，不将旧排除记录视为入选"
+      },
+      {
+        "title": "核磁波谱仪重新公开招标",
+        "unit": "江苏师范大学",
+        "actual_date": "2026-10-30",
+        "date_status": "lead date; not official verified",
+        "stage": "公开招标",
+        "lead_url": "https://www.lfzct.com/info/njpmfX5qSnlE85z03RAAAAYuQ%3D%3D",
+        "original_url": null,
+        "decision": "excluded_unverified",
+        "reason": "0008聚合预算800万元/600M/11月20日09:30；未确认官方独立原文URL，不刊"
+      },
+      {
+        "title": "核磁波谱仪原采购终止",
+        "unit": "江苏师范大学",
+        "actual_date": "2026-10-30",
+        "date_status": "lead date; not official verified",
+        "stage": "终止",
+        "lead_url": "https://www.lfzct.com/info/TZA9B6mwBbA6HsPXUVWCPw%3D%3D",
+        "original_url": null,
+        "decision": "excluded_unverified",
+        "reason": "0005与0008分开登记；原终止公告日期和官方链接未核实"
+      },
+      {
+        "title": "单自旋磁共振与NV状态测量系统及宽场系统中标",
+        "unit": "中国电科电子科学研究院",
+        "actual_date": "2026-10-30",
+        "date_status": "lead date; not official verified",
+        "stage": "中标",
+        "lead_url": "https://www.bidcenter.com.cn/zhaobiao/zbkeyw-53238-110000-4.html",
+        "original_url": null,
+        "decision": "excluded_unverified",
+        "reason": "聚合只称详情见附件；化云官方入口为JS壳页，未取得公开原始中标公告链接/正文"
+      },
+      {
+        "title": "单自旋磁共振与NV状态测量系统及宽场系统候选人",
+        "unit": "中国电科电子科学研究院",
+        "actual_date": "2026-10-26",
+        "date_status": "lead date; not official verified",
+        "stage": "候选人",
+        "lead_url": "https://www.qianlima.com/bid-642744632.html",
+        "original_url": null,
+        "decision": "excluded_unverified",
+        "reason": "聚合10月28页面但正文公示10月26—29；不把候选排名写成中标，未取得官方原始链接"
+      },
+      {
+        "title": "Integrated NMR Magnetic Field Measurement System",
+        "unit": "DAE Directorate of Purchase and Stores",
+        "actual_date": "2026-10-22",
+        "date_status": "lead date; not official verified",
+        "stage": "招标",
+        "lead_url": "https://www.tendershark.com/details/maharashtra-tender/directorate-of-purchase-and-stores/ca626b13-69ac-49e9-8ba8-952f10197b9c",
+        "original_url": null,
+        "decision": "excluded_date",
+        "reason": "GEM/2026/B/8140383；公告10月22超窗，11月12截止不构成新公告"
+      }
+    ]
+  },
+  "editorial_review": {
+    "author": "Jimenez and Torchi first family verified Crossref and publisher; no journal as actor",
+    "source": "publisher full text crystallin; publisher abstract Torchi",
+    "dates": "01Nov and30Oct actual online; date-only7d; old Apr13/Sep29 excluded",
+    "science": "experimental parameters from publisher; structural predictions not direct dynamics; HP label signal not absolute flux",
+    "tags": "approved IDs and dimensions; no speculative DNP acquisition/hardware tags",
+    "consistency": "single canonical JSON; screen same fields",
+    "images": "none"
+  },
+  "verification": {
+    "local_tests": {
+      "build_check": "passed75issues639items",
+      "build": "passed75issues",
+      "search": "passed existing search/filter/taxonomy/date assertions",
+      "procurement": "passed6tests",
+      "build_output": "passed1test",
+      "consistency": "2ordered articles exact title/summary/meaning/date/source/URLs match canonical JSON; procurement_status last; no images/downloads"
+    },
+    "commit": "not yet submitted",
+    "actions": "not yet checked",
+    "pages": "not yet checked",
+    "public": "not yet checked",
+    "note": "Post-commit outcome separately verified in receipt"
+  }
+}

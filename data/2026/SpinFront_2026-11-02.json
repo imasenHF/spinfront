@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-11-02",
+  "scope_note": "检索截至2026-11-02 06:04:34（Asia/Shanghai）；优先过去24小时并逐日回扫10月26日—11月1日。常规24小时不足5条，已启动增强搜索；增强后仍不足8条，继续深度增强检索，逐站检查专业及高影响期刊、预印本/数据库、机构、厂商软件、会议培训及中外采购五条路线和九个方法主题簇。全库74期637条、最近7期及27份Review查重，排除DOI重复37项、采购重复4份，另排除日期不明的产品/会议页面2项。最终2条资讯、0份新增已核实采购公告；采购核查说明固定末尾、不计条目。条目不足主要因周末新增有限、历史重复、刊期与首次上线不同及原始来源受限。部分站点403/503/超时、动态壳页或搜索限流，已补查官方列表与公开接口，不将读取失败视为无公告，不宣称检索穷尽。待复核标签无，未读取私人教材。",
+  "items": [
+    {
+      "item_id": "SF-20261102-01",
+      "report_date": "2026-11-02",
+      "item_no": 1,
+      "title_cn": "海鞘βγ-crystallin完成骨架及侧链NMR指认",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr",
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "Ciona intestinalis βγ-crystallin",
+        "apo/holo钙结合状态"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Jimenez 等更新海鞘Ciona intestinalis βγ-crystallin的骨架共振指认，并补充无钙与结合钙两种状态的侧链数据。两种状态均指认79/82个目标侧链碳，覆盖率96.3%；结合化学位移和TALOS-N预测，研究为比较钙结合、局部结构及蛋白稳定性提供位点分辨基础。",
+      "meaning_cn": "侧链实验在800 MHz、25 ℃下使用0.5 mM蛋白，分别加入10 mM EDTA或CaCl₂，采用HSQC、CC(CO)NH及hCCH-TOCSY等序列。两组位移差可定位钙相关环境变化，但TALOS-N的结构和序参量预测不能替代直接动力学测量或完整三维结构。",
+      "publication_date": "2026-11-01",
+      "time_scope": "7d_extension",
+      "source": "Biomolecular NMR Assignments",
+      "url": "https://link.springer.com/article/10.1007/s12104-026-10280-7",
+      "doi": "10.1007/s12104-026-10280-7",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者及题录",
+          "url": "https://api.crossref.org/works/10.1007/s12104-026-10280-7"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-02",
+      "last_updated": "2026-11-02",
+      "report_file": "SpinFront_2026-11-02.html"
+    },
+    {
+      "item_id": "SF-20261102-02",
+      "report_date": "2026-11-02",
+      "item_no": 2,
+      "title_cn": "超极化¹³C与³¹P-MRS联测运动肌肉代谢",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "in_vivo_mrs"
+      ],
+      "method_ids": [
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "健康男性运动腓肠肌",
+        "超极化[1-13C]丙酮酸"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Torchi 等将超极化[1-¹³C]丙酮酸MRS与³¹P-MRS结合，在静坐生活与耐力训练男性的跖屈运动中跟踪腓肠肌代谢。随强度增加，丙酮酸至乳酸的相对转化增强；训练组碳酸氢盐标记较高、乳酸生成较低，并伴随磷酸肌酸消耗及细胞内pH变化。",
+      "meaning_cn": "¹³C标记分配与³¹P能量代谢读出互为补充，可将乳酸、碳酸氢盐信号与磷酸肌酸和pH变化联系起来。结果支持训练状态相关的代谢差异，但标记信号并不直接等于绝对通量；研究限于运动男性和特定肌肉，尚不能外推为疾病诊断或个体训练处方。",
+      "publication_date": "2026-10-30",
+      "time_scope": "7d_extension",
+      "source": "Nature Communications",
+      "url": "https://www.nature.com/articles/s41467-026-79053-z",
+      "doi": "10.1038/s41467-026-79053-z",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者及题录",
+          "url": "https://api.crossref.org/works/10.1038/s41467-026-79053-z"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-02",
+      "last_updated": "2026-11-02",
+      "report_file": "SpinFront_2026-11-02.html"
+    }
+  ],
+  "procurement_status": {
+    "status": "no_verified_updates",
+    "title_cn": "采购与需求动态",
+    "summary_cn": "本期未检索到新增已核实公告。已专项检查采购意向、需求征集/调研、招标/询价、变更、成交、中止及合同，并回扫10月26日—11月1日的政府采购、公共资源、高校、代理机构和海外公开来源。登记采购候选20份，合格0份，排除20份。湖南师大EPR、陕西科大探头维修、江苏师大NMR及NV系统结果等线索仍缺可核验官方独立原文；部分官网403/503、动态壳页及搜索限制已记录，不能据此断言无公告。",
+    "checked_at": "2026-11-02T06:04:34+08:00",
+    "registered_candidates": 20
+  }
+}

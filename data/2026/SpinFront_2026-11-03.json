@@ -1,0 +1,387 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-11-03",
+  "scope_note": "检索截至2026-11-03 06:09:04（Asia/Shanghai）；优先过去24小时，并逐日回扫10月27日—11月2日。常规24小时不足5条，已启动增强搜索；初步增强仍不足8条，继续深度增强检索，覆盖专业及高影响期刊、预印本/数据库、机构、厂商软件、会议培训和中外采购五路线及九个方法主题簇。全库75期639条、最近7期及28份Review查重，排除DOI重复31项、采购重复4份，另排除日期不明产品/会议页2项。最终9条，含8篇论文及1条采购汇总；新增已核实采购公告1份，登记采购候选24份、排除23份。未满10条主要因重复、日期/作用未核实及来源访问限制。Crossref限流已降并发重试，部分出版商、官网、动态搜索仍403/503/超时或返回壳页，已补查官方列表与公开接口，不宣称穷尽。待复核标签无，未读取私人教材。",
+  "items": [
+    {
+      "item_id": "SF-20261103-01",
+      "report_date": "2026-11-03",
+      "item_no": 1,
+      "title_cn": "细胞类型与恢复时间改变胞内脉冲偶极EPR数据",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "pds",
+        "spin_labeling"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "GB1",
+        "HeLa",
+        "HEK293",
+        "E. coli"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Limbach 等将三苯甲基或钆自旋标记的GB1蛋白电转入HeLa、HEK293和大肠杆菌，比较细胞内Q波段脉冲偶极EPR。两类标记均保持完整，但较长恢复时间伴随调制深度下降；大肠杆菌可采用较短恢复时间，并保留较好的调制深度和距离信息。",
+      "meaning_cn": "高浓度三苯甲基标记蛋白出现非特异结合信号；钆标记在Q波段灵敏度较低，未见同类现象不能单独证明完全无结合。恢复时间延长后的调制深度损失可能涉及蛋白降解或聚集，仍需独立验证；距离实验应同时控制递送浓度、细胞类型和恢复时间。",
+      "publication_date": "2026-11-02",
+      "time_scope": "7d_extension",
+      "source": "Applied Magnetic Resonance",
+      "url": "https://link.springer.com/article/10.1007/s00723-026-01889-x",
+      "doi": "10.1007/s00723-026-01889-x",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、日期与题录",
+          "url": "https://api.crossref.org/works/10.1007/s00723-026-01889-x"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-03",
+      "last_updated": "2026-11-03",
+      "report_file": "SpinFront_2026-11-03.html"
+    },
+    {
+      "item_id": "SF-20261103-02",
+      "report_date": "2026-11-03",
+      "item_no": 2,
+      "title_cn": "³¹P NMR未检出ITPP进入正常红细胞",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "正常人红细胞悬液",
+        "ITPP",
+        "溶血液"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Kuchel 等以非侵入³¹P NMR连续数小时观察新鲜人红细胞悬液接触ITPP后的变化。在约30 μM检测限内未检出细胞内ITPP，也未见明显积累或其在溶血液中水解。结果不支持所测条件下ITPP直接进入红细胞结合血红蛋白的解释，作者提出离子平衡改变的替代机制。",
+      "meaning_cn": "约30 μM是该方法的检测界限，未检出不能等同于绝对零摄取。结论限定于正常红细胞和所测暴露条件；Donnan效应及其对胞内pH、膜电位的影响属于替代解释，不能仅凭缺失的ITPP信号视为已直接证明，更不能据此推定临床治疗结果。",
+      "publication_date": "2026-11-02",
+      "time_scope": "7d_extension",
+      "source": "Scientific Reports",
+      "url": "https://www.nature.com/articles/s41598-026-75466-4",
+      "doi": "10.1038/s41598-026-75466-4",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、日期与题录",
+          "url": "https://api.crossref.org/works/10.1038/s41598-026-75466-4"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-03",
+      "last_updated": "2026-11-03",
+      "report_file": "SpinFront_2026-11-03.html"
+    },
+    {
+      "item_id": "SF-20261103-03",
+      "report_date": "2026-11-03",
+      "item_no": 3,
+      "title_cn": "微型FID探针扩大小孔径磁体测场范围",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "sample_systems": [
+        "7 T小孔径磁体",
+        "液体NMR测场样品"
+      ],
+      "instrument_component_ids": [
+        "probe"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Zhou 等集成螺线管微线圈、调谐匹配网络与液体样品单元，构建最大宽度约8 mm的FID核磁测场探针。在7 T轴向对比中，平均绝对偏差为0.27 μT；用于172 mm孔径磁体的近壁测量时，可达轨迹直径从152增至164 mm，扩展了边界测场空间。",
+      "meaning_cn": "探针缩小的是机械占用，测量仍依赖可读FID与合适的调谐匹配。15—35 ℃重复测量标准差为0.019—0.046 ppm，不能当作全场绝对准确度；轨迹直径提升7.9%也不等于成像视野扩大7.9%，磁场均匀性和边界空间需分别验收。",
+      "publication_date": "2026-11-02",
+      "time_scope": "7d_extension",
+      "source": "Review of Scientific Instruments",
+      "url": "https://doi.org/10.1063/5.0352403",
+      "doi": "10.1063/5.0352403",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、日期与题录",
+          "url": "https://api.crossref.org/works/10.1063/5.0352403"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-03",
+      "last_updated": "2026-11-03",
+      "report_file": "SpinFront_2026-11-03.html"
+    },
+    {
+      "item_id": "SF-20261103-04",
+      "report_date": "2026-11-03",
+      "item_no": 4,
+      "title_cn": "水弛豫监测树脂及活性炭捕集Mn²⁺和Cu²⁺",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "environment"
+      ],
+      "sample_systems": [
+        "Mn2+",
+        "Cu2+",
+        "离子交换树脂",
+        "活性炭"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Bernardi 等利用上清液水的NMR弛豫跟踪离子交换树脂和活性炭去除Mn²⁺、Cu²⁺的动力学与等温吸附。Cu²⁺去除动力学在各吸附剂间相近，Mn²⁺则以Marathon MSC吸收最快；负载床层水呈多指数弛豫，孔内水弛豫率与金属含量的关联受配位环境影响。",
+      "meaning_cn": "弛豫率既反映金属含量，也受离子配位和孔内水可接近性影响。IRC748的螯合作用削弱了金属对水的弛豫效应，因此不能把一种树脂的弛豫率—浓度标定直接转用于另一种材料；上清液动力学与床层孔内水分析也应分别解释。",
+      "publication_date": "2026-11-02",
+      "time_scope": "7d_extension",
+      "source": "International Journal of Environmental Science and Technology",
+      "url": "https://link.springer.com/article/10.1007/s13762-026-07529-y",
+      "doi": "10.1007/s13762-026-07529-y",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、日期与题录",
+          "url": "https://api.crossref.org/works/10.1007/s13762-026-07529-y"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-03",
+      "last_updated": "2026-11-03",
+      "report_file": "SpinFront_2026-11-03.html"
+    },
+    {
+      "item_id": "SF-20261103-05",
+      "report_date": "2026-11-03",
+      "item_no": 5,
+      "title_cn": "低场NMR解析煤体自吸水的多阶段动力学",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "sample_systems": [
+        "非均质煤体",
+        "自吸水"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Xu 等利用低场NMR的T₂谱演化研究煤体自吸水，结合吸附动力学和分阶段渗流模型解释水分迁移。模型区分优势通道流动、活塞式孔隙填充及微孔扩散饱和，对应时间指数约1、0.5和0.2，并由活塞阶段截距反演毛细压力，联系孔连通性与异常吸水系数。",
+      "meaning_cn": "T₂谱提供不同弛豫组分的时间变化，而毛细压力来自模型反演，并非NMR直接测压。阶段指数和截距的物理解释依赖孔隙划分及模型假设；将其用于注水速率选择前，需检验润湿性、表面弛豫率与孔连通性，不能把特定煤样的阈值普遍化。",
+      "publication_date": "2026-11-01",
+      "time_scope": "7d_extension",
+      "source": "Langmuir",
+      "url": "https://doi.org/10.1021/acs.langmuir.6c05126",
+      "doi": "10.1021/acs.langmuir.6c05126",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、日期与题录",
+          "url": "https://api.crossref.org/works/10.1021/acs.langmuir.6c05126"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-03",
+      "last_updated": "2026-11-03",
+      "report_file": "SpinFront_2026-11-03.html"
+    },
+    {
+      "item_id": "SF-20261103-06",
+      "report_date": "2026-11-03",
+      "item_no": 6,
+      "title_cn": "高频EPR约束四种Mn(III)配合物磁各向异性",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "sample_systems": [
+        "五/六配位Mn(III)单核配合物"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Gao 等比较由席夫碱配体构建的四种单核Mn(III)配合物，其中三种为五配位、一种为六配位。晶体结构显示取代基可改变五配位几何；高频EPR谱分析与模拟给出自旋哈密顿量参数，前三种配合物的负D值支持易轴各向异性，并具有明显的菱形分量。",
+      "meaning_cn": "结构与EPR共同约束配位几何和零场分裂，负D及菱形分量应在同一哈密顿量约定下比较。静态磁化率表明高自旋顺磁性，但不能据此宣称存在慢磁弛豫或量子相干；摘要未给具体频率和参数数值，不能补写为可直接复现实验条件。",
+      "publication_date": "2026-11-01",
+      "time_scope": "7d_extension",
+      "source": "ChemistrySelect",
+      "url": "https://doi.org/10.1002/slct.75038",
+      "doi": "10.1002/slct.75038",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、日期与题录",
+          "url": "https://api.crossref.org/works/10.1002/slct.75038"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-03",
+      "last_updated": "2026-11-03",
+      "report_file": "SpinFront_2026-11-03.html"
+    },
+    {
+      "item_id": "SF-20261103-07",
+      "report_date": "2026-11-03",
+      "item_no": 7,
+      "title_cn": "Nd³⁺掺杂CeO₂显示粒径相关EPR可见性",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "sample_systems": [
+        "Nd3+掺杂CeO2纳米晶",
+        "Nd3+掺杂CeO2微晶"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Ginkel 等比较Nd³⁺掺杂CeO₂纳米晶和微晶的EPR与发光。纳米颗粒中的Nd³⁺主要处于低对称晶场且EPR静默；微晶则有少量Nd³⁺呈畸变立方位点信号。研究结合发光及晶场模型，提出多数Nd³⁺占据低对称位点，说明未见EPR信号不等于没有掺杂离子。",
+      "meaning_cn": "样品Nd³⁺含量为0.1%、0.5%和1 mol%，部分由氟化物前驱体在空气中600 ℃退火获得。信号可见性受晶场能级和跃迁概率控制，不能将静默组分直接按“无顺磁中心”定量；三方晶场与补偿位置属于模型解释，仍需与发光等证据共同判断。",
+      "publication_date": "2026-11-02",
+      "time_scope": "7d_extension",
+      "source": "Applied Magnetic Resonance",
+      "url": "https://link.springer.com/article/10.1007/s00723-026-01892-2",
+      "doi": "10.1007/s00723-026-01892-2",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、日期与题录",
+          "url": "https://api.crossref.org/works/10.1007/s00723-026-01892-2"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-03",
+      "last_updated": "2026-11-03",
+      "report_file": "SpinFront_2026-11-03.html"
+    },
+    {
+      "item_id": "SF-20261103-08",
+      "report_date": "2026-11-03",
+      "item_no": 8,
+      "title_cn": "低场弛豫测定原油乳液含水量并交叉验证",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "process_analysis"
+      ],
+      "sample_systems": [
+        "原油油包水乳液",
+        "Ashalcha原油"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "研究团队利用低场NMR弛豫测量Ashalcha油田原油配制乳液的含水量，覆盖0.5—30 wt%。NMR结果与Dean–Stark蒸馏的相关性为R²=0.9849，并用红外及热重分析交叉核验。会议论文展示较快速的实验室分析流程，但将实时、原位测定保留为后续应用方向。",
+      "meaning_cn": "该标定限定于所用原油和乳液体系，相关系数高并不等于已证明所有浓度下误差都小。迁移到其他黏度、盐含量或乳化状态前，需要独立样品和误差评估；摘要未明确在线流动测量及现场对照，不能把实验室结果写成已完成的在线含水监测。",
+      "publication_date": "2026-11-02",
+      "time_scope": "7d_extension",
+      "source": "ADIPEC",
+      "url": "https://doi.org/10.2118/236317-ms",
+      "doi": "10.2118/236317-ms",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、日期与题录",
+          "url": "https://api.crossref.org/works/10.2118/236317-ms"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-03",
+      "last_updated": "2026-11-03",
+      "report_file": "SpinFront_2026-11-03.html"
+    },
+    {
+      "item_id": "SF-20261103-09",
+      "report_date": "2026-11-03",
+      "item_no": 9,
+      "title_cn": "采购与需求动态：大湾区大学固体NMR中标",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "sample_systems": [
+        "固体核磁共振波谱仪1套"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "tender",
+      "summary_cn": "大湾区大学于11月2日18:00发布固体核磁共振波谱仪采购项目结果公告，项目编号0809-25411DGG104012801。广东省中科进出口有限公司以749.8万元中标，货物品牌为Bruker，规格型号为Magnet System 400’89 Ascend，数量1套。本次为中标结果阶段，已非开放投标机会；结果公告未列采购预算，不以中标金额替代预算。",
+      "meaning_cn": "公告确认供应商、品牌、型号和一套设备的成交金额，但型号字段不能代表全部固体NMR配置。MAS探头、转速、核种通道、功放及变温附件未在可读结果表中展开，不能由金额或型号推定；交付及验收范围仍需依据采购文件和合同。",
+      "publication_date": "2026-11-02",
+      "time_scope": "24h",
+      "source": "中国政府采购网｜大湾区大学固体核磁共振波谱仪结果公告",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202611/t20261102_27604874.htm",
+      "doi": "",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-03",
+      "last_updated": "2026-11-03",
+      "report_file": "SpinFront_2026-11-03.html"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "report_date": "2026-11-04",
   "retrieval_cutoff": "2026-11-04T06:15:01+08:00",
   "repository": {
-    "base_head": "c737cfa95c1e32f5b8ba68241c83e4690aed6d2e",
+    "base_head": "ef07ae6051be8262d58c6efd0ba4a8579ded65ec",
     "branch": "main",
     "permissions": "GitHub admin/maintain/push verified this run",
     "rules": "Current main DAILY_TASK_PROMPT c0ef9e2c6d31af7063e84dbd386aabff35af9b69 and all references read; unchanged controlled files; no prior automation overrides"
@@ -3390,5 +3390,12 @@
     "pages": "not yet checked",
     "public": "not yet checked",
     "note": "Post-commit outcome independently reported in execution receipt; this log records precommit verification"
+  },
+  "revision": {
+    "prior_commit": "ef07ae6051be8262d58c6efd0ba4a8579ded65ec",
+    "type": "explicit same-day editorial correction",
+    "preserved_item_ids": true,
+    "change": "SF-20261104-07 title 受压 ->受应激; actual conditions light and thermal stress, not hydrostatic pressure; body/facts/order/count unchanged",
+    "reason": "remove possible confusion with pressure-jump item02; final pre-deployment editorial audit"
   }
 }

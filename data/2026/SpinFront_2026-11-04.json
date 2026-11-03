@@ -1,0 +1,442 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-11-04",
+  "scope_note": "检索截至2026-11-04 06:15:01（Asia/Shanghai）；优先过去24小时，并逐日回扫10月28日—11月3日。常规已核实24小时条目不足5条，已启动增强搜索，并完成深度回扫，覆盖专业与高影响期刊、预印本/数据库及机构、厂商软件、会议培训、中外采购五条路线和九个方法主题簇。全库76期648条、最近7期及29份Review查重，排除学术重复36项、采购重复5份；另排除实际上线日期未核实论文1项及无新增日期的常驻产品/会议页2项。最终10条日报内容，其中9条研究进展、采购汇总1条含3份公告；登记采购候选34份，合格3份，排除31份。日期仅到日的论文均标近7天扩展；采购混合10月29日与11月3日公告，汇总也标扩展。部分出版商403、官网503/超时和动态壳页已记录，Crossref限流重试成功；杭州师大动态结果已补查官方公开接口，湖北EPR等原始来源未核实线索不发布，不将访问失败视为无公告。待复核标签无，未读取私人教材。",
+  "items": [
+    {
+      "item_id": "SF-20261104-01",
+      "report_date": "2026-11-04",
+      "item_no": 1,
+      "title_cn": "GEMSTONE从严重重叠谱中提取质子间距离",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "士的宁",
+        "非对映异构体混合物"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Gates 等利用超选择性GEMSTONE实验，在常规选择性激发失效的拥挤¹H谱中测量诊断性质子间距离。研究先以刚性生物碱士的宁验证方法，再用于合成反应产生的非对映异构体，展示无需先拆分混合物即可获取相对构型信息的路径。",
+      "meaning_cn": "方法针对决定构型的空间近邻信息被谱峰重叠遮蔽的情形。士的宁验证与反应混合物应用支持超选择性激发的价值，但不能据此推定任意重叠峰都可分离；具体距离精度、混合时间及柔性分子中的构象平均仍需依据原始实验条件判断。",
+      "publication_date": "2026-11-03",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://doi.org/10.1021/jacs.6c12010",
+      "doi": "10.1021/jacs.6c12010",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及摘要",
+          "url": "https://api.crossref.org/works/10.1021/jacs.6c12010"
+        },
+        {
+          "name": "曼彻斯特大学作者及摘要；10月14日为接受日期",
+          "url": "https://research.manchester.ac.uk/en/publications/determining-interproton-distances-from-severely-overlapped-nmr-sp/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-04",
+      "last_updated": "2026-11-04",
+      "report_file": "SpinFront_2026-11-04.html"
+    },
+    {
+      "item_id": "SF-20261104-02",
+      "report_date": "2026-11-04",
+      "item_no": 2,
+      "title_cn": "压力跳跃与RePAIR显露不可见Aβ40寡聚体接触",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "spectral_processing"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "Aβ40寡聚体",
+        "DMSO"
+      ],
+      "instrument_component_ids": [
+        "software"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Gelenter 等结合压力跳跃NMR和NOE差谱，记录DMSO与常规溶液NMR不可见Aβ40寡聚体的弱接触，再于约2.2 kbar解聚后读出。团队开发RePAIR，以内部参考校正逐FID的相位和频率漂移，抑制t₁噪声，揭示DMSO偏向有序疏水β片层核心的接触。",
+      "meaning_cn": "弱分子间NOE的读出依赖压力可逆解聚及足够稳定的内部参考；校正针对梯度编码、相位调制数据中的逐FID不稳定性。DMSO是示范探针，接触分布不能直接等同于药物结合亲和力，也不能据单一探针外推其他配体或所有瞬态蛋白聚集体。",
+      "publication_date": "2026-11-02",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://doi.org/10.1021/jacs.6c17605",
+      "doi": "10.1021/jacs.6c17605",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及摘要",
+          "url": "https://api.crossref.org/works/10.1021/jacs.6c17605"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-04",
+      "last_updated": "2026-11-04",
+      "report_file": "SpinFront_2026-11-04.html"
+    },
+    {
+      "item_id": "SF-20261104-03",
+      "report_date": "2026-11-04",
+      "item_no": 3,
+      "title_cn": "ESEEM定位膜转运蛋白中结合的Na⁺",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "eseem",
+        "spin_labeling"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "GltTk膜转运蛋白",
+        "结合Na+",
+        "nitroxide自旋标记"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Isaev 等将位点定向自旋标记与ESEEM结合，在Na⁺/天冬氨酸同向转运蛋白GltTk的两个标记位点检测到²³Na信号。实验核四极参数与DFT比较提示需调整局部配位扭转；由分子动力学和标记旋转异构体分析得到的距离与实验值在1.5 Å不确定范围内一致。",
+      "meaning_cn": "该策略利用邻近顺磁标记探测结合钠离子的局部环境，可补充晶体结构中Na⁺与水电子密度相似造成的判别困难。距离解释依赖标记构象、蛋白结构及配位模型；1.5 Å描述此次模型与实验的一致范围，不能当作所有蛋白体系通用的定位精度。",
+      "publication_date": "2026-11-03",
+      "time_scope": "7d_extension",
+      "source": "FEBS Letters",
+      "url": "https://doi.org/10.1002/1873-3468.70495",
+      "doi": "10.1002/1873-3468.70495",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及摘要",
+          "url": "https://api.crossref.org/works/10.1002/1873-3468.70495"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-04",
+      "last_updated": "2026-11-04",
+      "report_file": "SpinFront_2026-11-04.html"
+    },
+    {
+      "item_id": "SF-20261104-04",
+      "report_date": "2026-11-04",
+      "item_no": 4,
+      "title_cn": "磁化转移NMR解析纳米孔中冰水共存",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "sample_systems": [
+        "KIT-5介孔二氧化硅",
+        "纳米限域冰水"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Gutiérrez 等研究KIT-5有序介孔二氧化硅中低温冰水共存，利用非平衡自旋态后的磁化演化，量化两相比例、线宽和交换动力学。相比例用于估算未冻结水层厚度；扩散模型给出约10⁻¹⁶ m²/s的冰相有效磁化输运系数，但尚不能唯一分离自旋扩散与分子扩散。",
+      "meaning_cn": "温度依赖的相比例与磁化交换可分别约束表面未冻结层和冰相内部的输运过程。模型得到的是有效磁化输运系数，不能直接写成水分子自扩散系数；纳米限域结构无序及两类扩散的混合贡献，仍是解释交换速率时必须保留的限制。",
+      "publication_date": "2026-11-03",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Chemical Physics",
+      "url": "https://doi.org/10.1063/5.0352362",
+      "doi": "10.1063/5.0352362",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及摘要",
+          "url": "https://api.crossref.org/works/10.1063/5.0352362"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-04",
+      "last_updated": "2026-11-04",
+      "report_file": "SpinFront_2026-11-04.html"
+    },
+    {
+      "item_id": "SF-20261104-05",
+      "report_date": "2026-11-04",
+      "item_no": 5,
+      "title_cn": "NMR揭示Doc2B膜结合与SNARE相互作用",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "Doc2B",
+        "Munc13-1",
+        "SNARE复合物",
+        "脂质膜"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Rastegar 等结合冷冻电镜、NMR及荧光研究Doc2B与Munc13-1、脂质和SNARE的耦合相互作用。NMR支持Doc2B的MID结合脂质，并与MID结合Munc13-1互斥；同时定位C₂B上的两段螺旋参与SNARE结合，为膜结合如何调节神经递质释放提供结构机制线索。",
+      "meaning_cn": "NMR在此承担相互作用界面及竞争关系的关键证据，冷冻电镜负责复合物结构，脂质体融合实验提供功能补充。膜结合解除抑制和随后形成预备状态属于作者提出的工作模型；释放触发机制仍未明确，不能将体外相互作用直接写成完整细胞释放过程。",
+      "publication_date": "2026-11-03",
+      "time_scope": "7d_extension",
+      "source": "Advanced Science",
+      "url": "https://doi.org/10.1002/advs.78011",
+      "doi": "10.1002/advs.78011",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及摘要",
+          "url": "https://api.crossref.org/works/10.1002/advs.78011"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-04",
+      "last_updated": "2026-11-04",
+      "report_file": "SpinFront_2026-11-04.html"
+    },
+    {
+      "item_id": "SF-20261104-06",
+      "report_date": "2026-11-04",
+      "item_no": 6,
+      "title_cn": "丙氨酸EPR绘制¹³⁷Cs辐照箱三维剂量",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "quality_control"
+      ],
+      "sample_systems": [
+        "丙氨酸粉末剂量计",
+        "137Cs柜式辐照器"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Kovalinska 等以丙氨酸粉末EPR测量¹³⁷Cs柜式辐照器的空间及角向剂量分布。质量归一化校准显示线性响应、估计测量不确定度约2%；空场工作区剂量沿纵向从约9.9 Gy降至3.1 Gy，装载玻璃架后又出现层位相关扰动，说明标称工作区并不等于剂量均匀区。",
+      "meaning_cn": "方法结合空场纵向剖面、装载后的多层映射和75 mm半径处角向测量，可用于限定经过剂量验证的样品位置。约2%的测量不确定度与工作区约3.2的剂量不均匀比是不同指标；校准和位置修正针对该辐照器与装载几何，不能直接移用于其他布局。",
+      "publication_date": "2026-11-03",
+      "time_scope": "7d_extension",
+      "source": "Health Physics",
+      "url": "https://doi.org/10.1097/hp.0000000000002264",
+      "doi": "10.1097/hp.0000000000002264",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及摘要",
+          "url": "https://api.crossref.org/works/10.1097/hp.0000000000002264"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-04",
+      "last_updated": "2026-11-04",
+      "report_file": "SpinFront_2026-11-04.html"
+    },
+    {
+      "item_id": "SF-20261104-07",
+      "report_date": "2026-11-04",
+      "item_no": 7,
+      "title_cn": "快速内源NMR报告抗体受压后的结构变化",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "pharma",
+        "quality_control"
+      ],
+      "sample_systems": [
+        "治疗性单克隆抗体及其配方",
+        "热应激",
+        "光照应激"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Gairí 等对配方中的阿达木单抗、曲妥珠单抗和贝伐珠单抗施加光照与热应激，联合NMR、质谱及细胞活性分析。扩散过滤¹H谱的统计变化与活性相关；仅需数分钟的ESPE实验可读出可动侧链及配方组氨酸信号，作为抗体受应激后分子变化的内源报告。",
+      "meaning_cn": "1D扩散过滤、ESPE与2D XL-AFHMQC分别提供整体谱形、快速可动基团和异核指纹信息。分析需有匹配未应激对照，并分辨蛋白与配方组氨酸贡献；NMR变化与活性的相关性依赖具体抗体和应激条件，不能替代细胞功能测定或直接归因到某一化学修饰。",
+      "publication_date": "2026-10-31",
+      "time_scope": "7d_extension",
+      "source": "Analytical Chemistry",
+      "url": "https://doi.org/10.1021/acs.analchem.6c04417",
+      "doi": "10.1021/acs.analchem.6c04417",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及摘要",
+          "url": "https://api.crossref.org/works/10.1021/acs.analchem.6c04417"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-04",
+      "last_updated": "2026-11-04",
+      "report_file": "SpinFront_2026-11-04.html"
+    },
+    {
+      "item_id": "SF-20261104-08",
+      "report_date": "2026-11-04",
+      "item_no": 8,
+      "title_cn": "最优控制¹⁹F PROJECT改善横向弛豫测量",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "cpmg",
+        "relaxometry",
+        "ligand_observed_nmr"
+      ],
+      "application_ids": [
+        "ligand_screening"
+      ],
+      "sample_systems": [
+        "含氟片段",
+        "两种模型蛋白"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Schiavina 等用覆盖超过30 ppm的最优控制脉冲，在659 MHz ¹⁹F频率下比较PROJECT与CPMG。针对¹⁹F—¹⁹F标量耦合造成的回波调制，两种模型蛋白、多种样品条件和两种回波间隔的测试表明，PROJECT的R₂更接近无J耦合参考，代价是信噪比略降。",
+      "meaning_cn": "该比较适用于含耦合氟核的片段筛选及R₂排序。耦合可忽略时PROJECT与CPMG相当，耦合可分辨时补偿收益更明显；16.4 T下的宽带脉冲性能和低信噪比失效条件需共同考虑，不能把改善弛豫估计直接等同于提高配体亲和力测量精度。",
+      "publication_date": "2026-10-31",
+      "time_scope": "7d_extension",
+      "source": "Magnetic Resonance in Chemistry",
+      "url": "https://doi.org/10.1002/mrc.70149",
+      "doi": "10.1002/mrc.70149",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及摘要",
+          "url": "https://api.crossref.org/works/10.1002/mrc.70149"
+        },
+        {
+          "name": "PubMed作者、摘要及电子发表日期",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42963990/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-04",
+      "last_updated": "2026-11-04",
+      "report_file": "SpinFront_2026-11-04.html"
+    },
+    {
+      "item_id": "SF-20261104-09",
+      "report_date": "2026-11-04",
+      "item_no": 9,
+      "title_cn": "相对论DFT统一计算顺磁NMR与EPR参数",
+      "direction_ids": [
+        "nmr",
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "paramagnetic_nmr",
+        "computation_nmr"
+      ],
+      "application_ids": [],
+      "sample_systems": [
+        "相对论开壳层体系",
+        "锕系配合物"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Holzer 等推导顺磁NMR位移、EPR g张量及超精细耦合张量的相对论密度泛函理论。预印本采用自旋轨道X2C、规范包含原子轨道和复数Kohn–Sham响应方程，并引入两分量ARH求解器，以改善开壳层体系响应计算的稳定收敛及谱学参数解释。",
+      "meaning_cn": "统一框架可比较重元素开壳层体系的核屏蔽、g张量与超精细耦合，分析相对论处理和电子结构近似对磁共振参数的影响。该工作目前为预印本；稳定收敛不等于参数必然准确，尤其锕系配合物仍需结合泛函适用性与实验基准判断。",
+      "publication_date": "2026-11-02",
+      "time_scope": "7d_extension",
+      "source": "arXiv｜预印本",
+      "url": "https://arxiv.org/abs/2611.03170",
+      "doi": "",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-11-04",
+      "last_updated": "2026-11-04",
+      "report_file": "SpinFront_2026-11-04.html"
+    },
+    {
+      "item_id": "SF-20261104-10",
+      "report_date": "2026-11-04",
+      "item_no": 10,
+      "title_cn": "采购与需求动态：宽腔、台式及低场NMR",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "benchtop_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [],
+      "sample_systems": [],
+      "instrument_component_ids": [],
+      "information_type": "tender",
+      "summary_cn": "江南大学于2026-11-03发布600MHz全数字化宽腔NMR单一来源采购公告（2640SUMEC/GXGG1074），采购1套，预算1500万元，开标时间为11月25日14:00（北京时间），合同生效后540天内交货；加拿大国家研究委员会于2026-10-29发布台式NMR招标（26-58162），投标截止为11月24日14:00 EST，全部交付物须于2027-03-31前收到；杭州师范大学于2026-11-03公布低场NMR分析仪中标结果（HZNU-2026255），中标人为苏州纽迈分析仪器股份有限公司，中标报价85万元。",
+      "meaning_cn": "江南大学公告允许进口产品响应、不接受联合体，超预算为无效响应；加拿大项目按满足强制技术要求后的最低价选择，并适用互惠采购资格条件。杭州师大公告属于中标结果，不能继续表述为在招项目；其结果表未列型号、场强或脉冲配置，不能由“低场”与中标金额补写性能。",
+      "publication_date": "2026-11-03",
+      "time_scope": "7d_extension",
+      "source": "中国政府采购网｜江南大学600MHz宽腔NMR单一来源公告",
+      "url": "https://www.ccgp.gov.cn/cggg/zygg/qtgg/202611/t20261103_27610320.htm",
+      "doi": "",
+      "alternative_sources": [
+        {
+          "name": "加拿大国家研究委员会｜台式NMR招标",
+          "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-494-18885779"
+        },
+        {
+          "name": "杭州师范大学｜低场NMR中标结果",
+          "url": "https://cgzx.hznu.edu.cn/A-am-base/announcement/announcement.jsf?announcementId=26456603"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-04",
+      "last_updated": "2026-11-04",
+      "report_file": "SpinFront_2026-11-04.html"
+    }
+  ]
+}

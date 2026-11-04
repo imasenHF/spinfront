@@ -1,0 +1,416 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-11-05",
+  "scope_note": "检索截至2026-11-05 06:03:56（Asia/Shanghai）；优先过去24小时，逐日回扫10月29日—11月4日。常规已核实24小时不足5条，已启动增强搜索；核验初期仍不足8条，继续深度增强检索，覆盖专业/高影响期刊、预印本与数据库、机构、厂商软件、会议培训和中外采购五条路线及九个方法主题簇。全库77期658条、最近7期及30份Review查重，排除学术重复32项、采购重复8份，日期未核实排除2项。最终10条，其中9条研究进展，末条采购汇总含1份公告；登记采购候选37份，合格1份，排除36份。湖北EPR中标此前缺原文未刊，本期补查核实后入选。日期仅到日的论文和11月3日采购均标近7天扩展。部分出版商403、官网503/超时、动态壳页及Crossref限流已记录并补查；不将访问失败视为没有新增，不宣称检索穷尽。待复核标签无，未读取私人教材。",
+  "items": [
+    {
+      "item_id": "SF-20261105-01",
+      "report_date": "2026-11-05",
+      "item_no": 1,
+      "title_cn": "NMR支持thanatin保锌抑制NDM-1",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "reaction_monitoring"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "NDM-1",
+        "thanatin"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Rivière 等结合高分辨NMR、化学位移扰动引导对接、分子间NOE及分子动力学，研究thanatin对NDM-1的抑制。结果支持肽结合于催化沟附近，在保留双锌配位中心的同时限制L3环动态；实时NMR与光度动力学进一步关联这种构象限制和剂量依赖性功能抑制。",
+      "meaning_cn": "结合界面、含锌谱学指纹和EDTA滴定共同区分保锌变构与锌移除机制。对接模型接受分子间NOE交叉检验，仍不等同于直接测定所有构象；体外酶抑制与细菌敏感性恢复也不能直接外推到临床疗效，后续肽优化需兼顾细胞环境与稳定性。",
+      "publication_date": "2026-11-02",
+      "time_scope": "7d_extension",
+      "source": "Communications Chemistry",
+      "url": "https://doi.org/10.1038/s42004-026-02259-1",
+      "doi": "10.1038/s42004-026-02259-1",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及摘要",
+          "url": "https://api.crossref.org/works/10.1038/s42004-026-02259-1"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-05",
+      "last_updated": "2026-11-05",
+      "report_file": "SpinFront_2026-11-05.html"
+    },
+    {
+      "item_id": "SF-20261105-02",
+      "report_date": "2026-11-05",
+      "item_no": 2,
+      "title_cn": "相关随机磁场产生非洛伦兹自旋弛豫谱",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [],
+      "sample_systems": [
+        "轴向相关随机磁场",
+        "理论自旋体系"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Field 扩展基于随机微分方程的自旋弛豫理论，将驱动随机磁场的时间相关性纳入极端窄化近似之外。对于轴向磁场涨落，研究得到非微扰的精确动力学解；有限场参数对应非洛伦兹谱，并提出谱矩分析和参数提取方法，极端窄化极限下恢复洛伦兹线形。",
+      "meaning_cn": "该理论提醒线宽、谱矩得到的可观测时间尺度不必等同于单指数特征弛豫时间。比较相关场涨落模型时，应同时检查时间域和频域的一致性；精确解针对轴向涨落条件，不能不加验证地套用于任意多轴随机场或复杂耦合自旋样品。",
+      "publication_date": "2026-11-04",
+      "time_scope": "7d_extension",
+      "source": "Royal Society Open Science",
+      "url": "https://doi.org/10.1098/rsos.260478",
+      "doi": "10.1098/rsos.260478",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及摘要",
+          "url": "https://api.crossref.org/works/10.1098/rsos.260478"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-05",
+      "last_updated": "2026-11-05",
+      "report_file": "SpinFront_2026-11-05.html"
+    },
+    {
+      "item_id": "SF-20261105-03",
+      "report_date": "2026-11-05",
+      "item_no": 3,
+      "title_cn": "低成本台式PGSE系统测量自扩散系数",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "benchtop_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "sample_systems": [
+        "水",
+        "1-戊醇"
+      ],
+      "instrument_component_ids": [
+        "gradient_system"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Worton 等搭建永久磁体、钢轭、螺线管收发线圈和梯度线圈组成的台式NMR系统，以PGSE测量水和1-戊醇的自扩散。会议论文在21 ℃得到约3.4×10⁻⁹和4×10⁻¹⁰ m²/s，证明自建平台能够读取扩散衰减，但结果与所引文献值存在明显差异。",
+      "meaning_cn": "平台将静磁场、收发电路和脉冲梯度整合，适合研究低成本扩散测量的实现。水与戊醇文献参照分别对应20 ℃和15 ℃，并非同温对照；偏差不能仅归于温差。梯度标定、场均匀性和温控误差需进一步验证，尚不宜将该结果视为定量精度已达商用水平。",
+      "publication_date": "2026-11-02",
+      "time_scope": "7d_extension",
+      "source": "ECSA-13",
+      "url": "https://doi.org/10.3390/engproc2026163064",
+      "doi": "10.3390/engproc2026163064",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及摘要",
+          "url": "https://api.crossref.org/works/10.3390/engproc2026163064"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-05",
+      "last_updated": "2026-11-05",
+      "report_file": "SpinFront_2026-11-05.html"
+    },
+    {
+      "item_id": "SF-20261105-04",
+      "report_date": "2026-11-05",
+      "item_no": 4,
+      "title_cn": "地表NMR与雷达联合区分泥炭分解层",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "sample_systems": [
+        "排水泥炭地",
+        "地表NMR含水层剖面"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Arrué 等在德国Gnarrenburg排水泥炭地结合探地雷达与地表NMR，反演含水量和弛豫时间分布。研究把雷达反射层作为结构约束，提高NMR反演对内部层位的区分，并以土芯和环刀样品作地面验证；受约束结果呈现不同泥炭分解程度对应的弛豫特征。",
+      "meaning_cn": "雷达提供几何和层界信息，地表NMR补充水分与弛豫分布，两者联合有助于减少单一方法的非唯一性。弛豫特征与分解程度的对应关系仍受含水量、孔隙和反演约束影响；重复监测需保持采集与反演条件一致，不能直接把弛豫变化全部归因于泥炭退化。",
+      "publication_date": "2026-11-04",
+      "time_scope": "7d_extension",
+      "source": "Geophysics",
+      "url": "https://doi.org/10.1190/geo-2026-1480",
+      "doi": "10.1190/geo-2026-1480",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及摘要",
+          "url": "https://api.crossref.org/works/10.1190/geo-2026-1480"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-05",
+      "last_updated": "2026-11-05",
+      "report_file": "SpinFront_2026-11-05.html"
+    },
+    {
+      "item_id": "SF-20261105-05",
+      "report_date": "2026-11-05",
+      "item_no": 5,
+      "title_cn": "根系¹H-NMR揭示香附与高粱竞争的不对称响应",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "sample_systems": [
+        "Cyperus rotundus根系",
+        "Sorghum bicolor根系"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Giorgi 等结合形态测量与定量¹H-NMR根系代谢组，比较香附和高粱幼苗共培养竞争。每条件8株，分别识别40与38种代谢物；高粱生长受抑并出现多类代谢物下降，香附整体代谢较稳定、GABA显著降低，显示两者在该幼苗体系中的竞争响应不对称。",
+      "meaning_cn": "代谢谱与形态指标共同揭示竞争影响，可定位氨基酸、糖和有机酸等变化。氮限制、根系竞争及生长防御权衡属于作者提出的机制解释，代谢物丰度不能直接等同于代谢通量；幼苗共培养结果还需在不同营养与田间条件下验证。",
+      "publication_date": "2026-11-04",
+      "time_scope": "7d_extension",
+      "source": "Chemical and Biological Technologies in Agriculture",
+      "url": "https://doi.org/10.1186/s40538-026-01140-6",
+      "doi": "10.1186/s40538-026-01140-6",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及摘要",
+          "url": "https://api.crossref.org/works/10.1186/s40538-026-01140-6"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-05",
+      "last_updated": "2026-11-05",
+      "report_file": "SpinFront_2026-11-05.html"
+    },
+    {
+      "item_id": "SF-20261105-06",
+      "report_date": "2026-11-05",
+      "item_no": 6,
+      "title_cn": "血清NMR检验宫颈癌候选代谢指标",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "宫颈癌及对照血清"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Kumar 等对33例宫颈癌与31例对照的血清NMR数据进行探索分析，比较35种主要代谢物并控制多重检验。谷氨酰胺和肌醇降低在年龄调整后仍显著；两者浓度之和MQ的表观AUC为0.919，但相较谷氨酰胺单项的提升未达到统计显著。",
+      "meaning_cn": "此例将NMR候选特征与统计验证层级分开：MQ与单项的配对DeLong检验p=0.113，不能声称联合指标更优。交叉验证属于同队列重采样，不能替代独立人群验证；临床混杂因素与样本量限制仍需处理，当前结果不足以形成诊断阈值或临床推荐。",
+      "publication_date": "2026-11-04",
+      "time_scope": "7d_extension",
+      "source": "Diagnostics",
+      "url": "https://doi.org/10.3390/diagnostics16213639",
+      "doi": "10.3390/diagnostics16213639",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及摘要",
+          "url": "https://api.crossref.org/works/10.3390/diagnostics16213639"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-05",
+      "last_updated": "2026-11-05",
+      "report_file": "SpinFront_2026-11-05.html"
+    },
+    {
+      "item_id": "SF-20261105-07",
+      "report_date": "2026-11-05",
+      "item_no": 7,
+      "title_cn": "EPR追踪植物色素涂层的UV诱导自由基",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "polymers"
+      ],
+      "sample_systems": [
+        "姜黄/茜草色素",
+        "环氧和不饱和聚酯涂层"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Żyłka 等结合EPR和FTIR研究含姜黄、茜草色素涂层的紫外变色。环氧及不饱和聚酯配方中检测到金属离子和有机自由基信号，约g=2.001的信号归于芳香自由基；光照后不同配方出现含氧、酚氧及半醌型自由基，并与红外结构变化相联系。",
+      "meaning_cn": "EPR提供顺磁物种线索，FTIR补充化学结构变化，可比较色素、树脂及光引发剂组合的光稳定性。相近g值不足以独立确定全部自由基结构；不同树脂的变色快慢也不能只归于单一自由基，应结合谱形、配方对照和实际照射条件解释。",
+      "publication_date": "2026-11-01",
+      "time_scope": "7d_extension",
+      "source": "Molecules",
+      "url": "https://doi.org/10.3390/molecules31213930",
+      "doi": "10.3390/molecules31213930",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及摘要",
+          "url": "https://api.crossref.org/works/10.3390/molecules31213930"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-05",
+      "last_updated": "2026-11-05",
+      "report_file": "SpinFront_2026-11-05.html"
+    },
+    {
+      "item_id": "SF-20261105-08",
+      "report_date": "2026-11-05",
+      "item_no": 8,
+      "title_cn": "端炔¹H位移预测酸度具有明确适用边界",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "端炔及含端炔药物"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Ljulj 等比较多种端炔酸度计算描述符，包括氢交换势垒及NMR化学位移。氢交换势垒与已知pKa呈线性关系，适用于多类取代端炔；计算的炔氢位移仅对有限子集有效，¹³C位移、红外频率和原子电荷则未给出可靠估计，提示不能泛用单一谱学描述符。",
+      "meaning_cn": "计算¹H位移可作为特定端炔集合中的酸度描述符，但必须先验证适用化学空间。文章对炔雌醇等缺实验酸度药物的数值属于预测；化学位移与pKa的相关性不能替代酸碱平衡测定，更不能由单个碳谱峰位置直接推断任意端炔酸度。",
+      "publication_date": "2026-11-03",
+      "time_scope": "7d_extension",
+      "source": "ACS Omega",
+      "url": "https://doi.org/10.1021/acsomega.6c05360",
+      "doi": "10.1021/acsomega.6c05360",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及摘要",
+          "url": "https://api.crossref.org/works/10.1021/acsomega.6c05360"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-05",
+      "last_updated": "2026-11-05",
+      "report_file": "SpinFront_2026-11-05.html"
+    },
+    {
+      "item_id": "SF-20261105-09",
+      "report_date": "2026-11-05",
+      "item_no": 9,
+      "title_cn": "NMR代谢组比较稳定冠心病与急性心梗",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "稳定冠心病及急性心肌梗死患者样本"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Pagonas 等采用NMR代谢组学比较稳定冠状动脉疾病与急性心肌梗死患者，探索两类状态的代谢差异。乳酸作为无氧糖酵解相关产物在急性心梗中表现突出，次黄嘌呤也被识别为心肌缺血相关候选指标；研究结合通路分析讨论代谢失调及潜在标志物。",
+      "meaning_cn": "NMR在这里承担代谢表型分析，可将乳酸和嘌呤代谢变化联系到缺血状态。该研究为横断面探索，组间差异不能证明因果关系或前瞻预测能力；临床处理、采血时点和其他混杂因素可能影响谱学表型，候选标志物需更大独立队列验证。",
+      "publication_date": "2026-11-03",
+      "time_scope": "7d_extension",
+      "source": "Journal of Cardiovascular Translational Research",
+      "url": "https://doi.org/10.1007/s12265-026-10866-5",
+      "doi": "10.1007/s12265-026-10866-5",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及摘要",
+          "url": "https://api.crossref.org/works/10.1007/s12265-026-10866-5"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-05",
+      "last_updated": "2026-11-05",
+      "report_file": "SpinFront_2026-11-05.html"
+    },
+    {
+      "item_id": "SF-20261105-10",
+      "report_date": "2026-11-05",
+      "item_no": 10,
+      "title_cn": "采购与需求动态：湖北科技学院EPR中标",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [],
+      "sample_systems": [],
+      "instrument_component_ids": [],
+      "information_type": "tender",
+      "summary_cn": "湖北科技学院于2026-11-03发布电子顺磁共振波谱仪中标结果，项目编号420001202601010490，计划备案号420000-2026-10214。武汉亨泰瑞盛科技有限公司以49.465万元中标，货物品牌为国仪量子、型号EPR200M、数量1台。本期补查政府采购及学校原文后确认该结果；中标公告未列预算，不以成交额补写预算，亦不再设置投标截止时间。",
+      "meaning_cn": "政府采购正文49.465万元与学校原文494650元一致；政府采购概要的0万元不代表实际成交金额。本次处于中标结果阶段，供应商与设备品牌分别列明。结果表未展开灵敏度、变温或光照等配置，不能由型号推定交付性能及附件，仍应以采购需求和合同为准。",
+      "publication_date": "2026-11-03",
+      "time_scope": "7d_extension",
+      "source": "中国政府采购网｜湖北科技学院电子顺磁共振波谱仪中标结果",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202611/t20261103_27613227.htm",
+      "doi": "",
+      "alternative_sources": [
+        {
+          "name": "湖北科技学院｜EPR中标原文",
+          "url": "https://hkcgzx.hbust.edu.cn/jggggkzb/3409.chtml"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-05",
+      "last_updated": "2026-11-05",
+      "report_file": "SpinFront_2026-11-05.html"
+    }
+  ]
+}

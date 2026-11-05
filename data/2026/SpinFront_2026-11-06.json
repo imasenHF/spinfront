@@ -1,0 +1,426 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-11-06",
+  "scope_note": "检索截至2026-11-06 06:12:24（Asia/Shanghai）；优先过去24小时，逐日回扫10月30日—11月5日。常规核实的24小时条目不足5条，已启动增强搜索，并在初筛核实条目不足8条时继续深度回扫。分查专业及高影响期刊、预印本与数据库、厂商软件、会议培训和中外采购，检索九个方法主题簇。按全库78期668条、最近7期及31份Review查重，排除学术重复33项、采购重复4份，日期未核实排除2项。最终10条，其中8篇研究论文、1条技术议程、采购汇总1条含1份公告；登记采购候选12份，排除11份。日期仅到日的论文及采购标近7天扩展。部分出版商403、预印本接口超时和动态采购原文受限；Crossref限流已重试，未取得官方合同正文的线索不入刊。待复核标签无，未读取私人教材。",
+  "items": [
+    {
+      "item_id": "SF-20261106-01",
+      "report_date": "2026-11-06",
+      "item_no": 1,
+      "title_cn": "场循环NMR弛豫区分胰岛素聚集与模型蛋白糖化",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "pharma",
+        "quality_control"
+      ],
+      "sample_systems": [
+        "Humulin-R胰岛素",
+        "牛血清白蛋白"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Umut 等以快速场循环¹H NMR比较商品胰岛素在三种应激条件下的纵向弛豫色散，并考察牛血清白蛋白的葡萄糖介导糖化。胰岛素在50 ℃振荡后出现明显低频色散；白蛋白低频R₁随糖化温度和时间增加，作者将这些响应与聚集和糖化终产物形成联系。",
+      "meaning_cn": "低频R₁曲线提供单一场强测量难以获得的慢运动信息，可与应激条件并列比较。白蛋白属于体外模型，低频变化本身不专属于糖化；用于制剂稳定性评估前仍需用正交方法区分聚集、黏度和配方变化，并验证批间重复性。",
+      "publication_date": "2026-11-05",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Physical Chemistry B",
+      "url": "https://doi.org/10.1021/acs.jpcb.6c03870",
+      "doi": "10.1021/acs.jpcb.6c03870",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及题录",
+          "url": "https://api.crossref.org/works/10.1021/acs.jpcb.6c03870"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-06",
+      "last_updated": "2026-11-06",
+      "report_file": "SpinFront_2026-11-06.html"
+    },
+    {
+      "item_id": "SF-20261106-02",
+      "report_date": "2026-11-06",
+      "item_no": 2,
+      "title_cn": "多核固体NMR区分铝甲酸盐MOF中的吸附水",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr",
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "sample_systems": [
+        "Al(HCOO)₃",
+        "吸附水"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Zhang 等结合多核固体NMR与从头算分子动力学研究Al(HCOO)₃吸水。¹H谱分辨两类限域水，¹³C与²⁷Al谱反映配体及配位环境变化；²H谱区分高流动与快速各向异性重取向的水，¹H–²H CP-HETCOR显示受限水与骨架及邻近水的偶极接触。",
+      "meaning_cn": "衍射所见长程骨架保留，与¹³C谱检测到少量可动甲酸根物种并不矛盾。该物种在再脱水后消失，与局部水解相符；²H四极线形支持各向异性重取向，但绕C₂轴翻转仅为一种可能模型，不能由单一线形唯一确定。",
+      "publication_date": "2026-11-05",
+      "time_scope": "7d_extension",
+      "source": "Magnetochemistry",
+      "url": "https://doi.org/10.3390/magnetochemistry12110125",
+      "doi": "10.3390/magnetochemistry12110125",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及题录",
+          "url": "https://api.crossref.org/works/10.3390/magnetochemistry12110125"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-06",
+      "last_updated": "2026-11-06",
+      "report_file": "SpinFront_2026-11-06.html"
+    },
+    {
+      "item_id": "SF-20261106-03",
+      "report_date": "2026-11-06",
+      "item_no": 3,
+      "title_cn": "固体³¹P NMR定量磷酸八钙中的羟基磷灰石",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "materials",
+        "quality_control"
+      ],
+      "sample_systems": [
+        "磷酸八钙",
+        "羟基磷灰石"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Konishi 等提出用固体³¹P NMR定量磷酸八钙中的羟基磷灰石次相。团队以标准加入法制备混合粉末，将谱峰解卷积得到的次相响应用于建立校准曲线。在所测样品中，羟基磷灰石质量分数为5.3%，95%置信水平下不确定度为±0.4个百分点。",
+      "meaning_cn": "标准加入与解卷积结合，可在主相和次相谱峰重叠时获得有不确定度说明的含量结果。该数值对应所测磷酸八钙样品；更换次相或改变制备条件后，需重新检验峰归属、组分响应和校准关系，不能直接套用原曲线。",
+      "publication_date": "2026-11-05",
+      "time_scope": "7d_extension",
+      "source": "Journal of Biomedical Materials Research Part B: Applied Biomaterials",
+      "url": "https://doi.org/10.1002/jbm.b.70176",
+      "doi": "10.1002/jbm.b.70176",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及题录",
+          "url": "https://api.crossref.org/works/10.1002/jbm.b.70176"
+        },
+        {
+          "name": "PubMed作者及摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42984481/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-06",
+      "last_updated": "2026-11-06",
+      "report_file": "SpinFront_2026-11-06.html"
+    },
+    {
+      "item_id": "SF-20261106-04",
+      "report_date": "2026-11-06",
+      "item_no": 4,
+      "title_cn": "ORCO按位移歧义调整固体NMR残基候选数",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "spectral_processing"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "蛋白化学位移数据"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Raymond 等提出ORCO，用残基类型及二级结构相关的位移统计给20种氨基酸排序，再按分布熵确定候选集合大小。101组蛋白数据中，仅用Cα和Cβ位移时正确残基覆盖率为88.7%，平均候选数为3.31；加入N和羰基位移后，覆盖率相同，平均候选数降至2.75。",
+      "meaning_cn": "结果表明更多核位移可缩小顺序指认的搜索范围，而无需把不确定位点强行归为一个类型。88.7%是候选集合包含正确类型的比例，并非首选预测准确率；低质量谱、位移偏移及非典型残基仍需另作验证。",
+      "publication_date": "2026-10-30",
+      "time_scope": "7d_extension",
+      "source": "Journal of magnetic resonance (San Diego, Calif. : 1997)",
+      "url": "https://doi.org/10.1016/j.jmr.2026.108193",
+      "doi": "10.1016/j.jmr.2026.108193",
+      "alternative_sources": [
+        {
+          "name": "PubMed作者、摘要及电子发表日期",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42971064/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-06",
+      "last_updated": "2026-11-06",
+      "report_file": "SpinFront_2026-11-06.html"
+    },
+    {
+      "item_id": "SF-20261106-05",
+      "report_date": "2026-11-06",
+      "item_no": 5,
+      "title_cn": "¹⁹F NMR区分主体–客体体系中的氢键位置",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "穴醚/KF/氨基酸",
+        "全甲基化β-环糊精"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Lee 等用¹⁹F化学位移比较穴醚或全甲基化β-环糊精、KF及质子化氨基酸形成的复合物。穴醚体系在D₂O中未观察到复合物，氘代乙二醇与氘代甲醇中支持不同的氟离子氢键位点；环糊精体系约−178至−171 ppm的峰与羧基结合K⁺F⁻桥相符。",
+      "meaning_cn": "同一含氟报告位点对溶剂及氨基酸官能团的局部环境敏感，适于比较溶液中可能的结合构型。气相红外多光子解离给出的构型与部分溶液结果相似，但不能据此认为两相的物种比例、结合能或交换动力学相同。",
+      "publication_date": "2026-11-04",
+      "time_scope": "7d_extension",
+      "source": "RSC advances",
+      "url": "https://doi.org/10.1039/d6ra06327f",
+      "doi": "10.1039/d6ra06327f",
+      "alternative_sources": [
+        {
+          "name": "PubMed作者、摘要及电子发表日期",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42985473/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-06",
+      "last_updated": "2026-11-06",
+      "report_file": "SpinFront_2026-11-06.html"
+    },
+    {
+      "item_id": "SF-20261106-06",
+      "report_date": "2026-11-06",
+      "item_no": 6,
+      "title_cn": "二维NMR比较三种环糊精包合花旗松素的取向",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "花旗松素",
+        "β-环糊精及其衍生物"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Chen 等比较花旗松素与β-环糊精、羟丙基β-环糊精和甲基β-环糊精的包合。二维NMR支持甲基衍生物优先容纳花旗松素A环，另外两种主体则有容纳A环或B环的可能；模拟肠液的紫外吸收分析给出1∶1计量关系，甲基衍生物的表观结合最强。",
+      "meaning_cn": "二维NMR主要约束包合取向，计量与形成常数来自紫外吸收分析。pH 6.8条件下的谱学差异与酚羟基解离受抑相符；多个取向可能共存，不能由平均谱确定唯一静态构型，也不能将包合强弱直接换算为口服吸收差异。",
+      "publication_date": "2026-11-05",
+      "time_scope": "7d_extension",
+      "source": "ChemistrySelect",
+      "url": "https://doi.org/10.1002/slct.75096",
+      "doi": "10.1002/slct.75096",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及题录",
+          "url": "https://api.crossref.org/works/10.1002/slct.75096"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-06",
+      "last_updated": "2026-11-06",
+      "report_file": "SpinFront_2026-11-06.html"
+    },
+    {
+      "item_id": "SF-20261106-07",
+      "report_date": "2026-11-06",
+      "item_no": 7,
+      "title_cn": "一维和二维NMR确定鼠尾草新二萜的连接",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "natural_products"
+      ],
+      "sample_systems": [
+        "Salvia polystachya",
+        "polystachyne I"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Fuentes-Figueroa 等从Salvia polystachya地上部分分离新二萜polystachyne I及已知化合物microphyllandiolide，并用一维和二维NMR解析两者的结构。研究另以单晶X射线衍射确定新化合物的绝对构型，随后在三种人癌细胞系中考察其细胞毒性。",
+      "meaning_cn": "该研究将分离产物的谱学结构解析与绝对构型确认分开：一维和二维NMR约束结构，绝对构型由单晶衍射确定。摘要未展开诊断相关峰或构象参数；细胞系结果也不足以判断作用机制、选择性或药用价值。",
+      "publication_date": "2026-11-04",
+      "time_scope": "7d_extension",
+      "source": "Magnetic Resonance in Chemistry",
+      "url": "https://doi.org/10.1002/mrc.70152",
+      "doi": "10.1002/mrc.70152",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及题录",
+          "url": "https://api.crossref.org/works/10.1002/mrc.70152"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-06",
+      "last_updated": "2026-11-06",
+      "report_file": "SpinFront_2026-11-06.html"
+    },
+    {
+      "item_id": "SF-20261106-08",
+      "report_date": "2026-11-06",
+      "item_no": 8,
+      "title_cn": "多核NMR追踪三唑核糖胺重排后的异头化",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr",
+        "multidimensional_nmr",
+        "reaction_monitoring"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "三唑核糖胺",
+        "核糖基异头体"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Baranowski 等通过Dimroth重排制备外环三唑核糖胺，并用¹H NMR跟踪反应。重排后发生异头化，团队分离了N3甲基产物的α与β异头体及N1甲基产物的β异头体，通过多核一维和二维谱完成指认，并比较底物与产物糖基的构象偏好。",
+      "meaning_cn": "反应跟踪与产物指认可区分重排、异头化和甲基化位点差异。研究中一种底物在DMF中120 ℃处理，另一种需回流才促成重排；条件差异不能直接推广到所有核糖基三唑，摘要也未给出可通用的定量动力学模型。",
+      "publication_date": "2026-10-30",
+      "time_scope": "7d_extension",
+      "source": "Carbohydrate research",
+      "url": "https://doi.org/10.1016/j.carres.2026.110139",
+      "doi": "10.1016/j.carres.2026.110139",
+      "alternative_sources": [
+        {
+          "name": "PubMed作者、摘要及电子发表日期",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42982022/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-06",
+      "last_updated": "2026-11-06",
+      "report_file": "SpinFront_2026-11-06.html"
+    },
+    {
+      "item_id": "SF-20261106-09",
+      "report_date": "2026-11-06",
+      "item_no": 9,
+      "title_cn": "NanoLund专题报告讨论太赫兹EPR椭偏",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "sample_systems": [
+        "半导体顺磁缺陷"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "event",
+      "summary_cn": "隆德大学NanoLund的11月5日功能材料波谱研讨会议程列出Darakchieva的技术报告，内容包括用太赫兹EPR椭偏测量半导体中的顺磁缺陷、自旋跃迁及自旋、轨道与晶格相互作用。该报告同时介绍太赫兹光学霍尔效应，两种测量针对的物理量不同。",
+      "meaning_cn": "太赫兹EPR椭偏关注自旋跃迁的偏振响应，光学霍尔测量则关注载流子输运；两者可以提供互补信息。公开材料为报告摘要，未给出缺陷浓度、灵敏度、频率覆盖或与常规EPR的定量对照，不能据议程判断仪器性能。",
+      "publication_date": "2026-11-05",
+      "time_scope": "24h",
+      "source": "隆德大学NanoLund｜研讨会议程与报告摘要",
+      "url": "https://www.nano.lu.se/calendar/mini-workshop-advanced-spectroscopy-functional-materials-electronic-structural-and-magnetic",
+      "doi": "",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-06",
+      "last_updated": "2026-11-06",
+      "report_file": "SpinFront_2026-11-06.html"
+    },
+    {
+      "item_id": "SF-20261106-10",
+      "report_date": "2026-11-06",
+      "item_no": 10,
+      "title_cn": "采购与需求动态：复旦大学400 MHz NMR需求调查",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [],
+      "sample_systems": [],
+      "instrument_component_ids": [],
+      "information_type": "tender",
+      "summary_cn": "复旦大学于2026-11-05发布400 MHz核磁共振波谱仪需求调查，预算370万元，需求为9.39 T超导磁体，支持一维¹H、¹³C、¹⁹F、³¹P和二维COSY、HSQC、HMBC、NOESY。调查自11月5日10:39开始，预计12月5日10:39结束。",
+      "meaning_cn": "公告处于需求调查阶段，预计结束时间是调查安排，并非投标截止。调查征集供应商业绩、相关产品和更新维护等信息；公开页面未列具体探头、灵敏度验收值或交付日期。",
+      "publication_date": "2026-11-05",
+      "time_scope": "7d_extension",
+      "source": "复旦大学｜400 MHz核磁共振波谱仪需求调查",
+      "url": "https://czzx.fudan.edu.cn/2e/d2/c51235a798418/page.htm",
+      "doi": "",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-06",
+      "last_updated": "2026-11-06",
+      "report_file": "SpinFront_2026-11-06.html"
+    }
+  ]
+}

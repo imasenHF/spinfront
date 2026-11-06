@@ -1,0 +1,427 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-11-07",
+  "scope_note": "检索截至2026-11-07 06:12:41（Asia/Shanghai）；优先过去24小时，逐日回扫10月31日—11月6日。常规核实24小时条目不足5条，已启动增强搜索；增强初筛核实条目不足8条，启动深度增强，覆盖专业与高影响期刊、预印本及数据库、仪器与软件、会议培训、中外采购五条路线及九个方法主题簇。全库79期678条、最近7期及32份Review查重，排除学术重复46项、采购重复4份，2项因新增日期未核实排除。最终10条，含8篇论文、1篇预印本及末条采购汇总；登记采购候选11份，收录1份、排除10份。仅确认日期的论文统一标近7天扩展。部分出版社拒绝访问、题录接口限流以及采购详情不可读已记录并补查，未核实合同未收录。无待复核标签，未读取私人教材。",
+  "items": [
+    {
+      "item_id": "SF-20261107-01",
+      "report_date": "2026-11-07",
+      "item_no": 1,
+      "title_cn": "零回波时间NMR绘制页岩岩心润湿性分布",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "sample_systems": [
+        "页岩岩心"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Ma 等将零回波时间（ZTE）成像与弛豫相关分析结合，用两块不同区块的页岩岩心测试自发渗吸。早期流体优先沿裂缝迁移，富有机质区域的水渗吸受抑；区域水润湿指数与平衡水渗吸的拟合R²大于0.85。",
+      "meaning_cn": "页岩信号弛豫很快，ZTE有助于保留常规空间分辨采集中易丢失的信号。裂缝通道与富有机质区可在同一岩心尺度上比较；拟合关系只在两块岩心的试验中得到支持，更换岩性或流体后仍需重新标定。",
+      "publication_date": "2026-11-06",
+      "time_scope": "7d_extension",
+      "source": "SPE Journal",
+      "url": "https://doi.org/10.2118/236999-pa",
+      "doi": "10.2118/236999-pa",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及摘要",
+          "url": "https://api.crossref.org/works/10.2118/236999-pa"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-07",
+      "last_updated": "2026-11-07",
+      "report_file": "SpinFront_2026-11-07.html"
+    },
+    {
+      "item_id": "SF-20261107-02",
+      "report_date": "2026-11-07",
+      "item_no": 2,
+      "title_cn": "快速扫场EPR跟踪小鼠脑内氮氧探针转化",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "spin_probe"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "小鼠脑",
+        "AMCP氮氧探针"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Sato-Akaba 等用快速扫场EPR观察酯型氮氧探针AMCP在小鼠头部的分布。实验每隔9秒采谱一次，每次以50毫秒扫描6 mT；连续谱支持探针跨血脑屏障、被酯酶水解并在脑内分布。研究还用三维EPR成像和MRI检查分布与滞留。",
+      "meaning_cn": "50毫秒是单次扫场时间，9秒才是连续谱的采样间隔。对照探针在体内较少被酯酶水解，有助于区分母体探针和水解产物的变化；脑组织中的保留不能直接换算成绝对浓度或氧化还原速率。",
+      "publication_date": "2026-11-05",
+      "time_scope": "7d_extension",
+      "source": "Free radical research",
+      "url": "https://doi.org/10.1080/10715762.2026.2756473",
+      "doi": "10.1080/10715762.2026.2756473",
+      "alternative_sources": [
+        {
+          "name": "PubMed作者、电子日期及摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42986680/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-07",
+      "last_updated": "2026-11-07",
+      "report_file": "SpinFront_2026-11-07.html"
+    },
+    {
+      "item_id": "SF-20261107-03",
+      "report_date": "2026-11-07",
+      "item_no": 3,
+      "title_cn": "EPR与吸收光谱验证工程酪氨酸酶的双铜中心",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "catalysis"
+      ],
+      "sample_systems": [
+        "细菌酪氨酸酶",
+        "双铜中心"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Chen 等改造巨大芽孢杆菌酪氨酸酶，使其催化烷基自由基的对映汇聚反应。EPR与紫外可见吸收分析共同支持野生型及改造酶保留耦合双铜中心；工程体系实现了溴化、氯化及异硫氰酸化等反应。",
+      "meaning_cn": "双铜中心的谱学对照可用于检验突变是否破坏催化位点，并帮助解释改造酶的活性。摘要给出的是EPR与吸收光谱的联合判定，不能据此为每个瞬态铜物种分配自旋态，也不能单由EPR推出对映选择性的来源。",
+      "publication_date": "2026-11-05",
+      "time_scope": "7d_extension",
+      "source": "Nature chemistry",
+      "url": "https://doi.org/10.1038/s41557-026-02292-6",
+      "doi": "10.1038/s41557-026-02292-6",
+      "alternative_sources": [
+        {
+          "name": "PubMed作者、电子日期及摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42988876/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-07",
+      "last_updated": "2026-11-07",
+      "report_file": "SpinFront_2026-11-07.html"
+    },
+    {
+      "item_id": "SF-20261107-04",
+      "report_date": "2026-11-07",
+      "item_no": 4,
+      "title_cn": "工况固体NMR验证软包电池析锂定量",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "battery"
+      ],
+      "sample_systems": [
+        "锂离子软包电池",
+        "石墨负极"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Hu 等用动态电化学阻抗谱定义析锂临界面容量，并用工况固体NMR与阻抗联测、增量容量分析及质谱滴定交叉验证。在所测软包电池中，定量拟合R²大于0.97；传输线模型把该阈值与石墨上锂核约10%的临界覆盖联系起来。",
+      "meaning_cn": "工况固体NMR在这里用于验证阻抗量化，并非把阻抗变化直接当作锂信号。验证覆盖0–45 ℃、4–110 mAh；约10%来自模型推导，更换电芯设计或充电工况时仍需独立核查阈值。",
+      "publication_date": "2026-11-04",
+      "time_scope": "7d_extension",
+      "source": "Angewandte Chemie (International ed. in English)",
+      "url": "https://doi.org/10.1002/anie.1710608",
+      "doi": "10.1002/anie.1710608",
+      "alternative_sources": [
+        {
+          "name": "PubMed作者、电子日期及摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42982735/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-07",
+      "last_updated": "2026-11-07",
+      "report_file": "SpinFront_2026-11-07.html"
+    },
+    {
+      "item_id": "SF-20261107-05",
+      "report_date": "2026-11-07",
+      "item_no": 5,
+      "title_cn": "NMR定量LiF检验醚系电解液的界面选择性",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "battery"
+      ],
+      "sample_systems": [
+        "醚/LiFSI电解液",
+        "LiF"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Ramesh 等在一系列醚/LiFSI电解液中用NMR定量FSI⁻分解形成的LiF，考察溶剂化与固态电解质界面组成的关系。实验支持阴离子主导的锂离子溶剂化和较耐还原的溶剂均有必要；研究筛得的混合醚配方达到99.3%库仑效率。",
+      "meaning_cn": "LiF定量使阴离子分解产物可以跨配方比较，有助于分开考察溶剂化与溶剂自身还原稳定性。LiF含量只反映界面组成的一部分；99.3%对应文中筛得的混合醚配方，不能直接外推到其他循环条件或整电池寿命。",
+      "publication_date": "2026-11-05",
+      "time_scope": "7d_extension",
+      "source": "ACS applied materials & interfaces",
+      "url": "https://doi.org/10.1021/acsami.6c18154",
+      "doi": "10.1021/acsami.6c18154",
+      "alternative_sources": [
+        {
+          "name": "PubMed作者、电子日期及摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42986932/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-07",
+      "last_updated": "2026-11-07",
+      "report_file": "SpinFront_2026-11-07.html"
+    },
+    {
+      "item_id": "SF-20261107-06",
+      "report_date": "2026-11-07",
+      "item_no": 6,
+      "title_cn": "低场NMR水分弛豫预测干燥后稻种活力",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "sample_systems": [
+        "粳稻Sasanishiki种子"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Yang 等比较粳稻种子的六种干燥处理，以低场NMR弛豫特征和XGBoost预测活力。55 ℃下加入缓苏步骤，发芽率由42%升至77%；模型的嵌套五折交叉验证R²为0.967，强结合水与结合水峰面积是较重要的预测变量。",
+      "meaning_cn": "弛豫峰面积可比较不同干燥及缓苏条件下的水分状态，比仅看总含水量多一层信息。验证结果来自同一试验体系的重采样；换品种、含水范围或仪器后，需用独立样本重验峰划分和活力模型。",
+      "publication_date": "2026-11-05",
+      "time_scope": "7d_extension",
+      "source": "Journal of Food Process Engineering",
+      "url": "https://doi.org/10.1111/jfpe.70878",
+      "doi": "10.1111/jfpe.70878",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及摘要",
+          "url": "https://api.crossref.org/works/10.1111/jfpe.70878"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-07",
+      "last_updated": "2026-11-07",
+      "report_file": "SpinFront_2026-11-07.html"
+    },
+    {
+      "item_id": "SF-20261107-07",
+      "report_date": "2026-11-07",
+      "item_no": 7,
+      "title_cn": "选择性二维与变温NMR解析植物活性组分",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "multinuclear_nmr",
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "natural_products"
+      ],
+      "sample_systems": [
+        "Ugni molinae叶提取物",
+        "积雪草酸",
+        "槲皮素"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Flores 等结合HPLC–MS与选择性NMR分析乌格尼叶片提取物。HSQC、HMBC、SELCOSY及SELTOCSY共同约束组分结构；变温谱在所测范围未观察到作者所讨论的槲皮素异构体交换。标准加入NMR估算该级分中积雪草酸为2.18 mg/mL。",
+      "meaning_cn": "选择性相关谱有助于从混合物中追踪目标自旋系统，标准加入则提供独立的含量估计。变温谱未见交换只约束所测温度和时间尺度；级分的DPPH响应也不能单独归因于槲皮素或积雪草酸。",
+      "publication_date": "2026-11-05",
+      "time_scope": "7d_extension",
+      "source": "Magnetic Resonance in Chemistry",
+      "url": "https://doi.org/10.1002/mrc.70154",
+      "doi": "10.1002/mrc.70154",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及摘要",
+          "url": "https://api.crossref.org/works/10.1002/mrc.70154"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-07",
+      "last_updated": "2026-11-07",
+      "report_file": "SpinFront_2026-11-07.html"
+    },
+    {
+      "item_id": "SF-20261107-08",
+      "report_date": "2026-11-07",
+      "item_no": 8,
+      "title_cn": "变温NMR捕捉扩展双烯丙基体系的可逆开环",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "联烯二聚体",
+        "双烯丙基"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Semanyszyn 等用变温NMR和ROESY交换相关研究联烯二聚体的可逆开环。原二聚体与π扩展类似物的活化自由能分别为15.77和13.79 kcal/mol。计算将低布居开壳层单重态双烯丙基指认为中间体，并解释中性态未见EPR信号。",
+      "meaning_cn": "ROESY交换交叉峰与温度依赖提供可逆键重组的证据，可比较π扩展前后的交换势垒。中性态没有EPR信号并不能独立确认单重态或排除低布居中间体；其电子结构归属还依赖计算。",
+      "publication_date": "2026-11-04",
+      "time_scope": "7d_extension",
+      "source": "Angewandte Chemie (International ed. in English)",
+      "url": "https://doi.org/10.1002/anie.5008545",
+      "doi": "10.1002/anie.5008545",
+      "alternative_sources": [
+        {
+          "name": "PubMed作者、电子日期及摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42978469/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-07",
+      "last_updated": "2026-11-07",
+      "report_file": "SpinFront_2026-11-07.html"
+    },
+    {
+      "item_id": "SF-20261107-09",
+      "report_date": "2026-11-07",
+      "item_no": 9,
+      "title_cn": "ChefNMR2以一维氢谱和碳谱生成结构候选",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "multinuclear_nmr",
+        "spectral_processing"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "小分子",
+        "天然产物"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Xiong 等在预印本中报告ChefNMR2，利用分子式及一维¹H、¹³C谱生成小分子结构候选，再由推理模块细化。团队在基准数据上比较候选预测，并将流程用于四个新天然产物的结构解析，展示一维谱驱动的候选筛选方式。",
+      "meaning_cn": "模型适合先缩小待验证的结构空间。输入需要可信分子式和两种一维谱；峰重叠、漏峰及训练分布以外的结构仍可能改变排序。研究为预印本，候选不能替代二维相关谱或独立的构型证据。",
+      "publication_date": "2026-10-31",
+      "time_scope": "7d_extension",
+      "source": "bioRxiv",
+      "url": "https://doi.org/10.64898/2026.10.29.762711",
+      "doi": "10.64898/2026.10.29.762711",
+      "alternative_sources": [
+        {
+          "name": "PubMed作者、电子日期及摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42990417/"
+        },
+        {
+          "name": "bioRxiv版本、作者和发布日期",
+          "url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.10.29.762711"
+        },
+        {
+          "name": "普林斯顿大学项目页",
+          "url": "https://chefnmr.cs.princeton.edu/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-11-07",
+      "last_updated": "2026-11-07",
+      "report_file": "SpinFront_2026-11-07.html"
+    },
+    {
+      "item_id": "SF-20261107-10",
+      "report_date": "2026-11-07",
+      "item_no": 10,
+      "title_cn": "采购与需求动态：低碳院400 MHz NMR机柜及组件候选人公示",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [],
+      "sample_systems": [],
+      "instrument_component_ids": [
+        "console"
+      ],
+      "information_type": "tender",
+      "summary_cn": "国能北京低碳清洁能源研究院400 MHz核磁共振波谱仪机柜及组件项目于2026-11-03发布中标候选人公示（CEZB260108455001）。第一候选人为广东省中科进出口有限公司，投标报价379万元；第二候选人为北京玖越科技有限公司，投标报价378万元。公示期自发布之日起3天。",
+      "meaning_cn": "公告对象为波谱仪机柜及组件，评标采用综合评分法。两笔金额均为候选人投标报价；本公告未公布采购预算、最终中标结果或成交价。",
+      "publication_date": "2026-11-03",
+      "time_scope": "7d_extension",
+      "source": "国能e招｜低碳院400 MHz核磁机柜及组件候选人公示",
+      "url": "https://www.chnenergybidding.com.cn/bidweb/001/001005/001005001/20261103/0c9ce0c7-67a1-43b5-89f1-eb5f79378f71.html",
+      "doi": "",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-07",
+      "last_updated": "2026-11-07",
+      "report_file": "SpinFront_2026-11-07.html"
+    }
+  ]
+}

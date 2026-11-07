@@ -1,0 +1,427 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-11-08",
+  "scope_note": "检索截至2026-11-08 06:11:07（Asia/Shanghai）；优先过去24小时，逐日回扫11月1日—7日。常规核实24小时不足5条，已启动增强搜索；增强初筛不足8条，继续深度增强。覆盖专业及高影响期刊、预印本和数据库、仪器软件、会议培训、中外采购五条路线及九个方法主题簇。以全库80期688条、最近7期及33份Review查重，排除学术DOI重复48项、采购重复7份，2项新增日期或出版状态未核实排除。最终10条（9篇论文、1条应用说明），采购公告0份，末尾单列采购核查说明，不计资讯。已登记采购候选15份，均排除。只有日期而无时刻的条目统一标近7天扩展。出版商访问限制、题录限流和采购详情503已补查并留痕；不把医学MRI或旧公告填入采购。无待复核标签，未读取私人教材。",
+  "items": [
+    {
+      "item_id": "SF-20261108-01",
+      "report_date": "2026-11-08",
+      "item_no": 1,
+      "title_cn": "DNP增强REDOR约束CdSe纳米晶表面配体结构",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "dnp",
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "sample_systems": [
+        "油酸包覆CdSe纳米晶"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Santhiran 等通过配体交换在CdSe纳米晶表面引入部分¹³C标记油酸配体，开展DNP增强的¹³C–⁷⁷Se及¹³C–¹¹¹Cd双向REDOR实验。多自旋模拟比较不同表面模型后，结果支持羧酸根螯合于闪锌矿CdSe的{100}表面Cd位点。",
+      "meaning_cn": "REDOR退相干同时受到多个底层晶格核的偶极耦合影响，不能直接按孤立核对换算距离。部分¹³C标记与DNP提升了稀有核组合的可测性；表面归属仍依赖所比较的晶格与配位模型，不能据单条曲线唯一重建任意纳米晶表面。",
+      "publication_date": "2026-11-07",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American\nChemical Society",
+      "url": "https://doi.org/10.1021/jacs.6c13454",
+      "doi": "10.1021/jacs.6c13454",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及摘要",
+          "url": "https://api.crossref.org/works/10.1021/jacs.6c13454"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-08",
+      "last_updated": "2026-11-08",
+      "report_file": "SpinFront_2026-11-08.html"
+    },
+    {
+      "item_id": "SF-20261108-02",
+      "report_date": "2026-11-08",
+      "item_no": 2,
+      "title_cn": "物理谱线模拟与扣谱定量隐藏的³¹P代谢物",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "spectral_processing",
+        "metabolomics"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "小鼠组织",
+        "含磷代谢物"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Jardón-Álvarez 等开发MR-SHIFT，将自旋哈密顿量模拟用于³¹P代谢谱拟合。流程先拟合具有独立信号的代谢物，再迭代扣除其完整谱形，从残差中指认和定量被遮蔽的组分；作者将该流程用于小鼠组织³¹P谱的自动分析。",
+      "meaning_cn": "扣谱利用同一分子孤立峰对重叠区谱形施加约束，比只拟合局部峰面积多用了一层物理信息。残差降到噪声水平是文中样品的结果；真实样品中的位移漂移、展宽差异和未建模组分仍需检查，不能把小残差自动视为唯一正确的归属。",
+      "publication_date": "2026-11-07",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American\nChemical Society",
+      "url": "https://doi.org/10.1021/jacs.6c17407",
+      "doi": "10.1021/jacs.6c17407",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及摘要",
+          "url": "https://api.crossref.org/works/10.1021/jacs.6c17407"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-08",
+      "last_updated": "2026-11-08",
+      "report_file": "SpinFront_2026-11-08.html"
+    },
+    {
+      "item_id": "SF-20261108-03",
+      "report_date": "2026-11-08",
+      "item_no": 3,
+      "title_cn": "高频EPR与微SQUID解析分子环形磁矩稳定性",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "sample_systems": [
+        "Cu₆Dy₃单分子环形磁体"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Chauhan 等研究Cu₆Dy₃配合物的环形磁矩基态，报告其在外场达到1.3 T时仍可保持。亚开尔文微SQUID、高频EPR与理论模型共同支持较强的Dy–Dy交换稳定该态；作者提出邻近Cu(II)可能促进这一交换，而直接Cu–Dy铁磁交换略有削弱作用。",
+      "meaning_cn": "高频EPR与低温磁化测量约束不同层面的能级和交换行为，联合模型有助于区分Dy–Dy和Cu–Dy贡献。1.3 T描述该分子体系的环形态稳定范围，并非EPR仪器灵敏度或工作场上限；交换通道的解释仍含理论归属。",
+      "publication_date": "2026-11-05",
+      "time_scope": "7d_extension",
+      "source": "Angewandte Chemie (International ed. in English)",
+      "url": "https://doi.org/10.1002/anie.7709103",
+      "doi": "10.1002/anie.7709103",
+      "alternative_sources": [
+        {
+          "name": "PubMed作者、电子日期及摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42989781/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-08",
+      "last_updated": "2026-11-08",
+      "report_file": "SpinFront_2026-11-08.html"
+    },
+    {
+      "item_id": "SF-20261108-04",
+      "report_date": "2026-11-08",
+      "item_no": 4,
+      "title_cn": "EPR自旋密度比较油泥炭的过硫酸盐活化",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "environmental_catalysis"
+      ],
+      "sample_systems": [
+        "热解油泥残渣",
+        "PMS",
+        "莠去津"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Zhang 等以硅砂辅助球磨处理热解油泥残渣，并结合EPR、猝灭和探针动力学研究PMS活化。球磨后持久自由基自旋密度由1.084×10¹⁶增至2.087×10¹⁶ spins/g，反应后降至1.854×10¹⁶；联合证据支持硫酸根自由基主导莠去津氧化。",
+      "meaning_cn": "自旋密度变化可用于比较材料处理前后及反应消耗，但不足以独立证明持久自由基是唯一活化位点。作者同时指出缺陷碳、含氧基团及金属氧化物可能参与；活性物种归属依赖EPR、猝灭与动力学的共同支持。",
+      "publication_date": "2026-11-04",
+      "time_scope": "7d_extension",
+      "source": "Journal of environmental management",
+      "url": "https://doi.org/10.1016/j.jenvman.2026.131299",
+      "doi": "10.1016/j.jenvman.2026.131299",
+      "alternative_sources": [
+        {
+          "name": "PubMed作者、电子日期及摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42981868/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-08",
+      "last_updated": "2026-11-08",
+      "report_file": "SpinFront_2026-11-08.html"
+    },
+    {
+      "item_id": "SF-20261108-05",
+      "report_date": "2026-11-08",
+      "item_no": 5,
+      "title_cn": "¹H NMR与NOESY追踪双橙酮光异构",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr",
+        "reaction_monitoring"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "联苯桥连双橙酮"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Dettori 等在氘代丙酮中以254 nm紫外光照射联苯桥连双橙酮，用¹H NMR跟踪含E构型光异构体的形成。NOESY相关约束其溶液空间排列；弱小附加峰提示可能有少量双重异构化物种，部分芳氢出现明显低场位移。",
+      "meaning_cn": "¹H谱可比较光照前后的物种变化，NOESY补充空间接近关系；弱峰所对应的双重异构化物种仍属暂定。构象与磁各向异性分析有助于解释位移变化，研究未测定内禀光化学效率，不能由峰强直接推出量子产率。",
+      "publication_date": "2026-11-03",
+      "time_scope": "7d_extension",
+      "source": "Molecules",
+      "url": "https://doi.org/10.3390/molecules31213963",
+      "doi": "10.3390/molecules31213963",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及摘要",
+          "url": "https://api.crossref.org/works/10.3390/molecules31213963"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-08",
+      "last_updated": "2026-11-08",
+      "report_file": "SpinFront_2026-11-08.html"
+    },
+    {
+      "item_id": "SF-20261108-06",
+      "report_date": "2026-11-08",
+      "item_no": 6,
+      "title_cn": "氢谱与碳谱比较花基康普茶发酵变化",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "sample_systems": [
+        "绿茶康普茶",
+        "Butea monosperma花基康普茶"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Bharti 等结合活细胞成像和¹H、¹³C NMR观察绿茶及Butea monosperma花基康普茶的14天发酵。核磁谱显示碳水化合物及糖苷相关信号变化，并出现与茶成分微生物转化相符的附加信号；两类饮料最终pH分别降至2.90和2.88。",
+      "meaning_cn": "NMR提供溶液组分变化，成像则描述菌膜与聚集体，两种信息可以互补。摘要尚未给出各附加峰的完整归属或绝对定量；DPPH清除率和总酚变化不能全部归于某一核磁峰，也不能直接当作人体健康效果。",
+      "publication_date": "2026-11-03",
+      "time_scope": "7d_extension",
+      "source": "Food science & nutrition",
+      "url": "https://doi.org/10.1002/fsn3.72531",
+      "doi": "10.1002/fsn3.72531",
+      "alternative_sources": [
+        {
+          "name": "PubMed作者、电子日期及摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42985356/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-08",
+      "last_updated": "2026-11-08",
+      "report_file": "SpinFront_2026-11-08.html"
+    },
+    {
+      "item_id": "SF-20261108-07",
+      "report_date": "2026-11-08",
+      "item_no": 7,
+      "title_cn": "二维NMR约束甘薯藤果胶的主链与支链",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "natural_products"
+      ],
+      "sample_systems": [
+        "IBPS-3A酸性多糖"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Shi 等从甘薯藤分离约56 kDa的酸性多糖IBPS-3A，以组成、甲基化及COSY、HSQC、TOCSY、HMBC和NOESY联合分析结构。结果支持半乳糖醛酸与鼠李糖连接构成主链，并带有阿拉伯半乳聚糖支链；研究另考察了巨噬细胞响应。",
+      "meaning_cn": "多种二维相关谱与甲基化分析共同限制糖残基连接，单一异头区峰不足以确认完整支链结构。该多糖诱导的细胞响应与结构表征是不同层面的证据；不能单靠核磁连接模型断定受体结合位点或抗肿瘤机制。",
+      "publication_date": "2026-11-03",
+      "time_scope": "7d_extension",
+      "source": "Food science & nutrition",
+      "url": "https://doi.org/10.1002/fsn3.72530",
+      "doi": "10.1002/fsn3.72530",
+      "alternative_sources": [
+        {
+          "name": "PubMed作者、电子日期及摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42985173/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-08",
+      "last_updated": "2026-11-08",
+      "report_file": "SpinFront_2026-11-08.html"
+    },
+    {
+      "item_id": "SF-20261108-08",
+      "report_date": "2026-11-08",
+      "item_no": 8,
+      "title_cn": "大样本NMR代谢谱比较不同饮食人群",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "英国生物样本库血浆"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Wang 等分析英国生物样本库约27.5万人的249项血浆NMR代谢指标，比较不同饮食组。白人英国参与者中241项指标在多重校正后存在组间差异；素食组的n-3及DHA较低，甘氨酸较高，支链氨基酸较低，英国印度裔参与者呈相似总体模式。",
+      "meaning_cn": "同一NMR平台可比较脂蛋白亚类、脂肪酸及氨基酸组成，较单个总脂质指标提供更细的表型。饮食由入组报告分类，结果为调整后的组间关联；样本量大不能消除残余混杂，也不能将差异直接解释为饮食干预的因果效果。",
+      "publication_date": "2026-11-07",
+      "time_scope": "7d_extension",
+      "source": "European Journal of Nutrition",
+      "url": "https://doi.org/10.1007/s00394-026-04154-w",
+      "doi": "10.1007/s00394-026-04154-w",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及摘要",
+          "url": "https://api.crossref.org/works/10.1007/s00394-026-04154-w"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-08",
+      "last_updated": "2026-11-08",
+      "report_file": "SpinFront_2026-11-08.html"
+    },
+    {
+      "item_id": "SF-20261108-09",
+      "report_date": "2026-11-08",
+      "item_no": 9,
+      "title_cn": "随机试验血浆NMR评估DASH生活方式干预",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "PREMIER试验血浆"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Mehri Hajmir 等分析PREMIER随机试验690名成人的空腹血浆NMR数据，比较基线与6个月代谢变化。相较仅提供建议，生活方式干预改变了部分脂质相关模式；加入DASH饮食的组别还出现n-3脂肪酸增加，以及支链、芳香族氨基酸和GlycA等指标下降。",
+      "meaning_cn": "随机分组和前后测量可帮助区分干预相关的代谢变化，主成分分析则将相关指标压缩为多组模式。这里比较的是包含多项行为改变的方案；不能把全部变化单独归因于一种食物，也不能用代谢指标替代临床结局。",
+      "publication_date": "2026-11-06",
+      "time_scope": "7d_extension",
+      "source": "The Journal of nutrition",
+      "url": "https://doi.org/10.1016/j.tjnut.2026.101931",
+      "doi": "10.1016/j.tjnut.2026.101931",
+      "alternative_sources": [
+        {
+          "name": "PubMed作者、电子日期及摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42994692/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-08",
+      "last_updated": "2026-11-08",
+      "report_file": "SpinFront_2026-11-08.html"
+    },
+    {
+      "item_id": "SF-20261108-10",
+      "report_date": "2026-11-08",
+      "item_no": 10,
+      "title_cn": "国仪应用说明区分EPR微波功率与样品场强",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "cw_epr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "sample_systems": [],
+      "instrument_component_ids": [],
+      "information_type": "application_note",
+      "summary_cn": "国仪量子在微波功率应用说明中区分绝对功率mW与相对衰减dB，并说明样品实际感受的是微波磁场B₁。在未饱和且其他条件近似不变时，CW-EPR峰—峰幅度近似随功率平方根增加；介电损耗可能随功率增加并引起温升或调谐变化。",
+      "meaning_cn": "跨仪器复现时应记录绝对功率，不能只照搬衰减值；相同输入功率也不保证相同B₁。比较功率依赖时需保持装样、耦合、增益及调制条件一致，检查线形是否展宽；进入饱和或样品温度明显变化后，不宜继续套用平方根关系。",
+      "publication_date": "2026-11-04",
+      "time_scope": "7d_extension",
+      "source": "国仪量子｜EPR时刻：什么是微波功率",
+      "url": "https://www.ciqtek.com/news/news.html?id=32ac1902-318a-4d32-b89a-0c2db15bcb30",
+      "doi": "",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-08",
+      "last_updated": "2026-11-08",
+      "report_file": "SpinFront_2026-11-08.html"
+    }
+  ],
+  "procurement_status": {
+    "status": "no_verified_updates",
+    "title_cn": "采购与需求动态",
+    "summary_cn": "本期未检索到新增已核实公告。已核查中国政府采购网、全国公共资源交易平台、高校采购网站、东方招标公开列表及只读详情接口、采购聚合页、SAM.gov和海外政府采购页面，并回扫11月1日至7日。已登记候选15份；重复、超窗、医学MRI及原文未核实者均未收录。复旦采购意向详情返回503，浙江合同正文仍未取得；动态页面或访问受限不等同于没有公告。",
+    "checked_at": "2026-11-08T06:11:07+08:00",
+    "registered_candidates": 15
+  }
+}

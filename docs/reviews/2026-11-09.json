@@ -887,7 +887,12 @@
       "Web-open Nature redirected, ordinary HTTP primary page succeeded and abstract/author/date read",
       "CNRS list503, Magritek403; no zero-new-result claims from failures",
       "Crossref429 retries logged"
-    ]
+    ],
+    "page_body_audit": {
+      "Elsevier": "Latest HTML was Site Unavailable despite200, not no-new-papers evidence",
+      "vendors": "Bruker, JEOL, Oxford, Magritek, CIQTEK, EasySpin page text inspected; Magritek Nov3 brochure overview independently followed",
+      "meetings": "ENC/EUROMAR/ICMRBS/EFEPR/ISMAR accessible body inspected; failures in route log"
+    }
   },
   "candidates": [
     {
@@ -1872,6 +1877,20 @@
       "reason": "未核实直接NMR/EPR作用",
       "evidence_location": "https://arxiv.org/abs/2611.03507",
       "duplicate_key": "arxiv.org/abs/2611.03507"
+    },
+    {
+      "title": "Benchtop NMR for Biopharmaceutical Analysis: From Bioprocess Monitoring to Drug Product Testing",
+      "source": "Magritek",
+      "url": "https://magritek.com/2026/11/03/benchtop-nmr-for-biopharmaceutical-analysis-from-bioprocess-monitoring-to-drug-product-testing/",
+      "doi": "",
+      "actual_online_date": "2026-11-03",
+      "publication_status": "unknown",
+      "mr_role": "application_note",
+      "decision": "excluded",
+      "reason": "官方文为既有应用及新宣传册的概览，引用2015/2024/2026既有研究，网页未展开独立新增实验、定量性能或操作方案；与本期可核实的新方法/结果相比技术增量不足，未将流动、溶剂抑制及GxP等一般能力当作新功能发布",
+      "evidence_location": "official page Posted Nov3, sections Bioreactions/Formulations/Automated Workflows and References1-4",
+      "duplicate_key": "magritek.com/2026/11/03/benchtop-nmr-for-biopharmaceutical-analysis-from-bioprocess-monitoring-to-drug-product-testing",
+      "source_review": "official list and full article checked; ordinary HTTP retrieval and web-open succeeded"
     }
   ],
   "dedup": {
@@ -2105,5 +2124,9 @@
       "local acceptance": "pass: 4 ordered articles, canonical fields/DOI/source links, procurement final, homepage/date archive/search indices match"
     },
     "publication": "commit/Actions/Pages/public verification reported separately after commit"
+  },
+  "revision": {
+    "previous_commit": "63f0f1dac9f764f6a3d803f82357e7408a60607d",
+    "reason": "补录厂商列表正文及Magritek独立文章排除依据；正式日报正文、顺序与既有item_id均未改动；将Liu的Crossref链接标识更正为作者及日期，摘要证据由出版商链接承担"
   }
 }

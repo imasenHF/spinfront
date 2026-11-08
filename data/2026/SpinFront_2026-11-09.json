@@ -1,0 +1,166 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-11-09",
+  "scope_note": "检索截至2026-11-09 06:05:29（Asia/Shanghai）；优先过去24小时，逐日回扫11月2日—8日。常规核实24小时不足5条，已启动增强搜索；增强初筛不足8条，继续深度增强，覆盖专业及高影响期刊、预印本和数据库、机构、仪器软件、会议及中外采购五条路线和九个方法主题簇。全库81期698条、最近7期及34份Review查重，排除学术DOI重复57项、采购重复7份；2项学术新增日期或出版状态未核实排除，另有采购年份冲突1项。最终4条：2篇论文、1篇预印本及末条采购汇总，含1份履约验收公告；登记采购候选17份，收录1份、排除16份。全部标近7天扩展，未满10条主要因周末新增有限、重复、刊期与首发不同及原始来源限制，不以常规表征补位。部分出版商重定向、官网403/503、题录限流及动态采购详情受限已补查并留痕；读取失败不代表没有公告。待复核标签无，未读取私人教材。",
+  "items": [
+    {
+      "item_id": "SF-20261109-01",
+      "report_date": "2026-11-09",
+      "item_no": 1,
+      "title_cn": "¹H NMR比较三种成骨细胞系的氨基酸代谢",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "MG63",
+        "hFOB",
+        "MC3T3"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Liu 等以¹H NMR比较MG63、hFOB和MC3T3成骨细胞系的代谢特征。通路富集分别偏向支链氨基酸、甘氨酸/丝氨酸/苏氨酸及精氨酸/脯氨酸代谢；补充对应氨基酸增强了各细胞系的成骨能力，谷氨酸补充则在三者中均表现为负向调节。",
+      "meaning_cn": "细胞系之间的代谢差异可帮助选择成骨研究模型，并为后续补充实验提供候选通路。NMR筛查、通路富集与补充后的表型属于不同证据层级；富集并不等于直接测得代谢通量，细胞系结果也不能外推为骨组织或人体的营养干预效果。",
+      "publication_date": "2026-11-07",
+      "time_scope": "7d_extension",
+      "source": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-79717-2",
+      "doi": "10.1038/s41598-026-79717-2",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及摘要",
+          "url": "https://api.crossref.org/works/10.1038/s41598-026-79717-2"
+        },
+        {
+          "name": "出版商作者、在线日期及原始摘要",
+          "url": "https://www.nature.com/articles/s41598-026-79717-2"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-09",
+      "last_updated": "2026-11-09",
+      "report_file": "SpinFront_2026-11-09.html"
+    },
+    {
+      "item_id": "SF-20261109-02",
+      "report_date": "2026-11-09",
+      "item_no": 2,
+      "title_cn": "狄拉克节线体系的Korringa基准不必等于1",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "sample_systems": [
+        "狄拉克节线体系"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Sekine 等在预印本中以态密度模型计算无电子关联的Korringa因子。有限节线色散下，该因子可从高温的1.71连续过渡至低温的1；朗道量子化还可在没有电子关联时产生增强峰和磁振荡，说明常用金属基准并非总能直接用于狄拉克节线材料。",
+      "meaning_cn": "利用NMR的Knight位移和自旋晶格弛豫判断电子关联时，需要先区分态密度效应与相互作用效应。这里的过渡和增强来自指定能带模型的理论计算，未提供新样品测量；实际材料还需核查节线色散、磁场及其他弛豫通道，不能将因子偏离1直接判为强关联。",
+      "publication_date": "2026-11-02",
+      "time_scope": "7d_extension",
+      "source": "arXiv（预印本）",
+      "url": "https://arxiv.org/abs/2611.03994v1",
+      "doi": "10.48550/arxiv.2611.03994",
+      "alternative_sources": [
+        {
+          "name": "arXiv作者、版本、提交时刻及摘要",
+          "url": "https://export.arxiv.org/api/query?id_list=2611.03994"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-11-09",
+      "last_updated": "2026-11-09",
+      "report_file": "SpinFront_2026-11-09.html"
+    },
+    {
+      "item_id": "SF-20261109-03",
+      "report_date": "2026-11-09",
+      "item_no": 3,
+      "title_cn": "EPR参数与DFT分析环状限域中的低聚噻吩离子",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "polymers"
+      ],
+      "sample_systems": [
+        "低聚噻吩离子",
+        "多芳香环状烃"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Krinichnyi 结合DFT与EPR参数分析，研究被多芳香环状烃包覆的低聚噻吩离子。Mulliken和Löwdin布居分析描述电荷与自旋的分配；各向异性超精细耦合及g张量本征值随离子电荷、自旋取向和周围环带结构而变化。",
+      "meaning_cn": "将g张量与超精细耦合和局部结构并列，可检验电荷转移与自旋分布是否表现为同一趋势。可读摘要尚未完整区分各参数的实测与计算来源，因此这里不将其写作新实验性能或已实现的器件控制；独立调控电荷与自旋仍是作者提出的潜在应用。",
+      "publication_date": "2026-11-03",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Chemical Physics",
+      "url": "https://doi.org/10.1063/5.0333551",
+      "doi": "10.1063/5.0333551",
+      "alternative_sources": [
+        {
+          "name": "Crossref作者、在线日期及摘要",
+          "url": "https://api.crossref.org/works/10.1063/5.0333551"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-09",
+      "last_updated": "2026-11-09",
+      "report_file": "SpinFront_2026-11-09.html"
+    },
+    {
+      "item_id": "SF-20261109-04",
+      "report_date": "2026-11-09",
+      "item_no": 4,
+      "title_cn": "采购与需求动态：郑州大学400 MHz NMR履约验收公示",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [],
+      "sample_systems": [],
+      "instrument_component_ids": [],
+      "information_type": "tender",
+      "summary_cn": "郑州大学于2026-11-05发布化学学院、平原实验室融创中心超导核磁共振谱仪采购项目履约验收公示（豫财招标采购-2025-1129）。公告列明BRUKER Ascend Evo 400核磁波谱仪1台，供应商河南武兴商贸有限公司，合同货物合计320万元；验收于10月22日进行，整改后予以通过。",
+      "meaning_cn": "本次是履约验收公示，不再属于开放投标阶段。正文记载交货及时、安装调试晚于合同约定日期且已出具说明，并完善售后方案；320万元为合同货物合计，不是本次新公布的预算。可读正文未展开探头、灵敏度或其他具体验收参数。",
+      "publication_date": "2026-11-05",
+      "time_scope": "7d_extension",
+      "source": "郑州大学招标采购网｜融创中心超导核磁谱仪验收公示",
+      "url": "https://www7.zzu.edu.cn/ztb/info/1136/21045.htm",
+      "doi": "",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-09",
+      "last_updated": "2026-11-09",
+      "report_file": "SpinFront_2026-11-09.html"
+    }
+  ]
+}

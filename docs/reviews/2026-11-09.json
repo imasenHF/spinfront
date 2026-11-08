@@ -1,0 +1,2109 @@
+{
+  "schema_version": "1.0.0",
+  "report_date": "2026-11-09",
+  "retrieval_cutoff": "2026-11-09T06:05:29+08:00",
+  "repository": {
+    "base_head": "cf7b35965ad640242dc4bcf07f42f00869c990c0",
+    "branch": "main",
+    "permission": "push=true",
+    "rules_blob": "c0ef9e2c6d31af7063e84dbd386aabff35af9b69",
+    "taxonomy_version": "1.2.0",
+    "read": [
+      "DAILY_TASK_PROMPT",
+      "DAILY_OUTPUT_RULES",
+      "MAINTENANCE",
+      "STYLE_GUIDE",
+      "taxonomy.json",
+      "templates/issue.html",
+      "assets/style.css",
+      "scripts/build.py"
+    ]
+  },
+  "search_summary": {
+    "window_days": [
+      "2026-11-02",
+      "2026-11-03",
+      "2026-11-04",
+      "2026-11-05",
+      "2026-11-06",
+      "2026-11-07",
+      "2026-11-08"
+    ],
+    "enhancement_trigger": "<5 confirmed 24h; enhanced <8, deep completed before accepting fewer than 10",
+    "route_attempts": [
+      [
+        "2026-11-02_solution",
+        "https://api.crossref.org/works?query.bibliographic=NMR+spectroscopy+solution+qNMR+DOSY+pure+shift+CEST+DEST+reaction+monitoring+paramagnetic&filter=from-online-pub-date%3A2026-11-02%2Cuntil-online-pub-date%3A2026-11-02&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-02_solid",
+        "https://api.crossref.org/works?query.bibliographic=solid+state+NMR+MAS+DNP+magic+angle+spinning&filter=from-online-pub-date%3A2026-11-02%2Cuntil-online-pub-date%3A2026-11-02&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-02_low",
+        "https://api.crossref.org/works?query.bibliographic=benchtop+NMR+low+field+time+domain+TD+NMR&filter=from-online-pub-date%3A2026-11-02%2Cuntil-online-pub-date%3A2026-11-02&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-02_processing",
+        "https://api.crossref.org/works?query.bibliographic=NMR+spectra+spectral+processing+assignment+NUS&filter=from-online-pub-date%3A2026-11-02%2Cuntil-online-pub-date%3A2026-11-02&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-02_cw",
+        "https://api.crossref.org/works?query.bibliographic=electron+paramagnetic+resonance+CW+EPR+rapid+scan&filter=from-online-pub-date%3A2026-11-02%2Cuntil-online-pub-date%3A2026-11-02&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-02_pulse",
+        "https://api.crossref.org/works?query.bibliographic=electron+paramagnetic+resonance+pulsed+DEER+PELDOR+ENDOR+ESEEM+HYSCORE&filter=from-online-pub-date%3A2026-11-02%2Cuntil-online-pub-date%3A2026-11-02&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        "HTTP Error 429: Too Many Requests"
+      ],
+      [
+        "2026-11-02_trepr",
+        "https://api.crossref.org/works?query.bibliographic=time+resolved+electron+paramagnetic+resonance+spin+trapping+photochemistry&filter=from-online-pub-date%3A2026-11-02%2Cuntil-online-pub-date%3A2026-11-02&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-02_operando",
+        "https://api.crossref.org/works?query.bibliographic=operando+in+situ+electrochemical+electron+paramagnetic+resonance&filter=from-online-pub-date%3A2026-11-02%2Cuntil-online-pub-date%3A2026-11-02&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        "HTTP Error 429: Too Many Requests"
+      ],
+      [
+        "2026-11-02_hardware",
+        "https://api.crossref.org/works?query.bibliographic=NMR+EPR+probe+resonator+magnet+console+autosampler&filter=from-online-pub-date%3A2026-11-02%2Cuntil-online-pub-date%3A2026-11-02&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-03_solution",
+        "https://api.crossref.org/works?query.bibliographic=NMR+spectroscopy+solution+qNMR+DOSY+pure+shift+CEST+DEST+reaction+monitoring+paramagnetic&filter=from-online-pub-date%3A2026-11-03%2Cuntil-online-pub-date%3A2026-11-03&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-03_solid",
+        "https://api.crossref.org/works?query.bibliographic=solid+state+NMR+MAS+DNP+magic+angle+spinning&filter=from-online-pub-date%3A2026-11-03%2Cuntil-online-pub-date%3A2026-11-03&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-03_low",
+        "https://api.crossref.org/works?query.bibliographic=benchtop+NMR+low+field+time+domain+TD+NMR&filter=from-online-pub-date%3A2026-11-03%2Cuntil-online-pub-date%3A2026-11-03&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-03_processing",
+        "https://api.crossref.org/works?query.bibliographic=NMR+spectra+spectral+processing+assignment+NUS&filter=from-online-pub-date%3A2026-11-03%2Cuntil-online-pub-date%3A2026-11-03&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-03_cw",
+        "https://api.crossref.org/works?query.bibliographic=electron+paramagnetic+resonance+CW+EPR+rapid+scan&filter=from-online-pub-date%3A2026-11-03%2Cuntil-online-pub-date%3A2026-11-03&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-03_pulse",
+        "https://api.crossref.org/works?query.bibliographic=electron+paramagnetic+resonance+pulsed+DEER+PELDOR+ENDOR+ESEEM+HYSCORE&filter=from-online-pub-date%3A2026-11-03%2Cuntil-online-pub-date%3A2026-11-03&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-03_trepr",
+        "https://api.crossref.org/works?query.bibliographic=time+resolved+electron+paramagnetic+resonance+spin+trapping+photochemistry&filter=from-online-pub-date%3A2026-11-03%2Cuntil-online-pub-date%3A2026-11-03&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        "HTTP Error 429: Too Many Requests"
+      ],
+      [
+        "2026-11-03_operando",
+        "https://api.crossref.org/works?query.bibliographic=operando+in+situ+electrochemical+electron+paramagnetic+resonance&filter=from-online-pub-date%3A2026-11-03%2Cuntil-online-pub-date%3A2026-11-03&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-03_hardware",
+        "https://api.crossref.org/works?query.bibliographic=NMR+EPR+probe+resonator+magnet+console+autosampler&filter=from-online-pub-date%3A2026-11-03%2Cuntil-online-pub-date%3A2026-11-03&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-04_solution",
+        "https://api.crossref.org/works?query.bibliographic=NMR+spectroscopy+solution+qNMR+DOSY+pure+shift+CEST+DEST+reaction+monitoring+paramagnetic&filter=from-online-pub-date%3A2026-11-04%2Cuntil-online-pub-date%3A2026-11-04&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        "HTTP Error 429: Too Many Requests"
+      ],
+      [
+        "2026-11-04_solid",
+        "https://api.crossref.org/works?query.bibliographic=solid+state+NMR+MAS+DNP+magic+angle+spinning&filter=from-online-pub-date%3A2026-11-04%2Cuntil-online-pub-date%3A2026-11-04&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-04_low",
+        "https://api.crossref.org/works?query.bibliographic=benchtop+NMR+low+field+time+domain+TD+NMR&filter=from-online-pub-date%3A2026-11-04%2Cuntil-online-pub-date%3A2026-11-04&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-04_processing",
+        "https://api.crossref.org/works?query.bibliographic=NMR+spectra+spectral+processing+assignment+NUS&filter=from-online-pub-date%3A2026-11-04%2Cuntil-online-pub-date%3A2026-11-04&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        "<urlopen error timed out>"
+      ],
+      [
+        "2026-11-04_cw",
+        "https://api.crossref.org/works?query.bibliographic=electron+paramagnetic+resonance+CW+EPR+rapid+scan&filter=from-online-pub-date%3A2026-11-04%2Cuntil-online-pub-date%3A2026-11-04&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-04_pulse",
+        "https://api.crossref.org/works?query.bibliographic=electron+paramagnetic+resonance+pulsed+DEER+PELDOR+ENDOR+ESEEM+HYSCORE&filter=from-online-pub-date%3A2026-11-04%2Cuntil-online-pub-date%3A2026-11-04&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        "<urlopen error timed out>"
+      ],
+      [
+        "2026-11-04_trepr",
+        "https://api.crossref.org/works?query.bibliographic=time+resolved+electron+paramagnetic+resonance+spin+trapping+photochemistry&filter=from-online-pub-date%3A2026-11-04%2Cuntil-online-pub-date%3A2026-11-04&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-04_operando",
+        "https://api.crossref.org/works?query.bibliographic=operando+in+situ+electrochemical+electron+paramagnetic+resonance&filter=from-online-pub-date%3A2026-11-04%2Cuntil-online-pub-date%3A2026-11-04&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-04_hardware",
+        "https://api.crossref.org/works?query.bibliographic=NMR+EPR+probe+resonator+magnet+console+autosampler&filter=from-online-pub-date%3A2026-11-04%2Cuntil-online-pub-date%3A2026-11-04&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-05_solution",
+        "https://api.crossref.org/works?query.bibliographic=NMR+spectroscopy+solution+qNMR+DOSY+pure+shift+CEST+DEST+reaction+monitoring+paramagnetic&filter=from-online-pub-date%3A2026-11-05%2Cuntil-online-pub-date%3A2026-11-05&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-05_solid",
+        "https://api.crossref.org/works?query.bibliographic=solid+state+NMR+MAS+DNP+magic+angle+spinning&filter=from-online-pub-date%3A2026-11-05%2Cuntil-online-pub-date%3A2026-11-05&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-05_low",
+        "https://api.crossref.org/works?query.bibliographic=benchtop+NMR+low+field+time+domain+TD+NMR&filter=from-online-pub-date%3A2026-11-05%2Cuntil-online-pub-date%3A2026-11-05&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        "HTTP Error 429: Too Many Requests"
+      ],
+      [
+        "2026-11-05_processing",
+        "https://api.crossref.org/works?query.bibliographic=NMR+spectra+spectral+processing+assignment+NUS&filter=from-online-pub-date%3A2026-11-05%2Cuntil-online-pub-date%3A2026-11-05&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-05_cw",
+        "https://api.crossref.org/works?query.bibliographic=electron+paramagnetic+resonance+CW+EPR+rapid+scan&filter=from-online-pub-date%3A2026-11-05%2Cuntil-online-pub-date%3A2026-11-05&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-05_pulse",
+        "https://api.crossref.org/works?query.bibliographic=electron+paramagnetic+resonance+pulsed+DEER+PELDOR+ENDOR+ESEEM+HYSCORE&filter=from-online-pub-date%3A2026-11-05%2Cuntil-online-pub-date%3A2026-11-05&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        "HTTP Error 429: Too Many Requests"
+      ],
+      [
+        "2026-11-05_trepr",
+        "https://api.crossref.org/works?query.bibliographic=time+resolved+electron+paramagnetic+resonance+spin+trapping+photochemistry&filter=from-online-pub-date%3A2026-11-05%2Cuntil-online-pub-date%3A2026-11-05&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-05_operando",
+        "https://api.crossref.org/works?query.bibliographic=operando+in+situ+electrochemical+electron+paramagnetic+resonance&filter=from-online-pub-date%3A2026-11-05%2Cuntil-online-pub-date%3A2026-11-05&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        "HTTP Error 429: Too Many Requests"
+      ],
+      [
+        "2026-11-05_hardware",
+        "https://api.crossref.org/works?query.bibliographic=NMR+EPR+probe+resonator+magnet+console+autosampler&filter=from-online-pub-date%3A2026-11-05%2Cuntil-online-pub-date%3A2026-11-05&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-06_solution",
+        "https://api.crossref.org/works?query.bibliographic=NMR+spectroscopy+solution+qNMR+DOSY+pure+shift+CEST+DEST+reaction+monitoring+paramagnetic&filter=from-online-pub-date%3A2026-11-06%2Cuntil-online-pub-date%3A2026-11-06&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-06_solid",
+        "https://api.crossref.org/works?query.bibliographic=solid+state+NMR+MAS+DNP+magic+angle+spinning&filter=from-online-pub-date%3A2026-11-06%2Cuntil-online-pub-date%3A2026-11-06&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-06_low",
+        "https://api.crossref.org/works?query.bibliographic=benchtop+NMR+low+field+time+domain+TD+NMR&filter=from-online-pub-date%3A2026-11-06%2Cuntil-online-pub-date%3A2026-11-06&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        "HTTP Error 429: Too Many Requests"
+      ],
+      [
+        "2026-11-06_processing",
+        "https://api.crossref.org/works?query.bibliographic=NMR+spectra+spectral+processing+assignment+NUS&filter=from-online-pub-date%3A2026-11-06%2Cuntil-online-pub-date%3A2026-11-06&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-06_cw",
+        "https://api.crossref.org/works?query.bibliographic=electron+paramagnetic+resonance+CW+EPR+rapid+scan&filter=from-online-pub-date%3A2026-11-06%2Cuntil-online-pub-date%3A2026-11-06&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-06_pulse",
+        "https://api.crossref.org/works?query.bibliographic=electron+paramagnetic+resonance+pulsed+DEER+PELDOR+ENDOR+ESEEM+HYSCORE&filter=from-online-pub-date%3A2026-11-06%2Cuntil-online-pub-date%3A2026-11-06&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-06_trepr",
+        "https://api.crossref.org/works?query.bibliographic=time+resolved+electron+paramagnetic+resonance+spin+trapping+photochemistry&filter=from-online-pub-date%3A2026-11-06%2Cuntil-online-pub-date%3A2026-11-06&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        "HTTP Error 429: Too Many Requests"
+      ],
+      [
+        "2026-11-06_operando",
+        "https://api.crossref.org/works?query.bibliographic=operando+in+situ+electrochemical+electron+paramagnetic+resonance&filter=from-online-pub-date%3A2026-11-06%2Cuntil-online-pub-date%3A2026-11-06&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-06_hardware",
+        "https://api.crossref.org/works?query.bibliographic=NMR+EPR+probe+resonator+magnet+console+autosampler&filter=from-online-pub-date%3A2026-11-06%2Cuntil-online-pub-date%3A2026-11-06&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-07_solution",
+        "https://api.crossref.org/works?query.bibliographic=NMR+spectroscopy+solution+qNMR+DOSY+pure+shift+CEST+DEST+reaction+monitoring+paramagnetic&filter=from-online-pub-date%3A2026-11-07%2Cuntil-online-pub-date%3A2026-11-07&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-07_solid",
+        "https://api.crossref.org/works?query.bibliographic=solid+state+NMR+MAS+DNP+magic+angle+spinning&filter=from-online-pub-date%3A2026-11-07%2Cuntil-online-pub-date%3A2026-11-07&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-07_low",
+        "https://api.crossref.org/works?query.bibliographic=benchtop+NMR+low+field+time+domain+TD+NMR&filter=from-online-pub-date%3A2026-11-07%2Cuntil-online-pub-date%3A2026-11-07&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-07_processing",
+        "https://api.crossref.org/works?query.bibliographic=NMR+spectra+spectral+processing+assignment+NUS&filter=from-online-pub-date%3A2026-11-07%2Cuntil-online-pub-date%3A2026-11-07&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-07_cw",
+        "https://api.crossref.org/works?query.bibliographic=electron+paramagnetic+resonance+CW+EPR+rapid+scan&filter=from-online-pub-date%3A2026-11-07%2Cuntil-online-pub-date%3A2026-11-07&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        "HTTP Error 429: Too Many Requests"
+      ],
+      [
+        "2026-11-07_pulse",
+        "https://api.crossref.org/works?query.bibliographic=electron+paramagnetic+resonance+pulsed+DEER+PELDOR+ENDOR+ESEEM+HYSCORE&filter=from-online-pub-date%3A2026-11-07%2Cuntil-online-pub-date%3A2026-11-07&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-07_trepr",
+        "https://api.crossref.org/works?query.bibliographic=time+resolved+electron+paramagnetic+resonance+spin+trapping+photochemistry&filter=from-online-pub-date%3A2026-11-07%2Cuntil-online-pub-date%3A2026-11-07&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-07_operando",
+        "https://api.crossref.org/works?query.bibliographic=operando+in+situ+electrochemical+electron+paramagnetic+resonance&filter=from-online-pub-date%3A2026-11-07%2Cuntil-online-pub-date%3A2026-11-07&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-07_hardware",
+        "https://api.crossref.org/works?query.bibliographic=NMR+EPR+probe+resonator+magnet+console+autosampler&filter=from-online-pub-date%3A2026-11-07%2Cuntil-online-pub-date%3A2026-11-07&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-08_solution",
+        "https://api.crossref.org/works?query.bibliographic=NMR+spectroscopy+solution+qNMR+DOSY+pure+shift+CEST+DEST+reaction+monitoring+paramagnetic&filter=from-online-pub-date%3A2026-11-08%2Cuntil-online-pub-date%3A2026-11-08&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        "HTTP Error 429: Too Many Requests"
+      ],
+      [
+        "2026-11-08_solid",
+        "https://api.crossref.org/works?query.bibliographic=solid+state+NMR+MAS+DNP+magic+angle+spinning&filter=from-online-pub-date%3A2026-11-08%2Cuntil-online-pub-date%3A2026-11-08&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-08_low",
+        "https://api.crossref.org/works?query.bibliographic=benchtop+NMR+low+field+time+domain+TD+NMR&filter=from-online-pub-date%3A2026-11-08%2Cuntil-online-pub-date%3A2026-11-08&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-08_processing",
+        "https://api.crossref.org/works?query.bibliographic=NMR+spectra+spectral+processing+assignment+NUS&filter=from-online-pub-date%3A2026-11-08%2Cuntil-online-pub-date%3A2026-11-08&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        "HTTP Error 429: Too Many Requests"
+      ],
+      [
+        "2026-11-08_cw",
+        "https://api.crossref.org/works?query.bibliographic=electron+paramagnetic+resonance+CW+EPR+rapid+scan&filter=from-online-pub-date%3A2026-11-08%2Cuntil-online-pub-date%3A2026-11-08&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-08_pulse",
+        "https://api.crossref.org/works?query.bibliographic=electron+paramagnetic+resonance+pulsed+DEER+PELDOR+ENDOR+ESEEM+HYSCORE&filter=from-online-pub-date%3A2026-11-08%2Cuntil-online-pub-date%3A2026-11-08&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-08_trepr",
+        "https://api.crossref.org/works?query.bibliographic=time+resolved+electron+paramagnetic+resonance+spin+trapping+photochemistry&filter=from-online-pub-date%3A2026-11-08%2Cuntil-online-pub-date%3A2026-11-08&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-08_operando",
+        "https://api.crossref.org/works?query.bibliographic=operando+in+situ+electrochemical+electron+paramagnetic+resonance&filter=from-online-pub-date%3A2026-11-08%2Cuntil-online-pub-date%3A2026-11-08&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "2026-11-08_hardware",
+        "https://api.crossref.org/works?query.bibliographic=NMR+EPR+probe+resonator+magnet+console+autosampler&filter=from-online-pub-date%3A2026-11-08%2Cuntil-online-pub-date%3A2026-11-08&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "journal_jmr",
+        "https://api.crossref.org/journals/1090-7807/works?query=&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "journal_jmro",
+        "https://api.crossref.org/journals/2666-4410/works?query=&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "journal_mr",
+        "https://api.crossref.org/journals/2699-0059/works?query=&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        "HTTP Error 404: Not Found"
+      ],
+      [
+        "journal_jb",
+        "https://api.crossref.org/journals/0925-2738/works?query=&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        "HTTP Error 429: Too Many Requests"
+      ],
+      [
+        "journal_ss",
+        "https://api.crossref.org/journals/0926-2040/works?query=&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "journal_mrc",
+        "https://api.crossref.org/journals/0749-1581/works?query=&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "journal_amr",
+        "https://api.crossref.org/journals/0937-9347/works?query=&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "journal_nature",
+        "https://api.crossref.org/journals/0028-0836/works?query=magnetic+resonance+NMR+EPR+spin&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        "HTTP Error 429: Too Many Requests"
+      ],
+      [
+        "journal_science",
+        "https://api.crossref.org/journals/0036-8075/works?query=magnetic+resonance+NMR+EPR+spin&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        "HTTP Error 429: Too Many Requests"
+      ],
+      [
+        "journal_jacs",
+        "https://api.crossref.org/journals/0002-7863/works?query=magnetic+resonance+NMR+EPR+spin&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "journal_angew",
+        "https://api.crossref.org/journals/1433-7851/works?query=magnetic+resonance+NMR+EPR+spin&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "journal_pnas",
+        "https://api.crossref.org/journals/0027-8424/works?query=magnetic+resonance+NMR+EPR+spin&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "journal_prl",
+        "https://api.crossref.org/journals/0031-9007/works?query=magnetic+resonance+NMR+EPR+spin&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "journal_prx",
+        "https://api.crossref.org/journals/2160-3308/works?query=magnetic+resonance+NMR+EPR+spin&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "journal_nc",
+        "https://api.crossref.org/journals/2041-1723/works?query=magnetic+resonance+NMR+EPR+spin&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "journal_jpcb",
+        "https://api.crossref.org/journals/1520-6106/works?query=magnetic+resonance+NMR+EPR+spin&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "journal_pccp",
+        "https://api.crossref.org/journals/1463-9076/works?query=magnetic+resonance+NMR+EPR+spin&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "journal_jcp",
+        "https://api.crossref.org/journals/0021-9606/works?query=magnetic+resonance+NMR+EPR+spin&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "journal_nchem",
+        "https://api.crossref.org/journals/1755-4330/works?query=magnetic+resonance+NMR+EPR+spin&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "journal_ncat",
+        "https://api.crossref.org/journals/2520-1158/works?query=magnetic+resonance+NMR+EPR+spin&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "journal_nmat",
+        "https://api.crossref.org/journals/1476-1122/works?query=magnetic+resonance+NMR+EPR+spin&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "journal_nphys",
+        "https://api.crossref.org/journals/1745-2473/works?query=magnetic+resonance+NMR+EPR+spin&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        "HTTP Error 429: Too Many Requests"
+      ],
+      [
+        "journal_nmethods",
+        "https://api.crossref.org/journals/1548-7091/works?query=magnetic+resonance+NMR+EPR+spin&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "journal_sciadv",
+        "https://api.crossref.org/journals/2375-2548/works?query=magnetic+resonance+NMR+EPR+spin&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "journal_prxq",
+        "https://api.crossref.org/journals/2691-3399/works?query=magnetic+resonance+NMR+EPR+spin&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL",
+        200
+      ],
+      [
+        "pubmed",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%222026%2F10%2F31%22%5BPDAT%5D+%3A+%222026%2F11%2F06%22%5BPDAT%5D%29+AND+%28%22nuclear+magnetic+resonance%22%5BTitle%2FAbstract%5D+OR+%22electron+paramagnetic+resonance%22%5BTitle%2FAbstract%5D+OR+%22NMR+spectroscopy%22%5BTitle%2FAbstract%5D+OR+%22electron+spin+resonance%22%5BTitle%2FAbstract%5D%29&retmax=180&retmode=json",
+        200
+      ],
+      [
+        "arxiv",
+        "https://export.arxiv.org/api/query?search_query=%28all%3A%22nuclear+magnetic+resonance%22+OR+all%3A%22electron+paramagnetic+resonance%22+OR+all%3A%22electron+spin+resonance%22%29+AND+submittedDate%3A%5B202611020000+TO+202611082158%5D&max_results=60&sortBy=submittedDate&sortOrder=descending",
+        200
+      ],
+      [
+        "latest_0",
+        "https://www.sciencedirect.com/journal/journal-of-magnetic-resonance/articles-in-press",
+        200
+      ],
+      [
+        "latest_1",
+        "https://www.sciencedirect.com/journal/journal-of-magnetic-resonance-open/articles-in-press",
+        200
+      ],
+      [
+        "latest_2",
+        "https://mr.copernicus.org/articles.html",
+        "HTTP Error 404: Not Found"
+      ],
+      [
+        "latest_3",
+        "https://link.springer.com/journal/10858/online-first",
+        "HTTP Error 404: Not Found"
+      ],
+      [
+        "latest_4",
+        "https://www.sciencedirect.com/journal/solid-state-nuclear-magnetic-resonance/articles-in-press",
+        200
+      ],
+      [
+        "latest_5",
+        "https://analyticalsciencejournals.onlinelibrary.wiley.com/toc/1097458xa/0/0",
+        "HTTP Error 403: Forbidden"
+      ],
+      [
+        "latest_6",
+        "https://link.springer.com/journal/723/online-first",
+        "HTTP Error 404: Not Found"
+      ],
+      [
+        "latest_7",
+        "https://pubs.acs.org/toc/jacsat/0/0",
+        "HTTP Error 403: Forbidden"
+      ],
+      [
+        "latest_8",
+        "https://pubs.rsc.org/en/journals/journalissues/cp",
+        "HTTP Error 403: Forbidden"
+      ],
+      [
+        "latest_9",
+        "https://pubs.aip.org/aip/jcp",
+        "HTTP Error 403: Forbidden"
+      ],
+      [
+        "latest_10",
+        "https://chemrxiv.org/engage/chemrxiv/public-dashboard",
+        "HTTP Error 403: Forbidden"
+      ],
+      [
+        "vendor_0",
+        "https://www.bruker.com/en/news-and-events/news.html",
+        200
+      ],
+      [
+        "vendor_1",
+        "https://www.jeol.com/news/",
+        200
+      ],
+      [
+        "vendor_2",
+        "https://www.oxinst.com/news",
+        200
+      ],
+      [
+        "vendor_3",
+        "https://magritek.com/news/",
+        200
+      ],
+      [
+        "vendor_4",
+        "https://www.nanalysis.com/news",
+        "HTTP Error 404: Not Found"
+      ],
+      [
+        "vendor_5",
+        "https://www.ciqtek.com/news",
+        200
+      ],
+      [
+        "vendor_6",
+        "https://www.easyspin.org/",
+        200
+      ],
+      [
+        "meeting_0",
+        "https://www.enc-conference.org/",
+        200
+      ],
+      [
+        "meeting_1",
+        "https://euromar2026.org/",
+        200
+      ],
+      [
+        "meeting_2",
+        "https://www.icmrbs2026.org/",
+        200
+      ],
+      [
+        "meeting_3",
+        "https://www.efepr.org/",
+        200
+      ],
+      [
+        "meeting_4",
+        "https://www.apes-epr.org/",
+        "HTTP Error 503: Service Unavailable"
+      ],
+      [
+        "meeting_5",
+        "https://www.ismar.org/",
+        200
+      ],
+      [
+        "proc_0",
+        "https://search.ccgp.gov.cn/bxsearch?searchtype=1&kw=%E6%A0%B8%E7%A3%81%E5%85%B1%E6%8C%AF%E6%B3%A2%E8%B0%B1%E4%BB%AA&start_time=2026%3A10%3A31&end_time=2026%3A11%3A06",
+        200
+      ],
+      [
+        "proc_1",
+        "https://www.ccgp.gov.cn/cgyx/",
+        200
+      ],
+      [
+        "proc_2",
+        "https://www.ggzy.gov.cn/",
+        200
+      ],
+      [
+        "proc_3",
+        "https://czzx.fudan.edu.cn/",
+        200
+      ],
+      [
+        "proc_4",
+        "https://www.oitccas.com/js/config.min.js",
+        200
+      ],
+      [
+        "proc_5",
+        "https://zfcg.czt.zj.gov.cn/",
+        200
+      ],
+      [
+        "proc_6",
+        "https://sam.gov/search/?index=opp&keywords=NMR%20spectrometer",
+        200
+      ],
+      [
+        "proc_7",
+        "https://canadabuys.canada.ca/en/tender-opportunities?words=NMR",
+        200
+      ],
+      [
+        "proc_8",
+        "https://www.find-tender.service.gov.uk/Search/Results?Keywords=NMR",
+        200
+      ],
+      [
+        "proc_9",
+        "https://www.bidcenter.com.cn/zhaobiao/zbkeyw-28950-330000.html",
+        200
+      ]
+    ],
+    "retries": [
+      [
+        "2026-11-02_pulse",
+        "https://api.crossref.org/works?query.bibliographic=electron+paramagnetic+resonance+pulsed+DEER+PELDOR+ENDOR+ESEEM+HYSCORE&filter=from-online-pub-date%3A2026-11-02%2Cuntil-online-pub-date%3A2026-11-02&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL&mailto=editorial%40plastocyanin.org",
+        200
+      ],
+      [
+        "2026-11-02_operando",
+        "https://api.crossref.org/works?query.bibliographic=operando+in+situ+electrochemical+electron+paramagnetic+resonance&filter=from-online-pub-date%3A2026-11-02%2Cuntil-online-pub-date%3A2026-11-02&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL&mailto=editorial%40plastocyanin.org",
+        200
+      ],
+      [
+        "2026-11-03_trepr",
+        "https://api.crossref.org/works?query.bibliographic=time+resolved+electron+paramagnetic+resonance+spin+trapping+photochemistry&filter=from-online-pub-date%3A2026-11-03%2Cuntil-online-pub-date%3A2026-11-03&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL&mailto=editorial%40plastocyanin.org",
+        200
+      ],
+      [
+        "2026-11-04_solution",
+        "https://api.crossref.org/works?query.bibliographic=NMR+spectroscopy+solution+qNMR+DOSY+pure+shift+CEST+DEST+reaction+monitoring+paramagnetic&filter=from-online-pub-date%3A2026-11-04%2Cuntil-online-pub-date%3A2026-11-04&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL&mailto=editorial%40plastocyanin.org",
+        200
+      ],
+      [
+        "2026-11-05_low",
+        "https://api.crossref.org/works?query.bibliographic=benchtop+NMR+low+field+time+domain+TD+NMR&filter=from-online-pub-date%3A2026-11-05%2Cuntil-online-pub-date%3A2026-11-05&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL&mailto=editorial%40plastocyanin.org",
+        200
+      ],
+      [
+        "2026-11-05_pulse",
+        "https://api.crossref.org/works?query.bibliographic=electron+paramagnetic+resonance+pulsed+DEER+PELDOR+ENDOR+ESEEM+HYSCORE&filter=from-online-pub-date%3A2026-11-05%2Cuntil-online-pub-date%3A2026-11-05&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL&mailto=editorial%40plastocyanin.org",
+        200
+      ],
+      [
+        "2026-11-05_operando",
+        "https://api.crossref.org/works?query.bibliographic=operando+in+situ+electrochemical+electron+paramagnetic+resonance&filter=from-online-pub-date%3A2026-11-05%2Cuntil-online-pub-date%3A2026-11-05&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL&mailto=editorial%40plastocyanin.org",
+        200
+      ],
+      [
+        "2026-11-06_low",
+        "https://api.crossref.org/works?query.bibliographic=benchtop+NMR+low+field+time+domain+TD+NMR&filter=from-online-pub-date%3A2026-11-06%2Cuntil-online-pub-date%3A2026-11-06&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL&mailto=editorial%40plastocyanin.org",
+        200
+      ],
+      [
+        "2026-11-06_trepr",
+        "https://api.crossref.org/works?query.bibliographic=time+resolved+electron+paramagnetic+resonance+spin+trapping+photochemistry&filter=from-online-pub-date%3A2026-11-06%2Cuntil-online-pub-date%3A2026-11-06&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL&mailto=editorial%40plastocyanin.org",
+        200
+      ],
+      [
+        "2026-11-07_cw",
+        "https://api.crossref.org/works?query.bibliographic=electron+paramagnetic+resonance+CW+EPR+rapid+scan&filter=from-online-pub-date%3A2026-11-07%2Cuntil-online-pub-date%3A2026-11-07&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL&mailto=editorial%40plastocyanin.org",
+        200
+      ],
+      [
+        "2026-11-08_solution",
+        "https://api.crossref.org/works?query.bibliographic=NMR+spectroscopy+solution+qNMR+DOSY+pure+shift+CEST+DEST+reaction+monitoring+paramagnetic&filter=from-online-pub-date%3A2026-11-08%2Cuntil-online-pub-date%3A2026-11-08&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL&mailto=editorial%40plastocyanin.org",
+        200
+      ],
+      [
+        "2026-11-08_processing",
+        "https://api.crossref.org/works?query.bibliographic=NMR+spectra+spectral+processing+assignment+NUS&filter=from-online-pub-date%3A2026-11-08%2Cuntil-online-pub-date%3A2026-11-08&rows=18&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL&mailto=editorial%40plastocyanin.org",
+        200
+      ],
+      [
+        "journal_jb",
+        "https://api.crossref.org/journals/0925-2738/works?query=&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL&mailto=editorial%40plastocyanin.org",
+        200
+      ],
+      [
+        "journal_nature",
+        "https://api.crossref.org/journals/0028-0836/works?query=magnetic+resonance+NMR+EPR+spin&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL&mailto=editorial%40plastocyanin.org",
+        200
+      ],
+      [
+        "journal_science",
+        "https://api.crossref.org/journals/0036-8075/works?query=magnetic+resonance+NMR+EPR+spin&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL&mailto=editorial%40plastocyanin.org",
+        200
+      ],
+      [
+        "journal_nphys",
+        "https://api.crossref.org/journals/1745-2473/works?query=magnetic+resonance+NMR+EPR+spin&filter=from-online-pub-date%3A2026-11-01%2Cuntil-online-pub-date%3A2026-11-08&rows=20&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cabstract%2Ccontainer-title%2Ctype%2CURL&mailto=editorial%40plastocyanin.org",
+        200
+      ],
+      [
+        "mrindex",
+        "https://mr.copernicus.org/articles.html",
+        "HTTP Error 404: Not Found"
+      ],
+      [
+        "mrsej",
+        "https://mrsej.kpfu.ru/contents.html",
+        200
+      ],
+      [
+        "oitlist",
+        "https://www.oitccas.com/pages/tender_online.html",
+        200
+      ],
+      [
+        "procfx",
+        "https://cgyx.ccgp.gov.cn/cgyx/pub/index",
+        "HTTP Error 503: Service Unavailable"
+      ]
+    ],
+    "additional": [
+      [
+        "zzu",
+        "https://www7.zzu.edu.cn/ztb/info/1136/21045.htm",
+        200
+      ],
+      [
+        "cnrs",
+        "https://nmr.cemhti.cnrs-orleans.fr/NMRpublications.aspx",
+        "HTTP Error 503: Service Unavailable"
+      ],
+      [
+        "liufull",
+        "https://www.nature.com/articles/s41598-026-79717-2",
+        200
+      ],
+      [
+        "korringa",
+        "https://export.arxiv.org/api/query?id_list=2611.03994",
+        200
+      ],
+      [
+        "kri",
+        "https://api.crossref.org/works/10.1063/5.0333551",
+        200
+      ],
+      [
+        "fudanlist",
+        "https://czzx.fudan.edu.cn/",
+        200
+      ],
+      [
+        "intent",
+        "https://cgyx.ccgp.gov.cn/cgyx/pub/details?groupId=6b3b22f6-50ec-44fa-9d95-17f4002101de",
+        "HTTP Error 503: Service Unavailable"
+      ],
+      [
+        "magritek",
+        "https://magritek.com/news-events/",
+        "HTTP Error 403: Forbidden"
+      ],
+      [
+        "copernicus",
+        "https://mr.copernicus.org/articles/volumes.html",
+        200
+      ],
+      [
+        "changes",
+        "https://www.bidcenter.com.cn/zhaobiao/zbkeyw-28950-330000-6.html",
+        200
+      ]
+    ],
+    "europepmc": [
+      [
+        "eul0",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41598-026-79717-2&format=json&resultType=core&pageSize=40",
+        200
+      ],
+      [
+        "eul1",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A42974992&format=json&resultType=core&pageSize=40",
+        200
+      ],
+      [
+        "eutitle0",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22NMR%22+AND+FIRST_PDATE%3A%5B2026-11-02+TO+2026-11-08%5D&format=json&resultType=core&pageSize=40",
+        200
+      ]
+    ],
+    "procurement_list": [
+      [
+        "核磁共振波谱仪",
+        "https://www.oitccas.com/WLH/WorkFlow/Services/BIDHandler.ashx?method=TenderProjectPagedList&searchType=AdvancedSearch&bidkwd=%E6%A0%B8%E7%A3%81%E5%85%B1%E6%8C%AF%E6%B3%A2%E8%B0%B1%E4%BB%AA&Status=%E8%BF%9B%E8%A1%8C%E4%B8%AD&page=1&start=0&limit=15",
+        200
+      ],
+      [
+        "电子顺磁共振波谱仪",
+        "https://www.oitccas.com/WLH/WorkFlow/Services/BIDHandler.ashx?method=TenderProjectPagedList&searchType=AdvancedSearch&bidkwd=%E7%94%B5%E5%AD%90%E9%A1%BA%E7%A3%81%E5%85%B1%E6%8C%AF%E6%B3%A2%E8%B0%B1%E4%BB%AA&Status=%E8%BF%9B%E8%A1%8C%E4%B8%AD&page=1&start=0&limit=15",
+        200
+      ],
+      [
+        "基础医学与肿瘤研究所",
+        "https://www.oitccas.com/WLH/WorkFlow/Services/BIDHandler.ashx?method=TenderProjectPagedList&searchType=AdvancedSearch&bidkwd=%E5%9F%BA%E7%A1%80%E5%8C%BB%E5%AD%A6%E4%B8%8E%E8%82%BF%E7%98%A4%E7%A0%94%E7%A9%B6%E6%89%80&Status=%E8%BF%9B%E8%A1%8C%E4%B8%AD&page=1&start=0&limit=15",
+        200
+      ],
+      [
+        "11NMB1D69992202617205",
+        "https://www.oitccas.com/WLH/WorkFlow/Services/BIDHandler.ashx?method=TenderProjectPagedList&searchType=AdvancedSearch&bidkwd=11NMB1D69992202617205&Status=%E8%BF%9B%E8%A1%8C%E4%B8%AD&page=1&start=0&limit=15",
+        200
+      ]
+    ],
+    "procurement_details": [
+      [
+        "ZBLX26100335",
+        "https://www.oitccas.com/WLH/WorkFlow/Services/BIDHandler.ashx?method=TenderProjectByFormNo&FormNo=ZBLX26100335",
+        200,
+        "2026-10-22 16:59:08"
+      ],
+      [
+        "ZBLX26100202",
+        "https://www.oitccas.com/WLH/WorkFlow/Services/BIDHandler.ashx?method=TenderProjectByFormNo&FormNo=ZBLX26100202",
+        200,
+        "2026-10-16 12:28:06"
+      ],
+      [
+        "ZBLX26080354",
+        "https://www.oitccas.com/WLH/WorkFlow/Services/BIDHandler.ashx?method=TenderProjectByFormNo&FormNo=ZBLX26080354",
+        200,
+        "2026-08-26 19:26:57"
+      ],
+      [
+        "ZBLX26090514",
+        "https://www.oitccas.com/WLH/WorkFlow/Services/BIDHandler.ashx?method=TenderProjectByFormNo&FormNo=ZBLX26090514",
+        200,
+        "2026-09-28 15:43:55"
+      ]
+    ],
+    "crossref_unique_doi": 743,
+    "pubmed_records": 140,
+    "web_search_groups": [
+      "中文NMR、EPR采购/意向/调研/更正/废标/合同专项，海外SAM/Canada",
+      "高影响及专业期刊、方法词与应用",
+      "Bruker/JEOL/Oxford/Magritek/Nanalysis/CIQTEK新闻软件及活动",
+      "ENC/EUROMAR/ICMRBS/EFEPR/APES/ISMAR、Workshop",
+      "郑州验收正文、南京项目年份冲突、Liu出版商摘要、APS接受论文日期、Korringa原始Atom和Krinichnyi在线日期"
+    ],
+    "restrictions": [
+      "CCGP search may return frequency interstitial despite HTTP200",
+      "Zhejiang and SAM dynamic pages cannot establish absence",
+      "Fudan intent detail503; OITC original TenderContent read but old tender stages",
+      "Web-open Nature redirected, ordinary HTTP primary page succeeded and abstract/author/date read",
+      "CNRS list503, Magritek403; no zero-new-result claims from failures",
+      "Crossref429 retries logged"
+    ]
+  },
+  "candidates": [
+    {
+      "item_id": "SF-20261109-01",
+      "title": "¹H-NMR-based metabolomics reveals amino acid metabolic preferences and a shared metabolic axis across osteoblastic cell lines",
+      "source": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-79717-2",
+      "doi": "10.1038/s41598-026-79717-2",
+      "actual_online_date": "2026-11-07",
+      "publication_status": "early_access",
+      "mr_role": "application_core",
+      "role_evidence": "Liu 等以¹H NMR比较MG63、hFOB和MC3T3成骨细胞系的代谢特征。通路富集分别偏向支链氨基酸、甘氨酸/丝氨酸/苏氨酸及精氨酸/脯氨酸代谢；补充对应氨基酸增强了各细胞系的成骨能力，谷氨酸补充则在三者中均表现为负向调节。",
+      "evidence_location": "https://www.nature.com/articles/s41598-026-79717-2; Authors, Published 07 November, Abstract",
+      "author_verification": {
+        "family": "Liu",
+        "given": "Zhonglin",
+        "source": "https://www.nature.com/articles/s41598-026-79717-2"
+      },
+      "source_review": "publisher original abstract retrieved successfully with HTTP client despite web-open redirect failure",
+      "date_review": "publisher date agrees with Crossref",
+      "science_review": "checked against original abstract; inference limits stated",
+      "decision": "included",
+      "reason": "within window; direct MR evidence or method; no archive match",
+      "duplicate_key": "10.1038/s41598-026-79717-2",
+      "tag_reasons": {
+        "nmr": "¹H NMR为代谢筛查的核心测量",
+        "metabolomics": "比较三类细胞的代谢和通路",
+        "life_science": "成骨细胞及分化研究"
+      },
+      "publication_note": "publisher explicitly labels peer-reviewed accepted early sharing, subject to further edits; no full methods asserted"
+    },
+    {
+      "item_id": "SF-20261109-02",
+      "title": "Korringa factor in Dirac-nodal-line systems",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2611.03994v1",
+      "doi": "10.48550/arxiv.2611.03994",
+      "actual_online_date": "2026-11-02",
+      "original_timestamp_utc": "2026-11-02T21:34:05Z",
+      "beijing_timestamp": "2026-11-03T05:34:05+08:00",
+      "publication_status": "preprint",
+      "mr_role": "method_core",
+      "role_evidence": "DOS-derived baseline for NMR Korringa factor and Knight shift/relaxation interpretation",
+      "decision": "included",
+      "reason": "within seven-day window under both UTC and Beijing dates; primary Atom metadata and abstract; no archive match or formal version found",
+      "duplicate_key": "10.48550/arxiv.2611.03994",
+      "evidence_location": "https://export.arxiv.org/api/query?id_list=2611.03994",
+      "author_verification": {
+        "family": "Sekine",
+        "given": "Takahiko",
+        "source": "arXiv Atom author list"
+      },
+      "source_review": "primary Atom full abstract read",
+      "date_review": "v1 submission timestamp not scrape time",
+      "science_review": "theory only; 1.71 to 1 and noncorrelated DOS effects verified; no experimental claims",
+      "tag_reasons": {
+        "nmr": "Korringa因子直接用于NMR解释",
+        "computation_nmr": "核心是NMR因子态密度理论计算",
+        "materials": "狄拉克节线电子材料模型"
+      }
+    },
+    {
+      "item_id": "SF-20261109-03",
+      "title": "Tunable electron and spin transfer from ionized polythiophene oligomers encapsulated in cycling hydrocarbons: A combined DFT and EPR approach",
+      "source": "The Journal of Chemical Physics",
+      "url": "https://doi.org/10.1063/5.0333551",
+      "doi": "10.1063/5.0333551",
+      "actual_online_date": "2026-11-03",
+      "publication_status": "unknown",
+      "mr_role": "method_core",
+      "role_evidence": "Krinichnyi 结合DFT与EPR参数分析，研究被多芳香环状烃包覆的低聚噻吩离子。Mulliken和Löwdin布居分析描述电荷与自旋的分配；各向异性超精细耦合及g张量本征值随离子电荷、自旋取向和周围环带结构而变化。",
+      "evidence_location": "https://api.crossref.org/works/10.1063/5.0333551",
+      "author_verification": {
+        "family": "Krinichnyi",
+        "source": "https://api.crossref.org/works/10.1063/5.0333551"
+      },
+      "source_review": "publisher-supplied Crossref abstract and author/date record, supplementary EuropePMC core abstract corroboration",
+      "date_review": "Crossref explicitly online 2026-11-03 and print 2026-11-07; EuropePMC generic firstPublicationDate 11-01 recorded as issue-level conflict, not substituted for explicit online",
+      "science_review": "wording confined to abstract DFT/population and EPR-parameter analysis; experimental acquisition not claimed",
+      "decision": "included",
+      "reason": "within window; direct MR evidence or method; no archive match",
+      "duplicate_key": "10.1063/5.0333551",
+      "tag_reasons": {
+        "epr": "直接计算和分析EPR g及超精细参数",
+        "polymers": "低聚噻吩离子及其局部环境"
+      },
+      "reconsideration": "Earlier Review retained as unclear for measurement claims; this entry only describes confirmed parameter/theory relationships"
+    },
+    {
+      "title": "Detection of bound Na\n                    <sup>+</sup>\n                    in a membrane protein by pulse \n                    <scp>EPR</scp>",
+      "source": "FEBS Letters",
+      "url": "https://doi.org/10.1002/1873-3468.70495",
+      "doi": "10.1002/1873-3468.70495",
+      "actual_online_date": "2026-11-03",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1002/1873-3468.70495",
+      "reason": "DOI与历史SF-20261104-03一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.1002/1873-3468.70495"
+    },
+    {
+      "title": "Cryo‐EM and NMR Reveal a Membrane‐Gated Doc2B–Munc13‐1 Complex and a Helical Doc2B‐SNARE‐Binding Interface",
+      "source": "Advanced Science",
+      "url": "https://doi.org/10.1002/advs.78011",
+      "doi": "10.1002/advs.78011",
+      "actual_online_date": "2026-11-03",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1002/advs.78011",
+      "reason": "DOI与历史SF-20261104-05一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.1002/advs.78011"
+    },
+    {
+      "title": "Operando Quantifying Li Plating Processes in Lithium‐Ion Pouch Cells",
+      "source": "Angewandte Chemie International Edition",
+      "url": "https://doi.org/10.1002/anie.1710608",
+      "doi": "10.1002/anie.1710608",
+      "actual_online_date": "2026-11-04",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1002/anie.1710608",
+      "reason": "DOI与历史SF-20261107-04一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.1002/anie.1710608"
+    },
+    {
+      "title": "π-Extended Bisallyls Through Valence Isomerism: From Transient Diradicals to Persistent Anions.",
+      "source": "Angewandte Chemie (International ed. in English)",
+      "url": "https://doi.org/10.1002/anie.5008545",
+      "doi": "10.1002/anie.5008545",
+      "actual_online_date": "2026-11-04",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1002/anie.5008545",
+      "reason": "DOI与历史SF-20261107-08一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://pubmed.ncbi.nlm.nih.gov/42978469/"
+    },
+    {
+      "title": "Record-High Toroidal Blocking in a {Cu6Dy3} Single Molecular Toroid.",
+      "source": "Angewandte Chemie (International ed. in English)",
+      "url": "https://doi.org/10.1002/anie.7709103",
+      "doi": "10.1002/anie.7709103",
+      "actual_online_date": "2026-11-05",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1002/anie.7709103",
+      "reason": "DOI与历史SF-20261108-03一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://pubmed.ncbi.nlm.nih.gov/42989781/"
+    },
+    {
+      "title": "Subzero-Temperature NMR Observation of Protein Dynamics and Ligand Binding Enabled by Encapsulation Within Coordination Cages.",
+      "source": "Chemistry, an Asian journal",
+      "url": "https://doi.org/10.1002/asia.71029",
+      "doi": "10.1002/asia.71029",
+      "actual_online_date": "",
+      "publication_status": "early_access",
+      "decision": "duplicate",
+      "duplicate_key": "10.1002/asia.71029",
+      "reason": "DOI与历史SF-20261031-03一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://pubmed.ncbi.nlm.nih.gov/42957983/"
+    },
+    {
+      "title": "Structural Characterization and Immunomodulatory Activity of a Polysaccharide From Ipomoea batatas L. Vine: Activation of Macrophage.",
+      "source": "Food science & nutrition",
+      "url": "https://doi.org/10.1002/fsn3.72530",
+      "doi": "10.1002/fsn3.72530",
+      "actual_online_date": "2026-11-03",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1002/fsn3.72530",
+      "reason": "DOI与历史SF-20261108-07一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://pubmed.ncbi.nlm.nih.gov/42985173/"
+    },
+    {
+      "title": "Deciphering\n                    <scp>\n                      <i>Butea monosperma</i>\n                    </scp>\n                    Kombucha Fermentation Through\n                    <scp>NMR</scp>\n                    and Live‐Cell Imaging",
+      "source": "Food Science &amp; Nutrition",
+      "url": "https://doi.org/10.1002/fsn3.72531",
+      "doi": "10.1002/fsn3.72531",
+      "actual_online_date": "2026-11-03",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1002/fsn3.72531",
+      "reason": "DOI与历史SF-20261108-06一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.1002/fsn3.72531"
+    },
+    {
+      "title": "Minor Phase Quantification in Octacalcium Phosphate Using Solid‐State\n                    <scp>\n                      <sup>31</sup>\n                      P\n                    </scp>\n                    Nuclear Magnetic Resonance Spectroscopy",
+      "source": "Journal of Biomedical Materials Research Part B: Applied Biomaterials",
+      "url": "https://doi.org/10.1002/jbm.b.70176",
+      "doi": "10.1002/jbm.b.70176",
+      "actual_online_date": "2026-11-05",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1002/jbm.b.70176",
+      "reason": "DOI与历史SF-20261106-03一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.1002/jbm.b.70176"
+    },
+    {
+      "title": "Complete NMR Structural Elucidation, Conformation, and Cytotoxic Evaluation of Polystachyne I, a New\n                    <i>neo</i>\n                    ‐Clerodane Diterpenoid From\n                    <i>Salvia polystachya</i>",
+      "source": "Magnetic Resonance in Chemistry",
+      "url": "https://doi.org/10.1002/mrc.70152",
+      "doi": "10.1002/mrc.70152",
+      "actual_online_date": "2026-11-04",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1002/mrc.70152",
+      "reason": "DOI与历史SF-20261106-07一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.1002/mrc.70152"
+    },
+    {
+      "title": "Selective NMR Characterization of a Stable\n                    <i>E</i>\n                    Conformer of Quercetin in an Antioxidant Active Fraction of\n                    <scp>\n                      <i>Ugni molinae</i>\n                    </scp>\n                    Turcz",
+      "source": "Magnetic Resonance in Chemistry",
+      "url": "https://doi.org/10.1002/mrc.70154",
+      "doi": "10.1002/mrc.70154",
+      "actual_online_date": "2026-11-05",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1002/mrc.70154",
+      "reason": "DOI与历史SF-20261107-07一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.1002/mrc.70154"
+    },
+    {
+      "title": "Investigating the Complexation Between Taxifolin and β‐Cyclodextrin Derivatives by UV and NMR Spectra",
+      "source": "ChemistrySelect",
+      "url": "https://doi.org/10.1002/slct.75096",
+      "doi": "10.1002/slct.75096",
+      "actual_online_date": "2026-11-05",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1002/slct.75096",
+      "reason": "DOI与历史SF-20261106-06一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.1002/slct.75096"
+    },
+    {
+      "title": "NMR metabolomic profiles in white British and British Indian vegetarians and non-vegetarians in the UK Biobank",
+      "source": "European Journal of Nutrition",
+      "url": "https://doi.org/10.1007/s00394-026-04154-w",
+      "doi": "10.1007/s00394-026-04154-w",
+      "actual_online_date": "2026-11-07",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1007/s00394-026-04154-w",
+      "reason": "DOI与历史SF-20261108-08一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.1007/s00394-026-04154-w"
+    },
+    {
+      "title": "Influence of Cell Type, Label Type, and Recovery Times on In-Cell Pulsed Dipolar Electron Paramagnetic Resonance Spectroscopy Data",
+      "source": "Applied Magnetic Resonance",
+      "url": "https://doi.org/10.1007/s00723-026-01889-x",
+      "doi": "10.1007/s00723-026-01889-x",
+      "actual_online_date": "2026-11-02",
+      "publication_status": "published",
+      "decision": "duplicate",
+      "duplicate_key": "10.1007/s00723-026-01889-x",
+      "reason": "DOI与历史SF-20261103-01一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.1007/s00723-026-01889-x"
+    },
+    {
+      "title": "EPR and luminescence studies of Nd3⁺-Doped CeO2 Nano- and Microcrystals",
+      "source": "Applied Magnetic Resonance",
+      "url": "https://doi.org/10.1007/s00723-026-01892-2",
+      "doi": "10.1007/s00723-026-01892-2",
+      "actual_online_date": "2026-11-02",
+      "publication_status": "published",
+      "decision": "duplicate",
+      "duplicate_key": "10.1007/s00723-026-01892-2",
+      "reason": "DOI与历史SF-20261103-07一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.1007/s00723-026-01892-2"
+    },
+    {
+      "title": "Metabolomic Analysis of Patients with Coronary Artery Disease and Acute Myocardial Infarction by Using Nuclear Magnetic Resonance Spectroscopy.",
+      "source": "Journal of cardiovascular translational research",
+      "url": "https://doi.org/10.1007/s12265-026-10866-5",
+      "doi": "10.1007/s12265-026-10866-5",
+      "actual_online_date": "2026-11-03",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1007/s12265-026-10866-5",
+      "reason": "DOI与历史SF-20261105-09一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://pubmed.ncbi.nlm.nih.gov/42975763/"
+    },
+    {
+      "title": "Capture of Mn2+ and Cu2+ by ion exchange resins and activated carbon: an NMR relaxometry study",
+      "source": "International Journal of Environmental Science and Technology",
+      "url": "https://doi.org/10.1007/s13762-026-07529-y",
+      "doi": "10.1007/s13762-026-07529-y",
+      "actual_online_date": "2026-11-02",
+      "publication_status": "published",
+      "decision": "duplicate",
+      "duplicate_key": "10.1007/s13762-026-07529-y",
+      "reason": "DOI与历史SF-20261103-04一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.1007/s13762-026-07529-y"
+    },
+    {
+      "title": "Environmental catalytic characteristics of pyrolyzed oil sludge and the role of permanent radicals.",
+      "source": "Journal of environmental management",
+      "url": "https://doi.org/10.1016/j.jenvman.2026.131299",
+      "doi": "10.1016/j.jenvman.2026.131299",
+      "actual_online_date": "2026-11-04",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1016/j.jenvman.2026.131299",
+      "reason": "DOI与历史SF-20261108-04一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://pubmed.ncbi.nlm.nih.gov/42981868/"
+    },
+    {
+      "title": "HOT-operando-NMR: A new versatile solid-state NMR probe system for high-temperature operando NMR studies of solid-state battery materials.",
+      "source": "Journal of magnetic resonance (San Diego, Calif. : 1997)",
+      "url": "https://doi.org/10.1016/j.jmr.2026.108191",
+      "doi": "10.1016/j.jmr.2026.108191",
+      "actual_online_date": "2026-10-23",
+      "publication_status": "early_access",
+      "decision": "duplicate",
+      "duplicate_key": "10.1016/j.jmr.2026.108191",
+      "reason": "DOI与历史SF-20261030-01一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://pubmed.ncbi.nlm.nih.gov/42950546/"
+    },
+    {
+      "title": "Quantifying position-dependent deamination by APOBEC3C using real-time NMR spectroscopy.",
+      "source": "Journal of magnetic resonance (San Diego, Calif. : 1997)",
+      "url": "https://doi.org/10.1016/j.jmr.2026.108192",
+      "doi": "10.1016/j.jmr.2026.108192",
+      "actual_online_date": "2026-10-25",
+      "publication_status": "early_access",
+      "decision": "duplicate",
+      "duplicate_key": "10.1016/j.jmr.2026.108192",
+      "reason": "DOI与历史SF-20261030-06一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://pubmed.ncbi.nlm.nih.gov/42950543/"
+    },
+    {
+      "title": "Lifestyle counseling including the DASH diet improves multiple metabolomic profiles.",
+      "source": "The Journal of nutrition",
+      "url": "https://doi.org/10.1016/j.tjnut.2026.101931",
+      "doi": "10.1016/j.tjnut.2026.101931",
+      "actual_online_date": "2026-11-06",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1016/j.tjnut.2026.101931",
+      "reason": "DOI与历史SF-20261108-09一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://pubmed.ncbi.nlm.nih.gov/42994692/"
+    },
+    {
+      "title": "Field Cycling NMR\nRelaxometry as a Tool for Detecting\nthe Quality of Biotechnological Drugs",
+      "source": "The Journal of Physical\nChemistry B",
+      "url": "https://doi.org/10.1021/acs.jpcb.6c03870",
+      "doi": "10.1021/acs.jpcb.6c03870",
+      "actual_online_date": "2026-11-05",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1021/acs.jpcb.6c03870",
+      "reason": "DOI与历史SF-20261106-01一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.1021/acs.jpcb.6c03870"
+    },
+    {
+      "title": "Spin-Phonon Relaxation and Decoherence in a Three-Dimensional Paired-Ion Framework Composed of Vanadyl Porphyrin Qubits.",
+      "source": "The journal of physical chemistry letters",
+      "url": "https://doi.org/10.1021/acs.jpclett.6c02513",
+      "doi": "10.1021/acs.jpclett.6c02513",
+      "actual_online_date": "",
+      "publication_status": "early_access",
+      "decision": "duplicate",
+      "duplicate_key": "10.1021/acs.jpclett.6c02513",
+      "reason": "DOI与历史SF-20261023-06一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://pubmed.ncbi.nlm.nih.gov/42986236/"
+    },
+    {
+      "title": "Metabolomic Changes in Biofilm of Pseudomonas aeruginosa Under Early-Stage Tobramycin Treatment Identified by 2D NMR-Based COLMARq.",
+      "source": "Journal of proteome research",
+      "url": "https://doi.org/10.1021/acs.jproteome.6c00323",
+      "doi": "10.1021/acs.jproteome.6c00323",
+      "actual_online_date": "",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1021/acs.jproteome.6c00323",
+      "reason": "DOI与历史SF-20260926-08一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://pubmed.ncbi.nlm.nih.gov/42992865/"
+    },
+    {
+      "title": "Characterization of Carboxymaltose Structure and Interactions with the Iron Core in Ferric Carboxymaltose (Injectafer) Using NMR Spectroscopy.",
+      "source": "Molecular pharmaceutics",
+      "url": "https://doi.org/10.1021/acs.molpharmaceut.6c00375",
+      "doi": "10.1021/acs.molpharmaceut.6c00375",
+      "actual_online_date": "",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1021/acs.molpharmaceut.6c00375",
+      "reason": "DOI与历史SF-20261015-06一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://pubmed.ncbi.nlm.nih.gov/42969734/"
+    },
+    {
+      "title": "Type-III Porous Liquid ZIF-8/Perfluorodecalin for O2 Delivery and CO2 Removal: Stability, Sorption, and Transport Monitored by In Situ EPR Spectroscopy.",
+      "source": "ACS applied materials & interfaces",
+      "url": "https://doi.org/10.1021/acsami.6c14079",
+      "doi": "10.1021/acsami.6c14079",
+      "actual_online_date": "",
+      "publication_status": "early_access",
+      "decision": "duplicate",
+      "duplicate_key": "10.1021/acsami.6c14079",
+      "reason": "DOI与历史SF-20261024-05一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://pubmed.ncbi.nlm.nih.gov/42924516/"
+    },
+    {
+      "title": "Manipulation of the Nanoarchitecture of Porous Media Determines Water Mobility: NMR Experiments using Metal-Organic Framework (MOF)-Functionalized Track-Etched Solid-State Nanochannels (SSNs).",
+      "source": "ACS applied materials & interfaces",
+      "url": "https://doi.org/10.1021/acsami.6c16040",
+      "doi": "10.1021/acsami.6c16040",
+      "actual_online_date": "",
+      "publication_status": "early_access",
+      "decision": "duplicate",
+      "duplicate_key": "10.1021/acsami.6c16040",
+      "reason": "DOI与历史SF-20261022-05一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://pubmed.ncbi.nlm.nih.gov/42900904/"
+    },
+    {
+      "title": "Quantifying Anion Selectivity in SEI Formation for Ether-Based Electrolytes in Lithium Metal Batteries.",
+      "source": "ACS applied materials & interfaces",
+      "url": "https://doi.org/10.1021/acsami.6c18154",
+      "doi": "10.1021/acsami.6c18154",
+      "actual_online_date": "2026-11-05",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1021/acsami.6c18154",
+      "reason": "DOI与历史SF-20261107-05一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://pubmed.ncbi.nlm.nih.gov/42986932/"
+    },
+    {
+      "title": "Tools for Prediction\nof Alkyne p\n                    <i>K</i>\n                    a Values: Calculation of Hydrogen\nExchange Barriers and\nNMR Chemical Shifts",
+      "source": "ACS Omega",
+      "url": "https://doi.org/10.1021/acsomega.6c05360",
+      "doi": "10.1021/acsomega.6c05360",
+      "actual_online_date": "2026-11-03",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1021/acsomega.6c05360",
+      "reason": "DOI与历史SF-20261105-08一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.1021/acsomega.6c05360"
+    },
+    {
+      "title": "Determining Interproton\nDistances from Severely Overlapped\nNMR Spectra Using Ultraselective Experiments",
+      "source": "Journal of the American\nChemical Society",
+      "url": "https://doi.org/10.1021/jacs.6c12010",
+      "doi": "10.1021/jacs.6c12010",
+      "actual_online_date": "2026-11-03",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1021/jacs.6c12010",
+      "reason": "DOI与历史SF-20261104-01一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.1021/jacs.6c12010"
+    },
+    {
+      "title": "The Structure of Oleate-Capped\nCdSe Nanocrystals Determined\nby DNP-Enhanced Dipolar Dephasing Solid-State NMR Spectroscopy",
+      "source": "Journal of the American\nChemical Society",
+      "url": "https://doi.org/10.1021/jacs.6c13454",
+      "doi": "10.1021/jacs.6c13454",
+      "actual_online_date": "2026-11-07",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1021/jacs.6c13454",
+      "reason": "DOI与历史SF-20261108-01一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.1021/jacs.6c13454"
+    },
+    {
+      "title": "Biphasic Polyarylisocyanide Liquid Crystals with Enhanced Enantiodiscrimination for Residual Chemical Shift Anisotropy Measurements.",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://doi.org/10.1021/jacs.6c14664",
+      "doi": "10.1021/jacs.6c14664",
+      "actual_online_date": "",
+      "publication_status": "early_access",
+      "decision": "duplicate",
+      "duplicate_key": "10.1021/jacs.6c14664",
+      "reason": "DOI与历史SF-20261026-01一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://pubmed.ncbi.nlm.nih.gov/42984100/"
+    },
+    {
+      "title": "Topological Frustration Enables Exchange-Coupled Spin-Qubit Behavior in a Concealed Non-Kekulé Nanographene.",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://doi.org/10.1021/jacs.6c16438",
+      "doi": "10.1021/jacs.6c16438",
+      "actual_online_date": "",
+      "publication_status": "early_access",
+      "decision": "duplicate",
+      "duplicate_key": "10.1021/jacs.6c16438",
+      "reason": "DOI与历史SF-20261021-03一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://pubmed.ncbi.nlm.nih.gov/42984039/"
+    },
+    {
+      "title": "Toward the Rational Design of Tailored Ligands for Intrinsically Disordered Proteins through NMR.",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://doi.org/10.1021/jacs.6c16561",
+      "doi": "10.1021/jacs.6c16561",
+      "actual_online_date": "",
+      "publication_status": "early_access",
+      "decision": "duplicate",
+      "duplicate_key": "10.1021/jacs.6c16561",
+      "reason": "DOI与历史SF-20261023-01一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://pubmed.ncbi.nlm.nih.gov/42984076/"
+    },
+    {
+      "title": "Quantifying Hidden\nMetabolites in 31P NMR\nSpectra by Physics-Based Spectral Subtraction",
+      "source": "Journal of the American\nChemical Society",
+      "url": "https://doi.org/10.1021/jacs.6c17407",
+      "doi": "10.1021/jacs.6c17407",
+      "actual_online_date": "2026-11-07",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1021/jacs.6c17407",
+      "reason": "DOI与历史SF-20261108-02一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.1021/jacs.6c17407"
+    },
+    {
+      "title": "Small-Molecule\nContacts to NMR-Invisible Aβ40 Oligomers Revealed\nby Pressure-Jump NMR and\n                    <i>t</i>\n                    1-Noise\nSuppression",
+      "source": "Journal of the American\nChemical Society",
+      "url": "https://doi.org/10.1021/jacs.6c17605",
+      "doi": "10.1021/jacs.6c17605",
+      "actual_online_date": "2026-11-02",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1021/jacs.6c17605",
+      "reason": "DOI与历史SF-20261104-02一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.1021/jacs.6c17605"
+    },
+    {
+      "title": "A binuclear copper enzyme platform for enantioconvergent radical (pseudo)halogenation.",
+      "source": "Nature chemistry",
+      "url": "https://doi.org/10.1038/s41557-026-02292-6",
+      "doi": "10.1038/s41557-026-02292-6",
+      "actual_online_date": "2026-11-05",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1038/s41557-026-02292-6",
+      "reason": "DOI与历史SF-20261107-03一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://pubmed.ncbi.nlm.nih.gov/42988876/"
+    },
+    {
+      "title": "Alternative explanation for the effect of myo-Inositol trispyrophosphate on normal human erythrocytes: 31P NMR studies",
+      "source": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-75466-4",
+      "doi": "10.1038/s41598-026-75466-4",
+      "actual_online_date": "2026-11-02",
+      "publication_status": "published",
+      "decision": "duplicate",
+      "duplicate_key": "10.1038/s41598-026-75466-4",
+      "reason": "DOI与历史SF-20261103-02一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.1038/s41598-026-75466-4"
+    },
+    {
+      "title": "Solid-state NMR dipolar recoupling in the presence of large chemical shielding anisotropies by quaternion-based effective Hamiltonian optimal control.",
+      "source": "Physical chemistry chemical physics : PCCP",
+      "url": "https://doi.org/10.1039/d6cp02762h",
+      "doi": "10.1039/d6cp02762h",
+      "actual_online_date": "2026-11-04",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1039/d6cp02762h",
+      "reason": "DOI与历史SF-20260926-03一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://pubmed.ncbi.nlm.nih.gov/42867859/"
+    },
+    {
+      "title": "Probing the H-bonding features in [2.2.2]-cryptand/KF and permethylated β-cyclodextrin/KF complexed with protonated amino acids by 19F-NMR/IRMPD spectroscopy.",
+      "source": "RSC advances",
+      "url": "https://doi.org/10.1039/d6ra06327f",
+      "doi": "10.1039/d6ra06327f",
+      "actual_online_date": "2026-11-04",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1039/d6ra06327f",
+      "reason": "DOI与历史SF-20261106-05一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://pubmed.ncbi.nlm.nih.gov/42985473/"
+    },
+    {
+      "title": "Accessible hybrid DFT-quality NMR crystallography via gas-phase machine learning interatomic potentials.",
+      "source": "Chemical science",
+      "url": "https://doi.org/10.1039/d6sc04941a",
+      "doi": "10.1039/d6sc04941a",
+      "actual_online_date": "2026-09-08",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1039/d6sc04941a",
+      "reason": "DOI与历史SF-20260909-01一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://pubmed.ncbi.nlm.nih.gov/42751358/"
+    },
+    {
+      "title": "Water–ice coexistence under nanoscale confinement revealed by magnetization-transfer NMR",
+      "source": "The Journal of Chemical Physics",
+      "url": "https://doi.org/10.1063/5.0352362",
+      "doi": "10.1063/5.0352362",
+      "actual_online_date": "2026-11-03",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1063/5.0352362",
+      "reason": "DOI与历史SF-20261104-04一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.1063/5.0352362"
+    },
+    {
+      "title": "Design and experimental evaluation of a small-size, high-precision nuclear magnetic resonance probe for enlarged magnetic field measurement region on small-bore magnetic resonance imaging magnets",
+      "source": "Review of Scientific Instruments",
+      "url": "https://doi.org/10.1063/5.0352403",
+      "doi": "10.1063/5.0352403",
+      "actual_online_date": "2026-11-02",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1063/5.0352403",
+      "reason": "DOI与历史SF-20261103-03一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.1063/5.0352403"
+    },
+    {
+      "title": "Position-specific isotope signatures evolve during a reversible reaction.",
+      "source": "Proceedings of the National Academy of Sciences of the United States of America",
+      "url": "https://doi.org/10.1073/pnas.2617402123",
+      "doi": "10.1073/pnas.2617402123",
+      "actual_online_date": "2026-10-26",
+      "publication_status": "early_access",
+      "decision": "duplicate",
+      "duplicate_key": "10.1073/pnas.2617402123",
+      "reason": "DOI与历史SF-20261027-02一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://pubmed.ncbi.nlm.nih.gov/42932658/"
+    },
+    {
+      "title": "<i>In vivo</i>\n                    electron paramagnetic resonance spectroscopy and imaging of mouse brains using an acetoxymethyl ester nitroxide probe",
+      "source": "Free Radical Research",
+      "url": "https://doi.org/10.1080/10715762.2026.2756473",
+      "doi": "10.1080/10715762.2026.2756473",
+      "actual_online_date": "2026-11-05",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1080/10715762.2026.2756473",
+      "reason": "DOI与历史SF-20261107-02一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.1080/10715762.2026.2756473"
+    },
+    {
+      "title": "Three-Dimensional Alanine EPR Dosimetry for Spatial and Angular Dose Mapping in a 137Cs Cabinet Irradiator",
+      "source": "Health Physics",
+      "url": "https://doi.org/10.1097/hp.0000000000002264",
+      "doi": "10.1097/hp.0000000000002264",
+      "actual_online_date": "2026-11-03",
+      "publication_status": "early_access",
+      "decision": "duplicate",
+      "duplicate_key": "10.1097/hp.0000000000002264",
+      "reason": "DOI与历史SF-20261104-06一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.1097/hp.0000000000002264"
+    },
+    {
+      "title": "Spectral theory of spin relaxation",
+      "source": "Royal Society Open Science",
+      "url": "https://doi.org/10.1098/rsos.260478",
+      "doi": "10.1098/rsos.260478",
+      "actual_online_date": "2026-11-04",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1098/rsos.260478",
+      "reason": "DOI与历史SF-20261105-02一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.1098/rsos.260478"
+    },
+    {
+      "title": "<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n                      <mml:mmultiscripts>\n                        <mml:mi>Na</mml:mi>\n                        <mml:mprescripts/>\n                        <mml:none/>\n                        <mml:mn>23</mml:mn>\n                      </mml:mmultiscripts>\n                    </mml:math>\n                    -NMR study on the one-dimensional superoxide spin-chain compound\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n                      <mml:msub>\n                        <mml:mi>NaO</mml:mi>\n                        <mml:mn>2</mml:mn>\n                      </mml:msub>\n                    </mml:math>",
+      "source": "Physical Review B",
+      "url": "https://doi.org/10.1103/8bvh-ld52",
+      "doi": "10.1103/8bvh-ld52",
+      "actual_online_date": "2026-11-02",
+      "publication_status": "published",
+      "decision": "duplicate",
+      "duplicate_key": "10.1103/8bvh-ld52",
+      "reason": "DOI与历史SF-20261006-04一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.1103/8bvh-ld52"
+    },
+    {
+      "title": "<scp>LF</scp>\n                    ‐\n                    <scp>NMR</scp>\n                    Combined With\n                    <scp>XGBoost</scp>\n                    for Nondestructive Prediction of Rice Seed Vigor Under Drying Conditions",
+      "source": "Journal of Food Process Engineering",
+      "url": "https://doi.org/10.1111/jfpe.70878",
+      "doi": "10.1111/jfpe.70878",
+      "actual_online_date": "2026-11-05",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.1111/jfpe.70878",
+      "reason": "DOI与历史SF-20261107-06一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.1111/jfpe.70878"
+    },
+    {
+      "title": "1H-NMR metabolomic profiling reveals asymmetric metabolic responses of Cyperus rotundus and Sorghum bicolor in co-culture competition",
+      "source": "Chemical and Biological Technologies in Agriculture",
+      "url": "https://doi.org/10.1186/s40538-026-01140-6",
+      "doi": "10.1186/s40538-026-01140-6",
+      "actual_online_date": "2026-11-04",
+      "publication_status": "early_access",
+      "decision": "duplicate",
+      "duplicate_key": "10.1186/s40538-026-01140-6",
+      "reason": "DOI与历史SF-20261105-05一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.1186/s40538-026-01140-6"
+    },
+    {
+      "title": "Rapid and Accurate Determination of Water Content in Crude-Oil Emulsions Using Low-Field NMR Relaxometry: Validation by Dean–Stark Distillation, FTIR Spectroscopy, and TG/DTG Analysis",
+      "source": "ADIPEC",
+      "url": "https://doi.org/10.2118/236317-ms",
+      "doi": "10.2118/236317-ms",
+      "actual_online_date": "2026-11-02",
+      "publication_status": "published",
+      "decision": "duplicate",
+      "duplicate_key": "10.2118/236317-ms",
+      "reason": "DOI与历史SF-20261103-08一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.2118/236317-ms"
+    },
+    {
+      "title": "Quantitative Characterization of Shale Wettability Using High-Resolution Nuclear Magnetic Resonance",
+      "source": "SPE Journal",
+      "url": "https://doi.org/10.2118/236999-pa",
+      "doi": "10.2118/236999-pa",
+      "actual_online_date": "2026-11-06",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.2118/236999-pa",
+      "reason": "DOI与历史SF-20261107-01一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.2118/236999-pa"
+    },
+    {
+      "title": "Decreased Circulating Glutamine and Myo-Inositol in Cervical Cancer: Exploratory NMR Metabolomics and Internal Discrimination Using Their Additive Feature (MQ)",
+      "source": "Diagnostics",
+      "url": "https://doi.org/10.3390/diagnostics16213639",
+      "doi": "10.3390/diagnostics16213639",
+      "actual_online_date": "2026-11-04",
+      "publication_status": "published",
+      "decision": "duplicate",
+      "duplicate_key": "10.3390/diagnostics16213639",
+      "reason": "DOI与历史SF-20261105-06一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.3390/diagnostics16213639"
+    },
+    {
+      "title": "A Low-Cost Benchtop NMR System for Measurements of Self-Diffusion Coefficients",
+      "source": "ECSA-13",
+      "url": "https://doi.org/10.3390/engproc2026163064",
+      "doi": "10.3390/engproc2026163064",
+      "actual_online_date": "2026-11-02",
+      "publication_status": "published",
+      "decision": "duplicate",
+      "duplicate_key": "10.3390/engproc2026163064",
+      "reason": "DOI与历史SF-20261105-03一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.3390/engproc2026163064"
+    },
+    {
+      "title": "Probing Adsorbed Water in Al(HCOO)3 Metal–Organic Framework by Multinuclear and Multidimensional Solid-State NMR Spectroscopy",
+      "source": "Magnetochemistry",
+      "url": "https://doi.org/10.3390/magnetochemistry12110125",
+      "doi": "10.3390/magnetochemistry12110125",
+      "actual_online_date": "2026-11-05",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.3390/magnetochemistry12110125",
+      "reason": "DOI与历史SF-20261106-02一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.3390/magnetochemistry12110125"
+    },
+    {
+      "title": "A C2-Symmetric Biphenyl-Bridged Bis-Aurone: Synthesis, Z/E Photoisomerization, and Conformational Insights from NMR Spectroscopy and DFT Analysis",
+      "source": "Molecules",
+      "url": "https://doi.org/10.3390/molecules31213963",
+      "doi": "10.3390/molecules31213963",
+      "actual_online_date": "2026-11-03",
+      "publication_status": "unknown",
+      "decision": "duplicate",
+      "duplicate_key": "10.3390/molecules31213963",
+      "reason": "DOI与历史SF-20261108-05一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://api.crossref.org/works/10.3390/molecules31213963"
+    },
+    {
+      "title": "Small molecule structure elucidation from NMR spectra with generative and reasoning models.",
+      "source": "bioRxiv : the preprint server for biology",
+      "url": "https://doi.org/10.64898/2026.10.29.762711",
+      "doi": "10.64898/2026.10.29.762711",
+      "actual_online_date": "2026-10-31",
+      "publication_status": "preprint",
+      "decision": "duplicate",
+      "duplicate_key": "10.64898/2026.10.29.762711",
+      "reason": "DOI与历史SF-20261107-09一致",
+      "mr_role": "not_reassessed_duplicate",
+      "evidence_location": "https://pubmed.ncbi.nlm.nih.gov/42990417/"
+    },
+    {
+      "title": "NMR evidence for a loop-current state in CsV3Sb5",
+      "doi": "10.1103/6pjy-bn4m",
+      "url": "https://journals.aps.org/prl/accepted/10.1103/6pjy-bn4m",
+      "source": "journals.aps.org",
+      "actual_online_date": null,
+      "publication_status": "unknown",
+      "mr_role": "key_evidence",
+      "decision": "excluded",
+      "reason": "原始接受论文摘要可读，明确Accepted 4 November；没有独立上线发表日期，不能将接受日写作发布日期",
+      "evidence_location": "https://journals.aps.org/prl/accepted/10.1103/6pjy-bn4m",
+      "duplicate_key": "10.1103/6pjy-bn4m"
+    },
+    {
+      "title": "EPR-based Assessment of Gadolinium-based Contrast Agent Retention",
+      "doi": "10.1097/rli.0000000000001280",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41968871/",
+      "source": "pubmed.ncbi.nlm.nih.gov",
+      "actual_online_date": null,
+      "publication_status": "unknown",
+      "mr_role": "application_core",
+      "decision": "excluded",
+      "reason": "11月刊期不等于首发日，新增日期未核实",
+      "evidence_location": "https://pubmed.ncbi.nlm.nih.gov/41968871/",
+      "duplicate_key": "10.1097/rli.0000000000001280"
+    },
+    {
+      "title": "Hyperfine Coupling on Nitrogen and Phosphorus in β-Phosphorylated Nitroxide Radicals",
+      "doi": "10.1021/acs.jpca.6c04856",
+      "url": "https://api.crossref.org/works/10.1021/acs.jpca.6c04856",
+      "source": "api.crossref.org",
+      "actual_online_date": "2026-10-24",
+      "publication_status": "unknown",
+      "mr_role": "method_core",
+      "decision": "excluded",
+      "reason": "实际在线10月24日，11月5日是刊期",
+      "evidence_location": "https://api.crossref.org/works/10.1021/acs.jpca.6c04856",
+      "duplicate_key": "10.1021/acs.jpca.6c04856"
+    },
+    {
+      "title": "Conserved IQ motifs, divergent apo-calmodulin recognition",
+      "doi": "10.1002/pro.70826",
+      "url": "https://api.crossref.org/works/10.1002/pro.70826",
+      "source": "api.crossref.org",
+      "actual_online_date": "2026-10-23",
+      "publication_status": "unknown",
+      "mr_role": "key_evidence",
+      "decision": "excluded",
+      "reason": "实际在线10月23日",
+      "evidence_location": "https://api.crossref.org/works/10.1002/pro.70826",
+      "duplicate_key": "10.1002/pro.70826"
+    },
+    {
+      "title": "Expanding the polarizing agent toolbox for liquid-state DNP",
+      "doi": "10.1039/d6cp03024f",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42872301/",
+      "source": "pubmed.ncbi.nlm.nih.gov",
+      "actual_online_date": "2026-10-14",
+      "publication_status": "unknown",
+      "mr_role": "method_core",
+      "decision": "excluded",
+      "reason": "实际首发10月14日，不能用11月刊期",
+      "evidence_location": "https://pubmed.ncbi.nlm.nih.gov/42872301/",
+      "duplicate_key": "10.1039/d6cp03024f"
+    },
+    {
+      "title": "NMR-Challenge答题统计",
+      "doi": "10.1021/acs.jchemed.6c01446",
+      "url": "https://api.crossref.org/works/10.1021/acs.jchemed.6c01446",
+      "source": "api.crossref.org",
+      "actual_online_date": "2026-11-05",
+      "publication_status": "unknown",
+      "mr_role": "education_only",
+      "decision": "excluded",
+      "reason": "答题统计没有新增可复核谱学分析方法",
+      "evidence_location": "https://api.crossref.org/works/10.1021/acs.jchemed.6c01446",
+      "duplicate_key": "10.1021/acs.jchemed.6c01446"
+    },
+    {
+      "title": "Einstein Boxes and EPR as Thermodynamic Cycles",
+      "doi": "10.1142/s0217732326502871",
+      "url": "https://api.crossref.org/works/10.1142/s0217732326502871",
+      "source": "api.crossref.org",
+      "actual_online_date": "2026-11-03",
+      "publication_status": "unknown",
+      "mr_role": "out_of_scope",
+      "decision": "excluded",
+      "reason": "EPR为量子基础语境，非电子顺磁共振实验",
+      "evidence_location": "https://api.crossref.org/works/10.1142/s0217732326502871",
+      "duplicate_key": "10.1142/s0217732326502871"
+    },
+    {
+      "title": "Back Cover 31P Solid-State NMR-Enabled Development of a Pt Catalyst",
+      "doi": "10.1002/anie.2026-m0111100900",
+      "url": "https://api.crossref.org/works/10.1002/anie.2026-m0111100900",
+      "source": "api.crossref.org",
+      "actual_online_date": "2026-11-04",
+      "publication_status": "unknown",
+      "mr_role": "out_of_scope",
+      "decision": "excluded",
+      "reason": "封面不是新研究，不能重写为新论文",
+      "evidence_location": "https://api.crossref.org/works/10.1002/anie.2026-m0111100900",
+      "duplicate_key": "10.1002/anie.2026-m0111100900"
+    },
+    {
+      "title": "CryoHe与CAN-S新闻更新",
+      "doi": "",
+      "url": "https://www.ciqtek.com/news.html",
+      "source": "www.ciqtek.com",
+      "actual_online_date": "2026-11-04",
+      "publication_status": "unknown",
+      "mr_role": "product_software",
+      "decision": "excluded",
+      "reason": "同一10月31日发布已于11月1日收录，不能按后续新闻日期重复",
+      "evidence_location": "https://www.ciqtek.com/news.html",
+      "duplicate_key": "ciqtek.com/news.html"
+    },
+    {
+      "title": "EPR微波功率应用说明",
+      "doi": "",
+      "url": "https://www.ciqtek.com/news/news.html?id=32ac1902-318a-4d32-b89a-0c2db15bcb30",
+      "source": "www.ciqtek.com",
+      "actual_online_date": "2026-11-04",
+      "publication_status": "unknown",
+      "mr_role": "application_note",
+      "decision": "excluded",
+      "reason": "11月8日已刊，同一URL与技术内容",
+      "evidence_location": "https://www.ciqtek.com/news/news.html?id=32ac1902-318a-4d32-b89a-0c2db15bcb30",
+      "duplicate_key": "ciqtek.com/news/news.html?id=32ac1902-318a-4d32-b89a-0c2db15bcb30"
+    },
+    {
+      "title": "NMR Users Meeting Princeton",
+      "doi": "",
+      "url": "https://www.bruker.com/en/news-and-events/events/us-um.html",
+      "source": "www.bruker.com",
+      "actual_online_date": "2026-11-05",
+      "publication_status": "unknown",
+      "mr_role": "event",
+      "decision": "excluded",
+      "reason": "未核实可独立新增的详细技术议程",
+      "evidence_location": "https://www.bruker.com/en/news-and-events/events/us-um.html",
+      "duplicate_key": "bruker.com/en/news-and-events/events/us-um.html"
+    },
+    {
+      "title": "Alternating bias on a single orbital spin impurity",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2611.03507",
+      "source": "arxiv.org",
+      "actual_online_date": "2026-11-02",
+      "publication_status": "unknown",
+      "mr_role": "out_of_scope",
+      "decision": "excluded",
+      "reason": "未核实直接NMR/EPR作用",
+      "evidence_location": "https://arxiv.org/abs/2611.03507",
+      "duplicate_key": "arxiv.org/abs/2611.03507"
+    }
+  ],
+  "dedup": {
+    "base_index": "cf7b35965ad640242dc4bcf07f42f00869c990c0",
+    "normalization": "casefold DOI, canonical URL/path/query, unicode normalized titles; prior versions and event dates checked",
+    "issues": 81,
+    "items": 698,
+    "recent_dates": [
+      "2026-11-02",
+      "2026-11-03",
+      "2026-11-04",
+      "2026-11-05",
+      "2026-11-06",
+      "2026-11-07",
+      "2026-11-08"
+    ],
+    "review_files": 34,
+    "academic_doi_duplicates": 57,
+    "procurement_duplicates": 7,
+    "unverified_academic_publication_date_or_status": 2
+  },
+  "procurement": {
+    "registered_candidates": 17,
+    "qualified_announcements": 1,
+    "excluded_candidates": 16,
+    "daily_items": 1,
+    "summary_item_id": "SF-20261109-04",
+    "announcements": [
+      {
+        "title": "融创中心超导核磁共振谱仪履约验收公示",
+        "unit": "郑州大学",
+        "actual_date": "2026-11-05",
+        "stage": "履约验收公示",
+        "original_url": "https://www7.zzu.edu.cn/ztb/info/1136/21045.htm",
+        "decision": "included",
+        "reason": "官方栏目为验收公示，11月5日发布；验收事件10月22日分开记录，合同编号豫财招标采购-2025-1129；独立公告此前无同阶段记录",
+        "duplicate_key": "www7.zzu.edu.cn/ztb/info/1136/21045.htm",
+        "event_date": "2026-10-22",
+        "contract_goods_total_cny": 3200000,
+        "instrument": "BRUKER Ascend Evo 400",
+        "quantity": 1,
+        "budget_cny": null,
+        "bid_deadline": null
+      },
+      {
+        "title": "400MHz核磁需求调查",
+        "unit": "复旦大学",
+        "actual_date": "2026-11-05",
+        "stage": "需求调查",
+        "original_url": "https://czzx.fudan.edu.cn/2e/d2/c51235a798418/page.htm",
+        "decision": "duplicate",
+        "reason": "11月6日已刊",
+        "duplicate_key": "czzx.fudan.edu.cn/2e/d2/c51235a798418/page.htm"
+      },
+      {
+        "title": "400MHz核磁采购意向",
+        "unit": "复旦大学",
+        "actual_date": "2026-11-05",
+        "stage": "意向",
+        "original_url": "https://cgyx.ccgp.gov.cn/cgyx/pub/details?groupId=6b3b22f6-50ec-44fa-9d95-17f4002101de",
+        "decision": "unverified",
+        "reason": "学校列表可读，独立意向正文503；不借需求调查替代意向",
+        "duplicate_key": "cgyx.ccgp.gov.cn/cgyx/pub/details?groupId=6b3b22f6-50ec-44fa-9d95-17f4002101de",
+        "lead_url": "https://yfbzb.com/inviteBid/detail/20261105_644963584.html"
+      },
+      {
+        "title": "液体NMR与600MHz四共振探头合同",
+        "unit": "中国科学院基础医学与肿瘤研究所（筹）",
+        "actual_date": "2026-11-05",
+        "stage": "合同",
+        "original_url": null,
+        "decision": "unverified",
+        "reason": "东方列表与FormNo返回8月26日招标及10月22日邀请书，非11月5日合同；浙江合同未核实",
+        "duplicate_key": "bidcenter.com.cn/zhaobiao/zbkeyw-28950-330000-4.html",
+        "lead_url": "https://www.bidcenter.com.cn/zhaobiao/zbkeyw-28950-330000-4.html"
+      },
+      {
+        "title": "电子顺磁共振波谱仪合同",
+        "unit": "中国科学院基础医学与肿瘤研究所（筹）",
+        "actual_date": "2026-11-05",
+        "stage": "合同",
+        "original_url": null,
+        "decision": "unverified",
+        "reason": "合同编号11NMB1D69992202617205无独立官方返回，FormNo正文仅有9月28日/10月16日招标",
+        "duplicate_key": "bidcenter.com.cn/zhaobiao/zbkeyw-28950-330000-4.html",
+        "lead_url": "https://www.bidcenter.com.cn/zhaobiao/zbkeyw-28950-330000-4.html"
+      },
+      {
+        "title": "核磁共振实验装置合同",
+        "unit": "杭州医学院",
+        "actual_date": "2026-11-05",
+        "stage": "合同",
+        "original_url": null,
+        "decision": "unverified",
+        "reason": "合同原文未核实，不以旧中标替代合同",
+        "duplicate_key": "bidcenter.com.cn/zhaobiao/zbkeyw-28950-330000-4.html",
+        "lead_url": "https://www.bidcenter.com.cn/zhaobiao/zbkeyw-28950-330000-4.html"
+      },
+      {
+        "title": "600M核磁共振波谱仪招标",
+        "unit": "南京工业大学",
+        "actual_date": null,
+        "stage": "招标",
+        "original_url": null,
+        "decision": "unverified_date",
+        "reason": "聚合页标11月5日但正文投标截止2025年12月15日，项目编号JSZC-320000-XHTC-G2025-0054，未取得窗口内新招标证据",
+        "duplicate_key": "bidcenter.com.cn/zhaobiao/zbkeyw-98424.html",
+        "lead_url": "https://www.bidcenter.com.cn/zhaobiao/zbkeyw-98424.html"
+      },
+      {
+        "title": "多频率EPR采购更正",
+        "unit": "中国科学院过程工程研究所",
+        "actual_date": "2026-10-21",
+        "stage": "更正",
+        "original_url": "https://www.ccgp.gov.cn/cggg/zygg/gzgg/202610/t20261021_27532021.htm",
+        "decision": "out_of_window",
+        "reason": "11月9日为延后截止，不是公告日",
+        "duplicate_key": "ccgp.gov.cn/cggg/zygg/gzgg/202610/t20261021_27532021.htm"
+      },
+      {
+        "title": "固体NMR采购结果",
+        "unit": "大湾区大学",
+        "actual_date": "2026-11-02",
+        "stage": "中标",
+        "original_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202611/t20261102_27604874.htm",
+        "decision": "duplicate",
+        "reason": "11月3日已刊",
+        "duplicate_key": "ccgp.gov.cn/cggg/dfgg/zbgg/202611/t20261102_27604874.htm"
+      },
+      {
+        "title": "600MHz宽腔NMR单一来源",
+        "unit": "江南大学",
+        "actual_date": "2026-11-03",
+        "stage": "单一来源",
+        "original_url": "https://www.ccgp.gov.cn/cggg/zygg/qtgg/202611/t20261103_27610320.htm",
+        "decision": "duplicate",
+        "reason": "11月4日已刊",
+        "duplicate_key": "ccgp.gov.cn/cggg/zygg/qtgg/202611/t20261103_27610320.htm"
+      },
+      {
+        "title": "低场NMR中标",
+        "unit": "杭州师范大学",
+        "actual_date": "2026-11-03",
+        "stage": "中标",
+        "original_url": "https://cgzx.hznu.edu.cn/A-am-base/announcement/announcement.jsf?announcementId=26456603",
+        "decision": "duplicate",
+        "reason": "11月4日已刊",
+        "duplicate_key": "cgzx.hznu.edu.cn/A-am-base/announcement/announcement.jsf?announcementId=26456603"
+      },
+      {
+        "title": "EPR中标结果",
+        "unit": "湖北科技学院",
+        "actual_date": "2026-11-03",
+        "stage": "中标",
+        "original_url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202611/t20261103_27613227.htm",
+        "decision": "duplicate",
+        "reason": "11月5日已刊",
+        "duplicate_key": "ccgp.gov.cn/cggg/dfgg/zbgg/202611/t20261103_27613227.htm"
+      },
+      {
+        "title": "400MHz机柜及组件候选人公示",
+        "unit": "国能北京低碳清洁能源研究院",
+        "actual_date": "2026-11-03",
+        "stage": "候选人",
+        "original_url": "https://www.chnenergybidding.com.cn/bidweb/001/001005/001005001/20261103/0c9ce0c7-67a1-43b5-89f1-eb5f79378f71.html",
+        "decision": "duplicate",
+        "reason": "11月7日已刊，未核实独立新中标",
+        "duplicate_key": "chnenergybidding.com.cn/bidweb/001/001005/001005001/20261103/0c9ce0c7-67a1-43b5-89f1-eb5f79378f71.html"
+      },
+      {
+        "title": "台式NMR招标",
+        "unit": "加拿大国家研究委员会",
+        "actual_date": "2026-10-29",
+        "stage": "招标",
+        "original_url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-494-18885779",
+        "decision": "duplicate",
+        "reason": "11月4日已刊且超窗",
+        "duplicate_key": "canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-494-18885779"
+      },
+      {
+        "title": "固体核磁共振谱仪招标",
+        "unit": "重庆大学",
+        "actual_date": "2026-10-19",
+        "stage": "招标",
+        "original_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261019_27516060.htm",
+        "decision": "out_of_window",
+        "reason": "11月9日是递交截止，公告超窗",
+        "duplicate_key": "ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261019_27516060.htm"
+      },
+      {
+        "title": "EPR时间分辨系统采购",
+        "unit": "中国科学院大连化学物理研究所",
+        "actual_date": "2026-10-16",
+        "stage": "招标",
+        "original_url": null,
+        "decision": "out_of_window",
+        "reason": "11月9日是截止日，未取得新公告",
+        "duplicate_key": "instrument.com.cn/event/bid/t164540.html",
+        "lead_url": "https://www.instrument.com.cn/event/bid/t164540.html"
+      },
+      {
+        "title": "3.0T核磁等设备意向",
+        "unit": "伊川县人民医院",
+        "actual_date": "2026-11-06",
+        "stage": "意向",
+        "original_url": "https://zfcg.henan.gov.cn/yichuan/content?bz=1&channelCode=D230207&infoId=2040643",
+        "decision": "out_of_scope",
+        "reason": "医疗MRI与CT等，不是波谱仪",
+        "duplicate_key": "zfcg.henan.gov.cn/yichuan/content?bz=1&channelCode=D230207&infoId=2040643"
+      }
+    ],
+    "tag_reasons": {
+      "nmr": "官方设备名称和Ascend Evo 400确认为核磁波谱仪；未推定探头或应用标签"
+    }
+  },
+  "editorial_review": {
+    "authors": "Liu primary publisher, Sekine primary Atom; Krinichnyi sole author verified so no invented et al.",
+    "facts": "read primary abstracts; technical parameters not inferred",
+    "dates": "online dates separated from issue, accepted date, event date and procurement notice date",
+    "taxonomy": "active IDs, dimensions, hierarchy and textual reasons checked",
+    "screen": "canonical JSON sole text source",
+    "text_only": true
+  },
+  "verification": {
+    "local_tests": {
+      "python scripts/build.py --check": "pass:82 issues/702 items",
+      "python scripts/build.py": "pass",
+      "node tests/search.test.cjs": "pass",
+      "python tests/procurement.test.py": "6 passed",
+      "python tests/build.test.py": "1 passed",
+      "local acceptance": "pass: 4 ordered articles, canonical fields/DOI/source links, procurement final, homepage/date archive/search indices match"
+    },
+    "publication": "commit/Actions/Pages/public verification reported separately after commit"
+  }
+}

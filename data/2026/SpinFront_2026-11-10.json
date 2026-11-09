@@ -1,0 +1,436 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-11-10",
+  "scope_note": "检索截至2026-11-10 06:13（北京时间）。近24小时仅核实2份带发布时间的新采购公告，符合精确时窗的研究资讯不足5条，已启动增强搜索；同时完成深度回扫，逐日覆盖11月3日至9日，并核查11月10日截点前可见记录。分别检查高影响及磁共振专业期刊、预印本和科研机构、仪器软件、应用、会议及采购，按九类方法词独立检索。候选池排除历期或版本重复61项，因在线日期未能核实排除4条研究线索。部分出版社页面、ChemRxiv及采购动态检索受限，补用登记机构、PubMed、Europe PMC、官方列表及公开接口；未证实的采购原文不入选。本期收录10条：9条研究资讯及1条采购汇总，含3份公告。采购汇总含较早公告，整体标近7天扩展。",
+  "items": [
+    {
+      "item_id": "SF-20261110-01",
+      "report_date": "2026-11-10",
+      "item_no": 1,
+      "title_cn": "EPR 追踪可在室温储存还原电子的钠离子对",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "二酰亚胺离子对受体",
+        "钠自由基阴离子离子对",
+        "四氢呋喃"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Luo 等把钠离子结合位点和缺电子的二酰亚胺骨架连接到同一受体上。钠还原后，受体形成自由基阴离子离子对；随时间记录的 EPR 与紫外可见光谱显示，代表性物种在惰性气氛下的室温四氢呋喃中可持续存在。分离组分和非共价混合对照的还原态持久性较弱。",
+      "meaning_cn": "判断这种受体能否作为电子库，关键是比较相同溶剂、气氛和时间条件下，自旋信号能否持续，以及持续的物种能否参与电子转移。EPR 与光谱对照支持还原态的持久性；反应转化和产率仍需独立化学分析，不能从自由基信号强度直接读出。",
+      "publication_date": "2026-11-09",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://doi.org/10.1021/jacs.6c16532",
+      "doi": "10.1021/jacs.6c16532",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录",
+          "url": "https://api.crossref.org/works/10.1021/jacs.6c16532"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-10",
+      "last_updated": "2026-11-10",
+      "report_file": "SpinFront_2026-11-10.html"
+    },
+    {
+      "item_id": "SF-20261110-02",
+      "report_date": "2026-11-10",
+      "item_no": 2,
+      "title_cn": "R1 自旋标记在 Aβ42 原丝上的扰动取决于位点",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "spin_labeling"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "Aβ42 五层原丝",
+        "R1 氮氧自由基标记"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Montes 等用分子动力学比较了五层 Aβ42 原丝的野生型与十种 R1 标记变体，并以已有 EPR 自旋相互作用结果作为参照。模拟大体再现了强弱相互作用位点的差别，层间排列与主链氢键总体保留；第 32 位的标记使 C 端尾部重排最明显，未标记的半胱氨酸对照扰动较小。",
+      "meaning_cn": "为 Aβ42 纤维选取 EPR 标记位点时，可把位点间信号差异与无标记半胱氨酸对照或相邻位点结果结合，区分原有堆积与标签造成的变化。该结果来自基于一种人脑纤维结构的五层模型，对其他纤维多态或具体实验距离不能直接外推。",
+      "publication_date": "2026-11-07",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Physical Chemistry B",
+      "url": "https://doi.org/10.1021/acs.jpcb.6c05203",
+      "doi": "10.1021/acs.jpcb.6c05203",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录",
+          "url": "https://api.crossref.org/works/10.1021/acs.jpcb.6c05203"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-10",
+      "last_updated": "2026-11-10",
+      "report_file": "SpinFront_2026-11-10.html"
+    },
+    {
+      "item_id": "SF-20261110-03",
+      "report_date": "2026-11-10",
+      "item_no": 3,
+      "title_cn": "EPR 与猝灭对照解析 UV／过乙酸处理中的硝化副反应",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "environment"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "紫外／过乙酸",
+        "亚硝酸盐",
+        "苯酚",
+        "天然有机质"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Chu 等结合 EPR 和自由基猝灭实验，研究紫外光活化过乙酸处理含亚硝酸盐的水。结果支持有机自由基与羟基自由基主导苯酚降解；亚硝酸盐可消耗部分羟基自由基并生成二氧化氮自由基。结合反应对照，研究将乙酰过氧自由基与促进酚氧自由基参与的硝化路径联系起来。",
+      "meaning_cn": "在 100 μM 亚硝酸盐、5 mg C/L 天然有机质和 0.5 mM 过乙酸的实验体系中，照射 6 小时后硝化产物为 3.955 μM。评估此类处理工艺时，EPR 与猝灭对照可帮助定位潜在副反应，实际副产物浓度仍需化学定量；单凭自由基信号不能推算不同进水的产率。",
+      "publication_date": "2026-11-07",
+      "time_scope": "7d_extension",
+      "source": "Journal of Hazardous Materials",
+      "url": "https://doi.org/10.1016/j.jhazmat.2026.144116",
+      "doi": "10.1016/j.jhazmat.2026.144116",
+      "alternative_sources": [
+        {
+          "name": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42998485/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-10",
+      "last_updated": "2026-11-10",
+      "report_file": "SpinFront_2026-11-10.html"
+    },
+    {
+      "item_id": "SF-20261110-04",
+      "report_date": "2026-11-10",
+      "item_no": 4,
+      "title_cn": "MAS NMR 定位 HIV-1 成熟抑制剂的不对称结合",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "mas"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "HIV-1 Gag CACTD–SP1–NC₁₁",
+        "SP1-V7A",
+        "HRF-4467",
+        "肌醇六磷酸"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Kumar 等利用魔角旋转固体 NMR 研究结晶 HIV-1 Gag 片段组装体中成熟抑制剂 HRF-4467 的结合。预印本报告，抑制剂在野生型及耐 Bevirimat 的 SP1-V7A 变体中均以不对称方式结合六螺旋束并稳定其螺旋构象；肌醇六磷酸在两类组装体中则呈现不同构象。",
+      "meaning_cn": "在同一类固体组装体系中比较野生型和耐药突变体，可把抑制剂的结合姿态与肌醇六磷酸的构象变化分开考察。这里测量的是带肌醇六磷酸的结晶 Gag 片段组装体；结构差异有助于提出抑制剂设计假设，不能代替完整病毒中的成熟过程或药效验证。",
+      "publication_date": "2026-11-06",
+      "time_scope": "7d_extension",
+      "source": "bioRxiv（预印本）",
+      "url": "https://doi.org/10.64898/2026.11.05.764638",
+      "doi": "10.64898/2026.11.05.764638",
+      "alternative_sources": [
+        {
+          "name": "Europe PMC",
+          "url": "https://europepmc.org/article/PPR/PPR1361037"
+        },
+        {
+          "name": "bioRxiv 官方题录",
+          "url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.11.05.764638"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-11-10",
+      "last_updated": "2026-11-10",
+      "report_file": "SpinFront_2026-11-10.html"
+    },
+    {
+      "item_id": "SF-20261110-05",
+      "report_date": "2026-11-10",
+      "item_no": 5,
+      "title_cn": "NMR 与散射追踪 SF3B1 无序片段的磷酸化响应",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "SF3B1 186–341",
+        "四位点磷酸化",
+        "RNA"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Oliveti 等结合 NMR、小角 X 射线散射和分子模拟研究剪接因子 SF3B1 的 186–341 无序片段。预印本报告，该片段没有稳定二级结构，四个位点磷酸化后，构象群体偏向更紧凑状态。RNA 的瞬态接触主要涉及一个保守色氨酸基序附近的精氨酸。",
+      "meaning_cn": "对此类无序片段，NMR 可帮助定位接触区域，散射则用于约束整体紧凑程度；把两类读出并用，可避免把局部 RNA 接触误读为整个链条折叠。结论适用于所测截短片段和磷酸化状态，在完整剪接体中是否保留同样接触还需直接验证。",
+      "publication_date": "2026-11-06",
+      "time_scope": "7d_extension",
+      "source": "bioRxiv（预印本）",
+      "url": "https://doi.org/10.64898/2026.11.05.763689",
+      "doi": "10.64898/2026.11.05.763689",
+      "alternative_sources": [
+        {
+          "name": "Europe PMC",
+          "url": "https://europepmc.org/article/PPR/PPR1361029"
+        },
+        {
+          "name": "bioRxiv 官方题录",
+          "url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.11.05.763689"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-11-10",
+      "last_updated": "2026-11-10",
+      "report_file": "SpinFront_2026-11-10.html"
+    },
+    {
+      "item_id": "SF-20261110-06",
+      "report_date": "2026-11-10",
+      "item_no": 6,
+      "title_cn": "EPR 分辨氮氧双自由基桥连基团对交换的影响",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "氮氧双自由基",
+        "短桥结构",
+        "极性与非极性溶剂"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Yankova 等用 EPR 比较结构相近的短桥氮氧双自由基，考察环结构、桥连基团和溶剂对交换积分绝对值 |J| 的影响。作者给出所研究系列中 −NH− 和 −O− 的自旋密度衰减系数约为 4.1 和 3.3；一个羰基桥连双自由基在所测极性及非极性溶剂中、200–410 K 范围内保持结构刚性。",
+      "meaning_cn": "若要为相近结构的氮氧双自由基筛选桥连基团，可比较不同溶剂和温度下的 EPR 交换特征，用经验衰减系数作初步估算。系数来自本研究的短桥系列，适用边界由所考察骨架决定；谱图得到的是交换积分绝对值，不能由此确定交换符号。",
+      "publication_date": "2026-11-05",
+      "time_scope": "7d_extension",
+      "source": "Magnetic Resonance in Chemistry",
+      "url": "https://doi.org/10.1002/mrc.70155",
+      "doi": "10.1002/mrc.70155",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录",
+          "url": "https://api.crossref.org/works/10.1002/mrc.70155"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-10",
+      "last_updated": "2026-11-10",
+      "report_file": "SpinFront_2026-11-10.html"
+    },
+    {
+      "item_id": "SF-20261110-07",
+      "report_date": "2026-11-10",
+      "item_no": 7,
+      "title_cn": "²H NMR 的四极耦合如何区分金属氢配体",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr",
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "氘代过渡金属氢化物"
+      ],
+      "information_type": "review",
+      "summary_cn": "Bakhmutov 综述氘代过渡金属氢化物的四极耦合常数测定，比较溶液中的 ²H T₁ 弛豫测量与固态 ²H 谱线形分析，并讨论计算误差。文中说明四极耦合信息如何区分金属–氢键合方式，以及在适当模型下如何用于估计金属–氘键长和键的离子性。",
+      "meaning_cn": "对能制备氘代配合物的体系，可先按样品状态选择 ²H T₁ 或谱线形，再用适当模型解释四极耦合常数。若要比较不同配体的键长或离子性，应把弛豫或线形模型带来的误差纳入判断；四极耦合常数不能脱离这些条件直接换算成结构参数。",
+      "publication_date": "2026-11-05",
+      "time_scope": "7d_extension",
+      "source": "Magnetic Resonance in Chemistry",
+      "url": "https://doi.org/10.1002/mrc.70153",
+      "doi": "10.1002/mrc.70153",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录",
+          "url": "https://api.crossref.org/works/10.1002/mrc.70153"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-10",
+      "last_updated": "2026-11-10",
+      "report_file": "SpinFront_2026-11-10.html"
+    },
+    {
+      "item_id": "SF-20261110-08",
+      "report_date": "2026-11-10",
+      "item_no": 8,
+      "title_cn": "顺磁弛豫增强定位 α-突触核蛋白与 VAMP2 的瞬态接触",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "paramagnetic_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "α-突触核蛋白",
+        "突触囊泡蛋白 VAMP2"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Werner 等结合 NMR 化学位移扰动、顺磁弛豫增强及两种结合分析研究 α-突触核蛋白与 VAMP2。预印本把主要接触定位到前者的 V118–E137 和后者的 A82–K87，并观察到 VAMP2 的 N 端也受影响；测得解离常数约为 10–50 μM，NMR 结果与微秒至毫秒尺度的快交换相符。",
+      "meaning_cn": "对低亲和力蛋白相互作用，化学位移扰动可定位受影响残基，顺磁弛豫增强可补充近邻信息；与独立结合测定联用，有助于检验局部谱变是否对应弱结合。体外快交换和位点定位支持瞬态接触，尚不能证明它在神经元中调控胞吐。",
+      "publication_date": "2026-11-04",
+      "time_scope": "7d_extension",
+      "source": "bioRxiv（预印本）",
+      "url": "https://doi.org/10.64898/2026.11.03.764002",
+      "doi": "10.64898/2026.11.03.764002",
+      "alternative_sources": [
+        {
+          "name": "Europe PMC",
+          "url": "https://europepmc.org/article/PPR/PPR1358659"
+        },
+        {
+          "name": "bioRxiv 官方题录",
+          "url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.11.03.764002"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-11-10",
+      "last_updated": "2026-11-10",
+      "report_file": "SpinFront_2026-11-10.html"
+    },
+    {
+      "item_id": "SF-20261110-09",
+      "report_date": "2026-11-10",
+      "item_no": 9,
+      "title_cn": "把反应前体作为线索，缩小 NMR 自动结构解析的候选范围",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "有机分子",
+        "合成前体上下文",
+        "NMR 谱"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Hu 等用自动逆合成生成带分子前体信息的训练数据，再把前体上下文和 NMR 谱一起输入结构解析模型。预印本报告，当上下文与目标有关时，含最多 40 个重原子的分子在测试中的前 15 名命中率最高为 95.4%；上下文与目标无关时，表现与原有仅用 NMR 谱的模型相近。",
+      "meaning_cn": "在合成项目中，已知前体可帮助排序结构候选，并把人工谱图复核集中到较小的集合。95.4% 是特定测试中的前 15 名命中率，既不等于首选结构准确率，也未证明适用于未知前体、混合物或任意仪器条件；最终归属仍应逐项核对谱证据。",
+      "publication_date": "2026-11-04",
+      "time_scope": "7d_extension",
+      "source": "arXiv（预印本）",
+      "url": "https://arxiv.org/abs/2611.07133v1",
+      "doi": "10.48550/arxiv.2611.07133",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-11-10",
+      "last_updated": "2026-11-10",
+      "report_file": "SpinFront_2026-11-10.html"
+    },
+    {
+      "item_id": "SF-20261110-10",
+      "report_date": "2026-11-10",
+      "item_no": 10,
+      "title_cn": "采购与需求动态：核磁维保、机柜中标与 DNP 波源",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "dnp"
+      ],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "tender",
+      "summary_cn": "南开大学于2026-11-09发布单一来源采购公告（NK2026F084），对化学学院600 MHz、800 MHz核磁共振波谱仪的冷头及超低温平台进行维保，预算及最高限价均为34万元，响应文件须于11月18日08:30前提交（北京时间）；北京低碳清洁能源研究院于2026-11-09公布400 MHz核磁共振波谱仪机柜及组件中标结果（CEZB260108455001），中标人为广东省中科进出口有限公司；华中科技大学于2026-11-03发布140 GHz动态核极化回旋管波源单一来源采购公示（HW20260001／HBT-105126001-262080），预算794.5万元，要求微波功率大于100 W，用于DNP-NMR；公示至11月10日，公告列明开标时间为11月16日09:30（北京时间）。",
+      "meaning_cn": "南开项目是两台现有高场谱仪的低温系统维保，响应截止与09:00评审时间不同；低碳院项目已完成定标，结果公告未列金额；华中科技大学采购的是DNP-NMR微波源部件，公告的11月16日09:30为开标时间。",
+      "publication_date": "2026-11-09",
+      "time_scope": "7d_extension",
+      "source": "南开大学｜600／800 MHz 核磁冷头维保",
+      "url": "https://nkzbb.nankai.edu.cn/cgfw/4775.chtml",
+      "doi": "",
+      "alternative_sources": [
+        {
+          "name": "北京低碳清洁能源研究院｜400 MHz 核磁机柜及组件中标",
+          "url": "https://www.chnenergybidding.com.cn/bidweb/001/001006/001006001/20261109/c1e4db49-c399-43af-8d4c-2aead3bc60c8.html"
+        },
+        {
+          "name": "华中科技大学｜140 GHz 动态核极化回旋管波源",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/qtgg/202611/t20261103_27607629.htm"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-10",
+      "last_updated": "2026-11-10",
+      "report_file": "SpinFront_2026-11-10.html"
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-11-11",
+  "scope_note": "检索截至2026-11-11 06:07（北京时间）。常规检索中可证明处于近24小时内的合格研究条目不足5条，已启动增强搜索，并完整逐日回扫11月4日至10日及当日截点前可见记录。分别核查高影响及磁共振专业期刊、预印本与机构、仪器软件、应用、会议及采购五条路线，轮换九类方法主题簇。以全库83期712条、最近7期及Review查重，登记候选中排除重复51项。部分出版社页面、ChemRxiv及采购搜索受限；4份当日采购线索原始正文未核实，未以聚合摘要补写。共收录10条：9条研究或软件资讯，1条采购汇总含2份公告；均保守标为近7天扩展。无待复核标签。",
+  "items": [
+    {
+      "item_id": "SF-20261111-01",
+      "report_date": "2026-11-11",
+      "item_no": 1,
+      "title_cn": "X-Spin 为台式 NMR 增加方法复用与审计记录",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "benchtop_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [],
+      "instrument_component_ids": [
+        "software"
+      ],
+      "sample_systems": [
+        "X-Pulse",
+        "X-Pulse 90",
+        "X-Auto"
+      ],
+      "information_type": "product_software",
+      "summary_cn": "Oxford Instruments 发布适用于 X-Pulse 和 X-Pulse 90 的 X-Spin 采集软件，提供预设实验参数、自动匀场及方法保存与调用。厂商同时公布按角色管理账户、密码保护、用户操作审计记录，以及与 X-Auto 自动进样和队列管理的集成。",
+      "meaning_cn": "对多人共用的台式 NMR，保存方法和记录操作可帮助复现实验设置，并追查参数变动。厂商称软件支持 GLP、21 CFR Part 11 及 IQ/OQ/PQ 活动；这些功能仍需结合实验室权限设置、验证记录和管理程序评估，不能把软件发布等同于实验室已获合规认证。",
+      "publication_date": "2026-11-10",
+      "time_scope": "7d_extension",
+      "source": "Oxford Instruments",
+      "url": "https://www.oxinst.com/news/oxford-instruments-launches-x-spin-software-to-simplify-benchtop-nmr-workflows-and-support-laboratory-compliance/",
+      "doi": "",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-11",
+      "last_updated": "2026-11-11",
+      "report_file": "SpinFront_2026-11-11.html"
+    },
+    {
+      "item_id": "SF-20261111-02",
+      "report_date": "2026-11-11",
+      "item_no": 2,
+      "title_cn": "原位 EPR 追踪多孔液体中的变压气体交换",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "spin_probe"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "ZIF-8 多孔液体",
+        "氮氧自由基",
+        "空气／CO₂"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Zhitkeyev 等把稳定氮氧自由基探针封装在 ZIF-8 内，用原位 EPR 监测第三类多孔液体在不同气压下的气体交换。研究比较邻苯二甲酸二丁酯与离子液体 [Bmim]BF₄ 两种分散介质，结合线形分析区分颗粒内交换、样品体相扩散及气体溶解对空气／CO₂ 切换过程的贡献。",
+      "meaning_cn": "这类读出把气体环境变化转换为孔内探针的谱线变化，可比较不同分散介质和压力下的交换过程。使用时需要保持探针封装状态及颗粒分散条件一致，并用动力学模型区分不同传质贡献；EPR 线形本身不等于材料的总吸附容量。",
+      "publication_date": "2026-11-09",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Physical Chemistry Letters",
+      "url": "https://doi.org/10.1021/acs.jpclett.6c03098",
+      "doi": "10.1021/acs.jpclett.6c03098",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录",
+          "url": "https://api.crossref.org/works/10.1021/acs.jpclett.6c03098"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-11",
+      "last_updated": "2026-11-11",
+      "report_file": "SpinFront_2026-11-11.html"
+    },
+    {
+      "item_id": "SF-20261111-03",
+      "report_date": "2026-11-11",
+      "item_no": 3,
+      "title_cn": "³¹P NMR 区分不同土壤中的历史累积磷",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "酸性土壤",
+        "有机土壤",
+        "钙质土壤"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Mahmud 等以溶液 ³¹P NMR 分析美国三类土壤的历史累积磷，并结合磷酸酶活性和 Mehlich-3 提取磷考察潜在可利用性。酸性土壤以正磷酸盐和单酯为主，钙质土壤正磷酸盐占比为79%–100%；有机土壤中单酯与二酯合计占18%–70%，显示不同的磷形态分布。",
+      "meaning_cn": "³¹P 谱提供磷酸盐与有机磷类别的分布，酶活性和化学提取则补充潜在转化及可利用性信息。将三类结果并列可避免把某类谱峰比例直接解释为作物可吸收量；结论受样品前处理及所调查土壤范围限制，不能仅凭总磷高低判断供磷能力。",
+      "publication_date": "2026-11-09",
+      "time_scope": "7d_extension",
+      "source": "Soil Science Society of America Journal",
+      "url": "https://doi.org/10.1002/saj2.70406",
+      "doi": "10.1002/saj2.70406",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录",
+          "url": "https://api.crossref.org/works/10.1002/saj2.70406"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-11",
+      "last_updated": "2026-11-11",
+      "report_file": "SpinFront_2026-11-11.html"
+    },
+    {
+      "item_id": "SF-20261111-04",
+      "report_date": "2026-11-11",
+      "item_no": 4,
+      "title_cn": "多核 NMR 定位 YdbL 与 YnbE 肽段的结合界面",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "大肠杆菌 YdbL",
+        "YnbE C 端肽段"
+      ],
+      "information_type": "paper",
+      "summary_cn": "De’Ath 等报告大肠杆菌 YdbL 游离态及与 YnbE C 端肽段结合态的 ¹H、¹³C、¹⁵N 指认。化学位移变化和直接肽段–YdbL NOE 支持特定结合界面；结合未造成显著二级结构改变，但与相互作用螺旋的稳定化相符。肽段内部 NOE 及 Hα 位移支持其结合时采用 α 螺旋构象。",
+      "meaning_cn": "游离态与结合态指认可用于逐残基比较界面变化，分子间 NOE 则补充直接接近证据。该研究使用 YnbE 末端肽段，所得界面不能独自确定完整膜蛋白复合体的计量比，也不等于直接测量磷脂运输；全长体系中的作用仍需结合其他证据。",
+      "publication_date": "2026-11-09",
+      "time_scope": "7d_extension",
+      "source": "Biomolecular NMR Assignments",
+      "url": "https://link.springer.com/article/10.1007/s12104-026-10284-3",
+      "doi": "10.1007/s12104-026-10284-3",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-11",
+      "last_updated": "2026-11-11",
+      "report_file": "SpinFront_2026-11-11.html"
+    },
+    {
+      "item_id": "SF-20261111-05",
+      "report_date": "2026-11-11",
+      "item_no": 5,
+      "title_cn": "EPR 与磁化测量综述掺杂 SiCN 陶瓷的颗粒均一性",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "SiCN／Fe 陶瓷",
+        "SiCN／Mn 陶瓷"
+      ],
+      "information_type": "review",
+      "summary_cn": "Misra 等综述 Fe、Mn 掺杂 SiCN 陶瓷的 EPR 与磁化研究，讨论退火温度、纳米颗粒尺寸和超顺磁响应的关系。文中指出 EPR 线形对颗粒尺寸敏感；Fe 掺杂样品的零场冷却与场冷磁化差随退火温度升高而减小，与粒径分布更均一的解释相符。",
+      "meaning_cn": "对这类含磁性颗粒的陶瓷，可把 EPR 线形与场冷／零场冷却磁化并用，检查退火处理是否伴随磁性分布变化。颗粒相组成与粒径均一性的判定仍需结构表征支持；文中提出的更高温退火及微纳机电应用前景不应写成已验证器件性能。",
+      "publication_date": "2026-11-07",
+      "time_scope": "7d_extension",
+      "source": "Magnetochemistry",
+      "url": "https://www.mdpi.com/2312-7481/12/11/126",
+      "doi": "10.3390/magnetochemistry12110126",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-11",
+      "last_updated": "2026-11-11",
+      "report_file": "SpinFront_2026-11-11.html"
+    },
+    {
+      "item_id": "SF-20261111-06",
+      "report_date": "2026-11-11",
+      "item_no": 6,
+      "title_cn": "分子模拟分析胶原附近水质子的弛豫梯度",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "computation_nmr",
+        "relaxometry"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "胶原片段",
+        "水合水"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Heyn 等用室温分子动力学模拟计算单个胶原片段周围水质子的弛豫速率。首层水合水受胶原影响最强，外层逐渐接近体相；水分子驻留时间不一致会使谱密度估计不稳定。作者对系综平均谱密度进行 Lorentz 型拟合，以改善各水合层弛豫速率计算的稳定性。",
+      "meaning_cn": "从轨迹推算 T₁、T₂ 时，水分子在各水合层的驻留时间会影响可用轨迹长度，需同时检查采样长度和系综规模。该模型采用孤立胶原片段，未直接测量组织或完整纤维网络；所得水合层趋势可用于检验弛豫模型，不能直接替代软骨的实验定量。",
+      "publication_date": "2026-11-06",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Physical Chemistry B",
+      "url": "https://doi.org/10.1021/acs.jpcb.6c04352",
+      "doi": "10.1021/acs.jpcb.6c04352",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录",
+          "url": "https://api.crossref.org/works/10.1021/acs.jpcb.6c04352"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-11",
+      "last_updated": "2026-11-11",
+      "report_file": "SpinFront_2026-11-11.html"
+    },
+    {
+      "item_id": "SF-20261111-07",
+      "report_date": "2026-11-11",
+      "item_no": 7,
+      "title_cn": "量子传感模型直接分类瞬态 NMR 信号",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "quantum_spin"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "瞬态 NMR 类信号",
+        "量子传感器模型"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Leppäkangas 等用解析模型和数值模拟，比较感应线圈配合匹配滤波与可训练量子传感器对瞬态 NMR 类信号的分类。增加控制深度可改善部分波形的区分；在线圈传递弱或接收噪声限制性能的模型条件下，量子方案可能占优，但较弱耦合同时要求更长感测时间。",
+      "meaning_cn": "对直接分类方案，需要把样品信号强度、信号到传感器的耦合、相干时间和读出次数放在同一条件下比较。该工作区分传感器系综与单传感器单次读出，结果来自模拟；模型中的分类优势尚不能视为已实现的小体积 NMR 检测性能。",
+      "publication_date": "2026-11-06",
+      "time_scope": "7d_extension",
+      "source": "arXiv（预印本）",
+      "url": "https://arxiv.org/abs/2611.09512v1",
+      "doi": "10.48550/arxiv.2611.09512",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-11-11",
+      "last_updated": "2026-11-11",
+      "report_file": "SpinFront_2026-11-11.html"
+    },
+    {
+      "item_id": "SF-20261111-08",
+      "report_date": "2026-11-11",
+      "item_no": 8,
+      "title_cn": "乳酸编辑 ¹H MRS 观察胶质瘤治疗后的早期代谢变化",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "in_vivo_mrs"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "GL261 胶质瘤小鼠",
+        "乳酸"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Alrashidi 等在66只携带 GL261 颅内肿瘤的小鼠中比较 lonidamine、替莫唑胺及联合治疗，并在第0、3、6天进行常规和乳酸编辑 ¹H MRS。含 lonidamine 的组别乳酸信号显著降低，伴随 MCT4 表达下降；第6天肿瘤体积和扩散指标等组间差异并不显著。",
+      "meaning_cn": "乳酸编辑 MRS 可在体积变化不明显时提供代谢池变化信息，但乳酸降低可能涉及生成、利用或转运改变，不能单独判定糖酵解通量。这里的联合治疗生存获益未达显著，且是短期小鼠模型；代谢读出不应直接等同于临床疗效。",
+      "publication_date": "2026-11-05",
+      "time_scope": "7d_extension",
+      "source": "Scientific Reports",
+      "url": "https://www.nature.com/articles/s41598-026-78910-7",
+      "doi": "10.1038/s41598-026-78910-7",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-11",
+      "last_updated": "2026-11-11",
+      "report_file": "SpinFront_2026-11-11.html"
+    },
+    {
+      "item_id": "SF-20261111-09",
+      "report_date": "2026-11-11",
+      "item_no": 9,
+      "title_cn": "溶液 NMR 建立全长人 UCHL3 的多核指认",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "全长人 UCHL3"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Kubota 等报告重组全长人泛素羧基末端水解酶 UCHL3 在溶液中的主链及侧链 ¹H、¹³C、¹⁵N 指认，为研究该去泛素化酶的构象动态和识别机制建立残基级谱学基础。研究围绕蛋白指认和二级结构展开，未把这些数据直接等同于酶活性变化。",
+      "meaning_cn": "多核指认可作为后续结合滴定或动力学实验的起点，用于把峰位和强度变化定位到具体残基。可访问摘要没有给出完整样品浓度、缓冲液和采集参数；复用指认前应核对实验条件及峰重叠，不能由完成指认推断已解析全部催化机制。",
+      "publication_date": "2026-11-04",
+      "time_scope": "7d_extension",
+      "source": "Biomolecular NMR Assignments",
+      "url": "https://link.springer.com/article/10.1007/s12104-026-10287-0",
+      "doi": "10.1007/s12104-026-10287-0",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-11",
+      "last_updated": "2026-11-11",
+      "report_file": "SpinFront_2026-11-11.html"
+    },
+    {
+      "item_id": "SF-20261111-10",
+      "report_date": "2026-11-11",
+      "item_no": 10,
+      "title_cn": "采购与需求动态：EPR 平台意向与 NMR 交联密度仪中标",
+      "direction_ids": [
+        "nmr",
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "tender",
+      "summary_cn": "五邑大学于2026-11-10公开氢生态与储能关键技术研究平台采购意向，拟采购电子顺磁共振波谱仪、纳秒光学参量振荡器等设备，平台项目总预算358万元，预计2026年12月采购；中国科学院长春应用化学研究所于2026-11-06发布核磁共振交联密度仪中标公告（DFA-BFJL-DL-20261817），安辰（长春）经贸有限公司以113.6万元中标，供货为纽迈VTMR20-010V-I、1套。",
+      "meaning_cn": "五邑大学目前处于意向公开阶段，358万元覆盖多种设备，不能视为EPR单机预算，也没有已核实的投标截止；长春应化所公告属于定标结果，113.6万元为中标金额。两份公告分别对应拟建平台与已经完成采购评审的设备项目。",
+      "publication_date": "2026-11-10",
+      "time_scope": "7d_extension",
+      "source": "五邑大学｜氢生态与储能平台采购意向",
+      "url": "https://www.wyu.edu.cn/ztb/info/1381/31982.htm",
+      "doi": "",
+      "alternative_sources": [
+        {
+          "name": "长春应化所｜NMR交联密度仪中标",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202611/t20261106_27633506.htm"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-11",
+      "last_updated": "2026-11-11",
+      "report_file": "SpinFront_2026-11-11.html"
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-11-12",
+  "scope_note": "检索截至2026-11-12 06:07（北京时间）。近24小时可明确核实的常规候选不足5条，已启动增强搜索，回扫11月5日至11日并核查当日可见记录。按专业与高影响期刊、预印本及机构、仪器软件及应用、会议、采购分路检索，并逐日轮换九类方法词。对全库84期722条、最近7期及采购Review查重，登记候选中排除重复45项，另有1篇因截点前发布时间未明排除。部分出版社、ChemRxiv及采购动态页面受限，采用题录、官方列表与可访问原文补查；未核实公告不纳入。本期10条，9条学术资讯标为近7天扩展，采购末条含4份近24小时中标公告。无待复核标签。",
+  "items": [
+    {
+      "item_id": "SF-20261112-01",
+      "report_date": "2026-11-12",
+      "item_no": 1,
+      "title_cn": "¹H NMR 与 GC–MS 指纹区分六种中国特色茶",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "中国特色茶"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Cheng 等结合感官评价、GC–MS 和 ¹H NMR 比较六种中国特色茶，分别表征挥发性与非挥发性成分。随机森林在两类数据的内部交叉验证中均达到100%分类准确率。非挥发性候选标志物包括茶氨酸和谷氨酰胺。",
+      "meaning_cn": "挥发性和非挥发性指纹分别覆盖茶香与其他化学组成，可并行检验分类是否依赖某一平台。100%来自该研究的内部交叉验证，尚不能视为跨产地、批次或仪器的鉴别准确率；用于真实性筛查前需独立批次和靶向成分复核。",
+      "publication_date": "2026-11-11",
+      "time_scope": "7d_extension",
+      "source": "Foods",
+      "url": "https://www.mdpi.com/2304-8158/15/22/4033",
+      "doi": "10.3390/foods15224033",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "report_file": "SpinFront_2026-11-12.html"
+    },
+    {
+      "item_id": "SF-20261112-02",
+      "report_date": "2026-11-12",
+      "item_no": 2,
+      "title_cn": "三轴注入实验区分 ¹²⁹Xe NMR 角速度传感器的磁噪声贡献",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "Rb–¹²⁹Xe NMR 角速度传感器"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Wang 等用 Bloch 动力学与脉冲灵敏度函数建立磁噪声到核自旋频率稳定性的模型，并向 Rb–¹²⁹Xe 传感器三轴线圈注入噪声。纵向白噪声增加白频噪声贡献，纵向闪烁噪声抬高拟合的稳定性平台；模型还描述残余横向直流场放大低频噪声的条件。",
+      "meaning_cn": "以重叠 Allan 偏差比较不同方向和噪声类型，有助于区分轴向噪声与横向偏置的贡献。这个模型针对核自旋共振频率，横向噪声结果也有特定适用条件；它不包含完整的角速度误差预算，不能直接把频率稳定度换算为整机精度。",
+      "publication_date": "2026-11-10",
+      "time_scope": "7d_extension",
+      "source": "Micromachines",
+      "url": "https://www.mdpi.com/2072-666X/17/11/1307",
+      "doi": "10.3390/mi17111307",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "report_file": "SpinFront_2026-11-12.html"
+    },
+    {
+      "item_id": "SF-20261112-03",
+      "report_date": "2026-11-12",
+      "item_no": 3,
+      "title_cn": "¹H 位移比较推拉烯烃的供受体效应",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "非对称推拉烯烃",
+        "DASA 前体"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Fu 等比较多类非对称推拉烯烃中暂定归属的烯键氢，实测 ¹H 化学位移跨7.93–8.68 ppm。呋喃供体系列中，位移与受体吸电子强度呈经验正相关；噻吩类似物出现异常低场偏移，作者结合共振给电子、诱导效应和位阻解释。",
+      "meaning_cn": "同系列化合物的位移变化可以检验取代基与局部电子环境的关联，但磁各向异性、共轭和位阻也会改变屏蔽。呋喃系列的经验关系尚不能推广到所有供体；烯键氢归属仍为暂定，比较前需先确认对应的是同类信号。",
+      "publication_date": "2026-11-10",
+      "time_scope": "7d_extension",
+      "source": "ChemistrySelect",
+      "url": "https://doi.org/10.1002/slct.75116",
+      "doi": "10.1002/slct.75116",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录",
+          "url": "https://api.crossref.org/works/10.1002/slct.75116"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "report_file": "SpinFront_2026-11-12.html"
+    },
+    {
+      "item_id": "SF-20261112-04",
+      "report_date": "2026-11-12",
+      "item_no": 4,
+      "title_cn": "³¹P NMR 追踪 AgCrP₂S₆ 的链内关联与三维有序",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "AgCrP₂S₆"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Saramgi 等在预印本中结合磁化率和 ³¹P NMR 研究 AgCrP₂S₆。Knight 位移与磁化率的线性关系在约250 K两侧斜率不同；进入有序态后，1/T₁ 随温度约呈五次方变化。内部超精细场的临界指数约0.36，与三维临界行为相容。",
+      "meaning_cn": "位移与磁化率的斜率变化反映有效转移超精细耦合变化，弛豫则约束有序态的低能自旋激发。链内交换尺度依赖拟合模型；五次方弛豫和临界指数支持作者的解释，但单独一项不能确定材料的全部交换网络。",
+      "publication_date": "2026-11-10",
+      "time_scope": "7d_extension",
+      "source": "arXiv（预印本）",
+      "url": "https://arxiv.org/abs/2611.14444v1",
+      "doi": "10.48550/arxiv.2611.14444",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "report_file": "SpinFront_2026-11-12.html"
+    },
+    {
+      "item_id": "SF-20261112-05",
+      "report_date": "2026-11-12",
+      "item_no": 5,
+      "title_cn": "高场 ³¹P NMR 分辨双层三角晶格反铁磁体的有序区",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "K₂Co₂(HPO₃)₂(C₂O₄)(H₂O)₂"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Liu 等在预印本中将 ³¹P NMR 测量扩展至0.06 K和26 T。0.5–4 T范围内低温 1/T₁ 出现峰值，6–18 T范围则观察到谱线分裂。低温 Knight 位移对磁场的导数在约10、15.5和18 T呈现变化，为区分有序区和高场极化态提供局域证据。",
+      "meaning_cn": "可把谱线分裂与弛豫峰、体磁化特征联合比较，判断场致有序是否伴随局域环境重分布。低场无隙弛豫与作者提出的自旋超固体解释相符，但并非单凭一个弛豫特征即可确证；温度与磁场范围也只适用于所测样品。",
+      "publication_date": "2026-11-10",
+      "time_scope": "7d_extension",
+      "source": "arXiv（预印本）",
+      "url": "https://arxiv.org/abs/2611.13532v1",
+      "doi": "10.48550/arxiv.2611.13532",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "report_file": "SpinFront_2026-11-12.html"
+    },
+    {
+      "item_id": "SF-20261112-06",
+      "report_date": "2026-11-12",
+      "item_no": 6,
+      "title_cn": "自旋捕获 EPR 与原位 ¹⁹F NMR 比较三氟甲基化反应",
+      "direction_ids": [
+        "epr",
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "spin_trapping",
+        "reaction_monitoring"
+      ],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "三氟甲基供体",
+        "MNP–CF₃",
+        "烯烃"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Tuccio 等比较18种三氟甲基供体，用自旋捕获 EPR 跟踪 MNP–CF₃ 加合物，用原位 ¹⁹F NMR 监测烯烃三氟甲基化时的试剂消耗和产物生成。两种读出给出的反应性趋势不同；作者认为反应环境差异和 CF₃I 等副产物可能影响排序。",
+      "meaning_cn": "EPR 加合物反映捕获条件下的自由基释放，¹⁹F NMR 则提供含氟试剂与产物随时间的变化。可在各自测量条件下比较供体，并检查含氟副产物；不能把捕获信号的快慢直接当成目标产物生成速率，或合并成一套通用反应性排名。",
+      "publication_date": "2026-11-09",
+      "time_scope": "7d_extension",
+      "source": "European Journal of Organic Chemistry",
+      "url": "https://doi.org/10.1002/ejoc.70885",
+      "doi": "10.1002/ejoc.70885",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录",
+          "url": "https://api.crossref.org/works/10.1002/ejoc.70885"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "report_file": "SpinFront_2026-11-12.html"
+    },
+    {
+      "item_id": "SF-20261112-07",
+      "report_date": "2026-11-12",
+      "item_no": 7,
+      "title_cn": "900 MHz NMR 以峰顶分箱和 STOCSY 分析脑脊液",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "multinuclear_nmr",
+        "multidimensional_nmr",
+        "spectral_processing",
+        "metabolomics"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "脑脊液",
+        "阿尔茨海默病组与其他认知障碍组"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Wuyart 等用900 MHz ¹H 谱和 ¹H–¹³C HSQC 分析66份脑脊液样本，以共振峰顶为中心分箱，再用统计总相关谱（STOCSY）聚类和指认。多重检验校正后保留9种差异代谢物；留一交叉验证中，模型区分两组样本的 AUC 为0.87。",
+      "meaning_cn": "峰顶分箱使变量对应实际共振，HSQC 与 STOCSY 分别补充跨核关联和信号共变信息。分组性能来自小样本留一验证，对照为其他认知障碍患者；不能直接解释为人群筛查性能。降低场强或改变谱峰重叠程度后，也应重新验证分箱结果。",
+      "publication_date": "2026-11-09",
+      "time_scope": "7d_extension",
+      "source": "Analytical Chemistry",
+      "url": "https://doi.org/10.1021/acs.analchem.6c05346",
+      "doi": "10.1021/acs.analchem.6c05346",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录",
+          "url": "https://api.crossref.org/works/10.1021/acs.analchem.6c05346"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "report_file": "SpinFront_2026-11-12.html"
+    },
+    {
+      "item_id": "SF-20261112-08",
+      "report_date": "2026-11-12",
+      "item_no": 8,
+      "title_cn": "丙氨酸 EPR 优化 4–10 Gy 剂量测量",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "丙氨酸剂量片",
+        "⁶⁰Co 常规照射"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Sebinanyane 等用可溯源 ⁶⁰Co 常规照射优化丙氨酸 EPR 剂量测量，比较样品位置、片数、微波功率和调制幅度。双片、1.8 mW、0.4 mT 和20分钟采集条件下，4–10 Gy范围的扩展不确定度为5.40%（k=2），7 Gy重复测量 RSD 为0.77%。",
+      "meaning_cn": "1 Gy 能获得可辨谱线，但1–10 Gy探索区间的不确定度为15.88%（k=2），不足以建立可靠定量校准。应区分可检出信号与可定量剂量；当前性能来自常规 ⁶⁰Co 照射，尚未证明可直接用于电子束 FLASH 条件。",
+      "publication_date": "2026-11-09",
+      "time_scope": "7d_extension",
+      "source": "Molecules",
+      "url": "https://www.mdpi.com/1420-3049/31/21/4029",
+      "doi": "10.3390/molecules31214029",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "report_file": "SpinFront_2026-11-12.html"
+    },
+    {
+      "item_id": "SF-20261112-09",
+      "report_date": "2026-11-12",
+      "item_no": 9,
+      "title_cn": "用 NMR T₂ 分布与地层因子估计碳酸盐岩渗透率",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "碳酸盐岩",
+        "Morro do Chaves 地层"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Ghanbarian 等在预印本中用14块巴西碳酸盐岩检验临界路径模型，将主导 NMR T₂ 与特征孔隙尺度联系，并结合电学地层因子估计渗透率。在不使用该地层实测渗透率校准的条件下，模型的均方根对数误差为0.56。",
+      "meaning_cn": "电学地层因子补充孔隙连通信息，T₂ 分布提供与孔尺度相关的弛豫读出。该结果可与需要岩心渗透率校准的经验模型在同一数据集比较；现有证据仅来自单一地层的14个样品，尚需独立岩性和地层验证。",
+      "publication_date": "2026-11-08",
+      "time_scope": "7d_extension",
+      "source": "arXiv（预印本）",
+      "url": "https://arxiv.org/abs/2611.11610v1",
+      "doi": "10.48550/arxiv.2611.11610",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "report_file": "SpinFront_2026-11-12.html"
+    },
+    {
+      "item_id": "SF-20261112-10",
+      "report_date": "2026-11-12",
+      "item_no": 10,
+      "title_cn": "采购与需求动态：三项固体 NMR 与一项时间分辨 EPR 中标",
+      "direction_ids": [
+        "nmr",
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "tender",
+      "summary_cn": "中国科学院大连化学物理研究所于2026-11-11发布电子顺磁共振时间分辨系统中标公告（OITC-G260670471），科兴（广州）科学器材有限公司以538万元中标，供货为国仪量子 EPR100、1套；天津大学于2026-11-11公布400 MHz宽腔固体核磁共振波谱仪中标结果（TDZC2026J0032），天津市鸿然科技发展有限公司以498.35万元中标，供货为布鲁克 Ascend 400WB、1套；湖南大学于2026-11-11公布400 MHz固体核磁共振波谱仪中标结果（JYCZ202601299），上海途哲电子设备有限公司以496万元中标，供货为 JEOL JNM-ECZL400G、1台；重庆大学于2026-11-11公布固体核磁共振谱仪中标结果（CQU-CZ-ZC-HW-2026-063），擎瑞科技（常州）有限公司以399万元中标，公告正文将具体型号和分项配置指向报价附件。",
+      "meaning_cn": "四份公告均为中标结果，金额为中标价。天津大学公告明确为400 MHz宽腔固体谱仪，湖南大学公告明确为400 MHz固体谱仪；大连化物所采购对象为时间分辨EPR系统。重庆大学公告正文未展开分项配置，不能仅凭总价比较仪器、探头或附件。",
+      "publication_date": "2026-11-11",
+      "time_scope": "24h",
+      "source": "大连化物所｜时间分辨EPR系统中标",
+      "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202611/t20261111_27659573.htm",
+      "doi": "",
+      "alternative_sources": [
+        {
+          "name": "天津大学｜400 MHz宽腔固体NMR中标",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202611/t20261111_27663059.htm"
+        },
+        {
+          "name": "湖南大学｜400 MHz固体NMR中标",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202611/t20261111_27664036.htm"
+        },
+        {
+          "name": "重庆大学｜固体核磁共振谱仪中标",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202611/t20261111_27664592.htm"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "report_file": "SpinFront_2026-11-12.html"
+    }
+  ]
+}

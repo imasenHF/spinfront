@@ -1,0 +1,408 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-11-13",
+  "scope_note": "检索截至2026-11-13 06:09（北京时间）。近24小时可明确核实的常规候选不足5条，已启动增强搜索，回扫11月6日至12日并核查当日可见记录。按专业与高影响期刊、预印本及机构、仪器软件及应用、会议、采购分路检索，并逐日轮换九类方法词。对全库85期732条、最近7期及采购Review查重，登记候选中排除重复45项，另有3篇因截点前发布时间未明排除。部分出版社、ChemRxiv及采购动态页面受限，采用题录、官方列表与可访问原文补查；未核实公告不纳入。本期10条，9条学术资讯标为近7天扩展，采购末条含1份近24小时中标公告。无待复核标签。",
+  "items": [
+    {
+      "item_id": "SF-20261113-01",
+      "report_date": "2026-11-13",
+      "item_no": 1,
+      "title_cn": "低场多回波饱和恢复测量 ¹²⁹Xe 的长 T₁",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "cpmg",
+        "relaxometry"
+      ],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "热极化¹²⁹Xe",
+        "低场NMR"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Sannikov 等在最高1 T的低场条件下，用饱和恢复结合 CPMG 测量三相点附近（161.4 K）的热极化 ¹²⁹Xe。序列在一次扫描内叠加多个回波，提高弱信号的信噪比，避免长 T₁ 样品因反复等待恢复而延长总实验时间。",
+      "meaning_cn": "可把原本用于多次扫描的时间转为单次扫描内的回波采样。适用前提是 T₂ 足够长，且场不均匀造成的 T₂* 明显短于 T₂；如果回波串衰减太快，增加回波数也会纳入更多噪声。摘要未给出可通用于其他样品的增益倍数。",
+      "publication_date": "2026-11-12",
+      "time_scope": "7d_extension",
+      "source": "Applied Magnetic Resonance",
+      "url": "https://link.springer.com/article/10.1007/s00723-026-01896-y",
+      "doi": "10.1007/s00723-026-01896-y",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-13",
+      "last_updated": "2026-11-13",
+      "report_file": "SpinFront_2026-11-13.html"
+    },
+    {
+      "item_id": "SF-20261113-02",
+      "report_date": "2026-11-13",
+      "item_no": 2,
+      "title_cn": "时域 NMR 区分原油的析蜡起点与后续结晶",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [
+        "cpmg",
+        "relaxometry"
+      ],
+      "application_ids": [
+        "process_analysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "模型油",
+        "巴西原油",
+        "蜡晶"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Pereira 等用时域 NMR 和微量量热比较模型油与四种巴西原油。降温时，模型油主要表现为可见信号减少，原油则出现额外的短 T₂ 成分。四种原油的 NMR 析蜡起点为37、49、51和47 °C；4 °C时，NMR 与量热估计的结晶比例相差最多0.27个百分点。",
+      "meaning_cn": "校正 CPMG 幅度后，既可跟踪短 T₂ 分布，也能估计变得难以检出的刚性组分。起点受降温程序、温度采样间隔和检测灵敏度影响；低温比例接近量热结果，并不意味着两种方法对初始结晶的判定完全一致。",
+      "publication_date": "2026-11-12",
+      "time_scope": "7d_extension",
+      "source": "Energy & Fuels",
+      "url": "https://doi.org/10.1021/acs.energyfuels.6c05250",
+      "doi": "10.1021/acs.energyfuels.6c05250",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录",
+          "url": "https://api.crossref.org/works/10.1021/acs.energyfuels.6c05250"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-13",
+      "last_updated": "2026-11-13",
+      "report_file": "SpinFront_2026-11-13.html"
+    },
+    {
+      "item_id": "SF-20261113-03",
+      "report_date": "2026-11-13",
+      "item_no": 3,
+      "title_cn": "¹H NMR 对照肝细胞胞内与培养液代谢谱",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "原代肝细胞",
+        "Hepa1–6",
+        "Dt81Hepa1–6"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Goossens 等在24和48小时采集原代肝细胞及两种小鼠肝癌细胞的胞内提取物和培养液，用 ¹H NMR 分析代谢差异。肝癌细胞的乳酸和丙氨酸升高，胞内葡萄糖和谷胱甘肽下降；侵袭性较强的细胞系在培养液中呈现较高的支链氨基酸来源酮酸。",
+      "meaning_cn": "配对检测胞内与胞外可区分细胞内代谢物丰度变化和培养液成分随时间的变化。该研究比较的是特定细胞模型；代谢物浓度变化不能直接给出代谢通量，候选特征仍需在其他细胞模型及临床样本中验证。",
+      "publication_date": "2026-11-12",
+      "time_scope": "7d_extension",
+      "source": "PLOS ONE",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0361879",
+      "doi": "10.1371/journal.pone.0361879",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-13",
+      "last_updated": "2026-11-13",
+      "report_file": "SpinFront_2026-11-13.html"
+    },
+    {
+      "item_id": "SF-20261113-04",
+      "report_date": "2026-11-13",
+      "item_no": 4,
+      "title_cn": "¹H NMR 与红外比较市售椰子油指纹",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "椰子油",
+        "棕榈仁油"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Barros 等对巴西市售13份椰子油及参考油开展 ATR-FTIR、¹H NMR 和主成分分析，用脂肪酸组成及不饱和信号解释谱图差异。多数样品与实验室椰子油参考样接近，两份样品的谱学轮廓更接近棕榈仁油。",
+      "meaning_cn": "结合两种指纹可将偏离参考样的产品列为复测对象，但谱图相似仅说明在所选变量上接近。现有参考样和批次有限，不能据此认定掺假；若用于鉴别，应补充独立批次、更多参考油和针对性的脂肪酸组成确认。",
+      "publication_date": "2026-11-12",
+      "time_scope": "7d_extension",
+      "source": "AppliedChem",
+      "url": "https://doi.org/10.3390/appliedchem6040085",
+      "doi": "10.3390/appliedchem6040085",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录",
+          "url": "https://api.crossref.org/works/10.3390/appliedchem6040085"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-13",
+      "last_updated": "2026-11-13",
+      "report_file": "SpinFront_2026-11-13.html"
+    },
+    {
+      "item_id": "SF-20261113-05",
+      "report_date": "2026-11-13",
+      "item_no": 5,
+      "title_cn": "²H 四极分裂比较氨基酸与膜模拟体系的结合",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "选择性氘代氨基酸",
+        "SDS／癸醇双层膜模型"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Cevo Elorza 等用选择性氘代氨基酸、²H NMR 和分子动力学比较四种氨基酸与 SDS／癸醇膜模拟体系的相互作用。四种氨基酸均呈现可辨四极分裂；亮氨酸和甲硫氨酸引起较强的脂链无序，丙氨酸影响很小，谷氨酸居中。",
+      "meaning_cn": "四极分裂约束氘代位点的取向与有序度，不能单独给出侧链插入深度。插入位置和静电作用的区分来自与模拟的联合解释；在更换脂质、盐或膜模型时，应重新核对谱图和取向假设。",
+      "publication_date": "2026-11-11",
+      "time_scope": "7d_extension",
+      "source": "Physical Chemistry Chemical Physics",
+      "url": "https://doi.org/10.1039/d6cp02807a",
+      "doi": "10.1039/d6cp02807a",
+      "alternative_sources": [
+        {
+          "name": "原始题录与摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43012297/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-13",
+      "last_updated": "2026-11-13",
+      "report_file": "SpinFront_2026-11-13.html"
+    },
+    {
+      "item_id": "SF-20261113-06",
+      "report_date": "2026-11-13",
+      "item_no": 6,
+      "title_cn": "固体 NMR 分辨蚕丝酪氨酸的构象变化",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr",
+        "multidimensional_nmr",
+        "mas"
+      ],
+      "application_ids": [
+        "polymers"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "家蚕丝素蛋白",
+        "酪氨酸"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Mizushima 等用同位素标记和固体 NMR 比较家蚕液态丝的风干样品与纤维。¹³C–¹³C DARR 谱显示酪氨酸 Cβ 至少有三类结构成分；解卷积表明风干样品以无规卷曲或 β 转角为主，纤维中 β 折叠占主导，酪氨酸 β 折叠比例估计为78%。",
+      "meaning_cn": "DARR 区分局部碳环境，¹⁵N 和酰胺 ¹H 位移及 MAS 下的转变观测补充构象归属。78%针对含酪氨酸、缬氨酸序列中的酪氨酸组分，依赖峰分解和归属，不宜写成整根丝纤维的总体结晶度。",
+      "publication_date": "2026-11-09",
+      "time_scope": "7d_extension",
+      "source": "Polymer Journal",
+      "url": "https://www.nature.com/articles/s41428-026-01274-2",
+      "doi": "10.1038/s41428-026-01274-2",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-13",
+      "last_updated": "2026-11-13",
+      "report_file": "SpinFront_2026-11-13.html"
+    },
+    {
+      "item_id": "SF-20261113-07",
+      "report_date": "2026-11-13",
+      "item_no": 7,
+      "title_cn": "溶液 NMR 观察角蛋白19头部的构象与结合",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "角蛋白19头部肽段",
+        "S35E",
+        "GSK3β"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Ji 等用溶液 NMR 解析角蛋白19头部肽段，并比较磷酸化模拟替换 S35E 的影响。谱图变化显示，该替换改变头部肽段与 K8/K19 丝及 GSK3β 的相互作用；与所测 14-3-3 亚型的结合未见显著变化。",
+      "meaning_cn": "残基谱变化可用来比较同一头部区域在不同伙伴存在时的响应。S35E 模拟部分磷酸化效应，肽段结构也不等同于全长丝状蛋白；这些结果支持有选择的结合变化，仍不能把模拟突变直接当作实测的磷酸化状态。",
+      "publication_date": "2026-11-09",
+      "time_scope": "7d_extension",
+      "source": "bioRxiv（预印本）",
+      "url": "https://doi.org/10.64898/2026.11.06.764774",
+      "doi": "10.64898/2026.11.06.764774",
+      "alternative_sources": [
+        {
+          "name": "原始题录与摘要",
+          "url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.11.06.764774"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-11-13",
+      "last_updated": "2026-11-13",
+      "report_file": "SpinFront_2026-11-13.html"
+    },
+    {
+      "item_id": "SF-20261113-08",
+      "report_date": "2026-11-13",
+      "item_no": 8,
+      "title_cn": "多核 NMR 约束 HOPO 螯合剂的钙配合物结构",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "HOPO螯合剂",
+        "钙配合物"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Butscher 等以 ¹H、¹³C、¹⁵N 和 ⁴³Ca NMR 研究 3,4,3-LI(1,2-HOPO) 与钙形成的水溶液配合物，并用密度泛函计算辅助解释。研究将配体侧的多核谱学信息与钙核信号结合，用于确定水相配合物结构。",
+      "meaning_cn": "配体核与金属核的读出可以共同约束钙配位结构，减少仅凭单组配体位移作归属的歧义。该工作关注水溶液中的钙配合物；可访问摘要不支持推断其在体内的结合比例、竞争配位或清除效果。",
+      "publication_date": "2026-11-09",
+      "time_scope": "7d_extension",
+      "source": "Dalton Transactions",
+      "url": "https://doi.org/10.1039/d6dt02086k",
+      "doi": "10.1039/d6dt02086k",
+      "alternative_sources": [
+        {
+          "name": "原始题录与摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43001804/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-13",
+      "last_updated": "2026-11-13",
+      "report_file": "SpinFront_2026-11-13.html"
+    },
+    {
+      "item_id": "SF-20261113-09",
+      "report_date": "2026-11-13",
+      "item_no": 9,
+      "title_cn": "EPR 与猝灭对照辨析缺陷碳活化过硫酸盐的路径",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "environmental_catalysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "氮掺杂石墨烯气凝胶",
+        "PMS",
+        "PDS",
+        "萘普生"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Liu 等调节氮掺杂石墨烯气凝胶的缺陷密度和氮构型，比较其活化两种过硫酸盐降解萘普生的表现。EPR、猝灭、电化学与原位 Raman 联合支持电子转移路径；构效分析显示，PMS 活化与局部 sp³ 缺陷的关联较强，PDS 活化则更依赖总体缺陷密度。",
+      "meaning_cn": "用同类催化材料比较不同氧化剂时，可将自旋信号和猝灭结果与电化学、原位谱学对照。活性位点的区分来自多组构效证据；EPR 本身既不能独立量化各途径的贡献，也不能把缺陷密度的相关性直接当成位点因果证明。",
+      "publication_date": "2026-11-06",
+      "time_scope": "7d_extension",
+      "source": "Journal of Colloid and Interface Science",
+      "url": "https://doi.org/10.1016/j.jcis.2026.141929",
+      "doi": "10.1016/j.jcis.2026.141929",
+      "alternative_sources": [
+        {
+          "name": "原始题录与摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43008674/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-13",
+      "last_updated": "2026-11-13",
+      "report_file": "SpinFront_2026-11-13.html"
+    },
+    {
+      "item_id": "SF-20261113-10",
+      "report_date": "2026-11-13",
+      "item_no": 10,
+      "title_cn": "采购与需求动态：兰州化物所600 MHz超导 NMR 中标",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "tender",
+      "summary_cn": "中国科学院兰州化学物理研究所于2026-11-12公布600 MHz超导核磁共振波谱仪采购项目中标结果（OITC-G260882852），国仪量子技术（合肥）股份有限公司以470万元中标，供货为国仪量子 CAN600-L、1套。",
+      "meaning_cn": "本公告对应已完成评审的中标阶段，470万元为中标价。原文列出600 MHz整机型号和数量；公告正文未逐项列出探头或附件，不据整机型号补写配置。",
+      "publication_date": "2026-11-12",
+      "time_scope": "24h",
+      "source": "兰州化物所｜600 MHz超导核磁波谱仪中标",
+      "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202611/t20261112_27669927.htm",
+      "doi": "",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-13",
+      "last_updated": "2026-11-13",
+      "report_file": "SpinFront_2026-11-13.html"
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-11-14",
+  "scope_note": "检索截至2026-11-14 06:08（北京时间）。常规检索中，可明确核实为近24小时的候选不足5条，已启动增强搜索，回扫11月7日至13日并检查当日可见记录。分路核查专业与高影响期刊、预印本和机构、仪器软件及应用、会议和采购，逐日轮换九类方法词。对照全库86期742条、最近7期和采购Review，登记候选中排除重复50项、首发日期未核实2项。部分出版社、ChemRxiv和动态采购接口受限，补查题录、官方列表和可读原文。共10条，末条合并4份采购公告；无待复核标签。",
+  "items": [
+    {
+      "item_id": "SF-20261114-01",
+      "report_date": "2026-11-14",
+      "item_no": 1,
+      "title_cn": "MOF 中的三重态自由基对呈现选择性电子自旋极化",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "time_resolved_epr",
+        "relaxometry"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "锌卟啉MOF",
+        "三重态自由基对"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Hamachi 等将电子受体引入锌卟啉金属有机框架。光激发后，紧密排列的供受体形成强耦合的三重态自由基对，优先极化到自旋投影为零的子能级。时间分辨 EPR 观察到窄谱线；自由基对的自旋晶格弛豫随孔内客体溶剂改变。",
+      "meaning_cn": "代表谱在85 K、9.6 GHz下于530 nm激发后300 ns采集，可用来比较不同供受体排列和客体条件。解释溶剂效应时需区分弛豫变化与自由基对生成量变化；实验未获得可检出的脉冲回波，也未建立对未知混合物的识别性能。",
+      "publication_date": "2026-11-13",
+      "time_scope": "7d_extension",
+      "source": "Nature Communications",
+      "url": "https://www.nature.com/articles/s41467-026-79262-6",
+      "doi": "10.1038/s41467-026-79262-6",
+      "alternative_sources": [
+        {
+          "name": "东京大学研究说明",
+          "url": "https://www.s.u-tokyo.ac.jp/en/press/11261/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-14",
+      "last_updated": "2026-11-14",
+      "report_file": "SpinFront_2026-11-14.html"
+    },
+    {
+      "item_id": "SF-20261114-02",
+      "report_date": "2026-11-14",
+      "item_no": 2,
+      "title_cn": "吸附 ³He 的 T₁ 读出纳米粒子的埋层深度",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "multinuclear_nmr",
+        "relaxometry",
+        "paramagnetic_nmr"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "LaF₃/Gd³⁺核壳粒子",
+        "低温吸附³He"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Dolgorukov 等在15–18 MHz下测量 LaF₃ 基纳米粒子表面吸附 ³He 的 T₁，结合不同固氮覆盖量估计埋藏的 Gd³⁺ 掺杂层深度。³He 测量温度为1.5–7 K；同研究的 ¹⁹F NMR 未分辨所测外壳厚度或 Gd³⁺ 浓度差异。",
+      "meaning_cn": "³He 弛豫对表面与顺磁离子之间的距离敏感，可检验名义外壳厚度与实验推定值的偏差。深度估计依赖低温吸附条件和模型，换材料时需重新核查吸附层和几何；同一实验中 ¹⁹F 未区分这些样品，并不说明 ¹⁹F 普遍不适于材料表征。",
+      "publication_date": "2026-11-13",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Physical Chemistry C",
+      "url": "https://doi.org/10.1021/acs.jpcc.6c06074",
+      "doi": "10.1021/acs.jpcc.6c06074",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录",
+          "url": "https://api.crossref.org/works/10.1021/acs.jpcc.6c06074"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-14",
+      "last_updated": "2026-11-14",
+      "report_file": "SpinFront_2026-11-14.html"
+    },
+    {
+      "item_id": "SF-20261114-03",
+      "report_date": "2026-11-14",
+      "item_no": 3,
+      "title_cn": "溶液 NMR 追踪碳点合成及发光组分结合",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr",
+        "multidimensional_nmr",
+        "dosy",
+        "reaction_monitoring"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "柠檬酸来源碳点",
+        "发光团"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Lang 等用高浓度溶液 ¹H、¹³C NMR 比较两种柠檬酸来源的碳点。DOSY 支持同一扩散组分含多种结构，HSQC 和 HMBC 支持聚合片段与发光小分子的连接。乙二胺路线样品的芳香核、聚合组分和发光团相对比例估计为60%、36%和4%。",
+      "meaning_cn": "DOSY 可帮助区分自由分子和与碳点共同扩散的组分，键相关谱则约束具体连接。比例来自所测高浓度样品和组分归属；饱和转移给出的成核先后是间接证据，不能把两条合成路线的比例用于其他前体或反应条件。",
+      "publication_date": "2026-11-13",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Physical Chemistry C",
+      "url": "https://doi.org/10.1021/acs.jpcc.6c04582",
+      "doi": "10.1021/acs.jpcc.6c04582",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录",
+          "url": "https://api.crossref.org/works/10.1021/acs.jpcc.6c04582"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-14",
+      "last_updated": "2026-11-14",
+      "report_file": "SpinFront_2026-11-14.html"
+    },
+    {
+      "item_id": "SF-20261114-04",
+      "report_date": "2026-11-14",
+      "item_no": 4,
+      "title_cn": "¹³C NMR 与电镜区分低阶煤类脂显微组分",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "低阶煤",
+        "类脂组显微组分"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Lei 等用密度梯度离心富集四种低阶煤中的类脂组显微组分，再用 ¹³C NMR 比较碳骨架，用高分辨透射电镜比较芳香层排列。NMR 得到的脂肪碳相对含量约为56.60%–77.59%，树脂体最高、孢粉体最低，芳香碳呈相反趋势。",
+      "meaning_cn": "NMR 给出不同化学环境中碳的相对占比，电镜约束芳香层尺寸和堆叠形貌。桥头碳指数可用于比较芳香簇，但不能单独指定每个芳香分子的组成。比例适用于所测富集组分，不能直接代替整煤的组成分析。",
+      "publication_date": "2026-11-13",
+      "time_scope": "7d_extension",
+      "source": "ACS Omega",
+      "url": "https://doi.org/10.1021/acsomega.6c06341",
+      "doi": "10.1021/acsomega.6c06341",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录",
+          "url": "https://api.crossref.org/works/10.1021/acsomega.6c06341"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-14",
+      "last_updated": "2026-11-14",
+      "report_file": "SpinFront_2026-11-14.html"
+    },
+    {
+      "item_id": "SF-20261114-05",
+      "report_date": "2026-11-14",
+      "item_no": 5,
+      "title_cn": "位点选择 ¹³C NMR 约束分子导体的低温对称性",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "α-(BETS)₂I₃",
+        "分子导体"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Sekine 等在预印本中用位点选择 ¹³C NMR 研究 α-(BETS)₂I₃。谱线降至2 K仍可用一个四重峰和两个双峰描述，未见额外分裂；线宽和 1/T₁ 也未出现磁有序相关异常。位点 Knight 位移给出的局域磁化率依次为 C>A>B。",
+      "meaning_cn": "额外谱线分裂可检验反演等价位点是否分化，线宽与弛豫则约束静态磁序及低能涨落。三类读出共同支持作者提出的保对称有隙 Dirac 态；它们给出局域约束，不能单独测出完整能带或直接证明拓扑性质。",
+      "publication_date": "2026-11-12",
+      "time_scope": "7d_extension",
+      "source": "arXiv（预印本）",
+      "url": "https://arxiv.org/abs/2611.16939v1",
+      "doi": "10.48550/arxiv.2611.16939",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-11-14",
+      "last_updated": "2026-11-14",
+      "report_file": "SpinFront_2026-11-14.html"
+    },
+    {
+      "item_id": "SF-20261114-06",
+      "report_date": "2026-11-14",
+      "item_no": 6,
+      "title_cn": "四并苯低聚体五重态实现室温零场光学读出",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "time_resolved_epr",
+        "odmr"
+      ],
+      "application_ids": [
+        "quantum_spin"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "四并苯二聚体",
+        "四并苯六聚体",
+        "五重态"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Grüne 等在预印本中结合零场光探测磁共振、时间分辨和脉冲 EPR，研究通过空间耦合的四并苯低聚体。在二聚体和六聚体中均观察到室温零场五重态光学读出；脉冲 EPR 测得室温相位记忆时间为446 ns。",
+      "meaning_cn": "零场光学测量可定位五重态的跃迁，弱外场下的变化与瞬态 EPR 一起约束能级归属。相位记忆时间来自补充 EPR 测量，不能直接当成零场光学读出的相干时间；比较其他分子时需检查结构柔性和交换耦合条件。",
+      "publication_date": "2026-11-11",
+      "time_scope": "7d_extension",
+      "source": "arXiv（预印本）",
+      "url": "https://arxiv.org/abs/2611.15713v1",
+      "doi": "10.48550/arxiv.2611.15713",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-11-14",
+      "last_updated": "2026-11-14",
+      "report_file": "SpinFront_2026-11-14.html"
+    },
+    {
+      "item_id": "SF-20261114-07",
+      "report_date": "2026-11-14",
+      "item_no": 7,
+      "title_cn": "⁵⁵Mn NMR/NQR 复核 kagome 金属中的低温配对线索",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "Sc₃Mn₃Al₇Si₅",
+        "⁵⁵Mn NQR"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Ding 等在预印本中用单晶 ⁵⁵Mn NMR 和核四极共振复测 Sc₃Mn₃Al₇Si₅，得到4.6–4.8 MHz的四极频率。约10 K处未见 1/T₁T 峰，低温 Knight 位移和线宽也未出现下降，未找到明确的自旋单重态配对谱学迹象。",
+      "meaning_cn": "四极参数约束 Mn 位点的电场梯度，Knight 位移可与体磁化率比较。约50 K以下两者分离，有助于识别体磁化率上升中的非本征贡献。未见约10 K的异常限制了早先的配对解释，但不能排除其他样品或测量条件下的弱信号。",
+      "publication_date": "2026-11-11",
+      "time_scope": "7d_extension",
+      "source": "arXiv（预印本）",
+      "url": "https://arxiv.org/abs/2611.15693v1",
+      "doi": "10.48550/arxiv.2611.15693",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-11-14",
+      "last_updated": "2026-11-14",
+      "report_file": "SpinFront_2026-11-14.html"
+    },
+    {
+      "item_id": "SF-20261114-08",
+      "report_date": "2026-11-14",
+      "item_no": 8,
+      "title_cn": "¹⁵N 标记加快拥挤环肽谱的结构归属",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "multinuclear_nmr",
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "natural_products"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "环肽",
+        "¹⁵N稳定同位素标记"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Agee 等针对环肽中质子信号拥挤的问题，利用 ¹⁵N 较大的化学位移分散度，采用 ¹H–¹⁵N HSQC–TOCSY 和 ¹H–¹⁵N HMBC 区分残基自旋系统及连接关系。与天然丰度条件相比，制备 ¹⁵N 标记样品可提高谱图质量并加快采集。",
+      "meaning_cn": "对含非标准氨基酸且 ¹H 峰重叠的环肽，可用氮维展开自旋系统，并以长程相关约束连接。天然丰度可用，但标记的收益取决于能否制备足量样品和所需交叉峰的强度；摘要没有给出适用于其他肽的固定加速倍数。",
+      "publication_date": "2026-11-11",
+      "time_scope": "7d_extension",
+      "source": "Magnetic Resonance in Chemistry",
+      "url": "https://doi.org/10.1002/mrc.70156",
+      "doi": "10.1002/mrc.70156",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录",
+          "url": "https://api.crossref.org/works/10.1002/mrc.70156"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-14",
+      "last_updated": "2026-11-14",
+      "report_file": "SpinFront_2026-11-14.html"
+    },
+    {
+      "item_id": "SF-20261114-09",
+      "report_date": "2026-11-14",
+      "item_no": 9,
+      "title_cn": "三维 TROSY 建立锌 α₂ 糖蛋白的主链指认",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr",
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "人锌α₂糖蛋白",
+        "BMRB 54025"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Corbin 等用三维 TROSY 溶液 NMR 指认32 kDa的非糖基化人锌 α₂ 糖蛋白，主链指认率为94.6%，位移存入 BMRB 54025。样品经氘代并均一标记 ¹⁵N、¹³C，在体外复性；酰胺间 NOE 及预测二级结构与既有晶体结构接近。",
+      "meaning_cn": "主链指认为配体滴定中的峰位变化提供残基坐标，NOE 可用来检查部分二级结构。指认针对体外复性的非糖基化样品，换成糖基化蛋白或改变溶液条件时需重新确认峰对应；本次数据没有给出特定配体的结合亲和力。",
+      "publication_date": "2026-11-09",
+      "time_scope": "7d_extension",
+      "source": "Biomolecular NMR Assignments",
+      "url": "https://link.springer.com/article/10.1007/s12104-026-10283-4",
+      "doi": "10.1007/s12104-026-10283-4",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录",
+          "url": "https://api.crossref.org/works/10.1007/s12104-026-10283-4"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-14",
+      "last_updated": "2026-11-14",
+      "report_file": "SpinFront_2026-11-14.html"
+    },
+    {
+      "item_id": "SF-20261114-10",
+      "report_date": "2026-11-14",
+      "item_no": 10,
+      "title_cn": "采购与需求动态：NMR 中标与维保、多频 EPR 废标",
+      "direction_ids": [
+        "nmr",
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "tender",
+      "summary_cn": "河南科技学院于2026-11-13公布基础分析测试平台中标结果（豫财招标采购-2026-1353），河南弗瑞德仪器设备有限公司以612.86万元中标包3，其中1台布鲁克 Ascend Evo 500 核磁共振波谱仪的分项报价为498.94万元；常州大学于2026-11-13发布500 MHz核磁自动进样器维修询价变更，原公告最高限价11万元，报名延至2026-11-16 16:00（北京时间）；东北大学于2026-11-12公示核磁波谱仪超低温平台年度维护服务拟采用单一来源采购，拟成交金额15万元，征求意见期为2026-11-13至11-17；中国科学院过程工程研究所于2026-11-10公布多频率电子顺磁共振波谱仪采购项目（OITC-G260571726）废标，原因是实质性满足招标文件的供应商不足三家。",
+      "meaning_cn": "河南科技学院包3总价还包括电感耦合等离子体发射光谱仪和前处理设备。常州大学延期的是报名，维修对象为既有500 MHz仪器的自动进样器；东北大学公示涉及密封检测、冷媒补充及真空校准，尚未定标。过程工程所公告确认该轮废标，未给出重招安排。",
+      "publication_date": "2026-11-13",
+      "time_scope": "7d_extension",
+      "source": "河南科技学院｜基础分析测试平台包3中标",
+      "url": "https://lankao.zfcg.henan.gov.cn/henan/content?bz=1&channelCode=H600102&infoId=2044273",
+      "doi": "",
+      "alternative_sources": [
+        {
+          "name": "常州大学｜500 MHz NMR进样器维修延期",
+          "url": "https://zb.cczu.edu.cn/2026/1113/c21649a425605/page.htm"
+        },
+        {
+          "name": "东北大学｜NMR超低温平台维保公示",
+          "url": "https://zcc.neu.edu.cn/2026/1112/c5122a482826/page.htm"
+        },
+        {
+          "name": "中国科学院过程工程研究所｜多频EPR波谱仪废标",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/qtgg/202611/t20261110_27653563.htm"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-14",
+      "last_updated": "2026-11-14",
+      "report_file": "SpinFront_2026-11-14.html"
+    }
+  ]
+}

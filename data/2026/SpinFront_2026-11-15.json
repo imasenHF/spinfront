@@ -1,0 +1,419 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-11-15",
+  "scope_note": "检索截至2026-11-15 06:08（北京时间）。常规检索中，可明确核实为近24小时的候选不足5条，已启动增强搜索，回扫11月8日至14日并检查当日可见记录。分路核查专业与高影响期刊、预印本和机构、仪器软件及应用、会议和采购，逐日轮换九类方法词。对照全库87期752条、最近7期和采购Review，登记候选中排除重复52项、首发日期未核实2项。部分出版社、ChemRxiv和动态采购接口受限，补查题录、官方列表和可读原文。共10条，新增采购公告0份，末尾保留采购核查说明；无待复核标签。",
+  "items": [
+    {
+      "item_id": "SF-20261115-01",
+      "report_date": "2026-11-15",
+      "item_no": 1,
+      "title_cn": "低场 NMR 比较冻结与加热条件下的页岩水分",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "九江页岩露头",
+        "孔隙水"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Shang 等对九江页岩露头样品开展低场 NMR 测量，并用扫描电镜重建的孔裂网络进行热、水、力耦合模拟。T₂ 谱显示，冻结条件下可动流体体积下降；升温条件下，部分原本受束缚的水转为可动流体。模拟给出的渗流趋势与实验相符。",
+      "meaning_cn": "T₂ 分布提供水分状态的读出，孔喉阻塞、热裂纹和渗透率变化则需要与图像及模拟合看。相同 T₂ 区间在不同温度或岩性中未必对应相同孔径；要把谱变化换算为渗透率，需用独立流动测量进行验证。",
+      "publication_date": "2026-11-14",
+      "time_scope": "7d_extension",
+      "source": "ACS Omega",
+      "url": "https://doi.org/10.1021/acsomega.6c10621",
+      "doi": "10.1021/acsomega.6c10621",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录",
+          "url": "https://api.crossref.org/works/10.1021/acsomega.6c10621"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-15",
+      "last_updated": "2026-11-15",
+      "report_file": "SpinFront_2026-11-15.html"
+    },
+    {
+      "item_id": "SF-20261115-02",
+      "report_date": "2026-11-15",
+      "item_no": 2,
+      "title_cn": "原位 EPR 观察双电子 TEMPO 正极电解液的自旋交换",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "battery"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "TEMPO双自由基",
+        "水系液流电池"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Liu 等在水相 TEMPO 双自由基正极电解液中，用原位 EPR 观察到支持自旋交换的五重态信号，并结合质谱追踪自由基变化。作者提出，水合环境限制分子构象，使两个自由基位点更易耦合。双电子配对电池在2 mol/L电子浓度下循环1200次后容量保持率为98.45%。",
+      "meaning_cn": "五重态谱可用来比较分子间或分子内的自旋耦合模型；水合构象和稳定性解释还需要其他表征支持。循环保持率属于整电池测试，受配对活性材料与浓度影响，不能由 EPR 信号或单一正极分子直接推出。",
+      "publication_date": "2026-11-13",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://doi.org/10.1021/jacs.6c18715",
+      "doi": "10.1021/jacs.6c18715",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录",
+          "url": "https://api.crossref.org/works/10.1021/jacs.6c18715"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-15",
+      "last_updated": "2026-11-15",
+      "report_file": "SpinFront_2026-11-15.html"
+    },
+    {
+      "item_id": "SF-20261115-03",
+      "report_date": "2026-11-15",
+      "item_no": 3,
+      "title_cn": "多探针 ¹³C 位移差建立锂电解液溶剂化标尺",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "multinuclear_nmr",
+        "dosy"
+      ],
+      "application_ids": [
+        "battery"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "锂电解液",
+        "碳酸酯探针"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Su 等比较 ¹H、⁷Li、¹⁹F 和 ¹³C 一维谱，发现绝对化学位移常不能可靠排序锂盐溶剂化能力，并用红外和 DOSY 交叉检查。研究使用三种强度不同的碳酸酯探针，以 ¹³C 位移变化量建立覆盖弱、中、强溶剂化区间的定量标尺。",
+      "meaning_cn": "选取与待测体系溶剂化强度接近的探针，可减少单一探针在量程两端的局限。标尺在所测体系中可关联配位比，并用于预测硝酸锂溶解度；更换锂盐、组成或温度时，应验证位移差与目标读出是否仍有同样关系。",
+      "publication_date": "2026-11-12",
+      "time_scope": "7d_extension",
+      "source": "ACS Applied Materials &amp; Interfaces",
+      "url": "https://doi.org/10.1021/acsami.6c12778",
+      "doi": "10.1021/acsami.6c12778",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录",
+          "url": "https://api.crossref.org/works/10.1021/acsami.6c12778"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-15",
+      "last_updated": "2026-11-15",
+      "report_file": "SpinFront_2026-11-15.html"
+    },
+    {
+      "item_id": "SF-20261115-04",
+      "report_date": "2026-11-15",
+      "item_no": 4,
+      "title_cn": "EPR 与光谱用铁亚硝酰模型核查蝶呤配位",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "色氨酸羟化酶",
+        "铁亚硝酰模型",
+        "蝶呤"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Gipson 等用 EPR、吸收和圆二色谱等手段，对照色氨酸羟化酶中蝶呤配位前后的铁亚硝酰模型。蝶呤配位后出现新的电荷转移吸收带；在277 K，NO 结合自由能有利变化3.6 kcal/mol。作者进一步用模型解释氧结合和过氧中间体形成。",
+      "meaning_cn": "EPR 与光谱对照用于约束铁亚硝酰态及电子结构，NO 为无法直接观察的铁氧态提供参照。NO 亲和力是模型的实验结果；对 O₂ 结合及过氧化势垒的判断来自进一步推断，不能视为原位捕获到铁氧中间体。",
+      "publication_date": "2026-11-12",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American\nChemical Society",
+      "url": "https://doi.org/10.1021/jacs.6c17616",
+      "doi": "10.1021/jacs.6c17616",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录",
+          "url": "https://api.crossref.org/works/10.1021/jacs.6c17616"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-15",
+      "last_updated": "2026-11-15",
+      "report_file": "SpinFront_2026-11-15.html"
+    },
+    {
+      "item_id": "SF-20261115-05",
+      "report_date": "2026-11-15",
+      "item_no": 5,
+      "title_cn": "¹H 偶合常数比较氨基醇的构象与配位",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "2-氨基丙醇",
+        "甲醚衍生物",
+        "锌与镉配合物"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Mendonça 等结合 ¹H NMR、红外和量子化学比较2-氨基丙醇与其甲醚。氨基醇的构象以分子内氢键解释，甲醚的构象更符合邻位交错效应（gauche effect）。比较 Zn²⁺ 和 Cd²⁺ 配位前后的偶合常数，研究发现配位改变了原有的构象平衡。",
+      "meaning_cn": "通过偶合常数可约束溶液平均二面角，再与计算及红外相互校验。研究只对锌配合物作了相应计算，镉配合物主要靠实验对照推断；所测 NMR 数据不足以确认或排除特定羟基氢与镉的相互作用。",
+      "publication_date": "2026-11-12",
+      "time_scope": "7d_extension",
+      "source": "Beilstein Journal of Organic Chemistry",
+      "url": "https://www.beilstein-journals.org/bjoc/articles/22/133",
+      "doi": "10.3762/bjoc.22.133",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-15",
+      "last_updated": "2026-11-15",
+      "report_file": "SpinFront_2026-11-15.html"
+    },
+    {
+      "item_id": "SF-20261115-06",
+      "report_date": "2026-11-15",
+      "item_no": 6,
+      "title_cn": "多维 NMR 指认两种蛇葡萄天然产物",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "multinuclear_nmr",
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "natural_products"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "蛇葡萄",
+        "ampesinone A与B"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Shen 等从蛇葡萄地上部分分离两种此前未报道的化合物 ampesinone A、B。研究综合 ¹H、¹³C 和二维 NMR 与高分辨质谱确定其结构：A 为含特殊环己二烯酮单元的查尔酮衍生物，B 为带羧基烯链的色原酮衍生物。",
+      "meaning_cn": "多核及二维谱提供骨架和取代基连接证据，高分辨质谱补充分子组成。明确区分了两种骨架后，可用指认数据与其他分离物作对照；可访问摘要未列关键交叉峰和采集条件，具体归属需要查阅正文或补充材料。",
+      "publication_date": "2026-11-12",
+      "time_scope": "7d_extension",
+      "source": "Magnetic Resonance in Chemistry",
+      "url": "https://doi.org/10.1002/mrc.70151",
+      "doi": "10.1002/mrc.70151",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录",
+          "url": "https://api.crossref.org/works/10.1002/mrc.70151"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-15",
+      "last_updated": "2026-11-15",
+      "report_file": "SpinFront_2026-11-15.html"
+    },
+    {
+      "item_id": "SF-20261115-07",
+      "report_date": "2026-11-15",
+      "item_no": 7,
+      "title_cn": "碳化硅纳米柱阵列检出外部核自旋",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "nanomagnetic_resonance"
+      ],
+      "application_ids": [
+        "quantum_spin"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "4H-SiC纳米柱",
+        "PL5与PL6色心"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Liao 等在预印本中把 PL5、PL6 色心定位在4H-SiC纳米柱中心，报告光子计数率分别约为每秒100万和200万，并用器件检出外部核自旋信号。研究把阵列发光的一致性与纳米尺度 NMR 检测放在同一器件方案中验证。",
+      "meaning_cn": "更高的光子计数率可改善光学读出的统计精度，但亮度不能直接换算为核自旋灵敏度。比较阵列与单探头时，还须对照缺陷深度、样品距离、读出时间及相干条件；摘要未提供可直接与传统线圈比较的浓度检测限。",
+      "publication_date": "2026-11-12",
+      "time_scope": "7d_extension",
+      "source": "arXiv（预印本）",
+      "url": "https://arxiv.org/abs/2611.16252v1",
+      "doi": "10.48550/arxiv.2611.16252",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-11-15",
+      "last_updated": "2026-11-15",
+      "report_file": "SpinFront_2026-11-15.html"
+    },
+    {
+      "item_id": "SF-20261115-08",
+      "report_date": "2026-11-15",
+      "item_no": 8,
+      "title_cn": "多核 NMR 指认三种活化态 RAS Q61 突变体",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "NRAS Q61R",
+        "NRAS Q61K",
+        "KRAS Q61R"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Carey 等报告活化态 NRAS Q61R、NRAS Q61K 与 KRAS Q61R 的 ¹H、¹³C、¹⁵N 主链指认，完整度分别为93%、86%和94%。三种突变体均可观测到 Switch 区和 P-loop 的主链峰，这些区域在不少活化态 RAS 谱中因交换展宽而难以指认。",
+      "meaning_cn": "这些指认为比较突变体的残基位移和交换行为建立参照。峰变得可见与构象动力学改变相符，但峰的有无不能单独确定交换速率或构象比例；比较不同核苷酸状态和异构体时，应匹配样品制备及溶液条件。",
+      "publication_date": "2026-11-09",
+      "time_scope": "7d_extension",
+      "source": "Biomolecular NMR Assignments",
+      "url": "https://link.springer.com/article/10.1007/s12104-026-10286-1",
+      "doi": "10.1007/s12104-026-10286-1",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-15",
+      "last_updated": "2026-11-15",
+      "report_file": "SpinFront_2026-11-15.html"
+    },
+    {
+      "item_id": "SF-20261115-09",
+      "report_date": "2026-11-15",
+      "item_no": 9,
+      "title_cn": "离体 ¹H MRS 比较两类鞍区病变组织的代谢谱",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "鞍区黄色肉芽肿",
+        "Rathke裂囊肿"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Ijare 等对切除的鞍区黄色肉芽肿组织开展离体 ¹H MRS，并与 Rathke 裂囊肿样本谱比较。黄色肉芽肿样本未见可辨糖胺聚糖信号，乳酸测得约9.0 mmol/L，胆固醇及胆固醇酯较高；病理检查也发现胆固醇裂隙和慢性炎症。",
+      "meaning_cn": "离体波谱给出切除组织的代谢组成，可与组织病理对照。该结果来自病例和离体标本；活体采样体素、谱峰重叠与信噪比都不同。不能由这些差异推定活体波谱的术前诊断准确率。",
+      "publication_date": "2026-11-09",
+      "time_scope": "7d_extension",
+      "source": "Frontiers in Endocrinology",
+      "url": "https://doi.org/10.3389/fendo.2026.1913986",
+      "doi": "10.3389/fendo.2026.1913986",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录",
+          "url": "https://api.crossref.org/works/10.3389/fendo.2026.1913986"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-15",
+      "last_updated": "2026-11-15",
+      "report_file": "SpinFront_2026-11-15.html"
+    },
+    {
+      "item_id": "SF-20261115-10",
+      "report_date": "2026-11-15",
+      "item_no": 10,
+      "title_cn": "变温 EPR 联合光谱解释双自由基的磁致发光变化",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "有机双自由基",
+        "经空间电荷转移"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Zhu 等在有机双自由基中引入经空间电荷转移的发光通道。一个衍生物在低温施加磁场后发射增强并蓝移约31 nm；无外场从4.5 K升至20 K也蓝移约25 nm。变温 EPR、时间分辨光谱及计算共同支持自旋相关布居重分配的解释。",
+      "meaning_cn": "可将变温 EPR 的自旋读出与磁致发光的波长、强度联动比较，检验两条发光通道是否随同一扰动重新分配。两个蓝移量取自不同条件，不能相互替换；结论针对所测分子与低温范围，尚未表明室温下保持同样响应。",
+      "publication_date": "2026-11-08",
+      "time_scope": "7d_extension",
+      "source": "Angewandte Chemie International Edition",
+      "url": "https://doi.org/10.1002/anie.8767910",
+      "doi": "10.1002/anie.8767910",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录",
+          "url": "https://api.crossref.org/works/10.1002/anie.8767910"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-15",
+      "last_updated": "2026-11-15",
+      "report_file": "SpinFront_2026-11-15.html"
+    }
+  ],
+  "procurement_status": {
+    "status": "no_verified_updates",
+    "title_cn": "采购与需求动态",
+    "summary_cn": "本期未检索到新增已核实公告。优先核查近24小时并回扫11月8日至14日，覆盖境内外官方采购列表、高校公告、公开接口和聚合线索。已登记18份候选；部分政府合同与代理详情接口未返回可读正文，未核实的合同、招标和公示均未入选。",
+    "checked_at": "2026-11-15T06:08:34+08:00",
+    "registered_candidates": 18
+  }
+}

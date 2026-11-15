@@ -1,0 +1,417 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-11-16",
+  "scope_note": "检索截至2026-11-16 06:06（北京时间）。常规检索中，可明确核实为近24小时的候选不足5条，已启动增强搜索；首轮合格候选不足8条后，启动深度增强检索，回扫11月9日至15日并检查当日可见记录。分路核查专业与高影响期刊、预印本和机构、仪器软件及应用、会议和采购，逐日轮换九类方法词。对照全库88期762条、最近7期和采购Review，登记候选中排除重复58项、首发日期未核实2项。部分出版社、ChemRxiv和动态采购接口受限，补查题录、官方列表和可读原文。共10条，末条收录1份采购公告；无待复核标签。",
+  "items": [
+    {
+      "item_id": "SF-20261116-01",
+      "report_date": "2026-11-16",
+      "item_no": 1,
+      "title_cn": "活体斑马鱼胚胎 EPR 检测照射后的自由基信号",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "spin_probe"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "斑马鱼胚胎",
+        "E3培养液"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Pehlivan 等用氮氧自由基探针，在两种供氧条件下比较常规与超高剂量率电子束照射。EPR 能在活胚胎中可靠检出信号；探索性比较未见两剂量率之间的信号差异达到统计显著。流程本身未显示出对所测存活、生长或结构指标的显著影响。",
+      "meaning_cn": "培养液中的剂量率和氧依赖变化不能直接外推到活胚胎。比较两种剂量率时，需同时核对供氧、探针响应与观察窗口；可检出自由基信号证明了测量可行性，未达到显著也不能视为两种照射条件等效。",
+      "publication_date": "2026-11-13",
+      "time_scope": "7d_extension",
+      "source": "Physics in Medicine & Biology",
+      "url": "https://doi.org/10.1088/1361-6560/aec216",
+      "doi": "10.1088/1361-6560/aec216",
+      "alternative_sources": [
+        {
+          "name": "PubMed 题录与摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43024954/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-16",
+      "last_updated": "2026-11-16",
+      "report_file": "SpinFront_2026-11-16.html"
+    },
+    {
+      "item_id": "SF-20261116-02",
+      "report_date": "2026-11-16",
+      "item_no": 2,
+      "title_cn": "NMR 区分 CECR2 对组蛋白与 RelA 的结合模式",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "CECR2溴结构域",
+        "乙酰化组蛋白",
+        "RelA"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Phillips 等结合 NMR、量热和结合实验比较 CECR2 溴结构域对乙酰化组蛋白及非组蛋白 RelA 的识别。RelA 与组蛋白配体占据同一保守口袋，却产生不同的残基扰动图；所测核小体的结合则要求组蛋白具有多处乙酰化。",
+      "meaning_cn": "残基扰动图可以检验共用口袋的配体是否引发同样的局部响应；配合量热，可把谱学位置线索和亲和力测量分开解释。肽段与完整核小体的结构环境不同，不能把短肽上的单个位点结果直接外推到染色质结合。",
+      "publication_date": "2026-11-13",
+      "time_scope": "7d_extension",
+      "source": "Journal of Molecular Biology",
+      "url": "https://doi.org/10.1016/j.jmb.2026.170094",
+      "doi": "10.1016/j.jmb.2026.170094",
+      "alternative_sources": [
+        {
+          "name": "PubMed 题录与摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43025627/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-16",
+      "last_updated": "2026-11-16",
+      "report_file": "SpinFront_2026-11-16.html"
+    },
+    {
+      "item_id": "SF-20261116-03",
+      "report_date": "2026-11-16",
+      "item_no": 3,
+      "title_cn": "EPR 与 NMR 共同表征含自由基配体的镧系配合物",
+      "direction_ids": [
+        "nmr",
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "paramagnetic_nmr"
+      ],
+      "application_ids": [
+        "inorganic_coordination"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "镧系甲脒配合物",
+        "联吡啶自由基"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Frick 等研究含二甲基联吡啶配体的镧系甲脒配合物。EPR 和紫外可见光谱支持配合物的自由基性质，研究另用 NMR 测定磁矩。与反式偶氮苯反应时观察到还原及异构化，支持该配体参与储存和转移电子。",
+      "meaning_cn": "EPR 提供未成对电子的谱学证据，NMR 测得的磁矩则反映整体磁性，可对照两类证据判断单一读出是否足以解释样品。磁矩不能独立定位自由基；具体电子转移步骤仍需结合反应证据，不能由 EPR 有信号直接推出。",
+      "publication_date": "2026-11-13",
+      "time_scope": "7d_extension",
+      "source": "Dalton Transactions",
+      "url": "https://doi.org/10.1039/d6dt02108e",
+      "doi": "10.1039/d6dt02108e",
+      "alternative_sources": [
+        {
+          "name": "PubMed 题录与摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43024344/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-16",
+      "last_updated": "2026-11-16",
+      "report_file": "SpinFront_2026-11-16.html"
+    },
+    {
+      "item_id": "SF-20261116-04",
+      "report_date": "2026-11-16",
+      "item_no": 4,
+      "title_cn": "EPR 和开环对照约束烯烃电羧化的自由基路径",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "electrosynthesis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "未活化烯烃",
+        "二氧化碳自由基阴离子"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Zeng 等研究未活化烷基烯烃与二氧化碳的电化学氢羧化。EPR 与自由基开环实验共同支持二氧化碳自由基阴离子的生成，以及该物种向碳碳双键加成的解释。反应不使用过渡金属催化剂和外加碱。",
+      "meaning_cn": "可把 EPR 中间体证据与自由基开环产物配合，用来检验自由基是否与产物路径有关。两类证据并不直接给出该物种的稳态浓度、加成速率或各路径比例；可读摘要也未列用于独立复核的谱线参数。",
+      "publication_date": "2026-11-13",
+      "time_scope": "7d_extension",
+      "source": "Angewandte Chemie International Edition",
+      "url": "https://doi.org/10.1002/anie.1949347",
+      "doi": "10.1002/anie.1949347",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录",
+          "url": "https://api.crossref.org/works/10.1002/anie.1949347"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-16",
+      "last_updated": "2026-11-16",
+      "report_file": "SpinFront_2026-11-16.html"
+    },
+    {
+      "item_id": "SF-20261116-05",
+      "report_date": "2026-11-16",
+      "item_no": 5,
+      "title_cn": "高通量 ¹H NMR 比较短时热暴露与训练期代谢变化",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "血浆脂蛋白",
+        "氨基酸与酮体"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Laukkanen 等用高通量 ¹H NMR 测量血液代谢物：63人参与单次桑拿观察，另47人参与8周随机试验。单次暴露后甘油三酯、VLDL 颗粒和部分氨基酸下降，酮体升高；训练加桑拿组还呈现与仅训练组不同的脂蛋白变化。",
+      "meaning_cn": "同一核磁平台可追踪脂蛋白颗粒和小分子代谢物，便于区分急性时间点与干预前后读出。两部分受试人群及研究设计不同，不宜合并解释；浓度变化也不能直接量化代谢通量或预测长期心血管结局。",
+      "publication_date": "2026-11-12",
+      "time_scope": "7d_extension",
+      "source": "Mayo Clinic Proceedings",
+      "url": "https://doi.org/10.1016/j.mayocp.2026.11.006",
+      "doi": "10.1016/j.mayocp.2026.11.006",
+      "alternative_sources": [
+        {
+          "name": "PubMed 题录与摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43020269/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-16",
+      "last_updated": "2026-11-16",
+      "report_file": "SpinFront_2026-11-16.html"
+    },
+    {
+      "item_id": "SF-20261116-06",
+      "report_date": "2026-11-16",
+      "item_no": 6,
+      "title_cn": "¹³C CP/MAS 峰展宽反映环糊精包合物的局部无序",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "cross_polarization",
+        "mas"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "β-环糊精",
+        "吲哚丁酸"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Kowalska 等以单晶衍射、¹³C CP/MAS 和周期计算研究 β-环糊精与吲哚丁酸的2∶2包合晶体。客体羧基和脂肪链出现明显位移与展宽；计算复现变化趋势，支持这些宽峰来自客体位置无序形成的多种局部环境。",
+      "meaning_cn": "衍射给出平均包合结构，固体 NMR 对不同局部碳环境敏感，适合检验平均结构中未充分描述的无序。仅凭宽峰难以区分静态无序、分布展宽与动态贡献；这里的归属依靠晶体数据和周期计算的共同约束。",
+      "publication_date": "2026-11-11",
+      "time_scope": "7d_extension",
+      "source": "Carbohydrate Research",
+      "url": "https://doi.org/10.1016/j.carres.2026.110167",
+      "doi": "10.1016/j.carres.2026.110167",
+      "alternative_sources": [
+        {
+          "name": "PubMed 题录与摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43033793/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-16",
+      "last_updated": "2026-11-16",
+      "report_file": "SpinFront_2026-11-16.html"
+    },
+    {
+      "item_id": "SF-20261116-07",
+      "report_date": "2026-11-16",
+      "item_no": 7,
+      "title_cn": "固体 NMR 与衍射辨析六方钡长石的高温相",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "BaAl₂Si₂O₈",
+        "六方钡长石"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Machida 等用固体 NMR、X射线和电子衍射对照喷雾热解前驱体煅烧后的 BaAl₂Si₂O₈。1000 °C煅烧样品呈 α、β 六方钡长石混相，1500 °C煅烧样品归属为 β 相；所测样品在1500 °C处理181小时后仍保有六方钡长石。",
+      "meaning_cn": "将固体 NMR 的局部环境与衍射结构对照，可检验低结晶度前驱体及高温处理样品的相归属。观察到的相保留对应喷雾热解前驱体的元素混合状态与热处理历史，不能直接外推到黏土来源或机械混合制备的材料。",
+      "publication_date": "2026-11-11",
+      "time_scope": "7d_extension",
+      "source": "Inorganic Chemistry",
+      "url": "https://doi.org/10.1021/acs.inorgchem.6c04962",
+      "doi": "10.1021/acs.inorgchem.6c04962",
+      "alternative_sources": [
+        {
+          "name": "PubMed 题录与摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43013260/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-16",
+      "last_updated": "2026-11-16",
+      "report_file": "SpinFront_2026-11-16.html"
+    },
+    {
+      "item_id": "SF-20261116-08",
+      "report_date": "2026-11-16",
+      "item_no": 8,
+      "title_cn": "NMR 代谢组追踪咖啡渣饲料下的幼虫代谢变化",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "黑水虻幼虫",
+        "咖啡渣饲料"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Duarte 等把非靶向 NMR 代谢组与生长测量、脂肪酸和氨基酸物料平衡结合，比较黑水虻幼虫的不同饲料。咖啡渣组生长与养分保留下降，谱图统计显示乙酰肉碱和 β-丙氨酸等特征变化，与脂质及蛋白质分解代谢增强的解释相符。",
+      "meaning_cn": "配对看生长、物料平衡和代谢谱，可把整体养分保留下降与部分代谢物的浓度变化联系起来。所测代谢物只是候选指标，不能单独证明具体碳流或蛋白分解速率；换用不同咖啡渣组成或添加比例时需复核。",
+      "publication_date": "2026-11-11",
+      "time_scope": "7d_extension",
+      "source": "Comparative Biochemistry and Physiology Part B",
+      "url": "https://doi.org/10.1016/j.cbpb.2026.111299",
+      "doi": "10.1016/j.cbpb.2026.111299",
+      "alternative_sources": [
+        {
+          "name": "PubMed 题录与摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43014541/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-16",
+      "last_updated": "2026-11-16",
+      "report_file": "SpinFront_2026-11-16.html"
+    },
+    {
+      "item_id": "SF-20261116-09",
+      "report_date": "2026-11-16",
+      "item_no": 9,
+      "title_cn": "低场 NMR 比较冷藏三文鱼处理后的水分迁移",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [
+        "三文鱼肌肉",
+        "冷藏处理"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Xu 等比较超声分别联合等离子体活化水、无菌水和微酸性电解水的冷藏处理。低场 NMR 弛豫与伪彩图显示，等离子体活化水组合对肌肉水分迁移的抑制较强；该组也表现出较低的烹调和离心损失，并减缓了肌原纤维蛋白氧化。",
+      "meaning_cn": "弛豫分布可与离心损失、烹调损失交叉判断保水性。T₂ 会受水分状态和蛋白基质共同影响，伪彩图也不能单独提供水分迁移量；对比不同冷藏条件时，应同时核对温度、组织部位和测量时点。",
+      "publication_date": "2026-11-09",
+      "time_scope": "7d_extension",
+      "source": "Journal of the Science of Food and Agriculture",
+      "url": "https://doi.org/10.1002/jsfa.71221",
+      "doi": "10.1002/jsfa.71221",
+      "alternative_sources": [
+        {
+          "name": "PubMed 题录与摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43003766/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-16",
+      "last_updated": "2026-11-16",
+      "report_file": "SpinFront_2026-11-16.html"
+    },
+    {
+      "item_id": "SF-20261116-10",
+      "report_date": "2026-11-16",
+      "item_no": 10,
+      "title_cn": "采购与需求动态：准噶尔储层核磁测试服务招标",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "tender",
+      "summary_cn": "怀柔实验室新疆研究院于2026-11-14就准噶尔盆地超深层碎屑岩储层孔隙结构与烃类赋存特征测试发布公开招标公告（DZXJZB2026127）。项目预算及最高限价均为61.3万元，要求核磁共振 T₂ 谱和 T₁–T₂ 二维谱测试各60个，并含衍射、孔隙度和渗透率等测试；投标截止为2026-12-09 11:00（北京时间）。",
+      "meaning_cn": "采购对象是综合测试服务，61.3万元覆盖整个标项。公告分别列出一维 T₂ 和二维 T₁–T₂ 测试数量，但未拆出核磁分项价格，也未说明两类谱是否来自同一批样品。",
+      "publication_date": "2026-11-14",
+      "time_scope": "7d_extension",
+      "source": "怀柔实验室新疆研究院｜准噶尔储层测试招标",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202611/t20261114_27686691.htm",
+      "doi": "",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-16",
+      "last_updated": "2026-11-16",
+      "report_file": "SpinFront_2026-11-16.html"
+    }
+  ]
+}

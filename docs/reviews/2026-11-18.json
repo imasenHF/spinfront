@@ -1,0 +1,2346 @@
+{
+  "schema_version": "1.0.0",
+  "report_date": "2026-11-18",
+  "retrieval_cutoff": "2026-11-18T06:02:51+08:00",
+  "repository": {
+    "base_head": "e2f1a52ad437b2227ab3debdc2fc60755029f671",
+    "taxonomy_version": "1.2.0"
+  },
+  "search_summary": {
+    "enhancement_trigger": "24小时不足5，扩展首轮不足8，执行深度增强",
+    "route_attempts": {
+      "oit_home": {
+        "url": "https://www.oitccas.com/pages/tender_online.html",
+        "status": 200,
+        "bytes": 22019
+      },
+      "oit_config": {
+        "url": "https://www.oitccas.com/js/config.min.js",
+        "status": 200,
+        "bytes": 309
+      },
+      "ccgp": {
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/",
+        "status": 200,
+        "bytes": 20953
+      },
+      "ccgp_results": {
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/",
+        "status": 200,
+        "bytes": 21046
+      },
+      "ggzy": {
+        "url": "https://www.ggzy.gov.cn/",
+        "status": 200,
+        "bytes": 68050
+      },
+      "sam": {
+        "url": "https://sam.gov/search/?index=opp&keywords=NMR",
+        "status": 200,
+        "bytes": 43308
+      },
+      "tsinghua": {
+        "url": "https://sbcgczxxfb.sysc.tsinghua.edu.cn/sfw_cms/e?page=cms.index",
+        "status": 200,
+        "bytes": 52909
+      },
+      "jmr": {
+        "url": "https://www.sciencedirect.com/journal/journal-of-magnetic-resonance/articles-in-press",
+        "status": 200,
+        "bytes": 195
+      },
+      "jmro": {
+        "url": "https://www.sciencedirect.com/journal/journal-of-magnetic-resonance-open/articles-in-press",
+        "status": 200,
+        "bytes": 195
+      },
+      "ssnmr": {
+        "url": "https://www.sciencedirect.com/journal/solid-state-nuclear-magnetic-resonance/articles-in-press",
+        "status": 200,
+        "bytes": 195
+      },
+      "mr": {
+        "url": "https://mr.copernicus.org/articles/",
+        "status": 200,
+        "bytes": 90392
+      },
+      "jbnmr": {
+        "url": "https://link.springer.com/journal/10858/online-first",
+        "error": "HTTP Error 404: Not Found"
+      },
+      "amr": {
+        "url": "https://link.springer.com/journal/723/online-first",
+        "error": "HTTP Error 404: Not Found"
+      },
+      "mrc": {
+        "url": "https://analyticalsciencejournals.onlinelibrary.wiley.com/toc/1097458xa/0/0",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "acs": {
+        "url": "https://pubs.acs.org/jacsat/latest-articles",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "rsc": {
+        "url": "https://pubs.rsc.org/en/journals/journalissues/cp",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "wiley": {
+        "url": "https://onlinelibrary.wiley.com/toc/15213773/0/0",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "nature": {
+        "url": "https://www.nature.com/subjects/nuclear-magnetic-resonance-spectroscopy",
+        "status": 200,
+        "bytes": 196570
+      },
+      "aip": {
+        "url": "https://pubs.aip.org/jcp",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "arxiv": {
+        "url": "https://export.arxiv.org/api/query?search_query=%28abs%3A%22nuclear+magnetic+resonance%22+OR+abs%3A%22electron+paramagnetic+resonance%22+OR+ti%3ANMR+OR+ti%3AEPR%29+AND+submittedDate%3A%5B202611100000+TO+202611172359%5D&max_results=100&sortBy=submittedDate&sortOrder=descending",
+        "status": 200,
+        "bytes": 17399
+      },
+      "chemrxiv": {
+        "url": "https://chemrxiv.org/engage/chemrxiv/public-dashboard",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "bruker": {
+        "url": "https://www.bruker.com/en/news-and-events/news.html",
+        "status": 200,
+        "bytes": 77362
+      },
+      "jeol": {
+        "url": "https://www.jeol.com/news/",
+        "status": 200,
+        "bytes": 87664
+      },
+      "oxford": {
+        "url": "https://www.oxinst.com/news",
+        "status": 200,
+        "bytes": 71565
+      },
+      "magritek": {
+        "url": "https://magritek.com/news/",
+        "status": 200,
+        "bytes": 281393
+      },
+      "nanalysis": {
+        "url": "https://www.nanalysis.com/nmready-blog",
+        "status": 200,
+        "bytes": 306850
+      },
+      "ciqtek": {
+        "url": "https://www.ciqtek.com/news_nc1",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      "guoyi": {
+        "url": "https://www.ciqtek.com.cn/news/",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      "enc": {
+        "url": "https://www.enc-conference.org/",
+        "status": 200,
+        "bytes": 56670
+      },
+      "euromar": {
+        "url": "https://euromar.org/",
+        "status": 200,
+        "bytes": 12694
+      },
+      "icmrbs": {
+        "url": "https://icmrbs.org/",
+        "status": 200,
+        "bytes": 58997
+      },
+      "efepr": {
+        "url": "https://www.efepr.org/",
+        "status": 200,
+        "bytes": 4278
+      },
+      "apes": {
+        "url": "https://www.apes.org/",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      "ismar": {
+        "url": "https://ismar.org/",
+        "status": 200,
+        "bytes": 52265
+      },
+      "workshop": {
+        "url": "https://symposia.ybmrs.be/event/11/timetable/?view=standard_inline_minutes",
+        "status": 200,
+        "bytes": 156358
+      },
+      "cross0": {
+        "url": "https://api.crossref.org/works?filter=from-online-pub-date%3A2026-11-11%2Cuntil-online-pub-date%3A2026-11-17&query.bibliographic=nuclear+magnetic+resonance+NMR+spectroscopy&rows=80&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cpublished-print%2Cabstract%2Ccontainer-title%2CURL%2Ccreated",
+        "status": 200,
+        "bytes": 286099
+      },
+      "cross1": {
+        "url": "https://api.crossref.org/works?filter=from-online-pub-date%3A2026-11-11%2Cuntil-online-pub-date%3A2026-11-17&query.bibliographic=electron+paramagnetic+resonance+EPR+DEER&rows=80&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cpublished-print%2Cabstract%2Ccontainer-title%2CURL%2Ccreated",
+        "status": 200,
+        "bytes": 196168
+      },
+      "cross2": {
+        "url": "https://api.crossref.org/works?filter=from-online-pub-date%3A2026-11-11%2Cuntil-online-pub-date%3A2026-11-17&query.bibliographic=MAS+DNP+solid+state+NMR&rows=80&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cpublished-print%2Cabstract%2Ccontainer-title%2CURL%2Ccreated",
+        "status": 200,
+        "bytes": 245535
+      },
+      "cross3": {
+        "url": "https://api.crossref.org/works?filter=from-online-pub-date%3A2026-11-11%2Cuntil-online-pub-date%3A2026-11-17&query.bibliographic=low+field+TD+NMR+relaxation&rows=80&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cpublished-print%2Cabstract%2Ccontainer-title%2CURL%2Ccreated",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      "cross4": {
+        "url": "https://api.crossref.org/works?filter=from-online-pub-date%3A2026-11-11%2Cuntil-online-pub-date%3A2026-11-17&query.bibliographic=NUS+pure+shift+DOSY+CEST+DEST+reaction+monitoring+NMR&rows=80&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cpublished-print%2Cabstract%2Ccontainer-title%2CURL%2Ccreated",
+        "status": 200,
+        "bytes": 197563
+      },
+      "cross5": {
+        "url": "https://api.crossref.org/works?filter=from-online-pub-date%3A2026-11-11%2Cuntil-online-pub-date%3A2026-11-17&query.bibliographic=CW+rapid+scan+EPR&rows=80&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cpublished-print%2Cabstract%2Ccontainer-title%2CURL%2Ccreated",
+        "status": 200,
+        "bytes": 253759
+      },
+      "cross6": {
+        "url": "https://api.crossref.org/works?filter=from-online-pub-date%3A2026-11-11%2Cuntil-online-pub-date%3A2026-11-17&query.bibliographic=pulsed+EPR+ENDOR+ESEEM+HYSCORE+PELDOR&rows=80&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cpublished-print%2Cabstract%2Ccontainer-title%2CURL%2Ccreated",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      "cross7": {
+        "url": "https://api.crossref.org/works?filter=from-online-pub-date%3A2026-11-11%2Cuntil-online-pub-date%3A2026-11-17&query.bibliographic=TREPR+spin+trapping+spin+labeling&rows=80&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cpublished-print%2Cabstract%2Ccontainer-title%2CURL%2Ccreated",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      "cross8": {
+        "url": "https://api.crossref.org/works?filter=from-online-pub-date%3A2026-11-11%2Cuntil-online-pub-date%3A2026-11-17&query.bibliographic=operando+EPR+EC+EPR&rows=80&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cpublished-print%2Cabstract%2Ccontainer-title%2CURL%2Ccreated",
+        "status": 200,
+        "bytes": 70762
+      },
+      "cross9": {
+        "url": "https://api.crossref.org/works?filter=from-online-pub-date%3A2026-11-11%2Cuntil-online-pub-date%3A2026-11-17&query.bibliographic=NMR+EPR+probe+resonator+magnet+console+autosampler+spectral+processing&rows=80&select=DOI%2Ctitle%2Cauthor%2Cpublished-online%2Cpublished-print%2Cabstract%2Ccontainer-title%2CURL%2Ccreated",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      "pubmed_search": {
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28NMR%5BTitle%2FAbstract%5D+OR+electron+paramagnetic+resonance%5BTitle%2FAbstract%5D+OR+nuclear+magnetic+resonance%5BTitle%2FAbstract%5D%29+AND+%282026%2F11%2F11%3A2026%2F11%2F17%5BEPDAT%5D%29&retmode=json&retmax=180",
+        "status": 200,
+        "bytes": 1534
+      }
+    },
+    "additional_routes": {
+      "sassy": {
+        "url": "https://api.crossref.org/works/10.1021/acs.jpclett.6c03014",
+        "status": 200,
+        "bytes": 26728
+      },
+      "qnmr": {
+        "url": "https://api.crossref.org/works/10.1080/14786419.2026.2755562",
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      "hdx": {
+        "url": "https://api.crossref.org/works/10.1016/j.jmb.2026.170097",
+        "status": 200,
+        "bytes": 36295
+      },
+      "iba": {
+        "url": "https://api.crossref.org/works/10.1002/advs.78786",
+        "status": 200,
+        "bytes": 14947
+      },
+      "oled": {
+        "url": "https://api.crossref.org/works/10.1103/sgwz-sr72",
+        "status": 200,
+        "bytes": 13636
+      },
+      "popov": {
+        "url": "https://mrsej.kpfu.ru/contents.html",
+        "status": 200,
+        "bytes": 693854
+      },
+      "oitdetail": {
+        "url": "https://www.oitccas.com/WLH/WorkFlow/Services/BIDHandler.ashx?method=TenderProjectByFormNo&FormNo=ZBLX26110503",
+        "status": 200,
+        "bytes": 27459
+      },
+      "shtender": {
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202611/t20261116_27691935.htm",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "iee": {
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/jzxcs/202611/t20261113_27679492.htm",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "tsdetail": {
+        "url": "https://sbgysfw.sysc.tsinghua.edu.cn/",
+        "status": 200,
+        "bytes": 6607
+      },
+      "szu": {
+        "url": "https://bidding.szu.edu.cn/",
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      "heritage": {
+        "url": "https://www.mdpi.com/2571-9408/9/11/484",
+        "status": 200,
+        "bytes": 1162089
+      },
+      "oledabs": {
+        "url": "https://journals.aps.org/prmaterials/abstract/10.1103/sgwz-sr72",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    "daily_window": [
+      "2026-11-11",
+      "2026-11-12",
+      "2026-11-13",
+      "2026-11-14",
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17"
+    ],
+    "limitations": [
+      "出版社403/404或仅195字挑战页不算正文读取成功",
+      "Crossref部分429，使用已读题录及PubMed交叉核对",
+      "动态列表不作为无公告证据；东方招标公开接口已补查",
+      "未取得私人教材，科学解释限可读摘要"
+    ]
+  },
+  "candidates": [
+    {
+      "title": "SASSY 用二维同核谱缓解单重态编码谱的重叠",
+      "doi": "10.1021/acs.jpclett.6c03014",
+      "url": "https://doi.org/10.1021/acs.jpclett.6c03014",
+      "actual_online_date": "2026-11-16",
+      "publication_status": "early_access",
+      "author_verified": "Jain",
+      "author_source": "https://api.crossref.org/works/10.1021/acs.jpclett.6c03014",
+      "magnetic_resonance_role": "method_core",
+      "evidence_location": "出版商或Crossref/PubMed摘要；仅据可读摘要写作",
+      "evidence": "Jain 等提出 SASSY 二维同核实验，在生成长寿命核单重态序的同时增加一个谱学维度。理论、模拟与实验表明，该方法适用于多种标量耦合条件，并减少其他快速弛豫态或相干的布居；两个维度呈同相纯吸收线形，有利于峰强度定量。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "tag_reasons": {
+        "direction_ids": {
+          "nmr": "正文以NMR读出或结构模型为核心"
+        },
+        "experiment_type_ids": {
+          "solution_nmr": "溶液样品中核磁实验"
+        },
+        "method_ids": {
+          "multidimensional_nmr": "二维同核或HMQC谱明确出现"
+        },
+        "application_ids": {},
+        "instrument_component_ids": {}
+      },
+      "limitation": "摘要级分析；未引用无法读取的图号或实验参数"
+    },
+    {
+      "title": "CPMG NMR 与化学计量学分析大麻素提取物",
+      "doi": "10.1080/14786419.2026.2755562",
+      "url": "https://doi.org/10.1080/14786419.2026.2755562",
+      "actual_online_date": "2026-11-17",
+      "publication_status": "early_access",
+      "author_verified": "Héritier Uwikunda",
+      "author_source": "https://pubmed.ncbi.nlm.nih.gov/43043372/",
+      "magnetic_resonance_role": "application_core",
+      "evidence_location": "出版商或Crossref/PubMed摘要；仅据可读摘要写作",
+      "evidence": "Héritier Uwikunda 等将一维 CPMG NMR 与多变量统计结合，对摩洛哥北部不同地点的17份 beldia 品种提取物鉴别和定量五种主要大麻素。样品中 THC 与 CBD 的平均浓度分别为7.84和0.98 mmol/L，研究以此建立该批提取物的成分轮廓。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "tag_reasons": {
+        "direction_ids": {
+          "nmr": "正文以NMR读出或结构模型为核心"
+        },
+        "experiment_type_ids": {
+          "solution_nmr": "溶液样品中核磁实验"
+        },
+        "method_ids": {
+          "cpmg": "明确使用一维CPMG",
+          "qnmr": "明确对成分或参照物纯度定量"
+        },
+        "application_ids": {
+          "natural_products": "对象为天然大麻素提取物"
+        },
+        "instrument_component_ids": {}
+      },
+      "limitation": "摘要级分析；未引用无法读取的图号或实验参数"
+    },
+    {
+      "title": "多参数 NMR 综述碳酸钙类文物的水分迁移",
+      "doi": "10.3390/heritage9110484",
+      "url": "https://doi.org/10.3390/heritage9110484",
+      "actual_online_date": "2026-11-17",
+      "publication_status": "published",
+      "author_verified": "Stagno",
+      "author_source": "https://api.crossref.org/works/10.3390/heritage9110484",
+      "magnetic_resonance_role": "application_core",
+      "evidence_location": "出版商或Crossref/PubMed摘要；仅据可读摘要写作",
+      "evidence": "Stagno 等综述弛豫、扩散、成像与便携式单边 NMR 在石材和大理石保护中的互补作用。水既参与材料劣化，也作为质子信号来源；多参数测量可表征可达孔隙、毛细吸水及保护剂渗入，并讨论表面弛豫、受限扩散和内部磁场梯度对解释的影响。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "tag_reasons": {
+        "direction_ids": {
+          "nmr": "正文以NMR读出或结构模型为核心"
+        },
+        "experiment_type_ids": {},
+        "method_ids": {
+          "relaxometry": "正文综述弛豫测量"
+        },
+        "application_ids": {
+          "cultural_heritage": "对象为碳酸钙类文物材料"
+        },
+        "instrument_component_ids": {}
+      },
+      "limitation": "摘要级分析；未引用无法读取的图号或实验参数"
+    },
+    {
+      "title": "NMR 与恒速压汞共同约束致密砂岩孔喉分布",
+      "doi": "10.1002/gj.70546",
+      "url": "https://doi.org/10.1002/gj.70546",
+      "actual_online_date": "2026-11-16",
+      "publication_status": "early_access",
+      "author_verified": "Chen",
+      "author_source": "https://api.crossref.org/works/10.1002/gj.70546",
+      "magnetic_resonance_role": "key_evidence",
+      "evidence_location": "出版商或Crossref/PubMed摘要；仅据可读摘要写作",
+      "evidence": "Chen 等对鄂尔多斯盆地延长组八块致密砂岩联合开展 NMR 和恒速压汞分析，建立孔喉半径及其控制孔隙空间的对应关系。研究指出，同一孔隙内流体的核磁响应会随饱和状态变化，因此反复离心不能直接给出不同喉径控制的可动流体分布。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "tag_reasons": {
+        "direction_ids": {
+          "nmr": "正文以NMR读出或结构模型为核心"
+        },
+        "experiment_type_ids": {},
+        "method_ids": {},
+        "application_ids": {
+          "geoscience_flow": "对象为砂岩孔喉与流体可动性"
+        },
+        "instrument_component_ids": {}
+      },
+      "limitation": "摘要级分析；未引用无法读取的图号或实验参数"
+    },
+    {
+      "title": "变温 EPR 区分硼酸盐中的钴自旋态",
+      "doi": "10.26907/mrsej-26301",
+      "url": "https://mrsej.kpfu.ru/contents.html#26301",
+      "actual_online_date": "2026-11-14",
+      "publication_status": "published",
+      "author_verified": "Popov",
+      "author_source": "https://api.crossref.org/works/10.26907/mrsej-26301",
+      "magnetic_resonance_role": "key_evidence",
+      "evidence_location": "出版商或Crossref/PubMed摘要；仅据可读摘要写作",
+      "evidence": "Popov 等研究 MnₓCo₃₋ₓBO₅（x＝0、1.2、1.4、1.8）的磁共振谱，比较 Mn²⁺ 部分取代 Co²⁺ 后的响应。不同共振线随温度的磁场位置变化，为所测各组成中同时存在高自旋和低自旋 Co²⁺ 提供了谱学依据。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "出版商目录明确11月14日，优先于Crossref11月16日",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "tag_reasons": {
+        "direction_ids": {
+          "epr": "正文依赖Co²⁺ EPR共振线归属"
+        },
+        "experiment_type_ids": {},
+        "method_ids": {},
+        "application_ids": {
+          "materials": "对象为锰钴硼酸盐固体"
+        },
+        "instrument_component_ids": {}
+      },
+      "limitation": "摘要级分析；未引用无法读取的图号或实验参数"
+    },
+    {
+      "title": "NMR 约束 IBA57 参与的瞬态电子转移复合物",
+      "doi": "10.1002/advs.78786",
+      "url": "https://doi.org/10.1002/advs.78786",
+      "actual_online_date": "2026-11-15",
+      "publication_status": "early_access",
+      "author_verified": "Grifagni",
+      "author_source": "https://pubmed.ncbi.nlm.nih.gov/43036033/",
+      "magnetic_resonance_role": "key_evidence",
+      "evidence_location": "出版商或Crossref/PubMed摘要；仅据可读摘要写作",
+      "evidence": "Grifagni 等发现 IBA57–ISCA2 复合物通过 IBA57 亚基瞬态识别 FDX2。NMR 数据约束的结构模型给出两簇之间约17 Å的电子转移路径；结合还原与动力学实验，研究支持 IBA57 激活线粒体 [4Fe–4S] 簇组装所需的电子传递。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "Crossref在线日期11月15日，PubMed电子日期11月16日，采用较早可核实在线日期",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "tag_reasons": {
+        "direction_ids": {
+          "nmr": "正文以NMR读出或结构模型为核心"
+        },
+        "experiment_type_ids": {},
+        "method_ids": {},
+        "application_ids": {
+          "structural_biology": "蛋白相互作用/折叠/构象为结论对象"
+        },
+        "instrument_component_ids": {}
+      },
+      "limitation": "摘要级分析；未引用无法读取的图号或实验参数"
+    },
+    {
+      "title": "HDX-NMR 与 HDX-MS 解析交错结构酶的折叠顺序",
+      "doi": "10.1016/j.jmb.2026.170097",
+      "url": "https://doi.org/10.1016/j.jmb.2026.170097",
+      "actual_online_date": "2026-11-16",
+      "publication_status": "early_access",
+      "author_verified": "Malempré",
+      "author_source": "https://pubmed.ncbi.nlm.nih.gov/43039218/",
+      "magnetic_resonance_role": "key_evidence",
+      "evidence_location": "出版商或Crossref/PubMed摘要；仅据可读摘要写作",
+      "evidence": "Malempré 等联合淬灭流氢氘交换质谱与 HDX-NMR，追踪 BS3 β-内酰胺酶从毫秒到分钟的折叠。β4–β5 区域最早获得类天然保护，随后两个结构域的模块逐步受保护；后期脯氨酸异构化限制最终成熟，并与酶活恢复相伴。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "PubMed ArticleDate Electronic 2026-11-16；Crossref仅刊期月份不替代电子日期",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "tag_reasons": {
+        "direction_ids": {
+          "nmr": "正文以NMR读出或结构模型为核心"
+        },
+        "experiment_type_ids": {},
+        "method_ids": {},
+        "application_ids": {
+          "structural_biology": "蛋白相互作用/折叠/构象为结论对象"
+        },
+        "instrument_component_ids": {}
+      },
+      "limitation": "摘要级分析；未引用无法读取的图号或实验参数"
+    },
+    {
+      "title": "qNMR 标定参照物支持五实验室 LSD 定量比对",
+      "doi": "10.1002/dta.70190",
+      "url": "https://doi.org/10.1002/dta.70190",
+      "actual_online_date": "2026-11-14",
+      "publication_status": "early_access",
+      "author_verified": "Monti",
+      "author_source": "https://pubmed.ncbi.nlm.nih.gov/43031473/",
+      "magnetic_resonance_role": "application_core",
+      "evidence_location": "出版商或Crossref/PubMed摘要；仅据可读摘要写作",
+      "evidence": "Monti 等向五家瑞士药物检测实验室分发两种载药纸片和一种甲醇溶液，各实验室使用自身提取流程及色谱方法定量。研究用质子 qNMR 确定参照标准纯度并校正结果；实验室间相对标准偏差为8%–16.5%，平均准确度偏差为−5.3%至−13.0%。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "tag_reasons": {
+        "direction_ids": {
+          "nmr": "正文以NMR读出或结构模型为核心"
+        },
+        "experiment_type_ids": {},
+        "method_ids": {
+          "qnmr": "明确对成分或参照物纯度定量"
+        },
+        "application_ids": {
+          "quality_control": "参照纯度赋值与实验室间比对"
+        },
+        "instrument_component_ids": {}
+      },
+      "limitation": "摘要级分析；未引用无法读取的图号或实验参数"
+    },
+    {
+      "title": "甲基 HMQC 比较膜模拟环境对受体构象的影响",
+      "doi": "10.1016/j.bbamem.2026.184591",
+      "url": "https://doi.org/10.1016/j.bbamem.2026.184591",
+      "actual_online_date": "2026-11-11",
+      "publication_status": "early_access",
+      "author_verified": "Tanipour",
+      "author_source": "https://pubmed.ncbi.nlm.nih.gov/43014438/",
+      "magnetic_resonance_role": "key_evidence",
+      "evidence_location": "出版商或Crossref/PubMed摘要；仅据可读摘要写作",
+      "evidence": "Tanipour 等用 ¹³CH₃-Met 标记的 α1A 肾上腺素受体，比较 DDM、LMNG 胶束和 saposin 纳米颗粒中的 ¹H–¹³C HMQC 谱。LMNG 与 DDM 谱总体相近；在纳米颗粒中，靠近 G 蛋白结合位点的 M203 信号完全消失，与中间交换速率的解释相符。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "PubMed ArticleDate Electronic 2026-11-11；Crossref仅月份",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "tag_reasons": {
+        "direction_ids": {
+          "nmr": "正文以NMR读出或结构模型为核心"
+        },
+        "experiment_type_ids": {
+          "solution_nmr": "溶液样品中核磁实验"
+        },
+        "method_ids": {
+          "multidimensional_nmr": "二维同核或HMQC谱明确出现"
+        },
+        "application_ids": {
+          "structural_biology": "蛋白相互作用/折叠/构象为结论对象"
+        },
+        "instrument_component_ids": {}
+      },
+      "limitation": "摘要级分析；未引用无法读取的图号或实验参数"
+    },
+    {
+      "title": "采购与需求动态：上海有机所高灵敏度高温 NMR 招标",
+      "doi": "",
+      "url": "https://www.oitccas.com/pages/tender_online_info.html?FormNo=ZBLX26110503",
+      "actual_online_date": "2026-11-16",
+      "publication_status": "unknown",
+      "author_verified": null,
+      "author_source": null,
+      "magnetic_resonance_role": "direct_procurement",
+      "evidence_location": "TenderProjectByFormNo ZBLX26110503 TenderContent；正文标题及发布时间、第一与第四节",
+      "evidence": "中国科学院上海有机化学研究所于2026-11-16发布高灵敏度高温核磁共振谱仪及配套系统公开招标公告（OITC-G260303073），采购1套，预算及最高限价均为1062万元，允许进口产品；招标文件获取期为11月16日至23日，投标截止及开标时间为2026-12-07 09:30（北京时间）。",
+      "decision": "included",
+      "source_status": "verified_official_public_api",
+      "date_status": "正文2026-11-16；接口ReleaseTime/CreateDate为11-17，不用于替代公告日期",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "tag_reasons": {
+        "direction_ids": {
+          "nmr": "采购对象明确为NMR谱仪；不添加未经证实的部件及应用标签"
+        },
+        "experiment_type_ids": {},
+        "method_ids": {},
+        "application_ids": {},
+        "instrument_component_ids": {}
+      },
+      "limitation": "摘要级分析；未引用无法读取的图号或实验参数"
+    },
+    {
+      "title": "0.5 T台式NMR/MRI",
+      "doi": "10.1016/j.jmr.2026.108188",
+      "decision": "excluded",
+      "reason": "11月17日屏幕正文已发送；仓库缺期不导致重复"
+    },
+    {
+      "title": "氘代OLED的ODMR",
+      "doi": "10.1103/sgwz-sr72",
+      "decision": "excluded",
+      "reason": "11月17日正式出版但10月26日已有Accepted Paper，未确证本次有独立技术增量"
+    },
+    {
+      "title": "BM-NQR机械化学",
+      "doi": "10.1038/s41467-026-79614-2",
+      "decision": "excluded",
+      "reason": "NQR为核心，当前仅能确认与NMR替代关系，未为其强行分配正式NMR/EPR方向"
+    },
+    {
+      "doi": "10.1002/mrc.70151",
+      "decision": "excluded",
+      "reason": "全库DOI相同"
+    },
+    {
+      "doi": "10.1002/mrc.70156",
+      "decision": "excluded",
+      "reason": "全库DOI相同"
+    },
+    {
+      "doi": "10.1007/s00723-026-01896-y",
+      "decision": "excluded",
+      "reason": "全库DOI相同"
+    },
+    {
+      "doi": "10.1021/acs.energyfuels.6c05250",
+      "decision": "excluded",
+      "reason": "全库DOI相同"
+    },
+    {
+      "doi": "10.1021/acs.jpcc.6c06074",
+      "decision": "excluded",
+      "reason": "全库DOI相同"
+    },
+    {
+      "doi": "10.35848/1347-4065/aeb4c3",
+      "decision": "excluded",
+      "reason": "全库DOI相同"
+    },
+    {
+      "title": "Circular Management of Solar-Energy-Related E-Waste in the Global Energy Transition: An EPR Framework for Resource-Constrained Contexts",
+      "doi": "10.1007/s43615-026-01214-5",
+      "url": "https://doi.org/10.1007/s43615-026-01214-5",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            14
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "EPR为其他缩写，非电子顺磁共振",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Thermoresponsive PEG Copolymers by Incorporation of Ethyl Glycidyl Ether: Tailoring Cloud Points From 9°C to 83°C",
+      "doi": "10.1002/marc.70472",
+      "url": "https://doi.org/10.1002/marc.70472",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            17
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "可读摘要未确认NMR/EPR是方法核心或关键证据，不入选",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Non‐Gaussian EPR Steering as a Quantum Resource for High‐Efficiency Quantum Batteries",
+      "doi": "10.1002/qute.70531",
+      "url": "https://doi.org/10.1002/qute.70531",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            14
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "EPR为其他缩写，非电子顺磁共振",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Exact prevalence regions: finite-sample uncertainty quantification, threshold decisions, and monitoring for class-prevalence analytics under prior probability shift",
+      "doi": "10.1007/s41060-026-01359-4",
+      "url": "https://doi.org/10.1007/s41060-026-01359-4",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            12
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "EPR为其他缩写，非电子顺磁共振",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "SURG-13 Single voxel proton magnetic Resonance Spectroscopy and tumor pattern in adult-type diffuse glioma",
+      "doi": "10.1093/neuonc/noag189.1120",
+      "url": "https://doi.org/10.1093/neuonc/noag189.1120",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            13
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "可读摘要未确认NMR/EPR是方法核心或关键证据，不入选",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Morphometric assessment of the corpus callosum and optic nerve using magnetic resonance imaging in patients with multiple sclerosis: a retrospective case–control study",
+      "doi": "10.1186/s43055-026-01905-x",
+      "url": "https://doi.org/10.1186/s43055-026-01905-x",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            12
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Synthesis, Identification, and Analysis of Related Substances and Novel Degradation Products of Minoxidil by High‐Performance Liquid Chromatography‐Ultraviolet, Liquid Chromatography‐Mass Spectrometry, and Nuclear Magnetic Resonance",
+      "doi": "10.1002/sscp.70332",
+      "url": "https://doi.org/10.1002/sscp.70332",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            13
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "可读摘要未确认NMR/EPR是方法核心或关键证据，不入选",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Structural, spectroscopic (FT-IR, FT-Raman, UV-vis, NMR), DFT, molecular docking and\n                    <i>in vitro</i>\n                    analysis on 2-(4-chlorobenzoyl)benzoic acid: liver cancer inhibitor",
+      "doi": "10.1080/00387010.2026.2761861",
+      "url": "https://doi.org/10.1080/00387010.2026.2761861",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            14
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "可读摘要未确认NMR/EPR是方法核心或关键证据，不入选",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Cardiovascular Magnetic Resonance to Guide Defibrillator Implantation for LVEF of 36% to 50%",
+      "doi": "10.1001/jama.2026.17332",
+      "url": "https://doi.org/10.1001/jama.2026.17332",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            17
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "ANSI/AAMI PC76:2021/A1:2026; Active implantable medical devices—Requirements and test protocols for safety of patients with pacemakers and ICDs exposed to magnetic resonance imaging",
+      "doi": "10.2345/9781570209369.ch1",
+      "url": "https://doi.org/10.2345/9781570209369.ch1",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            17
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Confounds in Functional Magnetic Resonance Imaging—Part III: Auxiliary Data",
+      "doi": "10.1162/jocn.a.2736",
+      "url": "https://doi.org/10.1162/jocn.a.2736",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            11
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Deep Learning-based Methods for Brain Tumor Magnetic Resonance Imaging Segmentation",
+      "doi": "10.1051/itmconf/20269303026",
+      "url": "https://doi.org/10.1051/itmconf/20269303026",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            13
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Value of Magnetic Resonance Imaging before Cesarean Delivery in Klippel–Feil Syndrome",
+      "doi": "10.1097/aln.0000000000006405",
+      "url": "https://doi.org/10.1097/aln.0000000000006405",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            16
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Magnetic resonance imaging pelvimetry and vesicourethral anastomosis time in laparoscopic radical prostatectomy",
+      "doi": "10.1186/s12894-026-02454-1",
+      "url": "https://doi.org/10.1186/s12894-026-02454-1",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            13
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Editorial: Autonomous low-field magnetic resonance imaging, volume II",
+      "doi": "10.3389/fnimg.2026.2029597",
+      "url": "https://doi.org/10.3389/fnimg.2026.2029597",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            12
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Pituitary Stalk Interruption Syndrome Presenting as Primary Amenorrhea: Magnetic Resonance Imaging Demonstration of the Characteristic Diagnostic Triad",
+      "doi": "10.4103/aam.aam_1233_26",
+      "url": "https://doi.org/10.4103/aam.aam_1233_26",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            16
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Neurological Disorder Diagnosis Using T1-Weighted Magnetic Resonance Imaging: An Efficient Image Enhancing Approach",
+      "doi": "10.1007/s42979-026-05450-2",
+      "url": "https://doi.org/10.1007/s42979-026-05450-2",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            17
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Cardiovascular imaging sheds new light on the mechanisms of cardiovascular disease, CCT, magnetic resonance, HCM, and dementia",
+      "doi": "10.1093/eurheartj/ehag911",
+      "url": "https://doi.org/10.1093/eurheartj/ehag911",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            16
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "ANSI/AAMI PC76:2021/A1:2026; Active implantable medical devices—Requirements and test protocols for safety of patients with pacemakers and ICDs exposed to magnetic resonance imaging",
+      "doi": "10.2345/9781570209369",
+      "url": "https://doi.org/10.2345/9781570209369",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            17
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "The diagnostic dilemma of Acute Vestibular Syndrome: why HINTS outperforms diffusion-weighted magnetic resonance imaging?",
+      "doi": "10.1080/00207454.2026.2763792",
+      "url": "https://doi.org/10.1080/00207454.2026.2763792",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            13
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Letter to editor on “Abbreviated non-contrast magnetic resonance enterography for Crohn’s disease: a reliability study” by Caliendo V et al.",
+      "doi": "10.1007/s11547-026-02313-x",
+      "url": "https://doi.org/10.1007/s11547-026-02313-x",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            17
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "可读摘要未确认NMR/EPR是方法核心或关键证据，不入选",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Magnetic Resonance Imaging Evaluation of Seizures: A HospitalBased Cross-Sectional Study",
+      "doi": "10.25258/ijddt.16.80s.132",
+      "url": "https://doi.org/10.25258/ijddt.16.80s.132",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            17
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Magnetic resonance imaging findings in dogs presenting with paroxysmal dyskinesia and a normal neurological examination",
+      "doi": "10.3389/fvets.2026.1915679",
+      "url": "https://doi.org/10.3389/fvets.2026.1915679",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            13
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Discrimination between hypertrophic cardiomyopathy and hypertensive heart disease using deep learning-based magnetic resonance imaging",
+      "doi": "10.3389/fmed.2026.1964220",
+      "url": "https://doi.org/10.3389/fmed.2026.1964220",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            11
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Acute pancreatic inflammation computed tomography and magnetic resonance imaging in era of artificial intelligence: Current and future directions",
+      "doi": "10.4240/wjgs.126452",
+      "url": "https://doi.org/10.4240/wjgs.126452",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            11
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Comment on “Optimising Region of Interest Characteristics and Standardisation Methodologies for Lumbar Magnetic Resonance Imaging Vertebral Bone Quality Scoring",
+      "doi": "10.1097/brs.0000000000005932",
+      "url": "https://doi.org/10.1097/brs.0000000000005932",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            16
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Microvascular dysfunction as the first manifestation of AL cardiac amyloidosis on cardiac magnetic resonance: a case report",
+      "doi": "10.1093/ehjcr/ytag857",
+      "url": "https://doi.org/10.1093/ehjcr/ytag857",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            16
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Sensitivity to Rule–Outcome Conflict in Social Decision Making: A Functional Magnetic Resonance Imaging Study",
+      "doi": "10.1002/hbm.70685",
+      "url": "https://doi.org/10.1002/hbm.70685",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            16
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Impact of maternal positioning on maternal comfort and fetal magnetic resonance imaging quality in a 75-cm bore system",
+      "doi": "10.1515/jpm-2026-0071",
+      "url": "https://doi.org/10.1515/jpm-2026-0071",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            13
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Cardiovascular Magnetic Resonance for Lifelong Surveillance in Congenital Heart Disease: From Childhood to Adulthood",
+      "doi": "10.3390/diagnostics16223806",
+      "url": "https://doi.org/10.3390/diagnostics16223806",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            16
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Functional magnetic resonance imaging of brain activation during pleasant and unpleasant active tactile stimulation in older adults",
+      "doi": "10.1007/s11682-026-01219-6",
+      "url": "https://doi.org/10.1007/s11682-026-01219-6",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            11
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Dual-Targeting Chitosan Nanogels Enable Magnetic Resonance Imaging-Guided Synergistic Chemo/Chemodynamic Therapy against Prostate Cancer Bone Metastasis",
+      "doi": "10.1021/acs.biomac.6c01943",
+      "url": "https://doi.org/10.1021/acs.biomac.6c01943",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            11
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Impact of Diffusion Magnetic Resonance Imaging Preprocessing Steps on the DTI-ALPS Index",
+      "doi": "10.3390/jcm15228969",
+      "url": "https://doi.org/10.3390/jcm15228969",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            16
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Multimodality Cardiac Strain: A Practical Framework for Acquisition, Validation, Interpretation, and Reporting across Echocardiography, Cardiac Magnetic Resonance and Computed Tomography",
+      "doi": "10.1093/ehjimp/qyag194",
+      "url": "https://doi.org/10.1093/ehjimp/qyag194",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            17
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Association of cardiovascular magnetic resonance-derived left atrial function with cardiovascular outcomes in hypertension-associated cardiac remodeling: a retrospective cohort study",
+      "doi": "10.1186/s40001-026-05441-2",
+      "url": "https://doi.org/10.1186/s40001-026-05441-2",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            12
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Early Magnetic Resonance Imaging and Single‐Photon Emission Computerized Tomography Detection of Breast Cancer With Netrin‐1‐Specific Molecular and Liposome Probes",
+      "doi": "10.1002/cmdc.70566",
+      "url": "https://doi.org/10.1002/cmdc.70566",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            13
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Rubella-associated acute cerebellitis with posterior reversible encephalopathy syndrome-like magnetic resonance imaging findings: a rare pediatric case report",
+      "doi": "10.24953/turkjpediatr.2026.7611",
+      "url": "https://doi.org/10.24953/turkjpediatr.2026.7611",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            16
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "A Real-Time Standalone Artificial Intelligence System Outside the Picture Archiving and Communication System for Detecting Brain Metastases Using Magnetic Resonance Imaging: A Feasibility Study",
+      "doi": "10.3390/clinpract16110212",
+      "url": "https://doi.org/10.3390/clinpract16110212",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            11
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Where the Evidence Runs Out: Ten Open Questions in Myocardial Perfusion Scintigraphy and Stress Perfusion Cardiovascular Magnetic Resonance",
+      "doi": "10.3390/jcm15228903",
+      "url": "https://doi.org/10.3390/jcm15228903",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            13
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Chitosan‐ZnO Nanocomposite as an Efficient Recyclable Heterogeneous Catalyst for the Synthesis of Novel 2‐amino‐1‐(Naphthalen‐1(2)‐yl)‐4‐aryl‐hexahydroquinoline‐3‐carbonitrile Derivatives: Structural Elucidation Supported by 2D‐HMBC NMR Spectroscopy",
+      "doi": "10.1002/slct.75160",
+      "url": "https://doi.org/10.1002/slct.75160",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            16
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "可读摘要未确认NMR/EPR是方法核心或关键证据，不入选",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Risk Stratification and Outcomes of Right Atrial Phasic Function in Arrhythmogenic Right Ventricular Cardiomyopathy: A Cardiac Magnetic Resonance Study",
+      "doi": "10.1161/jaha.126.050695",
+      "url": "https://doi.org/10.1161/jaha.126.050695",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            12
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "An exploratory study of the association between rapid antiretroviral therapy initiation and brain morphology in people with HIV who have sex with men: a cross-sectional structural magnetic resonance imaging study",
+      "doi": "10.3389/fimmu.2026.1935262",
+      "url": "https://doi.org/10.3389/fimmu.2026.1935262",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            16
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Magnetic resonance-guided focused ultrasound (MRgFUS)- thalamotomy for Parkinson’s disease: clinical outcomes and exploratory lesion analysis",
+      "doi": "10.1007/s00415-026-14240-y",
+      "url": "https://doi.org/10.1007/s00415-026-14240-y",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            16
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "可读摘要未确认NMR/EPR是方法核心或关键证据，不入选",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Thigh Muscle Volume After Anterior Cruciate Ligament Reconstruction With a Quadriceps Tendon Autograft: A Pilot 3-Dimensional Magnetic Resonance Imaging Volumetric Study at a Minimum 2-Year Follow-up",
+      "doi": "10.1177/23259671261499462",
+      "url": "https://doi.org/10.1177/23259671261499462",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            12
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "泛MRI或医学影像内容，非磁共振波谱",
+      "magnetic_resonance_role": "out_of_scope"
+    },
+    {
+      "title": "Pt(II)/Cu(I) Tetrametallic Complexes with Aggregation-Induced Phosphorescence: The Role of Functionalization and Solid-State Intermolecular Interactions in Modulating Emission",
+      "doi": "10.1021/acs.cgd.6c01288",
+      "url": "https://doi.org/10.1021/acs.cgd.6c01288",
+      "actual_online_date": {
+        "date-parts": [
+          [
+            2026,
+            11,
+            14
+          ]
+        ]
+      },
+      "decision": "excluded",
+      "reason": "可读摘要未确认NMR/EPR是方法核心或关键证据，不入选",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Preparation of further calibration standards of 5-O- and N-acylated fumonisin B1 toxins, confirmation of their structures, and application for the qualitative and quantitative determination of acylated FB1 compounds in rice cultures inoculated with Fusarium verticillioides and naturally infected corn samples.",
+      "doi": "10.1080/19440049.2026.2704197",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43043359/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Bioactive compounds from Morus alba with inhibitory activity against nitric oxide production, α-glucosidase, and protein tyrosine phosphatase 1B: an experimental and computational study.",
+      "doi": "10.1080/14786419.2026.2763125",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43042716/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Mechanisms of multi-e -,H+ carbonyl reduction at the TiO2 nanoparticle/solution interface: the value and limitations of a molecular approach.",
+      "doi": "10.1039/d6sc06719k",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43042295/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Synthesis, crystallographic study, Hirshfeld surface analysis, in vitro antimicrobial evaluation, and computational studies of novel pyrazole-isoxazole hybrid heterocyclic systems.",
+      "doi": "10.1039/d6ra08878c",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43042004/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Intramolecular interactions governing the conformational behavior of 2-aminopropan-1-ol and its methyl ether: hydrogen bonding, gauche effect, and metallic interactions.",
+      "doi": "10.3762/bjoc.22.133",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43042001/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "A chromone-based Schiff base derivative for the Cd2+-promoted detection of l-proline: validated by DFT, test strip, cotton swab, fish tissue, cellular imaging, and real/herbal water recovery analysis.",
+      "doi": "10.1039/d6ra07576b",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43041932/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Sulfated prism[6]arene binds one guest internally and one guest externally.",
+      "doi": "10.3762/bjoc.22.132",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43041819/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "A reversible N-acylhydrazone-based turn-on fluorescent probe for ultrasensitive detection of fluoride and cyanide in water, food, and oral-care products.",
+      "doi": "10.1039/d6ra07657b",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43041815/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Bismuth phosphanides Bi(PR2)3 react with chalcogens and P4: oxidation vs. transfer of the phosphanyl (PR2) unit.",
+      "doi": "10.1039/d6dt02381a",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43041163/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "DNA condensation by 4-arm PEG-histidine/lysine peptide polyplexes: Tuning transfection and biocompatibility.",
+      "doi": "10.1016/j.ijbiomac.2026.155313",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43039279/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Synergistic bactericidal mechanism of Sono-Fenton treatment targeting microbial membranes.",
+      "doi": "10.1016/j.ultsonch.2026.108160",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43038933/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Exploiting host-guest recognition in affinity chromatography for selective separation of cucurbit[5]uril and cucurbit[7]uril on guest-modified resin.",
+      "doi": "10.1016/j.chroma.2026.467626",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43038677/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "When Counterions Fall into Place: Alkali Effects on f-Element Polyoxomolybdate Crystallization and Speciation.",
+      "doi": "10.1021/acs.inorgchem.6c03783",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43038507/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Purification of sesquiterpene lactones from Inulae radix by silver-ion coordination high-speed counter-current chromatography.",
+      "doi": "10.1039/d6ay02232d",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43038059/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Diterpenoid alkaloids from Delphinium anthriscifolium.",
+      "doi": "10.1080/10286020.2026.2760241",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43037373/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Ultrafine Ru Nanocluster Reservoirs Enable Dynamic Access to Mn-Related Sites for Stabilizing Lattice Oxygen in Li-Rich Layered Oxide Cathodes.",
+      "doi": "10.1002/smll.76707",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43037228/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Sesquiterpenoid and pyrone derivatives from the fungus Pestalotiopsis rosea YNJ21 isolated from the mushroom Amanita exitialis.",
+      "doi": "10.1080/14786419.2026.2762090",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43036858/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Coriaceolide A, a new calanolide-type coumarin isolated from the leaves of Calophyllum coriaceum M.R. Hend. & Wyatt-Sm. with antimicrobial, antibiofilm, and molecular docking studies.",
+      "doi": "10.1515/znc-2026-0207",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43036234/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Phytochemical Composition of the Plant Bearberry.",
+      "doi": "10.1134/S0012496626600570",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43035600/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Photo- thermal isomerization and degradation of β-carotene in a model beverage system under varying pH and oxygen conditions and corresponding protective strategies.",
+      "doi": "10.1002/jsfa.71228",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43035337/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Evaluation of enteric polymer-based amorphous solid dispersions performance during pH-shift dissolution: insights for weakly acidic drugs.",
+      "doi": "10.1016/j.ijpharm.2026.127674",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43035171/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Insights into the structural characteristics of cellulose for 5‑hydroxymethylfurfural production.",
+      "doi": "10.1016/j.biortech.2026.136274",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43035159/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Daucane-type sesquiterpenoids from the endemic Chinese plant Ferula hexiensis: isolation, structural elucidation, and anti-neuroinflammatory effects associated with NF-κB signaling.",
+      "doi": "10.1016/j.bioorg.2026.110748",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43035039/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Biotransformation of bile acids by mycobacteria yields antibacterial and antibiofilm metabolites.",
+      "doi": "10.1016/j.bioorg.2026.110774",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43035038/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "A new diketopiperazine, hoynatamide, and related metabolites from the marine sediment-derived bacterium Streptomyces hoynatensis.",
+      "doi": "10.1080/14786419.2026.2759272",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43035015/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Alkaloid components from the roots of Euphorbia fischeriana and their antimelanogenic effects.",
+      "doi": "10.1080/14786419.2026.2762520",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43035013/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Robust Tetrazine-Bridged Binuclear Iridium(III) Complex Featuring Tunable Conformational Dynamics for Efficient Photothermal Conversion.",
+      "doi": "10.1002/anie.3010655",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43034925/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Metabolomics and bioassay-guided characterization identifies bioactive polyphenols in Acacia dealbata leaf and bark extracts.",
+      "doi": "10.1007/s11306-026-02558-7",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43034245/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Valorisation of PBAT-based compostable bags via anaerobic co‑digestion: Reinforcing the role of WWTPs in resource recovery.",
+      "doi": "10.1016/j.biortech.2026.136261",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43033998/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "9-N-dodecyltetrahydroberberine exhibits hypoglycemic activity through direct interaction with the transmembrane domain of the insulin receptor and potentiation of its basal activity.",
+      "doi": "10.1016/j.biochi.2026.11.003",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43033962/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Crystallographic disorder and π-stacked guest organization in an indole-3-butyric acid-β-cyclodextrin inclusion complex.",
+      "doi": "10.1016/j.carres.2026.110167",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43033793/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Diphenylacrylonitrile-based reversible fluorescent probe via ICT modulation for sensitive Hg(II) detection in environmental and food matrices.",
+      "doi": "10.1016/j.saa.2026.129160",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43033757/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Iron-Dependent Siderophore Production via NRPS-Independent Pathways in Pedobacter.",
+      "doi": "10.1093/mtomcs/mfag035",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43033482/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Spin-State Regulation Engineering of Pyrophosphate-Based Polyanionic Cathodes for Ultra-Long-Life Sodium-Ion Batteries.",
+      "doi": "10.1002/adma.75698",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43033095/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Enantio- and Diastereoselective C-H [4 + 2] Annulation of Ferrocenamides with Allenes: Dynamic Kinetic Resolution Approach to Dual Chirality.",
+      "doi": "10.1021/acs.joc.6c01967",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43033020/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Stable liquid-phase thiophosphate enables rapid reaction time for Li6PS5Cl sulfide electrolytes.",
+      "doi": "10.1039/d6ta05260f",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43032628/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Early-age mechanical properties and pore structure evolution of concrete incorporating lepidolite slag cured in a combined sodium sulfate-sodium chloride solution.",
+      "doi": "10.1039/d6ra08834a",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43032594/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "A self-amplifying antimicrobial nanoagent: ALASe combines dark toxicity with in situ porphyrin biosynthesis for enhanced antimicrobial photodynamic therapy.",
+      "doi": "10.1111/php.70167",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43031449/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Bacteria-Induced Outer Membrane Disruption and Sensitization by Rationally Designed Proamyloid Peptides.",
+      "doi": "10.1002/smll.76693",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43026687/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Sublevel-selective electron spin hyperpolarization of triplet radical pairs in metal-organic frameworks.",
+      "doi": "10.1038/s41467-026-79262-6",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43026282/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "The CECR2 bromodomain displays distinct binding modes to select for acetylated histone proteins versus non-histone ligands.",
+      "doi": "10.1016/j.jmb.2026.170094",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43025627/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Electron-beam-crosslinked injectable poly-γ-glutamic acid hydrogels: Physicochemical properties, long-term in vivo retention, and biocompatibility.",
+      "doi": "10.1016/j.ijbiomac.2026.155309",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43025573/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Preparation of a soluble 1,3-β-glucan from baker's yeast by water-only autoclave treatment and evaluation of its Dectin-1 antagonist activity.",
+      "doi": "10.1016/j.ijbiomac.2026.155303",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43025565/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Discovery of antimicrobial sesquiterpenoids from the marine fungus Aspergillus sp. WHUF05221 driven by a multi-guided strategy.",
+      "doi": "10.1016/j.phytochem.2026.115144",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43025532/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Mechanistic insights into the selective ligninolysis of wheat straw by the grass-litter decomposer Agrocybe pediades: A multi-omics and chemical study.",
+      "doi": "10.1016/j.micres.2026.128818",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43025161/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Cerium-induced electronic reconstruction of nickel-cobalt nitride interfaces for efficient alkaline overall water splitting.",
+      "doi": "10.1016/j.jcis.2026.141987",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43025074/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "A new anti-inflammatory ellagic acid glycoside from Juglans cathayensis.",
+      "doi": "10.1080/14786419.2026.2759930",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43024784/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Experimental and numerical assessment of calcium hydroxide dosage on the seepage performance of Yellow River sediment-based alkali-activated materials for embankment seepage control.",
+      "doi": "10.1371/journal.pone.0362361",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43024599/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Integrated In vitro and in vivo evaluation of anticancer potentials of two clerodane diterpenes isolated from Psidium guajava (L.) through molecular docking approaches.",
+      "doi": "10.1371/journal.pone.0362655",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43024593/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "A novel diglucosylated indoline alkaloid from Portulaca oleracea L.: isolation, structural elucidation and biological activity.",
+      "doi": "10.1080/14786419.2026.2762513",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43024584/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "4,4'-Dimethyl-2,2'-bipyridine as an electron reservoir in lanthanide formamidinate complexes and its reactivity towards azobenzene.",
+      "doi": "10.1039/d6dt02108e",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43024344/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "A chemometrically validated discriminative sensing strategy combining biomolecular specificity with data-driven classification of Aβ1-40 fibrils.",
+      "doi": "10.1039/d6nr03146c",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43024222/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Systemic purinergic dysregulation in melanoma revealed by soluble P2RX4 receptor fragments.",
+      "doi": "10.1007/s11302-026-10182-2",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43024138/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Synergistic bulk-interface engineering with a carboxyl-functionalized pyrazole additive for ultralong-life rechargeable zinc-ion batteries.",
+      "doi": "10.1039/d6nr03230c",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43023629/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "A Solution-Processable Single-Component Molecular Antiferromagnet.",
+      "doi": "10.1002/anie.2142967",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43023566/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Synthesis, cholinesterase inhibition, antiproliferative activity, and in silico evaluation of novel hydantoin conjugates.",
+      "doi": "10.1039/d6ra08726d",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43022553/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Japonindolates A-C: new indole diterpenoids from the endophytic fungus Aspergillus japonicus 334 and their anti-inflammatory activities.",
+      "doi": "10.1039/d6ra08897j",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43022148/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Acid-Induced Intramolecular Transformations in Mixed Phosphonium-Iodonium Ylides with a Dibenzothiaphosphonium Core.",
+      "doi": "10.1021/acs.joc.6c01455",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43020674/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Diprenylated xanthones from Hypericum subalatum and their anti-neuroinflammatory activity.",
+      "doi": "10.1016/j.phytochem.2026.115141",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43020301/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Effects of Sauna Bathing on NMR-Based Metabolomic Profiles.",
+      "doi": "10.1016/j.mayocp.2026.11.006",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43020269/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Optimization of siderophore production by Westiellopsis sp. KM1 and evaluation of its biomass wet extract for rice growth under metal stress: An integrated response surface methodology and Machine learning approach.",
+      "doi": "10.1016/j.biortech.2026.136254",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43020150/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Ultrasound-assisted deep eutectic solvent two-phase system for enhanced simultaneous recovery of lycopene and polysaccharides from tomato pomace: Process optimization, stability, and mechanistic insights.",
+      "doi": "10.1016/j.foodchem.2026.152082",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43019731/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Blood lipoprotein remodelling after non-severe paediatric burns: A longitudinal analysis beyond the acute phase.",
+      "doi": "10.1371/journal.pone.0362177",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43019382/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "NMR-based metabolomic profiling reveals distinct metabolic signatures of primary hepatocytes and hepatocellular carcinoma cell lines.",
+      "doi": "10.1371/journal.pone.0361879",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43019349/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "One new polyketide, diaporone B, isolated from the endophytic fungus Diaporthe discoidispora MQZ-Z1 and its antifungal activity.",
+      "doi": "10.1080/14786419.2026.2760561",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43019291/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "A carboxymethyl cellulose-lignin-vanillin-based wound dressing for diabetic wound healing: in vitro and in vivo evaluation with photoacoustic imaging.",
+      "doi": "10.1039/d6tb01526c",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43019016/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Activation of CO2 and (COCl)2 by (TMS)2N(η1-Cp*)SiSi(η1-Cp*)N(TMS)2.",
+      "doi": "10.1039/d6dt02621d",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43018435/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Discovery of new polyacetylenes from the rhizomes of Adenia cardiophylla through activity-directed phytochemical investigation and evaluation of their anti-inflammatory properties.",
+      "doi": "10.1039/d6ra08121e",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43017281/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Uncovering and understanding \"transesterification triggers\" in aliphatic polyester synthesis with bis-Zn catalysts.",
+      "doi": "10.1039/d6py00814c",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43017275/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Push-pull luminescent imidazole derivatives: ICT enables efficient picric acid sensing.",
+      "doi": "10.1039/d6ra07904k",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43017050/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Quantitative Solvation Scale for Lithium Battery Electrolytes.",
+      "doi": "10.1021/acsami.6c12778",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43016242/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Measuring vapour-liquid equilibria (VLE) using benchtop NMR.",
+      "doi": "10.1039/d6cp03344j",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43016231/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Reversible humidity-responsive room-temperature phosphorescence with tunable afterglow color via TS-FRET in tryptophan derivative-doped PVA films.",
+      "doi": "10.1039/d6ay02023b",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43016205/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Charge-Separated Anion Pairs: The Rationale, the Application in Selective Activation of Trimethoxysilane and Controlled Conversion of Carboxylic Acids to Aldehydes.",
+      "doi": "10.1021/acs.joc.6c01191",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43016061/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Effect of xanthan gum on 3D-printed dysphagia foods.",
+      "doi": "10.1002/jsfa.71219",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43015969/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Normalized membrane ratio of TROP2 as a predictor of clinical outcomes with datopotamab deruxtecan in non-small-cell lung cancer.",
+      "doi": "10.1038/s41591-026-04716-9",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43015400/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "In situ coupling of cathodic 2e- ORR with anodic active chlorine over Pd/Cu(OH)2@CF for 1O2-dominated oxytetracycline degradation.",
+      "doi": "10.1016/j.envres.2026.126160",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43014646/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Neuroprotective sesquiterpenoid-monoterpenoid heterodimers from Lindera communis Hemsl.",
+      "doi": "10.1016/j.phytochem.2026.115139",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43014641/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Dietary inclusion of spent coffee grounds (SCG) shifts black soldier fly larvae towards catabolism: insights from metabolomics and nutrient mass balance.",
+      "doi": "10.1016/j.cbpb.2026.111299",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43014541/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "TwinStrep™ tag purification leads to differences in RAF1 RAS binding domain and cysteine-rich domain conformation.",
+      "doi": "10.1016/j.pep.2026.107032",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43014491/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Polycarbonate Upcycling Into Block Copolymers via Transcarbonation: Influence of the Catalyst on the Microstructure.",
+      "doi": "10.1002/chem.71896",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43013733/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Structure-based isolation of bioactive Strychnos indole and new aporphine alkaloids from traditional Chinese medicine as anti-MRSA candidates: computational screening and antibacterial evaluation.",
+      "doi": "10.1080/14786419.2026.2754368",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43013468/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Design and synthesis of novel chlorogenic acid analogues targeting ACAT1.",
+      "doi": "10.1080/10286020.2026.2754176",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43013408/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Effect of lanthanide complexation on the radiolytic stability of Ln(III)-DOTA complexes.",
+      "doi": "10.1039/d6dt02242a",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43013328/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Phase Stability of Hexacelsian Initially Formed as Low-Crystalline Spherical Particles.",
+      "doi": "10.1021/acs.inorgchem.6c04962",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43013260/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Uncovering new antibiofilm roseabols from marine Clonostachys rosea through structural and multiomics approaches.",
+      "doi": "10.1007/s13659-026-00659-3",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43013237/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "A Thermostable GH29A α-L-Fucosidase from Thermotogaceae with Bifunctional Hydrolytic and Transfucosylation Activities: Computational Mechanistic Insights and Efficient Enzymatic Synthesis of 2'-Fucosyllactose.",
+      "doi": "10.1007/s11274-026-05338-6",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43013235/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Differential antibacterial efficacy and probiotic biocompatibility of Starmerella bombicola-derived sophorolipids: evaluation in a model food system.",
+      "doi": "10.1007/s11274-026-05390-2",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43013147/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "A 68Ga-Substituted Keggin Phosphotungstate as an Intrinsically Radiolabeled Inorganic PET Tracer for Cell Tracking.",
+      "doi": "10.1002/anie.9529520",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43012513/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Location, average orientation and dynamics of amino acids in a membrane mimetic: a 2H-NMR and molecular dynamics study.",
+      "doi": "10.1039/d6cp02807a",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43012297/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Exploring the role of nicotine and smoking in sleep behaviours: A multi-variable Mendelian randomisation study.",
+      "doi": "10.1111/add.70696",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43012143/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "3,4,3-LI(1,2-HOPO) interaction with calcium: a multinuclear NMR study.",
+      "doi": "10.1039/d6dt02086k",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43001804/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Structural variety in silver alkoxide complexes supported by neutral phosphorus-, nitrogen-, and carbon-donor ligands.",
+      "doi": "10.1039/d6dt01518b",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42974940/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Halogen engineering of 4-aminoantipyrine amide derivatives for the corrosion protection of mild steel: experimental and DFT insights.",
+      "doi": "10.1039/d6cp03224a",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42944717/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Interplay between exchange kinetics, molecular dynamics and polarisation transfer in SABRE hyperpolarisation.",
+      "doi": "10.1039/d6cp03264h",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42944705/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Stereoselectivity of photoinduced interaction of nonsteroidal anti-inflammatory drug S-ketoprofen with (L/D)-Trp-Leu-Pro-Phe peptide in solution studied by NMR, CIDNP and molecular dynamics simulation.",
+      "doi": "10.1039/d6cp02914k",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42929292/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "New abscisic acid analogues produced via genome mining-guided heterologous expression.",
+      "doi": "10.1039/d6ob01197g",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42924436/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Hydrophobic modification-induced self-assembly selectively enhances ice recrystallization inhibition by β-cyclodextrin.",
+      "doi": "10.1039/d6sm00843g",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42905430/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    },
+    {
+      "title": "Carbon nanotube-induced magnetic shielding effects on 129Xe NMR from equivariant neural networks.",
+      "doi": "10.1039/d6cp03538h",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42902756/",
+      "decision": "excluded",
+      "reason": "摘要未确认核心作用或在线日期与早期版本未完成交叉核实，保守排除",
+      "magnetic_resonance_role": "unverified"
+    }
+  ],
+  "dedup": {
+    "index_head": "e2f1a52ad437b2227ab3debdc2fc60755029f671",
+    "issue_count": 89,
+    "item_count": 772,
+    "recent_issues": [
+      "2026-11-10",
+      "2026-11-11",
+      "2026-11-12",
+      "2026-11-13",
+      "2026-11-14",
+      "2026-11-15",
+      "2026-11-16"
+    ],
+    "additional_screen_issue": "2026-11-17",
+    "doi_duplicates": 6,
+    "keys": [
+      "normalized DOI",
+      "URL without tracking parameters",
+      "normalized title",
+      "procurement project+stage+date"
+    ]
+  },
+  "procurement": {
+    "registered_candidates": 10,
+    "qualified_announcements": 1,
+    "excluded": 9,
+    "daily_item_count": 10,
+    "summary_item_id": "SF-20261118-10",
+    "candidates": [
+      {
+        "title": "上海有机所高灵敏度高温核磁共振谱仪及配套系统",
+        "unit": "中国科学院上海有机化学研究所",
+        "date": "2026-11-16",
+        "url": "https://www.oitccas.com/pages/tender_online_info.html?FormNo=ZBLX26110503",
+        "project_no": "OITC-G260303073",
+        "decision": "included",
+        "reason": "官方公开接口原文确认；阶段为公开招标，发布日期按正文；全库及逐公告Review未重复"
+      },
+      {
+        "title": "清华大学核磁共振波谱仪更新采购项目成交结果",
+        "url": "https://sbgysfw.sysc.tsinghua.edu.cn/#/publish/1A1E39E061C22CB7737010A5A69FE275",
+        "date": "2026-11-16",
+        "decision": "excluded",
+        "reason": "官方列表确认标题与日期，但独立动态公告正文未完成读取，不采用转载金额"
+      },
+      {
+        "title": "江西中医药大学核磁平台维保竞价",
+        "url": "https://www.bidcenter.com.cn/zhaobiao/zbkeyw-98424.html",
+        "date": "2026-11-16",
+        "decision": "excluded",
+        "reason": "转载候选62026111613656718，未取得官方独立原文"
+      },
+      {
+        "title": "大湾区大学核磁维护保养成交",
+        "url": "https://www.qianlima.com/bid-648083656.html",
+        "date": "2026-11-16",
+        "decision": "excluded",
+        "reason": "转载候选M4400000707540270001；与10月28日协商阶段区分，独立官方成交原文未确认"
+      },
+      {
+        "title": "大湾区大学固体核磁合同",
+        "url": "https://www.bidcenter.com.cn/zhaobiao/zbkeyw-98424.html",
+        "date": "2026-11-13",
+        "decision": "excluded",
+        "reason": "转载合同候选0809-25411DGG104012801；不能用11月2日中标公告替代合同原文"
+      },
+      {
+        "title": "中国科学院电工研究所磁共振基准测量仪",
+        "url": "https://www.oitccas.com/pages/tender_online_info.html?FormNo=ZBLX26110451",
+        "date": "2026-11-13",
+        "decision": "excluded",
+        "reason": "官方正文可读，但无技术附件证据确认具体NMR/EPR测量对象，保留待核"
+      },
+      {
+        "title": "物理与光电工程学院EPR测试服务",
+        "url": "https://www.arrbid.com/biddetail/2026-C25A93D3EC9D4E70985D4C0E8DCDEE31.html",
+        "date": "2026-11-17",
+        "decision": "excluded",
+        "reason": "仅转载确认25小时连续波/30小时脉冲，未取得采购单位官方原文"
+      },
+      {
+        "title": "科学智能物质创制中心EPR和液体NMR",
+        "url": "https://www.oitccas.com/pages/tender_online_info.html?FormNo=ZBLX26100414",
+        "date": "2026-10-26",
+        "decision": "excluded",
+        "reason": "官方原文已核实但超窗，不按11月17日开标日期收录"
+      },
+      {
+        "title": "五邑大学氢生态与储能平台意向",
+        "url": "https://www.wyu.edu.cn/ztb/info/1381/31982.htm",
+        "date": "2026-11-10",
+        "decision": "excluded",
+        "reason": "超出11月11日至17日扩展窗口；历史已含对应意向"
+      },
+      {
+        "title": "无锡市中医医院医用核磁采购",
+        "url": "https://m.instrument.com.cn/event/bid/t168160.html",
+        "date": "2026-11-17",
+        "decision": "excluded",
+        "reason": "医学MRI采购，排除"
+      }
+    ],
+    "included_history_review_hits": []
+  },
+  "editorial_review": {
+    "source": "approved for included items",
+    "dates": "approved; Crossref and publisher discrepancies resolved per candidate",
+    "tags": "approved",
+    "science": "approved at abstract level",
+    "no_images": true
+  },
+  "verification": {
+    "build_check": "passed",
+    "build": "passed",
+    "search_test": "passed",
+    "procurement_test": "passed",
+    "build_test": "passed",
+    "publication": "not yet submitted",
+    "content_consistency": "passed: JSON all titles summaries meanings dates sources/links in generated HTML; order preserved; final tender; no downloads"
+  }
+}

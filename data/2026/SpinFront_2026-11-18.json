@@ -1,0 +1,391 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-11-18",
+  "scope_note": "检索截至2026-11-18T06:02:51+08:00。近24小时常规合格候选不足5条，已启动增强搜索，并在首轮不足8条后进行深度增强检索：逐站检查专业与高影响期刊、预印本/题录、厂商、会议和采购，回扫11月11日至17日并轮换九类方法主题。对全库89期772条及最近7期、Review和11月17日屏幕正文查重；登记题录中排除既有DOI重复6项，另排除日期或早期出版状态未可靠确认的候选。11月17日已发送的台式0.5 T论文不重复收录。部分出版商与动态站点受限、Crossref部分查询限流，采用PubMed/Crossref和官方公开接口补查，未取得可核实原文的采购不入选。本期10条，其中采购汇总1条、实际公告1份；全部按近7天扩展标注，无待复核标签。",
+  "items": [
+    {
+      "item_id": "SF-20261118-01",
+      "report_date": "2026-11-18",
+      "item_no": 1,
+      "title_cn": "SASSY 用二维同核谱缓解单重态编码谱的重叠",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Jain 等提出 SASSY 二维同核实验，在生成长寿命核单重态序的同时增加一个谱学维度。理论、模拟与实验表明，该方法适用于多种标量耦合条件，并减少其他快速弛豫态或相干的布居；两个维度呈同相纯吸收线形，有利于峰强度定量。",
+      "meaning_cn": "长寿命单重态可把观察窗口延伸到常规 T₁ 限制之外，而二维分辨率有助于区分一维重叠信号。用于慢动力学研究前，仍需验证目标自旋对的耦合与单重态寿命；文中对更大生物分子体系的用途属于预期，不能视为已完成验证。",
+      "publication_date": "2026-11-16",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Physical Chemistry Letters",
+      "url": "https://doi.org/10.1021/acs.jpclett.6c03014",
+      "doi": "10.1021/acs.jpclett.6c03014",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录与摘要",
+          "url": "https://api.crossref.org/works/10.1021/acs.jpclett.6c03014"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-18",
+      "last_updated": "2026-11-18",
+      "report_file": "SpinFront_2026-11-18.html"
+    },
+    {
+      "item_id": "SF-20261118-02",
+      "report_date": "2026-11-18",
+      "item_no": 2,
+      "title_cn": "CPMG NMR 与化学计量学分析大麻素提取物",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "cpmg",
+        "qnmr"
+      ],
+      "application_ids": [
+        "natural_products"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Héritier Uwikunda 等将一维 CPMG NMR 与多变量统计结合，对摩洛哥北部不同地点的17份 beldia 品种提取物鉴别和定量五种主要大麻素。样品中 THC 与 CBD 的平均浓度分别为7.84和0.98 mmol/L，研究以此建立该批提取物的成分轮廓。",
+      "meaning_cn": "CPMG 测得的峰强会受各组分横向弛豫影响，比较浓度时应核对回波条件、定量参照和谱峰重叠。摘要确认了样本数与浓度结果，但未列完整验证指标；这组地域和品种样本的平均值不能替代其他批次的实测含量。",
+      "publication_date": "2026-11-17",
+      "time_scope": "7d_extension",
+      "source": "Natural Product Research",
+      "url": "https://doi.org/10.1080/14786419.2026.2755562",
+      "doi": "10.1080/14786419.2026.2755562",
+      "alternative_sources": [
+        {
+          "name": "PubMed 题录与摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43043372/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-18",
+      "last_updated": "2026-11-18",
+      "report_file": "SpinFront_2026-11-18.html"
+    },
+    {
+      "item_id": "SF-20261118-03",
+      "report_date": "2026-11-18",
+      "item_no": 3,
+      "title_cn": "多参数 NMR 综述碳酸钙类文物的水分迁移",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "cultural_heritage"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "review",
+      "summary_cn": "Stagno 等综述弛豫、扩散、成像与便携式单边 NMR 在石材和大理石保护中的互补作用。水既参与材料劣化，也作为质子信号来源；多参数测量可表征可达孔隙、毛细吸水及保护剂渗入，并讨论表面弛豫、受限扩散和内部磁场梯度对解释的影响。",
+      "meaning_cn": "便携测量适合原位跟踪，但单一弛豫时间不能直接等同于孔径或保护效果。对比处理前后数据时，需考虑岩性、孔隙结构、含水条件和内部梯度；综述支持组合读出，并未给出适用于所有碳酸钙材料的统一换算关系。",
+      "publication_date": "2026-11-17",
+      "time_scope": "7d_extension",
+      "source": "Heritage",
+      "url": "https://doi.org/10.3390/heritage9110484",
+      "doi": "10.3390/heritage9110484",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录与摘要",
+          "url": "https://api.crossref.org/works/10.3390/heritage9110484"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-18",
+      "last_updated": "2026-11-18",
+      "report_file": "SpinFront_2026-11-18.html"
+    },
+    {
+      "item_id": "SF-20261118-04",
+      "report_date": "2026-11-18",
+      "item_no": 4,
+      "title_cn": "NMR 与恒速压汞共同约束致密砂岩孔喉分布",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Chen 等对鄂尔多斯盆地延长组八块致密砂岩联合开展 NMR 和恒速压汞分析，建立孔喉半径及其控制孔隙空间的对应关系。研究指出，同一孔隙内流体的核磁响应会随饱和状态变化，因此反复离心不能直接给出不同喉径控制的可动流体分布。",
+      "meaning_cn": "将离心前后 T₂ 变化解释为某一孔喉区间的流体流失，需要额外的饱和状态与孔喉约束。此研究的价值在于揭示该解释边界；其渗透率和黏土相关关系来自八块样品，推广到其他岩性或润湿条件前仍需独立校准。",
+      "publication_date": "2026-11-16",
+      "time_scope": "7d_extension",
+      "source": "Geological Journal",
+      "url": "https://doi.org/10.1002/gj.70546",
+      "doi": "10.1002/gj.70546",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录与摘要",
+          "url": "https://api.crossref.org/works/10.1002/gj.70546"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-18",
+      "last_updated": "2026-11-18",
+      "report_file": "SpinFront_2026-11-18.html"
+    },
+    {
+      "item_id": "SF-20261118-05",
+      "report_date": "2026-11-18",
+      "item_no": 5,
+      "title_cn": "变温 EPR 区分硼酸盐中的钴自旋态",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Popov 等研究 MnₓCo₃₋ₓBO₅（x＝0、1.2、1.4、1.8）的磁共振谱，比较 Mn²⁺ 部分取代 Co²⁺ 后的响应。不同共振线随温度的磁场位置变化，为所测各组成中同时存在高自旋和低自旋 Co²⁺ 提供了谱学依据。",
+      "meaning_cn": "对多位点过渡金属材料，共振场随温度的演化比仅观察单一宽峰更能约束谱线归属。摘要支持不同自旋态共存，但未给出可直接用于定量的各态比例；若需比较占比，还应核对跃迁强度、弛豫及温度依赖。",
+      "publication_date": "2026-11-14",
+      "time_scope": "7d_extension",
+      "source": "Magnetic Resonance in Solids",
+      "url": "https://mrsej.kpfu.ru/contents.html#26301",
+      "doi": "10.26907/mrsej-26301",
+      "alternative_sources": [
+        {
+          "name": "Crossref 题录与摘要",
+          "url": "https://api.crossref.org/works/10.26907/mrsej-26301"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-18",
+      "last_updated": "2026-11-18",
+      "report_file": "SpinFront_2026-11-18.html"
+    },
+    {
+      "item_id": "SF-20261118-06",
+      "report_date": "2026-11-18",
+      "item_no": 6,
+      "title_cn": "NMR 约束 IBA57 参与的瞬态电子转移复合物",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Grifagni 等发现 IBA57–ISCA2 复合物通过 IBA57 亚基瞬态识别 FDX2。NMR 数据约束的结构模型给出两簇之间约17 Å的电子转移路径；结合还原与动力学实验，研究支持 IBA57 激活线粒体 [4Fe–4S] 簇组装所需的电子传递。",
+      "meaning_cn": "瞬态复合物的结构约束可以把蛋白识别界面与电子转移功能联系起来，但17 Å来自模型，不能单独确定转移速率。机制判断还依赖 NADPH/FDXR/FDX2 还原体系及后续动力学数据，不能将静态结构距离直接换成催化效率。",
+      "publication_date": "2026-11-15",
+      "time_scope": "7d_extension",
+      "source": "Advanced Science",
+      "url": "https://doi.org/10.1002/advs.78786",
+      "doi": "10.1002/advs.78786",
+      "alternative_sources": [
+        {
+          "name": "PubMed 题录与摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43036033/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-18",
+      "last_updated": "2026-11-18",
+      "report_file": "SpinFront_2026-11-18.html"
+    },
+    {
+      "item_id": "SF-20261118-07",
+      "report_date": "2026-11-18",
+      "item_no": 7,
+      "title_cn": "HDX-NMR 与 HDX-MS 解析交错结构酶的折叠顺序",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Malempré 等联合淬灭流氢氘交换质谱与 HDX-NMR，追踪 BS3 β-内酰胺酶从毫秒到分钟的折叠。β4–β5 区域最早获得类天然保护，随后两个结构域的模块逐步受保护；后期脯氨酸异构化限制最终成熟，并与酶活恢复相伴。",
+      "meaning_cn": "联合读出将早期保护形成和较慢的最终成熟区分开，有助于研究序列上不连续结构域的协同折叠。交换保护反映氢键和溶剂可及性等因素，不能直接等同于完整天然结构；该路径目前针对完整 BS3，而非所有同类酶。",
+      "publication_date": "2026-11-16",
+      "time_scope": "7d_extension",
+      "source": "Journal of Molecular Biology",
+      "url": "https://doi.org/10.1016/j.jmb.2026.170097",
+      "doi": "10.1016/j.jmb.2026.170097",
+      "alternative_sources": [
+        {
+          "name": "PubMed 题录与摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43039218/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-18",
+      "last_updated": "2026-11-18",
+      "report_file": "SpinFront_2026-11-18.html"
+    },
+    {
+      "item_id": "SF-20261118-08",
+      "report_date": "2026-11-18",
+      "item_no": 8,
+      "title_cn": "qNMR 标定参照物支持五实验室 LSD 定量比对",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "qnmr"
+      ],
+      "application_ids": [
+        "quality_control"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Monti 等向五家瑞士药物检测实验室分发两种载药纸片和一种甲醇溶液，各实验室使用自身提取流程及色谱方法定量。研究用质子 qNMR 确定参照标准纯度并校正结果；实验室间相对标准偏差为8%–16.5%，平均准确度偏差为−5.3%至−13.0%。",
+      "meaning_cn": "qNMR 在这里承担参照物纯度赋值，最终样品浓度来自不同色谱流程，不能把实验室间偏差解释为核磁测量精度。液体样本变异较大，提示比对时需把标准纯度、样品稳定性和提取步骤分开核查。",
+      "publication_date": "2026-11-14",
+      "time_scope": "7d_extension",
+      "source": "Drug Testing and Analysis",
+      "url": "https://doi.org/10.1002/dta.70190",
+      "doi": "10.1002/dta.70190",
+      "alternative_sources": [
+        {
+          "name": "PubMed 题录与摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43031473/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-18",
+      "last_updated": "2026-11-18",
+      "report_file": "SpinFront_2026-11-18.html"
+    },
+    {
+      "item_id": "SF-20261118-09",
+      "report_date": "2026-11-18",
+      "item_no": 9,
+      "title_cn": "甲基 HMQC 比较膜模拟环境对受体构象的影响",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Tanipour 等用 ¹³CH₃-Met 标记的 α1A 肾上腺素受体，比较 DDM、LMNG 胶束和 saposin 纳米颗粒中的 ¹H–¹³C HMQC 谱。LMNG 与 DDM 谱总体相近；在纳米颗粒中，靠近 G 蛋白结合位点的 M203 信号完全消失，与中间交换速率的解释相符。",
+      "meaning_cn": "同一受体换用膜模拟介质，报告位点的信号消失可能来自交换展宽，而非蛋白缺失。研究使用热稳定化并标记的受体，环境与突变都可能影响动力学；判读配体效应时，应把介质和温度变化纳入对照。",
+      "publication_date": "2026-11-11",
+      "time_scope": "7d_extension",
+      "source": "Biochimica et Biophysica Acta (BBA) - Biomembranes",
+      "url": "https://doi.org/10.1016/j.bbamem.2026.184591",
+      "doi": "10.1016/j.bbamem.2026.184591",
+      "alternative_sources": [
+        {
+          "name": "PubMed 题录与摘要",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43014438/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-18",
+      "last_updated": "2026-11-18",
+      "report_file": "SpinFront_2026-11-18.html"
+    },
+    {
+      "item_id": "SF-20261118-10",
+      "report_date": "2026-11-18",
+      "item_no": 10,
+      "title_cn": "采购与需求动态：上海有机所高灵敏度高温 NMR 招标",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "tender",
+      "summary_cn": "中国科学院上海有机化学研究所于2026-11-16发布高灵敏度高温核磁共振谱仪及配套系统公开招标公告（OITC-G260303073），采购1套，预算及最高限价均为1062万元，允许进口产品；招标文件获取期为11月16日至23日，投标截止及开标时间为2026-12-07 09:30（北京时间）。",
+      "meaning_cn": "本项目要求整包投标，不得拆分，不接受联合体投标。公告将技术要求指向附件，公开正文未列出磁体场强、探头温区和各核种灵敏度，不能用此前采购意向中的参数代替本次招标要求。",
+      "publication_date": "2026-11-16",
+      "time_scope": "7d_extension",
+      "source": "上海有机所｜高灵敏度高温核磁共振谱仪及配套系统公开招标",
+      "url": "https://www.oitccas.com/pages/tender_online_info.html?FormNo=ZBLX26110503",
+      "doi": "",
+      "alternative_sources": [
+        {
+          "name": "中国政府采购网原始公告（正文由代理机构公开接口交叉核验）",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202611/t20261116_27691935.htm"
+        }
+      ],
+      "related_to": [],
+      "review_status": "unreviewed",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-18",
+      "last_updated": "2026-11-18",
+      "report_file": "SpinFront_2026-11-18.html"
+    }
+  ]
+}

@@ -1,0 +1,497 @@
+{
+  "schema_version": "1.0.0",
+  "report_date": "2026-11-19",
+  "retrieval_cutoff": "2026-11-19T05:56:44+08:00",
+  "repository": {
+    "base_head": "c0edf7151182f16d0aeade76bf24108aa7305d70",
+    "taxonomy_version": "1.2.0"
+  },
+  "search_summary": {
+    "enhancement_trigger": "24小时不足5，扩展首轮不足8，执行深度增强",
+    "route_attempts": {
+      "nature": {
+        "url": "https://www.nature.com/subjects/nuclear-magnetic-resonance-spectroscopy",
+        "status": "source_verified"
+      },
+      "springer": {
+        "url": "https://link.springer.com/",
+        "status": "source_verified"
+      },
+      "wiley": {
+        "url": "https://onlinelibrary.wiley.com/",
+        "status": "source_verified"
+      },
+      "aps": {
+        "url": "https://journals.aps.org/",
+        "status": "source_verified"
+      },
+      "pubmed": {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/",
+        "status": "searched"
+      },
+      "crossref": {
+        "url": "https://api.crossref.org/works",
+        "status": "searched",
+        "limitations": "部分查询受429限制"
+      },
+      "arxiv": {
+        "url": "https://arxiv.org/",
+        "status": "searched"
+      },
+      "chemrxiv": {
+        "url": "https://chemrxiv.org/",
+        "status": "access_limited"
+      },
+      "bruker": {
+        "url": "https://www.bruker.com/en/news-and-events/news.html",
+        "status": "searched"
+      },
+      "jeol": {
+        "url": "https://www.jeol.com/news/",
+        "status": "searched"
+      },
+      "oxford": {
+        "url": "https://www.oxinst.com/news",
+        "status": "searched"
+      },
+      "magritek": {
+        "url": "https://magritek.com/news/",
+        "status": "searched"
+      },
+      "nanalysis": {
+        "url": "https://www.nanalysis.com/nmready-blog",
+        "status": "searched"
+      },
+      "ciqtek": {
+        "url": "https://www.ciqtek.com/news_nc1",
+        "status": "access_limited"
+      },
+      "enc": {
+        "url": "https://www.enc-conference.org/",
+        "status": "searched"
+      },
+      "euromar": {
+        "url": "https://euromar.org/",
+        "status": "searched"
+      },
+      "icmrbs": {
+        "url": "https://icmrbs.org/",
+        "status": "searched"
+      },
+      "efepr": {
+        "url": "https://www.efepr.org/",
+        "status": "searched"
+      },
+      "apes": {
+        "url": "https://www.apes.org/",
+        "status": "access_limited"
+      },
+      "ismar": {
+        "url": "https://ismar.org/",
+        "status": "searched"
+      },
+      "procurement_nankai": {
+        "url": "https://nkzbb.nankai.edu.cn/jgfw/4809.chtml",
+        "status": "source_verified"
+      }
+    },
+    "additional_routes": {
+      "solid_nmr": {
+        "url": "https://www.nature.com/articles/s41467-026-79563-w",
+        "status": "source_verified"
+      },
+      "benchtop": {
+        "url": "https://link.springer.com/article/10.1007/s12161-026-03375-3",
+        "status": "source_verified"
+      },
+      "geothermal": {
+        "url": "https://link.springer.com/article/10.1186/s40517-026-00420-6",
+        "status": "source_verified"
+      },
+      "synthetic_mrs": {
+        "url": "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/nbm.70427",
+        "status": "source_verified"
+      },
+      "accelerated_mrsi": {
+        "url": "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/nbm.70436",
+        "status": "source_verified"
+      },
+      "fe3gete2": {
+        "url": "https://journals.aps.org/prb/abstract/10.1103/27h2-qnt8",
+        "status": "source_verified"
+      },
+      "sodium_cathode": {
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.75698",
+        "status": "source_verified"
+      },
+      "qnmr_curcumin": {
+        "url": "https://jddtonline.info/index.php/jddt/article/view/8066",
+        "status": "source_verified"
+      }
+    },
+    "daily_window": [
+      "2026-11-12",
+      "2026-11-13",
+      "2026-11-14",
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17",
+      "2026-11-18"
+    ],
+    "limitations": [
+      "部分出版社页面403/429，使用公开出版社页面、PubMed或Crossref题录补查",
+      "CIQTEK与部分会议站点存在503/访问限制",
+      "未取得采购候选独立原文的项目不计入公告数",
+      "科学摘要按可读原文或摘要审阅，未读取的图表参数不作推断"
+    ]
+  },
+  "candidates": [
+    {
+      "title": "高维固体 NMR 用优化相干转移脉冲缩短蛋白实验时间",
+      "doi": "10.1038/s41467-026-79563-w",
+      "url": "https://doi.org/10.1038/s41467-026-79563-w",
+      "actual_online_date": "2026-11-18",
+      "publication_status": "early_access",
+      "author_verified": "已由出版商页面核对",
+      "author_source": "https://doi.org/10.1038/s41467-026-79563-w",
+      "magnetic_resonance_role": "method_core",
+      "evidence_location": "出版商或官方采购公告；按可读摘要写作",
+      "evidence": "Klein 等研究蛋白高维固体 NMR 中的专用横向混合最优控制脉冲。TROP 脉冲同时改善多步磁化转移，在 4D/5D 相关实验中使所需采集时间接近降低一个数量级；与非均匀采样结合后，原始数据质量和重建条件也得到改善。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "摘要级或公告正文级审阅；未引用无法读取的图表参数"
+    },
+    {
+      "title": "台式 NMR 综述食品掺假与真实性检测应用",
+      "doi": "10.1007/s12161-026-03375-3",
+      "url": "https://doi.org/10.1007/s12161-026-03375-3",
+      "actual_online_date": "2026-11-18",
+      "publication_status": "published",
+      "author_verified": "已由出版商页面核对",
+      "author_source": "https://doi.org/10.1007/s12161-026-03375-3",
+      "magnetic_resonance_role": "method_core",
+      "evidence_location": "出版商或官方采购公告；按可读摘要写作",
+      "evidence": "Pacheco 等综述台式 NMR 在食品掺假与真实性检测中的应用，比较高场与低场、光谱型与时域型方案，并讨论化学计量学在分类和鉴别中的作用。文章将台式 NMR 的无损、快速和较低设备门槛与传统色谱方法的样品前处理需求进行比较。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "摘要级或公告正文级审阅；未引用无法读取的图表参数"
+    },
+    {
+      "title": "NMR 弛豫特征结合机器学习预测地热储层渗透率",
+      "doi": "10.1186/s40517-026-00420-6",
+      "url": "https://doi.org/10.1186/s40517-026-00420-6",
+      "actual_online_date": "2026-11-17",
+      "publication_status": "published",
+      "author_verified": "已由出版商页面核对",
+      "author_source": "https://doi.org/10.1186/s40517-026-00420-6",
+      "magnetic_resonance_role": "method_core",
+      "evidence_location": "出版商或官方采购公告；按可读摘要写作",
+      "evidence": "Yadav 等将 NMR 实验数据与机器学习结合，对204块地热岩心建立渗透率预测模型。输入包含有效孔隙度、总孔隙度、有效应力、盐度以及 T₂lm、T₂mode；随机森林在独立测试集上取得 R²=0.968、RMSE=52.414、AARE=62.046%。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "摘要级或公告正文级审阅；未引用无法读取的图表参数"
+    },
+    {
+      "title": "合成 MRS 数据综述覆盖基线、场不均匀和采样误差建模",
+      "doi": "10.1002/nbm.70427",
+      "url": "https://doi.org/10.1002/nbm.70427",
+      "actual_online_date": "2026-11-17",
+      "publication_status": "early_access",
+      "author_verified": "已由出版商页面核对",
+      "author_source": "https://doi.org/10.1002/nbm.70427",
+      "magnetic_resonance_role": "method_core",
+      "evidence_location": "出版商或官方采购公告；按可读摘要写作",
+      "evidence": "LaMaster 等综述磁共振波谱合成数据的生成方法，把基础组成拆分为 basis set、信号形成模型和代谢物参数分布，并进一步讨论基线、线圈灵敏度、场不均匀、k 空间采样、梯度误差及时间动态。文章同时整理验证、报告规范和数据可访问性。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "摘要级或公告正文级审阅；未引用无法读取的图表参数"
+    },
+    {
+      "title": "超短 TR FID-MRSI 用两阶段 IDEAL 加速脑代谢物定量",
+      "doi": "10.1002/nbm.70436",
+      "url": "https://doi.org/10.1002/nbm.70436",
+      "actual_online_date": "2026-11-17",
+      "publication_status": "early_access",
+      "author_verified": "已由出版商页面核对",
+      "author_source": "https://doi.org/10.1002/nbm.70436",
+      "magnetic_resonance_role": "method_core",
+      "evidence_location": "出版商或官方采购公告；按可读摘要写作",
+      "evidence": "Jang 等在3.0 T上提出非水脂抑制超短 TR FID-MRSI 与 FID 编码 IDEAL 两阶段重建。128个 FID 点使 TR 降至80 ms，相比常规 FID-MRSI 的470 ms，水参照定量采集时间缩短10.58倍；15名受试者的 tCho、tCr、tNAA 图与常规方法呈中等一致。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "摘要级或公告正文级审阅；未引用无法读取的图表参数"
+    },
+    {
+      "title": "高频 ESR 解析近化学计量 Fe₃GeTe₂ 的磁各向异性与磁振子隙",
+      "doi": "10.1103/27h2-qnt8",
+      "url": "https://doi.org/10.1103/27h2-qnt8",
+      "actual_online_date": "2026-11-17",
+      "publication_status": "published",
+      "author_verified": "已由出版商页面核对",
+      "author_source": "https://doi.org/10.1103/27h2-qnt8",
+      "magnetic_resonance_role": "method_core",
+      "evidence_location": "出版商或官方采购公告；按可读摘要写作",
+      "evidence": "Pal 等对近化学计量 Fe₃.₀₃GeTe₂ 单晶开展宽频率、变温和变场 ESR。频率依赖结果显示易轴铁磁行为；3 K 时内禀单轴磁晶各向异性能量约为−5×10⁶ erg cm⁻³，磁振子隙为87.8±13.7 GHz（0.363±0.057 meV），且 ESR 线位移在居里温度以上仍存在。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "摘要级或公告正文级审阅；未引用无法读取的图表参数"
+    },
+    {
+      "title": "自旋态调控焦磷酸盐正极的铁氧化还原与结构可逆性",
+      "doi": "10.1002/adma.75698",
+      "url": "https://doi.org/10.1002/adma.75698",
+      "actual_online_date": "2026-11-14",
+      "publication_status": "published",
+      "author_verified": "已由出版商页面核对",
+      "author_source": "https://doi.org/10.1002/adma.75698",
+      "magnetic_resonance_role": "method_core",
+      "evidence_location": "出版商或官方采购公告；按可读摘要写作",
+      "evidence": "Pinjari 等通过自旋态调控设计焦磷酸盐多阴离子钠离子电池正极，并用 EPR 等表征铁的电子状态变化。优化 NFMnPF 正极在0.1 C下比容量为115.75 mAh g⁻¹；在10 C循环24,000次后保持初始容量的70%，20 C循环10,000次后保持80.93%。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "摘要级或公告正文级审阅；未引用无法读取的图表参数"
+    },
+    {
+      "title": "qNMR 联合光谱与质谱比较不同来源姜黄中的姜黄素",
+      "doi": "10.22270/jddt.v16i11.8066",
+      "url": "https://doi.org/10.22270/jddt.v16i11.8066",
+      "actual_online_date": "2026-11-15",
+      "publication_status": "published",
+      "author_verified": "已由出版商页面核对",
+      "author_source": "https://doi.org/10.22270/jddt.v16i11.8066",
+      "magnetic_resonance_role": "method_core",
+      "evidence_location": "出版商或官方采购公告；按可读摘要写作",
+      "evidence": "Palak 等比较自制姜黄与市售姜黄提取物，用¹H NMR、FTIR 和质谱分析姜黄素相关信号，并进一步对14种设计的姜黄素衍生物进行计算筛选。文章明确指出完整内标和方法学验证数据不足，因此 NMR 比较属于半定量。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "摘要级或公告正文级审阅；未引用无法读取的图表参数"
+    },
+    {
+      "title": "采购与需求动态：南开大学 600/800 MHz 核磁冷头维保成交",
+      "doi": "",
+      "url": "https://nkzbb.nankai.edu.cn/jgfw/4809.chtml",
+      "actual_online_date": "2026-11-18",
+      "publication_status": "published",
+      "author_verified": "南开大学招投标管理办公室",
+      "author_source": "https://nkzbb.nankai.edu.cn/jgfw/4809.chtml",
+      "magnetic_resonance_role": "procurement",
+      "evidence_location": "出版商或官方采购公告；按可读摘要写作",
+      "evidence": "南开大学于2026-11-18发布化学学院600 MHz和800 MHz核磁冷头维保采购项目成交公告（NK2026F084）。成交供应商为布鲁克（北京）科技有限公司，成交金额29万元，服务期1年，服务内容为600M、800M核磁共振波谱仪冷头及超低温平台维护。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "摘要级或公告正文级审阅；未引用无法读取的图表参数"
+    },
+    {
+      "title": "Nuclear quadrupole resonance spectroscopy as an operando tool for mechanochemistry",
+      "doi": "",
+      "url": "https://www.nature.com/articles/s41467-026-79611-1",
+      "actual_online_date": "2026-11-17",
+      "publication_status": "published",
+      "author_verified": "César Leroy",
+      "author_source": "https://www.nature.com/articles/s41467-026-79611-1",
+      "magnetic_resonance_role": "out_of_scope",
+      "evidence_location": "Nature subject page",
+      "evidence": "NQR为核四极共振，不属于仓库当前NMR/EPR方向集合。",
+      "decision": "excluded",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "范围排除"
+    },
+    {
+      "title": "低频脉冲EPR spectrometer for hyperfine clock transition measurement",
+      "doi": "",
+      "url": "",
+      "actual_online_date": "2026-07-12",
+      "publication_status": "published",
+      "author_verified": "verified",
+      "author_source": "publisher metadata",
+      "magnetic_resonance_role": "out_of_window",
+      "evidence_location": "publisher metadata",
+      "evidence": "期刊卷期日期较新，但在线首发早于本期7天窗口。",
+      "decision": "excluded",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "在线首发超出7天窗口"
+    },
+    {
+      "title": "Bruker NMR & EPR User Meeting 2026, Thailand",
+      "doi": "",
+      "url": "https://www.bruker.com/de/news-and-events/events/nmr-epr-um-thailand.html",
+      "actual_online_date": "",
+      "publication_status": "event_page",
+      "author_verified": "Bruker",
+      "author_source": "https://www.bruker.com/de/news-and-events/events/nmr-epr-um-thailand.html",
+      "magnetic_resonance_role": "event",
+      "evidence_location": "Bruker event page",
+      "evidence": "活动日期为2026-11-20，但网页发布时间未明确，未作为新增网页动态收录。",
+      "decision": "excluded",
+      "source_status": "verified",
+      "date_status": "unverified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "缺少网页发布时间"
+    },
+    {
+      "title": "清华大学核磁共振波谱仪更新采购项目成交结果",
+      "doi": "",
+      "url": "https://sbgysfw.sysc.tsinghua.edu.cn/",
+      "actual_online_date": "2026-11-16",
+      "publication_status": "published",
+      "author_verified": "Tsinghua official list",
+      "author_source": "https://sbgysfw.sysc.tsinghua.edu.cn/",
+      "magnetic_resonance_role": "procurement",
+      "evidence_location": "官方列表",
+      "evidence": "列表可见项目标题，但独立正文未完成读取。",
+      "decision": "excluded",
+      "source_status": "partial",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "未取得独立公告正文"
+    },
+    {
+      "title": "物理与光电工程学院EPR测试服务",
+      "doi": "",
+      "url": "https://www.arrbid.com/",
+      "actual_online_date": "2026-11-17",
+      "publication_status": "published",
+      "author_verified": "转载页面",
+      "author_source": "https://www.arrbid.com/",
+      "magnetic_resonance_role": "procurement",
+      "evidence_location": "转载采购页",
+      "evidence": "可见连续波25小时和脉冲30小时测试服务，但采购单位官方原文未取得。",
+      "decision": "excluded",
+      "source_status": "partial",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "未取得采购单位官方原文"
+    }
+  ],
+  "dedup": {
+    "index_head": "c0edf7151182f16d0aeade76bf24108aa7305d70",
+    "issue_count": 89,
+    "item_count": 772,
+    "recent_issues": [
+      "2026-11-12",
+      "2026-11-13",
+      "2026-11-14",
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17",
+      "2026-11-18"
+    ],
+    "additional_screen_issue": "2026-11-18",
+    "doi_duplicates": 0,
+    "keys": [
+      "normalized DOI",
+      "URL without tracking parameters",
+      "normalized title",
+      "procurement project+stage+date"
+    ]
+  },
+  "procurement": {
+    "registered_candidates": 4,
+    "qualified_announcements": 1,
+    "excluded": 3,
+    "daily_item_count": 9,
+    "summary_item_id": "SF-20261119-09",
+    "candidates": [
+      {
+        "title": "南开大学化学学院600MHz和800MHz核磁冷头维保采购项目成交公告",
+        "unit": "南开大学",
+        "date": "2026-11-18",
+        "url": "https://nkzbb.nankai.edu.cn/jgfw/4809.chtml",
+        "project_no": "NK2026F084",
+        "decision": "included",
+        "reason": "南开大学官方成交公告原文确认；发布日期、成交供应商、金额和服务期均可读"
+      },
+      {
+        "title": "清华大学核磁共振波谱仪更新采购项目成交结果",
+        "unit": "清华大学",
+        "date": "2026-11-16",
+        "url": "https://sbgysfw.sysc.tsinghua.edu.cn/",
+        "decision": "excluded",
+        "reason": "官方列表可见，但独立公告正文未完成读取"
+      },
+      {
+        "title": "物理与光电工程学院EPR测试服务",
+        "unit": "未确认",
+        "date": "2026-11-17",
+        "url": "https://www.arrbid.com/",
+        "decision": "excluded",
+        "reason": "仅取得转载，采购单位官方原文未确认"
+      },
+      {
+        "title": "无锡市中医医院医用核磁采购",
+        "unit": "无锡市中医医院",
+        "date": "2026-11-17",
+        "url": "https://m.instrument.com.cn/event/bid/t168160.html",
+        "decision": "excluded",
+        "reason": "医学MRI采购，按范围排除"
+      }
+    ],
+    "included_history_review_hits": []
+  },
+  "editorial_review": {
+    "source": "approved for included items",
+    "dates": "approved; publisher and official procurement dates checked",
+    "tags": "approved",
+    "science": "approved at abstract/full-announcement level",
+    "no_images": true
+  },
+  "verification": {
+    "build_check": "pending",
+    "build": "pending",
+    "search_test": "pending",
+    "procurement_test": "pending",
+    "build_test": "pending",
+    "publication": "not yet submitted",
+    "content_consistency": "pending until generated HTML is built and checked"
+  }
+}

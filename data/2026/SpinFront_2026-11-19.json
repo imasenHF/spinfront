@@ -1,0 +1,360 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "scope_note": "检索截至2026-11-19T05:56:44+08:00。近24小时常规检索合格候选不足5条，启动增强搜索；首轮合格候选仍不足8条，执行深度增强检索，回扫11月12日至18日并检查专业与高影响期刊、预印本/题录、厂商、会议和采购。对全库89期772条、最近7期及11月18日屏幕正文查重；已纳入候选均通过标题、DOI/URL和作者主语检查。部分出版社与动态采购接口受限，使用可读官方页面、PubMed、Crossref题录及出版社页面交叉核对；未取得原文的采购候选不入选。本期9条，其中采购汇总1条、实际公告1份；研究条目全部为24小时或7天扩展，无待复核标签。",
+  "items": [
+    {
+      "item_id": "SF-20261119-01",
+      "report_date": "2026-11-19",
+      "item_no": 1,
+      "title_cn": "高维固体 NMR 用优化相干转移脉冲缩短蛋白实验时间",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr",
+        "nus",
+        "polarization_transfer"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Klein 等研究蛋白高维固体 NMR 中的专用横向混合最优控制脉冲。TROP 脉冲同时改善多步磁化转移，在 4D/5D 相关实验中使所需采集时间接近降低一个数量级；与非均匀采样结合后，原始数据质量和重建条件也得到改善。",
+      "meaning_cn": "高维固体 NMR 的主要限制之一是维度增加后采集时间迅速增长。该工作把脉冲设计、磁化转移和 NUS 重建作为一个采集方案比较，结果针对所测蛋白体系和实验参数；具体时间缩短比例不能直接外推到其他 MAS 频率、核种或脉冲序列。",
+      "publication_date": "2026-11-18",
+      "time_scope": "24h",
+      "source": "Nature Communications",
+      "url": "https://doi.org/10.1038/s41467-026-79563-w",
+      "doi": "10.1038/s41467-026-79563-w",
+      "alternative_sources": [
+        {
+          "name": "原文",
+          "url": "https://www.nature.com/articles/s41467-026-79563-w"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-19",
+      "last_updated": "2026-11-19",
+      "report_file": "SpinFront_2026-11-19.html"
+    },
+    {
+      "item_id": "SF-20261119-02",
+      "report_date": "2026-11-19",
+      "item_no": 2,
+      "title_cn": "台式 NMR 综述食品掺假与真实性检测应用",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "benchtop_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "quality_control"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "review",
+      "summary_cn": "Pacheco 等综述台式 NMR 在食品掺假与真实性检测中的应用，比较高场与低场、光谱型与时域型方案，并讨论化学计量学在分类和鉴别中的作用。文章将台式 NMR 的无损、快速和较低设备门槛与传统色谱方法的样品前处理需求进行比较。",
+      "meaning_cn": "台式 NMR 的优势主要体现在直接获得整体化学指纹和较少样品前处理，实际鉴别能力仍取决于磁场、探头、重复性和化学计量学模型。综述给出的是应用范围与限制，不等同于某一食品基质上的统一检测限。",
+      "publication_date": "2026-11-18",
+      "time_scope": "24h",
+      "source": "Journal of Analytical Science and Technology",
+      "url": "https://doi.org/10.1007/s12161-026-03375-3",
+      "doi": "10.1007/s12161-026-03375-3",
+      "alternative_sources": [
+        {
+          "name": "原文",
+          "url": "https://link.springer.com/article/10.1007/s12161-026-03375-3"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-19",
+      "last_updated": "2026-11-19",
+      "report_file": "SpinFront_2026-11-19.html"
+    },
+    {
+      "item_id": "SF-20261119-03",
+      "report_date": "2026-11-19",
+      "item_no": 3,
+      "title_cn": "NMR 弛豫特征结合机器学习预测地热储层渗透率",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Yadav 等将 NMR 实验数据与机器学习结合，对204块地热岩心建立渗透率预测模型。输入包含有效孔隙度、总孔隙度、有效应力、盐度以及 T₂lm、T₂mode；随机森林在独立测试集上取得 R²=0.968、RMSE=52.414、AARE=62.046%。",
+      "meaning_cn": "T₂lm 和 T₂mode 在模型中作为弛豫特征，与孔隙度、应力和盐度共同描述地热条件。结果来自204块岩心及既定测试划分，模型性能受岩性、温度和盐度范围限制；不能直接把 R² 作为跨储层通用精度。",
+      "publication_date": "2026-11-17",
+      "time_scope": "7d_extension",
+      "source": "Geothermal Energy",
+      "url": "https://doi.org/10.1186/s40517-026-00420-6",
+      "doi": "10.1186/s40517-026-00420-6",
+      "alternative_sources": [
+        {
+          "name": "原文",
+          "url": "https://link.springer.com/article/10.1186/s40517-026-00420-6"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-19",
+      "last_updated": "2026-11-19",
+      "report_file": "SpinFront_2026-11-19.html"
+    },
+    {
+      "item_id": "SF-20261119-04",
+      "report_date": "2026-11-19",
+      "item_no": 4,
+      "title_cn": "合成 MRS 数据综述覆盖基线、场不均匀和采样误差建模",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "spectral_processing"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "review",
+      "summary_cn": "LaMaster 等综述磁共振波谱合成数据的生成方法，把基础组成拆分为 basis set、信号形成模型和代谢物参数分布，并进一步讨论基线、线圈灵敏度、场不均匀、k 空间采样、梯度误差及时间动态。文章同时整理验证、报告规范和数据可访问性。",
+      "meaning_cn": "合成 MRS 数据可用于已知参数下的算法验证与采集方案测试，但模型中的 basis set、弛豫参数、噪声和场不均匀假设会直接影响与真实谱图的接近程度。文章给出的建议属于方法学综述，不代表所有临床 MRS 数据都满足同一模型。",
+      "publication_date": "2026-11-17",
+      "time_scope": "7d_extension",
+      "source": "NMR in Biomedicine",
+      "url": "https://doi.org/10.1002/nbm.70427",
+      "doi": "10.1002/nbm.70427",
+      "alternative_sources": [
+        {
+          "name": "原文",
+          "url": "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/nbm.70427"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-19",
+      "last_updated": "2026-11-19",
+      "report_file": "SpinFront_2026-11-19.html"
+    },
+    {
+      "item_id": "SF-20261119-05",
+      "report_date": "2026-11-19",
+      "item_no": 5,
+      "title_cn": "超短 TR FID-MRSI 用两阶段 IDEAL 加速脑代谢物定量",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "in_vivo_mrs"
+      ],
+      "method_ids": [
+        "spectral_processing"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Jang 等在3.0 T上提出非水脂抑制超短 TR FID-MRSI 与 FID 编码 IDEAL 两阶段重建。128个 FID 点使 TR 降至80 ms，相比常规 FID-MRSI 的470 ms，水参照定量采集时间缩短10.58倍；15名受试者的 tCho、tCr、tNAA 图与常规方法呈中等一致。",
+      "meaning_cn": "方法同时估计代谢物、巨分子和局部场偏移，并以子空间投影处理未抑制水和脂肪。体模 MAPE 为12.73%±3.76%，但频域残差仍可见；15名受试者结果只说明该采集和重建方案在该条件下可用，不能直接等同于临床定量方法学验证。",
+      "publication_date": "2026-11-17",
+      "time_scope": "7d_extension",
+      "source": "NMR in Biomedicine",
+      "url": "https://doi.org/10.1002/nbm.70436",
+      "doi": "10.1002/nbm.70436",
+      "alternative_sources": [
+        {
+          "name": "原文",
+          "url": "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/nbm.70436"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-19",
+      "last_updated": "2026-11-19",
+      "report_file": "SpinFront_2026-11-19.html"
+    },
+    {
+      "item_id": "SF-20261119-06",
+      "report_date": "2026-11-19",
+      "item_no": 6,
+      "title_cn": "高频 ESR 解析近化学计量 Fe₃GeTe₂ 的磁各向异性与磁振子隙",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Pal 等对近化学计量 Fe₃.₀₃GeTe₂ 单晶开展宽频率、变温和变场 ESR。频率依赖结果显示易轴铁磁行为；3 K 时内禀单轴磁晶各向异性能量约为−5×10⁶ erg cm⁻³，磁振子隙为87.8±13.7 GHz（0.363±0.057 meV），且 ESR 线位移在居里温度以上仍存在。",
+      "meaning_cn": "宽频 ESR 将共振场与频率、温度和晶轴方向同时比较，可把总各向异性场分解为内禀和形状贡献。样品成分为 Fe₃.₀₃±₀.₀₃Ge₀.₈₉±₀.₀₄Te₂.₀₀±₀.₀₁，结论对 Fe 含量敏感；文中也指出宽线使本征阻尼参数无法可靠定量。",
+      "publication_date": "2026-11-17",
+      "time_scope": "7d_extension",
+      "source": "Physical Review B",
+      "url": "https://doi.org/10.1103/27h2-qnt8",
+      "doi": "10.1103/27h2-qnt8",
+      "alternative_sources": [
+        {
+          "name": "原文",
+          "url": "https://journals.aps.org/prb/abstract/10.1103/27h2-qnt8"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-19",
+      "last_updated": "2026-11-19",
+      "report_file": "SpinFront_2026-11-19.html"
+    },
+    {
+      "item_id": "SF-20261119-07",
+      "report_date": "2026-11-19",
+      "item_no": 7,
+      "title_cn": "自旋态调控焦磷酸盐正极的铁氧化还原与结构可逆性",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "battery"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Pinjari 等通过自旋态调控设计焦磷酸盐多阴离子钠离子电池正极，并用 EPR 等表征铁的电子状态变化。优化 NFMnPF 正极在0.1 C下比容量为115.75 mAh g⁻¹；在10 C循环24,000次后保持初始容量的70%，20 C循环10,000次后保持80.93%。",
+      "meaning_cn": "EPR 在这里用于比较铁中心的自旋状态和氧化还原行为，与结构表征和电化学循环结果共同解释正极稳定性。长循环结果属于完整电池材料体系，不能单独归因于 EPR 所观察到的自旋态变化。",
+      "publication_date": "2026-11-14",
+      "time_scope": "7d_extension",
+      "source": "Advanced Materials",
+      "url": "https://doi.org/10.1002/adma.75698",
+      "doi": "10.1002/adma.75698",
+      "alternative_sources": [
+        {
+          "name": "原文",
+          "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.75698"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-19",
+      "last_updated": "2026-11-19",
+      "report_file": "SpinFront_2026-11-19.html"
+    },
+    {
+      "item_id": "SF-20261119-08",
+      "report_date": "2026-11-19",
+      "item_no": 8,
+      "title_cn": "qNMR 联合光谱与质谱比较不同来源姜黄中的姜黄素",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "qnmr"
+      ],
+      "application_ids": [
+        "natural_products"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Palak 等比较自制姜黄与市售姜黄提取物，用¹H NMR、FTIR 和质谱分析姜黄素相关信号，并进一步对14种设计的姜黄素衍生物进行计算筛选。文章明确指出完整内标和方法学验证数据不足，因此 NMR 比较属于半定量。",
+      "meaning_cn": "该工作适合作为低成本样品筛查案例：NMR 用于整体化学指纹和姜黄素相关信号比较，质谱用于分子离子和碎片确认。由于缺少完整 qNMR 验证参数，不能把文中结果当作经过计量学确认的绝对含量方法。",
+      "publication_date": "2026-11-15",
+      "time_scope": "7d_extension",
+      "source": "Journal of Drug Delivery and Therapeutics",
+      "url": "https://doi.org/10.22270/jddt.v16i11.8066",
+      "doi": "10.22270/jddt.v16i11.8066",
+      "alternative_sources": [
+        {
+          "name": "原文",
+          "url": "https://jddtonline.info/index.php/jddt/article/view/8066"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-19",
+      "last_updated": "2026-11-19",
+      "report_file": "SpinFront_2026-11-19.html"
+    },
+    {
+      "item_id": "SF-20261119-09",
+      "report_date": "2026-11-19",
+      "item_no": 9,
+      "title_cn": "采购与需求动态：南开大学 600/800 MHz 核磁冷头维保成交",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "tender",
+      "summary_cn": "南开大学于2026-11-18发布化学学院600 MHz和800 MHz核磁冷头维保采购项目成交公告（NK2026F084）。成交供应商为布鲁克（北京）科技有限公司，成交金额29万元，服务期1年，服务内容为600M、800M核磁共振波谱仪冷头及超低温平台维护。",
+      "meaning_cn": "本项目属于现有高场液体 NMR 的维保采购，直接对应冷头和超低温平台，而非整机采购。公告确认成交金额29万元和1年服务期；具体维护项目按采购文件执行，公开成交公告未列出冷头型号或年度保养工时。",
+      "publication_date": "2026-11-18",
+      "time_scope": "24h",
+      "source": "南开大学招投标管理办公室",
+      "url": "https://nkzbb.nankai.edu.cn/jgfw/4809.chtml",
+      "doi": "",
+      "alternative_sources": [
+        {
+          "name": "中国政府采购网原始公告链接",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202611/t20261118_27704566.htm"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-19",
+      "last_updated": "2026-11-19",
+      "report_file": "SpinFront_2026-11-19.html"
+    }
+  ]
+}

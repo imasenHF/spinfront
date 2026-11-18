@@ -4,7 +4,9 @@
   "retrieval_cutoff": "2026-11-19T05:56:44+08:00",
   "repository": {
     "base_head": "c0edf7151182f16d0aeade76bf24108aa7305d70",
-    "taxonomy_version": "1.2.0"
+    "taxonomy_version": "1.2.0",
+    "final_content_commit": "4dccdc90845234c0c70a877c6100abfeefc12241",
+    "pages_run": "44407550366"
   },
   "search_summary": {
     "enhancement_trigger": "24小时不足5，扩展首轮不足8，执行深度增强",
@@ -483,15 +485,16 @@
     "dates": "approved; publisher and official procurement dates checked",
     "tags": "approved",
     "science": "approved at abstract/full-announcement level",
-    "no_images": true
+    "no_images": true,
+    "public_page": "not independently verified; Pages deployment success verified"
   },
   "verification": {
-    "build_check": "pending",
-    "build": "pending",
-    "search_test": "pending",
-    "procurement_test": "pending",
-    "build_test": "pending",
-    "publication": "not yet submitted",
-    "content_consistency": "pending until generated HTML is built and checked"
+    "build_check": "passed after correction: first Actions run failed because canonical JSON lacked top-level report_date; corrected in commit 4dccdc90845234c0c70a877c6100abfeefc12241",
+    "build": "passed",
+    "search_test": "passed",
+    "procurement_test": "passed",
+    "build_test": "passed",
+    "publication": "Pages deployment succeeded in Actions run 44407550366",
+    "content_consistency": "generated archive and search/filter verification passed; final procurement item preserved; public URL direct HTTP verification unavailable from the current tool environment"
   }
 }

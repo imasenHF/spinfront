@@ -5,8 +5,8 @@
   "repository": {
     "base_head": "1b27d7d87364d2df4f709db98196270771522ccc",
     "taxonomy_version": "1.2.0",
-    "final_content_commit": null,
-    "pages_run": null
+    "final_content_commit": "8e94a6480e064fac38dbf447b7393386b2f1efb7",
+    "pages_run": "44625564346"
   },
   "search_summary": {
     "enhancement_trigger": "用户要求完成增强检索；常规24小时已核实5条，继续回扫近7天和分层路线",
@@ -612,7 +612,25 @@
     "procurement_placement": "approved",
     "html_json_screen_consistency": "approved",
     "tests": "approved",
-    "publication": "pending"
+    "publication": "approved"
   },
-  "final_review_status": "approved_for_build"
+  "final_review_status": "published",
+  "deployment": {
+    "actions_run": "44625564346",
+    "actions_url": "https://github.com/imasenHF/spinfront/actions/runs/44625564346",
+    "build": "success",
+    "pages_deploy": "success",
+    "public_issue_url": "https://plastocyanin.org/spinfront/2026-11-20/",
+    "public_validation": {
+      "issue_http": 200,
+      "home_http": 200,
+      "index_http": 200,
+      "search_index_http": 200,
+      "article_count": 10,
+      "order_and_exact_fields": "passed",
+      "procurement_last": "passed",
+      "home_and_indexes": "passed",
+      "downloads_present": false
+    }
+  }
 }

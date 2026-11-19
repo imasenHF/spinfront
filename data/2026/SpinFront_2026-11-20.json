@@ -1,0 +1,439 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-11-20",
+  "scope_note": "检索截至2026-11-20 06:02:13（Asia/Shanghai）。常规24小时核得5条；按本次任务要求，已启动增强搜索，覆盖专业与高影响期刊、PubMed/Crossref/arXiv、九组方法词、Bruker/JEOL/Oxford Instruments/Magritek/Nanalysis/CIQTEK、ENC/EUROMAR/ICMRBS/EFEPR/APES/ISMAR及中外采购来源，并回扫11月13日至19日。全库91期791条及最近7期查重，排除12个已登记DOI；另排除常规表征、首发超窗与日期不明候选。部分出版社、ChemRxiv、CIQTEK及个别会议页面受403/503或动态渲染限制，使用可读原文、官方题录和公开接口交叉核对。最终10条，其中采购汇总1条、实际公告1份，无待复核标签。",
+  "items": [
+    {
+      "item_id": "SF-20261120-01",
+      "report_date": "2026-11-20",
+      "item_no": 1,
+      "title_cn": "NV 色心实现低场纳米尺度氘 NMR",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr",
+        "nanomagnetic_resonance"
+      ],
+      "application_ids": [
+        "quantum_spin",
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Singh 等利用金刚石氮空位色心检测纳米体积内的统计自旋涨落，获得具有四极粉末线形的²H NMR 谱。与感应检测相比，自旋灵敏度提高约7—8个数量级，并在低两个数量级的磁场下解析氘代聚合物和分子固体的运动平均与相变。",
+      "meaning_cn": "该方案把²H四极线形和温变响应带到纳米尺度，适合研究氘代材料的局部动力学。灵敏度增益按自旋数衡量，依赖NV中心深度、样品与金刚石表面的距离及氘代程度，不能直接等同于常规线圈的浓度灵敏度。",
+      "publication_date": "2026-11-19",
+      "time_scope": "24h",
+      "source": "Nature Communications",
+      "url": "https://doi.org/10.1038/s41467-026-78803-3",
+      "doi": "10.1038/s41467-026-78803-3",
+      "alternative_sources": [
+        {
+          "name": "原文",
+          "url": "https://www.nature.com/articles/s41467-026-78803-3"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-20",
+      "last_updated": "2026-11-20",
+      "report_file": "SpinFront_2026-11-20.html"
+    },
+    {
+      "item_id": "SF-20261120-02",
+      "report_date": "2026-11-20",
+      "item_no": 2,
+      "title_cn": "非天然氨基酸扩展蛋白自旋标记与 CW/脉冲 EPR",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "cw_epr",
+        "pulsed_epr"
+      ],
+      "method_ids": [
+        "spin_labeling",
+        "deer_peldor"
+      ],
+      "application_ids": [
+        "structural_biology",
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "review",
+      "summary_cn": "Bizet 等综述将非天然氨基酸用于定点自旋标记的策略、标签合成与蛋白应用。CW-EPR 可覆盖皮秒至秒尺度的局部运动和构象交换，DEER 则通过标签间偶极相互作用给出约2—8 nm距离分布，并可减少传统半胱氨酸标记的位点限制。",
+      "meaning_cn": "非天然氨基酸可在天然半胱氨酸较多或需要正交位点时提高标记选择性，但实验仍受基因编码效率、标签体积、细胞内稳定性和双标记占有率限制。距离分布还需结合背景校正与标签构象库解释，不能直接当作单一骨架距离。",
+      "publication_date": "2026-11-19",
+      "time_scope": "24h",
+      "source": "Chemical Reviews",
+      "url": "https://doi.org/10.1021/acs.chemrev.6c00290",
+      "doi": "10.1021/acs.chemrev.6c00290",
+      "alternative_sources": [
+        {
+          "name": "原文",
+          "url": "https://pubs.acs.org/doi/10.1021/acs.chemrev.6c00290"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-20",
+      "last_updated": "2026-11-20",
+      "report_file": "SpinFront_2026-11-20.html"
+    },
+    {
+      "item_id": "SF-20261120-03",
+      "report_date": "2026-11-20",
+      "item_no": 3,
+      "title_cn": "FAIR NMR 统一时序反应数据采集、处理与动力学建模",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "reaction_monitoring",
+        "spectral_processing"
+      ],
+      "application_ids": [
+        "catalysis",
+        "process_analysis"
+      ],
+      "instrument_component_ids": [
+        "software"
+      ],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Giess 等提出 FAIR NMR 工作流，用 NMRPy 自动处理时序谱图，并以 EnzymeML 数据模型连接 PySCeS 和 Catalax 动力学框架。¹H NMR 的钯催化环异构化3组数据与³¹P NMR 的两步酶级联15组数据表明，独立重复和处理平台可得到一致动力学参数。",
+      "meaning_cn": "该流程同时保存采集、处理和模型元数据，便于跨实验室复算反应浓度曲线。可复现性仍依赖峰归属、积分区间、内标、采样间隔和所选动力学模型；标准化数据格式不能消除谱峰重叠或模型失配带来的系统误差。",
+      "publication_date": "2026-11-19",
+      "time_scope": "24h",
+      "source": "Analytical Chemistry",
+      "url": "https://doi.org/10.1021/acs.analchem.6c02376",
+      "doi": "10.1021/acs.analchem.6c02376",
+      "alternative_sources": [
+        {
+          "name": "原文",
+          "url": "https://pubs.acs.org/doi/10.1021/acs.analchem.6c02376"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-20",
+      "last_updated": "2026-11-20",
+      "report_file": "SpinFront_2026-11-20.html"
+    },
+    {
+      "item_id": "SF-20261120-04",
+      "report_date": "2026-11-20",
+      "item_no": 4,
+      "title_cn": "¹H qNMR 同时定量都梁滴丸欧前胡素与藁本内酯",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "qnmr"
+      ],
+      "application_ids": [
+        "natural_products",
+        "quality_control"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Liu 等以3,5-二甲基吡唑为内标，选择δ 7.67的欧前胡素信号和δ 6.10—6.20的藁本内酯信号，建立都梁滴丸¹H qNMR同步定量方法。方法按《中国药典》评价专属性、灵敏度、线性、准确度、精密度、重复性和回收率，并用于两个商业批次。",
+      "meaning_cn": "两个成分共用一次采集可减少分步色谱分析，但定量可靠性取决于内标纯度、积分基线、峰重叠和样品溶解。两个批次与HPLC结果总体可比，只能支持当前基质和验证范围；批间推广仍需覆盖更多来源和含量区间。",
+      "publication_date": "2026-11-19",
+      "time_scope": "24h",
+      "source": "Revista Brasileira de Farmacognosia",
+      "url": "https://doi.org/10.1007/s43450-026-00829-x",
+      "doi": "10.1007/s43450-026-00829-x",
+      "alternative_sources": [
+        {
+          "name": "原文",
+          "url": "https://link.springer.com/article/10.1007/s43450-026-00829-x"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-20",
+      "last_updated": "2026-11-20",
+      "report_file": "SpinFront_2026-11-20.html"
+    },
+    {
+      "item_id": "SF-20261120-05",
+      "report_date": "2026-11-20",
+      "item_no": 5,
+      "title_cn": "顺磁 Dy 配合物用 NMR 位移跟踪膜相变",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "paramagnetic_nmr"
+      ],
+      "application_ids": [
+        "life_science",
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Koshman 等研究[Dy(H₂O)n(CyDTA)]⁻与DMPC/DHPC双胶束模型膜的相互作用。¹H NMR显示配合物结合于膜的极性界面；头基质子的镧系诱导位移随温度线性变化，而疏水尾部质子呈特征性非线性变化，并与动态光散射确认的结构重排对应。",
+      "meaning_cn": "同一顺磁探针可把膜界面位置和温度响应编码到不同脂质质子位移中，适合比较模型膜相态。非线性特征依赖Dy配合物结合、膜组成和交换速度；用于复杂膜前还需排除探针对相平衡及谱线展宽的扰动。",
+      "publication_date": "2026-11-18",
+      "time_scope": "7d_extension",
+      "source": "Magnetic Resonance in Chemistry",
+      "url": "https://doi.org/10.1002/mrc.70157",
+      "doi": "10.1002/mrc.70157",
+      "alternative_sources": [
+        {
+          "name": "原文",
+          "url": "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/mrc.70157"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-20",
+      "last_updated": "2026-11-20",
+      "report_file": "SpinFront_2026-11-20.html"
+    },
+    {
+      "item_id": "SF-20261120-06",
+      "report_date": "2026-11-20",
+      "item_no": 6,
+      "title_cn": "模块化聚谷氨酸液晶介质提供互补 RDC 取向",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "chemical_structure",
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Laux 等模块化合成一系列带不同侧链的聚谷氨酸，它们可在有机溶剂中形成溶致液晶。模型化合物在不同介质中的取向按侧链类型聚类，跨类别产生线性独立取向；仅以¹DCH及甲基¹DCC残余偶极耦合作约束即可完成模型结构解析。",
+      "meaning_cn": "多组线性独立RDC可降低单一取向介质造成的结构退化解，适合相对构型判定。实际使用需先确认样品与介质相容、取向强度和峰可分辨性；模型化合物结果不能保证所有官能团或溶剂体系都提供同样互补的取向张量。",
+      "publication_date": "2026-11-18",
+      "time_scope": "7d_extension",
+      "source": "Advanced Materials",
+      "url": "https://doi.org/10.1002/adma.75710",
+      "doi": "10.1002/adma.75710",
+      "alternative_sources": [
+        {
+          "name": "原文",
+          "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.75710"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-20",
+      "last_updated": "2026-11-20",
+      "report_file": "SpinFront_2026-11-20.html"
+    },
+    {
+      "item_id": "SF-20261120-07",
+      "report_date": "2026-11-20",
+      "item_no": 7,
+      "title_cn": "自旋标记 EPR 区分葡糖神经酰胺两类膜相",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "cw_epr"
+      ],
+      "method_ids": [
+        "spin_labeling",
+        "spin_probe"
+      ],
+      "application_ids": [
+        "life_science",
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Biswas 等用硝基氧自旋标记的α/β-葡糖神经酰胺研究其在三种磷脂脂质体中的分配。EPR谱包含受限宽组分和高运动性窄组分；模拟显示α异构体主要进入层状磷脂相，β异构体富集于分离的糖脂纳米组装体，0.5 mol%探针负载下仍可观察差异。",
+      "meaning_cn": "双组分线形把糖苷构型与膜相分配联系起来，可用于低丰度糖脂的组装倾向比较。组分归属来自谱模拟和互补分析，受自旋标签位置、膜配方与温度影响；标签类似物的行为仍需与未标记糖脂交叉验证。",
+      "publication_date": "2026-11-17",
+      "time_scope": "7d_extension",
+      "source": "Proceedings of the National Academy of Sciences",
+      "url": "https://doi.org/10.1073/pnas.2621818123",
+      "doi": "10.1073/pnas.2621818123",
+      "alternative_sources": [
+        {
+          "name": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1073%2Fpnas.2621818123"
+        },
+        {
+          "name": "原文",
+          "url": "https://www.pnas.org/doi/10.1073/pnas.2621818123"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-20",
+      "last_updated": "2026-11-20",
+      "report_file": "SpinFront_2026-11-20.html"
+    },
+    {
+      "item_id": "SF-20261120-08",
+      "report_date": "2026-11-20",
+      "item_no": 8,
+      "title_cn": "¹⁹F NMR 解析 PFAS 与血清白蛋白和乳球蛋白的多模式结合",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr",
+        "ligand_observed_nmr"
+      ],
+      "application_ids": [
+        "environment",
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Faber 等用¹⁹F NMR比较9种PFAS与人血清白蛋白、5种PFAS与牛β-乳球蛋白的结合。多种PFAS呈现多个结合位点或模式，Kd约为10⁰—10² μM；混合实验提示在人血清白蛋白上存在竞争，在β-乳球蛋白上则出现协同性，牛α-乳白蛋白未见结合。",
+      "meaning_cn": "¹⁹F直接观察配体可在混合物中区分含氟化合物并估计蛋白结合，适合暴露和毒理模型参数化。所得Kd与竞争关系受蛋白浓度、缓冲体系和交换区间影响；体外蛋白结果不能直接代表血浆或乳制品中的整体分配。",
+      "publication_date": "2026-11-17",
+      "time_scope": "7d_extension",
+      "source": "ACS ES&T Toxicology",
+      "url": "https://doi.org/10.1021/acsesttox.6c00092",
+      "doi": "10.1021/acsesttox.6c00092",
+      "alternative_sources": [
+        {
+          "name": "原文",
+          "url": "https://pubs.acs.org/doi/10.1021/acsesttox.6c00092"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-20",
+      "last_updated": "2026-11-20",
+      "report_file": "SpinFront_2026-11-20.html"
+    },
+    {
+      "item_id": "SF-20261120-09",
+      "report_date": "2026-11-20",
+      "item_no": 9,
+      "title_cn": "绝热 RINEPT 加速聚烯烃定量 ¹³C NMR",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "qnmr",
+        "polarization_transfer",
+        "spectral_processing"
+      ],
+      "application_ids": [
+        "polymers",
+        "quality_control"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Ji 等以绝热整形脉冲替代硬G5反转/重聚焦脉冲，并用两种算法优化RINEPT的8个τ₂值，使CH、CH₂和CH₃共振均获得灵敏度增益。AOA-RINEPT在模型物、聚丙烯及多种聚乙烯共聚物上提高灵敏度5.1—7.0倍，采集时间缩短25—49倍。",
+      "meaning_cn": "该方法针对聚烯烃微结构定量同时改善相位稳定性和采集效率，30 min数据可定量共混物中的iPP相和痕量己烯共聚单体。增益依赖可发生极化转移的CH类型；季碳或超高分子量体系需改用经校准的60° Ernst角方案。",
+      "publication_date": "2026-11-16",
+      "time_scope": "7d_extension",
+      "source": "Macromolecules",
+      "url": "https://doi.org/10.1021/acs.macromol.6c02465",
+      "doi": "10.1021/acs.macromol.6c02465",
+      "alternative_sources": [
+        {
+          "name": "原文",
+          "url": "https://pubs.acs.org/doi/10.1021/acs.macromol.6c02465"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-20",
+      "last_updated": "2026-11-20",
+      "report_file": "SpinFront_2026-11-20.html"
+    },
+    {
+      "item_id": "SF-20261120-10",
+      "report_date": "2026-11-20",
+      "item_no": 10,
+      "title_cn": "采购与需求动态：过程工程所多频率 EPR 项目重新招标",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "instrument_component_ids": [
+        "magnet",
+        "resonator",
+        "vt_system"
+      ],
+      "sample_systems": [],
+      "information_type": "tender",
+      "summary_cn": "中国科学院过程工程研究所多频率电子顺磁共振波谱仪采购项目在前次废标后启动第二次公开招标，项目编号OITC-G260571726（第二次）。本次采购1套设备，允许进口，预算及最高限价均为820万元；招标文件获取期为2026-11-18至11-25 17:00，投标截止及开标时间为2026-12-10 13:30（北京时间）。",
+      "meaning_cn": "该公告属于同一项目废标后的新采购阶段，采购对象仍为多频率EPR整机。公开正文确认数量、进口许可、预算和截止时间；具体频段、谐振腔及3.8—1200 K变温等技术要求应以本次招标文件为准，不沿用上一轮公告替代验收参数。",
+      "publication_date": "2026-11-19",
+      "time_scope": "24h",
+      "source": "东方国际招标有限责任公司",
+      "url": "https://www.oitccas.com/pages/tender_online_info.html?FormNo=ZBLX26110548",
+      "doi": "",
+      "alternative_sources": [
+        {
+          "name": "前次废标公告",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/qtgg/202611/t20261110_27653563.htm"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-20",
+      "last_updated": "2026-11-20",
+      "report_file": "SpinFront_2026-11-20.html"
+    }
+  ]
+}

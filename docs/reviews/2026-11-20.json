@@ -1,0 +1,618 @@
+{
+  "schema_version": "1.0.0",
+  "report_date": "2026-11-20",
+  "retrieval_cutoff": "2026-11-20T06:02:13+08:00",
+  "repository": {
+    "base_head": "1b27d7d87364d2df4f709db98196270771522ccc",
+    "taxonomy_version": "1.2.0",
+    "final_content_commit": null,
+    "pages_run": null
+  },
+  "search_summary": {
+    "enhancement_trigger": "用户要求完成增强检索；常规24小时已核实5条，继续回扫近7天和分层路线",
+    "route_attempts": {
+      "nature_high_impact": {
+        "url": "https://www.nature.com/subjects/nuclear-magnetic-resonance-spectroscopy",
+        "status": "source_verified"
+      },
+      "acs_high_impact": {
+        "url": "https://pubs.acs.org/",
+        "status": "source_verified"
+      },
+      "rsc": {
+        "url": "https://pubs.rsc.org/",
+        "status": "searched"
+      },
+      "jmr_elsevier": {
+        "url": "https://www.sciencedirect.com/journal/journal-of-magnetic-resonance",
+        "status": "searched"
+      },
+      "jmro_elsevier": {
+        "url": "https://www.sciencedirect.com/journal/journal-of-magnetic-resonance-open",
+        "status": "searched"
+      },
+      "magnetic_resonance_copernicus": {
+        "url": "https://www.magnetic-resonance.net/",
+        "status": "searched"
+      },
+      "jb_nmr_springer": {
+        "url": "https://link.springer.com/journal/10858",
+        "status": "searched"
+      },
+      "ssnmr_elsevier": {
+        "url": "https://www.sciencedirect.com/journal/solid-state-nuclear-magnetic-resonance",
+        "status": "searched"
+      },
+      "mrc_wiley": {
+        "url": "https://analyticalsciencejournals.onlinelibrary.wiley.com/journal/1097458x",
+        "status": "source_verified"
+      },
+      "applied_mr": {
+        "url": "https://link.springer.com/journal/723",
+        "status": "searched"
+      },
+      "pubmed": {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/",
+        "status": "searched"
+      },
+      "crossref": {
+        "url": "https://api.crossref.org/works",
+        "status": "searched",
+        "limitations": "首轮部分请求429，降并发重试并用逐DOI题录核实"
+      },
+      "arxiv": {
+        "url": "https://export.arxiv.org/api/query",
+        "status": "searched"
+      },
+      "chemrxiv": {
+        "url": "https://chemrxiv.org/",
+        "status": "access_limited"
+      },
+      "bruker": {
+        "url": "https://www.bruker.com/en/news-and-events/news.html",
+        "status": "searched"
+      },
+      "jeol": {
+        "url": "https://www.jeol.com/news/",
+        "status": "searched"
+      },
+      "oxford": {
+        "url": "https://www.oxinst.com/news",
+        "status": "searched"
+      },
+      "magritek": {
+        "url": "https://magritek.com/news-events/",
+        "status": "searched"
+      },
+      "nanalysis": {
+        "url": "https://www.nanalysis.com/nmready-blog",
+        "status": "searched"
+      },
+      "ciqtek": {
+        "url": "https://www.ciqtek.com/news_nc1",
+        "status": "access_limited"
+      },
+      "enc": {
+        "url": "https://www.enc-conference.org/",
+        "status": "searched"
+      },
+      "euromar": {
+        "url": "https://euromar.org/",
+        "status": "searched"
+      },
+      "icmrbs": {
+        "url": "https://icmrbs.org/",
+        "status": "searched"
+      },
+      "efepr": {
+        "url": "https://www.efepr.org/",
+        "status": "searched"
+      },
+      "apes": {
+        "url": "https://www.apes.org/",
+        "status": "access_limited"
+      },
+      "ismar": {
+        "url": "https://ismar.org/",
+        "status": "searched"
+      },
+      "oitc_procurement_api": {
+        "url": "https://www.oitccas.com/pages/tender_online.html",
+        "status": "source_verified"
+      },
+      "ccgp": {
+        "url": "https://www.ccgp.gov.cn/",
+        "status": "searched"
+      },
+      "ggzy": {
+        "url": "https://www.ggzy.gov.cn/",
+        "status": "searched"
+      },
+      "sam_gov": {
+        "url": "https://sam.gov/",
+        "status": "searched"
+      }
+    },
+    "method_clusters": [
+      "高分辨液体NMR/NUS/Pure Shift/DOSY/CEST/DEST",
+      "固体NMR/MAS/fast MAS/DNP",
+      "TD-NMR/低场/台式NMR",
+      "NMR软件/谱图处理/反应监测",
+      "CW-EPR/rapid-scan EPR",
+      "脉冲EPR/DEER/ENDOR/ESEEM/HYSCORE",
+      "TREPR/光照/自旋捕获",
+      "operando/EC-EPR",
+      "探头/谐振器/磁体/控制台/自动进样"
+    ],
+    "daily_window": [
+      "2026-11-13",
+      "2026-11-14",
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17",
+      "2026-11-18",
+      "2026-11-19"
+    ],
+    "limitations": [
+      "Crossref首轮并发请求部分429，降并发并按DOI重试",
+      "ChemRxiv、CIQTEK和部分会议页面访问受限",
+      "动态采购官网同时检查官方公开接口，未把未渲染列表当作无公告",
+      "论文分析限于可读原文或摘要，不补写未公开参数"
+    ]
+  },
+  "candidates": [
+    {
+      "title": "NV 色心实现低场纳米尺度氘 NMR",
+      "doi": "10.1038/s41467-026-78803-3",
+      "url": "https://doi.org/10.1038/s41467-026-78803-3",
+      "actual_online_date": "2026-11-19",
+      "publication_status": "early_access",
+      "author_verified": "Crossref、PubMed或出版商页面核对",
+      "author_source": "https://doi.org/10.1038/s41467-026-78803-3",
+      "magnetic_resonance_role": "method_core",
+      "evidence_location": "可读原文摘要或官方公告正文",
+      "evidence": "Singh 等利用金刚石氮空位色心检测纳米体积内的统计自旋涨落，获得具有四极粉末线形的²H NMR 谱。与感应检测相比，自旋灵敏度提高约7—8个数量级，并在低两个数量级的磁场下解析氘代聚合物和分子固体的运动平均与相变。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "该方案把²H四极线形和温变响应带到纳米尺度，适合研究氘代材料的局部动力学。灵敏度增益按自旋数衡量，依赖NV中心深度、样品与金刚石表面的距离及氘代程度，不能直接等同于常规线圈的浓度灵敏度。"
+    },
+    {
+      "title": "非天然氨基酸扩展蛋白自旋标记与 CW/脉冲 EPR",
+      "doi": "10.1021/acs.chemrev.6c00290",
+      "url": "https://doi.org/10.1021/acs.chemrev.6c00290",
+      "actual_online_date": "2026-11-19",
+      "publication_status": "early_access",
+      "author_verified": "Crossref、PubMed或出版商页面核对",
+      "author_source": "https://doi.org/10.1021/acs.chemrev.6c00290",
+      "magnetic_resonance_role": "method_core",
+      "evidence_location": "可读原文摘要或官方公告正文",
+      "evidence": "Bizet 等综述将非天然氨基酸用于定点自旋标记的策略、标签合成与蛋白应用。CW-EPR 可覆盖皮秒至秒尺度的局部运动和构象交换，DEER 则通过标签间偶极相互作用给出约2—8 nm距离分布，并可减少传统半胱氨酸标记的位点限制。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "非天然氨基酸可在天然半胱氨酸较多或需要正交位点时提高标记选择性，但实验仍受基因编码效率、标签体积、细胞内稳定性和双标记占有率限制。距离分布还需结合背景校正与标签构象库解释，不能直接当作单一骨架距离。"
+    },
+    {
+      "title": "FAIR NMR 统一时序反应数据采集、处理与动力学建模",
+      "doi": "10.1021/acs.analchem.6c02376",
+      "url": "https://doi.org/10.1021/acs.analchem.6c02376",
+      "actual_online_date": "2026-11-19",
+      "publication_status": "early_access",
+      "author_verified": "Crossref、PubMed或出版商页面核对",
+      "author_source": "https://doi.org/10.1021/acs.analchem.6c02376",
+      "magnetic_resonance_role": "method_core",
+      "evidence_location": "可读原文摘要或官方公告正文",
+      "evidence": "Giess 等提出 FAIR NMR 工作流，用 NMRPy 自动处理时序谱图，并以 EnzymeML 数据模型连接 PySCeS 和 Catalax 动力学框架。¹H NMR 的钯催化环异构化3组数据与³¹P NMR 的两步酶级联15组数据表明，独立重复和处理平台可得到一致动力学参数。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "该流程同时保存采集、处理和模型元数据，便于跨实验室复算反应浓度曲线。可复现性仍依赖峰归属、积分区间、内标、采样间隔和所选动力学模型；标准化数据格式不能消除谱峰重叠或模型失配带来的系统误差。"
+    },
+    {
+      "title": "¹H qNMR 同时定量都梁滴丸欧前胡素与藁本内酯",
+      "doi": "10.1007/s43450-026-00829-x",
+      "url": "https://doi.org/10.1007/s43450-026-00829-x",
+      "actual_online_date": "2026-11-19",
+      "publication_status": "published",
+      "author_verified": "Crossref、PubMed或出版商页面核对",
+      "author_source": "https://doi.org/10.1007/s43450-026-00829-x",
+      "magnetic_resonance_role": "application_core",
+      "evidence_location": "可读原文摘要或官方公告正文",
+      "evidence": "Liu 等以3,5-二甲基吡唑为内标，选择δ 7.67的欧前胡素信号和δ 6.10—6.20的藁本内酯信号，建立都梁滴丸¹H qNMR同步定量方法。方法按《中国药典》评价专属性、灵敏度、线性、准确度、精密度、重复性和回收率，并用于两个商业批次。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "两个成分共用一次采集可减少分步色谱分析，但定量可靠性取决于内标纯度、积分基线、峰重叠和样品溶解。两个批次与HPLC结果总体可比，只能支持当前基质和验证范围；批间推广仍需覆盖更多来源和含量区间。"
+    },
+    {
+      "title": "顺磁 Dy 配合物用 NMR 位移跟踪膜相变",
+      "doi": "10.1002/mrc.70157",
+      "url": "https://doi.org/10.1002/mrc.70157",
+      "actual_online_date": "2026-11-18",
+      "publication_status": "early_access",
+      "author_verified": "Crossref、PubMed或出版商页面核对",
+      "author_source": "https://doi.org/10.1002/mrc.70157",
+      "magnetic_resonance_role": "key_evidence",
+      "evidence_location": "可读原文摘要或官方公告正文",
+      "evidence": "Koshman 等研究[Dy(H₂O)n(CyDTA)]⁻与DMPC/DHPC双胶束模型膜的相互作用。¹H NMR显示配合物结合于膜的极性界面；头基质子的镧系诱导位移随温度线性变化，而疏水尾部质子呈特征性非线性变化，并与动态光散射确认的结构重排对应。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "同一顺磁探针可把膜界面位置和温度响应编码到不同脂质质子位移中，适合比较模型膜相态。非线性特征依赖Dy配合物结合、膜组成和交换速度；用于复杂膜前还需排除探针对相平衡及谱线展宽的扰动。"
+    },
+    {
+      "title": "模块化聚谷氨酸液晶介质提供互补 RDC 取向",
+      "doi": "10.1002/adma.75710",
+      "url": "https://doi.org/10.1002/adma.75710",
+      "actual_online_date": "2026-11-18",
+      "publication_status": "early_access",
+      "author_verified": "Crossref、PubMed或出版商页面核对",
+      "author_source": "https://doi.org/10.1002/adma.75710",
+      "magnetic_resonance_role": "method_core",
+      "evidence_location": "可读原文摘要或官方公告正文",
+      "evidence": "Laux 等模块化合成一系列带不同侧链的聚谷氨酸，它们可在有机溶剂中形成溶致液晶。模型化合物在不同介质中的取向按侧链类型聚类，跨类别产生线性独立取向；仅以¹DCH及甲基¹DCC残余偶极耦合作约束即可完成模型结构解析。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "多组线性独立RDC可降低单一取向介质造成的结构退化解，适合相对构型判定。实际使用需先确认样品与介质相容、取向强度和峰可分辨性；模型化合物结果不能保证所有官能团或溶剂体系都提供同样互补的取向张量。"
+    },
+    {
+      "title": "自旋标记 EPR 区分葡糖神经酰胺两类膜相",
+      "doi": "10.1073/pnas.2621818123",
+      "url": "https://doi.org/10.1073/pnas.2621818123",
+      "actual_online_date": "2026-11-17",
+      "publication_status": "published",
+      "author_verified": "Crossref、PubMed或出版商页面核对",
+      "author_source": "https://doi.org/10.1073/pnas.2621818123",
+      "magnetic_resonance_role": "key_evidence",
+      "evidence_location": "可读原文摘要或官方公告正文",
+      "evidence": "Biswas 等用硝基氧自旋标记的α/β-葡糖神经酰胺研究其在三种磷脂脂质体中的分配。EPR谱包含受限宽组分和高运动性窄组分；模拟显示α异构体主要进入层状磷脂相，β异构体富集于分离的糖脂纳米组装体，0.5 mol%探针负载下仍可观察差异。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "双组分线形把糖苷构型与膜相分配联系起来，可用于低丰度糖脂的组装倾向比较。组分归属来自谱模拟和互补分析，受自旋标签位置、膜配方与温度影响；标签类似物的行为仍需与未标记糖脂交叉验证。"
+    },
+    {
+      "title": "¹⁹F NMR 解析 PFAS 与血清白蛋白和乳球蛋白的多模式结合",
+      "doi": "10.1021/acsesttox.6c00092",
+      "url": "https://doi.org/10.1021/acsesttox.6c00092",
+      "actual_online_date": "2026-11-17",
+      "publication_status": "early_access",
+      "author_verified": "Crossref、PubMed或出版商页面核对",
+      "author_source": "https://doi.org/10.1021/acsesttox.6c00092",
+      "magnetic_resonance_role": "application_core",
+      "evidence_location": "可读原文摘要或官方公告正文",
+      "evidence": "Faber 等用¹⁹F NMR比较9种PFAS与人血清白蛋白、5种PFAS与牛β-乳球蛋白的结合。多种PFAS呈现多个结合位点或模式，Kd约为10⁰—10² μM；混合实验提示在人血清白蛋白上存在竞争，在β-乳球蛋白上则出现协同性，牛α-乳白蛋白未见结合。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "¹⁹F直接观察配体可在混合物中区分含氟化合物并估计蛋白结合，适合暴露和毒理模型参数化。所得Kd与竞争关系受蛋白浓度、缓冲体系和交换区间影响；体外蛋白结果不能直接代表血浆或乳制品中的整体分配。"
+    },
+    {
+      "title": "绝热 RINEPT 加速聚烯烃定量 ¹³C NMR",
+      "doi": "10.1021/acs.macromol.6c02465",
+      "url": "https://doi.org/10.1021/acs.macromol.6c02465",
+      "actual_online_date": "2026-11-16",
+      "publication_status": "early_access",
+      "author_verified": "Crossref、PubMed或出版商页面核对",
+      "author_source": "https://doi.org/10.1021/acs.macromol.6c02465",
+      "magnetic_resonance_role": "method_core",
+      "evidence_location": "可读原文摘要或官方公告正文",
+      "evidence": "Ji 等以绝热整形脉冲替代硬G5反转/重聚焦脉冲，并用两种算法优化RINEPT的8个τ₂值，使CH、CH₂和CH₃共振均获得灵敏度增益。AOA-RINEPT在模型物、聚丙烯及多种聚乙烯共聚物上提高灵敏度5.1—7.0倍，采集时间缩短25—49倍。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "该方法针对聚烯烃微结构定量同时改善相位稳定性和采集效率，30 min数据可定量共混物中的iPP相和痕量己烯共聚单体。增益依赖可发生极化转移的CH类型；季碳或超高分子量体系需改用经校准的60° Ernst角方案。"
+    },
+    {
+      "title": "采购与需求动态：过程工程所多频率 EPR 项目重新招标",
+      "doi": "",
+      "url": "https://www.oitccas.com/pages/tender_online_info.html?FormNo=ZBLX26110548",
+      "actual_online_date": "2026-11-19",
+      "publication_status": "published",
+      "author_verified": "采购单位与代理机构官方正文核对",
+      "author_source": "https://www.oitccas.com/pages/tender_online_info.html?FormNo=ZBLX26110548",
+      "magnetic_resonance_role": "procurement",
+      "evidence_location": "可读原文摘要或官方公告正文",
+      "evidence": "中国科学院过程工程研究所多频率电子顺磁共振波谱仪采购项目在前次废标后启动第二次公开招标，项目编号OITC-G260571726（第二次）。本次采购1套设备，允许进口，预算及最高限价均为820万元；招标文件获取期为2026-11-18至11-25 17:00，投标截止及开标时间为2026-12-10 13:30（北京时间）。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "该公告属于同一项目废标后的新采购阶段，采购对象仍为多频率EPR整机。公开正文确认数量、进口许可、预算和截止时间；具体频段、谐振腔及3.8—1200 K变温等技术要求应以本次招标文件为准，不沿用上一轮公告替代验收参数。"
+    },
+    {
+      "title": "Dimethylamine Borane as a Bifunctional Additive for Crystallization Regulation and Defect Passivation in Perovskite Solar Cells",
+      "doi": "10.1002/smll.76828",
+      "url": "https://doi.org/10.1002/smll.76828",
+      "actual_online_date": "2026-11-18",
+      "publication_status": "early_access",
+      "author_verified": "Liu（Crossref/PubMed）",
+      "author_source": "https://doi.org/10.1002/smll.76828",
+      "magnetic_resonance_role": "key_evidence",
+      "evidence_location": "PubMed摘要",
+      "evidence": "¹H NMR用于确认DMAB中性物种占优及少量质子转移。",
+      "decision": "excluded",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "合格但在9条非采购限额内按信息价值未入选"
+    },
+    {
+      "title": "Modeling quantum information scrambling in realistic protein NMR experiments",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2611.23213",
+      "actual_online_date": "2026-11-17",
+      "publication_status": "preprint",
+      "author_verified": "White（arXiv题录）",
+      "author_source": "https://arxiv.org/abs/2611.23213",
+      "magnetic_resonance_role": "method_core",
+      "evidence_location": "arXiv摘要",
+      "evidence": "模拟蛋白固体NMR中OTOC传播。",
+      "decision": "excluded",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "预印本；在限额内优先选择已同行评议方法论文"
+    },
+    {
+      "title": "Pulsed hyperfine EPR study of formally divalent rare earth arene complexes",
+      "doi": "10.1039/d6cc06362d",
+      "url": "https://doi.org/10.1039/d6cc06362d",
+      "actual_online_date": "2026-10-22",
+      "publication_status": "published",
+      "author_verified": "Hajdu（Crossref/出版商）",
+      "author_source": "https://doi.org/10.1039/d6cc06362d",
+      "magnetic_resonance_role": "method_core",
+      "evidence_location": "出版商与机构题录",
+      "evidence": "脉冲超精细EPR直接测量配体自旋密度。",
+      "decision": "excluded",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "卷期日期在窗口内，但在线首发早于7天窗口"
+    },
+    {
+      "title": "Easy access to the geminal coupling between unresolved prochiral methylene protons",
+      "doi": "10.1039/d6cc05237a",
+      "url": "https://doi.org/10.1039/d6cc05237a",
+      "actual_online_date": "2026-10-26",
+      "publication_status": "published",
+      "author_verified": "Norzagaray（PubMed）",
+      "author_source": "https://pubmed.ncbi.nlm.nih.gov/42929174/",
+      "magnetic_resonance_role": "method_core",
+      "evidence_location": "PubMed",
+      "evidence": "inverse PSYCHEDELIC测量强耦合亚甲基偕耦合。",
+      "decision": "excluded",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "在线首发早于7天窗口"
+    },
+    {
+      "title": "HOT-operando-NMR",
+      "doi": "10.1016/j.jmr.2026.108191",
+      "url": "https://doi.org/10.1016/j.jmr.2026.108191",
+      "actual_online_date": "2026-10-23",
+      "publication_status": "published",
+      "author_verified": "A. Salout（Crossref/Elsevier）",
+      "author_source": "https://doi.org/10.1016/j.jmr.2026.108191",
+      "magnetic_resonance_role": "method_core",
+      "evidence_location": "Elsevier原文",
+      "evidence": "300℃高温工况固体NMR探头系统。",
+      "decision": "excluded",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "在线首发超出7天窗口"
+    },
+    {
+      "title": "Cost-effective 0.5 T benchtop NMR/MRI system",
+      "doi": "10.1016/j.jmr.2026.108188",
+      "url": "https://doi.org/10.1016/j.jmr.2026.108188",
+      "actual_online_date": "2026-11-13",
+      "publication_status": "published",
+      "author_verified": "Lin（PubMed）",
+      "author_source": "https://doi.org/10.1016/j.jmr.2026.108188",
+      "magnetic_resonance_role": "method_core",
+      "evidence_location": "PubMed",
+      "evidence": "0.5 T台式NMR/MRI平台。",
+      "decision": "excluded",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "duplicate",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "已在缺期屏幕正文登记，按对话补充查重排除"
+    },
+    {
+      "title": "Asymmetric coordination triggers dual-site synergy in gold nanoclusters",
+      "doi": "10.1038/s41467-026-79369-w",
+      "url": "https://doi.org/10.1038/s41467-026-79369-w",
+      "actual_online_date": "2026-11-19",
+      "publication_status": "early_access",
+      "author_verified": "Liu（出版商）",
+      "author_source": "https://www.nature.com/articles/s41467-026-79369-w",
+      "magnetic_resonance_role": "routine_characterization",
+      "evidence_location": "原文",
+      "evidence": "NMR/EPR仅列为测试或辅助表征。",
+      "decision": "excluded",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "不满足磁共振实际作用门槛"
+    },
+    {
+      "title": "Bruker NMR & EPR User Meeting 2026, Thailand",
+      "doi": "",
+      "url": "https://www.bruker.com/ko/news-and-events/events/nmr-epr-um-thailand.html",
+      "actual_online_date": "",
+      "publication_status": "event_page",
+      "author_verified": "Bruker",
+      "author_source": "https://www.bruker.com/ko/news-and-events/events/nmr-epr-um-thailand.html",
+      "magnetic_resonance_role": "event",
+      "evidence_location": "厂商活动页",
+      "evidence": "活动日期2026-11-20。",
+      "decision": "excluded",
+      "source_status": "verified",
+      "date_status": "unverified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "网页未给出新增发布日期，不能作为当期新动态"
+    },
+    {
+      "title": "Nuclear quadrupole resonance spectroscopy as an operando tool for mechanochemistry",
+      "doi": "",
+      "url": "https://www.nature.com/articles/s41467-026-79611-1",
+      "actual_online_date": "2026-11-17",
+      "publication_status": "published",
+      "author_verified": "Leroy（出版商）",
+      "author_source": "https://www.nature.com/articles/s41467-026-79611-1",
+      "magnetic_resonance_role": "out_of_scope",
+      "evidence_location": "原文",
+      "evidence": "研究对象为NQR。",
+      "decision": "excluded",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "仓库正式方向仅nmr/epr，纯NQR不纳入"
+    }
+  ],
+  "dedup": {
+    "index_head": "1b27d7d87364d2df4f709db98196270771522ccc",
+    "issue_count": 91,
+    "item_count": 791,
+    "recent_issues": [
+      "2026-11-13",
+      "2026-11-14",
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17",
+      "2026-11-18",
+      "2026-11-19"
+    ],
+    "additional_screen_issue": "2026-11-17（0.5 T JMR论文）",
+    "doi_duplicates": 12,
+    "keys": [
+      "normalized DOI",
+      "URL without tracking parameters",
+      "normalized title",
+      "procurement project+stage+date"
+    ]
+  },
+  "procurement": {
+    "registered_candidates": 8,
+    "qualified_announcements": 1,
+    "excluded_announcements": 7,
+    "daily_item_count": 1,
+    "included": [
+      {
+        "unit": "中国科学院过程工程研究所",
+        "project": "多频率电子顺磁共振波谱仪采购项目（第二次）",
+        "project_no": "OITC-G260571726（第二次）",
+        "stage": "第二次公开招标",
+        "publication_date": "2026-11-19",
+        "budget": "820万元",
+        "price_limit": "820万元",
+        "deadline": "2026-12-10 13:30（北京时间）",
+        "source": "https://www.oitccas.com/pages/tender_online_info.html?FormNo=ZBLX26110548",
+        "dedup": "同项目2026-11-10废标后新阶段，允许收录"
+      }
+    ],
+    "excluded": [
+      {
+        "project": "上海有机所高温NMR招标",
+        "reason": "已收录于2026-11-18"
+      },
+      {
+        "project": "南开大学600/800 MHz冷头维保成交",
+        "reason": "已收录于2026-11-19"
+      },
+      {
+        "project": "科学智能物质创制中心EPR/NMR招标",
+        "reason": "公告日期2026-10-26，超窗"
+      },
+      {
+        "project": "电工所磁共振参考装置",
+        "reason": "公开正文不足以确认NMR/EPR对象"
+      },
+      {
+        "project": "清华大学NMR更新采购成交",
+        "reason": "官方列表可见但本次未获得独立正文，且日期超24小时"
+      },
+      {
+        "project": "深圳大学EPR测试服务",
+        "reason": "仅取得转载正文，采购单位原文不可读"
+      },
+      {
+        "project": "过程工程所多频EPR原项目废标",
+        "reason": "已收录于2026-11-14；本次只收录重新招标阶段"
+      }
+    ]
+  },
+  "counts": {
+    "registered_candidates": 19,
+    "included_items": 10,
+    "excluded_candidates": 9,
+    "paper_or_review_items": 9,
+    "procurement_announcements": 1,
+    "daily_items": 10
+  },
+  "checks": {
+    "author_subjects": "approved",
+    "source_dates": "approved",
+    "magnetic_resonance_role": "approved",
+    "dedup": "approved",
+    "tags": "approved",
+    "procurement_placement": "approved",
+    "html_json_screen_consistency": "approved",
+    "tests": "approved",
+    "publication": "pending"
+  },
+  "final_review_status": "approved_for_build"
+}

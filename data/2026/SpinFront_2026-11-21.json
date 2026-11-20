@@ -1,0 +1,432 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-11-21",
+  "scope_note": "检索截至2026-11-21 06:00（Asia/Shanghai）。常规24小时核得4条，按规则触发增强搜索并回扫11月14日至20日；覆盖高影响与专业期刊、PubMed、方法词簇、厂商/会议及中外采购路线。全库历史以DOI、规范化标题、URL及采购项目+阶段+日期查重，9条学术信息均未重复。最终10条，其中采购汇总1条、实际公告2份，无待复核标签。部分出版社与动态采购官网存在403或未渲染限制，使用出版商题录、PubMed及公开只读正文交叉核对；本次执行环境无本地终端，正式文件先提交并以GitHub Actions验证构建，未由Actions覆盖的本地专项测试在Review中如实记录。",
+  "items": [
+    {
+      "item_id": "SF-20261121-01",
+      "report_date": "2026-11-21",
+      "item_no": 1,
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr",
+        "benchtop_nmr"
+      ],
+      "method_ids": [
+        "spectral_processing"
+      ],
+      "application_ids": [
+        "materials",
+        "process_analysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "title_cn": "高低场 ¹H NMR 联合化学计量学预测木质素抗氧化能力",
+      "summary_cn": "Burger 等采集55份有机溶剂木质素的500/600 MHz高场和43/60 MHz低场¹H NMR谱，并用偏最小二乘回归预测抗氧化能力。ABTS、FRAP和Folin模型的R²为0.84—0.95，跨仪器校准转移后验证R²为0.73—0.96；DPPH模型表现较弱。",
+      "meaning_cn": "结果表明低场谱经校准后可用于木质素快速筛选，并保留与高场模型接近的预测能力。样本仅55份且外部验证为17份，模型还受溶剂、浓度、基线处理和木质素来源影响；DPPH结果提示不同抗氧化测定不能共用同一性能预期。",
+      "publication_date": "2026-11-20",
+      "time_scope": "24h",
+      "source": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-81297-0",
+      "doi": "10.1038/s41598-026-81297-0",
+      "alternative_sources": [
+        {
+          "name": "原文",
+          "url": "https://www.nature.com/articles/s41598-026-81297-0"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-21",
+      "last_updated": "2026-11-21",
+      "report_file": "SpinFront_2026-11-21.html"
+    },
+    {
+      "item_id": "SF-20261121-02",
+      "report_date": "2026-11-21",
+      "item_no": 2,
+      "direction_ids": [
+        "nmr",
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "dnp",
+        "relaxometry"
+      ],
+      "application_ids": [
+        "quantum_spin",
+        "instrumentation"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "title_cn": "低场超极化玻璃出现毫秒级共振热化通道",
+      "summary_cn": "Singh 等用快速场循环测量超极化冷冻玻璃的质子弛豫：约0.25 T以上由电子三自旋翻转主导，低于该场强则出现毫秒级快速共振热化。该低场通道在含自由基样品中显著，并在含氘的无自由基玻璃中仍可观察，说明电子EPR线宽并非唯一来源。",
+      "meaning_cn": "这一场强分区为DNP样品转移时的极化损失提供了新的机制图景，可帮助选择穿越低场区的速度和路径。结论来自特定玻璃组成、温度与场循环条件；将其推广到其他自由基、溶剂和转移装置前仍需逐体系测量弛豫曲线。",
+      "publication_date": "2026-11-20",
+      "time_scope": "24h",
+      "source": "Communications Chemistry",
+      "url": "https://doi.org/10.1038/s42004-026-02261-7",
+      "doi": "10.1038/s42004-026-02261-7",
+      "alternative_sources": [
+        {
+          "name": "原文",
+          "url": "https://www.nature.com/articles/s42004-026-02261-7"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-21",
+      "last_updated": "2026-11-21",
+      "report_file": "SpinFront_2026-11-21.html"
+    },
+    {
+      "item_id": "SF-20261121-03",
+      "report_date": "2026-11-21",
+      "item_no": 3,
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure",
+        "materials"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "title_cn": "¹H NMR 证实蒽桥卟啉纳米带的全局反芳香环流",
+      "summary_cn": "Goh 等通过镍(0)介导偶联与DDQ/TfOH氧化合成蒽桥卟啉纳米带。¹H NMR观察到全局顺磁环流所致的特征位移，结合DFT、NICS和GIMIC分析，支持中性纳米带存在72、96或120 π电子的Hückel反芳香回路。",
+      "meaning_cn": "该工作把全局反芳香性扩展到可模块化构筑的三股杂环纳米带，并用实验位移与多种计算证据交叉验证。环流归属仍依赖构象、溶剂和计算泛函；¹H位移不能单独区分局部与全局电流，因此应与磁流密度和结构数据共同解释。",
+      "publication_date": "2026-11-20",
+      "time_scope": "24h",
+      "source": "Nature Chemistry",
+      "url": "https://doi.org/10.1038/s41557-026-02302-7",
+      "doi": "10.1038/s41557-026-02302-7",
+      "alternative_sources": [
+        {
+          "name": "原文",
+          "url": "https://www.nature.com/articles/s41557-026-02302-7"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-21",
+      "last_updated": "2026-11-21",
+      "report_file": "SpinFront_2026-11-21.html"
+    },
+    {
+      "item_id": "SF-20261121-04",
+      "report_date": "2026-11-21",
+      "item_no": 4,
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "title_cn": "连续 NMR 代谢指标揭示心衰预后的性别差异信号",
+      "summary_cn": "Lu 等在Bio-SHiFT和TRIUMPH两队列共867名心衰患者、5114份连续血样中，用Vantera NMR量化45项脂质和代谢指标。校正后，S-TRLP、HDLZ和LP-IR的性别交互仍达到FDR显著，男性中的指标—结局关联更一致。",
+      "meaning_cn": "连续采样和两队列合并为性别分层的动态风险评估提供了候选指标，而非一次性浓度比较。研究为探索性分析，女性样本较少且两队列终点不同；交互结果需要在更大、性别均衡且采用统一临床终点的队列中验证。",
+      "publication_date": "2026-11-20",
+      "time_scope": "24h",
+      "source": "Biology of Sex Differences",
+      "url": "https://doi.org/10.1186/s13293-026-01016-2",
+      "doi": "10.1186/s13293-026-01016-2",
+      "alternative_sources": [
+        {
+          "name": "原文",
+          "url": "https://link.springer.com/article/10.1186/s13293-026-01016-2"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-21",
+      "last_updated": "2026-11-21",
+      "report_file": "SpinFront_2026-11-21.html"
+    },
+    {
+      "item_id": "SF-20261121-05",
+      "report_date": "2026-11-21",
+      "item_no": 5,
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [
+        "cw_epr"
+      ],
+      "method_ids": [
+        "operando_epr",
+        "spin_probe"
+      ],
+      "application_ids": [
+        "materials",
+        "process_analysis"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "title_cn": "原位 EPR 分解多孔液体的变压气体交换动力学",
+      "summary_cn": "Zhitkeyev 等将稳定硝基氧探针永久封装在ZIF-8孔内，以原位EPR跟踪ZIF-8分散于邻苯二甲酸二丁酯或[Bmim]BF₄时的空气—CO₂变压交换。谱线演化与模型分析可区分MOF颗粒内交换、体相扩散和气体在液体中的溶解贡献。",
+      "meaning_cn": "该方法能在工作压力下分别观察孔内和连续相传质，为多孔液体的吸附—释放设计提供时间尺度信息。动力学分解依赖探针位置、谱线模型和传质边界条件；探针稳定性及其对孔占据的影响需要在不同MOF与溶剂体系中复核。",
+      "publication_date": "2026-11-19",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Physical Chemistry Letters",
+      "url": "https://doi.org/10.1021/acs.jpclett.6c03098",
+      "doi": "10.1021/acs.jpclett.6c03098",
+      "alternative_sources": [
+        {
+          "name": "PubMed题录",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43055582/"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-21",
+      "last_updated": "2026-11-21",
+      "report_file": "SpinFront_2026-11-21.html"
+    },
+    {
+      "item_id": "SF-20261121-06",
+      "report_date": "2026-11-21",
+      "item_no": 6,
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "mas",
+        "multidimensional_nmr",
+        "nus",
+        "polarization_transfer"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "title_cn": "TROP 脉冲将高维蛋白固体 NMR 测量时间缩短近一个数量级",
+      "summary_cn": "Klein 等在超过50 kHz魔角旋转条件下，把横向混合最优控制脉冲TROP广泛嵌入4D/5D蛋白固体NMR的多步磁化转移。TROP与非均匀采样结合，同时增强复数时间点信号并改善重建，使所需测量时间接近缩短一个数量级。",
+      "meaning_cn": "该组合直接针对高维谱的灵敏度和采集时间瓶颈，有望降低较大蛋白的峰重叠问题。收益依赖脉冲校准、探头射频能力、MAS稳定性和重建流程；“近一个数量级”来自所测试实验，不能预设为所有样品和转移路径的固定增益。",
+      "publication_date": "2026-11-18",
+      "time_scope": "7d_extension",
+      "source": "Nature Communications",
+      "url": "https://doi.org/10.1038/s41467-026-79563-w",
+      "doi": "10.1038/s41467-026-79563-w",
+      "alternative_sources": [
+        {
+          "name": "原文",
+          "url": "https://www.nature.com/articles/s41467-026-79563-w"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-21",
+      "last_updated": "2026-11-21",
+      "report_file": "SpinFront_2026-11-21.html"
+    },
+    {
+      "item_id": "SF-20261121-07",
+      "report_date": "2026-11-21",
+      "item_no": 7,
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "title_cn": "SASSY 二维 NMR 以长寿命单重态提升分辨与定量",
+      "summary_cn": "Jain 等提出Singlet-ASsisted 2D SpectroscopY（SASSY），在二维同核相关实验中生成长寿命核单重态。理论、旋转动力学模拟与实验显示，该序列可跨多种标量耦合区间工作，避免显著激发快速弛豫态，并在两个维度给出纯吸收、同相线形。",
+      "meaning_cn": "SASSY把单重态寿命优势与二维分辨率结合，可减轻一维单重态编码谱的峰重叠并支持峰强定量。适用性取决于自旋对耦合拓扑、化学位移差和单重态寿命；对更大生物分子的优势仍是待验证的应用方向。",
+      "publication_date": "2026-11-16",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Physical Chemistry Letters",
+      "url": "https://doi.org/10.1021/acs.jpclett.6c03014",
+      "doi": "10.1021/acs.jpclett.6c03014",
+      "alternative_sources": [
+        {
+          "name": "原文",
+          "url": "https://pubs.acs.org/doi/10.1021/acs.jpclett.6c03014"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-21",
+      "last_updated": "2026-11-21",
+      "report_file": "SpinFront_2026-11-21.html"
+    },
+    {
+      "item_id": "SF-20261121-08",
+      "report_date": "2026-11-21",
+      "item_no": 8,
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [
+        "relaxometry",
+        "spectral_processing"
+      ],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "title_cn": "NMR 弛豫特征与机器学习预测地热岩心渗透率",
+      "summary_cn": "Yadav 等以204份地热岩心的有效/总孔隙度、应力、盐度及NMR T₂lm、T₂mode训练六类渗透率模型。随机森林在交叉验证中表现最佳，R²为0.968、RMSE为52.414；SHAP分析显示有效孔隙度贡献最高，NMR弛豫参数提供中等增量信息。",
+      "meaning_cn": "该框架把T₂分布特征纳入非线性渗透率估计，可作为高温高盐储层常规实验的补充。较高R²不等于跨盆地泛化；AARE仍为62.046%，且高杠杆样本被保留，应用到新岩性前需要独立外部验证与单位一致的误差评估。",
+      "publication_date": "2026-11-17",
+      "time_scope": "7d_extension",
+      "source": "Geothermal Energy",
+      "url": "https://doi.org/10.1186/s40517-026-00420-6",
+      "doi": "10.1186/s40517-026-00420-6",
+      "alternative_sources": [
+        {
+          "name": "原文",
+          "url": "https://link.springer.com/article/10.1186/s40517-026-00420-6"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-21",
+      "last_updated": "2026-11-21",
+      "report_file": "SpinFront_2026-11-21.html"
+    },
+    {
+      "item_id": "SF-20261121-09",
+      "report_date": "2026-11-21",
+      "item_no": 9,
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "reaction_monitoring"
+      ],
+      "application_ids": [
+        "catalysis",
+        "instrumentation"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "title_cn": "快速注射 NMR 教程梳理秒级反应监测的设计边界",
+      "summary_cn": "Ressler 等系统说明快速注射NMR的装置、操作与动力学实验规划：反应物可在已锁场、匀场和控温的标准5 mm管中注入，注射约2 s、混合约1 s，并可在低至约−130 °C条件下记录早期中间体和浓度变化。",
+      "meaning_cn": "教程为需要捕捉秒级反应的实验室提供了从T₁、脉冲角、采样间隔到模型体系验证的实用框架。手动注射的时间分辨率和重复性有限，半衰期短于约0.7 s的反应需更复杂处理或停流方案；本次可读官方题录未显示DOI，因此来源字段不补写。",
+      "publication_date": "2026-11-18",
+      "time_scope": "7d_extension",
+      "source": "Organometallics",
+      "url": "https://pubs.acs.org/orgnd7/latest-articles",
+      "doi": "",
+      "alternative_sources": [
+        {
+          "name": "作者课题组题录",
+          "url": "https://www.aathomasgroup.com/new-publications"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-21",
+      "last_updated": "2026-11-21",
+      "report_file": "SpinFront_2026-11-21.html"
+    },
+    {
+      "item_id": "SF-20261121-10",
+      "report_date": "2026-11-21",
+      "item_no": 10,
+      "direction_ids": [
+        "nmr",
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "tender",
+      "title_cn": "采购与需求动态：多频 EPR 项目暂停，600 MHz NMR 完成中标",
+      "summary_cn": "中国科学院过程工程研究所多频率电子顺磁共振波谱仪采购项目（项目编号OITC-G260571726）于2026-11-20发布暂停公告，依据财库便函〔2026〕2939号暂停采购活动；该项目第二次招标原预算及最高限价均为820万元、原投标截止时间为2026-12-10 13:30，暂停公告未给出恢复时间。江苏师范大学核磁波谱仪采购项目（项目编号JSZC-320300-SRZT-G2026-0008）同日公布中标结果，采购1套BRUKER ASCEND EVO 600，预算800万元，中标供应商为广东省中科进出口有限公司，中标金额765万元；成交阶段无投标截止时间。",
+      "meaning_cn": "两份公告分别反映采购程序暂停和设备成交，均按项目+阶段+日期独立查重。过程工程所项目虽在前期日报登记过重新招标，但暂停属于新的采购阶段；江苏师范大学项目以中标结果为本次新增事实。动态网页与部分官方列表无法直接渲染，本次保留可读公开正文及同项目官方历史公告，不推断未公布的恢复日期或合同细节。",
+      "publication_date": "2026-11-20",
+      "time_scope": "24h",
+      "source": "公开采购公告",
+      "url": "https://110108.bidcenter.com.cn/bidinfo-1-a0f73512c37219a9ab61cdf875fd832daf470d460ac3aa25.html",
+      "doi": "",
+      "alternative_sources": [
+        {
+          "name": "江苏师范大学中标公告公开正文",
+          "url": "https://www.arrbid.com/biddetail/2026-2153AF65C61E4B9B87BB9D2E3D1E2C70.html"
+        },
+        {
+          "name": "过程工程所前次官方更正公告",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/gzgg/202610/t20261021_27532021.htm"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-21",
+      "last_updated": "2026-11-21",
+      "report_file": "SpinFront_2026-11-21.html"
+    }
+  ]
+}

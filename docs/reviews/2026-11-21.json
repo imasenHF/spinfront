@@ -5,8 +5,8 @@
   "repository": {
     "base_head": "ae2db108628e89438ddf7bbeb158a0557c16c8d0",
     "taxonomy_version": "1.2.0",
-    "final_content_commit": "",
-    "pages_run": ""
+    "final_content_commit": "7533f88bcca02994c47181e4f67a25bd76da8b20",
+    "pages_run": "44826647334"
   },
   "search_summary": {
     "enhancement_trigger": "常规24小时仅核实4条，低于5条阈值；执行7日增强检索后，经最近7期正式JSON复核得到7条未重复学术信息。",
@@ -463,20 +463,24 @@
     "dedup": "approved",
     "tags": "approved",
     "procurement_placement": "approved",
-    "html_json_screen_consistency": "pending_actions",
+    "html_json_screen_consistency": "approved_by_actions",
     "tests": "partial: Actions validate/build/search passed; local tests/procurement.test.py and tests/build.test.py not run because executor unavailable",
-    "publication": "pending"
+    "publication": "actions_deploy_success_public_http_unverified"
   },
-  "final_review_status": "content_approved_publication_pending",
+  "final_review_status": "deployed_public_http_unverified",
   "deployment": {
-    "actions_run": "",
-    "actions_url": "",
-    "build": "pending",
-    "pages_deploy": "pending",
+    "actions_run": "44826647334",
+    "actions_url": "https://github.com/imasenHF/spinfront/actions/runs/44826647334",
+    "build": "success",
+    "pages_deploy": "success",
     "public_issue_url": "https://plastocyanin.org/spinfront/2026-11-21/",
     "public_validation": {
-      "status": "pending",
-      "downloads_expected": false
+      "status": "not_completed",
+      "reason": "Direct public HTTP inspection was unavailable in this execution environment; search index remained cached on prior issues.",
+      "actions_artifact_and_deploy": "passed",
+      "article_count_expected": 8,
+      "procurement_last_expected": true,
+      "downloads_present_expected": false
     }
   }
 }

@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "taxonomy_version": "1.2.0",
   "report_date": "2026-11-21",
-  "scope_note": "检索截至2026-11-21 06:00（Asia/Shanghai）。常规24小时核得4条，按规则触发增强搜索并回扫11月14日至20日；覆盖高影响与专业期刊、PubMed、方法词簇、厂商/会议及中外采购路线。全库历史以DOI、规范化标题、URL及采购项目+阶段+日期查重，9条学术信息均未重复。最终10条，其中采购汇总1条、实际公告2份，无待复核标签。部分出版社与动态采购官网存在403或未渲染限制，使用出版商题录、PubMed及公开只读正文交叉核对；本次执行环境无本地终端，正式文件先提交并以GitHub Actions验证构建，未由Actions覆盖的本地专项测试在Review中如实记录。",
+  "scope_note": "检索截至2026-11-21 06:00（Asia/Shanghai）。常规24小时核得4条，按规则触发增强搜索并回扫11月14日至20日；覆盖高影响与专业期刊、PubMed、方法词簇、厂商/会议及中外采购路线。复核最近7期正式JSON后排除3条已登记候选，并以DOI、规范化标题、URL及采购项目+阶段+日期完成历史查重。最终8条，其中7条学术信息、采购汇总1条，实际公告2份，无待复核标签。部分出版社与动态采购官网存在403或未渲染限制，使用出版商题录、PubMed及公开只读正文交叉核对；本次执行环境无本地终端，正式文件以GitHub Actions验证构建，未由Actions覆盖的本地专项测试在Review中如实记录。",
   "items": [
     {
       "item_id": "SF-20261121-01",
@@ -225,133 +225,6 @@
         "nmr"
       ],
       "experiment_type_ids": [
-        "solid_state_nmr"
-      ],
-      "method_ids": [
-        "mas",
-        "multidimensional_nmr",
-        "nus",
-        "polarization_transfer"
-      ],
-      "application_ids": [
-        "structural_biology"
-      ],
-      "instrument_component_ids": [],
-      "sample_systems": [],
-      "information_type": "paper",
-      "title_cn": "TROP 脉冲将高维蛋白固体 NMR 测量时间缩短近一个数量级",
-      "summary_cn": "Klein 等在超过50 kHz魔角旋转条件下，把横向混合最优控制脉冲TROP广泛嵌入4D/5D蛋白固体NMR的多步磁化转移。TROP与非均匀采样结合，同时增强复数时间点信号并改善重建，使所需测量时间接近缩短一个数量级。",
-      "meaning_cn": "该组合直接针对高维谱的灵敏度和采集时间瓶颈，有望降低较大蛋白的峰重叠问题。收益依赖脉冲校准、探头射频能力、MAS稳定性和重建流程；“近一个数量级”来自所测试实验，不能预设为所有样品和转移路径的固定增益。",
-      "publication_date": "2026-11-18",
-      "time_scope": "7d_extension",
-      "source": "Nature Communications",
-      "url": "https://doi.org/10.1038/s41467-026-79563-w",
-      "doi": "10.1038/s41467-026-79563-w",
-      "alternative_sources": [
-        {
-          "name": "原文",
-          "url": "https://www.nature.com/articles/s41467-026-79563-w"
-        }
-      ],
-      "related_to": [],
-      "review_status": "approved",
-      "tag_review_status": "approved",
-      "publication_status": "early_access",
-      "first_seen": "2026-11-21",
-      "last_updated": "2026-11-21",
-      "report_file": "SpinFront_2026-11-21.html"
-    },
-    {
-      "item_id": "SF-20261121-07",
-      "report_date": "2026-11-21",
-      "item_no": 7,
-      "direction_ids": [
-        "nmr"
-      ],
-      "experiment_type_ids": [
-        "solution_nmr"
-      ],
-      "method_ids": [
-        "multidimensional_nmr"
-      ],
-      "application_ids": [
-        "chemical_structure"
-      ],
-      "instrument_component_ids": [],
-      "sample_systems": [],
-      "information_type": "paper",
-      "title_cn": "SASSY 二维 NMR 以长寿命单重态提升分辨与定量",
-      "summary_cn": "Jain 等提出Singlet-ASsisted 2D SpectroscopY（SASSY），在二维同核相关实验中生成长寿命核单重态。理论、旋转动力学模拟与实验显示，该序列可跨多种标量耦合区间工作，避免显著激发快速弛豫态，并在两个维度给出纯吸收、同相线形。",
-      "meaning_cn": "SASSY把单重态寿命优势与二维分辨率结合，可减轻一维单重态编码谱的峰重叠并支持峰强定量。适用性取决于自旋对耦合拓扑、化学位移差和单重态寿命；对更大生物分子的优势仍是待验证的应用方向。",
-      "publication_date": "2026-11-16",
-      "time_scope": "7d_extension",
-      "source": "The Journal of Physical Chemistry Letters",
-      "url": "https://doi.org/10.1021/acs.jpclett.6c03014",
-      "doi": "10.1021/acs.jpclett.6c03014",
-      "alternative_sources": [
-        {
-          "name": "原文",
-          "url": "https://pubs.acs.org/doi/10.1021/acs.jpclett.6c03014"
-        }
-      ],
-      "related_to": [],
-      "review_status": "approved",
-      "tag_review_status": "approved",
-      "publication_status": "early_access",
-      "first_seen": "2026-11-21",
-      "last_updated": "2026-11-21",
-      "report_file": "SpinFront_2026-11-21.html"
-    },
-    {
-      "item_id": "SF-20261121-08",
-      "report_date": "2026-11-21",
-      "item_no": 8,
-      "direction_ids": [
-        "nmr"
-      ],
-      "experiment_type_ids": [
-        "td_nmr"
-      ],
-      "method_ids": [
-        "relaxometry",
-        "spectral_processing"
-      ],
-      "application_ids": [
-        "geoscience_flow"
-      ],
-      "instrument_component_ids": [],
-      "sample_systems": [],
-      "information_type": "paper",
-      "title_cn": "NMR 弛豫特征与机器学习预测地热岩心渗透率",
-      "summary_cn": "Yadav 等以204份地热岩心的有效/总孔隙度、应力、盐度及NMR T₂lm、T₂mode训练六类渗透率模型。随机森林在交叉验证中表现最佳，R²为0.968、RMSE为52.414；SHAP分析显示有效孔隙度贡献最高，NMR弛豫参数提供中等增量信息。",
-      "meaning_cn": "该框架把T₂分布特征纳入非线性渗透率估计，可作为高温高盐储层常规实验的补充。较高R²不等于跨盆地泛化；AARE仍为62.046%，且高杠杆样本被保留，应用到新岩性前需要独立外部验证与单位一致的误差评估。",
-      "publication_date": "2026-11-17",
-      "time_scope": "7d_extension",
-      "source": "Geothermal Energy",
-      "url": "https://doi.org/10.1186/s40517-026-00420-6",
-      "doi": "10.1186/s40517-026-00420-6",
-      "alternative_sources": [
-        {
-          "name": "原文",
-          "url": "https://link.springer.com/article/10.1186/s40517-026-00420-6"
-        }
-      ],
-      "related_to": [],
-      "review_status": "approved",
-      "tag_review_status": "approved",
-      "publication_status": "published",
-      "first_seen": "2026-11-21",
-      "last_updated": "2026-11-21",
-      "report_file": "SpinFront_2026-11-21.html"
-    },
-    {
-      "item_id": "SF-20261121-09",
-      "report_date": "2026-11-21",
-      "item_no": 9,
-      "direction_ids": [
-        "nmr"
-      ],
-      "experiment_type_ids": [
         "solution_nmr"
       ],
       "method_ids": [
@@ -387,9 +260,48 @@
       "report_file": "SpinFront_2026-11-21.html"
     },
     {
-      "item_id": "SF-20261121-10",
+      "item_id": "SF-20261121-07",
       "report_date": "2026-11-21",
-      "item_no": 10,
+      "item_no": 7,
+      "title_cn": "氘代单氟甲基苯丙氨酸拓展大蛋白 ¹⁹F NMR 探针",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "instrument_component_ids": [],
+      "sample_systems": [],
+      "information_type": "paper",
+      "summary_cn": "Liang 等合成氘代单氟甲基苯丙氨酸，用于大蛋白的¹⁹F NMR分析。该设计在保留CH₂F-Phe对局部构象环境敏感性的同时，以氘代降低邻近质子造成的弛豫负担，为在较大分子体系中引入单氟报告基团提供了可用的同位素标记路线。",
+      "meaning_cn": "单氟基团通常具有比三氟甲基更宽的化学位移响应，氘代可进一步面向大分子线宽问题。公开摘要未给出本次合成物在具体蛋白上的灵敏度、线宽或分子量上限，因此这里只确认合成路线及预期用途，不把探针性能外推为已完成的大蛋白验证。",
+      "publication_date": "2026-11-14",
+      "time_scope": "7d_extension",
+      "source": "Magnetic Resonance Letters",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2772516226000586",
+      "doi": "",
+      "alternative_sources": [
+        {
+          "name": "期刊近期论文列表",
+          "url": "https://www.keaipublishing.com/en/journals/magnetic-resonance-letters/recent-articles/?pageNumber=2"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-21",
+      "last_updated": "2026-11-21",
+      "report_file": "SpinFront_2026-11-21.html"
+    },
+    {
+      "item_id": "SF-20261121-08",
+      "report_date": "2026-11-21",
+      "item_no": 8,
       "direction_ids": [
         "nmr",
         "epr"

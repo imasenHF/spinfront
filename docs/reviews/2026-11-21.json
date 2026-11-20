@@ -5,11 +5,11 @@
   "repository": {
     "base_head": "ae2db108628e89438ddf7bbeb158a0557c16c8d0",
     "taxonomy_version": "1.2.0",
-    "final_content_commit": "0937ed04817d81c14b5e756ff83301df9af890d3",
-    "pages_run": "44825941337"
+    "final_content_commit": "",
+    "pages_run": ""
   },
   "search_summary": {
-    "enhancement_trigger": "常规24小时仅核实4条，低于5条阈值；已执行7日增强检索并获得9条合格非采购信息。",
+    "enhancement_trigger": "常规24小时仅核实4条，低于5条阈值；执行7日增强检索后，经最近7期正式JSON复核得到7条未重复学术信息。",
     "route_attempts": {
       "nature_high_impact": {
         "url": "https://www.nature.com/subjects/nmr-spectroscopy",
@@ -76,7 +76,8 @@
     "limitations": [
       "部分ACS页面403，使用公开题录与PubMed摘要核对",
       "采购动态页面存在未渲染或官方正文不可读情况，未把空页面当作无公告",
-      "执行环境无本地终端，无法在提交前运行仓库脚本"
+      "执行环境无本地终端，无法在提交前运行仓库脚本",
+      "GitHub代码搜索索引未及时命中11月18—19日内容；改以最近7期正式JSON复核并排除3条重复候选"
     ]
   },
   "candidates": [
@@ -176,63 +177,6 @@
       "limitation": "该方法能在工作压力下分别观察孔内和连续相传质，为多孔液体的吸附—释放设计提供时间尺度信息。动力学分解依赖探针位置、谱线模型和传质边界条件；探针稳定性及其对孔占据的影响需要在不同MOF与溶剂体系中复核。"
     },
     {
-      "title": "TROP 脉冲将高维蛋白固体 NMR 测量时间缩短近一个数量级",
-      "doi": "10.1038/s41467-026-79563-w",
-      "url": "https://doi.org/10.1038/s41467-026-79563-w",
-      "actual_online_date": "2026-11-18",
-      "publication_status": "early_access",
-      "author_verified": "第一作者由出版商、PubMed或可靠题录核对",
-      "author_source": "https://www.nature.com/articles/s41467-026-79563-w",
-      "magnetic_resonance_role": "method_core",
-      "evidence_location": "出版商或PubMed摘要/原文",
-      "evidence": "Klein 等在超过50 kHz魔角旋转条件下，把横向混合最优控制脉冲TROP广泛嵌入4D/5D蛋白固体NMR的多步磁化转移。TROP与非均匀采样结合，同时增强复数时间点信号并改善重建，使所需测量时间接近缩短一个数量级。",
-      "decision": "included",
-      "source_status": "verified",
-      "date_status": "verified",
-      "dedup_status": "passed",
-      "science_status": "approved",
-      "tag_review_status": "approved",
-      "limitation": "该组合直接针对高维谱的灵敏度和采集时间瓶颈，有望降低较大蛋白的峰重叠问题。收益依赖脉冲校准、探头射频能力、MAS稳定性和重建流程；“近一个数量级”来自所测试实验，不能预设为所有样品和转移路径的固定增益。"
-    },
-    {
-      "title": "SASSY 二维 NMR 以长寿命单重态提升分辨与定量",
-      "doi": "10.1021/acs.jpclett.6c03014",
-      "url": "https://doi.org/10.1021/acs.jpclett.6c03014",
-      "actual_online_date": "2026-11-16",
-      "publication_status": "early_access",
-      "author_verified": "第一作者由出版商、PubMed或可靠题录核对",
-      "author_source": "https://pubs.acs.org/doi/10.1021/acs.jpclett.6c03014",
-      "magnetic_resonance_role": "method_core",
-      "evidence_location": "出版商或PubMed摘要/原文",
-      "evidence": "Jain 等提出Singlet-ASsisted 2D SpectroscopY（SASSY），在二维同核相关实验中生成长寿命核单重态。理论、旋转动力学模拟与实验显示，该序列可跨多种标量耦合区间工作，避免显著激发快速弛豫态，并在两个维度给出纯吸收、同相线形。",
-      "decision": "included",
-      "source_status": "verified",
-      "date_status": "verified",
-      "dedup_status": "passed",
-      "science_status": "approved",
-      "tag_review_status": "approved",
-      "limitation": "SASSY把单重态寿命优势与二维分辨率结合，可减轻一维单重态编码谱的峰重叠并支持峰强定量。适用性取决于自旋对耦合拓扑、化学位移差和单重态寿命；对更大生物分子的优势仍是待验证的应用方向。"
-    },
-    {
-      "title": "NMR 弛豫特征与机器学习预测地热岩心渗透率",
-      "doi": "10.1186/s40517-026-00420-6",
-      "url": "https://doi.org/10.1186/s40517-026-00420-6",
-      "actual_online_date": "2026-11-17",
-      "publication_status": "published",
-      "author_verified": "第一作者由出版商、PubMed或可靠题录核对",
-      "author_source": "https://link.springer.com/article/10.1186/s40517-026-00420-6",
-      "magnetic_resonance_role": "method_core",
-      "evidence_location": "出版商或PubMed摘要/原文",
-      "evidence": "Yadav 等以204份地热岩心的有效/总孔隙度、应力、盐度及NMR T₂lm、T₂mode训练六类渗透率模型。随机森林在交叉验证中表现最佳，R²为0.968、RMSE为52.414；SHAP分析显示有效孔隙度贡献最高，NMR弛豫参数提供中等增量信息。",
-      "decision": "included",
-      "source_status": "verified",
-      "date_status": "verified",
-      "dedup_status": "passed",
-      "science_status": "approved",
-      "tag_review_status": "approved",
-      "limitation": "该框架把T₂分布特征纳入非线性渗透率估计，可作为高温高盐储层常规实验的补充。较高R²不等于跨盆地泛化；AARE仍为62.046%，且高杠杆样本被保留，应用到新岩性前需要独立外部验证与单位一致的误差评估。"
-    },
-    {
       "title": "快速注射 NMR 教程梳理秒级反应监测的设计边界",
       "doi": "",
       "url": "https://pubs.acs.org/orgnd7/latest-articles",
@@ -250,6 +194,25 @@
       "science_status": "approved",
       "tag_review_status": "approved",
       "limitation": "教程为需要捕捉秒级反应的实验室提供了从T₁、脉冲角、采样间隔到模型体系验证的实用框架。手动注射的时间分辨率和重复性有限，半衰期短于约0.7 s的反应需更复杂处理或停流方案；本次可读官方题录未显示DOI，因此来源字段不补写。"
+    },
+    {
+      "title": "氘代单氟甲基苯丙氨酸拓展大蛋白 ¹⁹F NMR 探针",
+      "doi": "",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2772516226000586",
+      "actual_online_date": "2026-11-14",
+      "publication_status": "early_access",
+      "author_verified": "Liang（期刊近期论文列表）",
+      "author_source": "https://www.keaipublishing.com/en/journals/magnetic-resonance-letters/recent-articles/?pageNumber=2",
+      "magnetic_resonance_role": "method_core",
+      "evidence_location": "期刊近期论文列表摘要",
+      "evidence": "Liang 等合成氘代单氟甲基苯丙氨酸，用于大蛋白的¹⁹F NMR分析。该设计在保留CH₂F-Phe对局部构象环境敏感性的同时，以氘代降低邻近质子造成的弛豫负担，为在较大分子体系中引入单氟报告基团提供了可用的同位素标记路线。",
+      "decision": "included",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "单氟基团通常具有比三氟甲基更宽的化学位移响应，氘代可进一步面向大分子线宽问题。公开摘要未给出本次合成物在具体蛋白上的灵敏度、线宽或分子量上限，因此这里只确认合成路线及预期用途，不把探针性能外推为已完成的大蛋白验证。"
     },
     {
       "title": "采购与需求动态：多频 EPR 项目暂停，600 MHz NMR 完成中标",
@@ -364,10 +327,67 @@
       "science_status": "approved",
       "tag_review_status": "approved",
       "limitation": "未给出新增发布日期，不能作为当期新动态。"
+    },
+    {
+      "title": "Boosting Sensitivity of High-Dimensional Solid-State NMR of Proteins by Optimizing Coherence Transfers",
+      "doi": "10.1038/s41467-026-79563-w",
+      "url": "https://doi.org/10.1038/s41467-026-79563-w",
+      "actual_online_date": "2026-11-18",
+      "publication_status": "early_access",
+      "author_verified": "Klein（出版商）",
+      "author_source": "https://www.nature.com/articles/s41467-026-79563-w",
+      "magnetic_resonance_role": "method_core",
+      "evidence_location": "最近7期正式JSON",
+      "evidence": "TROP与NUS提升高维蛋白固体NMR。",
+      "decision": "excluded",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "duplicate",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "已收录于2026-11-19。"
+    },
+    {
+      "title": "Two-Dimensional Homonuclear Correlation NMR Spectroscopy Utilizing Long-Lived Nuclear Singlet Order",
+      "doi": "10.1021/acs.jpclett.6c03014",
+      "url": "https://doi.org/10.1021/acs.jpclett.6c03014",
+      "actual_online_date": "2026-11-16",
+      "publication_status": "early_access",
+      "author_verified": "Jain（出版商）",
+      "author_source": "https://doi.org/10.1021/acs.jpclett.6c03014",
+      "magnetic_resonance_role": "method_core",
+      "evidence_location": "最近7期正式JSON",
+      "evidence": "SASSY二维单重态NMR。",
+      "decision": "excluded",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "duplicate",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "已收录于2026-11-18。"
+    },
+    {
+      "title": "Data-driven characterization of geothermal reservoir permeability using NMR-derived features",
+      "doi": "10.1186/s40517-026-00420-6",
+      "url": "https://doi.org/10.1186/s40517-026-00420-6",
+      "actual_online_date": "2026-11-17",
+      "publication_status": "published",
+      "author_verified": "Yadav（出版商）",
+      "author_source": "https://link.springer.com/article/10.1186/s40517-026-00420-6",
+      "magnetic_resonance_role": "application_core",
+      "evidence_location": "最近7期正式JSON",
+      "evidence": "NMR弛豫特征结合机器学习预测渗透率。",
+      "decision": "excluded",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "duplicate",
+      "science_status": "approved",
+      "tag_review_status": "approved",
+      "limitation": "已收录于2026-11-19。"
     }
   ],
   "dedup": {
-    "index_head": "ae2db108628e89438ddf7bbeb158a0557c16c8d0",
+    "index_head": "abd23a1b0dd2b5318ac2b9bd0a3c8ce35f6b0b78",
     "issue_count": 92,
     "item_count": 801,
     "recent_issues": [
@@ -379,7 +399,7 @@
       "2026-11-19",
       "2026-11-20"
     ],
-    "doi_duplicates": 0,
+    "doi_duplicates": 3,
     "keys": [
       "normalized DOI",
       "URL without tracking parameters",
@@ -429,12 +449,12 @@
     ]
   },
   "counts": {
-    "registered_candidates": 15,
-    "included_items": 10,
-    "excluded_candidates": 5,
-    "paper_or_review_items": 9,
+    "registered_candidates": 16,
+    "included_items": 8,
+    "excluded_candidates": 8,
+    "paper_or_review_items": 7,
     "procurement_announcements": 2,
-    "daily_items": 10
+    "daily_items": 8
   },
   "checks": {
     "author_subjects": "approved",
@@ -443,24 +463,20 @@
     "dedup": "approved",
     "tags": "approved",
     "procurement_placement": "approved",
-    "html_json_screen_consistency": "approved_by_actions",
+    "html_json_screen_consistency": "pending_actions",
     "tests": "partial: Actions validate/build/search passed; local tests/procurement.test.py and tests/build.test.py not run because executor unavailable",
-    "publication": "actions_deploy_success_public_http_unverified"
+    "publication": "pending"
   },
-  "final_review_status": "deployed_public_http_unverified",
+  "final_review_status": "content_approved_publication_pending",
   "deployment": {
-    "actions_run": "44825941337",
-    "actions_url": "https://github.com/imasenHF/spinfront/actions/runs/44825941337",
-    "build": "success",
-    "pages_deploy": "success",
+    "actions_run": "",
+    "actions_url": "",
+    "build": "pending",
+    "pages_deploy": "pending",
     "public_issue_url": "https://plastocyanin.org/spinfront/2026-11-21/",
     "public_validation": {
-      "status": "not_completed",
-      "reason": "Direct public HTTP inspection was unavailable in this execution environment; search index remained cached on the prior issue.",
-      "actions_artifact_and_deploy": "passed",
-      "article_count_expected": 10,
-      "procurement_last_expected": true,
-      "downloads_present_expected": false
+      "status": "pending",
+      "downloads_expected": false
     }
   }
 }

@@ -5,8 +5,8 @@
   "repository": {
     "base_head": "fe9827bd9a7ba15f2dc5c99ec64c76cdd3c12519",
     "taxonomy_version": "1.2.0",
-    "final_content_commit": "pending",
-    "pages_run": "pending"
+    "final_content_commit": "5c6e2bfd9ad45edd1249d7723680e95363a6d876",
+    "pages_run": "44955269689"
   },
   "search_summary": {
     "enhancement_trigger": "常规24小时未核得可证明处于窗口内且未重复的合格条目，低于5条阈值；近7天初筛后仍需逐站核对日期与历史，继续执行深度增强检索。",
@@ -500,8 +500,24 @@
       "node tests/search.test.cjs": "passed",
       "python tests/procurement.test.py": "passed"
     },
-    "github_actions": "pending",
-    "pages_deployment": "pending",
-    "public_page": "pending"
+    "github_actions": "success_run_44955269689",
+    "pages_deployment": "success",
+    "public_page": "passed_issue_home_archive_and_doi_search"
+  },
+  "final_review_status": "published_and_publicly_verified",
+  "deployment": {
+    "actions_run": "44955269689",
+    "actions_url": "https://github.com/imasenHF/spinfront/actions/runs/44955269689",
+    "build": "success",
+    "pages_deploy": "success",
+    "public_issue_url": "https://plastocyanin.org/spinfront/2026-11-22/",
+    "public_validation": {
+      "status": "passed",
+      "issue_page": "10 items rendered in canonical order; procurement item SF-20261122-10 is last; footer present",
+      "site_home": "2026-11-22 selected and 10 items reported",
+      "archive": "latest issue 2026-11-22; 94 issues / 819 items; date count 10",
+      "search": "DOI 10.1063/5.0357991 returns exactly one matching 2026-11-22 item",
+      "downloads_expected": false
+    }
   }
 }

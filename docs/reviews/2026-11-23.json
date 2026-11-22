@@ -5,8 +5,8 @@
   "repository": {
     "base_head": "c4e61561a415cf5ca1dc25b8d3c6089b6aeeaa53",
     "taxonomy_version": "1.2.0",
-    "final_content_commit": "pending",
-    "pages_run": "pending"
+    "final_content_commit": "73d60c909201516d65f2d5e9cc577dedc0f6d611",
+    "pages_run": "45076928102"
   },
   "search_summary": {
     "enhancement_trigger": "常规近24小时未核得足量且未重复的合格条目，低于5条阈值；近7天初筛后仍需逐站确认在线首发、作者和磁共振作用，继续执行深度增强检索。",
@@ -495,19 +495,23 @@
       "python tests/build.test.py": "passed: 1 test",
       "local_content_parity": "passed: 10 articles, procurement status last, latest home and index.json"
     },
-    "github_actions": "pending",
-    "pages_deployment": "pending",
-    "public_page": "pending"
+    "github_actions": "success_run_45076928102",
+    "pages_deployment": "success",
+    "public_page": "passed_issue_home_archive_and_doi_search"
   },
-  "final_review_status": "content_review_complete_publication_pending",
+  "final_review_status": "published_and_publicly_verified",
   "deployment": {
-    "actions_run": "pending",
-    "actions_url": "",
-    "build": "pending",
-    "pages_deploy": "pending",
+    "actions_run": "45076928102",
+    "actions_url": "https://github.com/imasenHF/spinfront/actions/runs/45076928102",
+    "build": "success",
+    "pages_deploy": "success",
     "public_issue_url": "https://plastocyanin.org/spinfront/2026-11-23/",
     "public_validation": {
-      "status": "pending",
+      "status": "passed",
+      "issue_page": "10 items rendered in canonical order; procurement status follows item 10; footer present",
+      "site_home": "2026-11-23 selected; latest issue reports 10 items (8 NMR / 2 EPR)",
+      "archive": "95 issues / 829 items; 2026-11-23 calendar count 10",
+      "search": "DOI 10.1021/acs.jpclett.6c03322 returns exactly one matching 2026-11-23 item",
       "downloads_expected": false
     }
   }

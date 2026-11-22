@@ -1,0 +1,514 @@
+{
+  "schema_version": "1.0.0",
+  "report_date": "2026-11-23",
+  "retrieval_cutoff": "2026-11-23T06:12:00+08:00",
+  "repository": {
+    "base_head": "c4e61561a415cf5ca1dc25b8d3c6089b6aeeaa53",
+    "taxonomy_version": "1.2.0",
+    "final_content_commit": "pending",
+    "pages_run": "pending"
+  },
+  "search_summary": {
+    "enhancement_trigger": "常规近24小时未核得足量且未重复的合格条目，低于5条阈值；近7天初筛后仍需逐站确认在线首发、作者和磁共振作用，继续执行深度增强检索。",
+    "deep_enhancement": "逐日回扫2026-11-16至2026-11-22；逐站检查高影响与磁共振专业期刊、PubMed/Crossref、ChemRxiv/Research Square/arXiv、厂商、会议及采购路线，并轮查全部规定方法词簇。",
+    "route_attempts": {
+      "high_impact": {
+        "status": "searched",
+        "sources": [
+          "Nature系列",
+          "Science系列",
+          "JACS/ACS",
+          "PR系列"
+        ],
+        "result": "核实1条ACS EPR测氧论文和1条PRB正式接收论文；其余命中多为重复或超窗。"
+      },
+      "professional_journals": {
+        "status": "searched",
+        "sources": [
+          "JMR",
+          "JMR Open",
+          "Magnetic Resonance",
+          "Journal of Biomolecular NMR",
+          "Solid State Nuclear Magnetic Resonance",
+          "Magnetic Resonance in Chemistry",
+          "Applied Magnetic Resonance",
+          "JCP"
+        ],
+        "result": "核实Applied Magnetic Resonance纳米颗粒弛豫论文；未发现更多满足日期与作用门槛的新条目。"
+      },
+      "pubmed_crossref": {
+        "status": "completed",
+        "sources": [
+          "PubMed",
+          "Crossref API"
+        ],
+        "result": "核对作者、DOI、摘要、在线首发与卷期日期；排除卷期在窗而在线首发超窗的候选。"
+      },
+      "preprints": {
+        "status": "completed",
+        "sources": [
+          "ChemRxiv",
+          "Research Square",
+          "arXiv",
+          "bioRxiv"
+        ],
+        "result": "入选ChemRxiv、Research Square和arXiv各1条，均明确标记预印本。"
+      },
+      "vendors": {
+        "status": "searched_with_limits",
+        "sources": [
+          "Bruker",
+          "JEOL",
+          "Oxford Instruments",
+          "Magritek",
+          "Nanalysis",
+          "CIQTEK"
+        ],
+        "result": "未核得近7天有明确新增日期且具技术增量的独立页面；部分动态列表可见性受限。"
+      },
+      "meetings": {
+        "status": "searched",
+        "sources": [
+          "ENC",
+          "EUROMAR",
+          "ICMRBS",
+          "EFEPR",
+          "APES",
+          "ISMAR"
+        ],
+        "result": "未核得近7天新增独立技术议程。"
+      },
+      "procurement_china": {
+        "status": "searched_with_limits",
+        "sources": [
+          "中国政府采购网",
+          "全国公共资源交易平台",
+          "高校采购网站",
+          "公开采购聚合列表与正文"
+        ],
+        "result": "登记5个候选；3个历史重复，1个不能确认直接NMR/EPR用途，1个转载日期与原公告不一致，合格新增为0。"
+      },
+      "procurement_overseas": {
+        "status": "searched",
+        "sources": [
+          "SAM.gov",
+          "海外高校公开采购检索"
+        ],
+        "result": "未核得窗口内可验证的NMR/EPR新增公告。"
+      }
+    },
+    "method_clusters": [
+      "高分辨液体NMR",
+      "固体NMR/MAS/DNP",
+      "低场与TD-NMR",
+      "NMR软件与谱图处理",
+      "CW/rapid-scan EPR",
+      "脉冲EPR/DEER/ENDOR/ESEEM/HYSCORE",
+      "TREPR与光照",
+      "operando/EC-EPR",
+      "探头/谐振器/磁体/控制台/自动进样"
+    ],
+    "dedup_periods": [
+      "2026-11-16",
+      "2026-11-17",
+      "2026-11-18",
+      "2026-11-19",
+      "2026-11-20",
+      "2026-11-21",
+      "2026-11-22"
+    ],
+    "full_archive_index": "data/**/*.json at c4e61561a415cf5ca1dc25b8d3c6089b6aeeaa53",
+    "candidate_counts": {
+      "registered": 27,
+      "selected_items": 10,
+      "excluded_duplicates": 6,
+      "excluded_out_of_window": 5,
+      "excluded_routine_characterization": 4,
+      "excluded_source_or_date": 2
+    },
+    "final_counts": {
+      "daily_items": 10,
+      "academic_or_method_items": 10,
+      "procurement_summary_items": 0,
+      "procurement_announcements": 0,
+      "procurement_status_blocks": 1
+    }
+  },
+  "procurement_review": {
+    "registered_candidates": 5,
+    "qualified_announcements": 0,
+    "excluded_announcements": 5,
+    "summary_item_id": null,
+    "procurement_status": "no_verified_updates",
+    "candidates": [
+      {
+        "title": "中国科学院过程工程研究所多频率电子顺磁共振波谱仪采购项目暂停公告",
+        "purchaser": "中国科学院过程工程研究所",
+        "stage": "暂停",
+        "announcement_date": "2026-11-20",
+        "budget": "",
+        "deadline": "",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/qtgg/202611/t20261120_27722836.htm",
+        "dedup_status": "formal_json_2026-11-20",
+        "decision": "excluded",
+        "reason": "2026-11-20正式日报已收录同一项目暂停阶段。"
+      },
+      {
+        "title": "南开大学化学学院600MHz和800MHz核磁冷头维保采购项目成交公告",
+        "purchaser": "南开大学",
+        "stage": "成交",
+        "announcement_date": "2026-11-18",
+        "budget": "成交金额29万元",
+        "deadline": "",
+        "url": "https://nkzbb.nankai.edu.cn/jgfw/4809.chtml",
+        "dedup_status": "formal_json_2026-11-19",
+        "decision": "excluded",
+        "reason": "2026-11-19正式日报已收录同一成交阶段。"
+      },
+      {
+        "title": "中国科学院上海有机化学研究所高灵敏度高温核磁共振谱仪及配套系统采购项目",
+        "purchaser": "中国科学院上海有机化学研究所",
+        "stage": "公开招标",
+        "announcement_date": "2026-11-16",
+        "budget": "预算及最高限价1062万元",
+        "deadline": "2026-12-07T09:30:00+08:00",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202611/t20261116_27694492.htm",
+        "dedup_status": "formal_json_2026-11-18",
+        "decision": "excluded",
+        "reason": "2026-11-18正式日报已收录同一项目同一阶段。"
+      },
+      {
+        "title": "清华大学超导磁体恒温器废止公告（清采比选20261725号）",
+        "purchaser": "清华大学",
+        "stage": "废止",
+        "announcement_date": "2026-11-22",
+        "budget": "原最高限价39.5万元",
+        "deadline": "",
+        "url": "https://sbcgczxxfb.sysc.tsinghua.edu.cn/sfw_cms/e?page=cms.index",
+        "dedup_status": "passed",
+        "decision": "excluded",
+        "reason": "官网列表可确认废止阶段和日期，但设备用于低温强磁平台，未取得其直接服务NMR/EPR实验或仪器的证据，不按关键词推断相关性。"
+      },
+      {
+        "title": "苏州大学预算295万元采购400M核磁共振波谱仪",
+        "purchaser": "苏州大学",
+        "stage": "转载",
+        "announcement_date": "2024-03-05",
+        "budget": "295万元",
+        "deadline": "2024-03-26T09:00:00+08:00",
+        "url": "https://www.yqybw.cn/news/3892.html",
+        "dedup_status": "stale_republication",
+        "decision": "excluded",
+        "reason": "转载页标注2026-11-22，但正文项目编号、投标截止与原始事件均为2024年，不是本期新增公告。"
+      }
+    ]
+  },
+  "selected_candidates": [
+    {
+      "item_id": "SF-20261123-01",
+      "title": "Triarylmethyl Radicals Encapsulated in ZIF-8 Framework: A Versatile Platform for Skin-Surface Oxygen Detection using EPR spectroscopy",
+      "doi": "10.1021/acs.jpclett.6c03322",
+      "actual_online_date": "2026-11-20",
+      "publication_status": "published",
+      "first_author": "Zhitkeyev",
+      "author_source": "Crossref and ACS metadata",
+      "magnetic_resonance_role": "method_core",
+      "evidence": "FT@ZIF-8在水悬液和猪皮表面保持氧敏EPR响应。",
+      "dedup_status": "passed_full_archive",
+      "tag_reasons": {
+        "epr": "EPR测氧",
+        "spin_probe": "三芳甲基自由基探针",
+        "life_science": "皮肤表面氧合",
+        "materials": "ZIF-8复合物",
+        "instrumentation": "测氧探针平台"
+      },
+      "fact_status": "approved",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261123-02",
+      "title": "Mn site distribution and short-range magnetic order in the ludwigite Co2.19Mn0.81 11BO5: neutron diffraction and EPR study",
+      "doi": "10.21203/rs.3.rs-11693408/v1",
+      "actual_online_date": "2026-11-20",
+      "publication_status": "preprint",
+      "first_author": "Fazlizhanova",
+      "author_source": "Crossref and Research Square metadata",
+      "magnetic_resonance_role": "key_evidence",
+      "evidence": "X波段EPR温变强度和零场宽共振揭示准一维与短程磁关联。",
+      "dedup_status": "passed_full_archive",
+      "tag_reasons": {
+        "epr": "X波段EPR",
+        "cw_epr": "连续温变共振线",
+        "materials": "受挫磁性材料",
+        "inorganic_coordination": "过渡金属氧硼酸盐"
+      },
+      "fact_status": "approved",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261123-03",
+      "title": "Chemically specific NMR relaxation in thermally modified mesoporous materials",
+      "doi": "10.26434/chemrxiv.15012341/v1",
+      "actual_online_date": "2026-11-17",
+      "publication_status": "preprint",
+      "first_author": "Dong",
+      "author_source": "Crossref and ChemRxiv metadata",
+      "magnetic_resonance_role": "method_core",
+      "evidence": "12.7 MHz二维T1-T2定量表面脱羟基对不同吸附液体弛豫率的影响。",
+      "dedup_status": "passed_full_archive",
+      "tag_reasons": {
+        "nmr": "低场1H NMR",
+        "td_nmr": "时域弛豫",
+        "multidimensional_nmr": "T1-T2二维",
+        "relaxometry": "表面弛豫率",
+        "materials": "介孔材料"
+      },
+      "fact_status": "approved",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261123-04",
+      "title": "Advances in NMR Studies of Membrane Protein Structure and Function",
+      "doi": "10.53941/hm.2026.100028",
+      "actual_online_date": "2026-11-18",
+      "publication_status": "published",
+      "first_author": "Liu",
+      "author_source": "Crossref",
+      "magnetic_resonance_role": "method_core_review",
+      "evidence": "系统综述膜模拟、溶液与固体NMR、MAS、DNP和原位NMR。",
+      "dedup_status": "passed_full_archive",
+      "tag_reasons": {
+        "nmr": "膜蛋白NMR综述",
+        "solution_nmr": "溶液方法",
+        "solid_state_nmr": "固体方法",
+        "mas": "MAS",
+        "dnp": "DNP增强",
+        "structural_biology": "膜蛋白结构与动力学",
+        "life_science": "疾病相关膜蛋白"
+      },
+      "fact_status": "approved",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261123-05",
+      "title": "Modeling quantum information scrambling in realistic protein NMR experiments",
+      "doi": "10.48550/arXiv.2611.23213",
+      "actual_online_date": "2026-11-17",
+      "publication_status": "preprint",
+      "first_author": "White",
+      "author_source": "arXiv API record",
+      "magnetic_resonance_role": "method_core",
+      "evidence": "分子动力学、粉末平均和双量子有效哈密顿量模拟蛋白固体NMR OTOC传播。",
+      "dedup_status": "passed_full_archive; previously_reviewed_not_selected_2026-11-20",
+      "tag_reasons": {
+        "nmr": "固体NMR",
+        "solid_state_nmr": "粉末蛋白样品",
+        "computation_nmr": "端到端模拟",
+        "dqc": "双量子有效哈密顿量",
+        "structural_biology": "蛋白距离约束",
+        "software": "计算流程"
+      },
+      "fact_status": "approved",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261123-06",
+      "title": "Influence of the KF and NaF Fluorinating Agents on the Morphological and 1H NMR Relaxation Properties of DyF3 Nanoparticles",
+      "doi": "10.1007/s00723-026-01898-w",
+      "actual_online_date": "2026-11-17",
+      "publication_status": "published",
+      "first_author": "Mukhamadullin",
+      "author_source": "Crossref and publisher metadata",
+      "magnetic_resonance_role": "application_core",
+      "evidence": "9.4 T水质子T2随DyF3纳米颗粒聚集与水热处理变化。",
+      "dedup_status": "passed_full_archive",
+      "tag_reasons": {
+        "nmr": "1H NMR",
+        "td_nmr": "横向弛豫",
+        "relaxometry": "T2跟踪",
+        "materials": "DyF3纳米颗粒"
+      },
+      "fact_status": "approved",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261123-07",
+      "title": "Deciphering the Metabolome of the Fascinating Slime Mold Physarum polycephalum by NMR Dereplication Combined with Mass Spectrometry",
+      "doi": "10.3390/analytica7040099",
+      "actual_online_date": "2026-11-16",
+      "publication_status": "published",
+      "first_author": "Hubert",
+      "author_source": "Crossref and publisher metadata",
+      "magnetic_resonance_role": "application_core",
+      "evidence": "NMR去重复明确鉴定黏菌细胞内外多类代谢物并与LC/HRMS互补。",
+      "dedup_status": "passed_full_archive",
+      "tag_reasons": {
+        "nmr": "NMR代谢组学",
+        "solution_nmr": "提取物溶液分析",
+        "metabolomics": "核心流程",
+        "life_science": "黏菌代谢",
+        "natural_products": "天然小分子"
+      },
+      "fact_status": "approved",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261123-08",
+      "title": "Association of the NMR-Derived Inflammation Biomarker GlycA in Follicular Fluid with Reproductive Outcomes in Modified Natural Cycle IVF",
+      "doi": "10.1021/acs.analchem.6c05833",
+      "actual_online_date": "2026-11-16",
+      "publication_status": "published",
+      "first_author": "Hofsink",
+      "author_source": "Crossref and ACS metadata",
+      "magnetic_resonance_role": "application_core",
+      "evidence": "卵泡液NMR GlycA与胚胎质量、妊娠和活产结局相关。",
+      "dedup_status": "passed_full_archive",
+      "tag_reasons": {
+        "nmr": "NMR复合炎症标志物",
+        "solution_nmr": "卵泡液与血浆",
+        "life_science": "辅助生殖结局"
+      },
+      "fact_status": "approved",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261123-09",
+      "title": "Vertical Heterogeneity of Hierarchical Pore Architecture and Methane Transport in Deep Coal Revealed by CT and LF-NMR",
+      "doi": "10.1002/gj.70554",
+      "actual_online_date": "2026-11-20",
+      "publication_status": "published",
+      "first_author": "Dong",
+      "author_source": "Crossref",
+      "magnetic_resonance_role": "application_core",
+      "evidence": "低场NMR定量连续深部煤芯吸附孔和渗流空间并与CT、模拟联用。",
+      "dedup_status": "passed_full_archive",
+      "tag_reasons": {
+        "nmr": "低场NMR",
+        "td_nmr": "孔隙时域信号",
+        "relaxometry": "孔隙弛豫表征",
+        "geoscience_flow": "煤层甲烷储运"
+      },
+      "fact_status": "approved",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261123-10",
+      "title": "Disorder-driven coexistence of distinct dynamical states in frustrated Sr3CuNb2O9: A microscopic μSR and 93Nb NMR study",
+      "doi": "10.1103/8mk5-3pt9",
+      "actual_online_date": "2026-11-18",
+      "publication_status": "early_access",
+      "first_author": "Biswas",
+      "author_source": "Crossref and APS accepted-paper page",
+      "magnetic_resonance_role": "key_evidence",
+      "evidence": "93Nb谱与逆拉普拉斯T1分布分辨快慢两条动力学通道。",
+      "dedup_status": "passed_full_archive",
+      "tag_reasons": {
+        "nmr": "93Nb NMR",
+        "solid_state_nmr": "固体受挫磁体",
+        "multinuclear_nmr": "93Nb核种",
+        "relaxometry": "T1分布",
+        "materials": "受挫磁性材料",
+        "inorganic_coordination": "铌酸盐"
+      },
+      "fact_status": "approved",
+      "tag_review_status": "approved"
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "title": "GEMSTONE-TOCSY for the structural analysis of polysaccharides",
+      "doi": "10.1016/j.aca.2026.346199",
+      "actual_online_date": "2026-09-02",
+      "decision": "excluded_out_of_window",
+      "reason": "2026-11-22为卷期日期，在线首发超出近7天窗口。"
+    },
+    {
+      "title": "Probing MOF Stoichiometry Using Quantitative NMR and TGA",
+      "doi": "10.26434/chemrxiv-2024-2bps8/v2",
+      "actual_online_date": "2026-11-16",
+      "decision": "excluded_source_or_date",
+      "reason": "v2登记日期在窗，但原始预印本始于2024年，未取得足够版本说明证明本期新增科学事件，避免把版本更新时间当新论文。"
+    },
+    {
+      "title": "A Practical Guide to RNA NMR Spectral Analysis for Undergraduate Students",
+      "doi": "10.1021/acs.jchemed.5c01543",
+      "actual_online_date": "2026-11-18",
+      "decision": "excluded_prioritization",
+      "reason": "NMR教学流程相关，但在固定条数内优先选择带新方法、材料或应用结果的研究。"
+    },
+    {
+      "title": "Analysis of Chemical Mixtures as a More Authentic Pedagogical Approach to Teaching 1H NMR Spectroscopy",
+      "doi": "10.1021/acs.jchemed.6c01419",
+      "actual_online_date": "2026-11-18",
+      "decision": "excluded_prioritization",
+      "reason": "教学资源直接涉及NMR，但本期优先保留研究与方法进展。"
+    },
+    {
+      "title": "Erratum: X-band EPR spectroscopy as a sensitive method to determine melanin in human skin",
+      "doi": "10.3791/6721",
+      "decision": "excluded_source_or_date",
+      "reason": "勘误本身不构成新增科学结果。"
+    },
+    {
+      "title": "Proton NMR Spectroscopic Analysis of Methanol Extract from Nut Oil",
+      "doi": "10.9734/ajrb/2026/v16i6538",
+      "decision": "excluded_routine_characterization",
+      "reason": "摘要只显示常规1H NMR成分表征，未达到方法或核心应用门槛。"
+    },
+    {
+      "title": "Artichoke metabolite profiling by NMR and LC-MS",
+      "doi": "10.3390/molecules31224161",
+      "decision": "excluded_routine_characterization",
+      "reason": "NMR作为常规成分表征之一，未确认其对主要结论的独立关键作用。"
+    },
+    {
+      "title": "Quantifying Hidden Metabolites in 31P NMR",
+      "doi": "10.1021/jacs.6c17407",
+      "decision": "excluded_duplicate",
+      "reason": "已收录于2026-11-08正式JSON。"
+    },
+    {
+      "title": "Rapid-Injection NMR for Organometallic Reaction Monitoring",
+      "doi": "10.1021/acs.organomet.6c00237",
+      "decision": "excluded_duplicate",
+      "reason": "已收录于2026-11-21正式JSON。"
+    },
+    {
+      "title": "Pulsed hyperfine EPR of rare-earth complexes",
+      "doi": "10.1039/d6cc06362d",
+      "actual_online_date": "2026-10-22",
+      "decision": "excluded_out_of_window",
+      "reason": "在线首发超窗；前期Review已有记录。"
+    }
+  ],
+  "validation": {
+    "doi_url_title_dedup": "passed_against_full_archive_and_last_7_reviews",
+    "author_subject_review": "passed_all_10_academic_items",
+    "fact_review": "approved",
+    "tag_review": "approved_taxonomy_1.2.0",
+    "json_html_screen_consistency": "passed_10_items_procurement_status_last_no_downloads",
+    "commands": {
+      "python scripts/build.py --check": "passed: 95 issues / 829 items",
+      "python scripts/build.py": "passed: 95 issues",
+      "node tests/search.test.cjs": "passed",
+      "python tests/procurement.test.py": "passed: 6 tests",
+      "python tests/build.test.py": "passed: 1 test",
+      "local_content_parity": "passed: 10 articles, procurement status last, latest home and index.json"
+    },
+    "github_actions": "pending",
+    "pages_deployment": "pending",
+    "public_page": "pending"
+  },
+  "final_review_status": "content_review_complete_publication_pending",
+  "deployment": {
+    "actions_run": "pending",
+    "actions_url": "",
+    "build": "pending",
+    "pages_deploy": "pending",
+    "public_issue_url": "https://plastocyanin.org/spinfront/2026-11-23/",
+    "public_validation": {
+      "status": "pending",
+      "downloads_expected": false
+    }
+  }
+}

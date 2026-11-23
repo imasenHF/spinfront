@@ -4,7 +4,8 @@
   "retrieval_cutoff": "2026-11-24T06:00:00+08:00",
   "repository": {
     "base_head": "ab2a34767f25b55db60f5e7f2576348fb1456977",
-    "taxonomy_version": "1.2.0"
+    "taxonomy_version": "1.2.0",
+    "final_content_commit": "976f957af5e17f09089d4990d3ba6fbedad3bf85"
   },
   "search_summary": {
     "enhancement_trigger": "近24小时精确时刻可证且未重复的合格条目不足5条",
@@ -806,7 +807,21 @@
       "python tests/build.test.py": "pass: 1 test",
       "local_content_parity": "pass: all 10 titles, summaries, commentaries, dates and URLs agree across JSON, rendered issue and screen text; procurement last with 5 sources; home, archive and search index match"
     },
-    "public_verification": "pending"
+    "public_verification": "pass: HTTP 200 for issue, home, archive index and search index; all 10 articles, dates and source URLs match the canonical issue; 5 independent procurement links in last item."
   },
-  "final_review_status": "content_review_complete_publication_pending"
+  "final_review_status": "published_and_publicly_verified",
+  "deployment": {
+    "actions_run": 45277219898,
+    "actions_url": "https://github.com/imasenHF/spinfront/actions/runs/45277219898",
+    "build": "success",
+    "pages_deploy": "success",
+    "public_issue_url": "https://plastocyanin.org/spinfront/2026-11-24/",
+    "public_archive_url": "https://plastocyanin.org/spinfront/",
+    "public_archive_totals": {
+      "issues": 96,
+      "items": 839
+    },
+    "public_search_index_check": "unique DOI 10.1021/acs.jpcc.6c05184 identifies SF-20261124-01",
+    "procurement_display": "final article with five original notice URLs"
+  }
 }

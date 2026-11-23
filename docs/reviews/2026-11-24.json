@@ -1,0 +1,812 @@
+{
+  "schema_version": "1.0.0",
+  "report_date": "2026-11-24",
+  "retrieval_cutoff": "2026-11-24T06:00:00+08:00",
+  "repository": {
+    "base_head": "ab2a34767f25b55db60f5e7f2576348fb1456977",
+    "taxonomy_version": "1.2.0"
+  },
+  "search_summary": {
+    "enhancement_trigger": "近24小时精确时刻可证且未重复的合格条目不足5条",
+    "deep_enhancement": "增强后合格条目达10条，未触发第二级深度增强",
+    "extended_dates": [
+      "2026-11-17",
+      "2026-11-18",
+      "2026-11-19",
+      "2026-11-20",
+      "2026-11-21",
+      "2026-11-22",
+      "2026-11-23"
+    ],
+    "route_attempts": {
+      "regular_papers": {
+        "status": "searched",
+        "sources": [
+          "JMR/ScienceDirect",
+          "Nature/Science/ACS/PR 定向检索",
+          "PubMed 定向检索",
+          "Copernicus Magnetic Resonance"
+        ]
+      },
+      "professional_and_metadata": {
+        "status": "searched_with_limits",
+        "sources": [
+          "JMR/JMR Open/SSNMR（联合检索）",
+          "Journal of Biomolecular NMR/Applied Magnetic Resonance（联合检索）",
+          "Magnetic Resonance in Chemistry",
+          "Crossref",
+          "ACS/Springer/Wiley题录"
+        ],
+        "detail": {
+          "NMR spectroscopy": 65,
+          "electron paramagnetic resonance": 65,
+          "magic angle spinning nuclear magnetic resonance": 65,
+          "low field NMR relaxometry": 65,
+          "NMR spectral processing qNMR": "<HTTPError 429: 'Too Many Requests'>",
+          "pulsed EPR DEER ENDOR": "<HTTPError 429: 'Too Many Requests'>",
+          "rapid scan EPR spin trapping": 65,
+          "time resolved EPR photochemistry": "<HTTPError 429: 'Too Many Requests'>",
+          "operando EPR electrochemistry": "<HTTPError 429: 'Too Many Requests'>",
+          "magnetic resonance probe resonator": "<HTTPError 429: 'Too Many Requests'>",
+          "nuclear magnetic resonance": "<HTTPError 429: 'Too Many Requests'>",
+          "solid state NMR": 65,
+          "Journal of Magnetic Resonance": 65,
+          "NMR metabolomics": 65
+        }
+      },
+      "preprints_institutions": {
+        "status": "searched",
+        "sources": [
+          "arXiv",
+          "ChemRxiv",
+          "bioRxiv",
+          "高校官方新闻"
+        ],
+        "detail": "域名与日期定向检索；未据持久网页或旧研究机构报道补条。"
+      },
+      "vendors_software_applications": {
+        "status": "searched",
+        "sources": [
+          "Bruker",
+          "JEOL",
+          "Oxford Instruments",
+          "Magritek",
+          "Nanalysis",
+          "CIQTEK"
+        ],
+        "detail": "检查厂商定向索引、软件/培训/应用专搜；收录国仪量子官方新课程议程。"
+      },
+      "conference_training": {
+        "status": "searched",
+        "sources": [
+          "ENC",
+          "EUROMAR",
+          "ICMRBS",
+          "EFEPR",
+          "APES",
+          "ISMAR",
+          "华中科技大学站课程"
+        ],
+        "detail": "会议与培训定向检索；未将过期会期及无独立技术增量的宣传纳入。"
+      },
+      "procurement_cn": {
+        "status": "searched_with_limits",
+        "sources": [
+          "中国政府采购网中央及地方分类列表",
+          "全国公共资源交易平台索引",
+          "高校原公告",
+          "香港科技大学（广州）公开接口",
+          "竞采星公开接口",
+          "东方招标配置及只读项目列表",
+          "仪器采购聚合页"
+        ],
+        "detail": "政采关键词入口出现频繁访问提示，分类页可读；全国公共资源交易门户直连503，使用站域检索补查。竞采星与港科大动态HTML由各自公开只读接口补足。仍有3条原始结果/竞价正文未核。"
+      },
+      "procurement_overseas": {
+        "status": "searched_with_limits",
+        "sources": [
+          "SAM.gov",
+          "UK Find a Tender"
+        ],
+        "detail": "SAM.gov 原始壳页面及公开站域检索，未核得直接相关、可读的新公告；未把动态列表当作空结果。"
+      }
+    },
+    "method_clusters": [
+      "液体NMR/qNMR/DOSY/pure shift/CEST",
+      "固体NMR/MAS/DNP",
+      "低场/TD-NMR/台式NMR",
+      "NMR软件/谱图处理/NUS",
+      "CW/rapid-scan EPR",
+      "脉冲EPR/DEER/ENDOR/ESEEM/HYSCORE",
+      "TREPR与光照",
+      "operando/EC-EPR/自旋捕获",
+      "探头/谐振器/磁体/控制台/自动进样"
+    ],
+    "dedup_periods": [
+      "2026-11-16",
+      "2026-11-18",
+      "2026-11-19",
+      "2026-11-20",
+      "2026-11-21",
+      "2026-11-22",
+      "2026-11-23"
+    ],
+    "full_archive_index": {
+      "commit": "ab2a34767f25b55db60f5e7f2576348fb1456977",
+      "issues": 95,
+      "items": 829,
+      "review_files": 48,
+      "normalization": "DOI 小写；URL 去跟踪参数，采购网页业务 ID 及 SPA 路由保留；标题 NFKC 去标点；采购核对项目号、阶段、发布日期、原始及替代链接。"
+    },
+    "final_counts": {
+      "daily_items": 10,
+      "non_procurement_items": 9,
+      "procurement_summary_items": 1,
+      "procurement_announcements": 5,
+      "excluded_duplicates": 5,
+      "excluded_unverified_dates": 2
+    }
+  },
+  "selected_candidates": [
+    {
+      "item_id": "SF-20261124-01",
+      "title": "Time-Resolved Monitoring of Surface-Adsorbed H2O Migration into Mesoporous Media at Submillimeter Spatial Resolution through Hyperpolarized Xenon-129 NMR Spectroscopy",
+      "source": "The Journal of Physical Chemistry C",
+      "url": "https://doi.org/10.1021/acs.jpcc.6c05184",
+      "doi": "10.1021/acs.jpcc.6c05184",
+      "actual_online_date": "2026-11-23",
+      "publication_status": "early_access",
+      "publication_time_status": "date_only_7d_extension",
+      "index_deposit": "2026-11-23T15:02:11Z",
+      "first_author": "Collins",
+      "subject": "Collins",
+      "author_source": "https://api.crossref.org/works/10.1021/acs.jpcc.6c05184",
+      "magnetic_resonance_role": "method_core",
+      "evidence": "Crossref 摘要：湿层/干核双峰、约两分钟一维交换、径向水扩散系数。",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "no_match_in_formal_archive",
+      "previous_review_mentions": [],
+      "duplicate_key": "10.1021/acs.jpcc.6c05184",
+      "decision": "selected",
+      "reason": "亚毫米尺度非侵入式 ¹²⁹Xe 定量；氧化铝颗粒应用。",
+      "tag_reasons": {
+        "nmr": "正文读出为 NMR 谱或其计算预测",
+        "materials": "多孔氧化铝或软胶体载体为研究对象",
+        "paper": "期刊研究或实训论文"
+      },
+      "fact_status": "approved",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261124-02",
+      "title": "Bridging from First-Principles to Experimental Time Scales: A Framework for Multi-Scale Quadrupolar NMR Simulations",
+      "source": "The Journal of Physical Chemistry Letters",
+      "url": "https://doi.org/10.1021/acs.jpclett.6c02663",
+      "doi": "10.1021/acs.jpclett.6c02663",
+      "actual_online_date": "2026-11-23",
+      "publication_status": "early_access",
+      "publication_time_status": "date_only_7d_extension",
+      "index_deposit": "2026-11-23T21:01:14Z",
+      "first_author": "Huss",
+      "subject": "Huss",
+      "author_source": "https://api.crossref.org/works/10.1021/acs.jpclett.6c02663",
+      "magnetic_resonance_role": "method_core",
+      "evidence": "Crossref 摘要：机器学习电场梯度、分子动力学、动力学蒙特卡洛、钛酸锂实验谱定性一致。",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "no_match_in_formal_archive",
+      "previous_review_mentions": [],
+      "duplicate_key": "10.1021/acs.jpclett.6c02663",
+      "decision": "selected",
+      "reason": "固体电极的四极谱模拟直接对应锂离子动力学。",
+      "tag_reasons": {
+        "nmr": "正文读出为 NMR 谱或其计算预测",
+        "solid_state_nmr": "研究对象为固体电极或分子晶体谱",
+        "computation_nmr": "计算得到实验可比较的谱形或化学屏蔽",
+        "battery": "用钛酸锂电极材料验证",
+        "paper": "期刊研究或实训论文"
+      },
+      "fact_status": "approved",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261124-03",
+      "title": "Machine-Learned NMR Shieldings in Molecular Solids with Built-In Hybrid-Functional Molecular Corrections",
+      "source": "The Journal of Physical Chemistry Letters",
+      "url": "https://doi.org/10.1021/acs.jpclett.6c02955",
+      "doi": "10.1021/acs.jpclett.6c02955",
+      "actual_online_date": "2026-11-23",
+      "publication_status": "early_access",
+      "publication_time_status": "date_only_7d_extension",
+      "index_deposit": "2026-11-23T19:01:12Z",
+      "first_author": "Kellner",
+      "subject": "Kellner",
+      "author_source": "https://api.crossref.org/works/10.1021/acs.jpclett.6c02955",
+      "magnetic_resonance_role": "method_core",
+      "evidence": "Crossref 摘要：相同几何下 ¹³C 和 ¹⁵N 分项误差，优化几何基准的 ppm 误差。",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "no_match_in_formal_archive",
+      "previous_review_mentions": [],
+      "duplicate_key": "10.1021/acs.jpclett.6c02955",
+      "decision": "selected",
+      "reason": "固体分子晶体的化学屏蔽张量计算辅助结构筛选。",
+      "tag_reasons": {
+        "nmr": "正文读出为 NMR 谱或其计算预测",
+        "solid_state_nmr": "研究对象为固体电极或分子晶体谱",
+        "computation_nmr": "计算得到实验可比较的谱形或化学屏蔽",
+        "chemical_structure": "位移预测服务分子晶体结构筛选",
+        "paper": "期刊研究或实训论文"
+      },
+      "fact_status": "approved",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261124-04",
+      "title": "NMR Fingerprinting Coupled With Chemometric Analysis: A Fast and Simple Qualitative Approach for Detecting Adulterants and Substituents in Bacopa monnieri L. and Piper nigrum L.",
+      "source": "Magnetic Resonance in Chemistry",
+      "url": "https://doi.org/10.1002/mrc.70158",
+      "doi": "10.1002/mrc.70158",
+      "actual_online_date": "2026-11-23",
+      "publication_status": "published",
+      "publication_time_status": "date_only_7d_extension",
+      "index_deposit": "2026-11-23T09:03:27Z",
+      "first_author": "Sonone",
+      "subject": "Sonone",
+      "author_source": "https://api.crossref.org/works/10.1002/mrc.70158",
+      "magnetic_resonance_role": "application_core",
+      "evidence": "Crossref 摘要：甲醇提取的 ¹H 指纹和化学计量学；皂苷和酰胺区分替代品。",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "no_match_in_formal_archive",
+      "previous_review_mentions": [],
+      "duplicate_key": "10.1002/mrc.70158",
+      "decision": "selected",
+      "reason": "直接以提取液谱与多变量分析进行植物真伪质控。",
+      "tag_reasons": {
+        "nmr": "正文读出为 NMR 谱或其计算预测",
+        "solution_nmr": "样品为可测溶液或提取物",
+        "metabolomics": "利用多类代谢物或脂质组分构成的指纹",
+        "quality_control": "用于识别市场中可能的掺假",
+        "paper": "期刊研究或实训论文"
+      },
+      "fact_status": "approved",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261124-05",
+      "title": "Monitoring Free Radical Formation in Isolated Papaya Mitochondria During Ascorbic Acid Synthesis Using electron Paramagnetic Resonance",
+      "source": "Physiologia Plantarum",
+      "url": "https://doi.org/10.1111/ppl.71191",
+      "doi": "10.1111/ppl.71191",
+      "actual_online_date": "2026-11-17",
+      "publication_status": "published",
+      "publication_time_status": "date_only_7d_extension",
+      "index_deposit": "2026-11-17T23:15:53Z",
+      "first_author": "Menezes",
+      "subject": "Menezes",
+      "author_source": "https://api.crossref.org/works/10.1111/ppl.71191",
+      "magnetic_resonance_role": "key_evidence",
+      "evidence": "Crossref 摘要：自旋捕获、两类自由基的逆向变化及替代氧化酶抑制对照。",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "no_match_in_formal_archive",
+      "previous_review_mentions": [],
+      "duplicate_key": "10.1111/ppl.71191",
+      "decision": "selected",
+      "reason": "农产品成熟期分离线粒体的自由基谱学。",
+      "tag_reasons": {
+        "epr": "正文对象是电子顺磁共振",
+        "spin_trapping": "摘要明确使用自旋捕获跟踪自由基",
+        "food_agriculture": "果实成熟或农业副产物评价",
+        "paper": "期刊研究或实训论文"
+      },
+      "fact_status": "approved",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261124-06",
+      "title": "Influence of ripening on the fatty acid composition of yellow passion fruit seed oil and its comparative evaluation with the purple variety using ¹H NMR spectroscopy",
+      "source": "Grasas y Aceites",
+      "url": "https://doi.org/10.3989/gya.0208261.2406",
+      "doi": "10.3989/gya.0208261.2406",
+      "actual_online_date": "2026-11-23",
+      "publication_status": "published",
+      "publication_time_status": "date_only_7d_extension",
+      "index_deposit": "2026-11-23T10:49:12Z",
+      "first_author": "Miyapadavu",
+      "subject": "Miyapadavu",
+      "author_source": "https://api.crossref.org/works/10.3989/gya.0208261.2406",
+      "magnetic_resonance_role": "application_core",
+      "evidence": "Crossref 摘要：黄/紫品种及成熟阶段、脂质比例定量。",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "no_match_in_formal_archive",
+      "previous_review_mentions": [],
+      "duplicate_key": "10.3989/gya.0208261.2406",
+      "decision": "selected",
+      "reason": "种子油溶液 ¹H 代谢谱用于农业副产物组成比较。",
+      "tag_reasons": {
+        "nmr": "正文读出为 NMR 谱或其计算预测",
+        "solution_nmr": "样品为可测溶液或提取物",
+        "metabolomics": "利用多类代谢物或脂质组分构成的指纹",
+        "food_agriculture": "果实成熟或农业副产物评价",
+        "paper": "期刊研究或实训论文"
+      },
+      "fact_status": "approved",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261124-07",
+      "title": "NMR spectroscopy for non‐invasive characterization of soft colloidal carrier systems",
+      "source": "Bulletin of the Korean Chemical Society",
+      "url": "https://doi.org/10.1002/bkcs.70242",
+      "doi": "10.1002/bkcs.70242",
+      "actual_online_date": "2026-11-22",
+      "publication_status": "published",
+      "publication_time_status": "date_only_7d_extension",
+      "index_deposit": "2026-11-22T23:39:36Z",
+      "first_author": "Nguyen",
+      "subject": "Nguyen",
+      "author_source": "https://api.crossref.org/works/10.1002/bkcs.70242",
+      "magnetic_resonance_role": "application_core",
+      "evidence": "Crossref 摘要：完整分散体系中结构、封装、释放、稳定性、通透性读出。",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "no_match_in_formal_archive",
+      "previous_review_mentions": [],
+      "duplicate_key": "10.1002/bkcs.70242",
+      "decision": "selected",
+      "reason": "聚焦软胶体材料的 NMR 分析流程。",
+      "tag_reasons": {
+        "nmr": "正文读出为 NMR 谱或其计算预测",
+        "materials": "多孔氧化铝或软胶体载体为研究对象",
+        "review": "以已有方法与应用的综述为主"
+      },
+      "fact_status": "approved",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261124-08",
+      "title": "A Practical Guide to RNA NMR Spectral Analysis for Undergraduate Students",
+      "source": "Journal of Chemical Education",
+      "url": "https://doi.org/10.1021/acs.jchemed.5c01543",
+      "doi": "10.1021/acs.jchemed.5c01543",
+      "actual_online_date": "2026-11-18",
+      "publication_status": "early_access",
+      "publication_time_status": "date_only_7d_extension",
+      "index_deposit": "2026-11-18T03:01:58Z",
+      "first_author": "Westwood",
+      "subject": "Westwood",
+      "author_source": "https://api.crossref.org/works/10.1021/acs.jchemed.5c01543",
+      "magnetic_resonance_role": "application_core",
+      "evidence": "Crossref 摘要：一维验证二级结构及多张二维谱联合化学位移归属。",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "no_match_in_formal_archive",
+      "previous_review_mentions": [
+        "2026-11-23"
+      ],
+      "duplicate_key": "10.1021/acs.jchemed.5c01543",
+      "decision": "selected",
+      "reason": "实训对象为 RNA 结构核磁谱，所用数据和步骤均明确。",
+      "tag_reasons": {
+        "nmr": "正文读出为 NMR 谱或其计算预测",
+        "solution_nmr": "样品为可测溶液或提取物",
+        "multidimensional_nmr": "多张二维谱联合归属",
+        "structural_biology": "实验围绕 RNA 折叠和结构证据",
+        "paper": "期刊研究或实训论文"
+      },
+      "fact_status": "approved",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261124-09",
+      "title": "华中科技大学站 EPR 课程公布谱图解析与模拟议程",
+      "source": "国仪量子｜EPR 波谱课程公告",
+      "url": "https://www.ciqtek.com/news/news.html?id=d463e943-5eea-4b77-8267-00dc4531f523",
+      "doi": "",
+      "actual_online_date": "2026-11-20",
+      "publication_status": "unknown",
+      "publication_time_status": "official_timestamp_7d_extension",
+      "index_deposit": null,
+      "first_author": null,
+      "subject": "华中科技大学与国仪量子",
+      "author_source": "https://www.ciqtek.com/news/news.html?id=d463e943-5eea-4b77-8267-00dc4531f523",
+      "magnetic_resonance_role": "technical_agenda",
+      "evidence": "厂商官网页面发布时间 2026-11-20T03:18:33.959Z，正文列出讲者、四天课程及不同自旋体系模拟范围；11月23日同文转载不重新计日。",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "no_match_in_formal_archive",
+      "previous_review_mentions": [],
+      "duplicate_key": "//ciqtek.com/news/news.html?id=d463e943-5eea-4b77-8267-00dc4531f523",
+      "decision": "selected",
+      "reason": "培训直接涵盖 EPR 谱解析和各向异性模拟。",
+      "tag_reasons": {
+        "epr": "正文对象是电子顺磁共振",
+        "spectral_processing": "议程包含谱图解析和模拟",
+        "event": "公开的独立训练课程议程"
+      },
+      "fact_status": "approved",
+      "tag_review_status": "approved"
+    },
+    {
+      "item_id": "SF-20261124-10",
+      "title": "采购与需求动态：岩心仪器、400 MHz 液体 NMR 与维保",
+      "source": "zycgr22011902｜全直径岩心测量仪中标",
+      "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202611/t20261123_27739028.htm",
+      "doi": "",
+      "actual_online_date": "2026-11-23",
+      "publication_status": "published",
+      "magnetic_resonance_role": "procurement",
+      "decision": "selected",
+      "reason": "5份可读原始公告或公开只读原文，阶段、日期、配置、金额和适用截止时间独立审阅",
+      "source_status": "verified",
+      "date_status": "verified",
+      "dedup_status": "passed_full_archive_and_reviews",
+      "duplicate_key": [
+        "THTC-HR-LDTFC2026020|中标|2026-11-23",
+        "THTC-HR-LDTFC2026018|成交|2026-11-23",
+        "HKUSTGZ-26-G00068|公开比选成交|2026-11-23",
+        "CF105902026000906|网上竞价需求公告|2026-11-23",
+        "CM116412026000008|网上竞价|2026-11-23"
+      ],
+      "tag_reasons": {
+        "nmr": "全部采购直接对应 NMR 仪器、配套件或维保",
+        "tender": "独立采购结果或竞价公告"
+      },
+      "fact_status": "approved",
+      "tag_review_status": "approved"
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "title": "Bench top NMR Spectroscopy for Detecting Fraud and Adulteration in the Food Industry",
+      "doi": "10.1007/s12161-026-03375-3",
+      "source": "Food Analytical Methods",
+      "url": "https://doi.org/10.1007/s12161-026-03375-3",
+      "actual_online_date": "2026-11-18",
+      "publication_status": "unknown",
+      "duplicate_key": "10.1007/s12161-026-03375-3",
+      "decision": "duplicate",
+      "reason": "同 DOI 已见2026-11-19正式日报。"
+    },
+    {
+      "title": "A Tutorial on Rapid-Injection NMR",
+      "doi": "10.1021/acs.organomet.6c00237",
+      "source": "Organometallics",
+      "url": "https://doi.org/10.1021/acs.organomet.6c00237",
+      "actual_online_date": "2026-11-18",
+      "publication_status": "unknown",
+      "duplicate_key": "10.1021/acs.organomet.6c00237",
+      "decision": "duplicate",
+      "reason": "历史正文2026-11-21已收同一作品，原用 ACS URL。"
+    },
+    {
+      "title": "Integrated 1H-NMR, LC–UV and Nano Liquid Chromatography–MS Profiling of Primary and Secondary Metabolites in Globe Artichoke Plant Parts",
+      "doi": "10.3390/molecules31224161",
+      "source": "Molecules",
+      "url": "https://doi.org/10.3390/molecules31224161",
+      "actual_online_date": "2026-11-17",
+      "publication_status": "unknown",
+      "duplicate_key": "10.3390/molecules31224161",
+      "decision": "prioritization",
+      "reason": "核磁负责初级代谢物定量，合格；限额内优先保留三项方法、一项标准化质控、油脂成熟追踪及独立培训。"
+    },
+    {
+      "title": "Analysis of Chemical Mixtures as a More Authentic Pedagogical Approach to Teaching 1H NMR Spectroscopy",
+      "doi": "10.1021/acs.jchemed.6c01419",
+      "source": "Journal of Chemical Education",
+      "url": "https://doi.org/10.1021/acs.jchemed.6c01419",
+      "actual_online_date": "2026-11-18",
+      "publication_status": "unknown",
+      "duplicate_key": "10.1021/acs.jchemed.6c01419",
+      "decision": "prioritization",
+      "reason": "已核实内容；教学条目保留一项有不同读出、归属和结构对照的 RNA 实训。"
+    },
+    {
+      "title": "Development of β-Lactamase-Labeling Nanoparticle for 19F NMR/Fluorescence Detection",
+      "doi": "10.1002/anse.70147",
+      "source": "Analysis & Sensing",
+      "url": "https://doi.org/10.1002/anse.70147",
+      "actual_online_date": "2026-11-23",
+      "publication_status": "unknown",
+      "duplicate_key": "10.1002/anse.70147",
+      "decision": "prioritization",
+      "reason": "已核实摘要；在限额内优先选取含磁共振定量、模型基准或明确实训细节的候选。"
+    },
+    {
+      "title": "Erratum: X-band EPR for monitoring melanin-associated radical changes",
+      "doi": "10.3791/6721",
+      "source": "Journal of Visualized Experiments",
+      "url": "https://doi.org/10.3791/6721",
+      "actual_online_date": "2026-11-20",
+      "publication_status": "unknown",
+      "duplicate_key": "10.3791/6721",
+      "decision": "not_new",
+      "reason": "勘误不作为新增研究结果。"
+    },
+    {
+      "title": "Hybrid Modeling of Industrial Innovene Polypropylene Reactor",
+      "doi": "10.1002/mren.70033",
+      "source": "Macromolecular Reaction Engineering",
+      "url": "https://doi.org/10.1002/mren.70033",
+      "actual_online_date": "2026-11-20",
+      "publication_status": "unknown",
+      "duplicate_key": "10.1002/mren.70033",
+      "decision": "not_relevant",
+      "reason": "EPR 指聚合物组分，非电子顺磁共振。"
+    },
+    {
+      "title": "Bruker Quantitative NMR Workflow Automation with ACP 2.0 Practical Sessions",
+      "doi": "",
+      "source": "",
+      "url": "https://www.bruker.com/en/news-and-events/webinars/2026/quantitative-nmr-qnmr-workflow-automation-with-acp-2-practical-sessions.html",
+      "actual_online_date": null,
+      "publication_status": "unknown",
+      "duplicate_key": "//bruker.com/en/news-and-events/webinars/2026/quantitative-nmr-qnmr-workflow-automation-with-acp-2-practical-sessions.html",
+      "decision": "unverified_date",
+      "reason": "最近场次为11月11日；未核实本期发布的新增议程或材料。"
+    },
+    {
+      "title": "MICROS/operando high-temperature NMR probe (HOT-operando-NMR)",
+      "doi": "10.1016/j.jmr.2026.108191",
+      "source": "Springer Nature",
+      "url": "https://doi.org/10.1016/j.jmr.2026.108191",
+      "actual_online_date": null,
+      "publication_status": "unknown",
+      "duplicate_key": "10.1016/j.jmr.2026.108191",
+      "decision": "unverified_date",
+      "reason": "11月卷期不能证明在17–23日首发，未作近7日新增。"
+    }
+  ],
+  "procurement_review": {
+    "registered_candidates": 13,
+    "qualified_announcements": 5,
+    "excluded_announcements": 8,
+    "summary_item_id": "SF-20261124-10",
+    "candidates": [
+      {
+        "title": "全直径岩心核磁共振测量仪采购项目中标公告",
+        "purchaser": "zycgr22011902",
+        "stage": "中标",
+        "announcement_date": "2026-11-23",
+        "published_at": "2026-11-23T22:24:00+08:00",
+        "project_no": "THTC-HR-LDTFC2026020",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202611/t20261123_27739028.htm",
+        "duplicate_key": "THTC-HR-LDTFC2026020|中标|2026-11-23",
+        "decision": "selected",
+        "reason": "独立原公告或采购平台公开只读详情可核；同项目同阶段同日未见历史记录。",
+        "prior_project_review_matches": [
+          "2026-10-24"
+        ],
+        "budget_cny": 2600000,
+        "awarded_cny": 1200000,
+        "supplier": "北京斯派克科技发展有限公司",
+        "configuration": "SPEC-LMR，含射频、谱仪、梯度、磁体及步进控制等模块",
+        "original_budget_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261023_27555593.htm"
+      },
+      {
+        "title": "核磁共振在线测试设备升级改造采购项目成交公告",
+        "purchaser": "zycgr22011902",
+        "stage": "成交",
+        "announcement_date": "2026-11-23",
+        "published_at": "2026-11-23T22:13:00+08:00",
+        "project_no": "THTC-HR-LDTFC2026018",
+        "url": "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202611/t20261123_27738998.htm",
+        "duplicate_key": "THTC-HR-LDTFC2026018|成交|2026-11-23",
+        "decision": "selected",
+        "reason": "独立原公告或采购平台公开只读详情可核；同项目同阶段同日未见历史记录。",
+        "prior_project_review_matches": [
+          "2026-10-24"
+        ],
+        "budget_cny": 300000,
+        "awarded_cny": 297200,
+        "supplier": "江苏拓创科研仪器有限公司",
+        "configuration": "NMR-TC-CH 岩心夹持器及高压配套件",
+        "original_budget_url": "https://www.ccgp.gov.cn/cggg/zygg/qtgg/202610/t20261023_27555666.htm"
+      },
+      {
+        "title": "科研用400MHz液体核磁共振波谱仪采购项目成交公告",
+        "purchaser": "香港科技大学（广州）",
+        "stage": "公开比选成交",
+        "announcement_date": "2026-11-23",
+        "published_at": "2026-11-23T22:11:17+08:00",
+        "project_no": "HKUSTGZ-26-G00068",
+        "url": "https://puro.hkust-gz.edu.cn/bid/detail?id=21468",
+        "duplicate_key": "HKUSTGZ-26-G00068|公开比选成交|2026-11-23",
+        "decision": "selected",
+        "reason": "独立原公告或采购平台公开只读详情可核；同项目同阶段同日未见历史记录。",
+        "prior_project_review_matches": [],
+        "proposed_award_cny": 3000000,
+        "supplier": "广东省中科进出口有限公司",
+        "configuration": "JEOL JNM-ECZL400S及不间断电源各1套",
+        "authority_api": "https://puro.hkust-gz.edu.cn/purchase/portal/portalArticle/article/21468"
+      },
+      {
+        "title": "600M超导核磁共振波谱仪（配置BBO液体宽带探头）维保",
+        "purchaser": "深圳大学",
+        "stage": "网上竞价需求公告",
+        "announcement_date": "2026-11-23",
+        "published_at": "2026-11-23T14:54:30+08:00",
+        "project_no": "CF105902026000906",
+        "url": "https://www.easyjcx.com/#/purchase/detail/67373812848849e58c1c3c9a1cb217ea",
+        "duplicate_key": "CF105902026000906|网上竞价需求公告|2026-11-23",
+        "decision": "selected",
+        "reason": "独立原公告或采购平台公开只读详情可核；同项目同阶段同日未见历史记录。",
+        "prior_project_review_matches": [],
+        "budget_cny": 182900,
+        "deadline": "2026-12-01T12:00:00+08:00",
+        "configuration": "600 MHz，BBO液体宽带探头，液氦超低温平台年度维保",
+        "authority_api": "POST https://api.easyjcx.com/api/portalCli/bidNeed/detail（只读，orderMainId 如原链接）"
+      },
+      {
+        "title": "核磁共振波谱仪更换空压机",
+        "purchaser": "江苏海洋大学",
+        "stage": "网上竞价",
+        "announcement_date": "2026-11-23",
+        "published_at": "2026-11-23T09:32:35+08:00",
+        "project_no": "CM116412026000008",
+        "url": "https://www.easyjcx.com/#/purchase/detail/1547b9f2778e45d4aa296eebed44d647",
+        "duplicate_key": "CM116412026000008|网上竞价|2026-11-23",
+        "decision": "selected",
+        "reason": "独立原公告或采购平台公开只读详情可核；同项目同阶段同日未见历史记录。11月4日同名线索不同发布日期；本期以平台返回的最新申购号和正文为准。",
+        "prior_project_review_matches": [],
+        "budget_cny": 50000,
+        "deadline": "2026-11-26T11:00:00+08:00",
+        "configuration": "无油空压机，产气量≥400 L/min，0.6–0.8 MPa，配冷干机",
+        "authority_api": "POST https://api.easyjcx.com/api/portalCli/bidNeed/detail（只读，orderMainId 如原链接）"
+      },
+      {
+        "title": "湖北大学磁共振平台稳定同位素及核磁管试剂耗材采购",
+        "purchaser": "湖北大学",
+        "stage": "竞价",
+        "announcement_date": "2026-11-23",
+        "published_at": "2026-11-23T14:34:00+08:00",
+        "project_no": "HDJC-2026-112301",
+        "url": "https://ztb.hubei-university.com/info/1236/13782.htm",
+        "duplicate_key": "HDJC-2026-112301|竞价|2026-11-23",
+        "decision": "excluded_scope",
+        "reason": "原公告正文可读；标的只有试剂和样品管耗材，不属设备、部件或服务。",
+        "prior_project_review_matches": []
+      },
+      {
+        "title": "400MHz核磁共振波谱仪采购项目中标公告",
+        "purchaser": "华东理工大学",
+        "stage": "中标线索",
+        "announcement_date": "2026-11-23",
+        "published_at": null,
+        "project_no": "S2026102701",
+        "url": "https://www.arrbid.com/biddetail/2026-5827EC35A6B1479F961729F8167A4BAF.html",
+        "duplicate_key": "S2026102701|中标线索|2026-11-23",
+        "decision": "excluded_unverified_original",
+        "reason": "中央中标列表、学校公开结果入口及政府采购检索未取得独立结果正文；10月28日官方原招标不能证明本次中标。",
+        "prior_project_review_matches": [
+          "2026-10-30"
+        ],
+        "prior_stage_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261028_27576982.htm"
+      },
+      {
+        "title": "固体核磁共振波谱仪采购项目中标成交公告",
+        "purchaser": "武汉工程大学",
+        "stage": "中标线索",
+        "announcement_date": "2026-11-23",
+        "published_at": null,
+        "project_no": "20260112-HD0047",
+        "url": "https://www.lfzct.com/info/JlS56O9keFfdTZft763iZZZZw%3D%3D",
+        "duplicate_key": "20260112-HD0047|中标线索|2026-11-23",
+        "decision": "excluded_unverified_original",
+        "reason": "转载呈现结果，未定位独立政采或学校结果正文；两份转载的金额呈现不一致，未据此发布。",
+        "prior_project_review_matches": [
+          "2026-10-29"
+        ]
+      },
+      {
+        "title": "AVANCE 600M核磁共振波谱液氮超低温平台维护保养服务",
+        "purchaser": "江西中医药大学",
+        "stage": "竞价线索",
+        "announcement_date": "2026-11-23",
+        "published_at": null,
+        "project_no": "62026112355789712",
+        "url": "https://www.bidcenter.com.cn/zhaobiao/zbkeyw-98424.html",
+        "duplicate_key": "62026112355789712|竞价线索|2026-11-23",
+        "decision": "excluded_unverified_original",
+        "reason": "与11月20日同名但编号不同；11月23日线索未取得独立正式正文，不把两个编号混为同一公告。",
+        "prior_project_review_matches": []
+      },
+      {
+        "title": "核磁波谱仪采购项目中标结果",
+        "purchaser": "江苏师范大学",
+        "stage": "中标",
+        "announcement_date": "2026-11-20",
+        "published_at": null,
+        "project_no": "江苏师范大学核磁波谱仪",
+        "url": "https://www.bidcenter.com.cn/zhaobiao/zbkeyw-98424.html",
+        "duplicate_key": "江苏师范大学核磁波谱仪|中标|2026-11-20",
+        "decision": "excluded_duplicate",
+        "reason": "11月21日正式日报采购汇总已载同日同阶段。",
+        "prior_project_review_matches": [
+          "2026-10-17",
+          "2026-11-21"
+        ],
+        "archive_match": "SF-20261121-08"
+      },
+      {
+        "title": "多频率电子顺磁共振波谱仪采购项目（第二次）暂停",
+        "purchaser": "中国科学院过程工程研究所",
+        "stage": "暂停",
+        "announcement_date": "2026-11-20",
+        "published_at": null,
+        "project_no": "OITC-G260571726",
+        "url": "https://www.yfbzb.com/inviteBid/detail/20261120_649667703.html",
+        "duplicate_key": "OITC-G260571726|暂停|2026-11-20",
+        "decision": "excluded_duplicate",
+        "reason": "11月21日采购汇总已载同一暂停阶段；公开接口的进行中列表不能代替最新公告。",
+        "prior_project_review_matches": [
+          "2026-10-18",
+          "2026-10-19",
+          "2026-10-20",
+          "2026-10-21",
+          "2026-10-22",
+          "2026-11-10",
+          "2026-11-11",
+          "2026-11-12",
+          "2026-11-13",
+          "2026-11-14",
+          "2026-11-15",
+          "2026-11-16",
+          "2026-11-20",
+          "2026-11-21"
+        ],
+        "archive_match": "SF-20261121-08"
+      },
+      {
+        "title": "超导磁体恒温器废止公告",
+        "purchaser": "清华大学",
+        "stage": "废止",
+        "announcement_date": "2026-11-22",
+        "published_at": null,
+        "project_no": "清采比选20261725号",
+        "url": "https://sbcgczxxfb.sysc.tsinghua.edu.cn/sfw_cms/e?page=cms.index",
+        "duplicate_key": "清采比选20261725号|废止|2026-11-22",
+        "decision": "excluded_scope",
+        "reason": "维持11月23日期核查判断：低温强磁平台，没有直接配套 NMR/EPR 的证据。",
+        "prior_project_review_matches": [
+          "2026-11-23"
+        ]
+      },
+      {
+        "title": "高灵敏度高温核磁共振谱仪及配套系统采购项目",
+        "purchaser": "中国科学院上海有机化学研究所",
+        "stage": "公开招标",
+        "announcement_date": "2026-11-16",
+        "published_at": null,
+        "project_no": "高灵敏度高温核磁",
+        "url": "https://m.bidcenter.com.cn/news-1-454026872.html",
+        "duplicate_key": "高灵敏度高温核磁|公开招标|2026-11-16",
+        "decision": "excluded_duplicate",
+        "reason": "东方招标列表为已收录的11月16日公告而非新增阶段；也已超本期扩展日界。",
+        "prior_project_review_matches": [
+          "2026-11-18",
+          "2026-11-23"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "author_subjects": "8篇经Crossref首位作者核验；课程和采购以机构为主语。",
+    "scientific_facts": "按可访问摘要、出版题录及官方公告审核；定性与定量结果分开，未外推未经验证的性能。",
+    "tag_review": "approved_taxonomy_1.2.0",
+    "commands": {
+      "python scripts/build.py --check": "pass: 96 issues / 839 items",
+      "python scripts/build.py": "pass",
+      "node tests/search.test.cjs": "pass",
+      "python tests/procurement.test.py": "pass: 7 tests",
+      "python tests/build.test.py": "pass: 1 test",
+      "local_content_parity": "pass: all 10 titles, summaries, commentaries, dates and URLs agree across JSON, rendered issue and screen text; procurement last with 5 sources; home, archive and search index match"
+    },
+    "public_verification": "pending"
+  },
+  "final_review_status": "content_review_complete_publication_pending"
+}

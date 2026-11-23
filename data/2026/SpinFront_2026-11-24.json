@@ -1,0 +1,398 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-11-24",
+  "scope_note": "检索截至2026-11-24 06:00（Asia/Shanghai）。近24小时去重后可凭精确发布时间确认的合格条目不足5条，已启动增强搜索，回扫11月17–23日的磁共振专业及综合期刊、题录与预印本、仪器软件和应用、会议培训及中外采购。部分 Crossref 主题查询限流，部分采购官网只返回列表或访问限制页；已用官方列表及公开只读接口补查。登记候选中排除5项历史重复，2项资讯无法证实新增日期。实际收录10条，其中9条为近7天扩展；末条合并5份新增已核实采购公告，采购专项登记13个候选。",
+  "items": [
+    {
+      "item_id": "SF-20261124-01",
+      "report_date": "2026-11-24",
+      "item_no": 1,
+      "title_cn": "超极化 ¹²⁹Xe NMR 追踪多孔颗粒内水分前沿",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "sample_systems": [
+        "γ-氧化铝多孔催化剂颗粒",
+        "表面吸附水"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Collins 等用超极化 ¹²⁹Xe NMR 追踪 γ-氧化铝颗粒中表面吸附水的径向迁移。湿外层和干内核产生可分辨的氙信号；研究者以约两分钟的一维交换实验估计氙穿过湿层所需时间，并用扩散模型求得径向有效水扩散系数为（2.2 ± 0.1）× 10⁻¹² m²/s。",
+      "meaning_cn": "当吸附水使 ¹H 梯度扩散测量严重展宽时，可用氙化学位移间接读出亚毫米尺度上的湿层厚度。测量需先建立含水量与氙位移的标定，且被测吸附物要比氙扩散慢得多；所得系数描述颗粒径向迁移，不等同于水的自扩散系数。",
+      "publication_date": "2026-11-23",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Physical Chemistry C",
+      "url": "https://doi.org/10.1021/acs.jpcc.6c05184",
+      "doi": "10.1021/acs.jpcc.6c05184",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-24",
+      "last_updated": "2026-11-24",
+      "report_file": "SpinFront_2026-11-24.html"
+    },
+    {
+      "item_id": "SF-20261124-02",
+      "report_date": "2026-11-24",
+      "item_no": 2,
+      "title_cn": "多尺度模拟将四极核固体 NMR 谱推进到毫秒时间尺度",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "battery"
+      ],
+      "sample_systems": [
+        "尖晶石 Li₄Ti₅O₁₂"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Huss 等将机器学习预测的电场梯度与分子动力学、动力学蒙特卡洛结合，用于模拟四极核固体 NMR 谱。在尖晶石钛酸锂模型中，计算覆盖数千原子和毫秒时间尺度，可比较静态到快扩散各区间的谱形，并与实验谱获得定性一致。",
+      "meaning_cn": "将局部结构无序与离子跃迁放到同一模型中，有助于辨别谱形改变是由位点分布还是运动平均引起的。钛酸锂仅验证了定性谱形；比较其他电极材料的离子迁移速率时，还需验证电场梯度模型与跃迁参数。",
+      "publication_date": "2026-11-23",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Physical Chemistry Letters",
+      "url": "https://doi.org/10.1021/acs.jpclett.6c02663",
+      "doi": "10.1021/acs.jpclett.6c02663",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-24",
+      "last_updated": "2026-11-24",
+      "report_file": "SpinFront_2026-11-24.html"
+    },
+    {
+      "item_id": "SF-20261124-03",
+      "report_date": "2026-11-24",
+      "item_no": 3,
+      "title_cn": "ShiftML4 降低分子晶体 ¹³C 和 ¹⁵N 化学位移预测误差",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "有机分子晶体"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Kellner 等用近似 PBE0 的单分子修正计算训练 ShiftML4，预测有机分子固体中的化学屏蔽张量。实验基准使用相同几何结构时，¹³C 各向同性位移预测误差较 ShiftML3 和 GIPAW-PBE 均下降约三成，¹⁵N 较 ShiftML3 下降约 15%，¹H 则基本不变。",
+      "meaning_cn": "结构筛选时可优先用改进的 ¹³C 和 ¹⁵N 位移预测区分候选堆积。将模型与机器学习势生成的晶体几何结合后，基准误差分别为 1.5 和 3.7 ppm；这些数值依赖基准样品及几何优化流程，不能直接作为未知样品的归属容差。",
+      "publication_date": "2026-11-23",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Physical Chemistry Letters",
+      "url": "https://doi.org/10.1021/acs.jpclett.6c02955",
+      "doi": "10.1021/acs.jpclett.6c02955",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-24",
+      "last_updated": "2026-11-24",
+      "report_file": "SpinFront_2026-11-24.html"
+    },
+    {
+      "item_id": "SF-20261124-04",
+      "report_date": "2026-11-24",
+      "item_no": 4,
+      "title_cn": "¹H NMR 指纹以皂苷和胡椒酰胺信号筛查植物掺假",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "quality_control"
+      ],
+      "sample_systems": [
+        "假马齿苋",
+        "黑胡椒",
+        "混掺样和市售样"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Sonone 等对经鉴定的假马齿苋、黑胡椒及其常见掺杂样、市售样进行甲醇提取，用 ¹H NMR 指纹结合化学计量学比较。假马齿苋可借三萜皂苷信号与多种替代植物区分；黑胡椒则依赖胡椒碱及其他胡椒酰胺信号，部分近缘胡椒也可提供物种替换的判别线索。",
+      "meaning_cn": "谱中保留可指认的化学信号，能解释模型为何把样品判为不同类别。建立质控流程时，可先用已鉴定材料和梯度混掺样核对特征峰与模型响应；其他产地、批次和加工状态是否适用，仍需独立样本验证。",
+      "publication_date": "2026-11-23",
+      "time_scope": "7d_extension",
+      "source": "Magnetic Resonance in Chemistry",
+      "url": "https://doi.org/10.1002/mrc.70158",
+      "doi": "10.1002/mrc.70158",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-24",
+      "last_updated": "2026-11-24",
+      "report_file": "SpinFront_2026-11-24.html"
+    },
+    {
+      "item_id": "SF-20261124-05",
+      "report_date": "2026-11-24",
+      "item_no": 5,
+      "title_cn": "自旋捕获 EPR 区分木瓜成熟期的两类自由基变化",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "spin_trapping"
+      ],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "sample_systems": [
+        "离体木瓜线粒体",
+        "不同成熟阶段"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Menezes 等在不同成熟阶段的离体木瓜线粒体中，以自旋捕获 EPR 跟踪羟基自由基和抗坏血酸自由基。抗坏血酸生成增加时，两类自由基的变化方向相反；抑制替代氧化酶途径后，抗坏血酸及其自由基生成减弱，而羟基自由基增加。",
+      "meaning_cn": "把两类自由基分别跟踪，能区分抗坏血酸合成增强与氧化压力升高，避免用单一总信号判断氧化还原状态。数据来自分离线粒体；果实完整组织中的自由基水平及其空间分布不能直接由此推定。",
+      "publication_date": "2026-11-17",
+      "time_scope": "7d_extension",
+      "source": "Physiologia Plantarum",
+      "url": "https://doi.org/10.1111/ppl.71191",
+      "doi": "10.1111/ppl.71191",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-24",
+      "last_updated": "2026-11-24",
+      "report_file": "SpinFront_2026-11-24.html"
+    },
+    {
+      "item_id": "SF-20261124-06",
+      "report_date": "2026-11-24",
+      "item_no": 6,
+      "title_cn": "¹H NMR 比较西番莲种子油的品种与成熟度差异",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "sample_systems": [
+        "黄果与紫果西番莲种子油"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Miyapadavu 等用 ¹H NMR 比较黄果与紫果西番莲种子油，并追踪黄果成熟过程中的脂肪酸构成。黄果种子油的多不饱和脂肪酸比例由 57.98% 升至 71.24%，饱和脂肪酸比例由 22.03% 降至 14.08%；成熟紫果油的单不饱和脂肪酸比例则更高。",
+      "meaning_cn": "结果给种子油原料分级提供了按成熟度比较的组成指标。若把该方法用于跨品种筛选，应分别验证峰重叠、积分重复性和不同批次的变异；脂肪酸组成差异本身不能代替氧化稳定性的直接测量。",
+      "publication_date": "2026-11-23",
+      "time_scope": "7d_extension",
+      "source": "Grasas y Aceites",
+      "url": "https://doi.org/10.3989/gya.0208261.2406",
+      "doi": "10.3989/gya.0208261.2406",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-24",
+      "last_updated": "2026-11-24",
+      "report_file": "SpinFront_2026-11-24.html"
+    },
+    {
+      "item_id": "SF-20261124-07",
+      "report_date": "2026-11-24",
+      "item_no": 7,
+      "title_cn": "综述梳理完整软胶体分散体系的 NMR 表征",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "sample_systems": [
+        "胶束",
+        "乳液",
+        "脂质体",
+        "聚合物微胶囊"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "review",
+      "summary_cn": "Nguyen 等梳理用 NMR 研究胶束、乳液、脂质体和聚合物微胶囊的工作，按结构、载荷封装与释放、稳定性和通透性组织方法，说明哪些磁共振读出可以在尽量维持分散体系原状的条件下，补充散射和电子显微镜提供的结构信息。",
+      "meaning_cn": "若要比较载荷的封装比例或储存后的释放，首先要验证游离组分和载体相关组分是否能用所选 NMR 读出分开，再考虑定量。综述提供方法选择依据，各体系的信号重叠与交换条件仍需通过对照样确认。",
+      "publication_date": "2026-11-22",
+      "time_scope": "7d_extension",
+      "source": "Bulletin of the Korean Chemical Society",
+      "url": "https://doi.org/10.1002/bkcs.70242",
+      "doi": "10.1002/bkcs.70242",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-24",
+      "last_updated": "2026-11-24",
+      "report_file": "SpinFront_2026-11-24.html"
+    },
+    {
+      "item_id": "SF-20261124-08",
+      "report_date": "2026-11-24",
+      "item_no": 8,
+      "title_cn": "RNA 谱学实训串联一维验证、二维归属与三维结构",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multidimensional_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "RNA",
+        "一维与二维 NMR 数据"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Westwood 等设计三段式 RNA NMR 实训。学生先预测 RNA 二级结构，再用一维谱检验预测；随后把多张二维谱结合起来迭代完成化学位移归属，最后在三维模型中核对质子间距离，理解谱峰如何约束结构判断。",
+      "meaning_cn": "可把实训拆成二级结构检验、化学位移归属和空间距离比对三个考核任务。资料以解析既有谱数据为目标，适合接在有机小分子读谱之后；如需训练学生独立采集 RNA 谱，还要另外覆盖制样与采集参数设置。",
+      "publication_date": "2026-11-18",
+      "time_scope": "7d_extension",
+      "source": "Journal of Chemical Education",
+      "url": "https://doi.org/10.1021/acs.jchemed.5c01543",
+      "doi": "10.1021/acs.jchemed.5c01543",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-24",
+      "last_updated": "2026-11-24",
+      "report_file": "SpinFront_2026-11-24.html"
+    },
+    {
+      "item_id": "SF-20261124-09",
+      "report_date": "2026-11-24",
+      "item_no": 9,
+      "title_cn": "华中科技大学站 EPR 课程公布谱图解析与模拟议程",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "spectral_processing"
+      ],
+      "application_ids": [],
+      "sample_systems": [
+        "自由基",
+        "三重态",
+        "过渡金属离子"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "event",
+      "summary_cn": "华中科技大学、校分析测试中心和国仪量子公布 EPR 波谱课程，拟于 12 月 25–28 日在华中科技大学分析测试中心举行。苏吉虎教授将讲授自由基 EPR 解析和模拟、三重态与高自旋过渡金属离子实例，以及低自旋体系的各向异性模拟。",
+      "meaning_cn": "课程给出了不同自旋体系的解析范围，有助于比较低自旋各向异性与高自旋谱形的拟合思路。公告未说明具体频段、软件版本或上机安排，因此不能据议程判断可用仪器和实操时长。",
+      "publication_date": "2026-11-20",
+      "time_scope": "7d_extension",
+      "source": "国仪量子｜EPR 波谱课程公告",
+      "url": "https://www.ciqtek.com/news/news.html?id=d463e943-5eea-4b77-8267-00dc4531f523",
+      "doi": "",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-24",
+      "last_updated": "2026-11-24",
+      "report_file": "SpinFront_2026-11-24.html"
+    },
+    {
+      "item_id": "SF-20261124-10",
+      "report_date": "2026-11-24",
+      "item_no": 10,
+      "title_cn": "采购与需求动态：岩心仪器、400 MHz 液体 NMR 与维保",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [],
+      "sample_systems": [
+        "岩心 NMR",
+        "400 MHz 液体波谱仪",
+        "600 MHz 液氦超低温平台",
+        "无油气源"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "tender",
+      "summary_cn": "2026-11-23，采购单位 zycgr22011902 公布全直径岩心核磁共振测量仪中标结果，原预算 260 万元，北京斯派克以 120 万元中标，标的为 SPEC-LMR 系统；同日，该单位公布核磁共振在线测试设备升级成交结果，原预算 30 万元，江苏拓创以 29.72 万元成交，含岩心夹持器及高压配套件；香港科技大学（广州）公布 400 MHz 液体 NMR 公开比选成交结果，拟成交金额 300 万元，含 JEOL JNM-ECZL400S 和不间断电源各 1 套；深圳大学发布配 BBO 液体宽带探头的 600 MHz 超导波谱仪维保竞价，预算 18.29 万元，报价截至 12 月 1 日 12:00；江苏海洋大学发布核磁共振波谱仪更换空压机竞价，预算 5 万元，报价截至 11 月 26 日 11:00。以上时间均为北京时间。",
+      "meaning_cn": "岩心测量仪标的含射频、谱仪、梯度、磁体和步进控制模块；在线测试升级标的含 NMR-TC-CH 岩心夹持器及耐压 50 MPa 的部分管阀件。深圳大学维保包括冷头更换、氦气检漏和温度及磁场稳定性复测；江苏海洋大学要求无油气源，产气量不低于 400 L/min、压力 0.6–0.8 MPa，并配冷干机。",
+      "publication_date": "2026-11-23",
+      "time_scope": "24h",
+      "source": "zycgr22011902｜全直径岩心测量仪中标",
+      "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202611/t20261123_27739028.htm",
+      "doi": "",
+      "alternative_sources": [
+        {
+          "name": "zycgr22011902｜在线测试设备升级成交",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202611/t20261123_27738998.htm"
+        },
+        {
+          "name": "香港科技大学（广州）｜400 MHz 液体 NMR 成交",
+          "url": "https://puro.hkust-gz.edu.cn/bid/detail?id=21468"
+        },
+        {
+          "name": "深圳大学｜600 MHz 波谱仪维保竞价",
+          "url": "https://www.easyjcx.com/#/purchase/detail/67373812848849e58c1c3c9a1cb217ea"
+        },
+        {
+          "name": "江苏海洋大学｜波谱仪空压机竞价",
+          "url": "https://www.easyjcx.com/#/purchase/detail/1547b9f2778e45d4aa296eebed44d647"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-24",
+      "last_updated": "2026-11-24",
+      "report_file": "SpinFront_2026-11-24.html"
+    }
+  ]
+}

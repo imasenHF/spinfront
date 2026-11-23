@@ -4,6 +4,8 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 FIELDS=['direction_ids','experiment_type_ids','method_ids','application_ids','instrument_component_ids']
 REQUIRED=['item_id','report_date','item_no','title_cn',*FIELDS,'sample_systems','information_type','summary_cn','meaning_cn','publication_date','time_scope','source','url','doi','alternative_sources','related_to','review_status','first_seen','last_updated','report_file']
+PROCUREMENT_SCOPE_NOTE_START='2026-11-24'
+NO_VERIFIED_PROCUREMENT='本期未检索到新增已核实公告'
 def read(path):return json.loads(path.read_text(encoding='utf-8'))
 def load_epigraphs():
  lib=read(ROOT/'assets/data/epigraphs.json');entries=lib.get('entries',[]);rotation=lib.get('rotation',{})
@@ -25,19 +27,21 @@ def validate_procurement(d):
  status=d.get('procurement_status')
  if d['report_date']>='2026-10-17':
   assert len(tenders)<=1 and (not tenders or tenders==[len(d['items'])-1]),'Procurement must be the final combined item'
-  assert tenders or status is not None,'Missing final procurement check'
+  assert tenders or status is not None,'Missing procurement check'
+ if status is not None and d['report_date']>=PROCUREMENT_SCOPE_NOTE_START:
+  assert NO_VERIFIED_PROCUREMENT in d.get('scope_note',''),'Missing procurement result in scope note'
  if status is not None:
   assert not tenders,'Use a tender item or a no-update status, never both'
   assert status['status']=='no_verified_updates'
   assert status['title_cn']=='采购与需求动态'
-  assert '本期未检索到新增已核实公告' in status['summary_cn']
+  assert NO_VERIFIED_PROCUREMENT in status['summary_cn']
   assert isinstance(status['registered_candidates'],int) and status['registered_candidates']>=0
   checked=datetime.datetime.fromisoformat(status['checked_at'])
   assert checked.tzinfo is not None and checked.astimezone(datetime.timezone(datetime.timedelta(hours=8))).date().isoformat()==d['report_date']
   assert not any('image' in k.lower() for k in status)
 def procurement_status_html(d):
  status=d.get('procurement_status')
- if status is None:return ''
+ if status is None or d['report_date']>=PROCUREMENT_SCOPE_NOTE_START:return ''
  return '<div class="story" id="procurement-status-'+esc(d['report_date'])+'"><div class="story-index">'+f'{len(d["items"])+1:02d}'+'<span>/</span></div><div class="story-main"><div class="story-type">采购核查 · 暂无新增已核实公告</div><h2>'+esc(status['title_cn'])+'</h2><p class="summary">'+esc(status['summary_cn'])+'</p><div class="story-meta"><span>核查时刻</span><strong>'+esc(status['checked_at'])+'</strong><span>登记候选</span><div>'+str(status['registered_candidates'])+'份；本栏不计为采购公告或新增资讯。</div></div></div></div>'
 def load():
  tax=read(ROOT/'taxonomy/taxonomy.json');labels={(t['dimension'],t['id']):t['label_cn'] for t in tax['tags']};issues=[];seen=set()

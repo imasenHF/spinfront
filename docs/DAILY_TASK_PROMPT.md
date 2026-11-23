@@ -4,7 +4,7 @@
 
 本文件是SpinFront每日任务的统一执行规范。GPT定时任务仅需指向本仓库main最新HEAD及本文件，不在定时任务中重复保存检索、写作、采购、分类、构建或发布细则。长期有效的要求统一维护在本文件及其引用的专门规则中，避免定时任务中的旧版本与仓库现行规则冲突。
 
-本文件负责检索、审阅、生成及发布全过程；`docs/DAILY_OUTPUT_RULES.md`负责采购末条、分类及输出数据的具体约束；`docs/MAINTENANCE.md`负责维护原则；`taxonomy/taxonomy.json`定义正式标签，当前模板、样式、脚本和测试确定实际生成与校验行为。执行时先读取并核对这些文件；与最新代码不一致的文档要求须标记核查，不得自行宣称已实现。用户在当前运行中明确提出的新要求优先执行，但不得以自动任务中留存的旧规则覆盖仓库的更新版本。
+本文件负责检索、审阅、生成及发布全过程；`docs/DAILY_OUTPUT_RULES.md`负责采购的核查与展示、分类及输出数据的具体约束；`docs/MAINTENANCE.md`负责维护原则；`taxonomy/taxonomy.json`定义正式标签，当前模板、样式、脚本和测试确定实际生成与校验行为。执行时先读取并核对这些文件；与最新代码不一致的文档要求须标记核查，不得自行宣称已实现。用户在当前运行中明确提出的新要求优先执行，但不得以自动任务中留存的旧规则覆盖仓库的更新版本。
 
 执行SpinFront每日检索、分类审阅、文件生成和GitHub发布。先读取imasenHF/spinfront仓库main最新内容：docs/MAINTENANCE.md、docs/DAILY_OUTPUT_RULES.md、taxonomy/taxonomy.json、templates/issue.html、assets/style.css、scripts/build.py，以及完整历史data索引。以仓库当前受控词表与渲染程序为准；不要凭旧对话重新设计样式。仓库地址：https://github.com/imasenHF/spinfront。报告日期与24小时窗口按Asia/Shanghai确定，并记录检索截止时刻。
 
@@ -12,7 +12,7 @@
 
 不设置EPR与NMR的固定条数或主题顺序，按当日信息价值动态分配；允许当日内容主要或全部属于NMR或EPR。混合编排学术进展、仪器产品与技术、应用案例、行业市场、政策及采购动态，兼顾中国与海外来源，采用中英混合表达。
 
-采购与需求动态每天固定为正文末条。首先专项检查采购意向、需求调查/征集、市场调研、招标/询价/磋商、变更/延期、成交/中标、终止/废标及合同公告，再选择其他资讯，通常为9条其他资讯加1条采购汇总。多份合格公告合并为一个连续段落，不分点；仅一份也放末条。近7天仍无新增已核实公告时，在items之后输出顶层procurement_status对应的采购核查说明，不能省略末尾栏目，也不能虚构公告。合并、分阶段写法、逐公告来源与日期、JSON字段、查重、双重计数及公开接口补查方法完整执行docs/DAILY_OUTPUT_RULES.md的“采购与需求动态固定末条”。此规则优先于普通条目的字数与主题顺序约定。
+首先专项检查采购意向、需求调查/征集、市场调研、招标/询价/磋商、变更/延期、成交/中标、终止/废标及合同公告，再选择其他资讯。有新增已核实公告时，以“采购与需求动态”作为正文末条，通常安排9条其他资讯和1条采购汇总，多份公告合并为一个连续段落。从2026-11-24期起，近7天仍无新增已核实公告时，只在网页和屏幕版的“本期检索范围与筛选说明”中说明采购核查结果，正文可选至多10条其他合格资讯。JSON与Review继续记录采购核查。具体执行docs/DAILY_OUTPUT_RULES.md的“采购与需求动态”。
 
 优先检索过去24小时。若不足10条，可扩展至过去7天，并在对应条目中标注“近7天扩展”及准确发布日期；仍不足时只发送符合质量要求的实际条目，不用低相关性内容补足。核对页面发布时间与事件发生时间，避免重复上一期已经发送的内容。优先使用论文原文、期刊、机构官网、公司公告和政府采购等一手来源。
 
@@ -33,7 +33,7 @@ SpinFront · NMR / EPR Daily Brief · YYYY-MM-DD
 本报告版权归作者所有，未经许可不得复制、转载或用于商业用途。
 日期使用当期晨报日期。邮箱仅显示为纯文本，不设置mailto或其他超链接。页脚使用低干扰、居中、小字号样式，并与正文保持适当间距。
 
-结构化输出规则：除屏幕正文和公开网页外，同时生成SpinFront_YYYY-MM-DD.json，作为SpinFront_Project的单期数据。JSON顶层固定包含schema_version、taxonomy_version、report_date、scope_note和items；无新增合格采购公告时，还必须按输出规则包含procurement_status（不计入items）。每条items记录必须包含item_id、report_date、item_no、title_cn、direction_ids、experiment_type_ids、method_ids、application_ids、sample_systems、instrument_component_ids、information_type、summary_cn、meaning_cn、publication_date、time_scope、source、url、doi、alternative_sources、related_to、review_status、first_seen、last_updated和report_file。item_id格式为SF-YYYYMMDD-NN；time_scope只允许24h或7d_extension；review_status默认unreviewed。JSON与HTML的条目数量、顺序、标题、摘要、具体意义、日期和来源必须一致。
+结构化输出规则：除屏幕正文和公开网页外，同时生成SpinFront_YYYY-MM-DD.json，作为SpinFront_Project的单期数据。JSON顶层固定包含schema_version、taxonomy_version、report_date、scope_note和items；无新增合格采购公告时，按输出规则在scope_note写入采购核查结果，并保留顶层procurement_status（不计入items）。每条items记录必须包含item_id、report_date、item_no、title_cn、direction_ids、experiment_type_ids、method_ids、application_ids、sample_systems、instrument_component_ids、information_type、summary_cn、meaning_cn、publication_date、time_scope、source、url、doi、alternative_sources、related_to、review_status、first_seen、last_updated和report_file。item_id格式为SF-YYYYMMDD-NN；time_scope只允许24h或7d_extension；review_status默认unreviewed。JSON与HTML的条目数量、顺序、标题、摘要、具体意义、日期和来源必须一致。
 
 标准标签规则：正式标签、版本、定义和父子关系以仓库当前taxonomy/taxonomy.json为唯一依据，输出前读取并验证。谱学方向只使用nmr、epr；同时涉及两者时使用两个ID。活体波谱使用nmr与in_vivo_mrs；磁共振测速使用nmr与mr_velocimetry，排除将医学静脉成像误标为测速。顶层taxonomy_version与仓库版本一致。UI展示分组不作为正式ID。无法可靠映射的概念保留在sample_systems或正文，并在范围说明后列出待复核标签。
 
@@ -82,7 +82,7 @@ SpinFront · NMR / EPR Daily Brief · YYYY-MM-DD
 
 用户已授权此每日任务自动向公开仓库imasenHF/spinfront提交合格日报JSON和当期Review日志，并触发GitHub Pages发布，无需每天再次确认。每次先用GitHub只读工具验证当前运行具备仓库读写能力并读取main最新HEAD。只提交data/YYYY/当期JSON与docs/reviews/当期日志；正常日报运行不得修改模板、样式、词表、工作流、历史记录或主站仓库。不得提交凭证、私人教材、客户材料、下载的第三方全文或本地生成的_site目录。运行python scripts/build.py --check、python scripts/build.py、node tests/search.test.cjs、python tests/procurement.test.py，并核对屏幕/网页HTML/JSON数量、顺序、正文、日期、来源相同。检查全库DOI/URL/标题查重及至少7期近期发送内容后再提交。提交信息为Publish SpinFront YYYY-MM-DD (N items)。使用已授权GitHub连接的写入能力，原子提交两个文件，以最新HEAD为父提交，禁止force push。已有同日文件先比较内容；相同不重复提交，不同作为明确修订保留既有item_id并记录日志，不能无依据覆盖。冲突时重读最新HEAD和当日数据重新校验，不能覆盖并发修改。
 
-提交后分别检查该commit对应Actions构建、Pages部署以及当期公开页面的HTTP访问和实际内容，验证当期页面与归档索引出现正确日期、条目数、来源及采购末条或采购核查说明。最终在版权页脚之后另附简短执行状态，注明报告与标签审阅、构建及测试、提交SHA、Actions/Pages状态、公开页面验证及实际链接；发布状态不写入学术条目正文。仅在提交、构建、Pages部署和公开页面核查均成功时写“已发布”，不能用GitHub提交成功代替公开页面验收。GitHub写入工具不可用、连接过期或权限不足时，继续完成正文、网页构建和JSON并保留Review日志，明确写未提交及具体原因；自动化执行上下文的工具与授权可能不同于当前对话，不得把提示词写入视作未来成功发布的保证。部署仍进行中写待部署确认；失败报告日志中的原因与已保存结果，不声称主页已更新。
+提交后分别检查该commit对应Actions构建、Pages部署以及当期公开页面的HTTP访问和实际内容，验证当期页面与归档索引的日期、条目数和来源，并核对当期页面的采购展示。有新增已核实公告时，采购汇总位于正文末条。无新增已核实公告时，采购核查结果只在“本期检索范围与筛选说明”显示。最终在版权页脚之后另附简短执行状态，注明报告与标签审阅、构建及测试、提交SHA、Actions/Pages状态、公开页面验证及实际链接；发布状态不写入学术条目正文。仅在提交、构建、Pages部署和公开页面核查均成功时写“已发布”，不能用GitHub提交成功代替公开页面验收。GitHub写入工具不可用、连接过期或权限不足时，继续完成正文、网页构建和JSON并保留Review日志，明确写未提交及具体原因；自动化执行上下文的工具与授权可能不同于当前对话，不得把提示词写入视作未来成功发布的保证。部署仍进行中写待部署确认；失败报告日志中的原因与已保存结果，不声称主页已更新。
 
 
 标签补充约定：应用分组application_domains仅用于展示，正式记录使用tags中的标准ID；采购与培训不再使用procurement/education_training应用ID，按实际公告/活动/科普/应用说明性质填写information_type。量子自旋应用须明确涉及自旋量子位、相干控制或量子传感，不能由一般磁性材料推定。核验来源后可增加publication_status，枚举preprint、early_access、published、unknown；不知道时写unknown，不凭期刊名字判定出版状态。

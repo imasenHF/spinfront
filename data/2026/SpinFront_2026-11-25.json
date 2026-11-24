@@ -1,0 +1,382 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-11-25",
+  "scope_note": "检索截至2026-11-25 06:00（Asia/Shanghai）。近24小时内可凭精确发布时间核实且去重后的条目不足5条，已启动增强搜索，回扫11月18–24日的专业期刊、综合与高影响期刊、文献数据库及预印本、仪器软件与应用、机构会议和中外采购。部分 Crossref 查询限流，个别出版商页面及公共交易入口受限，改用权威题录、官方分类页及公开只读接口补查。已登记候选排除5项历史重复、1项无法核实窗口内首发日期。实际收录10条，其中9条标为近7天扩展；采购登记12项，核实1份新增更正公告并列为末条。",
+  "items": [
+    {
+      "item_id": "SF-20261125-01",
+      "report_date": "2026-11-25",
+      "item_no": 1,
+      "title_cn": "³⁵Cl 四极共振联用固体 NMR 区分药物晶体中的氯位点",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "pharma"
+      ],
+      "sample_systems": [
+        "酮康唑片剂",
+        "氯胺-T",
+        "氯唑沙宗及共晶"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Nari 等把 ³⁵Cl 核四极共振（NQR）、塞曼扰动 NQR、固体 NMR 和三维电子衍射结合，用于区分含氯药物和化合物粉末中的局部位点、无序及水合状态。概念验证中，无需研磨的商业片剂与纯酮康唑原料显示相同晶型。",
+      "meaning_cn": "位点分辨的 NQR 对氯周围电场梯度的小变化比单独超高场 NMR 更敏感，可补充粉末晶型和水合状态筛查。片剂直接测量是特定样品的验证；遇到低含量组分或位点重叠时，仍需用衍射或计算约束归属。",
+      "publication_date": "2026-11-24",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://doi.org/10.1021/jacs.6c15658",
+      "doi": "10.1021/jacs.6c15658",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-25",
+      "last_updated": "2026-11-25",
+      "report_file": "SpinFront_2026-11-25.html"
+    },
+    {
+      "item_id": "SF-20261125-02",
+      "report_date": "2026-11-25",
+      "item_no": 2,
+      "title_cn": "³¹P 化学位移预测中，构象多样性更值得投在训练阶段",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "Ilm-NMR-P31 数据集",
+        "含磷分子构象"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Grenda 等在 Ilm-NMR-P31 数据集上比较构象集合对机器学习 ³¹P 化学位移预测的影响。推断时做构象平均，相对于约 10.5 ppm 的基线仅改善约 0.23 ppm；训练阶段使用多构象的收益约为其四倍。两种收益均在每分子约五个构象时趋于饱和。",
+      "meaning_cn": "构象生成资源有限时，可优先覆盖更多不同分子，再增加已有分子的构象数。对已用多构象训练的模型，等权平均在该基准上可匹敌玻尔兹曼加权；部分三价磷亚组统计力有限，不能把五个构象当成所有含磷体系的固定上限。",
+      "publication_date": "2026-11-24",
+      "time_scope": "7d_extension",
+      "source": "Journal of Chemical Information and Modeling",
+      "url": "https://doi.org/10.1021/acs.jcim.6c02739",
+      "doi": "10.1021/acs.jcim.6c02739",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-25",
+      "last_updated": "2026-11-25",
+      "report_file": "SpinFront_2026-11-25.html"
+    },
+    {
+      "item_id": "SF-20261125-03",
+      "report_date": "2026-11-25",
+      "item_no": 3,
+      "title_cn": "3 T 活体波谱用 PRESS 回波时序减弱谷氨酸拟合相关",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "in_vivo_mrs"
+      ],
+      "method_ids": [
+        "spectral_processing"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "前扣带回",
+        "谷氨酸",
+        "脑代谢物"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Hong 等用蒙特卡洛模拟和谱拟合模型联合优化 3 T PRESS 的首段与总回波时间，再用前扣带回活体波谱验证。谱线宽为 6 Hz 时，最佳时间组合为 40 ms 和 95 ms；按线宽选取回波时间后，谷氨酸的总体谱相关系数低于 0.05。",
+      "meaning_cn": "若拟用 3 T 波谱做谷氨酸与其他脑代谢物的相关分析，可先量实测线宽，再选择对应的 PRESS 时序；4–10 Hz 的最优组合不同。该优化降低的是重叠引起的拟合相关，不等于脑内代谢物之间不存在生理关联。",
+      "publication_date": "2026-11-23",
+      "time_scope": "7d_extension",
+      "source": "Magnetic Resonance in Medicine",
+      "url": "https://doi.org/10.1002/mrm.70659",
+      "doi": "10.1002/mrm.70659",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-25",
+      "last_updated": "2026-11-25",
+      "report_file": "SpinFront_2026-11-25.html"
+    },
+    {
+      "item_id": "SF-20261125-04",
+      "report_date": "2026-11-25",
+      "item_no": 4,
+      "title_cn": "交换 NMR 解析 MDM2 与抑制性类肽的耦合构象平衡",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "MDM2",
+        "抑制性类肽",
+        "酰胺键异构体"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Ueda 等用 ZZ 交换 NMR 表明，含顺式酰胺键的类肽异构体与 MDM2 的结合弱于全反式异构体。MDM2 的 Ile19 甲基共振还分辨出开放与半闭合态；半闭合态占比升高与亲和力下降相关，支持配体和蛋白的构象平衡共同影响结合。",
+      "meaning_cn": "去除限制主链的甲基后，亲和力下降超过百倍，但修饰前后全反式配体比例之比仅为 1.6。该差异说明仅测游离配体的构象比例不足以解释结合结果；还可用蛋白报告峰追踪受体态分布，但相关性不足以独立量化两项贡献。",
+      "publication_date": "2026-11-24",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://doi.org/10.1021/jacs.6c14309",
+      "doi": "10.1021/jacs.6c14309",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-25",
+      "last_updated": "2026-11-25",
+      "report_file": "SpinFront_2026-11-25.html"
+    },
+    {
+      "item_id": "SF-20261125-05",
+      "report_date": "2026-11-25",
+      "item_no": 5,
+      "title_cn": "高温 EPR 在 Cu₂MnBO₅ 单晶中分辨出第三条共振线",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "sample_systems": [
+        "Cu₂MnBO₅ 铜锰氧硼酸盐单晶"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Fazlizhanov 等测量 Cu₂MnBO₅ 单晶在 300–636 K 的 EPR 谱，辨认出两条有效 g 值接近 2、线宽不同的共振线，并在 425–520 K 观察到第三条线。研究者将第三条线与磁极化子形成联系起来，同时报告逆磁化率的温度变化依赖测量磁场。",
+      "meaning_cn": "分析该体系的高温谱时，宜分开跟踪宽线、窄线和只在有限温区出现的分量，避免用单一 g 值概括全部变化。第三条线为磁极化子解释提供证据；仅凭摘要所述的温区和谱线变化，还不能唯一排除其他磁相互作用。",
+      "publication_date": "2026-11-24",
+      "time_scope": "7d_extension",
+      "source": "Applied Magnetic Resonance",
+      "url": "https://doi.org/10.1007/s00723-026-01894-0",
+      "doi": "10.1007/s00723-026-01894-0",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-25",
+      "last_updated": "2026-11-25",
+      "report_file": "SpinFront_2026-11-25.html"
+    },
+    {
+      "item_id": "SF-20261125-06",
+      "report_date": "2026-11-25",
+      "item_no": 6,
+      "title_cn": "¹H 旋转坐标系弛豫可快速比较干酪根成熟度",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "sample_systems": [
+        "实验室人工成熟的干酪根"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Sequeiros 等在一组实验室人工成熟的干酪根样品上，检验 ¹H 旋转坐标系纵向弛豫与偶极去耦演化能否指示热成熟度。两类读出与常规 ¹³C 固体 NMR 给出的成熟度参数呈较强相关，所需仪器配置更简单，实验所需时间也更短。",
+      "meaning_cn": "¹H 读出可用于初筛，再选代表样品做 ¹³C 谱验证；它们与参考参数相关，并不直接提供同等的碳结构信息。标定来自人工成熟样品，应用于天然岩样时仍需核对矿物背景、干酪根类型及成熟历史。",
+      "publication_date": "2026-11-24",
+      "time_scope": "7d_extension",
+      "source": "Energy & Fuels",
+      "url": "https://doi.org/10.1021/acs.energyfuels.6c04674",
+      "doi": "10.1021/acs.energyfuels.6c04674",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-25",
+      "last_updated": "2026-11-25",
+      "report_file": "SpinFront_2026-11-25.html"
+    },
+    {
+      "item_id": "SF-20261125-07",
+      "report_date": "2026-11-25",
+      "item_no": 7,
+      "title_cn": "扩散 NMR 区分孔壁改性对水与正庚烷传输的影响",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "sample_systems": [
+        "锆、钼氧化物改性 SBA-15",
+        "水",
+        "正庚烷"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Morozov 等用脉冲场梯度 NMR 比较不同载液量下，水与正庚烷在锆、钼氧化物改性 SBA-15 中的扩散。在约 20–60 μm 的平移尺度上，改性未改变所观察到的输运机制，但缩短了两种液体的 ¹H 自旋–晶格弛豫时间，改变了水的载量依赖，并减慢正庚烷输运。",
+      "meaning_cn": "对吸附介质应分别测扩散和 T₁：孔壁改性可能缩短弛豫时间，却不改变指定尺度上的输运机制。比较不同载液量时，水与正庚烷应分别标定；这组结果不能直接外推到其他孔道或远短于 20 μm 的位移尺度。",
+      "publication_date": "2026-11-18",
+      "time_scope": "7d_extension",
+      "source": "Glass Physics and Chemistry",
+      "url": "https://doi.org/10.1134/s1087659626600705",
+      "doi": "10.1134/s1087659626600705",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-25",
+      "last_updated": "2026-11-25",
+      "report_file": "SpinFront_2026-11-25.html"
+    },
+    {
+      "item_id": "SF-20261125-08",
+      "report_date": "2026-11-25",
+      "item_no": 8,
+      "title_cn": "NMR 交叉弛豫揭示维生素 D₃ 在模型膜中的定位",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "维生素 D₃",
+        "羟丙基-β-环糊精",
+        "DMPC 模型膜"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Selyutina 等用交叉弛豫率约束分子动力学模型，发现维生素 D₃ 主要位于 DMPC 模型膜的界面，特定烯烃质子靠近甘油骨架与脂链上段。羟丙基-β-环糊精形成的 1:2 包合体遮蔽维生素的疏水骨架，在高浓度下不易通过直接接触向膜快速转移。",
+      "meaning_cn": "交叉弛豫与模拟联用可区分“在膜界面附近”与“已插入脂链内部”。结果支持稀释后包合体先解离的解释，适用范围受模型膜组成和主客体浓度限制，不能直接据此推断真实细胞膜上的转运速率。",
+      "publication_date": "2026-11-24",
+      "time_scope": "7d_extension",
+      "source": "Langmuir",
+      "url": "https://doi.org/10.1021/acs.langmuir.6c06062",
+      "doi": "10.1021/acs.langmuir.6c06062",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-25",
+      "last_updated": "2026-11-25",
+      "report_file": "SpinFront_2026-11-25.html"
+    },
+    {
+      "item_id": "SF-20261125-09",
+      "report_date": "2026-11-25",
+      "item_no": 9,
+      "title_cn": "强磁场论坛公布太赫兹 DNP 核磁系统报告",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "dnp",
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "instrumentation"
+      ],
+      "sample_systems": [
+        "¹H",
+        "¹³C",
+        "太赫兹回旋管"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "event",
+      "summary_cn": "华中科技大学国家脉冲强磁场科学中心公布刘頔威教授的太赫兹增强核磁共振报告，定于 11 月 25 日 10:30 举行。提纲包括 0.1–1 THz 回旋器件和低损耗传输，报告将介绍基于自研回旋管与传输线的系统，以及 ¹H、¹³C 灵敏度提高约两个数量级的结果。",
+      "meaning_cn": "议程覆盖太赫兹源、传输线与核磁检测，可据此追问功率如何传到样品，以及连续运行的稳定性如何测量。报告预告未列增强倍数的对照条件、样品或磁场强度，不能把所报幅度直接与其他 DNP 平台横向比较。",
+      "publication_date": "2026-11-24",
+      "time_scope": "7d_extension",
+      "source": "华中科技大学国家脉冲强磁场科学中心｜报告预告",
+      "url": "https://whmfc.hust.edu.cn/info/1504/5563.htm",
+      "doi": "",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "unknown",
+      "first_seen": "2026-11-25",
+      "last_updated": "2026-11-25",
+      "report_file": "SpinFront_2026-11-25.html"
+    },
+    {
+      "item_id": "SF-20261125-10",
+      "report_date": "2026-11-25",
+      "item_no": 10,
+      "title_cn": "采购与需求动态：吉林大学中日联谊医院更正实验室 EPR 招标",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [],
+      "sample_systems": [
+        "实验室电子顺磁共振谱仪"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "tender",
+      "summary_cn": "吉林大学中日联谊医院于 2026-11-24 发布实验室电子顺磁共振谱仪采购项目更正公告（ZZ62208HW04310129），替换项目需求附件并调整技术评分。原招标采购 1 套，预算 180 万元；更正后的投标截止和开标时间为 2026-12-16 09:00（北京时间）。",
+      "meaning_cn": "更正后技术参数响应总分仍为 40 分。7 项标记为 ▲ 的重要指标每项负偏离扣 3 分，共 21 分；其他技术指标每项负偏离扣 1 分，共 19 分，扣至 0 分止。公告要求按规定提供证明材料，项目需求以此次更正所附版本为准。",
+      "publication_date": "2026-11-24",
+      "time_scope": "24h",
+      "source": "吉林大学中日联谊医院｜实验室 EPR 采购更正",
+      "url": "https://www.ccgp.gov.cn/cggg/zygg/gzgg/202611/t20261124_27746514.htm",
+      "doi": "",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-25",
+      "last_updated": "2026-11-25",
+      "report_file": "SpinFront_2026-11-25.html"
+    }
+  ]
+}

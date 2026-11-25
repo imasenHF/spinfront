@@ -5,7 +5,7 @@
   "repository": {
     "base_head": "2a2c0aec0a1309af0dd0ed8e1540d25d9892dc04",
     "taxonomy_version": "1.2.0",
-    "final_content_commit": null
+    "final_content_commit": "e69a23af97270ea8454310fbe62901cf8e5d822d"
   },
   "search_summary": {
     "enhancement_trigger": "常规检索后，近24小时有独立原公告且具明确发布时间的项目只有2份，合计为一个末条；学术仅确认首发日，不用登记/更新时间推测小时；符合少于5条触发条件。",
@@ -950,14 +950,22 @@
       "python tests/build.test.py": "pass: 1 test",
       "local_content_parity": "pass: 10 ordered articles; date, title, summary, technical commentary and all source URLs match JSON, HTML and screen; 5 procurement links in final article; homepage, archive and search index verified."
     },
-    "public_verification": "pending_after_commit"
+    "public_verification": "pass: HTTP 200 for issue, homepage, archive index and search index; all 10 IDs, ordered texts, dates and sources agree with canonical JSON; 5 independent original links are in the last item."
   },
-  "final_review_status": "approved_awaiting_remote_verification",
+  "final_review_status": "published_and_publicly_verified",
   "deployment": {
-    "actions_run": null,
-    "build": "pending",
-    "pages_deploy": "pending",
+    "actions_run": 45711158905,
+    "build": "success",
+    "pages_deploy": "success",
     "public_issue_url": "https://plastocyanin.org/spinfront/2026-11-26/",
-    "public_archive_url": "https://plastocyanin.org/spinfront/"
+    "public_archive_url": "https://plastocyanin.org/spinfront/",
+    "actions_url": "https://github.com/imasenHF/spinfront/actions/runs/45711158905",
+    "public_verification": "pass",
+    "archive_totals": {
+      "issues": 98,
+      "items": 859
+    },
+    "procurement_display": "last item; 5 official URLs",
+    "search_verification": "successful"
   }
 }

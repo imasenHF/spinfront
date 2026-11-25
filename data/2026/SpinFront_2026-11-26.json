@@ -1,0 +1,395 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-11-26",
+  "scope_note": "检索截至 2026-11-26 06:00（北京时间）。常规检索后，能以确切时刻核实的近 24 小时资讯不足 5 条，已启动增强搜索，回扫 11 月 19–25 日的专业与综合期刊、文献数据库及预印本、仪器软件、机构会议和中外采购。部分出版商、Crossref 查询及公共采购入口受限，改用出版商提交的题录、政府采购分类页和公开只读接口。已登记候选排除 13 项历史重复、3 项无法核实窗口内首发日期的文献。实际收录 10 条，均标为近 7 天扩展；采购登记 14 项，核实 5 份新增公告并合并为末条。",
+  "items": [
+    {
+      "item_id": "SF-20261126-01",
+      "report_date": "2026-11-26",
+      "item_no": 1,
+      "title_cn": "9.4 T 溶液 Overhauser DNP 将 ⁷⁷Se 信号增强两到三个数量级",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "dnp",
+        "multinuclear_nmr",
+        "reaction_monitoring"
+      ],
+      "application_ids": [],
+      "sample_systems": [
+        "有机硒化合物",
+        "二硒化物",
+        "¹²³Te 化合物"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Rao 等在 9.4 T、室温下对多种有机硒化合物实施溶液 Overhauser 动态核极化，数秒内建立极化，得到约 10²–10³ 倍的 ⁷⁷Se NMR 信号增强。研究者利用可持续补充的极化跟踪二硒键复分解 48 小时，并将方法延伸至 ¹²³Te 检测。",
+      "meaning_cn": "⁷⁷Se 的天然丰度低，常规谱难以兼顾信噪比和采样间隔。该方案可在远长于核自旋 T₁ 的时段反复读出含硒物种。增强幅度取决于极化剂与样品的相互作用；更换底物或溶剂后需重新标定，不宜沿用这组倍数。",
+      "publication_date": "2026-11-25",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://doi.org/10.1021/jacs.6c15441",
+      "doi": "10.1021/jacs.6c15441",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-26",
+      "last_updated": "2026-11-26",
+      "report_file": "SpinFront_2026-11-26.html"
+    },
+    {
+      "item_id": "SF-20261126-02",
+      "report_date": "2026-11-26",
+      "item_no": 2,
+      "title_cn": "CORD-NMR 用跨馏分峰分组辅助天然产物去重复鉴定",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "spectral_processing",
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "natural_products"
+      ],
+      "sample_systems": [
+        "除虫菊精油馏分",
+        "人工混合物"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Dong 等开发 CORD-NMR，用峰在相关馏分中的共现与强度变化归组，并在单个馏分中用高斯混合模型补充分组。方法再以预测化学位移库检索候选，允许逐原子复核归属。除人工混合物验证外，研究者从除虫菊精油馏分辨认出 17 个已知成分，并据此分离和鉴定 3 个新化合物。",
+      "meaning_cn": "当同一组分的谱峰在多个馏分中同步变化时，先分组再检索能缩小待核查范围。共洗脱组分仍可能被归入同组，库外化合物也不会由匹配结果自动定名；宜检查逐原子残差，并以分离或补充谱图确认。",
+      "publication_date": "2026-11-25",
+      "time_scope": "7d_extension",
+      "source": "Journal of Agricultural and Food Chemistry",
+      "url": "https://doi.org/10.1021/acs.jafc.6c10486",
+      "doi": "10.1021/acs.jafc.6c10486",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-26",
+      "last_updated": "2026-11-26",
+      "report_file": "SpinFront_2026-11-26.html"
+    },
+    {
+      "item_id": "SF-20261126-03",
+      "report_date": "2026-11-26",
+      "item_no": 3,
+      "title_cn": "细胞内 NMR 区分 FUS 低复杂度结构域的成滴与成熟",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "FUS 低复杂度结构域",
+        "HeLa S3 细胞",
+        "可逆淀粉样核心"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Tamura 等用细胞内 NMR 直接追踪 FUS 低复杂度结构域在活细胞内的凝聚，观察到先形成液滴、随后分子活动性下降的两个阶段。缺失突变对照显示，可逆淀粉样核心对后续成熟更关键。营养饥饿抑制成滴，提示细胞的代谢状态参与调节。",
+      "meaning_cn": "如果只比较终点时的凝聚比例，容易把初始成滴和后续成熟混为一谈。可结合时间分辨谱信号和缺失突变对照拆分两步。细胞内成滴浓度低于体外阈值，且饥饿涉及多种变化，不能据此把作用归给单一 ATP 依赖过程。",
+      "publication_date": "2026-11-25",
+      "time_scope": "7d_extension",
+      "source": "Nature Communications",
+      "url": "https://doi.org/10.1038/s41467-026-79476-8",
+      "doi": "10.1038/s41467-026-79476-8",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-26",
+      "last_updated": "2026-11-26",
+      "report_file": "SpinFront_2026-11-26.html"
+    },
+    {
+      "item_id": "SF-20261126-04",
+      "report_date": "2026-11-26",
+      "item_no": 4,
+      "title_cn": "光诱导 EPR 与磁光谱定位铬离子对的近红外发光",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "sample_systems": [
+        "LiGa₅O₈:Cr³⁺",
+        "Cr³⁺ 离子对"
+      ],
+      "instrument_component_ids": [
+        "illumination"
+      ],
+      "information_type": "paper",
+      "summary_cn": "Zhu 等将变温光诱导 EPR、光磁和磁光谱联用，研究 LiGa₅O₈:Cr³⁺ 的近红外发光。实验未见光生 Cr²⁺/Cr⁴⁺ 的对应证据；不同谱带的温度和磁场响应支持将约 1214 nm 的近红外二区发光归属给反铁磁耦合的 Cr³⁺ 离子对。",
+      "meaning_cn": "若要区分发光来自孤立位点、耦合离子对还是价间电荷转移，可在光照和变温条件下同时比较 EPR 与磁光响应。该材料中的证据支持把毫秒级长寿命与双离子超交换联系起来；不能单靠发光峰位置在其他掺铬体系中照搬归属。",
+      "publication_date": "2026-11-24",
+      "time_scope": "7d_extension",
+      "source": "Advanced Optical Materials",
+      "url": "https://doi.org/10.1002/adom.72101",
+      "doi": "10.1002/adom.72101",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-26",
+      "last_updated": "2026-11-26",
+      "report_file": "SpinFront_2026-11-26.html"
+    },
+    {
+      "item_id": "SF-20261126-05",
+      "report_date": "2026-11-26",
+      "item_no": 5,
+      "title_cn": "室温电检测磁共振解析 GaN 二极管的深能级缺陷",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "defect_epr"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "sample_systems": [
+        "GaN 二极管",
+        "镓—氮双空位"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Hassenmayer 等在室温对 GaN 二极管做电检测磁共振，分辨出 10 条超精细谱线。沿垂直与平行晶体 c 轴方向，g 值分别约为 2.005 和 2.006，相对电流变化量级约为 8×10⁻⁶。研究者结合这些信号，将所见缺陷归属为镓与氮的双空位。",
+      "meaning_cn": "弱电流响应下，分辨超精细结构比仅用接近 2 的 g 值更能约束缺陷模型。双空位归属仍是对所测器件和该信号的解释；比较不同生长或辐照条件时，需要重新检查谱线数目、取向响应和可能重叠的缺陷。",
+      "publication_date": "2026-11-24",
+      "time_scope": "7d_extension",
+      "source": "Applied Physics Letters",
+      "url": "https://doi.org/10.1063/5.0356195",
+      "doi": "10.1063/5.0356195",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-26",
+      "last_updated": "2026-11-26",
+      "report_file": "SpinFront_2026-11-26.html"
+    },
+    {
+      "item_id": "SF-20261126-06",
+      "report_date": "2026-11-26",
+      "item_no": 6,
+      "title_cn": "脉冲场梯度 NMR 从自扩散估计快交换主客体的结合比例",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "柱[5]芳烃与 DNA 寡核苷酸",
+        "环糊精与磷乙酰肼"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Khairutdinov 等将脉冲场梯度 NMR 与分子对接联用，考察柱[5]芳烃与 DNA 寡核苷酸、环糊精与磷乙酰肼的结合。在游离态与结合态快交换、体系处于动态平衡时，研究者由组分的自扩散系数估计结合程度，并用对接比较不同化学计量的复合物。",
+      "meaning_cn": "当游离态和结合态无法在谱上逐峰分开时，自扩散可提供独立的结合约束；需要有游离组分和复合态的扩散参照，并核查快交换前提。多个化学计量并存时，单一表观扩散系数不足以唯一分解各组分比例。",
+      "publication_date": "2026-11-19",
+      "time_scope": "7d_extension",
+      "source": "Russian Chemical Bulletin",
+      "url": "https://doi.org/10.1007/s11172-026-5134-8",
+      "doi": "10.1007/s11172-026-5134-8",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-26",
+      "last_updated": "2026-11-26",
+      "report_file": "SpinFront_2026-11-26.html"
+    },
+    {
+      "item_id": "SF-20261126-07",
+      "report_date": "2026-11-26",
+      "item_no": 7,
+      "title_cn": "在线 NMR 显示周期注水在砂岩岩心中动用更多小孔残油",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "sample_systems": [
+        "天然砂岩岩心",
+        "高含水阶段剩余油"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Zhu 等在天然砂岩岩心的变流量水驱实验中，用在线 NMR 成像和 T₂ 谱追踪不同孔径范围内的油，并结合含毛细压力约束的孔网模型。与恒流注水相比，实验中的周期注水使驱油效率提高 3.44–6.22 个百分点，小孔范围内的相对增量约为 20%。",
+      "meaning_cn": "相同注入量下，孔网模拟支持周期注水能动用更多受毛细作用约束的残油。实验结果宜结合岩心渗透率和注停时序解读；T₂ 对孔径的映射依赖样品标定，岩心尺度的增量也不能直接换算成现场采收率。",
+      "publication_date": "2026-11-24",
+      "time_scope": "7d_extension",
+      "source": "SPE Annual Caspian Technical Conference and Exhibition",
+      "url": "https://doi.org/10.2118/236771-ms",
+      "doi": "10.2118/236771-ms",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-26",
+      "last_updated": "2026-11-26",
+      "report_file": "SpinFront_2026-11-26.html"
+    },
+    {
+      "item_id": "SF-20261126-08",
+      "report_date": "2026-11-26",
+      "item_no": 8,
+      "title_cn": "NMR 追踪滨海盐碱土冻胀中孔径分布的重排",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "sample_systems": [
+        "黄河三角洲滨海盐碱土芯"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Liu 等用 NMR 测量黄河三角洲滨海盐碱土 0–40 cm 取样后制备的土芯，比较不同冻结温度下的孔径分布。冻胀后部分微孔转为中孔和大孔；各土层的大孔占比和总孔隙率在 −15 °C 达峰，温度更低时大孔减少。",
+      "meaning_cn": "只看总孔隙率会漏掉微孔向较大孔隙的重排；同时比较各孔径组分，可检验通气和排水能力的变化解释。−15 °C 是这批实验室制备土芯的峰值条件，含盐量、初始含水量和冻结历史改变后需另做标定。",
+      "publication_date": "2026-11-24",
+      "time_scope": "7d_extension",
+      "source": "Applied Sciences",
+      "url": "https://doi.org/10.3390/app162311639",
+      "doi": "10.3390/app162311639",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-26",
+      "last_updated": "2026-11-26",
+      "report_file": "SpinFront_2026-11-26.html"
+    },
+    {
+      "item_id": "SF-20261126-09",
+      "report_date": "2026-11-26",
+      "item_no": 9,
+      "title_cn": "血浆 ¹H NMR 对颈动脉和股动脉病变给出不同代谢关联",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "metabolomics"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "高脂血症患者血浆",
+        "颈动脉和股动脉超声表型"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Nikolskaya 等对 129 名高脂血症患者的血浆做 ¹H NMR，定量 33 种代谢物，并与颈动脉和股动脉超声指标比较。较重的颈动脉病变与较低的 2-氧代异己酸和 3-羟基丁酸稳定相关；股动脉病变未筛出同样稳定的代谢指标。",
+      "meaning_cn": "同一批样品中的两类血管床并未给出可互换的代谢特征，复核时宜保留血管床的分层。加入代谢物后，颈动脉狭窄模型的判别指标数值有所上升，但差异未达到统计显著；结果仍需独立队列验证。",
+      "publication_date": "2026-11-22",
+      "time_scope": "7d_extension",
+      "source": "International Journal of Molecular Sciences",
+      "url": "https://doi.org/10.3390/ijms272310540",
+      "doi": "10.3390/ijms272310540",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-26",
+      "last_updated": "2026-11-26",
+      "report_file": "SpinFront_2026-11-26.html"
+    },
+    {
+      "item_id": "SF-20261126-10",
+      "report_date": "2026-11-26",
+      "item_no": 10,
+      "title_cn": "采购与需求动态：吉林大学招标，四所高校公布 NMR 采购结果",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [],
+      "sample_systems": [
+        "超导核磁共振波谱仪",
+        "600 MHz 宽腔核磁共振波谱仪",
+        "固体核磁共振波谱仪",
+        "400 MHz 核磁共振波谱仪"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "tender",
+      "summary_cn": "吉林大学于 2026-11-25 公开招标核磁共振波谱仪（JLU-WT26330），预算及最高限价均为 600 万元，投标截止为 2026-12-22 09:30（北京时间）；江南大学于 2026-11-25 公布 600 MHz 全数字化宽腔波谱仪单一来源成交结果（2640SUMEC/GXGG1074），预算 1500 万元，南京苏泽生物科技有限公司以 1499.8 万元成交；武汉工程大学于 2026-11-23 公布固体核磁共振波谱仪中标结果（20260112-HD0047），预算及最高限价均为 1600 万元，广东省科控仪器设备有限公司中标 1579.9 万元；华东理工大学于 2026-11-23 公布 400 MHz 波谱仪中标结果（S2026102701），预算 99.8 万元，武汉中科牛津波谱技术有限公司中标 99.78 万元；哈尔滨商业大学于 2026-11-20 公布食品科研仪器更新项目第 5 包中标结果（[230001]ZYGC[GK]20260012），整包预算 940 万元、黑龙江康迦医药有限公司中标 936.85 万元，其中 400 MHz 核磁共振波谱仪预算 350 万元，成交 349.3 万元。",
+      "meaning_cn": "吉林大学的公开招标专门面向中小企业，文件所列配置包括超导磁体和机柜，合同签订后 90 个日历天内交货。江南大学成交设备为布鲁克 AVANCE NEO-X 600 WB，武汉工程大学中标设备为布鲁克 Ascend 600WB；华东理工大学的中标配置含 1 套 Quantum-II 400 MHz 波谱仪，不含磁体；哈尔滨商业大学的波谱仪为 1 台日本电子 JNM-ECZL 400S。",
+      "publication_date": "2026-11-25",
+      "time_scope": "7d_extension",
+      "source": "吉林大学｜NMR 招标",
+      "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202611/t20261125_27750203.htm",
+      "doi": "",
+      "alternative_sources": [
+        {
+          "name": "江南大学｜600 MHz NMR 成交",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202611/t20261125_27753567.htm"
+        },
+        {
+          "name": "武汉工程大学｜固体 NMR 中标",
+          "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202611/t20261123_27737235.htm"
+        },
+        {
+          "name": "华东理工大学｜400 MHz NMR 中标",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202611/t20261123_27736440.htm"
+        },
+        {
+          "name": "哈尔滨商业大学｜400 MHz NMR 中标",
+          "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202611/t20261120_27723880.htm"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-26",
+      "last_updated": "2026-11-26",
+      "report_file": "SpinFront_2026-11-26.html"
+    }
+  ]
+}

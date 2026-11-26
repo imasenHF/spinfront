@@ -1,0 +1,405 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-11-27",
+  "scope_note": "检索截至2026-11-27 06:00（北京时间）。可用确切时刻核实的近24小时资讯不足5条，已启动增强搜索，回扫11月20–26日的专业与综合期刊、预印本与文献数据库、机构与厂商、会议及中外采购。部分期刊、数据库及采购网页访问受限，改用出版商题录摘要和官方公开只读接口补查。已登记候选排除16项历史重复、2项无法确认窗口内首发日期的文献。实际收录10条，均标为近7天扩展；采购登记18项、核实5份新增公告，合并为末条。",
+  "items": [
+    {
+      "item_id": "SF-20261127-01",
+      "report_date": "2026-11-27",
+      "item_no": 1,
+      "title_cn": "SCREAM-DNP 预印本公开 MAS 采集流程和谱图分析工具",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "mas",
+        "dnp",
+        "spectral_processing"
+      ],
+      "application_ids": [],
+      "sample_systems": [
+        "快速转动的甲基",
+        "SCREAM-DNP 数据"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Philipp-Taube 等整理了 SCREAM-DNP 的脉冲序列、采集与后处理流程，并公开 Python 工具 SCREAMLAB 0.3.0，用于处理 Bruker TopSpin 格式的数据。在约 100 K 的条件下，快速转动的甲基仍可经质子自旋扩散和异核交叉弛豫产生增强；研究用谱图过滤区分这一路径与直接 DNP。",
+      "meaning_cn": "在低温 MAS 谱中观察到增强时，可通过过滤对照检验信号主要来自局部运动驱动的交叉弛豫，还是直接 DNP。工具给出了可复查的数据流程；迁移到其他软件格式或不同样品时，需重新验证导入、过滤结果和位点选择性。",
+      "publication_date": "2026-11-24",
+      "time_scope": "7d_extension",
+      "source": "Magnetic Resonance Discussions｜预印本",
+      "url": "https://doi.org/10.5194/mr-2026-12",
+      "doi": "10.5194/mr-2026-12",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-11-27",
+      "last_updated": "2026-11-27",
+      "report_file": "SpinFront_2026-11-27.html"
+    },
+    {
+      "item_id": "SF-20261127-02",
+      "report_date": "2026-11-27",
+      "item_no": 2,
+      "title_cn": "³⁵Cl 与 ⁸¹Br 固体 NMR 区分混合卤化物盐中的局部环境",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr",
+        "computation_nmr"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "sample_systems": [
+        "赖氨酸和谷氨酸盐",
+        "含氯、溴和硝酸根的混合固体"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Dowdell 等用液体辅助研磨制备赖氨酸与谷氨酸的混合阴离子固体，并用 ³⁵Cl、⁸¹Br 固体 NMR 和粉末衍射表征。离子固溶体中，溴离子增加时 ³⁵Cl 各向同性位移下降，氯离子增加时 ⁸¹Br 各向同性位移上升。研究比较了实测与计算的电场梯度、化学位移张量。",
+      "meaning_cn": "两种四极核对组成和氢键环境的响应，可补充衍射给出的平均结构。比较不同混合比例时，宜分别拟合两个核的位移与四极效应；不同盐型或氢键重排也可能改变张量，不能把单一峰位作为通用的卤离子含量标尺。",
+      "publication_date": "2026-11-26",
+      "time_scope": "7d_extension",
+      "source": "Chemistry of Materials",
+      "url": "https://doi.org/10.1021/acs.chemmater.6c01613",
+      "doi": "10.1021/acs.chemmater.6c01613",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-27",
+      "last_updated": "2026-11-27",
+      "report_file": "SpinFront_2026-11-27.html"
+    },
+    {
+      "item_id": "SF-20261127-03",
+      "report_date": "2026-11-27",
+      "item_no": 3,
+      "title_cn": "原位高压 NMR 区分乙酰丙酮铝的配体响应与配位扰动",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [
+        "materials"
+      ],
+      "sample_systems": [
+        "乙酰丙酮铝",
+        "压力响应发光固体"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Jin 等用原位高压 NMR 追踪乙酰丙酮铝中的局部变化，发现随着压力升高，响应从配体相关变化扩展到 Al–O 配位环境。光致发光在低于 4 GPa 时可通过强度读出压力；越过该阈值后，光学响应还会保留与既往受压过程有关的信息。",
+      "meaning_cn": "光谱能读出压力响应，但原位 NMR 提供了区分“配体先变”和“配位环境进一步受扰”的证据。压力循环对照可帮助区分可逆畸变和卸压后残留的变化；严重畸变产生自由基缺陷是研究提出的机制解释，不能把 NMR 响应直接当成自由基定量。",
+      "publication_date": "2026-11-25",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://doi.org/10.1021/jacs.6c15601",
+      "doi": "10.1021/jacs.6c15601",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-27",
+      "last_updated": "2026-11-27",
+      "report_file": "SpinFront_2026-11-27.html"
+    },
+    {
+      "item_id": "SF-20261127-04",
+      "report_date": "2026-11-27",
+      "item_no": 4,
+      "title_cn": "地磁场 NMR 在处理线圈内跟踪等离子体活化水弛豫",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "process_analysis"
+      ],
+      "sample_systems": [
+        "等离子体活化水"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Constantin 等在地磁场 NMR 探测线圈内对水做等离子体处理，停处理后即可测量水的弛豫时间，省去移样。研究将弛豫读出与活性氧和活性氮的常规测定、酸碱度及氧化还原电位结合，检验 NMR 作为活化水总体响应指标的可行性。",
+      "meaning_cn": "若活性水的组成在移样中变化，在线圈内生成和测量可缩短处理到采集的间隔。水的弛豫会受多个组分与环境条件共同影响，不能据一次弛豫测量分别定量羟基自由基、过氧化氢或亚硝酸盐，仍需用物种选择性测定做对照。",
+      "publication_date": "2026-11-25",
+      "time_scope": "7d_extension",
+      "source": "Journal of Physics D: Applied Physics",
+      "url": "https://doi.org/10.1088/1361-6463/aec6ab",
+      "doi": "10.1088/1361-6463/aec6ab",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-27",
+      "last_updated": "2026-11-27",
+      "report_file": "SpinFront_2026-11-27.html"
+    },
+    {
+      "item_id": "SF-20261127-05",
+      "report_date": "2026-11-27",
+      "item_no": 5,
+      "title_cn": "低场 ¹H 弛豫跟踪泥炭藓干燥与复湿",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "environment"
+      ],
+      "sample_systems": [
+        "泥炭藓",
+        "干燥与复湿过程"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Schmid 等用低场 ¹H NMR 传感器无损测量泥炭藓，跟踪初次干燥、复湿和再次干燥过程中磁化衰减的变化。研究比较了多种衰减拟合方法及其适用问题，表明同一样品连续测量可用于观察复湿过程，而不需要为每个时间点破坏取样。",
+      "meaning_cn": "若目标是跟踪含水状态变化，应先固定传感器几何、样品位置和测量间隔，再比较不同拟合模型。多个水环境可能在同一衰减曲线中重叠，各拟合分量不能未经校准就分别对应确定的组织或含水量。这项验证针对泥炭藓样品。",
+      "publication_date": "2026-11-21",
+      "time_scope": "7d_extension",
+      "source": "Journal of Magnetic Resonance",
+      "url": "https://doi.org/10.1016/j.jmr.2026.108212",
+      "doi": "10.1016/j.jmr.2026.108212",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-27",
+      "last_updated": "2026-11-27",
+      "report_file": "SpinFront_2026-11-27.html"
+    },
+    {
+      "item_id": "SF-20261127-06",
+      "report_date": "2026-11-27",
+      "item_no": 6,
+      "title_cn": "低场 T₂ 将页岩润湿性估计与孔径及连通性联系起来",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "td_nmr"
+      ],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "geoscience_flow"
+      ],
+      "sample_systems": [
+        "陆相页岩油储层",
+        "有机孔与无机孔"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Zou 等建立陆相页岩油藏的低场 NMR 润湿性表征方法，在数字孔喉模型中分别处理含油有机孔和油水比例不同的无机孔。研究用模拟与 T₂ 实验检查响应，再按孔径与连通性拆分 T₂ 分布，建立润湿性指数模型，并与元素测井联合应用。",
+      "meaning_cn": "在矿物组成变化大的页岩中，T₂ 谱峰位移还受到孔径、连通性与饱和度影响。同一峰位不能直接换算成统一的润湿性值。用岩心实验约束孔群，再与元素测井交叉校验，可减少把矿物组成差异误判为润湿性的风险。",
+      "publication_date": "2026-11-26",
+      "time_scope": "7d_extension",
+      "source": "Geosciences",
+      "url": "https://doi.org/10.3390/geosciences16120495",
+      "doi": "10.3390/geosciences16120495",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-27",
+      "last_updated": "2026-11-27",
+      "report_file": "SpinFront_2026-11-27.html"
+    },
+    {
+      "item_id": "SF-20261127-07",
+      "report_date": "2026-11-27",
+      "item_no": 7,
+      "title_cn": "7 T 活体波谱分辨自然睡眠前后的谷氨酸变化",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "in_vivo_mrs"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "后扣带皮层",
+        "丘脑",
+        "健康成人"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Liu 等以 7 T 活体磁共振波谱在自然睡眠前后测量 20 名健康成人的后扣带皮层和丘脑，并分别量化谷氨酸、谷氨酰胺与 γ-氨基丁酸。睡后两处的谷氨酸分别下降 4.8% 和 5.8%，而谷氨酰胺和 γ-氨基丁酸的前后差异未达到统计显著。",
+      "meaning_cn": "比较睡眠前后波谱时，宜分别报告谷氨酸与谷氨酰胺；合并信号会掩盖只有其中一种改变的情况。结果属于小样本健康成人配对测量，谱学浓度变化本身也不能指明突触内外来源或直接证明突触活动的因果变化。",
+      "publication_date": "2026-11-25",
+      "time_scope": "7d_extension",
+      "source": "Journal of Cerebral Blood Flow & Metabolism",
+      "url": "https://doi.org/10.1177/0271678x261513477",
+      "doi": "10.1177/0271678x261513477",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-27",
+      "last_updated": "2026-11-27",
+      "report_file": "SpinFront_2026-11-27.html"
+    },
+    {
+      "item_id": "SF-20261127-08",
+      "report_date": "2026-11-27",
+      "item_no": 8,
+      "title_cn": "定量 NMR 在睡眠缺失研究中筛选血浆代谢物",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "qnmr",
+        "metabolomics"
+      ],
+      "application_ids": [
+        "life_science"
+      ],
+      "sample_systems": [
+        "血浆",
+        "氧化三甲胺",
+        "控制睡眠与清醒实验"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Cukkemane 等用定量 NMR 分析睡眠与清醒控制实验中的血浆小分子，筛查涉及能量代谢、维生素和肠道微生物来源的候选指标。研究把氧化三甲胺（TMAO）列为值得继续验证的候选之一，提出用多种代谢物共同观察睡眠缺失，而非只依赖单个指标。",
+      "meaning_cn": "把该方法用于重复采样时，取样相位、进食与样品处理应尽量一致；否则代谢物变化可能同时反映昼夜节律和受试者之间的差异。TMAO 的结果是候选指标筛查，尚不能据此设定诊断界值，也不能将其直接外推到各种睡眠障碍。",
+      "publication_date": "2026-11-26",
+      "time_scope": "7d_extension",
+      "source": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-82067-8",
+      "doi": "10.1038/s41598-026-82067-8",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-27",
+      "last_updated": "2026-11-27",
+      "report_file": "SpinFront_2026-11-27.html"
+    },
+    {
+      "item_id": "SF-20261127-09",
+      "report_date": "2026-11-27",
+      "item_no": 9,
+      "title_cn": "直接 ¹H HR-MAS NMR 区分不同饲料组的黄粉虫虫粪",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "mas",
+        "metabolomics"
+      ],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "sample_systems": [
+        "黄粉虫虫粪",
+        "燕麦、聚苯乙烯及橙皮饲料"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Gil-Gonzalo 等直接对黄粉虫虫粪做高分辨魔角旋转 ¹H NMR，无需预先萃取。对五种饲料的 60 天试验，谱图主成分分析区分出燕麦、聚苯乙烯和橙皮相关饲料组，也分开了三个燕麦占比不同的组。甜菜碱在各组都是主要谱学代谢物。",
+      "meaning_cn": "直接 HR-MAS 可减少萃取溶剂选择对代谢指纹的影响。用主成分分析区分饲料组时，仍需控制含水量、装样和谱图归一化。组间分离说明虫粪成分有差异，不能据此单独证明聚苯乙烯被降解，或判定虫粪适于还田。",
+      "publication_date": "2026-11-20",
+      "time_scope": "7d_extension",
+      "source": "Preprints.org｜预印本 v1",
+      "url": "https://doi.org/10.20944/preprints202611.2227.v1",
+      "doi": "10.20944/preprints202611.2227.v1",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "preprint",
+      "first_seen": "2026-11-27",
+      "last_updated": "2026-11-27",
+      "report_file": "SpinFront_2026-11-27.html"
+    },
+    {
+      "item_id": "SF-20261127-10",
+      "report_date": "2026-11-27",
+      "item_no": 10,
+      "title_cn": "采购与需求动态：湖北大学招标 EPR，江苏师范大学公布 600 MHz NMR 合同",
+      "direction_ids": [
+        "nmr",
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [],
+      "sample_systems": [
+        "电子顺磁共振波谱仪",
+        "600 MHz 核磁共振波谱仪",
+        "核磁共振波谱仪配套空压机"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "tender",
+      "summary_cn": "湖北大学于 2026-11-26 公开招标小分子原料药省重点实验室仪器设备，其中含电子顺磁共振波谱仪 1 台，整包预算及最高限价 210 万元，投标截止为 2026-12-17 09:30（北京时间）；江苏师范大学于 2026-11-26 公布 600 MHz 核磁波谱仪采购合同，原招标预算 800 万元，与广东省中科进出口有限公司签订合同 765 万元；江苏海洋大学于 2026-11-26 公布核磁共振波谱仪空压机更换竞价结果，预算 5 万元，成交 4.98 万元；深圳大学实验室与国有资产管理部于 2026-11-25 公示核磁共振波谱仪配套空压机系统维修的拟成交结果，预算和拟成交价均为 7.596 万元，拟成交方为东莞市普立仪器有限公司；湖北大学于 2026-11-21 发布同一实验室仪器项目的采购需求征求意见公告，整包预算 210 万元，意见提交截止为 2026-11-23 17:00（北京时间）。",
+      "meaning_cn": "湖北大学招标原文列明不接受进口产品，合同签订后 10 个日历天内交货、安装和调试；江苏师范大学合同设备为 1 套布鲁克 ASCEND EVO 600 MHz，含三年原厂质保；江苏海洋大学成交型号为宏润 HCW-400，配冷干机，合同签订后 15 天内送达；深圳大学拟维修或更换 3 个机头及 1 台除湿机，并保养空压机系统，服务期限为合同签订后 3 个工作日内。",
+      "publication_date": "2026-11-26",
+      "time_scope": "7d_extension",
+      "source": "湖北大学｜EPR 公开招标",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202611/t20261126_27766030.htm",
+      "doi": "",
+      "alternative_sources": [
+        {
+          "name": "江苏师范大学｜600 MHz NMR 合同",
+          "url": "http://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=htgg&ggid=537a0b1176b4488fafe77a9e2ca78b40"
+        },
+        {
+          "name": "江苏海洋大学｜NMR 空压机竞价成交",
+          "url": "https://www.easyjcx.com/#/auction/detail/1547b9f2778e45d4aa296eebed44d647"
+        },
+        {
+          "name": "深圳大学｜NMR 空压机系统维修拟成交",
+          "url": "https://bidding.szu.edu.cn/info/1023/385939.htm"
+        },
+        {
+          "name": "湖北大学｜EPR 所属项目需求征求意见",
+          "url": "https://ztb.hubu.edu.cn/info/1213/13774.htm"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-27",
+      "last_updated": "2026-11-27",
+      "report_file": "SpinFront_2026-11-27.html"
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.2.0",
+  "report_date": "2026-11-28",
+  "scope_note": "截至北京时间 2026-11-28 06:00，优先核查近 24 小时（11 月 27 日 06:00 起），回扫 11 月 21–27 日。可确认在 24 小时内的资讯不足 5 条，已启动增强搜索，分别查国内外专业与高影响期刊、预印本及题录、仪器与软件、应用、会议和采购；最终符合刊发条件达到 8 条以上，未启动第二级深度增强。登记候选中排除历史重复 17 个、日期不可核实 3 个。采购专项覆盖意向、需求征集及市场调研、招标与询比、变更、成交、终止和合同；已登记 23 个候选，核实新增 6 份，其中 4 份可确认在近 24 小时内。本期 10 条（9 条学术资讯、1 条采购汇总）。部分出版商栏目及采购原站无法直接读取；采用权威题录或官方列表及公开只读接口交叉核实，未确认原文的采购线索未收录。",
+  "items": [
+    {
+      "item_id": "SF-20261128-01",
+      "report_date": "2026-11-28",
+      "item_no": 1,
+      "title_cn": "FISERF 用一维双峰读出指定的 ¹H–¹H 耦合",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "pure_shift"
+      ],
+      "application_ids": [],
+      "sample_systems": [
+        "相互耦合的两个质子",
+        "重叠多重峰"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Saurí 等提出快速干涉图选择性重聚焦实验 FISERF，用伪二维采集和两个频率选择性 180° 脉冲选择一对相互耦合的质子。处理后得到一维双峰，裂分直接给出指定的标量耦合常数。研究还说明，可在序列前加不同模块处理原本不能直接选频的重叠信号。",
+      "meaning_cn": "需要从复杂多重峰中读出某一对质子的 J 值时，可用简化后的双峰测裂分，减少手工指认负担。实验仍须核对两个选择性脉冲是否只作用于目标；遇到严重重叠，前置模块和额外对照不能省略。",
+      "publication_date": "2026-11-26",
+      "time_scope": "7d_extension",
+      "source": "Magnetic Resonance in Chemistry",
+      "url": "https://doi.org/10.1002/mrc.70159",
+      "doi": "10.1002/mrc.70159",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-28",
+      "last_updated": "2026-11-28",
+      "report_file": "SpinFront_2026-11-28.html"
+    },
+    {
+      "item_id": "SF-20261128-02",
+      "report_date": "2026-11-28",
+      "item_no": 2,
+      "title_cn": "食品氧化 EPR 综述比较十类基质和常规指标",
+      "direction_ids": [
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "spin_trapping"
+      ],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "sample_systems": [
+        "食用油",
+        "肉类",
+        "固体及水相食品"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "review",
+      "summary_cn": "Sachadyn-Król 等按固体稳定自由基直测、脂相与水相瞬态自由基捕获、抗氧化能力测定等路线，比较十类食品基质的 EPR 证据。综述指出，一些体系中自由基信号早于常规二级氧化产物出现；将 EPR 动力学与组成指标联合，能增加对部分食品氧化稳定性的解释力。",
+      "meaning_cn": "对油脂、肉类或固体食品设计测试时，应先区分直接检测的持久性物种与捕获到的短寿命物种，再选择适当的化学或感官指标做并行验证。不同基质的捕获效率、谱形和动力学不一定可比，不能共用一个货架期阈值。",
+      "publication_date": "2026-11-26",
+      "time_scope": "7d_extension",
+      "source": "Comprehensive Reviews in Food Science and Food Safety",
+      "url": "https://doi.org/10.1111/1541-4337.70715",
+      "doi": "10.1111/1541-4337.70715",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-28",
+      "last_updated": "2026-11-28",
+      "report_file": "SpinFront_2026-11-28.html"
+    },
+    {
+      "item_id": "SF-20261128-03",
+      "report_date": "2026-11-28",
+      "item_no": 3,
+      "title_cn": "MAS-DNP NMR 逐位点分辨转录复合体中的 RNA 构象",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "mas",
+        "dnp",
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "structural_biology"
+      ],
+      "sample_systems": [
+        "新生 RNA",
+        "RNA–DNA 杂合双链",
+        "转录延伸复合体"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Geethadevi 等用位点选择性同位素标记和 MAS-DNP 固体 NMR，比较游离新生 RNA 与重构后停滞的细菌转录延伸复合体。结果显示，RNA–DNA 杂合双链内部的尿苷保持接近 A 型的构象，而 3′ 末端尿苷在复合体内出现可分辨的局部扰动。",
+      "meaning_cn": "逐位点信号把末端构象变化和内部双链的整体构象分开，避免用平均信号推断整段 RNA 同时改变。这项验证来自体外重构的停滞复合体；末端结构差异本身还不足以说明活细胞中的转录终止速率。",
+      "publication_date": "2026-11-27",
+      "time_scope": "7d_extension",
+      "source": "Journal of the American Chemical Society",
+      "url": "https://doi.org/10.1021/jacs.6c18216",
+      "doi": "10.1021/jacs.6c18216",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-28",
+      "last_updated": "2026-11-28",
+      "report_file": "SpinFront_2026-11-28.html"
+    },
+    {
+      "item_id": "SF-20261128-04",
+      "report_date": "2026-11-28",
+      "item_no": 4,
+      "title_cn": "²H 固体 NMR 解析 MOF 中二甲苯异构体的扩散速率差",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solid_state_nmr"
+      ],
+      "method_ids": [
+        "relaxometry"
+      ],
+      "application_ids": [
+        "materials"
+      ],
+      "sample_systems": [
+        "脱羟基 UiO-66",
+        "氘代邻二甲苯",
+        "氘代对二甲苯"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Khudozhitkov 等用 ²H 固体 NMR 和分子动力学比较脱羟基 UiO-66 中的邻二甲苯与对二甲苯。约 160 K 以上，多数客体进入较大的八面体笼并快速跨笼扩散。对二甲苯的扩散速率约为邻二甲苯的 24 倍，但两者的扩散活化能接近。",
+      "meaning_cn": "温变 ²H 线形和自旋弛豫可联合区分笼内转动与跨笼跳跃。活化能接近时，仅比较 Arrhenius 斜率会漏掉速率前因子的差异。约 24 的室温动力学选择性来自这一体系的模型推算，需要与实际分离测试区分。",
+      "publication_date": "2026-11-26",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Physical Chemistry C",
+      "url": "https://doi.org/10.1021/acs.jpcc.6c06410",
+      "doi": "10.1021/acs.jpcc.6c06410",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-28",
+      "last_updated": "2026-11-28",
+      "report_file": "SpinFront_2026-11-28.html"
+    },
+    {
+      "item_id": "SF-20261128-05",
+      "report_date": "2026-11-28",
+      "item_no": 5,
+      "title_cn": "³¹P qNMR 综述区分食品中磷成分的三种定量口径",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "qnmr"
+      ],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "sample_systems": [
+        "磷脂",
+        "植酸",
+        "磷酸化营养成分"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "review",
+      "summary_cn": "Cho 等回顾 2020–2026 年用 ³¹P 定量 NMR 直接分析食品和膳食补充剂的研究，重点比较磷脂、植酸和磷酸化营养成分。综述区分绝对浓度、相对组成和半定量变化，并指出基质相关提取、弛豫、峰重叠和分子量假设都会影响结果。",
+      "meaning_cn": "把谱峰面积换算成含量前，应先明确测的是总磷、某类含磷成分还是单一分子，再分别检查校准、回收率和采集条件。不同实验室的报告若缺少回收率和不确定度，结果不宜直接对比；必要时可用分离或质谱确认分子物种。",
+      "publication_date": "2026-11-27",
+      "time_scope": "7d_extension",
+      "source": "Magnetochemistry",
+      "url": "https://doi.org/10.3390/magnetochemistry12120139",
+      "doi": "10.3390/magnetochemistry12120139",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-28",
+      "last_updated": "2026-11-28",
+      "report_file": "SpinFront_2026-11-28.html"
+    },
+    {
+      "item_id": "SF-20261128-06",
+      "report_date": "2026-11-28",
+      "item_no": 6,
+      "title_cn": "¹H qNMR 跟踪特级初榨橄榄油的储存成分变化",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "qnmr"
+      ],
+      "application_ids": [
+        "food_agriculture"
+      ],
+      "sample_systems": [
+        "特级初榨橄榄油",
+        "oleacein",
+        "oleocanthal"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Caputo 等优化多脉冲激发的 ¹H 定量 NMR，用于测定橄榄油中的两种裂环烯醚萜 oleacein 和 oleocanthal。方法在 15 份托斯卡纳特级初榨橄榄油中应用，并在 9–9.8 ppm 区域跟踪光照和 80 °C 热处理下的部分母体成分与降解产物。",
+      "meaning_cn": "比较油样存放条件时，可分别跟踪母体峰和降解峰，并对重叠信号做归属核查。光照及 80 °C 热处理提供的是特定条件下的变化，不能直接换算成常温货架期；报告定量结果时也应给出所采用的峰区。",
+      "publication_date": "2026-11-26",
+      "time_scope": "7d_extension",
+      "source": "Molecules",
+      "url": "https://doi.org/10.3390/molecules31234325",
+      "doi": "10.3390/molecules31234325",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-28",
+      "last_updated": "2026-11-28",
+      "report_file": "SpinFront_2026-11-28.html"
+    },
+    {
+      "item_id": "SF-20261128-07",
+      "report_date": "2026-11-28",
+      "item_no": 7,
+      "title_cn": "¹³C 与 ¹H NMR 比较欧洲琥珀树脂类型",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "cultural_heritage"
+      ],
+      "sample_systems": [
+        "欧洲琥珀",
+        "相关树脂"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Lambert 等以 ¹³C 和 ¹H NMR 检测来自欧洲 12 国的 85 份琥珀及相关样品，发现其中一部分并非琥珀。真琥珀中有 49 份归入针叶树 A 组、14 份归入包括波罗的海琥珀的 C 组，另有样品兼具 A、C 两组特征。",
+      "meaning_cn": "多个国家均有相近的 A 组谱形，说明这类谱型有助于识别树脂化学类别，产地判别仍需参考地质或考古证据。对谱形落在 A、C 两组之间的样品，应保存原始归属依据并考虑混合或连续变化，避免强行指定唯一类别。",
+      "publication_date": "2026-11-26",
+      "time_scope": "7d_extension",
+      "source": "Archaeometry",
+      "url": "https://doi.org/10.1111/arcm.70256",
+      "doi": "10.1111/arcm.70256",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-28",
+      "last_updated": "2026-11-28",
+      "report_file": "SpinFront_2026-11-28.html"
+    },
+    {
+      "item_id": "SF-20261128-08",
+      "report_date": "2026-11-28",
+      "item_no": 8,
+      "title_cn": "NMR 和中子散射追踪离子液体升温分相前的变化",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [
+        "multinuclear_nmr"
+      ],
+      "application_ids": [
+        "chemical_structure"
+      ],
+      "sample_systems": [
+        "四丁基膦三氟乙酸盐",
+        "水和重水溶液"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Kawano 等用 ¹H、¹³C NMR、红外和分子动力学研究四丁基膦三氟乙酸盐水溶液，并用小角中子散射跟踪介观结构。研究认为，水在较低温度下进入阴阳离子对之间，升温后更易脱离，接触离子对重新形成，随之出现更强的介观非均一性。",
+      "meaning_cn": "在接近分相温度时，可把 NMR 的局部环境读出同散射的尺度信息并用，检验局部脱水和更大尺度聚集是否同时发生。该解释来自特定阴阳离子及含水范围；换离子或改变组成时，不能仅凭一条位移曲线断定分相机制。",
+      "publication_date": "2026-11-27",
+      "time_scope": "7d_extension",
+      "source": "The Journal of Physical Chemistry B",
+      "url": "https://doi.org/10.1021/acs.jpcb.6c04881",
+      "doi": "10.1021/acs.jpcb.6c04881",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "early_access",
+      "first_seen": "2026-11-28",
+      "last_updated": "2026-11-28",
+      "report_file": "SpinFront_2026-11-28.html"
+    },
+    {
+      "item_id": "SF-20261128-09",
+      "report_date": "2026-11-28",
+      "item_no": 9,
+      "title_cn": "¹¹B NMR 区分耐氧引发剂中的硼物种与活性贡献",
+      "direction_ids": [
+        "nmr"
+      ],
+      "experiment_type_ids": [
+        "solution_nmr"
+      ],
+      "method_ids": [],
+      "application_ids": [
+        "polymers"
+      ],
+      "sample_systems": [
+        "三丁基硼–胺加合物",
+        "含烷氧基硼物种"
+      ],
+      "instrument_component_ids": [],
+      "information_type": "paper",
+      "summary_cn": "Otsuki 等用 ¹¹B NMR、偏最小二乘回归和密度泛函计算，比较部分氧化的三丁基硼与胺配位体系。分析将约 −5 ppm 处的三丁基硼–胺加合物列为主要活性贡献，并将约 32 ppm 的单烷氧基加合物与正向贡献联系；未配位的三烷氧基物种给出负向关联。",
+      "meaning_cn": "如果不同氧化产物共存，可比较各硼峰的变化是否与转化率同步，再用独立组分对照核实回归归因。模型系数反映这些配方和数据范围内的统计关联，不能把某个峰的强度直接视作引发速率，也不能据此为不同配方设通用阈值。",
+      "publication_date": "2026-11-26",
+      "time_scope": "7d_extension",
+      "source": "ChemistrySelect",
+      "url": "https://doi.org/10.1002/slct.75191",
+      "doi": "10.1002/slct.75191",
+      "alternative_sources": [],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-28",
+      "last_updated": "2026-11-28",
+      "report_file": "SpinFront_2026-11-28.html"
+    },
+    {
+      "item_id": "SF-20261128-10",
+      "report_date": "2026-11-28",
+      "item_no": 10,
+      "title_cn": "采购与需求动态：吉林大学招标 EPR，五项 NMR 招标、意向及成交",
+      "direction_ids": [
+        "nmr",
+        "epr"
+      ],
+      "experiment_type_ids": [],
+      "method_ids": [],
+      "application_ids": [],
+      "sample_systems": [
+        "连续波 EPR 波谱仪",
+        "400 MHz NMR 波谱仪",
+        "400 MHz NMR 探头",
+        "台式 NMR 波谱仪"
+      ],
+      "instrument_component_ids": [
+        "probe",
+        "autosampler"
+      ],
+      "information_type": "tender",
+      "summary_cn": "吉林大学于 2026-11-27 公开招标连续波 EPR 波谱仪 1 套，预算及限价 315 万元，投标截止 2026-12-21 13:30；北京理工大学于 2026-11-27 公开招标 400 MHz NMR 和自发荧光淬灭模块，项目预算及限价 350 万元，投标截止 2026-12-18 14:00；中国科学院成都生物研究所于 2026-11-27 公开招标 400 MHz NMR 探头升级改造 1 套，预算及限价 14 万元，投标截止 2026-12-22 09:30；中国科学院深圳先进技术研究院于 2026-11-27 公开招标含 NMR 波谱仪 1 套的第 1 包，该包预算及限价 230 万元，投标截止 2026-12-18 14:00；华中科技大学于 2026-11-27 公布核磁共振波谱仪采购意向，预算 290 万元，预计 2027 年 11 月采购；中国科学院电工研究所于 2026-11-26 公布台式 NMR 成交，原预算 98 万元，Magritek Spinsolve 60 Multi X Ultra 1 套成交价 95.8 万元。上述投标截止均为北京时间。",
+      "meaning_cn": "吉林大学招标面向中小企业；北京理工大学允许进口产品，要求在合同签订后 180 日历天内完成供货和安装；中国科学院成都生物研究所的探头升级和深圳先进技术研究院的 NMR 均不接受进口产品。华中科技大学公布的需求包括 ¹H、¹³C 一维及 COSY、HSQC、HMBC 等二维分析和自动进样，具体要求以未来采购文件为准。",
+      "publication_date": "2026-11-27",
+      "time_scope": "7d_extension",
+      "source": "吉林大学｜EPR 公开招标",
+      "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202611/t20261127_27774768.htm",
+      "doi": "",
+      "alternative_sources": [
+        {
+          "name": "北京理工大学｜400 MHz NMR 公开招标",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202611/t20261127_27775368.htm"
+        },
+        {
+          "name": "中国科学院成都生物研究所｜400 MHz NMR 探头升级招标",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202611/t20261127_27773296.htm"
+        },
+        {
+          "name": "中国科学院深圳先进技术研究院｜第 1 包 NMR 公开招标",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202611/t20261127_27775723.htm"
+        },
+        {
+          "name": "华中科技大学｜NMR 采购意向",
+          "url": "http://cgzx.hust.edu.cn/cgyx/51482.chtml"
+        },
+        {
+          "name": "中国科学院电工研究所｜台式 NMR 成交",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202611/t20261126_27764901.htm"
+        }
+      ],
+      "related_to": [],
+      "review_status": "approved",
+      "tag_review_status": "approved",
+      "publication_status": "published",
+      "first_seen": "2026-11-28",
+      "last_updated": "2026-11-28",
+      "report_file": "SpinFront_2026-11-28.html"
+    }
+  ]
+}

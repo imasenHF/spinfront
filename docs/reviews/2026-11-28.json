@@ -5,7 +5,8 @@
   "repository": {
     "base_head": "19194ba122261db7e7645cf3a6a8023b91b1addd",
     "branch": "main",
-    "taxonomy_version": "1.2.0"
+    "taxonomy_version": "1.2.0",
+    "final_content_commit": "3416248733fe76d14479b89ba00c2c14302ede6e"
   },
   "search_summary": {
     "dedup_periods": [
@@ -1343,15 +1344,23 @@
       "python tests/build.test.py": "pass: 1 test",
       "local_content_parity": "pass: 10 ordered JSON, HTML and screen entries; titles, dates, summaries, technical commentary and ordered sources match; 6 original notices in last item; homepage and indexes match."
     },
-    "public_verification": "待提交部署后核验",
+    "public_verification": "pass: public issue, archive homepage, archive index and search index returned HTTP 200; 10 ordered items, titles, dates, abstracts, technical commentary and source URLs match canonical JSON; procurement last with six original links.",
     "template_observation": "当前版本网站模板将 SpinFront 品牌与 NMR / EPR Daily Brief · 日期分开显示，版权两行存在且无 mailto；规则中的单行组合按屏幕版输出，不在日报任务修改模板。"
   },
   "final_review_status": "approved",
   "deployment": {
-    "build": "pending",
-    "pages_deploy": "pending",
+    "build": "success",
+    "pages_deploy": "success",
     "public_issue_url": "https://plastocyanin.org/spinfront/2026-11-28/",
     "public_archive_url": "https://plastocyanin.org/spinfront/",
-    "public_verification": "pending"
+    "public_verification": "pass",
+    "actions_run": 46074496045,
+    "actions_url": "https://github.com/imasenHF/spinfront/actions/runs/46074496045",
+    "archive_totals": {
+      "issues": 100,
+      "items": 879
+    },
+    "procurement_display": "last item, 6 independent sources",
+    "search_verification": "pass"
   }
 }
